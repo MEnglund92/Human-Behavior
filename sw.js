@@ -1,5 +1,5 @@
 const CACHE = 'human-behavior-study-v6';
-const FILES = ['index.html','data.js','manifest.json','icons/icon-192.png','icons/icon-512.png'];
+const FILES = ['index.html','data.js','manifest.json','icons/icon-180.png','icons/icon-192.png','icons/icon-512.png'];
 
 self.addEventListener('install', e => {
   self.skipWaiting();
