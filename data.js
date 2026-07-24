@@ -605,6 +605,12 @@ const topics = [
   }
 ];
 
+function getEntries(){
+  let all=[]
+  topics.forEach(t=>(t.categories||[]).forEach(c=>(t.entries||[]).forEach(e=>all.push({...e,courseId:t.id,courseName:t.name,catName:c.name}))))
+  return all
+}
+
 const deepDives = {
   "intro-behavior": [
     {
