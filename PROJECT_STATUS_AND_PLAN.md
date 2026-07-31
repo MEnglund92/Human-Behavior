@@ -206,22 +206,22 @@ Every generator output is run through a validator that:
 - checks every asset_type is in the allowed set
   `{CUE_SCRUBBER_STATION, DYNAMIC_DIALOGUE_SIM, DECEPTION_AUDIT_FILE, DISCRIMINATION_MATRIX, BOSS_BATTLE, BEHAVIORAL_BOSS_BATTLE}`
 
-Latest run results (2026-07-31, after Phase 2 Glass + Reiman):
-- glass_liars_assets.json — 120 assets, ALL VALID (35 warnings = pre-existing
-  legacy artifacts in gl05/gl07-gl12: 'Expert' difficulties, 13-14 key_concepts;
-  all 12 new chapter entries gl13-gl24 are warning-free)
-- bowden_truth_lies_assets.json — 255 assets, ALL VALID (50 warnings = only
-  the known part-level duplicate-asset_type artifacts in bo01-bo04)
-- reiman_power_body_language_assets.json — 105 assets, ALL VALID (18 warnings =
-  pre-existing legacy artifacts in re02-re04; all 9 new chapter entries
-  re10-re18 are warning-free)
+Latest run results (2026-07-31, after M1 warning cleanup):
+- glass_liars_assets.json — 120 assets, ALL VALID (0 warnings)
+- bowden_truth_lies_assets.json — 255 assets, ALL VALID (0 warnings)
+- reiman_power_body_language_assets.json — 105 assets, ALL VALID (0 warnings)
+- emotions_revealed_assets.json — 135 assets, ALL VALID (0 warnings; 30 short
+  concept lists expanded to 8-12 items from the book text)
+- dictionary_body_language_assets.json — 75 assets, ALL VALID (0 warnings)
+- telling_lies_assets.json — 65 assets, ALL VALID (0 warnings)
+- influence (51), social_animal (47), righteous_mind (39), mistakes (36) —
+  ALL VALID (0 warnings; duplicate-type chapters split into sub-chapters)
 
-Also valid (earlier passes): attached_workbook (45), definitive_body_language
-(100), what_every_body (50), emotions_revealed (135), telling_lies (65),
-dictionary_body_language (75), truth_and_lies (65), influence (51),
-social_animal (47), behave (31), moral_animal (30), righteous_mind (39),
-predictably_irrational (22), social_intelligence (22), laws_human_nature (23),
-mistakes (36), mans_search_meaning (10), power_body_language (50).
+Also valid (earlier passes, still with only SHORT key_concepts warnings to be
+fixed in their Phase-2 passes): attached_workbook (45), definitive_body_language
+(100), what_every_body (50). M5 books (behave, laws_human_nature,
+mans_search_meaning, moral_animal, predictably_irrational, social_intelligence)
+still carry the legacy missing-field warnings — fixed by their Phase 2 pass.
 - **Grand total: 1331 assets, ALL VALID** (excluding the two known placeholder
   files `apa_nonverbal_assets.json` and `research_methods_assets.json`, which
   are not JSON objects and have 0 assets - intentionally left alone). After
@@ -387,6 +387,31 @@ Goal: expose all extracted assets in the PWA instead of leaving them as JSON.
    assets=1312; all URLs 200 on port 8765. Manual browser pass recommended:
    rate a few cards in each source (flash + lab) so they become due, then run a
    Review session end-to-end.
+
+---
+
+## 8d. M1 Warning Cleanup (2026-07-31, COMPLETE)
+
+Goal: eliminate all soft validator warnings except the explicitly deferred
+ones (missing fields in M5 books; short key_concepts in attached/definitive/
+what_every_body fixed by their Phase-2 passes).
+
+1. **Mechanical fixes (scripted, no content loss)** — `Novice`→`Beginner`
+   (58) and `Expert`→`Advanced` (37) difficulty renames across 6 files;
+   key_concepts trimmed from >12 down to 12 (dictionary 60, glass 25, emotions
+   10, telling_lies 5, reiman 3); chapters with duplicate asset_types split
+   into sub-chapter entries (`re02`→`re02a/b/c`, `bo01`→`bo01a/b`, etc.),
+   preserving every asset (bowden 20, reiman 10, influence 11, social_animal
+   16, righteous_mind 5, mistakes 4). Chapter ids are cosmetic for the
+   frontend (SRS keys use `lab:<book>: <topic>`), so stale `lab_chapter`
+   localStorage values simply fall back to "All chapters".
+2. **Content expansion (emotions_revealed)** — 30 short key_concepts lists
+   (ch01a, ch01c, ch02a, ch02b, ch04b, ch05c) expanded to 8-12 items with
+   book-faithful material mined from `emotions_p1.txt` (Fore people fieldwork,
+   Gajdusek films, autoappraisers, refractory period mechanisms, Aristotle's
+   temperate person, anticipatory vs. emerging sadness).
+3. **Result** — 10 of 19 files now warning-free; frontend rebuilt
+   (21 libs / 1,312 assets, unchanged); sw.js cache bumped v9 → v10.
 
 ---
 

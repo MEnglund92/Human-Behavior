@@ -2,8 +2,8 @@
   "source": "The Social Animal - Elliot Aronson (12th Ed)",
   "chapters": [
     {
-      "id": "sa_ch01",
-      "title": "Chapter 1: What Is Social Psychology?",
+      "id": "sa_ch01a",
+      "title": "Chapter 1: What Is Social Psychology? (Part 1)",
       "pages": "19-30",
       "assets": [
         {
@@ -41,7 +41,14 @@
             "Pattern recognition - humans evolved to see causes, so we naturally construct post-hoc explanations"
           ],
           "underlying_psychology": "Hindsight bias distorts legal judgments (jurors believe defendants should have foreseen harm), medical diagnoses (doctors believe the correct diagnosis was obvious after learning it), and historical analysis (historians see events as inevitable after they happen). The bias operates automatically. The cure: before learning the outcome, write down your prediction. Committing to a specific forecast makes the bias visible."
-        },
+        }
+      ]
+    },
+    {
+      "id": "sa_ch01b",
+      "title": "Chapter 1: What Is Social Psychology? (Part 2)",
+      "pages": "19-30",
+      "assets": [
         {
           "asset_type": "CUE_SCRUBBER_STATION",
           "domain": "Social Psychology | Founding Principles",
@@ -60,8 +67,8 @@
       ]
     },
     {
-      "id": "sa_ch02",
-      "title": "Chapter 2: Social Cognition",
+      "id": "sa_ch02a",
+      "title": "Chapter 2: Social Cognition (Part 1)",
       "pages": "31-74",
       "assets": [
         {
@@ -112,7 +119,14 @@
             "(1) Representativeness, (2) Affect, (3) Availability"
           ],
           "explanation": "Heuristics are mental shortcuts that usually work but produce predictable errors. The affect heuristic replaces difficult questions with easy ones. The availability heuristic judges probability by ease of recall. The representativeness heuristic judges category membership by similarity. Compliance professionals exploit these by making desired options feel good, look familiar, and appear typical."
-        },
+        }
+      ]
+    },
+    {
+      "id": "sa_ch02b",
+      "title": "Chapter 2: Social Cognition (Part 2)",
+      "pages": "31-74",
+      "assets": [
         {
           "asset_type": "CUE_SCRUBBER_STATION",
           "domain": "Social Psychology | Social Cognition | Schemas",
@@ -166,8 +180,8 @@
       ]
     },
     {
-      "id": "sa_ch03",
-      "title": "Chapter 3: Self-Justification - Cognitive Dissonance",
+      "id": "sa_ch03a",
+      "title": "Chapter 3: Self-Justification - Cognitive Dissonance (Part 1)",
       "pages": "75-126",
       "assets": [
         {
@@ -216,6 +230,28 @@
             "Social proof - hearing themselves say negative things convinced them the victim must be bad"
           ],
           "diagnostic_breakdown": "Stage 1 - Harm: Participant insults innocent person. Stage 2 - Dissonance: I am good but I harmed someone. Stage 3 - Resolution Option A: Accept I am capable of harming innocents (painful, threatens self-concept). Stage 4 - Resolution Option B: The victim deserved it (preserves self-concept as good person). Most people choose Option B automatically. This is the psychological root of victim blaming: we convince ourselves that victims of assault brought it on themselves, that poor people deserve poverty, that those who suffer are somehow at fault. The belief protects us from the disturbing reality that suffering can happen to innocent people - including ourselves."
+        }
+      ]
+    },
+    {
+      "id": "sa_ch03b",
+      "title": "Chapter 3: Self-Justification - Cognitive Dissonance (Part 2)",
+      "pages": "75-126",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Social Psychology | Dissonance | Everyday Life",
+          "topic": "The Ben Franklin Effect: Doing a Favor Makes You Like Someone More",
+          "visual_frame_description": "Benjamin Franklin, through a mutual acquaintance, asked a political rival who disliked him to borrow a rare book from his library. The rival lent the book. Franklin returned it with a polite thank-you note. After this interaction, the rival became friendly and cooperative. Franklin observed: He that has once done you a kindness will be more ready to do you another than he whom you yourself have obliged.",
+          "target_channel": "Dissonance in Reverse | Favor-Liking Connection",
+          "question": "Why does doing a favor for someone increase your liking for them, rather than the other way around?",
+          "correct_cue": "Cognitive dissonance: the thought I did a favor for that person conflicts with I do not like that person. To resolve the dissonance, the mind changes its evaluation: I must like him more than I thought, since I did him a favor. This is the reverse of reciprocity — it is not that they owe you, but that you justify your own behavior by changing your attitude. The Ben Franklin effect works best when the favor is small and voluntary. Large or coerced favors trigger reciprocity, not dissonance reduction. The practical implication: if you want to build rapport with someone, ask them for a small favor.",
+          "distractors": [
+            "The favor creates a sense of obligation in the recipient, who reciprocates by being friendlier",
+            "Franklin was an exceptionally charming person who would have won over the rival regardless of the favor",
+            "The favor provided an opportunity for interaction that revealed common interests and built natural rapport"
+          ],
+          "underlying_psychology": "Jecker and Landy 1969 experimentally confirmed the Ben Franklin effect. Participants who were asked by the experimenter to return the money (a favor) rated the experimenter more favorably than participants who were paid. Doing a favor creates dissonance when the person is not already liked. The resolution: increase liking for the person who received the favor. The effect is limited to small, voluntary favors. Large favors create reactance (why is this person doing so much for me — what do they want?) and paid favors are just transactions."
         },
         {
           "asset_type": "BEHAVIORAL_BOSS_BATTLE",
@@ -248,27 +284,12 @@
             "The children in the severe condition played with the toy to rebel against the adult who threatened them"
           ],
           "diagnostic_breakdown": "Stage 1 - Restriction: Child is told not to play with a desired toy. Stage 2 - Compliance: Child obeys the restriction. Stage 3 - Dissonance: I am a good child, but I want a toy that I am not playing with, and the reason I am not playing with it is weak (mild threat only). Stage 4 - Resolution: I do not actually want the toy — it is not that attractive. Stage 5 - Internalization: The attitude persists beyond the restriction. The lesson for parents and teachers: use the minimal force necessary to achieve compliance. The less external pressure, the more the child internalizes the value."
-        },
-        {
-          "asset_type": "CUE_SCRUBBER_STATION",
-          "domain": "Social Psychology | Dissonance | Everyday Life",
-          "topic": "The Ben Franklin Effect: Doing a Favor Makes You Like Someone More",
-          "visual_frame_description": "Benjamin Franklin, through a mutual acquaintance, asked a political rival who disliked him to borrow a rare book from his library. The rival lent the book. Franklin returned it with a polite thank-you note. After this interaction, the rival became friendly and cooperative. Franklin observed: He that has once done you a kindness will be more ready to do you another than he whom you yourself have obliged.",
-          "target_channel": "Dissonance in Reverse | Favor-Liking Connection",
-          "question": "Why does doing a favor for someone increase your liking for them, rather than the other way around?",
-          "correct_cue": "Cognitive dissonance: the thought I did a favor for that person conflicts with I do not like that person. To resolve the dissonance, the mind changes its evaluation: I must like him more than I thought, since I did him a favor. This is the reverse of reciprocity — it is not that they owe you, but that you justify your own behavior by changing your attitude. The Ben Franklin effect works best when the favor is small and voluntary. Large or coerced favors trigger reciprocity, not dissonance reduction. The practical implication: if you want to build rapport with someone, ask them for a small favor.",
-          "distractors": [
-            "The favor creates a sense of obligation in the recipient, who reciprocates by being friendlier",
-            "Franklin was an exceptionally charming person who would have won over the rival regardless of the favor",
-            "The favor provided an opportunity for interaction that revealed common interests and built natural rapport"
-          ],
-          "underlying_psychology": "Jecker and Landy 1969 experimentally confirmed the Ben Franklin effect. Participants who were asked by the experimenter to return the money (a favor) rated the experimenter more favorably than participants who were paid. Doing a favor creates dissonance when the person is not already liked. The resolution: increase liking for the person who received the favor. The effect is limited to small, voluntary favors. Large favors create reactance (why is this person doing so much for me — what do they want?) and paid favors are just transactions."
         }
       ]
     },
     {
-      "id": "sa_ch04",
-      "title": "Chapter 4: Conformity",
+      "id": "sa_ch04a",
+      "title": "Chapter 4: Conformity (Part 1)",
       "pages": "127-166",
       "assets": [
         {
@@ -353,7 +374,14 @@
             "Participants could not see the light clearly and guessed randomly"
           ],
           "underlying_psychology": "Sherif 1936 study distinguishes informational influence (using others as evidence about reality) from normative influence (conforming to avoid rejection). Informational influence leads to genuine internalization. This explains why cultural norms are so durable - they are not just followed to avoid punishment but are believed to be correct. New members internalize the groups definition of reality."
-        },
+        }
+      ]
+    },
+    {
+      "id": "sa_ch04b",
+      "title": "Chapter 4: Conformity (Part 2)",
+      "pages": "127-166",
+      "assets": [
         {
           "asset_type": "DECEPTION_AUDIT_FILE",
           "domain": "Social Psychology | Group Dynamics | Groupthink",
@@ -393,8 +421,8 @@
       ]
     },
     {
-      "id": "sa_ch05",
-      "title": "Chapter 5: Mass Communication, Propaganda, and Persuasion",
+      "id": "sa_ch05a",
+      "title": "Chapter 5: Mass Communication, Propaganda, and Persuasion (Part 1)",
       "pages": "167-214",
       "assets": [
         {
@@ -467,7 +495,14 @@
           "stage_2_intervention": "You are running a public health campaign to increase vaccination rates. Your research shows that detailed statistical evidence about vaccine safety (central route) is ineffective because most people lack the statistical literacy and motivation to process it. Yet you know emotional testimonials (peripheral route) might feel manipulative. Design a campaign that ethically combines both routes.",
           "stage_2_correct_answer": "Use a two-step approach. Step 1 (Peripheral): A trusted community doctor or nurse - credible expert - delivers a simple emotional message. Vaccination protects what matters most - your child. Use the peripheral cue of expert credibility + emotional hook of caring for children. Step 2 (Central): The ad directs to a website or QR code where those motivated can access the detailed safety data. This respects both processing routes: those who follow peripheral cues get the key message from a trusted authority; those who want central processing can access the evidence. The ethical key: use peripheral cues to get attention, not to deceive, and always make the evidence available.",
           "boss_battle_explanation": "Layer 1 - Low Elaboration: Most daily decisions are peripheral - we use shortcuts because we cannot deeply analyze everything. Layer 2 - High Elaboration: Important personal decisions trigger central processing. Layer 3 - Ethical Persuasion: Use peripheral cues to open the door, central evidence to sustain the change. Layer 4 - Audience Split: A single message can target both routes by providing simple cues for peripheral processors and links to evidence for central processors. The unethical persuader uses peripheral cues to sell bad products; the ethical persuader uses peripheral cues to sell good ones."
-        },
+        }
+      ]
+    },
+    {
+      "id": "sa_ch05b",
+      "title": "Chapter 5: Mass Communication, Propaganda, and Persuasion (Part 2)",
+      "pages": "167-214",
+      "assets": [
         {
           "asset_type": "BEHAVIORAL_BOSS_BATTLE",
           "domain": "Social Psychology | Persuasion | Resistance",
@@ -482,8 +517,8 @@
       ]
     },
     {
-      "id": "sa_ch06",
-      "title": "Chapter 6: Human Aggression",
+      "id": "sa_ch06a",
+      "title": "Chapter 6: Human Aggression (Part 1)",
       "pages": "215-264",
       "assets": [
         {
@@ -567,7 +602,14 @@
             }
           ],
           "explanation": "Berkowitz distinguished these types. Hostile aggression is hot, impulsive, and driven by anger - the goal is to make the victim suffer. Instrumental aggression is cold, calculated, and serves other goals - the victim is a means to an end. The same act (punching) can be either depending on motive. The distinction matters for intervention: hostile aggression responds to anger management and cooling-off periods; instrumental aggression requires incentive restructuring and consequence strengthening."
-        },
+        }
+      ]
+    },
+    {
+      "id": "sa_ch06b",
+      "title": "Chapter 6: Human Aggression (Part 2)",
+      "pages": "215-264",
+      "assets": [
         {
           "asset_type": "DECEPTION_AUDIT_FILE",
           "domain": "Social Psychology | Aggression | Social Learning",
@@ -592,8 +634,8 @@
       ]
     },
     {
-      "id": "sa_ch07",
-      "title": "Chapter 7: Prejudice and Discrimination",
+      "id": "sa_ch07a",
+      "title": "Chapter 7: Prejudice and Discrimination (Part 1)",
       "pages": "265-314",
       "assets": [
         {
@@ -677,18 +719,14 @@
             }
           ],
           "explanation": "Sears and McConahay identified modern racism as a post-civil-rights shift from overt bigotry to subtle bias. Modern racists endorse traditional values (hard work, self-reliance, merit) and oppose policies that would reduce inequality, framing their opposition in abstract principles rather than racial hostility. They deny personal prejudice while opposing almost all structural remedies for discrimination. This form is harder to detect and confront because the perpetrator sincerely does not see themselves as racist."
-        },
-        {
-          "asset_type": "BEHAVIORAL_BOSS_BATTLE",
-          "domain": "Social Psychology | Prejudice Reduction | Education",
-          "topic": "The Jigsaw Classroom: Aronson's Cooperative Learning Solution to Prejudice",
-          "stage_1_observation": "Austin, Texas, 1971. Schools were newly desegregated. White, Black, and Hispanic students were in the same classrooms but hostile and segregated within them. Competition was intense. Academic performance, especially among minority students, was declining. Intergroup tension was high. Aronson was called in to help.",
-          "stage_1_question": "Why did simply putting different racial groups in the same classroom increase hostility rather than reduce it?",
-          "stage_1_correct_answer": "The contact was competitive, not cooperative. Students competed for grades, teacher attention, and status. Competition between already-hostile groups confirms negative stereotypes. Aronson designed the Jigsaw Classroom as an alternative: students are divided into mixed-race groups, and each student is given a unique piece of information essential to the groups success — like a jigsaw puzzle where each person holds one piece. To complete the assignment, students must listen to and depend on each other. This creates interdependence, not competition.",
-          "stage_2_intervention": "You manage a team with two warring departments. Engineering and Sales refuse to cooperate. Engineering thinks Sales is lazy and ignorant. Sales thinks Engineering is arrogant and unhelpful. Standard team-building has failed. Design a Jigsaw intervention for this workplace.",
-          "stage_2_correct_answer": "(1) Cross-functional project teams: Create mixed teams with members from both departments. (2) Jigsaw the information: Give each member a unique piece of information needed to solve the problem. Engineering has the technical constraints. Sales has the customer requirements. Project management has the timeline. Each member becomes the expert on their piece. (3) Interdependent goal: The team cannot solve the problem without every member contributing their piece. This creates genuine interdependence. (4) Equal status: Each members contribution is visibly essential. (5) Superordinate goal: Team success depends on cooperation, not winning. The key difference from standard team-building: the task genuinely requires cooperation — it is not artificially created trust falls but real work that forces interdependence. The Jigsaw method reduces prejudice by creating positive interdependence, equal-status contact, and opportunities to discover that outgroup members are competent and valuable.",
-          "boss_battle_explanation": "Layer 1 - Competitive Contact: Contact without interdependence increases hostility. Layer 2 - Jigsaw Design: Create tasks that require everyone to contribute unique, essential information. Layer 3 - Interdependence: Each person holds one piece of the puzzle. Layer 4 - Equal Status: Each piece is equally necessary. Layer 5 - Outcome: Cooperation across group lines reduces prejudice by creating genuine appreciation for outgroup members contributions. Layer 6 - Evidence: Aronson found that Jigsaw classrooms showed increased academic performance, increased cross-racial friendships, and decreased prejudice. The method works because it changes the situation, not the attitudes directly."
-        },
+        }
+      ]
+    },
+    {
+      "id": "sa_ch07b",
+      "title": "Chapter 7: Prejudice and Discrimination (Part 2)",
+      "pages": "265-314",
+      "assets": [
         {
           "asset_type": "DECEPTION_AUDIT_FILE",
           "domain": "Social Psychology | Stereotype Threat | Performance",
@@ -709,12 +747,23 @@
             "Stereotype threat only affects people with low self-esteem who are vulnerable to external judgments"
           ],
           "diagnostic_breakdown": "Stage 1 - Stereotype Activation: A situational cue makes a negative stereotype relevant. Stage 2 - Threat Appraisal: The person perceives the risk of confirming the stereotype. Stage 3 - Physiological Stress: Increased cortisol, blood pressure. Stage 4 - Cognitive Interference: Working memory is consumed by monitoring, suppression, and anxiety. Stage 5 - Performance Decrement: Reduced cognitive resources lead to poorer performance. Stage 6 - Potential Long-Term Effect: Repeated experiences of stereotype threat can lead to disidentification with the domain (I do not care about math anyway). The implications: stereotype threat can be reduced by reframing tests as challenges rather than threats, emphasizing growth mindset, and providing role models."
+        },
+        {
+          "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+          "domain": "Social Psychology | Prejudice Reduction | Education",
+          "topic": "The Jigsaw Classroom: Aronson's Cooperative Learning Solution to Prejudice",
+          "stage_1_observation": "Austin, Texas, 1971. Schools were newly desegregated. White, Black, and Hispanic students were in the same classrooms but hostile and segregated within them. Competition was intense. Academic performance, especially among minority students, was declining. Intergroup tension was high. Aronson was called in to help.",
+          "stage_1_question": "Why did simply putting different racial groups in the same classroom increase hostility rather than reduce it?",
+          "stage_1_correct_answer": "The contact was competitive, not cooperative. Students competed for grades, teacher attention, and status. Competition between already-hostile groups confirms negative stereotypes. Aronson designed the Jigsaw Classroom as an alternative: students are divided into mixed-race groups, and each student is given a unique piece of information essential to the groups success — like a jigsaw puzzle where each person holds one piece. To complete the assignment, students must listen to and depend on each other. This creates interdependence, not competition.",
+          "stage_2_intervention": "You manage a team with two warring departments. Engineering and Sales refuse to cooperate. Engineering thinks Sales is lazy and ignorant. Sales thinks Engineering is arrogant and unhelpful. Standard team-building has failed. Design a Jigsaw intervention for this workplace.",
+          "stage_2_correct_answer": "(1) Cross-functional project teams: Create mixed teams with members from both departments. (2) Jigsaw the information: Give each member a unique piece of information needed to solve the problem. Engineering has the technical constraints. Sales has the customer requirements. Project management has the timeline. Each member becomes the expert on their piece. (3) Interdependent goal: The team cannot solve the problem without every member contributing their piece. This creates genuine interdependence. (4) Equal status: Each members contribution is visibly essential. (5) Superordinate goal: Team success depends on cooperation, not winning. The key difference from standard team-building: the task genuinely requires cooperation — it is not artificially created trust falls but real work that forces interdependence. The Jigsaw method reduces prejudice by creating positive interdependence, equal-status contact, and opportunities to discover that outgroup members are competent and valuable.",
+          "boss_battle_explanation": "Layer 1 - Competitive Contact: Contact without interdependence increases hostility. Layer 2 - Jigsaw Design: Create tasks that require everyone to contribute unique, essential information. Layer 3 - Interdependence: Each person holds one piece of the puzzle. Layer 4 - Equal Status: Each piece is equally necessary. Layer 5 - Outcome: Cooperation across group lines reduces prejudice by creating genuine appreciation for outgroup members contributions. Layer 6 - Evidence: Aronson found that Jigsaw classrooms showed increased academic performance, increased cross-racial friendships, and decreased prejudice. The method works because it changes the situation, not the attitudes directly."
         }
       ]
     },
     {
-      "id": "sa_ch08",
-      "title": "Chapter 8: Liking, Love, and Interpersonal Sensitivity",
+      "id": "sa_ch08a",
+      "title": "Chapter 8: Liking, Love, and Interpersonal Sensitivity (Part 1)",
       "pages": "315-366",
       "assets": [
         {
@@ -783,7 +832,14 @@
           "stage_2_intervention": "A couple married 6 years comes to you. They describe losing the spark. They used to have passionate sex, talk for hours, feel obsessed. Now they feel like roommates. They ask: Did we marry the wrong person? What do you tell them?",
           "stage_2_correct_answer": "First: Normalize the transition. Tell them the passionate phase biologically lasts 18-36 months. Its absence does not mean a failed marriage. Second: Assess whether they have developed the companionate substitutes - deep self-disclosure, equity, shared meaning, and commitment. Third: Prescribe behavioral interventions that increase positive interactions. Gottman found that happy couples maintain a 5:1 ratio of positive to negative interactions. Small daily acts of appreciation, curiosity about each others inner world, and shared novel experiences rebuild connection. The question is not whether the spark is gone but whether you have built a fire.",
           "boss_battle_explanation": "Layer 1 - Passionate Phase: Intense, short-lived, driven by novelty and uncertainty. Layer 2 - Transition Crisis: Couples who expect passion to last forever are disappointed. Layer 3 - Companionate Phase: Deeper, slower, based on friendship and commitment. Layer 4 - Building Companionate Love: Self-disclosure, equity, shared positive activities, 5:1 positivity ratio. The myth that love should always feel like the first six months destroys many potentially good marriages."
-        },
+        }
+      ]
+    },
+    {
+      "id": "sa_ch08b",
+      "title": "Chapter 8: Liking, Love, and Interpersonal Sensitivity (Part 2)",
+      "pages": "315-366",
+      "assets": [
         {
           "asset_type": "CUE_SCRUBBER_STATION",
           "domain": "Social Psychology | Attraction | Gain-Loss",
@@ -822,8 +878,8 @@
       ]
     },
     {
-      "id": "sa_ch09",
-      "title": "Chapter 9: Social Psychology as a Science",
+      "id": "sa_ch09a",
+      "title": "Chapter 9: Social Psychology as a Science (Part 1)",
       "pages": "367-396",
       "assets": [
         {
@@ -896,7 +952,14 @@
             "Expectancy effects are small and do not meaningfully influence most research findings"
           ],
           "underlying_psychology": "Rosenthal 1966 identified four factors through which expectations influence outcomes: climate (warmer emotional environment for expected performers), input (more material taught), output (more opportunities to respond), and feedback (more praise, more specific feedback). The Pygmalion effect: higher expectations lead to better performance. The Golem effect: lower expectations lead to worse performance. In research contexts, experimenters may unconsciously code data differently, interact differently, or interpret results differently based on their hypotheses. This is why double-blind procedures are essential."
-        },
+        }
+      ]
+    },
+    {
+      "id": "sa_ch09b",
+      "title": "Chapter 9: Social Psychology as a Science (Part 2)",
+      "pages": "367-396",
+      "assets": [
         {
           "asset_type": "DECEPTION_AUDIT_FILE",
           "domain": "Social Psychology | Metascience | Replication",

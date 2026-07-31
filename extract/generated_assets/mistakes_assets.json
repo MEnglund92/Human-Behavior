@@ -2,8 +2,8 @@
   "source": "Mistakes Were Made (But Not by Me) – Carol Tavris & Elliot Aronson (3rd Ed, 2020)",
   "chapters": [
     {
-      "id": "ch00",
-      "title": "Introduction: Knaves, Fools, Villains, and Hypocrites",
+      "id": "ch00a",
+      "title": "Introduction: Knaves, Fools, Villains, and Hypocrites (Part 1)",
       "pages": "1–13",
       "assets": [
         {
@@ -33,7 +33,14 @@
             "Knaves act out of malice; self-justifiers act out of ignorance and should not be held responsible"
           ],
           "explanation": "The central insight: most people do not consciously choose to be dishonest. Rather, the engine of self-justification — cognitive dissonance — grinds beneath conscious awareness, reshaping memory and belief to protect the ego. This is why George Orwell wrote that we are 'all capable of believing things which we know to be untrue, and then, when we are finally proved wrong, impudently twisting the facts so as to show that we were right.' The most dangerous people are those who genuinely believe their own self-justifications."
-        },
+        }
+      ]
+    },
+    {
+      "id": "ch00b",
+      "title": "Introduction: Knaves, Fools, Villains, and Hypocrites (Part 2)",
+      "pages": "1–13",
+      "assets": [
         {
           "asset_type": "CUE_SCRUBBER_STATION",
           "domain": "Self-Justification | Linguistic Analysis",
@@ -52,8 +59,8 @@
       ]
     },
     {
-      "id": "ch01",
-      "title": "Cognitive Dissonance: The Engine of Self-Justification",
+      "id": "ch01a",
+      "title": "Cognitive Dissonance: The Engine of Self-Justification (Part 1)",
       "pages": "14–53",
       "assets": [
         {
@@ -156,7 +163,14 @@
             "The pyramid effect only occurs when people are unaware of their own biases — self-aware individuals do not diverge from their initial positions"
           ],
           "explanation": "The Pyramid of Choice is one of the authors' central organizing metaphors. It explains how people who begin with similar values can become deeply polarized through the process of justifying their own decisions. The Stuyvesant High School cheating scandal illustrates this: students justified cheating as 'taking a risk,' 'helping classmates in need,' or 'necessary evil.' The pyramid operates in every domain — from staying in bad relationships to political affiliations to career choices. Each decision creates a need for justification that pulls the person further from where they started."
-        },
+        }
+      ]
+    },
+    {
+      "id": "ch01b",
+      "title": "Cognitive Dissonance: The Engine of Self-Justification (Part 2)",
+      "pages": "14–53",
+      "assets": [
         {
           "asset_type": "DECEPTION_AUDIT_FILE",
           "domain": "Cognitive Dissonance | Aggression",
@@ -258,8 +272,8 @@
       ]
     },
     {
-      "id": "ch03",
-      "title": "Memory, the Self-Justifying Historian",
+      "id": "ch03a",
+      "title": "Memory, the Self-Justifying Historian (Part 1)",
       "pages": "95–130",
       "assets": [
         {
@@ -338,22 +352,14 @@
             "Imagination inflation was a hoax created by accused parents' advocacy groups to discredit legitimate therapy"
           ],
           "underlying_psychology": "The recovered memory movement of the 1980s–90s was built on the Freudian concept of repression — that traumatic memories are automatically banished to the unconscious. However, research led by Elizabeth Loftus demonstrated that false memories can be implanted through suggestion, imagination, and authoritative confirmation. Source monitoring errors (confusing imagined events with real ones) explain how patients came to genuinely believe in events that never occurred. The backlash and subsequent research fundamentally changed our understanding of memory as reconstructive rather than reproductive."
-        },
-        {
-          "asset_type": "CUE_SCRUBBER_STATION",
-          "domain": "Memory | Self-Serving Bias",
-          "topic": "The 90% Housework Study: Self-Serving Memory in Everyday Life",
-          "visual_frame_description": "A couple sitting at a kitchen table. The wife points to a chart showing she does 90% of the housework. The husband points to a chart showing he does 40%. The charts are displayed side by side, adding up to 130%. A caption reads: 'When researchers ask couples about housework, the total always exceeds 100%. Neither is lying. Each is remembering in a way that enhances their contribution.'",
-          "target_channel": "Self-Serving Memory Bias | Autobiographical Memory | Relationship Dynamics",
-          "question": "Why do husbands and wives give estimates of their housework contributions that always sum to more than 100%, and why is this not simply lying?",
-          "correct_cue": "This is a self-serving memory bias — an automatic, unconscious distortion of memory that enhances one's own contribution while minimizing awareness of others'. Each spouse selectively remembers the chores they did, the effort they put in, and the times they went above and beyond, while forgetting their partner's contributions. The distortion is not deliberate dishonesty but the normal operation of autobiographical memory, which is shaped by the ego's need to maintain positive self-regard. The same bias operates in professional settings, where team members each estimate their own contribution at more than their share.",
-          "distractors": [
-            "One spouse is deliberately lying to inflate their contribution — this is a conflict tactic used to gain advantage in arguments",
-            "The discrepancy is caused by different definitions of 'housework' — husbands and wives have different standards for what counts as a chore",
-            "The effect is unique to housework because it is undervalued labor — in paid work contexts, people estimate accurately"
-          ],
-          "underlying_psychology": "This finding illustrates the pervasive self-serving bias in memory. The authors cite research where wives claimed to do 'at least 90 percent' and husbands claimed 'about 40 percent,' always totalling well over 100 percent. Neither is lying. Each genuinely remembers doing more than they probably did because memory is not a recording — it is a reconstruction shaped by self-concept. The same mechanism that makes us remember our past as better than it was also makes us remember our contributions as larger than they were."
-        },
+        }
+      ]
+    },
+    {
+      "id": "ch03b",
+      "title": "Memory, the Self-Justifying Historian (Part 2)",
+      "pages": "95–130",
+      "assets": [
         {
           "asset_type": "DECEPTION_AUDIT_FILE",
           "domain": "Clinical Psychology | Pseudoscience",
@@ -375,6 +381,21 @@
             "The problem is solved by clinical intuition — experienced therapists can tell when a patient is genuinely repressed vs. simply denying"
           ],
           "diagnostic_breakdown": "Stage 1 — Observation bias: Clinicians see only the patients who come to them, who tend to have the symptoms predicted by the clinician's theory. Stage 2 — Confirmation: Each patient who fits the theory reinforces belief. Stage 3 — No disconfirmation: Patients who don't fit the theory either (a) go to different clinicians or (b) are explained away by the theory itself ('they're in denial,' 'you're not looking hard enough'). Stage 4 — Unfalsifiability: The theory becomes a closed system — all evidence supports it, no evidence can challenge it. Stage 5 — Pseudoscience: Any theory that cannot be proven wrong is not science, regardless of how many 'dependable observations' appear to confirm it."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Memory | Self-Serving Bias",
+          "topic": "The 90% Housework Study: Self-Serving Memory in Everyday Life",
+          "visual_frame_description": "A couple sitting at a kitchen table. The wife points to a chart showing she does 90% of the housework. The husband points to a chart showing he does 40%. The charts are displayed side by side, adding up to 130%. A caption reads: 'When researchers ask couples about housework, the total always exceeds 100%. Neither is lying. Each is remembering in a way that enhances their contribution.'",
+          "target_channel": "Self-Serving Memory Bias | Autobiographical Memory | Relationship Dynamics",
+          "question": "Why do husbands and wives give estimates of their housework contributions that always sum to more than 100%, and why is this not simply lying?",
+          "correct_cue": "This is a self-serving memory bias — an automatic, unconscious distortion of memory that enhances one's own contribution while minimizing awareness of others'. Each spouse selectively remembers the chores they did, the effort they put in, and the times they went above and beyond, while forgetting their partner's contributions. The distortion is not deliberate dishonesty but the normal operation of autobiographical memory, which is shaped by the ego's need to maintain positive self-regard. The same bias operates in professional settings, where team members each estimate their own contribution at more than their share.",
+          "distractors": [
+            "One spouse is deliberately lying to inflate their contribution — this is a conflict tactic used to gain advantage in arguments",
+            "The discrepancy is caused by different definitions of 'housework' — husbands and wives have different standards for what counts as a chore",
+            "The effect is unique to housework because it is undervalued labor — in paid work contexts, people estimate accurately"
+          ],
+          "underlying_psychology": "This finding illustrates the pervasive self-serving bias in memory. The authors cite research where wives claimed to do 'at least 90 percent' and husbands claimed 'about 40 percent,' always totalling well over 100 percent. Neither is lying. Each genuinely remembers doing more than they probably did because memory is not a recording — it is a reconstruction shaped by self-concept. The same mechanism that makes us remember our past as better than it was also makes us remember our contributions as larger than they were."
         }
       ]
     },
