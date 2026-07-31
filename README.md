@@ -13,7 +13,8 @@ An interactive **progressive web app (PWA)** for exploring the science of human 
 | **Fill in blank** | Cloze-style fill-in-the-blank exercises with word bank support |
 | **Sequence** | Order steps of psychological frameworks from first to last |
 | **Exam** | Mixed-mode exam (quiz, cloze, sequence questions) with configurable question count |
-| **Scenario Lab** | Interactive scenario trainer: 21 scenario libraries (1,207 assets, 5 game modes) from the extracted books — pick a library + chapter, filter by mode/difficulty, and work through briefing → mission → verification, feeding results into SRS |
+| **Scenario Lab** | Interactive scenario trainer: 21 scenario libraries (1,267 assets, 5 game modes) from the extracted books — pick a library + chapter, filter by mode/difficulty, and work through briefing → mission → verification, feeding results into SRS |
+| **Review** | Dedicated SRS review queue: all due cards (flashcards + Scenario Lab) in one 3D-flip session with Hard/Good/Easy ratings and session summary |
 | **Deep Dive** | In-depth concept articles with expandable sections, framework descriptions, and key takeaways |
 | **Resources** | Reference material cards — PDFs, images, audio, websites, journals |
 | **Dashboard** | Overall stats, per-course progress bars, SRS due count, streak tracking, module progress |
@@ -67,13 +68,13 @@ Human Behavior/
 │   ├── deep-dives.js     — const _deepDives
 │   └── resources.js      — const _resources
 ├── assets.js             — Aggregator: const ASSET_LIBS from assets/ (Scenario Lab)
-├── assets/               — One file per scenario library (const _AL_<book>, 21 libraries, 1,207 assets)
+├── assets/               — One file per scenario library (const _AL_<book>, 21 libraries, 1,267 assets)
 ├── server.py             — Python HTTP server with Piper TTS endpoint
 ├── imports/
 │   ├── __init__.py       — Package marker
 │   └── tts.py            — Piper TTS wrapper (lazy-loading, synthesis)
 ├── manifest.json         — PWA manifest for installable app
-├── sw.js                 — Service worker for offline caching (cache v7)
+├── sw.js                 — Service worker for offline caching (cache v8)
 ├── icons/                — PWA app icons (192×192, 512×512)
 ├── extract/
 │   ├── generated_assets/ — Canonical asset JSONs (per book); legacy/ holds retired duplicates
@@ -81,6 +82,7 @@ Human Behavior/
 │       ├── split_data_js.py         — Split data-full.js → data/ (re-runnable)
 │       ├── build_frontend_assets.py — generated_assets/ → assets/ + assets.js (re-runnable)
 │       ├── gen_bowden_p2.py         — Phase 2 Bowden generator (255 assets)
+│       ├── gen_glass_p2.py          — Phase 2 Glass generator (120 assets)
 │       └── validate.py              — Asset JSON validator
 └── README.md              — This file
 ```

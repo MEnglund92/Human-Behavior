@@ -54,7 +54,7 @@ book, all sharing one schema (Section 4). They feed a game (PWA frontend,
 | 4 | Emotions Revealed | Ekman | DONE (deep pass) | 135 |
 | 5 | Telling Lies | Ekman | DONE (deep pass) | 65 |
 | 6 | The Dictionary of Body Language | Navarro | DONE (deep pass) | 75 |
-| 7 | **The Body Language of Liars** | Lillian Glass | **DONE (Phase 1 new)** | 60 |
+| 7 | **The Body Language of Liars** | Lillian Glass | **DONE (Phase 2: 120)** | 120 |
 | 8 | **The Power of Body Language** | Tonya Reiman | **DONE (Phase 1 new)** | 60 |
 | 9 | **Truth & Lies** | Bowden & Thomson | **DONE (Phase 1 new)** | 70 |
 
@@ -124,10 +124,24 @@ with a small `asset()` helper (see Section 7).
 
 ## 5. Per-Book Structure of the Phase-1 Deliverables (most recent work)
 
-### glass_liars_assets.json — "The Body Language of Liars" (Lillian Glass) — 60 assets / 12 sub-sections
-Lie types & morality, betrayal trauma, developmental lying, the 7 motives,
-cyber/online deception, instincts & baseline, body tells, facial tells, vocal
-tells, speech content, relationship/cheating tells, psychopath/sociopath profile.
+### glass_liars_assets.json — "The Body Language of Liars" (Lillian Glass) — 120 assets / 24 chapter entries
+Phase 1 (12 topical sub-sections, gl01-gl12): Lie types & morality, betrayal
+trauma, developmental lying, the 7 motives, cyber/online deception, instincts
+& baseline, body tells, facial tells, vocal tells, speech content,
+relationship/cheating tells, psychopath/sociopath profile.
+
+Phase 2 (2026-07-31): per-chapter entries gl13-gl24 (one per book chapter,
+5 assets each: CUE_SCRUBBER_STATION Beginner, DYNAMIC_DIALOGUE_SIM
+Intermediate, DECEPTION_AUDIT_FILE Intermediate, DISCRIMINATION_MATRIX
+Advanced, BOSS_BATTLE Advanced). Chapter-specific topics: lying definitions &
+religious stances (Ch1), celebrity case fallout + false accusations (Ch2),
+animal/child/teen deception incl. Koko (Ch3), the 7 adult motives + ugly-baby
+test (Ch4), online red flags + catfishing (Ch5), instincts vs. second-guessing
++ baselines (Ch6), breath/skin/posture/hands/feet tells + duping delight +
+LGN (Ch7), eyes/nose/mouth/jaw tells + facial baselines (Ch8), vocal tells:
+pitch/volume/tone/pacing (Ch9), verbal tells + transcript forensics (Ch10),
+couple/cheating photo tells (Ch11), psychopath/sociopath profile + interview
+tells (Ch12).
 
 ### reiman_power_body_language_assets.json — "The Power of Body Language" (Tonya Reiman) — 60 assets / 9 chapters
 Ch1 Power Behind BL (Five Immutable Truths, origins, mirror neurons), Ch2
@@ -180,10 +194,12 @@ Every generator output is run through a validator that:
 - checks every asset_type is in the allowed set
   `{CUE_SCRUBBER_STATION, DYNAMIC_DIALOGUE_SIM, DECEPTION_AUDIT_FILE, DISCRIMINATION_MATRIX, BOSS_BATTLE, BEHAVIORAL_BOSS_BATTLE}`
 
-Latest run results (2026-07-31, after Phase 2 Bowden):
+Latest run results (2026-07-31, after Phase 2 Glass):
+- glass_liars_assets.json — 120 assets, ALL VALID (35 warnings = pre-existing
+  legacy artifacts in gl05/gl07-gl12: 'Expert' difficulties, 13-14 key_concepts;
+  all 12 new chapter entries gl13-gl24 are warning-free)
 - bowden_truth_lies_assets.json — 255 assets, ALL VALID (50 warnings = only
   the known part-level duplicate-asset_type artifacts in bo01-bo04)
-- glass_liars_assets.json — 60 assets, ALL VALID
 - reiman_power_body_language_assets.json — 60 assets, ALL VALID
 
 Also valid (earlier passes): attached_workbook (45), definitive_body_language
@@ -192,9 +208,12 @@ dictionary_body_language (75), truth_and_lies (65), influence (51),
 social_animal (47), behave (31), moral_animal (30), righteous_mind (39),
 predictably_irrational (22), social_intelligence (22), laws_human_nature (23),
 mistakes (36), mans_search_meaning (10), power_body_language (50).
-**Grand total: 1271 assets, ALL VALID** (except the two known placeholder
-files `apa_nonverbal_assets.json` and `research_methods_assets.json`, which
-are not JSON objects and have 0 assets - intentionally left alone).
+- **Grand total: 1331 assets, ALL VALID** (excluding the two known placeholder
+  files `apa_nonverbal_assets.json` and `research_methods_assets.json`, which
+  are not JSON objects and have 0 assets - intentionally left alone). After
+  retiring the two legacy duplicates (truth_and_lies 65, power_body_language
+  50), the frontend pipeline (`build_frontend_assets.py`) consumes **21
+  libraries / 1,267 assets**.
 
 Known quirk: the Reiman/Bowden generators originally emitted assets wrapped in
 a redundant list `[[asset]]`; the emitted JSON files were fixed by unwrapping
@@ -257,9 +276,21 @@ insufficient at 230 assets). Plan for Phase 2:
   Generator lives in-repo: `extract\tools\gen_bowden_p2.py` + chapter data
   `extract\tools\bowden_p2_data_{a..f}.py`. Re-run with
   `python extract/tools/gen_bowden_p2.py` (idempotent - skips existing ids).
-- **Next book (not started): The Body Language of Liars (Glass)** — follow the
+- **Next book (not started): The Power of Body Language (Reiman)** — follow the
   same recipe: read TOC, map chapter start pages from the txt, author data
   files, run generator, validate, update this doc.
+
+### Phase 2 progress (Glass)
+
+- **Glass (The Body Language of Liars) — DONE 2026-07-31.** 60 → 120 assets.
+  Book re-read from `glass_p2.txt` (6728 lines / 239 pp, re-extracted from the
+  source PDF with `extract\tools\extract_text.py`); chapter start pages mapped
+  from `--- PAGE n ---` markers (Ch1 p18 .. Ch12 p209); per-chapter entries
+  `gl13`-`gl24` added with one asset of each type per chapter. Existing topical
+  entries gl01-gl12 kept. Generators live in-repo:
+  `extract\tools\gen_glass_p2.py` + data modules
+  `extract\tools\glass_p2_data_{a..d}.py`. Re-run with
+  `python extract/tools/gen_glass_p2.py` (idempotent - auto-skips existing ids).
 
 ---
 
@@ -313,6 +344,27 @@ Goal: expose all extracted assets in the PWA instead of leaving them as JSON.
   Review" updates; verify offline via PWA after a refresh)
 
 ---
+## 8c. Phase 4 (2026-07-31 — Review Mode + Glass Phase 2, COMPLETE)
+
+1. **Review Mode tab (done)** — new 🔁 tab between Scenario Lab and Deep Dive:
+   pulls ALL due SRS cards (`getDueConcepts()`: flashcard entries + `lab:<book>:
+   <topic>` keys) into a 3D-flip queue with 🤔😊🌟 ratings (SM-2 `updateSRS`,
+   quality 2/3.5/5), progress bar + counter, auto-advance, end-of-session
+   summary overlay + confetti ≥70%. Lab keys display the topic with the book
+   title as subtitle; card backs show the entry definition/scenario (or the
+   asset's mission/question for lab keys). Sidebar "Needs Review" rows and the
+   Dashboard "Review n due cards" button now jump to this tab. Space flips.
+   Tracks `stats.reviews`. Bilingual chrome (svUI keys added).
+2. **Glass Phase 2 (done)** — see §8; 60 → 120 assets; frontend rebuilt
+   (21 libs / 1,267 assets); sw.js cache bumped v7 → v8.
+3. **Verified** — inline script `node --check` OK (44 script tags / 1 inline);
+   review logic unit-tested in node (lab key parsing, card-back resolution,
+   fallbacks); full-chain: topics=18, deepDives=17, resources=5, ASSET_LIBS=21,
+   assets=1267; all URLs 200 on port 8765. Manual browser pass recommended:
+   rate a few cards in each source (flash + lab) so they become due, then run a
+   Review session end-to-end.
+
+---
 
 ## 9. Files & Locations Index
 
@@ -336,6 +388,8 @@ Goal: expose all extracted assets in the PWA instead of leaving them as JSON.
 - `extract\tools\validate.py` — validator (hard errors + soft warnings)
 - `extract\tools\gen_bowden_p2.py` + `bowden_p2_data_{a..f}.py` — Phase 2
   Bowden generator and its per-chapter content data
+- `extract\tools\gen_glass_p2.py` + `glass_p2_data_{a..d}.py` — Phase 2
+  Glass generator and its per-chapter content data
 - `extract\tools\split_data_js.py` — Phase 3: `data-full.js` → `data/` + `data.js`
 - `extract\tools\build_frontend_assets.py` — Phase 3: `extract\generated_assets\`
   → `assets/assetlib-*.js` + `assets.js`
