@@ -48,7 +48,7 @@ book, all sharing one schema (Section 4). They feed a game (PWA frontend,
 
 | # | Book | Author | Status | Assets |
 |---|------|--------|--------|--------|
-| 1 | Workbook of Attached (adult attachment) | Levine & Heller | DONE | 45 |
+| 1 | Workbook of Attached (adult attachment) | Levine & Heller | DONE (Phase 2: 90) | 90 |
 | 2 | The Definitive Book of Body Language | Pease & Pease | DONE (Phase 2: 200) | 200 |
 | 3 | What Every BODY Is Saying | Navarro | DONE (Phase 2: 95) | 95 |
 | 4 | Emotions Revealed | Ekman | DONE (deep pass) | 135 |
@@ -58,7 +58,7 @@ book, all sharing one schema (Section 4). They feed a game (PWA frontend,
 | 8 | **The Power of Body Language** | Tonya Reiman | **DONE (Phase 2: 105)** | 105 |
 | 9 | **Truth & Lies** | Bowden & Thomson | **DONE (Phase 1 new)** | 70 |
 
-**Running total: 890 assets, all validated (see Section 6).**
+**Running total: 935 assets, all validated (see Section 6).**
 
 ### Marked `(Not)` / skip â€” do NOT generate assets for these
 - Body Language (Allan Pease)
@@ -206,10 +206,13 @@ Every generator output is run through a validator that:
 - checks every asset_type is in the allowed set
   `{CUE_SCRUBBER_STATION, DYNAMIC_DIALOGUE_SIM, DECEPTION_AUDIT_FILE, DISCRIMINATION_MATRIX, BOSS_BATTLE, BEHAVIORAL_BOSS_BATTLE}`
 
-Latest run results (2026-07-31, after M1 warning cleanup):
+Latest run results (2026-07-31, after M1-M4 Phase-2 passes):
 - glass_liars_assets.json â€” 120 assets, ALL VALID (0 warnings)
 - bowden_truth_lies_assets.json â€” 255 assets, ALL VALID (0 warnings)
 - reiman_power_body_language_assets.json â€” 105 assets, ALL VALID (0 warnings)
+- definitive_body_language_assets.json â€” 200 assets, ALL VALID (0 warnings)
+- what_every_body_assets.json â€” 95 assets, ALL VALID (0 warnings)
+- attached_workbook_assets.json â€” 90 assets, ALL VALID (0 warnings)
 - emotions_revealed_assets.json â€” 135 assets, ALL VALID (0 warnings; 30 short
   concept lists expanded to 8-12 items from the book text)
 - dictionary_body_language_assets.json â€” 75 assets, ALL VALID (0 warnings)
@@ -217,17 +220,16 @@ Latest run results (2026-07-31, after M1 warning cleanup):
 - influence (51), social_animal (47), righteous_mind (39), mistakes (36) â€”
   ALL VALID (0 warnings; duplicate-type chapters split into sub-chapters)
 
-Also valid (earlier passes, still with only SHORT key_concepts warnings to be
-fixed in their Phase-2 passes): attached_workbook (45).
-M5 books (behave, laws_human_nature, mans_search_meaning, moral_animal,
-predictably_irrational, social_intelligence) still carry the legacy
-missing-field warnings â€” fixed by their Phase 2 pass.
-- **Grand total: 1331 assets, ALL VALID** (excluding the two known placeholder
+All previously-short books are now clean (0 warnings). The M5 books (behave,
+laws_human_nature, mans_search_meaning, moral_animal, predictably_irrational,
+social_intelligence) still carry the legacy missing-field warnings â€” fixed by
+their Phase 2 pass.
+- **Grand total: 1502 assets, ALL VALID** (excluding the two known placeholder
   files `apa_nonverbal_assets.json` and `research_methods_assets.json`, which
   are not JSON objects and have 0 assets - intentionally left alone). After
   retiring the two legacy duplicates (truth_and_lies 65, power_body_language
   50), the frontend pipeline (`build_frontend_assets.py`) consumes **21
-  libraries / 1,312 assets**.
+  libraries / 1,502 assets**.
 
 Known quirk: the Reiman/Bowden generators originally emitted assets wrapped in
 a redundant list `[[asset]]`; the emitted JSON files were fixed by unwrapping
@@ -309,6 +311,16 @@ insufficient at 230 assets). Plan for Phase 2:
   kept and their 4-item key_concepts expanded to 8-12 from the new chapter
   data. Generator + data modules in-repo: `extract\tools\gen_whatbody_p2.py`
   + `whatbody_p2_data_{a..c}.py`.
+- **Attached workbook (Levine & Heller) â€” DONE 2026-07-31.** 45 â†’ 90 assets.
+  Book re-read from `attached_p2.txt` (784 lines / 40 pp; this PDF is the
+  BestWriters.club condensed summary of Attached; pdfplumber chokes on it, so
+  the text was extracted with PyMuPDF instead). All 9 sections mapped from
+  their content boundaries (Ch1 lines 99-204 .. Final Conclusion lines
+  678-784); per-chapter entries `aw01`-`aw09` added with one asset of each
+  type per chapter. Legacy entries (ch01-ch09) kept and their 4-item
+  key_concepts expanded to 8-12 from the new chapter data. Generator + data
+  modules in-repo: `extract\tools\gen_attached_p2.py` +
+  `attached_p2_data_{a..b}.py`.
 - **Definitive (The Definitive Book of Body Language) â€” DONE 2026-07-31.**
   100 â†’ 200 assets. Book re-read from `definitive_p2.txt` (8064 lines / 438 pp,
   re-extracted with `extract\tools\extract_text.py`); all 19 chapters +
@@ -461,6 +473,14 @@ what_every_body fixed by their Phase-2 passes).
   Bowden generator and its per-chapter content data
 - `extract\tools\gen_glass_p2.py` + `glass_p2_data_{a..d}.py` â€” Phase 2
   Glass generator and its per-chapter content data
+- `extract\tools\gen_reiman_p2.py` + `reiman_p2_data_{a..d}.py` â€” Phase 2
+  Reiman generator and its per-chapter content data
+- `extract\tools\gen_definitive_p2.py` + `definitive_p2_data_{a..e}.py` â€”
+  Phase 2 Definitive generator and its per-chapter content data
+- `extract\tools\gen_whatbody_p2.py` + `whatbody_p2_data_{a..c}.py` â€” Phase 2
+  What Every BODY generator and its per-chapter content data
+- `extract\tools\gen_attached_p2.py` + `attached_p2_data_{a..b}.py` â€” Phase 2
+  Attached workbook generator and its per-chapter content data
 - `extract\tools\split_data_js.py` â€” Phase 3: `data-full.js` â†’ `data/` + `data.js`
 - `extract\tools\build_frontend_assets.py` â€” Phase 3: `extract\generated_assets\`
   â†’ `assets/assetlib-*.js` + `assets.js`

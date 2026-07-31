@@ -1,6 +1,6 @@
-# Human Behavior Study App
+﻿# Human Behavior Study App
 
-An interactive **progressive web app (PWA)** for exploring the science of human behavior — from classical conditioning to cognitive biases. Browse concepts, test your knowledge, and track your progress. Built with vanilla HTML, CSS, and JavaScript paired with a local Python TTS server powered by Piper.
+An interactive **progressive web app (PWA)** for exploring the science of human behavior â€” from classical conditioning to cognitive biases. Browse concepts, test your knowledge, and track your progress. Built with vanilla HTML, CSS, and JavaScript paired with a local Python TTS server powered by Piper.
 
 ## Features
 
@@ -13,21 +13,21 @@ An interactive **progressive web app (PWA)** for exploring the science of human 
 | **Fill in blank** | Cloze-style fill-in-the-blank exercises with word bank support |
 | **Sequence** | Order steps of psychological frameworks from first to last |
 | **Exam** | Mixed-mode exam (quiz, cloze, sequence questions) with configurable question count |
-| **Scenario Lab** | Interactive scenario trainer: 21 scenario libraries (1,457 assets, 5 game modes) from the extracted books — pick a library + chapter, filter by mode/difficulty, and work through briefing → mission → verification, feeding results into SRS |
+| **Scenario Lab** | Interactive scenario trainer: 21 scenario libraries (1,502 assets, 5 game modes) from the extracted books â€” pick a library + chapter, filter by mode/difficulty, and work through briefing â†’ mission â†’ verification, feeding results into SRS |
 | **Review** | Dedicated SRS review queue: all due cards (flashcards + Scenario Lab) in one 3D-flip session with Hard/Good/Easy ratings and session summary |
 | **Deep Dive** | In-depth concept articles with expandable sections, framework descriptions, and key takeaways |
-| **Resources** | Reference material cards — PDFs, images, audio, websites, journals |
+| **Resources** | Reference material cards â€” PDFs, images, audio, websites, journals |
 | **Dashboard** | Overall stats, per-course progress bars, SRS due count, streak tracking, module progress |
 
 ### Interactive Features
 
-- **Language Toggle** — Switch between English and Swedish on the fly; all UI, data, and speech update instantly
-- **Text-to-Speech (TTS)** — Local neural TTS via Piper (English + Swedish voices, ~70ms latency)
-- **Spaced Repetition (SRS)** — Rate concepts Hard/Good/Easy; due items tracked globally on the sidebar and Dashboard
-- **Streaks** — Consecutive study days tracked and displayed
-- **Dark/Light Mode** — Toggle in the sidebar
-- **PWA Offline Support** — Installable as a standalone app; works offline after first visit
-- **Keyboard Shortcuts** — Alt+1 through Alt+0 to switch tabs, Space to flip flashcards
+- **Language Toggle** â€” Switch between English and Swedish on the fly; all UI, data, and speech update instantly
+- **Text-to-Speech (TTS)** â€” Local neural TTS via Piper (English + Swedish voices, ~70ms latency)
+- **Spaced Repetition (SRS)** â€” Rate concepts Hard/Good/Easy; due items tracked globally on the sidebar and Dashboard
+- **Streaks** â€” Consecutive study days tracked and displayed
+- **Dark/Light Mode** â€” Toggle in the sidebar
+- **PWA Offline Support** â€” Installable as a standalone app; works offline after first visit
+- **Keyboard Shortcuts** â€” Alt+1 through Alt+0 to switch tabs, Space to flip flashcards
 
 ## How to Run / Start
 
@@ -47,71 +47,72 @@ python server.py
 
 Wait ~4 seconds for `Ready`, then open **http://localhost:8765** in your browser.
 
-The server handles both static file serving and TTS synthesis — one command, one port.
+The server handles both static file serving and TTS synthesis â€” one command, one port.
 
 ### PWA Installation
 
 After opening the app in a supported browser (Chrome, Edge, Brave):
 
-1. Look for the **Install** button in the address bar (or the browser menu → "Install Human Behavior Study App")
+1. Look for the **Install** button in the address bar (or the browser menu â†’ "Install Human Behavior Study App")
 2. The app will launch in its own standalone window with no browser chrome
 
 ## File Structure
 
 ```
 Human Behavior/
-├── index.html            — The entire app (HTML + CSS + JS)
-├── data.js               — Aggregator: reassembles topics/deepDives/resources from data/
-├── data-full.js          — Monolithic data source (18 topics + deep dives + resources)
-├── data/
-│   ├── topics/topic-*.js — One file per topic (const _t_<id>)
-│   ├── deep-dives.js     — const _deepDives
-│   └── resources.js      — const _resources
-├── assets.js             — Aggregator: const ASSET_LIBS from assets/ (Scenario Lab)
-├── assets/               — One file per scenario library (const _AL_<book>, 21 libraries, 1,457 assets)
-├── server.py             — Python HTTP server with Piper TTS endpoint
-├── imports/
-│   ├── __init__.py       — Package marker
-│   └── tts.py            — Piper TTS wrapper (lazy-loading, synthesis)
-├── manifest.json         — PWA manifest for installable app
-├── sw.js                 — Service worker for offline caching (cache v8)
-├── icons/                — PWA app icons (192×192, 512×512)
-├── extract/
-│   ├── generated_assets/ — Canonical asset JSONs (per book); legacy/ holds retired duplicates
-│   └── tools/
-│       ├── split_data_js.py         — Split data-full.js → data/ (re-runnable)
-│       ├── build_frontend_assets.py — generated_assets/ → assets/ + assets.js (re-runnable)
-│       ├── gen_bowden_p2.py         — Phase 2 Bowden generator (255 assets)
-│       ├── gen_glass_p2.py          — Phase 2 Glass generator (120 assets)
-│       ├── gen_reiman_p2.py         — Phase 2 Reiman generator (105 assets)
-│       ├── gen_definitive_p2.py     — Phase 2 Definitive generator (200 assets)
-│       ├── gen_whatbody_p2.py       — Phase 2 What Every BODY generator (95 assets)
-│       └── validate.py              — Asset JSON validator
-└── README.md              — This file
+â”œâ”€â”€ index.html            â€” The entire app (HTML + CSS + JS)
+â”œâ”€â”€ data.js               â€” Aggregator: reassembles topics/deepDives/resources from data/
+â”œâ”€â”€ data-full.js          â€” Monolithic data source (18 topics + deep dives + resources)
+â”œâ”€â”€ data/
+â”‚   â”œâ”€â”€ topics/topic-*.js â€” One file per topic (const _t_<id>)
+â”‚   â”œâ”€â”€ deep-dives.js     â€” const _deepDives
+â”‚   â””â”€â”€ resources.js      â€” const _resources
+â”œâ”€â”€ assets.js             â€” Aggregator: const ASSET_LIBS from assets/ (Scenario Lab)
+â”œâ”€â”€ assets/               â€” One file per scenario library (const _AL_<book>, 21 libraries, 1,502 assets)
+â”œâ”€â”€ server.py             â€” Python HTTP server with Piper TTS endpoint
+â”œâ”€â”€ imports/
+â”‚   â”œâ”€â”€ __init__.py       â€” Package marker
+â”‚   â””â”€â”€ tts.py            â€” Piper TTS wrapper (lazy-loading, synthesis)
+â”œâ”€â”€ manifest.json         â€” PWA manifest for installable app
+â”œâ”€â”€ sw.js                 â€” Service worker for offline caching (cache v8)
+â”œâ”€â”€ icons/                â€” PWA app icons (192Ã—192, 512Ã—512)
+â”œâ”€â”€ extract/
+â”‚   â”œâ”€â”€ generated_assets/ â€” Canonical asset JSONs (per book); legacy/ holds retired duplicates
+â”‚   â””â”€â”€ tools/
+â”‚       â”œâ”€â”€ split_data_js.py         â€” Split data-full.js â†’ data/ (re-runnable)
+â”‚       â”œâ”€â”€ build_frontend_assets.py â€” generated_assets/ â†’ assets/ + assets.js (re-runnable)
+â”‚       â”œâ”€â”€ gen_bowden_p2.py         â€” Phase 2 Bowden generator (255 assets)
+â”‚       â”œâ”€â”€ gen_glass_p2.py          â€” Phase 2 Glass generator (120 assets)
+â”‚       â”œâ”€â”€ gen_reiman_p2.py         â€” Phase 2 Reiman generator (105 assets)
+â”‚       â”œâ”€â”€ gen_definitive_p2.py     â€” Phase 2 Definitive generator (200 assets)
+â”‚       â”œâ”€â”€ gen_whatbody_p2.py       â€” Phase 2 What Every BODY generator (95 assets)
+│       ├── gen_attached_p2.py       — Phase 2 Attached workbook generator (90 assets)
+â”‚       â””â”€â”€ validate.py              â€” Asset JSON validator
+â””â”€â”€ README.md              â€” This file
 ```
 
 Regenerating the data split and the Scenario Lab libraries:
 
 ```powershell
-python extract\tools\split_data_js.py          # data-full.js → data/ + data.js
-python extract\tools\build_frontend_assets.py  # extract\generated_assets → assets/ + assets.js
+python extract\tools\split_data_js.py          # data-full.js â†’ data/ + data.js
+python extract\tools\build_frontend_assets.py  # extract\generated_assets â†’ assets/ + assets.js
 ```
 
 Voice models (stored one level up, shared across projects):
 ```
 tts-models/
-├── en_US-lessac-medium.onnx       — English voice model
-├── en_US-lessac-medium.onnx.json
-├── sv_SE-nst-medium.onnx          — Swedish voice model (NST)
-├── sv_SE-nst-medium.onnx.json
-├── sv_SE-alma-medium.onnx         — Swedish voice model (Alma)
-└── sv_SE-alma-medium.onnx.json
+â”œâ”€â”€ en_US-lessac-medium.onnx       â€” English voice model
+â”œâ”€â”€ en_US-lessac-medium.onnx.json
+â”œâ”€â”€ sv_SE-nst-medium.onnx          â€” Swedish voice model (NST)
+â”œâ”€â”€ sv_SE-nst-medium.onnx.json
+â”œâ”€â”€ sv_SE-alma-medium.onnx         â€” Swedish voice model (Alma)
+â””â”€â”€ sv_SE-alma-medium.onnx.json
 ```
 
 ## Tech Stack
 
 - **Frontend:** Vanilla HTML, CSS, JavaScript (PWA with service worker)
 - **Backend:** Python 3 + `http.server` + `piper-tts` (Piper TTS engine)
-- **TTS Engine:** [Piper](https://github.com/rhasspy/piper) — fast, local neural TTS (VITS + ONNX Runtime)
+- **TTS Engine:** [Piper](https://github.com/rhasspy/piper) â€” fast, local neural TTS (VITS + ONNX Runtime)
 - **Storage:** `localStorage` for all user progress
-- **CSS Custom Properties** — Dark/light theme switching
+- **CSS Custom Properties** â€” Dark/light theme switching
