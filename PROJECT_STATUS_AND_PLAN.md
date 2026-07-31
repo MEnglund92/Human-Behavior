@@ -55,10 +55,10 @@ book, all sharing one schema (Section 4). They feed a game (PWA frontend,
 | 5 | Telling Lies | Ekman | DONE (deep pass) | 65 |
 | 6 | The Dictionary of Body Language | Navarro | DONE (deep pass) | 75 |
 | 7 | **The Body Language of Liars** | Lillian Glass | **DONE (Phase 2: 120)** | 120 |
-| 8 | **The Power of Body Language** | Tonya Reiman | **DONE (Phase 1 new)** | 60 |
+| 8 | **The Power of Body Language** | Tonya Reiman | **DONE (Phase 2: 105)** | 105 |
 | 9 | **Truth & Lies** | Bowden & Thomson | **DONE (Phase 1 new)** | 70 |
 
-**Running total: 660 assets, all validated (see Section 6).**
+**Running total: 705 assets, all validated (see Section 6).**
 
 ### Marked `(Not)` / skip — do NOT generate assets for these
 - Body Language (Allan Pease)
@@ -143,7 +143,7 @@ pitch/volume/tone/pacing (Ch9), verbal tells + transcript forensics (Ch10),
 couple/cheating photo tells (Ch11), psychopath/sociopath profile + interview
 tells (Ch12).
 
-### reiman_power_body_language_assets.json — "The Power of Body Language" (Tonya Reiman) — 60 assets / 9 chapters
+### reiman_power_body_language_assets.json — "The Power of Body Language" (Tonya Reiman) — 105 assets / 18 chapter entries
 Ch1 Power Behind BL (Five Immutable Truths, origins, mirror neurons), Ch2
 Language of the Face (7 universal emotions, eyes/eyebrows, smiles/scowls/
 lips/nose/chin), Ch3 Language of the Body (head/torso, arms/hands), Ch4 Space &
@@ -151,6 +151,18 @@ Touch (4 zones, 14 social touches), Ch5 Language of Sound (paralanguage), Ch6
 First Impressions (3-stage model, 17 turn-offs), Ch7 Reading Signals (norming,
 10 signal clusters), Ch8 Sending Signals (WIIFM, anchoring), Ch9 Reiman Rapport
 Method (10-step system).
+
+Phase 2 (2026-07-31): added chapter-level entries re10-re18 (one per book
+chapter, 5 assets each: CUE_SCRUBBER_STATION Beginner, DYNAMIC_DIALOGUE_SIM
+Intermediate, DECEPTION_AUDIT_FILE Intermediate, DISCRIMINATION_MATRIX
+Advanced, BOSS_BATTLE Advanced). Chapter-specific topics: signal origins
+(hardwired vs. learned) + Five Immutable Truths (Ch1), seven universal emotions
++ eye/eyebrow signals + the smile lineup (Ch2), head/hand-to-head gestures +
+the Bob Effect + congruence (Ch3), Hall's four zones + the fourteen social
+touches (Ch4), the vocal cue spectrum + metamessages (Ch5), snap-judgment +
+database-scan + rapport stages (Ch6), baseline norming + deceit signal clusters
+(Ch7), WIIFM + trustworthiness + negotiation/closing (Ch8), the 10-step Reiman
+Rapport Method (Ch9).
 
 ### bowden_truth_lies_assets.json — "Truth & Lies" (Bowden & Thomson) — 255 assets / 41 chapter entries (4 parts + 37 chapters) / Phase 2 COMPLETE
 Core philosophy: body language is NOT a fixed code; all behavior is a display
@@ -194,13 +206,15 @@ Every generator output is run through a validator that:
 - checks every asset_type is in the allowed set
   `{CUE_SCRUBBER_STATION, DYNAMIC_DIALOGUE_SIM, DECEPTION_AUDIT_FILE, DISCRIMINATION_MATRIX, BOSS_BATTLE, BEHAVIORAL_BOSS_BATTLE}`
 
-Latest run results (2026-07-31, after Phase 2 Glass):
+Latest run results (2026-07-31, after Phase 2 Glass + Reiman):
 - glass_liars_assets.json — 120 assets, ALL VALID (35 warnings = pre-existing
   legacy artifacts in gl05/gl07-gl12: 'Expert' difficulties, 13-14 key_concepts;
   all 12 new chapter entries gl13-gl24 are warning-free)
 - bowden_truth_lies_assets.json — 255 assets, ALL VALID (50 warnings = only
   the known part-level duplicate-asset_type artifacts in bo01-bo04)
-- reiman_power_body_language_assets.json — 60 assets, ALL VALID
+- reiman_power_body_language_assets.json — 105 assets, ALL VALID (18 warnings =
+  pre-existing legacy artifacts in re02-re04; all 9 new chapter entries
+  re10-re18 are warning-free)
 
 Also valid (earlier passes): attached_workbook (45), definitive_body_language
 (100), what_every_body (50), emotions_revealed (135), telling_lies (65),
@@ -213,7 +227,7 @@ mistakes (36), mans_search_meaning (10), power_body_language (50).
   are not JSON objects and have 0 assets - intentionally left alone). After
   retiring the two legacy duplicates (truth_and_lies 65, power_body_language
   50), the frontend pipeline (`build_frontend_assets.py`) consumes **21
-  libraries / 1,267 assets**.
+  libraries / 1,312 assets**.
 
 Known quirk: the Reiman/Bowden generators originally emitted assets wrapped in
 a redundant list `[[asset]]`; the emitted JSON files were fixed by unwrapping
@@ -276,9 +290,17 @@ insufficient at 230 assets). Plan for Phase 2:
   Generator lives in-repo: `extract\tools\gen_bowden_p2.py` + chapter data
   `extract\tools\bowden_p2_data_{a..f}.py`. Re-run with
   `python extract/tools/gen_bowden_p2.py` (idempotent - skips existing ids).
-- **Next book (not started): The Power of Body Language (Reiman)** — follow the
-  same recipe: read TOC, map chapter start pages from the txt, author data
-  files, run generator, validate, update this doc.
+- **Reiman (The Power of Body Language) — DONE 2026-07-31.** 60 → 105 assets.
+  Book re-read from `reiman_p2.txt` (11347 lines / 360 pp, re-extracted from the
+  source PDF with `extract\tools\extract_text.py`); chapter start pages mapped
+  from `--- PAGE n ---` markers (Ch1 p37 .. Ch9 p297); per-chapter entries
+  `re10`-`re18` added with one asset of each type per chapter. Existing topical
+  entries re01-re09 kept. Generators live in-repo:
+  `extract\tools\gen_reiman_p2.py` + data modules
+  `extract\tools\reiman_p2_data_{a..d}.py`. Re-run with
+  `python extract/tools/gen_reiman_p2.py` (idempotent - auto-skips existing ids).
+- **Phase 2 complete — no books remain.** Both Phase-2 targets (Bowden, Glass,
+  Reiman) are done.
 
 ### Phase 2 progress (Glass)
 
@@ -325,7 +347,7 @@ Goal: expose all extracted assets in the PWA instead of leaving them as JSON.
 3. **Retired legacy duplicates (done)** — `truth_and_lies_assets.json` (65) and
    `power_body_language_assets.json` (50) moved to
    `extract\generated_assets\legacy\`; canonical sources are
-   `bowden_truth_lies_assets.json` (255) and `reiman_power_body_language_assets.json` (60).
+   `bowden_truth_lies_assets.json` (255) and `reiman_power_body_language_assets.json` (105).
 4. **Service worker (done)** — cache bumped to v7; FILES now lists all
    `data/` and `assets/` files.
 5. **Docs (done)** — README + this doc updated.
@@ -357,10 +379,12 @@ Goal: expose all extracted assets in the PWA instead of leaving them as JSON.
    Tracks `stats.reviews`. Bilingual chrome (svUI keys added).
 2. **Glass Phase 2 (done)** — see §8; 60 → 120 assets; frontend rebuilt
    (21 libs / 1,267 assets); sw.js cache bumped v7 → v8.
-3. **Verified** — inline script `node --check` OK (44 script tags / 1 inline);
+3. **Reiman Phase 2 (done)** — see §8; 60 → 105 assets (re10-re18); frontend
+   rebuilt (21 libs / 1,312 assets); sw.js cache bumped v8 → v9.
+4. **Verified** — inline script `node --check` OK (44 script tags / 1 inline);
    review logic unit-tested in node (lab key parsing, card-back resolution,
    fallbacks); full-chain: topics=18, deepDives=17, resources=5, ASSET_LIBS=21,
-   assets=1267; all URLs 200 on port 8765. Manual browser pass recommended:
+   assets=1312; all URLs 200 on port 8765. Manual browser pass recommended:
    rate a few cards in each source (flash + lab) so they become due, then run a
    Review session end-to-end.
 
