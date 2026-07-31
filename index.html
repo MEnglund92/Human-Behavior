@@ -263,6 +263,7 @@ body{font-family:var(--font-ui);background:var(--bg);color:var(--text);line-heig
 <div class="nav-item" data-tab="sequence"><span class="nav-icon">📋</span><span class="nav-label">Sequence</span></div>
 <div class="nav-item" data-tab="exam"><span class="nav-icon">📝</span><span class="nav-label">Exam</span></div>
 <div class="nav-item" data-tab="lab"><span class="nav-icon">🧪</span><span class="nav-label">Scenario Lab</span></div>
+<div class="nav-item" data-tab="review"><span class="nav-icon">🔁</span><span class="nav-label">Review</span></div>
 <div class="nav-item" data-tab="deep"><span class="nav-icon">🔬</span><span class="nav-label">Deep Dive</span></div>
 <div class="nav-item" data-tab="resources"><span class="nav-icon">📖</span><span class="nav-label">Resources</span></div>
 
@@ -402,6 +403,14 @@ body{font-family:var(--font-ui);background:var(--bg);color:var(--text);line-heig
 </div>
 </div>
 
+<div class="tab-panel" id="tab-review">
+<div class="module-card" style="text-align:center">
+<div class="module-title" id="reviewTitle">🔁 Review</div>
+<div class="exam-progress" id="reviewProgress" style="display:none"><div style="display:flex;justify-content:space-between;font-size:0.78rem;color:var(--text-tertiary)"><span id="reviewCounter">0 / 0</span><span id="reviewScoreLabel">0 good</span></div><div class="bar-wrap"><div class="bar-fill" id="reviewBar" style="width:0%"></div></div></div>
+<div id="reviewContent"></div>
+</div>
+</div>
+
 <div class="tab-panel" id="tab-deep">
 <div class="filter-bar" id="deepFilters"></div>
 <div id="deepContent"></div>
@@ -437,6 +446,7 @@ body{font-family:var(--font-ui);background:var(--bg);color:var(--text);line-heig
 <div class="quick-action" data-tab="sequence" id="qaSequence">📋 Sequence</div>
 <div class="quick-action" data-tab="exam" id="qaExam">📝 Exam</div>
 <div class="quick-action" data-tab="lab" id="qaLab">🧪 Scenario Lab</div>
+<div class="quick-action" data-tab="review" id="qaReview">🔁 Review</div>
 </div>
 <div class="sidebar-section-title" id="sbReviewTitle">Needs Review</div>
 <div id="sbReviewList"></div>
@@ -506,7 +516,7 @@ const svUI={
 "PDFs":"PDF-filer","Images":"Bilder","Audio":"Ljud","Websites":"Webbplatser","Journals":"Tidskrifter",
 "📂 Open":"📂 Öppna","Flashcards":"Flashkort","Match":"Matcha","Sequence":"Sekvens","Exam":"Tentamen","Deep Dive":"Djupdykning","Resources":"Resurser","Step ":"Steg ","Word ":"Ord ","Check":"Kontrollera"," sections read":" avsnitt lästa","m ago":"m sedan","h ago":"h sedan","In the study of \"":"I studien av \"","\",\" researchers observed that ____ is a key factor in understanding this phenomenon.":",\" observerade forskare att ____ är en nyckelfaktor för att förstå detta fenomen.",
 "Good morning":"God morgon","Good afternoon":"God eftermiddag","Good evening":"God kväll","just now":"just nu","Last studied: ":"Senast studerat: ","Due for Review":"Förfaller för repetition","cards need practice":"kort behöver övning","Study Streak":"Studiedagsserie"," days":" dagar","Keep going!":"Fortsätt så!","Concepts":"Begrepp","Across ":"Över "," modules":" moduler","SRS Cards":"SRS-kort","% mastered":"% inlärt","📚 Review ":"📚 Repetera "," due cards":" förfallna kort","Module Progress":"Modulframsteg","Concepts Needing Review":"Begrepp som behöver repetition",
-"Scenario Lab":"Scenarielabb","Library:":"Bibliotek:","Chapter:":"Kapitel:","Mode:":"Läge:","Difficulty:":"Svårighet:","Session:":"Session:","▶ Start Session":"▶ Starta session","All modes":"Alla lägen","All chapters":"Alla kapitel","Beginner":"Nybörjare","Intermediate":"Medel","Advanced":"Avancerad","Your mission":"Ditt uppdrag","Reveal insights":"Visa insikter","Insights":"Insikter","Key concepts":"Nyckelbegrepp","Got it":"Förstått","Missed it":"Missade det","Initial dialogue":"Inledande dialog","Matrix":"Matris","Case file":"Ärendefil","Subject":"Subjekt","Scenario complete!":"Scenario slutfört!","Session Score":"Sessionspoäng","No scenarios match the selected filters.":"Inga scenarier matchar de valda filtren.","🔄 New Session":"🔄 Ny session","Correct!":"Rätt!","Not quite.":"Inte riktigt."}
+"Scenario Lab":"Scenarielabb","🔁 Review":"🔁 Repetera","Review":"Repetera","Review Session":"Repetitionspass","🔄 Review Again":"🔄 Repetera igen"," good":" rätt","Library:":"Bibliotek:","Chapter:":"Kapitel:","Mode:":"Läge:","Difficulty:":"Svårighet:","Session:":"Session:","▶ Start Session":"▶ Starta session","All modes":"Alla lägen","All chapters":"Alla kapitel","Beginner":"Nybörjare","Intermediate":"Medel","Advanced":"Avancerad","Your mission":"Ditt uppdrag","Reveal insights":"Visa insikter","Insights":"Insikter","Key concepts":"Nyckelbegrepp","Got it":"Förstått","Missed it":"Missade det","Initial dialogue":"Inledande dialog","Matrix":"Matris","Case file":"Ärendefil","Subject":"Subjekt","Scenario complete!":"Scenario slutfört!","Session Score":"Sessionspoäng","No scenarios match the selected filters.":"Inga scenarier matchar de valda filtren.","🔄 New Session":"🔄 Ny session","Correct!":"Rätt!","Not quite.":"Inte riktigt."}
 function t(s){return showSwedish?(svUI[s]||s):s}
 
 function getEntries(){let e=[];topics.forEach(t=>t.entries.forEach(entry=>{let cat=t.categories.find(c=>c.id===entry.category);e.push({...entry,courseId:t.id,courseName:t.name,catName:cat?cat.name:'',catColor:cat?cat.color:'#7dd3fc'})}));return e}
@@ -518,8 +528,8 @@ let currentAudio=null,currentText=''
 function speakText(text,lang){if(!text)return;if(currentAudio){currentAudio.pause();currentAudio.currentTime=0;if(currentText===text){currentAudio=null;currentText='';return};currentAudio=null};let audio=new Audio('/tts?text='+encodeURIComponent(text)+'&lang='+encodeURIComponent(lang||'en-US'));audio.play().catch(function(){});currentAudio=audio;currentText=text}
 function addSpeakerListeners(container){container.querySelectorAll('.speaker-btn').forEach(function(btn){btn.addEventListener('click',function(e){e.stopPropagation();speakText(this.dataset.say,this.dataset.lang)})})}
 function updateNavLabels(){
-let sv={browse:'Bläddra',flash:'Flashkort',quiz:'Quiz',match:'Matcha',cloze:'Fyll i',sequence:'Sekvens',exam:'Tentamen',lab:'Scenarielabb',deep:'Djupdykning',resources:'Resurser',dashboard:'Dashboard'}
-let en={browse:'Browse',flash:'Flashcards',quiz:'Quiz',match:'Match',cloze:'Fill in blank',sequence:'Sequence',exam:'Exam',lab:'Scenario Lab',deep:'Deep Dive',resources:'Resources',dashboard:'Dashboard'}
+let sv={browse:'Bläddra',flash:'Flashkort',quiz:'Quiz',match:'Matcha',cloze:'Fyll i',sequence:'Sekvens',exam:'Tentamen',lab:'Scenarielabb',review:'Repetera',deep:'Djupdykning',resources:'Resurser',dashboard:'Dashboard'}
+let en={browse:'Browse',flash:'Flashcards',quiz:'Quiz',match:'Match',cloze:'Fill in blank',sequence:'Sequence',exam:'Exam',lab:'Scenario Lab',review:'Review',deep:'Deep Dive',resources:'Resources',dashboard:'Dashboard'}
 let labels=showSwedish?sv:en
 document.querySelectorAll('.nav-item[data-tab]').forEach(el=>{
 let lbl=labels[el.dataset.tab]
@@ -571,6 +581,8 @@ document.getElementById('qaCloze').textContent=t('✍️ Fill in blank')
 document.getElementById('qaSequence').textContent=t('📋 Sequence')
 document.getElementById('qaExam').textContent=t('📝 Exam')
 document.getElementById('qaLab').textContent=t('🧪 Scenario Lab')
+document.getElementById('qaReview').textContent=t('🔁 Review')
+document.getElementById('reviewTitle').textContent=t('🔁 Review')
 document.getElementById('sbReviewTitle').textContent=t('Needs Review')
 document.getElementById('sbReset').textContent=t('🗑️ Reset All Progress')
 document.getElementById('sbTheme').textContent=isDark?t('☀️ Light'):t('🌙 Dark')
@@ -601,7 +613,7 @@ let due=getDueConcepts()
 let el=document.getElementById('sbReviewList')
 if(due.length===0){el.innerHTML='<div style="font-size:0.72rem;color:var(--text-tertiary);padding:4px 0">'+t('All caught up!')+'</div>';return}
 el.innerHTML=due.slice(0,5).map(d=>'<div class="concept-review-item" data-concept="'+d.concept+'"><span class="cr-dot"></span>'+d.concept+'</div>').join('')
-el.querySelectorAll('.concept-review-item').forEach(item=>item.addEventListener('click',function(){switchTab('flash');showFlashFor(this.dataset.concept)}))
+el.querySelectorAll('.concept-review-item').forEach(item=>item.addEventListener('click',function(){switchTab('review');initReview(this.dataset.concept)}))
 }
 document.getElementById('sbReset').addEventListener('click',function(){if(confirm(t('Reset all progress? This cannot be undone.'))){localStorage.clear();location.reload()}})
 
@@ -621,6 +633,7 @@ else if(tab==='cloze'){trackActivity('cloze');initCloze()}
 else if(tab==='sequence'){trackActivity('sequence');initSequence()}
 else if(tab==='exam'){trackActivity('exam');renderDiffPills('exam',document.getElementById('examDiff'),function(){});renderModeFilters('exam',document.getElementById('examFilters'),document.getElementById('examCatFilters'),function(){})}
 else if(tab==='lab'){trackActivity('lab');initLabConfig()}
+else if(tab==='review'){trackActivity('review');initReview()}
 else if(tab==='deep'){trackActivity('deep');renderDeepDives()}
 else if(tab==='resources'){trackActivity('resources');renderResources()}
 else if(tab==='dashboard')renderDashboard()
@@ -713,10 +726,12 @@ document.addEventListener('keydown',function(e){
 let navMap={'1':'browse','2':'flash','3':'quiz','4':'match','5':'cloze','6':'sequence','7':'exam','8':'deep','9':'resources','0':'dashboard'}
 if(e.altKey&&navMap[e.key]){e.preventDefault();switchTab(navMap[e.key])}
 if(e.key==='Enter'&&currentTab==='cloze')document.getElementById('clozeCheck').click()
-if(currentTab!=='flash')return
+if(currentTab==='flash'){
 if(e.code==='Space'){e.preventDefault();document.getElementById('flashCard').classList.toggle('flipped')}
 if(e.code==='ArrowLeft'){document.getElementById('flashPrev').click()}
 if(e.code==='ArrowRight'){document.getElementById('flashNext').click()}
+}
+if(currentTab==='review'&&e.code==='Space'){e.preventDefault();let rc=document.getElementById('reviewCard');if(rc)rc.classList.toggle('flipped')}
 })
 
 // Quiz
@@ -983,7 +998,7 @@ let totalConcepts=entries.length
 let hrs=new Date().getHours()
 let greeting=hrs<12?t('Good morning'):hrs<17?t('Good afternoon'):t('Good evening')
 let lastStr=''
-if(stats.lastActivity){let mins=Math.round((Date.now()-stats.lastTime)/60000);let ago=mins<1?t('just now'):mins<60?mins+t('m ago'):Math.round(mins/60)+t('h ago');let labels={flash:t('Flashcards'),quiz:t('Quiz'),match:t('Match'),cloze:t('Fill in blank'),sequence:t('Sequence'),exam:t('Exam'),lab:t('Scenario Lab'),deep:t('Deep Dive'),resources:t('Resources')};lastStr='<div style="font-size:0.78rem;color:var(--text-tertiary);margin-bottom:10px">'+t('Last studied: ')+'<strong style="color:var(--text-secondary)">'+(labels[stats.lastActivity]||stats.lastActivity)+'</strong> · '+ago+'</div>'}
+if(stats.lastActivity){let mins=Math.round((Date.now()-stats.lastTime)/60000);let ago=mins<1?t('just now'):mins<60?mins+t('m ago'):Math.round(mins/60)+t('h ago');let labels={flash:t('Flashcards'),quiz:t('Quiz'),match:t('Match'),cloze:t('Fill in blank'),sequence:t('Sequence'),exam:t('Exam'),lab:t('Scenario Lab'),review:t('Review'),deep:t('Deep Dive'),resources:t('Resources')};lastStr='<div style="font-size:0.78rem;color:var(--text-tertiary);margin-bottom:10px">'+t('Last studied: ')+'<strong style="color:var(--text-secondary)">'+(labels[stats.lastActivity]||stats.lastActivity)+'</strong> · '+ago+'</div>'}
 let html='<div style="font-size:1.3rem;font-weight:700;color:var(--text);font-family:var(--font-serif);margin-bottom:4px">'+greeting+'</div>'
 html+=lastStr
 html+='<div class="dash-grid">'
@@ -992,17 +1007,64 @@ html+='<div class="dash-card"><div class="dash-label">'+t('Study Streak')+'</div
 html+='<div class="dash-card"><div class="dash-label">'+t('Concepts')+'</div><div class="dash-value">'+totalConcepts+'</div><div class="dash-sub">'+t('Across ')+topics.length+t(' modules')+'</div></div>'
 html+='<div class="dash-card"><div class="dash-label">'+t('SRS Cards')+'</div><div class="dash-value">'+totalReviewed+'</div><div class="dash-sub">'+(totalConcepts>0?Math.round(totalReviewed/totalConcepts*100):0)+t('% mastered')+'</div></div>'
 html+='</div>'
-if(dueCount>0)html+='<div style="margin-top:14px"><button class="btn btn-accent btn-sm" onclick="switchTab(\'flash\')">'+t('📚 Review ')+dueCount+t(' due cards')+'</button></div>'
+if(dueCount>0)html+='<div style="margin-top:14px"><button class="btn btn-accent btn-sm" onclick="switchTab(\'review\');initReview()">'+t('📚 Review ')+dueCount+t(' due cards')+'</button></div>'
 html+='<div style="margin-top:18px"><div class="sidebar-section-title">'+t('Module Progress')+'</div><div class="dash-mod-grid">'
 topics.forEach(t=>{let topicEntries=entries.filter(e=>e.courseId===t.id);let reviewed=topicEntries.filter(e=>srs[e.concept]).length;let pct=Math.round(reviewed/topicEntries.length*100);html+='<div class="dash-mod-card"><div class="dash-mod-name">'+t.name.replace(/^\d+\.\s*/,'')+'</div><div class="dash-mod-count">'+reviewed+'/'+topicEntries.length+'</div><div class="dash-mod-bar"><div class="dash-mod-fill" style="width:'+pct+'%"></div></div></div>'})
 html+='</div></div>'
 if(weak.length){html+='<div style="margin-top:16px"><div class="sidebar-section-title">'+t('Concepts Needing Review')+'</div>'+weak.map((w,i)=>'<div class="concept-review-item" data-concept="'+w.concept+'" style="animation-delay:'+(i*0.05)+'s"><span class="cr-dot"></span>'+w.concept+'</div>').join('')+'</div>'}
 document.getElementById('dashboardContent').innerHTML=html
 document.querySelectorAll('#dashboardContent .concept-review-item').forEach(item=>item.addEventListener('click',function(){
-switchTab('flash');showFlashFor(this.dataset.concept)
+switchTab('review');initReview(this.dataset.concept)
 }))
 }
 
+
+// Review Mode
+let revQ=[],revIdx=0,revGood=0,revTotal=0
+function reviewInfo(key){
+if(key.indexOf('lab:')===0){let m=key.match(/^lab:([^:]+):\s*(.*)$/),bookId=m?m[1]:'',topic=m?m[2]:key;let book=ASSET_LIBS.find(b=>b.id===bookId);return {concept:topic,sub:book?book.title:'',lab:bookId?{bookId,topic}:null}}
+return {concept:key,sub:'',lab:null}
+}
+function reviewBack(d){
+let info=reviewInfo(d.concept)
+if(info.lab){let as=labAllAssets().filter(a=>a.bookId===info.lab.bookId&&a.topic===info.lab.topic);if(as.length){let a=as[0];return {def:a.player_mission||a.visual_frame_description||'—',scenario:a.question||a.description||''}}}
+let e=getEntries().find(x=>x.concept===d.concept)
+if(e){let cn=showSwedish&&e.sv?e.sv.definition:e.definition,sc=showSwedish&&e.sv?e.sv.real_world_scenario:e.real_world_scenario;return {def:cn,scenario:sc}}
+return {def:d.concept,scenario:''}
+}
+function initReview(prefer){
+let due=getDueConcepts()
+revQ=due;revIdx=0;revGood=0;revTotal=due.length
+if(prefer){let i=due.findIndex(d=>d.concept===prefer);if(i>0){let pick=revQ.splice(i,1)[0];revQ.unshift(pick)}}
+document.getElementById('reviewProgress').style.display=due.length?'block':'none'
+document.getElementById('reviewBar').style.width='0%'
+if(!due.length){document.getElementById('reviewContent').innerHTML='<div style="text-align:center;padding:40px 0;color:var(--text-tertiary);font-size:0.9rem">'+t('All caught up!')+' 🎉</div>';return}
+showReview()
+}
+function showReview(){
+if(revIdx>=revQ.length){showReviewResult();return}
+let d=revQ[revIdx],info=reviewInfo(d.concept),back=reviewBack(d)
+document.getElementById('reviewCounter').textContent=(revIdx+1)+' / '+revTotal
+document.getElementById('reviewScoreLabel').textContent=revGood+t(' good')
+document.getElementById('reviewBar').style.width=(revIdx/revTotal*100)+'%'
+let c=document.getElementById('reviewContent')
+c.innerHTML='<div class="flash-card" id="reviewCard" style="min-height:300px"><div class="flash-card-inner" style="height:300px"><div class="flash-front"><div class="flash-concept" style="font-size:1.2rem">'+esc(info.concept)+'</div>'+(info.sub?'<div style="font-size:0.68rem;color:var(--text-tertiary);margin-top:6px">'+esc(info.sub)+'</div>':'')+'<div class="flash-prompt">'+t('Tap or press Space to reveal')+'</div></div><div class="flash-back"><div class="flash-def">'+esc(back.def)+'</div>'+(back.scenario?'<div class="flash-scenario">'+esc(back.scenario)+'</div>':'')+'</div></div></div>'
+c.innerHTML+='<div style="margin-top:12px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap"><button class="btn btn-sm btn-accent" id="revSRS1">🤔 '+t('Hard')+'</button><button class="btn btn-sm btn-accent" id="revSRS2">😊 '+t('Good')+'</button><button class="btn btn-sm btn-accent" id="revSRS3">🌟 '+t('Easy')+'</button></div>'
+document.getElementById('reviewCard').addEventListener('click',function(){this.classList.toggle('flipped')})
+document.querySelectorAll('[id^=revSRS]').forEach(btn=>btn.addEventListener('click',function(){
+let idx=parseInt(this.id.slice(-1)),quality=[0,2,3.5,5][idx],key=revQ[revIdx].concept
+updateSRS(key,quality)
+if(quality>=3)revGood++
+revIdx++;showReview()
+}))
+}
+function showReviewResult(){
+let pct=revTotal?Math.round(revGood/revTotal*100):0
+document.getElementById('reviewContent').innerHTML='<div class="result-overlay"><div class="ro-box"><div class="ro-score">'+revGood+'/'+revTotal+'</div><div class="ro-label">'+t('Review Session')+'</div><div class="ro-detail">'+(pct>=70?t('Well done! Keep reviewing.'):t('Keep practicing! Try again to improve your score.'))+'</div><button class="btn btn-accent" id="revAgain">'+t('🔄 Review Again')+'</button></div></div>'
+if(pct>=70)burstConfetti()
+document.getElementById('revAgain').addEventListener('click',function(){document.getElementById('reviewProgress').style.display='none';initReview()})
+let stats=load('app_stats',{quizzes:0});stats.quizzes=(stats.quizzes||0)+1;stats.reviews=(stats.reviews||0)+1;save('app_stats',stats);updateSidebar()
+}
 
 // Scenario Lab
 let labQ=[],labIdx=0,labScore=0,labAnswered=false
