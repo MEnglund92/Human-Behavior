@@ -49,7 +49,7 @@ book, all sharing one schema (Section 4). They feed a game (PWA frontend,
 | # | Book | Author | Status | Assets |
 |---|------|--------|--------|--------|
 | 1 | Workbook of Attached (adult attachment) | Levine & Heller | DONE | 45 |
-| 2 | The Definitive Book of Body Language | Pease & Pease | DONE | 100 |
+| 2 | The Definitive Book of Body Language | Pease & Pease | DONE (Phase 2: 200) | 200 |
 | 3 | What Every BODY Is Saying | Navarro | DONE | 50 |
 | 4 | Emotions Revealed | Ekman | DONE (deep pass) | 135 |
 | 5 | Telling Lies | Ekman | DONE (deep pass) | 65 |
@@ -58,7 +58,7 @@ book, all sharing one schema (Section 4). They feed a game (PWA frontend,
 | 8 | **The Power of Body Language** | Tonya Reiman | **DONE (Phase 2: 105)** | 105 |
 | 9 | **Truth & Lies** | Bowden & Thomson | **DONE (Phase 1 new)** | 70 |
 
-**Running total: 705 assets, all validated (see Section 6).**
+**Running total: 845 assets, all validated (see Section 6).**
 
 ### Marked `(Not)` / skip — do NOT generate assets for these
 - Body Language (Allan Pease)
@@ -218,10 +218,10 @@ Latest run results (2026-07-31, after M1 warning cleanup):
   ALL VALID (0 warnings; duplicate-type chapters split into sub-chapters)
 
 Also valid (earlier passes, still with only SHORT key_concepts warnings to be
-fixed in their Phase-2 passes): attached_workbook (45), definitive_body_language
-(100), what_every_body (50). M5 books (behave, laws_human_nature,
-mans_search_meaning, moral_animal, predictably_irrational, social_intelligence)
-still carry the legacy missing-field warnings — fixed by their Phase 2 pass.
+fixed in their Phase-2 passes): attached_workbook (45), what_every_body (50).
+M5 books (behave, laws_human_nature, mans_search_meaning, moral_animal,
+predictably_irrational, social_intelligence) still carry the legacy
+missing-field warnings — fixed by their Phase 2 pass.
 - **Grand total: 1331 assets, ALL VALID** (excluding the two known placeholder
   files `apa_nonverbal_assets.json` and `research_methods_assets.json`, which
   are not JSON objects and have 0 assets - intentionally left alone). After
@@ -301,6 +301,17 @@ insufficient at 230 assets). Plan for Phase 2:
   `python extract/tools/gen_reiman_p2.py` (idempotent - auto-skips existing ids).
 - **Phase 2 complete — no books remain.** Both Phase-2 targets (Bowden, Glass,
   Reiman) are done.
+- **Definitive (The Definitive Book of Body Language) — DONE 2026-07-31.**
+  100 → 200 assets. Book re-read from `definitive_p2.txt` (8064 lines / 438 pp,
+  re-extracted with `extract\tools\extract_text.py`); all 19 chapters +
+  Introduction mapped from `--- PAGE n ---` markers (Intro p18 .. Ch19 p410);
+  per-chapter entries `df00`-`df19` added with one asset of each type per
+  chapter. Legacy topical entries (intro, ch01-ch19) kept and their 4-item
+  key_concepts expanded to 8-12 from the new chapter data. Generators live
+  in-repo: `extract\tools\gen_definitive_p2.py` + data modules
+  `extract\tools\definitive_p2_data_{a..e}.py`. Re-run with
+  `python extract/tools/gen_definitive_p2.py` (idempotent - auto-skips
+  existing ids).
 
 ### Phase 2 progress (Glass)
 
@@ -381,10 +392,13 @@ Goal: expose all extracted assets in the PWA instead of leaving them as JSON.
    (21 libs / 1,267 assets); sw.js cache bumped v7 → v8.
 3. **Reiman Phase 2 (done)** — see §8; 60 → 105 assets (re10-re18); frontend
    rebuilt (21 libs / 1,312 assets); sw.js cache bumped v8 → v9.
-4. **Verified** — inline script `node --check` OK (44 script tags / 1 inline);
+4. **Definitive Phase 2 (done)** — see §8; 100 → 200 assets (df00-df19);
+   legacy lists expanded; frontend rebuilt (21 libs / 1,412 assets); sw.js
+   cache bumped v10 → v11.
+5. **Verified** — inline script `node --check` OK (44 script tags / 1 inline);
    review logic unit-tested in node (lab key parsing, card-back resolution,
    fallbacks); full-chain: topics=18, deepDives=17, resources=5, ASSET_LIBS=21,
-   assets=1312; all URLs 200 on port 8765. Manual browser pass recommended:
+   assets=1412; all URLs 200 on port 8765. Manual browser pass recommended:
    rate a few cards in each source (flash + lab) so they become due, then run a
    Review session end-to-end.
 

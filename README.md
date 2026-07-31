@@ -13,7 +13,7 @@ An interactive **progressive web app (PWA)** for exploring the science of human 
 | **Fill in blank** | Cloze-style fill-in-the-blank exercises with word bank support |
 | **Sequence** | Order steps of psychological frameworks from first to last |
 | **Exam** | Mixed-mode exam (quiz, cloze, sequence questions) with configurable question count |
-| **Scenario Lab** | Interactive scenario trainer: 21 scenario libraries (1,312 assets, 5 game modes) from the extracted books — pick a library + chapter, filter by mode/difficulty, and work through briefing → mission → verification, feeding results into SRS |
+| **Scenario Lab** | Interactive scenario trainer: 21 scenario libraries (1,412 assets, 5 game modes) from the extracted books — pick a library + chapter, filter by mode/difficulty, and work through briefing → mission → verification, feeding results into SRS |
 | **Review** | Dedicated SRS review queue: all due cards (flashcards + Scenario Lab) in one 3D-flip session with Hard/Good/Easy ratings and session summary |
 | **Deep Dive** | In-depth concept articles with expandable sections, framework descriptions, and key takeaways |
 | **Resources** | Reference material cards — PDFs, images, audio, websites, journals |
@@ -68,7 +68,7 @@ Human Behavior/
 │   ├── deep-dives.js     — const _deepDives
 │   └── resources.js      — const _resources
 ├── assets.js             — Aggregator: const ASSET_LIBS from assets/ (Scenario Lab)
-├── assets/               — One file per scenario library (const _AL_<book>, 21 libraries, 1,312 assets)
+├── assets/               — One file per scenario library (const _AL_<book>, 21 libraries, 1,412 assets)
 ├── server.py             — Python HTTP server with Piper TTS endpoint
 ├── imports/
 │   ├── __init__.py       — Package marker
@@ -84,6 +84,7 @@ Human Behavior/
 │       ├── gen_bowden_p2.py         — Phase 2 Bowden generator (255 assets)
 │       ├── gen_glass_p2.py          — Phase 2 Glass generator (120 assets)
 │       ├── gen_reiman_p2.py         — Phase 2 Reiman generator (105 assets)
+│       ├── gen_definitive_p2.py     — Phase 2 Definitive generator (200 assets)
 │       └── validate.py              — Asset JSON validator
 └── README.md              — This file
 ```
