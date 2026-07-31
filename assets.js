@@ -1,0 +1,25 @@
+// Scenario Lab asset libraries — regenerate with:
+//   python extract\tools\build_frontend_assets.py
+const ASSET_LIBS = [
+  _AL_apa_nonverbal,
+  _AL_attached_workbook,
+  _AL_behave,
+  _AL_bowden_truth_lies,
+  _AL_definitive_body_language,
+  _AL_dictionary_body_language,
+  _AL_emotions_revealed,
+  _AL_glass_liars,
+  _AL_influence,
+  _AL_laws_human_nature,
+  _AL_mans_search_meaning,
+  _AL_mistakes,
+  _AL_moral_animal,
+  _AL_predictably_irrational,
+  _AL_reiman_power_body_language,
+  _AL_research_methods,
+  _AL_righteous_mind,
+  _AL_social_animal,
+  _AL_social_intelligence,
+  _AL_telling_lies,
+  _AL_what_every_body,
+];

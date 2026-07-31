@@ -232,6 +232,21 @@ body{font-family:var(--font-ui);background:var(--bg);color:var(--text);line-heig
 .speaker-btn{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border:none;background:var(--accent-soft);color:var(--accent);border-radius:50%;cursor:pointer;font-size:0.7rem;transition:all .2s;vertical-align:middle;margin-left:6px;flex-shrink:0;font-family:var(--font-ui);line-height:1}
 .speaker-btn:hover{background:var(--accent);color:#fff;transform:scale(1.1)}
 .speaker-btn.playing{animation:pulse .6s ease infinite}
+.lab-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius-card);padding:20px;margin-bottom:14px}
+.lab-card-title{font-family:var(--font-serif);font-size:1.25rem;font-weight:700;color:var(--text);margin-bottom:10px;line-height:1.3}
+.lab-frame{font-size:0.85rem;line-height:1.65;color:var(--text-secondary);margin-bottom:10px}
+.lab-mission{font-size:0.85rem;line-height:1.65;color:var(--text);background:var(--accent-soft);border-left:3px solid var(--accent);padding:10px 14px;border-radius:8px;margin-bottom:10px}
+.lab-dossier{font-size:0.82rem;line-height:1.6;color:var(--text-secondary);border-top:1px dashed var(--border);padding-top:10px;margin-top:10px}
+.lab-dialogue{white-space:pre-wrap;font-size:0.82rem;color:var(--text-secondary);margin-top:6px}
+.lab-matrix{border-collapse:collapse;margin-top:8px;width:100%;font-size:0.78rem}
+.lab-matrix th,.lab-matrix td{border:1px solid var(--border);padding:6px 8px;text-align:left;vertical-align:top}
+.lab-matrix th{background:var(--accent-soft);color:var(--text);font-weight:600}
+.lab-insight{background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:14px;margin-bottom:10px;font-size:0.82rem;line-height:1.6;color:var(--text-secondary)}
+.lab-insight-label{font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--accent);margin-bottom:6px}
+.lab-kc{padding:3px 0}
+.lab-feedback{font-weight:700;font-size:0.9rem;margin-top:12px}
+.lab-feedback.lab-good{color:var(--success)}
+.lab-feedback.lab-bad{color:var(--error)}
 @media(max-width:600px){.left-nav .nav-items{justify-content:space-around}}
 </style>
 </head>
@@ -247,6 +262,7 @@ body{font-family:var(--font-ui);background:var(--bg);color:var(--text);line-heig
 <div class="nav-item" data-tab="cloze"><span class="nav-icon">✍️</span><span class="nav-label">Fill in blank</span></div>
 <div class="nav-item" data-tab="sequence"><span class="nav-icon">📋</span><span class="nav-label">Sequence</span></div>
 <div class="nav-item" data-tab="exam"><span class="nav-icon">📝</span><span class="nav-label">Exam</span></div>
+<div class="nav-item" data-tab="lab"><span class="nav-icon">🧪</span><span class="nav-label">Scenario Lab</span></div>
 <div class="nav-item" data-tab="deep"><span class="nav-icon">🔬</span><span class="nav-label">Deep Dive</span></div>
 <div class="nav-item" data-tab="resources"><span class="nav-icon">📖</span><span class="nav-label">Resources</span></div>
 
@@ -365,6 +381,27 @@ body{font-family:var(--font-ui);background:var(--bg);color:var(--text);line-heig
 </div>
 </div>
 
+<div class="tab-panel" id="tab-lab">
+<div class="module-card">
+<div class="module-title" id="labTitle">🧪 Scenario Lab</div>
+<div class="exam-config" id="labConfig" style="flex-wrap:wrap">
+<label style="font-size:0.78rem;color:var(--text-tertiary)" id="labBookLabel">Library:</label>
+<select id="labBook"></select>
+<label style="font-size:0.78rem;color:var(--text-tertiary)" id="labChapterLabel">Chapter:</label>
+<select id="labChapter"></select>
+<label style="font-size:0.78rem;color:var(--text-tertiary)" id="labModeLabel">Mode:</label>
+<select id="labMode"></select>
+<label style="font-size:0.78rem;color:var(--text-tertiary)" id="labDiffLabel">Difficulty:</label>
+<select id="labDiff"></select>
+<label style="font-size:0.78rem;color:var(--text-tertiary)" id="labCountLabel">Session:</label>
+<select id="labCount"></select>
+<button class="btn btn-accent btn-sm" id="labStart">▶ Start Session</button>
+</div>
+<div class="exam-progress" id="labProgress" style="display:none"><div style="display:flex;justify-content:space-between;font-size:0.78rem;color:var(--text-tertiary)"><span id="labProgressLabel">0 / 10</span><span id="labScoreLabel">0 correct</span></div><div class="bar-wrap"><div class="bar-fill" id="labBar" style="width:0%"></div></div></div>
+<div id="labContent"></div>
+</div>
+</div>
+
 <div class="tab-panel" id="tab-deep">
 <div class="filter-bar" id="deepFilters"></div>
 <div id="deepContent"></div>
@@ -399,6 +436,7 @@ body{font-family:var(--font-ui);background:var(--bg);color:var(--text);line-heig
 <div class="quick-action" data-tab="cloze" id="qaCloze">✍️ Fill in blank</div>
 <div class="quick-action" data-tab="sequence" id="qaSequence">📋 Sequence</div>
 <div class="quick-action" data-tab="exam" id="qaExam">📝 Exam</div>
+<div class="quick-action" data-tab="lab" id="qaLab">🧪 Scenario Lab</div>
 </div>
 <div class="sidebar-section-title" id="sbReviewTitle">Needs Review</div>
 <div id="sbReviewList"></div>
@@ -407,7 +445,49 @@ body{font-family:var(--font-ui);background:var(--bg);color:var(--text);line-heig
 </aside>
 </div>
 <div class="theme-overlay" id="themeOverlay"></div>
+<script src="data/topics/topic-intro-behavior.js"></script>
+<script src="data/topics/topic-behavioral-psych.js"></script>
+<script src="data/topics/topic-social-psych.js"></script>
+<script src="data/topics/topic-body-language.js"></script>
+<script src="data/topics/topic-cognitive-biases.js"></script>
+<script src="data/topics/topic-personality.js"></script>
+<script src="data/topics/topic-nonverbal-codes.js"></script>
+<script src="data/topics/topic-deception-detection.js"></script>
+<script src="data/topics/topic-emotion-expression.js"></script>
+<script src="data/topics/topic-impression-mgmt.js"></script>
+<script src="data/topics/topic-interpersonal-dynamics.js"></script>
+<script src="data/topics/topic-reading-people.js"></script>
+<script src="data/topics/topic-moral-psychology.js"></script>
+<script src="data/topics/topic-evolutionary-psych.js"></script>
+<script src="data/topics/topic-biological-bases.js"></script>
+<script src="data/topics/topic-attachment-relationships.js"></script>
+<script src="data/topics/topic-existential-humanistic.js"></script>
+<script src="data/topics/topic-body-language-extracted.js"></script>
+<script src="data/deep-dives.js"></script>
+<script src="data/resources.js"></script>
 <script src="data.js"></script>
+<script src="assets/assetlib-apa_nonverbal.js"></script>
+<script src="assets/assetlib-attached_workbook.js"></script>
+<script src="assets/assetlib-behave.js"></script>
+<script src="assets/assetlib-bowden_truth_lies.js"></script>
+<script src="assets/assetlib-definitive_body_language.js"></script>
+<script src="assets/assetlib-dictionary_body_language.js"></script>
+<script src="assets/assetlib-emotions_revealed.js"></script>
+<script src="assets/assetlib-glass_liars.js"></script>
+<script src="assets/assetlib-influence.js"></script>
+<script src="assets/assetlib-laws_human_nature.js"></script>
+<script src="assets/assetlib-mans_search_meaning.js"></script>
+<script src="assets/assetlib-mistakes.js"></script>
+<script src="assets/assetlib-moral_animal.js"></script>
+<script src="assets/assetlib-predictably_irrational.js"></script>
+<script src="assets/assetlib-reiman_power_body_language.js"></script>
+<script src="assets/assetlib-research_methods.js"></script>
+<script src="assets/assetlib-righteous_mind.js"></script>
+<script src="assets/assetlib-social_animal.js"></script>
+<script src="assets/assetlib-social_intelligence.js"></script>
+<script src="assets/assetlib-telling_lies.js"></script>
+<script src="assets/assetlib-what_every_body.js"></script>
+<script src="assets.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded',function(){
 let currentTab='browse',flashIdx=0,flashList=[],matchedPairs=[],selMatch=null,examQ=[],examIdx=0,examScore=0,seqItems=[],seqPlaced=[],clozeData=null,showSwedish=false
@@ -425,7 +505,8 @@ const svUI={
 "Overview":"Översikt","Key Takeaways":"Huvudpunkter","Expand All":"Expandera alla","Collapse All":"Minimera alla",
 "PDFs":"PDF-filer","Images":"Bilder","Audio":"Ljud","Websites":"Webbplatser","Journals":"Tidskrifter",
 "📂 Open":"📂 Öppna","Flashcards":"Flashkort","Match":"Matcha","Sequence":"Sekvens","Exam":"Tentamen","Deep Dive":"Djupdykning","Resources":"Resurser","Step ":"Steg ","Word ":"Ord ","Check":"Kontrollera"," sections read":" avsnitt lästa","m ago":"m sedan","h ago":"h sedan","In the study of \"":"I studien av \"","\",\" researchers observed that ____ is a key factor in understanding this phenomenon.":",\" observerade forskare att ____ är en nyckelfaktor för att förstå detta fenomen.",
-"Good morning":"God morgon","Good afternoon":"God eftermiddag","Good evening":"God kväll","just now":"just nu","Last studied: ":"Senast studerat: ","Due for Review":"Förfaller för repetition","cards need practice":"kort behöver övning","Study Streak":"Studiedagsserie"," days":" dagar","Keep going!":"Fortsätt så!","Concepts":"Begrepp","Across ":"Över "," modules":" moduler","SRS Cards":"SRS-kort","% mastered":"% inlärt","📚 Review ":"📚 Repetera "," due cards":" förfallna kort","Module Progress":"Modulframsteg","Concepts Needing Review":"Begrepp som behöver repetition"}
+"Good morning":"God morgon","Good afternoon":"God eftermiddag","Good evening":"God kväll","just now":"just nu","Last studied: ":"Senast studerat: ","Due for Review":"Förfaller för repetition","cards need practice":"kort behöver övning","Study Streak":"Studiedagsserie"," days":" dagar","Keep going!":"Fortsätt så!","Concepts":"Begrepp","Across ":"Över "," modules":" moduler","SRS Cards":"SRS-kort","% mastered":"% inlärt","📚 Review ":"📚 Repetera "," due cards":" förfallna kort","Module Progress":"Modulframsteg","Concepts Needing Review":"Begrepp som behöver repetition",
+"Scenario Lab":"Scenarielabb","Library:":"Bibliotek:","Chapter:":"Kapitel:","Mode:":"Läge:","Difficulty:":"Svårighet:","Session:":"Session:","▶ Start Session":"▶ Starta session","All modes":"Alla lägen","All chapters":"Alla kapitel","Beginner":"Nybörjare","Intermediate":"Medel","Advanced":"Avancerad","Your mission":"Ditt uppdrag","Reveal insights":"Visa insikter","Insights":"Insikter","Key concepts":"Nyckelbegrepp","Got it":"Förstått","Missed it":"Missade det","Initial dialogue":"Inledande dialog","Matrix":"Matris","Case file":"Ärendefil","Subject":"Subjekt","Scenario complete!":"Scenario slutfört!","Session Score":"Sessionspoäng","No scenarios match the selected filters.":"Inga scenarier matchar de valda filtren.","🔄 New Session":"🔄 Ny session","Correct!":"Rätt!","Not quite.":"Inte riktigt."}
 function t(s){return showSwedish?(svUI[s]||s):s}
 
 function getEntries(){let e=[];topics.forEach(t=>t.entries.forEach(entry=>{let cat=t.categories.find(c=>c.id===entry.category);e.push({...entry,courseId:t.id,courseName:t.name,catName:cat?cat.name:'',catColor:cat?cat.color:'#7dd3fc'})}));return e}
@@ -437,8 +518,8 @@ let currentAudio=null,currentText=''
 function speakText(text,lang){if(!text)return;if(currentAudio){currentAudio.pause();currentAudio.currentTime=0;if(currentText===text){currentAudio=null;currentText='';return};currentAudio=null};let audio=new Audio('/tts?text='+encodeURIComponent(text)+'&lang='+encodeURIComponent(lang||'en-US'));audio.play().catch(function(){});currentAudio=audio;currentText=text}
 function addSpeakerListeners(container){container.querySelectorAll('.speaker-btn').forEach(function(btn){btn.addEventListener('click',function(e){e.stopPropagation();speakText(this.dataset.say,this.dataset.lang)})})}
 function updateNavLabels(){
-let sv={browse:'Bläddra',flash:'Flashkort',quiz:'Quiz',match:'Matcha',cloze:'Fyll i',sequence:'Sekvens',exam:'Tentamen',deep:'Djupdykning',resources:'Resurser',dashboard:'Dashboard'}
-let en={browse:'Browse',flash:'Flashcards',quiz:'Quiz',match:'Match',cloze:'Fill in blank',sequence:'Sequence',exam:'Exam',deep:'Deep Dive',resources:'Resources',dashboard:'Dashboard'}
+let sv={browse:'Bläddra',flash:'Flashkort',quiz:'Quiz',match:'Matcha',cloze:'Fyll i',sequence:'Sekvens',exam:'Tentamen',lab:'Scenarielabb',deep:'Djupdykning',resources:'Resurser',dashboard:'Dashboard'}
+let en={browse:'Browse',flash:'Flashcards',quiz:'Quiz',match:'Match',cloze:'Fill in blank',sequence:'Sequence',exam:'Exam',lab:'Scenario Lab',deep:'Deep Dive',resources:'Resources',dashboard:'Dashboard'}
 let labels=showSwedish?sv:en
 document.querySelectorAll('.nav-item[data-tab]').forEach(el=>{
 let lbl=labels[el.dataset.tab]
@@ -489,6 +570,7 @@ document.getElementById('qaMatch').textContent=t('🔗 Match')
 document.getElementById('qaCloze').textContent=t('✍️ Fill in blank')
 document.getElementById('qaSequence').textContent=t('📋 Sequence')
 document.getElementById('qaExam').textContent=t('📝 Exam')
+document.getElementById('qaLab').textContent=t('🧪 Scenario Lab')
 document.getElementById('sbReviewTitle').textContent=t('Needs Review')
 document.getElementById('sbReset').textContent=t('🗑️ Reset All Progress')
 document.getElementById('sbTheme').textContent=isDark?t('☀️ Light'):t('🌙 Dark')
@@ -502,6 +584,13 @@ document.getElementById('seqInstr').textContent=t('Tap the steps in order from f
 document.getElementById('examTitle').textContent=t('📝 Exam Mode')
 document.getElementById('examQuestionsLabel').textContent=t('Questions:')
 document.getElementById('examStart').textContent=t('▶ Start Exam')
+document.getElementById('labTitle').textContent=t('🧪 Scenario Lab')
+document.getElementById('labBookLabel').textContent=t('Library:')
+document.getElementById('labChapterLabel').textContent=t('Chapter:')
+document.getElementById('labModeLabel').textContent=t('Mode:')
+document.getElementById('labDiffLabel').textContent=t('Difficulty:')
+document.getElementById('labCountLabel').textContent=t('Session:')
+document.getElementById('labStart').textContent=t('▶ Start Session')
 }
 function updateSidebar(){
 let stats=load('app_stats',{quizzes:0,streak:0,lastDate:''})
@@ -531,6 +620,7 @@ else if(tab==='match'){trackActivity('match');initMatch()}
 else if(tab==='cloze'){trackActivity('cloze');initCloze()}
 else if(tab==='sequence'){trackActivity('sequence');initSequence()}
 else if(tab==='exam'){trackActivity('exam');renderDiffPills('exam',document.getElementById('examDiff'),function(){});renderModeFilters('exam',document.getElementById('examFilters'),document.getElementById('examCatFilters'),function(){})}
+else if(tab==='lab'){trackActivity('lab');initLabConfig()}
 else if(tab==='deep'){trackActivity('deep');renderDeepDives()}
 else if(tab==='resources'){trackActivity('resources');renderResources()}
 else if(tab==='dashboard')renderDashboard()
@@ -893,7 +983,7 @@ let totalConcepts=entries.length
 let hrs=new Date().getHours()
 let greeting=hrs<12?t('Good morning'):hrs<17?t('Good afternoon'):t('Good evening')
 let lastStr=''
-if(stats.lastActivity){let mins=Math.round((Date.now()-stats.lastTime)/60000);let ago=mins<1?t('just now'):mins<60?mins+t('m ago'):Math.round(mins/60)+t('h ago');let labels={flash:t('Flashcards'),quiz:t('Quiz'),match:t('Match'),cloze:t('Fill in blank'),sequence:t('Sequence'),exam:t('Exam'),deep:t('Deep Dive'),resources:t('Resources')};lastStr='<div style="font-size:0.78rem;color:var(--text-tertiary);margin-bottom:10px">'+t('Last studied: ')+'<strong style="color:var(--text-secondary)">'+(labels[stats.lastActivity]||stats.lastActivity)+'</strong> · '+ago+'</div>'}
+if(stats.lastActivity){let mins=Math.round((Date.now()-stats.lastTime)/60000);let ago=mins<1?t('just now'):mins<60?mins+t('m ago'):Math.round(mins/60)+t('h ago');let labels={flash:t('Flashcards'),quiz:t('Quiz'),match:t('Match'),cloze:t('Fill in blank'),sequence:t('Sequence'),exam:t('Exam'),lab:t('Scenario Lab'),deep:t('Deep Dive'),resources:t('Resources')};lastStr='<div style="font-size:0.78rem;color:var(--text-tertiary);margin-bottom:10px">'+t('Last studied: ')+'<strong style="color:var(--text-secondary)">'+(labels[stats.lastActivity]||stats.lastActivity)+'</strong> · '+ago+'</div>'}
 let html='<div style="font-size:1.3rem;font-weight:700;color:var(--text);font-family:var(--font-serif);margin-bottom:4px">'+greeting+'</div>'
 html+=lastStr
 html+='<div class="dash-grid">'
@@ -911,6 +1001,106 @@ document.getElementById('dashboardContent').innerHTML=html
 document.querySelectorAll('#dashboardContent .concept-review-item').forEach(item=>item.addEventListener('click',function(){
 switchTab('flash');showFlashFor(this.dataset.concept)
 }))
+}
+
+
+// Scenario Lab
+let labQ=[],labIdx=0,labScore=0,labAnswered=false
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function labAllAssets(){let out=[];ASSET_LIBS.forEach(b=>b.chapters.forEach(c=>c.assets.forEach(a=>out.push({...a,bookId:b.id,bookTitle:b.title,chapterId:c.id,chapterTitle:c.title}))));return out}
+function labModes(){return ['CUE_SCRUBBER_STATION','DYNAMIC_DIALOGUE_SIM','DECEPTION_AUDIT_FILE','DISCRIMINATION_MATRIX','BOSS_BATTLE']}
+function labModeName(m){return {CUE_SCRUBBER_STATION:t('Cue Scrubber'),DYNAMIC_DIALOGUE_SIM:t('Dialogue Sim'),DECEPTION_AUDIT_FILE:t('Deception Audit'),DISCRIMINATION_MATRIX:t('Discrimination Matrix'),BOSS_BATTLE:t('Boss Battle')}[m]||m}
+function labDiffName(d){return {Beginner:t('Beginner'),Intermediate:t('Intermediate'),Advanced:t('Advanced')}[d]||d}
+function initLabConfig(){
+let bookSel=document.getElementById('labBook')
+bookSel.innerHTML=ASSET_LIBS.map(b=>'<option value="'+b.id+'"'+(load('lab_book','bowden_truth_lies')===b.id?' selected':'')+'>'+esc(b.title)+'</option>').join('')
+renderLabChapter()
+bookSel.onchange=function(){save('lab_book',this.value);save('lab_chapter','');renderLabChapter()}
+let modeSel=document.getElementById('labMode')
+modeSel.innerHTML='<option value=""'+(load('lab_mode','')===''?' selected':'')+'>'+t('All modes')+'</option>'+labModes().map(m=>'<option value="'+m+'"'+(load('lab_mode','')===m?' selected':'')+'>'+labModeName(m)+'</option>').join('')
+modeSel.onchange=function(){save('lab_mode',this.value)}
+let diffSel=document.getElementById('labDiff')
+diffSel.innerHTML=['','Beginner','Intermediate','Advanced'].map(d=>'<option value="'+d+'"'+(load('lab_diff','')===d?' selected':'')+'>'+(d?labDiffName(d):t('All'))+'</option>').join('')
+diffSel.onchange=function(){save('lab_diff',this.value)}
+let cntSel=document.getElementById('labCount')
+cntSel.innerHTML=['5','10','20','All'].map(v=>'<option value="'+v+'"'+(load('lab_count','10')===v?' selected':'')+'>'+(v==='All'?t('All'):v)+'</option>').join('')
+cntSel.onchange=function(){save('lab_count',this.value)}
+}
+function renderLabChapter(){
+let book=ASSET_LIBS.find(b=>b.id===load('lab_book','bowden_truth_lies'))
+let sel=document.getElementById('labChapter')
+if(!book){sel.innerHTML='<option value="">—</option>';return}
+sel.innerHTML='<option value=""'+(load('lab_chapter','')===''?' selected':'')+'>'+t('All chapters')+'</option>'+book.chapters.map(c=>'<option value="'+esc(c.id)+'"'+(load('lab_chapter','')===c.id?' selected':'')+'>'+esc(c.title)+'</option>').join('')
+sel.onchange=function(){save('lab_chapter',this.value)}
+}
+document.getElementById('labStart').addEventListener('click',function(){
+let book=load('lab_book','bowden_truth_lies'),chapter=load('lab_chapter',''),mode=load('lab_mode',''),diff=load('lab_diff','')
+let count=document.getElementById('labCount').value
+let pool=labAllAssets().filter(a=>(!book||a.bookId===book)&&(!chapter||a.chapterId===chapter)&&(!mode||a.asset_type===mode)&&(!diff||a.difficulty_level===diff))
+if(!pool.length){alert(t('No scenarios match the selected filters.'));return}
+let take=count==='All'?pool.length:Math.min(parseInt(count),pool.length)
+labQ=shuffle(pool).slice(0,take);labIdx=0;labScore=0
+document.getElementById('labConfig').style.display='none'
+document.getElementById('labProgress').style.display='block'
+renderLab()
+})
+function labInsights(a){
+let parts=[]
+if(a.key_concepts&&a.key_concepts.length)parts.push('<div class="lab-insight"><div class="lab-insight-label">'+t('Key concepts')+'</div>'+a.key_concepts.map(k=>'<div class="lab-kc">• '+esc(k)+'</div>').join('')+'</div>')
+let text=a.correct_cue||a.correct_answer||a.correct_diagnosis||a.boss_battle_explanation||a.explanation||a.theoretical_principle
+if(text)parts.push('<div class="lab-insight"><div class="lab-insight-label">'+t('Insights')+'</div><div>'+esc(text)+'</div></div>')
+if(a.diagnostic_breakdown)parts.push('<div class="lab-insight"><div class="lab-insight-label">'+t('Breakdown')+'</div><div>'+esc(a.diagnostic_breakdown)+'</div></div>')
+if(a.underlying_psychology)parts.push('<div class="lab-insight"><div class="lab-insight-label">'+t('Underlying psychology')+'</div><div>'+esc(a.underlying_psychology)+'</div></div>')
+return parts.join('')
+}
+function labGrade(a,ok,insight){
+if(ok)labScore++
+updateSRS('lab:'+a.bookId+': '+a.topic,ok?5:2)
+labAnswered=true
+let v=document.getElementById('labVerify')
+v.insertAdjacentHTML('beforeend','<div class="lab-feedback'+(ok?' lab-good':' lab-bad')+'">'+(ok?t('Correct!'):t('Not quite.'))+'</div>'+(insight?'<div style="margin-top:12px">'+insight+'</div>':'')+'<div style="margin-top:12px"><button class="btn btn-accent" id="labNextBtn">'+t('Next →')+'</button></div>')
+document.getElementById('labNextBtn').addEventListener('click',function(){labIdx++;renderLab()})
+}
+function renderLab(){
+if(labIdx>=labQ.length){showLabResult();return}
+let a=labQ[labIdx]
+document.getElementById('labProgressLabel').textContent=(labIdx+1)+' / '+labQ.length
+document.getElementById('labScoreLabel').textContent=labScore+' / '+labIdx
+document.getElementById('labBar').style.width=(labIdx/labQ.length*100)+'%'
+let c=document.getElementById('labContent')
+let head='<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px"><span class="cloze-badge">'+esc(a.bookTitle)+'</span><span class="cloze-badge">'+esc(a.chapterTitle)+'</span><span class="cloze-badge" style="background:var(--accent-soft)">'+labModeName(a.asset_type)+'</span><span class="cloze-badge" style="opacity:.85">'+labDiffName(a.difficulty_level)+'</span></div>'
+let brief='<div class="lab-card"><div class="lab-card-title">'+esc(a.topic)+'</div>'
+if(a.visual_frame_description)brief+='<div class="lab-frame">'+esc(a.visual_frame_description)+'</div>'
+if(a.player_mission)brief+='<div class="lab-mission"><strong>'+t('Your mission')+':</strong> '+esc(a.player_mission)+'</div>'
+if(a.asset_type==='DYNAMIC_DIALOGUE_SIM'&&a.initial_dialogue)brief+='<div class="lab-dossier"><strong>'+t('Initial dialogue')+':</strong><div class="lab-dialogue">'+esc(a.initial_dialogue)+'</div></div>'
+if(a.asset_type==='DECEPTION_AUDIT_FILE'&&a.observed_nonverbal_log)brief+='<div class="lab-dossier"><strong>'+t('Case file')+':</strong><ul style="margin:6px 0 0 18px;padding:0">'+a.observed_nonverbal_log.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div>'
+if(a.asset_type==='BOSS_BATTLE'&&a.subject_baseline)brief+='<div class="lab-dossier"><strong>'+t('Subject')+':</strong> '+esc(a.subject_baseline)+'</div>'
+if(a.asset_type==='DISCRIMINATION_MATRIX'&&a.rows){let colA=a.column_a_label||'A',colB=a.column_b_label||'B',colC=a.column_c_label||'C';brief+='<div class="lab-dossier"><strong>'+t('Matrix')+':</strong><table class="lab-matrix"><tr><th></th><th>'+esc(colA)+'</th><th>'+esc(colB)+'</th><th>'+esc(colC)+'</th></tr>'+a.rows.map((r,i)=>'<tr><td>'+esc(r[0]||r.row||i+1)+'</td>'+(Array.isArray(r)?r.slice(1).map(cell=>'<td>'+esc(cell)+'</td>').join(''):'<td colspan="3">'+esc(r)+'</td>')+'</tr>').join('')+'</table></div>'}
+brief+='</div>'
+c.innerHTML=head+brief+'<div id="labVerify"></div>'
+let v=document.getElementById('labVerify')
+if(a.question&&(a.choices&&a.choices.length||a.distractors&&a.distractors.length)){
+v.innerHTML='<div class="quiz-scenario">'+esc(a.question)+'</div><div class="quiz-grid" id="labQuizGrid"></div>'
+let opts=a.choices&&a.choices.length?a.choices:shuffle([a.correct_cue,...a.distractors])
+let correct=a.choices&&a.choices.length?a.correct_answer:a.correct_cue
+let grid=document.getElementById('labQuizGrid')
+opts.forEach(o=>{let b=document.createElement('button');b.className='quiz-opt';b.textContent=o;b.addEventListener('click',function(){if(labAnswered)return;grid.querySelectorAll('.quiz-opt').forEach(bb=>bb.style.pointerEvents='none');let ok=String(o)===String(correct);if(ok){this.classList.add('correct');burstConfetti()}else{this.classList.add('wrong')}labGrade(a,ok,labInsights(a))});grid.appendChild(b)})
+}else{
+v.innerHTML='<button class="btn btn-accent" id="labReveal">'+t('Reveal insights')+'</button>'
+document.getElementById('labReveal').addEventListener('click',function(){
+let insight=labInsights(a)
+this.outerHTML='<div style="margin-top:12px">'+insight+'<div style="display:flex;gap:8px;margin-top:12px"><button class="btn btn-sm btn-accent" id="labGot">✅ '+t('Got it')+'</button><button class="btn btn-sm" id="labMissed">'+t('Missed it')+'</button></div></div>'
+document.getElementById('labGot').addEventListener('click',function(){labGrade(a,true,insight)})
+document.getElementById('labMissed').addEventListener('click',function(){labGrade(a,false,insight)})
+})
+}
+}
+function showLabResult(){
+let pct=labQ.length?Math.round(labScore/labQ.length*100):0
+document.getElementById('labContent').innerHTML='<div class="result-overlay"><div class="ro-box"><div class="ro-score">'+labScore+'/'+labQ.length+'</div><div class="ro-label">'+t('Session Score')+'</div><div class="ro-detail">'+(pct>=70?t('Well done! Keep reviewing.'):t('Keep practicing! Try again to improve your score.'))+'</div><button class="btn btn-accent" id="labAgain">'+t('🔄 New Session')+'</button></div></div>'
+if(pct>=70)burstConfetti()
+document.getElementById('labAgain').addEventListener('click',function(){document.getElementById('labConfig').style.display='flex';document.getElementById('labProgress').style.display='none';document.getElementById('labContent').innerHTML='';initLabConfig()})
+let stats=load('app_stats',{quizzes:0});stats.quizzes=(stats.quizzes||0)+1;stats.lab=(stats.lab||0)+1;save('app_stats',stats);updateSidebar()
 }
 
 

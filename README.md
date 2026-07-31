@@ -13,6 +13,7 @@ An interactive **progressive web app (PWA)** for exploring the science of human 
 | **Fill in blank** | Cloze-style fill-in-the-blank exercises with word bank support |
 | **Sequence** | Order steps of psychological frameworks from first to last |
 | **Exam** | Mixed-mode exam (quiz, cloze, sequence questions) with configurable question count |
+| **Scenario Lab** | Interactive scenario trainer: 21 scenario libraries (1,207 assets, 5 game modes) from the extracted books — pick a library + chapter, filter by mode/difficulty, and work through briefing → mission → verification, feeding results into SRS |
 | **Deep Dive** | In-depth concept articles with expandable sections, framework descriptions, and key takeaways |
 | **Resources** | Reference material cards — PDFs, images, audio, websites, journals |
 | **Dashboard** | Overall stats, per-course progress bars, SRS due count, streak tracking, module progress |
@@ -58,16 +59,37 @@ After opening the app in a supported browser (Chrome, Edge, Brave):
 
 ```
 Human Behavior/
-├── index.html       — The entire app (HTML + CSS + JS, ~90 KB)
-├── data.js          — All course entries, topics, categories, deep dives, and resources
-├── server.py        — Python HTTP server with Piper TTS endpoint
+├── index.html            — The entire app (HTML + CSS + JS)
+├── data.js               — Aggregator: reassembles topics/deepDives/resources from data/
+├── data-full.js          — Monolithic data source (18 topics + deep dives + resources)
+├── data/
+│   ├── topics/topic-*.js — One file per topic (const _t_<id>)
+│   ├── deep-dives.js     — const _deepDives
+│   └── resources.js      — const _resources
+├── assets.js             — Aggregator: const ASSET_LIBS from assets/ (Scenario Lab)
+├── assets/               — One file per scenario library (const _AL_<book>, 21 libraries, 1,207 assets)
+├── server.py             — Python HTTP server with Piper TTS endpoint
 ├── imports/
-│   ├── __init__.py  — Package marker
-│   └── tts.py       — Piper TTS wrapper (lazy-loading, synthesis)
-├── manifest.json    — PWA manifest for installable app
-├── sw.js            — Service worker for offline caching
-├── icons/           — PWA app icons (192×192, 512×512)
-└── README.md        — This file
+│   ├── __init__.py       — Package marker
+│   └── tts.py            — Piper TTS wrapper (lazy-loading, synthesis)
+├── manifest.json         — PWA manifest for installable app
+├── sw.js                 — Service worker for offline caching (cache v7)
+├── icons/                — PWA app icons (192×192, 512×512)
+├── extract/
+│   ├── generated_assets/ — Canonical asset JSONs (per book); legacy/ holds retired duplicates
+│   └── tools/
+│       ├── split_data_js.py         — Split data-full.js → data/ (re-runnable)
+│       ├── build_frontend_assets.py — generated_assets/ → assets/ + assets.js (re-runnable)
+│       ├── gen_bowden_p2.py         — Phase 2 Bowden generator (255 assets)
+│       └── validate.py              — Asset JSON validator
+└── README.md              — This file
+```
+
+Regenerating the data split and the Scenario Lab libraries:
+
+```powershell
+python extract\tools\split_data_js.py          # data-full.js → data/ + data.js
+python extract\tools\build_frontend_assets.py  # extract\generated_assets → assets/ + assets.js
 ```
 
 Voice models (stored one level up, shared across projects):
