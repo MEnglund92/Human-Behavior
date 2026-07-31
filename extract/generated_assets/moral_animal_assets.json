@@ -1,0 +1,752 @@
+{
+  "source": "The Moral Animal: Why We Are the Way We Are – Robert Wright (1994)",
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "Darwin Comes of Age",
+      "pages": "19–32",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "History of Science | Natural Theology vs. Evolution",
+          "topic": "Paley's Watchmaker: Natural Theology vs. Natural Selection",
+          "question": "Why did Darwin find William Paley's argument from design 'charming and convincing' at Cambridge, and how did natural selection ultimately answer Paley's challenge without invoking a designer?",
+          "correct_answer": "Paley in Natural Theology (1802) argued that just as a watch implies a watchmaker, the intricate design of organisms implies a divine designer. Darwin at Cambridge was 'charmed and convinced' by this logic. But natural selection provided a mechanical explanation for apparent design: variation + selection over deep time produces complex, adapted structures without any conscious designer. The watchmaker is blind and unconscious — natural selection has no goal, no foresight, and no intention, yet its cumulative effects mimic intelligent design. Darwin did not disprove God but showed that design is an emergent property of an undirected process.",
+          "distractors": [
+            "Darwin rejected Paley entirely and never found the argument from design persuasive — he became an atheist during his Beagle voyage",
+            "Paley's argument was about geology, not biology — he argued that the Earth's structure shows evidence of design, which Darwin accepted",
+            "Darwin's theory proved that Paley was wrong about everything — there is no evidence of design in nature at all"
+          ],
+          "explanation": "The Paley-Darwin relationship is one of the great ironies in intellectual history. Darwin read Paley as part of his Cambridge curriculum and found the argument from design deeply persuasive. He later wrote that Paley's logic gave him 'as much delight as any Euclid.' The theory of natural selection did not refute Paley's premise — that organisms appear designed — but provided an alternative explanation for that appearance. Richard Dawkins later called natural selection 'the blind watchmaker' — a process that achieves design-like complexity without conscious intention."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Evolutionary Psychology | Natural Selection",
+          "topic": "Darwin's Dangerous Idea: Natural Selection Applied to Mind",
+          "visual_frame_description": "A timeline from 1859 to present. Darwin's On the Origin of Species appears in 1859, with almost no mention of humans. Then The Descent of Man (1871) tentatively applies evolution to human psychology. Then a gap of nearly a century. Finally, in the 1960s-70s, Hamilton, Williams, Trivers, and Maynard Smith revolutionize the field. The visual shows a long dormant period followed by an explosion of insight.",
+          "target_channel": "Historical Development | Paradigm Shift in Behavioral Science",
+          "question": "Why did it take nearly a century after Darwin for evolutionary theory to be seriously applied to human social behavior?",
+          "correct_cue": "Two reasons: (1) The 'standard social science model' (Durkheim, behaviorists) dominated 20th-century thought, arguing that culture and learning override biology — the mind is a blank slate. (2) Early Darwinian applications were tainted by social Darwinism, eugenics, and racist ideologies, making the entire approach ideologically suspect in the social sciences. Only with Hamilton's inclusive fitness (1964) and Trivers's reciprocal altruism (1971) did a rigorous, testable framework emerge.",
+          "distractors": [
+            "Darwin deliberately avoided applying his theory to humans because he was religious and feared contradicting the Bible",
+            "The necessary technology (brain imaging, DNA sequencing) did not exist until the late 20th century",
+            "Darwin's theory was proven wrong by Mendel's genetics and had to be reformulated before it could apply to behavior"
+          ],
+          "underlying_psychology": "The 'standard social science model' (a term coined by John Tooby and Leda Cosmides) held that the human mind is a general-purpose learning machine with no innate structure. This view dominated anthropology, sociology, and psychology for most of the 20th century. The evolutionary psychology revolution challenged this by arguing that the mind contains many specialized modules shaped by natural selection to solve recurrent adaptive problems faced by our ancestors. The resistance was not scientific but ideological — the blank slate view was seen as more compatible with egalitarian social values."
+        }
+      ]
+    },
+    {
+      "id": "ch02",
+      "title": "Male and Female",
+      "pages": "33–54",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Evolutionary Psychology | Sex Differences",
+          "topic": "Parental Investment Theory: Bateman's Principle",
+          "question": "According to Trivers's parental investment theory, what is the fundamental asymmetry that drives different reproductive strategies in males vs. females across most species?",
+          "correct_answer": "The sex that invests more in offspring (typically female — eggs are larger, fewer, and require gestation) becomes a limiting resource that the less-investing sex (typically male) competes for. Females maximize fitness by being choosy about mates (seeking quality/resources); males maximize fitness by competing for access to many mates (seeking quantity). This is Bateman's principle, which Trivers extended to predict sex differences in behavior across species, including humans.",
+          "distractors": [
+            "Males invest more in offspring because sperm are energetically costly to produce, making males the choosier sex",
+            "Parental investment is equal between the sexes in all mammals, so sex differences in behavior are purely cultural",
+            "Bateman's principle only applies to insects and birds — mammals show the opposite pattern because of lactation"
+          ],
+          "explanation": "Robert Trivers's 1972 paper on parental investment was one of the foundational documents of modern evolutionary psychology. The key insight: the sex that invests more in each offspring has more to lose from a bad mating decision, so they evolve to be selective. The sex that invests less can increase reproductive success by mating with many partners, so they evolve to be competitive and less discriminating. In humans, female investment is high (9-month gestation, lactation), predicting choosiness; male investment is lower, predicting competition for access. But human males often invest heavily in offspring (provisioning, protection), creating a more complex picture."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Evolutionary Psychology | Mating Strategies",
+          "topic": "The Cost of Choosiness: A Mate Selection Dilemma",
+          "scenario_setup": "You are an evolutionary psychologist advising a documentary filmmaker. She wants to understand why human mate preferences differ between the sexes. She presents you with data from a cross-cultural study of 37 societies on mate preferences.",
+          "initial_dialogue": "Filmmaker: 'The data show that across every culture studied, women consistently value financial resources and status in a mate more than men do, while men consistently value youth and physical attractiveness more than women do. My producer says this proves women are shallow gold-diggers and men are superficial. Is he right?'",
+          "choices": [
+            {
+              "choice_id": "A",
+              "text": "'Your producer is oversimplifying. These preferences are evolutionary adaptations — both sexes are looking for signals of reproductive value that were relevant in ancestral environments. Women value resources because offspring survival depended on provisioning; men value youth/fecundity because evolutionary fitness required fertile partners. Neither is 'shallower' — both are solving different adaptive problems.'",
+              "metric_impact": {
+                "Scientific Accuracy": 0.8,
+                "Nuance": 0.6,
+                "Cliched Framing Risk": -0.5
+              },
+              "feedback": "Excellent. You've explained the evolutionary logic without moralizing. Each sex's preferences are shaped by the specific constraints they faced in ancestral environments — neither is more 'valid' than the other."
+            },
+            {
+              "choice_id": "B",
+              "text": "'Actually, those sex differences are very small and largely culturally constructed. The data show much more variation within sexes than between them. Your producer is wrong.'",
+              "metric_impact": {
+                "Scientific Accuracy": -0.3,
+                "Nuance": 0.2,
+                "Cliched Framing Risk": 0.1
+              },
+              "feedback": "While it's true there's within-sex variation, the cross-cultural consistency of these sex differences (across 37 societies studied by Buss, 1989) is strong evidence for an evolved basis. Dismissing them as cultural misses the key finding."
+            },
+            {
+              "choice_id": "C",
+              "text": "'Women need resources because they're biologically weaker and can't provide for themselves. Men value youth because younger women are more fertile. This is just how evolution works.'",
+              "metric_impact": {
+                "Scientific Accuracy": 0.2,
+                "Nuance": -0.5,
+                "Cliched Framing Risk": 0.6
+              },
+              "feedback": "Close but problematic. 'Biologically weaker' is a value judgment, not evolutionary logic. The real explanation is about differential parental investment, not 'weakness.' The 'can't provide for themselves' framing is inaccurate — ancestral women foraged and provided substantial calories."
+            }
+          ],
+          "optimal_choice": "A",
+          "theoretical_principle": "Buss's cross-cultural study of 37 societies found consistent sex differences in mate preferences: women valued financial resources 100% more than men; men valued youth and physical attractiveness more than women. These patterns align with parental investment theory predictions. However, both sexes value kindness, intelligence, and compatibility as top priorities — the sex differences are in relative emphasis, not absolute categories."
+        }
+      ]
+    },
+    {
+      "id": "ch03",
+      "title": "Men and Women",
+      "pages": "55–92",
+      "assets": [
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Evolutionary Psychology | Sexual Strategies",
+          "topic": "The Sexual Double Standard: An Evolutionary Detective Story",
+          "subject_baseline": "A male academic is caught having an affair with a graduate student. His colleagues: 'He's got a problem, he needs help, but he's a brilliant scholar.' A female academic is caught having an affair with a graduate student. Her colleagues: 'She's unprofessional, she's damaged her career permanently, she should resign.' The asymmetric judgment is universal across cultures and history.",
+          "interrogation_transcript": "Cultural anthropologist: 'This double standard is purely cultural — a patriarchal system designed to control female sexuality.' Evolutionary psychologist: 'The double standard reflects deep evolutionary logic. Male reproductive success is increased by multiple partners (low cost per mating). Female reproductive success is increased by selecting the best partner (high cost per offspring). Therefore, male promiscuity was advantageous for genes, female promiscuity was costly. Over generations, different sexual psychologists evolved.'",
+          "observed_nonverbal_log": [
+            "Cultural explanation: points to variability across societies (some more permissive than others), cross-cultural differences in tolerance",
+            "Evolutionary explanation: points to cross-cultural UNIVERSALS — every society judges female infidelity more harshly than male, though the degree varies",
+            "Neither explanation is complete alone — culture and biology interact",
+            "Modern environments: birth control, paternity testing, and economic independence for women have changed the adaptive landscape dramatically"
+          ],
+          "question": "What is the evolutionary logic behind the sexual double standard, and why does it persist even in societies that explicitly reject it?",
+          "correct_diagnosis": "The asymmetry in reproductive certainty: females are always 100% certain of maternity; males can never be certain of paternity. Male jealousy and control of female sexuality evolved as paternity assurance mechanisms. The double standard arises from this: female infidelity is more costly to male fitness (raising another's offspring) than male infidelity is to female fitness. This evolved psychology persists even when modern contraception and DNA testing make the original logic less relevant.",
+          "distractors": [
+            "The double standard is entirely a product of patriarchal religion (especially Christianity and Islam) and disappears in secular societies",
+            "There is no double standard — research shows men and women are judged equally for infidelity in modern studies",
+            "The double standard benefits women by signaling their higher value on the mate market, making it an evolved female strategy"
+          ],
+          "diagnostic_breakdown": "Stage 1 — Asymmetric certainty: Female always knows a child is hers; male can never be sure. This is a biological fact with profound psychological consequences. Stage 2 — Paternity assurance: Males who were vigilant about female fidelity left more surviving offspring than males who were not. Over generations, male sexual jealousy and female reputation concern became universal features of human psychology. Stage 3 — Cultural expression: The evolved psychology is expressed through culturally specific norms (chastity requirements, veiling, honor killings, double standards in professional contexts). Stage 4 — Mismatch: Modern environments (DNA testing, birth control, female economic independence) have radically changed the adaptive landscape, but our psychology still carries the ancestral design."
+        }
+      ]
+    },
+    {
+      "id": "ch04",
+      "title": "The Marriage Market",
+      "pages": "93–107",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Evolutionary Psychology | Mate Selection",
+          "topic": "The Marriage Market: An Economic Model of Mate Choice",
+          "visual_frame_description": "A stock-market style ticker board. Instead of stocks, it lists human traits: 'YOUTH: up 4 points,' 'STATUS: steady,' 'KINDLINESS: mixed.' Beneath it, men and women walk through a metaphorical marketplace. Men are symbolically shopping for signals of fertility (clear skin, energy, bright eyes). Women are shopping for signals of resource-provisioning ability (ambition, industriousness, status).",
+          "target_channel": "Assortative Mating | Mate Value | Evolutionary Economics",
+          "question": "What does the 'marriage market' metaphor reveal about how mate value is assessed and negotiated between the sexes?",
+          "correct_cue": "The marriage market metaphor reveals that mate selection involves trade-offs — no one gets everything they want. People assess their own mate value (a combination of traits others find desirable) and settle for the best partner they can attract. This creates assortative mating: people with high mate value pair with each other. The metaphor also reveals that mate value changes over time (women's fertility declines, men's resources often increase), creating different strategic considerations for short-term vs. long-term mating.",
+          "distractors": [
+            "The marriage market is a patriarchal concept — women are commodities traded between men with no agency in the process",
+            "Mate selection is random — people fall in love with whoever they happen to meet, not through strategic calculation",
+            "The marriage market implies conscious calculation, but mate preferences are entirely subconscious and automatic"
+          ],
+          "underlying_psychology": "The marriage market concept, developed by evolutionists and economists, treats mate selection as a constrained optimization problem. Each person has a 'mate value' determined by traits the opposite sex finds attractive. People seek the highest-value partner they can attract. This predicts assortative mating (beautiful, high-status people pair with each other) and explains phenomena like the 'age hypergamy' pattern (men trade status for youth, women trade youth for status). The metaphor does not imply conscious calculation — these dynamics operate through evolved preferences, not explicit negotiation."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Evolutionary Psychology | Assortative Mating",
+          "topic": "The Matching Hypothesis: Who Ends Up With Whom",
+          "question": "What does the evolutionary psychology research on assortative mating predict about who marries whom?",
+          "correct_answer": "People tend to marry partners who are similar to themselves on multiple dimensions — physical attractiveness, intelligence, education, social class, ethnicity, and values. This 'positive assortative mating' is predicted by evolutionary theory because: (1) similar partners have similar mate value, creating a fair exchange; (2) similarity increases relationship stability and cooperation; (3) in ancestral environments, similar others were likely reliable cooperative partners.",
+          "distractors": [
+            "Opposites attract — people seek partners who complement their weaknesses, so tall people marry short people, extroverts marry introverts",
+            "Assortative mating is purely cultural — people marry within their social class because of opportunity, not preference",
+            "Men universally marry younger, less intelligent women, and women marry older, wealthier men regardless of their own traits"
+          ],
+          "explanation": "Evolutionary research on mate selection consistently finds positive assortative mating across hundreds of studies. The matching hypothesis (Berscheid et al., 1971) specifically showed that couples matched on physical attractiveness. David Buss's cross-cultural work extends this: couples match on multiple dimensions. This is not a conscious strategy but the emergent result of constrained choice — we pursue the most desirable partner we can attract, and the partners we can attract are those of roughly equal mate value to ourselves."
+        }
+      ]
+    },
+    {
+      "id": "ch05",
+      "title": "Darwin's Marriage",
+      "pages": "108–127",
+      "assets": [
+        {
+          "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+          "domain": "Evolutionary Psychology | Mate Choice",
+          "topic": "BOSS BATTLE: Darwin's Pro-Con List — The Evolution of Mate Choice",
+          "stage_1_observation": "In 1838, the 29-year-old Charles Darwin made a list on two sides of a piece of paper: 'Marry' on one side, 'Not Marry' on the other. Under 'Marry': 'Children — constant companion — someone to take care of house — charms of music and female chit-chat — better than a dog anyhow.' Under 'Not Marry': 'Freedom to go where one liked — conversation of clever men at clubs — not forced to visit relatives — expense and anxiety of children — perhaps my wife won't like London.'",
+          "stage_1_question": "What does Darwin's pro-con list reveal about the evolutionary logic of human mate choice at the proximate level of conscious deliberation?",
+          "stage_1_correct_answer": "Darwin's list shows that even the most rational mind approaches mate choice as a cost-benefit calculation involving trade-offs between resources (time, money, freedom), social benefits (companionship, family), and reproductive goals (children). His list balanced the benefits of reproductive success and companionship against the costs of resource expenditure and lost opportunities. This mirrors the logic of parental investment theory — both sexes weigh the costs and benefits of commitment before making the enormous investment of marriage and family.",
+          "stage_2_intervention": "Your friend is using Darwin's method — making a pro-con list about whether to marry their long-term partner. The list is heavily weighted toward 'Not Marry' because of career concerns, loss of freedom, and financial anxiety. Yet they are deeply in love and cannot imagine life without this person. The rational list contradicts the emotional attachment.",
+          "stage_2_correct_answer": "Recognize that the conscious calculus (pro-con list) captures only proximate considerations. The ultimate evolutionary logic — bonding systems designed for cooperative reproduction — operates through emotional attachment, not explicit calculation. The love, attachment, and fear of loss are evolved motivational systems that solved the adaptive problem of long-term commitment. The rational list is not wrong, but it's incomplete — it doesn't weigh the evolutionary benefits of pair-bonding (shared parental investment, reduced infanticide risk, protection) against lost opportunities. You can't spreadsheet love because love is the mechanism that evolved to override short-term cost-benefit analysis in service of long-term reproductive success.",
+          "boss_battle_explanation": "Darwin's marriage list is one of history's most human documents — the founder of modern biology approaching his own mate choice with the same analytical rigor he applied to barnacles and finches. Wright uses it to illustrate the distinction between proximate and ultimate explanations: Darwin consciously weighed costs and benefits (proximate), but the very structure of his deliberation — the fact that he felt compelled to marry, that he valued children and companionship — was shaped by millions of years of natural selection (ultimate). The conscious mind deliberates, but evolution wrote the software."
+        }
+      ]
+    },
+    {
+      "id": "ch06",
+      "title": "The Darwin Plan for Marital Bliss",
+      "pages": "128–152",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Evolutionary Psychology | Marriage",
+          "topic": "The Companionate Marriage: An Evolutionary Perspective on Modern Monogamy",
+          "scenario_setup": "Two friends are arguing about monogamy. One believes humans are 'naturally monogamous'; the other believes 'humans aren't designed for lifelong monogamy.' They ask you, an evolutionary psychologist, to settle the debate.",
+          "initial_dialogue": "Friend A: 'Humans aren't designed for monogamy. Look at divorce rates. Look at infidelity rates. Our ancestors weren't monogamous. Marriage is a recent social invention that goes against our nature.' Friend B: 'That's ridiculous. Most people get married. Most stay married. Monogamy is universal across cultures. It must be natural.'",
+          "choices": [
+            {
+              "choice_id": "A",
+              "text": "'Both of you are partially right and partially wrong. Human mating is characterized by flexibility — we are capable of both pair-bonding and extra-pair mating. Evidence: (1) Pair-bonding exists in all human societies, suggesting it's an evolved strategy. (2) But infidelity rates of 20-40% show we're not strictly monogamous. (3) Our anatomy (moderate testis size, sperm competition) suggests a mixed strategy. The evolutionary answer: humans evolved for a mix — long-term pair bonds with occasional extra-pair mating, reflecting the diverse reproductive strategies that worked in ancestral environments.'",
+              "metric_impact": {
+                "Scientific Accuracy": 0.9,
+                "Nuance": 0.8,
+                "Clarity": 0.5
+              },
+              "feedback": "This is the most accurate answer. Human reproductive strategy is best described as 'social monogamy with clandestine polygyny' — we form pair bonds but have psychological mechanisms for extra-pair mating under certain conditions. Anatomical evidence includes moderate testis size (suggesting moderate sperm competition, between gorillas/humans and chimps) and concealed ovulation (compatible with pair-bonding)."
+            },
+            {
+              "choice_id": "B",
+              "text": "'Friend A is right. Humans are definitely not designed for monogamy. Chimpanzees are promiscuous, and we share 98% of their DNA. Marriage is a cultural institution that suppresses our true nature.'",
+              "metric_impact": {
+                "Scientific Accuracy": -0.4,
+                "Nuance": -0.6,
+                "Clarity": 0.3
+              },
+              "feedback": "Oversimplified. We share 98% of DNA with chimps, but we also share 98% with bonobos (who are highly promiscuous but use sex for social bonding). And the 2% difference matters enormously. Human pair-bonding is supported by oxytocin and vasopressin systems that are distinct from chimp/bonobo patterns."
+            },
+            {
+              "choice_id": "C",
+              "text": "'Friend B is right. Humans are naturally monogamous. Divorce rates are high because of modern cultural stress, and infidelity is a pathology. In traditional societies, people stay married for life.'",
+              "metric_impact": {
+                "Scientific Accuracy": -0.5,
+                "Nuance": -0.5,
+                "Clarity": 0.2
+              },
+              "feedback": "Traditional societies actually show widespread polygyny and extra-pair mating. Cross-cultural data: 84% of societies permit polygyny. Serial monogamy (divorce and remarry) is also common. Strict lifelong monogamy is the exception, not the rule, cross-culturally."
+            }
+          ],
+          "optimal_choice": "A",
+          "theoretical_principle": "Wright's analysis of Darwin's marriage reveals that human mating is characterized by strategic flexibility. Pair-bonding evolved because biparental care increased offspring survival in the human lineage (long childhood, large brains requiring provisioning). But both sexes also have evolved strategies for opportunistic extra-pair mating — males seeking additional reproductive opportunities, females seeking genetic quality or insurance against mate loss. The resulting tension between pair-bonding and extra-pair desire is a central feature of human romantic psychology."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Evolutionary Psychology | Sexual Conflict",
+          "topic": "The Cuckold's Dilemma: Paternity Uncertainty and Male Jealousy",
+          "subject_baseline": "A married couple, married 5 years, with a 2-year-old child. The husband discovers that his wife had a brief affair during a period when conception was possible. The child's paternity is now uncertain. The husband experiences intense emotional pain — the most profound distress of his life — despite rationally knowing that he loves the child regardless of biology.",
+          "interrogation_transcript": "Wife: 'It meant nothing. It was one time. I was drunk. I love you. I love our child. None of that changes.' Husband: 'I know all of that rationally. But I can't stop thinking about it. I look at the child and I wonder. I feel like my family was stolen from me. I know it's just biology, but the feeling is overwhelming.' Therapist: 'Why does this hurt so much more than if you had had the affair, even though she says it 'meant nothing'?",
+          "observed_nonverbal_log": [
+            "Husband's distress is visceral, not cognitive — elevated heart rate, nausea, intrusive images",
+            "The pain is specific to the possibility of cuckoldry, not general betrayal — same-sex infidelity triggers less jealousy",
+            "Cross-cultural evidence: male sexual jealousy is the leading cause of domestic violence worldwide",
+            "Evolutionary logic: a male who did not experience intense jealousy at cuckoldry risk would have been selected against — he'd unwittingly raise rivals' offspring",
+            "The intensity of the emotion reflects the evolutionary cost — raising another male's offspring was one of the greatest fitness costs an ancestral male could suffer"
+          ],
+          "question": "Why does male sexual jealousy appear to be a biologically prepared response rather than a learned cultural attitude, and what evidence supports this?",
+          "correct_diagnosis": "Male sexual jealousy is an evolved psychological adaptation because the fitness cost of cuckoldry (raising another's offspring at the expense of one's own) was enormous in ancestral environments. Evidence: (1) It appears universally across cultures, not just patriarchal ones. (2) The physiological response is automatic and involuntary. (3) Sex differences in jealousy triggers are cross-culturally consistent — men are more distressed by sexual infidelity; women by emotional infidelity. (4) The response can be triggered even in people who consciously reject the double standard. Like fear of snakes, it is a prepared response that occurs even without cultural teaching.",
+          "distractors": [
+            "Male jealousy is purely a product of patriarchal property norms — women were treated as property, so men feel entitled to sexual exclusivity",
+            "Women experience jealousy more intensely than men but express it differently — through emotional withdrawal rather than anger",
+            "Jealousy is a learned response from witnessing parental models of possessiveness in childhood"
+          ],
+          "diagnostic_breakdown": "Stage 1 — Adaptive problem: Ancestral males faced the unique threat of cuckoldry. Raising a rival's offspring wasted resources and reduced the male's own reproductive success to zero for that mating effort. Stage 2 — Evolved solution: Natural selection favored males who experienced intense, automatic jealousy at cues of female sexual infidelity. This jealousy motivated mate guarding, vigilance, and deterrence behaviors that reduced cuckoldry risk. Stage 3 — Sex asymmetry: Females never faced the cuckoldry problem, so female jealousy evolved more in response to the threat of resource loss (emotional infidelity — partner abandoning the relationship). Stage 4 — Modern mismatch: The evolved jealousy response does not distinguish between ancestral threats (pregnancy from an affair) and modern ones, leading to distress even when birth control and DNA testing make cuckoldry unlikely."
+        }
+      ]
+    },
+    {
+      "id": "ch07",
+      "title": "Families",
+      "pages": "155–179",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Evolutionary Psychology | Kin Selection",
+          "topic": "Hamilton's Rule: The Mathematics of Self-Sacrifice",
+          "visual_frame_description": "A split diagram showing Hamilton's rule (rB > C) illustrated with real examples. Left: A ground squirrel risks its life to warn its siblings of a predator. Right: A human gives a kidney to her brother. Equations show the genetic calculus: r (degree of relatedness: 0.5 for siblings, 0.125 for cousins) × B (benefit to recipient) > C (cost to actor). If true, the altruism gene spreads.",
+          "target_channel": "Kin Selection | Inclusive Fitness | Hamilton's Rule",
+          "question": "What is Hamilton's rule (rB > C) and how does it explain altruism toward genetic relatives?",
+          "correct_cue": "Hamilton's rule (1964) states that an altruistic act will be favored by natural selection when the genetic relatedness (r) between actor and recipient multiplied by the reproductive benefit to the recipient (B) exceeds the reproductive cost to the actor (C). This is because copies of the altruism gene are present in relatives with probability r. Altruism toward siblings (r=0.5) requires the benefit to be only 2x the cost; toward cousins (r=0.125), the benefit must be 8x the cost. Kin selection explains why organisms sacrifice for relatives — they are indirectly propagating their own genes, a concept called 'inclusive fitness.'",
+          "distractors": [
+            "Hamilton's rule explains altruism toward anyone — the rule is about society benefiting from cooperation, not genetic relatedness",
+            "The r in Hamilton's rule stands for 'reciprocity' — altruism evolves because relatives are more likely to return favors",
+            "Hamilton's rule was disproven by Trivers and only applies to insects like ants and bees, not humans or mammals"
+          ],
+          "underlying_psychology": "Hamilton's 1964 papers on inclusive fitness were arguably the most important advance in evolutionary theory since Darwin. Before Hamilton, altruism was a paradox for natural selection — how could self-sacrifice evolve? Hamilton's elegant solution: natural selection acts on genes, not individuals. A gene for altruism can spread if it causes individuals to help relatives who carry copies of the same gene. This insight unified the biology of social behavior and explained everything from sterile worker ants to human family bonds. The theory predicts that humans should feel stronger attachment and altruism toward closer relatives — which they universally do, though culture shapes the expression."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Evolutionary Psychology | Parent-Offspring Conflict",
+          "topic": "Trivers's Theory of Parent-Offspring Conflict",
+          "question": "According to Trivers (1974), why is there inherent genetic conflict between parents and offspring, even in loving families?",
+          "correct_answer": "Parents are equally related (r=0.5) to each of their offspring. Each offspring is also related (r=0.5) to itself but only (r=0.25) to a full sibling. Therefore, an offspring values its own survival twice as much as its sibling's survival, while the parent values each equally. This creates conflict over the duration and intensity of parental investment — offspring want more investment for themselves than parents want to give, since parents must divide resources among all current and future offspring. Weaning conflict in mammals is the classic example.",
+          "distractors": [
+            "Parent-offspring conflict only arises in abusive or neglectful families — healthy families are harmonious",
+            "Conflict is caused by resource scarcity, not genetics — if resources were unlimited, there would be no conflict",
+            "Trivers's theory predicts parents always win conflicts because they are larger and more powerful"
+          ],
+          "explanation": "Trivers's parent-offspring conflict theory is one of the most counterintuitive insights in evolutionary psychology. The genetic asymmetry means that a child is selected to want more investment (weaning later, more attention, more food) than the parent is selected to give. This explains the universal 'terrible twos' — toddler tantrums are an evolved strategy to extract more parental investment. It also explains phenomena like sibling rivalry (siblings are competitors for parental investment) and adolescent-parent conflict (as offspring become reproductively viable, their optimal investment strategy diverges further from parents')."
+        }
+      ]
+    },
+    {
+      "id": "ch08",
+      "title": "Darwin and the Savages",
+      "pages": "180–188",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Evolutionary Psychology | Human Universals",
+          "topic": "Darwin's Fuegian Encounter: Who Is 'Civilized'?",
+          "scenario_setup": "You are a historian of science writing a book about Darwin's encounter with the Fuegians. Your editor challenges you: 'Darwin was a product of his time — he clearly believed in racial hierarchy. But he also argued for the psychic unity of humankind. How do you reconcile these facts?'",
+          "initial_dialogue": "Editor: 'On one hand, Darwin describes the Fuegians as 'savages,' using the racial language of his era. On the other, he brings a Fuegian boy named Jemmy Button back to England, educates him, and presents him at court as proof that all humans share the same mental capacities. When Jemmy later returns to Tierra del Fuego and reverts to his native ways, Darwin is deeply unsettled. Was Darwin a racist who believed in fixed racial hierarchies, or a universalist who believed environment alone shaped human differences?'",
+          "choices": [
+            {
+              "choice_id": "A",
+              "text": "'Darwin was genuinely conflicted, and that conflict powered his theory. He observed that the Fuegians had the same emotions, intelligence, and moral capacity as Englishmen — just expressed in a different cultural context. This suggested a universal human nature. But the vast differences in technology, social organization, and 'refinement' also needed explanation. Natural selection provided it: all humans share the same evolved psychology, but local conditions — ecology, history, chance — shape how that psychology is expressed. Darwin was not a racial essentialist; he was a pioneer of the view that beneath cultural variation lies a common human nature shaped by common evolutionary history.'",
+              "metric_impact": {
+                "Historical Accuracy": 0.9,
+                "Nuance": 0.8,
+                "Controversy Management": 0.6
+              },
+              "feedback": "This is the most accurate assessment. Darwin's Fuegian encounter pushed him toward universalism: if 'savages' could be educated and behave like English gentlemen, then the human mind is fundamentally the same everywhere. But the rapid reversion of Jemmy Button to Fuegian ways also showed Darwin the power of early environment in shaping behavior — a theme that anticipates modern developmental psychology."
+            },
+            {
+              "choice_id": "B",
+              "text": "'Darwin was a Victorian racist, full stop. He believed Europeans were more evolved than other races. The entire theory of evolution was used to justify colonialism and racial hierarchy.'",
+              "metric_impact": {
+                "Historical Accuracy": -0.4,
+                "Nuance": -0.6,
+                "Controversy Management": -0.3
+              },
+              "feedback": "This oversimplifies. Darwin explicitly opposed slavery, was disgusted by the treatment of native peoples, and argued for the unity of the human species. While he used the language of his era ('savages'), his theoretical framework — common descent with modification — implies that all humans share the same evolutionary heritage."
+            },
+            {
+              "choice_id": "C",
+              "text": "'Darwin was a pure environmentalist — he believed that humans are blank slates shaped entirely by their circumstances. The Fuegians were 'backward' because of their environment, and if you raised an English child in Tierra del Fuego, they'd become Fuegian.'",
+              "metric_impact": {
+                "Historical Accuracy": -0.5,
+                "Nuance": -0.4,
+                "Controversy Management": 0.1
+              },
+              "feedback": "Darwin was not a blank-slate environmentalist. He believed that evolved instincts and emotions are universal across humans, and that natural selection shaped these universals. Environment shapes the expression of these instincts, not the instincts themselves."
+            }
+          ],
+          "optimal_choice": "A",
+          "theoretical_principle": "Wright uses the Fuegian encounter to illustrate the core tension in evolutionary psychology: we have a universal human nature (evolved psychological mechanisms shared by all humans) but it is expressed differently across cultures. Darwin's genius was to see both the unity and the diversity as products of the same evolutionary process. The Fuegians were not 'less evolved' — they were adapted to a different environment."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Evolutionary Psychology | Cultural Universals",
+          "topic": "Darwin's Observations on Tierra del Fuego: Human Nature Across Cultures",
+          "visual_frame_description": "Darwin's ship, The Beagle, anchored off Tierra del Fuego. Darwin encounters the native Fuegians and is struck by the contrast between their 'savage' state and the civilized Englishmen on board. He is initially repulsed — their manners, appearance, language all seem utterly alien. Yet he also notes the universal expressions of emotion and the capacity for sympathy. The visual shows two panels: 'Surface Differences' (clothing, customs, language) and 'Deep Similarities' (love, jealousy, curiosity, loyalty).",
+          "target_channel": "Psychic Unity of Humankind | Cultural Universals | Evolved Psychology",
+          "question": "What did Darwin's encounter with the Fuegians reveal about human nature that was central to his theory of human evolution?",
+          "correct_cue": "Darwin saw both the profound cultural differences AND the underlying psychological unity. The Fuegians had different customs, language, and technology — but they laughed, cried, and loved their children the same way. This suggested that beneath cultural variation lies a universal human nature shaped by common evolutionary history. The psychic unity of humankind — the idea that all humans share the same evolved psychological mechanisms — became a foundational assumption of evolutionary psychology.",
+          "distractors": [
+            "Darwin concluded that the Fuegians were a separate species and used this to argue for racial hierarchies in human evolution",
+            "Darwin was horrified by the Fuegians and decided human nature was entirely a product of civilization — biological evolution stopped at the neck",
+            "The Fuegian encounter convinced Darwin that human nature was a blank slate, with all behavior determined by local culture"
+          ],
+          "underlying_psychology": "Darwin's Fuegian encounter illustrates a key tension in evolutionary thinking. The 'standard social science model' emphasizes cultural variation and concludes that human nature is infinitely malleable. Evolutionary psychology emphasizes the shared architecture beneath the variation — the universal emotions, cognitive biases, and social motivations that appear in all cultures because they are products of our shared evolutionary history. Both perspectives capture part of the truth: humans have a universal, evolved nature that is expressed differently across cultural contexts."
+        }
+      ]
+    },
+    {
+      "id": "ch09",
+      "title": "Friends",
+      "pages": "189–209",
+      "assets": [
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Evolutionary Psychology | Friendship",
+          "topic": "The Hidden Calculus of Friendship: Reciprocal Altruism in Action",
+          "subject_baseline": "Three friends: A and B have known each other for 15 years. A helped B through a divorce, B helped A through a career crisis. Their friendship is deeply trusting — they lend each other money without contracts, show up at 3 AM when needed. C is a newer friend who seems warm and generous but always keeps a mental ledger — keeping track of who owes whom what. C's friendships tend to be short-lived.",
+          "interrogation_transcript": "Researcher: 'A and B — do you keep track of favors?' A: 'Never. I don't even think about it. If B needs something, I help. That's it.' Researcher: 'C, do you track favors?' C: 'Not consciously, but I notice when people don't reciprocate. I've had friends who took advantage of my generosity and I eventually cut them off.' Researcher: 'A and B's friendship has lasted 15 years. C's friendships rarely last 3 years. Why?'",
+          "observed_nonverbal_log": [
+            "A and B do not consciously track reciprocity, but their friendship is characterized by rough long-term balance",
+            "C consciously tracks and is aware of imbalances — this monitoring creates tension and relationship fragility",
+            "A and B are not altruistic without expectation — they would both be hurt and angry if the other consistently failed to show up when needed",
+            "The ideal friendship: genuine care PLUS reliable reciprocity, with the reciprocity operating unconsciously",
+            "Friendships fail when imbalance becomes too large or too one-sided, even if neither party consciously tracks it"
+          ],
+          "question": "What is the evolutionary logic of friendship, and why does conscious tracking of favors damage it?",
+          "correct_diagnosis": "Friendship evolved as a system of reciprocal altruism — non-kin cooperation where I help you now (at some cost) with the expectation that you'll help me later (benefit). The optimal friendship operates with unconscious bookkeeping — the emotional bond IS the tracking mechanism. Genuine affection ensures reliable reciprocity without conscious calculus. Conscious tracking (C's approach) signals that the friendship is transactional, eroding trust and the sense of genuine caring. Yet if reciprocity fails entirely, the friendship dissolves — showing that the underlying logic is ultimately reciprocal, even if not consciously calculated.",
+          "distractors": [
+            "True friendship is pure altruism with no expectation of reciprocity — evolutionary theory cannot explain it",
+            "Friendship evolved not as reciprocity but as extended kin selection — we treat close friends like family because we unconsciously perceive them as relatives",
+            "Conscious tracking of favors is the most successful strategy because it prevents exploitation and ensures fair exchanges"
+          ],
+          "diagnostic_breakdown": "Stage 1 — The problem: Non-kin cooperation poses a challenge for natural selection — why help someone who shares no genes? Stage 2 — Trivers's solution (1971): Reciprocal altruism can evolve if three conditions are met: (a) repeated interactions, (b) ability to recognize individuals, and (c) ability to detect and punish cheaters. Stage 3 — Psychological design: Evolution designed friendship emotions — liking, trust, guilt (if I fail to reciprocate), anger (if you fail to reciprocate) — to manage reciprocal exchanges. Stage 4 — The paradox: Conscious awareness of the exchange system undermines it. The emotions evolved to feel genuine, not transactional. Friendship that feels transactional stops feeling like friendship."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Evolutionary Psychology | Cooperation",
+          "topic": "The Prisoner's Dilemma of Friendship",
+          "scenario_setup": "You and a colleague have collaborated on a research project for 6 months. The paper is ready for submission. She tells you she has a 'personal emergency' and needs to leave town for a week, but says she can finish her portion over the weekend before she goes. You know from past experience that she is disorganized and may not deliver. Your reputation depends on this paper. You must decide: trust her (cooperate) or redo her portion yourself (defect).",
+          "initial_dialogue": "Colleague: 'I'm so sorry. My mother is having surgery and I need to fly out Sunday. But I promise I'll have my analysis done by Saturday night. I'll send it to you before I go.' You: 'Are you sure? We have a hard deadline on Tuesday.' Colleague: 'Absolutely. I won't let you down.' You have 24 hours to decide your course of action.",
+          "choices": [
+            {
+              "choice_id": "A",
+              "text": "'I trust you. Take care of your mother. I know you'll deliver.' You don't redo her portion. If she delivers, great. If she doesn't, you'll miss the deadline and damage your reputation.",
+              "metric_impact": {
+                "Trust": 0.7,
+                "Relationship Health": 0.6,
+                "Risk of Failure": 0.5
+              },
+              "feedback": "You chose cooperation — the foundation of reciprocal altruism. This allows the friendship to deepen if she reciprocates. But you're vulnerable to exploitation if she doesn't. This is the classic cooperator's dilemma."
+            },
+            {
+              "choice_id": "B",
+              "text": "'I respect your situation. I'll redo your analysis just in case, so we don't miss the deadline. No pressure on you.' You spend the weekend duplicating her work.",
+              "metric_impact": {
+                "Trust": -0.2,
+                "Relationship Health": -0.3,
+                "Risk of Failure": -0.6
+              },
+              "feedback": "You're protecting yourself but sending a signal of distrust. She may feel you don't trust her, which damages the relationship. And you're doing double work. This is a defensive defection, not true cooperation."
+            },
+            {
+              "choice_id": "C",
+              "text": "'I trust you to deliver, and I'm counting on it. But let's set up a backup plan — if you hit any snags, text me immediately and I'll jump in. No judgment. Family comes first, the deadline is secondary.'",
+              "metric_impact": {
+                "Trust": 0.5,
+                "Relationship Health": 0.4,
+                "Risk of Failure": -0.4
+              },
+              "feedback": "This is the optimal solution for long-term cooperation. You signal trust AND create a contingency plan. The 'no judgment' clause reduces her incentive to hide problems. This maintains the reciprocal relationship while managing risk."
+            }
+          ],
+          "optimal_choice": "C",
+          "theoretical_principle": "The iterated Prisoner's Dilemma (Axelrod, 1984) showed that 'tit-for-tat' — cooperate first, then match the other's previous move — is a highly successful strategy for evolving cooperation. In human friendships, the optimal strategy is 'generous tit-for-tat' — cooperate first, forgive occasional defections, but ultimately don't tolerate long-term exploitation. The key is that the friendship structure is repeated (you'll work together again), which changes the incentive structure: the long-term benefits of cooperation outweigh short-term gains from defection."
+        }
+      ]
+    },
+    {
+      "id": "ch10",
+      "title": "Darwin's Conscience",
+      "pages": "210–226",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Evolutionary Psychology | Morality",
+          "topic": "The Evolution of Conscience: Guilt, Shame, and the Moral Emotions",
+          "visual_frame_description": "A three-panel diagram. Panel 1: 'Doing wrong' — a figure steals food, then his face shows distress (guilt). Panel 2: 'Being caught' — the same figure is discovered, his face shows shame and he avoids eye contact. Panel 3: 'Repair' — he returns the food and makes an appeasement gesture. Text: 'The moral emotions evolved to solve cooperation problems: guilt deters cheating, shame signals apology, righteous anger punishes cheaters.'",
+          "target_channel": "Moral Emotions | Conscience | Evolution of Cooperation",
+          "question": "What is the evolutionary function of guilt, according to Trivers and other evolutionary theorists?",
+          "correct_cue": "Guilt evolved as an internal punishment mechanism that deters cheating in reciprocal relationships. The experience of guilt is unpleasant, so we avoid actions that trigger it — like breaking promises, stealing, or failing to reciprocate. But guilt also has a reparative function: when we do cheat, guilt motivates apology, restitution, and future commitment to the relationship, which helps repair the damaged cooperative bond. Guilt is not a 'moral compass' pointing to objective right and wrong — it's a mechanism that evolved to maintain the conditions for successful reciprocal altruism.",
+          "distractors": [
+            "Guilt is a uniquely human emotion that reflects our divine moral nature — animals do not experience anything like it",
+            "Guilt serves no evolutionary function — it is a byproduct of our capacity for self-awareness and symbolic thought",
+            "Guilt evolved primarily to enforce obedience to authority figures, not to maintain peer cooperation"
+          ],
+          "underlying_psychology": "Darwin himself wrote about the evolution of conscience in The Descent of Man, arguing that the moral sense evolved through natural selection operating on social instincts. Trivers later formalized this: the moral emotions — guilt, gratitude, sympathy, righteous indignation — are evolved mechanisms for managing reciprocal relationships. Guilt deters cheating (because it feels bad), but when cheating occurs, guilt's intensity is calibrated to the relationship value — we feel more guilt about harming a close friend than a stranger, reflecting the greater threat to a valuable cooperative relationship."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Evolutionary Psychology | Self-Deception",
+          "topic": "Self-Deception as an Adaptation: When Lying to Yourself Helps You Lie to Others",
+          "question": "According to Trivers's theory of self-deception, what is the evolutionary function of self-deception?",
+          "correct_answer": "Self-deception evolved to facilitate deception of others. By deceiving ourselves about our own motives, abilities, and intentions, we can more effectively deceive others without the cognitive load of conscious lying — no nervous tells, no leakage of deception cues, no guilt. The conscious mind genuinely believes the false narrative, making the deception convincing. Self-deception is not a failure of rationality but a strategic adaptation for social competition.",
+          "distractors": [
+            "Self-deception serves no adaptive function — it is a bug in the cognitive system caused by the complexity of the brain",
+            "Self-deception evolved to protect self-esteem from depression, not to deceive others — it's an intrapersonal, not interpersonal, mechanism",
+            "Self-deception is a Freudian concept, not a Darwinian one — it serves to protect the ego from unconscious conflicts"
+          ],
+          "explanation": "Trivers's theory (1976, 2011) proposes that self-deception is an evolved psychological adaptation for social manipulation. The argument: conscious awareness of deceptive intent produces cues of deception (nervousness, inconsistency, over-elaboration). By hiding the truth from the conscious mind, the deceiver's presentation is more convincing. We deceive ourselves about our virtues, contributions, and motives, then present these self-deceptions to others. This explains the universal human tendency toward self-enhancing biases, overconfidence, and selective memory — features that seem irrational from an accuracy standpoint but make strategic sense in social competition."
+        }
+      ]
+    },
+    {
+      "id": "ch11",
+      "title": "Darwin's Delay",
+      "pages": "229–235",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "History of Science | Scientific Discovery",
+          "topic": "Darwin's 20-Year Delay: Why He Waited to Publish",
+          "visual_frame_description": "A timeline: 1837 — Darwin begins his first notebooks on evolution. 1844 — Writes a 230-page sketch of his theory, shows it to Hooker, then locks it away. 1856 — Urged by Lyell, begins writing. 1858 — Receives Wallace's letter describing identical theory. July 1, 1858 — Joint papers presented. November 1859 — Origin of Species published. A 22-year gap between discovery and publication is labeled: 'The Longest Incubation in Scientific History.'",
+          "target_channel": "Scientific Inhibition | Fear of Controversy | Discovery Timing",
+          "question": "Why did Darwin delay publishing his theory of natural selection for over 20 years, even though he had developed the core ideas by 1838?",
+          "correct_cue": "Multiple factors: (1) Fear of social and professional consequences — his wife Emma was deeply religious, and the theory challenged Christian orthodoxy; (2) Fear of his father's reaction; (3) Perfectionism — he wanted overwhelming evidence before making his case; (4) The theory needed development — particularly to solve difficulties (how do traits get passed on? where are transitional forms?); (5) He was busy with other work (barnacles took 8 years); (6) He was psychologically averse to confrontation. The Wallace letter forced his hand.",
+          "distractors": [
+            "Darwin was not confident in his theory until Wallace independently discovered it, confirming he was on the right track",
+            "Darwin lacked evidence for natural selection and needed 20 years to gather enough data to support his claims",
+            "Darwin was not the true discoverer — he stole the theory from Wallace and the delay was to cover his tracks"
+          ],
+          "underlying_psychology": "Wright uses Darwin's delay as a case study in the psychology of scientific discovery. Darwin's reluctance reveals the social nature of knowledge: even the most revolutionary thinker needed the courage to challenge his entire social world. The Wallace incident — independent discovery of the same theory — is a remarkable coincidence that forced Darwin's hand. It also illustrates that scientific discoveries are 'in the air' — the theory of natural selection was an inevitable product of the intellectual environment, not a unique insight that only Darwin could have had."
+        }
+      ]
+    },
+    {
+      "id": "ch12",
+      "title": "Social Status",
+      "pages": "236–262",
+      "assets": [
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Evolutionary Psychology | Status",
+          "topic": "The Anatomy of Status: Dominance vs. Prestige in Human Hierarchies",
+          "subject_baseline": "Two high-status individuals in a corporation. Manager A is high in dominance: he demands respect, intimidates subordinates, controls resources through threat, and his authority is based on fear. Manager B is high in prestige: she is respected for her expertise, admired for her skill, and her authority is freely granted. Subordinates work for Manager A because they have to; they work for Manager B because they want to.",
+          "interrogation_transcript": "Subordinate of A: 'He's competent but I hate coming to work. He never asks for input, he just tells. He takes credit for our ideas. But he has the ear of the CEO.' Subordinate of B: 'She pushes us hard but she's fair. She gives credit where it's due. I'd follow her anywhere. People here actually want to work.' Observer notes: both managers have achieved high status, but through fundamentally different strategies corresponding to two distinct evolved pathways.",
+          "observed_nonverbal_log": [
+            "Manager A: subordinates avoid eye contact, speak minimally, leave the room quickly when meetings end",
+            "Manager B: subordinates approach her voluntarily, seek her advice, linger after meetings to chat",
+            "A's status depends on continued control of resources — if he loses that, his status evaporates",
+            "B's status is internalized in others' minds — her reputation persists even when she's not present",
+            "Both strategies have evolutionary roots: dominance in primate hierarchies, prestige in human cooperation"
+          ],
+          "question": "What is the evolutionary distinction between dominance and prestige as two pathways to social status, and why does prestige represent a uniquely human status strategy?",
+          "correct_diagnosis": "Dominance is the ancient strategy shared with other primates: achieving status through intimidation, threat, and resource control. Prestige is a distinctively human strategy: achieving status through demonstrated expertise, generosity, and cultural success — the freely conferred deference from others who benefit from your knowledge or skill. Prestige evolved with human cooperation and cultural learning: individuals who could attract followers through competence rather than force benefited from larger, more cooperative coalitions. Prestige-based leaders have more influence than dominance-based ones because their status is freely granted, internally motivated in followers.",
+          "distractors": [
+            "Dominance and prestige are the same thing — social status is always about power, control, and access to resources regardless of how it's achieved",
+            "Prestige is actually a form of dominant behavior (Klingon-style) — highly respected individuals display intimidating confidence that forces deference",
+            "The distinction is cultural, not evolutionary — Western cultures use prestige, Eastern cultures use dominance, reflecting different social norms"
+          ],
+          "diagnostic_breakdown": "Stage 1 — Ancestral baseline: Primate social hierarchies are maintained through dominance — physical threat, coalitionary aggression, and submission displays. Stage 2 — The human innovation: With the evolution of language, cumulative culture, and cooperation, a second pathway emerged. Individuals with valuable knowledge (where to find food, how to make tools) attracted deference from those who wanted to learn. Stage 3 — Dual inheritance: Modern humans inherit both systems. Dominance triggers fear-based deference; prestige triggers admiration-based deference. Stage 4 — Modern application: Successful organizations, schools, and communities rely more on prestige than dominance. Dominance-based leaders may achieve status but generate resentment, resistance, and reduced cooperation."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Evolutionary Psychology | Office Politics",
+          "topic": "The Status Game: Navigating Office Hierarchies",
+          "scenario_setup": "You've been hired as a consultant by a mid-level manager who is struggling with office politics. She is technically excellent — the best engineer on her team — but she keeps getting passed over for promotion. A less competent but more politically savvy colleague was promoted instead. She wants to understand 'why nice guys finish last' without sacrificing her integrity.",
+          "initial_dialogue": "Manager: 'I don't understand. David gets promoted and everyone knows he's less competent. He spends half his time in meetings that have nothing to do with his work, schmoozing with senior leadership. I focus on doing excellent work and it's not recognized. People say I should 'network more' but that feels like playing politics, and I hate that.'",
+          "choices": [
+            {
+              "choice_id": "A",
+              "text": "'From an evolutionary perspective, you're treating status as if it's just about competence — demonstrating skill. But social status has always been about two things: competence AND visibility. David is investing in visibility — making sure powerful people know who he is and what he contributes. You're investing entirely in competence. Ancestrally, both mattered: you needed skill AND allies. David is building a coalition. You need to do both.'",
+              "metric_impact": {
+                "Insight": 0.8,
+                "Actionability": 0.6,
+                "Integrity Preservation": 0.5
+              },
+              "feedback": "This reframes the problem. It's not 'being political vs. being competent' — it's about the dual nature of status. David is working the visibility/coalition pathway without neglecting competence entirely. You're only working one pathway. The solution isn't to become political — it's to invest in making your competence visible to the right people."
+            },
+            {
+              "choice_id": "B",
+              "text": "'You're right and the system is broken. Corporations reward politics over performance. You should find a company that values actual work over schmoozing. Your integrity is worth more than a promotion.'",
+              "metric_impact": {
+                "Insight": 0.2,
+                "Actionability": -0.3,
+                "Integrity Preservation": 0.2
+              },
+              "feedback": "This feels validating but is ultimately unhelpful. It frames the situation as 'them vs. you' rather than helping you understand how status systems work everywhere. Even in companies that value 'actual work,' the people who advance are those whose work is VISIBLE to decision-makers."
+            },
+            {
+              "choice_id": "C",
+              "text": "'You need to learn to play the game. Spend less time on actual work and more time in meetings, send status updates to leadership, compliment David's work publicly, and join the golf club where the executives hang out.'",
+              "metric_impact": {
+                "Insight": 0.1,
+                "Actionability": 0.3,
+                "Integrity Preservation": -0.6
+              },
+              "feedback": "This is cynical advice that asks her to abandon her values. And it probably won't work because she'll be inauthentic and people will sense it. The evolved psychology of status includes our ability to detect insincerity — fake networking is often transparent."
+            }
+          ],
+          "optimal_choice": "A",
+          "theoretical_principle": "Henrich and Gil-White's (2001) prestige theory distinguishes between dominance (status through fear) and prestige (status through freely conferred deference). In modern organizations, prestige is gained through demonstrated expertise AND its visibility to the community. The key insight: you don't need to 'play politics' in the manipulative sense — you need to make your genuine expertise visible. This is not gaming the system; it's completing the status equation that your competence-only approach left half-finished."
+        }
+      ]
+    },
+    {
+      "id": "ch13",
+      "title": "Deception and Self-Deception",
+      "pages": "263–286",
+      "assets": [
+        {
+          "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+          "domain": "Evolutionary Psychology | Self-Deception",
+          "topic": "BOSS BATTLE: The Self-Deception Machine — Dismantling William James's 'Stream of Consciousness'",
+          "stage_1_observation": "William James described consciousness as a 'stream' — a continuous, unified experience of self-awareness. But Trivers and other evolutionary theorists suggest that consciousness is designed to be fragmentary and strategically selective, not a transparent window onto our own minds. Experiments show: people make up explanations for their own behavior (confabulation in split-brain patients), are unaware of the true causes of their decisions (priming studies), and systematically misremember their own histories (memory biases).",
+          "stage_1_question": "What does the evolutionary view of consciousness suggest about the relationship between conscious awareness and the true causes of behavior?",
+          "stage_1_correct_answer": "According to the evolutionary view, conscious awareness is not a passive reflection of internal cognitive processes but an active, selective, and often distorting system designed for social presentation. The conscious mind is often the LAST to know why we did something — it receives post-hoc explanations constructed by non-conscious processes and presents them as if they were the real reasons. Consciousness evolved not to know ourselves accurately but to construct a self-narrative that is strategically useful in social competition.",
+          "stage_2_intervention": "You are designing a 'deception-detection training program' for intelligence analysts. The key skill: detecting when others (and yourself) are engaging in self-deception. What three questions should each analyst ask themselves before finalizing any assessment?",
+          "stage_2_correct_answer": "Three biasing questions: (1) 'Is there evidence that disconfirms my conclusion, and have I given it equal weight?' — directly counters confirmation bias. (2) 'Would I feel differently about this evidence if it came from an ally vs. an adversary?' — checks for in-group/out-group bias. (3) 'If someone I respected disagreed with me, what would they say?' — forces consideration of alternative perspectives. These questions are designed to expose the self-deception that the conscious mind naturally engages in — making the unconscious biases conscious.",
+          "boss_battle_explanation": "The evolutionary theory of self-deception (Trivers, 1976; von Hippel & Trivers, 2011) argues that the conscious mind evolved not as a truth-detector but as a social-manipulation device. We deceive ourselves to better deceive others. This means that our own minds are designed to hide the truth from us — especially the truth about our own selfish motives, relative status, and moral shortcomings. The 'boss battle' of self-knowledge is to design systems (scientific methods, accountability structures, critical thinking protocols) that force us to confront the self-deception our minds naturally produce."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Evolutionary Psychology | Self-Deception",
+          "topic": "The Unconscious Strategist: Why We Don't Know Why We Do What We Do",
+          "visual_frame_description": "A courtroom scene where the defendant is on trial for his own behavior. The prosecutor demands: 'Why did you do that?' The defendant's conscious mind gives a confident, articulate answer. Meanwhile, behind a curtain, hidden from the defendant's view, the 'real reasons' are being revealed on a screen — unconscious motives, evolved strategies, priming effects, and social pressures that the conscious mind cannot access. The defendant is the last to know why he did what he did.",
+          "target_channel": "Unconscious Processes | Motivated Reasoning | Confabulation",
+          "question": "What evidence shows that the conscious mind is often the 'last to know' the real causes of behavior?",
+          "correct_cue": "Multiple research programs converge: (1) Split-brain patients confabulate explanations for actions their left hand took without conscious awareness. (2) Priming studies show that subtle environmental cues influence behavior without conscious awareness of the influence. (3) Nisbett and Wilson's 'Telling More Than We Can Know' showed that people invent plausible explanations for their choices while being unaware of the actual causal variables. (4) Dissonance-induced attitude change occurs without awareness of the change process. The conscious mind constructs a post-hoc narrative rather than having privileged access to decision processes.",
+          "distractors": [
+            "Conscious awareness is the primary driver of human behavior — unconscious processes only affect basic biological functions like breathing",
+            "While some behavior is unconscious, people accurately report the reasons for their important life decisions",
+            "Self-deception is a Freudian concept that has been disproven by modern neuroscience — we have direct access to our own mental states"
+          ],
+          "underlying_psychology": "The evolutionary perspective on consciousness is radically different from the intuitive one. We feel as if we are the CEO of our own mind — consciously aware of our reasons and in control of our decisions. The evidence suggests something closer to a 'press secretary' model: the conscious mind receives a partial account of what happened from unconscious processes, constructs a socially acceptable narrative, and presents it as if it were the real story. This model has profound implications for self-knowledge, free will, and moral responsibility — themes Wright develops through Darwin's own struggles with self-knowledge."
+        }
+      ]
+    },
+    {
+      "id": "ch14",
+      "title": "Darwin's Triumph",
+      "pages": "287–312",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "History of Science | Paradigm Shift",
+          "topic": "The Publication of the Origin: A Paradigm Shift",
+          "visual_frame_description": "November 24, 1859. A London bookshop. The first edition of On the Origin of Species sells out on the first day — all 1,250 copies. The scene shows a diverse crowd: scientists, clergy, aristocrats, and ordinary citizens clamoring for the book. Outside, protesters with religious signs. Inside, a small, sickly man (Darwin) stays home, anxiously awaiting responses. The book will never go out of print.",
+          "target_channel": "Paradigm Shift | Scientific Revolution | Intellectual History",
+          "question": "What made the Origin of Species so immediately impactful despite 22 years of Darwin's delay and fear?",
+          "correct_cue": "Multiple factors converged: (1) The theory was 'in the air' — Wallace's independent discovery showed it was time. (2) Darwin had accumulated massive evidence across multiple domains. (3) The book was written for a general audience, not just specialists — it was accessible and persuasive. (4) It solved the fundamental problem of biology (the origin of species) that no other theory could address. (5) The timing was right — Victorian science was ready, though Victorian religion was not. (6) Darwin's strategy of presenting a mountain of evidence while acknowledging difficulties made the argument seem balanced and honest.",
+          "distractors": [
+            "The Origin was initially rejected and only became influential decades later after the Darwinian controversies died down",
+            "The Origin succeeded because Darwin was already famous from his Beagle voyage and the book capitalized on his celebrity",
+            "The Origin succeeded because it confirmed what people already believed — the idea of evolution was already widely accepted before Darwin"
+          ],
+          "underlying_psychology": "The Origin's publication marks one of the great turning points in intellectual history. Wright uses Darwin's triumph to explore the psychology of paradigm shifts: the old guard (Sedgwick, Owen) resisted fiercely; the younger generation (Huxley, Hooker) embraced immediately. The pattern — new ideas are rejected by the established generation and accepted by the next — recurs throughout scientific history. Darwin himself noted this: 'I do not expect to convince old and experienced men — the future lies with the young.'"
+        }
+      ]
+    },
+    {
+      "id": "ch15",
+      "title": "Darwinian (and Freudian) Cynicism",
+      "pages": "313–326",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Evolutionary Psychology | Social Anxiety",
+          "topic": "Darwin's Insecurity: When Social Anxiety Is an Adaptation",
+          "visual_frame_description": "A split portrait of Darwin. Left side: 'The Anxious Darwin' — sleepless, compulsive, writing endless letters seeking approval from colleagues, agonizing over criticism, feeling inadequate. Right side: 'The Successful Darwin' — surrounded by devoted friends (Huxley, Hooker, Lyell), producing a stream of brilliant works, founding modern biology. The caption: 'Darwin's crippling insecurity and his extraordinary success were two sides of the same coin.'",
+          "target_channel": "Social Anxiety as Adaptation | Status via Prestige | Evolved Personality",
+          "question": "According to Wright's Darwinian analysis, how might Darwin's 'overactive conscience,' 'craving for reassurance,' and relentless self-criticism have been adaptive strategies rather than pathologies?",
+          "correct_cue": "Wright argues that Darwin's insecurity may have been an adaptive response to his social circumstances. Lacking the physical dominance or natural charisma to climb hierarchies through aggression, Darwin instead developed an alternative route to status: becoming an exceptionally reliable reciprocal altruist. His overactive conscience ensured he never violated social obligations; his craving for reassurance kept him attentive to others' opinions; his compulsive work ethic made him a valuable source of knowledge. In ancestral environments, individuals who couldn't compete through dominance could compete through being indispensable cooperative partners. 'Insecurity' is not a malfunction — it is a design feature for a particular social strategy.",
+          "distractors": [
+            "Darwin's anxiety was a medical pathology caused by a tropical illness he contracted on the Beagle voyage — it had no adaptive function",
+            "Insecurity is always maladaptive — Darwin succeeded despite his anxiety, not because of it",
+            "Darwin's insecurity was a product of his harsh father — it was childhood trauma, not an evolved strategy"
+          ],
+          "underlying_psychology": "Wright develops a provocative evolutionary theory of personality: traits we label as pathologies (anxiety, insecurity, excessive conscientiousness) may be adaptive strategies calibrated to an individual's social niche. Darwin, awkward and unable to physically dominate, became hyper-sensitive to social feedback, hyper-cooperative, and hyper-competent — a strategy that made him a prized friend and ally. This reframes mental health: some 'symptoms' are not defects but evolved solutions to specific social challenges, even if they cause subjective distress."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Evolutionary Psychology | Cynicism",
+          "topic": "Darwinian vs. Freudian Cynicism: Two Views of Human Nature",
+          "question": "How does the Darwinian view of human nature differ from the Freudian view in terms of explaining self-deception and unconscious motivation?",
+          "correct_answer": "Both are 'cynical' in that they argue our conscious reasons are often cover stories for hidden motives. But Freud saw the unconscious as a repository of repressed sexual and aggressive drives from childhood, with self-deception serving to protect the ego from unacceptable impulses. The Darwinian view sees the unconscious as an evolved social calculator, with self-deception serving to facilitate effective deception of others. Freud's unconscious is about managing internal conflicts; Darwin's unconscious is about managing social competition. Both agree we don't know ourselves, but for different reasons.",
+          "distractors": [
+            "Darwinian and Freudian views are essentially the same — both argue that the unconscious mind drives behavior and conscious is a rationalization machine",
+            "Freud was a Darwinian — his theory of repression was directly inspired by Darwin's theory of natural selection applied to the mind",
+            "The Darwinian view is optimistic (we can understand our biases), while the Freudian view is pessimistic (we can never understand our unconscious)"
+          ],
+          "explanation": "Wright explores the parallel between Freudian and Darwinian cynicism. Both traditions argue that the conscious mind is not the true author of behavior — we are driven by forces we do not perceive and cannot control. But the Darwinian view offers a more testable, evolutionary-grounded framework. Where Freud saw repressed sexuality, Darwinians see evolved social strategies. Where Freud saw the Oedipus complex, Darwinians see parent-offspring conflict over investment. The Darwinian view also offers a more hopeful path: understanding our evolved biases is the first step toward managing them."
+        }
+      ]
+    },
+    {
+      "id": "ch16",
+      "title": "Evolutionary Ethics",
+      "pages": "327–344",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Evolutionary Psychology | Morality",
+          "topic": "Can Evolution Explain Morality? The Is-Ought Problem",
+          "scenario_setup": "A philosophy class debate. The proposition: 'Evolutionary theory undermines the foundation of morality by showing it's just a product of natural selection.' A student argues that if morality is just an evolved adaptation for cooperation, then there's no real right and wrong — just what worked for our ancestors. Another student argues this is a logical error — the origin of morality doesn't determine its validity.",
+          "initial_dialogue": "Student A: 'If our moral intuitions are just evolutionary adaptations — programmed by natural selection to help our ancestors cooperate — then morality has no objective foundation. It's just a tool for gene propagation. Hitler was following his evolved tribalism. We're just rationalizing our genes.' Student B: 'That's the naturalistic fallacy! You can't derive 'ought' from 'is.' Even if our moral intuitions evolved, we can still evaluate them rationally and choose which to follow.'",
+          "choices": [
+            {
+              "choice_id": "A",
+              "text": "'Student B is right about the naturalistic fallacy — the origin of our moral intuitions doesn't dictate their validity. But Student A has a point: understanding the evolutionary origins of morality can help us evaluate which intuitions to trust. For example, knowing that our in-group/out-group biases evolved for tribal competition helps us recognize that those intuitions may not be morally valid in a modern globalized world. Evolutionary understanding doesn't DICTATE morality, but it INFORMES moral reasoning by revealing the hidden agendas of our intuitions.'",
+              "metric_impact": {
+                "Philosophical Rigor": 0.8,
+                "Scientific Accuracy": 0.7,
+                "Resolution": 0.6
+              },
+              "feedback": "This integrates both perspectives: the evolutionary explanation of moral intuitions doesn't debunk morality, but it does challenge naive moral realism. Understanding where our intuitions come from helps us be more critical about which ones to trust."
+            },
+            {
+              "choice_id": "B",
+              "text": "'Student A is right. Evolutionary theory proves that morality is an illusion — just genes using us as vehicles. The only rational response is to reject all moral claims as disguised biological programming.'",
+              "metric_impact": {
+                "Philosophical Rigor": -0.3,
+                "Scientific Accuracy": -0.4,
+                "Resolution": -0.3
+              },
+              "feedback": "This confuses explanation with justification. Showing the evolutionary function of morality doesn't prove it's 'just an illusion' any more than showing the evolutionary function of vision proves we don't really see. Philosophy of science calls this the 'genetic fallacy' — confusing origin with validity."
+            },
+            {
+              "choice_id": "C",
+              "text": "'Student B is right — the naturalistic fallacy is clear. Morality comes from reason, not evolution. Our ability to reason transcends our biological programming. Kant proved this.'",
+              "metric_impact": {
+                "Philosophical Rigor": 0.2,
+                "Scientific Accuracy": -0.4,
+                "Resolution": 0.1
+              },
+              "feedback": "Kantian ethics argues that morality is based on pure reason, not empirical facts. But this ignores the massive evidence that moral intuitions precede and often override reasoning (Haidt's social intuitionism). Reason can reflect on intuitions but doesn't generate them from scratch. The evolutionary view helps explain why we have the intuitions we do."
+            }
+          ],
+          "optimal_choice": "A",
+          "theoretical_principle": "Wright explores the tension between evolutionary explanation and moral justification. His position: understanding the evolutionary origins of our moral sentiments does not DEBUNK morality, but it does make us less naive about our moral intuitions. We may have an evolved sense of fairness, but which application of that sense is truly moral depends on reasoning, not just gut feeling. Evolution built the keyboard; we choose which notes to play."
+        }
+      ]
+    },
+    {
+      "id": "ch17",
+      "title": "Blaming the Victim",
+      "pages": "345–363",
+      "assets": [
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Evolutionary Psychology | Victim Blaming",
+          "topic": "The Just World Hypothesis: Evolution's Role in Victim Blaming",
+          "subject_baseline": "A woman is sexually assaulted while walking home at night. The public response includes: 'Why was she walking alone at night? What was she wearing? She shouldn't have been drinking.' These questions implicitly suggest she bears some responsibility for the crime. The victim blamer feels a sense of control and safety: 'That wouldn't happen to me because I don't do those things.'",
+          "interrogation_transcript": "Researcher: 'Why do people blame victims?' Social psychologist: 'The just world hypothesis (Lerner, 1980) — we need to believe the world is fair, that people get what they deserve. Blaming victims preserves this belief.' Evolutionary psychologist: 'But why do we need to believe in a just world? Because in ancestral environments, accurately predicting who was safe to trust was crucial. People who violated norms (walked alone, dressed provocatively, got drunk) WERE statistically more likely to encounter danger. The cognitive shortcut 'people who take risks get hurt' was adaptive — but it misfires when applied to victims who are genuinely innocent.'",
+          "observed_nonverbal_log": [
+            "Victim blame is not unique to one culture — it appears worldwide, suggesting an evolved cognitive tendency",
+            "The tendency is stronger when the victim is a stranger (abstract) than when it's someone we know (concrete)",
+            "Victim blaming decreases when we can actually help the victim — it's partly about maintaining a sense of control",
+            "Direct quotes from online forums reveal both cruelty AND apparent genuine belief that 'it could never happen to me'"
+          ],
+          "question": "What is the evolutionary logic behind victim blaming, and how does it relate to the just world hypothesis?",
+          "correct_diagnosis": "Victim blaming arises from the interaction of evolved cognitive tendencies: (1) The just world belief — we need to see the world as predictable because predictability enables effective action. (2) The fundamental attribution error — we attribute others' misfortunes to their character rather than circumstances. (3) Self-protective reasoning — by identifying what the victim 'did wrong,' we reassure ourselves that we can avoid the same fate by not making those choices. The evolved logic was adaptive (learning from others' mistakes) but misfires in modern contexts where the 'mistake' (walking alone, wearing certain clothes) is not causally relevant to the harm.",
+          "distractors": [
+            "Victim blaming serves no evolutionary function — it is purely a product of patriarchal culture designed to protect male power",
+            "Victim blaming is a form of sadism — people derive pleasure from the suffering of others and invent justifications for their cruelty",
+            "Victim blaming arises from empathy deficits — people who blame victims simply lack the capacity to imagine another's suffering"
+          ],
+          "diagnostic_breakdown": "Stage 1 — Adaptive prediction: In ancestral environments, successful navigation of social and physical dangers required learning from others' misfortunes. 'Why did he get hurt?' was a crucial adaptive question. Stage 2 — Just world assumption: The mind assumes the world is orderly because this assumption enables effective action. If bad things happen randomly, there's nothing we can do. If they happen for reasons, we can avoid those reasons. Stage 3 — Attribution error: We systematically attribute others' misfortunes to their internal qualities (stupidity, carelessness, immorality) while attributing our own close calls to external circumstances ('I was lucky'). Stage 4 — Modern misfire: In complex modern environments, this ancient cognitive system blames victims for factors (clothing, location, time of day) that may have minimal causal relevance, creating secondary victimization."
+        }
+      ]
+    },
+    {
+      "id": "ch18",
+      "title": "Darwin Gets Religion",
+      "pages": "364–379",
+      "assets": [
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Evolutionary Psychology | Religion",
+          "topic": "The Hypersensitive Agency Detection Device: Seeing Gods in the Static",
+          "subject_baseline": "You are walking alone in the savanna at dusk. A bush rustles. Your heart rate spikes. You freeze. It might be a predator. It's probably the wind. But your brain has already triggered a full threat response before you finished processing. You 'saw' an agent in the bushes — even when there was none. This false positive (seeing a predator that isn't there) was far less costly than a false negative (missing a real predator).",
+          "interrogation_transcript": "Anthropologist: 'Every human society believes in invisible agents — gods, spirits, ancestors, demons. Why?' Evolutionary psychologist: 'Our brains evolved a hypersensitive agency detection device (HADD). In ancestral environments, assuming a rustle in the bushes was a predator was safer than assuming it was the wind. This bias toward false positives — seeing agents everywhere — was adaptive. But the same mechanism that detected predators also detects gods. When we hear thunder, feel inexplicable fortune, or witness the complexity of life, our agency-detection system infers an invisible agent behind it.'",
+          "observed_nonverbal_log": [
+            "The same neural circuits that detect intentional agents (theory of mind network: TPJ, mPFC) activate when people think about God",
+            "Children are natural creationists — they spontaneously infer design and purpose in natural phenomena from a very young age",
+            "Anxiety increases religious belief — when people feel out of control, they detect more agency in random patterns",
+            "Religious belief declines with education about the physical causes of natural phenomena — but the underlying detection bias remains"
+          ],
+          "question": "What is the 'hypersensitive agency detection device' (HADD), and how does it explain the near-universality of religious belief across human cultures?",
+          "correct_diagnosis": "HADD is an evolved cognitive bias to infer the presence of intentional agents (beings with minds and goals) from ambiguous sensory information. The bias is 'hypersensitive' because false positives (thinking a rock is a predator) cost less than false negatives (thinking a predator is a rock). This system, which evolved for predator detection and social monitoring, overshoots in modern environments — attributing agency to natural phenomena (storms, diseases, good fortune) and generating belief in invisible agents (gods, spirits, ancestors). Religion is not an adaptation itself but a byproduct of multiple evolved cognitive systems: agency detection, theory of mind, and causal reasoning.",
+          "distractors": [
+            "Religion is a direct evolutionary adaptation that increases group survival — groups with religious beliefs outcompete those without",
+            "Agency detection is not hypersensitive — most people can accurately distinguish real agents from random events",
+            "Religious belief is purely cultural — it spreads through social learning and has no connection to evolved cognitive biases"
+          ],
+          "diagnostic_breakdown": "Stage 1 — Adaptive problem: Ancestral humans needed to detect predators, prey, and social agents quickly. A missed detection (false negative) could be fatal; a false alarm (false positive) cost little. Stage 2 — Evolved solution: Natural selection biased the brain toward seeing agents everywhere. The theory of mind network — which computes others' intentions and beliefs — became triggered by minimal cues (movement, sound, pattern). Stage 3 — Byproduct: This biased detection system, when applied to natural phenomena (thunder, disease, birth, death), infers invisible agents because that's what the brain is designed to detect. Stage 4 — Cultural elaboration: Once the intuitive belief in agents exists, culture elaborates it into formal religions with doctrines, rituals, and institutions. The evolved cognitive bias provides the raw material; culture shapes the final product."
+        },
+        {
+          "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+          "domain": "Evolutionary Psychology | Religion",
+          "topic": "BOSS BATTLE: The Evolution of Religion Meme — Why Belief Persists",
+          "stage_1_observation": "Darwin himself moved from Christianity to agnosticism over his lifetime, though his wife Emma was devoutly religious. He wrote: 'The mystery of the beginning of all things is insoluble by us; and I for one must be content to remain an Agnostic.' Yet religion persists in virtually every human society. The question: why does religious belief, which appears to be factually false from a scientific perspective, persist and thrive?",
+          "stage_1_question": "From an evolutionary perspective, why does religious belief persist despite lacking empirical support?",
+          "stage_1_correct_answer": "Multiple evolutionary explanations: (1) Religion as byproduct — our hypersensitive agency detection (seeing intentional agents everywhere) evolved for predator detection but overshoots, producing belief in invisible agents (gods, spirits). (2) Religion as cooperation device — shared belief in a morally concerned supernatural watcher reduces cheating and increases cooperation in large groups. (3) Religion as costly signal — public religious displays (rituals, sacrifices) signal group commitment, making cooperative partners identifiable. (4) Religion as existential comfort — the fear of death and desire for meaning are managed by religious narratives that evolved as psychological coping mechanisms. Most likely: religion persists because it serves multiple adaptive functions simultaneously.",
+          "stage_2_intervention": "You are a science educator in a community where religious belief is strong. The community's religious beliefs conflict with the theory of evolution by natural selection. Your goal: increase acceptance of evolution without launching a direct assault on religious faith. How do you proceed?",
+          "stage_2_correct_answer": "Frame evolution as 'explaining how God created life' (theistic evolution) rather than 'proving God doesn't exist.' Emphasize that many religious scientists and theologians accept evolution. Avoid the militant atheist framing (Dawkins/Hitchens) that treats religion and science as enemies. Instead, present evolution as a mechanism — the HOW — that is compatible with religious belief about the WHY. Research shows this 'compatibility framing' significantly increases evolution acceptance among religious students compared to the conflict framing.",
+          "boss_battle_explanation": "Wright's final chapter explores the evolutionary functions of religion. His approach is not to debunk religious belief but to understand why the human mind is so receptive to it. He concludes that religion is not an evolutionary adaptation itself but a byproduct of multiple evolved cognitive systems: agency detection, tribalism, status hierarchies, and existential anxiety management. Understanding these roots doesn't prove or disprove religious claims — but it does explain why the question of God remains compelling despite science's inability to find empirical evidence."
+        }
+      ]
+    }
+  ]
+}

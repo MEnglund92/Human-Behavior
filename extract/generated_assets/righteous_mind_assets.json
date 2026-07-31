@@ -1,0 +1,854 @@
+{
+  "source": "The Righteous Mind - Jonathan Haidt",
+  "chapters": [
+    {
+      "id": "rm_intro",
+      "title": "Introduction: Can We All Get Along?",
+      "pages": "1-15",
+      "assets": [
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Moral Psychology | Political Division",
+          "topic": "The Righteous Mind Paradox: Why Smart People Disagree About Morality",
+          "subject_baseline": "Two equally intelligent, well-educated people read the same news article about immigration policy. One sees a moral imperative to welcome refugees. The other sees a moral imperative to protect borders. Both are certain of their righteousness. Both believe the other side is not just wrong but morally deficient.",
+          "interrogation_transcript": "Haidt argues that morality is not derived from pure reason. The rationalist tradition (Kohlberg, Piaget) claimed children develop moral reasoning through stages toward universal principles. But Haidt found that people reach moral conclusions intuitively, then use reason to justify those intuitions post-hoc. Two groups with different moral intuitions cannot reason their way to agreement because reasoning is the servant of intuition, not its master.",
+          "observed_nonverbal_log": [
+            "Each side experiences genuine moral emotion about their position",
+            "Each side marshals sophisticated reasoning to support their view",
+            "Neither side can understand how the other fails to see the obvious truth",
+            "The disagreement is not about facts but about which moral principles take priority"
+          ],
+          "question": "If both sides are smart and well-informed, why can't reasoned debate resolve political and moral disagreements?",
+          "correct_diagnosis": "The social intuitionist model: moral judgments are caused by quick, automatic intuitions, not by slow, conscious reasoning. Reasoning comes after the fact to justify the already-reached conclusion. When two people have different moral intuitions (different moral foundations activated), no amount of reasoning can bridge the gap because each side uses reason to defend its own intuitive position. The key insight: we are not disinterested truth-seekers; we are intuitive lawyers defending our team.",
+          "distractors": [
+            "One side simply lacks the relevant information and would change their mind if presented with better facts",
+            "Intelligence differences - the less intelligent side fails to follow the logic of the superior argument",
+            "Emotional interference - emotions cloud judgment on controversial topics and prevent clear reasoning"
+          ],
+          "diagnostic_breakdown": "Stage 1 - Intuitive Flash: A policy triggers an immediate intuitive judgment (this feels right/wrong). Stage 2 - Reasoned Defense: The brain mobilizes arguments to support the intuition. Stage 3 - Confirmation Bias: We search for supporting evidence and dismiss counterevidence. Stage 4 - Moral Certainty: The combination of strong intuition + supporting arguments produces unshakeable conviction. The division between good people is not about ignorance or stupidity but about different moral intuitions wired by evolution and shaped by culture."
+        }
+      ]
+    },
+    {
+      "id": "rm_ch01",
+      "title": "Chapter 1: Where Does Morality Come From?",
+      "pages": "18-51",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Moral Psychology | Theories of Moral Development",
+          "topic": "Rationalist vs Intuitionist Models of Moral Judgment",
+          "column_a_label": "Rationalist Model (Kohlberg) - Moral reasoning comes first. We reason to moral conclusions through conscious deliberation and universal principles.",
+          "column_b_label": "Social Intuitionist Model (Haidt) - Moral intuition comes first. Reasoning is post hoc justification of intuitive judgments.",
+          "rows": [
+            {
+              "scenario": "A child sees someone push another child off a swing and says that is wrong because it hurts people",
+              "correct_column": "B",
+              "reason": "The intuitive flash that hurting is wrong comes first; the because it hurts explanation is post-hoc justification. Young children judge wrongness instantly before they can articulate reasons."
+            },
+            {
+              "scenario": "A philosopher weighs the trolley problem and constructs a logical argument for utilitarianism over deontology",
+              "correct_column": "A",
+              "reason": "Conscious reasoning about abstract principles is the rationalist ideal, though Haidt would argue the philosopher chose utilitarianism because it felt right intuitively first"
+            },
+            {
+              "scenario": "A person condemns a harmless taboo violation (eating your dead dog) but cannot explain why it is wrong",
+              "correct_column": "B",
+              "reason": "Moral dumbfounding - strong intuitive condemnation with no rational justification - is evidence for the intuitionist model"
+            },
+            {
+              "scenario": "Kohlbergs subjects justify moral decisions by referencing universal principles of justice after deliberation",
+              "correct_column": "A",
+              "reason": "Kohlbergs model predicts that mature morality emerges from reaching abstract principles through reasoning stages"
+            },
+            {
+              "scenario": "People make rapid character judgments of others within milliseconds of seeing their face",
+              "correct_column": "B",
+              "reason": "Automatic intuitive judgment occurs far too quickly for conscious reasoning to be the primary mechanism"
+            }
+          ],
+          "explanation": "Haidts social intuitionist model challenges 30 years of rationalist dominance. The evidence: (1) moral judgments occur rapidly and automatically, (2) moral dumbfounding shows we often cannot justify our intuitions, (3) brain damage that spares emotion but impairs reasoning preserves moral judgment, (4) hypnotic post-hypnotic suggestions can create moral disgust without any reasoned basis. The rationalist project of building morality on universal reason misunderstands how the mind actually works. Intuition is the elephant; reasoning is the rider."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Moral Psychology | Moral Dumbfounding",
+          "topic": "Moral Dumbfounding: The Strong Intuition Without Reasons",
+          "visual_frame_description": "A researcher presents a scenario: A brother and sister decide to make love while on vacation, using two forms of birth control. No one is hurt. They keep it a secret and feel closer afterward. The scenario is designed to have no identifiable victim or harm. Participants overwhelmingly condemn it as morally wrong. But when asked why, they struggle: It is just wrong. I cannot explain it but I know it is wrong.",
+          "target_channel": "Intuition-Without-Reason Gap | Post-Hoc Justification Failure",
+          "question": "Why do people passionately condemn an act as morally wrong even when they cannot articulate any coherent reason for their condemnation?",
+          "correct_cue": "Moral dumbfounding occurs when the intuitive system (the elephant) delivers a strong moral judgment, but the reasoning system (the rider) cannot find legitimate justifications. The intuition operates faster than and independently of reasoning. When the rider is caught without arguments, it does not change the elephants direction - it falls silent or invents weak post-hoc justifications. The persistence of the judgment despite the absence of reasons proves that intuition, not reason, drives moral judgment.",
+          "distractors": [
+            "People are simply embarrassed to admit they are not sure and pretend to be certain due to social pressure",
+            "The scenario triggers disgust which people mistake for moral judgment through misattribution of arousal",
+            "There is actually hidden harm - the act threatens social order in ways people sense but cannot articulate"
+          ],
+          "underlying_psychology": "Haidt, Koller, and Dias 1993 introduced moral dumbfounding. The phenomenon reveals that moral judgment is intuitive, not rational. People can know something is wrong without knowing why. The rationalist tradition (Kohlberg, Turiel) held that moral judgments are based on principles like harm and justice. Dumbfounding shows that people often judge based on raw intuition - disgust, disrespect, or a sense of sacredness - and only then look for harm-based reasons. The rider searches desperately for a justification but the elephant already made the call."
+        }
+      ]
+    },
+    {
+      "id": "rm_ch02",
+      "title": "Chapter 2: The Intuitive Dog and Its Rational Tail",
+      "pages": "52-71",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Moral Psychology | Dual Process Theory",
+          "topic": "The Rider and the Elephant: Why Intuition Leads and Reason Follows",
+          "visual_frame_description": "A 6-ton elephant with a tiny rider on top. The rider holds the reins and believes he is steering. But when the elephant wants to go a different direction, the rider is powerless to stop it. The rider can sometimes influence the elephant gently, over time, but any sudden change of direction requires the elephant to cooperate. The rider exists to serve the elephant.",
+          "target_channel": "Intuition Dominance | Post-Hoc Rationalization Detection",
+          "question": "If the rider (conscious reasoning) appears to be in control but the elephant (automatic intuition) actually steers, how can we tell which is really driving?",
+          "correct_cue": "Three telltale signs reveal the elephant is in charge: (1) Speed - intuitive judgments form in milliseconds, conscious reasoning takes seconds; the judgment is already made before reasoning can contribute. (2) Moral dumbfounding - when reasoning fails to justify the intuition, the judgment persists anyway. (3) Post-hoc confabulation - brain-damaged patients and split-brain patients generate plausible-sounding reasons for decisions their non-verbal brain made, proving the rider is primarily an explainer not a decider. The rider is the press secretary, not the president.",
+          "distractors": [
+            "The rider controls the elephant completely - conscious reasoning steers moral judgment and the elephant provides emotional energy",
+            "The elephant and rider are equals in a partnership where reason and intuition each handle different domains",
+            "The rider can always override the elephant with sufficient willpower and concentration"
+          ],
+          "underlying_psychology": "The rider/elephant metaphor derives from decades of dual-process research (Kahneman System 1/System 2, Bargh automaticity, Wilson adaptive unconscious). The elephant represents: automatic, intuitive, affective, fast, effortless, and nearly the entire mental process. The rider: controlled, deliberate, analytical, slow, effortful, and a very small part of the mind. The rider evolved not to lead but to serve as the elephants lawyer - explaining and justifying intuitive reactions to others in the social group. The rider is useful: it can plan ahead, warn of dangers, and sometimes train the elephant through repetition. But it cannot simply command the elephant to change course."
+        },
+        {
+          "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+          "domain": "Moral Psychology | Reason as Servant",
+          "topic": "The Post-Hoc Reasoner: Why We Are Not the Rational Animals We Think We Are",
+          "stage_1_observation": "Participants read a description of a man who commits a murder. They are asked whether he should be executed. Then they read a case of corporate fraud that destroyed thousands of retirement accounts. They are asked about punishment for that too. For each case they generate elaborate reasons for their sentencing decisions: deterrence, justice, proportionality. Then the researchers reveal that the order of cases was randomized and that participants had been assigned to either harsh or lenient anchor conditions. Participants sentencing decisions were heavily influenced by the anchor, but their reasons made no mention of it - they genuinely believed their reasons caused their decisions.",
+          "stage_1_question": "If the real cause of sentencing differences was the random anchor, why did participants produce elaborate, confident, and entirely irrelevant explanations for their decisions?",
+          "stage_1_correct_answer": "The rider (conscious reasoning) does not know what the elephant (intuition) did or why. The elephant made the sentencing decision based on the anchoring effect (an intuitive comparison). The rider then scanned the situation for plausible justifications and found some - the nature of the crime, the need for deterrence - that sounded like good reasons. The rider genuinely believed these reasons caused the decision because the rider has no access to the elephants actual processing. We are strangers to ourselves.",
+          "stage_2_intervention": "You just made a snap judgment about a job candidate in 30 seconds. You told your colleague: I do not think she is the right fit - she lacks confidence. Your colleague points out she has 10 years of progressively senior experience. Now examine your own reasoning: can you articulate the actual basis for your judgment?",
+          "stage_2_correct_answer": "Apply the suspicion test to your own reasoning. The elephants judgment may have been based on: (1) similarity to someone you disliked in the past, (2) her voice tone reminded you of a critical teacher, (3) you were in a bad mood from the previous meeting and misattributed it. The confidence explanation you gave is a plausible-sounding post-hoc construction. The test: if the real cause were something irrelevant (mood, similarity, tiredness), would your reasoning change? Probably not - you would still believe your confidence assessment. The rider is the last to know. The remedy: slow down, suspend judgment, and seek disconfirming evidence before the elephant decides.",
+          "boss_battle_explanation": "Layer 1 - Intuitive Primacy: The elephant decides in milliseconds. Layer 2 - Reason as Press Secretary: The rider constructs plausible-sounding explanations without access to the real causes. Layer 3 - Explanation Blindness: We believe our post-hoc explanations because the rider is genuinely unaware of its ignorance. Layer 4 - The Suspicion Test: When you catch yourself producing confident, instant explanations for your judgments, ask: What would the elephant have done if it had been influenced by something irrelevant? The answer is exactly what you just did."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Cognitive Psychology | Confirmation Bias",
+          "topic": "The Wason 4-Card Task: Why We Seek Confirming Evidence",
+          "visual_frame_description": "Four cards are placed on a table. Each card has a number on one side and a letter on the other. The visible faces show: E, K, 4, 7. The rule: If a card has a vowel on one side, then it has an even number on the other side. Which cards do you need to turn over to verify the rule? Most people choose E (the vowel) and 4 (the even number). But 4 cannot falsify the rule — only 7 can, because an odd number on the other side of 7 would break it. People instinctively seek confirming evidence and ignore falsifying evidence.",
+          "target_channel": "Confirmation Bias | Hypothesis Testing Failure",
+          "question": "Why do most people, including highly educated participants, fail to turn over the 7 card that could actually falsify the rule?",
+          "correct_cue": "The confirmation bias: people naturally seek evidence that confirms their hypothesis rather than evidence that could disconfirm it. The rider (conscious reasoning) searches for supporting evidence to justify the elephants intuitive belief. Wason designed this task to demonstrate that even in abstract logical problems, people do not think like scientists seeking falsification — they think like lawyers seeking supporting evidence. The rider is not a truth-seeker; it is a defense attorney for the elephants intuitions.",
+          "distractors": [
+            "The task is confusingly worded and participants misunderstand what the rule means",
+            "Participants are simply not paying enough attention to the logical structure of the problem",
+            "The 4 card is correct because it can confirm the rule by showing a vowel on the other side"
+          ],
+          "underlying_psychology": "Wason 1966 and 1969. The confirmation bias is one of the most robust findings in cognitive psychology. Haidt uses it to show that moral reasoning is similarly biased. When we evaluate a moral claim, we do not dispassionately test all possibilities. We search for reasons that support our intuitive position and reject counterevidence. The rider is the press secretary, not the scientist. The 4-card task reveals something uncomfortable: even when we think we are being logical, we are being intuitive — the elephant decides which hypothesis feels right, and the rider finds evidence for it."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Neuroscience | The Interpreter Module",
+          "topic": "The Interpreter Module: How the Left Brain Confabulates Reasons",
+          "subject_baseline": "Split-brain patients (whose corpus callosum has been severed) have two independently functioning hemispheres. A command is shown only to the right hemisphere (left visual field): Walk. The patient stands up and begins walking. When asked why they are walking, the left hemisphere (which did not see the command) instantly fabricates a plausible reason: I am going to get a Coke.",
+          "interrogation_transcript": "Gazzanigas split-brain studies reveal the interpreter module — a left-hemisphere system that continuously constructs narratives to explain behavior. It has no access to the right hemispheres perceptions or intentions. When the right hemisphere causes an action, the left hemisphere observes the action and invents a reason. Crucially, the patient genuinely believes the fabricated reason. The interpreter is not lying. It does not know it is confabulating. It is doing its job: creating a coherent story about why we do what we do.",
+          "observed_nonverbal_log": [
+            "The left hemisphere generates explanations without access to the actual cause",
+            "The patient believes the confabulated explanation as genuine truth",
+            "The interpreter operates constantly, weaving a coherent self-narrative",
+            "This is the neural basis for the rider in the rider/elephant metaphor"
+          ],
+          "question": "If the interpreter module confabulates reasons for behavior caused by unknown factors, how can we trust any of our self-explanations?",
+          "correct_diagnosis": "We cannot fully trust them. The interpreter module is not designed for self-knowledge — it is designed to maintain a coherent self-narrative for social purposes. We need to explain our actions to others to maintain relationships and reputation. The interpreter evolved to serve this social function, not to give accurate introspective reports. This is why Nisbett and Wilson found that people cannot accurately report on their own cognitive processes. The rider tells a good story, but the elephant knows the real reasons.",
+          "distractors": [
+            "Only split-brain patients have an interpreter module — normal brains do not fabricate reasons",
+            "The interpreter module is specific to movement and does not affect moral or political reasoning",
+            "With enough introspection and honesty, people can access their true motivations"
+          ],
+          "diagnostic_breakdown": "Stage 1 - Action: The right hemisphere initiates behavior based on environmental cues. Stage 2 - Observation: The left hemisphere observes the behavior. Stage 3 - Interpretation: The interpreter module generates a plausible-sounding explanation. Stage 4 - Belief: The person genuinely believes the explanation. Stage 5 - Application to Morality: When we have a moral intuition, the interpreter constructs post-hoc reasons. We believe the reasons caused the judgment, but in reality the judgment came first. The interpreter is the rider."
+        }
+      ]
+    },
+    {
+      "id": "rm_ch03",
+      "title": "Chapter 3: Elephants Rule",
+      "pages": "72-94",
+      "assets": [
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Moral Psychology | Intuitive Primacy",
+          "topic": "The Social Intuitionist Model: How Moral Judgments Really Happen",
+          "subject_baseline": "A flash of disgust. A wave of admiration. A pang of guilt. Moral emotions fire instantly when we encounter situations. Within milliseconds, we have already judged: this is wrong, this is right, this person is good, that person is bad. The conscious mind then begins its search for reasons.",
+          "interrogation_transcript": "A woman is cleaning out her closet. She finds an old American flag. She does not want it anymore, so she cuts it into pieces and uses the rags to clean her toilet. Most Americans condemn this act immediately. When asked why, they cite respect for the flag, the sacrifices it represents, its sacred status. But if pressed: is anyone harmed by this? Can a piece of cloth be harmed? The reasoning fails. But the judgment stands. The elephant finds the act disgusting; the rider scrambles for post-hoc reasons.",
+          "observed_nonverbal_log": [
+            "Judgment occurs before conscious deliberation begins",
+            "Reasoning is recruited after the fact to justify the judgment",
+            "When reasoning fails to find justification, judgment persists unchanged",
+            "Social influence works primarily through changing intuitions, not through logical argument"
+          ],
+          "question": "If reasoned arguments rarely change moral intuitions directly, how does moral change actually occur in individuals and societies?",
+          "correct_diagnosis": "According to the social intuitionist model, moral change happens through four pathways: (1) Intuitive change through social influence - being in a group of people with different intuitions gradually shifts your own via mimicry and emotional contagion. (2) Reasoning privately can sometimes trigger new intuitions - if you force yourself to consider a situation from another perspective, new intuitive flashes can occur. (3) Reasoned persuasion works only indirectly - your reasons can change someone elses intuitions, but only if they trigger new intuitions in that person. (4) Social pressure - people sometimes reason publicly to justify their intuitions, and the need to appear consistent can slowly reshape their position. The key: you cannot argue someone out of a position they did not reason themselves into.",
+          "distractors": [
+            "Moral change happens through better logic - people abandon positions when shown logical contradictions in their reasoning",
+            "Moral change happens through education and factual correction - ignorance is the root of moral disagreement",
+            "Moral change happens through punishment and reward - behavior modification eventually changes underlying beliefs"
+          ],
+          "diagnostic_breakdown": "Stage 1 - Intuitive Flash: The elephants instant judgment. Stage 2 - Post-Hoc Reasoning: The rider constructs justifications. Stage 3 - Social Sharing: We share our judgments and reasons with others, spreading emotional contagion. Stage 4 - Social Pressure: We adjust our public positions to maintain relationships. Stage 5 - Possible Internalization: Repeated public positions can slowly shift private intuitions. The model has four links: (A) intuitive judgment, (B) post-hoc reasoning, (C) reasoned persuasion (which works by triggering new intuitions in others), and (D) social pressure. Reasoned persuasion (link C) is the weakest link. Social influence (link D) is the strongest."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Moral Psychology | Affect Heuristic | Disgust",
+          "topic": "The Disgust Amplifier: How Incidental Emotions Hijack Moral Judgment",
+          "visual_frame_description": "Participants sit at a desk. Unbeknownst to them, the desk has been sprayed with a foul-smelling fart spray. Other participants watch a disgusting film clip (a toilet scene from Trainspotting). A third group sits in a clean room. All then read about a man who does various morally questionable but not clearly harmful things (keeping a found wallet, using a condom, eating his dead dog). The disgust-primed participants judge these actions as significantly more morally wrong than the clean-room participants do.",
+          "target_channel": "Emotional Contamination | Incidental Affect in Moral Judgment",
+          "question": "Why would the smell of a room or a disgusting film clip change peoples moral judgments about unrelated actions?",
+          "correct_cue": "The affect heuristic: people use their current emotional state as information when making judgments. If I feel disgust right now, and I am reading about a morally ambiguous action, the disgust gets misattributed to the action - this feels disgusting, so it must be wrong. The emotion amplifies the intuitive judgment. This is why moral panics often involve disgust-inducing acts - disgust is a powerful amplifier that makes moderate violations feel monstrous. The contamination is automatic and unconscious - participants genuinely believe the action itself caused their disgust.",
+          "distractors": [
+            "The disgusting environment makes people more irritable and therefore harsher in all their judgments across the board",
+            "The priming effect only works for taboo violations and does not affect judgments about harm or fairness",
+            "Participants overcorrected for the disgusting environment and became more lenient instead"
+          ],
+          "underlying_psychology": "Schnall, Haidt, Clore, and Jordan 2008 disgust-into-judgment studies. The finding demonstrates embodied cognition and the affect-as-information theory (Schwarz and Clore). Moral judgment is not pure cognition operating on objective facts. It is deeply influenced by bodily states, incidental emotions, and environmental cues. The practical implication: judges and jurors should not be making decisions on full stomachs or in physically uncomfortable environments. The disgust you feel from a gruesome crime scene photo may contaminate your judgment of the defendants entire character, not just your assessment of the crime."
+        },
+        {
+          "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+          "domain": "Moral Psychology | Intuitive Change | Moral Reframing",
+          "topic": "How to Change a Moral Intuition: Appealing to the Elephant Directly",
+          "stage_1_observation": "Frimer, Skitka, and Motyl 2017: Environmental messages framed in purely economic terms (saving money on energy bills) consistently failed to change conservatives environmental behavior. But messages framed as protecting natural resources for future generations and preserving the purity of national parks (loyalty and sanctity foundations) succeeded. The facts were the same. Only the framing changed.",
+          "stage_1_question": "Why does the same factual information change behavior under one moral frame but not another?",
+          "stage_1_correct_answer": "The elephants attention is captured by moral-emotional cues, not by abstract reasoning. An economic frame activates the care foundation for liberals (caring about future generations harmed by climate change) but may not resonate with conservatives whose moral matrix prioritizes loyalty, authority, and sanctity. When the message is reframed to activate those foundations - protecting the purity of sacred national lands, showing patriotic loyalty to the country - the elephants ears perk up. The rider then finds reasons to support action, but the elephant was the one that decided to move.",
+          "stage_2_intervention": "You are trying to convince a conservative family member that same-sex marriage should be legal. Your first instinct is to argue about love is love, equal rights, and the harm of discrimination (care/harm foundation). They are not moved. According to the moral foundations approach, how should you reframe your argument?",
+          "stage_2_correct_answer": "Use the loyalty and authority foundations: (1) Loyalty - same-sex couples make committed, loyal partners who strengthen the institution of marriage. Marriage is about fidelity and commitment. Allowing them to marry strengthens the social fabric. (2) Authority - the conservative legal tradition of equal protection under the law and the authority of long-term committed relationships. (3) Liberty - the conservative value of people being free to make their own life choices without government interference in private matters. Do not use the care/harm frame that triggers defensiveness from the elephants fear of being morally lectured. Speak to the elephants existing moral concerns.",
+          "boss_battle_explanation": "Layer 1 - Moral Reframing: Change the moral foundation the message activates, not the facts. Layer 2 - Six Foundations: Care, Fairness, Loyalty, Authority, Sanctity, Liberty. Liberals prioritize Care and Fairness; conservatives engage all six. Layer 3 - Elephant Targeting: Speak to the elephants emotional-moral intuitions, not to the riders logic. Layer 4 - The Golden Rule of Moral Persuasion: If you want to change someones mind, first figure out which moral foundations matter to them, then show how your position serves those foundations. Your own foundations will not work on them - only theirs will."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Cognitive Psychology | Disconfirmation",
+          "topic": "The Confirmation Bias in Moral Reasoning: Why We Are All Bad Scientists",
+          "visual_frame_description": "Two groups read about a proposed policy. Group A is told: this will increase efficiency by 15%. Group B is told: this will reduce costs by 15%. Both groups generate reasons to support the policy. Then they are told the policy will also require layoffs. Group A weighs the layoff cost against efficiency. Group B weighs it against cost savings. Both groups still support the policy, but use different weights depending on which benefit they heard first. The order of information determines which reason they emphasize, but they believe their reasoning was objective.",
+          "target_channel": "Myside Bias | Motivated Reasoning in Evaluation",
+          "question": "Why does the order of information presentation systematically change which reasons people cite, even though everyone has the same total information?",
+          "correct_cue": "The myside bias (confirmation bias applied to reasoning): people generate reasons to support their already-formed position. The first piece of information triggers an intuitive leaning, and subsequent information is evaluated through that lens. Supporting evidence is weighted heavily; contradicting evidence is scrutinized and dismissed. This is not conscious dishonesty — it is how the elephant works. The rider (interpreter module) searches for reasons that fit the elephants direction, not reasons that would challenge it. The order effect proves the rider is post-hoc, not independent.",
+          "distractors": [
+            "The first information is simply more memorable and therefore more influential in conscious deliberation",
+            "People are aware of the order effect but choose to overweight first information due to primacy bias",
+            "The effect disappears when participants are explicitly warned about the order manipulation"
+          ],
+          "underlying_psychology": "Haidt synthesizes the Wason task (1966), the myside bias (Perkins 1985, Baron 1995), and motivated reasoning (Kunda 1990, Westen 2006) to show that the human mind is designed for confirmation, not objectivity. When we reason about morality, politics, or any emotionally charged topic, we do not weigh evidence impartially. We search for supporting evidence and generate counterarguments against opposing evidence. The rider can change direction — but only if the elephant is willing. New intuitions (from social influence, personal experience, or compelling narratives) can shift the elephant. Arguments alone rarely do."
+        }
+      ]
+    },
+    {
+      "id": "rm_ch04",
+      "title": "Chapter 4: Vote for Me (Here's Why)",
+      "pages": "95-128",
+      "assets": [
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Political Psychology | Motivated Reasoning",
+          "topic": "The Rational Voter Myth: Motivated Reasoning in Political Judgment",
+          "subject_baseline": "Westen 2006: Partisan Democrats and Republicans watched video clips of their preferred candidate and the opposing candidate making contradictory statements. Brain scans revealed that reasoning about the opposing candidates contradictions activated cognitive areas. Reasoning about their own candidate's contradictions activated emotion areas.",
+          "interrogation_transcript": "When participants processed their own candidate making a contradictory statement, the emotional centers lit up (pleasure circuits, like reward). Reasoning centers showed minimal activation. Participants did not objectively evaluate the contradiction - they generated exculpatory explanations. When the other candidate did the same thing, reasoning centers activated and participants judged the contradiction as evidence of dishonesty. The brain was not seeking truth. The brain was defending the team.",
+          "observed_nonverbal_log": [
+            "Partisan identity activates before conscious political reasoning begins",
+            "The same objective contradiction is judged differently based on team affiliation",
+            "Emotional reward centers activate when finding excuses for the in-group",
+            "Reasoning centers activate only for out-group contradictions"
+          ],
+          "question": "If both Democrats and Republicans are equally guilty of motivated reasoning, how can any voter arrive at objective political judgments?",
+          "correct_diagnosis": "They cannot. Motivated reasoning is not a bug in the political mind - it is a feature. Our political beliefs are not conclusions we reach after dispassionate analysis. They are identity markers that signal group membership. When we reason about politics, we are not trying to find truth. We are trying to defend our teams reputation and our own identity as a good team member. The rider (reason) serves the elephant (intuition), and the elephants primary political goal is not accuracy but belonging. The cure is not to eliminate motivated reasoning (impossible) but to expose ourselves to different moral matrices and understand that we are all doing it.",
+          "distractors": [
+            "Higher education and intelligence reduce partisan bias - smarter people evaluate evidence more objectively",
+            "Motivated reasoning only affects uneducated voters who lack critical thinking skills",
+            "Non-partisan independents and swing voters are immune to motivated reasoning"
+          ],
+          "diagnostic_breakdown": "Stage 1 - Team Identity: I am a Democrat/Republican becomes part of self-concept. Stage 2 - Information Threat: Evidence that hurts my team threatens my identity. Stage 3 - Motivated Reasoning: The elephant triggers defense mode. Stage 4 - Explanation Generation: The rider generates counterarguments, alternative interpretations, and attacks on the source. Stage 5 - Convincing the Self: The rider believes its own post-hoc rationalizations. The neural evidence shows this is not conscious hypocrisy - the brain literally processes the same information differently based on team allegiance. We are not lying about our objectivity. We genuinely believe in our own rational assessment because the rider has no access to the elephants motivational state."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Political Psychology | Moral Reframing",
+          "topic": "The Cross-Party Conversation: Speaking Across Moral Matrices",
+          "dialogue": [
+            {
+              "speaker": "Liberal Friend",
+              "line": "How can you support a candidate who cut funding for food stamps? Those are the most vulnerable people in our society - children, elderly, disabled. We have a moral obligation to care for them."
+            },
+            {
+              "speaker": "Conservative Friend",
+              "line": "I care about vulnerable people too, but food stamps create dependency. The best way to help people is to create jobs and economic growth. When the government hands out checks, it traps people in poverty. My candidate cuts regulations to let businesses hire more people."
+            },
+            {
+              "speaker": "You (Mediator)",
+              "line": "Youre both using the Care foundation - you just disagree about what causes harm. The liberal friend sees harm in cutting benefits. The conservative friend sees harm in dependency. But notice: the conservative friend did not mention Fairness or Liberty. A better conservative response would be: I am for liberty and personal responsibility. Government assistance can trap people in a cycle of dependency, violating the principle that people should earn their own way through hard work. That activates Fairness (as proportionality) and Liberty (as freedom from government control). Understanding the moral foundation being used helps explain why factual arguments often fail. You are not disagreeing about facts - you are disagreeing about which moral principle takes priority."
+            }
+          ],
+          "psychological_breakdown": "Haidt argues that each side occupies a different moral matrix. Liberals have a three-foundation morality (Care, Fairness/equality, Liberty). Conservatives have a six-foundation morality (all of the above plus Loyalty, Authority, Sanctity, and Fairness/proportionality). The same policy triggers different foundations in different people. A liberal who argues purely from Care will not reach a conservative whose Care concern is overridden by Authority (government overreach) and Sanctity (tradition). The solution is not to abandon your own foundations but to learn to translate your position into the other sides language."
+        }
+      ]
+    },
+    {
+      "id": "rm_ch05",
+      "title": "Chapter 5: Beyond WEIRD Morality",
+      "pages": "128-154",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Cultural Psychology | Moral Diversity",
+          "topic": "WEIRD vs The Rest: How Western Psychology Misrepresents Universal Morality",
+          "column_a_label": "WEIRD Morality - Western, Educated, Industrialized, Rich, Democratic. Emphasizes harm, rights, and individual autonomy. Analytic thinking, universal rules, guilt culture.",
+          "column_b_label": "Traditional/Eastern Morality - Emphasizes community, duty, hierarchy, and purity. Holistic thinking, context-sensitive rules, shame culture.",
+          "rows": [
+            {
+              "scenario": "A Brazilian participant says incest between consenting adults is wrong, but they cannot explain why",
+              "correct_column": "B",
+              "reason": "Non-WEIRD participants rely on intuitive disgust/purity rather than individual rights - the act violates sanctity regardless of consent"
+            },
+            {
+              "scenario": "An American says consensual incest between adults is not wrong because no one is harmed",
+              "correct_column": "A",
+              "reason": "WEIRD participants apply the harm principle - if no individual is harmed, the act is not immoral"
+            },
+            {
+              "scenario": "An Indian villager says respecting elders is the most important moral virtue for children to learn",
+              "correct_column": "B",
+              "reason": "Non-WEIRD cultures prioritize hierarchy and authority as moral goods, not as oppressive systems"
+            },
+            {
+              "scenario": "A European says it is immoral to charge interest on loans because it exploits the poor",
+              "correct_column": "B",
+              "reason": "Though Western, this reflects a community-binding fairness concern more common in non-WEIRD cultures"
+            },
+            {
+              "scenario": "An American graduate student in psychology volunteers for a study on moral judgment",
+              "correct_column": "A",
+              "reason": "WEIRD populations are the most individualistic, analytical, and rights-focused - and 96% of psychology studies use them"
+            }
+          ],
+          "explanation": "Henrich, Heine, and Norenzayan 2010 showed that 96% of psychological subjects come from WEIRD societies, which are outliers on many psychological dimensions including moral reasoning. WEIRD people are more individualistic, less conforming, more analytic in thinking style, and more focused on harm/rights-based morality. The standard story of moral development (Kohlberg) with justice as the highest stage is a WEIRD-centric view that pathologizes non-WEIRD moralities. Haidts Moral Foundations Theory expands the moral domain beyond harm and fairness to include loyalty, authority, and sanctity - concerns that non-WEIRD cultures treat as central."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Cultural Psychology | Autonomy vs Community",
+          "topic": "The Three Ethics: Autonomy, Community, Divinity",
+          "visual_frame_description": "Shweder 1997 described three ethics across cultures. The Ethics of Autonomy: individuals are free agents whose rights and preferences should not be violated. The Ethics of Community: individuals are embedded in roles, families, and hierarchies; duty and loyalty are paramount. The Ethics of Divinity: individuals are temporary vessels of a sacred soul; purity and sanctity are paramount. WEIRD cultures focus almost exclusively on Autonomy. Most other cultures use all three.",
+          "target_channel": "Cross-Cultural Moral Blindness",
+          "question": "When a Western human rights advocate encounters a culture that practices honor killings, which moral frames are they using and which are they missing?",
+          "correct_cue": "The Western advocate uses only the Ethics of Autonomy: the individual woman has a right to life, liberty, and sexual choice. The practicing culture uses the Ethics of Community (the woman brought dishonor on her family, threatening its standing and survival) and the Ethics of Divinity (her sexual purity is sacred). Both sides see the other as morally deficient. The advocate sees murder and oppression. The community sees the advocate as failing to understand the sacred obligations of family honor. Understanding Shweders three ethics does not require accepting honor killings - but it explains why purely autonomy-based arguments fail to persuade.",
+          "distractors": [
+            "The practicing culture simply does not value human life as much as Western cultures do",
+            "The practice is purely about male control of female bodies with no moral dimension",
+            "The honor killing is universally recognized as murder within the culture but is justified through denial"
+          ],
+          "underlying_psychology": "Shweders three ethics map onto Haidts moral foundations: Autonomy maps to Care and Liberty, Community maps to Loyalty and Authority, Divinity maps to Sanctity. The Wests narrowing to Autonomy alone is historically unusual. Most human societies throughout history used all three ethics to structure moral life. The implication: when WEIRD people try to export their moral values, they are often baffled by resistance because they fail to see that they are asking people to abandon their entire moral framework."
+        }
+      ]
+    },
+    {
+      "id": "rm_ch06",
+      "title": "Chapter 6: Taste Buds of the Righteous Mind",
+      "pages": "155-188",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Moral Psychology | Moral Foundations Theory",
+          "topic": "The Six Moral Foundations: The Taste Buds of the Righteous Mind",
+          "column_a_label": "Each foundation is an evolved module for detecting certain patterns in the social world and generating appropriate emotional responses.",
+          "column_b_label": "Foundations vary across individuals and cultures - some are more sensitive, like taste buds that differ in strength.",
+          "rows": [
+            {
+              "scenario": "A child is abused by a parent. People across all cultures condemn this instantly.",
+              "correct_foundation": "Care/Harm",
+              "description": "The Care foundation detects suffering and vulnerability in offspring and generates compassion and protection responses. It is the most universal foundation, found in nearly all humans."
+            },
+            {
+              "scenario": "Two people do equal work but one is paid twice as much for no reason.",
+              "correct_foundation": "Fairness/Cheating",
+              "description": "The Fairness foundation detects cheating, free-riding, and unequal treatment. It generates anger at cheaters and gratitude toward fair players. It evolved in the context of reciprocal altruism."
+            },
+            {
+              "scenario": "A soldier throws himself on a grenade to save his comrades.",
+              "correct_foundation": "Loyalty/Betrayal",
+              "description": "The Loyalty foundation detects signs of coalitional commitment and betrayal. It generates pride in loyalty and righteous anger at traitors. It evolved from the challenges of intergroup competition."
+            },
+            {
+              "scenario": "A teenager publicly mocks and insults the principal of their school.",
+              "correct_foundation": "Authority/Subversion",
+              "description": "The Authority foundation detects status hierarchies, leadership, and respect for legitimate authority. It generates respect, deference, and awe when authority is properly exercised - anger and contempt when it is subverted."
+            },
+            {
+              "scenario": "A person sells their body to be eaten after death, or makes art from human blood.",
+              "correct_foundation": "Sanctity/Degradation",
+              "description": "The Sanctity foundation detects physical and spiritual contamination. It generates disgust toward degradation and awe toward purity. It evolved from the need to avoid pathogens and parasites, then extended to moral purity."
+            }
+          ],
+          "explanation": "Haidt identifies six innate moral foundations that are the taste buds of the righteous mind. Each foundation has an adaptive challenge it addresses, characteristic emotions it generates, and relevant virtues it supports. The foundations are not deterministic - they are like a first draft that gets revised by experience. Cultures vary in which foundations they emphasize, creating different moral matrices. A sixth foundation, Liberty/Oppression, was later added - detecting signs of domination and generating reactance against bullies."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Moral Psychology | Sanctity | Disgust",
+          "topic": "The Sanctity Foundation: From Physical Disgust to Moral Purity",
+          "visual_frame_description": "Rozin 1999: A brand new, sterile, never-used bedpan. Would you drink soup from it? Almost everyone says no. A piece of fudge shaped like dog feces. Would you eat it? Almost everyone says no, even knowing it is fudge. A sweater worn by Adolf Hitler. Would you wear it? Almost everyone says no. The mind treats physical, moral, and spiritual purity as equivalent - the same disgust response that evolved to protect us from pathogens now protects our moral and spiritual purity.",
+          "target_channel": "Purity-Disgust Generalization | Sacred Values",
+          "question": "Why do people react with disgust and rejection to perfectly clean objects that have merely been associated with contamination?",
+          "correct_cue": "The laws of sympathetic magic: contagion (once in contact, always in contact) and similarity (the image shares the qualities of the thing it represents). These are not bugs in cognition - they are features of the Sanctity foundation. The disgust system evolved to protect the body from pathogens, but it was co-opted by the moral system to protect the soul from spiritual contamination. This is why people describe moral violations as disgusting, why political rhetoric uses purity language, and why cultural rules about food, sex, and the body are so emotionally charged.",
+          "distractors": [
+            "People are rationally assessing risk - the bedpan might have residue, the fudge might actually be feces, the sweater might carry diseases",
+            "The effect is purely cultural conditioning - there is no biological basis for purity concerns",
+            "Only religious people have purity concerns; secular people judge solely on harm and fairness"
+          ],
+          "underlying_psychology": "The Sanctity foundation explains why moral and political arguments often involve disgust and purity - not just harm. Abortion is framed as the sanctity of life. Flag burning is described as a sacred desecration. Environmentalism uses purity language about clean air, pristine nature, and pollution. The Sanctity foundation is the most variable across cultures and individuals. Progressives tend to minimize it; conservatives and traditionalists give it weight. Understanding Sanctity as a legitimate moral foundation (not just superstition) helps explain why people across cultures care about issues that seem irrational from a purely harm-based perspective."
+        },
+        {
+          "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+          "domain": "Moral Psychology | Disgust | Purity",
+          "topic": "The Rozin Disgust Experiments: From Physical to Moral Contagion",
+          "stage_1_observation": "Paul Rozin's classic contagion studies: A brand-new, sterilized bedpan. Would you drink soup from it? Participants refuse. A piece of fudge shaped like dog feces. Would you eat it? Even knowing it is fudge, participants refuse. A sweter worn by Adolf Hitler. Would you wear it? Participants refuse. A glass of juice that a sterilized cockroach was dipped into. Participants refuse and find the idea disgusting, even though the roach was sterilized.",
+          "stage_1_question": "Why do people reject perfectly clean objects that carry no physical risk?",
+          "stage_1_correct_answer": "The laws of sympathetic magic. Contagion law: once in contact, always in contact — the object retains the essence of whatever touched it. Similarity law: an image shares the properties of the thing it represents. These are not errors — they are features of a disgust system that evolved to protect us from pathogens. The disgust system was co-opted by morality. This is why moral violations feel disgusting, and why people describe immoral acts as sickening. The purity foundation extends physical disgust into the moral domain.",
+          "stage_2_intervention": "You are a lawyer defending a client accused of a gruesome crime. The crime scene photos are horrific — blood, violence, gore. The prosecutor wants to show them to the jury. You know that disgust contaminates moral judgment. How do you prevent the disgust response from biasing the jury against your client?",
+          "stage_2_correct_answer": "Two strategies. (1) Desensitization through exposure — request that the jury sees the photos multiple times before trial, allowing the disgust response to habituate. Research shows that with repeated exposure, the visceral disgust response diminishes. (2) Cognitive reframing — immediately after each disturbing image, provide an alternative interpretation that redirects the jurys attention away from disgust and toward the legal elements (chain of custody, forensic limitations, alternative explanations). The key is to prevent the incidental disgust from being misattributed to your client. Rozins research shows that disgust is domain-general — disgust from any source contaminates unrelated moral judgments.",
+          "boss_battle_explanation": "Layer 1 - Physical Disgust: Evolved to avoid pathogens and parasites. Layer 2 - The Laws of Sympathetic Magic: Contagion (contact transfers essence) and Similarity (appearance equals reality). Layer 3 - Moral Extension: Disgust generalizes from physical to moral violations. Layer 4 - Contamination: Incidental disgust (from a smell, a photo, a memory) is misattributed to whatever you are judging, making the judgment harsher. Layer 5 - The Cure: Separate the disgust trigger from the moral judgment. Is this wrong, or does it just feel disgusting?"
+        }
+      ]
+    },
+    {
+      "id": "rm_ch07",
+      "title": "Chapter 7: The Moral Foundations of Politics",
+      "pages": "189-223",
+      "assets": [
+        {
+          "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+          "domain": "Political Psychology | Moral Matrices",
+          "topic": "The Moral Matrix: Why Liberals and Conservatives Live in Different Moral Worlds",
+          "stage_1_observation": "Haidt and colleagues surveyed tens of thousands of people on the Moral Foundations Questionnaire. The results: liberals (progressives) strongly endorse Care and Fairness foundations, moderately endorse Liberty, and weakly endorse Loyalty, Authority, and Sanctity. Conservatives endorse all six foundations more evenly, with the strongest endorsements on Loyalty, Authority, and Sanctity.",
+          "stage_1_question": "If conservatives endorse all six foundations and liberals endorse only three, does that mean conservatives have a richer moral palate?",
+          "stage_1_correct_answer": "Yes, in a sense. Conservatives have more diverse moral concerns. But liberals care more intensely about their three foundations. The conservative advantage on Loyalty/Authority/Sanctity means conservatives can frame their positions using moral language that resonates with a wider range of voters. Liberals often fail to understand why voters respond to conservative messages about patriotism, tradition, and order - they dismiss these as non-moral concerns (racism, sexism, xenophobia) rather than recognizing them as different moral values.",
+          "stage_2_intervention": "You are a Democratic strategist trying to win rural working-class voters who voted for the Republican candidate. Your focus groups show these voters say: I feel like Democrats look down on me. They think I am a redneck. They want to take away my guns and tell me how to live. According to moral foundations theory, what is going wrong and how do you fix it?",
+          "stage_2_correct_answer": "The Democratic messaging uses only Care (we will help the poor) and Fairness-as-equality (close the income gap). These voters also care about Loyalty (love of country, community solidarity against outsiders), Authority (respect for tradition, military, local institutions), and Sanctity (traditional values, the sacredness of certain ways of life). The Democratic message fails because it does not just disagree - it implicitly dismisses the others foundations as immoral. The fix: (1) Acknowledge the legitimacy of the voters moral concerns about community breakdown and loss of tradition. (2) Reframe Democratic policies in terms that activate Loyalty (patriotism of universal healthcare), Authority (the stable institutions that help families), and Sanctity (protecting the sacred dignity of all workers). (3) Stop using contempt-laden language that signals moral superiority.",
+          "boss_battle_explanation": "Layer 1 - Differential Endorsement: Liberals prioritize Care and Fairness; conservatives use all six. Layer 2 - Moral Blindness: Each side sees the others concerns as non-moral (greed, hate, stupidity). Layer 3 - Contempt Trap: When you dismiss someones moral foundations, you signal that you consider them morally inferior, which triggers defensive reactance. Layer 4 - The Cure: Learn to speak the other sides moral language without abandoning your own values. Just as an American can learn Mandarin while remaining English-speaking, you can learn the others moral grammar while keeping your own."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Political Psychology | Moral Hypocrisy",
+          "topic": "The Paradox of Toleration: When Derogating the Outgroup Becomes a Moral Duty",
+          "subject_baseline": "Both Democrats and Republicans believe the other sides candidate is uniquely dangerous to democracy, that the other sides voters are motivated by hatred and ignorance, and that their own side is defending civilization. Each side believes the other is a threat to the moral order itself.",
+          "interrogation_transcript": "Haidt points out that this mutual demonization is a feature of moral psychology, not a bug. Humans evolved to be righteous - to bond with their group, to detect threats, and to mobilize against enemies. When groups have different moral foundations, each sees the other not just as wrong but as morally dangerous. The tolerant liberal becomes intolerant of conservative intolerance. The liberty-loving conservative becomes authoritarian about defending liberty. The rider constructs elaborate reasons why our team is righteous and theirs is depraved.",
+          "observed_nonverbal_log": [
+            "Each side monitors the other for moral violations - selective attention",
+            "Each side applies different standards to in-group vs out-group",
+            "Hypocrisy is invisible to the self but obvious when the other side does it",
+            "Normalizing the outgroup feels like betrayal to the ingroup"
+          ],
+          "question": "How can people who value fairness and truth be so unfair and credulous about the other political side?",
+          "correct_diagnosis": "The righteous mind is designed for coalitional competition, not objectivity. Our moral psychology evolved in a context of intergroup conflict where loyalty to the group was essential for survival. Being objective about the outgroup was not adaptive - it was dangerous. The mechanism: (1) ingroup loyalty makes us receptive to positive in-group information. (2) Outgroup hostility makes us receptive to negative out-group information. (3) Confirmation bias strengthens existing beliefs. (4) The myside bias makes us better at finding flaws in the other sides arguments than in our own. We are not being irrational. We are being good team players.",
+          "distractors": [
+            "Social media algorithms create echo chambers that prevent people from seeing the other sides perspective",
+            "The media is biased and feeds each side the misinformation they want to hear",
+            "One side is genuinely more objective and fact-based while the other is driven by emotion and propaganda"
+          ],
+          "diagnostic_breakdown": "Stage 1 - Group Identity: My political party is part of who I am. Stage 2 - Moral Foundations: My party stands for Care and Fairness (liberal) or for Loyalty, Authority, Sanctity (conservative). Stage 3 - Outgroup Threat: The other party endorses values I consider immoral. Stage 4 - Righteousness: We are not just opponents - we are good fighting evil. Stage 5 - Demonization: The other side becomes not just wrong but dangerous, irrational, and morally corrupt. The tragedy: both sides are doing the same thing, with equally sincere conviction that they are defending the good."
+        }
+      ]
+    },
+    {
+      "id": "rm_ch08",
+      "title": "Chapter 8: The Conservative Advantage",
+      "pages": "224-273",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Political Psychology | Conservative Advantage",
+          "topic": "The Conservative Advantage: Why Conservatives Have a Broader Moral Palate",
+          "visual_frame_description": "Imagine a restaurant menu. Liberals order from three appetizers: Care, Fairness, and Liberty. Conservatives order from all six: Care, Fairness, Liberty, Loyalty, Authority, and Sanctity. When the restaurant runs a promotion on family-style meals that include Loyalty and Sanctity dishes, conservatives are naturally drawn. Liberals look at the menu and see only appetizers they do not order.",
+          "target_channel": "Moral Range Asymmetry | Political Persuasion",
+          "question": "Why do conservative political messages about patriotism, tradition, and order resonate with more voters than liberal messages about compassion and equality?",
+          "correct_cue": "Conservatives appeal to the full range of moral foundations, while liberals primarily use only Care and Fairness. Messages about protecting the nation (Loyalty), respecting tradition (Authority), and defending sacred values (Sanctity) activate moral intuitions that liberals often ignore or dismiss. This gives conservatives a built-in advantage in moral communication: they can talk to voters using 6 channels while liberals use 3. Furthermore, conservative voters are more sensitive to threats and order concerns, making Authority/Sanctity messages land with greater emotional force.",
+          "distractors": [
+            "Conservative policies are simply more popular and effective, so they win on merit",
+            "Conservatives spend more money on advertising and have better media infrastructure",
+            "Liberal policies appeal to the head while conservative policies appeal to the heart - and the heart is stronger"
+          ],
+          "underlying_psychology": "The conservative advantage is not about policy quality but about moral range. Haidt shows that conservative rhetoric activates Care (protecting the vulnerable from foreign threats), Fairness (proportionality - people should get what they deserve), Loyalty (patriotism, supporting our troops), Authority (law and order, respect for tradition), Sanctity (protecting sacred American values, religious freedom), and Liberty (freedom from government overreach). Liberal rhetoric mainly uses Care (helping the poor, protecting minorities) and Fairness-as-equality (closing the wealth gap). The liberal disadvantage: by ceding Loyalty, Authority, and Sanctity to conservatives, liberals make themselves vulnerable to being framed as unpatriotic, relativist, and immoral."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Political Psychology | System Justification | Status Quo Bias",
+          "topic": "The Status Quo as Sacred: Why Conservatives Resist Change",
+          "subject_baseline": "A liberal activist protests outside a factory that has operated for 80 years, demanding it close to protect the environment. Workers at the factory counter-protest: they need their jobs, the factory supports the town, and it has been there for generations. Both sides see themselves as the moral party.",
+          "interrogation_transcript": "The liberal activist sees an environmental threat (Care foundation - protect the planet) and an injustice (the factory pollutes while the neighborhood suffers). The workers see a threat to their community (Loyalty - this factory is part of who we are), to legitimate authority (the factory owner has been a pillar of the community - Authority), and to the sacredness of their way of life (Sanctity - our traditions, our town, our identity). The conservative resistance to change is not mere stubbornness or ignorance. It is a genuine moral commitment to preserving institutions, traditions, and ways of life that have proven their value over time.",
+          "observed_nonverbal_log": [
+            "Both sides identify real moral concerns grounded in different foundations",
+            "The liberal sees only the Care/Fairness dimensions and dismisses the others",
+            "The workers experience liberal demands as an attack on their identity and community",
+            "Each side feels the other is being irrational and immoral"
+          ],
+          "question": "Why do conservatives typically defend existing institutions and resist change, even when those institutions have clear flaws?",
+          "correct_diagnosis": "The conservative mind is not merely resistant to change - it is oriented toward preserving order, stability, and tradition. This is not a cognitive defect. It is a moral commitment grounded in Authority and Sanctity foundations. Conservatives tend to see institutions (government, military, church, family) as evolved structures that embody accumulated wisdom across generations. Changing them recklessly risks destroying something valuable that took centuries to build. The liberal sees an unjust institution. The conservative sees a fragile legacy of civilization. Both are right about different aspects. The best political systems integrate both: conservative preservation of what works with liberal correction of what is unjust.",
+          "distractors": [
+            "Conservatives are simply less intelligent and cannot understand the complexity of proposed reforms",
+            "Conservatives benefit from the status quo economically and resist change to protect their privilege",
+            "The conservative personality is defined by fear of change and a need for certainty, making all change threatening"
+          ],
+          "diagnostic_breakdown": "Stage 1 - Institution Has Existed: The status quo represents generations of accumulated wisdom and adaptation. Stage 2 - Authority Foundation: Respect for tradition and legitimate hierarchy. Stage 3 - Sanctity Foundation: Existing institutions feel sacred - they are part of our collective identity. Stage 4 - Threat Response: Proposed changes feel like attacks on sacred values, triggering defensive reactions. Stage 5 - Liberal Counterpoint: Change advocates focus on the institutions failures (Care/Fairness) without addressing the conservative concerns about loss, stability, and identity. Both sides are morally motivated. Neither is purely rational."
+        }
+      ]
+    },
+    {
+      "id": "rm_ch09",
+      "title": "Chapter 9: Why Are We So Groupish?",
+      "pages": "274-314",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Evolutionary Psychology | Group Selection",
+          "topic": "Individual vs Group Selection: Two Levels of Competition Driving Human Morality",
+          "column_a_label": "Individual Selection - Competition between individuals within a group. Favors selfishness, cheating, and free-riding. Genes that promote individual survival and reproduction spread.",
+          "column_b_label": "Group Selection - Competition between groups. Favors cooperation, self-sacrifice, and altruism toward ingroup members. Groups with more cooperators outcompete groups with more free-riders.",
+          "rows": [
+            {
+              "scenario": "A soldier throws himself on a grenade to save his unit",
+              "correct_column": "B",
+              "reason": "This self-sacrifice makes no sense at the individual gene level but greatly benefits the group in intergroup competition"
+            },
+            {
+              "scenario": "An employee secretly steals from the company till",
+              "correct_column": "A",
+              "reason": "Free-riding behavior that benefits the individual at the groups expense - the classic individual selection dynamic"
+            },
+            {
+              "scenario": "A community builds an irrigation system that requires collective maintenance",
+              "correct_column": "B",
+              "reason": "Cooperative infrastructure benefits the group and requires group-level coordination to maintain"
+            },
+            {
+              "scenario": "A person volunteers for a dangerous medical trial with no personal benefit",
+              "correct_column": "B",
+              "reason": "Altruism toward strangers and future generations - hard to explain by individual selection alone"
+            },
+            {
+              "scenario": "Two companies compete in a market - one with high trust and low internal theft outperforms the other",
+              "correct_column": "B",
+              "reason": "The group (company) with better internal cooperation outcompetes the group with more free-riding"
+            }
+          ],
+          "explanation": "Haidt argues for multi-level selection: humans evolved through competition at both levels. Within-group competition selected for selfish genes (individual level). Between-group competition selected for cooperative groups (group level). The result: humans are 90% chimp (selfish individual) and 10% bee (groupish cooperator). This explains why we are both deeply selfish and capable of extraordinary altruism. Morality is the set of psychological adaptations that enable group cooperation in the context of intergroup competition. We are groupish - not purely altruistic, but capable of setting aside self-interest when the group needs us."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Evolutionary Psychology | Warfare | Tribalism",
+          "topic": "The Tribal Instinct: Why We Love Us and Fear Them",
+          "subject_baseline": "Across human history, warfare was the leading cause of death for adult males in many small-scale societies. Groups that could cooperate internally and coordinate attacks externally outcompeted groups that could not. The human mind evolved for this reality: deep ingroup loyalty and automatic outgroup vigilance.",
+          "interrogation_transcript": "Haidt synthesizes evidence from anthropology (Keeleys war before civilization), primatology (chimpanzee border patrols), and psychology (minimal group paradigm). The minimal group paradigm shows that even random assignment to a meaningless group (like overestimating vs underestimating dots) produces ingroup favoritism within minutes. No history, no conflict, no resources - just group membership. The brain has a tribal instinct that can be triggered by the most trivial categorization. This is the foundation of both team sports and ethnic genocide.",
+          "observed_nonverbal_log": [
+            "Ingroup favoritism emerges automatically from minimal groups",
+            "Outgroup derogation is weaker than ingroup favoritism - we love us more than we hate them",
+            "Groupishness is easily triggered by shared symbols, rituals, and enemies",
+            "The same person who is kind and generous to ingroup members can be cruel to outgroup members"
+          ],
+          "question": "If groupishness evolved for intergroup competition and warfare, can we have the cooperation without the conflict?",
+          "correct_diagnosis": "Partially. Groupishness is a double-edged sword. The same mechanisms that bind groups together (shared identity, symbols, rituals, sacred values) also create the potential for intergroup hostility. You cannot turn off groupishness selectively - when you bind a group, you create an us and a them. But you can expand the circle of us. You can create larger, more inclusive identities (national identity, human rights, global citizenship) that encompass former enemies. The key insight: you do not need to eliminate groupishness. You need to redirect it toward ever-larger circles of inclusion while recognizing that some boundary will always exist.",
+          "distractors": [
+            "Yes - education and globalization are eliminating tribalism as people become more rational and cosmopolitan",
+            "No - tribalism is fixed and permanent; humans will always be at war with outgroups and there is no escape",
+            "Groupishness is purely cultural - if we raised children without nationalism or religion, tribalism would disappear"
+          ],
+          "diagnostic_breakdown": "Stage 1 - Group Formation: Any shared identity creates us/them. Stage 2 - Ingroup Bonding: Rituals, stories, and sacrifice strengthen internal bonds. Stage 3 - Outgroup Perception: The other group is seen as less human, less moral, more threatening. Stage 4 - Moral Division: Our group is righteous; theirs is wrong. Stage 5 - Conflict: Competition over resources or values escalates. The hope: we can design institutions that channel groupishness toward constructive competition (sports, markets, scientific competition) rather than destructive conflict."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Evolutionary Psychology | Targeted Altruism",
+          "topic": "The Parochial Altruism Paradox: Why We Are Nicest to Those We Can Kill",
+          "visual_frame_description": "A soldier carries a wounded comrade through enemy fire, risking his own life. The same soldier might have killed a member of a neighboring tribe in a raid last year. The capacity for self-sacrifice and for killing are two sides of the same coin: parochial altruism - altruism toward the ingroup, aggression toward the outgroup.",
+          "target_channel": "Parochial Altruism Detection",
+          "question": "Why does human altruism so consistently stop at the group boundary, and why do we show the most extreme altruism in the context of intergroup conflict?",
+          "correct_cue": "Parochial altruism evolved through group selection. Groups that had members willing to sacrifice for each other and fight against other groups outcompeted groups lacking these traits. The same psychological mechanism produces both effects: the deep emotional bond with ingroup members (love, loyalty, duty) and the willingness to harm outgroup members who threaten the ingroup. This is why veterans describe the profound bond of combat - the most intense altruism humans ever experience occurs in the context of trying to kill other humans. The evolutionary logic: you cannot have ingroup love without some degree of outgroup vigilance.",
+          "distractors": [
+            "Altruism is a purely cultural construction that can be extended to all humans through education and reason",
+            "Parochial altruism is unique to warrior cultures and does not appear in peaceful societies",
+            "The altruism soldiers show is about duty and training, not genuine care for comrades"
+          ],
+          "underlying_psychology": "Choi and Bowles 2007 parochial altruism model. Mathematical modeling shows that parochial altruism (altruism toward ingroup + hostility toward outgroup) can evolve through group selection when groups frequently compete. Pure altruism (toward everyone) cannot evolve because altruists are exploited by free-riders. Parochial altruism solves this: altruism toward ingroup members who reciprocate, combined with hostility toward outgroup members who might exploit. The implication for modern politics: national identity, patriotism, and even some forms of nationalism are not primitive holdovers. They are expressions of our evolved groupishness that can be channeled toward inclusive patriotism (proud of our nation, proud of our contributions to the world) rather than aggressive nationalism."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Neuroscience | Oxytocin | Group Bonding",
+          "topic": "The Dark Side of Oxytocin: Love Hormone or Tribal Bonding Agent?",
+          "visual_frame_description": "Participants receive either oxytocin nasal spray or a placebo. They then play a trust game. Oxytocin increases trust and generosity — toward ingroup members. In one study, oxytocin made Dutch men more trusting of Dutch names but not of Arab or German names. In another, oxytocin made men more willing to hurt outgroup members to benefit their group. The love hormone is not universal love — it is parochial bonding.",
+          "target_channel": "Oxytocin as Group-Bonding Hormone | The Tribal Glue",
+          "question": "Why does a hormone that promotes trust and bonding also increase hostility toward outsiders?",
+          "correct_cue": "Oxytocin did not evolve to promote universal love. It evolved to bond mothers to infants and to bond individuals to their ingroup. In ancestral environments, the group was family and close allies. The hormone that makes you trust your group also makes you vigilant against outsiders. Oxytocin amplifies parochial altruism — altruism toward us, defensiveness against them. This is the neurochemical basis of the hive switch. When groups engage in synchrony and shared rituals, oxytocin is released, bonding members together and making them more willing to sacrifice for the group.",
+          "distractors": [
+            "Oxytocin is purely a love hormone — the outgroup hostility findings are statistical anomalies that failed to replicate",
+            "Oxytocin only affects women and has no meaningful effect on male social bonding",
+            "The effects of oxytocin are short-term and have no lasting impact on group identity or behavior"
+          ],
+          "underlying_psychology": "Oxytocin research (De Dreu 2010, Kosfeld 2005) shows that the hormone is not a universal moral enhancer but a group-bonding agent. It increases trust, cooperation, and generosity within the group while simultaneously increasing defensiveness, suspicion, and even aggression toward outgroups. This perfectly maps onto Haidts argument that morality binds and blinds. The same mechanism that binds groups together (oxytocin release during collective rituals) also blinds them to the humanity of outsiders. This is why collective rituals can produce both ecstatic unity and tribal hostility."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Neuroscience | Mirror Neurons | Empathy",
+          "topic": "Mirror Neurons: The Neural Basis of Empathy and Collective Sentiment",
+          "visual_frame_description": "A monkey watches a researcher pick up a raisin. The same neurons fire in the monkey brain as if the monkey itself were picking up the raisin. In humans, this mirror system is broader — it responds to emotions, intentions, and sensations. When you see someone in pain, your pain matrix activates. When you see someone smile, your smile muscles subtly activate. The boundaries between self and other blur at the neural level.",
+          "target_channel": "Mirror Neuron System | Emotional Contagion | Collective Effervescence",
+          "question": "How does the mirror neuron system make Durkheim's collective effervescence possible?",
+          "correct_cue": "Mirror neurons provide the neural mechanism for emotional contagion and collective sentiment. When people gather in synchrony — chanting, marching, dancing together — each persons movements and emotions are mirrored in others brains. This creates a feedback loop: my joy triggers your mirror neurons, which triggers your joy, which triggers my mirror neurons even more strongly. The group becomes a single emotional system. Haidt draws on mirror neuron research to explain how the hive switch works at the neural level. The same system that allows us to empathize with one individual also allows us to merge into a collective.",
+          "distractors": [
+            "Mirror neurons are found only in monkeys and have not been reliably demonstrated in humans",
+            "Mirror neurons only respond to physical actions, not to emotions or intentions",
+            "The mirror system is purely a cognitive mechanism with no emotional or motivational effects"
+          ],
+          "underlying_psychology": "Rizzolatti and Craighero 2004 discovered mirror neurons in the premotor cortex of macaques. Human neuroimaging suggests an even broader mirror system connecting action, emotion, and sensation regions. Mirror neurons are perfectly suited for Durkheimian collective sentiments — they automatically align the internal states of group members. When a group moves together in synchrony, the mirror system amplifies the shared experience. This is not metaphor: the same neural circuits fire in all participants, creating a genuinely shared mental state. This is the biological basis for the hive switch."
+        }
+      ]
+    },
+    {
+      "id": "rm_ch10",
+      "title": "Chapter 10: The Hive Switch",
+      "pages": "315-354",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Social Psychology | Collective Behavior | Self-Transcendence",
+          "topic": "The Hive Switch: Collective Effervescence and Self-Transcendence",
+          "visual_frame_description": "Thousands of people at a concert, all jumping in sync, singing together, arms around strangers. A military unit marching in perfect formation. A religious congregation chanting, swaying, and praying in unison. A crowd at a stadium roaring as one when the home team scores. In all these moments, individuals report losing their sense of separate self and becoming part of something larger.",
+          "target_channel": "Collective Effervescence | Self-Transcendence Induction",
+          "question": "Why do humans across cultures engage in synchronized, collective rituals that dissolve the boundary between self and group?",
+          "correct_cue": "The hive switch is a mechanism for temporarily suppressing self-interest and enabling group cohesion. Durkheim called it collective effervescence. It is triggered by synchrony (moving in rhythm), shared intentionality (doing something together with purpose), and the presence of a sacred focus (a symbol, cause, or leader that represents the group). The experience is intrinsically rewarding - the brain releases endorphins during synchronized activity, creating a natural high. This is why militaries use drill, why religions use chant, and why sports fans wear the same colors. The hive switch makes us 10% bee.",
+          "distractors": [
+            "The experience is purely social conformity - people pretend to feel unity to fit in with the crowd",
+            "This is a uniquely human cultural invention that appears only in complex societies",
+            "The effect is limited to religious contexts and does not appear in secular group activities"
+          ],
+          "underlying_psychology": "Haidt draws on Durkheims concept of collective effervescence, which Durkheim identified as the origin of religious experience. When people assemble and act together in synchrony, they generate a shared emotional experience that feels transcendently real. This experience creates the sense of the sacred - something set apart and inviolable. The hive switch is key to understanding how groups bind. Under the influence of the hive switch, individuals become willing to sacrifice for the group, obey authority, and defend the groups sacred values. This is the mechanism by which morality binds and blinds."
+        },
+        {
+          "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+          "domain": "Social Psychology | Group Cohesion | Self-Transcendence",
+          "topic": "Engineering the Hive: How Leaders Create Group Unity",
+          "stage_1_observation": "A cult leader requires initiates to undergo a painful hazing ritual. A drill sergeant makes recruits march in perfect unison for hours while shouting cadence. A football coach has the team do synchronized warm-up drills before each game. All three are using the same psychological mechanism: synchrony and shared suffering create group cohesion.",
+          "stage_1_question": "Why does shared physical effort, synchrony, or suffering create such powerful bonds between people?",
+          "stage_1_correct_answer": "Synchrony triggers the hive switch. Moving in rhythm with others activates endorphin release and creates a sense of shared intentionality. Shared suffering (effort justification) deepens the bond because the rider must justify having endured it: if I suffered for this group, it must be valuable. The combination of synchrony and shared sacrifice is the most powerful group-binding force known. This is why effective groups across cultures independently invented marching, chanting, and shared physical challenges.",
+          "stage_2_intervention": "You are the new CEO of a company with toxic silos. Engineering and Sales actively hate each other. They barely speak. Finger-pointing is constant. Team-building happy hours have failed. According to the hive switch research, what kind of intervention could break the silos and create genuine unity?",
+          "stage_2_correct_answer": "Create a shared physical challenge that requires synchrony and cooperation. A weekend ropes course, a company-wide hike, or a team obstacle race where both teams must work together to succeed. The key elements: (1) synchrony - activities where everyone moves together (group calisthenics, moving a large object together). (2) Shared hardship - something moderately difficult that requires persistence (a long hike, a challenging puzzle). (3) Shared goal - a superordinate objective neither team can achieve alone. (4) Debrief and ritual - afterward, create a shared symbol or story that represents the experience. Happy hours fail because they do not trigger the hive switch. Synchronous, challenging, goal-directed activity triggers it reliably.",
+          "boss_battle_explanation": "Layer 1 - Hive Switch Trigger: Synchrony + shared intentionality + sacred focus. Layer 2 - Neurochemistry: Endorphins, oxytocin, and dopamine create a natural high from group bonding. Layer 3 - Effort Justification: The rider justifies the effort by valuing the group more. Layer 4 - Sacred Symbol: The shared experience creates a story, symbol, or ritual that represents the group and can be revisited to rekindle the bond. Layer 5 - Risks: The hive switch can be hijacked by demagogues. The same mechanism that bonds a team can bond a lynch mob."
+        },
+        {
+          "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+          "domain": "Anthropology | Collective Rituals | Hive Switch",
+          "topic": "Ecstatic Dancing: The Original Hive Switch Technology",
+          "stage_1_observation": "Throughout human history and across cultures, ecstatic dancing has been a central ritual. Medieval Christians danced in churches until it was suppressed. Sufi whirling dervishes spin into trance. San Bushmen dance all night around fires. Modern ravers dance to electronic beats. In all cases, the pattern is the same: synchrony, exhaustion, loss of self-consciousness, and a sense of merging with something larger. Barbara Ehrenreich argues that ecstatic dancing was early humanity's biotechnology for group bonding.",
+          "stage_1_question": "Why does ecstatic dancing produce such powerful experiences of unity and self-transcendence across all cultures?",
+          "stage_1_correct_answer": "Dancing triggers the hive switch through multiple channels simultaneously: (1) Synchrony — moving in rhythm with others activates mirror neurons and releases endorphins. (2) Exhaustion — physical exertion lowers ego defenses and reduces self-monitoring. (3) Shared intentionality — everyone is doing the same thing for the same purpose. (4) Sensory overload — rhythmic sound and repetitive movement overwhelm conscious processing. Together these dissolve the boundary between self and group. Haidt argues this is why virtually all human societies independently invented collective dance rituals — the hive switch is a universal human capacity.",
+          "stage_2_intervention": "You are the leader of a newly formed team that has zero cohesion. They have never worked together, come from different departments, and have no shared identity. Traditional team-building (trust falls, icebreakers) has failed. You have one afternoon to build genuine team bonding. You cannot use religious rituals. Design an ecstatic dance intervention for a modern secular workplace.",
+          "stage_2_correct_answer": "Use the principles of ecstatic dance without the religious context. (1) Physical synchrony — start with simple group exercises where everyone moves together (group calisthenics, carrying something heavy together in rhythm, or a drum circle). (2) Music — use rhythmic, repetitive music that fills the space and demands a physical response. (3) Progressive intensity — start easy, build to moderate physical exertion over 30-45 minutes. (4) No talking — minimize verbal processing; let the body lead. (5) Shared debrief — after the exertion, share a meal together where people can reflect. The key is that the synchrony and physical exertion do the bonding work — talking about it afterward helps the rider make sense of what the elephant experienced. This is not a party. It is applied Durkheimian biotechnology.",
+          "boss_battle_explanation": "Layer 1 - Universal Human Practice: Ecstatic dancing appears in all cultures as a bonding technology. Layer 2 - Mechanisms: Synchrony, exhaustion, shared intentionality, sensory overload. Layer 3 - Neurochemistry: Endorphins, oxytocin, dopamine. Layer 4 - Dissolution of Self: The boundary between self and group temporarily dissolves. Layer 5 - Modern Application: Secular versions of collective effervescence (concerts, sports events, group exercise, raves) serve the same function. The hive switch is always available — it just needs the right triggers."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Primatology | Precursors to Morality",
+          "topic": "De Waal's Building Blocks: Primate Precursors of Human Morality",
+          "column_a_label": "Building Blocks Present in Chimpanzees and Bonobos - Empathy, reciprocity, fairness, reconciliation, and internalized social norms exist in rudimentary form in our closest relatives.",
+          "column_b_label": "Uniquely Human Additions - Language, cumulative culture, large-scale cooperation, complex moral systems, and the ability to form moral communities around abstract principles.",
+          "rows": [
+            {
+              "scenario": "A chimpanzee consoles a defeated rival by embracing and grooming them after a fight",
+              "correct_column": "A",
+              "reason": "Reconciliation and empathy are present in chimpanzees — de Waal documented this extensively in Chimpanzee Politics"
+            },
+            {
+              "scenario": "A capuchin monkey refuses a cucumber reward when it sees another monkey getting a grape for the same task",
+              "correct_column": "A",
+              "reason": "Fairness sensitivity exists in non-human primates — Brosnan and de Waal 2003 found that monkeys notice and protest inequity"
+            },
+            {
+              "scenario": "Two chimpanzees carry a heavy log together to access food neither could access alone",
+              "correct_column": "B",
+              "reason": "While chimps cooperate, they rarely engage in the kind of planned, coordinated collaboration that requires shared intentionality and commitment to a joint goal"
+            },
+            {
+              "scenario": "A human gives blood to a stranger they will never meet, with no expectation of return",
+              "correct_column": "B",
+              "reason": "Large-scale altruism toward anonymous strangers is uniquely human and requires cultural institutions and moral communities"
+            },
+            {
+              "scenario": "A bonobo shares food with a non-relative after a grooming session",
+              "correct_column": "A",
+              "reason": "Reciprocal altruism exists in rudimentary form — de Waal found that bonobos share more with those who groomed them earlier"
+            }
+          ],
+          "explanation": "De Waal argues that morality has evolutionary precursors. Chimpanzees and bonobos show empathy (consolation behavior, yawn contagion), reciprocity (food sharing based on prior grooming), and proto-fairness (the grape-cucumber inequity aversion). But humanity added something new: the ability to create moral communities around abstract sacred values, enforced by third-party punishment and justified by shared narratives. Haidt uses de Waal to show that morality is not a thin veneer over a selfish nature. The building blocks were present in our primate ancestors. Group selection then built upon these blocks to create the uniquely human righteous mind."
+        }
+      ]
+    },
+    {
+      "id": "rm_ch11",
+      "title": "Chapter 11: Religion Is a Team Sport",
+      "pages": "355-395",
+      "assets": [
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Psychology of Religion | Group Selection",
+          "topic": "The Puzzle of Religion: Why Would a Rational Mind Believe in Gods?",
+          "subject_baseline": "Religious belief is universal across human cultures and history. Despite enormous variation in specific beliefs, all religions share certain features: supernatural agents, rituals, sacred texts, moral codes, and community bonding. Secularization in the West led many to predict religions decline - yet religion remains powerful globally.",
+          "interrogation_transcript": "The New Atheists (Dawkins, Hitchens, Harris) argued that religion is a delusion, a virus of the mind, a byproduct of cognitive biases that should be eliminated through reason. Haidt offers a different view: religion is not a cognitive accident. It is a group-level adaptation that enabled large-scale cooperation. Religious communities outcompeted secular ones in the ancestral environment because they could solve the free-rider problem through supernatural surveillance (gods see everything), costly signaling (rituals prove commitment), and group cohesion (shared sacred values).",
+          "observed_nonverbal_log": [
+            "Religious belief is not an individual cognitive error but a group adaptation",
+            "Religions solve the free-rider problem through supernatural policing",
+            "Costly rituals (fasting, pilgrimage, tithing) signal genuine commitment",
+            "Shared belief in sacred values creates the strongest possible ingroup bonds"
+          ],
+          "question": "If religion evolved as a group-binding mechanism, does the truth or falsity of religious claims matter for its adaptive function?",
+          "correct_diagnosis": "Not directly. From a group-selection perspective, a religion does not need to be true to be adaptive. It needs to motivate cooperation, punish free-riders, and coordinate collective action. Belief in supernatural watchers who punish oath-breakers is extremely effective at maintaining honesty in large groups where reputation is insufficient. The question Haidt poses: if atheism is correct, can atheist societies develop equally effective group-binding mechanisms? Secular societies have replaced religious rituals with national holidays, secular ceremonies, and civic institutions - but the binding power of these may be weaker than religious bonds. The Durkheimian question: can a society survive without the sacred?",
+          "distractors": [
+            "Religion is purely a byproduct of cognitive biases (agency detection, theory of mind) and has no adaptive function",
+            "Religions that were false died out because they could not compete with true religions that gave accurate information",
+            "Religion is a parasite that exploits human cognitive vulnerabilities for its own replication without benefiting humans"
+          ],
+          "diagnostic_breakdown": "Stage 1 - Supernatural Surveillance: The belief that gods see everything reduces cheating when nobody is watching. Stage 2 - Costly Signaling: Public rituals that are expensive or painful prove genuine commitment - fakers will not pay the cost. Stage 3 - Group Cohesion: Shared sacred values create the strongest possible ingroup bonds. Stage 4 - Moral Community: Religious groups enforce moral norms and punish violators. Stage 5 - Intergroup Competition: Groups with stronger religious bonding outcompete groups with weaker bonding. This is not an argument for the truth of any religion. It is an explanation of why religion evolved and why it persists."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Psychology of Religion | Interfaith Understanding",
+          "topic": "Sacred Values: What If Your Sacred Is Someone Elses Profane?",
+          "dialogue": [
+            {
+              "speaker": "Secular Skeptic",
+              "line": "Religion causes more harm than good. The Crusades, the Inquisition, 9/11, the Troubles. We would be better off without it. Faith is belief without evidence, and belief without evidence is dangerous."
+            },
+            {
+              "speaker": "Religious Believer",
+              "line": "You are looking at the worst examples and ignoring the good. Religions feed the hungry, clothe the poor, comfort the dying, and build communities. My faith is the most important thing in my life. It gives me meaning, purpose, and a moral framework."
+            },
+            {
+              "speaker": "You (Mediator)",
+              "line": "Haidt would say you are both right in ways you do not realize. The skeptic correctly identifies that religion can fuel intergroup conflict - morality binds and blinds. The believer correctly identifies that religion builds cohesive communities that do enormous good. The key insight: religions capacity for harm and for good come from the same source - the hive switch that binds groups together around sacred values. A group bound by sacred values can move mountains. Whether they move mountains to build hospitals or to destroy enemies depends on context, leadership, and which sacred values are activated. The question should shift from is religion good or bad? to how do we channel groupishness toward constructive rather than destructive ends?"
+            }
+          ],
+          "psychological_breakdown": "Haidts approach to religion is neither the atheist debunking nor the believer apologetics. It is functionalist: religion evolved because groups that had it outcompeted groups that did not. The same binding power that makes religions capable of great charity also makes them capable of great cruelty. Understanding religion as a group-selection adaptation explains both its universality and its moral ambiguity. It does not answer the truth question (does God exist?). It answers the function question (what does religion do for groups?). The answer: it enables the extraordinary human capacity for large-scale cooperation by making groups sacred."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Psychology of Religion | Competing Models",
+          "topic": "Two Models of Religion: New Atheist (Belief-First) vs Durkheimian (Bonding-First)",
+          "column_a_label": "New Atheist Model (Dawkins, Dennett, Harris) - Religion is a set of beliefs about supernatural beings. These beliefs are false and irrational. Religion persists because it is a cognitive byproduct or a meme/virus. The solution: education and reason.",
+          "column_b_label": "Durkheimian Model (Durkheim, Haidt) - Religion is a set of practices that bind groups together around sacred values. Beliefs are secondary to bonding. Religion persists because groups that had it outcompeted groups that did not. The solution: understand its function before criticizing it.",
+          "rows": [
+            {
+              "scenario": "A scientist argues that belief in God is like believing in Santa Claus — comforting but false",
+              "correct_column": "A",
+              "reason": "The New Atheist focus is on the truth value of beliefs — false beliefs are delusions regardless of their social function"
+            },
+            {
+              "scenario": "An anthropologist observes that a community without shared rituals quickly fragments into competing factions",
+              "correct_column": "B",
+              "reason": "The Durkheimian focus is on the binding function of religion — rituals create the collective effervescence that holds groups together"
+            },
+            {
+              "scenario": "A missionary focuses on teaching correct doctrine to convert people",
+              "correct_column": "A",
+              "reason": "The belief-first approach assumes that changing beliefs changes everything — get the doctrine right, and behavior follows"
+            },
+            {
+              "scenario": "A congregation feels closest to God and to each other during shared singing and ritual, not during the sermon",
+              "correct_column": "B",
+              "reason": "The bonding-first approach predicts that the collective experience matters more than the specific beliefs — the effervescence is the point"
+            },
+            {
+              "scenario": "Dawkins argues that religion is a virus of the mind that hijacks cognitive modules for its own replication",
+              "correct_column": "A",
+              "reason": "The meme/virus theory treats religion as a parasite that exploits cognitive vulnerabilities without providing benefits"
+            }
+          ],
+          "explanation": "Haidt contrasts these models throughout Chapter 11. The New Atheist model (which he calls the Platonic/Delusion model) sees religion as primarily about false beliefs. The Durkheimian model sees religion as primarily about group bonding. Haidt argues the Durkheimian model better explains: (1) why religion is universal across cultures, (2) why religious people are happier and more generous, (3) why even secular societies develop quasi-religious rituals around national holidays and sports teams, and (4) why atheist societies have not replaced religion with anything equally binding. He does not argue that religion is true — only that it is an adaptation, not a bug."
+        }
+      ]
+    },
+    {
+      "id": "rm_ch12",
+      "title": "Chapter 12: Can't We All Disagree More Constructively?",
+      "pages": "396-436",
+      "assets": [
+        {
+          "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+          "domain": "Political Psychology | Bridging Divides",
+          "topic": "The Moral Matrix Trap: How to Escape Your Own Righteousness",
+          "stage_1_observation": "Haidt describes his own journey. He was a liberal Democrat who believed conservatives were motivated by selfishness, stupidity, and hatred. Then he started reading conservative thinkers seriously and administering moral foundations questionnaires. He discovered that conservatives have genuine moral concerns (Loyalty, Authority, Sanctity) that he had dismissed as non-moral. The moral matrix trap: we believe our moral matrix is the only one, and everyone outside it is morally deficient.",
+          "stage_1_question": "Why is it so hard to see that the other side might have a genuine moral framework rather than being selfish, stupid, or evil?",
+          "stage_1_correct_answer": "The righteous mind is designed for coalitional defense. When we encounter someone with different moral foundations, we experience them as not just wrong but dangerous to our moral order. Our elephant reacts with disgust and contempt. Our rider constructs elaborate reasons why they are bad people. The moral matrix trap works because we cannot directly experience the other sides intuitions. We can only hear their post-hoc rationalizations, which sound weak and self-serving to us because we evaluate them through our own foundations.",
+          "stage_2_intervention": "You are attending a family gathering. Your uncle makes a political comment that triggers you. Your first instinct is to argue, correct him, show him the evidence. According to Haidts research on moral matrices, what should you do instead to actually understand each other?",
+          "stage_2_correct_answer": "Three steps: (1) Suspend the correction instinct. Your first impulse to argue is the elephant defending its territory. Instead, signal genuine curiosity: Can you help me understand why you feel that way? This shifts from adversarial to collaborative. (2) Listen for the moral foundation. Behind his position is likely a Loyalty concern (protecting our country), Authority concern (respecting tradition/order), Sanctity concern (protecting sacred values), or Liberty concern (freedom from government overreach). Name the foundation you hear: It sounds like you are concerned about people not following the rules and the breakdown of order. Is that close? (3) Validate the foundation without agreeing with the policy. You can say: I understand why that would concern you. I also care about community safety and order - thats important. Then you can share your own concern from a different foundation without dismissing his. The goal is not to win the argument but to understand the moral logic driving his position.",
+          "boss_battle_explanation": "Layer 1 - Moral Matrix Trap: Assuming everyone shares your moral foundations. Layer 2 - The Correction Reflex: Trying to win arguments rather than understand positions. Layer 3 - Foundation Listening: Learning to hear the moral foundation behind the rhetoric. Layer 4 - Validation Without Agreement: You can acknowledge someones moral concern without accepting their policy conclusion. Layer 5 - The Goal Shift: From convert the opponent to understand the other. The righteous mind will always divide us. But if we understand each others righteousness, we can disagree more constructively."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Political Psychology | Civil Discourse",
+          "topic": "The Civil Discourse Challenge: Debating Across the Moral Divide",
+          "dialogue": [
+            {
+              "speaker": "Liberal",
+              "line": "Universal healthcare is a human right. Every developed country has it except the US. People are dying because they cannot afford insulin. How can you possibly oppose this?"
+            },
+            {
+              "speaker": "Conservative",
+              "line": "I do not want people to die. But healthcare is not a right. It is a service. The government should not control healthcare. When the government runs things, costs go up and quality goes down. Look at the VA system. Look at wait times in Canada."
+            },
+            {
+              "speaker": "Mediator",
+              "line": "Both of you are using different moral foundations. The liberal uses Care: people are suffering and need help. The conservative uses Liberty: government control is oppressive and inefficient. Neither is wrong about their foundation. But notice: neither addresses the others concern. The liberal does not address the Liberty concern about government overreach. The conservative does not address the Care concern about dying patients. A constructive conversation would require each to acknowledge the others moral concern. The liberal could say: I understand your worry about government power - I share that concern. Here is why I think this system has enough checks and balances. The conservative could say: I do not want people to die. Can we design a system that helps the vulnerable without giving the government too much control? Both need to validate the others foundation before their own can be heard."
+            }
+          ],
+          "psychological_breakdown": "Constructive disagreement requires escaping the moral matrix trap. Key techniques: (1) Find the moral foundation behind the others position and validate it before stating your own. (2) Distinguish between the moral foundation and the policy - you can acknowledge the concern without endorsing the policy. (3) Remember that the other person is also a participant in a moral order and thinks they are doing good. (4) Use Haidts principle: the mind is divided like a rider on an elephant. You cannot win the rider by arguing about reasons because the elephant already decided. To reach the elephant, you need to speak to its moral concerns."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Social Psychology | Situational Factors | Helping Behavior",
+          "topic": "The Good Samaritan Study: When Character Does Not Matter",
+          "visual_frame_description": "Darley and Batson 1973: Princeton Theological Seminary students were told they were to give a brief talk about the Good Samaritan parable. Some were told they were late (high hurry), some had moderate time, some had plenty of time. On the way to the talk, each passed a slumped, coughing man in a doorway. Of those in a hurry, only 10% stopped to help. Of those with time to spare, 63% stopped. The seminarians literally walked past a suffering person while on their way to talk about the Good Samaritan.",
+          "target_channel": "Situational Override | Character-Irrelevant Helping",
+          "question": "Why did seminarians studying the Good Samaritan parable walk past a person in clear need of help?",
+          "correct_cue": "Haidt uses this study to show the power of the situation over moral character. The seminarians were not bad people — they were people in a hurry. The situational pressure (time urgency) overrode their compassionate impulses and their explicit moral values. The elephant (intuitive compassion) was silenced by the urgency frame. The rider then justified the decision: someone else will help, I am late, he does not look that sick. The study proves that moral behavior is not primarily driven by character or values. It is driven by situational forces that activate or suppress moral intuitions.",
+          "distractors": [
+            "The seminarians were not truly religious — only nominally devout people who lacked genuine compassion",
+            "The helping scenario was ambiguous — participants were not sure the man actually needed help",
+            "The study has been debunked and the findings are not replicable"
+          ],
+          "underlying_psychology": "The Good Samaritan study is a devastating demonstration of the power of the situation. It is the social psychology equivalent of the Milgram obedience study: good people fail to act morally when situational pressures are strong. The factors that predicted helping: (1) being in a hurry, (2) having just read the Good Samaritan parable (paradoxically, this did not increase helping — some seminarians stepped over the victim while mentally composing their talk about helping). The only reliable predictor was time pressure. This study supports Haidts argument that moral behavior is intuitive, not principled. When the intuition is suppressed (by hurry, distraction, or competing frames), the principle alone does not produce action."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Evolutionary Psychology | Cultural Evolution",
+          "topic": "The Meme's Eye View: Dawkins on Religion as Cultural Replicator",
+          "dialogue": [
+            {
+              "speaker": "Evolutionary Biologist",
+              "line": "Religions are sets of memes that replicate through populations. A meme is a unit of cultural information — an idea, a ritual, a belief — that spreads from mind to mind like a gene spreads through bodies. Successful memes are those that get themselves replicated. Religions are very good at this because they include self-protection mechanisms: believe or suffer eternally, doubt is sin, questioners are heretics. The religion is not true. It is just good at surviving."
+            },
+            {
+              "speaker": "Anthropologist",
+              "line": "But that frame misses the function. If religions were just viruses, why do religious communities consistently show greater generosity, lower suicide rates, and stronger social networks? Why do atheist societies not have higher rates of meaning and belonging? The meme metaphor treats religion as a parasite, but the evidence suggests it is more like a mutualist — it survives by providing value to its hosts."
+            },
+            {
+              "speaker": "Mediator",
+              "line": "This is exactly the debate Haidt stages. Dawkins (The God Delusion) and Dennett (Breaking the Spell) argue that religion is a cognitive parasite that exploits evolved vulnerabilities. Haidt responds: even if true, that is only half the story. Religions also solve the free-rider problem, enable large-scale cooperation, and provide meaning. A proper understanding of religion requires both the meme lens and the function lens. The meme lens explains how religions spread. The function lens explains why groups need them."
+            }
+          ],
+          "psychological_breakdown": "The meme theory of religion (Dawkins 1976, Dennett 2006) explains cultural evolution through the same lens as genetic evolution: variation, selection, replication. Religions are collections of memes that have evolved to be good at replicating themselves. The Durkheimian/Haidt response: memes spread because they serve group-level functions, not just because they exploit cognitive vulnerabilities. The resolution: both perspectives are needed. Religion is a naturally occurring phenomenon that emerges from the human mind's combination of agency detection, groupishness, and the need for meaning. Understanding religion requires both the evolutionary lens (how it spreads) and the functional lens (what it does for groups)."
+        }
+      ]
+    },
+    {
+      "id": "rm_conclusion",
+      "title": "Conclusion: The One Lesson",
+      "pages": "437-440",
+      "assets": [
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Moral Psychology | The Big Picture",
+          "topic": "The One Lesson: We Are All Self-Righteous and That Is Okay If We Understand It",
+          "subject_baseline": "A liberal activist and a conservative activist watch the same political rally. The liberal sees a hateful demagogue whipping up racism and ignorance. The conservative sees a patriot defending traditional values against cultural decline. Both are certain of their moral judgment. Both are right about their own moral matrix. Both are wrong about the others motives.",
+          "interrogation_transcript": "Haidts one lesson: The righteous mind was not designed to perceive truth objectively. It was designed to bind groups together and compete against other groups. This means that human beings are naturally self-righteous - we naturally believe our side is good and the other side is bad. This is not a defect that can be eliminated through education or reason. It is a feature of our evolved moral psychology. The only escape is understanding that everyone is doing it - including ourselves. The goal is not to achieve perfect objectivity (impossible) but to develop the humility to recognize our own righteous certainty as a product of our moral matrix.",
+          "observed_nonverbal_log": [
+            "Both sides are equally certain of their righteousness",
+            "Both sides see the other as the aggressor and themselves as the defender",
+            "Neither side can see their own blind spots",
+            "The structure of the disagreement is identical - only the content differs"
+          ],
+          "question": "After 12 chapters of evidence that the righteous mind is designed for division, is there any hope for bridging political and moral divides?",
+          "correct_diagnosis": "Yes, but not through the rationalist fantasy of eliminating bias and achieving objectivity. The hope is in understanding. When you understand that moral matrices are real - that the other side is not evil or stupid but operating from different moral foundations - you can disagree without demonizing. The hope is not that we will agree. The hope is that we can treat each other with moral humility - recognizing that our own righteous certainty is partly a product of our evolved tribalism and cultural conditioning. Haidts one practical prescription: before judging, try to enter the others moral matrix. Read their best authors. Listen to their concerns in their language. You will still disagree. But you will no longer see each other as monsters.",
+          "distractors": [
+            "No - human nature is fundamentally divisive and political polarization will only increase until society collapses",
+            "Yes - as education spreads and people learn critical thinking, moral disagreement will eventually dissolve into rational consensus",
+            "No - the problem is structural (media polarization, gerrymandering, algorithmic echo chambers) and individual understanding cannot fix it"
+          ],
+          "diagnostic_breakdown": "Stage 1 - Recognition: Understand that your moral certainty is partly a product of your moral matrix, not objective truth. Stage 2 - Curiosity: Ask what foundations drive the other sides positions. Stage 3 - Translation: Learn to express your concerns in the other sides moral language. Stage 4 - Respect: Treat the other side as operating from a genuine (different) moral order, not from ignorance or evil. Stage 5 - Cooperation: Find shared foundations (Liberty appeals to both sides) and superordinate goals (defending democracy, national prosperity). The righteous mind will always divide. But understanding why it divides can make the division less destructive."
+        }
+      ]
+    }
+  ]
+}

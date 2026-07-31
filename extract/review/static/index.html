@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Extraction Review Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>PDF Extraction Review</h1>
+    <div class="stats-bar" id="statsBar">Loading stats...</div>
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="auto_accepted">Accepted</button>
+      <button class="filter-btn" data-filter="flag_yellow">Review</button>
+      <button class="filter-btn" data-filter="flag_red">Low Conf</button>
+      <button class="filter-btn" data-filter="rejected">Rejected</button>
+      <button class="filter-btn export-btn" id="exportBtn">Export Approved</button>
+    </div>
+  </header>
+  <main>
+    <div class="entry-list" id="entryList">
+      <div class="loading">Loading entries...</div>
+    </div>
+  </main>
+</div>
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeBtn">&times;</span>
+    <div id="modalBody"></div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

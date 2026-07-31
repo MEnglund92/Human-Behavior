@@ -1,0 +1,555 @@
+{
+  "source": "Predictably Irrational: The Hidden Forces That Shape Our Decisions – Dan Ariely (2008)",
+  "chapters": [
+    {
+      "id": "ch_intro",
+      "title": "Introduction: How an Injury Led Me to Irrationality",
+      "pages": "1–18",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Behavioral Economics | Metacognition",
+          "topic": "Ariely's Origin Story: The Burn Ward and the Birth of a Research Agenda",
+          "visual_frame_description": "Split scene: Left side — an 18-year-old in burn bandages, being treated by nurses who rip bandages off quickly. Right side — the same person years later, as a professor conducting experiments. Arrows show the connection: his personal pain experience led to systematic research on pain perception, which led to the broader field of behavioral economics.",
+          "target_channel": "Personal Motivation | Scientific Discovery | Pain Perception",
+          "question": "How did Ariely's personal experience with severe burns and the bandage-removal process shape his research agenda and lead to the field of behavioral economics?",
+          "correct_cue": "Ariely's third-degree burns (covering 70% of his body) gave him years of direct experience with medical pain. He noticed that nurses ripped bandages off quickly (causing intense short bursts) because they believed this minimized total pain. But Ariely's own experience suggested slower, gentler removal was less agonizing overall, even though it took longer. His subsequent experiments showed that the duration and pattern of pain matter — people preferred longer, lower-intensity pain over shorter, higher-intensity pain. This mismatch between what caregivers believed and what patients actually experienced revealed a fundamental insight: people's intuitive theories about their own and others' behavior are often wrong, and only systematic experimentation can reveal the truth. This insight became the foundation of his work in behavioral economics — the study of how people actually make decisions (often irrationally) versus how standard economic theory says they should.",
+          "distractors": [
+            "Ariely's research focus came from his academic training in economics — he noticed that classic economic models didn't match real-world data",
+            "Ariely became interested in irrationality after watching other patients make bad medical decisions that contradicted their own stated preferences",
+            "Ariely's burn injury made him want to help other burn victims, so he designed experiments to test bandage removal techniques"
+          ],
+          "underlying_psychology": "Ariely's personal experience illustrates a core theme of behavioral economics: the gap between intuitive theories and empirical reality. The nurses were experienced, well-meaning, and confident in their approach — yet they were systematically wrong. This is because humans are prone to 'theory-induced blindness': once we have a theory (quick removal = less total pain), we stop testing it against experience. Behavioral economics emerged from recognizing that these systematic errors are not random but predictable — hence the book's title."
+        }
+      ]
+    },
+    {
+      "id": "ch01",
+      "title": "The Truth about Relativity",
+      "pages": "19–36",
+      "assets": [
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Behavioral Economics | Decision Heuristics",
+          "topic": "The Decoy Effect: How a Useless Third Option Changes Your Choice",
+          "subject_baseline": "The Economist magazine offered three subscription options: (A) Internet-only for $59, (B) Print-only for $125, (C) Print-and-Internet for $125. When all three were presented, 84% of MIT students chose option C and 16% chose A — zero chose B. But when option B (the 'decoy') was removed, only 32% chose C and 68% chose A. The mere presence of an option that NO ONE selected completely flipped the preferences.",
+          "interrogation_transcript": "Researcher: 'Why did you choose the print-and-Internet combo?' Participant: 'Because it's clearly the best deal. You get both for the same price as print alone.' Researcher: 'But what if the print-only option had never existed?' Participant: 'I'd probably just get the Internet. That's all I really need.' Researcher: 'So adding an option you'd never choose changed your mind?' Participant: 'I... I guess so. But it doesn't feel that way.'",
+          "observed_nonverbal_log": [
+            "The decoy option (print-only at $125) was selected by 0% of participants, yet it profoundly shaped choices",
+            "Removing the decoy caused a 36-point swing toward the cheaper option",
+            "Participants denied being influenced by the decoy when asked",
+            "The decoy works by creating an easy relative comparison: C is clearly better than B, so C looks better overall",
+            "The same effect operates in real-world pricing: high-priced menu items make the second-most-expensive look reasonable"
+          ],
+          "question": "How does the 'decoy effect' exploit our reliance on relative comparisons, and why does adding an inferior option make a different option seem more attractive?",
+          "correct_diagnosis": "The decoy effect works because humans lack an internal value meter — we don't know the absolute worth of things. Instead, we judge value by comparing options against each other. A decoy option that is clearly worse than one of the alternatives (but not obviously worse than the other) creates a 'relative comparison advantage' for that alternative. In the Economist case, the print-only option ($125) was clearly worse than the combo ($125 for both), making the combo look like a steal. In the real estate case, a colonial house needing a new roof makes the identical colonial without roof problems seem obviously superior. The decoy doesn't need to be chosen — it just needs to be present to anchor a comparison.",
+          "distractors": [
+            "The decoy effect only works with subscription services — it doesn't apply to physical products or major life decisions",
+            "People who are given time to think rationally are immune to the decoy effect",
+            "The decoy works because consumers assume the company has priced items rationally, so they infer the combo must be the best value"
+          ],
+          "diagnostic_breakdown": "Stage 1 — Relativity instinct: Humans are wired to compare. We can't help evaluating things relative to each other. Stage 2 — Comparison difficulty: When options differ on multiple attributes, direct comparison is hard. Stage 3 — Decoy insertion: Adding an option that is similar to but worse than one alternative creates a simple comparative frame. Stage 4 — Asymmetric dominance: The target option now dominates the decoy on all dimensions, making it seem superior overall. Stage 5 — Choice shift: The target's enhanced apparent value shifts choices away from competing options."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Behavioral Economics | Consumer Behavior",
+          "topic": "The Menu Pricing Dilemma: Engineering Choices with Decoys",
+          "scenario_setup": "You own a restaurant. Your food consultant (Greg Rapp) tells you that you're losing money because your pricing strategy doesn't account for relativity. Currently, your most expensive entrée is $28; your mid-range options cluster around $18-$22. 'Add a $45 lobster dish,' he says. 'Nobody will buy it, but it will boost your profits.'",
+          "initial_dialogue": "Chef: 'That's insane. Why would we put a $45 dish on the menu that no one will order? It'll just sit there. And what if someone actually orders it? We don't even have lobster.' You: 'The consultant says it will make the $26 filet mignon look reasonable by comparison.' Chef: 'So we're using psychology to trick people into spending more? That feels dishonest.'",
+          "choices": [
+            {
+              "choice_id": "A",
+              "text": "'It's not dishonest — it's giving people context. Humans naturally evaluate options relative to each other. The $45 dish provides an anchor that helps customers recognize the value of the $26 filet. As long as the filet is fairly priced and high quality, we're helping customers make a decision they'll be happy with. The consultant's data shows that restaurants with a high-priced decoy have higher average check sizes AND higher customer satisfaction — people feel good about getting a 'deal' on the second-most-expensive option.'",
+              "metric_impact": {
+                "Profit": 0.8,
+                "Ethical Comfort": 0.5,
+                "Customer Satisfaction": 0.6
+              },
+              "feedback": "This is Ariely's point: relativity is an inescapable feature of human cognition. Using it is not manipulation — it's recognizing how people actually make decisions. The $45 dish provides a reference point that makes the $26 dish feel like a good value. Customers who choose it feel smart, not tricked."
+            },
+            {
+              "choice_id": "B",
+              "text": "'You're right, it's manipulation. We should price everything fairly relative to cost, with a modest markup. Let customers evaluate the food on its merits, not on how it compares to an artificially inflated option.'",
+              "metric_impact": {
+                "Profit": -0.4,
+                "Ethical Comfort": 0.2,
+                "Customer Satisfaction": 0.1
+              },
+              "feedback": "This is ethically clean but ignores how people actually make decisions. Even without a decoy, customers will compare your $28 dish to competitors' prices, to what they remember paying elsewhere, or to their internal sense of what a meal 'should' cost. Relativity is inescapable."
+            },
+            {
+              "choice_id": "C",
+              "text": "'Let's add the $45 dish but make it a real, high-quality option — a special lobster preparation that costs us $25 to make. If someone orders it, great — we make a profit. If not, it serves as an anchor. Win-win.'",
+              "metric_impact": {
+                "Profit": 0.5,
+                "Ethical Comfort": 0.3,
+                "Customer Satisfaction": 0.3
+              },
+              "feedback": "This tries to have it both ways. But now you have inventory risk (lobster that spoils) and the dish might actually sell at a lower margin than the filet. The power of the decoy is precisely that it doesn't need to sell — its job is to be a reference point."
+            }
+          ],
+          "optimal_choice": "A",
+          "theoretical_principle": "The decoy effect (also called 'asymmetric dominance') is one of the most robust findings in behavioral economics. It shows that preferences are not pre-existing and stable — they are constructed at the moment of choice based on the available context. Adding an option that is clearly worse than one alternative (but not the other) shifts choices toward that alternative. This is the 'attraction effect' — the decoy 'attracts' attention to the target by making it look dominant."
+        }
+      ]
+    },
+    {
+      "id": "ch02",
+      "title": "The Fallacy of Supply and Demand",
+      "pages": "37–58",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Behavioral Economics | Anchoring",
+          "topic": "Arbitrary Coherence: How Random Anchors Shape Our Willingness to Pay",
+          "question": "Ariely's social security number experiment showed that students with high-ending digits (80-99) bid 216-346% more for the same products than students with low-ending digits (1-20). How does this demonstrate 'arbitrary coherence' in pricing?",
+          "correct_answer": "Arbitrary coherence describes two linked phenomena: (1) 'Arbitrary' — initial prices (anchors) can be influenced by completely irrelevant factors, like the last two digits of your social security number. (2) 'Coherence' — once that anchor is set, it shapes all subsequent price judgments in a logically consistent way. Students didn't just anchor on their SS digits for one product — the anchor carried across related products. If they anchored high on the Côtes du Rhône wine, they also anchored high on the Hermitage wine (a related product). The anchor creates a 'coherent' price landscape where relative values remain sensible even though absolute values are arbitrary.",
+          "distractors": [
+            "The social security number effect was a fluke — it only appeared in one experiment and has never been replicated",
+            "People are consciously aware of anchoring effects and can correct for them if they try harder",
+            "Anchoring only affects people who are uncertain about the product category — experts are immune"
+          ],
+          "explanation": "Ariely's anchoring experiment is a cornerstone of behavioral economics. It shows that the first price we encounter for a product imprints on us like goslings imprinting on their mother (Lorenz's studies). This 'imprint' becomes an anchor that shapes all future price judgments in that category. The arbitrariness is the disturbing part: the anchor could be your SS number, the MSRP, or even the current temperature. But the coherence is the adaptive part: once anchored, relative pricing within a category remains rational. This explains how different people can have vastly different willingness-to-pay for the same product — they were anchored on different initial prices."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Behavioral Economics | Pricing Psychology",
+          "topic": "The Pearl King: How Salvador Assael Created a Market for Black Pearls",
+          "visual_frame_description": "A split visual: Left side — a pile of gunmetal-gray Tahitian black pearls, unattractive and unsold. Right side — the same pearls displayed in Harry Winston's Fifth Avenue window, nestled among diamonds and rubies, with an outrageously high price tag. Arrows show: 'Same pearls. Different anchor. Different perceived value.'",
+          "target_channel": "Anchoring | Market Creation | Perceived Value",
+          "question": "How did Salvador Assael create a market for Tahitian black pearls, and what does this reveal about the relationship between price and perceived value?",
+          "correct_cue": "Assael initially failed to sell the pearls at low prices — they were gunmetal gray and looked like musket balls. Then he took the best specimens to Harry Winston, who displayed them with a high price tag among diamonds and rubies in his Fifth Avenue window, while Assael ran ads showing them alongside gems. The high price ANCHORED the pearls as luxury items. Once that anchor was set, the pearls' perceived value was established. The pearls hadn't changed — only the context in which they were presented. This illustrates that value is not intrinsic; it is constructed from contextual cues, especially the first price we encounter (the anchor).",
+          "distractors": [
+            "The black pearls eventually sold because their quality improved over time as better specimens were harvested",
+            "Assael's success was due to a celebrity endorsement — a famous actress wore them and created demand",
+            "The black pearl market was an accident — Assael tried to sell them cheap but nobody wanted them, so he raised the price out of desperation"
+          ],
+          "underlying_psychology": "The black pearl story is Ariely's favorite example of how 'supply and demand' is not a law of nature but a psychological phenomenon. In standard economics, price is determined by supply and demand. But the pearl king reversed this: he set a high price first, and that price created the demand. The high price signaled exclusivity, quality, and desirability. Once consumers accepted the anchor, they made 'coherent' subsequent judgments about the pearls' value. This is the 'Veblen effect' — higher price increases demand because price itself is a signal of value."
+        }
+      ]
+    },
+    {
+      "id": "ch03",
+      "title": "The Cost of Zero Cost",
+      "pages": "59–72",
+      "assets": [
+        {
+          "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+          "domain": "Behavioral Economics | Zero Price Effect",
+          "topic": "BOSS BATTLE: The Power of FREE! — When Zero Is Not Just Another Number",
+          "stage_1_observation": "Ariely's chocolate experiment: Lindt truffles (30¢ each) vs. Hershey's Kisses. Condition 1: Truffle 15¢, Kiss 1¢ → 73% chose truffle, 27% chose Kiss. Condition 2: Truffle 14¢, Kiss FREE → 31% chose truffle, 69% chose Kiss. Both prices dropped by 1¢, relative difference unchanged — yet behavior flipped completely. The same effect replicated when truffle was 25¢/Kiss free, 26¢/1¢, etc.",
+          "stage_1_question": "Why does reducing the price of both options by the same amount (preserving relative difference) cause a complete reversal of preference when one option becomes free?",
+          "stage_1_correct_answer": "Zero is not just another number. Most transactions involve weighing upside vs. downside risk. But when something is FREE, there is no perceived downside — no risk of making a bad decision. The fear of loss (one of the most powerful human motivators) is eliminated entirely. So the emotional appeal of FREE overrides the rational cost-benefit calculation that would normally lead us to choose the better product. In the chocolate experiment, the Lindt truffle was objectively the better deal at both price points, but FREE! short-circuited the comparison process. This is the 'zero price effect' — demand for a free item is disproportionately higher than would be predicted by standard economic models.",
+          "stage_2_intervention": "You are a policy advisor designing a public health campaign to reduce soda consumption. Two approaches: (A) Tax sugary drinks — a 20¢ surcharge on each can, making them more expensive relative to healthier options. (B) Subsidize healthy drinks — make sparkling water FREE at public fountains and school cafeterias.",
+          "stage_2_correct_answer": "Approach B is likely more effective because of the zero price effect. Making healthy options FREE triggers the emotional appeal of zero — people will overwhelmingly choose free options even if the taxed soda is 'only' slightly more expensive. The asymmetry is: a 20¢ surcharge on soda (loss frame) will cause some reduction, but making water FREE (zero frame) will cause a disproportionately larger shift. Behavioral economics predicts that free healthy options will have a larger impact on behavior than equivalent taxes on unhealthy ones, because FREE bypasses rational cost-benefit calculation and triggers an emotional hot button.",
+          "boss_battle_explanation": "Ariely identifies FREE! as an 'emotional hot button' — it triggers an irrational surge of excitement that overrides normal decision-making. The evolutionary logic: in ancestral environments, free resources (water, fruit, shelter) were genuinely valuable and worth grabbing without deliberation. This heuristic served us well for most of human history. But in modern consumer environments, FREE! is often a trap — it leads us to take things we don't need, wait in lines that aren't worth it, and accept inferior products. The boss battle is learning to recognize when FREE is a genuine opportunity versus when it's a manipulation that leads us away from what we actually want."
+        }
+      ]
+    },
+    {
+      "id": "ch04",
+      "title": "The Cost of Social Norms",
+      "pages": "73–92",
+      "assets": [
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Behavioral Economics | Social Exchange",
+          "topic": "When Money Ruins Thanksgiving: The Collision of Social and Market Norms",
+          "subject_baseline": "You are at your mother-in-law's Thanksgiving dinner. The turkey is perfect, the company warm. You pull out your wallet and ask, 'Mom, for all this love and effort, how much do I owe you?' Silence. Red faces. Tears. Next year's invitation never comes.",
+          "interrogation_transcript": "Researcher: 'Why would offering money for Thanksgiving dinner be offensive?' Anthropologist: 'Because it's a violation of social norms — the unwritten rules of gift-giving, hospitality, and family obligation.' Behavioral economist: 'But why does a simple payment cause such outrage? Because we live in TWO worlds: the SOCIAL world (favors, gifts, community — warm and fuzzy) and the MARKET world (wages, prices, payments — sharp-edged and transactional). Offering money for Thanksgiving rips the relationship out of the social world and drops it into the market world. Once that happens, the relationship is fundamentally changed.'",
+          "observed_nonverbal_log": [
+            "The exact same task (dragging circles across a screen) produced different effort levels depending on framing: paid $5 → 159 circles; paid 50¢ → 101 circles; unpaid social favor → 168 circles",
+            "Lawyers offered $30/hr to help needy retirees said no; asked to do it for FREE, they said yes",
+            "Small gifts (Snickers bar, Godiva chocolates) kept people in social norm mode and produced high effort",
+            "Mentioning the monetary value of a gift ('a 50-cent Snickers bar') switched people back to market norms and reduced effort",
+            "Just THINKING about money (scrambled-sentence task with salary-related words) made people more self-reliant, less helpful, and less social"
+          ],
+          "question": "What distinguishes social norms from market norms, and why does introducing money into a social relationship change the nature of the exchange?",
+          "correct_diagnosis": "Social norms are governed by friendship, community, and reciprocity — payment is not expected immediately, favors are given freely, and the relationship is warm. Market norms are governed by prices, wages, and cost-benefit calculations — you get what you pay for, and the relationship is transactional. The two systems are mutually exclusive: activating market norms (by mentioning money, price, or salary) pushes out social norms and vice versa. Once a relationship has been recast as a market exchange, it is very difficult to return to social norms. The monetary amount doesn't matter — even a small payment for a favor switches the frame. The key insight: small gifts maintain social norms, but mentioning the cost of the gift converts it to a market transaction.",
+          "distractors": [
+            "Social and market norms are compatible — you can pay friends for favors and maintain the same warm relationship",
+            "People work harder for money than for free because money is a stronger motivator than social obligation",
+            "Social norms are primitive and disappear in modern societies where most exchanges are monetary"
+          ],
+          "diagnostic_breakdown": "Stage 1 — Dual worlds: Humans evolved both social reciprocity systems (favors, gifts, sharing) and market exchange systems (barter, trade, payment). Stage 2 — Mutual exclusivity: These systems are managed by different neural circuits and cannot operate simultaneously. Stage 3 — Frame collision: Introducing market elements (money, price, cost) into a social relationship activates the market frame, suppressing the social frame. Stage 4 — Relationship damage: Once the market frame is activated, the relationship is perceived as transactional. Trust, warmth, and generosity decline. Stage 5 — Asymmetric recovery: Returning from market to social norms is very difficult — the monetary frame sticks."
+        }
+      ]
+    },
+    {
+      "id": "ch05",
+      "title": "The Power of a Free Cookie",
+      "pages": "93–104",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Behavioral Economics | Social Norms",
+          "topic": "The Halloween Cookie Experiment: Gifts vs. Payments",
+          "scenario_setup": "You are a manager trying to motivate your team. You have two options for a bonus: (A) A cash bonus of $50. (B) A gift — a nice bottle of wine worth about $50. Your HR director says option B is 'wasteful and inefficient — why not just give them the cash so they can buy what they actually want?' But you remember Ariely's finding about gifts vs. payments.",
+          "initial_dialogue": "HR Director: 'I ran the numbers. A $50 cash bonus costs us exactly $50. A $50 bottle of wine costs us $50 wholesale but the employee values it at maybe $35 retail. Cash is more efficient — it's worth more to the employee and costs us the same. Gifts are economically irrational.' You remember Ariely's experiment: kids who got 3 Hershey's Kisses as a gift were happy to trade 1 Kiss for a small Snickers or 2 Kisses for a large Snickers. But when you call it a 'sale' instead of a 'gift,' the exchange frame changes behavior completely.",
+          "choices": [
+            {
+              "choice_id": "A",
+              "text": "'You're right about the economics, but wrong about the psychology. The wine stays in the SOCIAL norm frame — it feels like a gift, a gesture of appreciation. Cash triggers MARKET norms — the employee evaluates it against their salary, decides if it's 'enough,' and starts thinking transactionally. A gift worth $35 to the employee might motivate more than $50 cash, because the gift signals appreciation (social) while cash signals payment (market). The bottle of wine says 'I thought about you.' The $50 says 'here's your cut.'",
+              "metric_impact": {
+                "Employee Motivation": 0.8,
+                "Efficiency": 0.3,
+                "Relationship Quality": 0.7
+              },
+              "feedback": "Ariely's Halloween experiment showed this clearly: when kids got Hershey's Kisses as a GIFT, they happily traded them for other candy. But when the researcher introduced the language of 'trading' and 'price,' kids became reluctant to exchange — they had entered the market frame."
+            },
+            {
+              "choice_id": "B",
+              "text": "'You're right. Cash is better. People know what they want and $50 lets them buy it. If they don't drink wine, the gift is worthless to them. Give cash and let the market work.'",
+              "metric_impact": {
+                "Employee Motivation": 0.2,
+                "Efficiency": 0.6,
+                "Relationship Quality": -0.2
+              },
+              "feedback": "Classic economic thinking. The problem is that cash triggers a market frame, and once employees are in that frame, they'll compare the bonus to their salary, to coworkers' bonuses, and to what they 'deserve.' The gift stays in the social frame, where the comparison is to other gifts, not to market rates."
+            },
+            {
+              "choice_id": "C",
+              "text": "'Let's give them a choice between the cash and the wine. That way they can pick whatever they value more.'",
+              "metric_impact": {
+                "Employee Motivation": 0.3,
+                "Efficiency": 0.2,
+                "Relationship Quality": -0.3
+              },
+              "feedback": "Offering a choice between a gift and cash actually WORSE than either alone — it forces the employee to explicitly compare the gift's value to cash, which activates the market frame. The gift is no longer a gift; it's a $50 option competing with its cash equivalent. You lose the benefit of both approaches."
+            }
+          ],
+          "optimal_choice": "A",
+          "theoretical_principle": "Ariely's Halloween experiment revealed that the frame (gift vs. payment) fundamentally changes behavior. When investigators offered kids a 'gift' of Hershey's Kisses and then offered to trade, kids readily engaged in exchange. When the same interaction was framed as a 'sale' (you have 3 Kisses, you can buy a Snickers for 1 or 2 Kisses), kids became less willing to trade. The 'gift' frame activates social norms (generosity, reciprocity); the 'sale' frame activates market norms (self-interest, getting a good deal). Gifts maintain relationships; prices destroy them."
+        }
+      ]
+    },
+    {
+      "id": "ch06",
+      "title": "The Influence of Arousal",
+      "pages": "105–120",
+      "assets": [
+        {
+          "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+          "domain": "Behavioral Economics | Emotional States",
+          "topic": "BOSS BATTLE: The Hot-Cold Empathy Gap — You Don't Know Your Aroused Self",
+          "stage_1_observation": "Ariely's Berkeley experiment: male students answered questions about sexual preferences, morality, and safe sex in two states. In a 'cold' state (not aroused): they predicted they would never engage in risky or immoral sexual behavior. In a 'hot' state (sexually aroused via masturbation while viewing erotic images): their predicted willingness to engage in the same behaviors nearly DOUBLED. The same people. The same questions. Different answers.",
+          "stage_1_question": "Why can't people in a 'cold' emotional state accurately predict their own preferences and behaviors when they will be in a 'hot' emotional state?",
+          "stage_1_correct_answer": "The 'hot-cold empathy gap' (Loewenstein, 1996) describes our inability to accurately predict how we will feel and behave when we are in a different emotional state. When we are 'cold' (calm, rational), we underestimate the power of visceral drives — hunger, thirst, anger, fear, sexual arousal. We think 'I would never do that' because we are judging our future behavior from an emotional state that lacks the visceral component. But when the visceral state hits, it rewrites our priorities, amplifies certain desires, and suppresses long-term considerations. The key finding: this gap is not just about poor prediction — it's about a fundamental inability to simulate a different emotional state. As Ariely puts it: 'We are all Homer Simpson in the box of doughnuts — we know we shouldn't, but when the doughnuts are in front of us...'",
+          "stage_2_intervention": "You are designing a sex education program for teenagers. One approach: show graphic images of STDs and pregnancy risks to scare them into safe behavior (traditional scare tactics). Another approach: have them role-play situations where peer pressure and arousal might override their intentions, and practice precommitting to safe behaviors before they are in a 'hot' state.",
+          "stage_2_correct_answer": "The second approach is more effective. Scare tactics assume teenagers are rational calculators who weigh risks in the moment — but the hot-cold empathy gap means that in a 'hot' (aroused, peer-pressured) state, abstract risks lose their power. Precommitment strategies — making decisions about condom use BEFORE the arousing situation, rehearsing refusal scripts, carrying condoms at all times — work WITH the empathy gap rather than against it. The key is to help teenagers recognize that their 'cold' self cannot fully control their 'hot' self, and build structural safeguards accordingly.",
+          "boss_battle_explanation": "The hot-cold empathy gap is one of the most important and underappreciated findings in behavioral science. It explains why we repeatedly fail to act on our own best intentions: we make commitments in a 'cool' state (diets, budgets, fidelity) that our 'hot' selves cannot keep. The gap affects not just sexual behavior but also hunger (we shop when hungry and buy more), anger (we promise not to lose our temper), and every other visceral state. The solution is not willpower — it's precommitment and environmental design that protects our future 'hot' selves from our present 'cold' overconfidence."
+        }
+      ]
+    },
+    {
+      "id": "ch07",
+      "title": "The Problem of Procrastination and Self-Control",
+      "pages": "121–140",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Behavioral Economics | Self-Control",
+          "topic": "Deadlines as Commitment Devices: Fighting Procrastination with Precommitment",
+          "visual_frame_description": "A timeline of a 12-week semester showing three classes. Class A (top): No deadlines except final — grades worst. Class B (middle): Self-imposed deadlines with penalties — grades middle. Class C (bottom): Externally imposed equally-spaced deadlines — grades best. The visual shows that freedom without structure = worst outcomes, and externally forced pacing = best outcomes.",
+          "target_channel": "Precommitment | Procrastination | Self-Control Strategies",
+          "question": "What did Ariely's experiment with three differently-structured deadline policies reveal about procrastination and the effectiveness of commitment devices?",
+          "correct_cue": "Ariely gave three classes the same three-paper assignment. Class 1 had no deadlines (just a final due date) — they got the worst grades, procrastinated most, and had the most late penalties. Class 2 had self-imposed deadline choices (set their own spaced deadlines with late penalties) — got middle grades. Class 3 had externally imposed equally-spaced deadlines — got the best grades. The results show: (1) People DO procrastinate without external structure. (2) Many people recognize their procrastination and will use commitment devices (self-imposed deadlines) to fight it — and this helps. (3) But self-imposed deadlines are imperfect — some people don't space them enough. (4) External structure is most effective because it forces optimal pacing. The implication: we need tools that help our rational 'planning' selves constrain our impulsive 'doing' selves.",
+          "distractors": [
+            "The no-deadline class did best because they had the most flexibility and could work at their own pace",
+            "Self-imposed deadlines were equally effective as externally imposed ones — the key is having any deadline at all",
+            "Procrastination is a character flaw that can be overcome with willpower and better time management"
+          ],
+          "underlying_psychology": "Ariely's deadline experiment demonstrates the two-self model of self-control. We have a 'planner' self (who wants to save, diet, and work steadily) and a 'doer' self (who wants to spend, eat, and procrastinate). Commitment devices — tools that bind our future selves — help the planner constrain the doer. The most effective commitment devices are externally enforced (automatic savings deductions, fixed deadlines). Self-imposed commitments help but are weaker because the doer can override them. This is why Ulysses had himself tied to the mast — he knew his future self would be weak."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Behavioral Economics | Savings Behavior",
+          "topic": "The Savings Crisis: Why We Can't Save and What Precommitment Can Do",
+          "question": "Why do Americans save less than 1% of their income (negative savings rate in 2006) while Europeans save 20%, Japanese 25%, and Chinese 50%? And what behavioral economic solutions address this?",
+          "correct_answer": "The proximate cause is a combination of rampant consumerism, easy credit (6 billion credit card solicitations in 2005 alone, average household credit card debt ~$9,000), and the human tendency toward immediate gratification. The deeper cause is the same hot-cold empathy gap: in a 'cold' state, we plan to save; in a 'hot' state (seeing something we want), we spend. The behavioral solution is precommitment: automatic savings plans (like 'Save More Tomorrow' — Thaler & Benartzi) that commit future salary increases to savings BEFORE we have a chance to spend them. By making savings automatic and removing the decision from the hot state, these programs dramatically increased savings rates. Standard economic theory says people will save when it's rational to do so; behavioral economics shows people need help binding their future selves.",
+          "distractors": [
+            "Americans save less because they have lower incomes than Europeans or Japanese — savings rates are determined by income, not psychology",
+            "Credit card companies are to blame — if credit were less available, Americans would save more naturally",
+            "The solution is financial education — once people understand compound interest and the need for retirement savings, they will save more"
+          ],
+          "explanation": "Ariely uses the American savings crisis to illustrate the gap between intention and action. We KNOW we should save. We INTEND to save. But in the moment of purchase, the immediate pleasure outweighs the abstract future benefit. Precommitment works by making the decision to save in a 'cold' state — and then locking it in before the 'hot' state arrives. 'Save More Tomorrow' programs increase savings from 3.5% to 13.6% of income over 40 months, simply by asking people to commit FUTURE raises (which they haven't yet experienced) to savings. This leverages loss aversion: we don't miss money we never had."
+        }
+      ]
+    },
+    {
+      "id": "ch08",
+      "title": "The High Price of Ownership",
+      "pages": "143–160",
+      "assets": [
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Behavioral Economics | Endowment Effect",
+          "topic": "The Duke Basketball Ticket Experiment: Why Owners Value What They Have 14x More Than Buyers",
+          "subject_baseline": "Duke University basketball tickets are allocated through a lottery among students who camp out for days in 'Krzyzewskiville.' After the lottery, winners and losers have had identical camping experiences and are equally passionate fans. Yet winners (owners) demanded an average of $2,400 to sell their ticket, while losers (buyers) were willing to pay an average of $175. Not a SINGLE transaction was possible — no owner would sell at any price a buyer would pay.",
+          "interrogation_transcript": "Winner (Joseph): 'This game is a defining memory of my time at Duke. I'll tell my children and grandchildren about it. How can you put a price on that?' Loser (William): 'For $175 I can watch at a sports bar with friends, drink beer, eat food, and have money left over for CDs.' Researcher: 'You both camped for the same week. You both love Duke basketball. The only difference is the lottery.' Winner: 'But I HAVE the ticket now. It's mine. I can already imagine being there.'",
+          "observed_nonverbal_log": [
+            "Winners and losers had IDENTICAL camping experiences and basketball passion before the lottery",
+            "Within minutes of the lottery, a 14x gap in valuation appeared",
+            "Buyers focused on ALTERNATIVE USES of money (sports bar, CDs, shoes)",
+            "Sellers focused on the EXPERIENCE THEY WOULD LOSE (memories, defining moments)",
+            "This is the endowment effect: ownership instantly increases perceived value"
+          ],
+          "question": "What is the endowment effect, and what three psychological quirks does Ariely identify as its causes?",
+          "correct_diagnosis": "The endowment effect (Kahneman, Knetsch, Thaler) is the tendency to value something more once we own it — sellers demand more than buyers will pay. Ariely identifies three causes: (1) We fall in love with what we have — ownership creates emotional attachment almost instantly (the China adoption story: random baby assignments felt 'perfect' to each couple within hours). (2) We focus on what we might LOSE rather than what we might GAIN — loss aversion makes selling feel painful. (3) We assume others will see the same value we do — we project our own attachment onto potential buyers. These quirks explain why people hold onto stocks too long, demand more for their house than buyers will pay, and find it almost impossible to sell things they own.",
+          "distractors": [
+            "The endowment effect only applies to sentimental items (basketball tickets, family heirlooms) — not to ordinary consumer goods",
+            "The 14x gap in the Duke experiment was because the winners were wealthier students who could afford to demand more",
+            "The endowment effect is rational — owners have better information about the item's true value than potential buyers"
+          ],
+          "diagnostic_breakdown": "Stage 1 — Instant attachment: Within moments of ownership, we begin to value the object more. The Chinese adoption story illustrates this: random baby assignments felt divinely guided within hours. Stage 2 — Loss frame: When selling, we focus on what we'll lose (the experience, the memories), not on what we'll gain (money for other things). Stage 3 — Projection: We assume buyers will share our valuation, so we're offended by low offers. Stage 4 — Market failure: The gap between seller and buyer valuations prevents efficient exchange. Both parties are worse off: the seller doesn't get cash, the buyer doesn't get the item."
+        }
+      ]
+    },
+    {
+      "id": "ch09",
+      "title": "Keeping Doors Open",
+      "pages": "161–178",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Behavioral Economics | Opportunity Cost",
+          "topic": "The Door-Closing Problem: Why We Keep Too Many Options Open",
+          "visual_frame_description": "A person trying to walk through a hallway with 50 doors on each side. They try to keep every door open — running back and forth, holding doors with their feet, elbows, and chin. They're exhausted. They're going nowhere. The caption: 'When you try to keep every door open, you never get through any of them.'",
+          "target_channel": "Decision Fatigue | Opportunity Cost | Commitment",
+          "question": "Ariely's experiment showed that when participants had to click on two doors (one that closed permanently, one that never closed) to earn money, they irrationally chased the shrinking door that was about to close — even when the other door offered higher rewards. Why do humans hate closing doors, and what cost does this incur?",
+          "correct_cue": "Humans have an irrational aversion to closing doors — we want to keep options open even when keeping them open is costly. This is because we anticipate regret: if we close a door permanently, we might later wish we hadn't. In Ariely's experiment, participants would chase the disappearing door rather than focus on the stable high-value door, earning significantly less money. The fear of lost opportunity (anticipated regret) outweighed the real opportunity available. In real life, this manifests as: holding unprofitable stocks rather than selling them, staying in bad relationships 'just in case,' keeping old clothes we never wear, and refusing to commit to a career path because another might be better. The cost is that keeping doors open consumes attention, energy, and time — and prevents us from fully committing to the paths we do choose.",
+          "distractors": [
+            "Keeping options open is always rational — you never know when a backup plan might be needed",
+            "The door-closing aversion only applies to trivial decisions, not major life choices like careers or relationships",
+            "People who keep multiple options open are happier because they feel less trapped by their decisions"
+          ],
+          "underlying_psychology": "This chapter challenges the common-sense idea that more options = better. Ariely argues that our irrational desire to keep doors open is connected to loss aversion and the endowment effect. We treat potential future options as if we already own them, and closing a door feels like a loss. But this 'hedonic flexibility' comes at a cost: spreading ourselves thin, never fully committing, and experiencing less satisfaction with what we do choose because we're always wondering about the road not taken. The solution: deliberately close doors to force commitment."
+        }
+      ]
+    },
+    {
+      "id": "ch10",
+      "title": "The Effect of Expectations",
+      "pages": "179–198",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Behavioral Economics | Expectations",
+          "topic": "Coke vs. Pepsi: How Brand Expectations Override Taste",
+          "question": "In blind taste tests, Pepsi often beats Coke (more people prefer the sweeter taste). But in labeled tests, Coke wins overwhelmingly. What does this reveal about the power of expectations on our actual experience?",
+          "correct_answer": "When people know the brand, their EXPECTATIONS about Coke (based on years of marketing, brand associations, and cultural meaning) override the actual sensory experience. The brand expectation literally changes the neural processing of taste — fMRI shows that when people drink labeled Coke, the hippocampus and dorsolateral prefrontal cortex (memory and meaning centers) activate more than when drinking unlabeled Coke. The expectation of 'Coke' creates a more positive experience than the unlabeled beverage. This is the 'placebo effect' applied to consumer goods: our expectations about an experience shape the experience itself. This doesn't make the preference for Coke 'unreal' — it means taste is not purely sensory but is constructed from sensory input PLUS expectation.",
+          "distractors": [
+            "Coke actually tastes better than Pepsi — the blind test results were flawed because participants knew they were in a taste test",
+            "Brand preferences are purely cultural — people learn to prefer Coke because of advertising, and this has no effect on actual taste perception",
+            "The Coke vs. Pepsi difference is just about sugar content — no psychological or neural expectation effect is involved"
+          ],
+          "explanation": "Ariely uses the Coke-Pepsi paradox to show that experience is not a direct readout of sensory data — it's a construction that combines sensory input with expectations. When we expect something to be good (because of a brand, a high price, or a prestigious venue), it LITERALLY tastes better to us, because the expectation changes neural processing. This is the basis of the placebo effect: believing a treatment will work makes it more likely to work. Expectations are not just about marketing — they shape our experience of movies, wine, food, relationships, and even pain."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Behavioral Economics | Expectations",
+          "topic": "The Movie Preview Problem: Do Spoilers Ruin the Experience?",
+          "scenario_setup": "Two friends are arguing about movie previews. Friend A avoids all trailers and reviews — 'spoilers ruin everything.' Friend B watches every trailer and reads reviews — 'I want to know what I'm getting into.' They ask you: who will enjoy the movie more?",
+          "initial_dialogue": "Friend A: 'If I know the plot twists, the movie is ruined. I want a pure, unspoiled experience.' Friend B: 'That's ridiculous. If I know it's good, I relax and enjoy it. I'm never disappointed because I know what to expect. Besides, studies show that spoiled stories are MORE enjoyable because you can appreciate how the story unfolds.'",
+          "choices": [
+            {
+              "choice_id": "A",
+              "text": "'Friend B has the science on their side. Ariely and others have shown that expectations SHAPE experience. A spoiler doesn't ruin enjoyment — it sets an expectation that the story then confirms or exceeds. In fact, research by Leavitt and Christenfeld (2011) showed that spoiled stories are actually preferred — readers enjoy them MORE because they don't have to work to figure out what's happening and can instead appreciate how it happens. Expectations create a framework that enhances the experience.'",
+              "metric_impact": {
+                "Surprise Appeal": -0.3,
+                "Enjoyment": 0.6,
+                "Predictive Accuracy": 0.8
+              },
+              "feedback": "Surprisingly, the data supports B. Expectations don't diminish experience — they frame it. The same coffee tastes better in an expensive cup. The same wine tastes better from a $50 bottle. The same story is more enjoyable when you know the ending."
+            },
+            {
+              "choice_id": "B",
+              "text": "'Friend A is right. Surprise is the essence of narrative. Once you know what happens, the mystery is gone. The emotional impact of a plot twist requires not knowing it's coming. Expectation can enhance some experiences, but narrative surprise is different from wine or coffee.'",
+              "metric_impact": {
+                "Surprise Appeal": 0.6,
+                "Enjoyment": -0.2,
+                "Predictive Accuracy": -0.3
+              },
+              "feedback": "Intuitively appealing, but the data doesn't support it. Multiple studies show that spoiled stories are enjoyed more. The twist isn't ruined by knowing it's coming — it's ENHANCED because you can see the setup and appreciate the craftsmanship."
+            },
+            {
+              "choice_id": "C",
+              "text": "'It depends on the person. Some people prefer surprise, others prefer expectation. There's no universal answer — it's a personality difference.'",
+              "metric_impact": {
+                "Surprise Appeal": 0.1,
+                "Enjoyment": 0.1,
+                "Predictive Accuracy": 0.2
+              },
+              "feedback": "This sounds reasonable but evades the question. While there are individual differences, the overall finding is clear: on average, people enjoy spoiled stories more. The belief that spoilers ruin enjoyment is itself an expectation that can be wrong."
+            }
+          ],
+          "optimal_choice": "A",
+          "theoretical_principle": "Ariely's chapter on expectations draws on a wide range of evidence that what we expect powerfully shapes what we experience. This has implications beyond marketing: placebos work because of expectations; expensive wine tastes better because of expectations; a professor's enthusiasm changes how much students learn. Expectations are not neutral filters — they are active ingredients in experience."
+        }
+      ]
+    },
+    {
+      "id": "ch11",
+      "title": "The Power of Price",
+      "pages": "199–218",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Behavioral Economics | Price Placebo",
+          "topic": "The Price Placebo: Why Expensive Medicine Works Better (Even When It's Identical)",
+          "visual_frame_description": "Two identical bottles of pills. One has a price tag of $2.50. The other has a price tag of $0.10 (marked down from $2.50). Patients take the $2.50 pills and report significant pain reduction. Patients take the $0.10 pills and report much less pain reduction. The pills are identical. Only the price differs. Caption: 'Price is not just price. Price is an expectation.'",
+          "target_channel": "Placebo Effect | Marketing and Medicine | Price Signaling",
+          "question": "Ariely's experiment showed that when participants paid the full price for an energy drink (supposedly enhancing mental performance), they solved more puzzles than when they got the same drink at a discounted price. What does this tell us about the relationship between price and perceived efficacy?",
+          "correct_cue": "Price is not just a number — it's a signal of quality and efficacy. When we pay more for something, we EXPECT it to work better, and that expectation becomes a self-fulfilling prophecy. In the experiment, participants who paid full price for an alleged cognitive enhancer solved significantly more puzzles than those who got the same product at a discount. The actual chemical content was identical. The only difference was the price, which shaped expectations, which shaped actual performance. This is the 'price placebo' effect: higher price creates higher expectations, which in turn produce better outcomes. This has huge implications for medicine (generic vs. brand-name drugs), insurance (people who pay more for insurance use it differently), and marketing.",
+          "distractors": [
+            "The price placebo effect only works for subjective experiences (pain, mood) — it doesn't affect objective performance like puzzle-solving",
+            "Price discounts don't affect perceived efficacy — people rationally evaluate products based on their actual qualities",
+            "The price placebo effect disappears when people are told the actual cost of producing the product"
+          ],
+          "underlying_psychology": "The price placebo extends the expectations chapter: price is one of the most powerful expectation-setting cues we have. A higher price signals 'this is valuable, this is effective, this is premium.' This signal activates neural expectation circuits that actually change our experience and performance. The implications are profound: (1) Discounted medication may be less effective than full-price medication — not because of chemistry but because of expectations. (2) People who pay more for insurance may get better health outcomes than those with cheaper plans, even with identical coverage. (3) The 'cheap' version of a product may actually perform worse for you because you expect it to."
+        }
+      ]
+    },
+    {
+      "id": "ch12",
+      "title": "The Cycle of Distrust",
+      "pages": "219â€“238",
+      "assets": [
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Behavioral Economics | Trust",
+          "topic": "The Free Money Booth: When Zero Trust Becomes a Self-Fulfilling Prophecy",
+          "subject_baseline": "Ariely and colleagues set up a 'Free Money' booth in Cambridge, MA with a sign offering $1 to $50 to any passerby. Only 1% stopped for $1 and only 19% for $50 â€” almost everyone assumed it was a trick even though the researchers genuinely planned to give away money.",
+          "interrogation_transcript": "Researcher: 'Hello! Would you like some free money? We're giving away $1 to $50.' Passerby: 'What's the catch?' Researcher: 'No catch. We're researchers studying trust. We'll give you cash right now.' Passerby: 'There has to be something. Is this being filmed? Are you selling something?' Researcher: 'No. Truly free money. Here, take this $20.' Passerby (hesitating): 'I don't know... This feels wrong. I'll pass.'",
+          "observed_nonverbal_log": [
+            "Only 1% accepted $1; only 19% accepted $50",
+            "Most passersby actively avoided eye contact and walked faster",
+            "Suspicion increased when the offer seemed 'too good to be true'",
+            "People offered more explanation were less likely to accept â€” over-explaining increased distrust",
+            "The same dynamic explains why obviously true statements ('the sun is yellow') are doubted when attributed to a brand or political party"
+          ],
+          "question": "Ariely argues that distrust, once established, becomes a self-perpetuating cycle. How does the 'Free Money Booth' experiment illustrate this, and what are the broader implications for markets and society?",
+          "correct_diagnosis": "The Free Money Booth reveals that distrust is a 'public good' problem: a few bad actors poison the well for everyone. Once people learn that offers can be deceptive, they apply skepticism universally â€” even to genuine offers. This creates a vicious cycle: honest businesses can't get their message through, so they either leave the market (adverse selection â€” only dishonest operators remain) or adopt deceptive practices to survive. The cycle is hard to break because restoring trust requires repeated, costly demonstrations of honesty over time. Ariely shows this through the stereo evaluation experiment: identical information from Consumer Reports was trusted far more than from the manufacturer, even though the content was identical. Trust is not about the information â€” it's about the BELIEVABILITY of the source.",
+          "distractors": [
+            "The Free Money Booth failed because people are naturally skeptical and skeptical people are smarter consumers",
+            "Distrust can be easily overcome by providing more information and explaining the offer in greater detail",
+            "The trust cycle only applies to commercial transactions, not to politics, relationships, or other domains"
+          ],
+          "diagnostic_breakdown": "Stage 1 â€” Betrayal: A few bad actors deceive consumers, reaping short-term profits. Stage 2 â€” Generalization: Consumers learn to distrust ALL market offers, not just the deceptive ones. Stage 3 â€” Adverse selection: Honest businesses can't communicate their trustworthiness and leave. Stage 4 â€” Equilibrium collapse: The remaining businesses are mostly dishonest, confirming consumers' distrust. Breaking this cycle requires external mechanisms: third-party verification, warranties, money-back guarantees, and regulatory standards that signal trustworthiness independently of the seller's claims."
+        }
+      ]
+    },
+    {
+      "id": "ch13",
+      "title": "The Context of Our Character, Part I",
+      "pages": "239â€“258",
+      "assets": [
+        {
+          "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+          "domain": "Behavioral Economics | Dishonesty",
+          "topic": "BOSS BATTLE: The Fudge Factor â€” Why Honest People Cheat (But Only a Little)",
+          "stage_1_observation": "Ariely's Harvard Business School experiment: participants solved 20 simple matrix problems (find two numbers that add up to 10) in 5 minutes. Control group: submitted their worksheet â€” averaged 3.5 correct. Cheating group A: self-checked against an answer key, then reported their score â€” averaged 6.2. Cheating group B: self-checked, shredded their worksheet, and took payment from a jar â€” averaged 6.1. The result: people cheated, but only by a little â€” regardless of how easy it was to cheat without detection.",
+          "stage_1_question": "Why did participants cheat 'only a little' instead of claiming the maximum possible score? And why did eliminating all risk of detection (shredding the worksheet, taking money from a jar) not increase cheating?",
+          "stage_1_correct_answer": "Because dishonesty is not driven by a rational cost-benefit analysis of getting caught. Instead, people operate with a 'fudge factor' â€” they want to benefit from cheating but also maintain a positive self-image as honest people. The limit is set by how much they can cheat while still feeling honest (the 'personal fudge factor' zone). This explains why eliminating detection risk didn't increase cheating: people were already cheating as much as their self-image allowed. The moral constraint is INTERNAL, not external. The real battle is not between the cheater and the system â€” it's between the cheater and their own self-concept.",
+          "stage_2_intervention": "After the matrix test, a new group of participants was asked to recall either (A) 10 books they read in high school, or (B) the Ten Commandments, BEFORE taking the test. The book-recall group cheated (avg 4.1 vs control 3.1 correct claimed). The Ten Commandments group did not cheat at all (avg 3.0 â€” identical to honest control). A separate test used the MIT Honor Code: participants who signed 'I understand this study falls under the MIT honor system' before the test did not cheat (avg 3.0), while those who didn't sign claimed 5.5 correct â€” even though MIT has no honor code.",
+          "stage_2_correct_answer": "Moral reminders eliminate cheating â€” even when there is no enforcement mechanism and no risk of getting caught. Recalling the Ten Commandments or signing an honor code activates the participant's internal moral standards, making dishonesty incompatible with their self-concept. The key insight: people don't need external enforcement to be honest â€” they just need to be reminded of their own moral standards BEFORE the temptation arises. Once the rationalization process starts, it's too late. This is why honor codes work: they must be signed at the BEGINNING of a task, not at the end (when people have already rationalized their cheating).",
+          "boss_battle_explanation": "The dishonesty research in this chapter overturns the standard economic model of crime (Becker, 1968) which assumes cheating is a cost-benefit calculation: cheat if benefit > probability of getting caught Ã— penalty. Ariely shows the model is wrong in a crucial way: people cheat when they can rationalize it while still viewing themselves as honest. The 'fudge factor' is the distance between what we can get away with and what we can justify to ourselves. The implications are enormous: most white-collar crime, insurance fraud, tax evasion, and corporate misconduct is not committed by 'bad people' â€” it's committed by ordinary people who have rationalized their dishonesty. The solution is not harsher penalties but moral reminders, honor codes, and systems that make rationalization harder."
+        }
+      ]
+    },
+    {
+      "id": "ch14",
+      "title": "The Context of Our Character, Part II",
+      "pages": "259â€“275",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Behavioral Economics | Dishonesty | Medium of Exchange",
+          "topic": "Cash vs. Tokens: Why One Step Away from Money Doubles the Cheating Rate",
+          "question": "Ariely's experiments showed that (1) MIT students would steal Cokes from communal fridges but not cash, and (2) participants cheated twice as much when paid in tokens (exchanged for cash later) vs. direct cash. What psychological mechanism explains why the medium of exchange so dramatically affects honesty?",
+          "correct_answer": "The key mechanism is 'psychological distance from cash' â€” the further removed a transaction is from actual money, the easier it is to rationalize dishonesty. Cash is concrete: stealing a $1 bill feels like stealing. A Coke feels different: it's 'just a Coke,' not money. Tokens feel like game pieces, not currency â€” even though they are immediately exchangeable for cash. The distance from cash creates a 'moral buffer' that weakens the internal alarm that would normally stop dishonest behavior. This explains why: (1) People commit expense report fraud more easily with corporate cards than with cash. (2) Stock option backdating feels less criminal than embezzlement. (3) Insurance fraud is easier to rationalize ('I'm just getting back what I paid in') than directly stealing. (4) Digital currency and credit cards increase spending AND dishonesty compared to cash. The implication: to reduce dishonesty, bring transactions closer to cash â€” eliminate the moral buffer.",
+          "distractors": [
+            "People steal Cokes but not cash because Cokes have lower value than dollar bills â€” it's about the amount, not the medium",
+            "The token effect only works in artificial lab settings â€” in real life, people recognize tokens are equivalent to cash and behave the same way",
+            "The solution to token-based dishonesty is harsher penalties and increased surveillance of non-cash transactions"
+          ],
+          "explanation": "Ariely's MIT dorm experiment is deceptively simple but profound: six-packs of Coke disappeared from communal fridges within 72 hours, while plates of six $1 bills sat untouched. The same people who would never steal cash saw taking a Coke as 'borrowing' or 'fair game.' In the matrix experiment, token participants didn't just cheat more â€” they cheated MORE EXTREMELY: 24 of 150 token participants claimed ALL 20 problems correct (max cheating), while ZERO cash participants did the same. The token condition didn't just loosen the fudge factor â€” it shattered it for some participants. The implications for digital currencies, corporate expense policies, and financial regulation are profound: when money becomes abstract, morality follows."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Behavioral Economics | Dishonesty | Rationalization",
+          "topic": "The Expense Report Dilemma: When Does 'Business Expense' Become Theft?",
+          "scenario_setup": "You are a manager implementing a new expense policy. Two employees approach you with questions about what counts as a legitimate business expense.",
+          "initial_dialogue": "Employee 1: 'I bought a $5 coffee mug with a company logo for a client gift. My boss rejected it. But I routinely submit $8 drinks with colleagues as 'client meetings' and those are approved. What's the difference?' Employee 2: 'I use my personal card for expenses and get reimbursed. I've noticed I'm much more careful about what I claim than when I use the corporate card. Why is that?'",
+          "choices": [
+            {
+              "choice_id": "A",
+              "text": "'Employee 1: The difference is psychological, not financial. An $8 drink is easy to rationalize as a work expense â€” it disappears in the flow of business. A $5 mug looks like a personal item, so it triggers scrutiny even though it costs less. Employee 2: You're experiencing the cash-distance effect. With your personal card, you feel the loss directly and need to justify the reimbursement. With the corporate card, the money is abstract â€” someone else's money â€” so the rationalization barrier is lower.'",
+              "metric_impact": {
+                "Policy Clarity": 0.7,
+                "Employee Morale": 0.3,
+                "Honesty Culture": 0.6
+              },
+              "feedback": "Correct. The mug rejected, the drink approved â€” it's not about the amount, it's about how easy it is to rationalize. The corporate card / personal card difference is the exact same mechanism as the Coke vs. cash experiment. To reduce expense fraud, bring expenses closer to cash: require pre-approval, use personal cards with reimbursement, and audit at the category level not the dollar level."
+            },
+            {
+              "choice_id": "B",
+              "text": "'Employee 1: The mug was rejected because it looks like a personal item. Just resubmit it as a 'client appreciation gift' and it will go through. Employee 2: The corporate card is convenient â€” don't overthink it. The policy is the policy.'",
+              "metric_impact": {
+                "Policy Clarity": 0.1,
+                "Employee Morale": 0.4,
+                "Honesty Culture": -0.4
+              },
+              "feedback": "You found a workaround, but you didn't solve the problem. Teaching employees how to game the system erodes trust and honesty culture. The real issue is systemic: the policy should be designed to minimize the fudge factor, not to be maximally permissive with arbitrary enforcement."
+            },
+            {
+              "choice_id": "C",
+              "text": "'Both of you: Stop rationalizing. The rules are the rules. If it's not explicitly allowed, don't submit it. A $5 mug is clearly personal, and $8 drinks are suspect too. I'll be auditing all expenses more carefully going forward.'",
+              "metric_impact": {
+                "Policy Clarity": 0.5,
+                "Employee Morale": -0.5,
+                "Honesty Culture": 0.2
+              },
+              "feedback": "This approach assumes dishonesty is intentional and can be deterred by surveillance. But Ariely's research shows that most expense fraud comes from rationalization, not intent. Strict enforcement may reduce some cheating but at the cost of employee morale and trust. A better approach is to redesign the system so rationalization is harder â€” e.g., requiring itemized receipts, pre-approval for categories, and using personal cards with reimbursement."
+            }
+          ],
+          "optimal_choice": "A",
+          "theoretical_principle": "Ariely's cash-distance research shows that honesty is heavily influenced by the medium of exchange and the ease of rationalization. When transactions are one step removed from cash â€” corporate cards, tokens, digital payments, barter â€” people cheat more because the moral buffer weakens internal constraints. The same person who would never steal $10 from a wallet might inflate an expense report by $50 or take office supplies home. The solution is not to hire 'more honest' people but to design systems that keep transactions psychologically close to cash."
+        }
+      ]
+    },
+    {
+      "id": "ch15",
+      "title": "Beer and Free Lunches",
+      "pages": "276â€“296",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Behavioral Economics | Social Signaling",
+          "topic": "The Beer Ordering Problem: Why We Choose What Others Think We Should Like",
+          "visual_frame_description": "A bar with two groups of tables. Left side: 50 tables ordering beer out loud in sequence â€” one person says 'I'll have a Bud Light,' the next person chooses something different to seem unique, the third chooses something even more obscure. Right side: 50 tables ordering privately on paper â€” most people order their genuine favorite, which is often the same popular beer. A graph shows satisfaction scores lower on the left side, higher on the right. Caption: 'When we order publicly, we don't order what we want â€” we order what we want others to think we want.'",
+          "target_channel": "Social Signaling | Conformity vs. Differentiation | Choice Architecture",
+          "question": "In Ariely's Carolina Brewery experiment, tables that ordered beer publicly chose more diverse beers but were LESS satisfied than tables that ordered privately. What does this reveal about the conflict between social signaling and genuine preference?",
+          "correct_cue": "The experiment reveals a fundamental conflict between two human drives: the desire for uniqueness / social signaling vs. the desire for genuine satisfaction. When ordering publicly, people choose beers based on what they want OTHERS TO THINK about their taste, not what they actually want to drink. The first person to order gets to freely choose their favorite; each subsequent person faces pressure to differentiate â€” leading to a cascade of progressively less-preferred choices. Private orderers felt no such pressure; most chose the most popular beer (their genuine favorite) and were more satisfied. The finding generalized to wine at Duke and replicated in Hong Kong (though with a conformity twist: collectivist cultures showed conformity rather than differentiation). The implication: social context systematically distorts our choices away from our genuine preferences, and we pay the price in reduced satisfaction.",
+          "distractors": [
+            "Public ordering leads to better outcomes because people discover new beers they wouldn't have tried alone",
+            "The beer ordering effect only applies to trivial consumption decisions, not important life choices like careers or relationships",
+            "People who order different beers in public are happier because they feel unique and interesting"
+          ],
+          "underlying_psychology": "The beer ordering experiment demonstrates 'pluralistic ignorance' combined with signaling theory. Everyone at the table wants the same popular beer but chooses something else to signal uniqueness or sophistication. The result: everyone is less satisfied but believes they are the only one suppressing their preference. This is a market failure caused by social signaling. The solution: private decision-making (anonymous ordering, secret ballots) eliminates the signaling pressure and allows genuine preferences to surface. This principle extends far beyond beer: it affects everything from which stocks we buy to which clothes we wear to which opinions we express in meetings."
+        },
+        {
+          "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+          "domain": "Behavioral Economics | Synthesis | Choice Architecture",
+          "topic": "BOSS BATTLE: The Free Lunch â€” Why Behavioral Economics Creates Value That Standard Economics Says Can't Exist",
+          "stage_1_observation": "Standard economics assumes the 'invisible hand': in free markets, rational individuals pursuing self-interest produce optimal outcomes for everyone. No 'free lunches' exist â€” you can't make someone better off without making someone else worse off. But Ariely's research shows systematic, predictable irrationality: anchoring, the endowment effect, the hot-cold empathy gap, the fudge factor, and dozens of other biases. If people make predictable mistakes, then there ARE free lunches â€” interventions that help people make better decisions without hurting anyone.",
+          "stage_1_question": "How does Ariely's 'free lunch' concept challenge the fundamental assumption of standard economics, and what does it mean for policy and business?",
+          "stage_1_correct_answer": "The 'no free lunch' assumption depends on rational actors making optimal decisions. Once we accept that humans are predictably irrational, the possibility of free lunches emerges: interventions that improve outcomes for everyone by working WITH human psychology rather than against it. Examples include: Save More Tomorrow (employees save more without feeling the pain), mandatory cooling-off periods (consumers make better purchase decisions), default enrollment in retirement plans (dramatically increases participation without restricting choice), and moral reminders at the point of decision (reduces dishonesty without enforcement). These are 'free' because they create net benefits â€” higher savings, better health, more satisfaction â€” without requiring anyone to sacrifice. The economist's objection ('if it were so beneficial, people would already do it') fails because people are not the rational calculators economics assumes.",
+          "stage_2_intervention": "You are advising a government on reducing obesity. Standard economic approach: tax unhealthy foods (makes people pay the true social cost). 'Free lunch' behavioral approach: change cafeteria layouts to put healthy options at eye level, use smaller plates, make unhealthy options less convenient (opt-in rather than opt-out). Which works better and why?",
+          "stage_2_correct_answer": "The behavioral approach can achieve the same or better results without the political and welfare costs of taxation. A tax works by making unhealthy food more expensive, which works for rational consumers but hurts low-income people disproportionately and triggers reactance (people resent being told what to eat). Choice architecture â€” rearranging the decision environment to make healthy choices easier â€” preserves freedom while leveraging predictable irrationality. People still choose freely, but the default is now healthy. Studies show cafeteria rearrangements increase healthy choices by 25-30% with zero resentment. This IS the free lunch: better health outcomes without anyone feeling worse off. Standard economics says this can't happen; behavioral economics shows it does every day.",
+          "boss_battle_explanation": "The 'free lunch' concept is the rallying cry of behavioral economics. It transforms the field from a critique of standard economics ('look at all these irrational things people do!') into a constructive toolkit for improving human welfare. The free lunches are everywhere once you look: automatic enrollment in retirement plans, organ donation opt-out systems, calorie labeling, simplified enrollment in benefit programs, smart defaults for everything from privacy settings to insurance choices. Each intervention creates value by helping people's rational 'planner' selves constrain their impulsive 'doer' selves. The ultimate insight: people don't need more information or more choices â€” they need environments designed for the humans they actually are, not the rational androids economics imagined."
+        }
+      ]
+    }
+  ]
+}
