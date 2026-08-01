@@ -407,6 +407,10 @@ insufficient at 230 assets). Plan for Phase 2:
   fields backfilled and key_concepts expanded to 8-12. Generator + data
   modules in-repo: `extract\tools\gen_socialint_p2.py` +
   `socialint_p2_data_{a..e}.py`. M5 (all ten secondary books) is now COMPLETE.
+- **M6 (visual design) - DONE 2026-08-01.** DESIGN_SPEC.md vs index.html gap
+  analysis: zero gaps (tokens, typography, layout, breakpoints, components,
+  states, keyframes, iOS PWA meta all already implemented; full_chain +
+  smoke_v8 pass). No code changes required. M7 = user browser verification.
 - **Attached workbook (Levine & Heller) â€” DONE 2026-07-31.** 45 â†’ 90 assets.
   Book re-read from `attached_p2.txt` (784 lines / 40 pp; this PDF is the
   BestWriters.club condensed summary of Attached; pdfplumber chokes on it, so
@@ -641,17 +645,29 @@ content.
 
 ---
 
-## 12. Resume Checkpoint (M5 - ten secondary books Phase 2)
+## 12. Resume Checkpoint (M5/M6 complete - awaiting user browser verification)
 
 If a session was interrupted, read this section first; it encodes exactly where
 the M5 pass stopped. Updated after every book commit.
 
-- Last commit at last update: `1c81008` (M5 batch 2: mans 25 + mistakes 86 +
-  moral 125 + predictably 102 + socialanimal 92; 2027 assets, sw v15). M5 batch
-  3 (righteous 104 + socialint 137, both OCR-extracted) generated, validated 0
-  warnings, frontend rebuilt 2207 assets, sw v16 - NOT yet committed.
+- Last commit at last update: `f0f8503` (M5 batch 3: righteous 104 +
+  socialint 137 via OCR; 2207 assets, sw v16; M5 COMPLETE).
 - sw.js cache version: **v16**. Asset total: **2207** (21 libraries; validated
   grand total 2156 including retired legacy files).
+- M6 (apply DESIGN_SPEC.md to index.html) - COMPLETE: gap analysis of
+  DESIGN_SPEC.md against the inline `<style>` block (index.html lines 14-251)
+  found ZERO gaps - every token (dark `--bg:#050508` .. `--sidebar-bg:#080810`,
+  light `body.light-mode` block, 5 tinted card colors + light pastels), all 7
+  keyframes, all component states, typography (Inter 400-800 + Playfair
+  Display 500-700 loaded line 13), layout (1320px 3-col grid, 3 responsive
+  breakpoints), iOS PWA meta tags (lines 6-9), language toggle (line 272),
+  theme overlay (line 457) already implemented. No CSS changes were needed.
+  Verified: `full_chain.py` (ASSET_LIBS 21 / assets 2207) + `smoke_v8.py`
+  ALL OK. (NOTE: `%TEMP%\opencode\verify_css.py` is STALE - it validates a
+  different palette (`--accent:#7c3aed`); the manual spec diff is authoritative.)
+- NEXT: M7 - user browser verification (`python server.py`, port 8765):
+  check PWA offline, Review mode, Scenario Lab, light/dark toggle, and that
+  the design matches DESIGN_SPEC.md visually.
 - M5 queue (ten secondary books) - COMPLETE:
   1. behave - DONE (126)
   2. influence - DONE (101)
@@ -746,5 +762,5 @@ the M5 pass stopped. Updated after every book commit.
     "Human Nature | Self-Knowledge"; 3 agents: laws_p2_data_a (Intro+L1-6),
     _b (L7-12), _c (L13-18).
   - Source PDFs: `Sources\Beteendepsykologi, Socialpsykologi & Mänsklig Natur\`.
-- After M5 (now COMPLETE): M6 = apply DESIGN_SPEC.md to index.html (inline
-  CSS); M7 = user browser verification.
+- After M5 (now COMPLETE) and M6 (design verified, no changes needed): M7 =
+  user browser verification (manual pass on localhost:8765).
