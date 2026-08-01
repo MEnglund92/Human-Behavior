@@ -57,8 +57,11 @@ book, all sharing one schema (Section 4). They feed a game (PWA frontend,
 | 7 | **The Body Language of Liars** | Lillian Glass | **DONE (Phase 2: 120)** | 120 |
 | 8 | **The Power of Body Language** | Tonya Reiman | **DONE (Phase 2: 105)** | 105 |
 | 9 | **Truth & Lies** | Bowden & Thomson | **DONE (Phase 1 new)** | 70 |
+| 10 | **Behave** | Robert Sapolsky | **DONE (Phase 2: 126)** | 126 |
+| 11 | **Influence (New & Expanded)** | Robert Cialdini | **DONE (Phase 2: 101)** | 101 |
+| 12 | **The Laws of Human Nature** | Robert Greene | **DONE (Phase 2: 118)** | 118 |
 
-**Running total: 935 assets, all validated (see Section 6).**
+**Running total: 1280 assets, all validated (see Section 6).**
 
 ### Marked `(Not)` / skip â€” do NOT generate assets for these
 - Body Language (Allan Pease)
@@ -68,14 +71,15 @@ book, all sharing one schema (Section 4). They feed a game (PWA frontend,
 - SAOL (Swedish dictionary â€” "skip SAOL for now")
 
 ### Other books with assets in generated_assets (from earlier/other tracks)
-Not part of the 660 total above: Behave (31), Influence (51), Laws of Human
-Nature (23), Man's Search for Meaning (10), Mistakes Were Made (36), Moral
-Animal (30), Predictably Irrational (22), Righteous Mind (39), Social Animal
-(47), Social Intelligence (22), Truth & Lies (65) â€” NOTE: there are TWO files
-with similar names: `truth_and_lies_assets.json` (65, older/different) and
-`bowden_truth_lies_assets.json` (70, the new Bowden Phase-1 deliverable). The
-Bowden one is the Phase-1 canonical output. `apa_nonverbal_assets.json` and
-`research_methods_assets.json` contain 0 assets (placeholders).
+Phase 2 DONE: Behave (126), Influence (101), Laws of Human Nature (118).
+Remaining Phase-2 queue: Man's Search for Meaning (10), Mistakes Were Made
+(36), Moral Animal (30), Predictably Irrational (22), Righteous Mind (39),
+Social Animal (47), Social Intelligence (22). Truth & Lies (65) â€” NOTE: there
+are TWO files with similar names: `truth_and_lies_assets.json` (65,
+older/different) and `bowden_truth_lies_assets.json` (70, the new Bowden
+Phase-1 deliverable). The Bowden one is the Phase-1 canonical output.
+`apa_nonverbal_assets.json` and `research_methods_assets.json` contain 0
+assets (placeholders).
 
 ---
 
@@ -219,17 +223,20 @@ Latest run results (2026-07-31, after M1-M4 Phase-2 passes):
 - telling_lies_assets.json â€” 65 assets, ALL VALID (0 warnings)
 - influence (51), social_animal (47), righteous_mind (39), mistakes (36) â€”
   ALL VALID (0 warnings; duplicate-type chapters split into sub-chapters)
+- behave_assets.json â€” 126 assets, ALL VALID (0 warnings; Phase 2: bh00-bh18)
+- influence_assets.json â€” 101 assets, ALL VALID (0 warnings; Phase 2: in00-in09)
+- laws_human_nature_assets.json â€” 118 assets, ALL VALID (0 warnings; Phase 2: lh00-lh18)
 
-All previously-short books are now clean (0 warnings). The M5 books (behave,
-laws_human_nature, mans_search_meaning, moral_animal, predictably_irrational,
-social_intelligence) still carry the legacy missing-field warnings â€” fixed by
-their Phase 2 pass.
-- **Grand total: 1502 assets, ALL VALID** (excluding the two known placeholder
+All previously-short books are now clean (0 warnings). The M5 books
+(mans_search_meaning, mistakes, moral_animal, predictably_irrational,
+righteous_mind, social_animal, social_intelligence) still carry the legacy
+missing-field warnings â€” fixed by their Phase 2 pass.
+- **Grand total: 1847 assets, ALL VALID** (excluding the two known placeholder
   files `apa_nonverbal_assets.json` and `research_methods_assets.json`, which
   are not JSON objects and have 0 assets - intentionally left alone). After
   retiring the two legacy duplicates (truth_and_lies 65, power_body_language
   50), the frontend pipeline (`build_frontend_assets.py`) consumes **21
-  libraries / 1,502 assets**.
+  libraries / 1,742 assets**.
 
 Known quirk: the Reiman/Bowden generators originally emitted assets wrapped in
 a redundant list `[[asset]]`; the emitted JSON files were fixed by unwrapping
@@ -311,6 +318,28 @@ insufficient at 230 assets). Plan for Phase 2:
   kept and their 4-item key_concepts expanded to 8-12 from the new chapter
   data. Generator + data modules in-repo: `extract\tools\gen_whatbody_p2.py`
   + `whatbody_p2_data_{a..c}.py`.
+- **Behave (Sapolsky) â€” DONE 2026-07-31.** 31 â†’ 126 assets. Book re-read from
+  `behave_p2.txt` (804 pp, extracted with PyMuPDF); all 17 chapters +
+  Introduction + Epilogue mapped from title pages (Intro p11 .. Epilogue p683);
+  per-chapter entries `bh00`-`bh18` added with one asset of each type per
+  chapter. Legacy entries (ch01-ch18) kept, their missing fields backfilled
+  (player_mission <- question, difficulty per type, visuals from chapter data)
+  and key_concepts expanded to 8-12. Generator + data modules in-repo:
+  `extract\tools\gen_behave_p2.py` + `behave_p2_data_{a..c}.py`.
+- **Influence (Cialdini) â€” DONE 2026-07-31.** 51 â†’ 101 assets. Book re-read
+  from `influence_p2.txt` (532 pp); Introduction + all 9 chapters mapped from
+  title pages (Intro p10 .. Ch9 p389); per-chapter entries `in00`-`in09` added
+  with one asset of each type per chapter. Legacy entries (ch01a..ch10) kept,
+  their missing fields backfilled and key_concepts expanded to 8-12. Generator
+  + data modules in-repo: `extract\tools\gen_influence_p2.py` +
+  `influence_p2_data_{a..b}.py`.
+- **Laws of Human Nature (Greene) â€” DONE 2026-07-31.** 23 â†’ 118 assets. Book
+  re-read from `laws_p2.txt` (689 pp); Introduction + all 18 laws mapped from
+  title pages (Intro p11 .. Law 18 p622); per-chapter entries `lh00`-`lh18`
+  added with one asset of each type per law. Legacy entries (introduction,
+  ch01-ch18) kept, their missing fields backfilled and key_concepts expanded
+  to 8-12. Generator + data modules in-repo: `extract\tools\gen_laws_p2.py` +
+  `laws_p2_data_{a..c}.py`.
 - **Attached workbook (Levine & Heller) â€” DONE 2026-07-31.** 45 â†’ 90 assets.
   Book re-read from `attached_p2.txt` (784 lines / 40 pp; this PDF is the
   BestWriters.club condensed summary of Attached; pdfplumber chokes on it, so
@@ -481,6 +510,12 @@ what_every_body fixed by their Phase-2 passes).
   What Every BODY generator and its per-chapter content data
 - `extract\tools\gen_attached_p2.py` + `attached_p2_data_{a..b}.py` â€” Phase 2
   Attached workbook generator and its per-chapter content data
+- `extract\tools\gen_behave_p2.py` + `behave_p2_data_{a..c}.py` â€” Phase 2
+  Behave generator and its per-chapter content data
+- `extract\tools\gen_influence_p2.py` + `influence_p2_data_{a..b}.py` â€” Phase 2
+  Influence generator and its per-chapter content data
+- `extract\tools\gen_laws_p2.py` + `laws_p2_data_{a..c}.py` â€” Phase 2 Laws of
+  Human Nature generator and its per-chapter content data
 - `extract\tools\split_data_js.py` â€” Phase 3: `data-full.js` â†’ `data/` + `data.js`
 - `extract\tools\build_frontend_assets.py` â€” Phase 3: `extract\generated_assets\`
   â†’ `assets/assetlib-*.js` + `assets.js`
@@ -517,5 +552,62 @@ content.
 - The older `truth_and_lies_assets.json` (65 assets) vs new
   `bowden_truth_lies_assets.json` (70 assets): confirm which one the frontend
   should consume (recommend the bowden one; possibly delete/rename the other).
-  **RESOLVED 2026-07-31**: bowden (255 assets) is canonical; both legacy
-  duplicates retired to `extract\generated_assets\legacy\` (kept, not deleted).
+   **RESOLVED 2026-07-31**: bowden (255 assets) is canonical; both legacy
+   duplicates retired to `extract\generated_assets\legacy\` (kept, not deleted).
+
+---
+
+## 12. Resume Checkpoint (M5 - ten secondary books Phase 2)
+
+If a session was interrupted, read this section first; it encodes exactly where
+the M5 pass stopped. Updated after every book commit.
+
+- Last commit at last update: `9ae0e15` (M4: Attached workbook 45 -> 90).
+- sw.js cache version: **v14**. Asset total: **1742** (21 libraries; validated
+  grand total 1847 including retired legacy files).
+- M5 queue (commit per book, sw bump +1 each):
+  1. behave - DONE (126 assets, commit pending)
+  2. influence - DONE (101 assets, commit pending)
+  3. laws_human_nature - DONE (118 assets, commit pending)
+  4. mans_search_meaning
+  5. mistakes
+  6. moral_animal
+  7. predictably_irrational
+  8. righteous_mind
+  9. social_animal
+  10. social_intelligence
+- Recipe per book: (a) extract PDF text with `extract_pdf_fitz.py` (temp script;
+  pdfplumber fails on some PDFs, PyMuPDF works) to `%TEMP%\opencode\<book>_p2.txt`;
+  (b) map chapter title pages from `--- PAGE N ---` markers; (c) launch authoring
+  agents -> `<book>_p2_data_{a..}.py` (5 slots x 10-12 concepts, template:
+  `extract\tools\whatbody_p2_data_a.py`); (d) `gen_<book>_p2.py` (clone of
+  `gen_attached_p2.py`, id prefix per book); (e) `fix_<book>_legacy.py` - M5
+  legacy assets ALSO miss fields (player_mission, key_concepts, difficulty_level),
+  so add player_mission <- existing `question`, difficulty <- per-type default,
+  expand key_concepts 8-12 from chapter pools; (f) validate 0 warnings; (g)
+  `build_frontend_assets.py`, bump sw.js cache; (h) docs (Section 3 row, running
+  total, Section 6, Section 8 note, Section 9 tools, README counts); (i) commit.
+- Already mapped (texts may be in temp - re-extract if missing):
+  - behave: `behave_p2.txt` (804 pp); sections Intro p11 (line 197), Ch1 p27
+    (774), Ch2 p31 (923), Ch3 p93 (3293), Ch4 p109 (3904), Ch5 p149 (5428),
+    Ch6 p164 (6014), Ch7 p184 (6738), Ch8 p233 (8624), Ch9 p277 (10283),
+    Ch10 p339 (12568), Ch11 p397 (14837), Ch12 p435 (16278), Ch13 p488 (18276),
+    Ch14 p531 (19988), Ch15 p565 (21186), Ch16 p591 (22080), Ch17 p624 (23429),
+    Epilogue p683 (25533-25627); ids bh00-bh18; domain "Behavioral Biology |
+    Multilevel Analysis"; 3 agents: behave_p2_data_a (Intro+Ch1-6), _b (Ch7-12),
+    _c (Ch13-17+Epilogue).
+  - influence: `influence_p2.txt` (532 pp); Intro p10 (141), Ch1 p14 (281),
+    Ch2 p33 (922), Ch3 p76 (2443), Ch4 p123 (4043), Ch5 p185 (6203), Ch6 p221
+    (7453), Ch7 p263 (8968), Ch8 p324 (11180), Ch9 p389 (13484-16632); ids
+    in00-in09; domain "Influence & Persuasion | Cognitive Heuristics"; 2 agents:
+    influence_p2_data_a (Intro+Ch1-4), _b (Ch5-9).
+  - laws: `laws_p2.txt` (689 pp); Intro p11 (163), L1 p23 (612), L2 p54 (1772),
+    L3 p88 (3029), L4 p120 (4245), L5 p152 (5426), L6 p172 (6178), L7 p196
+    (7051), L8 p229 (8294), L9 p260 (9469), L10 p293 (10705), L11 p326 (11941),
+    L12 p358 (13137), L13 p397 (14622), L14 p435 (16049), L15 p486 (17978),
+    L16 p524 (19417), L17 p574 (21280), L18 p622 (23078); ids lh00-lh18; domain
+    "Human Nature | Self-Knowledge"; 3 agents: laws_p2_data_a (Intro+L1-6),
+    _b (L7-12), _c (L13-18).
+  - Source PDFs: `Sources\Beteendepsykologi, Socialpsykologi & Mänsklig Natur\`.
+- After M5: M6 = apply DESIGN_SPEC.md to index.html (inline CSS); M7 = user
+  browser verification.
