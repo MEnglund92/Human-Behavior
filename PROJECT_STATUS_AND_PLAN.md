@@ -65,8 +65,10 @@ book, all sharing one schema (Section 4). They feed a game (PWA frontend,
 | 15 | **The Moral Animal** | Robert Wright | **DONE (Phase 2: 125)** | 125 |
 | 16 | **Predictably Irrational** | Dan Ariely | **DONE (Phase 2: 102)** | 102 |
 | 17 | **The Social Animal** | Elliot Aronson | **DONE (Phase 2: 92)** | 92 |
+| 18 | **The Righteous Mind** | Jonathan Haidt | **DONE (Phase 2: 104, OCR)** | 104 |
+| 19 | **Social Intelligence** | Daniel Goleman | **DONE (Phase 2: 137, OCR)** | 137 |
 
-**Running total: 1710 assets, all validated (see Section 6).**
+**Running total: 1971 assets in the table, all validated (see Section 6).**
 
 ### Marked `(Not)` / skip â€” do NOT generate assets for these
 - Body Language (Allan Pease)
@@ -78,14 +80,13 @@ book, all sharing one schema (Section 4). They feed a game (PWA frontend,
 ### Other books with assets in generated_assets (from earlier/other tracks)
 Phase 2 DONE: Behave (126), Influence (101), Laws of Human Nature (118),
 Man's Search for Meaning (25), Mistakes Were Made (86), Moral Animal (125),
-Predictably Irrational (102), Social Animal (92).
-Remaining Phase-2 queue: Righteous Mind (39), Social Intelligence (22) —
-both scanned PDFs, blocked on OCR (no text layer). Truth & Lies (65) — NOTE:
-there are TWO files with similar names: `truth_and_lies_assets.json` (65,
-older/different) and `bowden_truth_lies_assets.json` (70, the new Bowden
-Phase-1 deliverable). The Bowden one is the Phase-1 canonical output.
-`apa_nonverbal_assets.json` and `research_methods_assets.json` contain 0
-assets (placeholders).
+Predictably Irrational (102), Social Animal (92), Righteous Mind (104, OCR),
+Social Intelligence (137, OCR). M5 complete - all ten secondary books done.
+Truth & Lies (65) — NOTE: there are TWO files with similar names:
+`truth_and_lies_assets.json` (65, older/different) and
+`bowden_truth_lies_assets.json` (70, the new Bowden Phase-1 deliverable). The
+Bowden one is the Phase-1 canonical output. `apa_nonverbal_assets.json` and
+`research_methods_assets.json` contain 0 assets (placeholders).
 
 ---
 
@@ -237,16 +238,19 @@ Latest run results (2026-07-31, after M1-M4 Phase-2 passes):
 - moral_animal_assets.json â€” 125 assets, ALL VALID (0 warnings; Phase 2: ma00-ma18)
 - predictably_irrational_assets.json â€” 102 assets, ALL VALID (0 warnings; Phase 2: pi00-pi15)
 - social_animal_assets.json â€” 92 assets, ALL VALID (0 warnings; Phase 2: sa01-sa09)
+- righteous_mind_assets.json â€” 104 assets, ALL VALID (0 warnings; Phase 2: rm00-rm12)
+- social_intelligence_assets.json â€” 137 assets, ALL VALID (0 warnings; Phase 2: si00-si22)
 
-All books are now clean (0 warnings). The two remaining Phase-2 targets
-(righteous_mind 39, social_intelligence 22) still carry the legacy missing-field
-warnings â€” fixed by their Phase 2 pass once OCR unblocks them.
-- **Grand total: 2277 assets, ALL VALID** (excluding the two known placeholder
+All books are now clean (0 warnings). M5 (ten secondary books) is COMPLETE.
+The last two books were extracted from scanned PDFs via Windows built-in OCR
+(Windows.Media.Ocr, no install needed; render with `render_ocr_pages.py`,
+OCR with `ocr_pages.ps1` in temp).
+- **Grand total: 2156 assets, ALL VALID** (excluding the two known placeholder
   files `apa_nonverbal_assets.json` and `research_methods_assets.json`, which
   are not JSON objects and have 0 assets - intentionally left alone). After
   retiring the two legacy duplicates (truth_and_lies 65, power_body_language
   50), the frontend pipeline (`build_frontend_assets.py`) consumes **21
-  libraries / 2,027 assets**.
+  libraries / 2,207 assets**.
 
 Known quirk: the Reiman/Bowden generators originally emitted assets wrapped in
 a redundant list `[[asset]]`; the emitted JSON files were fixed by unwrapping
@@ -385,6 +389,24 @@ insufficient at 230 assets). Plan for Phase 2:
   kept, their missing fields backfilled and key_concepts expanded to 8-12.
   Generator + data modules in-repo: `extract\tools\gen_socialanimal_p2.py` +
   `socialanimal_p2_data_{a..b}.py`.
+- **The Righteous Mind (Haidt) â€” DONE 2026-08-01.** 39 â†’ 104 assets. Scanned
+  PDF extracted with Windows built-in OCR (Windows.Media.Ocr via temp scripts
+  `render_ocr_pages.py` + `ocr_pages.ps1`) to `righteous_p2.txt` (439 pp);
+  Introduction p8 + all 12 chapters mapped from OCR title pages (Intro p8 ..
+  Ch12 p289); per-chapter entries `rm00`-`rm12` added with one asset of each
+  type per chapter. Legacy entries (rm_intro, rm_ch01..rm_ch12, rm_conclusion)
+  kept, their missing fields backfilled and key_concepts expanded to 8-12.
+  Generator + data modules in-repo: `extract\tools\gen_righteous_p2.py` +
+  `righteous_p2_data_{a..c}.py`. OCR quality good (corrections logged by
+  authoring agents; e.g. VVEIRD/YVEIRD -> WEIRD).
+- **Social Intelligence (Goleman) â€” DONE 2026-08-01.** 22 â†’ 137 assets.
+  Scanned PDF extracted with the same Windows OCR pipeline to
+  `socialint_p2.txt` (413 pp); Prologue p11 + Ch1-21 + Epilogue p320 mapped
+  from OCR title pages; per-chapter entries `si00`-`si22` added with one asset
+  of each type per chapter. Legacy entries (ch01..ch21) kept, their missing
+  fields backfilled and key_concepts expanded to 8-12. Generator + data
+  modules in-repo: `extract\tools\gen_socialint_p2.py` +
+  `socialint_p2_data_{a..e}.py`. M5 (all ten secondary books) is now COMPLETE.
 - **Attached workbook (Levine & Heller) â€” DONE 2026-07-31.** 45 â†’ 90 assets.
   Book re-read from `attached_p2.txt` (784 lines / 40 pp; this PDF is the
   BestWriters.club condensed summary of Attached; pdfplumber chokes on it, so
@@ -571,7 +593,11 @@ what_every_body fixed by their Phase-2 passes).
   Phase 2 Predictably Irrational generator and its per-chapter content data
 - `extract\tools\gen_socialanimal_p2.py` + `socialanimal_p2_data_{a..b}.py` â€”
   Phase 2 Social Animal generator and its per-chapter content data
-- `extract\tools\fix_{mans,mistakes,moral,predictably,socialanimal}_legacy.py`
+- `extract\tools\gen_righteous_p2.py` + `righteous_p2_data_{a..c}.py` â€” Phase 2
+  Righteous Mind generator and its per-chapter content data (OCR source)
+- `extract\tools\gen_socialint_p2.py` + `socialint_p2_data_{a..e}.py` â€” Phase 2
+  Social Intelligence generator and its per-chapter content data (OCR source)
+- `extract\tools\fix_{mans,mistakes,moral,predictably,socialanimal,righteous,socialint}_legacy.py`
   â€” M5 legacy backfill scripts (player_mission <- question, difficulty per
   type, visuals from chapter data, key_concepts expanded 8-12)
 - `extract\tools\split_data_js.py` â€” Phase 3: `data-full.js` â†’ `data/` + `data.js`
@@ -620,13 +646,13 @@ content.
 If a session was interrupted, read this section first; it encodes exactly where
 the M5 pass stopped. Updated after every book commit.
 
-- Last commit at last update: `a205787` (M5 batch 1: Behave 126 + Influence 101
-  + Laws 118, all in one commit; 1742 assets, sw v14). M5 batch 2 (mans 25 +
-  mistakes 86 + moral 125 + predictably 102 + socialanimal 92) generated,
-  validated 0 warnings, frontend rebuilt 2027 assets, sw v15 - NOT yet committed.
-- sw.js cache version: **v15**. Asset total: **2027** (21 libraries; validated
-  grand total 2277 including retired legacy files).
-- M5 queue (commit per book, sw bump +1 each):
+- Last commit at last update: `1c81008` (M5 batch 2: mans 25 + mistakes 86 +
+  moral 125 + predictably 102 + socialanimal 92; 2027 assets, sw v15). M5 batch
+  3 (righteous 104 + socialint 137, both OCR-extracted) generated, validated 0
+  warnings, frontend rebuilt 2207 assets, sw v16 - NOT yet committed.
+- sw.js cache version: **v16**. Asset total: **2207** (21 libraries; validated
+  grand total 2156 including retired legacy files).
+- M5 queue (ten secondary books) - COMPLETE:
   1. behave - DONE (126)
   2. influence - DONE (101)
   3. laws_human_nature - DONE (118)
@@ -634,9 +660,9 @@ the M5 pass stopped. Updated after every book commit.
   5. mistakes - DONE (86, mk00-mk09)
   6. moral_animal - DONE (125, ma00-ma18)
   7. predictably_irrational - DONE (102, pi00-pi15)
-  8. righteous_mind - BLOCKED (scanned PDF, needs OCR)
+  8. righteous_mind - DONE (104, rm00-rm12, OCR)
   9. social_animal - DONE (92, sa01-sa09)
-  10. social_intelligence - BLOCKED (scanned PDF, needs OCR)
+  10. social_intelligence - DONE (137, si00-si22, OCR)
 - Recipe per book: (a) extract PDF text with `extract_pdf_fitz.py` (temp script;
   pdfplumber fails on some PDFs, PyMuPDF works) to `%TEMP%\opencode\<book>_p2.txt`;
   (b) map chapter title pages from `--- PAGE N ---` markers; (c) launch authoring
@@ -678,7 +704,27 @@ the M5 pass stopped. Updated after every book commit.
     domain "Social Psychology | Situational vs Dispositional"; 2 agents
     (socialanimal_p2_data_a: Ch1-4, _b: Ch5-9).
   - righteous_mind + social_intelligence PDFs are image scans (no text layer):
-    need OCR (tesseract not installed) - deferred.
+    extracted 2026-08-01 with Windows built-in OCR (temp scripts
+    `render_ocr_pages.py` -> PNGs at 200dpi, `ocr_pages.ps1` -> Windows.Media.Ocr
+    text) to `%TEMP%\opencode\ocr_righteous\righteous_p2.txt` (439 pp) and
+    `%TEMP%\opencode\ocr_socialint\socialint_p2.txt` (413 pp). Maps:
+    righteous Intro p8 (line 14), Ch1 p18 (34), Ch2 p42 (82), Ch3 p67 (132),
+    Ch4 p87 (172), Ch5 p110 (218), Ch6 p127 (252), Ch7 p143 (284), Ch8 p170
+    (338), Ch9 p204 (406), Ch10 p236 (470), Ch11 p261 (520), Ch12 p289 (576),
+    end p439 (876); ids rm00-rm12; domain "Moral Psychology | Intuition vs
+    Reason | Political Division"; 3 agents (righteous_p2_data_a: Intro+Ch1-4,
+    _b: Ch5-8, _c: Ch9-12). socialint Prologue p11 (line 20), Ch1 p21 (40),
+    Ch2 p35 (68), Ch3 p46 (90), Ch4 p58 (114), Ch5 p71 (140), Ch6 p90 (178),
+    Ch7 p113 (224), Ch8 p125 (248), Ch9 p141 (280), Ch10 p155 (308),
+    Ch11 p170 (338), Ch12 p181 (360), Ch13 p197 (392), Ch14 p206 (410),
+    Ch15 p219 (436), Ch16 p231 (460), Ch17 p246 (490), Ch18 p258 (514),
+    Ch19 p275 (548), Ch20 p293 (584), Ch21 p306 (610), Epilogue p320 (638),
+    end p413 (824); ids si00-si22; domain "Social Neuroscience | Relationships
+    | Emotional Connection"; 5 agents (socialint_p2_data_a: Prologue+Ch1-4,
+    _b: Ch5-9, _c: Ch10-14, _d: Ch15-19, _e: Ch20-21+Epilogue).
+    OCR notes: line-oriented files (~1KB/line, Read tool truncates at 2000
+    chars - agents re-extract via PowerShell when needed); garbles corrected
+    by agents (VVEIRD->WEIRD etc.).
   - behave: `behave_p2.txt` (804 pp); sections Intro p11 (line 197), Ch1 p27
     (774), Ch2 p31 (923), Ch3 p93 (3293), Ch4 p109 (3904), Ch5 p149 (5428),
     Ch6 p164 (6014), Ch7 p184 (6738), Ch8 p233 (8624), Ch9 p277 (10283),
@@ -700,5 +746,5 @@ the M5 pass stopped. Updated after every book commit.
     "Human Nature | Self-Knowledge"; 3 agents: laws_p2_data_a (Intro+L1-6),
     _b (L7-12), _c (L13-18).
   - Source PDFs: `Sources\Beteendepsykologi, Socialpsykologi & Mänsklig Natur\`.
-- After M5: M6 = apply DESIGN_SPEC.md to index.html (inline CSS); M7 = user
-  browser verification.
+- After M5 (now COMPLETE): M6 = apply DESIGN_SPEC.md to index.html (inline
+  CSS); M7 = user browser verification.

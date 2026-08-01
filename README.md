@@ -13,7 +13,7 @@ An interactive **progressive web app (PWA)** for exploring the science of human 
 | **Fill in blank** | Cloze-style fill-in-the-blank exercises with word bank support |
 | **Sequence** | Order steps of psychological frameworks from first to last |
 | **Exam** | Mixed-mode exam (quiz, cloze, sequence questions) with configurable question count |
-| **Scenario Lab** | Interactive scenario trainer: 21 scenario libraries (2,027 assets, 5 game modes) from the extracted books â€” pick a library + chapter, filter by mode/difficulty, and work through briefing â†’ mission â†’ verification, feeding results into SRS |
+| **Scenario Lab** | Interactive scenario trainer: 21 scenario libraries (2,207 assets, 5 game modes) from the extracted books â€” pick a library + chapter, filter by mode/difficulty, and work through briefing â†’ mission â†’ verification, feeding results into SRS |
 | **Review** | Dedicated SRS review queue: all due cards (flashcards + Scenario Lab) in one 3D-flip session with Hard/Good/Easy ratings and session summary |
 | **Deep Dive** | In-depth concept articles with expandable sections, framework descriptions, and key takeaways |
 | **Resources** | Reference material cards â€” PDFs, images, audio, websites, journals |
@@ -68,7 +68,7 @@ Human Behavior/
 â”‚   â”œâ”€â”€ deep-dives.js     â€” const _deepDives
 â”‚   â””â”€â”€ resources.js      â€” const _resources
 â”œâ”€â”€ assets.js             â€” Aggregator: const ASSET_LIBS from assets/ (Scenario Lab)
-â”œâ”€â”€ assets/               â€” One file per scenario library (const _AL_<book>, 21 libraries, 2,027 assets)
+â”œâ”€â”€ assets/               â€” One file per scenario library (const _AL_<book>, 21 libraries, 2,207 assets)
 â”œâ”€â”€ server.py             â€” Python HTTP server with Piper TTS endpoint
 â”œâ”€â”€ imports/
 â”‚   â”œâ”€â”€ __init__.py       â€” Package marker
@@ -95,6 +95,8 @@ Human Behavior/
 │       ├── gen_moral_p2.py          — Phase 2 Moral Animal generator (125 assets)
 │       ├── gen_predictably_p2.py    — Phase 2 Predictably Irrational generator (102 assets)
 │       ├── gen_socialanimal_p2.py   — Phase 2 Social Animal generator (92 assets)
+│       ├── gen_righteous_p2.py      — Phase 2 Righteous Mind generator (104 assets)
+│       ├── gen_socialint_p2.py      — Phase 2 Social Intelligence generator (137 assets)
 â”‚       â””â”€â”€ validate.py              â€” Asset JSON validator
 â””â”€â”€ README.md              â€” This file
 ```
