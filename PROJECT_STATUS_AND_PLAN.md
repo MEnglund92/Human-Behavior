@@ -524,7 +524,37 @@ Goal: expose all extracted assets in the PWA instead of leaving them as JSON.
 
 ---
 
-## 8d. M1 Warning Cleanup (2026-07-31, COMPLETE)
+## 8e. In-browser runtime bugfix (2026-08-01, COMPLETE)
+
+The app's inline script had NEVER executed successfully in a browser since
+Phase 3: `initMatch` declared `let t=load('topic_match','')` which shadowed
+the translation function `t()`, then called `t('Matched: ')` in the same
+scope -> `TypeError: t is not a function`. The startup `try/catch` swallowed
+the error, so `updateUI()` and `renderBrowse()` never ran: only the static
+browse hero rendered, everything else was blank. The same latent shadowing
+existed in `initFlash`/`initQuiz`/`initCloze`/exam-start (initCloze threw on
+Easy/Hard difficulty). All prior verification (node --check, HTTP 200 smoke,
+data validation) never executed the inline script, so the bug went unnoticed
+until the M7 manual browser pass.
+
+1. **Fix (done)** - renamed shadowing locals: initFlash t/c -> ft/fc,
+   initQuiz -> qt/qc (matching showQuiz's existing convention), initMatch ->
+   mt/mc, initCloze -> ct/cc, exam start -> et/ec. No logic changes.
+2. **New verification tool (done)** - `extract\tools\run_app_stub.js` runs
+   the inline script in a node vm with DOM stubs: fires DOMContentLoaded,
+   injects `window.__app` inside the callback (function declarations are
+   hoisted), asserts clean init, switches through all 12 tabs, exercises
+   cloze easy/hard paths and initMatch/renderBrowse reruns. Verified it
+   FAILS on the pre-fix script (`TypeError: t is not a function`) and passes
+   on the fixed one. Add to the verification chain after full_chain/smoke:
+   `node extract\tools\run_app_stub.js`.
+3. **Verified (done)** - stub harness ALL OK (12 tabs), `node --check` on the
+   extracted inline script OK, `full_chain.py` (ASSET_LIBS 21 / assets 2207)
+   and `smoke_v8.py` ALL OK. sw.js cache bumped v16 -> v17.
+
+---
+
+
 
 Goal: eliminate all soft validator warnings except the explicitly deferred
 ones (missing fields in M5 books; short key_concepts in attached/definitive/
@@ -607,6 +637,9 @@ what_every_body fixed by their Phase-2 passes).
 - `extract\tools\split_data_js.py` â€” Phase 3: `data-full.js` â†’ `data/` + `data.js`
 - `extract\tools\build_frontend_assets.py` â€” Phase 3: `extract\generated_assets\`
   â†’ `assets/assetlib-*.js` + `assets.js`
+- `extract\tools\run_app_stub.js` â€” M7 bugfix: executes the inline app script
+  in a node vm (DOM stubs, all-tab click-through) to catch init-time runtime
+  errors that HTTP/syntax checks miss (`node extract\tools\run_app_stub.js`)
 
 ### Git note
 The tree is now committed (d517f14 "Phase 3 start" snapshot includes the full
@@ -645,15 +678,33 @@ content.
 
 ---
 
-## 12. Resume Checkpoint (M5/M6 complete - awaiting user browser verification)
+## 12. Resume Checkpoint (M5/M6 complete - M7 bugfix applied - awaiting user browser verification)
 
 If a session was interrupted, read this section first; it encodes exactly where
 the M5 pass stopped. Updated after every book commit.
 
-- Last commit at last update: `f0f8503` (M5 batch 3: righteous 104 +
-  socialint 137 via OCR; 2207 assets, sw v16; M5 COMPLETE).
-- sw.js cache version: **v16**. Asset total: **2207** (21 libraries; validated
+- Last commit at last update: `2021f1c` (M6 design verification, zero gaps).
+  The M7 bugfix commit (t-shadowing fix, sw v17) is described below.
+- sw.js cache version: **v17**. Asset total: **2207** (21 libraries; validated
   grand total 2156 including retired legacy files).
+- **CRITICAL BUG FIXED 2026-08-01 (M7)**: Browse showed only the static hero
+  (no filter pills, no concept cards) because the app's inline script threw
+  `TypeError: t is not a function` inside `initMatch` during startup. The
+  init `try/catch` swallowed it, so `renderBrowse()` never ran. Root cause:
+  local variables shadowed the translation function `t()` -
+  `let entries=getEntries(),t=load('topic_match','')...` in `initMatch`
+  (index.html), then `t('Matched: ')` was called in the same scope. The bug
+  dated back to Phase 3 (`0b7f5c8`) and was never caught because all prior
+  verification was HTTP/syntax/data-level - no test ever EXECUTED the inline
+  script. Fix: renamed the shadowing locals in all 5 places
+  (`initFlash` t/c -> ft/fc, `initQuiz` -> qt/qc, `initMatch` -> mt/mc,
+  `initCloze` -> ct/cc, exam start handler -> et/ec); `initCloze` also threw
+  on Easy/Hard difficulty (latent). NEW: `extract\tools\run_app_stub.js`
+  executes the inline script in a node vm with DOM stubs (fires
+  DOMContentLoaded, exposes `window.__app`, switches through all 12 tabs,
+  exercises cloze easy/hard + initMatch/initBrowse reruns) - run it as part
+  of verification:
+  `node extract\tools\run_app_stub.js` (expect "ALL OK").
 - M6 (apply DESIGN_SPEC.md to index.html) - COMPLETE: gap analysis of
   DESIGN_SPEC.md against the inline `<style>` block (index.html lines 14-251)
   found ZERO gaps - every token (dark `--bg:#050508` .. `--sidebar-bg:#080810`,
@@ -665,9 +716,10 @@ the M5 pass stopped. Updated after every book commit.
   Verified: `full_chain.py` (ASSET_LIBS 21 / assets 2207) + `smoke_v8.py`
   ALL OK. (NOTE: `%TEMP%\opencode\verify_css.py` is STALE - it validates a
   different palette (`--accent:#7c3aed`); the manual spec diff is authoritative.)
-- NEXT: M7 - user browser verification (`python server.py`, port 8765):
-  check PWA offline, Review mode, Scenario Lab, light/dark toggle, and that
-  the design matches DESIGN_SPEC.md visually.
+- NEXT: M7 (continues) - user browser verification (`python server.py`, port
+  8765): confirm Browse shows all 18 topic pills + concept cards, then check
+  PWA offline, Review mode, Scenario Lab, light/dark toggle, and that the
+  design matches DESIGN_SPEC.md visually.
 - M5 queue (ten secondary books) - COMPLETE:
   1. behave - DONE (126)
   2. influence - DONE (101)
@@ -763,4 +815,6 @@ the M5 pass stopped. Updated after every book commit.
     _b (L7-12), _c (L13-18).
   - Source PDFs: `Sources\Beteendepsykologi, Socialpsykologi & Mänsklig Natur\`.
 - After M5 (now COMPLETE) and M6 (design verified, no changes needed): M7 =
-  user browser verification (manual pass on localhost:8765).
+  user browser verification (manual pass on localhost:8765). M7 found and
+  fixed the t-shadowing init bug (see checkpoint above); re-verify in browser:
+  Browse grid + pills, all tabs, offline PWA, light/dark toggle.

@@ -697,10 +697,10 @@ document.getElementById('langToggle').addEventListener('click',function(){showSw
 function initFlash(){
 let diff=getDifficulty('flash')
 renderDiffPills('flash',document.getElementById('flashDiff'),initFlash)
-let entries=getEntries(),t=load('topic_flash',''),c=load('cat_flash','')
+let entries=getEntries(),ft=load('topic_flash',''),fc=load('cat_flash','')
 renderModeFilters('flash',document.getElementById('flashFilters'),document.getElementById('flashCatFilters'),initFlash)
-if(t)entries=entries.filter(e=>e.courseId===t)
-if(c)entries=entries.filter(e=>e.catName===c)
+if(ft)entries=entries.filter(e=>e.courseId===ft)
+if(fc)entries=entries.filter(e=>e.catName===fc)
 let all=shuffle(entries)
 let count={easy:10,medium:15,hard:20}[diff]
 flashList=all.slice(0,Math.min(count,all.length));flashIdx=0;showFlash()}
@@ -739,10 +739,10 @@ let quizData=[],quizIdx=0,quizCorrect=0
 function initQuiz(){
 let diff=getDifficulty('quiz')
 renderDiffPills('quiz',document.getElementById('quizDiff'),initQuiz)
-let entries=getEntries(),t=load('topic_quiz',''),c=load('cat_quiz','')
+let entries=getEntries(),qt=load('topic_quiz',''),qc=load('cat_quiz','')
 renderModeFilters('quiz',document.getElementById('quizFilters'),document.getElementById('quizCatFilters'),initQuiz)
-if(t)entries=entries.filter(e=>e.courseId===t)
-if(c)entries=entries.filter(e=>e.catName===c)
+if(qt)entries=entries.filter(e=>e.courseId===qt)
+if(qc)entries=entries.filter(e=>e.catName===qc)
 let all=shuffle(entries)
 let count={easy:10,medium:15,hard:20}[diff]
 quizData=all.slice(0,Math.min(count,all.length));quizIdx=0;quizCorrect=0;showQuiz()}
@@ -776,13 +776,13 @@ document.getElementById('quizRestart').addEventListener('click',function(){initQ
 function initMatch(){matchedPairs=[];selMatch=null
 let diff=getDifficulty('match')
 renderDiffPills('match',document.getElementById('matchDiff'),initMatch)
-let entries=getEntries(),t=load('topic_match',''),c=load('cat_match','')
+let entries=getEntries(),mt=load('topic_match',''),mc=load('cat_match','')
 renderModeFilters('match',document.getElementById('matchFilters'),document.getElementById('matchCatFilters'),initMatch)
-if(t)entries=entries.filter(e=>e.courseId===t)
-if(c)entries=entries.filter(e=>e.catName===c)
+if(mt)entries=entries.filter(e=>e.courseId===mt)
+if(mc)entries=entries.filter(e=>e.catName===mc)
 let pairCount={easy:4,medium:6,hard:8}[diff]
 let pairs
-if(diff==='easy'&&!t){let byTopic={};entries.forEach(e=>{if(!byTopic[e.courseId])byTopic[e.courseId]=[];byTopic[e.courseId].push(e)});let topick=Object.keys(byTopic);pairs=[];let used=new Set;for(let i=0;i<pairCount&&i<topick.length;i++){let t2=topick[i];let pick=shuffle(byTopic[t2]).find(e=>!used.has(e.concept));if(pick){pairs.push(pick);used.add(pick.concept)}}}
+if(diff==='easy'&&!mt){let byTopic={};entries.forEach(e=>{if(!byTopic[e.courseId])byTopic[e.courseId]=[];byTopic[e.courseId].push(e)});let topick=Object.keys(byTopic);pairs=[];let used=new Set;for(let i=0;i<pairCount&&i<topick.length;i++){let t2=topick[i];let pick=shuffle(byTopic[t2]).find(e=>!used.has(e.concept));if(pick){pairs.push(pick);used.add(pick.concept)}}}
 else if(diff==='hard'){let htopic=shuffle([...new Set(entries.map(e=>e.courseId))])[0];let same=entries.filter(e=>e.courseId===htopic);pairs=shuffle(same).slice(0,Math.min(pairCount,same.length))}
 else{pairs=shuffle(entries).slice(0,pairCount)}
 let area=document.getElementById('matchArea');area.innerHTML=''
@@ -802,10 +802,10 @@ document.getElementById('matchRestart').onclick=function(){initMatch()}}
 function initCloze(){
 let diff=getDifficulty('cloze')
 renderDiffPills('cloze',document.getElementById('clozeDiff'),initCloze)
-let entries=getEntries(),t=load('topic_cloze',''),c=load('cat_cloze','')
+let entries=getEntries(),ct=load('topic_cloze',''),cc=load('cat_cloze','')
 renderModeFilters('cloze',document.getElementById('clozeFilters'),document.getElementById('clozeCatFilters'),initCloze)
-if(t)entries=entries.filter(e=>e.courseId===t)
-if(c)entries=entries.filter(e=>e.catName===c)
+if(ct)entries=entries.filter(e=>e.courseId===ct)
+if(cc)entries=entries.filter(e=>e.catName===cc)
 entries=shuffle(entries.filter(e=>e.case_study_cloze))
 if(!entries.length)return
 clozeData=entries[0]
@@ -867,9 +867,9 @@ let idx=seqPlaced.indexOf(item);if(idx>=0)seqPlaced.splice(idx,1);renderSequence
 // Exam
 document.getElementById('examStart').addEventListener('click',function(){
 let count=parseInt(document.getElementById('examCount').value),diff=getDifficulty('exam')
-let entries=getEntries(),t=load('topic_exam',''),c=load('cat_exam','')
-if(t)entries=entries.filter(e=>e.courseId===t)
-if(c)entries=entries.filter(e=>e.catName===c)
+let entries=getEntries(),et=load('topic_exam',''),ec=load('cat_exam','')
+if(et)entries=entries.filter(e=>e.courseId===et)
+if(ec)entries=entries.filter(e=>e.catName===ec)
 entries=shuffle(entries).slice(0,Math.min(count,entries.length))
 examQ=[];examIdx=0;examScore=0
 entries.forEach(e=>{let mode=['quiz','cloze','sequence'][Math.floor(Math.random()*3)];if(diff==='easy'&&mode==='sequence')mode='quiz';if(diff==='hard'&&mode==='quiz')mode='cloze';examQ.push({...e,mode})})
