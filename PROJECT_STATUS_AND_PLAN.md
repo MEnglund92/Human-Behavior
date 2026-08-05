@@ -25,12 +25,12 @@ book, all sharing one schema (Section 4). They feed a game (PWA frontend,
 
 ## 2. Machine / Environment Facts
 
-- Workspace root: `C:\Users\Matt\Desktop\Education\Human Behavior`
+- Workspace root: `C:\Users\matti\Desktop\Education\Human Behavior`
 - OS: Windows, PowerShell 5.1 (commands in this doc are PowerShell)
 - Git repo: yes (branch default), only `data.js` and a few commits; `extract/`
   is currently **untracked** (`git status` shows `?? extract/`) â€” commit or copy
   it before moving machines.
-- Temp work dir used by the AI sessions: `C:\Users\Matt\AppData\Local\Temp\opencode\`
+- Temp work dir used by the AI sessions: `C:\Users\matti\AppData\Local\Temp\opencode\`
   (NOT part of the repo â€” PDFs were copied there as `glass.pdf`, `reiman.pdf`,
   `bowden.pdf` and text-extracted to `glass.txt`, `reiman.txt`, `bowden.txt`,
   along with generator scripts `gen_*.py` and `validate.py`). These are NOT

@@ -41,7 +41,7 @@ The app requires the Python TTS server to be running for text-to-speech. The ser
 ### Quick start
 
 ```powershell
-cd "C:\Users\Matt\Desktop\Education\Human Behavior"
+cd "C:\Users\matti\Desktop\Education\Human Behavior"
 python server.py
 ```
 
