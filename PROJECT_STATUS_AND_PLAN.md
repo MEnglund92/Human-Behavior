@@ -554,6 +554,42 @@ until the M7 manual browser pass.
 
 ---
 
+## 8f. M7 browser-pass fixes (2026-08-01, COMPLETE)
+
+User's second browser pass surfaced 3 issues, all fixed and verified:
+
+1. **Browse: word speaker button spoke the word AND the definition** - in
+   `renderBrowse`, `sayCn` was built as `cn+'. '+def`, so the first toggle
+   (`.cc-name` button) read the full concept + definition even though the
+   `.cc-def` button already reads the definition separately. Fixed: `sayCn=cn`
+   (word only; detail modal and flashcards already did word-only).
+2. **Match: blank/unmatchable items** - 312 of 709 entries (all of topic
+   `body-language-extracted`, "18. The Dictionary of Body Language") contain
+   only `concept` + `definition` (no `real_world_scenario`, no `sv`, no
+   `case_study_cloze`). Match renders the scenario as the right-side prompt,
+   so dictionary entries produced blank sides. Same latent damage existed in
+   Quiz (blank scenario box), Flash hard mode (blank front - unplayable) and
+   Exam quiz-mode. Fixed with a **definition fallback** everywhere a scenario
+   is rendered: `initMatch` right side, `showQuiz`, `showFlash` hard front,
+   `showExam` quiz-mode (`(showSwedish&&e.sv?e.sv.real_world_scenario:
+   e.real_world_scenario)||(showSwedish&&e.sv?e.sv.definition:e.definition)`).
+   Sequence/Cloze/Browse were unaffected (hardcoded item lists / filtered on
+   `case_study_cloze`). No content changes needed - the 100% extraction goal
+   stays intact. Also hardened `data-say` attribute escaping (quotes) in
+   quiz/exam speaker buttons.
+3. **Layout too narrow - zoomed out 15%** - added `zoom:0.85` to the `html`
+   rule (index.html:19), equivalent to browser Ctrl-; scales everything
+   (nav, sidebar, 1320px shell) including px layout; supported in
+   Chrome/Edge/Firefox.
+4. **Harness extended (done)** - `run_app_stub.js` gained a data assertion:
+   zero entries may lack `concept` AND both `real_world_scenario` +
+   `definition` (guards the fallback contract).
+5. **Verified (done)** - stub harness ALL OK (12 tabs, data assertion 0 bad),
+   `node --check` OK, `full_chain.py` (ASSET_LIBS 21 / assets 2207) and
+   `smoke_v8.py` ALL OK. sw.js cache bumped v17 -> v18.
+
+---
+
 
 
 Goal: eliminate all soft validator warnings except the explicitly deferred
@@ -678,14 +714,15 @@ content.
 
 ---
 
-## 12. Resume Checkpoint (M5/M6 complete - M7 bugfix applied - awaiting user browser verification)
+## 12. Resume Checkpoint (M5/M6 complete - M7 fixes applied - awaiting user browser re-verification)
 
 If a session was interrupted, read this section first; it encodes exactly where
 the M5 pass stopped. Updated after every book commit.
 
-- Last commit at last update: `2021f1c` (M6 design verification, zero gaps).
-  The M7 bugfix commit (t-shadowing fix, sw v17) is described below.
-- sw.js cache version: **v17**. Asset total: **2207** (21 libraries; validated
+- Last commit at last update: `f8deb3e` (M7 t-shadowing fix, sw v17). The
+  second browser-pass fix commit (voice toggle, Match fallback, zoom, sw v18)
+  is described below and in section 8f.
+- sw.js cache version: **v18**. Asset total: **2207** (21 libraries; validated
   grand total 2156 including retired legacy files).
 - **CRITICAL BUG FIXED 2026-08-01 (M7)**: Browse showed only the static hero
   (no filter pills, no concept cards) because the app's inline script threw
@@ -716,10 +753,20 @@ the M5 pass stopped. Updated after every book commit.
   Verified: `full_chain.py` (ASSET_LIBS 21 / assets 2207) + `smoke_v8.py`
   ALL OK. (NOTE: `%TEMP%\opencode\verify_css.py` is STALE - it validates a
   different palette (`--accent:#7c3aed`); the manual spec diff is authoritative.)
-- NEXT: M7 (continues) - user browser verification (`python server.py`, port
-  8765): confirm Browse shows all 18 topic pills + concept cards, then check
-  PWA offline, Review mode, Scenario Lab, light/dark toggle, and that the
-  design matches DESIGN_SPEC.md visually.
+- M7 SECOND PASS FIXES (2026-08-01, COMMITTED, sw v18) - three user-reported
+  issues fixed and verified (see section 8f): (a) Browse word speaker button
+  now speaks only the concept (`sayCn=cn`); (b) 312 "Dictionary of Body
+  Language" entries lack `real_world_scenario`/`case_study_cloze`, so Match/
+  Quiz/Flash-hard/Exam fall back to the definition as the prompt text -
+  `run_app_stub.js` gained a data assertion guarding this contract (0 bad);
+  (c) layout zoomed out 15% via `html{zoom:0.85}`. Verification ALL OK:
+  stub harness, `node --check`, `full_chain.py` (ASSET_LIBS 21 / 2207),
+  `smoke_v8.py`.
+- NEXT: M7 (continues) - user browser re-verification (`python server.py`, port
+  8765; hard refresh Ctrl+Shift+R twice for the new SW v18): confirm Browse
+  word-only speaker, Match shows no blank sides, the new zoom feels right,
+  then check PWA offline, Review mode, Scenario Lab, light/dark toggle, and
+  that the design matches DESIGN_SPEC.md visually.
 - M5 queue (ten secondary books) - COMPLETE:
   1. behave - DONE (126)
   2. influence - DONE (101)

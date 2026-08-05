@@ -110,6 +110,13 @@ tabs.forEach(t => {
 try { vm.runInContext('__app.initMatch()', ctx); } catch (e) { fails++; console.log('FAIL initMatch rerun: ' + e.message); }
 try { vm.runInContext('__app.renderBrowse()', ctx); } catch (e) { fails++; console.log('FAIL renderBrowse rerun: ' + e.message); }
 
+// Data assertion: every entry must be playable - a concept plus a scenario
+// (or a definition fallback for it). Guards against blank match/quiz prompts.
+try {
+  const bad = vm.runInContext("__app.getEntries().filter(e=>!(e.concept&&String(e.concept).trim())||(!(e.real_world_scenario&&String(e.real_world_scenario).trim())&&!(e.definition&&String(e.definition).trim()))).length", ctx);
+  if (bad > 0) { fails++; console.log('FAIL data: ' + bad + ' entries missing concept or both scenario+definition'); }
+} catch (e) { fails++; console.log('FAIL data assertion: ' + e.message); }
+
 console.log('tabs exercised: ' + tabs.length + ' | topics=' + (() => { try { return vm.runInContext('topics.length', ctx); } catch (e) { return 'ERR'; } })() + ' | ASSET_LIBS=' + (() => { try { return vm.runInContext('ASSET_LIBS.length', ctx); } catch (e) { return 'ERR'; } })());
 console.log(fails === 0 ? 'ALL OK' : fails + ' FAILURES');
 process.exit(fails === 0 ? 0 : 1);

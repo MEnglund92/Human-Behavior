@@ -16,7 +16,7 @@
 body.light-mode{--bg:#e2e8f0;--surface:#ffffff;--surface-2:#cbd5e1;--text:#020617;--text-secondary:#1e293b;--text-tertiary:#475569;--accent:#0369a1;--accent-soft:rgba(3,105,161,0.12);--accent-glow:0 0 20px rgba(3,105,161,0.18);--card-bg:#ffffff;--card-border:rgba(0,0,0,0.16);--input-bg:#ffffff;--select-bg:#ffffff;--select-text:#020617;--border:rgba(0,0,0,0.14);--hover-border:rgba(3,105,161,0.45);--tag-bg:rgba(3,105,161,0.06);--tag-color:#0369a1;--success:#15803d;--error:#b91c1c;--info:#1d4ed8;--shadow:0 4px 24px rgba(0,0,0,0.10);--nav-bg:#ffffff;--sidebar-bg:#f1f5f9;--card-pink:#dbeafe;--card-green:#dbe8f0;--card-lavender:#e2e8f0;--card-mint:#ccfbf1;--card-peach:#dcfce7}
 body.light-mode .concept-card,body.light-mode .flash-card,body.light-mode .module-card,body.light-mode .dash-card,body.light-mode .resource-card,body.light-mode .planner-card{backdrop-filter:none!important;background:var(--surface)!important;box-shadow:0 1px 3px rgba(0,0,0,0.08)!important}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;touch-action:manipulation}
-html{font-size:16px;scroll-behavior:smooth}
+html{font-size:16px;scroll-behavior:smooth;zoom:0.85}
 body{font-family:var(--font-ui);background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;min-height:100vh;overflow-x:hidden;transition:background .15s ease,color .15s ease}
 @supports(padding:max(0px)){.app{padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}.left-nav{padding-top:max(20px,env(safe-area-inset-top))}.sidebar-right{padding-top:max(20px,env(safe-area-inset-top))}}
 .app{display:grid;grid-template-columns:160px 1fr 280px;max-width:1320px;margin:0 auto;min-height:100vh}
@@ -665,7 +665,7 @@ filters.innerHTML='<button class="filter-pill'+(filterTopic?'':' active')+'" dat
 filters.querySelectorAll('.filter-pill').forEach(b=>b.addEventListener('click',function(){renderBrowse(this.dataset.topic)}))
 let grid=document.getElementById('browseGrid')
 grid.innerHTML=entries.map(function(e,i){
-let cn=showSwedish&&e.sv?e.sv.concept:e.concept,def=showSwedish&&e.sv?e.sv.definition:e.definition,lang=showSwedish?'sv-SE':'en-US',sayCn=cn+'. '+def
+let cn=showSwedish&&e.sv?e.sv.concept:e.concept,def=showSwedish&&e.sv?e.sv.definition:e.definition,lang=showSwedish?'sv-SE':'en-US',sayCn=cn
 return '<div class="concept-card" data-idx="'+i+'" style="animation:scaleIn .3s ease '+(i%20*0.03)+'s both"><div class="cc-cat">'+e.catName+'</div><div class="cc-name">'+cn+'<button class="speaker-btn" data-say="'+sayCn.replace(/"/g,'&quot;')+'" data-lang="'+lang+'">🔊</button></div><div class="cc-def">'+def+'<button class="speaker-btn" data-say="'+def.replace(/"/g,'&quot;')+'" data-lang="'+lang+'">🔊</button></div><div class="cc-related">'+(e.related_concepts||[]).slice(0,4).map(r=>'<span>'+r+'</span>').join('')+'</div></div>'
 }).join('')
 addSpeakerListeners(grid)
@@ -705,7 +705,7 @@ let all=shuffle(entries)
 let count={easy:10,medium:15,hard:20}[diff]
 flashList=all.slice(0,Math.min(count,all.length));flashIdx=0;showFlash()}
 function showFlash(){if(!flashList.length)return;let e=flashList[flashIdx];let card=document.getElementById('flashCard');card.classList.remove('flipped')
-let diff=getDifficulty('flash'),cn=showSwedish&&e.sv?e.sv.concept:e.concept,def=showSwedish&&e.sv?e.sv.definition:e.definition,sc=showSwedish&&e.sv?e.sv.real_world_scenario:e.real_world_scenario,lang=showSwedish?'sv-SE':'en-US'
+let diff=getDifficulty('flash'),cn=showSwedish&&e.sv?e.sv.concept:e.concept,def=showSwedish&&e.sv?e.sv.definition:e.definition,sc=(showSwedish&&e.sv?e.sv.real_world_scenario:e.real_world_scenario)||def,lang=showSwedish?'sv-SE':'en-US'
 if(diff==='hard'){document.getElementById('flashConcept').innerHTML='<div style="font-size:0.68rem;color:var(--text-tertiary);margin-bottom:4px">'+e.courseName+' · '+e.catName+'</div>'+sc+'<button class="speaker-btn" data-say="'+sc+'" data-lang="'+lang+'">🔊</button>';document.getElementById('flashPrompt').textContent=t('What concept does this describe?')}
 else{document.getElementById('flashConcept').innerHTML='<div style="font-size:0.68rem;color:var(--text-tertiary);margin-bottom:4px">'+e.courseName+' · '+e.catName+'</div>'+cn+'<button class="speaker-btn" data-say="'+cn+'" data-lang="'+lang+'">🔊</button>';document.getElementById('flashPrompt').textContent=t('Tap or press Space to reveal')}
 document.getElementById('flashDef').innerHTML=def+'<button class="speaker-btn" data-say="'+def+'" data-lang="'+lang+'">🔊</button>'
@@ -749,8 +749,8 @@ quizData=all.slice(0,Math.min(count,all.length));quizIdx=0;quizCorrect=0;showQui
 function showQuiz(){
 if(quizIdx>=quizData.length){showQuizResult();return}
 let e=quizData[quizIdx];document.getElementById('quizTitle').textContent=t('Scenario Quiz — ')+e.courseName+' · '+e.catName
-let sc=showSwedish&&e.sv?e.sv.real_world_scenario:e.real_world_scenario,lang=showSwedish?'sv-SE':'en-US'
-document.getElementById('quizScenario').innerHTML=sc+'<button class="speaker-btn" data-say="'+sc+'" data-lang="'+lang+'">🔊</button>'
+let sc=(showSwedish&&e.sv?e.sv.real_world_scenario:e.real_world_scenario)||(showSwedish&&e.sv?e.sv.definition:e.definition),lang=showSwedish?'sv-SE':'en-US'
+document.getElementById('quizScenario').innerHTML=sc+'<button class="speaker-btn" data-say="'+sc.replace(/"/g,'&quot;')+'" data-lang="'+lang+'">🔊</button>'
 addSpeakerListeners(document.getElementById('quizScenario'))
 document.getElementById('quizCounter').textContent=t('Question ')+' '+(quizIdx+1)+' '+t('of')+' '+quizData.length+' · '+quizCorrect+t(' correct')
 let diff=getDifficulty('quiz'),all=getEntries(),qt=load('topic_quiz',''),qc=load('cat_quiz','');if(qt)all=all.filter(e=>e.courseId===qt);if(qc)all=all.filter(e=>e.catName===qc)
@@ -791,7 +791,7 @@ pairs.forEach((p,i)=>{
 let row=document.createElement('div');row.className='match-row'
 let left=document.createElement('div');left.className='match-side';left.textContent=p.concept;left.dataset.concept=p.concept
 let rightEntry=shuffledRights[i]
-let right=document.createElement('div');right.className='match-side';right.textContent=rightEntry.real_world_scenario;right.dataset.concept=rightEntry.concept
+let right=document.createElement('div');right.className='match-side';right.textContent=rightEntry.real_world_scenario||rightEntry.definition;right.dataset.concept=rightEntry.concept
 left.addEventListener('click',function(){if(this.classList.contains('matched'))return;area.querySelectorAll('.match-side.selected').forEach(x=>x.classList.remove('selected'));this.classList.add('selected');selMatch={concept:this.dataset.concept,el:this}})
 right.addEventListener('click',function(){if(this.classList.contains('matched'))return;if(!selMatch){this.classList.add('selected');setTimeout(()=>this.classList.remove('selected'),300);return}if(selMatch.concept===this.dataset.concept){matchedPairs.push(this.dataset.concept);selMatch.el.classList.add('matched');this.classList.add('matched');selMatch.el.classList.remove('selected');selMatch=null;document.getElementById('matchCounter').textContent=t('Matched: ')+' '+matchedPairs.length+'/'+pairs.length;if(matchedPairs.length===pairs.length)setTimeout(()=>burstConfetti(),300)}else{this.classList.add('wrong');selMatch.el.classList.add('wrong');setTimeout(()=>{this.classList.remove('wrong');selMatch.el.classList.remove('wrong')},500);selMatch=null}})
 row.appendChild(left);row.appendChild(right);area.appendChild(row)})
@@ -885,7 +885,7 @@ document.getElementById('examScoreLabel').textContent=examScore+t(' correct')
 document.getElementById('examBar').style.width=((examIdx)/examQ.length*100)+'%'
 let content=document.getElementById('examContent')
 if(q.mode==='quiz'){
-let sc=showSwedish&&q.sv?q.sv.real_world_scenario:q.real_world_scenario,lang=showSwedish?'sv-SE':'en-US',say=sc.replace(/"/g,'&quot;')
+let sc=(showSwedish&&q.sv?q.sv.real_world_scenario:q.real_world_scenario)||(showSwedish&&q.sv?q.sv.definition:q.definition),lang=showSwedish?'sv-SE':'en-US',say=sc.replace(/"/g,'&quot;')
 content.innerHTML='<div style="font-size:0.72rem;color:var(--text-tertiary);margin-bottom:6px">'+q.courseName+' · '+q.catName+'</div><div class="quiz-scenario">'+sc+'<button class="speaker-btn" data-say="'+say+'" data-lang="'+lang+'">🔊</button></div><div class="quiz-grid" id="examQuizGrid"></div>'
 let opts=shuffle([q.concept,...shuffle(getEntries().filter(x=>x.concept!==q.concept)).slice(0,3).map(x=>x.concept)])
 let grid=document.getElementById('examQuizGrid')
