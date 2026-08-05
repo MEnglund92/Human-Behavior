@@ -711,6 +711,25 @@ content.
   should consume (recommend the bowden one; possibly delete/rename the other).
    **RESOLVED 2026-07-31**: bowden (255 assets) is canonical; both legacy
    duplicates retired to `extract\generated_assets\legacy\` (kept, not deleted).
+- **Thinking, Fast and Slow (Kahneman) - REMOVED 2026-08-01.** Source audit
+   found two copies in Sources/ (identical MD5) but both are the Indonesian
+   translation edition (Gramedia 2013, full text, OCR-verified). Asset content
+   in this app is English, so the user chose to delete the PDFs rather than
+   derive English assets from a translation. No asset library was ever
+   generated for Kahneman; the ~6 concept mentions inside
+   `topic-cognitive-biases.js` (Dual Process Theory, System 1/2, anchoring,
+   availability) remain as the only Kahneman content. Do NOT re-flag this as
+   a gap; an English copy would be needed to extract it.
+- **Truth & Lies (Bowden) source PDF - DELETED 2026-08-01 (accidental).** The
+   PDF (`Truth Lies What people are really thinking...pdf`) was removed by
+   mistake during the Kahneman cleanup (filename contains "thinking"). Impact:
+   NONE on deliverables - the 255-asset library is committed and validated,
+   full book text survives in `%TEMP%\opencode\bowden.txt` (216 pp, page
+   markers), the pipeline classification cache is committed at
+   `extract/cache/classifications/`, and the idempotent generators + data
+   modules are in-repo (`extract\tools\gen_bowden_p2.py` +
+   `bowden_p2_data_{a..f}.py`). Only the raw PDF for future re-extraction is
+   gone; if it is ever needed, re-download from the original source.
 
 ---
 
@@ -718,6 +737,11 @@ content.
 
 If a session was interrupted, read this section first; it encodes exactly where
 the M5 pass stopped. Updated after every book commit.
+
+- 2026-08-01: source audit + cleanup - Thinking, Fast and Slow PDFs deleted at
+  user request (Indonesian edition, see Section 11); Bowden PDF deleted
+  accidentally during the same cleanup (see Section 11 - no deliverable
+  impact). Plan A (Kahneman extraction) CANCELLED.
 
 - Last commit at last update: `f8deb3e` (M7 t-shadowing fix, sw v17). The
   second browser-pass fix commit (voice toggle, Match fallback, zoom, sw v18)
