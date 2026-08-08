@@ -738,6 +738,26 @@ content.
 If a session was interrupted, read this section first; it encodes exactly where
 the M5 pass stopped. Updated after every book commit.
 
+- 2026-08-08: Phase 4 (final four books) COMPLETE - Body Language (Pease, 1981,
+  18 ch / 90 assets, ids pease01..18), Nonverbal Communication (2nd ed., Burgoon,
+  Manusov & Guerrero, 2022, 14 ch / 70 assets, ids nvc01..14), Self-Presentation
+  (Leary, 1996, 9 ch / 45 assets, ids sp01..09), Snoop (Gosling, 2008, 12 ch /
+  60 assets, ids snoop01..12) - 53 chapters / 265 assets total, 1 agent per
+  chapter, sequential. Maps: `pease_p2_map.py` (PDF == book), `nvc_p2_map.py`
+  (book = PDF - 19), `selfpres_p2_map.py` (book = PDF - 18), `snoop_p2_map.py`
+  (book = PDF - 12); per-chapter files `*_p2_chNN.py`; generators
+  `gen_pease_p2.py` / `gen_nvc_p2.py` / `gen_selfpres_p2.py` / `gen_snoop_p2.py`
+  -> `body_language_assets.json` / `nonverbal_communication_assets.json` /
+  `self_presentation_assets.json` / `snoop_assets.json`; source texts
+  `%TEMP%\opencode\pease_p2.txt` (148 pp) / `nvc_p2.txt` (571 pp) /
+  `selfpres_p2.txt` (268 pp) / `snoop_p2.txt` (280 pp). Verification:
+  validate.py 0 warnings (TOTAL 2676 assets), build_frontend_assets.py ->
+  25 libraries / 2676 assets (BOSS_BATTLE 530, CUE_SCRUBBER_STATION 563,
+  DECEPTION_AUDIT_FILE 539, DISCRIMINATION_MATRIX 523, DYNAMIC_DIALOGUE_SIM 521),
+  `node --check` OK, `run_app_stub.js` ALL OK (12 tabs / 18 topics / 25
+  ASSET_LIBS). sw v21. Next: Phase 5 Dictionary enrichment (312 entries:
+  real_world_scenario + case_study_cloze + sv), then Phase 6 final E2E.
+
 - 2026-08-08: Handbook of Research Methods in Social and Personality Psychology
   (3rd ed., Reis, West & Judd, 2024) Phase 3 COMPLETE - 28 chapters / 140 assets
   (intro + 27 chapters, 5 per chapter, ids rm00..rm27). Old flat 28-asset
@@ -748,9 +768,9 @@ the M5 pass stopped. Updated after every book commit.
   generator `gen_rmethods_p2.py`; source text `%TEMP%\opencode\rmethods_p2.txt`.
   Verification: validate.py 0 warnings (TOTAL 2411 assets), build_frontend_assets.py
   -> 21 libraries / 2411 assets, `node --check` OK, `run_app_stub.js` ALL OK
-  (12 tabs / 18 topics / 21 ASSET_LIBS). sw v20. Remaining books: Pease,
-  Nonverbal Communication, Self-Presentation, Snoop (Phase 4), then Dictionary
-  enrichment (Phase 5) and final E2E (Phase 6).
+  (12 tabs / 18 topics / 21 ASSET_LIBS). sw v20. Remaining at that point:
+  Pease, Nonverbal Communication, Self-Presentation, Snoop (Phase 4 - now
+  complete), then Dictionary enrichment (Phase 5) and final E2E (Phase 6).
 
 - 2026-08-08: APA Handbook of Nonverbal Communication Phase 2 COMPLETE
   (23 chapters, 115 assets, 5 per chapter). Old flat library (23 dialogue-sim
