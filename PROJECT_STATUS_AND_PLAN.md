@@ -738,6 +738,19 @@ content.
 If a session was interrupted, read this section first; it encodes exactly where
 the M5 pass stopped. Updated after every book commit.
 
+- 2026-08-08: Phase 6 (final E2E) COMPLETE - real-browser CDP pass (headless
+  Chrome, isolated profile) on localhost:8765 AND on the deployed Pages URL
+  https://menglund92.github.io/Human-Behavior/. 12/12 tabs switch OK, 18 topics
+  (19 pills incl. All), 709 concepts, Scenario Lab 25 books / 6 modes,
+  EN/SV toggle OK, dark/light OK, 0 console errors; screenshots saved for user
+  review. CRITICAL BUG FOUND+FIXED: the 4 new Phase 4 libraries
+  (body_language, nonverbal_communication, self_presentation, snoop) were never
+  added to index.html's script list, so assets.js threw ReferenceError
+  (_AL_body_language not defined) and Scenario Lab crashed (ASSET_LIBS
+  undefined) - fixed by adding the 4 script tags; sw v23. Also: port 8765 was
+  squatted by a stale node nsprobe server (from an old session) serving a
+  different project - killed; server.py is the intended server.
+
 - 2026-08-08: Phase 5 (Dictionary enrichment) COMPLETE - all 312 entries of
   topic `body-language-extracted` (topic 18, "The Dictionary of Body Language",
   Navarro) gained `real_world_scenario` + `case_study_cloze` + full `sv` block
