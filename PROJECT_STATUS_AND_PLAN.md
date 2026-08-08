@@ -738,6 +738,20 @@ content.
 If a session was interrupted, read this section first; it encodes exactly where
 the M5 pass stopped. Updated after every book commit.
 
+- 2026-08-08: APA Handbook of Nonverbal Communication Phase 2 COMPLETE
+  (23 chapters, 115 assets, 5 per chapter). Old flat library (23 dialogue-sim
+  assets) retired to `extract\generated_assets\legacy\apa_nonverbal_flat_2026-08-08.json`;
+  dict-style library now at `extract\generated_assets\apa_nonverbal_assets.json`
+  (ids apa01..apa23, parts I-IV, book pages from `apa_p2_map.py`). Per-chapter
+  authoring files `extract\tools\apa_p2_ch01..ch23.py` (1 agent per chapter,
+  sequential; template ch01; generator `gen_apa_p2.py`; page reader
+  `read_pages.py` against `%TEMP%\opencode\apa_p2.txt`). Verification:
+  validate.py 0 warnings, build_frontend_assets.py -> 21 libraries / 2299
+  assets, `node --check` OK, `run_app_stub.js` ALL OK (12 tabs / 18 topics /
+  21 ASSET_LIBS). sw v19. Remaining: research_methods_assets.json is still the
+  legacy list-style 28-asset library (validate.py flags it: top level is not a
+  JSON object - expected, replaced in next phase).
+
 - 2026-08-01: source audit + cleanup - Thinking, Fast and Slow PDFs deleted at
   user request (Indonesian edition, see Section 11); Bowden PDF deleted
   accidentally during the same cleanup (see Section 11 - no deliverable
@@ -746,8 +760,8 @@ the M5 pass stopped. Updated after every book commit.
 - Last commit at last update: `f8deb3e` (M7 t-shadowing fix, sw v17). The
   second browser-pass fix commit (voice toggle, Match fallback, zoom, sw v18)
   is described below and in section 8f.
-- sw.js cache version: **v18**. Asset total: **2207** (21 libraries; validated
-  grand total 2156 including retired legacy files).
+- sw.js cache version: **v19**. Asset total: **2299** (21 libraries; validated
+  grand total 2271 including retired legacy files).
 - **CRITICAL BUG FIXED 2026-08-01 (M7)**: Browse showed only the static hero
   (no filter pills, no concept cards) because the app's inline script threw
   `TypeError: t is not a function` inside `initMatch` during startup. The
