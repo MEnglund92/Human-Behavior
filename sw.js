@@ -1,4 +1,4 @@
-﻿const CACHE = 'human-behavior-study-v21';
+﻿const CACHE = 'human-behavior-study-v22';
 const FILES = [
   'index.html','data.js','manifest.json','icons/icon-180.png','icons/icon-192.png','icons/icon-512.png',
   'data/topics/topic-intro-behavior.js','data/topics/topic-behavioral-psych.js','data/topics/topic-social-psych.js',

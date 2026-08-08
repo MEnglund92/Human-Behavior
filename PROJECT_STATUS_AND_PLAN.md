@@ -738,6 +738,17 @@ content.
 If a session was interrupted, read this section first; it encodes exactly where
 the M5 pass stopped. Updated after every book commit.
 
+- 2026-08-08: Phase 5 (Dictionary enrichment) COMPLETE - all 312 entries of
+  topic `body-language-extracted` (topic 18, "The Dictionary of Body Language",
+  Navarro) gained `real_world_scenario` + `case_study_cloze` + full `sv` block
+  (Swedish concept, definition, scenario, cloze), authored in 8 parallel-free
+  sequential batches of 39 entries (1 agent per batch; `split_dict_batches.py`
+  split `dictionary_entries_base.json` -> `dict_batch_01..08.json`;
+  `dict_enrich_01..08.json` authored; `merge_dict_enrich.py` applied them to
+  `data\topics\topic-body-language-extracted.js`; 312/312 enriched, 0 missing).
+  Verification: `node --check` OK, `run_app_stub.js` ALL OK (12 tabs / 18
+  topics / 25 ASSET_LIBS). sw v22. Next: Phase 6 final E2E.
+
 - 2026-08-08: Phase 4 (final four books) COMPLETE - Body Language (Pease, 1981,
   18 ch / 90 assets, ids pease01..18), Nonverbal Communication (2nd ed., Burgoon,
   Manusov & Guerrero, 2022, 14 ch / 70 assets, ids nvc01..14), Self-Presentation
