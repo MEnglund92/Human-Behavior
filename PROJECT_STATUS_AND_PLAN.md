@@ -738,6 +738,20 @@ content.
 If a session was interrupted, read this section first; it encodes exactly where
 the M5 pass stopped. Updated after every book commit.
 
+- 2026-08-08: Handbook of Research Methods in Social and Personality Psychology
+  (3rd ed., Reis, West & Judd, 2024) Phase 3 COMPLETE - 28 chapters / 140 assets
+  (intro + 27 chapters, 5 per chapter, ids rm00..rm27). Old flat 28-asset
+  library preserved at `extract\generated_assets\legacy\research_methods_flat_2026-08-08.json`;
+  dict-style library now at `extract\generated_assets\research_methods_assets.json`.
+  Map: `rmethods_p2_map.py` (book page = PDF page - 15, verified); per-chapter
+  files `rmethods_p2_ch00..ch27.py` (1 agent per chapter, sequential);
+  generator `gen_rmethods_p2.py`; source text `%TEMP%\opencode\rmethods_p2.txt`.
+  Verification: validate.py 0 warnings (TOTAL 2411 assets), build_frontend_assets.py
+  -> 21 libraries / 2411 assets, `node --check` OK, `run_app_stub.js` ALL OK
+  (12 tabs / 18 topics / 21 ASSET_LIBS). sw v20. Remaining books: Pease,
+  Nonverbal Communication, Self-Presentation, Snoop (Phase 4), then Dictionary
+  enrichment (Phase 5) and final E2E (Phase 6).
+
 - 2026-08-08: APA Handbook of Nonverbal Communication Phase 2 COMPLETE
   (23 chapters, 115 assets, 5 per chapter). Old flat library (23 dialogue-sim
   assets) retired to `extract\generated_assets\legacy\apa_nonverbal_flat_2026-08-08.json`;
@@ -760,8 +774,8 @@ the M5 pass stopped. Updated after every book commit.
 - Last commit at last update: `f8deb3e` (M7 t-shadowing fix, sw v17). The
   second browser-pass fix commit (voice toggle, Match fallback, zoom, sw v18)
   is described below and in section 8f.
-- sw.js cache version: **v19**. Asset total: **2299** (21 libraries; validated
-  grand total 2271 including retired legacy files).
+- sw.js cache version: **v20**. Asset total: **2411** (21 libraries; validated
+  grand total 2411 including retired legacy files).
 - **CRITICAL BUG FIXED 2026-08-01 (M7)**: Browse showed only the static hero
   (no filter pills, no concept cards) because the app's inline script threw
   `TypeError: t is not a function` inside `initMatch` during startup. The
