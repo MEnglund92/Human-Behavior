@@ -1,0 +1,41 @@
+{
+  "spec_file": "spec_mindset_b09.json",
+  "book_key": "mindset",
+  "book_title": "Mindset (Carol S. Dweck)",
+  "topic": "personality",
+  "domain": "Growth vs. Fixed Mindset | Attribution Theory",
+  "credibility_profile": {
+    "level": "Medium",
+    "consensus": "Emerging",
+    "basis": "Empirical education psychology (Dweck's mindset research; replication nuance)"
+  },
+  "modality_weights": {
+    "DISCRIMINATION_MATRIX": 40,
+    "DYNAMIC_DIALOGUE_SIM": 40,
+    "BOSS_BATTLE": 20
+  },
+  "chapter_count": 1,
+  "chapters": [
+    {
+      "index": 15,
+      "title": "Recommended Books",
+      "words": 457,
+      "asset_count": 3,
+      "text_path": "extract/generated_assets/phase7a/mindset/chapter_0015.txt",
+      "top_concepts": [
+        {
+          "term": "flow",
+          "context": "in Education. Los Angeles: Jeremy Tarcher, 1982/1990. Csikszentmihalyi, Mihaly. Flow: The Psychology of Optimal Experience. New York: Harper & Row, 1990. Davis, Stan. Schools Where Everyone Belongs: Pract"
+        },
+        {
+          "term": "emotional intelligence",
+          "context": "llan, 1969. ———. Teacher and Child. New York: Macmillan, 1972. Goleman, Daniel. Emotional Intelligence: Why It Can Matter More than IQ. New York: Bantam, 1995. Gottman, John, with Nan Silver. Why Marriages Succeed or Fail."
+        },
+        {
+          "term": "groupthink",
+          "context": "ieb. When Smart People Fail. New York: Penguin Books, 1987/1993. Janis, Irving. Groupthink, 2nd ed. Boston: Houghton Mifflin, 1972/1982. Lewis, Michael. Coach: Lessons on the Game of Life. New York: Norton, 200"
+        }
+      ]
+    }
+  ]
+}

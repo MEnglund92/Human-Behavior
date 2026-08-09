@@ -1,0 +1,567 @@
+{
+  "spec_file": "spec_mindset_b01.json",
+  "chapters": [
+    {
+      "id": "ch05",
+      "title": "Introduction",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Growth vs. Fixed Mindset | Attribution Theory",
+          "topic": "False growth mindset vs. true growth mindset",
+          "visual_frame_description": "A leadership-training workshop in an Austin conference room. Trainer Maya Chen stands before a whiteboard divided into three columns, and the wall is covered with sticky notes carrying the things managers say when they claim to embrace growth. Workshop participants watch as the player must drag each sticky note into the correct column on the board.",
+          "player_mission": "Sort each spoken claim into the correct column: a fixed-mindset claim, a genuine growth-mindset claim, or a false growth mindset (a well-intentioned but inaccurate implementation). Decide the verdict for the manager's slogan in the question first, then file the rest of the evidence items.",
+          "key_concepts": [
+            "Dweck's research shows that a simple belief about yourself guides a large part of your life and permeates every part of it.",
+            "Much of what people think of as their personality actually grows out of their mindset, according to the book.",
+            "Much of what may prevent a person from fulfilling their potential grows out of their mindset.",
+            "The tradition of psychology Dweck works in shows that beliefs, whether we are aware of them or not, strongly affect what we want and whether we succeed in getting it.",
+            "Changing people's beliefs, even the simplest beliefs, can have profound effects on their lives.",
+            "An entire organization can have a mindset; Dweck added a study on organizational mindsets to the business chapter in the updated edition.",
+            "A 'false growth mindset' refers to the many creative ways people interpreted and implemented the growth mindset, not always accurately.",
+            "Dweck added a section called 'The Journey to a (True) Growth Mindset' because people asked how to actually take that journey.",
+            "The book closes each chapter with ways to apply the lessons: recognize the mindset guiding your life, understand how it works, and change it if you wish.",
+            "A genuine growth mindset is the belief that basic qualities can be cultivated, not merely a slogan of cheerleading and effort praise."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the distinction between a genuine growth mindset and a false implementation: Dweck notes in the Introduction that people found creative ways to interpret and implement the growth mindset 'not always accurately.' A true growth mindset is the belief that your basic qualities can be cultivated through effort, strategies, and help from others, not mere enthusiasm.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Empirical education psychology (Dweck's mindset research; replication nuance)"
+          },
+          "question": "A manager announces, 'We tell everyone \"You can do it!\" and then keep judging them the same way.' Which column does this claim belong in?",
+          "column_a_label": "Fixed-mindset claim",
+          "column_b_label": "Genuine growth mindset",
+          "column_c_label": "False growth mindset (misapplication)",
+          "rows": [
+            {
+              "label": "Talent is scarce; only a few people are born with it.",
+              "col": "a"
+            },
+            {
+              "label": "Every employee can develop skills through effort, better strategies, and good coaching.",
+              "col": "b"
+            },
+            {
+              "label": "We praise everyone's effort so nobody feels bad, even when nobody learns anything.",
+              "col": "c"
+            },
+            {
+              "label": "I have to prove my intelligence every single day or people will see I'm not smart.",
+              "col": "a"
+            },
+            {
+              "label": "Setbacks are information I can use to improve my next attempt.",
+              "col": "b"
+            },
+            {
+              "label": "We tell everyone 'You can do it!' and then keep judging them the same way.",
+              "col": "c"
+            },
+            {
+              "label": "If I ask for help, it will only reveal my limitations.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "It belongs in column a because it focuses on fixed traits like talent.",
+            "It belongs in column b because cheering people on is the essence of a growth mindset.",
+            "It belongs in no column because it is purely about company policy."
+          ],
+          "explanation": "The slogan keeps the old judgmental practices in place while only changing the words, so it is a false growth mindset: a well-meaning but inaccurate interpretation of Dweck's idea. A genuine growth mindset changes what people believe about developing ability and what they actually do to cultivate it, which is why the claim cannot be sorted into the fixed column or the true growth column."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Growth vs. Fixed Mindset | Attribution Theory",
+          "topic": "Implementing the growth mindset in an organization",
+          "visual_frame_description": "A glass-walled meeting room at a software firm in Seattle. Victor, a vice president, is surrounded by posters reading 'Effort Wins!' and 'Growth Every Day!' while engineers outside visibly hide a failed prototype review behind a closed door. The player sits across from Victor as a workplace consultant called in to diagnose why the culture has not actually changed.",
+          "player_mission": "Interview Victor to reveal how the organization is misusing the growth mindset, then choose the response that turns their approach into a genuine growth-minded one. Pick the single most accurate and effective move to end the dialogue.",
+          "key_concepts": [
+            "Dweck added a new section on the 'false growth mindset' after learning about the many creative ways people were interpreting and implementing the growth mindset, not always accurately.",
+            "A whole organization can have a mindset, as Dweck's study on organizational mindsets showed.",
+            "The growth mindset is based on the belief that basic qualities can be cultivated through effort, strategies, and help from others.",
+            "People's ideas about risk and effort grow out of their more basic mindset, not out of random personality quirks.",
+            "When people are put in a fixed mindset, they quickly fear challenge and devalue effort.",
+            "When people are taught the growth mindset, their ideas about challenge and effort follow from it.",
+            "Books of tips like 'take more risks!' leave you inspired for a few days but never show how the pieces fit together.",
+            "Understanding the two mindsets shows exactly how one thing leads to another, producing what psychologists call an Aha! experience.",
+            "Dweck receives letters from coaches and business leaders who recognize themselves and reorient their thinking after reading her work.",
+            "The Introduction promises that recognizing the mindset guiding your life is the first step toward changing it."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This dialogue tests the false growth mindset in organizations: people can adopt the vocabulary of growth while keeping fixed-mindset judgments and behaviors, which Dweck says happens 'not always accurately.' A genuine growth mindset requires changing the belief that qualities can be cultivated, which then changes what leaders do with failure, effort, and help.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Empirical education psychology (Dweck's mindset research; replication nuance)"
+          },
+          "scenario_setup": "Victor, a vice president at a mid-sized software company, rolled out a growth-mindset campaign with posters, slogans, and an 'Effort Wins' motto. Engineers still hide their bugs and hoard credit, and the last failed prototype produced no learning. As a consultant, your goal is to diagnose whether the implementation is genuine and to guide Victor to a real growth-minded practice before the culture does more damage.",
+          "dialogue": [
+            "Victor: We rolled out the growth mindset last quarter. T-shirts, posters, the whole thing. Our motto is 'Effort Wins!'",
+            "Player: What actually happened when an engineer submitted a risky prototype that failed in review?",
+            "Victor: We told the team 'nice effort' and moved on. Nobody learns anything, but nobody feels bad. That is the growth mindset, right? Never punish, always praise the effort.",
+            "Player: Not exactly. Growth mindset means believing skills can be cultivated through effort, strategies, and help from others. Praising effort while ignoring whether anyone learned is a false growth mindset.",
+            "Victor: Hmm. So you're saying my campaign is all slogan and no substance?",
+            "Player: The evidence is in what people do with failure. Do teams analyze what the failure taught them and change their approach, or do they just get comforted?",
+            "Victor: They just get comforted. And the same prototypes fail again in three months.",
+            "Player: Then let's change that. Turn every failed prototype into a short learning review so the effort is connected to strategy and growth."
+          ],
+          "choices": [
+            "Treat the failed prototype as data: have the team analyze what it taught them, adjust the strategy, and target coaching where the gaps are.",
+            "Keep the current policy, since effort praise protects psychological safety and that is what matters most.",
+            "Stop praising entirely and return to judging only the outcome, because the praise is clearly confusing people.",
+            "Tell Victor to remove the engineers whose prototypes fail so the team learns to avoid risk."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "False growth mindset versus genuine growth mindset: praising effort without connecting it to learning is an inaccurate implementation of Dweck's idea, whereas a genuine growth mindset believes qualities can be cultivated through effort, strategies, and help from others.",
+          "psychological_breakdown": "Choice 0 works because it ties effort to strategy and learning, the actual engine of growth, and directly contradicts the false growth mindset Victor built. Choice 1 keeps the false growth mindset alive by rewarding effort as an end in itself. Choice 2 collapses into pure outcome judgment, which feeds the fixed mindset. Choice 3 punishes failure and forces risk-avoidance, the opposite of the growth mindset."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Growth vs. Fixed Mindset | Attribution Theory",
+          "topic": "Beliefs drive organizational outcomes",
+          "visual_frame_description": "A strategy room at NovaRail, a struggling transit-equipment firm. The founder, Garrett, has filled the walls with photos of himself and a small circle of 'proven stars.' Team members whisper about a recent derailment report being buried, and a junior engineer quietly hides her analysis that would have caught the fault. The player is a turnaround consultant studying the org before making one decisive move.",
+          "player_mission": "Identify the belief that is driving NovaRail's failure culture, then choose the intervention that shifts the organization toward a genuine growth mindset. Beat the boss by seeing the mindset beneath the symptoms.",
+          "key_concepts": [
+            "A whole organization can have a mindset, according to Dweck's research on organizational mindsets.",
+            "Believing your qualities are carved in stone creates an urgency to prove yourself over and over.",
+            "In a fixed-mindset culture, every situation is evaluated as 'will I look smart or dumb, accepted or rejected, a winner or a loser.'",
+            "The growth mindset treats the hand you are dealt as just the starting point for development.",
+            "In the growth mindset, everyone can change and grow through application and experience.",
+            "Risk and effort are two things that might reveal your inadequacies if you hold a fixed mindset.",
+            "When people are put in a fixed mindset, they quickly fear challenge and devalue effort.",
+            "The growth mindset's passion for stretching yourself and sticking to it is what lets people thrive during challenging times.",
+            "Changing people's beliefs, even the simplest beliefs, can have profound effects on what they achieve.",
+            "Recognizing the mindset guiding your life is the first step to understanding and changing it."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests how a shared belief can become an organizational force: Dweck reports that an entire organization can have a fixed or growth mindset, and that a fixed mindset makes people hide mistakes and fear challenge because every situation feels like a verdict. The theory says beliefs, not just individual talent, determine whether people risk, learn, and correct course.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Empirical education psychology (Dweck's mindset research; replication nuance)"
+          },
+          "boss_battle_explanation": "The boss is the organization's fixed mindset: the belief that talent is a scarce, permanent resource that must be proved, which makes employees bury failures, avoid challenge, and protect their reputations instead of learning.",
+          "stage_1_observation": "You spend a week at NovaRail watching the culture. Garrett recruits only 'proven stars' and celebrates the same two people at every all-hands. A junior engineer, Priya, built a model that would have predicted last month's derailment, but she told no one because 'rocking the boat gets you labeled.' When you ask about the incident report, three managers change the subject, and one quietly shreds the draft.",
+          "stage_1_question": "Which belief is most likely driving NovaRail's culture of hidden failures and self-protection?",
+          "stage_1_correct_answer": "That talent is a fixed, scarce resource that must be proved over and over, so every mistake feels like evidence of deficiency and every risk feels like exposure.",
+          "stage_2_intervention": "Garrett asks you what single change would turn NovaRail around. You know slogans will fail, and you know pure outcome punishment will deepen the hiding. Decide which intervention actually creates a genuine growth mindset in the organization.",
+          "stage_2_correct_answer": "Launch a public failure-review ritual where teams present what went wrong, what it taught them, and what they will change, with Garrett visibly rewarding honest analysis of process rather than blaming people — and seat the 'proven stars' alongside junior engineers so that help and learning flow openly."
+        }
+      ]
+    },
+    {
+      "id": "ch06",
+      "title": "Chapter 1: The Mindsets",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Growth vs. Fixed Mindset | Attribution Theory",
+          "topic": "Fixed vs. growth reactions to the bad-day vignette",
+          "visual_frame_description": "A split-screen research playback. On the left, a transcript of Dweck's bad-day vignette scrolls: a C+ midterm, a parking ticket, and a friend brushing you off. On the right, speech bubbles float from real respondents, some reading 'I'm slime' and others reading 'I'll pay the ticket and call my friend.' The player must sort each bubble into the correct reaction column.",
+          "player_mission": "Sort each spoken reaction to the C+ vignette into the fixed-mindset column, the growth-mindset column, or the neutral column. Start with the verdict for the question, then classify the remaining responses from the study.",
+          "key_concepts": [
+            "In the bad-day vignette, the grade was intentionally a C+ and not an F, a midterm and not a final, a ticket and not a car wreck — nothing catastrophic or irreversible happened.",
+            "People with the fixed mindset saw the events as a direct measure of their competence and worth.",
+            "Fixed-mindset respondents said things like 'I'd feel like a reject,' 'I'm a total failure,' and 'I'm slime.'",
+            "Fixed-mindset respondents described their lives as 'pitiful' and said 'the world is out to get me.'",
+            "Fixed-mindset people cope by withdrawing: 'Do nothing,' 'Stay in bed,' 'Get drunk,' 'Go into my closet and sit there.'",
+            "From this raw material of a grade, a ticket, and a bad phone call, the fixed mindset created the feeling of utter failure and paralysis.",
+            "Growth-mindset respondents thought 'I need to try harder in class, be more careful when parking the car, and wonder if my friend had a bad day.'",
+            "Growth-mindset respondents coped directly: study differently, pay the ticket, work things out with the friend.",
+            "People in the fixed mindset are not simply low in self-esteem or card-carrying pessimists; when not coping with failure, they feel as worthy and optimistic as growth-minded people.",
+            "Both mindsets feel distress; the difference is that growth-minded people stay ready to take risks and keep working even while distressed."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests attribution following a setback: people with the fixed mindset interpret a mild failure as proof of permanent incompetence and withdraw, while people with the growth mindset see it as information and cope directly. Dweck built the vignette to show that a fixed mindset can manufacture 'utter failure and paralysis' from events that were deliberately minor and reversible.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Empirical education psychology (Dweck's mindset research; replication nuance)"
+          },
+          "question": "A student who receives a C+ on the midterm thinks, 'I'm a total failure. Everyone's better than me.' Which column does this response belong in?",
+          "column_a_label": "Fixed-mindset reaction",
+          "column_b_label": "Growth-mindset reaction",
+          "column_c_label": "Neutral statement (no mindset content)",
+          "rows": [
+            {
+              "label": "I'm a total failure. Everyone's better than me.",
+              "col": "a"
+            },
+            {
+              "label": "I'd look at what was wrong on my exam, resolve to do better, pay my parking ticket, and call my friend.",
+              "col": "b"
+            },
+            {
+              "label": "The professor handed back the midterm on a Thursday afternoon.",
+              "col": "c"
+            },
+            {
+              "label": "Stay in bed and eat chocolate.",
+              "col": "a"
+            },
+            {
+              "label": "I have the rest of the semester to pull up my grade.",
+              "col": "b"
+            },
+            {
+              "label": "I'm the most unlucky person on this earth.",
+              "col": "a"
+            },
+            {
+              "label": "I need to try harder in class, be more careful when parking, and wonder if my friend had a bad day.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "A growth-mindset reaction, because it shows honesty about the grade.",
+            "A neutral statement, because it simply describes the student's feelings.",
+            "A growth-mindset reaction, because it reflects healthy self-criticism."
+          ],
+          "explanation": "'I'm a total failure' turns a mild, reversible event into a global judgment of the self, which is the signature of the fixed mindset: every situation becomes a measure of competence and worth. The neutral item only reports a fact, and the 'pull up my grade' item is growth-minded because it treats the grade as information and a starting point for effort."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Growth vs. Fixed Mindset | Attribution Theory",
+          "topic": "The nature vs. nurture debate about human qualities",
+          "visual_frame_description": "A museum-style exhibit on 'Why Do People Differ?' Three display panels show historical views of intelligence: one panel of skulls labeled phrenology and craniology, one panel of classrooms and training programs, and one panel with a double helix entwined with a schoolyard. A narrator cue asks the player to file historical claims under the panel they belong to.",
+          "player_mission": "Sort each historical claim about why people differ into the nature-based column, the experience-based column, or the interactionist column. Decide the verdict for the question first, then file the remaining claims from Binet, Gottlieb, and Sternberg.",
+          "key_concepts": [
+            "Through the ages, alleged physical bases for human differences have included bumps on the skull (phrenology), the size and shape of the skull (craniology), and, today, genes.",
+            "Alfred Binet invented the IQ test to identify children who were not profiting from the Paris public schools so that new educational programs could get them back on track.",
+            "Binet did not see IQ as a summary of unchangeable intelligence; he believed education and practice could bring about fundamental changes in intelligence.",
+            "Binet protested against what he called 'brutal pessimism,' the claim that an individual's intelligence is a fixed quantity that cannot be increased.",
+            "Binet wrote that with practice, training, and above all method, people 'literally become more intelligent than we were before.'",
+            "Most experts today agree that it is not either-or; from conception on there is a constant give-and-take between genes and environment.",
+            "Gilbert Gottlieb argued that genes require input from the environment to work properly.",
+            "Scientists now find that people have more capacity for lifelong learning and brain development than they ever thought.",
+            "Robert Sternberg writes that the major factor in whether people achieve expertise is not some fixed prior ability but 'purposeful engagement.'",
+            "It is not always the people who start out the smartest who end up the smartest."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the historical debate that the two mindsets grow out of: whether human qualities are fixed physical endowments or things that can be cultivated. The book argues the answer is interactionist, since genes and environment cooperate from conception, which is why no one is locked in by their starting point.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Empirical education psychology (Dweck's mindset research; replication nuance)"
+          },
+          "question": "A neuroscientist states, 'Not only do genes and environment cooperate as we develop, but genes require input from the environment to work properly.' Which column does this claim belong in?",
+          "column_a_label": "Nature-based explanation",
+          "column_b_label": "Experience-based explanation",
+          "column_c_label": "Interactionist view (genes + environment)",
+          "rows": [
+            {
+              "label": "Bumps on the skull determine intelligence (phrenology).",
+              "col": "a"
+            },
+            {
+              "label": "New educational programs can get struggling children back on track.",
+              "col": "b"
+            },
+            {
+              "label": "Not only do genes and environment cooperate as we develop, but genes require input from the environment to work properly.",
+              "col": "c"
+            },
+            {
+              "label": "An individual's intelligence is a fixed quantity that cannot be increased.",
+              "col": "a"
+            },
+            {
+              "label": "With practice, training, and above all method, we become more intelligent than we were before.",
+              "col": "b"
+            },
+            {
+              "label": "From conception on, there is a constant give-and-take between genes and environment.",
+              "col": "c"
+            },
+            {
+              "label": "The size and shape of the skull reveal permanent differences between people.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "It is a nature-based explanation because it mentions genes.",
+            "It is an experience-based explanation because it downplays the role of genes.",
+            "It is a fixed-trait claim because genes cannot change."
+          ],
+          "explanation": "Gottlieb's claim is interactionist: it keeps genes central while insisting they need environmental input to operate, so it cannot be filed as a one-sided nature or nurture position. The skull and fixed-intelligence items belong in the nature column, and the training and education items belong in the experience column."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Growth vs. Fixed Mindset | Attribution Theory",
+          "topic": "The language-class exercise: ego under evaluation",
+          "visual_frame_description": "A brightly lit Spanish classroom in Chicago. Instructor Señora Reyes has called a student, Miguel, to the front of the room and is firing questions at him while the class watches. A classmate, Lena, whispers warnings from her desk, and the instructor's expression hovers between encouragement and judgment. The player chooses Miguel's response as the scene plays out.",
+          "player_mission": "Take on the role of Miguel at the board and respond to the instructor's drill. Choose the response that treats the moment as a learning opportunity rather than a test of fixed ability, and avoid the responses driven by ego and the fear of looking dumb.",
+          "key_concepts": [
+            "When you put yourself in a fixed mindset, your ability is on the line and you can feel your ego bristle and waver.",
+            "In the fixed mindset, the instructor's face feels like it is evaluating you and every question is a test of worth.",
+            "In the growth mindset, you are a novice and that is why you are here: you are here to learn.",
+            "In the growth mindset, the teacher is a resource for learning rather than a judge.",
+            "The message of the exercise is that you can change your mindset.",
+            "The growth mindset believes basic qualities can be cultivated through your efforts, your strategies, and help from others.",
+            "The passion for stretching yourself and sticking to it, even when it is not going well, is the hallmark of the growth mindset.",
+            "People with the growth mindset do not hide deficiencies; they want to overcome them.",
+            "Fixed-mindset people see every situation as one to confirm their intelligence, personality, or character.",
+            "Risk and effort are things a fixed mindset sees as possibly revealing that you are not up to the task."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the fixed-versus-growth mindset under direct evaluation: in the fixed mindset, being questioned in front of a class feels like a verdict on your ability, while in the growth mindset you are a novice whose teacher is a resource. The book's own exercise shows that the same situation produces opposite emotions and behavior depending on which mindset is active.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Empirical education psychology (Dweck's mindset research; replication nuance)"
+          },
+          "scenario_setup": "You signed up for a Spanish course and, a few sessions in, the instructor calls you to the front of the room and starts throwing questions at you one after another. Your classmate Lena whispers warnings, and everyone is watching. Your goal is to keep learning from the drill, not to protect your ego; the stakes are whether you leave the front of the room wiser or just humiliated.",
+          "dialogue": [
+            "Señora Reyes: Miguel, front and center. Let's warm up with some quick questions. No pressure — just show me what you remember.",
+            "Lena: (whispering) Everyone is watching. You better not freeze up.",
+            "Señora Reyes: ¿Dónde está la biblioteca?",
+            "Miguel: (hesitating) La biblioteca está... está... al lado del café?",
+            "Lena: (whispering) Told you.",
+            "Señora Reyes: Almost — it is next to the auditorium. Don't worry. Now, tell me honestly, why did you hesitate there?",
+            "Miguel: (the whole class waits for an answer)",
+            "Señora Reyes: Take your time. This is practice."
+          ],
+          "choices": [
+            "Say, 'I hesitated because I am still practicing this tense. Could you show me how you would form that sentence?' and keep trying aloud.",
+            "Go quiet, mumble 'I guess I'm just not good at languages,' and sit down so the attention moves away from me.",
+            "Bluff a confident 'Está al lado del... teatro' even though I am not sure, hoping the next question is easier.",
+            "Snap at Señora Reyes, 'Why are you putting me on the spot? This is humiliating.'"
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "The fixed-versus-growth mindset under evaluation: a fixed mindset makes your ego bristle and waver because your ability feels on the line, while a growth mindset lets the tension leave you because you are a novice and the teacher is a resource for learning.",
+          "psychological_breakdown": "Choice 0 works because it treats the stumble as data, openly asks for help, and keeps practicing — exactly the growth-minded move the book describes. Choice 1 hides the deficiency and withdraws, confirming failure. Choice 2 bluffs to protect the ego, so no learning occurs. Choice 3 makes the situation adversarial, turning the teacher into an enemy instead of a resource."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Growth vs. Fixed Mindset | Attribution Theory",
+          "topic": "Self-insight: accurate views of your assets and limitations",
+          "visual_frame_description": "A rooftop cafe at sunset in San Francisco. Priya, a graphic designer, slumps over a rejected portfolio review, and a candid senior colleague, Elena, has just told her the truth about her deadline estimates. The player sits with them as a mentor trying to help Priya find an accurate picture of her skills.",
+          "player_mission": "Coach Priya through her reaction to candid feedback. Choose the response that helps her develop accurate self-knowledge rather than distortion or reassurance, and guide her to use the feedback as information for growth.",
+          "key_concepts": [
+            "Studies show that people are terrible at estimating their abilities.",
+            "In Dweck's research, the people with the fixed mindset accounted for almost all the inaccuracy in estimating their performance and ability.",
+            "People with the growth mindset were amazingly accurate at estimating their abilities.",
+            "If you believe you can develop yourself, you are open to accurate information about your current abilities, even if it is unflattering.",
+            "If you are oriented toward learning, you need accurate information about your current abilities in order to learn effectively.",
+            "If everything is either good news or bad news about your precious traits, distortion almost inevitably enters the picture.",
+            "Fixed-mindset people magnify some outcomes and explain away others, until they no longer know themselves.",
+            "Howard Gardner concluded that exceptional individuals have a special talent for identifying their own strengths and weaknesses.",
+            "The growth mindset leads people to seek friends who challenge them to grow rather than just shore up their self-esteem.",
+            "The fixed mindset makes you concerned with how you will be judged; the growth mindset makes you concerned with improving."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests self-insight and accuracy: fixed-mindset people distort information about their abilities because every outcome is good or bad news about their traits, while growth-mindset people are open to accurate, even unflattering, feedback because they need it to learn. Dweck found that fixed-mindset people accounted for almost all the inaccuracy in estimating their performance.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Empirical education psychology (Dweck's mindset research; replication nuance)"
+          },
+          "scenario_setup": "Priya, a graphic designer, just got her first candid review: her work is strong but her deadline estimates are consistently off, and the client has noticed. She keeps swinging between feeling like a fraud and deciding the reviewers are out to get her. Your goal is to help her get an accurate picture of her current skills so she can actually improve; the stakes are her credibility and her next promotion.",
+          "dialogue": [
+            "Priya: My review says my deadline estimates are consistently off. Either I feel like a fraud, or I convince myself the reviewers are just out to get me.",
+            "Player: What do you actually think is true?",
+            "Priya: Honestly? I have no idea anymore. Every piece of feedback either makes me a genius or a failure.",
+            "Player: That is the fixed mindset talking. When every outcome is good or bad news about your precious traits, distortion creeps in until you don't know yourself.",
+            "Priya: But if I admit my estimates are off, doesn't that prove I'm bad at my job?",
+            "Player: Only if your skill is carved in stone. If you believe you can develop, then accurate information about your current abilities is exactly what you need to improve.",
+            "Priya: So the honest read is a starting point, not a verdict?",
+            "Player: Yes. Dweck found it is fixed-mindset people who account for almost all the inaccuracy in judging their performance. Growth-minded people are amazingly accurate."
+          ],
+          "choices": [
+            "Help Priya state, out loud, three specific skill gaps she can work on, framed as next steps she can practice and measure.",
+            "Reassure her she is actually brilliant and the reviewers are wrong, so her confidence stays intact.",
+            "Agree that honest feedback is too risky and suggest she avoid reviews that could label her.",
+            "Tell her she should switch careers to something that never evaluates her work."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Self-insight and accuracy: growth-minded people stay open to accurate information about their current abilities because they need it to learn, whereas fixed-minded people distort outcomes to protect their image of their traits.",
+          "psychological_breakdown": "Choice 0 works because it converts the feedback into concrete, measurable development targets, which is what an accurate, growth-oriented view requires. Choice 1 feeds distortion and hides the real gap. Choice 2 avoids the information she needs to improve. Choice 4 treats the feedback as a verdict on her identity rather than data about her current skill."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Growth vs. Fixed Mindset | Attribution Theory",
+          "topic": "Cultivating a love of challenge in struggling learners",
+          "visual_frame_description": "A quiet testing room in an elementary school. Researcher desk lights glow as a ten-year-old, Marcus, sweats over hard puzzles, then shoves the paper away and slumps in defeat. Across the table, another child grins, rubs her hands together, and announces she loves a challenge. The player studies both children before coaching Marcus through the next puzzle.",
+          "player_mission": "Diagnose what distinguishes the delighted child from the defeated one, then choose the coaching move that helps Marcus turn the hard puzzle from a failure into learning. Win by shifting his interpretation of struggle.",
+          "key_concepts": [
+            "Dweck watched children grapple with hard puzzles and discovered that some of them loved the difficulty.",
+            "One ten-year-old boy pulled up his chair, rubbed his hands together, smacked his lips, and cried out 'I love a challenge!'",
+            "Another boy, sweating on the puzzles, looked up with a pleased expression and said with authority, 'I was hoping this would be informative!'",
+            "These children knew that human qualities, such as intellectual skills, could be cultivated, and they were getting smarter by tackling hard problems.",
+            "The puzzle-lovers were not discouraged by failure because they did not think they were failing; they thought they were learning.",
+            "Dweck originally believed human qualities were carved in stone, and that failure meant you were not smart.",
+            "The growth mindset believes the hand you are dealt is just the starting point for development.",
+            "The passion for stretching yourself and sticking to it, even when it is not going well, is the hallmark of the growth mindset.",
+            "Turning a failure into a gift is the kind of transformation the growth mindset makes possible.",
+            "Exceptional people seem to have a special talent for converting life's setbacks into future successes."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the puzzle-study mechanism: children who believe intellectual skills can be cultivated treat hard problems as learning rather than failure, and even cheer 'I love a challenge!' The intervention goal is to help a struggling child adopt that belief so struggle stops feeling like proof of low ability.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Empirical education psychology (Dweck's mindset research; replication nuance)"
+          },
+          "boss_battle_explanation": "The boss is the fixed-mindset belief that hard problems are proof of low ability. It turns a normal struggle into a verdict, and the only way to beat it is to replace that interpretation with the growth mindset's view that struggle is learning.",
+          "stage_1_observation": "In the testing room, Marcus completes the first easy puzzles quickly, then freezes on the hard ones. He pushes the paper away and whispers 'I'm just not smart at these.' Next to him, a girl with the same hard puzzles says 'I love a challenge!' and keeps experimenting with new strategies, visibly enjoying each near-miss. Both children face identical problems; only their interpretations differ.",
+          "stage_1_question": "What most distinguishes the girl who loves the challenge from Marcus, who gives up?",
+          "stage_1_correct_answer": "She believes intellectual skills can be cultivated, so she experiences the hard puzzles as learning and growing rather than as a verdict on fixed intelligence; Marcus believes failure means he is not smart, so he stops.",
+          "stage_2_intervention": "The next hard puzzle is placed in front of Marcus and he starts to retreat. You have one coaching move. What do you say and do to shift him into the mindset that turns failure into a gift?",
+          "stage_2_correct_answer": "Reframe the struggle as progress: tell Marcus 'This puzzle is supposed to be hard, and struggling on it is how your brain gets smarter — what did you just try, and what could you try next?' then prompt him to test one new strategy and acknowledge the attempt as learning, not as a test of whether he is smart."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Growth vs. Fixed Mindset | Attribution Theory",
+          "topic": "Your intelligence and personality mindsets: self-assessment",
+          "visual_frame_description": "An interactive self-assessment screen from the book's 'Grow Your Mindset' section. Statements about intelligence scroll on the left, and statements about personality and character scroll on the right. A slider at the bottom notes that the two kinds of mindset can differ, and the player must file each statement under the correct column.",
+          "player_mission": "Sort each statement from the book's mindset quiz into the fixed-mindset column, the growth-mindset column, or the domain-dependent column. Determine the verdict for the question first, then classify the remaining intelligence and personality items.",
+          "key_concepts": [
+            "The fixed-mindset intelligence items are 'Your intelligence is something very basic about you that you can't change very much' and 'You can learn new things, but you can't really change how intelligent you are.'",
+            "The growth-mindset intelligence items are 'No matter how much intelligence you have, you can always change it quite a bit' and 'You can always substantially change how intelligent you are.'",
+            "The fixed-mindset personality items are 'You are a certain kind of person, and there is not much that can be done to really change that' and 'You can do things differently, but the important parts of who you are can't really be changed.'",
+            "The growth-mindset personality items are 'No matter what kind of person you are, you can always change substantially' and 'You can always change basic things about the kind of person you are.'",
+            "You can be a mixture of mindsets, but most people lean toward one or the other.",
+            "Your intelligence mindset comes into play when situations involve mental ability.",
+            "Your personality mindset comes into play in situations that involve your personal qualities, such as how dependable, cooperative, caring, or socially skilled you are.",
+            "The fixed mindset makes you concerned with how you will be judged; the growth mindset makes you concerned with improving.",
+            "You could substitute 'artistic talent,' 'sports ability,' or 'business skill' for 'intelligence' when assessing your mindset.",
+            "The message of the book's self-assessment is that you can change your mindset."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests self-assessment of the two mindsets across domains: the book's own quiz shows that statements about intelligence and statements about personality and character each split into fixed and growth variants, and that a person's intelligence mindset can differ from their personality mindset. The mechanism is that mindset beliefs are domain-specific, not a single global trait.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Empirical education psychology (Dweck's mindset research; replication nuance)"
+          },
+          "question": "A person says, 'You can learn new things, but you can't really change how intelligent you are.' Which column does this statement belong in?",
+          "column_a_label": "Fixed-mindset statement",
+          "column_b_label": "Growth-mindset statement",
+          "column_c_label": "Domain-dependent claim (mental ability vs. personal qualities)",
+          "rows": [
+            {
+              "label": "You can learn new things, but you can't really change how intelligent you are.",
+              "col": "a"
+            },
+            {
+              "label": "You can always substantially change how intelligent you are.",
+              "col": "b"
+            },
+            {
+              "label": "A situation involving mental ability calls up your intelligence mindset.",
+              "col": "c"
+            },
+            {
+              "label": "You are a certain kind of person, and there is not much that can be done to really change that.",
+              "col": "a"
+            },
+            {
+              "label": "No matter what kind of person you are, you can always change substantially.",
+              "col": "b"
+            },
+            {
+              "label": "Your intelligence mindset and your personality mindset can differ.",
+              "col": "c"
+            },
+            {
+              "label": "You can do things differently, but the important parts of who you are can't really be changed.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "A growth-mindset statement, because it says learning is possible.",
+            "A domain-dependent claim, because it is about intelligence only.",
+            "A neutral fact about how learning works."
+          ],
+          "explanation": "'You can learn new things, but you can't really change how intelligent you are' is one of the book's exact fixed-mindset intelligence items: it admits surface learning while insisting the core quantity is fixed. The growth items assert the quality itself can change, and the domain-dependent items describe when each kind of mindset is triggered rather than endorsing either belief."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Growth vs. Fixed Mindset | Attribution Theory",
+          "topic": "Effort and help-seeking after a setback",
+          "visual_frame_description": "A late-night study lounge near an exam center. Derek, an engineer, has just failed a certification exam for the second time, four points short of passing. He stares at his score report while a stack of untouched review guides sits nearby, and a peer, Sam, slides into the seat across from him to talk it through.",
+          "player_mission": "Talk Derek out of the fixed-mindset conclusion that his failure proves he lacks ability. Choose the response that reconnects effort and help with growth, and that turns his next attempt into a strategic plan rather than blind repetition or withdrawal.",
+          "key_concepts": [
+            "People with the fixed mindset treat risk and effort as things that might reveal their inadequacies and show they are not up to the task.",
+            "For people with the fixed mindset, the sayings become 'Nothing ventured, nothing lost' and 'If at first you don't succeed, you probably don't have the ability.'",
+            "Growth-minded people hold 'Nothing ventured, nothing gained' and 'If at first you don't succeed, try, try again.'",
+            "It is startling to see how much people with the fixed mindset do not believe in putting in effort or getting help.",
+            "People's ideas about risk and effort grow out of their more basic mindset.",
+            "When people are put in a fixed mindset, they quickly fear challenge and devalue effort.",
+            "The growth mindset is based on the belief that basic qualities can be cultivated through your efforts, your strategies, and help from others.",
+            "The passion for stretching yourself and sticking to it, even when it is not going well, is the hallmark of the growth mindset.",
+            "Growth-minded people who feel overwhelmed respond by digging in and doing what it takes.",
+            "Books with titles like 'The Ten Secrets of the World's Most Successful People' crowd the shelves but offer only unconnected pointers like 'take more risks!'"
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the mindset roots of effort and help-seeking: fixed-mindset people devalue effort and avoid help because these could expose a lack of ability, while growth-minded people treat effort, strategy, and coaching as the path to cultivating ability. The theory predicts that the same failure leads a fixed mindset to withdraw and a growth mindset to dig in strategically.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Empirical education psychology (Dweck's mindset research; replication nuance)"
+          },
+          "scenario_setup": "Derek, an engineer, has failed his certification exam twice, this time by four points. He has decided that studying hard and still failing proves he lacks the aptitude, and he refuses the free retraining course. Your goal is to help him see effort and help as growth tools, not as proof of deficiency, and to turn his third attempt into a real plan; the stakes are his certification and his career.",
+          "dialogue": [
+            "Derek: I'm done with the exam. If I studied that hard and still failed, I clearly don't have the aptitude.",
+            "Player: You got 71 percent — four points short. People pass on the third attempt all the time after changing their approach.",
+            "Derek: Asking for help would just confirm I'm not smart enough. Risk and effort just reveal your inadequacies.",
+            "Player: That is the fixed mindset talking. People with that mindset see effort and help as things that might expose them — it is 'nothing ventured, nothing lost.'",
+            "Derek: And what would a growth-minded person say?",
+            "Player: 'Nothing ventured, nothing gained.' If your qualities can be cultivated, then studying differently and getting coaching isn't evidence of missing talent — it is how talent grows.",
+            "Derek: So you want me to throw more effort at it and hope?",
+            "Player: Not blind effort. A new strategy: break the material into themes, get a study partner, and target exactly the sections where you dropped points."
+          ],
+          "choices": [
+            "Offer to meet twice a week to break the material into themes and practice the exact sections where he lost points, tying effort to strategy.",
+            "Respect his decision to stop, since pushing him would only hurt his self-esteem.",
+            "Tell him to take the exam again exactly the same way and just keep trying until luck turns his way.",
+            "Agree that he probably lacks the aptitude and suggest he find a different line of work."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "The mindset basis of effort and help: fixed-mindset people fear effort and help because these could reveal inadequacy, while growth-minded people treat effort, strategy, and coaching as the route to cultivating ability — 'nothing ventured, nothing gained.'",
+          "psychological_breakdown": "Choice 0 works because it converts effort into targeted strategy with help from others, the precise opposite of Derek's 'nothing ventured, nothing lost' logic. Choice 1 reinforces his withdrawal and lets the fixed mindset win. Choice 2 keeps blind effort without strategy, which invites another identical failure. Choice 4 accepts the fixed-mindset verdict and ends his path to growth."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Growth vs. Fixed Mindset | Attribution Theory",
+          "topic": "Escaping the proving-self trap: the fixed-mindset ego",
+          "visual_frame_description": "An open-plan office late in the evening. Kevin, a manager up for promotion, stares at a dashboard showing his team's project had a small but public forecasting error. In the reflection of the window you can see him rehearse excuses, decide whether to blame a junior teammate, or quietly edit the numbers. His boss walks in holding the corrected report.",
+          "player_mission": "Identify the belief that is pushing Kevin to hide his mistake, then choose the response that breaks the proving-self trap and moves him toward growth. Beat the boss by recognizing that every situation feels like a verdict when the fixed mindset is active.",
+          "key_concepts": [
+            "Believing your qualities are carved in stone creates an urgency to prove yourself over and over.",
+            "If you have only a certain amount of intelligence, personality, and moral character, you had better prove you have a healthy dose of them.",
+            "In the fixed mindset, every situation is evaluated: will I succeed or fail, look smart or dumb, be accepted or rejected, feel like a winner or a loser.",
+            "Dweck's sixth-grade teacher Mrs. Wilson seated the class in IQ order and created one consuming goal: look smart, don't look dumb.",
+            "Who cared about or enjoyed learning when your whole being felt at stake on every test?",
+            "The growth mindset treats the hand you are dealt as just the starting point for development.",
+            "In the growth mindset, you hide no deficiencies and instead work to overcome them.",
+            "Why waste time proving over and over how great you are, when you could be getting better?",
+            "Fixed-mindset people do not believe in putting in effort or getting help.",
+            "The message of the book is that you can change your mindset."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the fixed-mindset ego's urgency to prove itself: Dweck argues that believing your qualities are carved in stone turns every situation into a test of worth, which is why admitting a mistake feels catastrophic. The intervention must show that a mistake is information about process, not a verdict on identity.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Empirical education psychology (Dweck's mindset research; replication nuance)"
+          },
+          "boss_battle_explanation": "The boss is the proving-self trap: the fixed-mindset urgency to look smart and never look dumb, which makes Kevin treat a small public error as a threat to his worth and pushes him toward concealment, blame, or data-tampering.",
+          "stage_1_observation": "Kevin is one promotion away from the role he has chased for years. His team's forecast was off by nine percent, and the error is on the exec dashboard. He has already drafted three options in his notebook: bury the variance, blame the junior analyst who built the sheet, or quietly revise the assumptions to make the number look right. His hands shake, and he mutters 'If they see this, they'll know I'm not up to it.'",
+          "stage_1_question": "Which belief is driving Kevin's urge to hide or recast the forecasting error?",
+          "stage_1_correct_answer": "The fixed-mindset belief that his worth is measured by how he looks in every situation, so an error feels like proof he is deficient and must be concealed or blamed away.",
+          "stage_2_intervention": "Kevin's boss walks in holding the corrected report and asks him to walk through what went wrong. The room is tense, and Kevin reaches for his notebook full of excuses. Choose the response that breaks the proving trap and moves him onto the growth road.",
+          "stage_2_correct_answer": "Kevin should acknowledge the error plainly, walk through what the analysis missed, and propose a revised forecasting process with a peer review built in — treating the mistake as information about the method rather than a verdict on his worth, and using the team as a resource instead of a shield."
+        }
+      ]
+    }
+  ]
+}

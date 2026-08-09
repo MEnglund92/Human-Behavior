@@ -1,0 +1,74 @@
+{
+  "spec_file": "spec_mindset_b01.json",
+  "book_key": "mindset",
+  "book_title": "Mindset (Carol S. Dweck)",
+  "topic": "personality",
+  "domain": "Growth vs. Fixed Mindset | Attribution Theory",
+  "credibility_profile": {
+    "level": "Medium",
+    "consensus": "Emerging",
+    "basis": "Empirical education psychology (Dweck's mindset research; replication nuance)"
+  },
+  "modality_weights": {
+    "DISCRIMINATION_MATRIX": 40,
+    "DYNAMIC_DIALOGUE_SIM": 40,
+    "BOSS_BATTLE": 20
+  },
+  "chapter_count": 2,
+  "chapters": [
+    {
+      "index": 5,
+      "title": "Introduction",
+      "words": 762,
+      "asset_count": 3,
+      "text_path": "extract/generated_assets/phase7a/mindset/chapter_0005.txt",
+      "top_concepts": [
+        {
+          "term": "growth mindset",
+          "context": ". Yes, a whole organization can have a mindset! I added a new section on “false growth mindset” to chapter 7 (Parents, Teachers, and Coaches) after I learned about the many creative ways people were interpreting an"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "Chapter 1: The Mindsets",
+      "words": 3865,
+      "asset_count": 8,
+      "text_path": "extract/generated_assets/phase7a/mindset/chapter_0006.txt",
+      "top_concepts": [
+        {
+          "term": "growth mindset",
+          "context": "mindset, the hand you’re dealt is just the starting point for development. This growth mindset is based on the belief that your basic qualities are things you can cultivate through your efforts, your strategies, an"
+        },
+        {
+          "term": "fixed mindset",
+          "context": ", as a result, your life? Believing that your qualities are carved in stone—the fixed mindset—creates an urgency to prove yourself over and over. If you have only a certain amount of intelligence, a certain person"
+        },
+        {
+          "term": "self-esteem",
+          "context": "f overcoming them? Why look for friends or partners who will just shore up your self-esteem instead of ones who will also challenge you to grow? And why seek out the tried and true, instead of experiences that w"
+        },
+        {
+          "term": "authority",
+          "context": "eating away on these puzzles, looked up with a pleased expression and said with authority, “You know, I was hoping this would be informative!” What’s wrong with them? I wondered. I always thought you coped wit"
+        },
+        {
+          "term": "motivation",
+          "context": "with this mindset believe that anyone can be anything, that anyone with proper motivation or education can become Einstein or Beethoven? No, but they believe that a person’s true potential is unknown (and unkn"
+        },
+        {
+          "term": "crowding",
+          "context": "ee books with titles like The Ten Secrets of the World’s Most Successful People crowding the shelves of bookstores, and these books may give many useful tips. But they’re usually a list of unconnected pointer"
+        },
+        {
+          "term": "self",
+          "context": "students.” I get lots of these letters from coaches and business leaders, too. SELF-INSIGHT: WHO HAS ACCURATE VIEWS OF THEIR ASSETS AND LIMITATIONS? Well, maybe the people with the growth mindset don’t t"
+        },
+        {
+          "term": "ego",
+          "context": "? Can you see the instructor’s face evaluating you? Feel the tension, feel your ego bristle and waver. What else are you thinking and feeling? Now put yourself in a growth mindset. You’re a novice—that’s"
+        }
+      ]
+    }
+  ]
+}
