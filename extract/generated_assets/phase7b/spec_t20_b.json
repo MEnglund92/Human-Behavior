@@ -1,0 +1,127 @@
+{
+ "topic_id": "dark-triad",
+ "topic_name": "20. Dark Triad & Covert Manipulation",
+ "categories": [
+  {
+   "id": "manipulation-tactics",
+   "name": "Manipulation Tactics"
+  },
+  {
+   "id": "toxic-dynamics",
+   "name": "Toxic Dynamics"
+  },
+  {
+   "id": "defenses",
+   "name": "Defenses & Recovery"
+  }
+ ],
+ "forbidden_concept_names": [
+  "Behavior",
+  "Stimulus",
+  "Response",
+  "Nature vs Nurture",
+  "Empiricism",
+  "Hypothesis",
+  "Independent Variable",
+  "Dependent Variable",
+  "Correlation",
+  "Operational Definition",
+  "Structuralism",
+  "Functionalism",
+  "Behaviorism",
+  "Cognitive Revolution",
+  "Naturalistic Observation",
+  "Positive Reinforcement",
+  "Negative Reinforcement",
+  "Punishment",
+  "Extinction",
+  "Habituation",
+  "Cognitive Dissonance",
+  "Loss Aversion",
+  "Anchoring",
+  "Availability",
+  "Sunk Cost Fallacy",
+  "Framing",
+  "Halo Effect",
+  "Confirmation Bias",
+  "Conformity",
+  "Obedience",
+  "Self-Fulfilling Prophecy",
+  "Heuristic",
+  "Attribution",
+  "Groupthink",
+  "Bystander Effect",
+  "Dark Triad",
+  "Narcissism",
+  "Machiavellianism",
+  "Psychopathy",
+  "Gaslighting"
+ ],
+ "schema": {
+  "concept": "string; must be the exact label from the entries list below",
+  "definition": "one factual sentence, 12-25 words, plain language",
+  "category": "string; one of the category ids",
+  "real_world_scenario": "1-2 sentences (15-35 words), concrete real-life example",
+  "case_study_cloze": "one sentence, exactly one blank written ____ (4 underscores); the concept label is the answer",
+  "related_concepts": "array of exactly 2 strings (existing well-known psychology terms)",
+  "sv": {
+   "concept": "the Swedish label given below",
+   "definition": "natural Swedish translation of the definition",
+   "real_world_scenario": "Swedish version of the scenario, natural Swedish",
+   "case_study_cloze": "Swedish sentence with one blank ____"
+  }
+ },
+ "quality_bar": [
+  "both languages correct, plain and idiomatic; zero typos; no invented or repeated words",
+  "the cloze blank answer must equal the concept label word for word",
+  "each entry exactly the fields above, nothing more",
+  "write the file as valid JSON (UTF-8), no markdown, no code fences"
+ ],
+ "self_check": [
+  "after writing the file run: python -c \"import json;print(len(json.load(open('FILE'))))\"",
+  "report the entry count and the JSON-parse result in your final message"
+ ],
+ "entries": [
+  {
+   "concept": "DARVO",
+   "category": "manipulation-tactics",
+   "swedish_concept": "DARVO"
+  },
+  {
+   "concept": "Flying Monkeys",
+   "category": "toxic-dynamics",
+   "swedish_concept": "Medhjälpare"
+  },
+  {
+   "concept": "Guilt Tripping",
+   "category": "manipulation-tactics",
+   "swedish_concept": "Skuldbeläggning"
+  },
+  {
+   "concept": "Covert Aggression",
+   "category": "manipulation-tactics",
+   "swedish_concept": "Dold aggression"
+  },
+  {
+   "concept": "Vulnerable Narcissism",
+   "category": "toxic-dynamics",
+   "swedish_concept": "Sårbar narcissism"
+  },
+  {
+   "concept": "Grey Rock Method",
+   "category": "defenses",
+   "swedish_concept": "Grå klippa-metoden"
+  },
+  {
+   "concept": "JADE Principle",
+   "category": "defenses",
+   "swedish_concept": "JADE-principen"
+  },
+  {
+   "concept": "Information Diet",
+   "category": "defenses",
+   "swedish_concept": "Informationsdiet"
+  }
+ ],
+ "job": "t20_b (last 8)"
+}

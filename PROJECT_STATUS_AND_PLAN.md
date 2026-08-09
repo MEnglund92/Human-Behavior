@@ -738,6 +738,24 @@ content.
 If a session was interrupted, read this section first; it encodes exactly where
 the M5 pass stopped. Updated after every book commit.
 
+- 2026-08-09: Phase 7B (content gap-closing topics) COMPLETE - 2 new bilingual
+  topics + 3 new deep dives authored and merged: topic 19 "Choice Architecture
+  & Habit Mechanics" (24 concepts, `topic-choice-architecture.js`,
+  `_t_choice_architecture`) and topic 20 "Dark Triad & Covert Manipulation"
+  (17 concepts, `topic-dark-triad.js`, `_t_dark_triad`); deep dives in
+  `data\deep-dives.js`: `phase7b-emotion-expression` (Ekman vs Barrett),
+  `phase7b-biological-bases` (Polyvagal hierarchy), `phase7b-evolutionary-psych`
+  (Dominance vs Prestige). 41 entries authored via 5 sequential agent batches
+  against generated specs (`extract\generated_assets\phase7b\spec_*.json`,
+  workflow: `gen_phase7b_specs.py` -> agent output -> `merge_phase7b.py`;
+  dives: `gen_phase7b_dive_specs.py` -> `merge_phase7b_dives.py`). Both
+  languages verified per entry (cloze blanks, field sets, sv label verbatim).
+  Integration: index.html gained the 2 topic script tags (was the same missing-
+  tag class of bug as Phase 6). Verified: node --check OK, run_app_stub ALL OK
+  (12 tabs / topics=20 / ASSET_LIBS=25), validate.py 0 warnings (2676 assets),
+  CDP browser E2E green - 21 topic pills / 750 concepts / deep tab content
+  237k chars / 0 console errors. sw v23 -> v24.
+
 - 2026-08-08: PROJECT COMPLETE. Final state: 25 libraries / 2,676 Scenario Lab
   assets (BOSS_BATTLE 530, CUE_SCRUBBER_STATION 563, DECEPTION_AUDIT_FILE 539,
   DISCRIMINATION_MATRIX 523, DYNAMIC_DIALOGUE_SIM 521), 18 topics / 709

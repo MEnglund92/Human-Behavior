@@ -21,6 +21,8 @@ const topics = [].concat(
   _t_attachment_relationships,
   _t_existential_humanistic,
   _t_body_language_extracted,
+  _t_dark_triad,
+  _t_choice_architecture,
 )
 const deepDives = _deepDives
 const resources = _resources

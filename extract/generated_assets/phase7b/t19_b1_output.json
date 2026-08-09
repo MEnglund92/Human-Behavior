@@ -1,0 +1,138 @@
+[
+  {
+    "concept": "Choice Architecture",
+    "definition": "The practice of organizing the way choices are presented to people in order to influence their decisions in predictable ways without restricting their freedom.",
+    "category": "choice-architecture",
+    "real_world_scenario": "A cafeteria arranges fruit at eye level while hiding desserts in a back corner, which quietly steers diners toward healthier choices.",
+    "case_study_cloze": "Arranging cafeteria foods so the healthy options sit at eye level is a classic example of ____.",
+    "related_concepts": [
+      "Heuristics",
+      "Cognitive Bias"
+    ],
+    "sv": {
+      "concept": "Valarkitektur",
+      "definition": "Konsten att utforma hur val presenteras för att styra människors beslut på ett förutsägbart sätt, utan att inskränka deras frihet.",
+      "real_world_scenario": "En personalmatsal ställer frukt i ögonhöjd och gömmer efterrätterna längst bak, vilket tyst styr gästerna mot nyttigare val.",
+      "case_study_cloze": "Att placera frukt i ögonhöjd på ett café är ett klassiskt exempel på ____."
+    }
+  },
+  {
+    "concept": "Default Option",
+    "definition": "A preset choice that takes effect automatically when a person does nothing, making the easiest path the one most people take.",
+    "category": "choice-architecture",
+    "real_world_scenario": "New employees stay enrolled in the retirement plan simply because that is the preset option and signing out takes extra effort.",
+    "case_study_cloze": "Joining the company pension plan requires no action because enrollment is the ____, and opting out is voluntary.",
+    "related_concepts": [
+      "Status Quo Bias",
+      "Nudge"
+    ],
+    "sv": {
+      "concept": "Standardalternativ",
+      "definition": "Ett förvalt alternativ som gäller automatiskt om man inte gör något, vilket gör att de flesta följer den lättaste vägen.",
+      "real_world_scenario": "Nyanställda förblir inskrivna i pensionssparandet bara för att det är standardvalet och att tacka nej kräver extra ansträngning.",
+      "case_study_cloze": "Att anställda automatiskt får pensionssparande utan att anmäla sig är ett exempel på ____."
+    }
+  },
+  {
+    "concept": "Nudge",
+    "definition": "A small change in the choice environment that gently steers people's decisions while leaving all options open and freedom intact.",
+    "category": "choice-architecture",
+    "real_world_scenario": "A lunch app pushes a healthy recipe to the top of the list each morning, gently steering users toward better meals without banning anything.",
+    "case_study_cloze": "Sending a reminder text that pushes citizens to pay their taxes on time is a classic ____.",
+    "related_concepts": [
+      "Choice Architecture",
+      "Default Option"
+    ],
+    "sv": {
+      "concept": "Knuff",
+      "definition": "En liten förändring av valmiljön som försiktigt styr människors beslut samtidigt som alla alternativ finns kvar och friheten bevaras.",
+      "real_world_scenario": "En lunchapp lägger en nyttig rätt överst i listan varje morgon och styr därmed användarna mot bättre måltider utan att förbjuda något.",
+      "case_study_cloze": "Att skicka en påminnelse som får medborgare att betala skatten i tid är en klassisk ____."
+    }
+  },
+  {
+    "concept": "Libertarian Paternalism",
+    "definition": "A policy approach that guides people toward better decisions while preserving their freedom to choose any alternative.",
+    "category": "choice-architecture",
+    "real_world_scenario": "A state lets employees pick any investment but enrolls them in a sensible fund automatically, protecting freedom while steering outcomes.",
+    "case_study_cloze": "When a government keeps all options available yet nudges citizens toward wise choices, it practices ____.",
+    "related_concepts": [
+      "Nudge",
+      "Choice Architecture"
+    ],
+    "sv": {
+      "concept": "Libertarisk paternalism",
+      "definition": "Ett synsätt som styr människor mot bättre beslut samtidigt som de behåller friheten att välja vilket alternativ de vill.",
+      "real_world_scenario": "Ett land låter anställda välja fritt bland fonder men placerar dem automatiskt i en sund standardfond, vilket skyddar friheten och styr utfallet.",
+      "case_study_cloze": "När en myndighet håller alla alternativ öppna men ändå knuffar medborgarna mot kloka val utövar den ____."
+    }
+  },
+  {
+    "concept": "Salience",
+    "definition": "The degree to which a piece of information stands out and grabs attention, making it more likely to influence decisions.",
+    "category": "choice-architecture",
+    "real_world_scenario": "A grocery store puts sale stickers in bright yellow, so shoppers notice the discounted items first and buy more of them.",
+    "case_study_cloze": "When a warning label is printed in large red letters on the package, its ____ makes customers actually read it.",
+    "related_concepts": [
+      "Attention",
+      "Perception"
+    ],
+    "sv": {
+      "concept": "Saliens",
+      "definition": "Graden av framträdande som gör att något sticker ut och fångar uppmärksamheten, vilket ökar sannolikheten att det påverkar våra beslut.",
+      "real_world_scenario": "En matbutik sätter knallgula skyltar på kampanjvarorna, så att kunderna lägger märke till dem först och köper fler.",
+      "case_study_cloze": "När en varningstext trycks i stora röda bokstäver på förpackningen gör dess ____ att kunderna verkligen läser den."
+    }
+  },
+  {
+    "concept": "Choice Overload",
+    "definition": "The mental strain and worse decisions people experience when they face more options than they can easily compare.",
+    "category": "choice-architecture",
+    "real_world_scenario": "A streaming service shows hundreds of new titles, and users spend so long browsing that they often give up and watch nothing.",
+    "case_study_cloze": "When a jam stand offers forty varieties instead of six, shoppers buy less because of ____.",
+    "related_concepts": [
+      "Decision Fatigue",
+      "Cognitive Load"
+    ],
+    "sv": {
+      "concept": "Valöverbelastning",
+      "definition": "Den mentala påfrestning och de sämre beslut människor upplever när de möter fler alternativ än de lätt kan jämföra.",
+      "real_world_scenario": "En streamingtjänst visar hundratals nya titlar, och användarna bläddrar så länge att de ofta ger upp och inte ser något alls.",
+      "case_study_cloze": "När en syltbutik erbjuder fyrtio sorter i stället för sex köper kunderna mindre på grund av ____."
+    }
+  },
+  {
+    "concept": "Status Quo Bias",
+    "definition": "The tendency to prefer keeping things the way they are, so people stick with current choices even when change would help.",
+    "category": "choice-architecture",
+    "real_world_scenario": "Households stay with the same electricity provider for years even though a cheaper plan exists, simply because switching feels risky.",
+    "case_study_cloze": "People keep their old phone plan despite cheaper offers, a common example of ____.",
+    "related_concepts": [
+      "Default Option",
+      "Habit"
+    ],
+    "sv": {
+      "concept": "Status quo-bias",
+      "definition": "Benägenheten att föredra att saker förblir som de är, så att människor håller fast vid nuvarande val även när en förändring skulle vara till nytta.",
+      "real_world_scenario": "Hushåll byter sällan elbolag trots att det finns billigare avtal, helt enkelt för att ett byte känns riskabelt.",
+      "case_study_cloze": "Att människor behåller sitt gamla telefonabonnemang trots billigare erbjudanden är ett vanligt exempel på ____."
+    }
+  },
+  {
+    "concept": "Decoy Effect",
+    "definition": "The influence of an intentionally unattractive third option that makes one of two other options look like the better deal.",
+    "category": "choice-architecture",
+    "real_world_scenario": "A cinema sells small popcorn for 50 kronor and large for 80, so adding a medium for 78 makes the large seem like a bargain.",
+    "case_study_cloze": "Adding a slightly cheaper but clearly inferior subscription tier to make the premium tier look reasonable is the ____.",
+    "related_concepts": [
+      "Asymmetric Dominance",
+      "Choice Architecture"
+    ],
+    "sv": {
+      "concept": "Lockbeteffekt",
+      "definition": "Inverkan av ett avsiktligt oattraktivt tredje alternativ som får ett av de två andra alternativen att framstå som det bättre köpet.",
+      "real_world_scenario": "En biograf säljer liten popcorn för 50 kronor och stor för 80, så ett mellanalternativ för 78 får den stora att verka som ett fynd.",
+      "case_study_cloze": "Att lägga till ett något billigare men klart sämre abonnemang så att premiumvalet ser rimligt ut är ____."
+    }
+  }
+]
