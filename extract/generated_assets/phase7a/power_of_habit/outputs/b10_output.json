@@ -1,0 +1,605 @@
+{
+  "spec_file": "spec_power_of_habit_b10.json",
+  "chapters": [
+    {
+      "id": "ch14",
+      "title": "9. The Neurology of free Will: Are We Responsible for Our Habits?",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Sleepwalking vs. Sleep Terror vs. Conscious Habit",
+          "visual_frame_description": "A dim sleep-research lab at the Edinburgh Sleep Centre. On a wall of monitors, three brain-state panels are labeled \"Sleepwalking,\" \"Sleep Terror,\" and \"Conscious Habit,\" each with a row of drag-and-drop evidence cards beneath it. Dr. Chris Idzikowski gestures at a polysomnogram of Brian Thomas as a soft cursor moves evidence cards between columns.",
+          "player_mission": "Sort each piece of neurological evidence into the brain state it describes: sleepwalking, sleep terror, or a consciously controlled habit. Read each card, identify the mechanism at work, and drop it into the correct column.",
+          "key_concepts": [
+            "Sleepwalking lets people carry out complex activities such as making tea, driving a motorboat, or running an electric saw while essentially unconscious.",
+            "Sleepwalking preserves some participation from higher brain regions, such as an instinct to steer away from the edge of a roof.",
+            "During a sleep terror the brain shuts down except for the most primitive neurological regions, which include the central pattern generators.",
+            "A brain experiencing a sleep terror looks very similar, to a neurologist, to a brain following a habit.",
+            "The fight-or-flight response cued by a sleep terror cannot be overridden by logic or reason because the prefrontal cortex is deactivated.",
+            "People in sleep terrors remember only an image or raw emotions such as impending doom, not the complex plots of a normal nightmare.",
+            "Behavioral patterns like walking, breathing, flinching from a loud noise, and fighting an attacker come from central pattern generators.",
+            "When someone in a sleep terror feels threatened, they react by following the habits associated with that stimulus, no matter where the loop leads.",
+            "Conscious habitual actions are cue-routine-reward loops that a waking person can recognize and, with effort, modify.",
+            "The part of the brain that monitors behavior is asleep during sleepwalking, but the parts capable of very complex activities are awake."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the distinction between sleepwalking, sleep terrors, and conscious habits as different states of neurological control. Duhigg reports that a sleep terror deactivates higher cognition so that central-pattern-generator habits run without any chance of conscious override, while sleepwalking and waking habits retain some higher-brain participation.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Which neurological state best explains why Brian Thomas could not consciously stop himself from strangling his wife while believing he was defending her from an intruder?",
+          "column_a_label": "Sleepwalking",
+          "column_b_label": "Sleep terror",
+          "column_c_label": "Conscious habitual action",
+          "rows": [
+            {
+              "label": "The brain's higher regions, including the prefrontal cortex, are deactivated, so a primal habit runs to completion",
+              "col": "b"
+            },
+            {
+              "label": "Complex activities such as making tea or driving a motorboat happen with the prefrontal cortex offline",
+              "col": "a"
+            },
+            {
+              "label": "The person keeps enough higher-brain participation to steer away from a roof edge",
+              "col": "a"
+            },
+            {
+              "label": "A cue-routine-reward loop the person can consciously diagnose and rebuild",
+              "col": "c"
+            },
+            {
+              "label": "Afterward only an image or raw emotion such as impending doom is remembered",
+              "col": "b"
+            },
+            {
+              "label": "A voluntary act that a waking prefrontal cortex can veto",
+              "col": "c"
+            },
+            {
+              "label": "Fight-or-flight runs on central pattern generators with no logical override",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The killing was a conscious choice Thomas could have stopped with enough effort",
+            "Sleepwalking completely deactivates all monitoring and higher-brain participation",
+            "Sleep terrors involve complex dream plots that the sleeper remembers like a nightmare"
+          ],
+          "explanation": "The rows sort by whether higher cognition can intervene. Sleepwalking preserves some higher-brain participation (steering away from a roof edge), a conscious habit runs with the prefrontal cortex awake and modifiable, and a sleep terror deactivates the prefrontal cortex so central-pattern-generator habits such as fight-or-flight run with no chance of override. Thomas's brain matched the sleep-terror pattern, which is why the defense of automatism succeeded."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Brain Structures in the Habit Loop",
+          "visual_frame_description": "A bright neuroscience classroom at MIT. A projected brain diagram rotates slowly, with three pulsing regions labeled \"Prefrontal Cortex,\" \"Basal Ganglia,\" and \"Brain Stem,\" and a tray of evidence chips beside a student workstation. Larry Squire's habit-loop experiments and Reza Habib's MRI traces scroll along the side of the screen.",
+          "player_mission": "Match each claim about the brain to the structure it describes. Click a chip, then click the region it belongs to, sorting all evidence correctly before the timer runs out.",
+          "key_concepts": [
+            "The basal ganglia and brain stem are the same regions where habits reside and where behaviors related to sleep terrors start.",
+            "The habit loop's cue-routine-reward cycle is stored in the basal ganglia rather than in the prefrontal cortex.",
+            "The brain stem paralyzes the limbs and nervous system during sleep so that dreams are not acted out.",
+            "Switching errors in the brain stem leave the body active during sleep, which is the root cause of sleepwalking.",
+            "The prefrontal cortex is the more advanced region whose deactivation during a sleep terror removes conscious override.",
+            "Reza Habib's MRI study looked at the basal ganglia and brain stem to observe how pathological gamblers process wins and near misses.",
+            "Pathological gamblers' reward circuitry fires strongly for near misses, which are processed almost like wins.",
+            "The central pattern generators are among the most primitive neurological regions and generate walking, breathing, and flinching patterns.",
+            "In a sleep terror the brain shuts down except for these primitive regions, resembling a brain following a habit.",
+            "Pharmaceuticals that target the habit-loop circuitry can spur compulsive gambling, eating, and shopping, according to class-action lawsuits."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests knowledge of which brain structures carry habits and automatic behavior. Duhigg reports that habits reside in the basal ganglia and brain stem, while the prefrontal cortex is the advanced region whose deactivation during sleep removes the chance of conscious override.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Which brain structure stores the cue-routine-reward habit loop that researchers like Squire and Habib study?",
+          "column_a_label": "Prefrontal cortex",
+          "column_b_label": "Basal ganglia",
+          "column_c_label": "Brain stem (the switch)",
+          "rows": [
+            {
+              "label": "Stores the cue-routine-reward habit loop, as examined in Habib's MRI study",
+              "col": "b"
+            },
+            {
+              "label": "The more advanced region whose deactivation removes conscious override during sleep",
+              "col": "a"
+            },
+            {
+              "label": "Paralyzes the limbs and nervous system during sleep; its errors cause sleepwalking",
+              "col": "c"
+            },
+            {
+              "label": "Shuts down during a sleep terror, leaving primal habits to run unopposed",
+              "col": "a"
+            },
+            {
+              "label": "The region where habits reside and where sleep-terror behaviors start",
+              "col": "b"
+            },
+            {
+              "label": "Produces the 'switch' that lets the body transition in and out of paralysis",
+              "col": "c"
+            },
+            {
+              "label": "Shows strong reward-circuit activation in pathological gamblers watching near misses",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The prefrontal cortex is where the habit loop is stored",
+            "The brain stem generates advanced planning and conscious decision-making",
+            "Habits reside exclusively in the prefrontal cortex"
+          ],
+          "explanation": "The rows sort by function and location. The basal ganglia store the habit loop and reward processing, the brain stem runs the sleep 'switch' and primitive patterns, and the prefrontal cortex is the advanced region whose offline state during a sleep terror removes conscious override. Habib's near-miss findings show the basal ganglia firing in problem gamblers, matching where habits live."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Automatism, Awareness, and Legal Responsibility",
+          "visual_frame_description": "A somber appeals courtroom with two evidence folders on the clerk's desk, labeled \"Thomas\" and \"Bachmann,\" and a third panel titled \"The Chapter's Principle.\" Justice Robert Rucker's written opinion is visible on a large screen, and verdict stamps float above the two cases.",
+          "player_mission": "Sort each legal and psychological claim to the case or principle it belongs to: Thomas's defense, Bachmann's case, or the chapter's general responsibility principle. Decide which outcome the evidence actually supports.",
+          "key_concepts": [
+            "Brian Thomas was found not guilty because he was asleep and his mind had no control over what his body was doing.",
+            "The prosecution offered no further evidence once expert testimony established Thomas's mind had no control over the killing.",
+            "Automatism is the term for sleepwalking and other unconscious behaviors claimed as a ground for innocence.",
+            "More than 150 murderers and rapists have escaped punishment in the past century using the automatism defense.",
+            "Angie Bachmann was held accountable because she was aware of her habit and had previously controlled it with rules.",
+            "The state supreme court wrote there is no common-law duty obligating a casino to refrain from enticing gamblers it knows are compulsive.",
+            "The voluntary exclusion program let any person put their name on a list requiring casinos to bar them, shifting responsibility to the gambler.",
+            "Once you know a habit exists, you have the responsibility to change it, according to the chapter's closing argument.",
+            "Thomas never knew the patterns that drove him to kill existed in the first place, so he could not master them.",
+            "Bachmann's lawyer argued her habits took over once she entered the casino, echoing the automatism defense."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the chapter's responsibility principle: an act committed without conscious awareness can be excused, but a habit the person knows exists becomes their responsibility to change. Duhigg contrasts Thomas, who was acquitted because he could not know the pattern existed, with Bachmann, who was held liable despite similar habit-driven behavior.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Which case does the chapter use to show that a habit the person knows about does not excuse the behavior, even when it feels automatic?",
+          "column_a_label": "Angie Bachmann's gambling",
+          "column_b_label": "Brian Thomas's sleep terror",
+          "column_c_label": "The chapter's responsibility principle",
+          "rows": [
+            {
+              "label": "Gambling after years of knowing the pattern she was in and once controlling it with rules",
+              "col": "a"
+            },
+            {
+              "label": "A sleep terror he had never harmed anyone during before the fatal night",
+              "col": "b"
+            },
+            {
+              "label": "Once you understand habits can change, you have the freedom and responsibility to remake them",
+              "col": "c"
+            },
+            {
+              "label": "Held accountable by the state supreme court for her losses",
+              "col": "a"
+            },
+            {
+              "label": "Cleared by a not-guilty verdict after expert testimony that his mind had no control",
+              "col": "b"
+            },
+            {
+              "label": "Every habit, no matter its complexity, is malleable if you understand how it functions",
+              "col": "c"
+            },
+            {
+              "label": "The rejected claim that casinos should be liable for enticing a known compulsive gambler",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Thomas's acquittal proves that habit-driven acts are never the actor's responsibility",
+            "Bachmann was cleared because her gambling was caused by deeply ingrained habits",
+            "The court ruled casinos must stop enticing gamblers they know are compulsive"
+          ],
+          "explanation": "The rows sort by awareness and outcome. Bachmann knew her gambling habit existed and had once controlled it, so the court held her accountable and rejected her claim against Harrah's. Thomas could not have known his sleep-terror pattern existed, so automatism excused him. The chapter's principle is that knowing a habit exists creates the responsibility to change it."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "The Habit Loop in Angie Bachmann's Gambling",
+          "visual_frame_description": "A suburban living room in Iowa, mid-morning, where Angie Bachmann stands beside a kitchen counter with a paper taped over the clock. A habit-loop diagram floats nearby showing three bins labeled \"Cue,\" \"Routine,\" and \"Reward,\" and small scene cards show a riverboat casino, a blackjack table, and a family dinner.",
+          "player_mission": "Sort each element of Angie Bachmann's gambling into the part of the habit loop it represents: the cue, the routine, or the reward. Drag each scene card into the correct bin.",
+          "key_concepts": [
+            "Angie Bachmann's earliest gambling cue was boredom and an empty house after her youngest daughter started kindergarten.",
+            "The routine in her habit loop was driving to the riverboat casino and sitting down at the blackjack table.",
+            "The reward she chased was the feeling of being good at something and the escape from her anxieties.",
+            "After her parents died, emotional pain and loneliness became the cue that restarted her gambling years later.",
+            "Harrah's mailed coupons for free buffets, which acted as a cue inviting her back to the casino.",
+            "Her routine escalated until she was betting $400 a hand, two hands at a time, for hours.",
+            "The rush of winning and the fading of her grief and anxiety reinforced the loop as its reward.",
+            "On days she did not visit the casino she felt distracted or irritable, a sign the craving had taken hold.",
+            "Her play became so automatic that she did not think about whether to take another card or double her bet.",
+            "The most addicted alcoholics can become sober, and dysfunctional companies can transform, because habits are malleable."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests cue-routine-reward identification within a real habit loop. Duhigg shows that Angie Bachmann's gambling ran on the same cue-routine-reward machinery Squire and MIT researchers mapped, with emotional cues such as boredom, grief, and free-mail coupons driving an increasingly automatic routine that delivered relief and mastery as its reward.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "In Angie Bachmann's gambling habit loop, what does the initial pull to visit the casino on boring weekday mornings represent?",
+          "column_a_label": "Cue",
+          "column_b_label": "Routine",
+          "column_c_label": "Reward",
+          "rows": [
+            {
+              "label": "Boredom and an empty house after her youngest daughter started kindergarten",
+              "col": "a"
+            },
+            {
+              "label": "Driving to the riverboat and sitting at the blackjack table",
+              "col": "b"
+            },
+            {
+              "label": "The feeling of being skilled at something and escaping her anxieties",
+              "col": "c"
+            },
+            {
+              "label": "A Harrah's coupon for a free buffet arriving in the mail",
+              "col": "a"
+            },
+            {
+              "label": "Playing $400 a hand, two hands at a time, for hours",
+              "col": "b"
+            },
+            {
+              "label": "The rush of winning and the fading of her grief and anxiety",
+              "col": "c"
+            },
+            {
+              "label": "After her parents' deaths, the pain that made her say 'let's go to the casino'",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The reward comes first and triggers the cue in the loop",
+            "The routine is the emotional trigger that starts the craving",
+            "Cravings play no role in whether a habit loop continues"
+          ],
+          "explanation": "The rows sort by their role in the loop. Cues are the triggers, including boredom, loneliness, free coupons, and grief; the routine is the behavioral action of driving to the casino and playing; and the reward is the payoff of feeling skilled and escaping anxiety. The initial pull to gamble on boring mornings is a cue, and the craving it generates is what drives the routine."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Aristotle and James: Nature, Habit, and Instruction",
+          "visual_frame_description": "A candlelit 19th-century Harvard study where William James writes in his diary. On a mahogany desk sits an open copy of Aristotle's Nicomachean Ethics beside three parchment columns labeled \"Nature,\" \"Habit,\" and \"Instruction,\" with a stack of claim slips to be filed.",
+          "player_mission": "Sort each claim about how people become good into the source Aristotle names: nature, habit, or instruction. Then decide which route the chapter concludes reigns supreme.",
+          "key_concepts": [
+            "Aristotle wrote that some thinkers hold people become good by nature, others by habit, and others by instruction.",
+            "For Aristotle, habits reign supreme among the routes to becoming good.",
+            "The behaviors that occur unthinkingly are, for Aristotle, the evidence of our truest selves.",
+            "Aristotle said the mind of the pupil has to be prepared in its habits if it is to enjoy and dislike the right things.",
+            "William James argued that habits carry us irresistibly toward our destiny, for weal or woe.",
+            "James described habits as a sheet of paper or coat that, once folded, tends to fall forever afterward into the same folds.",
+            "Habits let people do a thing with difficulty the first time and then more easily until it becomes semi-mechanical.",
+            "James's 'first act of free will' was to believe in free will, an experiment he conducted for a year.",
+            "James concluded the will to believe is the most important ingredient in creating belief in change.",
+            "Once a choice becomes automatic, it starts to seem inevitable and bears us toward our destiny."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the book's intellectual grounding in Aristotle's three routes to goodness and William James's philosophy of habit. Duhigg reports that Aristotle concludes habits reign supreme because unthinking behavior reveals our truest selves, and that James built on this by arguing habits are the mechanism that makes chosen change inevitable.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Which route to becoming good does Aristotle conclude reigns supreme, in the passage Duhigg quotes from the Nicomachean Ethics?",
+          "column_a_label": "By nature",
+          "column_b_label": "By habit",
+          "column_c_label": "By instruction",
+          "rows": [
+            {
+              "label": "Aristotle's route he concludes reigns supreme: behaving well unthinkingly",
+              "col": "b"
+            },
+            {
+              "label": "A disposition or talent a person is born with",
+              "col": "a"
+            },
+            {
+              "label": "Knowledge a pupil is taught so the mind is prepared to like the right things",
+              "col": "c"
+            },
+            {
+              "label": "James's claim that habits carry us toward our destiny",
+              "col": "b"
+            },
+            {
+              "label": "Becoming good through direct teaching rather than practice",
+              "col": "c"
+            },
+            {
+              "label": "An inborn temperament that produces virtue without training",
+              "col": "a"
+            },
+            {
+              "label": "The idea that a sheet of paper once folded tends to fall into the same folds",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Aristotle concludes that nature alone determines whether people become good",
+            "Aristotle says instruction is unnecessary for forming character",
+            "Habit, for Aristotle, only makes bad behavior more automatic"
+          ],
+          "explanation": "The rows sort by the source of goodness each claim names. Nature refers to inborn disposition, instruction to explicit teaching, and habit to practiced, unthinking behavior. Aristotle concludes habit reigns supreme, and James extends the idea by arguing that practiced habits carry us toward our destiny and make chosen change automatic."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "The Brain-Stem Switch and Sleepwalking",
+          "visual_frame_description": "A sleep laboratory at night. Monitors show a polysomnogram with labeled traces for brain waves, eye movement, chin and leg muscles, nasal airflow, and oxygen levels. The patient is a middle-aged man who boiled water and made tea while asleep, and a wall clock marks the phases of sleep.",
+          "player_mission": "Study the sleep record and explain the mechanism behind the patient's sleepwalking. Then apply that understanding to advise his worried wife about preventing a dangerous nighttime wander.",
+          "key_concepts": [
+            "The brain stem paralyzes the limbs and nervous system during sleep so dreams are not acted out.",
+            "Within neurology this paralysis mechanism is known as the 'switch.'",
+            "Switching errors cause incomplete paralysis, leaving bodies active while people sleep.",
+            "Sleepwalkers can open their eyes, see, move, and perform complex tasks like driving or cooking.",
+            "Sleepwalkers have been known to boil water, make tea, operate a motorboat, and feed wood into an electric saw.",
+            "Even asleep there is an instinct to avoid peril, so sleepwalkers generally avoid dangerous actions.",
+            "Sleepwalking allows some participation by higher brain regions, unlike a sleep terror.",
+            "Brian Thomas's wife locked the door and slept with the keys under her pillow because of his sleepwalking.",
+            "The root cause of sleepwalking is an incomplete switch between sleep phases.",
+            "Wake and sleep are not mutually exclusive states, as the neurologist Mark Mahowald explained."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the brain-stem switch that normally keeps the body still during sleep and the switching errors that cause sleepwalking. Duhigg reports that switching errors leave the body active while the prefrontal cortex is asleep, enabling complex behavior with no conscious monitoring.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "The brain-stem switch is the mechanism that normally paralyzes the limbs during sleep; when switching errors occur, the body stays active and sleepwalking results, allowing complex behavior without conscious oversight.",
+          "stage_1_observation": "The polysomnogram shows the man transitioning between sleep phases at 2:14 a.m. His chin and leg muscle traces stay active during REM, his eyes are partially open on camera, and his brain waves show the prefrontal cortex quiet while he walks to the kitchen and boils water.",
+          "stage_1_question": "What mechanism most likely caused the patient to boil water and make tea while asleep?",
+          "stage_1_correct_answer": "A switching error in the brain stem left him in incomplete paralysis, so his body could carry out well-practiced behaviors like making tea while his prefrontal cortex remained asleep. This is the root cause of sleepwalking, not a deliberate act.",
+          "stage_2_intervention": "The patient's wife asks how to stop him from wandering toward the road at night. You must recommend a practical protection based on the chapter's evidence about sleepwalking behavior.",
+          "stage_2_correct_answer": "Lock the doors and keep the keys somewhere he cannot reach, exactly as Brian Thomas's wife did, because sleepwalkers follow practiced routes and an instinctive safety sense but cannot be reasoned with while their higher brain is offline. Environmental safeguards beat relying on his judgment."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Sleep Terrors and Central Pattern Generators",
+          "visual_frame_description": "A neurology clinic reviewing room. A wall screen shows side-by-side brain scans: a sleeping person in a sleep terror and a rat in Squire's lab running a maze for reward. Both scans light up the same primitive regions while the prefrontal cortex stays dark.",
+          "player_mission": "Compare the sleep-terror scan with the habit-loop scan and identify why the brain in a sleep terror cannot consciously stop itself. Then advise a family member about what intervention is and is not possible during an episode.",
+          "key_concepts": [
+            "During a sleep terror the brain shuts down except for the most primitive neurological regions.",
+            "These primitive regions include the central pattern generators that generate walking, breathing, flinching, and fighting patterns.",
+            "A brain experiencing a sleep terror looks very similar to a brain following a habit.",
+            "Because sleep deactivates the prefrontal cortex, a sleep terror habit cannot be overridden by logic or reason.",
+            "When fight-or-flight is cued by a sleep terror, there is no chance of conscious intervention.",
+            "People in sleep terrors are not dreaming in the normal sense and remember only images or raw emotions.",
+            "Responding to a threat by running or defending is a behavior everyone has practiced since infancy.",
+            "When primal emotions occur without higher-brain context, people follow whatever behavioral pattern is easiest to latch onto.",
+            "Sleepwalking seems to allow some choice and higher-brain participation, unlike a sleep terror.",
+            "People in sleep terrors have jumped off roofs and fought imagined attackers because the habit loop runs to completion."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests why a sleep terror cannot be consciously interrupted: the prefrontal cortex is deactivated, so central-pattern-generator habits run to completion. Duhigg reports that a sleep-terror brain resembles a habit-following brain, with primal behavioral patterns triggered by basic emotional cues and no higher cognition to stop them.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "Sleep terrors run on central pattern generators, the same primitive regions involved in the habit loop, while the prefrontal cortex is deactivated so no conscious override is possible once a primal cue triggers the behavior.",
+          "stage_1_observation": "The scans reveal that during the sleep terror the central pattern generators are active while the prefrontal cortex is dark. The sleeper's facial expression shows terror, and later he reports only a feeling of impending doom and a need to defend himself, with no memory of a story.",
+          "stage_1_question": "Why does the chapter say a sleep-terror brain looks similar to a brain following a habit, and why can't the sleeper stop?",
+          "stage_1_correct_answer": "Because both run automatic, deeply ingrained behavioral patterns without input from higher cognition. In a sleep terror the primal emotion acts as a cue that fires a habit loop, and since the prefrontal cortex is deactivated, there is no possibility of conscious intervention or logical override.",
+          "stage_2_intervention": "The sleeper's adult child asks whether calling his name or reasoning with him mid-episode will wake him and prevent the behavior. You must correct that belief using the chapter's evidence.",
+          "stage_2_correct_answer": "Reasoning will not work because the prefrontal cortex is deactivated during a sleep terror; the person reacts to a primal emotion cue and follows the habit until it completes. The realistic approach is to prevent the cue and the environment, not to argue the person out of it mid-episode."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Near Misses and the Gambling Brain",
+          "visual_frame_description": "A functional MRI suite where twenty-two volunteers lie in the scanner watching a slot machine screen with lucky 7s, apples, and gold bars. A split heat-map display shows brain regions flaring in pathological gamblers on near misses while staying calm in social gamblers. Reza Habib's notes are pinned beside the screen.",
+          "player_mission": "Interpret Habib's MRI data to explain why pathological gamblers keep betting after near misses. Then use that finding to craft advice for a friend who keeps losing to near misses at a casino.",
+          "key_concepts": [
+            "Reza Habib scanned twenty-two people watching a slot machine that produced wins, losses, and near misses, with no money at stake.",
+            "Pathological gamblers' emotion and reward regions were much more active when symbols lined up, even without real money.",
+            "To pathological gamblers, near misses looked like wins, and their brains reacted almost the same way.",
+            "To nonpathological gamblers, a near miss was like a loss, and their brains registered it as such.",
+            "People without a gambling problem were better at recognizing that a near miss means you still lose.",
+            "Habib hypothesized that the near-miss high is why problem gamblers gamble far longer than everyone else.",
+            "Nonproblem gamblers get a dose of apprehension from a near miss that triggers the habit to quit before it gets worse.",
+            "Slot machines have been reprogrammed to deliver a more constant supply of near wins.",
+            "Gamblers who keep betting after near wins are what make casinos, racetracks, and lotteries profitable.",
+            "A lottery consultant said adding a near miss to a lottery is like pouring jet fuel on a fire."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the near-miss effect documented in Habib's MRI research: pathological gamblers process near misses as wins in the reward circuitry, while nonproblem gamblers process them as losses. Duhigg reports the gaming industry exploits this by engineering near wins, because gamblers who keep betting after near misses drive casino profits.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "The near-miss effect is the finding that pathological gamblers' brains treat near misses almost like wins, lighting up reward circuitry, while nonproblem gamblers treat near misses as losses and are prompted to stop.",
+          "stage_1_observation": "In the scan data, both groups watch the same three outcome types. When the reels almost align, the pathological gamblers' basal ganglia and reward regions flare nearly as brightly as on an actual win, while the social gamblers' scans show the flat response of a loss.",
+          "stage_1_question": "According to Habib's study, how did pathological gamblers' brains respond to near misses compared with nonproblem gamblers' brains?",
+          "stage_1_correct_answer": "Pathological gamblers' emotion and reward regions fired almost as strongly for near misses as for wins, whereas nonproblem gamblers' brains processed a near miss like a loss. That difference explains why problem gamblers bet longer: the near miss triggers the habit that prompts another bet.",
+          "stage_2_intervention": "A friend tells you she lost $400 to scratch-off tickets tonight because she kept getting one symbol short of a win, so she 'almost had it.' You must give her advice grounded in Habib's findings.",
+          "stage_2_correct_answer": "Tell her a near miss still means she lost, and that recognizing it as a loss is exactly what lets nonproblem gamblers stop before it gets worse. Point out that lottery and slot designers deliberately engineer near wins because gamblers who keep betting after them are the source of casino and lottery profits."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "The Automatism Defense in Court",
+          "visual_frame_description": "A British courtroom during the trial of Brian Thomas. The prosecution's chief psychiatrist, Dr. Caroline Jacob, testifies on the stand while the defense table reviews sleep-lab records from Dr. Chris Idzikowski. The jury box is dim, and the head prosecutor is rising to address the court.",
+          "player_mission": "Follow the trial evidence and determine why the prosecution withdrew its case. Then apply the automatism standard to a new hypothetical defendant to decide when the defense succeeds.",
+          "key_concepts": [
+            "Brian Thomas was prosecuted for murder after strangling his wife during a night on a camping trip in Wales.",
+            "Sleep specialist Dr. Chris Idzikowski examined Thomas in the lab and in prison, measuring brain waves, eye movement, chin and leg muscles, and respiration.",
+            "Idzikowski found Thomas was asleep when he killed his wife and had not consciously committed a crime.",
+            "The prosecution's own chief psychiatrist, Dr. Caroline Jacob, testified Thomas could not have reasonably anticipated his crime.",
+            "The head prosecutor said Thomas's mind had no control over what his body was doing at the time of the killing.",
+            "The prosecution offered no further evidence and invited the jury to return a straight not-guilty verdict.",
+            "Automatism is the term for sleepwalking and other unconscious behaviors offered as a ground of innocence.",
+            "More than 150 murderers and rapists have escaped punishment in the past century using the automatism defense.",
+            "Thomas's lawyer argued he was reacting automatically to a perceived threat to protect a loved one.",
+            "A British soldier who raped a teenage girl while claiming he was asleep was found not guilty, and Jules Lowe was acquitted of killing his father during an alleged sleep terror."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the automatism defense, the claim that behavior performed without conscious awareness or control carries no legal responsibility. Duhigg reports that Thomas was acquitted after experts established his mind had no control over his actions, and that hundreds of defendants have used automatism successfully across a century of cases.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "Automatism is the legal defense that acts committed while unconscious or without conscious control, such as during a sleep terror, do not carry criminal responsibility because the mind never chose the behavior.",
+          "stage_1_observation": "The trial record shows Idzikowski's sleep studies, the psychiatrist's testimony that Thomas could not have anticipated the event, and the prosecutor's statement that the public interest no longer required a special verdict.",
+          "stage_1_question": "Why did the prosecution ultimately offer no further evidence and invite a not-guilty verdict in Thomas's case?",
+          "stage_1_correct_answer": "Because the combined expert evidence established that Thomas was asleep and his mind had no control over what his body was doing, so the killing was not a conscious choice. Under automatism, a mind with no control means no culpability.",
+          "stage_2_intervention": "A new defendant claims he committed an assault during a sleepwalking episode, but evidence shows he had been warned about his sleepwalking for years and had taken medication to stop it. You must decide whether the automatism standard, as the chapter applies it, excuses him.",
+          "stage_2_correct_answer": "His defense is weaker than Thomas's because the chapter's principle is that awareness matters: Thomas could not have known his pattern existed, whereas someone repeatedly warned about sleepwalking knows the habit exists and, once they know, has the responsibility to manage it. Automatism fits unconscious acts the person could not anticipate, not habits they knew about and could have addressed."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Voluntary Exclusion and Responsibility",
+          "visual_frame_description": "The state supreme court's chamber. A clerk reads the court's opinion holding Angie Bachmann responsible for her gambling losses, and a document titled \"Voluntary Exclusion Program\" sits on the rail. Behind the bench, a graphic shows a person adding their name to a list that bars them from casinos.",
+          "player_mission": "Decode the court's reasoning for rejecting Bachmann's claim against Harrah's. Then translate that logic into practical guidance for a client who knows they have a gambling habit.",
+          "key_concepts": [
+            "Harrah's sued Bachmann to collect the $125,000 in promissory notes she signed, plus $375,000 in penalties.",
+            "Bachmann countersued, arguing Harrah's had preyed on someone it knew had no control over her habits.",
+            "The state supreme court ruled there is no common-law duty obligating a casino to refrain from enticing gamblers it knows are compulsive.",
+            "Justice Robert Rucker noted the state had a voluntary exclusion program requiring casinos to bar anyone who added their name to the list.",
+            "The court reasoned the voluntary exclusion program shows the legislature intended pathological gamblers to take personal responsibility to protect themselves.",
+            "Bachmann had earlier controlled her gambling with strict rules, including only gambling what was in her wallet.",
+            "Bachmann moved to Tennessee, where casino gambling was illegal, to live away from reminders of feeling out of control.",
+            "Bachmann changed her phone numbers and did not tell casinos her new address because it felt safer.",
+            "The chapter's principle is that once you know a habit exists, you have the responsibility to change it.",
+            "The most addicted alcoholics can become sober, and the most dysfunctional companies can transform, because habits are malleable."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the legal and ethical principle that knowing a habit exists creates the responsibility to change it. Duhigg reports that the court held Bachmann accountable because a voluntary exclusion program existed, shifting the duty of protection from the casino to the gambler who knows her own compulsion.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "The responsibility principle holds that a habit the person knows about is theirs to change, so the law can demand they use available tools such as voluntary exclusion instead of blaming the party who enticed them.",
+          "stage_1_observation": "The court record shows Bachmann's countersuit alleging Harrah's preyed on her compulsion, and the state's voluntary exclusion program, which allowed any gambler to place their own name on a list requiring casinos to bar them.",
+          "stage_1_question": "Why did the state supreme court reject Bachmann's argument that Harrah's should be liable for enticing her to gamble?",
+          "stage_1_correct_answer": "Because the court found no common-law duty obligating a casino to refrain from enticing gamblers it knows are compulsive, and because the voluntary exclusion program put the protective duty on the gambler: the legislature intended pathological gamblers to take personal responsibility to prevent and protect themselves.",
+          "stage_2_intervention": "You are a counselor advising a client who knows they gamble compulsively and has lost heavily. Using the court's logic and the chapter's principle, recommend the single most direct protective step.",
+          "stage_2_correct_answer": "Have the client join the voluntary exclusion program so casinos are required to bar them, and back it up with practical distance (as Bachmann did by moving where gambling was illegal and changing her phone numbers). Since the client knows the habit exists, the responsibility to change it is theirs, and concrete barriers like exclusion lists are the chapter-supported tool."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "The Players' Lounge: Emotional Cues at the Casino",
+          "visual_frame_description": "Inside a casino's players' lounge, velvet chairs and low lighting. Angie Bachmann, visibly tired, sits across from a friendly casino manager in a crisp suit. Drinks sit on the table, and behind the manager a wall of security screens shows the blackjack floor. The manager leans forward with an attentive, sympathetic smile.",
+          "player_mission": "Play Angie Bachmann during the conversation in the players' lounge. Decide what to reveal and what to accept, knowing the manager is trained to encourage guests to share details about their lives so the casino can predict how much they will spend.",
+          "key_concepts": [
+            "Harrah's used predictive algorithms to assign gamblers a 'predicted lifetime value' and calendar their visits and spending.",
+            "The casino tracked customers through loyalty cards and mailed coupons for free meals and cash vouchers.",
+            "Casino employees were trained to encourage visitors to discuss their lives in the hope they would reveal how much they could gamble with.",
+            "One Harrah's executive called the approach 'Pavlovian marketing.'",
+            "Harrah's knew Bachmann had declared bankruptcy and owed $20,000 in gambling debts, yet still courted her with free limos and flights.",
+            "After her parents died, Bachmann's grief and loneliness became the emotional cue that pulled her back to gambling.",
+            "Bachmann later said the casino's small temptations made it feel like she couldn't say no and her brain would shut off.",
+            "The reward she sought was the fading of anxiety and the feeling of being skilled at something.",
+            "Harrah's ran thousands of tests each year to perfect its customer-tracking methods.",
+            "The manager was a good listener, and it felt good to finally say everything she had been thinking."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests how companies engineer cues to exploit vulnerable habit loops, which Harrah's executives dubbed 'Pavlovian marketing.' Duhigg reports that trained listeners and free perks were data-gathering and trigger-engineering tools that re-activated Bachmann's gambling habit during a moment of emotional vulnerability.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "scenario_setup": "Angie Bachmann has just lost both parents and is exhausted and grieving. A casino manager she knew from years as a regular invites her into the players' lounge and listens sympathetically. She is desperate for relief and for someone to talk to, but every detail she shares and every perk she accepts feeds the casino's predictive system. Goal: protect herself without being rude or triggering a relapse. Stakes: a single yes to a free offer can restart a loop that once cost her hundreds of thousands of dollars.",
+          "dialogue": [
+            "Manager: Angie! It's so good to see you again. You look tired, honey. How have you been?",
+            "Angie: Honestly? Not great. I just lost both my parents. I don't really know what to do with myself.",
+            "Manager: Oh, I'm so sorry. That's terrible. Listen, you've always been one of our favorite people. Why don't you let us take care of you tonight? Free dinner, a nice suite, comped drinks.",
+            "Angie: That's really kind. It's just... I've been trying so hard not to come back here.",
+            "Manager: I understand. And there's no pressure at all. I just hate seeing a friend hurting. Tell me, how are the girls doing? And how's the house situation in Tennessee working out?",
+            "Angie: (to herself) They're asking about the inheritance. He knows about the money."
+          ],
+          "choices": [
+            "Thank him politely, decline the suite and drinks, share only a neutral detail about your day, and leave the lounge before the conversation turns to your finances and grief.",
+            "Pour out everything about your parents, the inheritance, and how alone you feel, because it feels so good to finally talk to someone who listens.",
+            "Accept the free dinner and suite because it's free and you deserve one nice night after everything you've been through.",
+            "Ask the manager directly how much line of credit he can extend tonight, since you know you'll want to play after dinner."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Emotional cues and Pavlovian marketing: companies engineer triggers and rewards to keep vulnerable people inside their habit loops.",
+          "psychological_breakdown": "The optimal choice works because it denies the casino the emotional and financial data its predictive system needs, and it breaks the cue-routine chain before the free perks can act as the next cue. Sharing grief and the inheritance hands the tracker exactly the information that lets it calibrate future invitations, accepting the suite commits Bachmann to staying on the property, and asking about credit jumps straight into the routine. Duhigg shows Harrah's trained listeners precisely to extract this information, and Bachmann's later line that she 'couldn't say no' shows how effective that engineering was.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          }
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Debating the Fairness of Two Verdicts",
+          "visual_frame_description": "A quiet coffee shop after a book club meeting. Two friends, Priya and Daniel, sit across a small table with a copy of The Power of Habit between them. Priya wears a gray sweater and is animated; Daniel holds his coffee cup and looks skeptical. A laptop showing news headlines about the two verdicts rests at the edge of the table.",
+          "player_mission": "Play Priya in a debate about whether society was fair to treat Brian Thomas and Angie Bachmann differently. Argue using the chapter's responsibility principle, and pick the position that matches the book's actual reasoning rather than a gut reaction.",
+          "key_concepts": [
+            "Thomas was acquitted of murder because he was asleep and his mind had no control over his body.",
+            "Bachmann was held accountable because she was aware of her habit and had once controlled it.",
+            "The chapter argues it is fair they were treated differently: Thomas never knew the patterns that drove him existed.",
+            "Bachmann, on the other hand, was aware of her habits, and once you know a habit exists you have the responsibility to change it.",
+            "Automatism excuses behavior done without conscious awareness or control.",
+            "The voluntary exclusion program shows the legislature intended gamblers to protect themselves.",
+            "Bachmann moved to a state without legal gambling and changed her phone numbers to escape her triggers.",
+            "Emotional pain after her parents' deaths became a cue that reactivated her habit years later.",
+            "Habits are malleable if you understand how they function, which is why awareness creates responsibility.",
+            "The most addicted alcoholics can become sober, showing habits can be changed even under great temptation."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the chapter's central ethical claim that awareness of a habit creates responsibility to change it. Duhigg argues the differing outcomes for Thomas and Bachmann are fair because Thomas could not have known his sleep-terror pattern existed, while Bachmann knew hers and could have used tools like voluntary exclusion.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "scenario_setup": "Priya and Daniel just read the chapter about the neurology of free will. Daniel insists it is unfair that a sleepwalking murderer walked free while a housewife who gambled was held liable for a civil debt. Priya must defend or correct Daniel's position using the chapter's actual argument. Goal: produce the reasoning the book supports. Stakes: each must decide whether society's distinction is just.",
+          "dialogue": [
+            "Daniel: I can't get past it. Thomas killed his wife and walked free. Bachmann just gambled away money and she's the one in debt to her name.",
+            "Priya: But the chapter says the difference is awareness, not the size of the harm.",
+            "Daniel: Awareness? He knew he sleepwalked. That's the same as knowing you gamble.",
+            "Priya: Not quite. He knew he sleepwalked, but there was nothing to suggest he might kill in his sleep—he had never hurt anyone before.",
+            "Daniel: And Bachmann couldn't control herself either. She even moved to a state where gambling was illegal to get away from it.",
+            "Priya: Exactly, and that's the point. She knew the habit existed. That's what makes the difference."
+          ],
+          "choices": [
+            "Argue that Bachmann had no real choice either, so holding her liable while freeing Thomas is pure luck of sympathy, not principle.",
+            "Defend the distinction: Thomas could not have known the pattern existed, while Bachmann knew hers and had tools like the voluntary exclusion program to change it, so once you know a habit exists you are responsible for it.",
+            "Concede both were automatons and argue society should forgive both debts and crimes because no one truly chooses their habits.",
+            "Argue that only the size of the harm should matter, so Thomas should have been punished and Bachmann forgiven."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Awareness-based responsibility: knowing a habit exists creates both the freedom and the duty to change it.",
+          "psychological_breakdown": "The optimal choice matches the chapter's own conclusion: Thomas never knew the patterns that drove him to kill existed, so he could not be expected to master them, while Bachmann was aware of her habit and even relocated to escape it, which is exactly the awareness that creates responsibility. Choices about pure sympathy or harm-size contradict the book's stated reasoning, and forgiving both collapses the distinction Duhigg explicitly defends between unknowable automatism and a known habit.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          }
+        }
+      ]
+    }
+  ]
+}

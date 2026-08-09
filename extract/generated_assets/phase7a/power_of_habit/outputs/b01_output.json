@@ -1,0 +1,370 @@
+{
+  "spec_file": "spec_power_of_habit_b01.json",
+  "chapters": [
+    {
+      "id": "ch05",
+      "title": "Prologue: The Habit Cure",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Keystone Habit vs. Spillover Change vs. Craving Signal",
+          "visual_frame_description": "A research laboratory outside Bethesda, Maryland. On a wall-sized monitor, brain-scan slices of Lisa Allen glow: a reddish cluster near the center of her brain and a bright band near her forehead. In the foreground, three labeled sorting columns hover over an evidence table, and the player drags glowing evidence chips into the correct category before the study team logs the session.",
+          "player_mission": "Sort each piece of evidence into the correct column: keystone habit, spillover change, or craving signal. Read each evidence chip drawn from Lisa Allen's case and classify all six correctly before the lab session timer runs out.",
+          "key_concepts": [
+            "Lisa Allen started smoking and drinking when she was sixteen and struggled with obesity for most of her adult life.",
+            "By focusing on changing just one habit, smoking, Lisa taught herself how to reprogram the other routines in her life, a pattern researchers called a keystone habit.",
+            "Lisa's smoking was replaced by jogging, which in turn changed how she ate, worked, slept, saved money, and planned for the future.",
+            "Brain scans showed the regions near the center of Lisa's brain, associated with craving and hunger, still active when she saw food years after her habits changed.",
+            "Scans also showed new activity in the region near her forehead, believed to be where behavioral inhibition and self-discipline start, growing more pronounced with each visit.",
+            "As Lisa's habits changed, so had her brain: one set of neurological patterns, her old habits, had been overridden, though not erased, by new patterns.",
+            "The scientists concluded the Cairo trip itself did not cause the change; it was that Lisa had focused on changing just one habit first.",
+            "Companies such as Procter & Gamble, Starbucks, Alcoa, and Target have seized on the keystone-habit insight to influence how work gets done and how customers shop."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This matrix tests the keystone-habit mechanism: a single focused habit change can cascade into widespread change across other routines, as it did for Lisa Allen. The chapter grounds this in brain scans showing old craving patterns overridden rather than erased, and in the claim that individuals and whole organizations transform by focusing on one pattern.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Scientists studied Lisa Allen and more than two dozen other people who had remade their lives. Which column does each piece of evidence sort into?",
+          "column_a_label": "Keystone habit (a single focused change)",
+          "column_b_label": "Spillover change (a routine that shifted because of the keystone)",
+          "column_c_label": "Craving signal (a neural urge that persisted)",
+          "rows": [
+            {
+              "label": "Lisa decided to quit smoking because she believed she had to, to survive her planned desert trek",
+              "col": "a"
+            },
+            {
+              "label": "After quitting cigarettes, Lisa started jogging, then running half-marathons",
+              "col": "b"
+            },
+            {
+              "label": "Lisa began saving money, sleeping better, and planning for the future",
+              "col": "b"
+            },
+            {
+              "label": "Brain scans showed regions near the center of her brain, tied to craving and hunger, still active when she saw food",
+              "col": "c"
+            },
+            {
+              "label": "New activity near her forehead, believed to be the seat of behavioral inhibition and self-discipline, strengthened each visit",
+              "col": "c"
+            },
+            {
+              "label": "By focusing on one pattern, Lisa taught herself to reprogram the other routines in her life",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Old neural impulses were crowded out by new urges, so the original habit patterns vanished completely",
+            "The trip to Cairo itself caused the change, so keystone habits only apply to major life events",
+            "Only individuals, never companies or communities, can experience keystone-habit cascades"
+          ],
+          "explanation": "Lisa's smoking was her keystone habit, the one pattern she focused on first, so evidence about her quitting decision sorts to column a. Jogging, saving, and scheduling were spillover changes that radiated outward once the keystone shifted, sorting to column b. The active craving regions and the strengthening prefrontal inhibition are neural signals the researchers observed, not habits themselves, so they sort to column c; the scans showed old patterns overridden, not erased."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Deliberate Decision vs. Automatic Habit vs. Craving-Driven Urge",
+          "visual_frame_description": "A split-screen kitchen and office scene at dawn. On the left, a half-asleep woman walks past a kitchen counter and mechanically picks up a doughnut; on the right, a man ties his left shoe before his right without looking. Overhead, a floating ledger displays a Duke University study figure, and three sorting columns wait for the player's classifications.",
+          "player_mission": "Classify six everyday actions as deliberate decisions, automatic habits, or craving-driven urges. Use the chapter's distinction between behaviors chosen deliberately and behaviors that run without thinking to place each action in the right column.",
+          "key_concepts": [
+            "William James wrote in 1892 that all our life, so far as it has definite form, is but a mass of habits.",
+            "Most of the choices people make each day feel like products of well-considered decision making, but they are actually habits.",
+            "A 2006 paper published by a Duke University researcher found that more than 40 percent of the actions people performed each day were not actual decisions, but habits.",
+            "Habits are defined as the choices we deliberately make at some point, and then stop thinking about but continue doing, often every day.",
+            "Each habit means relatively little on its own, but over time the meals we order and how often we exercise have enormous impacts on health, productivity, and financial security.",
+            "The morning routine, showering, checking email, grabbing a doughnut, and tying shoes in a fixed order, is presented as a chain of automatic behaviors.",
+            "The doctor told Lisa Allen that she was helping the researchers understand how a decision becomes an automatic behavior.",
+            "The military relies on endlessly rehearsed routines so that every command draws on behaviors practiced to the point of automation."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This matrix tests the automaticity of habits: behaviors that were once deliberate choices become routines we run without thinking. The chapter grounds this in William James's 1892 observation that life is a mass of habits and a 2006 Duke University finding that over 40 percent of daily actions are habits, not decisions.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "A 2006 Duke University study found that more than 40 percent of the actions people performed each day were not actual decisions but habits. Classify each everyday action.",
+          "column_a_label": "Deliberate decision (an active, well-considered choice)",
+          "column_b_label": "Automatic habit (done without thinking, no longer a choice)",
+          "column_c_label": "Craving-driven urge (a compulsive pull before the behavior)",
+          "rows": [
+            {
+              "label": "Choosing a graduate program after researching schools, finances, and career plans",
+              "col": "a"
+            },
+            {
+              "label": "Driving the same route to work while mentally planning the day",
+              "col": "b"
+            },
+            {
+              "label": "Tying the left shoe before the right shoe without noticing",
+              "col": "b"
+            },
+            {
+              "label": "Reaching for a cigarette in a dark hotel room before realizing the object is a pen",
+              "col": "c"
+            },
+            {
+              "label": "Deciding to buy a house after comparing neighborhoods and mortgage rates",
+              "col": "a"
+            },
+            {
+              "label": "Grabbing a doughnut from the kitchen counter while walking past on the way to the bathroom",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Habits and decisions are the same thing, so the 40 percent figure has no practical meaning",
+            "Every automatic habit produces a visible craving before it occurs",
+            "People run habits only when they are under stress or pressure"
+          ],
+          "explanation": "The chapter argues that most choices feel like well-considered decisions but are actually habits: actions we once chose consciously and then stopped thinking about. A routine executed without deliberation, like the doughnut grab or the fixed shoe order, sorts to column b, while a researched life decision sorts to column a and a compulsive pull before the behavior, like reaching for a cigarette before recognizing a pen, sorts to column c."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Habit Change at Individual, Organizational, and Community Scale",
+          "visual_frame_description": "Three panels side by side. Left: Lisa Allen jogging at dawn past a graphic design studio. Center: a Starbucks counter where a manager coaches a young barista, with a faint Alcoa logo glowing behind them. Right: a dusty Iraqi plaza near the Masjid al-Kufa where a crowd mills around empty spaces where kebab stands used to be. The player routes evidence chips across the three panels.",
+          "player_mission": "Route each evidence chip to the correct panel: individual, organizational, or community habit change. Distinguish the personal cascade, the corporate transformation, and the crowd-level experiment before the assignment is due.",
+          "key_concepts": [
+            "Lisa Allen is presented as an individual who remade her habits after focusing on quitting smoking.",
+            "The chapter claims firms such as Starbucks and Alcoa have seized on habit insights to transform how work gets done and how employees communicate.",
+            "The army major in Kufa argued that a community is a giant collection of habits occurring among thousands of people.",
+            "After food vendors were kept out of Kufa's plazas, a gathering crowd dissipated by 8 p.m., with spectators leaving and chanters becoming dispirited.",
+            "Starbucks is described as turning a high school dropout into a top manager by instilling habits designed to strengthen his willpower.",
+            "The major launched dozens of different experiments in Kufa to influence residents' habits, and there had been no riot since he arrived.",
+            "Violence in Kufa was usually preceded by a crowd gathering in a plaza and growing over several hours, with food vendors and spectators appearing before someone threw a rock.",
+            "The chapter's second part examines the habits of successful companies and organizations, including Alcoa and Starbucks."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This matrix tests the claim that habit change operates at multiple scales, individual, organizational, and community, yet obeys the same logic of focusing on patterns. The chapter supports this with Lisa Allen's personal transformation, the corporate examples of Starbucks and Alcoa, and the army major's crowd experiments in Kufa, Iraq.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "The chapter shows habits operating at three scales. Sort each example into the correct column.",
+          "column_a_label": "Individual habit change (a person remakes one life)",
+          "column_b_label": "Organizational habit change (a company or institution transforms)",
+          "column_c_label": "Community habit change (a crowd or culture shifts)",
+          "rows": [
+            {
+              "label": "Lisa Allen replaces smoking with jogging and remakes her finances, sleep, and career",
+              "col": "a"
+            },
+            {
+              "label": "The army major removes kebab vendors from Kufa's plazas to defuse gathering crowds",
+              "col": "c"
+            },
+            {
+              "label": "Starbucks instills habits designed to strengthen a high school dropout's willpower, turning him into a top manager",
+              "col": "b"
+            },
+            {
+              "label": "Alcoa's focus on a keystone habit helps transform how the company works, per the book's plan",
+              "col": "b"
+            },
+            {
+              "label": "Lisa reprograms her eating, saving, and scheduling because of the one habit she changed first",
+              "col": "a"
+            },
+            {
+              "label": "In Kufa, a crowd's spectators and chanters dispersed by evening once the food vendors were gone",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Organizations cannot change habits; only individual people can",
+            "The Kufa experiment worked because the major added more food vendors to the plazas",
+            "Lisa's change had no effect on her brain because habits reside only in outward behavior"
+          ],
+          "explanation": "The chapter presents a community as a giant collection of habits and claims both individuals and organizations can transform by focusing on habit change. Evidence about one person's cascade of change sorts to column a, corporate examples like Starbucks and Alcoa sort to column b, and the crowd-level Kufa experiment sorts to column c."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "The Keystone Cascade",
+          "visual_frame_description": "A three-phase battle arena. Phase one: a dark Cairo hotel room with a lit pen in Lisa's hand instead of a cigarette. Phase two: a taxi window framing the Sphinx while a timeline stretches ahead labeled one year. Phase three: a boss character made of glowing habit chains, each link labeled smoking, jogging, saving, sleep, and career; the player's attacks target one glowing keystone link to shatter the chain.",
+          "player_mission": "Defeat the Keystone Cascade by first recognizing which single pattern triggered Lisa's transformation, then choosing the intervention that protects the keystone habit so the whole chain of routines stays transformed.",
+          "key_concepts": [
+            "Lisa decided to quit smoking because she believed she had to in order to survive her planned desert trek.",
+            "The scientists concluded the Cairo trip itself did not cause the change; it was that Lisa had focused on changing just one habit at first.",
+            "By focusing on one pattern, a keystone habit, Lisa taught herself how to reprogram the other routines in her life.",
+            "Over the next six months Lisa replaced smoking with jogging, which changed how she ate, worked, slept, and saved.",
+            "She went on to run half-marathons, then a marathon, go back to school, buy a house, and get engaged.",
+            "Brain scans showed her old habit patterns overridden by new ones; the old impulses were crowded out by new urges.",
+            "Everyone in the NIH study had remade their lives in relatively short periods and had gone through a similar process of focused change.",
+            "Habit change, the chapter claims, radiates out from a single keystone to every part of a life."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the keystone-habit mechanism: transforming one central pattern triggers widespread change in other routines. The chapter grounds this in Lisa Allen's case, where focusing on quitting smoking rewired everything from her exercise to her finances, and in the claim that companies like Alcoa transform through a single keystone habit.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "The keystone habit: focusing on one pattern first lets a person reprogram the other routines in life, because the change radiates outward from that single pattern.",
+          "stage_1_observation": "The scene opens in a Cairo hotel room at dawn. Lisa Allen, jet-lagged and heartbroken after her divorce, reaches for a cigarette in the dark and tries to light a pen. She has spent four months crying, binge eating, and feeling ashamed and angry. Later, riding in a taxi toward the Sphinx, she decides to come back to Egypt and trek the desert, giving herself one year to prepare. To survive, she concludes, she will have to quit smoking.",
+          "stage_1_question": "The scientists concluded that neither the Cairo trip, nor the divorce, nor the desert trek caused Lisa's transformation. What, in their view, actually touched off the chain of changes?",
+          "stage_1_correct_answer": "Lisa had focused on changing just one habit, smoking, at first; the keystone habit then carried the other routines in her life along with it.",
+          "stage_2_intervention": "Six months after quitting, Lisa still craves a cigarette, and her eating and savings routines are beginning to wobble. The researchers offer you three intervention plans. Choose the one most consistent with the keystone-habit mechanism described in the chapter.",
+          "stage_2_correct_answer": "Anchor the single keystone change, smoking replaced by jogging, so the cascade of sleep, saving, and scheduling improvements stays stable, rather than trying to fix every wobbling routine at once."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "From Decision to Automatic Behavior",
+          "visual_frame_description": "A cinematic kitchen-to-battlefield montage. Left: a doughnut grab and a left-shoe-first step at dawn. Right: a boot-camp drill field where soldiers rehearse loading, shooting, and radio calls until the motions are fluid. A towering boss labeled The Decision dissolves into a machine that runs the same routine automatically, while William James's 1892 quote flickers overhead.",
+          "player_mission": "Beat the Automation boss by identifying why routines run without deliberation and by selecting the training method that converts a conscious decision into an automatic behavior for troops under fire.",
+          "key_concepts": [
+            "Habits are the choices all of us deliberately make at some point, and then stop thinking about but continue doing, often every day.",
+            "William James wrote in 1892 that all our life, so far as it has definite form, is but a mass of habits.",
+            "A 2006 Duke University study found that more than 40 percent of the actions people performed each day were not actual decisions, but habits.",
+            "The morning routine, shower, email, doughnut, shoe order, and route to work, is presented as automatic behavior rather than fresh decision making.",
+            "The U.S. military is described as one of the biggest habit-formation experiments in history, training soldiers in carefully designed habits for shooting, thinking, and communicating under fire.",
+            "Every command issued on the battlefield draws on behaviors practiced to the point of automation.",
+            "The doctor told Lisa Allen she was helping the researchers understand how a decision becomes an automatic behavior.",
+            "Over time, the meals we order and how often we exercise have enormous impacts on our health, productivity, and happiness."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the conversion of a decision into an automatic behavior: habits are choices we once made deliberately and then stopped thinking about. The chapter grounds this in William James's mass of habits line, the 2006 Duke finding that over 40 percent of daily actions are habits, and the military's endlessly rehearsed routines.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "Habit formation converts a once-conscious decision into an automatic behavior that runs without deliberation, often triggered by context, so daily life is largely a mass of habits rather than fresh choices.",
+          "stage_1_observation": "You stand in a breakfast kitchen at 6:40 a.m. A woman walks past a counter and grabs a doughnut without looking, then showers, ties her left shoe before her right, and takes a familiar route to work. William James's 1892 line hangs on the wall: all our life, so far as it has definite form, is but a mass of habits. A researcher tells Lisa Allen: you are helping us understand how a decision becomes an automatic behavior.",
+          "stage_1_question": "Why does the chapter describe most of the morning routine as habits rather than decisions?",
+          "stage_1_correct_answer": "Because these are behaviors people consciously chose at some point, then stopped thinking about, and a 2006 Duke University study found more than 40 percent of daily actions are habits, not actual decisions.",
+          "stage_2_intervention": "A military commander must make a unit's response to a roadside ambush run automatically even when soldiers are exhausted and overwhelmed. Which approach, consistent with the chapter, converts the decision into an automatic behavior?",
+          "stage_2_correct_answer": "Drill the behavior in basic training and endlessly rehearsed routines until it is practiced to the point of automation, so commands draw on automatic responses under fire."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "The Crowd as a Habit Machine",
+          "visual_frame_description": "A tactical sand-table view of Kufa at dusk. Tiny figures gather around the Great Mosque; kebab stands blink out of existence, and the crowd thins and disperses. Beside the table, the major spits sunflower seeds into a cup while videotape timestamps play. A boss shaped like a swirling crowd of tiny figures waits for the player's interruption move.",
+          "player_mission": "Defeat the Crowd Machine by explaining why removing the food vendors dissolved the gathering, then pick the habit-based intervention that interrupts escalation in a second district without removing the vendors entirely.",
+          "key_concepts": [
+            "Violence in Kufa was usually preceded by a crowd gathering in a plaza and growing in size over the course of several hours.",
+            "Food vendors would show up in the plaza, along with spectators, before someone threw a rock or a bottle.",
+            "After the mayor kept food vendors out, a crowd near the Great Mosque of Kufa dispersed: spectators left, chanters became dispirited, and by 8 p.m. everyone was gone.",
+            "The major saw a community as a giant collection of habits that could result in violence or peace depending on how it was influenced.",
+            "The major had launched dozens of different experiments in Kufa to influence residents' habits, and there had been no riot since he arrived.",
+            "He was drilled in the psychology of habit formation at boot camp, including maintaining focus amid the chaos of battle.",
+            "The major learned the importance of organizational habits so subordinates could make decisions without constantly asking permission.",
+            "The chapter presents the U.S. military as one of the biggest habit-formation experiments in history."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the idea that community behavior runs on shared habits: a crowd's escalation follows a predictable routine that can be interrupted at one link. The chapter grounds this in the Kufa experiment, where removing food vendors dissolved gathering crowds, and in the major's claim that a community is a giant collection of habits that can yield to analysis and influence.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "A community is a giant collection of habits: crowds escalate through predictable routines, and altering one element in the chain can defuse the whole pattern, as removing the food vendors did in Kufa.",
+          "stage_1_observation": "You sit beside an army major from Georgia in a base near Kufa, Iraq, watching videotape. The tape shows violence always preceded by a crowd gathering in a plaza and growing over several hours, with food vendors and spectators arriving, and then someone throwing a rock or a bottle. The major had asked Kufa's mayor to keep food vendors out of the plazas.",
+          "stage_1_question": "When a crowd gathered near the Great Mosque of Kufa without the kebab sellers, what happened, and why did the major's analysis treat it as a habit pattern?",
+          "stage_1_correct_answer": "The spectators left, the chanters became dispirited, and by 8 p.m. everyone was gone, because the food ritual was part of the crowd's routine; the major treated a community as a giant collection of habits.",
+          "stage_2_intervention": "A nearby district asks for advice: its plaza markets attract crowds that occasionally turn violent, but the vendors are popular and removing them outright would cause backlash. Which intervention best follows the major's habit-based method?",
+          "stage_2_correct_answer": "Identify the specific cue or routine that lets the crowd escalate, the food-and-spectator ritual, and alter that element of the chain through timing, layout, or availability, rather than attacking the violence itself."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Coaching a Keystone Change",
+          "visual_frame_description": "A warm Portland coffee shop at dusk. Priya sits across from you, hands wrapped around a cold latte, a notebook of problems spread on the table. Behind her, a window fades into a montage of Lisa Allen jogging, then into a graphic of habit chains radiating from a single glowing link. The player's dialogue options appear as thought bubbles above the table.",
+          "player_mission": "Coach Priya through the conversation so she leaves with one clear keystone habit and a concrete replacement routine, steering her away from overwhelm, guesswork, and willpower-only promises.",
+          "key_concepts": [
+            "Researchers found that everyone in the study had remade their lives in relatively short periods by focusing on changing just one habit at first.",
+            "By focusing on one pattern, a keystone habit, Lisa taught herself how to reprogram the other routines in her life.",
+            "Replacing smoking with jogging changed how Lisa ate, worked, slept, saved money, and planned for the future.",
+            "Habits are choices we deliberately make at some point and then stop thinking about but continue doing, often every day.",
+            "Brain scans showed Lisa's old habit patterns overridden by new ones as her habits changed.",
+            "The chapter claims transforming a habit is not necessarily easy or quick, but it is possible.",
+            "Lisa needed a goal to work toward, and her decision to trek the desert gave her a reason to make sacrifices.",
+            "The morning routine in the chapter shows that much of daily behavior runs automatically once choices become habits."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This simulation tests the keystone-habit mechanism: transforming one central pattern triggers a cascade of change across other routines, as Lisa Allen's case demonstrates. The chapter's evidence, that study participants remade their lives by focusing on one pattern first, grounds the optimal coaching move.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "scenario_setup": "You are an old friend of Priya, a 32-year-old graphic designer in Portland. After a painful breakup, she has spent four months binge eating at night, drinking most evenings, sleeping poorly, and calling in sick at work. She asked you to meet her at a coffee shop to talk about getting her life back. Your goal is to help her see how to start, using what the chapter teaches about keystone habits and how a decision becomes an automatic behavior. The stakes are high: a single misstep in the conversation could send her back to resignation.",
+          "dialogue": [
+            "Priya: I know I have to fix everything, my health, my savings, my job, my mood. I just don't know where to begin, and honestly the list makes me want to give up.",
+            "You: Start small. You don't fix a life in one weekend. What's the one thing that, if it changed, would make everything else feel easier?",
+            "Priya: Maybe quitting the evening drinking? But then I'd have nothing to unwind with, and I'd lie in bed thinking about him.",
+            "You: That's exactly the point. If drinking is the keystone, replacing it with something concrete, like a short run, might pull sleep, eating, and even your mornings along with it.",
+            "Priya: So I pick one habit, change it, and the rest just follows? That sounds too good to be true.",
+            "You: That's what the science suggests. People who remade their lives tended to focus on one pattern first, and the change radiated out to their other routines.",
+            "Priya: Okay. So which habit should it be?"
+          ],
+          "choices": [
+            "Let's build a ranked list of all five problems and fix them in order of importance, one week at a time.",
+            "Pick the one habit you believe will carry the others along, commit to replacing it with a concrete routine, and protect that single change first.",
+            "Ignore habits entirely. Tonight, just use sheer willpower to refuse the drink and see if you feel better tomorrow.",
+            "Start with your diet, since food controls your energy, and add the rest once your eating is under control."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Keystone habit (focused change on one pattern reprograms other routines)",
+          "psychological_breakdown": "Choice 1 mirrors Lisa Allen's path: the chapter concludes the study's participants remade their lives by focusing on one keystone habit first, letting the change radiate to sleeping, eating, saving, and career. It also fits the definition of habits as choices we make and then stop thinking about, so Priya needs a concrete replacement routine, not a vague vow. Choice 0 overwhelms her with the same long list that drove her to resignation, choice 2 treats change as a one-night willpower contest even though the chapter shows habits persist automatically, and choice 3 picks a habit on a guess rather than on which pattern is actually central, which the chapter gives no basis for assuming."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Persuading the Data Skeptic",
+          "visual_frame_description": "A glass-walled conference room at 9 a.m., a whiteboard covered with a bar chart labeled daily actions: decisions vs. habits. Dana stands at the far end with her arms crossed; the director taps a pen. A faint supermarket aisle renders in the window, shoppers moving in repeated patterns, as the player's dialogue options float over the table.",
+          "player_mission": "Win the budget by persuading Dana with evidence, not insults: cite the chapter's research on automaticity and the corporate examples of habit-driven retail so the room approves the pilot.",
+          "key_concepts": [
+            "A 2006 Duke University study found that more than 40 percent of the actions people performed each day were not actual decisions, but habits.",
+            "Most choices feel like products of well-considered decision making, but they are not; they are habits.",
+            "Firms such as Procter & Gamble, Starbucks, Alcoa, and Target have seized on habit insights to influence how work gets done and, without customers realizing it, the way people shop.",
+            "Habits are choices we consciously made at some point and then stopped thinking about but continue doing, often every day.",
+            "William James wrote in 1892 that all our life, so far as it has definite form, is but a mass of habits.",
+            "Over time, the meals we order, how often we exercise, and the way we organize our thoughts and work routines have enormous impacts on financial security and happiness.",
+            "The chapter says it is possible to rebuild these patterns in whichever way you choose by understanding how they happen.",
+            "Companies have used habit insights to influence employees' communication and the way people shop without customers realizing it."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This simulation tests the automaticity of habits: behaviors we once chose continue running without deliberation, which is why companies engineer for routine rather than fresh choice. The chapter grounds this in the 2006 Duke finding that over 40 percent of daily actions are habits and in the claim that P&G, Starbucks, Alcoa, and Target use habit insights to influence how customers shop.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "scenario_setup": "You are a strategy analyst at a mid-sized retailer, in a Monday-morning planning meeting. Dana, the head of merchandising, insists every purchase is a rational, moment-by-moment decision, so she sees no point in studying customer routines. Your director has asked you to convince the team that habits shape buying, because the company wants to design promotions around routine behavior. The stakes: if you convince the room, you get budget for a habit-focused pilot; if you fail, the project is shelved.",
+          "dialogue": [
+            "Dana: Customers are rational. They look at price, features, and reviews, and they decide. I don't see what habits have to do with buying.",
+            "You: Some decisions are deliberate, but a lot of what we do all day isn't a decision at all. There's research showing most of our daily actions are habits.",
+            "Dana: Sure, for brushing teeth. Not for opening a wallet. People think before they spend.",
+            "You: Companies like Procter & Gamble and Target built growth on understanding that shoppers follow routines without realizing it.",
+            "Dana: So you want me to believe shoppers are sleepwalking?",
+            "You: Not sleepwalking, repeating. They chose a routine once, then stopped thinking about it. That's what a habit is."
+          ],
+          "choices": [
+            "A 2006 Duke University study found that more than 40 percent of the actions people perform each day aren't actual decisions, but habits. If shopping is mostly routine, we should design for the routine.",
+            "If customers were rational, nobody would buy the same brand twice, so your model is obviously wrong.",
+            "We don't need the science. Let's just offer a discount to first-time buyers and see what happens.",
+            "You're right that spending is different. Let's drop the whole habit idea and focus on price matching."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Automaticity of habit (a formerly chosen behavior runs without deliberation, so much of daily action is not decision-making)",
+          "psychological_breakdown": "Choice 0 grounds the pitch in the chapter's evidence, the 2006 Duke finding that more than 40 percent of daily actions are habits rather than decisions, and connects it to the chapter's claim that firms like P&G and Target influence the way people shop, giving Dana a specific, falsifiable fact instead of an insult. Choice 1 attacks her with a false dichotomy, since rationality does not require never repeating a purchase, which only makes her defensive; choice 2 abandons the analysis and gambles on a discount, missing the argument's point; choice 3 surrenders entirely and shelves the pilot."
+        }
+      ]
+    }
+  ]
+}

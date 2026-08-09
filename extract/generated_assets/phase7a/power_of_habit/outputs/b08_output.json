@@ -1,0 +1,583 @@
+{
+  "spec_file": "spec_power_of_habit_b08.json",
+  "chapters": [
+    {
+      "id": "ch12",
+      "title": "7. How Target Knows what you want before you Do: When Companies Predict (and Manipulate) Habits",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Sticky songs and the familiarity principle",
+          "visual_frame_description": "A radio-station analytics suite fills the screen with six scenario cards floating above three drop zones labeled 'Sticky because familiar,' 'Non-sticky novelty,' and 'Algorithm-predicted hit.' A live Arbitron-style tune-out graph pulses behind a Celine Dion card, while a waveform for 'Hey Ya!' flickers with a red 26.6 percent reading.",
+          "player_mission": "Drag each listening-scenario card into the column that best explains whether listeners stayed tuned or changed the station. Classify all six correctly to complete the playlist audit.",
+          "key_concepts": [
+            "Songs that sound familiar to a listener's existing radio habits are 'sticky' even when listeners say they dislike them.",
+            "Male listeners who told pollsters they hated Celine Dion stayed tuned whenever her songs played.",
+            "Playing Celine Dion at the end of the hour could boost a Los Angeles station's measured audience by as much as 3 percent.",
+            "Rich Meyer, who founded Mediabase, noticed that sticky songs all sounded exactly like what he expected to hear from their genre.",
+            "Sticky songs sounded familiar but a little more polished, closer to the golden mean of the perfect song.",
+            "Blu Cantrell's 'Breathe' was sticky in summer 2003 even though DJs played it reluctantly and listeners later said they didn't like it.",
+            "Early September plays of 'Hey Ya!' drove a 26.6 percent tune-out because the song sounded like nothing else on the radio.",
+            "Hit Song Science compared a song's tempo, pitch, melody, and chord progression against thousands of stored hits to forecast its success.",
+            "Listening to music activates the auditory cortex, the thalamus, and the superior parietal cortex, which are tied to pattern recognition.",
+            "Our brains crave familiar sounds because familiarity is how we manage to hear without becoming overwhelmed by noise."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the familiarity principle in listening habits: audiences reject novelty and stay with songs that sound like what they already expect, because the brain is wired to seek out familiar patterns. Duhigg reports that 'Hey Ya!' lost nearly a third of its listeners within thirty seconds until DJs made it familiar, after which its tune-out factor fell to 5.7 percent.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Sort each listening scenario into the column that best explains why listeners stayed tuned or clicked away.",
+          "column_a_label": "Sticky because familiar (sounds like everything else on the radio)",
+          "column_b_label": "Non-sticky novelty (sounds like nothing else on the radio)",
+          "column_c_label": "Algorithm-predicted hit (high Hit Song Science score)",
+          "rows": [
+            {
+              "label": "Men who say they hate Celine Dion stay tuned whenever she plays at the end of the hour",
+              "col": "a"
+            },
+            {
+              "label": "Blu Cantrell's bland 'Breathe' keeps listeners from changing the dial in summer 2003",
+              "col": "a"
+            },
+            {
+              "label": "'Hey Ya!' on WIOQ in early September 2003, before the sandwiching starts",
+              "col": "b"
+            },
+            {
+              "label": "Norah Jones's 'Come Away With Me,' which the industry had dismissed",
+              "col": "c"
+            },
+            {
+              "label": "'Hey Ya!' in December 2003, after months of being played between sticky hits",
+              "col": "a"
+            },
+            {
+              "label": "Santana's 'Why Don't You and I,' doubted by DJs yet popular",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Stickiness depends on star power alone; only famous artists keep listeners tuned in.",
+            "Listeners actively dislike sticky songs, so radio stations avoid them to grow audiences.",
+            "A high Hit Song Science score is a reliable guarantee that listeners will stay tuned from the very first play."
+          ],
+          "explanation": "The Celine Dion row sorts to column a because stickiness is driven by familiarity, not declared taste: male listeners told pollsters they hated Dion, yet stayed tuned whenever she played, and Los Angeles stations that aired her at the end of the hour could boost measured audience by up to 3 percent. Rich Meyer found sticky songs sound exactly like what listeners expect from their genre, so the brain, which craves familiar auditory patterns, keeps listening. 'Hey Ya!' was non-sticky early on (a 26.6 percent tune-out) precisely because it sounded like nothing else, and the high Hit Song Science score in column c was not enough to override that."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Major life events open shopping habits to change",
+          "visual_frame_description": "A suburban kitchen table is spread with three sorting columns: 'Major life event,' 'Habit persistence,' and 'In-the-moment shelf decision.' Scenario cards show named shoppers, including a woman with a shopping list, a newly married man, and a divorcée, while a tape-recorder icon hints at the grocery-store study that produced the data.",
+          "player_mission": "Classify each shopper scenario into the column that best explains the behavior. Read each card closely: some shoppers are in transition, some are locked into routines, and some are swayed at the shelf.",
+          "key_concepts": [
+            "Alan Andreasen's 1984 UCLA study used telephone surveys with about three hundred Los Angeles consumers about their recent shopping trips.",
+            "In the six months before the study, 10.5 percent of surveyed consumers had switched toothpaste brands.",
+            "More than 15 percent of those surveyed had started buying a new kind of laundry detergent.",
+            "People's buying habits are more likely to change when they go through a major life event.",
+            "Getting married makes people more likely to start buying a new type of coffee.",
+            "Moving into a new house makes people more apt to purchase a different kind of cereal.",
+            "Getting divorced raises the chance that a person will start buying different brands of beer.",
+            "Andreasen found that life changes make consumers more 'vulnerable to intervention by marketers.'",
+            "Having a baby is the greatest upheaval and makes new parents' habits more flexible than at almost any other time in adult life.",
+            "A 2010 survey estimated the average parent spends $6,800 on baby items before a child's first birthday."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests Andreasen's life-event insight: shopping habits are most malleable during major transitions such as marriage, moving, divorce, or having a baby, which makes consumers 'vulnerable to intervention by marketers.' The book cites his 1984 UCLA findings and applies them to Target's decision to target expectant mothers.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Sort each shopping scenario into the column that best explains the shopper's behavior.",
+          "column_a_label": "Major life event opens habits to change (vulnerable to marketers)",
+          "column_b_label": "Habit persistence (automatic repeat despite current goals)",
+          "column_c_label": "In-the-moment decision at the shelf (stronger than written list)",
+          "rows": [
+            {
+              "label": "A newly married man starts buying a different brand of coffee",
+              "col": "a"
+            },
+            {
+              "label": "The Folgers woman buys the same coffee month after month even though she admits she isn't crazy about it",
+              "col": "b"
+            },
+            {
+              "label": "A shopper carrying a list grabs the Lay's potato chips because they're on sale",
+              "col": "c"
+            },
+            {
+              "label": "A recently divorced woman switches brands of beer",
+              "col": "a"
+            },
+            {
+              "label": "A family that just moved into a new house starts buying a different kind of cereal",
+              "col": "a"
+            },
+            {
+              "label": "A shopper buys roughly the same amount of food every trip even after pledging to cut back",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Shopping behavior never changes once a person reaches adulthood.",
+            "People switch brands only when they discover a product is objectively better.",
+            "A shopping list guarantees a shopper will stick to planned purchases."
+          ],
+          "explanation": "The focal scenario sorts to column a because Alan Andreasen's 1984 UCLA research found that buying habits are most likely to change when people go through major life events such as marriage, moving, or divorce, which make consumers 'vulnerable to intervention by marketers.' The Folgers woman and the shopper who buys the same amount each trip belong in column b: habits reigned supreme in most consumers, who automatically repeat past behavior with little regard to current goals. The Lay's shopper belongs in column c because more than 50 percent of purchasing decisions were made at the moment a customer saw a product on the shelf, overriding written intentions."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Sources of consumer data behind the Guest ID",
+          "visual_frame_description": "A data-warehouse command center shows a glowing Guest ID card at the center with streams of records feeding into it. Cards describe a credit-card swipe, a mailed coupon redemption, a Rapleaf demographic report, and InfiniGraph listening to an online forum, each waiting to be sorted into the three source columns.",
+          "player_mission": "Sort each data source into the column describing how Target or its partners obtained it. Distinguish what the customer gave Target directly from what was bought or observed.",
+          "key_concepts": [
+            "Target assigned every shopper an identification code known internally as the Guest ID number.",
+            "Using a Target-issued credit card, handing over a frequent-buyer tag, or redeeming a mailed coupon was recorded and linked to the Guest ID.",
+            "Target's data warehouse also captured surveys, refunds, help-line calls, opened emails, and visits to Target.com.",
+            "Target collected or purchased demographic information including age, marital status, income estimate, and whether a shopper had moved recently.",
+            "Data peddlers such as InfiniGraph 'listen' to shoppers' online conversations on message boards and Internet forums.",
+            "A firm named Rapleaf sells information on shoppers' political leanings, reading habits, and charitable giving.",
+            "Some companies analyze photos consumers post online, cataloging if they are obese or skinny, tall or short, hairy or bald.",
+            "Tom Davenport said that used to be companies only knew what their customers wanted them to know, and 'that world is far behind us.'",
+            "Andrew Pole's mandate was to become a mathematical mind reader, deciphering shoppers' habits to convince them to spend more.",
+            "Pole reported Target could link about half of all in-store sales, almost all online sales, and about a quarter of online browsing to a specific person."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the mechanics of predictive analytics as described in the chapter: retailers merge first-party transaction history with purchased demographics and third-party observation into a Guest ID portrait. Duhigg shows Target used this 'guest portrait' to guess what each household habitually buys and then mailed personalized coupons.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Classify each data source by how Target or its partners obtained it.",
+          "column_a_label": "First-party transaction data (linked to the shopper's Guest ID)",
+          "column_b_label": "Demographic data bought or gathered from other firms",
+          "column_c_label": "Observational data from online conversations, photos, or monitoring",
+          "rows": [
+            {
+              "label": "A shopper redeems a coupon that Target mailed to her house",
+              "col": "a"
+            },
+            {
+              "label": "Rapleaf reports on a shopper's political leanings and charitable giving",
+              "col": "b"
+            },
+            {
+              "label": "InfiniGraph 'listens' to message-board conversations that mention products favorably",
+              "col": "c"
+            },
+            {
+              "label": "A customer uses her Target-issued credit card at checkout",
+              "col": "a"
+            },
+            {
+              "label": "A company catalogs whether people in posted photos look obese or skinny, tall or short",
+              "col": "c"
+            },
+            {
+              "label": "An estimate of how much money a shopper earns, bought from a data vendor",
+              "col": "b"
+            },
+            {
+              "label": "A shopper fills out a survey and mails in a refund request",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Target cannot link any of its sales to a specific person without a loyalty card.",
+            "All of Target's customer data comes from what customers voluntarily reveal on surveys.",
+            "Target only collects information through its own stores and never buys data from other firms."
+          ],
+          "explanation": "The focal row sorts to column a because every purchase a customer makes with a Target-issued credit card, frequent-buyer tag, or mailed coupon is recorded and linked to that shopper's Guest ID number in Target's data warehouse. Third-party vendors such as Rapleaf and InfiniGraph supply demographic or conversational data (columns b and c), which Target can also attach to the Guest ID. Andrew Pole reported the system could link about half of all in-store sales, almost all online sales, and about a quarter of online browsing to a specific person."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Sandwiching and camouflage across domains",
+          "visual_frame_description": "Three side-by-side scenes show the same strategy in different costumes: a radio waveform with a new song slotted between two sticky hits, a direct-mail flyer with a lawnmower ad pressed against a diaper coupon, and a kitchen counter where raw liver disappears into a meatloaf pan. Scenario cards must be dropped into the matching scene.",
+          "player_mission": "Read each tactic card and assign it to the domain where the book shows it being used to dress something new in old habits: radio, retail mail, or food.",
+          "key_concepts": [
+            "Target mixed ads for things pregnant women would never buy into mailers so the baby ads looked random.",
+            "Target placed a coupon for wineglasses next to infant clothes so the products appeared chosen by chance.",
+            "A Target executive said that as long as a pregnant woman thinks she hasn't been spied on, she'll use the coupons.",
+            "Radio consultant Tom Webster called playing a new song between two consensus popular hits 'textbook playlist theory now.'",
+            "WIOQ sandwiched 'Hey Ya!' between sticky hits such as Blu Cantrell's 'Breathe' and 3 Doors Down's 'Here Without You.'",
+            "The World War II-era Committee on Food Habits concluded the exotic must be made familiar by camouflaging it in everyday garb.",
+            "Soldiers ate chopped and boiled cabbage once it was prepared to look like every other vegetable on their tray.",
+            "Butchers handed out recipes explaining how to slip liver into meatloaf.",
+            "The chapter's central lesson is that if you dress a new something in old habits, it's easier for the public to accept it."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the camouflage principle: the unfamiliar is accepted when it is dressed in familiar routines, whether a new song between sticky hits, baby coupons beside lawnmower ads, or liver hidden in meatloaf. Duhigg presents the same strategy at work across radio, retail, and wartime food policy.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Sort each tactic into the domain where the book shows it being used to dress something new in old habits.",
+          "column_a_label": "Radio playlist sandwiching (new song between established hits)",
+          "column_b_label": "Coupon camouflage (baby ads mixed with unrelated products)",
+          "column_c_label": "Food camouflage (exotic ingredients made familiar)",
+          "rows": [
+            {
+              "label": "WIOQ plays 'Here Without You' by 3 Doors Down right before 'Hey Ya!'",
+              "col": "a"
+            },
+            {
+              "label": "Target puts a lawnmower ad next to a diaper coupon in the same mailer",
+              "col": "b"
+            },
+            {
+              "label": "Butchers hand out recipes that explain how to slip liver into meatloaf",
+              "col": "c"
+            },
+            {
+              "label": "A coupon for wineglasses is placed next to coupons for infant clothes",
+              "col": "b"
+            },
+            {
+              "label": "The Quartermaster Corps chops and boils cabbage until it looks like every other vegetable",
+              "col": "c"
+            },
+            {
+              "label": "DJs play a new song between two consensus popular hits",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Target sent identical coupons to every household on a block to avoid seeming invasive.",
+            "Sandwiching only works in radio and has never been applied to retail.",
+            "The government's later diet campaigns succeeded by being blunt about health benefits."
+          ],
+          "explanation": "The focal row sorts to column b because Target deliberately placed advertisements for products a pregnant woman would never buy, such as a lawnmower, next to diaper and crib coupons so the mailer looked random. The tactic worked because, as one executive put it, as long as a pregnant woman thinks she hasn't been spied on, she'll use the coupons. The radio rows (column a) reflect Tom Webster's 'textbook playlist theory' of playing new songs between consensus hits, and the food rows (column c) reflect the World War II Committee on Food Habits' finding that the exotic must be camouflaged in everyday garb."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Why habits overpower shopping intentions",
+          "visual_frame_description": "A grocery store aisle is rendered as a decision flowchart. A shopper's handwritten list sits crumpled at the end of the aisle while a product on the shelf triggers a branching decision. Three columns compare point-of-sale habits, store-layout psychology, and individualized Guest ID prediction.",
+          "player_mission": "Classify each claim by the mechanism the book uses to explain shoppers' behavior. Weigh whether the behavior is a habit firing at the shelf, a layout trick applied to everyone, or a personalized prediction.",
+          "key_concepts": [
+            "Researchers tape-recorded consumers walking through grocery stores to observe how buying decisions were made.",
+            "More than 50 percent of purchasing decisions occurred at the moment a customer saw a product on the shelf.",
+            "A shopper with a list muttered he would skip the chips, then grabbed the Lay's potato chips when he saw they were on sale.",
+            "One woman said of Folgers: 'I'm not crazy about Folgers, but it's what I buy, you know? What else is there?'",
+            "Shoppers bought roughly the same amount of food each trip even after pledging to cut back.",
+            "Positioning produce at the front gives shoppers a burst of subconscious virtuousness that makes it easier to buy Doritos, Oreos, and frozen pizza later.",
+            "Shoppers almost always turn right after entering a store, so retailers stock the right side with the most profitable products.",
+            "Cereal and soups shelved out of alphabetical order make shoppers linger and look at a wider selection.",
+            "USC psychologists wrote in 2009 that consumers 'automatically repeat past behavior with little regard to current goals.'",
+            "Target tried to market to each shopper one by one with personalized pitches designed to appeal to unique buying preferences."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario discriminates among the chapter's three explanations for shopping behavior: habits that fire at the point of sale and override written intentions, one-size-fits-all store-layout psychology, and individualized prediction from Guest ID data. Duhigg reports that more than 50 percent of purchase decisions happen at the shelf because habits are stronger than intentions.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Classify each claim by the mechanism the book uses to explain shoppers' purchases.",
+          "column_a_label": "Point-of-sale habit overrides written intention",
+          "column_b_label": "One-size-fits-all store-layout psychology",
+          "column_c_label": "Individualized prediction from purchase data",
+          "rows": [
+            {
+              "label": "More than 50 percent of purchasing decisions occur the moment a shopper sees a product on the shelf",
+              "col": "a"
+            },
+            {
+              "label": "Produce is placed at the front so a burst of virtuousness makes it easier to buy junk food later",
+              "col": "b"
+            },
+            {
+              "label": "Target mails a shopper coupons for 2 percent milk and beer based on her Guest ID patterns",
+              "col": "c"
+            },
+            {
+              "label": "Shoppers turn right after entering a store, so retailers stock the right side with profitable products",
+              "col": "b"
+            },
+            {
+              "label": "Cereal is shelved out of alphabetical order so shoppers linger and widen their selection",
+              "col": "b"
+            },
+            {
+              "label": "Target guesses which brands each household habitually buys and tries to convince them to buy those at Target",
+              "col": "c"
+            },
+            {
+              "label": "The Folgers woman buys the same coffee despite dozens of other brands because 'it's what I buy'",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Shoppers with lists almost never deviate from what they planned to buy.",
+            "Retailers' store-layout tricks are personalized for each individual shopper.",
+            "All shoppers develop the same habits, so a single marketing strategy works for everyone."
+          ],
+          "explanation": "The focal row sorts to column a because tape-recorded studies of grocery shoppers showed that despite coming with lists, more than 50 percent of purchasing decisions happened at the moment a shopper saw a product on the shelf. Habits proved stronger than written intentions, as with the Folgers woman who kept buying the same coffee month after month. Store-layout tricks such as produce at the front, right-side stocking, and randomized cereal shelves (column b) are the 'primitive, one-size-fits-all' tactics the book contrasts with Target's individualized Guest ID predictions (column c)."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Building the pregnancy-prediction algorithm",
+          "visual_frame_description": "Andrew Pole sits in Target's data lab before a wall of screens showing the baby shower registry, each registrant's due date linked to a Guest ID. A timeline of pregnancy trimesters glows alongside clusters of product icons, and a score dial labeled 'Pregnancy Prediction' sits at the center of the battle interface.",
+          "player_mission": "Reconstruct Pole's two key moves: identify the earliest purchase signal of a second-trimester pregnancy, then protect the campaign by flagging the shopper most likely to be a false positive before coupons go out.",
+          "key_concepts": [
+            "Pregnant women and new parents are the holy grail of retail because they are among the most profitable, product-hungry, price-insensitive shoppers.",
+            "Exhausted new parents buy everything from juice to socks wherever they purchase bottles and formula, and keep coming back for years.",
+            "Target's baby shower registry acted as a laboratory because registrants voluntarily handed over their due dates.",
+            "Pole identified about twenty-five different products that, analyzed together, let the computer estimate a woman's trimester and due date.",
+            "Buying large quantities of unscented lotion around the beginning of the second trimester was a signal picked up from registry data.",
+            "Many pregnant women loaded up on vitamins such as calcium, magnesium, and zinc within the first twenty weeks.",
+            "Suddenly buying scent-free soap, cotton balls, hand sanitizers, and an astounding number of washcloths suggested the delivery date was near.",
+            "Jenny Ward of Atlanta had an 87 percent chance of pregnancy and a late-August due date based on her purchases.",
+            "Liz Alter of Brooklyn was given a 96 percent chance of pregnancy and an early-May due date.",
+            "A woman who bought only a $250 stroller was probably buying for a friend's baby shower, not pregnant herself."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the mechanics of predictive analytics in the chapter: by combining roughly twenty-five correlated purchase signals with demographic data, Target could score each shopper's likelihood of pregnancy and estimate her due date. Duhigg emphasizes that the model identified patterns from the baby registry and then applied them to every shopper in Target's database.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "Target's pregnancy predictor: Andrew Pole combined about twenty-five purchase signals and demographic data into a 'pregnancy prediction' score that estimated whether a shopper was pregnant, what trimester she was in, and her due date, so coupons could be timed to when her habits were most flexible.",
+          "stage_1_observation": "Andrew Pole pores over the baby shower registry, which acts as a laboratory. Each registrant volunteered her name, her spouse's name, and her due date, letting Pole link the family's Guest IDs and plot every purchase against the trimester in which it occurred. He is searching for the earliest reliable signal of a new pregnancy.",
+          "stage_1_question": "Which purchase pattern did the registry analysis reveal as a signal that a woman was in the beginning of her second trimester?",
+          "stage_1_correct_answer": "Buying unusually large quantities of unscented lotion, along with loading up on vitamins such as calcium, magnesium, and zinc sometime within the first twenty weeks.",
+          "stage_2_intervention": "The model now scores hundreds of thousands of shoppers, and the marketing team wants to send coupons to the highest-scoring names. You must flag the shopper who is most likely a false positive before her coupons go into the mail.",
+          "stage_2_correct_answer": "Flag Caitlin Pike, the thirty-nine-year-old who bought a $250 stroller but nothing else, because she is probably buying for a friend's baby shower and her demographic data shows she was divorced two years ago."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Turning 'Hey Ya!' from flop into hit",
+          "visual_frame_description": "A radio control room in 2003 shows the WIOQ playlist scrolling on a screen while an Arbitron graph displays a steep red drop in listeners during the first thirty seconds of 'Hey Ya!'. A hit-prediction dashboard flashes the song's near-record Hit Song Science score, and the tune-out dial sits at 26.6 percent.",
+          "player_mission": "Diagnose why listeners are rejecting a song the algorithm predicted would be a monster hit, then choose the playlist move that turns the tune-out factor into single digits.",
+          "key_concepts": [
+            "Arista's Steve Bartels was certain 'Hey Ya!' would be huge, and that certainty was not based solely on intuition.",
+            "Hit Song Science, built by Polyphonic HMI, analyzed tempo, pitch, melody, and chord progression to predict a song's popularity.",
+            "The program predicted Norah Jones's 'Come Away With Me' would be a hit after the industry dismissed it; it sold ten million copies and won eight Grammys.",
+            "It also predicted Santana's 'Why Don't You and I' would be popular despite DJs' doubts, and it reached number three on the Billboard Top 40.",
+            "'Hey Ya!' received one of the highest Hit Song Science scores anyone had ever seen.",
+            "On September 4, 2003, WIOQ played 'Hey Ya!' in the prominent 7:15 p.m. slot, airing it thirty-seven times that month.",
+            "Arbitron was testing technology that counted listeners and channel-switching during specific songs, and WIOQ was part of the test.",
+            "Nearly a third of listeners changed stations within the first thirty seconds of 'Hey Ya!', and the pattern repeated in Chicago, Los Angeles, Phoenix, and Seattle.",
+            "Host John Garabedian said Top 40 listeners are offended when something different comes on and don't want anything unfamiliar.",
+            "Once 'Hey Ya!' became familiar, a 'Hey Ya!' habit emerged and the song won a Grammy and sold more than 5.5 million albums."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the familiarity principle: even a song with a near-record algorithm score failed until DJs embedded it in existing listening habits. Duhigg shows that sandwiching 'Hey Ya!' between sticky hits cut its tune-out factor from 26.6 percent in September to 13.7 percent in October and 5.7 percent by December.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "The familiarity problem: a song that sounds like nothing else on the radio gets rejected because listeners' brains crave familiar patterns. To make a new song a hit, DJs must embed it in existing listening habits until it feels familiar.",
+          "stage_1_observation": "It is September 2003 at WIOQ in Philadelphia. 'Hey Ya!' by OutKast scored among the highest ever recorded on Hit Song Science, so Arista and the station expected a monster hit. But Arbitron's new listening-measurement technology has just delivered grim data: nearly a third of listeners changed stations within the first thirty seconds of the song.",
+          "stage_1_question": "Why were listeners tuning out so quickly despite the algorithm's prediction?",
+          "stage_1_correct_answer": "The song sounded like nothing else on the radio and was unfamiliar, so listeners rejected it; Top 40 audiences want to hear their favorite songs or songs that sound just like them, and they don't want to make a conscious decision about each new song.",
+          "stage_2_intervention": "You are the music director deciding how to keep 'Hey Ya!' in rotation and turn its 26.6 percent tune-out factor into single digits. What move makes the song feel familiar?",
+          "stage_2_correct_answer": "Sandwich 'Hey Ya!' between songs Rich Meyer found uniquely sticky, such as Blu Cantrell, 3 Doors Down, Maroon 5, and Christina Aguilera, so the new song becomes part of an established listening habit."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "The wartime organ meat campaign",
+          "visual_frame_description": "A 1940s home kitchen and a military mess hall appear side by side. In the kitchen a housewife folds liver into a meatloaf pan beside a government mailer reading 'every husband will cheer for steak and kidney pie.' In the mess hall a soldier stares at a mound of chopped, boiled cabbage that looks like every other vegetable on his tray.",
+          "player_mission": "Use the Committee on Food Habits' findings to diagnose why troops rejected fresh cabbage, then choose a national campaign that makes organ meat feel familiar instead of exotic.",
+          "key_concepts": [
+            "In the early 1940s the government shipped much of the nation's meat supply to troops, shrinking the availability of steaks and pork chops at home.",
+            "The Department of Defense assigned the Committee on Food Habits to figure out how to get Americans to eat organ meats.",
+            "More than two hundred studies were eventually published, and at their core was the finding that to change diets, the exotic must be made familiar.",
+            "Housewives had to make organ meats look, taste, and smell as similar as possible to what their families expected on the dinner table.",
+            "In 1943, soldiers rejected fresh cabbage until mess halls chopped and boiled it to look like every other vegetable.",
+            "A present-day researcher wrote that soldiers were more likely to eat food, familiar or not, when it was prepared similar to their prior experiences.",
+            "Mailers told housewives that 'every husband will cheer for steak and kidney pie.'",
+            "Offal consumption rose by 33 percent during the war and was up 50 percent by 1955.",
+            "By 1955, kidney was a staple at dinner, liver was for special occasions, and organ meats had become emblems of comfort.",
+            "Later campaigns such as 'Five a Day,' the USDA food pyramid, and the push for low-fat cheeses all failed because none camouflaged their recommendations in existing habits."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the make-the-exotic-familiar principle from the chapter's wartime case: organ meats were accepted only after being camouflaged in everyday dishes. Duhigg contrasts the 1940s success, which raised offal consumption by 33 percent during the war and 50 percent by 1955, with later diet campaigns that failed because they did not camouflage their recommendations.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "The Committee on Food Habits' wartime challenge: to change a nation's diet, the exotic must be made familiar. Duhigg argues the 1940s organ meat push was the only government program ever to cause a lasting change in the American diet because it camouflaged new foods in everyday garb.",
+          "stage_1_observation": "During World War II the Department of Defense recruited sociologists, psychologists, and anthropologists, including Margaret Mead and Kurt Lewin, into the Committee on Food Habits. More than two hundred studies later, the committee concluded that housewives would serve kidneys and livers only if the foods looked, tasted, and smelled like what their families already expected at dinner. Meanwhile, in 1943, soldiers are rejecting the fresh cabbage the Quartermaster Corps begins serving.",
+          "stage_1_question": "Why did the troops refuse the fresh cabbage, and what made them eat it without complaint?",
+          "stage_1_correct_answer": "The cabbage was unfamiliar to their prior experience, so mess halls chopped and boiled it until it looked like every other vegetable on a soldier's tray, after which the troops ate it without complaint.",
+          "stage_2_intervention": "You are designing the national campaign to sell organ meat to 1940s housewives. Which approach matches what the committee's studies actually found?",
+          "stage_2_correct_answer": "Camouflage the meat in everyday garb: send mailers saying 'every husband will cheer for steak and kidney pie' and give butchers recipes for slipping liver into meatloaf, rather than asking housewives to serve something exotic and unfamiliar."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "The YMCA retention insight",
+          "visual_frame_description": "A bright YMCA lobby shows a front-desk employee greeting a member by name while a group-exercise class laughs together in the background. Next to it a spreadsheet of 150,000 member satisfaction surveys fills a monitor, with a red marker highlighting 'employee knew my name' as the top retention driver.",
+          "player_mission": "Analyze the survey data to discover what really keeps YMCA members coming back, then decide where a branch with a limited budget should invest to lift retention.",
+          "key_concepts": [
+            "The YMCA hired a social scientist, Bill Lazarus, and a mathematician, Dean Abbott, to make its branches more competitive.",
+            "The two men analyzed data from more than 150,000 YMCA member satisfaction surveys.",
+            "YMCA executives believed people wanted fancy exercise equipment and sparkling, modern facilities.",
+            "The surveys showed facility attractiveness and machines might cause people to join in the first place.",
+            "Retention was driven by emotional factors, such as whether employees knew members' names or said hello when they walked in.",
+            "People often go to the gym looking for a human connection, not a treadmill.",
+            "A member who made a friend at the YMCA was much more likely to show up for workout sessions.",
+            "Lazarus said people want to visit places that satisfy their social needs, and exercising in groups makes it more likely they'll stick with a workout.",
+            "The YMCA case illustrates the chapter's lesson: to sell a new habit, wrap it in something people already know and like."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the data-driven insight that retention depends on social habits rather than facilities: members stayed when employees knew their names and when they made friends. Duhigg presents this as a variation of the Target lesson, where a new habit like exercise succeeds when wrapped in an existing one like social connection.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "Data-driven retention: the YMCA's accepted wisdom was that fancy equipment keeps members, but analysis of more than 150,000 surveys showed retention was driven by emotional factors and social habits, such as employees knowing members' names and members making friends. The lesson is to wrap a new habit like exercise in an existing one like social connection.",
+          "stage_1_observation": "In 2000 the YMCA hired social scientist Bill Lazarus and mathematician Dean Abbott to find ways to stay competitive. They analyzed more than 150,000 member satisfaction surveys collected over the years. Meanwhile, YMCA executives have spent millions building weight rooms and yoga studios on the assumption that attractive, modern facilities keep people coming back.",
+          "stage_1_question": "What did the survey analysis reveal about what actually caused members to stay, as opposed to what first attracted them to join?",
+          "stage_1_correct_answer": "Facility attractiveness and workout machines might have caused people to join, but retention was driven by emotional factors such as employees knowing members' names and saying hello; people often go to the gym looking for a human connection, not a treadmill.",
+          "stage_2_intervention": "You are a YMCA branch director with a limited budget and a mandate to raise member retention. Where do you invest to keep people coming back?",
+          "stage_2_correct_answer": "Train employees to remember and use members' names and build social connection through group exercise, because a member who makes a friend at the YMCA is much more likely to show up for workouts."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Rolling out Target's pregnancy coupons without spooking customers",
+          "visual_frame_description": "A Target mailer sits on a kitchen counter, its baby coupons mixed between a lawnmower ad and a wineglass offer so the page looks random. In a corner, a red alert plays the Minnesota manager's phone call, where an angry father confronts a baby-coupon mailer sent to his high-school daughter.",
+          "player_mission": "Decide what the Minnesota mailer incident actually revealed, then pick the national rollout strategy that captures the new-parent market without making customers feel spied on.",
+          "key_concepts": [
+            "Pole said he was 'very conservative about compliance with all privacy laws,' but that even following the law, 'you can do things where people get queasy.'",
+            "A man in Minnesota stormed into a Target clutching a mailer of baby coupons sent to his high-school daughter.",
+            "The manager apologized, and days later the father admitted his daughter was pregnant and due in August.",
+            "Target decided to conduct small experiments with specially designed mailers before rolling out a national campaign.",
+            "One Target executive described sending customers an ad booklet with everything they bought last week and a coupon for it.",
+            "Target mixed in ads for things pregnant women would never buy so the baby ads looked random.",
+            "An executive said that as long as a pregnant woman thinks she hasn't been spied on, she'll use the coupons.",
+            "In 2011 a New York resident sued McDonald's, CBS, Mazda, and Microsoft, alleging their ad agency monitored Internet usage to profile buying habits.",
+            "Class action lawsuits accused Target, Walmart, and Victoria's Secret of using zip codes from credit cards to find mailing addresses.",
+            "Target's 'Mom and Baby' sales exploded after the camouflaged campaign, and revenues grew from $44 billion in 2002 to $65 billion in 2009."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the lesson that hiding what you know is as important as knowing it: even fully legal targeting can spook customers, as the Minnesota father's reaction showed. Duhigg reports Target solved the dilemma by camouflaging baby coupons among unrelated products so women used them without feeling spied on.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "The transparency dilemma: knowing something is not enough, because hiding what you know is sometimes as important as knowing it. Even while following privacy laws, a company can do things that make people queasy, so Target had to deliver pregnancy coupons without making women feel spied on.",
+          "stage_1_observation": "About a year after Pole built his pregnancy predictor, an angry man walks into a Minnesota Target clutching a mailer addressed to his high-school daughter. It contains coupons for baby clothes, cribs, and pictures of smiling infants. He accuses the store of encouraging his daughter to get pregnant and demands to see the manager.",
+          "stage_1_question": "What is actually true about the situation, and what does the manager learn a few days later?",
+          "stage_1_correct_answer": "The algorithm had been right: the daughter was pregnant and due in August, but the mailer revealed knowledge the family had never shared, which is exactly why even legally compliant targeting can make people uncomfortable.",
+          "stage_2_intervention": "The marketing department wants to roll out the pregnancy campaign nationally. You must choose the rollout strategy that captures the new-parent market without spooking customers.",
+          "stage_2_correct_answer": "Run small experiments first and mix diaper and crib ads with products a pregnant woman would never buy, such as lawnmowers and wineglasses, so the mailer looks random; as long as she thinks she hasn't been spied on, she'll use the coupons."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Andrew Pole weighs the pregnancy-prediction request",
+          "visual_frame_description": "A Target office in 2002: two marketing colleagues lean over Andrew Pole's cubicle wall while a wall screen behind him streams purchase records tied to Guest ID numbers. The dialogue panel frames each speaker with a small avatar as the player chooses how the statistician responds to the pregnancy-prediction question.",
+          "player_mission": "Play Andrew Pole and respond to your marketing colleagues' request to identify pregnant customers. Choose the response that reflects how the real project succeeded: cautious, pattern-based, and discreet.",
+          "key_concepts": [
+            "Pregnant women and new parents are the holy grail of retail because they are among the most profitable, product-hungry, price-insensitive shoppers.",
+            "If a new parent starts shopping at Target for diapers, they will start buying everything else there as well.",
+            "Only a fraction of Target's pregnant customers used the baby shower registry, so the algorithm had to infer pregnancy from purchase patterns.",
+            "The baby shower registry acted as a laboratory because registrants handed over their due dates.",
+            "Pole identified about twenty-five products that, analyzed together, estimated a woman's trimester and due date.",
+            "Pole said he was 'very conservative about compliance with all privacy laws,' but that even following the law, 'you can do things where people get queasy.'",
+            "Target ran small experiments with specially designed mailers before launching a national campaign.",
+            "An executive said that as long as a pregnant woman thinks she hasn't been spied on, she'll use the coupons.",
+            "The chapter's lesson is that hiding what you know is sometimes as important as knowing it."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests predictive pattern analysis of purchase habits combined with the discretion principle: Target succeeded by inferring pregnancy from a bundle of correlated products and by hiding what it knew. Duhigg shows the project only worked once the company tested small mailers and camouflaged the baby ads.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "scenario_setup": "It is 2002, and you are Andrew Pole, a statistician in Target's Guest Data and Analytical Services department. A few marketing colleagues stop by your desk and ask whether your computers can figure out which customers are pregnant even if they don't want Target to know. Pregnant women are the holy grail of retail, because new parents who start buying diapers at Target tend to buy everything else there too, but identifying them carries a real risk of a privacy backlash. How you respond shapes how the project begins.",
+          "dialogue": [
+            "Marcus (marketing): 'Andrew, quick question. Can your computers figure out which of our customers are pregnant, even the ones who don't want us to know?'",
+            "You (Pole): 'Probably. If I can link their purchase history to a Guest ID, I can look for patterns. What would we do with that information?'",
+            "Priya (marketing): 'Coupons. Diapers, wipes, nursery furniture. If we catch them in the second trimester, we own their shopping list for years.'",
+            "You: 'The registry already tells us when some women are due. The hard part is the women who never register.'",
+            "Marcus: 'So it's possible. Great. Let's start mailing baby ads to every woman who buys lotion.'",
+            "You: 'Hold on. Lotion alone tells us nothing, because everyone buys lotion. And if we make it obvious we know, women will get queasy. Even following the law, we can cross a line.'",
+            "Priya: 'Then what do you suggest?'",
+            "You: 'I'll use the registry as a lab, find the products that shift together by trimester, and test small mailers before any national rollout.'"
+          ],
+          "choices": [
+            "I can build a prediction score from a bundle of products and test it on small groups first, so we don't spook anyone. Hiding what we know matters as much as knowing it.",
+            "Let's go big right away. Mail baby coupons to every woman who buys lotion or vitamins; speed matters more than caution.",
+            "This is too invasive. I won't use purchase data to infer anyone's pregnancy, no matter what it's worth.",
+            "Let's just buy the baby shower registry list and mail only to those women. It's the only legitimate source."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Predictive pattern analysis of purchase habits combined with the discretion principle that hiding what you know is as important as knowing it",
+          "psychological_breakdown": "The optimal response mirrors what Pole actually did: treat the registry as a laboratory, identify roughly twenty-five products that shift together by trimester, and test small mailers before a national rollout. It recognizes that a single product like lotion produces false positives and that even lawful targeting can make customers queasy. Choice 1 ignores both the false-positive problem and the privacy risk, which is exactly the backlash the Minnesota mailer later caused. Choice 2 forgoes a legitimate and enormously profitable analysis. Choice 3 is too narrow because only a fraction of pregnant customers use the registry, leaving the most valuable prospects unreachable."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "A program director decides the fate of 'Hey Ya!'",
+          "visual_frame_description": "A WIOQ music office in September 2003 shows the program director, Nadia, gesturing at a screen full of Arbitron tune-out curves while the playlist of the next hour scrolls on a second monitor. A red marker circles the 30-second spike in channel-switching whenever 'Hey Ya!' plays.",
+          "player_mission": "Play the WIOQ music director and decide how to handle a song the algorithm predicts will be a hit but that listeners are fleeing. Choose the response that follows the playlist theory the book documents.",
+          "key_concepts": [
+            "Nearly a third of listeners changed stations within the first thirty seconds of 'Hey Ya!'.",
+            "Top 40 listeners want to hear their favorite songs or songs that sound just like their favorite songs.",
+            "Our brains are designed to prefer auditory patterns that seem similar to what we've already heard.",
+            "Hit Song Science gave 'Hey Ya!' one of the highest scores anyone had ever seen, yet the song was flailing.",
+            "DJs made 'Hey Ya!' familiar by sandwiching it between sticky hits such as Blu Cantrell, 3 Doors Down, and Maroon 5.",
+            "Tom Webster called playing a new song between two consensus popular hits 'textbook playlist theory now.'",
+            "Managing a playlist is all about risk mitigation: stations must take risks on new songs, but listeners want songs they already like.",
+            "The tune-out factor dropped from 26.6 percent in September to 13.7 percent in October and 5.7 percent by December.",
+            "Once the song became familiar, a 'Hey Ya!' habit emerged and the tune became a Grammy-winning hit."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the familiarity principle and playlist sandwiching: a novel song becomes a hit only after it is embedded in established listening habits. Duhigg documents that embedding 'Hey Ya!' between sticky hits dropped its tune-out factor from 26.6 percent to 5.7 percent.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "scenario_setup": "It is September 2003. You are the music director at WIOQ in Philadelphia. OutKast's 'Hey Ya!' scored among the highest ever on Hit Song Science, but Arbitron's new measurement technology shows nearly a third of listeners change stations within thirty seconds of the song. Arista's Steve Bartels is on the phone urging you to keep it in rotation while your ratings data says listeners are fleeing. Your decision decides whether the song becomes a hit or a flop at your station.",
+          "dialogue": [
+            "Nadia (program director): 'Look at these numbers. Nearly thirty percent of our audience is gone within the first thirty seconds. We can't afford that in drive time.'",
+            "You (music director): 'Hit Song Science says this is the biggest hit of the year. The song isn't bad, it's unfamiliar.'",
+            "Nadia: 'Unfamiliar equals dead in this format. Top 40 listeners want songs that sound just like their favorite songs.'",
+            "You: 'Right. So we don't stop playing it. We change what surrounds it. Rich Meyer's data shows which songs are sticky: Blu Cantrell, 3 Doors Down, Maroon 5. Nobody tunes out on those.'",
+            "Nadia: 'You want to bury \"Hey Ya!\" between them? That feels like hiding the single we're supposed to be promoting.'",
+            "You: 'It's playlist theory, risk mitigation. We give listeners a familiar anchor on both sides until the song itself becomes familiar.'",
+            "Nadia: 'And how long does that take?'",
+            "You: 'If we keep at it, the tune-out factor should keep dropping. By December it could be under six percent.'"
+          ],
+          "choices": [
+            "Keep it in rotation, but sandwich it between sticky hits like Blu Cantrell and 3 Doors Down so it rides the familiarity of the songs around it.",
+            "Pull it from the playlist immediately. The listening data is final and listeners have spoken.",
+            "Ignore the tune-out data and double our plays. Hit Song Science gave it the highest score ever, so it will catch on eventually.",
+            "Move it to overnight hours where fewer people listen so it can't hurt our ratings."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "The familiarity principle and playlist sandwiching: embedding a novel song in established listening habits to manage risk",
+          "psychological_breakdown": "The optimal choice is what WIOQ actually did: it sandwiched 'Hey Ya!' between sticky, familiar hits, dropping the tune-out factor from 26.6 percent in September to 13.7 percent in October and 5.7 percent by December. It works because brains crave familiar auditory patterns, so the novel song borrows familiarity from its neighbors until a 'Hey Ya!' habit emerges. Choice 1 wastes a song the industry needed and that repeated exposure eventually made a Grammy-winning, 5.5-million-album hit. Choice 2 repeats the mistake that caused the initial flop by ignoring how listeners actually react. Choice 3 concedes the song will never work and hides the problem instead of solving it."
+        }
+      ]
+    }
+  ]
+}

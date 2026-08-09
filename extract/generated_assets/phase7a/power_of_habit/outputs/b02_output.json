@@ -1,0 +1,579 @@
+{
+  "spec_file": "spec_power_of_habit_b02.json",
+  "chapters": [
+    {
+      "id": "ch06",
+      "title": "1. The Habit Loop: How Habits Work",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Cue, Routine, Reward: Components of the Habit Loop",
+          "visual_frame_description": "A split-screen laboratory collage. On the left, a rat sprints through a T-shaped maze toward a piece of chocolate as a partition lifts with a loud click. On the right, an elderly Eugene sits at a table with sixteen small objects glued to cardboard rectangles, flipping one over to reveal a sticker. Thin yellow arrows loop between labeled boxes labeled 'cue,' 'routine,' and 'reward.'",
+          "player_mission": "Sort each piece of evidence into the correct part of the habit loop: cue, routine, or reward. Identify which component the question highlights and confirm you can parse any behavior into the loop's three stages.",
+          "key_concepts": [
+            "The habit loop is a three-step cycle: a cue triggers the brain to go into automatic mode, a routine follows, and a reward tells the brain whether the loop is worth remembering.",
+            "In the MIT T-maze experiments, the loud click of the partition was the cue that told each rat which habit to use.",
+            "The routine of a habit can be physical, mental, or emotional.",
+            "The reward helps the brain figure out if the particular loop is worth remembering for the future.",
+            "Over time the cue and reward become intertwined until a powerful sense of anticipation and craving emerges.",
+            "Eugene was exposed to a cue (the same pairings of objects), performed a routine (choosing and flipping a card), and received a reward (the satisfaction of finding a 'correct' sticker).",
+            "Brain activity spikes at the start of a habit, when the brain searches for a cue, and again at the end, when the reward appears.",
+            "A cue can be a visual trigger, a place, a time of day, an emotion, a sequence of thoughts, or the company of particular people.",
+            "Once a habit emerges, the brain stops fully participating in decision making and the pattern unfolds automatically.",
+            "When the habit loop is intact, the behavior becomes automatic; Eugene's morning walk ran because consistent trees and mailboxes served as cues."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the three-part habit loop: a cue triggers an automatic routine that ends in a reward, which determines whether the brain remembers the loop. The book's evidence from the MIT rat mazes and Squire's card experiments with Eugene shows that every habit can be decomposed into these components.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "In the MIT rat-maze experiment, the loud 'click' of the partition before the rat runs tells the animal which pattern to use. Which component of the habit loop does the click represent?",
+          "column_a_label": "Cue",
+          "column_b_label": "Routine",
+          "column_c_label": "Reward",
+          "rows": [
+            {
+              "label": "The loud click of the partition opening before the rat starts running",
+              "col": "a"
+            },
+            {
+              "label": "The rat sprinting straight to the chocolate after a week of practice",
+              "col": "b"
+            },
+            {
+              "label": "The chocolate the rat eats at the end of the maze",
+              "col": "c"
+            },
+            {
+              "label": "Eugene being offered the same pair of cardboard objects in Squire's test",
+              "col": "a"
+            },
+            {
+              "label": "Eugene choosing one object and turning it over to check for a sticker",
+              "col": "b"
+            },
+            {
+              "label": "The satisfaction Eugene felt when he found a sticker that read 'correct'",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The routine, because the click is what makes the rat run",
+            "The reward, because the click promises chocolate",
+            "The craving, because the click triggers wanting"
+          ],
+          "explanation": "The click is a cue: a trigger that tells the brain to go into automatic mode and which habit to use. In the book's three-step loop the cue comes first, followed by the routine (running the maze, choosing and flipping a card) and the reward (chocolate, a 'correct' sticker), which helps the brain decide whether to remember the loop for the future."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Conscious Memory vs. Unconscious Habit",
+          "visual_frame_description": "Two panels side by side. The left panel shows Eugene at a table, stumped, trying to sketch a map of his house while his wife Beverly looks on. The right panel shows the same man striding confidently down a sunny sidewalk, then walking into a kitchen and pulling down a jar of nuts. A caption reads: 'How can he do what he cannot remember?'",
+          "player_mission": "Classify each of Eugene's behaviors as either conscious memory, unconscious habit, or deliberate planning. Decide which category the book says explains his automatic abilities and defend that sorting.",
+          "key_concepts": [
+            "Viral encephalitis destroyed nearly all of Eugene's medial temporal lobe, a region tied to recall of the past and regulation of some emotions.",
+            "Eugene could not retain any new information for more than a minute or so, yet he could find the bathroom without hesitation.",
+            "Habits can emerge outside our consciousness and be reshaped by fiddling with their parts.",
+            "Eugene could not draw a map of his house or say which doorway led to the kitchen.",
+            "When asked to put all the 'correct' objects into one pile, Eugene could not do it: 'That's just a habit, I think.'",
+            "After twenty-eight days of training Eugene chose the correct object 85 percent of the time, and 95 percent by day thirty-six.",
+            "Squire's experiments proved it is possible to learn and make unconscious choices without remembering anything about the lesson.",
+            "The basal ganglia stored Eugene's habits because it had escaped injury from the encephalitis.",
+            "Habits, as much as memory and reason, are at the root of how we behave.",
+            "Eugene remembered events from before 1960, such as his time in the merchant marines, but had no recollection of recent events."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the distinction between conscious memory (mediated by the medial temporal lobe) and habits (stored in the basal ganglia). Squire's work with Eugene demonstrated that complex learning and unconscious choice can occur with no conscious memory of the lesson at all.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Eugene can find the bathroom, walk home alone, and select 'correct' objects in Squire's test, yet he cannot draw a map of his house or remember the objects at all. What does this gap between his two sets of abilities demonstrate?",
+          "column_a_label": "Conscious memory (recall of facts and events)",
+          "column_b_label": "Habit (unconscious automatic behavior)",
+          "column_c_label": "Deliberate planning (step-by-step reasoning)",
+          "rows": [
+            {
+              "label": "Eugene couldn't draw a map of his house showing where the kitchen was",
+              "col": "a"
+            },
+            {
+              "label": "Eugene got up mid-interview, walked to the bathroom, and flushed without hesitation",
+              "col": "b"
+            },
+            {
+              "label": "Eugene remembered his youth in central California and his time in the merchant marines",
+              "col": "a"
+            },
+            {
+              "label": "After 36 days of training, Eugene chose the 'correct' object 95% of the time",
+              "col": "b"
+            },
+            {
+              "label": "When asked to sort the sixteen objects into piles, Eugene couldn't do it",
+              "col": "b"
+            },
+            {
+              "label": "Eugene asked 'Who's Michael?' when his wife mentioned their son's visit",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Conscious memory, because the behavior must be stored somewhere",
+            "Deliberate planning, because the steps are complex and sequenced",
+            "Neither: Eugene was simply guessing randomly in the card test"
+          ],
+          "explanation": "The bathroom trip, the walks home, and the 95 percent card performance are habits stored in Eugene's intact basal ganglia and run by the cue-routine-reward loop, while his destroyed medial temporal lobe wiped out conscious memory of facts, maps, and recent events. Squire's experiments proved it is possible to make unconscious choices without remembering anything about the lesson or decision making."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Basal Ganglia vs. Conscious Brain Regions",
+          "visual_frame_description": "A cross-section of a human brain rendered as an onion of translucent layers. Near the center, a golf-ball-sized oval glows amber and is labeled 'basal ganglia'; a red patch marks the medial temporal lobe; the outermost rim glows blue. Beside the graphic, a live graph shows a rat's brain activity spiking at the start of the maze and flattening as the run becomes automatic.",
+          "player_mission": "Attribute each piece of evidence to the correct brain structure: basal ganglia, medial temporal lobe, or the outer brain layers. Identify which structure the book credits with storing habits and explain the attribution.",
+          "key_concepts": [
+            "The basal ganglia is an ancient, golf-ball-sized lump of tissue near the center of the skull, similar to structures in fish, reptiles, and mammals.",
+            "The outer layers of the brain, closest to the scalp, are the most recent additions and handle the most complex thinking.",
+            "The basal ganglia stores habits and is central to recalling patterns and acting on them.",
+            "As the rat's route became automatic, its mental activity decreased and the basal ganglia took over.",
+            "The process of converting a sequence of actions into an automatic routine is known as chunking.",
+            "People with basal ganglia injuries can become mentally paralyzed and lose the ability to recognize facial expressions, including fear and disgust.",
+            "The medial temporal lobe is a sliver of cells involved in recall of the past and the regulation of some emotions.",
+            "Viral encephalitis destroyed Eugene's medial temporal lobe, erasing his ability to form new conscious memories.",
+            "Without the basal ganglia we lose access to the hundreds of habits we rely on every day.",
+            "Squire spent three decades studying how the brain stores events, his specialty being the region that holds life memories."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the neurological architecture of habits: the basal ganglia encodes and runs automatic routines while the outer brain layers handle complex thought and the medial temporal lobe handles conscious memory. The chapter's evidence shows habits are stored in the basal ganglia even while the rest of the brain quiets.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "After a week of running the same T-maze, a rat's brain quiets: sniffing, scratching, and decision-making activity stop, yet the rat still sprints to the chocolate. Which brain structure stores and recalls this automatic pattern?",
+          "column_a_label": "Basal ganglia (stores habits via chunking)",
+          "column_b_label": "Medial temporal lobe (conscious memory)",
+          "column_c_label": "Outer brain layers (most complex thinking)",
+          "rows": [
+            {
+              "label": "The 'golf ball-sized lump of tissue' near the center of the skull that stored the maze-running habit",
+              "col": "a"
+            },
+            {
+              "label": "The sliver of cells the encephalitis destroyed in Eugene, erasing his ability to form new memories",
+              "col": "b"
+            },
+            {
+              "label": "The newest, outermost brain layers active when you dream up an invention or laugh at a joke",
+              "col": "c"
+            },
+            {
+              "label": "The region that took over the rat's route as its thinking decreased",
+              "col": "a"
+            },
+            {
+              "label": "The area whose damage caused mental paralysis and an inability to recognize facial expressions",
+              "col": "a"
+            },
+            {
+              "label": "The region Squire spent thirty years studying as the site where events are stored",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The medial temporal lobe, because it stores memories",
+            "The outer cortex, because complex actions must involve advanced thought",
+            "The spinal cord, because the pattern is purely motor"
+          ],
+          "explanation": "The basal ganglia, an ancient structure shared with fish, reptiles, and mammals, is central to recalling patterns and acting on them. As the route became automatic the basal ganglia stored the chunk while conscious decision-making regions quieted. When this structure is damaged, people lose access to hundreds of daily habits and can even fail to recognize facial expressions because they remain perpetually uncertain about which part of the face to focus on."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Physical vs. Emotional Rewards",
+          "visual_frame_description": "A hospital room where Eugene, smiling in a bed, keeps heart-monitor leads in place while nurses beam and compliment him. In a corner of the frame, a fast-food counter shows golden fries dissolving on a tongue. Floating icons of a gold star and a burger hover beside each scene.",
+          "player_mission": "Classify each reward example as an emotional payoff, a physical sensation, or something that is not a reward at all. Identify the kind of reward the book says anchored Eugene's cooperation with the nurses.",
+          "key_concepts": [
+            "Rewards can range from food or drugs that cause physical sensations to emotional payoffs such as the feelings of pride that accompany praise or self-congratulation.",
+            "McDonald's fries are engineered to begin disintegrating the moment they hit the tongue, delivering a hit of salt and grease as fast as possible.",
+            "The nurses doted on Eugene and repeated compliments about doing 'something important for science,' and he loved it.",
+            "After a couple of days of compliments, Eugene did whatever the nurses asked, including keeping his monitor leads in place.",
+            "Threats of restraints were forgotten as soon as they were issued to Eugene.",
+            "Emotional rewards can anchor habits even in a man who cannot remember the praise that produced them.",
+            "The satisfaction Eugene felt after finding a 'correct' sticker was a reward that reinforced his card-flipping routine.",
+            "The reward helps the brain figure out whether a particular loop is worth remembering.",
+            "Beverly discovered she could short-circuit Eugene's worst patterns by inserting new cues, such as removing bacon from the fridge.",
+            "Eugene's habit of eating whatever he wanted, sometimes five or six times a day, was driven by rewards of food."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the reward component of the habit loop, which can be a physical sensation or an emotional payoff like the pride that accompanies praise. The book shows that repeated compliments worked on Eugene where threats failed, because pride functioned as a reward that reinforced a new routine.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Eugene's daughter Carol told the nurses to compliment her father over and over for keeping his heart-monitor leads in place, saying he was 'doing something important for science.' What kind of reward is this scenario illustrating?",
+          "column_a_label": "Emotional reward (pride, praise, self-congratulation)",
+          "column_b_label": "Physical reward (food, drugs, bodily sensation)",
+          "column_c_label": "Neither: it is a punishment, not a reward",
+          "rows": [
+            {
+              "label": "The feelings of pride that accompany praise or self-congratulation",
+              "col": "a"
+            },
+            {
+              "label": "McDonald's fries engineered to deliver a hit of salt and grease the moment they touch the tongue",
+              "col": "b"
+            },
+            {
+              "label": "Eugene's satisfaction when he flipped a card and found a 'correct' sticker",
+              "col": "a"
+            },
+            {
+              "label": "The food the rats received for pressing levers in the maze experiments",
+              "col": "b"
+            },
+            {
+              "label": "The compliments the nurses lavished on Eugene for sitting still",
+              "col": "a"
+            },
+            {
+              "label": "The threat of restraints the nurses issued when Eugene kept pulling off his monitors",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Physical reward, because compliments trigger brain chemistry",
+            "A cue, because the compliment triggers an action",
+            "A routine, because Eugene had to sit still to earn it"
+          ],
+          "explanation": "The repeated compliments functioned as an emotional reward: the book says rewards range from physical sensations to the pride that accompanies praise or self-congratulation. Once Eugene's pride was engaged, his willingness to sit still became a habit and he loved the attention, while threats, by contrast, were forgotten the moment they were issued."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "The Power and Delicacy of Habits",
+          "visual_frame_description": "A single frame split down the middle. On the left, laboratory mice press levers and trot across a shimmering electrified floor toward food while sizzling bolts flash. On the right, Eugene stands confused at the corner of his block where a windstorm has scattered branches over the sidewalk. Two captions float above: 'POWERFUL' and 'DELICATE.'",
+          "player_mission": "Classify each example as showing that habits persist automatically, that they fall apart when cues change, or that they depend on continuous rewards. Decide which quality the poisoned-food experiment demonstrates.",
+          "key_concepts": [
+            "Habits are powerful but delicate; they can emerge outside our consciousness or be deliberately designed.",
+            "Mice trained to press levers for food kept pressing and eating even when the food was poisoned and the floor was electrified.",
+            "The mice avoided poisoned pellets in a bowl and electrified floor panels when they saw them directly.",
+            "When their old cues appeared, the mice unthinkingly pressed the lever and walked across the floor even as they vomited or jumped from the electricity.",
+            "Eugene got lost whenever street repairs or windblown branches changed his usual walking route, no matter how close he was to home.",
+            "If Eugene's daughter chatted with him for ten seconds before walking out, his anger habit never emerged.",
+            "When a fast-food restaurant closes down, the families that previously ate there often start having dinner at home.",
+            "Once a routine of sitting on the couch rather than running develops, that pattern always remains inside the brain.",
+            "Habits cause our brains to cling to them at the exclusion of all else, including common sense.",
+            "As long as the basal ganglia is intact and cues remain constant, the behaviors will occur unthinkingly."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the book's central paradox that habits are simultaneously powerful and delicate: they run automatically even against common sense, yet the slightest change in cues can dismantle them. The poisoned-food mouse experiment demonstrates how habits compel behavior at the exclusion of all else, while Eugene's lost route and the closed fast-food restaurant show their delicacy.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Mice learned to press a lever for food until the behavior was a habit. After the scientists poisoned the food and electrified the floor, the animals still pressed the lever and crossed the floor, even though they clearly avoided the same dangers when presented directly. What does this experiment demonstrate about habits?",
+          "column_a_label": "Habits are powerful: they persist automatically",
+          "column_b_label": "Habits are delicate: they fall apart when cues change",
+          "column_c_label": "Habits require continuous rewards to survive",
+          "rows": [
+            {
+              "label": "The mice pressed the lever and ate poisoned food, or crossed the electrified floor, even while vomiting or jumping from the shock",
+              "col": "a"
+            },
+            {
+              "label": "When Eugene's route changed, with street repairs or branches on the sidewalk, he got lost until a neighbor helped him",
+              "col": "b"
+            },
+            {
+              "label": "When a fast-food restaurant closed, families often began having dinner at home",
+              "col": "b"
+            },
+            {
+              "label": "Eugene's anger habit never emerged if his daughter chatted with him for ten seconds before leaving",
+              "col": "b"
+            },
+            {
+              "label": "Once a couch-sitting or doughnut-snacking routine develops, the pattern remains in the brain, waiting for the right cues and rewards",
+              "col": "a"
+            },
+            {
+              "label": "Eugene ate breakfast three or four times a day whenever the radio and morning-light cues were present",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Habits are delicate, because the mice avoided the bowl when they saw the danger",
+            "Habits only persist with conscious effort",
+            "The mice acted on remembered knowledge of the dangers"
+          ],
+          "explanation": "The poisoned-food experiment shows how strong habits are: they occur without our permission and cause the brain to cling to them at the exclusion of all else, including common sense. Yet the same chapter stresses that habits are delicate, since the moment a cue changes, such as a closed restaurant, a diverted route, or a longer good-bye, the pattern falls apart."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Diagnosing a Personal Habit Loop",
+          "visual_frame_description": "An open-plan Austin office at 3 p.m. Nina, a thirty-four-year-old project lead in a gray blazer, sits at her desk and reaches, almost without looking, into a bright-yellow bowl of wrapped chocolates on a coworker's desk. A wall clock reads 3:00 and a digital prompt asks: 'Find the cue.'",
+          "player_mission": "Observe Nina's daily afternoon snacking and diagnose which element is the cue in her habit loop. Then choose the intervention that matches the book's logic for changing a habit, rather than relying on willpower alone.",
+          "key_concepts": [
+            "The habit loop is a three-step cycle of cue, routine, and reward that becomes more automatic with repetition.",
+            "A cue can be almost anything: a visual trigger, a place, a time of day, an emotion, a sequence of thoughts, or the company of particular people.",
+            "Unless you deliberately fight a habit, the pattern will unfold automatically.",
+            "Once you break a habit into its components, you can fiddle with the gears.",
+            "Beverly short-circuited Eugene's worst patterns by inserting new cues, such as not keeping bacon in the fridge.",
+            "When Beverly put a salad next to Eugene's chair, he would sometimes pick at it, and as the meal became a habit he stopped searching the kitchen for treats.",
+            "Habits never really disappear; they are encoded into the structures of the brain.",
+            "The brain can't tell the difference between bad and good habits.",
+            "Cravings emerge as the cue and reward become intertwined with anticipation.",
+            "Studies show that understanding the structure of the habit loop makes habits easier to control."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the diagnosis and repair of a personal habit loop: identifying the cue, routine, and reward, then changing only the component that can be controlled. The chapter's evidence from Beverly's interventions with Eugene shows that inserting new cues and routines lets you reshape a habit without relying on brute willpower.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "The habit loop is a three-step neurological cycle, cue, routine, reward, that becomes more automatic with repetition until the brain stops fully participating in decision making. To change a behavior you must first identify its components, because once you break a habit into its parts you can fiddle with the gears.",
+          "stage_1_observation": "Nina, a thirty-four-year-old project lead, sits at her desk in an open-plan office in Austin. The clock hits 3 p.m. and, almost without noticing, she reaches into a bright-yellow bowl of individually wrapped chocolates on her neighbor's desk, unwraps one, and eats it while staring at her screen. She repeats this at roughly the same hour every day. A colleague mentions that Nina has tried to quit for years, but the bowl always wins.",
+          "stage_1_question": "Using the habit loop, what is the most likely cue triggering Nina's afternoon snacking?",
+          "stage_1_correct_answer": "The time of day (3 p.m.) together with the visual trigger of the yellow bowl. The book notes that cues can be almost anything, including a visual trigger, a place, or a time of day; the sight of the bowl after a long stretch of work tells her brain to go into automatic mode and use the snacking habit.",
+          "stage_2_intervention": "Nina wants to stop snacking at work. A colleague proposes three plans: (1) empty the bowl and refuse chocolates from now on, relying on willpower; (2) keep the same 3 p.m. moment but replace the routine with a different action that still delivers the reward; (3) simply work through the 3 p.m. slump without doing anything at all. Which intervention best fits the chapter's logic?",
+          "stage_2_correct_answer": "Plan (2): keep the cue and the reward intact but insert a new routine. The book shows Beverly short-circuiting Eugene's worst patterns by inserting new cues and explains that unless you deliberately find new routines the old pattern will unfold automatically. Replacing the routine, for instance with a short walk or a stretch break, lets the loop discharge into a healthier behavior while the bad tendency recedes."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Chunking and Automaticity",
+          "visual_frame_description": "A suburban driveway at sunrise. A gray sedan idles while a nineteen-year-old driver, Maya, grips the wheel, checking mirrors and glancing over her shoulder with strained concentration. In the passenger seat her father chats and adjusts the radio with one hand while guiding the same maneuver effortlessly. A caption reads: 'Same sequence, two brains.'",
+          "player_mission": "Explain why an identical backing-out maneuver is mentally effortless for an experienced driver and demanding for a learner. Then predict what happens to an automatic routine when its cues change even slightly.",
+          "key_concepts": [
+            "Chunking is the process in which the brain converts a sequence of actions into an automatic routine.",
+            "The brain is constantly looking for ways to save effort, so it tries to make almost any routine into a habit.",
+            "Backing a car out of a driveway involves opening the garage, adjusting mirrors, shifting into reverse, estimating distances, and monitoring traffic.",
+            "As a rat learned to run the maze, its mental activity decreased because the route became automatic.",
+            "The basal ganglia stores habits and recalls patterns even while the rest of the brain sleeps.",
+            "Once a habit starts unfolding, gray matter is free to chase other thoughts, which is why you notice that Jimmy forgot his lunchbox inside.",
+            "An efficient brain requires less room, making childbirth easier and allowing us to devote mental energy to higher tasks.",
+            "Habits are surprisingly delicate: if the cues change the slightest bit, the habit falls apart.",
+            "Eugene got lost when street repairs or windblown branches changed his walking route, no matter how close he was to home.",
+            "As long as the basal ganglia is intact and the cues remain constant, the behaviors will occur unthinkingly."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests chunking and automaticity: the basal ganglia compresses a long sequence of actions into a single automatic routine so the conscious mind can go quiet. The chapter's rat-maze and driving evidence show the tradeoff, and its account of Eugene's lost route shows how fragile such routines are when cues change.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "Chunking is the process by which the brain converts a sequence of actions into an automatic routine. Because the brain constantly looks for ways to save effort, repeated behaviors get encoded in the basal ganglia so that complex sequences, like backing out of a driveway, run with almost no conscious thought, and the conscious mind is freed for other tasks.",
+          "stage_1_observation": "Maya, nineteen, is learning to drive her family's sedan. Her first attempts to back out of the driveway are a struggle: she must coordinate the mirrors, the brake, the gearshift, oncoming traffic, and the distance to the garbage cans all at once, and it exhausts her. Her father, who has driven for twenty-five years, performs the identical maneuver while simultaneously telling a story and adjusting the radio.",
+          "stage_1_question": "Why can Maya's father perform this intricate sequence with almost no thought while Maya must concentrate on every step?",
+          "stage_1_correct_answer": "Because after thousands of repetitions the basal ganglia has chunked the entire sequence, open the garage, unlock, adjust mirrors, shift into reverse, monitor traffic, into a single automatic routine. Just as the rat's maze-running became a habit and its mental activity decreased, the habit loop runs the chunk while the brain's decision-making centers go quiet.",
+          "stage_2_intervention": "Maya is now confident, so confident that she starts backing out of the driveway while finishing a text message. Her father warns her that even one unfamiliar element can wreck the routine. Based on the chapter, what happens when a habit's cues change even slightly?",
+          "stage_2_correct_answer": "The habit falls apart. Habits are surprisingly delicate: when Eugene's route changed because of street repairs or windblown branches, he got lost no matter how close he was to home. The cues must remain constant for the automatic pattern to unfold, so Maya's distracted, slightly altered backing sequence is exactly the kind of shift that can break the chunk and cause an error."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Why Habits Never Disappear",
+          "visual_frame_description": "An MIT laboratory kept at a chilly sixty degrees. A rat stands in a T-shaped maze at the base of a partition; a researcher in a white coat returns a chocolate reward to a marked spot on the floor. A neural readout graph flickers with the familiar spike pattern. A thought bubble reads: 'Will the old route come back?'",
+          "player_mission": "Predict the outcome of Graybiel's extinction-and-reemergence experiment, then apply her conclusion to a person's relapsing bad habit. Choose the advice that matches the book's account of how habits are encoded and how they can be controlled.",
+          "key_concepts": [
+            "Ann Graybiel oversaw many of the basal ganglia experiments at MIT.",
+            "Researchers trained rats to run down a maze until it was a habit, then extinguished the habit by changing the placement of the reward.",
+            "When the reward was placed back in the old spot, the old habit reemerged right away.",
+            "Graybiel concluded that habits never really disappear; they are encoded into the structures of our brain.",
+            "The brain can't tell the difference between bad and good habits, so a bad one is always lurking, waiting for the right cues and rewards.",
+            "The rat's brain activity spikes at the beginning of the maze, at the click, and again at the end, when it finds the chocolate.",
+            "If we create new neurological routines that overpower old behaviors, we can force bad tendencies into the background.",
+            "Once someone creates a new pattern, studies have demonstrated, the new behavior becomes as automatic as any other habit.",
+            "Habits occur without our permission but can be reshaped by fiddling with their parts.",
+            "Simply understanding how habits work, learning the structure of the habit loop, makes them easier to control."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the finding that habits are permanently encoded in the brain and never truly disappear. Graybiel's extinction experiments showed that restored rewards instantly resurrect old habits, so lasting change requires creating new routines that overpower the old pattern rather than expecting it to vanish.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "Ann Graybiel's MIT experiments extinguished a rat's maze habit by moving the reward, then restored the reward to the old place and found the habit reemerged immediately. Her conclusion: habits never really disappear, they are encoded into the structures of the brain, which is why a bad habit is always lurking, waiting for the right cues and rewards.",
+          "stage_1_observation": "In the MIT lab, researchers train rats to sprint a T-shaped maze to chocolate until the run is automatic. Then they move the chocolate to a different spot, and the rats stop running the old route. One day the scientists quietly place the reward back in its original position and drop a rat into the maze.",
+          "stage_1_question": "Based on Graybiel's findings, what should the scientists expect the rat to do?",
+          "stage_1_correct_answer": "The old habit will reemerge right away: the rat sprints the original route to the restored chocolate. The habit never really disappeared; it remained encoded in the basal ganglia. Because the brain cannot tell the difference between good and bad habits, the old pattern was simply waiting for the right cues and rewards.",
+          "stage_2_intervention": "DeAndre, a forty-one-year-old retail manager, quit smoking two years ago but still caves during his evening commute when he passes his old convenience store. A friend tells him the habit is permanently in his brain, so he should just accept that he will relapse sometimes. DeAndre asks you what the chapter actually advises. What intervention matches the book?",
+          "stage_2_correct_answer": "Accept that the neural pattern cannot be erased, but take control of the habit loop and build new routines that overpower the old behavior, pushing it into the background. The chapter says that if we learn to create new neurological routines that overpower those behaviors, we can force bad tendencies into the background, and that breaking a habit into its components lets you fiddle with the gears."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Emotional Habits That Run Themselves",
+          "visual_frame_description": "A sunlit living room in San Diego. Eugene sits in a plush chair; his daughter Carol, purse on her shoulder, walks toward the kitchen, waving good-bye. Seconds later the scene zooms to Eugene's face flushing red, one fist on the table, while a time-stamp shows three seconds have passed. A caption reads: 'Once it started, he had to finish the frustration.'",
+          "player_mission": "Diagnose why Eugene's anger persists after he forgets its cause, treating it as an emotional habit loop. Then choose the lever that stops the loop, using the cue-and-reward adjustments the chapter describes.",
+          "key_concepts": [
+            "Routines in habit loops can be emotional, and some habits related to emotions are measured in milliseconds.",
+            "When Eugene's daughter left after a visit, an emotional habit began even though he forgot why he was upset.",
+            "Eugene's anger would persist, red hot and beyond his understanding, until it burned itself out.",
+            "Beverly said of Eugene's frustration: 'It was like, once it started, he had to finish the frustration.'",
+            "If Eugene's daughter stopped to chat with him for ten seconds before walking out, his anger habit never emerged.",
+            "Habits are powerful but delicate; they can be reshaped by fiddling with their parts.",
+            "Rewards can be emotional payoffs such as the pride that accompanies praise or self-congratulation.",
+            "Beverly short-circuited bad patterns by inserting new cues, such as not keeping bacon in the fridge and placing a salad by Eugene's chair.",
+            "Carol had nurses repeatedly compliment Eugene, and after a couple of days he did whatever they asked.",
+            "Habits often occur without our permission but can be changed by altering the cue, routine, or reward."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests emotional habits, in which the routine itself is a feeling that runs automatically once triggered. Eugene's anger loop could not be interrupted by memory because the cue and routine operated below conscious awareness; changing the cue or engaging pride as a reward reshaped the behavior.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "Emotional habits are habit loops whose routines are measured in milliseconds. Eugene's daughter would visit, chat, and leave, and although Eugene forgot their conversation, his anger loop had already started, so the frustration persisted red hot and beyond his understanding until it burned itself out.",
+          "stage_1_observation": "Beverly watches from the kitchen as Carol visits Eugene in the living room. Carol talks with her father, then walks into the kitchen to say hello. Moments later Eugene is banging the table, cursing, and snapping at whoever enters the room; then, within minutes, he is smiling and talking about the weather, with no idea why he was angry.",
+          "stage_1_question": "Why does Eugene's anger persist even after he has forgotten what triggered it?",
+          "stage_1_correct_answer": "Because the anger is an emotional habit whose loop has already started, and once it started, he had to finish the frustration. The routine of rage runs automatically from the cue of Carol leaving, and it cannot be stopped by memory because Eugene has none; the loop simply has to complete itself, even though the cause is forgotten.",
+          "stage_2_intervention": "Beverly and Carol want to stop the distressing anger scenes. Carol notices that if she simply chats with her father for ten seconds before leaving the house, he never gets angry at all. What is the most powerful lever the chapter's model gives them, and what other 'gears' did the family adjust?",
+          "stage_2_correct_answer": "Change the cue so the loop never starts: a ten-second-longer good-bye altered the cue and the anger habit never emerged. Beverly also adjusted cues and rewards elsewhere by not keeping bacon in the fridge and putting a salad by Eugene's chair, and Carol used repeated compliments so pride became the reward that made Eugene cooperate. Fiddling with the parts of the loop is exactly how the book says habits can be reshaped."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Corporate Habit Engineering at Fast-Food Chains",
+          "visual_frame_description": "A consumer researcher with a clipboard watches the Gomez family, two parents and two children, settle into identical red booths at a McDonald's. Golden arches glow in the window, and the children's eyes fix on the play area before the fries arrive. A floating diagram ties the arches, the greeting, and the fries into a cue-routine-reward loop.",
+          "player_mission": "Identify the standardized cues and engineered immediate reward in a family's fast-food habit loop, then predict what happens when the restaurant closes and explain why the habit is both delicate and permanently encoded.",
+          "key_concepts": [
+            "Researchers at the University of North Texas and Yale found that families usually don't intend to eat fast food on a regular basis.",
+            "A once-a-month pattern slowly becomes once a week, and then twice a week, as cues and rewards create a habit.",
+            "Every McDonald's looks the same because the company deliberately standardizes architecture and what employees say to customers.",
+            "The standardized stores make everything a consistent cue to trigger eating routines.",
+            "The fries are specifically engineered to begin disintegrating the moment they hit the tongue, delivering a hit of salt and grease as fast as possible.",
+            "The fast delivery of salt and grease causes pleasure centers to light up and the brain to lock in the pattern.",
+            "When a fast-food restaurant closes down, the families that previously ate there will often start having dinner at home.",
+            "Even small shifts can end the pattern, which shows that habits are delicate.",
+            "Since we often don't recognize habit loops as they grow, we are blind to our ability to control them.",
+            "By learning to observe the cues and rewards, we can change the routines."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests how companies deliberately engineer the habit loop, standardizing cues and rewarding routines to tighten the cycle. The fast-food evidence shows both sides of the paradox: engineered loops are powerful and grow silently, yet they are delicate enough that even a small shift such as a restaurant closing can end them.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "Researchers at the University of North Texas and Yale found that families rarely intend to eat fast food regularly; a once-a-month pattern silently becomes twice a week as cues and rewards create a habit. Companies deliberately engineer this loop by standardizing cues, such as identical store architecture and scripts, and by engineering immediate rewards, such as fries that deliver salt and grease the moment they touch the tongue.",
+          "stage_1_observation": "You are a consumer researcher shadowing the Gomez family, who now eat at the same McDonald's twice a week. You notice the identical golden arches, identical layout, and identical greeting at every visit; the kids start asking for fries the moment they see the play area. The fries arrive and disintegrate instantly in the children's mouths.",
+          "stage_1_question": "From the researchers' perspective, which elements are the standardized cue and the engineered immediate reward in the Gomezes' habit loop?",
+          "stage_1_correct_answer": "The standardized architecture, greeting, and visual triggers, such as the arches and the play area, are the consistent cues that trigger the eating routine, and the fries' engineered fast delivery of salt and grease is the immediate reward that lights up the pleasure centers and locks in the pattern. The routine is the eating itself, and the loop tightens with each visit.",
+          "stage_2_intervention": "Six months later the McDonald's near the Gomezes closes for remodeling, and the family stops going. Your colleague argues this proves the habit is weak and will not return. How should you correct her, using the chapter?",
+          "stage_2_correct_answer": "The closing shows that habits are delicate, even small shifts in cues can end a pattern, which is exactly why learning to observe cues and rewards gives us control. But Graybiel's work shows the neural pattern never disappears: if the restaurant reopens or a similar set of cues returns, the loop can reemerge, so the parents should deliberately build a new routine, such as cooking dinner at home, that overpowers the old one rather than assume the habit is gone."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Explaining Eugene's Automatic Behaviors",
+          "visual_frame_description": "A sunlit hallway at UCSD. You stand in a lab coat holding a clipboard beside a visiting psychology professor who gestures toward an exam room where Eugene, smiling, has just walked to the bathroom without hesitation. A small whiteboard behind you shows the words 'cue - routine - reward' in green marker.",
+          "player_mission": "Explain to a skeptical visiting professor why a man with no conscious memory can still find the bathroom, walk home, and learn the correct cards. Choose the response that accurately reflects Squire's experiments and the habit loop.",
+          "key_concepts": [
+            "Squire's experiments proved it is possible to learn and make unconscious choices without remembering anything about the lesson.",
+            "Eugene's basal ganglia escaped injury from the viral encephalitis and stored his habits.",
+            "Eugene chose the correct object 85 percent of the time after twenty-eight days and 95 percent after thirty-six days.",
+            "Eugene could not remember the objects or why he felt compelled to turn the cardboard over.",
+            "The habit loop is a cue, a routine, and a reward that becomes more automatic over time.",
+            "The consistent trees and mailboxes on Eugene's walking route served as cues that guided him home.",
+            "Habits, as much as memory and reason, are at the root of how we behave.",
+            "Habits can emerge outside our consciousness or can be deliberately designed.",
+            "Chunking lets the basal ganglia run an automatic routine while conscious brain regions go quiet.",
+            "Without the basal ganglia, people become mentally paralyzed and lose access to hundreds of daily habits."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This simulation tests the explanation of how habits operate independently of conscious memory. Eugene's intact basal ganglia ran cue-routine-reward loops even though his medial temporal lobe was destroyed, which is why he could perform complex automatic behaviors he could never remember.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "scenario_setup": "You are a graduate researcher in Larry Squire's lab at UCSD. A visiting psychology professor has just watched Eugene find the bathroom, walk home alone, and flip 'correct' cards, and she is baffled, because Eugene cannot draw a map of his own house. She corners you in the hallway and asks how any of this is possible. Your credibility in the lab and the accuracy of the published account depend on explaining the neuroscience clearly.",
+          "dialogue": [
+            "Visiting professor: 'He can't tell me where his kitchen is, yet he just walked in there and got a jar of nuts. What on earth is going on in his brain?'",
+            "You: 'The kitchen map is gone along with his medial temporal lobe, but the route to the nuts was never stored there. That trip is a habit.'",
+            "Visiting professor: 'A habit? He lost the ability to form new memories months ago. How does a man with no memory form anything new?'",
+            "You: 'That is exactly the surprise. Squire's card test proved it: Eugene picked the correct object 95 percent of the time after 36 days and still could not recall any of it.'",
+            "Visiting professor: 'So what is storing it? Some kind of reflex?'",
+            "You: 'Not a reflex, a habit loop. The same pairings are the cue, choosing and flipping the card is the routine, and the correct sticker is the reward. The encephalitis spared his basal ganglia, and that is where the loop is encoded.'",
+            "Visiting professor: 'And the walking home, the bathroom visits?'",
+            "You: 'Same machinery. The trees and mailboxes along his route are consistent cues; his basal ganglia runs the walking chunk while his conscious memory stays silent.'"
+          ],
+          "choices": [
+            "Explain that Eugene runs cue-routine-reward loops stored in his intact basal ganglia, while his destroyed medial temporal lobe wiped out conscious memory, which is exactly what Squire's experiments demonstrated.",
+            "Suggest that Eugene must secretly remember more than he admits and that the tests are unreliable.",
+            "Tell her the behavior is a lucky coincidence and that Squire has not been able to replicate it.",
+            "Say the walking and card choices are reflexes like the startle response, with no learning involved."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "The habit loop (cue-routine-reward) and the basal ganglia's role in chunking and storing habits independently of conscious memory.",
+          "psychological_breakdown": "Choice 0 works because it matches the book's account: Squire proved it is possible to learn and make unconscious choices without remembering anything about the lesson, with habits stored in the basal ganglia. Choice 1 misreads the data, since Eugene genuinely has no conscious memory of the objects. Choice 2 contradicts the replicated card experiment (85 percent at day 28, 95 percent at day 36). Choice 3 confuses habit with reflex: habits are learned, deliberate, context-dependent loops, not hardwired startle responses."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Retraining a 3 p.m. Snacking Loop",
+          "visual_frame_description": "A bright break room in a Chicago accounting firm. Priya, thirty-eight, in a cardigan, leans on a counter beside a communal cookie jar, looking frustrated. You sit across from her with a notepad, and a small whiteboard on the wall shows a circle drawn in three parts labeled 'cue,' 'routine,' and 'reward.'",
+          "player_mission": "Coach Priya through the habit loop so she can stop her 3 p.m. cookie habit for good. Choose the advice that keeps the cue and reward intact while replacing the routine, rather than strategies the book shows are ineffective.",
+          "key_concepts": [
+            "Habits emerge because the brain is constantly looking for ways to save effort.",
+            "Unless you deliberately fight a habit, unless you find new routines, the pattern will unfold automatically.",
+            "The cue and reward become intertwined until a powerful sense of anticipation and craving emerges.",
+            "Once you break a habit into its components, you can fiddle with the gears.",
+            "Beverly inserted new cues, such as not keeping bacon in the fridge, to short-circuit Eugene's bad patterns.",
+            "When Beverly put a salad next to Eugene's chair, the meal became a habit and he stopped searching the kitchen for treats.",
+            "The brain can't tell the difference between bad and good habits.",
+            "Habits never really disappear; they are encoded into the structures of the brain.",
+            "If we learn to create new neurological routines that overpower old behaviors, we can force bad tendencies into the background.",
+            "Once someone creates a new pattern, it becomes as automatic as any other habit."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This simulation tests habit-loop retraining: keep the cue and the reward, replace the routine. The chapter's evidence from Beverly's interventions with Eugene shows that changing the middle of the loop while preserving its ends allows a new pattern to take root and the old one to fade into the background.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "scenario_setup": "You are a workplace wellness coach meeting Priya, a thirty-eight-year-old accountant, in the break room of her firm's Chicago office. Priya is frustrated: every afternoon around 3 p.m., when her energy dips, she eats several cookies from the communal jar by the coffee machine and then feels guilty. She has tried just saying no for months and always caves, and she wants a plan that will actually stick. If you send her off with pure willpower advice she will fail and lose trust in the program.",
+          "dialogue": [
+            "Priya: 'I've tried to quit the cookies a hundred times. By 3 p.m. my brain just seems to switch off and my hand is in the jar.'",
+            "You: 'That's not a lack of willpower, it's a habit loop. Let's find the cue that starts it.'",
+            "Priya: 'The cue? It's just being tired and bored at my desk.'",
+            "You: 'Okay, so time of day and that slump. And what does eating the cookies give you, beyond sugar?'",
+            "Priya: 'Honestly? A minute away from my screen. A little pleasure. A reset.'",
+            "You: 'Good. So we keep that reward, keep the 3 p.m. cue, and change only the routine.'",
+            "Priya: 'Wait, you're not going to tell me to empty the jar?'",
+            "You: 'That works only as long as the jar stays empty. A habit doesn't erase itself; the loop just needs a new routine to discharge into.'"
+          ],
+          "choices": [
+            "Recommend keeping the 3 p.m. cue and the reset-and-pleasure reward, but swap the cookie routine for a short walk or a stretching break she genuinely enjoys.",
+            "Tell her to empty the cookie jar and simply rely on discipline until the craving fades.",
+            "Suggest she ignore the 3 p.m. feeling entirely and push through her work without any break.",
+            "Advise her to shame herself with a sticky note listing calories so guilt stops her."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Habit-loop retraining: keep the cue and reward, replace the routine. The chapter claims that unless you deliberately find new routines the old pattern unfolds automatically, and that inserting new routines forces bad tendencies into the background, as Beverly did by removing bacon and adding a salad for Eugene.",
+          "psychological_breakdown": "Choice 0 fits the book's model: the loop's energy gets a new routine while the cue and reward stay intact, so the brain keeps its payoff without the unwanted behavior. Choice 1 relies on willpower and leaves the cue-reward pair intact, so the loop reasserts itself, and the brain cannot tell good from bad habits. Choice 2 fights the loop with suppression, and since habits emerge without permission the routine unfolds anyway. Choice 3 adds guilt, which the chapter never supports as a mechanism; emotional payoffs such as pride, not shame, are the rewards the book identifies as anchors."
+        }
+      ]
+    }
+  ]
+}

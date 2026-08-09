@@ -1,0 +1,499 @@
+{
+  "spec_file": "spec_power_of_habit_b04.json",
+  "chapters": [
+    {
+      "id": "ch08",
+      "title": "3. The Golden Rule of Habit Change: Why Transformation Occurs",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Cue, Routine, or Reward: Sorting the Habit Loop",
+          "visual_frame_description": "A control-room sorting board lights up three lanes labeled Cue, Routine, and Reward. Floating cards show fragments of the chapter's stories: Mandy's fingertip tension, Regan Upshaw's glance at a lineman's foot, John Lynch sprinting to his spot on the field. A pulsing cue-routine-reward loop diagram loops in the corner of the screen as the player drags each card into a lane.",
+          "player_mission": "Sort every story fragment into the correct part of the three-step habit loop. Each correct placement sharpens your diagnosis of how the loop works; misplacements trigger a brief replay of the loop diagram so you can recalibrate.",
+          "key_concepts": [
+            "A habit is a three-step loop of cue, routine, and reward.",
+            "The Golden Rule of habit change holds that a bad habit cannot be extinguished, only changed.",
+            "To change a habit you keep the old cue and deliver the old reward while inserting a new routine.",
+            "Mandy's nail biting was cued by a tension in her fingertips.",
+            "The reward Mandy sought from biting was a brief sense of completeness and physical stimulation.",
+            "Mandy replaced biting with a competing response such as putting her hands in her pockets or gripping a pencil.",
+            "Defensive end Regan Upshaw focused only on the cues Dungy taught him, such as the opposite lineman's foot and shoulders.",
+            "Safety John Lynch read cues like the quarterback's face mask and the spacing of receivers before the ball arrived.",
+            "Alcoholics crave escape, relaxation, and companionship more than the intoxication itself.",
+            "Dungy attacked only the middle step of the loop, the routine, in his players.",
+            "Champions do ordinary things without thinking, too fast for the other team to react.",
+            "When players think too much or hesitate, Dungy's system falls apart."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the cue-routine-reward structure of the habit loop: a cue triggers a routine that delivers a reward, and the loop is stored in the basal ganglia. The chapter's Golden Rule states that habits cannot be extinguished, only changed, by keeping the same cue and reward while inserting a new routine.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Classify each story fragment into the correct part of the three-step habit loop described in the chapter.",
+          "column_a_label": "Cue (the trigger)",
+          "column_b_label": "Routine (the behavior)",
+          "column_c_label": "Reward (the payoff)",
+          "rows": [
+            { "label": "Mandy's tension in her fingertips just before she bites", "col": "a" },
+            { "label": "Mandy putting her hands in her pockets when the tension appears", "col": "b" },
+            { "label": "The brief sense of completeness Mandy feels after working through all her nails", "col": "c" },
+            { "label": "Regan Upshaw checking the outside foot of the opposite lineman", "col": "a" },
+            { "label": "John Lynch running to his assigned spot and waiting for his cue", "col": "b" },
+            { "label": "The escape and relaxation alcoholics crave from drinking", "col": "c" },
+            { "label": "Derrick Brooks reading the movement of the guard before reacting", "col": "a" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The escape and relaxation alcoholics crave is a cue, not a reward.",
+            "Mandy's hands-in-pockets action is the reward that ends her loop.",
+            "Regan Upshaw's glance at the lineman's foot is a routine, not a cue."
+          ],
+          "explanation": "Mandy's fingertip tension is the cue: it reliably precedes the biting routine and stops mattering once the behavior starts, exactly what awareness training taught her to track. Sorting correctly rests on the chapter's claim that every habit is a three-step loop of cue, routine, and reward, and that change happens only when the middle step, the routine, is reworked."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Applying the Golden Rule: Keeping Cue and Reward",
+          "visual_frame_description": "A workbench scene shows three trays labeled Golden Rule Applied, Willpower-Only, and Misapplied Change. Cards depicting change attempts from the chapter slide down a chute: Mandy's competing response, the foul-tasting polish, AA's sponsor calls, push-ups for cravings. The player drops each card into the tray that matches how well the attempt preserves the old cue and reward.",
+          "player_mission": "Judge each change attempt and drop it into the correct tray: does it keep the cue and reward while swapping the routine, does it rely on willpower alone, or does it alter the cue or reward instead of the routine? Correct judgments reveal the Golden Rule in action.",
+          "key_concepts": [
+            "You can never truly extinguish a bad habit; you can only change it.",
+            "If you use the same cue and provide the same reward, you can shift the routine and change the habit.",
+            "Attempts to give up snacking often fail unless a new routine satisfies the old cue and reward urges.",
+            "A smoker usually cannot quit unless she finds an activity to replace cigarettes when her nicotine craving is triggered.",
+            "Mandy's foul-tasting nail polish and promises of willpower did not stop her biting.",
+            "Mandy's competing response kept the tension cue and the stimulation reward while changing the routine.",
+            "AA is, in essence, a giant machine for changing habit loops.",
+            "AA gives members sponsor calls and meetings that offer as much escape and catharsis as a Friday night bender.",
+            "Studies of former smokers find that choosing new routines that provide similar payoffs makes quitting more likely.",
+            "Dungy used the same cues players already had but gave them different routines that became automatic."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the Golden Rule of habit change: to alter a habit you keep the old cue and deliver the old reward while inserting a new routine, because habits cannot be erased. The chapter shows the rule underpinning AA, habit reversal training, and Dungy's coaching, and that willpower-only attempts fail because the old cue and craving remain unaddressed.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "For each change attempt, classify whether it correctly applies the Golden Rule of habit change, relies on willpower without a replacement routine, or misapplies the rule by altering the cue or reward.",
+          "column_a_label": "Golden Rule applied (same cue, same reward, new routine)",
+          "column_b_label": "Willpower-only attempt (no replacement routine)",
+          "column_c_label": "Misapplied change (alters the cue or reward)",
+          "rows": [
+            { "label": "Mandy puts her hands in her pockets when she feels the fingertip tension, keeping the stimulation reward", "col": "a" },
+            { "label": "Mandy's earlier attempts with foul-tasting nail polish and promises of willpower", "col": "b" },
+            { "label": "A smoker does a quick series of push-ups when the nicotine craving is triggered", "col": "a" },
+            { "label": "A smoker adds afternoon caffeine to satisfy the stimulation the cigarettes provided", "col": "a" },
+            { "label": "AA gives members sponsor calls and meetings that offer escape and catharsis instead of a bar", "col": "a" },
+            { "label": "An alcoholic repeats 'I just need more willpower' while adding no new routine", "col": "b" },
+            { "label": "A dieter swaps chips for candy at 3 p.m. without addressing the boredom that drives the snack", "col": "c" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Keeping the same cue and reward while swapping the routine is a violation of the Golden Rule.",
+            "Eliminating the reward entirely is the surest way to change a habit.",
+            "Changing the cue while keeping the old routine is the recommended approach."
+          ],
+          "explanation": "Mandy's competing response is the exemplar: the cue (fingertip tension) and reward (quick physical stimulation) stay intact while the routine changes to hands-in-pockets, which is the Golden Rule verbatim: keep the old cue, deliver the old reward, insert a new routine. Her earlier polish-and-willpower attempts lacked any replacement routine, which is exactly why they failed."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "The Real Craving: Escape, Stimulation, or the Surface Payoff",
+          "visual_frame_description": "Three diagnostic stations light up: Escape and Relief, Stimulation and Interruption, and Surface Physical Effect. Patients' craving reports scroll across a triage screen: an alcoholic who drinks to forget work worries, Mandy nibbling during a boring lecture, a smoker reaching for a cigarette during a lull. The player routes each report to the craving category it really reflects.",
+          "player_mission": "Route each craving report to the correct category. The chapter argues the surface behavior is often not the real reward, so your job is to identify the craving actually driving each habit loop.",
+          "key_concepts": [
+            "Alcoholics crave a drink because it offers escape, relaxation, companionship, and the blunting of anxieties.",
+            "Alcoholics might crave a cocktail to forget their worries, but they do not necessarily crave feeling drunk.",
+            "The physical effects of alcohol are often one of the least rewarding parts of drinking for addicts.",
+            "Mandy bit her nails when she was bored and sought physical stimulation.",
+            "Mandy never realized that a craving for physical stimulation was causing her nail biting.",
+            "People snack at work not to satisfy hunger but to interrupt boredom.",
+            "If you snack for a brief release, a quick walk or three minutes on the Internet provides the same interruption.",
+            "Smokers may smoke not for nicotine but for a burst of stimulation, a structure to the day, or a way to socialize.",
+            "Ulf Mueller found that relief cravings occur in different parts of the brain than the craving for physical pleasure.",
+            "More than three dozen studies of former smokers show that identifying cues and rewards helps quitting."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the distinction between the surface behavior and the craving that actually drives a habit loop. The chapter reports that alcoholics crave escape, relief, and companionship rather than intoxication, and that people snack or smoke to interrupt boredom or provide stimulation, so identifying the true craving is the first step toward a replacement routine.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Sort each craving report into the category that best matches the real reward driving the habit, according to the chapter.",
+          "column_a_label": "Escape / relief craving",
+          "column_b_label": "Stimulation / interruption craving",
+          "column_c_label": "Surface physical effect (often not the real reward)",
+          "rows": [
+            { "label": "Alcoholics drink to forget their worries and blunt their anxieties", "col": "a" },
+            { "label": "Alcoholics drink for companionship and emotional release", "col": "a" },
+            { "label": "Mandy bites her nails for physical stimulation when she is bored", "col": "b" },
+            { "label": "People snack at work to interrupt boredom rather than satisfy hunger", "col": "b" },
+            { "label": "Smokers use cigarettes for a burst of stimulation and a structure to the day", "col": "b" },
+            { "label": "Assuming that intoxication itself is what alcoholics really crave", "col": "c" },
+            { "label": "The physical effects of alcohol being the least rewarding part of drinking for addicts", "col": "c" }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The intoxication itself is the true reward alcoholics chase.",
+            "Hunger, not interruption, is why people snack at work.",
+            "Nicotine alone explains why smokers reach for cigarettes."
+          ],
+          "explanation": "Mandy's case sorts to stimulation: she never realized a craving for physical stimulation caused her biting, and her reward was that brief physical completeness. The distinction matters because identifying the true craving, escape and relief versus stimulation versus the surface physical effect, is the first step the book prescribes for finding a replacement routine."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Habit Reversal: Awareness, Competing Response, and Preserved Reward",
+          "visual_frame_description": "A therapy office scene shows the Mississippi State counseling room where Mandy was treated. A progress chart on the wall tracks check marks and hash marks across weeks. Three labeled shelves await classified items: Awareness Training, Competing Response, and Preserved Reward, and the player places each of Mandy's treatment actions onto the right shelf.",
+          "player_mission": "Sort each technique from Mandy's habit reversal treatment into the correct category. Distinguishing awareness, the competing response, and the preserved reward shows how the Golden Rule operates inside a clinical protocol.",
+          "key_concepts": [
+            "Asking patients to describe what triggers their behavior is called awareness training.",
+            "Awareness training is the first step in habit reversal training.",
+            "The tension Mandy felt in her nails cued her nail-biting habit.",
+            "Most people's habits have occurred for so long they stop noticing what causes them.",
+            "Mandy carried an index card and made a check mark each time she felt the cue of fingertip tension.",
+            "Mandy came back a week later with twenty-eight checks.",
+            "A competing response is an action that makes the old habit impossible, such as putting hands in pockets or gripping a pencil.",
+            "Mandy was told to search for something providing quick physical stimulation, like rubbing her arm or rapping her knuckles on a desk.",
+            "The cues and rewards stayed the same for Mandy; only the routine changed.",
+            "Nathan Azrin, a developer of habit reversal training, said the brain can be reprogrammed if you are deliberate about it."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the three components of habit reversal training: awareness training to identify the cue, a competing response as the new routine, and preservation of the old reward. The chapter shows how Mandy's nail biting was cured once the tension cue and stimulation reward were recognized and a competing routine was inserted, leaving the loop's cue and reward untouched.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Classify each technique used in Mandy's habit reversal treatment into the correct category.",
+          "column_a_label": "Awareness training (identifying the cue)",
+          "column_b_label": "Competing response (the new routine)",
+          "column_c_label": "Preserving the old reward",
+          "rows": [
+            { "label": "The therapist asks Mandy what she feels right before her hand rises to her mouth", "col": "a" },
+            { "label": "Mandy tallies twenty-eight fingertip-tension cues on an index card in a single week", "col": "a" },
+            { "label": "Mandy immediately puts her hands in her pockets when the tension starts", "col": "b" },
+            { "label": "Mandy grips a pencil so she cannot bring her fingers to her mouth", "col": "b" },
+            { "label": "Mandy rubs her arm or raps her knuckles on a desk to produce a quick physical sensation", "col": "c" },
+            { "label": "The therapist places Mandy in front of the television and at homework to watch her bite", "col": "a" },
+            { "label": "The brief completeness Mandy felt after working through all her nails", "col": "c" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Asking a client to describe the trigger is a competing response, not awareness training.",
+            "Gripping a pencil is an act of awareness training.",
+            "Rubbing one's arm for stimulation removes the old reward rather than preserving it."
+          ],
+          "explanation": "The therapist's question is awareness training, the step that habit reversal developers say is halfway to changing a habit once cues and rewards are recognized. Mandy's sequence shows awareness first, then the competing response, with the reward intentionally preserved so the loop keeps functioning."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Routine, Belief, or Community: What Makes Change Stick",
+          "visual_frame_description": "A church basement AA meeting in Brooklyn fills the screen, with folding chairs and a podium where John tells his story. Three totems stand beside the room: a New Routine card, a Belief lantern, and a Community circle of people. The player classifies evidence from the chapter into whichever totem best explains each part of lasting change.",
+          "player_mission": "Sort each factor in permanent habit change into the correct category: a new routine, the belief that change is possible, or the community where that belief forms. Correct classification explains why replacement habits sometimes fail under stress.",
+          "key_concepts": [
+            "Replacement habits only become durable new behaviors when they are accompanied by belief.",
+            "Researchers concluded it was not God that mattered but belief itself that made the difference.",
+            "Once people learned how to believe in something, that skill started spilling over to other parts of their lives.",
+            "Belief is the ingredient that made a reworked habit loop into a permanent behavior.",
+            "Belief is easier when it occurs within a community.",
+            "For most people who overhaul their lives there are no seminal moments, only communities that make change believable.",
+            "Psychologist Todd Heatherton said change occurs among other people and seems real when we can see it in other people's eyes.",
+            "Lee Ann Kaskutas said a community creates belief and helps people suspend disbelief about their own change.",
+            "The Magdeburg patients relapsed after stressful events until they learned alternate routines for coping with stress.",
+            "A habit cannot be eradicated; it must instead be replaced."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the three ingredients of lasting change: a replacement routine, belief that change is possible, and the community where that belief forms. The chapter's research found that routine replacement alone fails under stress, and that belief, usually grown inside a group, is what carries people through difficult periods and makes a changed habit permanent.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Sort each factor in permanent habit change into the category it most directly represents in the chapter's analysis.",
+          "column_a_label": "New routine (Golden Rule component)",
+          "column_b_label": "Belief that change is possible",
+          "column_c_label": "Community / group where belief forms",
+          "rows": [
+            { "label": "AA's sponsor and meetings offer escape, distraction, and catharsis in place of the bar", "col": "a" },
+            { "label": "The Magdeburg patients stopped drinking only after learning alternate stress routines", "col": "a" },
+            { "label": "The Colts executed their practiced plays in the 2006 championship because they believed in the system", "col": "b" },
+            { "label": "Alcoholics who believed a higher power had entered their lives stayed sober through stressful periods", "col": "b" },
+            { "label": "John raising his hand to help put away the chairs after his AA meeting", "col": "c" },
+            { "label": "A woman's life changed after she joined a psychology class and met a group among whom change felt possible", "col": "c" },
+            { "label": "Researchers concluded that belief itself, not God specifically, made a reworked habit loop permanent", "col": "b" }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The Magdeburg brain surgery alone was enough to permanently stop the patients' drinking.",
+            "Belief is a substitute for a new routine, so one or the other suffices.",
+            "Community membership matters only for addictions, not for ordinary habits."
+          ],
+          "explanation": "The Colts example sorts to belief because their durable change came from the conviction that the system and the team could win, precisely the ingredient the chapter says turns a reworked loop permanent. Community is where that belief forms, but belief itself is the mechanism that carries people through stress."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Reworking Nina's After-Work Snacking Loop",
+          "visual_frame_description": "An open-plan office at 5 p.m. Nina, a 34-year-old program manager in a mustard cardigan, leans back in her chair and opens a drawer of chips as she clears her inbox. A co-worker's speech bubble reads, 'You skip lunch and you still reach for those at five.' The player acts as a habit consultant watching from the conference room across the glass wall.",
+          "player_mission": "Diagnose Nina's snacking loop in stage one by identifying the true reward the habit delivers, then design a replacement routine in stage two that follows the Golden Rule so the cue and reward stay intact.",
+          "key_concepts": [
+            "Attempts to give up snacking often fail unless there is a new routine to satisfy old cues and reward urges.",
+            "People snack at work not to satisfy hunger but to interrupt boredom.",
+            "If you snack for a brief release, you can find another routine that provides the same interruption without adding to your waistline.",
+            "A habit cannot be eradicated; it must instead be replaced.",
+            "The Golden Rule of habit change keeps the same cue and the same reward while inserting a new routine.",
+            "Dungy only attacked the middle step of the habit loop, the routine, in his players.",
+            "Mandy's competing response kept the tension cue and the stimulation reward while changing the routine.",
+            "The reward of snacking is often a moment of interruption, not the food itself.",
+            "The chapter suggests a quick walk or three minutes on the Internet as a substitute for a snack break.",
+            "Willpower promises alone did not stop Mandy from biting her nails."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the Golden Rule of habit change as applied to snacking: identify the real reward, which is often an interruption from boredom rather than hunger, and keep the same cue and reward while swapping in a new routine. The chapter explicitly warns that snacking habits fail to change unless a new routine satisfies the old cue and reward urges.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "The Golden Rule of habit change: a habit cannot be extinguished, so you keep the same cue and the same reward while inserting a new routine. The chapter applies the rule to snacking directly, warning that attempts to give up snacking fail unless a new routine satisfies the old cue and reward urges.",
+          "stage_1_observation": "Nina opens a bag of chips at 5 p.m. every day, right as she sits down to tedious close-out work. She insists she eats because she is hungry after a long afternoon, but a co-worker points out that she often skips lunch and still reaches for chips only during quiet, repetitive tasks. You watch her from the conference room: the moment she starts end-of-day busywork, her hand drifts to the snack drawer.",
+          "stage_1_question": "Following the chapter's analysis of snacking at work, what is the most likely reward Nina's habit actually delivers?",
+          "stage_1_correct_answer": "Not hunger: the reward is a brief release from boredom and tedious work, an interruption. The chapter says people snack at work not to satisfy hunger but to interrupt boredom, and that identifying this real reward, rather than assuming hunger, is the first step toward changing the routine.",
+          "stage_2_intervention": "Nina agrees to keep the 5 p.m. cue, clearing her inbox in the end-of-day lull, but she wants the chips gone. Design a replacement routine that keeps the same reward.",
+          "stage_2_correct_answer": "Nina keeps the same cue and the same interruption reward but inserts a new routine: when the 5 p.m. lull hits, she takes a one-minute walk to the break room or spends three minutes browsing the web, then returns to her inbox. The chapter explicitly offers a quick walk or three minutes on the Internet as a routine that interrupts boredom without the waistline cost."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Marco's Step-Four Self-Inventory and the True Reward",
+          "visual_frame_description": "A dim kitchen in a Midwestern apartment at 6:45 p.m. Marco, a 41-year-old accountant in shirtsleeves, pours scotch the instant he steps inside, briefcase still in hand. On the counter lies his spiral notebook open to a step-four inventory listing triggers: the drive home, the managing partner's voicemail, the silence of the empty apartment. A clock on the wall shows the same time every night.",
+          "player_mission": "Guide Marco through an AA-style self-inventory in stage one to expose the craving actually driving his nightly drink, then build a replacement routine in stage two that delivers the same reward from a different behavior.",
+          "key_concepts": [
+            "AA is, in essence, a giant machine for changing habit loops.",
+            "To complete steps four and five, someone has to create a list of all the triggers for their alcoholic urges.",
+            "Making a self-inventory means figuring out all the things that make you drink.",
+            "Alcoholics crave a drink because it offers escape, relaxation, companionship, and the blunting of anxieties.",
+            "The physical effects of alcohol are often one of the least rewarding parts of drinking for addicts.",
+            "AA offers members sponsor calls and meetings that provide as much escape, distraction, and catharsis as a Friday night bender.",
+            "Researcher J. Scott Tonigan said AA forces people to create new routines and the triggers and payoffs stay the same, only the behavior changes.",
+            "A smoker usually cannot quit unless she finds some activity to replace cigarettes when her nicotine craving is triggered.",
+            "The cues and rewards stay the same; only the routine changes.",
+            "The Golden Rule of habit change keeps the old cue and reward while inserting a new routine."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests AA's method for changing habit loops: a step-four self-inventory forces the person to identify the true cues and rewards of their drinking, which are usually escape and anxiety relief rather than intoxication. The chapter reports that AA succeeds because it helps alcoholics use the same cues and get the same reward while shifting the routine.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "AA is a giant machine for changing habit loops: steps four and five force a person to list every trigger for their urges and to search for the rewards alcohol actually delivers. The chapter reports those rewards are usually escape, relaxation, companionship, and the blunting of anxiety, while the intoxication itself is often the least rewarding part.",
+          "stage_1_observation": "Marco drinks scotch the moment he walks through his front door each night. In his step-four inventory he lists the triggers: traffic on the drive home, the voicemail from his managing partner, the silence of an empty apartment. He initially writes that he drinks because he loves the taste of scotch.",
+          "stage_1_question": "Based on the chapter's findings on what alcoholics actually crave, what should Marco's self-inventory reveal as the true reward driving his loop?",
+          "stage_1_correct_answer": "That the real reward is escape and the blunting of work-related anxiety, a signal that the day is over, not the intoxication or the taste. The chapter reports that alcoholics crave escape, relaxation, companionship, and relief from anxiety, and that the physical effects of alcohol are often the least rewarding part for addicts.",
+          "stage_2_intervention": "Marco wants a new routine that answers the same cravings and follows the Golden Rule. Design one he can run the moment he comes home.",
+          "stage_2_correct_answer": "Keep the same end-of-day cue and the same relaxation-and-escape reward, and insert a new routine: when he walks in the door Marco calls his sponsor or a friend, or takes a ten-minute decompression walk around the block. This mirrors how AA gives drinkers sponsor calls and meetings that offer as much escape, distraction, and catharsis as a Friday night bender."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Stress, Backsliding, and the Colts' Belief",
+          "visual_frame_description": "Halftime in a roaring NFL stadium, January 21, 2007. The scoreboard reads Patriots 21, Colts 3. In the locker room Tony Dungy stands before a ring of silent players; through the door the crowd noise bleeds in. On a side monitor, footage replays sloppy tackles and an interception returned for a touchdown from the first half.",
+          "player_mission": "Diagnose in stage one why the Colts' well-practiced habits disintegrated under play-off pressure, then explain in stage two what change, according to the players, finally made the difference when they came back to win 38-34.",
+          "key_concepts": [
+            "Replacement habits only become durable new behaviors when they are accompanied by belief.",
+            "Belief was the ingredient that made a reworked habit loop into a permanent behavior.",
+            "The Colts would play a season of disciplined winning football and then choke under play-off pressure.",
+            "Dungy said players were really saying they trusted the system most of the time, but when everything was on the line, belief broke down.",
+            "Players mess up when they start thinking too much or second-guessing their plays.",
+            "In the 2006 championship, the Colts stayed focused on their cues and habits and executed plays practiced until automatic.",
+            "Marlin Jackson read his cues and intercepted Tom Brady's pass with seventeen seconds left.",
+            "Belief is easier when it occurs within a community.",
+            "For habits to permanently change, people must believe that change is feasible.",
+            "The precise mechanisms of belief are still little understood."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests why well-practiced habits fail under extreme stress: without belief, people revert to old comfort-zone habits precisely when it matters. The chapter's Colts story shows that durable change requires the belief that the system can hold, which hardened in the team before they executed their automatic routines to win the 2007 conference championship.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "Habit replacement alone often fails under high stress. The chapter shows that replacement habits only become durable when people believe change is possible, and that belief usually emerges within a community, which is why the Colts choked for years and then held under pressure once their belief hardened.",
+          "stage_1_observation": "It is halftime of the AFC championship game and the Colts are down 21-3 to the Patriots. On the tape from the first half the players stopped relying on their habits: they lost track of where they were supposed to focus, missed tackles, and threw an interception returned for a touchdown. This is the same disintegration that cost them the 1999, 2000, and 2001 play-offs.",
+          "stage_1_question": "Why did the Colts' disciplined, automatic play fall apart in high-stress moments even though their habits were well practiced?",
+          "stage_1_correct_answer": "Because under extreme pressure their belief in the system broke down and they reverted to old comfort-zone habits and too much thinking. Dungy said the players were really saying they trusted the system most of the time, but when everything was on the line the belief broke down, and players mess up when they start thinking too much or second-guess.",
+          "stage_2_intervention": "Dungy gathers the team and says they faced this same team in 2003 and came within one yard, then tells them, 'Get your sword ready because this time we're going to win. This is our game. It's our time.' In the second half the Colts execute their practiced plays and Marlin Jackson intercepts Tom Brady with seventeen seconds left. According to the players, what had changed?",
+          "stage_2_correct_answer": "Belief: the team had come to believe in Dungy's system and in each other, hardened after Jamie's death and cemented by the halftime address, so they stayed focused on their cues and executed the routines they had practiced until automatic, even in the most stressful circumstances."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Keys, Sequencing, and Removing Decisions on Defense",
+          "visual_frame_description": "A sunlit practice field in Tampa Bay. Tony Dungy in a whistle and visor faces outside linebacker Derrick Brooks, both in full pads. A dry-erase board behind them is covered with arrows: from the running back to the quarterback, drawn as a numbered sequence. Blurred teammates run a drill in the background.",
+          "player_mission": "In stage one, diagnose why Brooks hesitates at the snap of the ball. In stage two, apply Dungy's solution, which keeps Brooks's existing keys but sequences them so reaction replaces decision-making.",
+          "key_concepts": [
+            "In football, visual cues are known as keys, and they are critical to every play.",
+            "Derrick Brooks watched the guard's movement, the quarterback's legs and hips, and the gaps in the line.",
+            "Brooks hesitated because there were so many things to think about that sometimes he slowed down.",
+            "Dungy's innovation was to use keys as cues for reworked habits.",
+            "Dungy told Brooks to focus first only on the running back, without thinking, then to look for the quarterback once in position.",
+            "Sequencing the cues removed the need for decision making.",
+            "Everything became a reaction, and eventually a habit, rather than a choice.",
+            "Dungy wanted players to stop making so many decisions during a game and to react automatically.",
+            "Regan Upshaw looked only at the cues Dungy taught him and did not have to think about what to do.",
+            "If his players think too much or hesitate, Dungy's system falls apart."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests how cues can be redesigned to remove decision-making: Dungy kept the visual keys players already used but sequenced them and pre-chose the response, turning analysis into automatic reaction. The chapter shows this made players faster because everything became a habit rather than a choice.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "Dungy used the visual cues football players already knew, called keys, and reworked the routine by sequencing those cues and pre-choosing the response. Removing the need for decision-making let players move faster because everything became a reaction, and eventually a habit, rather than a choice.",
+          "stage_1_observation": "At a morning practice, outside linebacker Derrick Brooks tells Dungy he watches the movement of the guard, the quarterback's legs and hips after the snap, and the gaps in the line to judge whether it is a pass and which side the throw will go to. Watching film, Dungy sees Brooks hesitate a beat too long at the start of plays because he is weighing many things at once.",
+          "stage_1_question": "Why does Brooks hesitate at the start of a play?",
+          "stage_1_correct_answer": "Because he is trying to analyze several cues simultaneously, the guard, the running back, the quarterback, and the line gaps, which forces slow, deliberate decision-making. The chapter notes there were so many things for him to think about that sometimes he slowed down.",
+          "stage_2_intervention": "Dungy wants Brooks to move faster and stop deciding on the fly, while using the same cues Brooks already reads. What instruction does he give?",
+          "stage_2_correct_answer": "Dungy tells Brooks to use those same keys but at first focus only on the running back, without thinking, and once he is in position, then start looking for the quarterback. By sequencing the cues and pre-choosing the response, everything becomes a reaction and eventually a habit rather than a choice, so Brooks moves faster."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Habit Reversal for Priya's Public-Speaking Throat Clearing",
+          "visual_frame_description": "A bright high school science classroom. Priya, a 27-year-old teacher in a navy blazer, stands at the front beside a periodic table and clears her throat. Two students in the front row mimic the sound and grin. In a thought bubble a small diagram shows a throat tightening, then a hand gripping a pencil.",
+          "player_mission": "Walk Priya through habit reversal training: first complete awareness training to pin down the cue, then design a competing response that is physically incompatible with the throat clearing while the cue and reward stay the same.",
+          "key_concepts": [
+            "Asking patients to describe what triggers their habitual behavior is called awareness training.",
+            "Awareness training is the first step in habit reversal training.",
+            "Most people's habits have occurred for so long they don't pay attention to what causes them anymore.",
+            "A competing response is an action that makes the old habit impossible to perform.",
+            "Mandy was told to put her hands in her pockets or under her legs, or grip a pencil, when she felt the fingertip tension.",
+            "Mandy was also told to search for something that would provide quick physical stimulation, such as rubbing her arm or rapping her knuckles.",
+            "The cues and rewards stayed the same for Mandy; only the routine changed.",
+            "Habit reversal therapy is used to treat tics, smoking, gambling, anxiety, bedwetting, and other behavioral problems.",
+            "Nathan Azrin said the brain can be reprogrammed if you are deliberate about it.",
+            "Once you are aware of how a habit works, you are halfway to changing it."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests habit reversal training: awareness training first identifies the cue, then a competing response substitutes a new routine while the cue and reward remain unchanged. The chapter's Mandy case shows the mechanism works across many behavioral problems, from nail biting to verbal tics.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "Habit reversal training begins with awareness training, noticing the cue, and then pairs the old cue and reward with a competing response that is physically incompatible with the habit. The chapter uses Mandy's nail biting to show how the cue and reward stay the same while only the routine changes.",
+          "stage_1_observation": "Priya clears her throat repeatedly whenever she lectures in front of her class, even though her throat feels fine, and students have started mimicking it. With her therapist she realizes the clearing always follows a slight tightness in her throat that appears the moment she steps to the front of the room, and that the clearing gives her a moment's release from public-speaking tension.",
+          "stage_1_question": "Following habit reversal training, what is the first step Priya must complete?",
+          "stage_1_correct_answer": "Awareness training: she must identify and track the cue, the throat tightness that precedes the clearing, the way Mandy tracked the tension in her fingertips with an index card. The chapter notes that most people's habits have occurred for so long they stop paying attention to what causes them anymore.",
+          "stage_2_intervention": "Priya has identified the cue (throat tightness) and the reward (a moment of tension release). What competing response should she practice when the cue appears?",
+          "stage_2_correct_answer": "An immediate, physically incompatible response that provides a similar quick physical release, for example pressing her tongue to the roof of her mouth and clenching her jaw when she feels the tightness. This keeps the cue and reward the same while changing the routine, exactly as Mandy put her hands in her pockets and gripped a pencil when she felt the fingertip tension."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Coaching Sam to Replace His Cigarette Loop",
+          "visual_frame_description": "A small wellness office with a whiteboard and two chairs. Sam, a 38-year-old IT service manager in a rumpled dress shirt, sits forward with his elbows on his knees. A dry-erase board between them reads 'trigger' on the left, 'payoff' on the right, with an empty box in the middle waiting to be filled. The player is the wellness coach across from him.",
+          "player_mission": "Coach Sam toward a plan he can actually follow: uncover the real craving behind his smoking, then help him design a new routine that keeps the same cue and reward so the habit loop stays satisfied without cigarettes.",
+          "key_concepts": [
+            "A smoker usually cannot quit unless she finds some activity to replace cigarettes when her nicotine craving is triggered.",
+            "If you want to stop smoking, ask yourself whether you love nicotine or whether it provides a burst of stimulation, a structure to your day, or a way to socialize.",
+            "Studies of former smokers find that identifying the cues and rewards associated with cigarettes and choosing new routines with similar payoffs makes quitting more likely.",
+            "Replacement routines include a piece of Nicorette, a quick series of push-ups, or a few minutes of stretching and relaxation.",
+            "If you identify the cues and rewards, you can change the routine.",
+            "Willpower promises alone did not stop Mandy from biting her nails.",
+            "Attempts to change a habit fail unless a new routine satisfies old cues and reward urges.",
+            "The Golden Rule keeps the same cue and reward while inserting a new routine.",
+            "Mandy's competing response substituted a new behavior into her old loop.",
+            "The chapter says there is no specific set of steps guaranteed to work for every person."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the Golden Rule of habit change applied to smoking: the smoker must identify whether the real craving is nicotine or a burst of stimulation and structure, then keep the same cue and reward while inserting a new routine. The chapter reports that more than three dozen studies of former smokers found that identifying cues and rewards and choosing substitute routines makes quitting more likely.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "scenario_setup": "Sam, 38, an IT service manager, wants to quit smoking. Every cigarette follows a frustrating meeting and gives him a burst of stimulation and a marker that the stressful stretch of his day is over. He has quit cold-turkey three times using pure willpower and relapsed within a week. His doctor has told him his lungs are showing early damage, and his wife is worried sick. He comes to your office to design a plan he might actually follow.",
+          "dialogue": [
+            "Sam: I've tried just quitting. I throw the pack away and tell myself I'm done, and by Thursday I'm at the gas station.",
+            "You: And what exactly happens in that moment on Thursday?",
+            "Sam: I'll be leaving a meeting where my boss chewed me out and I just want a second to breathe. The cigarette is that second.",
+            "You: So the cigarette is less about nicotine and more about a burst of stimulation and a reset after stress.",
+            "Sam: Yeah, I think so. If I don't have it, the day never feels like it lets up.",
+            "You: What if the reset came from something that isn't a cigarette, but happens at the exact same moment?",
+            "Sam: Like what? I can't step out of a building mid-crisis.",
+            "You: You don't have to. A few quick push-ups against the wall, or two minutes of stretching by the window, right when the meeting ends.",
+            "Sam: Same moment, same feeling, different move. I could try that."
+          ],
+          "choices": [
+            "Tell Sam that willpower is what failed and advise him to throw away his pack and avoid triggering meetings.",
+            "Advise Sam to identify the craving (stimulation and a reset after stress), keep the same cue and reward, and insert a new routine such as push-ups or stretching at the moment the meeting ends.",
+            "Suggest Sam switch to a lighter brand of cigarettes to reduce nicotine gradually while keeping the same routine.",
+            "Recommend that Sam delegate the stressful meetings to a colleague so the trigger never appears."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "The Golden Rule of habit change and the identification of the true craving behind a habit.",
+          "psychological_breakdown": "The optimal choice keeps the old cue (the end of a stressful meeting) and delivers the same reward (a burst of stimulation and a reset) through a new routine, which is exactly how the chapter says habits change. Choice 0 repeats Mandy's failed strategy of willpower and promises without any replacement routine, so the craving reasserts itself the moment the cue appears. Choice 2 changes the delivery but keeps the old routine untouched, leaving the loop intact. Choice 3 attacks the cue through avoidance, which the chapter does not support: cues cannot be extinguished, only the routine changed, and stressful meetings will always recur."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Lena's Relapse: Belief, Stress, and Going Back to the Group",
+          "visual_frame_description": "A crowded café at lunch hour. Lena, a 44-year-old hospital administrator in a gray blazer, stirs an untouched coffee, her eyes down. The player sits across from her. Behind her, a wall mural shows a group of people holding chairs in a church basement, echoing the chapter's Brooklyn AA scene where John tells his story.",
+          "player_mission": "Talk Lena through her relapse without shaming her: recognize that her routines failed at a high-stress moment, and steer her back to the community where the belief she needs to make change stick actually forms.",
+          "key_concepts": [
+            "Replacement habits only become durable new behaviors when they are accompanied by belief.",
+            "Alcoholics who practiced habit replacement could often stay sober until a stressful event caused some to start drinking again.",
+            "Those who believed some higher power had entered their lives were more likely to make it through stressful periods with sobriety intact.",
+            "Researchers figured out it was belief itself, not God, that made the difference.",
+            "Belief is the ingredient that makes a reworked habit loop into a permanent behavior.",
+            "Belief is easier when it occurs within a community.",
+            "Lee Ann Kaskutas said a community creates belief and helps people suspend disbelief about their own change.",
+            "For most people who overhaul their lives there are no seminal moments, only communities that make change believable.",
+            "Todd Heatherton said change occurs among other people and seems real when we can see it in other people's eyes.",
+            "A group will convince people to suspend disbelief, and a community creates belief."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the role of belief in durable habit change: replacement routines hold until stress gets too high, and belief, usually formed inside a community, is what carries people through those moments. The chapter's 2005 study found that believing change was possible predicted staying sober through stressful periods, and that belief grows out of communal experience.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "scenario_setup": "Your friend Lena, 44, a hospital administrator, quit smoking nine months ago using a plan she built with a support group of former smokers. Last month her father was diagnosed with advanced cancer, and within a week she was smoking again. She is meeting you at a café, half-apologetic and half-defeated, wondering whether going back to the group will do any good since she already knows all the routines.",
+          "dialogue": [
+            "Lena: I feel like a fraud. I did the whole routine swap, I know every trick, and the second real stress hit I was buying a pack.",
+            "You: You're not a fraud. The routines worked for nine months, and that's the point. They work until the stress gets too high.",
+            "Lena: Then what's the use? My dad is sick. The stress isn't going anywhere.",
+            "You: The research on this is pretty clear. The routines are only half of it. The other half is believing you can get through the bad day without the cigarette.",
+            "Lena: I used to believe that. In the group I believed it. Alone at midnight, not so much.",
+            "You: Exactly. That's why the group exists, not just for the tricks but for watching other people make it through, so you can believe you can too.",
+            "Lena: So you think I should just walk back in and admit I fell off the wagon?",
+            "You: I think you should walk back in before the next hard moment, and tell them exactly what happened. That's what the group is there for.",
+            "Lena: Okay. And if they're not there, I call my sponsor.",
+            "You: That's the plan. Same cue, same craving, and a phone call instead of a pack."
+          ],
+          "choices": [
+            "Tell Lena she already knows all the routines, so going back to the group would waste her time, and she should rely on her own willpower now.",
+            "Tell Lena that going back to the group is exactly right, because belief is the ingredient that makes a changed habit durable under stress, and belief grows inside a community that has watched others change.",
+            "Advise Lena to quit the group and simply add a stronger routine, like running, because a better routine will fix the relapse.",
+            "Suggest Lena wait until her father's treatment stabilizes before trying to quit again, since stress makes habit change impossible."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Belief is the ingredient that makes a reworked habit loop permanent, and belief most often emerges within a community.",
+          "psychological_breakdown": "The optimal response restores the missing ingredient: the chapter's researchers found that people who believed change was possible were more likely to survive stressful periods, and that belief grows from communal experience, summed up as 'if it worked for that guy, I guess it can work for me.' Choice 0 ignores the evidence that her routines already failed at exactly the point where belief is needed. Choice 2 treats a new routine as a substitute for belief, but the chapter shows habits replace easily and relapse under stress without belief. Choice 3 assumes stress makes change impossible, when the data actually show belief is what carries people through stressful events."
+        }
+      ]
+    }
+  ]
+}

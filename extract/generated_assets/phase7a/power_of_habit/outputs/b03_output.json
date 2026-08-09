@@ -1,0 +1,469 @@
+{
+  "spec_file": "spec_power_of_habit_b03.json",
+  "chapters": [
+    {
+      "id": "ch07",
+      "title": "2. The Craving Brain: How to Create New Habits",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Sorting the Habit Loop: Cue, Routine, Reward",
+          "visual_frame_description": "A split-screen learning console shows three labeled bins floating over a 1920s city street where Pepsodent billboards tower over the buildings. An animated tongue sweeps across a row of cartoon teeth, revealing a cloudy film, while a tube of toothpaste and a smiling face with bright white teeth frame the scene. Below, a caption reads 'Every habit is a loop: cue, routine, reward.'",
+          "player_mission": "Sort each evidence card into the correct component of the habit loop: the cue that triggers the loop, the routine that performs it, or the reward that closes it. After sorting, identify which single element Hopkins was really selling in his Pepsodent campaign.",
+          "key_concepts": [
+            "A habit loop consists of a cue, a routine, and a reward.",
+            "Hopkins's first rule was to find a simple and obvious cue.",
+            "Hopkins's second rule was to clearly define the rewards.",
+            "Tooth film was a universal cue that almost anyone could feel by running a tongue across the teeth.",
+            "Pepsodent's formula contained citric acid, mint oil, and other irritants that created a cool, tingling sensation on the tongue and gums.",
+            "Customers who forgot to brush said they missed the tingling sensation, and their mouths did not feel clean without it.",
+            "A decade after the first Pepsodent campaign, toothbrushing had become a daily ritual for more than half of Americans.",
+            "Before Pepsodent appeared, only 7 percent of Americans had a tube of toothpaste in their medicine chests; a decade later the number reached 65 percent.",
+            "The sight of a pack of cigarettes is enough for a smoker's brain to crave a nicotine rush.",
+            "Once a craving exists, the habit loop spins automatically, even in the face of strong disincentives."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This matrix tests the habit loop: a cue triggers a routine that delivers a reward, and the loop only becomes automatic when the brain begins to crave the reward. The chapter argues that Hopkins succeeded not by selling clean teeth but by selling a sensation customers learned to crave.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Each row is an element of the toothbrushing habit Claude Hopkins built with Pepsodent. Classify each element as a cue, a routine, or a reward, then identify which element Hopkins was really selling.",
+          "column_a_label": "Cue (trigger)",
+          "column_b_label": "Routine (behavior)",
+          "column_c_label": "Reward (payoff)",
+          "rows": [
+            { "label": "Running your tongue across your teeth and feeling the film", "col": "a" },
+            { "label": "Brushing your teeth with Pepsodent every morning", "col": "b" },
+            { "label": "The cool tingling sensation on the tongue and gums", "col": "c" },
+            { "label": "A yellow spiral flashing on a monitor screen", "col": "a" },
+            { "label": "Touching the lever when a shape appears", "col": "b" },
+            { "label": "A drop of blackberry juice on the monkey's lips", "col": "c" },
+            { "label": "A pack of Marlboros glimpsed on a table", "col": "a" }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "The routine of brushing is the element that creates the craving.",
+            "The cue becomes unnecessary once the habit is fully automatic.",
+            "Only biological rewards such as juice can power a habit; emotional payoffs cannot."
+          ],
+          "explanation": "Every habit follows the same three-part loop. In Pepsodent's case the cue was tooth film, the routine was brushing, and the reward that Hopkins was truly selling was the cool, tingling sensation his mint-and-citric-acid formula produced. Customers came to crave that sensation, so when they forgot to brush their mouths did not feel clean."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Hopkins's Three Rules: The Hidden Third Element",
+          "visual_frame_description": "An old advertising office appears on screen with three filing cabinets labeled 'Simple Cue,' 'Clear Reward,' and 'Craving.' Claude Hopkins's desk is piled with dental textbooks, and a brass plaque reads 'Laws of Scientific Advertising.' Evidence cards drift past, each showing a fragment of the Pepsodent or Febreze story.",
+          "player_mission": "Classify each element of the Pepsodent and Febreze stories into the rule it illustrates, then identify which column represents the hidden third element that actually powered both campaigns.",
+          "key_concepts": [
+            "Hopkins's two rules were to find a simple, obvious cue and to clearly define the reward.",
+            "The book argues these two rules are not enough: a third element, craving, must be created.",
+            "Earlier toothpastes such as Sanitol and S.S. White had already advertised film removal and beautiful teeth without success.",
+            "Pepsodent succeeded because its citric acid and mint oils produced a tingling sensation people began to crave.",
+            "Dozens of ad men used the same language as Pepsodent for years, yet none of their products took off.",
+            "Hopkins himself relied on the craving principle without knowing it existed.",
+            "A craving is what makes cues and rewards work, because it powers the habit loop.",
+            "Once customers craved the tingling, brushing became automatic and their mouths felt unclean without it."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This matrix tests the distinction between Hopkins's two explicit rules and the hidden third element the book argues is decisive: craving. Duhigg contends that a cue and a reward alone do not sustain a habit; the loop only spins when the brain anticipates and craves the reward.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Hopkins boasted of two rules for building new habits, but a third, hidden element was the real engine of his success. Classify each element of the Pepsodent and Febreze stories into the rule it illustrates, then identify the hidden third element.",
+          "column_a_label": "Find a simple, obvious cue",
+          "column_b_label": "Clearly define the reward",
+          "column_c_label": "Cultivate a craving (the hidden third element)",
+          "rows": [
+            { "label": "The film you can feel by running your tongue across your teeth", "col": "a" },
+            { "label": "Beautiful, white Pepsodent smiles promised in the ads", "col": "b" },
+            { "label": "The cool tingling customers said they missed when they forgot to brush", "col": "c" },
+            { "label": "Febreze repositioned as the nice smell that ends a cleaning routine", "col": "c" },
+            { "label": "An evening of guilt-free television after a workout", "col": "b" },
+            { "label": "Lacing up running shoes as soon as you get home from work", "col": "a" }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "Hopkins's two published rules are sufficient to create a lasting new habit.",
+            "A craving is a purely physiological hunger and cannot be created by advertising.",
+            "The cue and the reward must be unrelated to each other for the loop to form."
+          ],
+          "explanation": "The chapter's central argument is that Hopkins's two published rules were incomplete: cues and rewards work only because they produce a craving, the third element that drives the loop. Earlier toothpastes had already used the same cue and reward, but Pepsodent added a tingling sensation customers came to crave, and a craving for a nice smell at the end of cleaning is what finally made Febreze sell."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Why Products Succeed or Fail: Craving versus Invisible Cues",
+          "visual_frame_description": "A supermarket aisle rendered as a decision tree splits into three colored branches: red for 'Failed, cue invisible,' green for 'Succeeded, created a craving,' and gray for 'Reward alone, no craving.' Product bottles and clips from the 1996 and 1998 Febreze campaigns hover over the branches as evidence cards.",
+          "player_mission": "Sort each episode from the Febreze and Pepsodent stories into the column that best explains its outcome, then identify the outcome column that carries the book's overall message about habit-forming products.",
+          "key_concepts": [
+            "People become desensitized to smells they live with constantly, so bad odors are a poor cue for regular use.",
+            "The nine-cat owner and other consumers could not detect the bad smells in their own homes.",
+            "Febreze's first advertising sold an invisible cue and a reward no one admitted needing.",
+            "The relaunch positioned Febreze as the nice smell that ends a cleaning routine.",
+            "Within two months of the 1998 relaunch, Febreze sales doubled.",
+            "Customers spent more than $230 million on Febreze within a year of the relaunch.",
+            "No one craves scentlessness, but many people crave a nice smell after thirty minutes of cleaning.",
+            "Febreze, manufactured to destroy odors, became an air freshener used as a finishing touch on clean rooms."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This matrix tests Duhigg's claim that a habit-forming product requires an accessible cue and a genuine craving, not just a promising reward. Febreze's failure and later success show that when the cue is undetectable, as smells are to the people who live with them, the habit loop never starts.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "The book explains product outcomes through craving and cue visibility. Sort each episode into the column that best explains what happened, then identify the outcome column that best describes the book's message about habit-forming products.",
+          "column_a_label": "Failed: the cue was invisible to the target user",
+          "column_b_label": "Succeeded: the product created a craving",
+          "column_c_label": "Reward-only appeals without a craving",
+          "rows": [
+            { "label": "Febreze's first 1996 launch, when housewives let bottles sit in the back of closets", "col": "a" },
+            { "label": "The Scottsdale mother who sprayed Febreze after every room and emptied a bottle every two weeks", "col": "b" },
+            { "label": "Pepsodent's post-campaign explosion, when demand overwhelmed the company within three weeks", "col": "b" },
+            { "label": "Sanitol Tooth Paste's ads promising beautiful, satin smooth teeth", "col": "c" },
+            { "label": "Dr. Sheffield's Crème Dentifrice urging people to clean that dirty layer", "col": "c" },
+            { "label": "The Febreze relaunch in 1998, when sales doubled within two months", "col": "b" },
+            { "label": "The nine-cat owner who said her house's smell was usually not a problem", "col": "a" }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Febreze failed because the spray did not actually remove odors.",
+            "Advertising slogans alone determine whether a product becomes a habit.",
+            "Cravings are weak and cannot outweigh price or convenience."
+          ],
+          "explanation": "The book distinguishes three fates. Products with invisible cues fail, as Febreze did when smell desensitization meant the people who most needed it never noticed the trigger. Products whose ads promised only a reward fizzled, as the earlier toothpastes did. Products that sparked a craving took off, like Pepsodent's tingle and Febreze as the pleasant ending of a cleaning ritual."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Schultz's Monkey: The Stages of Habit Formation",
+          "visual_frame_description": "A dimly lit Cambridge laboratory appears on screen, with a small macaque named Julio sitting in a chair facing a monitor. A brain-wave readout scrolls across a CRT display, firing bright spikes at moments that change as the player sorts each observation card into one of three stage bins.",
+          "player_mission": "Classify each observation from Wolfram Schultz's monkey experiments into the stage of habit formation it reflects, then identify the stage that explains why established habits resist distraction.",
+          "key_concepts": [
+            "Schultz monitored monkeys with electrodes as they learned to touch a lever when shapes appeared on a screen.",
+            "Early on, the 'I got a reward!' brain pattern fired only after the blackberry juice arrived.",
+            "As the habit strengthened, that pattern began firing at the sight of the shapes, before the juice arrived.",
+            "When juice was withheld, late, or watered down, Julio grew angry, made unhappy noises, and showed a craving pattern.",
+            "Monkeys with established habits ignored food and the open door, staying to press the lever again and again.",
+            "Monkeys without a strong habit left for the distractions and never looked back.",
+            "Anticipation and craving, once created, hold sway over behavior even in the face of strong disincentives.",
+            "The craving emerges so gradually that people are often blind to its influence."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This matrix tests Schultz's finding that habit formation shifts the reward signal earlier, to the cue, creating anticipation and then craving. Once craving is established, the animal acts automatically and ignores competing incentives, the same way a gambler keeps playing slots after losing.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Schultz's experiments with Julio revealed how a rewarded action becomes a habit. Classify each observation into the stage of the process it reflects, then identify the stage that explains why established habits resist distraction.",
+          "column_a_label": "Early learning (behavior not yet a habit)",
+          "column_b_label": "Established cue-routine-reward association",
+          "column_c_label": "Craving-driven automaticity",
+          "rows": [
+            { "label": "Julio squirming in the chair and ignoring the monitor before the first dose of juice", "col": "a" },
+            { "label": "The 'I got a reward!' pattern firing the instant the shape appears, before any juice", "col": "b" },
+            { "label": "Julio staying glued to the screen despite food in the corner and the door open to the outdoors", "col": "c" },
+            { "label": "Unhappy noises and a desire-and-frustration pattern when the juice is delayed or diluted", "col": "c" },
+            { "label": "Julio touching the lever whenever a yellow spiral or blue line flashes", "col": "b" },
+            { "label": "The reward pattern firing only after the juice actually arrives", "col": "a" }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "Habits are weaker than obvious incentives, so a monkey would leave for food.",
+            "Craving emerges only after the reward has been removed permanently.",
+            "The brain's reward pattern stops firing once a behavior becomes automatic."
+          ],
+          "explanation": "Schultz showed that as the habit strengthened, the brain began firing the reward pattern at the sight of the cue, before the juice arrived: anticipation. Once that craving existed, the monkeys ignored food and play to keep pressing the lever, and frustration erupted when the reward was withheld or diluted. Anticipation and craving, not the reward itself, came to drive the behavior."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Exercise and Diet Studies: Cue, Reward, and Craving in the Data",
+          "visual_frame_description": "A dashboard titled 'Building the Habit' shows two study panels: the New Mexico State University exercise sample of 266 people and the National Weight Control Registry of more than six thousand dieters. Pie charts, a breakfast clock, and a running-track icon feed evidence cards into three labeled columns on screen.",
+          "player_mission": "Classify each finding from the exercise and diet research into the habit element it represents, then identify which element the data shows is decisive for making a habit last.",
+          "key_concepts": [
+            "A 2002 New Mexico State University study followed 266 individuals, most of whom worked out at least three times a week.",
+            "In one group, 92 percent said they exercised habitually because it made them feel good.",
+            "In another group, 67 percent said exercise gave them a sense of accomplishment they came to crave.",
+            "The National Weight Control Registry tracks more than six thousand people who have each lost more than thirty pounds.",
+            "78 percent of successful dieters ate breakfast every morning, cued by a time of day.",
+            "Successful dieters envisioned a specific reward, such as a bikini or the pride of stepping on the scale, and focused on craving it.",
+            "Their cravings for the reward crowded out the temptation to drop the diet.",
+            "A cue and reward are not enough; the cue must also trigger a craving for the reward to come."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This matrix tests the book's claim, drawn from the New Mexico State and Weight Control Registry research, that cue and reward alone do not sustain a habit. The loop becomes automatic only when the brain starts expecting the reward, craving it whether the payoff is endorphins, a sense of accomplishment, or a carefully chosen self-reward.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Researchers studying successful exercisers and dieters found that specific cues, clear rewards, and cultivated cravings each play a distinct role. Classify each finding into the element it represents, then identify which element the research shows is decisive for making a habit last.",
+          "column_a_label": "A specific cue",
+          "column_b_label": "A clear reward",
+          "column_c_label": "A cultivated craving",
+          "rows": [
+            { "label": "Running as soon as you get home from work, or leaving running clothes next to the bed", "col": "a" },
+            { "label": "A beer or an evening of guilt-free television after a workout", "col": "b" },
+            { "label": "92 percent of habitual exercisers craving the feel-good endorphin rush", "col": "c" },
+            { "label": "67 percent of one exerciser group craving a sense of accomplishment from tracking their performance", "col": "c" },
+            { "label": "Eating breakfast cued by the time of day, as 78 percent of successful dieters did", "col": "a" },
+            { "label": "Imagining a bikini or the pride of the scale when temptation strikes", "col": "c" }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "Cues and rewards alone are sufficient for a new habit to last.",
+            "Successful dieters relied on sheer willpower rather than anticipated rewards.",
+            "The specific reward matters less than the number of repetitions performed."
+          ],
+          "explanation": "Across both studies the pattern is the same: a concrete cue such as a time of day or arriving home starts the loop, a defined reward closes it, but the habit lasts only when people anticipate and crave that reward. The exercisers craved endorphins or accomplishment, and the dieters envisioned their chosen reward so that its craving crowded out temptation."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "The Febreze Turnaround: Making an Invisible Cue Visible",
+          "visual_frame_description": "A windowless P&G conference room in Cincinnati fills the screen, with Drake Stimson slumped at a beat-up table surrounded by researchers reading the transcript of an interview with a woman who owns nine cats. A shopping aisle graphic shows untouched Febreze bottles while the tagline 'Gets bad smells out of fabrics' flickers overhead.",
+          "player_mission": "Diagnose why the first Febreze campaign failed, then choose the repositioning strategy for the 1998 relaunch. Defeat the sales slump by applying the chapter's insight about cues and craving.",
+          "key_concepts": [
+            "People who live with a smell become desensitized to it and stop noticing it.",
+            "Bad scents were not noticed frequently enough to trigger a regular Febreze habit.",
+            "No one craves scentlessness, but many people crave a nice smell after they finish cleaning.",
+            "The relaunch positioned Febreze at the end of the cleaning routine as a finishing touch.",
+            "Within two months of the 1998 relaunch, Febreze sales doubled.",
+            "Customers spent more than $230 million on Febreze within a year of the relaunch.",
+            "One test-market woman said that if she did not smell something nice at the end, the room did not really seem clean.",
+            "The park ranger with the skunk problem sent the team in the wrong direction, toward problem-solving rather than craving."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the book's explanation of Febreze's turnaround: a product whose cue is undetectable cannot spark a habit, while a reward placed at the end of an existing routine generates craving. The repositioned product doubled sales within two months and passed $230 million in sales within a year.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "The central concept is the craving that powers the habit loop: a cue, a routine, and a reward are not enough until the brain starts to expect and crave the reward, making the behavior automatic.",
+          "stage_1_observation": "You are a behavioral consultant called into Procter & Gamble's Cincinnati offices in 1996. Drake Stimson and his team play you a transcript of an interview with a Phoenix woman who owns nine cats. Her house is clean and organized, yet one researcher gagged while walking in. When asked how often she notices the cat smell, she replies 'about once a month.' The product in question, Febreze, sits almost untouched on store shelves.",
+          "stage_1_question": "Why did the first Febreze campaign fail to create a daily habit?",
+          "stage_1_correct_answer": "The intended cue, bad smells, was invisible to the people who most needed the product, because people become desensitized to smells they live with constantly and no longer notice them.",
+          "stage_2_intervention": "Stimson's team has decided to change the product's positioning, and you must approve one of two strategies for the relaunch. Option A: keep emphasizing odor elimination and tell customers that Febreze gets bad smells out of fabrics. Option B: show women spraying freshly made beds and just-laundered clothing, with the tagline 'Cleans life's smells,' positioning Febreze as the pleasant finish to a cleaning routine.",
+          "stage_2_correct_answer": "Option B: position Febreze as the reward that ends a cleaning routine, so customers come to crave the nice smell once a room is already clean."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Julio the Macaque: When Cravings Take Over",
+          "visual_frame_description": "A dimly lit lab at the University of Cambridge shows Julio, an eight-pound macaque with hazel eyes, strapped into a chair before a computer monitor. A brain-wave graph on a CRT scrolls spiking patterns, and a tube hangs from the ceiling carrying blackberry juice, while a door stands open to a sunny outdoor yard in the corner.",
+          "player_mission": "Decode what the shifting timing of Julio's reward signals means, then predict what happens when the juice is withheld, delayed, or diluted and the lab offers competing distractions. Defeat the misconception that habits weaken against incentives.",
+          "key_concepts": [
+            "Julio was an eight-pound macaque with an electrode in his brain, learning to touch a lever when shapes appeared on a screen.",
+            "Early in training, the reward pattern fired only after the juice arrived.",
+            "As the habit strengthened, the pattern fired at the sight of the shapes, before the juice arrived.",
+            "When juice was delayed or diluted, Julio made unhappy noises and showed a craving pattern inside his skull.",
+            "Monkeys without a strong habit left to play or eat; monkeys with a habit stayed.",
+            "A monkey with a habit sat pressing the lever repeatedly regardless of the food or the open door.",
+            "The monkeys behaved like a gambler playing slots long after losing his winnings.",
+            "Particularly strong habits change the flow of neurochemicals in the brain and produce addiction-like reactions."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests Schultz's demonstration that anticipation precedes and powers habit: reward signals migrate to the cue, creating craving, and established habits resist even powerful distractions. The craving is so overwhelming that monkeys behave like gamblers playing slots long after they have lost their winnings.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "The central concept is that as a habit strengthens, the brain's reward signal shifts to the cue itself, producing anticipation and craving, and that craving, once established, drives behavior even against competing incentives.",
+          "stage_1_observation": "You are a researcher in Wolfram Schultz's Cambridge laboratory watching Julio, an eight-pound macaque with an electrode in his brain. On the monitor, colored shapes flash, and when Julio touches a lever, blackberry juice runs down a tube onto his lips. At first the 'I got a reward!' pattern fires only when the juice arrives. After dozens of repetitions, you notice a change: the pattern now fires the instant the shapes appear, before the juice comes.",
+          "stage_1_question": "What does the shift in the timing of the reward signal mean?",
+          "stage_1_correct_answer": "The shapes have become a cue not just for pulling the lever but for a pleasure response: Julio's brain has begun anticipating the reward, which is the birth of craving.",
+          "stage_2_intervention": "Schultz now changes the rules. Sometimes the juice does not arrive even when Julio performs correctly, sometimes it is delayed, and sometimes it is watered down to half sweetness. Other researchers open the lab door so the monkeys can play outside and put food in a corner. Julio faces a choice. What does the book predict will happen?",
+          "stage_2_correct_answer": "Julio gets angry and mopey when the juice is late or missing, and because his craving is established he stays glued to the screen pressing the lever, ignoring the food and the open door."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Building a Morning Running Habit from Cue, Reward, and Craving",
+          "visual_frame_description": "A quiet apartment at dawn shows Maya, a 34-year-old accountant, in pajamas looking at running shoes laid out on the floor beside her bed. A breakfast table, a smoothie glass, and a workout-log app float nearby as decision prompts, with a calendar marking each successful morning run.",
+          "player_mission": "Coach Maya through the chapter's formula for creating an exercise habit: select a simple cue and a clear reward, then take the decisive step that makes the routine automatic. Defeat the temptation to rely on sheer willpower.",
+          "key_concepts": [
+            "Habitual exercisers in the New Mexico State study had started almost on a whim but continued because of a reward they came to crave.",
+            "92 percent of one group said they exercised because it made them feel good.",
+            "67 percent of another group said exercise gave them a sense of accomplishment from tracking their performance.",
+            "A good cue is simple, like running as soon as you get home from work or lacing up sneakers before breakfast.",
+            "A clear reward might be a beer, an evening of guilt-free television, or recording your miles.",
+            "Countless studies show a cue and a reward on their own are not enough for a habit to last.",
+            "The cue must trigger not only the routine but also a craving for the reward to come.",
+            "Once the brain expects the reward, lacing up the running shoes becomes automatic."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the chapter's claim that cue and reward alone do not create a lasting habit; the decisive ingredient is craving the reward before the routine happens. The research showed successful exercisers had come to crave either the feel-good endorphins or a sense of accomplishment.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "The central concept is the personal formula for building a new habit: choose a simple cue, define a clear reward, and then cultivate the craving for that reward so the loop runs automatically.",
+          "stage_1_observation": "Maya is a 34-year-old accountant who wants to start running every morning before work. She tells you her past attempts always began with enthusiasm and ended within three weeks. She has a roommate who works nights, so mornings are quiet. The chapter's description of the New Mexico State study shows that habitual exercisers typically chose a simple cue and a clear reward.",
+          "stage_1_question": "Which cue-and-reward pair best matches what the chapter's research found helps people stick with exercise?",
+          "stage_1_correct_answer": "A simple, specific cue such as lacing up her sneakers before breakfast or leaving running clothes next to her bed, paired with a clear reward such as a smoothie, guilt-free television, or recording her miles for a sense of accomplishment.",
+          "stage_2_intervention": "Maya has now run every day for two weeks with her chosen cue and reward, but she asks why the routine still feels effortful and worries she will quit. Based on the chapter's argument that cue and reward alone are not enough, what is the decisive next step?",
+          "stage_2_correct_answer": "She must allow herself to anticipate the reward, thinking about the endorphin rush or the satisfaction of recording her miles, so her brain learns to crave it; only then does lacing up her shoes become automatic."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "The Pepsodent Secret: Hopkins Was Selling a Sensation",
+          "visual_frame_description": "A vintage advertising archive shows stacks of faded magazine pages: Dr. Sheffield's Crème Dentifrice promising to clean the dirty layer, Sanitol promising to restore original whiteness, and S.S. White praising beautiful, satin smooth teeth. Over them looms a giant Pepsodent tube with a minty blue mist curling around a pair of open lips.",
+          "player_mission": "Solve the mystery of why Pepsodent triumphed over nearly identical campaigns, then recommend how competitors should respond. Defeat the assumption that the advertised cue and reward were the real cause.",
+          "key_concepts": [
+            "Sanitol, S.S. White, and Dr. Sheffield had used film-and-beauty appeals before Pepsodent without success.",
+            "Pepsodent's patent listed citric acid, mint oil, and other chemicals that irritate the tongue and gums.",
+            "Customers who forgot to brush said they missed the cool, tingling sensation in their mouths.",
+            "Hopkins boasted that he found a cue and reward, but the true driver was the craving for the tingle.",
+            "Within a few decades, almost every toothpaste contained chemicals that caused gums to tingle.",
+            "Brand manager Tracy Sinclair said the tingling just convinces people the product is doing the job.",
+            "Pepsodent demand exploded in the third week after the campaign launched.",
+            "By 1930 Pepsodent was sold in China, South Africa, Brazil, Germany, and almost anywhere else Hopkins could buy ads."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the chapter's claim that Hopkins was not selling clean teeth but a sensation, and that craving, not the advertised cue and reward, powered the habit. Competing companies could only copy the tingle, and today almost all toothpastes still add tingling or foaming agents solely to signal that the product is working.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "The central concept is that Pepsodent's success did not come from its advertised cue and reward, which rival pastes had already used, but from an unadvertised ingredient that manufactured a craving: the tingling sensation.",
+          "stage_1_observation": "You are advising a historian writing about Claude Hopkins. He shows you advertisements that predate Pepsodent: Dr. Sheffield's Crème Dentifrice urged people to clean that dirty layer, Sanitol promised to restore original whiteness by removing film, and S.S. White sold beautiful, satin smooth teeth. All used tooth film as a cue and beauty as a reward, and all failed. Then Hopkins launched Pepsodent with nearly identical appeals, and demand exploded within three weeks.",
+          "stage_1_question": "Why did Pepsodent succeed where the identical appeals of Sanitol, S.S. White, and Dr. Sheffield had failed?",
+          "stage_1_correct_answer": "Pepsodent's formula contained citric acid, mint oil, and other irritants that created a cool, tingling sensation on the tongue and gums, a sensation customers came to crave so that their mouths did not feel clean without it.",
+          "stage_2_intervention": "Competitors have discovered Pepsodent's secret and ask you to recommend a response. Option A: copy the appeal to film and beauty even more aggressively. Option B: add tingle-producing chemicals to their own formulas so their pastes produce the same cool sensation. Option C: advertise that Pepsodent's tingling is unnecessary.",
+          "stage_2_correct_answer": "Option B: imitate the sensation, which is what the book says rivals actually did, so that within a few decades almost every toothpaste contained oils and chemicals that made gums tingle."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Weight-Loss Success: The Craving-Driven Diet",
+          "visual_frame_description": "A research review room displays a dashboard for the National Weight Control Registry, listing more than six thousand participants who each lost more than thirty pounds. Charts track breakfast habits cued by the clock, a bikini hanging in a closet, and a bathroom scale glowing with pride, while a plate of late-night snacks tempts a dieter at the edge of the scene.",
+          "player_mission": "Determine why daily breakfast functions as a habit cue for successful dieters, then choose the strategy that matches the registry research when a dieter faces temptation. Defeat the belief that discipline alone keeps weight off.",
+          "key_concepts": [
+            "The National Weight Control Registry involves more than six thousand people who each lost more than thirty pounds.",
+            "78 percent of successful dieters ate breakfast every morning.",
+            "The breakfast habit was cued by a time of day.",
+            "Successful dieters envisioned a specific reward they carefully chose and really wanted.",
+            "Examples of chosen rewards include a bikini they wanted to wear and the sense of pride from stepping on the scale.",
+            "Dieters focused on the craving for that reward when temptations arose.",
+            "The craving for the reward crowded out the temptation to drop the diet.",
+            "Cultivating the craving turned it into a mild obsession that drove the habit loop."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the chapter's claim that the most successful dieters paired a time-of-day cue with a carefully chosen, deeply wanted reward, then cultivated the craving for it until it dominated temptation. The craving, the book says, is what drives the habit loop.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "The central concept is how data on successful dieters reveals the craving-driven habit loop: a time-of-day cue, a chosen self-reward, and a cultivated craving that crowds out temptation.",
+          "stage_1_observation": "You are a behavioral researcher reviewing data from the National Weight Control Registry, a project involving more than six thousand people who have each lost more than thirty pounds. You are looking for the habits that separated people who kept the weight off from those who relapsed. The data shows that 78 percent of successful dieters ate breakfast every morning.",
+          "stage_1_question": "In the chapter's framework, what role does eating breakfast each morning play for these dieters?",
+          "stage_1_correct_answer": "It is a routine cued by a specific trigger, the time of day, providing the simple, reliable cue the habit loop requires.",
+          "stage_2_intervention": "The successful dieters did more than eat breakfast. A dieter tells you she is about to cave to a late-night snack and asks what the registry research suggests she should do. You must choose the strategy that matches the book's findings.",
+          "stage_2_correct_answer": "Direct her attention to the specific reward she has chosen, such as the bikini she wants to wear or the pride she feels stepping on the scale, and let her crave it; the craving for that reward crowds out the temptation to break the diet."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Designing a Running Habit with Cue, Reward, and Craving",
+          "visual_frame_description": "Two friends sit at a corner café table on a rainy Saturday morning, one cradling a coffee cup with frustration, the other leaning in with a notebook. A running-track diagram and a list titled 'Cue, Reward, Craving' are sketched on a napkin between them, while rain streaks the window behind.",
+          "player_mission": "Guide Priya's advice to Maya as she designs a lasting running habit. Choose the response that applies the chapter's formula for building an automatic routine.",
+          "key_concepts": [
+            "A good cue is simple and specific, such as leaving running clothes next to the bed.",
+            "A clear reward, like a smoothie or an evening of guilt-free television, closes the loop.",
+            "Cue and reward alone are not enough for a new habit to last.",
+            "The cue must also trigger a craving for the reward to come.",
+            "92 percent of one group of habitual exercisers craved the feel-good feeling of working out.",
+            "67 percent of another group craved a sense of accomplishment from tracking their performance.",
+            "Anticipating the reward helps the habit become automatic.",
+            "Once the brain expects the reward, lacing up the shoes becomes nearly effortless."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the craving-driven habit loop described in the chapter: a cue and a reward are necessary but insufficient until the brain anticipates and craves the reward. The chapter's exercise research shows habitual exercisers continued because they had come to crave the endorphins or the sense of accomplishment.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "scenario_setup": "Maya, 34, has told her friend Priya she wants to build a running habit and has failed four times. Priya has just read The Power of Habit and is helping Maya design her routine over coffee. The goal is to make running automatic; the stakes are Maya's self-confidence if she fails again.",
+          "dialogue": [
+            "Maya: 'I always plan to run in the morning, but by 7 a.m. I've already talked myself out of it. How do people actually stick with this?'",
+            "Priya: 'What does a successful run feel like for you? What's the moment that makes it worth it?'",
+            "Maya: 'Honestly, the best part is after, I feel clear-headed all morning. And I love that I can log another run in my app.'",
+            "Priya: 'Good. Now, what is a simple, concrete thing that will always happen right before you run?'",
+            "Maya: 'I always wake up, and my running clothes are next to my bed. If I put them on first thing, I can't argue with myself.'",
+            "Priya: 'So your cue is the clothes by the bed. Now pick one reward, the clear-headed feeling or logging the run, and here's the trick: let yourself look forward to it.'",
+            "Maya: 'Look forward to it? I thought the whole point was discipline.'",
+            "Priya: 'That's the part people miss. The habit only becomes automatic once your brain starts craving that reward before you even lace up.'"
+          ],
+          "choices": [
+            "Stop overthinking it and tell her to use sheer willpower and wake up earlier.",
+            "Tell her to put on her shoes and run, and never mind the reward, because repetition is all that matters.",
+            "Confirm the specific cue and the clear reward, then have her practice anticipating that reward until she craves it.",
+            "Advise her to run at different times each day so the routine never gets boring."
+          ],
+          "optimal_choice": 2,
+          "theoretical_principle": "Hopkins's two rules, find a simple cue and define a clear reward, plus the hidden third element the chapter emphasizes: cultivating a craving for the reward.",
+          "psychological_breakdown": "The optimal choice matches the chapter's formula: a simple cue such as clothes by the bed, a clear reward such as the clear-headed feeling or logging the run, and, critically, anticipating the reward so the brain comes to crave it, which turns the routine into an automatic habit. Sheer willpower fails because it does not create craving, repetition without a reward does not last, and varying the cue removes the stable trigger the loop needs."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Repositioning an Air Freshener for Craving",
+          "visual_frame_description": "Two people sit in a bright café, one scrolling a phone showing a flat sales chart labeled 'FreshFinish,' the other sketching a room where a woman sprays a freshly made bed. A small bottle with the old tagline 'Eliminates bad odors' sits on the table between them.",
+          "player_mission": "Advise Ethan through the marketing dilemma by applying the Febreze lesson. Choose the response that converts a failing odor-elimination product into a craving-driven habit.",
+          "key_concepts": [
+            "People become desensitized to smells they live with, so bad odors are not an effective cue.",
+            "Febreze's first campaign failed because the cue was invisible to the people who needed it most.",
+            "The relaunch made Febreze the reward that ends a cleaning routine.",
+            "The tagline changed from 'Gets bad smells out of fabrics' to 'Cleans life's smells.'",
+            "No one craves scentlessness, but many people crave a nice smell after thirty minutes of cleaning.",
+            "Sales doubled within two months of the 1998 relaunch.",
+            "Customers spent more than $230 million on Febreze within a year of the relaunch.",
+            "The craving for the finish, not the science of odor removal, drove the habit."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests Duhigg's account of why Febreze failed and succeeded: a cue people cannot perceive cannot trigger a habit, and a reward placed at the end of an existing routine can generate craving. After the repositioning, Febreze sales doubled within two months and exceeded $230 million within a year.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "scenario_setup": "Ethan has launched FreshFinish, a home fragrance spray, in two test cities and sales are flat. He meets Priya, a marketing consultant who has studied the Febreze story, at a café. Ethan's ads promise to eliminate bad odors; customers buy once and never repurchase. The stakes are the survival of Ethan's startup.",
+          "dialogue": [
+            "Ethan: 'The science works, this spray really does kill odors. But nobody buys it twice. My ads all say it removes smells.'",
+            "Priya: 'Here's what P&G learned with Febreze in 1996: nobody buys a product to admit their house stinks.'",
+            "Ethan: 'So what did they do?'",
+            "Priya: 'Their cue was invisible. People who live with a smell can't smell it anymore, so nothing triggered daily use. The spray sat in the back of closets.'",
+            "Ethan: 'Then how did they ever sell it?'",
+            "Priya: 'They repositioned it as the reward at the end of cleaning, the nice smell after you've made the bed or vacuumed. The tagline became Cleans life's smells.'",
+            "Ethan: 'So I should stop selling odor elimination entirely?'",
+            "Priya: 'Stop leading with it. Make FreshFinish the pleasant finish to a routine people already have, so they start to crave that finish. That craving is what makes the habit loop spin.'"
+          ],
+          "choices": [
+            "Keep the odor-elimination message but double the advertising budget and give out more free samples.",
+            "Reposition FreshFinish as the satisfying final touch of a cleaning routine and pitch the craving for a fresh-smelling finish.",
+            "Remove the scent from the product entirely so it is purely functional, and emphasize its scientific efficacy.",
+            "Market the spray mainly to people with strong pet odors, since they have the most obvious need."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "The chapter's insight that invisible cues kill habits, plus the repositioning of the reward to the end of an existing routine to create craving.",
+          "psychological_breakdown": "The optimal choice mirrors the Febreze relaunch: since bad smells are invisible to the people who live with them, the cue must come from an existing routine such as cleaning a room, and the product becomes the reward, the pleasant smell at the end. That creates the craving that spins the loop and drives repurchase. More advertising of an invisible cue, a scentless functional product, or targeting only pet owners repeats the original failure."
+        }
+      ]
+    }
+  ]
+}

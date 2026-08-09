@@ -1,0 +1,480 @@
+{
+  "spec_file": "spec_power_of_habit_b05.json",
+  "chapters": [
+    {
+      "id": "ch09",
+      "title": "4. Keystone Habits, or The Ballad of Paul O'Neill: Which Habits Matter Most",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Three Pathways of Keystone Habit Change",
+          "visual_frame_description": "A split-screen control panel labeled 'Keystone Pathways' glows on the screen. Three columns — Small Wins, New Structures, and Culture — each contain a row of evidence cards. In the center, a live video feed shows Paul O'Neill at an Alcoa boardroom ordering the company's offices to link up in a worldwide electronic network, while managers in different countries type messages to one another.",
+          "player_mission": "Sort each evidence card into the keystone-habit pathway it best illustrates: Small Wins, New Structures, or Culture. Then decide which pathway the central scenario — O'Neill's global email network — belongs to. Your classification must be grounded in how the book describes each mechanism.",
+          "key_concepts": [
+            "Keystone habits are the habits that, when they start to shift, dislodge and remake other patterns.",
+            "Keystone habits offer what academic literature calls small wins, which help other habits flourish.",
+            "Small wins are a steady application of a small advantage; once one is accomplished, forces are set in motion that favor another small win.",
+            "Keystone habits create new structures that help other habits flourish, such as the food journal giving dieters a system for thinking about food.",
+            "Keystone habits create cultures where new values become ingrained and tough choices become easier.",
+            "O'Neill justified linking Alcoa's worldwide offices in an electronic network as essential for real-time safety data sharing.",
+            "Alcoa's email network eventually carried market conditions, sales quotas, and pricing intelligence, not just safety reports.",
+            "A manager in Brazil used the network to send a colleague in New York steel price data that turned a quick profit.",
+            "Small wins do not combine in a neat, linear, serial form; they are scattered like miniature experiments."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This matrix tests the three pathways by which keystone habits create widespread change: small wins that fuel momentum, structures that let other habits flourish, and cultures that make values explicit. The book argues the email network illustrates the structure pathway because it was a platform built for safety that carried other habits along with it.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "O'Neill ordered Alcoa's offices around the world to link up in an electronic network, justifying it as essential for a real-time safety data system. Which keystone-habit pathway does this best illustrate?",
+          "column_a_label": "Small Wins",
+          "column_b_label": "New Structures",
+          "column_c_label": "Culture",
+          "rows": [
+            { "label": "Phelps's mental 'videotape' routine built a string of tiny victories before every race.", "col": "a" },
+            { "label": "Alcoa's email network, built for safety data, became the platform managers used to share market intelligence.", "col": "b" },
+            { "label": "The firing of Robert Barton was 'obvious' because the value of sharing lessons was embedded in the culture.", "col": "c" },
+            { "label": "The 2009 food-journaling study gave participants a structure that helped other habits flourish.", "col": "b" },
+            { "label": "The Library of Congress reclassifying gay-liberation books was a small win that energized a movement.", "col": "a" },
+            { "label": "Alcoa's phrase 'not sharing an opportunity to learn is a cardinal sin' encapsulated organizational values.", "col": "c" }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "It is a small win because connecting the offices felt like a quick victory for O'Neill.",
+            "It created a culture where executives could bypass their subordinates.",
+            "It was an isolated routine with no connection to worker safety."
+          ],
+          "explanation": "The email network was a structure — a platform that let managers share safety data and then, as the habit became comfortable, pricing, sales, and business information. That matches the New Structures pathway: keystone habits create structures that help other habits flourish, exactly as O'Neill intended."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Anatomy of Alcoa's Organizational Habit Loop",
+          "visual_frame_description": "A three-ring diagram labeled 'Cue, Routine, Reward' dominates the screen, with animated arrows circling between the rings. A safety dashboard shows an injured worker's report being filed by a unit president, and a promotion certificate glows in the reward ring. Paul O'Neill's memo about celebrating because 'we are saving lives' appears as a footnote.",
+          "player_mission": "Classify each item in Alcoa's safety system into the correct habit-loop component: cue, routine, or reward. Then identify which element an employee injury represents in O'Neill's design.",
+          "key_concepts": [
+            "O'Neill's safety plan was modeled on the habit loop of cue, routine, and reward.",
+            "He identified a simple cue: an employee injury.",
+            "The routine he instituted was that any injured worker's unit president had to report to O'Neill within twenty-four hours and present a plan to prevent recurrence.",
+            "The reward was that the only people who got promoted were those who embraced the safety system.",
+            "To meet the twenty-four-hour deadline, vice presidents had to stay in constant communication with floor managers.",
+            "Floor managers needed workers to raise warnings as soon as they saw a problem and keep a list of suggestions nearby.",
+            "Each unit had to build new communication systems so the lowliest worker's idea could reach the loftiest executive.",
+            "Bureaucrats and politicians, rather than making decisions, respond to cues with automatic routines in order to get rewards such as promotions or reelection.",
+            "Geoffrey Hodgson wrote that individuals have habits while groups have routines, and routines are the organizational analogue of habits."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the cue-routine-reward habit loop applied at organizational scale. The book shows O'Neill deliberately engineered the loop: an injury was the cue, the 24-hour report-and-plan was the routine, and promotion was the reward.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "In O'Neill's safety system at Alcoa, an employee injury functions as which element of the habit loop?",
+          "column_a_label": "Cue",
+          "column_b_label": "Routine",
+          "column_c_label": "Reward",
+          "rows": [
+            { "label": "An employee injury.", "col": "a" },
+            { "label": "The unit president reporting to O'Neill within twenty-four hours and presenting a prevention plan.", "col": "b" },
+            { "label": "Only managers who embraced the system being promoted.", "col": "c" },
+            { "label": "Vice presidents staying in constant communication with floor managers to hear about accidents immediately.", "col": "b" },
+            { "label": "A worker raising a warning as soon as they see a problem.", "col": "a" },
+            { "label": "Getting promoted for embracing the safety system.", "col": "c" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Reward, because fixing the injured machine feels satisfying.",
+            "Routine, because the response to an injury is automatic.",
+            "A separate loop unrelated to the safety program."
+          ],
+          "explanation": "The cue is the trigger that starts the loop. In O'Neill's design the cue was explicitly an employee injury; the 24-hour reporting routine and the promotion reward followed from it. This matches the book's description of how he modeled the safety plan on the habit loop."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Keystone Habits, Correlated Habits, and Isolated Routines",
+          "visual_frame_description": "A laboratory-style matrix shows three columns: Keystone Habits, Correlated Habits, and Isolated Routines. A timeline graphic plays Bob Bowman whispering 'Get the videotape ready' to Michael Phelps before a race, while smaller clips show a family eating dinner and a person making their bed each morning.",
+          "player_mission": "Sort the evidence cards into the correct column: a keystone habit that triggers widespread change, a habit whose effects are only correlated and not proven causal, or an isolated healthy routine. Then classify Phelps's visualization routine.",
+          "key_concepts": [
+            "Exercise is a keystone habit that triggers widespread change even when practiced as infrequently as once a week.",
+            "James Prochaska, a University of Rhode Island researcher, said exercise spills over and makes other good habits easier.",
+            "People who exercise typically start eating better, become more productive, smoke less, and report feeling less stressed.",
+            "Families who habitually eat dinner together seem to raise children with better homework skills and higher grades.",
+            "The book notes that family meals are correlated with outcomes, not proven to cause them.",
+            "Making your bed every morning is correlated with better productivity, well-being, and budget discipline.",
+            "Food journaling once a week became a keystone habit that created a structure for other habits to flourish.",
+            "People who kept daily food records in the 2009 study lost twice as much weight as everyone else.",
+            "Bowman's 'videotape' visualization gave Phelps small wins and mental triggers built into a routine."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This matrix distinguishes keystone habits from merely correlated habits and isolated routines. The book claims exercise and food journaling are keystone habits with demonstrated spillover, while family dinners and bed-making are only correlated with positive outcomes.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "Bob Bowman built a nightly 'videotape' visualization routine so Phelps would imagine the perfect race before sleeping and on waking. Which classification fits best?",
+          "column_a_label": "Keystone Habit",
+          "column_b_label": "Correlated Habit",
+          "column_c_label": "Isolated Routine",
+          "rows": [
+            { "label": "Exercise started even once a week is associated with better eating, less smoking, and less stress.", "col": "a" },
+            { "label": "Families who eat dinner together seem to raise children with better homework skills, but the book presents this as correlation.", "col": "b" },
+            { "label": "Making your bed every morning is correlated with better productivity and well-being, without proven causation.", "col": "b" },
+            { "label": "Food journaling once a week became a habit that led participants to lose twice as much weight.", "col": "a" },
+            { "label": "Brushing your teeth every night is a healthy habit that does not typically reorganize other life areas.", "col": "c" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "It is a correlated habit whose effect on winning is never demonstrated.",
+            "It is an isolated routine with no impact on other habits.",
+            "It is a reward in Phelps's habit loop rather than a keystone habit."
+          ],
+          "explanation": "Bowman's visualization routine was a keystone habit: it was built from tiny moments of success that became mental triggers, giving Phelps a sense of building victory before each race. Like exercise, it triggered change that spilled over into the rest of his swimming rather than standing alone or merely correlating with outcomes."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Engineered Organizational Habits",
+          "visual_frame_description": "A control tower interface displays three hangar bays: Risk-Taking, Aggressive Enforcement, and Unexamined Routines. Video clips alternate between NASA mission control applauding an exploding rocket, EPA regulators filing enforcement actions, and federal bureaucrats breaking ground on a community hospital.",
+          "player_mission": "Sort each organizational habit into the correct category: a habit deliberately engineered to reward risk-taking, one engineered to reward aggressive enforcement, or an unexamined institutional routine that persists without thought. Then classify the NASA applause.",
+          "key_concepts": [
+            "Some NASA departments overhauled themselves by deliberately instituting routines that encouraged engineers to take more risks.",
+            "When unmanned rockets exploded on takeoff, NASA department heads would applaud so everyone knew their division had tried and failed.",
+            "Mission control eventually filled with applause every time something expensive blew up, and it became an organizational habit.",
+            "William Ruckelshaus, the EPA's first administrator, consciously engineered organizational habits that encouraged regulators to be aggressive on enforcement.",
+            "At the EPA, the default for lawyers requesting permission to file a lawsuit or enforcement action was authorization to go ahead.",
+            "The message at the EPA was that aggression gets rewarded, and by 1975 it was issuing more than fifteen hundred new environmental rules a year.",
+            "After World War II, Congress created a program to build community hospitals, and bureaucrats automatically started building whenever health-care funds were allocated.",
+            "The towns where the new hospitals were located did not necessarily need more patient beds, but politicians could point to a big structure while campaigning.",
+            "Federal workers spent months debating curtains and televisions while no one asked if the town wanted a hospital."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This matrix tests how organizations deliberately engineer habits, or fail to examine them. NASA engineered a habit rewarding risk-taking, the EPA engineered one rewarding aggressive enforcement, and the postwar hospital program was an unexamined routine driven by political reward.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "When unmanned rockets exploded on takeoff, NASA department heads applauded so everyone would know their division had tried and failed. Which category does this best illustrate?",
+          "column_a_label": "Habit Engineered to Encourage Risk-Taking",
+          "column_b_label": "Habit Engineered to Encourage Aggressive Enforcement",
+          "column_c_label": "Unexamined Institutional Routine",
+          "rows": [
+            { "label": "NASA mission control applauding expensive explosions so divisions know failure is acceptable.", "col": "a" },
+            { "label": "The EPA defaulting to authorization for enforcement actions, signaling that aggression gets rewarded.", "col": "b" },
+            { "label": "Bureaucrats automatically building hospitals so a congressman could say 'here's what I did'.", "col": "c" },
+            { "label": "Lawmakers allocating health funds triggering construction regardless of whether towns needed beds.", "col": "c" },
+            { "label": "EPA regulators issuing more than fifteen hundred new environmental rules a year by 1975.", "col": "b" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "It is a routine designed to punish failure and reduce experimentation.",
+            "It is an aggressive enforcement habit like the EPA's authorization default.",
+            "It is an unexamined institutional habit like the postwar hospital program."
+          ],
+          "explanation": "The NASA applause was a deliberately engineered organizational habit whose purpose was to reward risk-taking: the book says department heads applauded so everyone would know their division had tried and failed. That contrasts with the EPA's aggressive enforcement habit and the unexamined hospital-building routine."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Keystone Habits at Individual, Organizational, and Movement Scale",
+          "visual_frame_description": "A three-tier skyscraper graphic shows Individual, Organization, and Movement layers. At street level a jogger tracks meals in a food journal; mid-level an Alcoa control room monitors zero-injury targets; at the top a library shelf shows books being reclassified from HQ 71-471 to HQ 76.5.",
+          "player_mission": "Sort each example to the scale where the keystone habit or small win does its work: the individual, the organization, or a social movement. Then classify the Library of Congress reclassification.",
+          "key_concepts": [
+            "Keystone habits can influence how people work, eat, play, live, spend, and communicate.",
+            "In the early 1970s, the Library of Congress agreed to reclassify books about the gay liberation movement into a new category, HQ 76.5.",
+            "The reclassification was a minor tweak of an institutional habit regarding how books were shelved, but its effect was electrifying.",
+            "News of the new library policy spread across the nation and gay rights organizations started fundraising drives.",
+            "Within a few years, openly gay politicians were running for office in California, New York, Massachusetts, and Oregon.",
+            "In 1973, the American Psychiatric Association rewrote the definition of homosexuality so it was no longer a mental illness.",
+            "Phelps's pre-race routine of visualization and stretching prepared him mentally before every race.",
+            "O'Neill's zero-injury safety target at Alcoa created a loop that forced new communication systems across the company.",
+            "West Point cadets who formed a daily 'musketeers' gathering created a culture that helped them overcome obstacles."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This matrix tests the scale at which keystone habits and small wins operate: individual routines, organizational systems, and movement-level wins. The Library of Congress reclassification is a community-level small win that the book credits with energizing a broader movement.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "question": "In 1972 the Library of Congress reclassified gay-liberation books from HQ 71-471 to the new category HQ 76.5, and news of the shift spread nationwide. Which scale best describes this small win?",
+          "column_a_label": "Individual",
+          "column_b_label": "Organization",
+          "column_c_label": "Movement",
+          "rows": [
+            { "label": "Phelps's nightly 'videotape' visualization and pre-race stretching.", "col": "a" },
+            { "label": "O'Neill's zero-injury target driving a 24-hour reporting loop at Alcoa.", "col": "b" },
+            { "label": "The library reclassification energizing fundraising drives and inspiring openly gay politicians.", "col": "c" },
+            { "label": "Food journaling that created a personal structure for weight loss.", "col": "a" },
+            { "label": "Alcoa's 24-hour injury reporting and new communication systems.", "col": "b" },
+            { "label": "West Point cadets' daily gathering of nine friends, the 'musketeers', creating a culture of grit.", "col": "b" }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "It is an individual keystone habit like exercise or food journaling.",
+            "It is an organizational routine like Alcoa's 24-hour reporting loop.",
+            "It was an accidental change that no one in the movement planned or noticed."
+          ],
+          "explanation": "The reclassification operated at the scale of a social movement: it was a small win that spread through networks, energized fundraising, and inspired political candidacies, paving the way for the American Psychiatric Association's 1973 decision. The book frames it as one small win that started a chain of wins for the gay-rights movement."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "The Zero-Injury Keystone Habit",
+          "visual_frame_description": "The scene is the ballroom of a posh Manhattan hotel in October 1987. A crowd of Wall Street investors and analysts sits stunned as Paul O'Neill, fifty-one, trim, in gray pinstripes and a red power tie, points out the safety exits. Below, a readout shows the stake: Alcoa's future and the investor's own portfolio.",
+          "player_mission": "Understand why O'Neill bet his entire Alcoa turnaround on worker safety, then decide how he must respond when the first fatality occurs. Your choices determine whether the keystone habit ripples through the company or collapses.",
+          "key_concepts": [
+            "Alcoa was one of the largest companies on earth, manufacturing everything from Hershey's Kisses foil to bolts that hold satellites together.",
+            "Investors were panicked because O'Neill talked about worker safety instead of profits, taxes, or buzzwords.",
+            "One investor ordered his twenty largest clients to sell their stock immediately, later calling it the worst piece of advice of his career.",
+            "O'Neill said you cannot order people to change, because that is not how the brain works.",
+            "He chose safety because it was something everybody, including unions and executives, could agree was important.",
+            "O'Neill set an audacious goal of zero injuries, not zero factory injuries, but zero injuries period.",
+            "His safety plan was modeled on the habit loop, with an injury as the cue, a 24-hour report as the routine, and promotion as the reward.",
+            "Within a year of his speech Alcoa's profits hit a record high, and by 2000 net income was five times larger.",
+            "The company's injury rate fell to one-twentieth of the U.S. average."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the keystone habit as a lever for organizational transformation: O'Neill focused on one priority that everyone could agree on and let the change ripple outward. The book's evidence is Alcoa's record profits and its injury rate falling to one-twentieth of the U.S. average.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "A keystone habit starts a chain reaction by riding a cue-routine-reward loop: O'Neill picked worker safety because both unions and executives valued it, giving him leverage to change how people worked and communicated. When other habits shift around one keystone, the whole organization remakes itself.",
+          "stage_1_observation": "It is October 1987. You sit among investors in a Manhattan hotel ballroom as Alcoa's new CEO, Paul O'Neill, takes the stage. Instead of promising profits and cost cuts, he announces he will make Alcoa the safest company in America and go for zero injuries, then points out the fire exits. The room falls silent; investors whisper that the board hired a crazy hippie who will kill the company.",
+          "stage_1_question": "Why did O'Neill choose worker safety rather than profits or quality as his top priority?",
+          "stage_1_correct_answer": "Because safety was something everyone could agree mattered — unions and executives alike — giving him a keystone that would let him change how people worked and communicated. He believed you cannot order people to change, so he focused on one habit and let the ripple spread through the whole company.",
+          "stage_2_intervention": "A year into the plan, you are in O'Neill's position. At a plant in Arizona, a young worker who joined for the health care jumps a safety wall to repair a jammed extrusion press and is killed instantly when the machine's arm crushes his skull. Fourteen hours later you must decide what to do. Investors are watching, and the previous CEO's mandate-led approach caused a strike with effigies burned in parking lots.",
+          "stage_2_correct_answer": "O'Neill ordered an emergency meeting, painstakingly re-created the accident from diagrams and videotapes, identified dozens of contributing errors, and told the executives, 'We killed this man. It's my failure of leadership.' He treated it as a systemic failure rather than a one-off tragedy, then repainted all safety railings bright yellow, wrote new policies, let workers suggest proactive maintenance, and celebrated the resulting small win as saving lives, not following rules.",
+          "stage_2_correct_answer_rationale": "The correct response preserves the keystone habit: it treats the death as a leadership failure in the chain of command, fixes root causes, and converts the short-term drop in injuries into a celebrated small win that makes the safety habit stick and ripple outward."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Small Wins and the Mental Videotape",
+          "visual_frame_description": "A dim bedroom shows teenage Michael Phelps lying in bed with his eyes shut, visualizing a perfect race. Above him, an animated 'videotape' plays a slow-motion swim: the starting blocks, the turns, the wake, the finish. Coach Bob Bowman's voice whispers 'Get the videotape ready.'",
+          "player_mission": "Diagnose why the visualization routine acts as a keystone habit, then decide how Phelps must execute it when the goggles leak during an Olympic final. Your answers decide whether he panics or touches the wall in world-record time.",
+          "key_concepts": [
+            "Bob Bowman designed behaviors for Phelps that had nothing to do with swimming and everything to do with creating the right mindset.",
+            "Bowman told Phelps to watch 'the videotape' before sleep and on waking, but the videotape was a mental visualization of the perfect race.",
+            "Phelps would imagine himself jumping off the blocks, swimming flawlessly, his strokes, turns, the finish, and ripping off his cap.",
+            "The routine was built from tiny moments of success worked into mental triggers and a routine, giving a sense of building victory.",
+            "By race time, Phelps was more than halfway through a plan that had been nothing but victories, so winning felt like a natural extension.",
+            "When his goggles filled with water during the 200-meter butterfly final in Beijing, Phelps could not see anything.",
+            "Phelps had mentally rehearsed how to respond to goggle failure because some of his videotapes featured problems like this.",
+            "He estimated the final push required nineteen or twenty strokes, possibly twenty-one, and started counting.",
+            "Midway through the lap he increased his effort, and at nineteen and twenty strokes he anticipated the wall before making a twenty-first huge stroke."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests small wins as the engine of keystone habits: Bowman turned visualization and relaxation into mental triggers that gave Phelps a string of tiny victories before every race. The book's evidence is Phelps's calm, world-record swim while blind, which he described as feeling exactly like he had imagined.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "Keystone habits built from small wins create mental triggers: each routine step that goes as planned convinces the performer that victory is building, so the actual competition becomes just another step in a victorious pattern. The book shows this with Phelps's visualization, which was rehearsed until it felt rote.",
+          "stage_1_observation": "You are Bob Bowman's assistant watching teenage Michael Phelps after practice. Bowman sends Phelps home to watch the videotape before sleep and on waking. At first it seems like wasted time, but Phelps lies in bed visualizing the perfect race in slow motion: the blocks, his strokes, the turns, the finish, the water dripping off his lips.",
+          "stage_1_question": "Why did the visualization routine act as a keystone habit even though it had nothing directly to do with swimming?",
+          "stage_1_correct_answer": "Because it created a mindset: the routine was built from tiny moments of success turned into mental triggers, giving Phelps a sense of building victory before every race. The habit took over so the race was just another step in a pattern of victories, making winning feel like a natural extension rather than a separate challenge.",
+          "stage_2_intervention": "It is August 13, 2008, four minutes before the 200-meter butterfly final in Beijing. Phelps steps onto the block, steps down, swings his arms three times as he has since age twelve, and dives. By the second turn his goggles are completely filled with water and he cannot see the line, the T marking the wall, or how many strokes remain. You must decide what the prepared routine requires him to do now.",
+          "stage_2_correct_answer": "Stay calm and rely on the rehearsed videotape: Phelps estimated the final push required nineteen, twenty, or twenty-one strokes and began counting. He increased his effort midway through the lap, anticipated the wall at twenty strokes, made a twenty-first huge stroke, glided with his arm outstretched, and touched the wall — timing it perfectly for a world record.",
+          "stage_2_correct_answer_rationale": "The correct answer executes the prepared small-win routine instead of reacting to the leak: the videotape had featured problems like goggle failure, so Phelps was ready to swim blind, count strokes, and finish exactly as imagined."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Food Journaling as a Structure-Building Habit",
+          "visual_frame_description": "A bright kitchen scene shows a diverse group of adults writing in food journals at a study center. Overlay text reports the 2009 National Institutes of Health study of sixteen hundred obese people. A small inset shows a participant noticing they always snack at 10 A.M. and placing an apple on their desk.",
+          "player_mission": "Diagnose why a single simple instruction — write down everything you eat once a week — outperformed radical life overhauls. Then advise the next step for a participant who spots her own snacking pattern.",
+          "key_concepts": [
+            "Conventional wisdom said the best way to lose weight was to radically alter your life with strict diets, gyms, and daily counseling.",
+            "When researchers studied these all-at-once methods over prolonged periods, they discovered they were failures.",
+            "Piling on so much change at once made it impossible for any of it to stick.",
+            "In 2009, NIH-funded researchers studied sixteen hundred obese people and asked them to write down everything they ate at least one day per week.",
+            "It was hard at first, but slowly participants started recording meals weekly and sometimes daily, until it became a habit.",
+            "Participants started finding patterns they did not know existed, such as always snacking at about 10 A.M.",
+            "Some kept an apple or banana on their desks for midmorning munchies and used journals to plan future menus.",
+            "Six months in, people who kept daily food records had lost twice as much weight as everyone else.",
+            "One participant said the journal got inside her head and gave her a system for thinking about food without becoming depressed."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests keystone habits that create structures for other habits to flourish. The 2009 study is the book's evidence: food journaling provided a system, and people who kept daily records lost twice as much weight, while all-at-once overhauls collapsed.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "A keystone habit works by creating a structure that helps other habits flourish. Food journaling did not prescribe dieting; it gave people a system for noticing patterns and planning meals, and that structure, not willpower, produced the weight loss.",
+          "stage_1_observation": "You are a weight-loss researcher reviewing the 2009 study of sixteen hundred obese people. Doctors had always told such patients to overhaul everything — strict diets, gym memberships, daily counseling, taking the stairs instead of the elevator. Those methods failed within weeks. Your team instead asked participants to write down everything they ate at least one day per week.",
+          "stage_1_question": "Why did the simple food-journal instruction outperform the old all-at-once overhaul approach?",
+          "stage_1_correct_answer": "Because the all-at-once approach piled on so much change that none of it stuck, while the journal was a keystone habit that created a structure — a system for noticing patterns and planning meals — that helped other habits flourish. Participants who kept daily records lost twice as much weight as everyone else.",
+          "stage_2_intervention": "A participant, a 45-year-old accountant, tells you the journal has gotten inside her head. She noticed she always snacks at about 10 A.M. and feels a craving she had never tracked before. She asks what to do next to build on the habit without falling back into the old all-at-once trap.",
+          "stage_2_correct_answer": "Keep the journal as the keystone structure and make one small adjustment per discovered pattern: keep an apple or banana on the desk for the midmorning snack, and use the journal to plan tomorrow's dinner so she eats the healthy meal she wrote down instead of junk food from the fridge.",
+          "stage_2_correct_answer_rationale": "The correct answer extends the keystone habit's structure rather than adding a radical overhaul: the journal revealed the pattern, and a small planned adjustment — fruit on the desk, a menu written in advance — lets the structure keep flourishing the way the study's successful participants did."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "The Culture That Makes Tough Choices Easy",
+          "visual_frame_description": "A Pittsburgh shareholder meeting room shows a Benedictine nun, Sister Mary Margaret, confronting a composed Paul O'Neill who has pulled up safety records on his laptop. In the background, a Mexican plant's records show an unreported fume incident, and a senior executive's office door stands ajar.",
+          "player_mission": "Determine why Alcoa's keystone-habit culture dictates that a senior executive must be fired, and explain how that culture makes the choice feel obvious. Your reasoning decides whether the value system holds or collapses.",
+          "key_concepts": [
+            "At a 1996 shareholder meeting in Pittsburgh, Sister Mary Margaret accused O'Neill of lying about conditions at Alcoa's plant in Ciudad Acuna, Mexico.",
+            "O'Neill pulled up the plant's high scores on safety, environmental compliance, and employee satisfaction surveys.",
+            "Executives sent to Mexico found records of a fume buildup that sickened workers and that the plant's executive, Robert Barton, had never reported to headquarters.",
+            "Barton was one of Alcoa's most senior managers and responsible for some of their largest partnerships.",
+            "O'Neill asked whether Barton knew people had gotten sick, and the answer was that it was pretty clear he knew.",
+            "Two days after the executives returned, Barton was fired, shocking outsiders.",
+            "Within Alcoa no one was surprised; a colleague said Barton fired himself and there was not even a choice.",
+            "O'Neill said not sharing an opportunity to learn is a cardinal sin.",
+            "Keystone habits create cultures where new values become ingrained, making tough choices like firing a top executive easier."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the culture pathway of keystone habits: repeated keystone habits create cultures where values become ingrained, so difficult decisions like firing a star executive become obvious. The book's evidence is Barton's firing, seen inside Alcoa as inevitable rather than surprising.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "Keystone habits create cultures that make values explicit and decision-making automatic: when an executive violates an ingrained value, the culture dictates the outcome, making a painful choice feel like there is no choice at all.",
+          "stage_1_observation": "You are an Alcoa board observer in May 1996. Sister Mary Margaret stands up at the Pittsburgh shareholder meeting and accuses O'Neill of lying about the Ciudad Acuna, Mexico plant. O'Neill shows the room glowing safety scores, then privately sends his head of human resources and general counsel to Mexico. They find records of a fume buildup that sickened workers, an incident never reported to headquarters.",
+          "stage_1_question": "Why does the culture O'Neill built dictate that Robert Barton must be fired even though he is a senior executive responsible for Alcoa's largest partnerships?",
+          "stage_1_correct_answer": "Because the culture's core value — that not sharing an opportunity to learn is a cardinal sin — makes the choice obvious. Barton knew people got sick and never reported it, so no one else got the chance to learn from the incident. In the value system O'Neill built, that violation overrides Barton's seniority and partnerships.",
+          "stage_2_intervention": "Outsiders are shocked when Barton is fired two days later, and analysts note the departure damages important joint ventures. Inside Alcoa, however, no one is surprised. You must explain to a puzzled board member how the keystone-habit culture makes this decision sustainable rather than reckless.",
+          "stage_2_correct_answer": "Explain that the culture makes the values clear, so the decision was not personal: a colleague put it as 'Barton fired himself. There wasn't even a choice there.' Keystone habits create cultures where new values become ingrained, so when someone violates the culture, it is obvious they have to go — which is exactly what keeps the value system credible and the organization functional.",
+          "stage_2_correct_answer_rationale": "The correct answer shows that the firing is not a risky personal whim but the natural output of an ingrained culture: the keystone habit of sharing safety lessons created the value, and the culture, not individual judgment, made the hard call inevitable and sustainable."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Root-Cause Analysis and the Chain Reaction",
+          "visual_frame_description": "An animated root-cause tree spreads across the screen, starting with infant mortality at the trunk and branching through premature births, malnourished mothers, pre-pregnancy diets, high-school nutrition classes, and finally teacher training in biology. A graveyard of failed one-step fixes sits at the side.",
+          "player_mission": "Follow O'Neill's method of relentless root-cause questioning to find the surprising cause of high infant mortality, then decide where to aim a keystone intervention. Your choice determines whether the chain reaction reaches babies or stalls.",
+          "key_concepts": [
+            "The United States had a higher infant mortality rate than most of Europe and parts of South America, despite being among the wealthiest countries.",
+            "When O'Neill asked federal agencies to analyze infant mortality data, he kept asking deeper questions to find root causes.",
+            "Some research suggested the biggest cause was premature births, and babies were born early because mothers suffered from malnourishment during pregnancy.",
+            "To stop malnourishment, women had to improve their diets before becoming pregnant, which meant educating them before they became sexually active.",
+            "Officials discovered that many high school teachers in rural areas did not know enough basic biology to teach nutrition.",
+            "Poor teacher training turned out to be a root cause of high infant mortality, even though no doctor would have suggested it.",
+            "By teaching college students biology, the chain eventually reached teenagers, who ate healthier and gave birth to stronger babies.",
+            "The U.S. infant mortality rate today is 68 percent lower than when O'Neill started the job.",
+            "O'Neill's habit of pushing bureaucrats to keep researching until they found root causes overhauled how the government thought about problems."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the structure-building pathway of keystone habits through root-cause analysis: O'Neill's relentless questioning revealed that poor teacher training, not a direct medical fix, was a root cause of infant mortality. The book's evidence is the chain reaction that helped lower the U.S. infant mortality rate by 68 percent.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "boss_battle_explanation": "Keystone habits create structures that help other habits flourish, and O'Neill's own method was relentless root-cause questioning: each answer generated a deeper question until the real leverage point appeared. Fixing that upstream point started a chain reaction that reached the intended outcome years later.",
+          "stage_1_observation": "You are on O'Neill's government team studying why rural America had staggering infant mortality. Researchers first blame premature births, then malnourished mothers, then pre-pregnancy diets, then nutrition education in high schools. When you dig into how to create those curricula, you discover rural high school teachers do not know enough basic biology to teach nutrition.",
+          "stage_1_question": "What was the root cause officials eventually identified, and why was it surprising?",
+          "stage_1_correct_answer": "Poor teacher training. No doctor or public health official would have suggested changing how teachers are trained, because no one knew the link existed. But by teaching college students biology, the knowledge passed to teenagers, who ate healthier and years later gave birth to stronger babies — an upstream fix that started the whole chain.",
+          "stage_2_intervention": "You are now the leader of a health agency in a state with high infant mortality, and pressure groups want immediate, visible interventions such as free baby formula and hospital upgrades. O'Neill's method suggests you should aim the keystone intervention much further upstream. You must decide where to focus first.",
+          "stage_2_correct_answer": "Focus first on teacher training and nutrition curricula in high schools, because that is the root-cause structure that lets the rest of the chain flourish. A visible immediate fix like free formula treats the symptom, while fixing the upstream structure — teachers who can teach biology and nutrition — starts the same chain reaction O'Neill's analysis revealed.",
+          "stage_2_correct_answer_rationale": "The correct answer applies root-cause analysis rather than symptom relief: aiming at teacher training creates the structure that allows nutrition knowledge to flow to future mothers, replicating the chain reaction that helped lower the U.S. infant mortality rate by 68 percent."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Selling a Single Keystone Habit to a Skeptical CFO",
+          "visual_frame_description": "A glass-walled conference room at a struggling manufacturer. You, Priya, a newly hired plant operations manager, sit across from CFO Alan, who has a binder of twelve turnaround initiatives. A whiteboard shows his multi-point plan crossed out, with 'one keystone habit: safety' written beside it.",
+          "player_mission": "Persuade the CFO to bet the turnaround on a single keystone habit rather than twelve simultaneous initiatives. Choose responses that explain why one well-designed loop beats a sprawl of mandates.",
+          "key_concepts": [
+            "Keystone habits are the habits that, when they start to shift, dislodge and remake other patterns.",
+            "You cannot order people to change, because that is not how the brain works, according to O'Neill.",
+            "Focusing on one thing — worker safety — gave O'Neill leverage to change how people worked and communicated.",
+            "Alcoa's previous CEO tried to mandate improvements, and fifteen thousand employees went on strike, burning manager effigies in parking lots.",
+            "To protect workers, Alcoa needed to become the best, most streamlined aluminum company on earth, because correct work is also safer work.",
+            "Redesigning pouring systems to prevent injuries also saved money because Alcoa lost less raw material in spills.",
+            "Replacing machines that kept breaking down reduced injury risk and also improved product quality.",
+            "O'Neill's safety plan created a loop where the unit president reported to him within twenty-four hours of any injury.",
+            "Costs came down and quality went up as the safety routines moved through the organization, even though O'Neill never promised higher profits."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests how a keystone habit is chosen and sold: instead of mandating twelve changes, O'Neill picked one focus everyone could agree on and let it remake the organization. The book's evidence is that safety routines at Alcoa produced lower costs and higher quality as a by-product.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "scenario_setup": "You are Priya, the newly hired plant manager at Meridian Manufacturing, a mid-size plant bleeding margin. CFO Alan wants a twelve-point turnaround: new shift schedules, a cost-cutting audit, a quality program, and nine more initiatives. You believe that approach will collapse under its own weight, just as Alcoa's mandate-driven approach did. The stakes: if Alan's sprawl wins, morale drops and the plant misses the quarter; if your keystone plan wins, you get a single quarter to prove one habit can move the metrics.",
+          "dialogue": [
+            { "speaker": "Priya", "line": "Alan, I know you want to fix shipping, quality, and retention all at once. I don't think that's going to work." },
+            { "speaker": "Alan", "line": "We're losing customers every week. We need to fix everything, and we need to fix it now." },
+            { "speaker": "Priya", "line": "Alcoa was in worse shape, and O'Neill turned it around by focusing on one thing: worker safety." },
+            { "speaker": "Alan", "line": "Safety is a nice slogan, but how does it fix our late shipments?" },
+            { "speaker": "Priya", "line": "Because to prevent injuries you have to study how the manufacturing process goes wrong. That exposes quality and efficiency problems at the same time." },
+            { "speaker": "Alan", "line": "So you want me to bet the plant's turnaround on a single habit?" },
+            { "speaker": "Priya", "line": "Not a single change — a keystone habit. Build one loop, and the other habits grow around it on their own." },
+            { "speaker": "Alan", "line": "Fine. Show me a concrete loop and I'll hold the other eleven initiatives for one quarter." }
+          ],
+          "choices": [
+            "Agree with Alan and launch all twelve initiatives together to show you take the crisis seriously.",
+            "Design a single keystone loop: any incident reported to plant leadership within 24 hours, with a prevention plan, and reward the teams that embrace it.",
+            "Drop the safety idea and run a pure cost-cutting program to satisfy the CFO immediately.",
+            "Run the twelve initiatives but quietly add a safety workshop so both plans proceed at once."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Keystone habit and the habit loop (cue-routine-reward) as the engine of organizational change",
+          "psychological_breakdown": "Choice 1 works because it follows O'Neill's method: one well-designed loop creates new communication systems and lets other habits flourish, which is how Alcoa's safety focus produced better quality and lower costs as by-products. Choice 0 repeats the all-at-once failure mode that the book shows collapses under its own weight. Choice 2 abandons the only lever that everyone — workers and management — can agree on. Choice 3 waters down the keystone by burying it inside a sprawl, so the single habit never gets the focus that makes it keystone."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Habit Loops | Behavioral Friction & Choice Architecture",
+          "topic": "Choosing a Keystone Habit Over a Radical Overhaul",
+          "visual_frame_description": "A warm coaching room at a community clinic. You are a wellness coach and Maya, a 45-year-old accountant, sits across from you, exhausted. In front of her is a stack of failed gym memberships and diet plans, and on the table rests a blank weekly food journal.",
+          "player_mission": "Talk Maya out of another all-at-once overhaul and into a single keystone habit. Your guidance decides whether she makes a change that lasts or repeats her cycle of failure.",
+          "key_concepts": [
+            "Conventional wisdom said the best way to lose weight was to radically alter your life with strict diets, gyms, and daily counseling.",
+            "Piling on so much change at once made it impossible for any of it to stick.",
+            "In the 2009 NIH-funded study, participants were asked to write down everything they ate at least one day per week.",
+            "The journal became a habit, and participants started finding patterns they did not know existed.",
+            "Some participants started keeping fruit on their desks for the midmorning munchies they discovered.",
+            "Others used their journals to plan future menus and ate the healthy meal they had written down.",
+            "Six months in, people who kept daily food records had lost twice as much weight as everyone else.",
+            "One participant said the journal gave her a system for thinking about food without becoming depressed.",
+            "Keystone habits create structures that help other habits flourish, without requiring a total life overhaul."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests replacing an all-at-once overhaul with a single keystone habit that creates structure. The book's evidence is the 2009 study showing that a food journal, not willpower, produced lasting weight loss by giving people a system for noticing patterns.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular-science journalism with research synthesis (habit loops, keystone habits)"
+          },
+          "scenario_setup": "You are a wellness coach at a community clinic. Maya, a 45-year-old accountant, has repeatedly failed at radical overhauls: strict diets, gym memberships, daily counseling, taking the stairs instead of the elevator. Each attempt collapses within weeks, and she is ready to quit trying. The stakes: if you push another overhaul, she will abandon the program; if you find the right keystone habit, she may finally make a change that sticks.",
+          "dialogue": [
+            { "speaker": "Maya", "line": "I've tried everything. New diet, gym, the whole package. Nothing sticks past a month." },
+            { "speaker": "Coach", "line": "That's the problem — you changed everything at once, so nothing could stick." },
+            { "speaker": "Maya", "line": "So what am I supposed to do, change nothing?" },
+            { "speaker": "Coach", "line": "Change one thing that creates structure. Researchers found people who kept a food journal once a week started making better choices on their own." },
+            { "speaker": "Maya", "line": "A journal? That's the small thing that's supposed to fix my life?" },
+            { "speaker": "Coach", "line": "It's a keystone habit. Once you see your patterns — like the 10 A.M. snack you never noticed — you naturally start planning around them." },
+            { "speaker": "Maya", "line": "And then what?" },
+            { "speaker": "Coach", "line": "Then the journal's structure helps other habits flourish. People who kept daily records lost twice as much weight — because they had a system, not because they went on a crash diet." }
+          ],
+          "choices": [
+            "Tell Maya to start a strict diet and gym membership again, promising this time will be different because she is motivated now.",
+            "Ask Maya to write down everything she eats at least one day a week, without changing anything else yet.",
+            "Advise Maya to ignore her eating and focus only on fixing her sleep schedule first.",
+            "Suggest Maya keep the journal but also sign up for daily counseling sessions to double up on support."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Keystone habit creating a structure that helps other habits flourish (the food-journaling mechanism)",
+          "psychological_breakdown": "Choice 1 works because the weekly journal is the keystone habit from the study: it creates a structure that lets other habits flourish, and no radical change is required up front. Choice 0 repeats the all-at-once overhaul that the book shows fails within weeks. Choice 2 swaps one isolated routine for another with no demonstrated spillover. Choice 3 doubles up and recreates the overload that made all of Maya's past attempts collapse."
+        }
+      ]
+    }
+  ]
+}

@@ -24,8 +24,8 @@ BOOKS_DIR = os.path.join(HERE, "..", "generated_assets", "phase7a")
 GLOBAL_SKIP = ("cover", "title page", "copyright", "dedication", "contents",
                "table of contents", "acknowledg", "notes", "index",
                "about the author", "newsletter", "bibliography", "references",
-               "sources and notes", "further reading", "about this book",
-               "about the author", "also by")
+               "sources and notes", "a note on sources", "further reading",
+               "about this book", "about the author", "also by")
 
 # Per-book domain profile: title, topic binding, credibility profile,
 # modality weights (percent, must sum to 100), and the asset 'domain' string.
