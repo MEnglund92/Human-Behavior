@@ -1,0 +1,533 @@
+{
+ "job": "credibility_profiles",
+ "task": "Classify each book below by the scientific standing of the claims it makes, producing a per-library credibility profile. This feeds per-asset credibility labels shown to learners, so be honest and nuanced. For each book provide: level (High|Medium|Low), consensus (Broad|Emerging|Contested), and a 1-2 sentence note explaining the rating (e.g. 'peer-reviewed synthesis of controlled experiments' vs 'trade book with anecdotal evidence' vs 'popular claims contested by later research'). Do not rate the BOOK's quality; rate the scientific confidence a learner should attach to claims derived from it.",
+ "level_defs": {
+  "High": "claims rest on replicated, peer-reviewed research (controlled studies, meta-analyses)",
+  "Medium": "claims are evidence-based but with caveats: case studies, single studies, or expert synthesis",
+  "Low": "claims are anecdotal, popularized, or contradicted by current research; treat as ideas, not findings"
+ },
+ "consensus_defs": {
+  "Broad": "most researchers in the field would agree",
+  "Emerging": "active research area with growing but not settled support",
+  "Contested": "significant disagreement or claims at odds with mainstream science"
+ },
+ "schema": [
+  {
+   "book_id": "string (from the list)",
+   "level": "High|Medium|Low",
+   "consensus": "Broad|Emerging|Contested",
+   "note": "string"
+  }
+ ],
+ "libraries": [
+  {
+   "book_id": "apa_nonverbal",
+   "title": "APA Handbook of Nonverbal Communication",
+   "assets": 115,
+   "chapters": [
+    "Chapter 1: A History of Research on Nonverbal Communication: Our Divergent Pasts and Their Contemporary Legacies",
+    "Chapter 2: The Life and Times of Nonverbal Communication Theory and Research: Past, Present, Future",
+    "Chapter 3: Evolution and Nonverbal Communication",
+    "Chapter 4: The Cultural Bases of Nonverbal Communication",
+    "Chapter 5: The Developmental Arc of Nonverbal Communication: Capacity and Consequence for Human Social Bonds",
+    "Chapter 6: Gender and Nonverbal Behavior",
+    "Chapter 7: Personality",
+    "Chapter 8: The Physical Environment and Nonverbal Communication",
+    "Chapter 9: Appearance and Physiognomy",
+    "Chapter 10: Facial Expressions",
+    "Chapter 11: The Voice: From Identity to Interactions",
+    "Chapter 12: Gesture",
+    "Chapter 13: Eye Behavior and Gaze",
+    "Chapter 14: Signs, Signals, and Symbols in Olfactics"
+   ]
+  },
+  {
+   "book_id": "attached_workbook",
+   "title": "Workbook of Attached - Amir Levine, Rachel Heller",
+   "assets": 90,
+   "chapters": [
+    "Chapter 1: Everyone Needs Connection",
+    "Chapter 2: Our Desire for Connection Is Inherited and Shaped by Upbringing",
+    "Chapter 3: Anxious Attachment — Need for Closeness and Reassurance",
+    "Chapter 4: Avoidant Attachment — The Pursuit of Independence",
+    "Chapter 5: Secure Attachment — The Go-With-the-Flow Advantage",
+    "Chapter 6: Finding and Keeping Love Through Communication",
+    "Chapter 7: Making Relationships Work Through Conflict Coping",
+    "Chapter 8: Dont Settle — Knowing When a Partner Cant Meet Your Needs",
+    "Final Conclusion: Applying Your Attachment Knowledge",
+    "Chapter 1: Everyone Needs Connection",
+    "Chapter 2: Our Desire for Connection Is Inherited and Shaped by Upbringing",
+    "Chapter 3: Anxious Attachment - Need for Closeness and Reassurance",
+    "Chapter 4: Avoidant Attachment - The Pursuit of Independence",
+    "Chapter 5: Secure Attachment - The Go-With-the-Flow Advantage"
+   ]
+  },
+  {
+   "book_id": "behave",
+   "title": "Behave: The Biology of Humans at Our Best and Worst – Robert Sapolsky (2017)",
+   "assets": 126,
+   "chapters": [
+    "Introduction: The Behavior",
+    "One Second Before",
+    "Seconds to Minutes Before",
+    "Hours to Days Before",
+    "Days to Months Before",
+    "Adolescence: Dude, Where's My Frontal Cortex?",
+    "Back to the Crib, Back to the Womb",
+    "Back to When You Were Just a Fertilized Egg",
+    "Centuries to Millennia Before",
+    "The Evolution of Behavior",
+    "Us Versus Them",
+    "Hierarchy, Obedience, and Resistance",
+    "Morality and Doing the Right Thing, Once You've Figured Out What That Is",
+    "Feeling Someone's Pain, Understanding Someone's Pain, Alleviating Someone's Pain"
+   ]
+  },
+  {
+   "book_id": "body_language",
+   "title": "Body Language: How to Read Others' Thoughts by Their Gestures (Pease, 1981)",
+   "assets": 90,
+   "chapters": [
+    "Chapter 1: A Framework for Understanding",
+    "Chapter 2: Territories and Zones",
+    "Chapter 3: Palm Gestures",
+    "Chapter 4: Hand and Arm Gestures",
+    "Chapter 5: Hand-to-Face Gestures",
+    "Chapter 6: Arm Barriers",
+    "Chapter 7: Leg Barriers",
+    "Chapter 8: Other Popular Gestures and Actions",
+    "Chapter 9: Eye Signals",
+    "Chapter 10: Courtship Gestures and Signals",
+    "Chapter 11: Cigars, Cigarettes, Pipes and Glasses",
+    "Chapter 12: Territorial and Ownership Gestures",
+    "Chapter 13: Carbon Copies and Mirror Images",
+    "Chapter 14: Body Lowering and Status"
+   ]
+  },
+  {
+   "book_id": "bowden_truth_lies",
+   "title": "Truth & Lies: What People Are Really Thinking - Mark Bowden and Tracey Thomson",
+   "assets": 255,
+   "chapters": [
+    "Part One: Genuine Deceptions — Body Language Lies, Powerful Thinking, Mind Your Judgments, Scan for Truth (Part 1)",
+    "Part One: Genuine Deceptions — Body Language Lies, Powerful Thinking, Mind Your Judgments, Scan for Truth (Part 2)",
+    "Part Two: Dating — Attraction, Red Flags, Power Dynamics, Deception & Compatibility (Part 1)",
+    "Part Two: Dating — Attraction, Red Flags, Power Dynamics, Deception & Compatibility (Part 2)",
+    "Part Two: Dating — Attraction, Red Flags, Power Dynamics, Deception & Compatibility (Part 3)",
+    "Part Two: Dating — Attraction, Red Flags, Power Dynamics, Deception & Compatibility (Part 4)",
+    "Part Three: Friends and Family — Bonds, Friction, Conflict, Exclusion & Invisibility (Part 1)",
+    "Part Three: Friends and Family — Bonds, Friction, Conflict, Exclusion & Invisibility (Part 2)",
+    "Part Three: Friends and Family — Bonds, Friction, Conflict, Exclusion & Invisibility (Part 3)",
+    "Part Three: Friends and Family — Bonds, Friction, Conflict, Exclusion & Invisibility (Part 4)",
+    "Part Four: Working Life — Interviews, Power Dynamics, Conflict, Meetings, Teams, Leadership & Deception (Part 1)",
+    "Part Four: Working Life — Interviews, Power Dynamics, Conflict, Meetings, Teams, Leadership & Deception (Part 2)",
+    "Part Four: Working Life — Interviews, Power Dynamics, Conflict, Meetings, Teams, Leadership & Deception (Part 3)",
+    "Part Four: Working Life — Interviews, Power Dynamics, Conflict, Meetings, Teams, Leadership & Deception (Part 4)"
+   ]
+  },
+  {
+   "book_id": "definitive_body_language",
+   "title": "The Definitive Book of Body Language - Barbara Pease, Allan Pease",
+   "assets": 200,
+   "chapters": [
+    "Introduction: All Things Are Not What They Seem",
+    "Chapter 1: Understanding the Basics",
+    "Chapter 2: The Power Is in Your Hands",
+    "Chapter 3: The Magic of Smiles and Laughter",
+    "Chapter 4: Arm Signals",
+    "Chapter 5: Cultural Differences",
+    "Chapter 6: Hand and Thumb Gestures",
+    "Chapter 7: Evaluation and Deceit Signals",
+    "Chapter 8: Eye Signals",
+    "Chapter 9: Space Invaders — Territories and Personal Space",
+    "Chapter 10: How the Legs Reveal What the Mind Wants to Do",
+    "Chapter 11: The Thirteen Most Common Gestures Youll See Daily",
+    "Chapter 12: Mirroring — How We Build Rapport",
+    "Chapter 13: The Secret Signals of Cigarettes, Glasses, and Makeup"
+   ]
+  },
+  {
+   "book_id": "dictionary_body_language",
+   "title": "The Dictionary of Body Language - Joe Navarro",
+   "assets": 75,
+   "chapters": [
+    "The Head and Hair",
+    "The Forehead and Eyebrows",
+    "The Eyes (43 entries)",
+    "The Nose and Ears",
+    "The Mouth (44 entries)",
+    "The Lips (26 entries)",
+    "The Cheeks, Jaw, and Chin",
+    "The Face and Neck",
+    "The Shoulders and Arms",
+    "The Hands and Fingers (Part 1)",
+    "The Hands and Fingers (Part 2)",
+    "The Chest, Torso, and Belly",
+    "The Hips, Buttocks, and Genitals",
+    "The Legs"
+   ]
+  },
+  {
+   "book_id": "emotions_revealed",
+   "title": "Emotions Revealed: Recognizing Faces and Feelings - Paul Ekman (2nd Edition)",
+   "assets": 135,
+   "chapters": [
+    "Ch 1a: The Universality Debate — Darwin vs. Culture",
+    "Ch 1b: The Papua New Guinea Research",
+    "Ch 1c: Display Rules — Cultural Management of Expressions",
+    "Ch 2a: Emotional Triggers — The Automatic Appraisal System",
+    "Ch 2b: The Refractory Period — When Reason Fails",
+    "Ch 2c: Emotional Blueprints — The Universal Themes",
+    "Ch 4a: The Emotion Signaling System",
+    "Ch 4b: The Emotional Response System — Signals, Actions, Physiology",
+    "Ch 4c: Moderating Emotional Behavior & Learning from Failure",
+    "Ch 5a: The Triggers and Function of Sadness",
+    "Ch 5b: Recognizing Sadness in Self and Others",
+    "Ch 5c: Using Sadness Information in Relationships",
+    "Ch 6a: The Triggers and Function of Anger",
+    "Ch 6b: Recognizing Anger in Self and Others"
+   ]
+  },
+  {
+   "book_id": "glass_liars",
+   "title": "The Body Language of Liars: From Little White Lies to Pathological Deception - Lillian Glass",
+   "assets": 120,
+   "chapters": [
+    "What Is a Lie? Types, Definitions, and Morality",
+    "The Price of a Lie — Emotional and Psychological Impact",
+    "The Evolution of a Liar — Animals, Children, and Teens",
+    "Seven Reasons Adults Lie",
+    "Cyber Liars — Detecting Deception Online",
+    "Instincts, Context, and the Liar’s Baseline",
+    "The Body Language of a Liar — Body Tells",
+    "The Facial Language of a Liar",
+    "The Voice of a Liar",
+    "Speech Content — Words That Reveal Deception",
+    "Lying Eyes — Lovers Who Cheat and Deceive",
+    "Profile of the Toxic Liar — Psychopath/Sociopath",
+    "Chapter 1: What Is a Lie?",
+    "Chapter 2: The Price of a Lie"
+   ]
+  },
+  {
+   "book_id": "influence",
+   "title": "Influence: The Psychology of Persuasion - Robert Cialdini",
+   "assets": 101,
+   "chapters": [
+    "Chapter 1: Levers of Influence — (Power) Tools of the Trades (Part 1)",
+    "Chapter 1: Levers of Influence — (Power) Tools of the Trades (Part 2)",
+    "Chapter 2: Reciprocation — The Old Give and Take (Part 1)",
+    "Chapter 2: Reciprocation — The Old Give and Take (Part 2)",
+    "Chapter 3: Liking - The Friendly Thief (Part 1)",
+    "Chapter 3: Liking - The Friendly Thief (Part 2)",
+    "Chapter 4: Social Proof - Truths Are Us",
+    "Chapter 5: Authority - Directed Deference (Part 1)",
+    "Chapter 5: Authority - Directed Deference (Part 2)",
+    "Chapter 6: Scarcity - The Rule of the Few (Part 1)",
+    "Chapter 6: Scarcity - The Rule of the Few (Part 2)",
+    "Chapter 7: Commitment and Consistency - Hobgoblins of the Mind (Part 1)",
+    "Chapter 7: Commitment and Consistency - Hobgoblins of the Mind (Part 2)",
+    "Chapter 8: Unity - The We is the Shared Me"
+   ]
+  },
+  {
+   "book_id": "laws_human_nature",
+   "title": "The Laws of Human Nature – Robert Greene (2018)",
+   "assets": 118,
+   "chapters": [
+    "Introduction: The Code of Humanity",
+    "Master Your Emotional Self",
+    "Transform Self-love into Empathy",
+    "See Through People's Masks",
+    "Determine the Strength of People's Character",
+    "Become an Elusive Object of Desire",
+    "Elevate Your Perspective",
+    "Soften People's Resistance by Confirming Their Self-opinion",
+    "Change Your Circumstances by Changing Your Attitude",
+    "Confront Your Dark Side",
+    "Beware the Fragile Ego",
+    "Know Your Limits",
+    "Reconnect to the Masculine or Feminine Within You",
+    "Advance with a Sense of Purpose"
+   ]
+  },
+  {
+   "book_id": "mans_search_meaning",
+   "title": "Man's Search for Meaning – Viktor Frankl (1946, 1992 edition)",
+   "assets": 25,
+   "chapters": [
+    "Part I: Experiences in a Concentration Camp",
+    "Part II: Logotherapy in a Nutshell",
+    "Postscript: The Case for Tragic Optimism",
+    "Part 1: Experiences in a Concentration Camp",
+    "Part 2: Logotherapy in a Nutshell",
+    "Postscript: The Case for a Tragic Optimism"
+   ]
+  },
+  {
+   "book_id": "mistakes",
+   "title": "Mistakes Were Made (But Not by Me) – Carol Tavris & Elliot Aronson (3rd Ed, 2020)",
+   "assets": 86,
+   "chapters": [
+    "Introduction: Knaves, Fools, Villains, and Hypocrites (Part 1)",
+    "Introduction: Knaves, Fools, Villains, and Hypocrites (Part 2)",
+    "Cognitive Dissonance: The Engine of Self-Justification (Part 1)",
+    "Cognitive Dissonance: The Engine of Self-Justification (Part 2)",
+    "Pride and Prejudice... and Other Blind Spots",
+    "Memory, the Self-Justifying Historian (Part 1)",
+    "Memory, the Self-Justifying Historian (Part 2)",
+    "Good Intentions, Bad Science: The Closed Loop of Clinical Judgment",
+    "Law and Disorder",
+    "Love's Assassin: Self-Justification in Marriage",
+    "Wounds, Rifts, and Wars",
+    "Letting Go and Owning Up",
+    "Dissonance, Democracy, and the Demagogue",
+    "Introduction"
+   ]
+  },
+  {
+   "book_id": "moral_animal",
+   "title": "The Moral Animal: Why We Are the Way We Are – Robert Wright (1994)",
+   "assets": 125,
+   "chapters": [
+    "Darwin Comes of Age",
+    "Male and Female",
+    "Men and Women",
+    "The Marriage Market",
+    "Darwin's Marriage",
+    "The Darwin Plan for Marital Bliss",
+    "Families",
+    "Darwin and the Savages",
+    "Friends",
+    "Darwin's Conscience",
+    "Darwin's Delay",
+    "Social Status",
+    "Deception and Self-Deception",
+    "Darwin's Triumph"
+   ]
+  },
+  {
+   "book_id": "nonverbal_communication",
+   "title": "Nonverbal Communication, 2nd ed. (Burgoon, Manusov & Guerrero, 2022)",
+   "assets": 70,
+   "chapters": [
+    "Chapter 1: Introduction and Overview",
+    "Chapter 2: Bio-Evolutionary Influences on Nonverbal Communication",
+    "Chapter 3: Sociocultural Influences on Nonverbal Communication",
+    "Chapter 4: The Visual and Auditory Codes: Kinesics and Vocalics",
+    "Chapter 5: The Contact Codes: Haptics and Proxemics",
+    "Chapter 6: The Body as a Code: Appearance and Adornment",
+    "Chapter 7: Place and Time Codes: Environment, Artifacts, and Chronemics",
+    "Chapter 8: Displaying Identities, Managing Images, and Forming Impressions",
+    "Chapter 9: Expressing Emotion",
+    "Chapter 10: Relational Messages: Developing and Expressing Closeness",
+    "Chapter 11: Relational Messages: Power, Dominance, and Status",
+    "Chapter 12: Coordinating Interaction",
+    "Chapter 13: Influencing Others",
+    "Chapter 14: Deceiving and Detecting Deception"
+   ]
+  },
+  {
+   "book_id": "predictably_irrational",
+   "title": "Predictably Irrational: The Hidden Forces That Shape Our Decisions – Dan Ariely (2008)",
+   "assets": 102,
+   "chapters": [
+    "Introduction: How an Injury Led Me to Irrationality",
+    "The Truth about Relativity",
+    "The Fallacy of Supply and Demand",
+    "The Cost of Zero Cost",
+    "The Cost of Social Norms",
+    "The Power of a Free Cookie",
+    "The Influence of Arousal",
+    "The Problem of Procrastination and Self-Control",
+    "The High Price of Ownership",
+    "Keeping Doors Open",
+    "The Effect of Expectations",
+    "The Power of Price",
+    "The Cycle of Distrust",
+    "The Context of Our Character, Part I"
+   ]
+  },
+  {
+   "book_id": "reiman_power_body_language",
+   "title": "The Power of Body Language - Tonya Reiman",
+   "assets": 105,
+   "chapters": [
+    "The Power Behind Body Language",
+    "The Language of the Face (Part 1)",
+    "The Language of the Face (Part 2)",
+    "The Language of the Face (Part 3)",
+    "The Language of the Body (Part 1)",
+    "The Language of the Body (Part 2)",
+    "The Languages of Space and Touch",
+    "The Language of Sound",
+    "Mastering First Impressions",
+    "Reading Their Secret Signals",
+    "Using Your Own Secret Signals",
+    "Become a Master Communicator: The Reiman Rapport Method",
+    "Chapter 1: The Power Behind Body Language",
+    "Chapter 2: The Language of the Face"
+   ]
+  },
+  {
+   "book_id": "research_methods",
+   "title": "Handbook of Research Methods in Social and Personality Psychology, 3rd ed. (Reis, West & Judd, 2024)",
+   "assets": 140,
+   "chapters": [
+    "Introduction",
+    "Chapter 1: The Romance of Research Methods",
+    "Chapter 2: Ethical Issues in Psychological Science: Studying Humans, Analyzing Data, Publishing Findings",
+    "Chapter 3: Replication in Social and Personality Psychology",
+    "Chapter 4: Realizing the Promise of Diverse and Interdisciplinary Team Science",
+    "Chapter 5: A Cross-Cultural Method in Social and Personality Psychology: The Cultural Imagination",
+    "Chapter 6: Research Design and Issues of Validity",
+    "Chapter 7: Experimental Design",
+    "Chapter 8: Quasi-Experimental Designs",
+    "Chapter 9: Field Research Methods",
+    "Chapter 10: Survey Research",
+    "Chapter 11: Conducting Surveys and Experiments on the Internet",
+    "Chapter 12: Methods for Studying Everyday Experience in Its Natural Context",
+    "Chapter 13: Mobile Sensing Methods"
+   ]
+  },
+  {
+   "book_id": "righteous_mind",
+   "title": "The Righteous Mind - Jonathan Haidt",
+   "assets": 104,
+   "chapters": [
+    "Introduction: Can We All Get Along?",
+    "Chapter 1: Where Does Morality Come From?",
+    "Chapter 2: The Intuitive Dog and Its Rational Tail (Part 1)",
+    "Chapter 2: The Intuitive Dog and Its Rational Tail (Part 2)",
+    "Chapter 3: Elephants Rule (Part 1)",
+    "Chapter 3: Elephants Rule (Part 2)",
+    "Chapter 4: Vote for Me (Here's Why)",
+    "Chapter 5: Beyond WEIRD Morality",
+    "Chapter 6: Taste Buds of the Righteous Mind",
+    "Chapter 7: The Moral Foundations of Politics",
+    "Chapter 8: The Conservative Advantage",
+    "Chapter 9: Why Are We So Groupish? (Part 1)",
+    "Chapter 9: Why Are We So Groupish? (Part 2)",
+    "Chapter 9: Why Are We So Groupish? (Part 3)"
+   ]
+  },
+  {
+   "book_id": "self_presentation",
+   "title": "Self-Presentation: Impression Management and Interpersonal Behavior (Leary, 1996)",
+   "assets": 45,
+   "chapters": [
+    "Chapter 1: Introduction",
+    "Chapter 2: Tactics",
+    "Chapter 3: The Self-Presentational Motive",
+    "Chapter 4: The Social Context: Norms and Roles",
+    "Chapter 5: The Target's Values",
+    "Chapter 6: Current Social Image",
+    "Chapter 7: Instrumental Complementarity",
+    "Chapter 8: The Private Self",
+    "Chapter 9: Worrying About Impressions"
+   ]
+  },
+  {
+   "book_id": "snoop",
+   "title": "Snoop: What Your Stuff Says About You (Gosling, 2008)",
+   "assets": 60,
+   "chapters": [
+    "Prologue: The Arrival of the Mystery Box",
+    "Chapter 2: Less Than Zero Acquaintance",
+    "Chapter 3: OCEAN's Five",
+    "Chapter 4: Getting to Know You",
+    "Chapter 5: Belgian Sleuths and Scandinavian Seabirds",
+    "Chapter 6: Jumpers, Bumpers, Groovers, and Shakers",
+    "Chapter 7: Space Doctoring",
+    "Chapter 8: In Defense of Stereotypes",
+    "Chapter 9: When Good Judgments Go Bad",
+    "Chapter 10: Like a Super Snooper",
+    "Chapter 11: An Office and a Gentleman",
+    "Chapter 12: Bringing It Home"
+   ]
+  },
+  {
+   "book_id": "social_animal",
+   "title": "The Social Animal - Elliot Aronson (12th Ed)",
+   "assets": 92,
+   "chapters": [
+    "Chapter 1: What Is Social Psychology? (Part 1)",
+    "Chapter 1: What Is Social Psychology? (Part 2)",
+    "Chapter 2: Social Cognition (Part 1)",
+    "Chapter 2: Social Cognition (Part 2)",
+    "Chapter 3: Self-Justification - Cognitive Dissonance (Part 1)",
+    "Chapter 3: Self-Justification - Cognitive Dissonance (Part 2)",
+    "Chapter 4: Conformity (Part 1)",
+    "Chapter 4: Conformity (Part 2)",
+    "Chapter 5: Mass Communication, Propaganda, and Persuasion (Part 1)",
+    "Chapter 5: Mass Communication, Propaganda, and Persuasion (Part 2)",
+    "Chapter 6: Human Aggression (Part 1)",
+    "Chapter 6: Human Aggression (Part 2)",
+    "Chapter 7: Prejudice and Discrimination (Part 1)",
+    "Chapter 7: Prejudice and Discrimination (Part 2)"
+   ]
+  },
+  {
+   "book_id": "social_intelligence",
+   "title": "Social Intelligence: The New Science of Human Relationships – Daniel Goleman (2006)",
+   "assets": 137,
+   "chapters": [
+    "The Emotional Economy",
+    "A Recipe for Rapport",
+    "Neural WiFi",
+    "An Instinct for Altruism",
+    "The Neuroanatomy of a Kiss",
+    "What Is Social Intelligence?",
+    "You and It",
+    "The Dark Triad",
+    "Mindblind",
+    "Genes Are Not Destiny",
+    "A Secure Base",
+    "The Set Point for Happiness",
+    "Webs of Attachment",
+    "Desire: His and Hers"
+   ]
+  },
+  {
+   "book_id": "telling_lies",
+   "title": "Telling Lies: Clues to Deceit in the Marketplace, Politics, and Marriage - Paul Ekman",
+   "assets": 65,
+   "chapters": [
+    "Ch 1a: The Mary Case — How the Study of Lies Began",
+    "Ch 1b: The Varieties of Lies — Concealment vs. Falsification",
+    "Ch 2: Lying, Leakage, and Clues to Deceit",
+    "Ch 3a: Why Lies Fail — The Mistakes Liars Make",
+    "Ch 4a: Speech and Voice Clues to Deceit",
+    "Ch 4b: Body Movement and Gesture Clues",
+    "Ch 5a: Facial Clues — Micro-Expressions and Masked Expressions",
+    "Ch 5b: The Experimental Paradigm",
+    "Ch 6: Dangers and Precautions in Lie Catching",
+    "Ch 7: The Polygraph as Lie Catcher",
+    "Ch 8: Lie Checking — A Systematic Framework",
+    "Ch 9: Lie Catching in the 1990s — Real-World Application",
+    "Ch 10: Lies in Public Life"
+   ]
+  },
+  {
+   "book_id": "what_every_body",
+   "title": "What Every BODY Is Saying - Joe Navarro, Marvin Karlins",
+   "assets": 95,
+   "chapters": [
+    "Foreword: I See What You Are Thinking",
+    "Chapter One: Mastering the Secrets of Nonverbal Communication",
+    "Chapter Two: Living Our Limbic Legacy",
+    "Chapter Three: Getting a Leg Up on Body Language — Nonverbals of the Feet and Legs",
+    "Chapter Four: Torso Tips — Nonverbals of the Torso, Hips, Chest, and Shoulders",
+    "Chapter Five: Knowledge Within Reach — Nonverbals of the Arms",
+    "Chapter Six: Getting a Grip — Nonverbals of the Hands and Fingers",
+    "Chapter Seven: The Minds Canvas — Nonverbals of the Face",
+    "Chapter Eight: Detecting Deception — Proceed with Caution!",
+    "Chapter Nine: Some Final Thoughts",
+    "Chapter 1: Mastering the Secrets of Nonverbal Communication",
+    "Chapter 2: Living Our Limbic Legacy",
+    "Chapter 3: Getting a Leg Up on Body Language: Nonverbals of the Feet and Legs",
+    "Chapter 4: Torso Tips: Nonverbals of the Torso, Hips, Chest, and Shoulders"
+   ]
+  }
+ ]
+}

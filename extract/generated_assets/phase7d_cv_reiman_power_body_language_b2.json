@@ -1,0 +1,53 @@
+{
+ "job": "cultural_variations",
+ "book_id": "reiman_power_body_language",
+ "task": "For each asset below, write 1-3 short cross-cultural notes for the gesture / body-language / proximity / eye-contact / touch claim it makes. Purpose: the app shows these as caveats so learners don't over-generalize US/Eurocentric findings. Rules: each note is 4-14 words; each starts with a culture/region; focus on genuine documented variation (e.g. 'Thumbs-up is offensive in Iran and parts of Africa', 'OK hand sign is vulgar in Brazil and Turkey', 'direct eye contact reads as disrespectful in many East Asian and Indigenous cultures', 'personal space is smaller in Latin America and the Middle East', 'head shake gestures mean no in Bulgaria'). If the claim is purely cognitive/psychological with no meaningful cross-cultural gesture variation, use an empty array [] or a single caveat if a mild one applies. Never invent; prefer well-documented examples. Keep all text English.",
+ "schema": {
+  "note": "array of objects, one per asset below, same order",
+  "each_object": {
+   "chapter_id": "string (copy from entry)",
+   "index": "int (copy from entry)",
+   "cultural_variations": [
+    "array of 1-3 short strings, or []"
+   ]
+  },
+  "requirement": "include EVERY entry below exactly once in order; use [] where none apply"
+ },
+ "entries": [
+  {
+   "chapter_id": "re18",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Ten-Step Spotter",
+   "frame_excerpt": "A ten-step ladder runs down the left edge of the screen; each correctly tagged clip lights a glowing rung, and violation clips shake the ladder red."
+  },
+  {
+   "chapter_id": "re18",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Rehearsed Interview",
+   "frame_excerpt": "A split screen: the imagined interview plays on a mental projection screen at left while the physical rehearsal room at right lets you pick each move of the sequence."
+  },
+  {
+   "chapter_id": "re18",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Mirror-Image Audit",
+   "frame_excerpt": "A video desk with freeze-frame audit rings: a green ring clicks around each correct handshake element while a posture grid overlays the standing frame and a gesture-box wireframe tracks the hands."
+  },
+  {
+   "chapter_id": "re18",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Method Step x Situation x Function",
+   "frame_excerpt": "A 10x6 matrix with step tiles that expand into function notes - 'ANCHOR: cements pride at the trophy moment' - while the two advanced-mirroring tiles glow purple with a MASTER-ONLY seal."
+  },
+  {
+   "chapter_id": "re18",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Master Communicator Certification",
+   "frame_excerpt": "A rehearsal stage with an examiner's panel; a ten-step progress rail fills as you execute each element while a violation buzzer flashes red at every miss."
+  }
+ ]
+}

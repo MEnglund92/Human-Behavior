@@ -1,0 +1,648 @@
+{
+ "job": "cultural_variations",
+ "book_id": "body_language",
+ "task": "For each asset below, write 1-3 short cross-cultural notes for the gesture / body-language / proximity / eye-contact / touch claim it makes. Purpose: the app shows these as caveats so learners don't over-generalize US/Eurocentric findings. Rules: each note is 4-14 words; each starts with a culture/region; focus on genuine documented variation (e.g. 'Thumbs-up is offensive in Iran and parts of Africa', 'OK hand sign is vulgar in Brazil and Turkey', 'direct eye contact reads as disrespectful in many East Asian and Indigenous cultures', 'personal space is smaller in Latin America and the Middle East', 'head shake gestures mean no in Bulgaria'). If the claim is purely cognitive/psychological with no meaningful cross-cultural gesture variation, use an empty array [] or a single caveat if a mild one applies. Never invent; prefer well-documented examples. Keep all text English.",
+ "schema": {
+  "note": "array of objects, one per asset below, same order",
+  "each_object": {
+   "chapter_id": "string (copy from entry)",
+   "index": "int (copy from entry)",
+   "cultural_variations": [
+    "array of 1-3 short strings, or []"
+   ]
+  },
+  "requirement": "include EVERY entry below exactly once in order; use [] where none apply"
+ },
+ "entries": [
+  {
+   "chapter_id": "pease01",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Origins: From Silent Film and Darwin to the Science of the Non-Verbalist",
+   "frame_excerpt": "A time-scrubber playhead glides across a silent film set where Chaplin gestures to the camera, then lands on Darwin's 1872 volume opening onto a modern research lab; a bar chart tilts showing 7 per ce"
+  },
+  {
+   "chapter_id": "pease01",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on the Signals: Inborn, Genetic, Learned and the Perceptive Mind",
+   "frame_excerpt": "A seminar table where one side argues inborn and the other argues learned while an evidence projector shows Eibl-Eibesfeldt's deaf-blind child smiling, Ekman's five culture masks, and a coat being put"
+  },
+  {
+   "chapter_id": "pease01",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Universal and the Local: Gestures Across Cultures, From the OK Ring to the V Sign",
+   "frame_excerpt": "An audit ledger on a world map: a checklist of universal gestures stamps past, while three exhibit cards, the ring, the thumb-up and the V sign, are stamped with differing labels as they cross borders"
+  },
+  {
+   "chapter_id": "pease01",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: Clusters, Congruence, Context and the Status Equation",
+   "frame_excerpt": "A wall matrix with four columns labeled CLUSTER, CONGRUENCE, CONTEXT and STATUS; cards fly into place, a head-scratch man with dandruff and flea icons, a folded-arms politician behind a lectern, Freud"
+  },
+  {
+   "chapter_id": "pease01",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: Faking It, Lying and Learning to Read the Body",
+   "frame_excerpt": "A boss arena that is a police interrogation room with a suspect under lights in full view, while a slow motion camera freezes a microgesture mid-frame; on one wall the faker's open palms flash honesty"
+  },
+  {
+   "chapter_id": "pease02",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Origins: Proxemics, Air Bubbles and How Man Claims Territory",
+   "frame_excerpt": "A time-scrubber playhead glides across a map of staked-out territories, from armed borders and city streets to a home with fences, then lands on Edward T. Hall's lecture podium where a sphere labelled"
+  },
+  {
+   "chapter_id": "pease02",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on Zones: The Four Distances, the Intimate Zone and the Distance/Intimacy Rule",
+   "frame_excerpt": "A seminar table with four concentric glowing rings on the floor labelled INTIMATE, PERSONAL, SOCIAL and PUBLIC, each ring populated by the right kind of people, from lovers to the plumber and the post"
+  },
+  {
+   "chapter_id": "pease02",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Crowd: Unwritten Rules, Non-Persons, High-Density Stress and Spacing Rituals",
+   "frame_excerpt": "An audit ledger inside a crowded elevator: a checklist of six unwritten rules stamps off one by one while blank poker faces stare at floor numbers above their heads; beside it a pack of James Island d"
+  },
+  {
+   "chapter_id": "pease02",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: Police Interrogation, the Danish Couple and Country versus City Spatial Zones",
+   "frame_excerpt": "A wall matrix with four columns labelled PRACTICE, CULTURE, ADJUSTMENT and DENSITY: an interrogation room card slides in showing a criminal on an armless chair with an interrogator leaning into his in"
+  },
+  {
+   "chapter_id": "pease02",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: Territory and Ownership, the Stolen Chair and the Magnified Zone of the Motor Car",
+   "frame_excerpt": "A boss arena that is a suburban home: doors, gates and fences frame the rooms while a woman guards her kitchen, a businessman spreads pens and an ashtray around his conference chair, and father's armc"
+  },
+  {
+   "chapter_id": "pease03",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Open Palm: From Oaths and Beggars to the Honesty Display",
+   "frame_excerpt": "A time-scrubber playhead glides over an oath-taking court scene with the Bible in the left hand and the right palm raised, lands on a street beggar with palm up and a hand holding a box down, then cro"
+  },
+  {
+   "chapter_id": "pease03",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on Palm Power: The Up Palm, the Down Palm and the Pointed Finger",
+   "frame_excerpt": "A stage set with a single box: the same speaker, same words and same tone speaks three times while only the palm changes, once up like a beggar, once down like a restraining hand, and once as a fist w"
+  },
+  {
+   "chapter_id": "pease03",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Handshake: From the Caveman's Raised Palms to the Three Attitudes",
+   "frame_excerpt": "An audit ledger spreads over a prehistoric plain where two cavemen raise open palms in the air, then flips through exhibit cards of a courtroom palm raised high and two modern hands pumping five to se"
+  },
+  {
+   "chapter_id": "pease03",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: The Catalog of Handshake Styles, From the Glove to the Dead Fish",
+   "frame_excerpt": "A wall gallery of nine handshake frames side by side, each a different grip frozen in time with a label card underneath, the palm-down thrust, the glove, the dead fish, the knuckle grinder, the stiff-"
+  },
+  {
+   "chapter_id": "pease03",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: Disarming the Dominant Handshake and Mastering the Initiation Game",
+   "frame_excerpt": "A boss arena that is a corridor with two people squaring off for a handshake: a step-by-step floor diagram shows the left foot forward, the right leg sweeping left into the other person's personal spa"
+  },
+  {
+   "chapter_id": "pease04",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Palm Rub: Reading Positive Expectation From the Hands",
+   "frame_excerpt": "A time-scrubber playhead glides across a party scene where a woman sits back smiling and rubbing her palms together, then lands on a dice thrower, a waiter's hand at the end of a table and a sales man"
+  },
+  {
+   "chapter_id": "pease04",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on the Clench and the Steeple: Frustration Versus Confidence",
+   "frame_excerpt": "A debating stage with two lecterns: on one side a smiling man with white-knuckled, welded-together fists in front of his face while a height gauge rises behind him, and on the other a confident speake"
+  },
+  {
+   "chapter_id": "pease04",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Authority Grip: Palm-in-Palm Versus the Hand-Gripping-Wrist",
+   "frame_excerpt": "An audit ledger shaped like a walking figure with head up and chin out: a row of authority badges, crown, police badge, headmaster's mortarboard and military stars, stamp past the palm-in-palm positio"
+  },
+  {
+   "chapter_id": "pease04",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: Thumb Displays and the Double Signals of Dominance",
+   "frame_excerpt": "A wall matrix of four columns labelled POSITIVE, SECONDARY, CONTRADICTION and DOUBLE SIGNAL: cards fly in showing a cool manager with thumbs hooked in his belt, a courting man, a lawyer tilting back h"
+  },
+  {
+   "chapter_id": "pease04",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: Context, Clusters and the Outcome of Every Hand Gesture",
+   "frame_excerpt": "A boss arena shaped like a giant gesture dictionary whose pages blow away into a cluster of cards: a salesman faces a customer whose steeple appears after a bright trail of open palms and forward lean"
+  },
+  {
+   "chapter_id": "pease05",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Origins: The Three Wise Monkeys and the Birth of the Deceit Gestures",
+   "frame_excerpt": "A three-wise-monkeys triptych morphs into a montage of people covering mouth, ears and eyes, ageing from a child's obvious hands to an adult's subtle touches; a clipboard checklist ticks off deceit ca"
+  },
+  {
+   "chapter_id": "pease05",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on the Face Maskers: The Mouth Guard, Nose Touch, Eye Rub and Ear Rub",
+   "frame_excerpt": "A round-table debate with four seats: the mouth guard with thumb pressed to the cheek, the nose touched by light strokes, the eye rubbed by a man vigorously and by a woman gently below the eye, and th"
+  },
+  {
+   "chapter_id": "pease05",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Deceit Kit: Neck Scratch, Collar Pull, Fingers in the Mouth and the Pain-in-the-Neck",
+   "frame_excerpt": "An evidence ledger with glass exhibits: a hand scratching the neck with a tally counter stuck at five, a collar pulled away from a sweaty neck, fingers, a cigarette and a pen held in the mouth, and a "
+  },
+  {
+   "chapter_id": "pease05",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: Context, Clusters and the Art of Misinterpretation",
+   "frame_excerpt": "A wall matrix with columns labeled WHAT IS THE NEGATIVE, PRECEDING GESTURES, CONTEXT and CLUSTER: a chess player rubs his ear as he hesitates, an applicant rubs his eyes and touches his nose under int"
+  },
+  {
+   "chapter_id": "pease05",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: From Evaluation to Decision — Reading the Chin Stroke and Closing the Sale",
+   "frame_excerpt": "A boss arena that is a boardroom sale: a presenter finishes his pitch while the audience's hands move from cheeks to chins; a buyer strokes his chin and then folds his arms and sits back under a red N"
+  },
+  {
+   "chapter_id": "pease06",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Origins: From Childhood Hiding to the Folded-Arms Research Lab",
+   "frame_excerpt": "A time-scrubber playhead runs from a child hiding behind a table and mother's skirt to a six-year-old folding his arms, a teen relaxing the gesture with crossed legs, and a lecture room where one grou"
+  },
+  {
+   "chapter_id": "pease06",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on the Barrier: The Universal Defensive Gesture and the Speaker's Reply",
+   "frame_excerpt": "A two-person negotiation table where one side sits with arms tightly folded and the other slides a pen across and then leans forward with open palms, while an auditorium on the back wall shows 90 per "
+  },
+  {
+   "chapter_id": "pease06",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Defensive Variations: Reinforced, Fist-Clenched and the Arm-Gripping Cluster",
+   "frame_excerpt": "An audit ledger of escalating arm barriers: three exhibit cards showing the plain arm-cross, the reinforced version with clenched fists and red face, and the arm-gripping pose with white knuckles, whi"
+  },
+  {
+   "chapter_id": "pease06",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: Status, Thumbs-Up and the Sales Close",
+   "frame_excerpt": "A wall matrix with four cells labelled STATUS, APPREHENSION, SUPERIOR-PEER and SALES CLOSE: cards fly into place showing a general manager with hands in the palm-in-palm position, new employees with f"
+  },
+  {
+   "chapter_id": "pease06",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: Partial and Disguised Barriers, Spotting the Hidden Nervousness",
+   "frame_excerpt": "A boss arena that is a crowded cocktail party: one figure crosses a dance floor to ask a lady to dance while adjusting his watch, a nervous woman holds a wine glass with two hands and a handbag in the"
+  },
+  {
+   "chapter_id": "pease07",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Leg Barrier Basics: The Standard Leg Cross and the Meaning of Crossed Legs",
+   "frame_excerpt": "A showcase figure sits with one leg crossed neatly over the other, right over left, while ghost overlays show the heart and upper body defended by crossed arms and the genital area shielded by the cro"
+  },
+  {
+   "chapter_id": "pease07",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on the Figure 4: The American Leg Lock, the Clamp and the Manager Meeting",
+   "frame_excerpt": "A debating arena where the American figure 4 leg lock faces the British leg cross: a man sits with his ankle on his knee in a competitive pose while one or both hands clamp the leg into place, and beh"
+  },
+  {
+   "chapter_id": "pease07",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Standing Leg Gestures: Closed Stances, the Opening-Up Procedure and Defensive Versus Cold",
+   "frame_excerpt": "A party-concourse audit with two standing groups side by side: one closed with arms and legs crossed, coats buttoned and wide gaps between strangers, the other open with palms exposed, unbuttoned coat"
+  },
+  {
+   "chapter_id": "pease07",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: The Ankle Lock, Its Versions and What It Holds Back",
+   "frame_excerpt": "A wall matrix of the ankle lock: one cell shows the male version with clenched fists on the knees and hands gripping the chair arms, another the female version with knees held together, feet to one si"
+  },
+  {
+   "chapter_id": "pease07",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: The Foot Lock, Female Fashion and Winning the Sale",
+   "frame_excerpt": "A boss arena around a sales desk: a shy young wife sits in a tight foot lock like a tortoise in its shell while an insurance salesman lectures past her to the husband; beside them a fashion timeline r"
+  },
+  {
+   "chapter_id": "pease08",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Shield: Chair Straddling and the Displacement Signals of Disapproval",
+   "frame_excerpt": "A medieval shield dissolves into the back of an office chair as a man straddles it in a meeting, while a second man stands behind him looking down; beside them a listener in a suit plucks imaginary li"
+  },
+  {
+   "chapter_id": "pease08",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on Head Gestures: Nods, Shakes, Tilts and the Three Basic Head Positions",
+   "frame_excerpt": "A round table where one speaker argues inborn and the other argues learned while a cradle rocks beside them and a deaf-blind child nods; above the table three heads float in a row, one level, one tilt"
+  },
+  {
+   "chapter_id": "pease08",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Dominance Clusters: Both Hands Behind Head and the Hands-on-Hips Pose",
+   "frame_excerpt": "An audit ledger with two columns: one ticking off accountants, lawyers, sales managers and bank managers beside a man leaning back with both hands behind his head, and the other showing a bird fluffin"
+  },
+  {
+   "chapter_id": "pease08",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: Readiness Clusters in Selling, Exit, Courtship and Confrontation",
+   "frame_excerpt": "A wall matrix with four columns: SALES shows a client chinstroking then sitting forward in his chair beside a crossed-arms client stamped unsold; EXIT shows a man leaning forward with both hands on hi"
+  },
+  {
+   "chapter_id": "pease08",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: Reading the Complete Aggressive-Readiness Cluster",
+   "frame_excerpt": "A boss arena styled as a fashion photography set where a model strikes the hands-on-hips pose with an open coat pushed back on to her hips while a trainer circles with measurement brackets; close-up c"
+  },
+  {
+   "chapter_id": "pease09",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Tell-Tale Eye: The Pupil Reflex and Its Ancient Track Record",
+   "frame_excerpt": "A time-scrubber playhead sweeps across a candle-lit romantic table where a lover's pupils balloon to four times their size, pans past a 'beady little eyes' snake-eye mask, a baby's huge dilating pupil"
+  },
+  {
+   "chapter_id": "pease09",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on the Gaze: Eye Contact, Trust, Liking and Cultural Rules",
+   "frame_excerpt": "A debate stage where one side argues the gaze clocks in at under one-third for the liar while the other side argues over two-thirds for the interested or the hostile, with pupil icons dilating and con"
+  },
+  {
+   "chapter_id": "pease09",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Gaze Zones: Business, Social and Intimate Triangles",
+   "frame_excerpt": "An audit ledger with three face stamps: the business face wearing a triangle on the forehead labelled serious and in control, the social face with a triangle between eyes and mouth labelled friendly, "
+  },
+  {
+   "chapter_id": "pease09",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: Side-Glances, Eye Blocks and Reading the Courtship Signals",
+   "frame_excerpt": "A wall matrix with four cells: INTEREST holds a raised-brow sideways glance and a smile, HOSTILITY holds a furrowed-brow sideways glance, COURTSHIP holds the come-on look with hearts and the hard-to-g"
+  },
+  {
+   "chapter_id": "pease09",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: Take Command of the Other Person's Gaze",
+   "frame_excerpt": "A boss arena that is a presentation room where a listener's head is locked down on a chart, absorbing only 9 per cent, until the presenter lifts the pen from the visual aid and holds it between their "
+  },
+  {
+   "chapter_id": "pease10",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Ritual: From Graham's Built-in Radar to the Courtship Signals of the Human Animal",
+   "frame_excerpt": "A party scene where Graham's radar locks onto a woman across the room while an animated bird struts and puffs its feathers beside him; the exit doors swing open as he escorts her out, a traffic-light "
+  },
+  {
+   "chapter_id": "pease10",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on the Body's Answer: Inborn Cues and Scheflen's Quasicourtship",
+   "frame_excerpt": "A beach at dusk where a man and woman approach each other from a distance; as they meet each other's gaze a wireframe body straightens, the stomach pulls in and the chest protrudes, the bagging under "
+  },
+  {
+   "chapter_id": "pease10",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Male Arsenal: Preening, Thumbs-in-Belt and the Intimate Gaze",
+   "frame_excerpt": "A checklist card for the male arsenal: a tie being straightened, an imaginary dust brush on a shoulder, thumbs hooked into a belt, a foot pointing at the female, hands on hips and an arrow tracing a s"
+  },
+  {
+   "chapter_id": "pease10",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: The Female Courtship Signals I, From Head Toss to Wet Lips",
+   "frame_excerpt": "A signal-grid board where female courtship cards fly into place: the head toss with flying hair, a wrist exposed while smoking a cigarette, legs opened wide, rolling hips, a sideways glance under drop"
+  },
+  {
+   "chapter_id": "pease10",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: The Complete Female Arsenal, From the Shoe Fondle to the Leg Twine",
+   "frame_excerpt": "A master-class split screen of the female arsenal: a hand fondling a wine glass stem, a glance over a raised shoulder in a cigar advertisement, three seated diagrams labelled knee point, shoe fondle a"
+  },
+  {
+   "chapter_id": "pease11",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Rituals: Smoking as Tension Release and the Staller's Toolkit",
+   "frame_excerpt": "A time-scrubber playhead glides over a split scene: on one side a patient jitters outside a dentist's surgery while a smoker draws on his cigarette, a nail-biter, a foot-tapper and a tie-player crowd "
+  },
+  {
+   "chapter_id": "pease11",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on the Smoke: Up and Down Exhalation as a Window on Attitude",
+   "frame_excerpt": "A stage with two smoking figures facing each other in silhouette: one tilts his head back and fires smoke up at the ceiling with a superiority halo, the other blows a grey stream down from the corner "
+  },
+  {
+   "chapter_id": "pease11",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Close: Cigar Status, Nostril Smoke and the Termination Signals",
+   "frame_excerpt": "An audit ledger with stamps: a cigar floats in a golden circle beside executive silhouettes and a celebration scene with a baby, a wedding ring, a signed deal and a lottery ticket, next to a tally cou"
+  },
+  {
+   "chapter_id": "pease11",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: Glasses as Props, From the Mouth Arm to the Folded Frame",
+   "frame_excerpt": "A wall matrix of four labelled cells; cards fly into place showing a man mouthing the arm of his glasses beside a baby at its mother's breast and a thumb-sucking child, a negotiator polishing his lens"
+  },
+  {
+   "chapter_id": "pease11",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: The Peering Over Glasses and the Etiquette of the Frames",
+   "frame_excerpt": "A boss arena lit like a 1930s movie set: a stern public-school master peers over his spectacles at a cowering pupil while the word JUDGED hovers between them, and the pupil's arms fold and legs cross "
+  },
+  {
+   "chapter_id": "pease12",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Territory: Leaning, Claiming and the Extension of the Body",
+   "frame_excerpt": "A freeze-frame photograph session where a proud owner leans against his new car with a foot on the bumper, the car glowing as an extension of his body; beside him a business executive sits with his fe"
+  },
+  {
+   "chapter_id": "pease12",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on Intimidation: Doorways, Chairs and the Salesman's Question",
+   "frame_excerpt": "A two-seat interview stage: on one side a habitual doorway leaner slouches against a doorframe with a hostile shimmer around him, while on the other a salesman asks a customer 'Which seat is yours?'; "
+  },
+  {
+   "chapter_id": "pease12",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Ownership Gestures: Who Suddenly Uses Them and Why",
+   "frame_excerpt": "An audit ledger styled as an executive office: a clipboard ticks off 'newly appointed' employees who suddenly grow a leg-over-chair pose, a Figure 132 card stamps OWNERSHIP on an armchair, and a slidi"
+  },
+  {
+   "chapter_id": "pease12",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: The Boss's Leg-Over-Chair Moment",
+   "frame_excerpt": "A four-cell matrix on an office wall: in one cell a dejected employee leans forward with hands on knees and face down, in the next a motionless boss suddenly swings a leg over the chair arm, in the th"
+  },
+  {
+   "chapter_id": "pease12",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: Breaking the Indifferent Posture at the Negotiating Table",
+   "frame_excerpt": "A boss arena that is a negotiation table where a hostile counterpart sprawls with a leg over the chair arm and feet on the desk, radiating a red indifferent aura that grows with every second; a counte"
+  },
+  {
+   "chapter_id": "pease13",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Phenomenon: What Carbon Copying Is and What It Says",
+   "frame_excerpt": "A time-scrubber playhead glides over a social gathering where pairs of people stand in matching postures; it pauses on two men at a hotel bar who uncross their arms and pocket their hands in sync, the"
+  },
+  {
+   "chapter_id": "pease13",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on Status and Rapport: Who Copies Whom Among Bosses, Employees and Couples",
+   "frame_excerpt": "A seminar table showing two matched pairs: an employer leaning into an employee's mirrored posture on one side, and an up-and-coming employee mirroring his boss's hands-behind-head gesture on the othe"
+  },
+  {
+   "chapter_id": "pease13",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Deliberate Technique: Mirroring as a Sales Instrument",
+   "frame_excerpt": "An audit ledger opens on a sales ledger page: a clipboard with a checklist showing Copy positive gestures, Create receptive frame of mind, Establish strong enough rapport, and Proceed with presentatio"
+  },
+  {
+   "chapter_id": "pease13",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: When Mirroring Backfires, the Status Equation and Taking Control",
+   "frame_excerpt": "A wall matrix with four cells: one shows the clerk copying the manager's T-cross and figure 4 leg lock while a red X stamps JOB IN JEOPARDY, another shows accountants, lawyers and managers leaning bac"
+  },
+  {
+   "chapter_id": "pease13",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: Reading the Mirror to Find the Decision Maker and Win the Encounter",
+   "frame_excerpt": "A boss arena shaped like a board room where the boss sits at the head of the table farthest from the door with a hands-behind-head T-cross gesture and subordinates copy him; a spotlight picks out a si"
+  },
+  {
+   "chapter_id": "pease14",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the History: Highness, Lowness and the Ancient Language of Height",
+   "frame_excerpt": "A time-scrubber playhead glides over a royal court where a woman curtseys and a man removes his hat before a seated monarch, then over a rally speaker on a soapbox, a judge on a raised bench, a pentho"
+  },
+  {
+   "chapter_id": "pease14",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on the Height Principle: Authority, Eye-to-Eye Contact and Shrinking Yourself",
+   "frame_excerpt": "A debate table where one speaker towers over the other while a level marker shows eye-to-eye contact failing; a panel then splits in two, one half showing a stooped, smaller figure winning trust, the "
+  },
+  {
+   "chapter_id": "pease14",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Speeding Stop: The Negatives of Staying in the Car and the Four-Step Stoop Technique",
+   "frame_excerpt": "An audit ledger by a parked patrol car: on the debit column a driver stays inside his car while a policeman crosses from his patrol car to the window, a barrier drawn between them; on the credit colum"
+  },
+  {
+   "chapter_id": "pease14",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: The Counter Barrier, Territory and the Two Faces of Lowering",
+   "frame_excerpt": "A wall matrix of four storefront cards: an irate customer faced across a counter with a barrier line drawn, a storekeeper ducking around to the customer's side with open palms, a visitor slouched deep"
+  },
+  {
+   "chapter_id": "pease14",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: Invert the Bow, Own the Territory and Win the Person Over",
+   "frame_excerpt": "A boss arena that is a living room: the visitor sinks low into the owner's easy chair, relaxed and sprawled, while the standing owner's authority visibly drains; a mirror then flips the scene to the s"
+  },
+  {
+   "chapter_id": "pease15",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Origins: Where the Body Points, Where It Wants to Go",
+   "frame_excerpt": "A still-photograph frame freezes a smiling, nodding head over a torso that points away at an exit sign; a door threshold shows two men facing off while an arrow traces the listener's body line towards"
+  },
+  {
+   "chapter_id": "pease15",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on Angles and Triangles: Open and Closed Formations",
+   "frame_excerpt": "A debate stage where a triangle icon argues with a zero-degree line icon: on one side two torsos angle at 90 degrees around an imaginary third point with a chair waiting at the apex, morphing into a s"
+  },
+  {
+   "chapter_id": "pease15",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Seated and the Feet: Knees, Foot Pointing and Inclusion",
+   "frame_excerpt": "An audit ledger over a lounge scene: a seated couple cross knees towards each other with mirrored posture while an excluded man on the right holds a chair, three men at a party each angle one foot at "
+  },
+  {
+   "chapter_id": "pease15",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: The Counselling Room, Chairs and Angle Formations",
+   "frame_excerpt": "A counselling office matrix with four labelled cells: in SET-UP, a boss steps around his desk to the employee's side while a fixed-leg armless chair and a swivel chair with arms stand ready; in the an"
+  },
+  {
+   "chapter_id": "pease15",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: Mastering the Point, From Rapport to Natural Movement",
+   "frame_excerpt": "A boss arena shaped like a coaching office: three pedestals hold the triangle for rapport, the direct body point for pressure and the right angle for independent thinking, a practice dolly zooms as st"
+  },
+  {
+   "chapter_id": "pease16",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Territory: From Knapp's Environments to the Four Basic Seating Positions",
+   "frame_excerpt": "A cutaway office with a rectangular desk and person A at the head while four labelled positions B1, B2, B3 and B4 circle around it; a playhead sweeps from a crowded restaurant where a couple is forced"
+  },
+  {
+   "chapter_id": "pease16",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on the Battle Line: The Competitive Position, the Doctor's Desk and the Invaded Territory",
+   "frame_excerpt": "A dialogue scene split in two: left, a doctor's office where a gauge jumps from 10 per cent to 55 per cent as the desk is removed, right, a small rectangular restaurant table with the salt, pepper, su"
+  },
+  {
+   "chapter_id": "pease16",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Signal Test: The Article on the Desk, the Independent Position and the Shape of the Table",
+   "frame_excerpt": "An audit board with three stamped cards above a rectangular desk: a book placed on the table while a figure leans forward, another hand taking the book across the line and a red-stamped push back card"
+  },
+  {
+   "chapter_id": "pease16",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix of Power: King Arthur's Round Table, the Rectangular Boardroom and the Family Dining Room",
+   "frame_excerpt": "A wall matrix with four labelled cells: a round table with a crown at the top and power numbers fading with distance to the knight opposite, a rectangular boardroom table with A, B, C and D name badge"
+  },
+  {
+   "chapter_id": "pease16",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: Getting the Decision Over Dinner, From the Cave Feast to the Restaurant",
+   "frame_excerpt": "A boss arena that is a cave mouth at dusk: hunters divide the spoils around an open fire while one caveman eats with his back against the cave wall, then the scene crossfades to a candle-lit restauran"
+  },
+  {
+   "chapter_id": "pease17",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Power of Chairs: Size, Height, Accessories and Location",
+   "frame_excerpt": "A chair showroom floor morphs into an office: a throne with a 250-centimetre back towers beside a low-backed visitor's chair, a swivel chair spins freely while a fixed chair stays bolted, and a visito"
+  },
+  {
+   "chapter_id": "pease17",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue with John: Diagnosing a Manager's Hostile Office",
+   "frame_excerpt": "A manager's office rendered in wireframe: a glass partition lets a row of employees stare through at the visitor's chair, the desk front is solid and hides the occupant, the visitor's back faces an op"
+  },
+  {
+   "chapter_id": "pease17",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Fix: Six Rearrangements That Saved John's Office",
+   "frame_excerpt": "An office floor plan with a before and after split: the before plan shows the desk half-claimed by the visitor while the after plan shows the desk in front of a mirror-tinted partition, a corner-posit"
+  },
+  {
+   "chapter_id": "pease17",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: The Status Raiser Ledger of Office Objects",
+   "frame_excerpt": "A wall matrix of seven labelled cards, each showing an office object: a low sofa, a padlocked telephone, a distant ashtray, an overseas cigarette tin, red Confidential folders, a wall of framed awards"
+  },
+  {
+   "chapter_id": "pease17",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: Owning Your Office Layout as a Power Statement",
+   "frame_excerpt": "A boss arena that is an executive office seen from above: a visitor's chair floats far from the desk in the public territory zone while a high-backed swivel throne dominates, a mirror-finished partiti"
+  },
+  {
+   "chapter_id": "pease18",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Scrub the Method: From a Million Years of Gesture to the Art of Conscious Observation",
+   "frame_excerpt": "A montage of the century: a million-year timeline of gestures flares into a 1970s classroom where a chalkboard reads 'Society is your testing ground'; a playhead scrubs over figure cards of a bearded,"
+  },
+  {
+   "chapter_id": "pease18",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue on the Open Hand and the Hidden Eye: Openness Versus Deceit Clusters",
+   "frame_excerpt": "Two lecterns face off across a stage: on one side a man with open palms and spread fingers glows neutral and non-threatening, while on the other a man rubs his eye, looks at the floor with raised disb"
+  },
+  {
+   "chapter_id": "pease18",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit the Status Ledger: Dominance, Superiority and Territorial Claims",
+   "frame_excerpt": "An audit ledger unrolls across a boardroom: columns for CHAIR, HANDS and TERRITORY receive stamps, a high-back wheeled chair with a telephone lock is checked off, and exhibit cards show a man with bot"
+  },
+  {
+   "chapter_id": "pease18",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix Match: Aggression, Readiness and Courtship on the Social Grid",
+   "frame_excerpt": "A four-cell grid on a party floor: cells labeled READINESS, TERRITORY, COURTSHIP and DEFENCE fill with cards, two men pointing bodies at each other, a woman blowing smoke upward toward a preening tie-"
+  },
+  {
+   "chapter_id": "pease18",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Level: Read the Photo Sequence, Disapproval to Victory",
+   "frame_excerpt": "A boss door opens onto a gallery of photo cards: each card is a freeze-frame in which one signal glows and is tagged, a sideways-glancing woman with down-turned mouth corners, a teeth-baring child wit"
+  }
+ ]
+}

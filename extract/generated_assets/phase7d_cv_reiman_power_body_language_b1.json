@@ -1,0 +1,718 @@
+{
+ "job": "cultural_variations",
+ "book_id": "reiman_power_body_language",
+ "task": "For each asset below, write 1-3 short cross-cultural notes for the gesture / body-language / proximity / eye-contact / touch claim it makes. Purpose: the app shows these as caveats so learners don't over-generalize US/Eurocentric findings. Rules: each note is 4-14 words; each starts with a culture/region; focus on genuine documented variation (e.g. 'Thumbs-up is offensive in Iran and parts of Africa', 'OK hand sign is vulgar in Brazil and Turkey', 'direct eye contact reads as disrespectful in many East Asian and Indigenous cultures', 'personal space is smaller in Latin America and the Middle East', 'head shake gestures mean no in Bulgaria'). If the claim is purely cognitive/psychological with no meaningful cross-cultural gesture variation, use an empty array [] or a single caveat if a mild one applies. Never invent; prefer well-documented examples. Keep all text English.",
+ "schema": {
+  "note": "array of objects, one per asset below, same order",
+  "each_object": {
+   "chapter_id": "string (copy from entry)",
+   "index": "int (copy from entry)",
+   "cultural_variations": [
+    "array of 1-3 short strings, or []"
+   ]
+  },
+  "requirement": "include EVERY entry below exactly once in order; use [] where none apply"
+ },
+ "entries": [
+  {
+   "chapter_id": "re01",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: The Five Immutable Truths of Body Language",
+   "frame_excerpt": "A control panel showing five illuminated rules: 'You Always Communicate', 'Context Rules', 'Never Judge by One Signal', 'Congruence Reveals Truth', 'Microexpressions Are the Key'. Below each, animated"
+  },
+  {
+   "chapter_id": "re01",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: Applying the Five Truths in Conversation",
+   "frame_excerpt": "A workshop where a body language coach guides you through a conversation with a speaker whose words and body keep contradicting each other. The coach highlights each truth as it becomes relevant."
+  },
+  {
+   "chapter_id": "re01",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Origins and Influences on Body Language",
+   "frame_excerpt": "A six-panel dossier examining the six aspects of body language: neurological (mirror neurons), familial (parent-child mirroring), cultural (display rules), universal (Ekman's 7 emotions), individual ("
+  },
+  {
+   "chapter_id": "re01",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Five Truths × Context Grid",
+   "frame_excerpt": "A 5×6 matrix: rows = the five immutable truths, columns = six interaction contexts (job interview, first date, family dinner, business negotiation, police interrogation, casual party). Each cell shows"
+  },
+  {
+   "chapter_id": "re01",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Incongruent CEO",
+   "frame_excerpt": "A CEO on stage announces 'I fully support this merger' while displaying crossed arms, leaning back, forced smile, minimal eye contact, and monotone delivery. The clock ticks as you must identify all f"
+  },
+  {
+   "chapter_id": "re02a",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: The Seven Universal Emotions - Facial Signatures",
+   "frame_excerpt": "A face mapped with 7 overlay zones. Clicking each emotion — happiness, sadness, surprise, fear, anger, disgust, contempt — highlights the specific facial action units involved. Contempt shows unilater"
+  },
+  {
+   "chapter_id": "re02a",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: Emotional Leakage Detection",
+   "frame_excerpt": "A series of short video conversations where speakers describe neutral events while a single universal emotion leaks through via microexpression. The conversation pauses after each leak for your analys"
+  },
+  {
+   "chapter_id": "re02a",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Universal Emotions in Real-World Contexts",
+   "frame_excerpt": "A case file of 12 real or simulated encounters where a person displayed one of the 7 universal emotions in a context that made it significant — a politician showing contempt, a witness showing fear, a"
+  },
+  {
+   "chapter_id": "re02a",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Emotion × Display Rule × Context",
+   "frame_excerpt": "A 3D matrix: 7 emotions × 4 display rules (neutralize, mask, intensify, simulate) × 8 social contexts. Each cell shows the expected facial behavior and flags when an expression violates the norm."
+  },
+  {
+   "chapter_id": "re02a",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Masked Negotiator",
+   "frame_excerpt": "Your negotiation opponent flashes contempt (unilateral lip tighten, 0.2 sec) during your opening offer, then masks to a social smile. Thirty seconds later, their eyebrows show a fear flash when you me"
+  },
+  {
+   "chapter_id": "re02b",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Eye & Eyebrow Signal Decoder",
+   "frame_excerpt": "Close-up animations of 8 eye/eyebrow behaviors: pupil dilation (arousal/interest), blink rate spike >20 bpm (stress), gaze patterns (dominant stare vs. averted), eyebrow flash (recognition), eye-block"
+  },
+  {
+   "chapter_id": "re02b",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: Gaze Calibration Under Pressure",
+   "frame_excerpt": "A salary negotiation simulation. Your partner uses dominant stare, eye-block at your requests, eyebrow flash at certain numbers, and pupil changes. Your mission is to calibrate your own gaze response "
+  },
+  {
+   "chapter_id": "re02b",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Blink & Gaze Observation Log",
+   "frame_excerpt": "A 3-column log tracking: baseline blink rate, blink spikes at topic shifts, gaze direction patterns (up/down/side/direct), pupil visibility notes, and eyebrow flash frequency across multiple interacti"
+  },
+  {
+   "chapter_id": "re02b",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Eye Cue × Meaning × Context",
+   "frame_excerpt": "A 10×8 grid: 10 eye/eyebrow cues (dilation, blink spike, gaze up, gaze down, gaze side, eyebrow flash, eye-block, eye roll, bedroom eyes, stalker stare) crossed with 8 contexts (interview, date, inter"
+  },
+  {
+   "chapter_id": "re02b",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The 47-Second Stare",
+   "frame_excerpt": "A CEO maintains unbroken eye contact for 47 seconds, blinks only 4 times, gives an eyebrow flash when you mention budget but eye-blocks when you mention timeline. Pupils appear constricted. Determine "
+  },
+  {
+   "chapter_id": "re02c",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Mouth, Nose & Chin Cue Identifier",
+   "frame_excerpt": "Animations showing 5 smile types (Duchenne, social, forced, sarcastic, fear-smile), 2 scowl types (active and perma-scowl), 5 lip cues (bite, purse, compress, pout, lick), 2 nose cues (flare, wrinkle)"
+  },
+  {
+   "chapter_id": "re02c",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: Smile Authenticity Challenge",
+   "frame_excerpt": "A partner delivers 6 compliments — 3 with genuine Duchenne smiles and 3 with forced social smiles only. You must identify which are real based on orbicularis oculi contraction, symmetry, duration, and"
+  },
+  {
+   "chapter_id": "re02c",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Mouth & Nose Cue Behavior Log",
+   "frame_excerpt": "A log sheet for recording 20 instances of lip, nose, and chin cues in real conversations. Columns: cue observed, context, speaker's words, congruence/incongruence, speaker gender, your interpretation."
+  },
+  {
+   "chapter_id": "re02c",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Smile Type × Social Context",
+   "frame_excerpt": "A 5×8 grid: 5 smile types (Duchenne, social, forced, sarcastic, fear-smile) crossed with 8 contexts (greeting, compliment receiving, joke response, photo, apology, negotiation, date, formal event). Pl"
+  },
+  {
+   "chapter_id": "re02c",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Two-Faced Client",
+   "frame_excerpt": "Your client shows a Duchenne smile while saying 'I love this direction' but simultaneously displays lip compression, nostril flare, and chin jut. The cluster contradicts the positive words. You must a"
+  },
+  {
+   "chapter_id": "re03a",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Head & Torso Signal Scanner",
+   "frame_excerpt": "Full-body silhouette with 12 highlighted zones. Head: nod, shake, tilt, lowering, hand-to-head gestures (chin stroke, temple rub, ear pull, nose touch). Torso: chest expansion, belly exposure, shoulde"
+  },
+  {
+   "chapter_id": "re03a",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: Torso Truth Reading",
+   "frame_excerpt": "A conversation where the speaker's torso signals constantly shift as topics change. Their head tilt, lean direction, and hand-to-head gestures reveal their real feelings about each topic before they s"
+  },
+  {
+   "chapter_id": "re03a",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Torso & Head Signal Log",
+   "frame_excerpt": "A structured log for 5 meetings/interactions: record lean direction changes at topic shifts, torso pointing (who is included/excluded by angle), head tilt moments, hand-to-head gesture frequency, and "
+  },
+  {
+   "chapter_id": "re03a",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Torso Cue × Emotional State × Context",
+   "frame_excerpt": "A 12×10 grid: 12 head/torso cues crossed with 10 emotional states (interest, boredom, defensiveness, submission, dominance, confusion, agreement, disagreement, attraction, rejection). Each cell rates "
+  },
+  {
+   "chapter_id": "re03a",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Impenetrable Executive",
+   "frame_excerpt": "An executive maintains unusually still posture — minimal head movement, occasional temple rub, chin stroke, and nose touch during your pitch. At the budget mention, he leans back sharply. Decode the s"
+  },
+  {
+   "chapter_id": "re03b",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Arm & Hand Gesture Lexicon",
+   "frame_excerpt": "Animated hands and arms demonstrating 20+ cues: crossed arms (various types: standard, high, with thumbs), arms behind back, hands in pockets, palm up/down, steeple, hand wringing, finger pointing, fi"
+  },
+  {
+   "chapter_id": "re03b",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: Palm Politics Negotiation",
+   "frame_excerpt": "A negotiation roleplay where your partner uses palm-down gestures (dominance), finger pointing (aggression), and steeple (authority). You must counter with palm-up (openness), open hands (honesty), an"
+  },
+  {
+   "chapter_id": "re03b",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Hand & Arm Gesture Pattern Log",
+   "frame_excerpt": "A log for 5 interactions tracking: arm position changes, palm orientation during key statements, steeple frequency and timing, thumb displays, hand-to-face touches, and correlation with topic emotiona"
+  },
+  {
+   "chapter_id": "re03b",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Hand Gesture × Perception × Gender",
+   "frame_excerpt": "A 15×6×2 grid: 15 hand/arm gestures crossed with 6 observer perceptions (trustworthy, dominant, nervous, confident, deceptive, friendly) and split by gender of observer. Shows how the same gesture is "
+  },
+  {
+   "chapter_id": "re03b",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Steeple Showdown",
+   "frame_excerpt": "Two executives present competing proposals. Exec A: palm-up, open hands, occasional steeple. Exec B: palms down, finger pointing, thumbs-in-belt at key claims, crossed arms when listening. Determine w"
+  },
+  {
+   "chapter_id": "re04",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Space Zones & Social Touches Identifier",
+   "frame_excerpt": "A visual of 4 concentric space zones (Public 12+ft, Social 4-12ft, Personal 1.5-4ft, Intimate 0-1.5ft) with people silhouettes. A touch catalog shows 14 social touches: handshake, arm touch, shoulder "
+  },
+  {
+   "chapter_id": "re04",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: Space Invasion Calibration",
+   "frame_excerpt": "A partner systematically moves through your 4 space zones during conversation. At each boundary violation, you practice 3 response strategies: step back, turn torso 45 degrees, or create barrier objec"
+  },
+  {
+   "chapter_id": "re04",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Touch & Distance Diary",
+   "frame_excerpt": "A 24-hour log template: every touch you receive or give, categorized by the 14 types, with columns for who initiated, duration, context, your emotional reaction, and relationship. Also log space dista"
+  },
+  {
+   "chapter_id": "re04",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Touch Type × Relationship × Duration",
+   "frame_excerpt": "A 14×6×3 grid: 14 touch types crossed with 6 relationship types (stranger, colleague, friend, family, romantic, authority) and 3 duration categories (brief <2s, moderate 2-5s, prolonged >5s). Marks ea"
+  },
+  {
+   "chapter_id": "re04",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Handshake Gauntlet",
+   "frame_excerpt": "You meet 5 people in rapid succession: dead fish (limp), bone crusher (too hard), fingertip grab (only fingers), pull-in (yanks you forward), and perfect web-to-web. Each signals a different personali"
+  },
+  {
+   "chapter_id": "re05",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Paralanguage Spectrum Analyzer",
+   "frame_excerpt": "A 6-band audio visualizer: Pitch (high/low/monotone), Loudness (soft/loud), Rate (fast 125-195/slow <125 wpm), Fluency (filled pauses, vocal fry, articulation), Tone (nasal/breathy/raspy), Rhythm/Cade"
+  },
+  {
+   "chapter_id": "re05",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: Vocal Tune-Up Challenge",
+   "frame_excerpt": "You deliver the same sentence 5 ways: high pitch fast, low pitch slow, monotone, breathy, with vocal fry. Partner identifies the dimension and emotional impact. Then you coach a 'client' through impro"
+  },
+  {
+   "chapter_id": "re05",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Vocal Signature Analysis",
+   "frame_excerpt": "Record 3 conversations (with permission). Analyze: pitch range, rate variation, filled pause frequency per minute, tone quality, rhythm patterns. Create a vocal signature profile for each speaker with"
+  },
+  {
+   "chapter_id": "re05",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Vocal Dimension × Message Type × Effectiveness",
+   "frame_excerpt": "A 6×6 grid: 6 vocal dimensions (pitch, loudness, rate, fluency, tone, rhythm) crossed with 6 message types (persuasion, apology, command, question, joke, confession). Each cell rates effectiveness 1-5"
+  },
+  {
+   "chapter_id": "re05",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Monotone Presenter (Ron Case)",
+   "frame_excerpt": "Ron presents quarterly data in monotone, low volume, fast rate, with frequent 'um' fillers. The room is visibly disengaging — people checking phones, eyes glazed. You have 60 seconds to diagnose all 4"
+  },
+  {
+   "chapter_id": "re06",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: First Impression 3-Stage Scanner",
+   "frame_excerpt": "3 panels: Stage 1 — amygdala scan (0.1 sec snap judgment on trust/attraction/competence), Stage 2 — database scan (3-4 min confirming evidence), Stage 3 — rapport building (5+ min mirroring/bonding). "
+  },
+  {
+   "chapter_id": "re06",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: Snap Judgment Speed Lab",
+   "frame_excerpt": "1-minute interactions with 5 different partners. After each, partner gives snap feedback: trust 1-10, competence 1-10, attraction 1-10, and specific turn-off behaviors they observed. No second chances"
+  },
+  {
+   "chapter_id": "re06",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: First Impression Self-Audit",
+   "frame_excerpt": "Videotape yourself entering a room, greeting someone, and having a 3-minute conversation. Rate yourself on: symmetry, open posture, turn-off behavior count, smile genuineness, handshake quality, vocal"
+  },
+  {
+   "chapter_id": "re06",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: First Impression Factor × Outcome",
+   "frame_excerpt": "A 17×4 grid: 17 turn-off behaviors crossed with 4 outcome dimensions (trust decrease, competence decrease, attraction decrease, memory retention). Plus 5 beauty benefit factors crossed with the same o"
+  },
+  {
+   "chapter_id": "re06",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The 10-Second Boardroom",
+   "frame_excerpt": "You enter a boardroom of 5 executives who already formed negative snap judgments due to your slouching, hair touching, and weak handshake at the door. You have 30 seconds to reverse the impression."
+  },
+  {
+   "chapter_id": "re07",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Norming & Signal Cluster Reference",
+   "frame_excerpt": "A 10-panel display: norming baseline technique, then 9 signal cluster panels — lying, strong-arm, distrust, hiring, firing, pre-attack, female seduction, male seduction, cheating, friendship. Each pan"
+  },
+  {
+   "chapter_id": "re07",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: Norming Interrogation Drill",
+   "frame_excerpt": "Partner establishes your baseline with neutral questions (what you ate, your commute, weather). Then asks sensitive topic (your opinion of their work, or a recent mistake). You deliberately display on"
+  },
+  {
+   "chapter_id": "re07",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Signal Cluster Field Log",
+   "frame_excerpt": "A 10-scenario log template. For each: context, baseline observation, cluster cues observed (list 3+), your interpretation, outcome (if known), and whether you were correct. Separate section for gender"
+  },
+  {
+   "chapter_id": "re07",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Signal Cluster × Relationship × Context",
+   "frame_excerpt": "A 10×5×4 grid: 10 signal clusters crossed with 5 relationship types (stranger, colleague, friend, romantic, authority) and 4 contexts (casual, professional, conflict, intimate). Rates cue reliability "
+  },
+  {
+   "chapter_id": "re07",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Pre-Attack Read",
+   "frame_excerpt": "A colleague shows nostril flare, lip compression, clenched fists, reddening face during a budget discussion. These are pre-aggression cues. You have 15 seconds before the situation escalates."
+  },
+  {
+   "chapter_id": "re08",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Signal Sending Toolkit Reference",
+   "frame_excerpt": "A 10-tool panel: WIIFM principle, trustworthiness cues, motivation/mirroring, negotiation signals, closing signals, team building, seduction (male/female), group approach, friendship signals, parentin"
+  },
+  {
+   "chapter_id": "re08",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: Full Signal Sending Negotiation",
+   "frame_excerpt": "A complex negotiation roleplay: buy a used car from a skeptical seller. You must use palm-down for key demands, palm-up for concessions, steeple for confidence, mirror the seller's posture, and anchor"
+  },
+  {
+   "chapter_id": "re08",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Signal Sending Effectiveness Log",
+   "frame_excerpt": "A self-audit log for 3 goal-directed interactions. Track: goal, signals used, partner reactions, success measure, what worked, what backfired. Domains: negotiation, trust-building, motivation, team bu"
+  },
+  {
+   "chapter_id": "re08",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Interaction Goal × Optimal Signal Mix",
+   "frame_excerpt": "A 10×15 grid: 10 interaction goals (be trustworthy, motivate, negotiate, close deal, build team, seduce male, seduce female, approach group, make friends, parent) crossed with 15 signals (palm up/down"
+  },
+  {
+   "chapter_id": "re08",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Hostile Takeover",
+   "frame_excerpt": "You must sell a merger to a hostile team leader. He uses palm-down gestures, space invasion, and finger pointing. You have 3 minutes to execute a complete signal-sending sequence: match-then-lead, anc"
+  },
+  {
+   "chapter_id": "re09",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: The 10-Step Reiman Rapport Method",
+   "frame_excerpt": "A 10-step procedural checklist: 1. Relax Face (mantra: scalp-forehead-eyelids-cheeks-mouth-jaw), 2. Body Symmetry (balanced, chin parallel, feet pointed), 3. Social Smile (eye crinkle, 5 min mirror pr"
+  },
+  {
+   "chapter_id": "re09",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: Full Reiman Method Practice Run",
+   "frame_excerpt": "A 30-minute simulated first meeting with a potential business partner. You must execute all 10 steps in sequence. Your partner scores you on each step and provides targeted feedback for improvement."
+  },
+  {
+   "chapter_id": "re09",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Reiman Rapport Method Mastery Tracker",
+   "frame_excerpt": "A 21-day progress tracker (Reiman's habit formation period). Score yourself 1-10 on each of the 10 steps daily based on real interactions. Include specific incidents, what went wrong for low scores, a"
+  },
+  {
+   "chapter_id": "re09",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Rapport Step × Encounter Type × Importance",
+   "frame_excerpt": "A 10×8 grid: 10 rapport steps crossed with 8 encounter types (job interview, first date, sales pitch, team meeting, conflict resolution, networking, client lunch, family dinner). Rate each step's impo"
+  },
+  {
+   "chapter_id": "re09",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The 10-Step Speed Run (Investor Pitch)",
+   "frame_excerpt": "You enter a high-stakes investor pitch with 3 skeptical investors. In 5 minutes you must execute all 10 steps: relax face, hold symmetry, social smile, handshake with each investor, nod-mirror-lead th"
+  },
+  {
+   "chapter_id": "re10",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Hardwired vs. Learned Signal Origins",
+   "frame_excerpt": "A split-screen video player with frame-stepping controls; a nature-vs-nurture seesaw on the right tips with each classification, while a glowing brain diagram lights up the mirror neuron regions you'v"
+  },
+  {
+   "chapter_id": "re10",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Cocktail Party Read",
+   "frame_excerpt": "A split-screen conversation scene in a crowded wireframe party; each NPC carries a mirror-neuron activity meter that spikes when you catch subtle cues like restored eye contact and relaxed posture, an"
+  },
+  {
+   "chapter_id": "re10",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Five Immutable Truths Review Board",
+   "frame_excerpt": "A courtroom-style review board: each clip freezes into a still with a truth-badge rack on the right; you drag violation stamps onto the evidence log, and a split 'before/after' panel shows how the rea"
+  },
+  {
+   "chapter_id": "re10",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Signal Origin x Controllability x Meaning Grid",
+   "frame_excerpt": "A 12x4 data wall glows cell by cell: rows are signals, columns are origin and controllability, and each cell fills green (hardwired), amber (learned), or red (context-dependent). The eyebrow-flash row"
+  },
+  {
+   "chapter_id": "re10",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss: The Master Communicator Gauntlet",
+   "frame_excerpt": "A dim broadcast studio with a single hot spotlight and a towering scoreboard counting down from 60 seconds. Clips slam in edge to edge like a news wall; each correct verdict throws a green pulse acros"
+  },
+  {
+   "chapter_id": "re11",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: The Seven Universal Emotions",
+   "frame_excerpt": "A split-screen video player with frame-stepping controls; a face wireframe beside the clip lights up region by region - brows, eyes, mouth - as you identify each tell, and your accuracy meter glows gr"
+  },
+  {
+   "chapter_id": "re11",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: Eyes That Talk - Eye and Eyebrow Signals",
+   "frame_excerpt": "A split-screen conversation scene with two NPCs; each speaker carries a live blink-rate and pupil-size readout in the corner of their frame, and your dialogue options float as thought-bubbles. The sta"
+  },
+  {
+   "chapter_id": "re11",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Smile Lineup Review",
+   "frame_excerpt": "A review-board interface with a freeze-frame smile gallery; each clip is scored on symmetry, duration, and muscle engagement sliders, and verdicts drop into a 'genuine / social / risky' column while a"
+  },
+  {
+   "chapter_id": "re11",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Facial Signal x Context x Meaning Grid",
+   "frame_excerpt": "A 14x5 data wall glows cell by cell: rows are facial signals, columns are contexts, and each cell fills green (rapport-building), red (rapport-breaking), or amber (context-dependent). The pursed-lips "
+  },
+  {
+   "chapter_id": "re11",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss: The Face Decoder Gauntlet",
+   "frame_excerpt": "A dim broadcast studio with a single hot spotlight and a towering scoreboard counting down from 60 seconds. Face clips slam in edge to edge like a news wall; each correct verdict throws a green pulse "
+  },
+  {
+   "chapter_id": "re12",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Head and Hand-to-Head Signals",
+   "frame_excerpt": "A split-screen video player with frame-stepping controls; a glowing body-diagram hotspot map on the right highlights the gesture's region as each clip plays, and a tag drop-down snaps your verdict int"
+  },
+  {
+   "chapter_id": "re12",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Congruence Check",
+   "frame_excerpt": "A split-screen conversation scene with two NPCs; each speaker carries a congruence meter that dips when words and gestures disagree. Your reply options float as thought-bubbles, and the right read res"
+  },
+  {
+   "chapter_id": "re12",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Bob Effect - Logging Gesture Tells",
+   "frame_excerpt": "A nonlinear video editor interface over a boardroom recording; a timeline fills with colored pin-marks for each gesture class as you scrub frames, and a verdict panel asks you to rate the meeting's fa"
+  },
+  {
+   "chapter_id": "re12",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Gesture x Context x Meaning Grid",
+   "frame_excerpt": "A 12x5 data wall glows cell by cell: rows are gestures, columns are contexts, and each cell fills green (rapport-building), red (rapport-breaking), or amber (context-dependent). The tilt row and the p"
+  },
+  {
+   "chapter_id": "re12",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss: The Master Communicator Gauntlet",
+   "frame_excerpt": "A dim broadcast studio, a single hot spotlight, and a towering scoreboard counting down from 60 seconds. Clips slam in edge to edge like a news wall; each correct verdict throws a green pulse across t"
+  },
+  {
+   "chapter_id": "re13",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Hall's Four Zones",
+   "frame_excerpt": "A wireframe street scene with concentric colored bubbles around each person; the clip's distance readout glides across a four-zone ruler at the bottom of the frame, and you snap a zone pin onto the ti"
+  },
+  {
+   "chapter_id": "re13",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Stephen Protocol - Proximity Role-Play",
+   "frame_excerpt": "A warm office scene with two characters circling each other; a live distance meter between them ticks in feet and inches, while the client's comfort bar drains during each wrong advance and refills as"
+  },
+  {
+   "chapter_id": "re13",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Fourteen Touches Review",
+   "frame_excerpt": "A courtroom-style review board: each clip freezes into a still with a numbered touch label, and you drag it into an 'appropriate / risky / forbidden' verdict column while a style guide of acceptable t"
+  },
+  {
+   "chapter_id": "re13",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Zone x Status x Touch Grid",
+   "frame_excerpt": "A 3D wireframe grid: the x-axis is zone (public to intimate), the y-axis is status difference, and the z-axis is touch permissibility; each scored interaction drops in as a glowing node, with cultural"
+  },
+  {
+   "chapter_id": "re13",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss: Space and Touch Command",
+   "frame_excerpt": "A crowded wireframe ballroom swarming with glowing proximity bubbles; NPCs surge and retreat around you as you pick moves from a command wheel. A rapport score climbs in the corner, and the boundary-b"
+  },
+  {
+   "chapter_id": "re14",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: The Vocal Cue Spectrum",
+   "frame_excerpt": "A darkened audio lab with a giant waveform oscilloscope; each clip's voice prints as a glowing spectrum line that tilts high or low, and you snap a verdict pin onto a five-track cue rack (pitch, loudn"
+  },
+  {
+   "chapter_id": "re14",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Metamessage Emphasis Game",
+   "frame_excerpt": "A split-screen conversation scene where the same sentence scrolls across a teleprompter with a different word highlighted each round; your emphasized word lights up in the other person's ear with its "
+  },
+  {
+   "chapter_id": "re14",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Ron Presentation Autopsy",
+   "frame_excerpt": "A nonlinear video editor over a dim boardroom recording of Ron's presentation; the timeline fills with red markers as you timestamp each fatal mistake, and a prescription panel on the right queues the"
+  },
+  {
+   "chapter_id": "re14",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Vocal Cue x Extreme x Perception Grid",
+   "frame_excerpt": "A 3D data wall: cue names run down the left, extremes (low/high) run across the top, and the perception each cell triggers fills green, red, or amber; the pitch-variation row glows as the most volatil"
+  },
+  {
+   "chapter_id": "re14",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss: The Master Communicator Sound Check",
+   "frame_excerpt": "A broadcast sound booth with a single hot spotlight and a 60-second countdown; audio clips slam in as equalizer bars, each correct verdict throws a green pulse across the stage while a misread monoton"
+  },
+  {
+   "chapter_id": "re15",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: The Seventeen Turn-Offs",
+   "frame_excerpt": "A first-meeting freeze-frame lab where each clip pauses on the offender's gesture with a numbered tag floating beside it; a checklist of the seventeen turn-offs glows on the right, and you snap each c"
+  },
+  {
+   "chapter_id": "re15",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Database Scan Interview",
+   "frame_excerpt": "A split-screen interview room: on one side the applicant walks in as you choose her rate of approach, smile, and handshake; on the other, the interviewer's head displays a live database-scan readout t"
+  },
+  {
+   "chapter_id": "re15",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Snap Judgment Case File",
+   "frame_excerpt": "A dim TV control room replaying the van der Sloot interview stills; a timeline pin-marks each scanned detail - the darting eyes, eyebrow lift, smug smile, inward lip roll - while an amygdala-shaped ve"
+  },
+  {
+   "chapter_id": "re15",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Stage x Signal x Verdict Grid",
+   "frame_excerpt": "A three-column stage map of the first impression - snap judgment, database scan, rapport - with 12 signal rows running across it; each cell fills green (yes), red (no), or amber (stage-dependent), and"
+  },
+  {
+   "chapter_id": "re15",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss: The First Impression Gauntlet",
+   "frame_excerpt": "A full first-meeting simulation rendered in wireframe: you approach the door, shake hands, and take the seat while three stage banners light up in sequence above the NPC; a shrinking clock and a rappo"
+  },
+  {
+   "chapter_id": "re16",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Deceit Signal Clusters",
+   "frame_excerpt": "A freeze-frame video console where each clip is overlaid with a blinking body-part heat map; a verdict bar at the bottom snaps between NORM and DEVIATION as you tag cues."
+  },
+  {
+   "chapter_id": "re16",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Late-Night Whereabouts",
+   "frame_excerpt": "A kitchen table at 1 a.m. with two coffee mugs; dialogue choices appear as thought bubbles while a live tell-meter tracks pitch, blinking, and eye shift across the bottom of the frame."
+  },
+  {
+   "chapter_id": "re16",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Norm the Target's Baseline",
+   "frame_excerpt": "A split-screen lab view with a polygraph-style strip chart; factual-question answers scroll in green while the kill-question answer scrolls in red for direct comparison."
+  },
+  {
+   "chapter_id": "re16",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Secret Signal x Scenario x Verdict",
+   "frame_excerpt": "A 10x10 grid of body-part icons; cells light up with a cue label - JAW JUT, SHOE DANGLING, PAT DURING HUG - and a confidence bar climbs as each row completes."
+  },
+  {
+   "chapter_id": "re16",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Ambush in the Parking Lot",
+   "frame_excerpt": "A first-person view from a garage walkway with a threat gauge pulsing red as the figure closes; cue pop-ups - CLENCHED FIST, MOUTH SMILE ONLY - appear inside one-second decision slots."
+  },
+  {
+   "chapter_id": "re17",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Trustworthiness Transmitter",
+   "frame_excerpt": "A wireframe figure on a stage with green halo highlights on every signal present; a credibility meter at the top slides as you tag or miss cues."
+  },
+  {
+   "chapter_id": "re17",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Friday-Night Favor",
+   "frame_excerpt": "A cubicle at dusk with a warm lamp; dialogue wheels sit on one side and a posture-scan silhouette on the other that shifts from OPEN to SUBMISSIVE as you choose moves."
+  },
+  {
+   "chapter_id": "re17",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Showroom Negotiation Audit",
+   "frame_excerpt": "A showroom floor view from behind the sales desk; two overlays - YOUR POSTURE AUDIT and HIS PRICING TELLS - with timestamps marking every deviation moment."
+  },
+  {
+   "chapter_id": "re17",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Goal x Target x Signal Set",
+   "frame_excerpt": "A nine-column matrix with signal chips that snap into columns; shared signals glow amber across multiple columns while exclusive ones lock in with a click."
+  },
+  {
+   "chapter_id": "re17",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: Close the Deal",
+   "frame_excerpt": "A boardroom table with the client's face rendered as a live heat readout; a deal-meter swings between STALL, MAYBE, and CLOSE with every cue you correctly catch."
+  }
+ ]
+}

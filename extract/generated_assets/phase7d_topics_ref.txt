@@ -1,0 +1,791 @@
+TOPICS=20
+
+-- topic id=attachment-relationships name=16. Attachment & Relationships
+  * Secure Attachment
+  * Anxious Attachment
+  * Avoidant Attachment
+  * Disorganized Attachment
+  * Strange Situation
+  * Internal Working Models
+  * Adult Attachment Styles
+  * Attachment and Conflict
+  * Earned Security
+  * Attachment and Partner Selection
+  * Demand-Withdraw Pattern
+  * Gottman's Four Horsemen
+  * Active Constructive Responding
+  * Emotional Bids
+  * Repair Attempts
+
+-- topic id=behavioral-psych name=2. Behavioral Psychology
+  * Classical Conditioning
+  * Unconditioned Stimulus
+  * Unconditioned Response
+  * Conditioned Stimulus
+  * Conditioned Response
+  * Extinction
+  * Spontaneous Recovery
+  * Operant Conditioning
+  * Positive Reinforcement
+  * Negative Reinforcement
+  * Positive Punishment
+  * Negative Punishment
+  * Shaping
+  * Observational Learning
+  * Insight Learning
+  * Latent Learning
+  * Discrimination
+  * Generalization
+  * Schedules of Reinforcement
+  * Fixed-Ratio Schedule
+  * Variable-Ratio Schedule
+  * Fixed-Interval Schedule
+  * Variable-Interval Schedule
+  * Premack Principle
+  * Shaping by Successive Approximation
+  * Chaining
+  * Learned Helplessness
+  * Observational Learning (Bandura)
+  * Self-Efficacy
+  * Vicarious Reinforcement
+  * Behavioral Activation
+  * Token Economy
+
+-- topic id=biological-bases name=15. Biological Bases of Behavior
+  * Prefrontal Cortex
+  * Amygdala
+  * Hypothalamic-Pituitary-Adrenal Axis
+  * Cortisol
+  * Dopamine
+  * Serotonin
+  * Oxytocin
+  * Testosterone
+  * Fight or Flight Response
+  * Tend and Befriend
+  * Mirror Neurons
+  * Neuroplasticity
+  * Long-Term Potentiation
+  * Executive Functions
+  * Reward System
+
+-- topic id=body-language-extracted name=18. The Dictionary of Body Language
+  * SILENCE AND FREEZE RESPONSE
+  * SPEED OF RESPONSE
+  * WRIST BEHAVIORS
+  * TOUCH AND SOCIAL STATUS
+  * CLINGING BEHAVIORS
+  * WALKING BEHAVIORS
+  * SITTING BEHAVIORS
+  * TRUE SMILE -A topic
+  * HEAD ADORNMENT
+  * PLAYING WITH PHILTRUM
+  * VENTILATING HAIR (WOMEN)
+  * HAIR FLIPPING/TOUCHING
+  * HAIR PULLING
+  * HEAD NODDING
+  * HEAD NODDING (CONTRADICTION)
+  * HEAD SCRATCHING
+  * HEAD STROKING
+  * REACHING FOR HEAD (STUPEFIED)
+  * FOREHEAD TENSION
+  * FOREHEAD FURROWING
+  * BOTOXED FOREHEAD (ISSUES)
+  * STRESS LINES
+  * FOREHEAD SWEATING
+  * TEMPLE VEIN THROBBING
+  * FOREHEAD MASSAGING
+  * PRESSING HAND ON FOREHEAD
+  * PUZZLED LOOK
+  * COVERING FOREHEAD WITH HAT
+  * EYEBROW ARCHING/FLASHING (HAPPY)
+  * EYEBROW GREETINGS
+  * EYEBROW ARCHING (TENSE)
+  * EYEBROW ASYMMETRY
+  * PUPIL DILATION
+  * PUPIL CONSTRICTION
+  * RELAXED EYES
+  * EYE SOCKET NARROWING
+  * QUIVERING UNDER EYES
+  * BLINK RATE
+  * FREQUENT BLINKING
+  * EYE CONTACT
+  * EYE AVOIDANCE
+  * GAZE SUPERIORITY
+  * GAZE AND SENTIMENTS
+  * GAZE ENGAGING
+  * GAZING VERSUS STARING
+  * CLOSED EYES
+  * EYES CLOSING FOR EMPHASIS
+  * COVERING OF EYES
+  * EYES DARTING
+  * EYE ROLLING
+  * EYELID TOUCHING
+  * FATIGUED EYES
+  * GLAZED EYES
+  * LOOKING ASKANCE
+  * LOOKING FOR ACCEPTANCE
+  * EYES LOWERED
+  * SAD EYES
+  * LOOKING AWAY
+  * LONG STARE
+  * SQUINTING (SLIGHT)
+  * STARING AGGRESSIVELY
+  * ANGRY EYES
+  * EYES WIDENING (STIFF)
+  * EARLOBE PULLING OR MASSAGING
+  * EAR FLUSHING OR BLUSHING
+  * EAR LEANING
+  * EAR ORNAMENTATION
+  * SCARRED EARS
+  * NOSE WRINKLING UPWARD (DISGUST)
+  * UNILATERAL NOSE WRINKLING
+  * NOSE TWITCHING (CARIBBEAN)
+  * HOLDING NOSE HIGH
+  * RAPID NOSE INHALING
+  * LOUD, SHORT EXHALING
+  * CATHARTIC EXHALING
+  * AFFIRMATIVE INHALING
+  * HOLDING THE BREATH
+  * DRY MOUTH
+  * SALIVA BALLS OF MOUTH
+  * CHEWING GUM
+  * VOCAL TICS
+  * TONGUE BITING/CHEWING
+  * TONGUE IN CHEEK
+  * TONGUE JUTTING
+  * TONGUE LICKING TEETH
+  * TONGUE DARTING
+  * TEETH TAPPING
+  * VOICE TONE
+  * VOICE PITCH
+  * DELAY IN ANSWERING
+  * INTERRUPTIVE ARGUMENTS
+  * CATHARTIC UTTERANCES
+  * SPEED OF TALKING
+  * INCONGRUENT TALK
+  * REPETITION OF WORDS
+  * SPEEDING THROUGH COMMENTS
+  * FILLER SOUNDS
+  * WHISTLING NERVOUSLY
+  * LIP FULLNESS
+  * FINGERTIPS TO LIPS
+  * LIP LICKING
+  * LIP BITING
+  * LIP NARROWING
+  * LIP COMPRESSING
+  * SLIGHT PRESSING OF LIPS
+  * RELUCTANCE TO DECOMPRESS LIPS
+  * LIP WITHDRAWING
+  * LIP PURSING
+  * SAD MOUTH
+  * TRUE SMILE
+  * FALSE SMILE
+  * NERVOUS SMILE
+  * SUDDEN FACIAL TICS
+  * CHEEK OR FACIAL MASSAGING
+  * CHEEK STRUMMING
+  * CHEEK WIPING
+  * JAW TENSING
+  * JAW DISPLACING/SHIFTING
+  * JAW DROPPING
+  * JAW MUSCLES PULSING
+  * JAW JUTTING
+  * CHIN POINTING DOWN
+  * CHIN SHIFTING
+  * CHIN TOUCHING
+  * CHIN CRADLING
+  * ANGRY CHIN PERCHING
+  * BEARD/MUSTACHE STROKING
+  * CHIN DIMPLING
+  * CHIN TO SHOULDER
+  * FACE AVOIDANCE
+  * FACE BLOCKING
+  * FACE SHIELDING
+  * FACIAL INCONGRUENCE
+  * ODD FACE IN CROWD
+  * FACE TOUCHING
+  * NECK TOUCHING
+  * COVERING OF SUPRASTERNAL NOTCH
+  * PLAYING WITH NECKLACE
+  * PLAYING WITH SHIRT COLLAR
+  * NECK MASSAGING
+  * MASSAGING VAGUS NERVE
+  * SKIN PULLING
+  * VENTILATING NECK
+  * NECK VEINS PULSING
+  * HARD SWALLOWING
+  * NECK STRETCHING
+  * NECK EXPOSURE
+  * RAISING ONE SHOULDER
+  * SHOULDER INTEREST
+  * HOLDING SHOULDERS HIGH
+  * QUICK SHOULDER SHRUGGING
+  * SITTING LOWER AND LOWER
+  * SHOULDER/CLAVICLE RUBBING
+  * SHOULDERS WIDENING
+  * ANIMATED GESTURES
+  * ELATION/TRIUMPH DISPLAYS
+  * ARMS HELD BEHIND BACK
+  * ARMS STIFFENING
+  * ARMPIT EXPOSING
+  * ARM CROSSING/SELF
+  * ARM CROSSING/PROTECTION
+  * ARM CROSSING/DISLIKE
+  * ARM CROSSING/MASSAGING
+  * ARM CROSSING, HOLDING WRIST
+  * ARM SPREADING
+  * ELBOWS NARROWING
+  * ELBOW FLEXING
+  * ELBOWS INTERLOCKING
+  * GOOSE BUMPS
+  * EXCESSIVE SWEATING
+  * NEEDLE TRACKS
+  * CONDITION OF HANDS
+  * HAND GROOMING
+  * FREQUENCY OF TOUCH
+  * HOW WE TOUCH
+  * PRESSING THE FLESH
+  * TERRITORIAL HAND DISPLAY
+  * PUSHING AWAY FROM TABLE
+  * OBJECT PLACEMENT
+  * HAND STEEPLING
+  * HANDS IN READY/ACTIVE POSITION
+  * PALM DOWN, FINGERS SPREAD
+  * HAND RESTRICTING
+  * HAND WRINGING
+  * FINGER HOLDING
+  * JITTERY HANDS
+  * HANDS AS ANCHORS
+  * HAND THRUST TO FACE
+  * INTERLACED FINGERS
+  * THUMB MASSAGING
+  * THUMB TWIRLING
+  * THUMB UP OK SIGN
+  * SURROGATE TOUCHING
+  * RECIPROCAL TOUCHING
+  * EMPHASIZING WITH HANDS
+  * FINGER POINTING
+  * FINGER JABBING
+  * FINGER STRUMMING
+  * HANDS IN POCKET
+  * MASSAGING CLOSED FIST
+  * RUBBING HANDS ON PALMS
+  * TEEPEE FINGER RUB
+  * KNUCKLE CRACKING
+  * TAPPING SIDES OF LEGS
+  * FINGERS CURLING, NAILS FLICKING
+  * TENDERED HANDSHAKE
+  * RING PLAYING
+  * DISTANCING FROM OBJECTS
+  * CHEST HEAVING, RAPID BREATHING
+  * SHALLOW, FAST BREATHING
+  * PRESSING ON CHEST
+  * CLAVICLE MASSAGING
+  * PULLING CLOTHING TO VENTILATE
+  * SITTING BACK
+  * SITTING FORWARD
+  * TURNING AWAY/VENTRAL DENIAL
+  * BELLY/VENTRAL FRONTING
+  * POSTURAL ECHOING (MIRRORING)
+  * RIGID SITTING
+  * MOVING CHAIR AWAY
+  * BODY SLOUCHING
+  * DOUBLING OVER
+  * FETAL POSITION
+  * BODY CHILL
+  * DRESSING THE TORSO
+  * BELLY COVERING DURING PREGNANCY
+  * BELLY RUBBING
+  * HIP/BUTTOCK SHIFTING
+  * HIP RUBBING
+  * GENITAL TOUCHING
+  * CROTCH GRABBING
+  * GENITAL FRAMING
+  * SITTING KNEES FAR APART
+  * SPATIAL DISTANCING
+  * TERRITORIAL STANCE
+  * SETTING PACE DURING WALK
+  * HOLDING LEGS TOGETHER, SITTING
+  * LEGS SPREADING APART, SITTING
+  * ANKLES LOCKING
+  * KNEE CLASPING, LEANING BACK
+  * LEG DRAPING
+  * LEG RUBBING
+  * KNEE RUBBING
+  * ANKLE SCRATCHING
+  * KNEE FLEXING
+  * DRAGGING FEET
+  * ANKLE QUIVERING
+  * STANDING LEG CROSSING (COMFORT)
+  * LEG KICKING, SITTING
+  * JUMPING (JOY)
+  * FROZEN FEET
+  * FOOT WITHDRAWING
+  * PLAYING FOOTSIES
+  * FOOT ROCKING
+  * FOOT TURNING AWAY
+  * TOES POINTING INWARD/PIGEON TOES
+  * EXPOSING SOLES OF FEET
+  * BOUNCY HAPPY FEET
+  * FOOT TAPPING
+  * TOE WIGGLING
+  * AGITATED FEET
+  * NERVOUS PACING
+  * LEG TANTRUMS
+  * FOOT STOMPING
+  * SHOE DANGLE
+  * HAIR
+  * POINTING AT FOREHEAD
+  * EYEBROW NARROWING/KNITTING
+  * CRYING
+  * EYELIDS FLUTTERING
+  * SQUINTING
+  * EYE ADORNMENT
+  * LISTENING
+  * MOUTH STRETCHING
+  * YAWNING
+  * SMOKING
+  * OVEREATING
+  * TONGUE INSULTS
+  * TONGUE PROTRUDING
+  * TONGUE PRESSING AGAINST PALATE
+  * UPTALK
+  * STUTTERING/STAMMERING
+  * SILENCE
+  * INCESSANT TALKING
+  * LAUGHTER
+  * LIP QUIVERING
+  * UPSIDE
+  * SMILE
+  * UPPER LIP RISE
+  * UPPER
+  * PUFFING OUT CHEEKS
+  * CHIN UP
+  * CHIN
+  * NECK STIFFENING
+  * KOWTOWING
+  * HUGGING
+  * ELBOWS SPREADING OUT
+  * SELF
+  * PALMS
+  * FINGERS CLOSE TOGETHER
+  * HOLDING ON TO FURNITURE
+  * GIVING THE FINGER
+  * PREENING
+  * PREENING (DISMISSIVE)
+  * NAMASTE
+  * LEANING AWAY
+  * BELLY/VENTRAL COVERING
+  * EJECTION
+  * HIP SWAYING
+  * TERRITORIAL CHALLENGE
+  * KNEE
+  * UNCOOPERATIVE LEGS AND FEET
+
+-- topic id=body-language name=4. Body Language & Nonverbal Communication
+  * Nonverbal Communication
+  * Proxemics
+  * Kinesics
+  * Paralanguage
+  * Micro-expression
+  * Universal Emotions
+  * Display Rules
+  * Emotional Contagion
+  * Illustrators
+  * Emblems
+  * Adaptors
+  * Open Posture
+  * Closed Posture
+  * Eye Contact
+  * Baseline Behavior
+  * Deception Cues
+  * Pinocchio Effect
+  * Leakage
+  * Haptics
+  * Chronemics
+
+-- topic id=choice-architecture name=19. Choice Architecture & Habit Mechanics
+  * Choice Architecture
+  * Default Option
+  * Nudge
+  * Libertarian Paternalism
+  * Salience
+  * Choice Overload
+  * Status Quo Bias
+  * Decoy Effect
+  * Habit Loop
+  * Habit Cue
+  * Craving
+  * Habit Routine
+  * Habit Reward
+  * Habit Stacking
+  * Temptation Bundling
+  * Implementation Intention
+  * Identity-Based Habits
+  * Goldilocks Rule
+  * Friction
+  * Friction Reduction
+  * Two-Minute Rule
+  * Environment Design
+  * Commitment Device
+  * Variable Reward
+
+-- topic id=cognitive-biases name=5. Cognitive Biases & Decision Making
+  * Anchoring Bias
+  * Availability Heuristic
+  * Representativeness Heuristic
+  * Dunning-Kruger Effect
+  * Sunk Cost Fallacy
+  * Hindsight Bias
+  * False Consensus Effect
+  * Actor-Observer Bias
+  * Planning Fallacy
+  * Gambler's Fallacy
+  * Peak-End Rule
+  * Negativity Bias
+  * Optimism Bias
+  * Stereotyping
+  * Just-World Hypothesis
+  * Dual Process Theory
+  * System 1 Thinking
+  * System 2 Thinking
+  * Loss Aversion
+  * Framing Effect
+  * Prospect Theory
+  * Endowment Effect
+  * Status Quo Bias
+  * Overconfidence Effect
+  * Planning Fallacy (Kahneman)
+  * Base Rate Fallacy
+  * Conjunction Fallacy
+  * Affect Heuristic
+  * Peak-End Rule (Kahneman)
+  * Duration Neglect
+  * Zero Price Effect
+  * Decoy Effect
+
+-- topic id=dark-triad name=20. Dark Triad & Covert Manipulation
+  * Gaslighting
+  * Love Bombing
+  * Hoovering
+  * Triangulation
+  * Boundary Testing
+  * Emotional Blackmail
+  * Silent Treatment
+  * Coercive Intermittent Reinforcement
+  * Trauma Bonding
+  * DARVO
+  * Flying Monkeys
+  * Guilt Tripping
+  * Covert Aggression
+  * Vulnerable Narcissism
+  * Grey Rock Method
+  * JADE Principle
+  * Information Diet
+
+-- topic id=deception-detection name=8. Deception Detection
+  * Leakage Hypothesis
+  * Four-Factor Theory
+  * Interpersonal Deception Theory
+  * Truth-Default Theory
+  * Cognitive Load Approach
+  * Motivation Impairment Effect
+  * Self-Presentation Theory of Deception
+  * Linguistic Style Matching
+  * Statement Analysis
+  * Verbal Leakage
+  * Hot Spots
+  * Micro-expressions in Deception
+  * Illustrator Decrease
+  * Adaptor Increase
+  * Gaze and Deception
+  * Clustered Cue Approach
+  * Baseline Comparison
+  * Cognitive Interviewing
+  * Polygraph Limitations
+  * Fabrication vs Omission
+  * Statement Validity Assessment
+
+-- topic id=emotion-expression name=9. Emotion & Expression
+  * Universal Emotions
+  * Happiness Expression
+  * Fear Expression
+  * Anger Expression
+  * Disgust Expression
+  * Surprise Expression
+  * Sadness Expression
+  * Contempt Expression
+  * Facial Action Coding System
+  * Action Units (AUs)
+  * Macro-expressions
+  * Subtle Expressions
+  * Facial Feedback Hypothesis
+  * Masking
+  * Neutralization
+  * Intensification
+  * Simulation
+  * Emotional Labor
+  * Emotional Intelligence
+  * Self-Awareness
+  * Empathy
+  * Emotional Regulation
+  * Cognitive Reappraisal
+  * Emotional Contagion
+  * Primitive Emotional Contagion
+  * Emotional Triggers
+  * Emotional Appraisal
+
+-- topic id=evolutionary-psych name=14. Evolutionary Psychology
+  * Natural Selection
+  * Sexual Selection
+  * Parental Investment Theory
+  * Inclusive Fitness
+  * Kin Selection
+  * Reciprocal Altruism
+  * Cheater Detection
+  * Mate Preferences
+  * Symmetry and Attractiveness
+  * Waist-to-Hip Ratio
+  * Status and Resource Display
+  * Evolutionary Mismatch
+  * Candy and Craving Mismatch
+  * Anxiety as Mismatch
+  * Group Living Evolution
+  * Coalitional Psychology
+  * Status Hierarchy Evolution
+  * Theory of Mind Evolution
+  * Modern Environmental Adaptations
+  * Moral Evolution
+
+-- topic id=existential-humanistic name=17. Existential & Humanistic Psychology
+  * Logotherapy
+  * Will to Meaning
+  * Existential Vacuum
+  * Tragic Optimism
+  * Post-Traumatic Growth
+  * Freedom and Responsibility
+  * Self-Actualization
+  * Unconditional Positive Regard
+  * Peak Experiences
+  * Hierarchy of Needs
+  * Death Anxiety
+  * Authenticity
+
+-- topic id=impression-mgmt name=10. Impression Management
+  * Ingratiation
+  * Self-Promotion
+  * Exemplification
+  * Intimidation
+  * Supplication
+  * Self-Handicapping
+  * Facework
+  * Self-Monitoring
+  * Public Self-Consciousness
+  * Social Anxiety
+  * Narcissism and Self-Presentation
+  * Identity Claims
+  * Social Identity Claims
+  * Personal Identity Claims
+  * Role Expression
+  * Behavioral Residue
+  * Intentional vs Unintentional Cues
+  * Snoop Methodology
+  * Digital Footprint
+
+-- topic id=interpersonal-dynamics name=11. Interpersonal Dynamics
+  * Power Posing
+  * Status Elevation Cues
+  * Dominance Displays
+  * Submission Signals
+  * Elevation and Status
+  * Vocal Dominance
+  * Interactional Synchrony
+  * Postural Echo
+  * Pacing and Leading
+  * Rapport-Building Sequence
+  * Emotional Attunement
+  * Courtship Stages
+  * Preening Behaviors
+  * Directional Signals
+  * Courtship Displays
+  * Mate Value Signaling
+  * Reciprocal Liking
+  * Handshake as Status Signal
+  * Functional Touch
+  * Affiliative Touch
+  * Power Touch
+  * Touch Avoidance
+
+-- topic id=intro-behavior name=1. Introduction to Human Behavior
+  * Behavior
+  * Stimulus
+  * Response
+  * Nature vs Nurture
+  * Empiricism
+  * Hypothesis
+  * Independent Variable
+  * Dependent Variable
+  * Correlation
+  * Operational Definition
+  * Structuralism
+  * Functionalism
+  * Behaviorism
+  * Cognitive Revolution
+  * Naturalistic Observation
+
+-- topic id=moral-psychology name=13. Moral Psychology
+  * Moral Foundations Theory
+  * Care Foundation
+  * Fairness Foundation
+  * Loyalty Foundation
+  * Authority Foundation
+  * Sanctity Foundation
+  * Moral Intuitionism
+  * Moral Dumbfounding
+  * The Social Intuitionist Model
+  * Reasoned Persuasion
+  * Moral Disgust
+  * Elevation
+  * Moral Outrage
+  * Shame and Guilt
+  * Moral Identity
+  * Political Moral Foundations
+  * Moral Framing
+  * Religion and Morality
+  * Moral Diversity
+
+-- topic id=nonverbal-codes name=7. Nonverbal Communication Codes
+  * Birdwhistell's Kinesics
+  * Emblems
+  * Illustrators
+  * Regulators
+  * Affect Displays
+  * Adaptors
+  * Posture Mirroring
+  * Body Orientation
+  * Hall's Distance Zones
+  * Territoriality
+  * Personal Space
+  * Crowding
+  * Privacy Regulation
+  * Haptic Communication
+  * Touch Functions
+  * Touch Deprivation
+  * Handshake Styles
+  * Gaze Behavior
+  * Mutual Gaze
+  * Pupil Dilation
+  * Gaze Aversion
+  * Eye Contact Norms
+  * Paralanguage
+  * Vocal Pitch
+  * Speech Rate
+  * Silence
+  * Vocal Fillers
+  * Monochronic Time
+  * Polychronic Time
+  * Waiting Behavior
+  * Punctuality Norms
+  * Olfactory Communication
+  * Pheromones
+  * Odor Memory
+  * Cultural Odor Norms
+  * Attractiveness Halo
+  * Babyface Overgeneralization
+  * Clothing Signals
+  * Body Stereotypes
+  * Adornment and Modifications
+  * Height and Status Perception
+  * Facial Attractiveness
+  * Grooming Behaviors
+
+-- topic id=personality name=6. Personality & Individual Differences
+  * Big Five
+  * Extraversion
+  * Neuroticism
+  * Conscientiousness
+  * Agreeableness
+  * Openness to Experience
+  * Id
+  * Ego
+  * Superego
+  * Self-Actualization
+  * Unconditional Positive Regard
+  * Self-Concept
+  * Locus of Control
+  * Reciprocal Determinism
+  * Defense Mechanisms
+  * Temperament
+  * Psychoanalytic Theory
+  * Trait Theory
+  * Humanistic Theory
+  * Social Cognitive Theory
+  * HEXACO Model
+  * Dark Triad
+  * Narcissism
+  * Self-Esteem
+  * Self-Discrepancy Theory
+  * Self-Regulation
+  * Personality Development Across Lifespan
+  * Person-Situation Debate
+
+-- topic id=reading-people name=12. Reading People
+  * Establishing Baseline
+  * Baseline Deviations
+  * Cultural Calibration
+  * Individual Variation
+  * Situational Baseline
+  * Neck Touching
+  * Leg Cleansing
+  * Venting Behaviors
+  * Face Touching
+  * Breath Regulation
+  * Freeze Response
+  * Flight Behaviors
+  * Fight Readiness
+  * Comfort Cues
+  * Stress Indicators
+  * Grooming and Displacement
+  * Contextual Reading
+  * Behavioral Clusters
+  * Temporal Context
+  * Observer Bias
+
+-- topic id=social-psych name=3. Social Psychology
+  * Conformity
+  * Compliance
+  * Obedience
+  * Foot-in-the-Door
+  * Door-in-the-Face
+  * Social Identity Theory
+  * In-group Bias
+  * Out-group Homogeneity
+  * Groupthink
+  * Social Loafing
+  * Cognitive Dissonance
+  * Elaboration Likelihood Model
+  * Fundamental Attribution Error
+  * Self-Serving Bias
+  * Confirmation Bias
+  * Halo Effect
+  * Bystander Effect
+  * Deindividuation
+  * Asch Conformity Experiment
+  * Milgram Obedience Study
+  * Stanford Prison Experiment
+  * Cognitive Dissonance Theory
+  * Effort Justification
+  * Post-Decision Dissonance
+  * Social Facilitation
+  * Social Comparison Theory
+  * Diffusion of Responsibility
+  * Pluralistic Ignorance
+  * Self-Fulfilling Prophecy
+  * Stereotype Threat
+  * Minimal Group Paradigm
+  * Reciprocity Principle
+  * Scarcity Principle
+  * Social Proof
+  * Liking Principle
+  * Authority Principle
+  * Consistency Principle

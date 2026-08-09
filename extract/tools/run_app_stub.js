@@ -76,7 +76,7 @@ const run = (f) => {
 
 const topics = fs.readdirSync(path.join(root, 'data/topics')).filter(f => f.endsWith('.js')).sort();
 topics.forEach(f => run(path.join(root, 'data/topics', f)));
-['data/deep-dives.js', 'data/resources.js', 'data.js'].forEach(f => run(path.join(root, f)));
+['data/deep-dives.js', 'data/concept-map.js', 'data/resources.js', 'data.js'].forEach(f => run(path.join(root, f)));
 const assets = fs.readdirSync(path.join(root, 'assets')).filter(f => f.startsWith('assetlib')).sort();
 assets.forEach(f => run(path.join(root, 'assets', f)));
 run(path.join(root, 'assets.js'));
@@ -86,7 +86,7 @@ const m = html.match(/<script>([\s\S]*?)<\/script>/);
 if (!m) { console.log('FAIL: inline script not found'); process.exit(1); }
 // Inject the exposed app object at the TOP of the DOMContentLoaded callback body,
 // where all function declarations are hoisted (functions are NOT in scope at top level).
-const expose = 'document.addEventListener(\'DOMContentLoaded\',function(){window.__app={switchTab:switchTab,initMatch:initMatch,initCloze:initCloze,setDifficulty:setDifficulty,initQuiz:initQuiz,initFlash:initFlash,initSequence:initSequence,initLabConfig:initLabConfig,initReview:initReview,renderDeepDives:renderDeepDives,renderResources:renderResources,renderDashboard:renderDashboard,getEntries:getEntries,renderBrowse:renderBrowse,initSRS:initSRS,labModes:labModes,labSessionStart:labSessionStart,labGrade:labGrade,labInsights:labInsights,renderLab:renderLab,get labQ(){return labQ},get labIdx(){return labIdx},set labIdx(v){labIdx=v}};';
+const expose = 'document.addEventListener(\'DOMContentLoaded\',function(){window.__app={switchTab:switchTab,initMatch:initMatch,initCloze:initCloze,setDifficulty:setDifficulty,initQuiz:initQuiz,initFlash:initFlash,initSequence:initSequence,initLabConfig:initLabConfig,initReview:initReview,renderDeepDives:renderDeepDives,renderConceptMap:renderConceptMap,renderResources:renderResources,renderDashboard:renderDashboard,getEntries:getEntries,renderBrowse:renderBrowse,initSRS:initSRS,labModes:labModes,labSessionStart:labSessionStart,labGrade:labGrade,labInsights:labInsights,renderLab:renderLab,get labQ(){return labQ},get labIdx(){return labIdx},set labIdx(v){labIdx=v}};';
 let inline = m[1].replace('document.addEventListener(\'DOMContentLoaded\',function(){', expose);
 try { vm.runInContext(inline, ctx, { filename: 'index.html:inline' }); }
 catch (e) { fails++; console.log('FAIL inline parse/top-level: ' + String(e)); }
@@ -96,7 +96,7 @@ domReadyCb();
 if (initError) { fails++; console.log('FAIL init: ' + initError.stack.split('\n').slice(0, 8).join('\n')); }
 
 // Exercise every tab through switchTab + re-init paths.
-const tabs = ['browse', 'flash', 'quiz', 'match', 'cloze', 'sequence', 'exam', 'lab', 'review', 'deep', 'resources', 'dashboard'];
+const tabs = ['browse', 'flash', 'quiz', 'match', 'cloze', 'sequence', 'exam', 'lab', 'review', 'deep', 'map', 'resources', 'dashboard'];
 tabs.forEach(t => {
   try { vm.runInContext("__app.switchTab('" + t + "')", ctx); }
   catch (e) { fails++; console.log('FAIL switchTab(' + t + '): ' + e.message); }

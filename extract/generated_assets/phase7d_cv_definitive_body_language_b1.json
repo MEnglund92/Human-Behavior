@@ -1,0 +1,718 @@
+{
+ "job": "cultural_variations",
+ "book_id": "definitive_body_language",
+ "task": "For each asset below, write 1-3 short cross-cultural notes for the gesture / body-language / proximity / eye-contact / touch claim it makes. Purpose: the app shows these as caveats so learners don't over-generalize US/Eurocentric findings. Rules: each note is 4-14 words; each starts with a culture/region; focus on genuine documented variation (e.g. 'Thumbs-up is offensive in Iran and parts of Africa', 'OK hand sign is vulgar in Brazil and Turkey', 'direct eye contact reads as disrespectful in many East Asian and Indigenous cultures', 'personal space is smaller in Latin America and the Middle East', 'head shake gestures mean no in Bulgaria'). If the claim is purely cognitive/psychological with no meaningful cross-cultural gesture variation, use an empty array [] or a single caveat if a mild one applies. Never invent; prefer well-documented examples. Keep all text English.",
+ "schema": {
+  "note": "array of objects, one per asset below, same order",
+  "each_object": {
+   "chapter_id": "string (copy from entry)",
+   "index": "int (copy from entry)",
+   "cultural_variations": [
+    "array of 1-3 short strings, or []"
+   ]
+  },
+  "requirement": "include EVERY entry below exactly once in order; use [] where none apply"
+ },
+ "entries": [
+  {
+   "chapter_id": "intro",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading All Things Are Not What They Seem",
+   "frame_excerpt": "A Victorian gentleman being scrutinized by Sherlock Holmes through a magnifying glass, with annotations highlighting fingernails, coat-sleeve, boots, and trouser-knees. Each body part reveals a clue a"
+  },
+  {
+   "chapter_id": "intro",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying All Things Are Not What They Seem in Real Time",
+   "frame_excerpt": "A conversation between two people where one is revealing their true feelings through body language while saying something polite. The UI highlights discrepancies between words and body signals in real"
+  },
+  {
+   "chapter_id": "intro",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: All Things Are Not What They Seem",
+   "frame_excerpt": "A case file on a person whose public persona contradicts their nonverbal tells. The audit reveals hidden anxiety, deception, or confidence that would be invisible to an untrained observer."
+  },
+  {
+   "chapter_id": "intro",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: All Things Are Not What They Seem",
+   "frame_excerpt": "A grid comparing verbal statements against corresponding body language signals for 20 different scenarios. Each cell shows whether the verbal-nonverbal pairing is congruent or incongruent."
+  },
+  {
+   "chapter_id": "intro",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: All Things Are Not What They Seem",
+   "frame_excerpt": "The Deception Gauntlet: A series of 5 characters who each give a prepared speech while their body language leaks their true intentions. You must identify the lie in each speech before time runs out."
+  },
+  {
+   "chapter_id": "ch01",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Understanding the Basics",
+   "frame_excerpt": "A classroom scene where a teacher lectures while students display various body language cues: one leans forward interested, one crosses arms defensively, one checks watch impatiently. Floating labels "
+  },
+  {
+   "chapter_id": "ch01",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Understanding the Basics in Real Time",
+   "frame_excerpt": "Two people having a conversation where the listener subtly shifts from open to closed posture as the topic changes. The interface highlights the exact moment of the shift and prompts the player to ide"
+  },
+  {
+   "chapter_id": "ch01",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Understanding the Basics",
+   "frame_excerpt": "A dossier on a job candidate whose resume is excellent but whose body language during the interview tells a different story. The audit flags discrepancies between stated qualifications and nonverbal c"
+  },
+  {
+   "chapter_id": "ch01",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Understanding the Basics",
+   "frame_excerpt": "A 4x4 grid mapping body language signals against their meanings: Arms Crossed (Defensive/Closed), Palms Open (Honest/Open), Steepled Fingers (Confident/Authoritative), Hand to Face (Evaluating/Decepti"
+  },
+  {
+   "chapter_id": "ch01",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Understanding the Basics",
+   "frame_excerpt": "The Great Reader Challenge: A room full of 10 people each displaying different body language clusters. You must quickly assess who is bored, who is interested, who is anxious, who is confident, and wh"
+  },
+  {
+   "chapter_id": "ch02",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading The Power Is in Your Hands",
+   "frame_excerpt": "A close-up montage of hands in various configurations: open palms facing up (honesty/submission), palms down (authority), pointed finger (aggression), handshake grips of all types. Each hand position "
+  },
+  {
+   "chapter_id": "ch02",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying The Power Is in Your Hands in Real Time",
+   "frame_excerpt": "A business negotiation where both parties hands reveal their true positions: one uses open palms while making an offer, the other forms a steeple while countering. The UI highlights each hand gesture "
+  },
+  {
+   "chapter_id": "ch02",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: The Power Is in Your Hands",
+   "frame_excerpt": "A dossier on a suspect being interviewed by police. His words say he is cooperating, but his hands tell another story: clenched fists, rubbing palms, gripping chair arms. Each gesture is flagged with "
+  },
+  {
+   "chapter_id": "ch02",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: The Power Is in Your Hands",
+   "frame_excerpt": "A 5x4 grid of handshake styles (Wet Fish, Vise, Bone-Crusher, Finger-Tip Grab, Double-Hander) mapped against personality traits each style suggests (Timid, Aggressive, Domineering, Intimate, Controlli"
+  },
+  {
+   "chapter_id": "ch02",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: The Power Is in Your Hands",
+   "frame_excerpt": "The Handshake Arena: You face 5 opponents who each challenge you with a different handshake style. You must respond correctly to each: match the power player, soften the bone-crusher, equalize with th"
+  },
+  {
+   "chapter_id": "ch03",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading The Magic of Smiles and Laughter",
+   "frame_excerpt": "A face analysis overlay tracking 5 types of smiles in real-time: tight-lipped, twisted, drop-jaw, sideways-looking-up, and genuine Duchenne. Each smile lights up different facial muscles with color-co"
+  },
+  {
+   "chapter_id": "ch03",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying The Magic of Smiles and Laughter in Real Time",
+   "frame_excerpt": "A social gathering where people smile for various reasons. The simulation teaches you to read beyond the smile: Is it submission, amusement, nervousness, or genuine joy? Each interaction reveals the t"
+  },
+  {
+   "chapter_id": "ch03",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: The Magic of Smiles and Laughter",
+   "frame_excerpt": "A security checkpoint footage review where smugglers smile less than honest travelers. The audit compares facial expressions of 10 individuals passing through customs, highlighting the correlation bet"
+  },
+  {
+   "chapter_id": "ch03",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: The Magic of Smiles and Laughter",
+   "frame_excerpt": "A 3x3 grid comparing 5 smile types across 3 dimensions: Muscle Groups Involved, Genuineness Rating, and Social Function. Each cell shows a photograph and the smile classification data."
+  },
+  {
+   "chapter_id": "ch03",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: The Magic of Smiles and Laughter",
+   "frame_excerpt": "The Smile Classifier Challenge: A rapid-fire test where faces flash on screen for 2 seconds each. Classify each smile as genuine or fake before the next face appears."
+  },
+  {
+   "chapter_id": "ch04",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Arm Signals",
+   "frame_excerpt": "A conference room where participants display various arm positions: crossed arms (defensive), arms open (receptive), hands on hips (ready for action), arms behind back (confident/superior). Each posit"
+  },
+  {
+   "chapter_id": "ch04",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Arm Signals in Real Time",
+   "frame_excerpt": "A job interview where the candidates arm positions shift as questions get harder. The UI tracks arm barrier formations and prompts the player to adjust questioning strategy based on defensive signals."
+  },
+  {
+   "chapter_id": "ch04",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Arm Signals",
+   "frame_excerpt": "A deception analysis report on a witness whose testimony seems credible but whose arm signals suggest hidden discomfort. The audit correlates specific arm barrier formations with known deceptive behav"
+  },
+  {
+   "chapter_id": "ch04",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Arm Signals",
+   "frame_excerpt": "A 3x4 grid mapping arm positions against social contexts. Each cell shows when a position signals genuine confidence vs. insecurity, or openness vs. vulnerability."
+  },
+  {
+   "chapter_id": "ch04",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Arm Signals",
+   "frame_excerpt": "The Barrier Breaker: You face a hostile interview subject with tightly crossed arms. You must use specific techniques to get them to uncross and open up: give them an object to hold, lean back, use op"
+  },
+  {
+   "chapter_id": "ch05",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Cultural Differences",
+   "frame_excerpt": "A world map with cultural body language hotspots. Clicking on a region reveals its unique greeting customs, personal space norms, and gesture meanings. Red zones indicate gestures that are offensive i"
+  },
+  {
+   "chapter_id": "ch05",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Cultural Differences in Real Time",
+   "frame_excerpt": "An international business meeting where participants from Japan, England, Italy, and Brazil interact. The UI highlights cultural body language differences: Japanese minimal gestures, English stiff upp"
+  },
+  {
+   "chapter_id": "ch05",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Cultural Differences",
+   "frame_excerpt": "A cultural faux pas analysis document detailing real-world incidents where body language differences caused diplomatic incidents, lost business deals, or personal offense."
+  },
+  {
+   "chapter_id": "ch05",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Cultural Differences",
+   "frame_excerpt": "A 4x4 matrix comparing greeting customs (handshake, bow, kiss, namaste), personal space zones, eye contact norms, and touch acceptability across 8 different cultures."
+  },
+  {
+   "chapter_id": "ch05",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Cultural Differences",
+   "frame_excerpt": "The Global Diplomat Challenge: You must navigate a multicultural event with dignitaries from 6 different countries. Each interaction requires the correct body language approach. One major faux pas and"
+  },
+  {
+   "chapter_id": "ch06",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Hand and Thumb Gestures",
+   "frame_excerpt": "A close-up analysis of hands in conversation: rubbing palms together (anticipation), thumb and finger rub (money talk), hands clenched (frustration), the steeple (confidence), thumbs protruding from p"
+  },
+  {
+   "chapter_id": "ch06",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Hand and Thumb Gestures in Real Time",
+   "frame_excerpt": "A sales negotiation where the buyers hand gestures reveal their true feelings about the price: thumb and finger rub signals money concern, steeple signals confidence, hand clench signals frustration."
+  },
+  {
+   "chapter_id": "ch06",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Hand and Thumb Gestures",
+   "frame_excerpt": "A fraud investigation file where the suspects hand gestures during questioning revealed their deception. The audit documents specific hand gestures that correlated with deceptive responses."
+  },
+  {
+   "chapter_id": "ch06",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Hand and Thumb Gestures",
+   "frame_excerpt": "A 4x4 matrix of hand gestures mapped against emotional states and conversational contexts. Each cell shows the gesture, its meaning, and the appropriate response."
+  },
+  {
+   "chapter_id": "ch06",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Hand and Thumb Gestures",
+   "frame_excerpt": "The Hand Gesture Interrogation: A high-stakes negotiation where 3 people claim to have the information you need. Only one is telling the truth. Read their hand gestures to identify the truthful source"
+  },
+  {
+   "chapter_id": "ch07",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Evaluation and Deceit Signals",
+   "frame_excerpt": "A deception detection dashboard analyzing 8 common lying gestures: mouth cover, nose touch, eye rub, ear grab, neck scratch, collar pull, fingers in mouth, and the three wise monkeys pose. Each gestur"
+  },
+  {
+   "chapter_id": "ch07",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Evaluation and Deceit Signals in Real Time",
+   "frame_excerpt": "An interrogation room where the suspect gives different versions of events. As he speaks about different topics, his face and hands broadcast his truthfulness through specific gestures. The UI highlig"
+  },
+  {
+   "chapter_id": "ch07",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Evaluation and Deceit Signals",
+   "frame_excerpt": "A compilation of famous liars being interviewed (from courtrooms to press conferences). Each clip is analyzed frame by frame, identifying the specific gestures that revealed their deception."
+  },
+  {
+   "chapter_id": "ch07",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Evaluation and Deceit Signals",
+   "frame_excerpt": "A 3x2 matrix contrasting genuine evaluation gestures (chin stroking, head tilting) with deceptive gestures (nose touching, mouth covering). Each cell shows the gesture and the cognitive process behind"
+  },
+  {
+   "chapter_id": "ch07",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Evaluation and Deceit Signals",
+   "frame_excerpt": "The Lie Detector Challenge: Face 5 speakers who each deliver a 30-second statement. Some statements are true, some false. You must identify each lie within the statement window using only body languag"
+  },
+  {
+   "chapter_id": "ch08",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Eye Signals",
+   "frame_excerpt": "An eye-tracking analysis overlay showing pupil dilation, blink rate, gaze direction, and eyebrow movements. Each signal is correlated with emotional or cognitive states: interest, attraction, deceptio"
+  },
+  {
+   "chapter_id": "ch08",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Eye Signals in Real Time",
+   "frame_excerpt": "A first date where the participants eye signals reveal their true interest levels. The UI highlights gaze patterns: intimate gaze (triangle of eyes to mouth), social gaze (eye triangle), power gaze (f"
+  },
+  {
+   "chapter_id": "ch08",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Eye Signals",
+   "frame_excerpt": "A court transcript analysis where the witnesses eye behavior during specific questions revealed deception or truthfulness. The audit correlates eye-blocking behaviors with specific topics that trigger"
+  },
+  {
+   "chapter_id": "ch08",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Eye Signals",
+   "frame_excerpt": "A 3x3 matrix comparing the three gaze types (Social, Intimate, Power) against three social contexts (Professional, Romantic, Conflict). Each cell shows the appropriate gaze and the message it sends."
+  },
+  {
+   "chapter_id": "ch08",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Eye Signals",
+   "frame_excerpt": "The Gaze Master Challenge: You must maintain the correct gaze pattern through 5 escalating social challenges while reading your opponents eye signals. One gaze misstep could lose the deal, the date, o"
+  },
+  {
+   "chapter_id": "ch09",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Space Invaders — Territories and Personal Space",
+   "frame_excerpt": "An invisible bubble visualization around people in various settings: intimate zone (0-18 inches, partners/lovers), personal zone (18-48 inches, friends), social zone (4-12 feet, strangers), public zon"
+  },
+  {
+   "chapter_id": "ch09",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Space Invaders — Territories and Personal Space in Real Time",
+   "frame_excerpt": "An elevator scene where 6 strangers are forced into intimate proximity. The UI tracks their coping mechanisms: looking up at floor numbers, avoiding eye contact, holding bags as barriers, minimizing b"
+  },
+  {
+   "chapter_id": "ch09",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Space Invaders — Territories and Personal Space",
+   "frame_excerpt": "A sociological study of how spatial violations trigger aggression. The audit documents historical examples: riots triggered by crowding, diplomatic incidents caused by proximity violations, and the te"
+  },
+  {
+   "chapter_id": "ch09",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Space Invaders — Territories and Personal Space",
+   "frame_excerpt": "A 4x4 matrix of spatial zones mapped against relationship types and cultural contexts. Each cell shows the appropriate distance and the meaning of getting closer or farther."
+  },
+  {
+   "chapter_id": "ch09",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Space Invaders — Territories and Personal Space",
+   "frame_excerpt": "The Space Invader: You must navigate a series of crowded social situations without violating anyones personal space. Approaching too close triggers a defensive reaction. Learn to read the subtle signa"
+  },
+  {
+   "chapter_id": "ch10",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading How the Legs Reveal What the Mind Wants to Do",
+   "frame_excerpt": "A leg and feet analysis dashboard showing 4 main standing positions, leg crosses, and foot directions. Each position reveals intent: feet pointed toward exit (wanting to leave), leg crossed away (dise"
+  },
+  {
+   "chapter_id": "ch10",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying How the Legs Reveal What the Mind Wants to Do in Real Time",
+   "frame_excerpt": "A conversation where one persons feet gradually turn toward the exit while their face maintains polite interest. The simulation reveals that feet are the most honest part of the body and signal true i"
+  },
+  {
+   "chapter_id": "ch10",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: How the Legs Reveal What the Mind Wants to Do",
+   "frame_excerpt": "A sales analysis showing correlations between customer leg positions and purchase decisions. Feet pointed toward the exit correlated with lost sales; uncrossed legs and foot-forward position correlate"
+  },
+  {
+   "chapter_id": "ch10",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: How the Legs Reveal What the Mind Wants to Do",
+   "frame_excerpt": "A 4x3 grid of standing positions (At Attention, Legs Apart, Foot-Forward, Leg-Cross) and sitting positions (European Cross, American Figure Four, Ankle Lock, Leg Twine) mapped against emotional states"
+  },
+  {
+   "chapter_id": "ch10",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: How the Legs Reveal What the Mind Wants to Do",
+   "frame_excerpt": "The Feat of Feet Challenge: Watch 8 video clips of people in conversation. Each clip freezes at a key moment. Identify the persons true intention based solely on their feet and leg position before tim"
+  },
+  {
+   "chapter_id": "ch11",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading The Thirteen Most Common Gestures Youll See Daily",
+   "frame_excerpt": "A catalog of 13 everyday gestures displayed in rapid sequence: head nod, head shake, head tilt, head duck, imaginary lint picking, cowboy stance, legs-spread, leg-over-chair, straddling chair, catapul"
+  },
+  {
+   "chapter_id": "ch11",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying The Thirteen Most Common Gestures Youll See Daily in Real Time",
+   "frame_excerpt": "A meeting where participants display various common gestures. The head nod encourages agreement, the head tilt signals interest, imaginary lint picking shows disapproval, the catapult shows confidence"
+  },
+  {
+   "chapter_id": "ch11",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: The Thirteen Most Common Gestures Youll See Daily",
+   "frame_excerpt": "A negotiation audit showing how the cowboy stance (thumbs in belt) and the catapult (hands behind head) signal dominance or superiority. The audit documents how these gestures derailed or advanced spe"
+  },
+  {
+   "chapter_id": "ch11",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: The Thirteen Most Common Gestures Youll See Daily",
+   "frame_excerpt": "A 2x2 matrix of gestures categorized by Power/Confidence level (low to high) vs. Engagement level (disengaged to engaged). Each of the 13 gestures is plotted on this matrix."
+  },
+  {
+   "chapter_id": "ch11",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: The Thirteen Most Common Gestures Youll See Daily",
+   "frame_excerpt": "Master Observer Challenge: Watch a continuous real-time interaction and identify every common gesture as it happens. Points for speed and accuracy. Bonus points for identifying gesture clusters."
+  },
+  {
+   "chapter_id": "ch12",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Mirroring — How We Build Rapport",
+   "frame_excerpt": "Two people in conversation gradually synchronizing their body language: crossing legs simultaneously, leaning in together, matching hand gestures. The UI highlights each mirrored behavior with a glowi"
+  },
+  {
+   "chapter_id": "ch12",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Mirroring — How We Build Rapport in Real Time",
+   "frame_excerpt": "A job interview where the candidate intentionally mirrors the interviewer to build rapport. The simulation shows when mirroring is effective and when it becomes obvious and counterproductive."
+  },
+  {
+   "chapter_id": "ch12",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Mirroring — How We Build Rapport",
+   "frame_excerpt": "An FBI rapport-building case study showing how agents use mirroring to gain the trust of suspects. The file documents specific mirroring techniques that led to successful confessions."
+  },
+  {
+   "chapter_id": "ch12",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Mirroring — How We Build Rapport",
+   "frame_excerpt": "A 3x3 matrix of mirroring categories (Posture, Gestures, Voice, Breathing) vs. Contexts (Professional, Romantic, Authority). Each cell shows appropriate mirroring techniques and their rapport-building"
+  },
+  {
+   "chapter_id": "ch12",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Mirroring — How We Build Rapport",
+   "frame_excerpt": "The Rapport Builder: You must build rapport with 5 different personality types through strategic mirroring. Each type requires a different mirroring approach. Fail to build rapport within the time lim"
+  },
+  {
+   "chapter_id": "ch13",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading The Secret Signals of Cigarettes, Glasses, and Makeup",
+   "frame_excerpt": "A montage of people using objects as communication tools: a smoker exhaling upward vs. downward (positive vs. negative evaluation), glasses being put on/taken off (stalling), makeup intensity (attract"
+  },
+  {
+   "chapter_id": "ch13",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying The Secret Signals of Cigarettes, Glasses, and Makeup in Real Time",
+   "frame_excerpt": "A negotiation where one party uses glasses as a stalling tactic: cleaning lenses, peering over glasses, putting them in mouth. The UI identifies each stalling signal and suggests how to regain convers"
+  },
+  {
+   "chapter_id": "ch13",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: The Secret Signals of Cigarettes, Glasses, and Makeup",
+   "frame_excerpt": "A study of courtroom behavior showing how witnesses who wear glasses are perceived as more intelligent and credible. The audit analyzes the bias and recommends awareness strategies."
+  },
+  {
+   "chapter_id": "ch13",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: The Secret Signals of Cigarettes, Glasses, and Makeup",
+   "frame_excerpt": "A 3x4 matrix of object signals (Cigarettes, Glasses, Makeup, Briefcases) mapped against the messages they send in different contexts (Social, Business, Romantic)."
+  },
+  {
+   "chapter_id": "ch13",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: The Secret Signals of Cigarettes, Glasses, and Makeup",
+   "frame_excerpt": "The Object Reader: Watch a scene where 4 people interact using various objects as communication tools. Identify the hidden messages each person is sending through their use of cigarettes, glasses, mak"
+  },
+  {
+   "chapter_id": "ch14",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading How the Body Points to Where the Mind Wants to Go",
+   "frame_excerpt": "A body-angle analysis overlay showing how people unconsciously point their feet, torso, and head toward what interests them. In a group of 5 people, each persons body pointing reveals who they are mos"
+  },
+  {
+   "chapter_id": "ch14",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying How the Body Points to Where the Mind Wants to Go in Real Time",
+   "frame_excerpt": "A group conversation where 3 people talk and 2 are gradually excluded through body rotation. The excluded parties body language shifts from engaged to withdrawn as the angle of exclusion increases."
+  },
+  {
+   "chapter_id": "ch14",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: How the Body Points to Where the Mind Wants to Go",
+   "frame_excerpt": "A social dynamics study of a cocktail party recorded on hidden camera. The audit analyzes how many conversations were accurately predicted to form or dissolve based on body-pointing signals."
+  },
+  {
+   "chapter_id": "ch14",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: How the Body Points to Where the Mind Wants to Go",
+   "frame_excerpt": "A 2x2 matrix of body angles (Open/Facing vs. Closed/Angled) vs. Intention (Engage vs. Disengage). Each quadrant shows example scenarios and the relationship outcome."
+  },
+  {
+   "chapter_id": "ch14",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: How the Body Points to Where the Mind Wants to Go",
+   "frame_excerpt": "The Body Compass Challenge: In a crowded room of 10 people, determine which 3 people want to talk to each other, who wants to leave, and who is trying to join a group — all based on body-pointing angl"
+  },
+  {
+   "chapter_id": "ch15",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Courtship Displays and Attraction Signals",
+   "frame_excerpt": "A beach scene where a man and woman approach each other. As they pass, the UI highlights each courtship signal: chest protrusion, stomach pulled in, erect posture, youthful gait, head toss, hair flick"
+  },
+  {
+   "chapter_id": "ch15",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Courtship Displays and Attraction Signals in Real Time",
+   "frame_excerpt": "A bar scene where a man and woman engage in the courtship dance. The interface highlights each stage: eye contact, head toss, approach, body pointing, mirrored movements, and the critical moment of ph"
+  },
+  {
+   "chapter_id": "ch15",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Courtship Displays and Attraction Signals",
+   "frame_excerpt": "A dating behavior research file analyzing thousands of hours of courtship footage. The audit reveals which female courtship gestures most effectively signal interest and which male displays are most a"
+  },
+  {
+   "chapter_id": "ch15",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Courtship Displays and Attraction Signals",
+   "frame_excerpt": "A 4x4 matrix of 13 female courtship gestures and 5 male courtship signals mapped against their effectiveness ratings and the message each sends."
+  },
+  {
+   "chapter_id": "ch15",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Courtship Displays and Attraction Signals",
+   "frame_excerpt": "The Courtship Dance: Navigate a complete courtship interaction from initial eye contact through successful connection. Make the right moves at the right time or lose your chance. One misread signal an"
+  },
+  {
+   "chapter_id": "ch16",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Ownership, Territory, and Height Signals",
+   "frame_excerpt": "A visual comparison of height and territory signals: a CEO in a corner office with a high-backed chair, a politician standing on a raised platform, a person spreading belongings across a table to clai"
+  },
+  {
+   "chapter_id": "ch16",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Ownership, Territory, and Height Signals in Real Time",
+   "frame_excerpt": "A boardroom where the CEO uses height and territorial signals to dominate: standing while others sit, using a tall chair, spreading papers widely, leaning back in the catapult position. The UI highlig"
+  },
+  {
+   "chapter_id": "ch16",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Ownership, Territory, and Height Signals",
+   "frame_excerpt": "A political debate analysis showing how candidates use height and territorial strategies: standing on risers, using tall podiums, spreading arms wide, and invading opponents space during rebuttals."
+  },
+  {
+   "chapter_id": "ch16",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Ownership, Territory, and Height Signals",
+   "frame_excerpt": "A 3x3 matrix of territorial signals (Height, Spread, Touch) mapped against contexts (Professional, Social, Conflict). Each cell shows the signal, its meaning, and counter-strategies."
+  },
+  {
+   "chapter_id": "ch16",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Ownership, Territory, and Height Signals",
+   "frame_excerpt": "The Throne Room: You enter a territory controlled by a dominant figure who uses every height and territorial signal against you. You must claim your own space and establish equal footing without trigg"
+  },
+  {
+   "chapter_id": "ch17",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Seating Arrangements — Where to Sit and Why",
+   "frame_excerpt": "A conference table with different seating positions highlighted in color codes: corner position (cooperative), cooperative side-by-side, competitive face-to-face, independent far-end. Each position tr"
+  },
+  {
+   "chapter_id": "ch17",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Seating Arrangements — Where to Sit and Why in Real Time",
+   "frame_excerpt": "A business lunch where seating position determines the negotiation outcome. The simulation shows how sitting at a 90-degree angle (corner position) facilitates cooperation, while sitting across (face-"
+  },
+  {
+   "chapter_id": "ch17",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Seating Arrangements — Where to Sit and Why",
+   "frame_excerpt": "An analysis of courtroom seating strategies showing how prosecutors and defense attorneys position themselves to influence jury perception. The audit reveals that the side of the table matters."
+  },
+  {
+   "chapter_id": "ch17",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Seating Arrangements — Where to Sit and Why",
+   "frame_excerpt": "A 3x3 matrix of seating positions (Corner, Side-by-Side, Face-to-Face, Far-End) mapped against table shapes (Round, Rectangular, Square). Each cell shows the strategic advantage of that combination."
+  },
+  {
+   "chapter_id": "ch17",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Seating Arrangements — Where to Sit and Why",
+   "frame_excerpt": "The Seat of Power: Enter a high-stakes dinner meeting where seating is unassigned. You must choose the right seat to achieve your objective: close the deal, build rapport, or assert authority. Every s"
+  },
+  {
+   "chapter_id": "ch18",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Interviews, Power Plays, and Office Politics",
+   "frame_excerpt": "A job interview scene analyzed frame by frame: the 9 golden keys of first impressions are highlighted — entrance posture, handshake quality, seating choice, arm position, eye contact, smile timing, vo"
+  },
+  {
+   "chapter_id": "ch18",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Interviews, Power Plays, and Office Politics in Real Time",
+   "frame_excerpt": "A power play meeting where a subordinate uses office politics strategies: switching table territories, adjusting chair height, rearranging objects on the desk. The UI reveals each power move and its i"
+  },
+  {
+   "chapter_id": "ch18",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Interviews, Power Plays, and Office Politics",
+   "frame_excerpt": "A collection of before-and-after office redesigns showing how desk placement, chair height, and seating orientation affected productivity, collaboration, and power dynamics within teams."
+  },
+  {
+   "chapter_id": "ch18",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Interviews, Power Plays, and Office Politics",
+   "frame_excerpt": "A 4x3 matrix of interview success factors (9 golden keys) mapped against interviewer perception categories (Competence, Confidence, Warmth, Honesty). Each cell shows which body language signals influe"
+  },
+  {
+   "chapter_id": "ch18",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Interviews, Power Plays, and Office Politics",
+   "frame_excerpt": "The Interview Gauntlet: Face 3 consecutive interviews with different interviewer styles (friendly, hostile, indifferent). Adapt your body language to each style while maintaining authenticity. Each in"
+  },
+  {
+   "chapter_id": "ch19",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Putting It All Together",
+   "frame_excerpt": "A comprehensive body language observation dashboard featuring all the signals from the book. A real-time person analysis tool where you can click any body part to see what signals it might be sending."
+  },
+  {
+   "chapter_id": "ch19",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Putting It All Together in Real Time",
+   "frame_excerpt": "A final test conversation where every body language principle from the book comes into play simultaneously. You must read and respond to multiple signals at once."
+  },
+  {
+   "chapter_id": "ch19",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Putting It All Together",
+   "frame_excerpt": "Your personal body language audit: a comprehensive assessment of your own body language strengths and weaknesses based on all the principles in the book."
+  },
+  {
+   "chapter_id": "ch19",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Putting It All Together",
+   "frame_excerpt": "The Master Matrix combining all body language categories: Hands, Arms, Face, Eyes, Legs, Posture, Space, Objects, and Voice. Each category has sub-signals plotted on a Congruence vs. Context grid."
+  },
+  {
+   "chapter_id": "ch19",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Putting It All Together",
+   "frame_excerpt": "The Final Exam: You enter a room where 5 people are interacting. Each person has a hidden agenda revealed only through their body language. Identify every persons true intentions, relationships, and e"
+  }
+ ]
+}

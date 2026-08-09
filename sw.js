@@ -1,4 +1,4 @@
-﻿const CACHE = 'human-behavior-study-v25';
+﻿const CACHE = 'human-behavior-study-v26';
 const FILES = [
   'index.html','data.js','manifest.json','icons/icon-180.png','icons/icon-192.png','icons/icon-512.png',
   'data/topics/topic-intro-behavior.js','data/topics/topic-behavioral-psych.js','data/topics/topic-social-psych.js',
@@ -7,7 +7,8 @@ const FILES = [
   'data/topics/topic-impression-mgmt.js','data/topics/topic-interpersonal-dynamics.js','data/topics/topic-reading-people.js',
   'data/topics/topic-moral-psychology.js','data/topics/topic-evolutionary-psych.js','data/topics/topic-biological-bases.js',
   'data/topics/topic-attachment-relationships.js','data/topics/topic-existential-humanistic.js','data/topics/topic-body-language-extracted.js',
-  'data/deep-dives.js','data/resources.js',
+  'data/topics/topic-choice-architecture.js','data/topics/topic-dark-triad.js',
+  'data/deep-dives.js','data/concept-map.js','data/resources.js',
   'assets/assetlib-apa_nonverbal.js','assets/assetlib-attached_workbook.js','assets/assetlib-behave.js',
   'assets/assetlib-bowden_truth_lies.js','assets/assetlib-definitive_body_language.js','assets/assetlib-dictionary_body_language.js',
   'assets/assetlib-emotions_revealed.js','assets/assetlib-glass_liars.js','assets/assetlib-influence.js',

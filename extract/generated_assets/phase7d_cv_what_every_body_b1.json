@@ -1,0 +1,683 @@
+{
+ "job": "cultural_variations",
+ "book_id": "what_every_body",
+ "task": "For each asset below, write 1-3 short cross-cultural notes for the gesture / body-language / proximity / eye-contact / touch claim it makes. Purpose: the app shows these as caveats so learners don't over-generalize US/Eurocentric findings. Rules: each note is 4-14 words; each starts with a culture/region; focus on genuine documented variation (e.g. 'Thumbs-up is offensive in Iran and parts of Africa', 'OK hand sign is vulgar in Brazil and Turkey', 'direct eye contact reads as disrespectful in many East Asian and Indigenous cultures', 'personal space is smaller in Latin America and the Middle East', 'head shake gestures mean no in Bulgaria'). If the claim is purely cognitive/psychological with no meaningful cross-cultural gesture variation, use an empty array [] or a single caveat if a mild one applies. Never invent; prefer well-documented examples. Keep all text English.",
+ "schema": {
+  "note": "array of objects, one per asset below, same order",
+  "each_object": {
+   "chapter_id": "string (copy from entry)",
+   "index": "int (copy from entry)",
+   "cultural_variations": [
+    "array of 1-3 short strings, or []"
+   ]
+  },
+  "requirement": "include EVERY entry below exactly once in order; use [] where none apply"
+ },
+ "entries": [
+  {
+   "chapter_id": "foreword",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading I See What You Are Thinking",
+   "frame_excerpt": "An interrogation room where a suspect sits at a table. When the agent mentions an ice pick, the suspects eyelids come down hard and stay down — an eye-blocking response. The UI highlights this split-s"
+  },
+  {
+   "chapter_id": "foreword",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying I See What You Are Thinking in Real Time",
+   "frame_excerpt": "FBI Special Agent Joe Navarro conducts a real interview. The interface shows how he systematically lists weapons while watching the suspects eyes. Each weapon name triggers a different response in the"
+  },
+  {
+   "chapter_id": "foreword",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: I See What You Are Thinking",
+   "frame_excerpt": "Joe Navarros FBI case file describing the ice-pick killer case and other criminal investigations where eye-blocking behavior cracked the case. The file includes frame-by-frame analysis of the critical"
+  },
+  {
+   "chapter_id": "foreword",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: I See What You Are Thinking",
+   "frame_excerpt": "A 3x2 grid showing eye behaviors (blocking, squinting, normal blink) mapped against emotional states (threat recognition, dislike, comfort) and truthfulness indicators."
+  },
+  {
+   "chapter_id": "foreword",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: I See What You Are Thinking",
+   "frame_excerpt": "The FBI Agent Challenge: You are a new FBI recruit learning from Joe Navarro. Interview 4 suspects and identify the one who knows about the crime weapon using only eye-blocking and other limbic cues."
+  },
+  {
+   "chapter_id": "ch01",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Mastering the Secrets of Nonverbal Communication",
+   "frame_excerpt": "A schoolyard scene from Joe Navarros childhood in Cuba, then America. Children interact, and the young Joe observes their faces. The UI highlights eyebrow flashes (recognition/welcome) and eye squinti"
+  },
+  {
+   "chapter_id": "ch01",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Mastering the Secrets of Nonverbal Communication in Real Time",
+   "frame_excerpt": "Young Joe Navarro navigates his first day at an American school without speaking English. The simulation shows how he reads classmates and teachers faces to determine who is friendly and who to avoid."
+  },
+  {
+   "chapter_id": "ch01",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Mastering the Secrets of Nonverbal Communication",
+   "frame_excerpt": "A case file examining how immigrants and travelers use body language to navigate foreign cultures. The audit documents specific nonverbal cues that transcend language barriers and how misreading them "
+  },
+  {
+   "chapter_id": "ch01",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Mastering the Secrets of Nonverbal Communication",
+   "frame_excerpt": "A 3x3 grid of basic nonverbal signals (Eyebrow Arch, Eye Squint, Head Tilt, Open Palm, Crossed Arms) mapped against their meanings in different social contexts (Friendly, Neutral, Hostile)."
+  },
+  {
+   "chapter_id": "ch01",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Mastering the Secrets of Nonverbal Communication",
+   "frame_excerpt": "The Immigrant Navigator: Navigate a new school/country without knowing the language. You must correctly read 10 peoples body language to make friends, avoid bullies, and find your way. Misreading a si"
+  },
+  {
+   "chapter_id": "ch02",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Living Our Limbic Legacy",
+   "frame_excerpt": "An animated cross-section of the human brain showing the three layers: the reptilian brainstem (green, survival functions), the limbic system (red, emotional center), and the neocortex (blue, rational"
+  },
+  {
+   "chapter_id": "ch02",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Living Our Limbic Legacy in Real Time",
+   "frame_excerpt": "A job interview where the candidates limbic system keeps leaking their true anxiety despite their calm words. The UI highlights each pacifying behavior: neck stroke, lip bite, forehead rub. The interf"
+  },
+  {
+   "chapter_id": "ch02",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Living Our Limbic Legacy",
+   "frame_excerpt": "An FBI behavioral analysis report linking specific limbic responses to deceptive or truthful statements. The file documents how freeze responses at specific questions indicate areas of concern."
+  },
+  {
+   "chapter_id": "ch02",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Living Our Limbic Legacy",
+   "frame_excerpt": "A 3x3 grid of limbic responses (Freeze, Pacify, Escape) mapped against specific body parts (Face, Hands, Feet, Torso). Each cell shows examples of the behavior and what it signals."
+  },
+  {
+   "chapter_id": "ch02",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Living Our Limbic Legacy",
+   "frame_excerpt": "The Limbic Interrogation: Interview 3 subjects who each have something to hide. Their limbic systems will betray them through freeze and pacifying responses. Identify each subjects area of concern by "
+  },
+  {
+   "chapter_id": "ch03",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Getting a Leg Up on Body Language — Nonverbals of the Feet and Legs",
+   "frame_excerpt": "A split-screen analysis of people in conversation. The top shows their faces smiling politely. The bottom shows their feet: one persons feet point toward their conversation partner (interested), anoth"
+  },
+  {
+   "chapter_id": "ch03",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Getting a Leg Up on Body Language — Nonverbals of the Feet and Legs in Real Time",
+   "frame_excerpt": "A cocktail party conversation where one persons face shows polite interest but their feet are pointed toward the exit. The simulation teaches you that feet reveal true intentions before any other body"
+  },
+  {
+   "chapter_id": "ch03",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Getting a Leg Up on Body Language — Nonverbals of the Feet and Legs",
+   "frame_excerpt": "An FBI counterintelligence case where foot movements during a debriefing revealed a spies true allegiances. The audit analyzes how observing feet provided critical intelligence that facial expressions"
+  },
+  {
+   "chapter_id": "ch03",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Getting a Leg Up on Body Language — Nonverbals of the Feet and Legs",
+   "frame_excerpt": "A 4x3 grid of leg and foot positions (Happy Feet, Exit Feet, Interested Feet, Anxious Feet; Leg Crossing Types) mapped against emotional states (Excitement, Boredom, Interest, Anxiety, Deception)."
+  },
+  {
+   "chapter_id": "ch03",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Getting a Leg Up on Body Language — Nonverbals of the Feet and Legs",
+   "frame_excerpt": "The Feet-First Investigator: Interrogate 4 suspects whose faces are composed but whose feet reveal the truth. Each suspects feet tell a different story. Identify which suspect is lying based on foot a"
+  },
+  {
+   "chapter_id": "ch04",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Torso Tips — Nonverbals of the Torso, Hips, Chest, and Shoulders",
+   "frame_excerpt": "A dinner table scene where the torso positions of 6 people reveal the social dynamics. Two people lean toward each other with exposed torsos (trust/interest), one leans away with arms crossed (disagre"
+  },
+  {
+   "chapter_id": "ch04",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Torso Tips — Nonverbals of the Torso, Hips, Chest, and Shoulders in Real Time",
+   "frame_excerpt": "A couples therapy session where the partners torso language reveals their true feelings about each other. One leans in with open torso (seeking connection), the other leans back with shoulders hunched"
+  },
+  {
+   "chapter_id": "ch04",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Torso Tips — Nonverbals of the Torso, Hips, Chest, and Shoulders",
+   "frame_excerpt": "A study of courtroom jury behavior showing how torso positioning correlates with verdict preferences. Jurors who lean toward the defense tend to favor acquittal; those who lean away from the prosecuti"
+  },
+  {
+   "chapter_id": "ch04",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Torso Tips — Nonverbals of the Torso, Hips, Chest, and Shoulders",
+   "frame_excerpt": "A 3x3 matrix of torso signals (Lean Forward, Lean Back, Ventral Exposure, Ventral Withdrawal, Shoulder Positions) mapped against engagement levels (High, Medium, Low) and emotional valence (Positive, "
+  },
+  {
+   "chapter_id": "ch04",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Torso Tips — Nonverbals of the Torso, Hips, Chest, and Shoulders",
+   "frame_excerpt": "The Torso Negotiation: You are negotiating a business deal. Your counterpart speaks positively but their torso leans away and their shoulders are turned. Read their torso signals to identify their tru"
+  },
+  {
+   "chapter_id": "ch05",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Knowledge Within Reach — Nonverbals of the Arms",
+   "frame_excerpt": "A presentation room where the speakers arm positions change as their confidence shifts. Arms open wide (confidence/connection), arms crossed (defensive), hands on hips (ready/challenging), arms behind"
+  },
+  {
+   "chapter_id": "ch05",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Knowledge Within Reach — Nonverbals of the Arms in Real Time",
+   "frame_excerpt": "A police interview where the suspects arm positions reveal shifts in their comfort level. When arms are open, they are more cooperative; when arms cross, they become resistant. The UI prompts the inte"
+  },
+  {
+   "chapter_id": "ch05",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Knowledge Within Reach — Nonverbals of the Arms",
+   "frame_excerpt": "An analysis of political debates showing how candidates arm positions affect voter perception. Open arms are perceived as honest and confident; crossed arms or hidden hands are perceived as defensive "
+  },
+  {
+   "chapter_id": "ch05",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Knowledge Within Reach — Nonverbals of the Arms",
+   "frame_excerpt": "A 2x3 grid of arm positions (Open, Crossed, Behind Back, Hands on Hips, One Arm Holding Other) mapped against emotional states and perceived confidence levels."
+  },
+  {
+   "chapter_id": "ch05",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Knowledge Within Reach — Nonverbals of the Arms",
+   "frame_excerpt": "The Arm Signal Interpreter: Watch 5 speakers and identify the moment each one shifts from confident to defensive based solely on arm position changes. Time your interventions to address the hidden con"
+  },
+  {
+   "chapter_id": "ch06",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Getting a Grip — Nonverbals of the Hands and Fingers",
+   "frame_excerpt": "A close-up analysis of hands in various emotional states: steepled fingers (confidence), intertwined hands (frustration/stress), hands in pockets (withholding/deception), palm-up gestures (openness/ho"
+  },
+  {
+   "chapter_id": "ch06",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Getting a Grip — Nonverbals of the Hands and Fingers in Real Time",
+   "frame_excerpt": "A high-stakes business meeting where one executives hands betray his true feelings. He says he agrees with the proposal but his hands are clenched and his fingers are interlaced — a signal of frustrat"
+  },
+  {
+   "chapter_id": "ch06",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Getting a Grip — Nonverbals of the Hands and Fingers",
+   "frame_excerpt": "An FBI deception detection study analyzing hand behaviors during interviews. The study found that suspects who hid their hands during questioning were significantly more likely to be deceptive."
+  },
+  {
+   "chapter_id": "ch06",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Getting a Grip — Nonverbals of the Hands and Fingers",
+   "frame_excerpt": "A 4x4 matrix of hand gestures (Steeple, Palm Up, Palm Down, Pointing, Clenched, Hidden, Thumb Display, Hand-to-Face) mapped against emotions (Confidence, Openness, Aggression, Stress, Deception)."
+  },
+  {
+   "chapter_id": "ch06",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Getting a Grip — Nonverbals of the Hands and Fingers",
+   "frame_excerpt": "The Hand Reader Challenge: 5 people make brief statements. Their hands reveal the truth. Watch their gestures and identify who is lying, who is confident, who is nervous, who is open, and who is hidin"
+  },
+  {
+   "chapter_id": "ch07",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading The Minds Canvas — Nonverbals of the Face",
+   "frame_excerpt": "A face divided into regions: eyes (orbital), nose/mouth (nasolabial), and forehead (brow). Each region lights up when expressing different emotions. The UI demonstrates how the seven universal emotion"
+  },
+  {
+   "chapter_id": "ch07",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying The Minds Canvas — Nonverbals of the Face in Real Time",
+   "frame_excerpt": "A police interview where the suspects face flashes a micro-expression of fear when asked about a specific location. The expression lasts only 1/15 of a second but reveals the emotional significance of"
+  },
+  {
+   "chapter_id": "ch07",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: The Minds Canvas — Nonverbals of the Face",
+   "frame_excerpt": "A compilation of famous cases where micro-expressions revealed concealed emotions: a witness who smiled when describing a crime scene, a suspect who showed contempt when discussing the victim."
+  },
+  {
+   "chapter_id": "ch07",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: The Minds Canvas — Nonverbals of the Face",
+   "frame_excerpt": "A 2x7 grid comparing the seven universal emotions with the facial muscle groups activated for each. Includes example photographs and descriptions of each expressions key features."
+  },
+  {
+   "chapter_id": "ch07",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: The Minds Canvas — Nonverbals of the Face",
+   "frame_excerpt": "The Micro-Expression Gauntlet: 10 faces flash on screen for 1/15 second each. Identify the emotion expressed in each. Progress to longer exposures only after mastering the micro-expression level."
+  },
+  {
+   "chapter_id": "ch08",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Detecting Deception — Proceed with Caution!",
+   "frame_excerpt": "A deception detection dashboard that warns against common pitfalls. The display shows popular myths (liars avoid eye contact, liars fidget) labeled as UNRELIABLE, while more reliable indicators (chang"
+  },
+  {
+   "chapter_id": "ch08",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Detecting Deception — Proceed with Caution! in Real Time",
+   "frame_excerpt": "A courtroom where the witness testimony is being evaluated. The simulation shows how an expert like Joe Navarro would approach it: establish baseline, look for clusters, consider cognitive load, and a"
+  },
+  {
+   "chapter_id": "ch08",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Detecting Deception — Proceed with Caution!",
+   "frame_excerpt": "Joe Navarros professional guide to deception detection: a cautionary document listing the 8 most common mistakes even experienced investigators make when trying to detect lies."
+  },
+  {
+   "chapter_id": "ch08",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Detecting Deception — Proceed with Caution!",
+   "frame_excerpt": "A 3x2 matrix of Deception Indicators (Behavioral Changes, Cognitive Load Signs, Incongruence) vs. Reliability Level (Low, Medium, High) with specific examples of each."
+  },
+  {
+   "chapter_id": "ch08",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Detecting Deception — Proceed with Caution!",
+   "frame_excerpt": "The Deception Adviser: You are teaching a class of new FBI agents about deception detection. Present 5 case studies and guide the class in distinguishing genuine deception indicators from nervous but "
+  },
+  {
+   "chapter_id": "ch09",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Reading Some Final Thoughts",
+   "frame_excerpt": "A summary dashboard showing the key lessons from the book: the story of looking for street signs on the ground (not high up) as a metaphor for body language — the most important signals are where you "
+  },
+  {
+   "chapter_id": "ch09",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Applying Some Final Thoughts in Real Time",
+   "frame_excerpt": "A final integration exercise where you must read a complex social scene using all the books principles. The simulation emphasizes looking at the lower body first, then the torso, then arms, then hands"
+  },
+  {
+   "chapter_id": "ch09",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Deception Audit: Some Final Thoughts",
+   "frame_excerpt": "A personal progress report assessing your body language reading skills before and after the book. The report highlights areas of strength and provides recommendations for continued practice."
+  },
+  {
+   "chapter_id": "ch09",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Classification Matrix: Some Final Thoughts",
+   "frame_excerpt": "A master matrix combining all body regions (Feet, Legs, Torso, Arms, Hands, Face) with the key signals for each and what they indicate across emotional and intentional dimensions."
+  },
+  {
+   "chapter_id": "ch09",
+   "index": 4,
+   "asset_type": "BEHAVIORAL_BOSS_BATTLE",
+   "topic": "Mastery Challenge: Some Final Thoughts",
+   "frame_excerpt": "The Final Observation: You are at a dinner party with 6 people. After 10 minutes of observation, you must answer detailed questions about everyones true feelings, relationships, and intentions based s"
+  },
+  {
+   "chapter_id": "wb01",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: The Tells Identification Lab",
+   "frame_excerpt": "A classroom turned into a giant body billboard; each scene freezes mid-moment with a tell highlighted in a pulsing red ring while a caption names the behavior and a truth-meter swings toward honest."
+  },
+  {
+   "chapter_id": "wb01",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Honest-Language Interrogation",
+   "frame_excerpt": "A windowless FBI interview room split in two: on one side the suspect's story plays as text, on the other his hand traces a glowing red line to the right - the exact direction of the rape scene."
+  },
+  {
+   "chapter_id": "wb01",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Situational Awareness Field Log",
+   "frame_excerpt": "A busy airport terminal overlaid with floating observation tags; a field notebook auto-fills with tell entries while a commandment badge stamps each observation as it is filed."
+  },
+  {
+   "chapter_id": "wb01",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Behavior x Universal-Idiosyncratic x Comfort-Discomfort Grid",
+   "frame_excerpt": "A courtroom wall of cells: each behavior card drops into a row, lights green for universal or blue for idiosyncratic, and stamps COMFORT or DISCOMFORT while the supporting case file slides in beneath "
+  },
+  {
+   "chapter_id": "wb01",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Terry Stop Challenge",
+   "frame_excerpt": "A 1960s Cleveland street at dusk; the two men's repeated passes leave glowing track lines, and each over-the-shoulder glance raises a risk meter until the stop-and-frisk decision clock strikes."
+  },
+  {
+   "chapter_id": "wb02",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: The Triune Brain Scanner",
+   "frame_excerpt": "A cross-section of a cranial vault glows on screen: the reptilian stem, the limbic ring, and the neocortex fold light up in turn as each behavior card is fed through the scanner and stamped HONEST or "
+  },
+  {
+   "chapter_id": "wb02",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Freeze-Flight-Fight Consultation",
+   "frame_excerpt": "A savanna splits into four panels as the modern scenarios slide in; each panel shows the response cascade - freeze, then flight, then fight - lighting up in order like traffic signals of survival."
+  },
+  {
+   "chapter_id": "wb02",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Pacifier Hunt",
+   "frame_excerpt": "An office meeting room with an under-the-table X-ray view: hands slide down thighs in the leg cleanser while a woman's fingers rise to her neck dimple, each pacifier pinged and logged with its trigger"
+  },
+  {
+   "chapter_id": "wb02",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Stressor x Pacifier x Body Region Grid",
+   "frame_excerpt": "A limbic body map on a laboratory wall; each stressor card fires an arrow to its pacifier and body region, while a stress gauge climbs toward the face and neck as the entries escalate."
+  },
+  {
+   "chapter_id": "wb02",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Interview Stress Map",
+   "frame_excerpt": "An FBI interview room with live telemetry: every pacifier pings a stress map on the wall, connecting the question asked to the body region touched, while a probe meter climbs toward the concealed info"
+  },
+  {
+   "chapter_id": "wb03",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: The Under-the-Table Scanner",
+   "frame_excerpt": "A boardroom table rendered transparent: below it, feet glow and animate - bouncing green for happy feet, freezing red at a hard question, kicking amber at a disliked topic - while a ticker names each "
+  },
+  {
+   "chapter_id": "wb03",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Courting Couple Under-Table Read",
+   "frame_excerpt": "A candlelit restaurant table rendered glass: the couple's torsos lean apart above while below their feet stay inches apart, glowing, brushing together like a slow heartbeat under the table."
+  },
+  {
+   "chapter_id": "wb03",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The City Walk Observation Log",
+   "frame_excerpt": "A busy sidewalk where each pedestrian's gait is labeled in floating type - stroll, swagger, plod, prowl - while a couple shakes hands and steps back from each other as a space gauge measures the dista"
+  },
+  {
+   "chapter_id": "wb03",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Leg Position x Context x Meaning Grid",
+   "frame_excerpt": "A courtroom grid with leg silhouettes: each position card slides across contexts - elevator, boardroom, argument, police line - flipping the verdict cell from COMFORT to DISCOMFORT as the scene change"
+  },
+  {
+   "chapter_id": "wb03",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Interrogation Foot-Lock",
+   "frame_excerpt": "An interrogation room seen in cutaway: under the table, the witness's foot telemetry runs like a seismograph - jiggling, then kicking hard at the name 'Clyde' - while a case file in the corner ticks t"
+  },
+  {
+   "chapter_id": "wb04",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Torso Leans, Ventral Fronting, and Denial",
+   "frame_excerpt": "A split-screen video player with a full-body wireframe on the right; a torso angle gauge spins under the frame as each clip plays, and your tag snaps into a green/red verdict meter that scores how hon"
+  },
+  {
+   "chapter_id": "wb04",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Boardroom Ventral Front",
+   "frame_excerpt": "A warm boardroom scene with two characters in facing chairs; a ventral alignment meter between them glows green when their fronts open toward each other and snaps red when one blades off, while your r"
+  },
+  {
+   "chapter_id": "wb04",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Torso Shield Audit",
+   "frame_excerpt": "A nonlinear video editor over a lobby security feed; a timeline fills with shield pins as you scrub, each pin tagging the barrier used (object, arm cross, clothing fix), and a discomfort curve rises i"
+  },
+  {
+   "chapter_id": "wb04",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Torso Cue x Context x Status Grid",
+   "frame_excerpt": "A 12x5 data wall glows cell by cell: rows are torso cues, columns are contexts, and each cell fills green (rapport), red (danger or disrespect), or amber (status-dependent). The splay row and the puff"
+  },
+  {
+   "chapter_id": "wb04",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss: The Billboard Finale",
+   "frame_excerpt": "A dim broadcast studio with a single hot spotlight and a towering scoreboard counting down; clips slam in edge to edge like a news wall, and each correct verdict throws a green pulse across the stage "
+  },
+  {
+   "chapter_id": "wb05",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Gravity and Arm Motion",
+   "frame_excerpt": "A split-screen video player with a wireframe arm skeleton on the right; an energy meter above the frame spikes with each gravity-defying gesture and drains on droops, while your verdict locks into a r"
+  },
+  {
+   "chapter_id": "wb05",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Restrained Arms Protocol",
+   "frame_excerpt": "A split-screen conversation scene with two characters; each carries an arm-restraint meter that climbs when arms withdraw or freeze, and your reply options float as thought-bubbles while a pacifier ga"
+  },
+  {
+   "chapter_id": "wb05",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Regal Stance Review",
+   "frame_excerpt": "A courtroom-style review board: each clip freezes into a still with a numbered arm-pose label, and you drag it into an 'isolating / territorial / defensive / neutral' verdict column while a territory "
+  },
+  {
+   "chapter_id": "wb05",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Arm Display x Status x Setting Grid",
+   "frame_excerpt": "A 12x5 data wall glows cell by cell: rows are arm displays, columns are settings, and each cell fills green (works), red (backfires), or amber (status-dependent). The arms-akimbo row and the hooding r"
+  },
+  {
+   "chapter_id": "wb05",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss: The Arm Bar Gauntlet",
+   "frame_excerpt": "A dim broadcast studio, a single hot spotlight, and a towering scoreboard counting down; clips slam in edge to edge like a news wall, and each correct verdict throws a green pulse across the stage whi"
+  },
+  {
+   "chapter_id": "wb06",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Palm, Point, and Steeple Basics",
+   "frame_excerpt": "A split-screen video player with a glowing hand-mesh on the right; a confidence bar tracks each display's rise and fall as the clip plays, and your tag locks into a running accuracy meter before the c"
+  },
+  {
+   "chapter_id": "wb06",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Handshake and the Greeting",
+   "frame_excerpt": "A bright lobby scene with two characters approaching each other; a grip-strength meter and a cultural-appropriateness dial spin as hands meet, and your greeting options float as thought-bubbles over y"
+  },
+  {
+   "chapter_id": "wb06",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Tremor and Freeze Log",
+   "frame_excerpt": "A nonlinear video editor over three camera feeds; a timeline fills with hand-tell pins as you scrub, each pin tagged with its class (tremor, freeze, wring, interlace, rub), and a stress curve climbs w"
+  },
+  {
+   "chapter_id": "wb06",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Hand Cue x Confidence x Context Grid",
+   "frame_excerpt": "A 12x5 data wall glows cell by cell: rows are hand cues, columns are contexts, and each cell fills green (high confidence), red (low confidence or danger), or amber (context-dependent). The steeple ro"
+  },
+  {
+   "chapter_id": "wb06",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss: The Microgesture Gauntlet",
+   "frame_excerpt": "A dim broadcast studio, a single hot spotlight, and a towering scoreboard counting down; clips slam in edge to edge like a news wall, each correct verdict throwing a green pulse across the stage while"
+  },
+  {
+   "chapter_id": "wb07",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: The Face's Tension and Comfort Tells",
+   "frame_excerpt": "A portrait gallery where each face is dissected into glowing zone overlays - jaw, nose, eyes, mouth, forehead - that light up as their tension cues fire. A comfort/tension gauge pivots under every fac"
+  },
+  {
+   "chapter_id": "wb07",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: Squint, Blink, and Brow in Conversation",
+   "frame_excerpt": "A split-screen office: on the left the negotiator's script with flagged trigger lines, on the right the counterpart's face rendered as a live map where squints flash red, flutters strobe, and brow rai"
+  },
+  {
+   "chapter_id": "wb07",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Smile and Mouth Tell Log",
+   "frame_excerpt": "A timeline journal where each conversation draws a mouth-state strip: full lips as a green band, compression as red dips, and the upside-down U as a deep red spike. Each event is tagged with the exact"
+  },
+  {
+   "chapter_id": "wb07",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Facial Zone x Emotion x Context Grid",
+   "frame_excerpt": "A wall-sized matrix on three axes; populating a cell summons a labeled case snapshot - the cashier's frown, the arrested man led past reporters, the French politician's haughty nose raise on televisio"
+  },
+  {
+   "chapter_id": "wb07",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Face's Final Verdict",
+   "frame_excerpt": "A dark evidence room where each clip slams into a decision booth; a freeze-frame fuse burns down while four zone badges - EYES, MOUTH, BROW, CHIN - light up as their tells fire. Your verdict stamp sla"
+  },
+  {
+   "chapter_id": "wb08",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Discomfort Signals in the Interview Room",
+   "frame_excerpt": "A video wall of interrogation clips where each suspect's body renders with distance tracks - lean-away arrows, foot-slide vectors, and barrier-growth bars - while a running caption reminds you that st"
+  },
+  {
+   "chapter_id": "wb08",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Comfort-Zone Interrogation",
+   "frame_excerpt": "A two-panel interview room: the interviewer's question cards on the left, the subject's live body map on the right where comfort shows as synchronized breathing waves and isopraxis mirror lines - and "
+  },
+  {
+   "chapter_id": "wb08",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Pacifier Spike Log",
+   "frame_excerpt": "A scrolling interview timeline with a pacifier baseline drawn as a flat line and each spike as a red mountain labeled with the trigger question. A two-phase overlay shows the distancing moment in blue"
+  },
+  {
+   "chapter_id": "wb08",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Comfort x Synchrony x Emphasis Grid",
+   "frame_excerpt": "A courtroom evidence wall with three glowing axes; each case snapshot you place casts a shadow across the grid that either lines up with truth or bends out of line. Cells where all three axes agree pu"
+  },
+  {
+   "chapter_id": "wb08",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Palm-Down Verdict",
+   "frame_excerpt": "A dim deposition room where each statement arrives as a hologram: palm orientation renders as glowing shields - up shields flicker gold, down shields sit solid - while posture renders as body wirefram"
+  },
+  {
+   "chapter_id": "wb09",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Ground-Level Signs - The Two Languages of the Body",
+   "frame_excerpt": "A strange street at dusk where glowing street signs hang on poles while six-inch stone blocks sit at ground level, half-hidden by grass; every clip drops a human figure between them and you pin each b"
+  },
+  {
+   "chapter_id": "wb09",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Street-Corner Orientation",
+   "frame_excerpt": "A gas station counter by day and the same corner by night: the traveler's car idles while a dialogue tree hangs like a menu board; on the street, pole signs glow high while stone-block signs wait in t"
+  },
+  {
+   "chapter_id": "wb09",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Observer's Sign-System Inventory",
+   "frame_excerpt": "A split-screen journal: the left track logs spoken content as pole-signs, the right track renders the same conversation as ground-level body pins that multiply on the re-watch pass. A 'before and afte"
+  },
+  {
+   "chapter_id": "wb09",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Sign Type x Location x Setting Grid",
+   "frame_excerpt": "A library wall where the grid renders like a city map: pole signs stand tall above each setting while ground-level signs nestle at pavement height, glowing only after you place them. Completed cells s"
+  },
+  {
+   "chapter_id": "wb09",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Coral Gables Final Exam",
+   "frame_excerpt": "A night city of unmarked intersections: each clip drops a glowing figure at a corner and a compass of verdicts spins around it; correct calls light the six-inch stone blocks under the figure's feet, o"
+  }
+ ]
+}

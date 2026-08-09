@@ -1,0 +1,718 @@
+{
+ "job": "cultural_variations",
+ "book_id": "definitive_body_language",
+ "task": "For each asset below, write 1-3 short cross-cultural notes for the gesture / body-language / proximity / eye-contact / touch claim it makes. Purpose: the app shows these as caveats so learners don't over-generalize US/Eurocentric findings. Rules: each note is 4-14 words; each starts with a culture/region; focus on genuine documented variation (e.g. 'Thumbs-up is offensive in Iran and parts of Africa', 'OK hand sign is vulgar in Brazil and Turkey', 'direct eye contact reads as disrespectful in many East Asian and Indigenous cultures', 'personal space is smaller in Latin America and the Middle East', 'head shake gestures mean no in Bulgaria'). If the claim is purely cognitive/psychological with no meaningful cross-cultural gesture variation, use an empty array [] or a single caveat if a mild one applies. Never invent; prefer well-documented examples. Keep all text English.",
+ "schema": {
+  "note": "array of objects, one per asset below, same order",
+  "each_object": {
+   "chapter_id": "string (copy from entry)",
+   "index": "int (copy from entry)",
+   "cultural_variations": [
+    "array of 1-3 short strings, or []"
+   ]
+  },
+  "requirement": "include EVERY entry below exactly once in order; use [] where none apply"
+ },
+ "entries": [
+  {
+   "chapter_id": "df00",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: See-What's-Really-There Scanner",
+   "frame_excerpt": "A hotel lobby illusion with hanging plants: guests mistake their own mirror reflection for a stranger. A HUD labels each misread - 'fat, ugly guy?' - while the true signal lights up in green."
+  },
+  {
+   "chapter_id": "df00",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Rubber-Sponge Sales Call",
+   "frame_excerpt": "A front doorstep at dusk; the homeowner says 'go away' softly while their hands glow - open palms green (persist), pointed finger red (leave)."
+  },
+  {
+   "chapter_id": "df00",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The 15-Minute Body Language Watch",
+   "frame_excerpt": "An airport arrival gate: travelers embrace, wave, fume, and pace while a stopwatch ticks 15:00 and a notebook auto-fills with gesture entries and accuracy stamps."
+  },
+  {
+   "chapter_id": "df00",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Words x Body Signals x Verdict Grid",
+   "frame_excerpt": "A courtroom wall with three columns: WORDS | BODY | VERDICT. A cold bus-terminal scene slides behind the gesture column and flips a verdict from 'defensive' to 'cold'."
+  },
+  {
+   "chapter_id": "df00",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Cold Reading Table",
+   "frame_excerpt": "A dim, smoke-filled room with a jewel-encrusted turban, a moon-shaped table, and a crystal ball; each client's micro-reactions light up like a telemetry feed and an accuracy meter climbs toward 80 per"
+  },
+  {
+   "chapter_id": "df01",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Gesture Cluster Reader",
+   "frame_excerpt": "A stream of silhouettes; each gesture snaps on as a word-chip to build a sentence on a ticker: 'legs crossed + arm crossed + chin down = I disagree.'"
+  },
+  {
+   "chapter_id": "df01",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The 'Intuitive Feeling' Interview",
+   "frame_excerpt": "A split-screen interview room; on replay, the left side of the applicant's face flashes a sneer in freeze-frame while the interviewer's hunch meter spikes."
+  },
+  {
+   "chapter_id": "df01",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Sound-Off TV Reading Log",
+   "frame_excerpt": "A muted TV screen with a notepad column of predictions beside it; each unmute slams correct or incorrect stamps onto the log as the show runs."
+  },
+  {
+   "chapter_id": "df01",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Inborn vs. Learned x Gesture x Evidence",
+   "frame_excerpt": "A two-axis laboratory chart - one axis BLIND AND PRIMATE EVIDENCE, the other CULTURE - where gesture cards drop into quadrants as their evidence is weighed."
+  },
+  {
+   "chapter_id": "df01",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Confession Video Review",
+   "frame_excerpt": "A video-editing suite frozen at 25 percent speed; a timeline slider hunts the sneer frame while a phone line to the former employer hums onscreen and a decision clock ticks."
+  },
+  {
+   "chapter_id": "df02",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Palm Power Command Scanner",
+   "frame_excerpt": "A stadium of frozen lecturers mid-gesture; a scoreboard tallies 84% for Palm-Up, 52% for Palm-Down, and 28% for Finger-Pointed as each pose is scanned."
+  },
+  {
+   "chapter_id": "df02",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Power Handshake Counter",
+   "frame_excerpt": "A mirror suite of two figures shaking hands; your left-foot step shifts the grip from red (dominant) to green (equal) on a pressure gauge."
+  },
+  {
+   "chapter_id": "df02",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Handshake Census Field Log",
+   "frame_excerpt": "A crowded reception line; each handshake freezes briefly, tagged with a rating card and a verdict stamp while a footstep counter tracks left versus right foot."
+  },
+  {
+   "chapter_id": "df02",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Worst Handshake x Credibility x Counter",
+   "frame_excerpt": "A museum of eight glass cases, each holding a frozen handshake statue; rating plaques glow 1/10, 4/10, 0/10, 2/10, 3/10, 3/10, 4/10, 2/10 as you tabulate."
+  },
+  {
+   "chapter_id": "df02",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Photo-Op Power Game",
+   "frame_excerpt": "A split newsroom; two famous handshake photos freeze, annotated with arrows showing feet, grip angle, and who owns the left side, while your silhouette walks into the frame."
+  },
+  {
+   "chapter_id": "df03",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Genuine vs. Fake Smile Detector",
+   "frame_excerpt": "A wall of 12 portraits; a magnifier hovers over the eyes as the HUD scores orbicularis oculi contraction against the mouth's zygomatic pull."
+  },
+  {
+   "chapter_id": "df03",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Smuggler's Interrogation",
+   "frame_excerpt": "A customs booth; a body-cam line chart plots smile frequency over the interview - the innocent's line climbs, the smuggler's flatlines, and a search/no-search stamp waits."
+  },
+  {
+   "chapter_id": "df03",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Smile Type Census Log",
+   "frame_excerpt": "A park café scene; every smile is tagged with a colored label as it happens while a running counter divides the total by type and by gender."
+  },
+  {
+   "chapter_id": "df03",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Smile Type x Situation x Signal",
+   "frame_excerpt": "A four-faced rotating die; each face is a situation. Smile cards slide through it and emerge stamped with the message each situation actually receives."
+  },
+  {
+   "chapter_id": "df03",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: Direct the Laughter Room",
+   "frame_excerpt": "A cheerful hospital ward with a clown at the door; a vitals board tracks patient mood, painkiller counts, and a bell curve of laughs per session as stay length shrinks."
+  },
+  {
+   "chapter_id": "df04",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Arm Barrier Decoder",
+   "frame_excerpt": "A council chamber rendered in wireframe; seated figures pop in one by one, each frozen in an arm position. A targeting reticle sweeps the crowd while a label bar asks: HOSTILE, DEFENSIVE, SELF-HUG, OR"
+  },
+  {
+   "chapter_id": "df04",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Uncrossed Pitch",
+   "frame_excerpt": "A boardroom split-screen: the prospect's arms are locked across his chest while a live decoder reads 'BARRIER ACTIVE.' A tray of props (pen, brochure, sample) waits for your click to break the pose."
+  },
+  {
+   "chapter_id": "df04",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Arm Cluster Log",
+   "frame_excerpt": "A day-timeline board fills with stick figures in arm poses, each tagged with a location and a sentiment meter. Bars tally OPEN vs. CLOSED postures across your day."
+  },
+  {
+   "chapter_id": "df04",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Arm Gesture x Context x Message",
+   "frame_excerpt": "A split-room scene: royals, celebrities, and delegates each perform their disguised barrier. Clicking a figure reveals the 'true' gesture beneath - the hidden arm-cross that gives the game away."
+  },
+  {
+   "chapter_id": "df04",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Council Chamber Debate",
+   "frame_excerpt": "A packed council chamber; a heat-map of crossed arms spreads across both factions as each side speaks. You must break the barrier with the right move before the gesture cluster locks the room negative"
+  },
+  {
+   "chapter_id": "df05",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Global Gesture Decoder",
+   "frame_excerpt": "A world map with a rotating gesture icon; each country highlights with its local meaning while a ticker runs the history of the sign. A dial asks you to lock in the reading before the plane icon lands"
+  },
+  {
+   "chapter_id": "df05",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Foreign Handshake",
+   "frame_excerpt": "A revolving door of delegates approaches; each handshake is rendered as a pump counter. A scoreboard tracks POMP-CORRECT vs. POMP-DISASTER as you match greeting to culture."
+  },
+  {
+   "chapter_id": "df05",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Cultural Touch Log",
+   "frame_excerpt": "A stopwatch overlay counts touches per hour as café pairs talk; flags plant on a world map as each tally matches its city. A verdict banner reads: WHERE ARE YOU THE EASIEST TOUCH?"
+  },
+  {
+   "chapter_id": "df05",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Gesture x Country x Meaning",
+   "frame_excerpt": "A spreadsheet of flags and gesture icons; cells flip between GREEN (correct local reading) and RED (diplomatic incident). A passport-stamp counter rewards each correct placement."
+  },
+  {
+   "chapter_id": "df05",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Tokyo Summit",
+   "frame_excerpt": "A minimalist Japanese boardroom; your host bows with a depth meter while your delegation's handkerchiefs glow red as hazards. Every polite hai scrolls past with its true translation underneath."
+  },
+  {
+   "chapter_id": "df06",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Hand and Thumb Scanner",
+   "frame_excerpt": "A surgical scan of two hands; gestures render in glowing wireframe with position markers. A confidence meter swings as each pose is tagged - from welded-finger frustration to steepled smugness."
+  },
+  {
+   "chapter_id": "df06",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Property Pitch",
+   "frame_excerpt": "An open-house living room; the agent's palms glow with a speedometer. The camera zooms on the rub as a subtitle flashes: WHOSE BENEFIT IS THIS?"
+  },
+  {
+   "chapter_id": "df06",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Thumb Display Log",
+   "frame_excerpt": "A street-level camera follows pedestrians; thumbs render as glowing markers whenever they protrude. A status bar ranks each displayer - from vagrant to waistcoat thruster."
+  },
+  {
+   "chapter_id": "df06",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Hand Gesture x Position x Reading",
+   "frame_excerpt": "A pose laboratory with an adjustable mannequin; dragging the hands to new positions recalculates the reading and the emotional meter beneath."
+  },
+  {
+   "chapter_id": "df06",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Chess Gambit",
+   "frame_excerpt": "A marble chessboard between two players; your hand hovers over pieces while your opponent's fingers form tells above the board. A confidence readout ticks with every move you hold."
+  },
+  {
+   "chapter_id": "df07",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Deceit Gesture Scanner",
+   "frame_excerpt": "A polygraph-style scanner trains on a face; hand-to-face movements freeze in amber frames while a classification wheel spins. A verdict light flashes LIE CLUSTER or BENIGN ITCH."
+  },
+  {
+   "chapter_id": "df07",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Lying Interviewee",
+   "frame_excerpt": "An interview desk across a glaring light; the candidate's face is a live cue-map with eye-rub and nose-touch hotspots pulsing. A HIRE / REJECT dial waits for your evidence-based verdict."
+  },
+  {
+   "chapter_id": "df07",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Evaluation vs Boredom Log",
+   "frame_excerpt": "An auditorium heat-map over the crowd; each listener's hand position re-scores their seat from GREEN (interest) to RED (snoring). A presenter's morale bar drains as boredom spreads."
+  },
+  {
+   "chapter_id": "df07",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Hand-to-Face x Situation x Reading",
+   "frame_excerpt": "A three-panel situational grid; the same gesture lands differently in each panel. Cells tint RED for deceit, AMBER for doubt, BLUE for boredom, and GREEN for decision-making."
+  },
+  {
+   "chapter_id": "df07",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: Beat Bob at Chess",
+   "frame_excerpt": "A video room replays Bob's old games in slow motion while a live board sits between you. Bob's hands hover over pieces; his tells flash on the replay screen as your winning moves queue up."
+  },
+  {
+   "chapter_id": "df08",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: The Pupil Dilation Range",
+   "frame_excerpt": "A dark portrait studio where only two enormous floating eyes fill the screen; the pupils slowly bloom or shrink like camera apertures, and you snap a verdict tag onto a dilation gauge running from 'be"
+  },
+  {
+   "chapter_id": "df08",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Two-Second Gaze Exchange",
+   "frame_excerpt": "A crowded party scene viewed from across the room; the gaze lands on you in a glowing two-to-three-second hold, a counter ticks down, and a small 'signal intended' flash lights the face the moment you"
+  },
+  {
+   "chapter_id": "df08",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Liar's Gaze Autopsy",
+   "frame_excerpt": "A video wall of split-screen interview recordings; each witness's gaze track draws a line across the screen showing exactly when their eyes left the interviewer, while a lie-detection scoreboard talli"
+  },
+  {
+   "chapter_id": "df08",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Gaze Zone x Encounter x Outcome Grid",
+   "frame_excerpt": "A holographic face splits into three glowing triangles - eyes to mouth, eyes to chest, and the third eye on the forehead - while a decision grid lights green or red for every zone-and-encounter pairin"
+  },
+  {
+   "chapter_id": "df08",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss: The Interview Gaze Gauntlet",
+   "frame_excerpt": "A boardroom straight out of the Peases' filming set: a handshake freezes for a two-second countdown, the candidate drops her gaze to a briefcase while the interviewer's eyes roam her appearance, and a"
+  },
+  {
+   "chapter_id": "df09",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: The Four Zone Distances",
+   "frame_excerpt": "A white studio floor painted with four glowing concentric rings; each clip drops two avatars into the rings at their measured distance and you pin the zone label onto the gap between them while a vita"
+  },
+  {
+   "chapter_id": "df09",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Elevator Masking Challenge",
+   "frame_excerpt": "A cramped elevator cabin seen from the ceiling, six commuters frozen in the ritual - faces blank, eyes on the glowing floor-number strip - while your avatar must hold every rule as the doors open and "
+  },
+  {
+   "chapter_id": "df09",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Cultural Space-Attack Autopsy",
+   "frame_excerpt": "A split-screen club scene with distance overlays drawn between the couple and the Australian members; a timeline marks each moment the ten-inch gap breached the eighteen-inch line, while a fast-forwar"
+  },
+  {
+   "chapter_id": "df09",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Origin x Bubble Size x Handshake Grid",
+   "frame_excerpt": "A map of a continent scales from city blocks to open farmland; each origin marker drops a numbered bubble around the avatar, and a handshake reach animates wrist-to-torso as the correct greeting snaps"
+  },
+  {
+   "chapter_id": "df09",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss: The Territory Defense Gauntlet",
+   "frame_excerpt": "A dining table seen from above: salt, pepper, sugar, and flowers march across the center line in sequence while your lunchmate's reaction meter swings between 'sits back' and 'pushes it all back'; beh"
+  },
+  {
+   "chapter_id": "df10",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: The Four Standing Positions",
+   "frame_excerpt": "A gesture-capture grid where four standing mannequins hold the four positions in glowing wireframe; each clip drops a figure onto the grid and you slam the stance label onto its feet while a compass a"
+  },
+  {
+   "chapter_id": "df10",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Ankle Lock Interrogation",
+   "frame_excerpt": "A phone-bank cubicle under a desk-cam view: ankles locked beneath the chair, the voice track reads 'Fine! It's a lot of fun' while a contradiction meter spikes, and the unlock moment triggers open pal"
+  },
+  {
+   "chapter_id": "df10",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Figure Four Debate Autopsy",
+   "frame_excerpt": "A conference hall in aerial view with audience avatars color-coded by posture: a defensive red sweep ripples across the managers' block, then an amber Figure Four wave replaces it in unison like an or"
+  },
+  {
+   "chapter_id": "df10",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Leg Gesture x Attitude x Countermove Grid",
+   "frame_excerpt": "A three-column matrix of seated figures: each leg posture renders as a wireframe mannequin in its own cell, the attitude reads out beneath it, and a countermove card slides in showing the figure's leg"
+  },
+  {
+   "chapter_id": "df10",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss: The Leg-Truth Lie Gauntlet",
+   "frame_excerpt": "A split-view interrogation room with under-desk cameras: each manager's legs glow brighter with every lie-induced movement while a foot-movement counter ticks up; a row of desks in front of you - soli"
+  },
+  {
+   "chapter_id": "df11",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: The Head Gesture Spectrum",
+   "frame_excerpt": "A row of neck-up mannequin heads on a rotating turntable; each clip freezes the head at its angle and you snap a meaning tag onto the neck, while a world map beneath lights the cultures where that exa"
+  },
+  {
+   "chapter_id": "df11",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Three-Nod Rapport Loop",
+   "frame_excerpt": "A split-screen conversation: your nodding head renders as a metronome whose speed knob you turn, a talk-time bar on the other speaker triples with slow triple-nods, and every 'Fair enough?' you land g"
+  },
+  {
+   "chapter_id": "df11",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Displacement Gesture Autopsy",
+   "frame_excerpt": "A boardroom freeze-frame where a lint speck glows on the manager's lapel as his fingers pluck at nothing; a transcript underneath reads 'sounds like agreement' while a gesture-meter reads 'disapproval"
+  },
+  {
+   "chapter_id": "df11",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Readiness Gesture x Attitude x Countermove Grid",
+   "frame_excerpt": "A gymnasium-style grid of fighting stances: each gesture renders as a mannequin with threat-value elbow spikes and a dominance meter, and the right countermove plays as an animated disarm sequence tha"
+  },
+  {
+   "chapter_id": "df11",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss: The Catapult Dominance Gauntlet",
+   "frame_excerpt": "A boardroom face-off: the Catapulter looms behind his desk with elbows splayed into spiked shadows while a timer circles his head; each correct countermove makes him drop his arms, and a wrong one add"
+  },
+  {
+   "chapter_id": "df12",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Rapport Mirror Scanner",
+   "frame_excerpt": "A split-view surveillance wall of paired people; each pair is overlaid with glowing match-lines linking their shoulders, feet, and hand positions, and an echo meter shows how in sync their gestures ar"
+  },
+  {
+   "chapter_id": "df12",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Pay-Raise Meeting",
+   "frame_excerpt": "A manager's office rendered in cool blue tones; the manager leans back in the Catapult with a Figure Four while a mirror-ripple effect shows what happens to his expression each time you choose to copy"
+  },
+  {
+   "chapter_id": "df12",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Who Mirrors Whom",
+   "frame_excerpt": "A photo-analysis desk with four celebrity photos pinned up; red arrows trace the mirroring lines between each pair and a verdict stamp - HE LEADS or SHE LEADS - slams down over each frame."
+  },
+  {
+   "chapter_id": "df12",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Mirroring Cue x Context x Outcome",
+   "frame_excerpt": "A 10x3 matrix grid of glowing cells; each filled cell plays a micro-clip - a couple mid-flirtation, a mob mirroring rage, a jury registering contempt - and a rapport meter swings from BROKEN to LOCKED"
+  },
+  {
+   "chapter_id": "df12",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Boardroom Echo",
+   "frame_excerpt": "A dark boardroom with two facing tables; your team's gestures ripple in unison like a flock of starlings while the rivals' faces flicker with suspicion and the vote-tracker ticks live on the wall."
+  },
+  {
+   "chapter_id": "df13",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Prop Signal Classifier",
+   "frame_excerpt": "A prop-table diorama where each item glows as it is handled; a readout stamps each clip - TENSION RITUAL, POWER FRAME, REASSURANCE SUCK - while a stress gauge tracks the gesture's intensity."
+  },
+  {
+   "chapter_id": "df13",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Closing-Time Decision",
+   "frame_excerpt": "A boardroom table at the close of a deal; every time the buyer raises the glasses to her lips, time slows and a menu of response options appears around her head, each one shifting the mood-light from "
+  },
+  {
+   "chapter_id": "df13",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Four-Assistant Study",
+   "frame_excerpt": "Four merchandise tables in a seminar hall, each with a different assistant; customer conversation bubbles float up and drop adjective tokens - CONFIDENT, COLD, CONCEITED - into each assistant's scorin"
+  },
+  {
+   "chapter_id": "df13",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Prop Signal x Context x Read",
+   "frame_excerpt": "A 10x3 grid where each cell resolves into a mini-scene - a poker player drawing smoke upward after a bad-hand act, a buyer folding his glasses away - with a counter-move icon flashing in the corner."
+  },
+  {
+   "chapter_id": "df13",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Cigar-Room Close",
+   "frame_excerpt": "A wood-paneled cigar room with smoke drifting in layered wisps; each exhale gets traced by a laser line - UP is green, DOWN is red - and an extinguish-counter chimes the moment his decision window ope"
+  },
+  {
+   "chapter_id": "df14",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Body Angle and Foot Pointer",
+   "frame_excerpt": "An isometric party scene with orientation arrows rising from each person's feet and chest; every body angle gets labeled - OPEN 45, CLOSED 0, EXIT-POINTING - while a formation net draws the triangles "
+  },
+  {
+   "chapter_id": "df14",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Doorway Hold",
+   "frame_excerpt": "A doorway in golden hour light; the listener's orientation arrow flickers between you and the corridor, and each dialogue choice you make rotates his body angle by a few degrees until a full triangle "
+  },
+  {
+   "chapter_id": "df14",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Cocktail Party Triangles",
+   "frame_excerpt": "A black-and-white party photograph analyzed in layers; the audit pen draws triangles and squares over the guests, stamps EXCLUDED over the odd one out, and plays the tight-lipped-smile moment on loop."
+  },
+  {
+   "chapter_id": "df14",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Pointing Cue x Formation x Read",
+   "frame_excerpt": "A 10x3 matrix of orientation arrows that re-forms live into triangles, squares, and closed pairs as you fill each cell, with an intent readout - INTERESTED, NEUTRAL, LEAVING - stamped beneath every co"
+  },
+  {
+   "chapter_id": "df14",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Closed Circle",
+   "frame_excerpt": "A bistro table with two diners angled into a sealed zero-degree circle around you; your seating options glow as ghost chairs and a comfort meter shows how much longer the couple's tight-lipped smiles "
+  },
+  {
+   "chapter_id": "df15",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: The Thirteen Courtship Signals",
+   "frame_excerpt": "A gallery of thirteen animated display mannequins, each performing its gesture on a turntable; a pheromone-trail particle effect drifts from hair flicks and wrist flashes toward a silhouette of the ta"
+  },
+  {
+   "chapter_id": "df15",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: Graham's First Move",
+   "frame_excerpt": "A party scene seen through Graham's eyes; a stage-tracker at the bottom lights up STAGE 1 EYE CONTACT through STAGE 5 TOUCH, and women in the crowd glow green when their availability signals match the"
+  },
+  {
+   "chapter_id": "df15",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: The Beach Approach",
+   "frame_excerpt": "A beach in slow motion with the two figures approaching; a vitals-style HUD tracks each body's tone, posture, and gait values, which spike as the gaze meets and flatline once they pass."
+  },
+  {
+   "chapter_id": "df15",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Courtship Signal x Stage x Gender",
+   "frame_excerpt": "A 10x3 matrix styled as a dance floor; each signal lights a stage number and a gender glyph, and filling a row animates the matched male-female exchange with a chemistry meter climbing toward the gree"
+  },
+  {
+   "chapter_id": "df15",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Five-Stage Attraction",
+   "frame_excerpt": "A neon club floor with a stage-progress bar glowing through the five stages; each of her thirteen signals flashes a green chip when read correctly, and a misread chips away at the rapport meter until "
+  },
+  {
+   "chapter_id": "df16",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Territory Claim Scanner",
+   "frame_excerpt": "A scanner renders each scene as a property map; claimed objects glow around their owner while uninvited leaners paint the target red with a warning: OFFICIAL PROPERTY - UNAUTHORIZED LEAN."
+  },
+  {
+   "chapter_id": "df16",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Borrowed Chair",
+   "frame_excerpt": "A living room staged like a property deed; every seat is labeled with its invisible owner. The wrong chair flashes a mortgage foreclosure on your relationship meter."
+  },
+  {
+   "chapter_id": "df16",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Height Advantage Log",
+   "frame_excerpt": "A ledger of power photographs; each entry shows two silhouettes with a height dial. Your countermoves - sit the Hulk low, walk to the window - re-draw the silhouettes equal."
+  },
+  {
+   "chapter_id": "df16",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Height Signal x Context x Status Effect",
+   "frame_excerpt": "A 3D chessboard of platforms and pits; each tactic lifts or sinks a silhouette on the status axis, with a risk dial - slouch scores dominance at home but self-harm in the office."
+  },
+  {
+   "chapter_id": "df16",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Doorway Showdown",
+   "frame_excerpt": "Your office rendered as a medieval keep; the rival looms at the gate. Each countermove raises your banner higher on the wall until the final round hangs in the balance."
+  },
+  {
+   "chapter_id": "df17",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Table Position Decoder",
+   "frame_excerpt": "A top-down table map renders each seat as a labeled zone: corner booths glow cooperative, face-offs flash gunslinger red, and the far diagonal blinks noninvolvement blue."
+  },
+  {
+   "chapter_id": "df17",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Three-Seat Problem",
+   "frame_excerpt": "A triangular dinner table seen from above; your gaze path draws a braided thread between A and B, knitting the silent guest back into the conversation web."
+  },
+  {
+   "chapter_id": "df17",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Meeting Seating Map",
+   "frame_excerpt": "A meeting room seen from a ceiling camera; name badges sit on the seats like cards on a battlefield, and a wins/losses tally grows at the corner of the map."
+  },
+  {
+   "chapter_id": "df17",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Table Shape x Group Type x Power Outcome",
+   "frame_excerpt": "A shape-shifting table morphs beneath each group silhouette; power bars tilt toward the head seat or flatten into a circle of equals as the layout changes."
+  },
+  {
+   "chapter_id": "df17",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Dinner Decision",
+   "frame_excerpt": "A candlelit restaurant from above; you drag chairs, screens, and plants into place like a stage director, while a readiness meter ticks down as the wine pours."
+  },
+  {
+   "chapter_id": "df18",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Interview Power Play Scanner",
+   "frame_excerpt": "An office rendered as a status machine: chair backs grow into thrones, visitor chairs sink toward the floor, and the desk snaps open as a barrier between the silhouettes."
+  },
+  {
+   "chapter_id": "df18",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Fifteen-Second First Impression",
+   "frame_excerpt": "The interview room as a speedrun stage: a fifteen-second countdown clock burns above the door while your posture scores tick up with each correct move."
+  },
+  {
+   "chapter_id": "df18",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Power Play Field Notes",
+   "frame_excerpt": "A dossier of micro-skirmishes; each entry pins a snapshot with a verdict stamp - PLAYED, COUNTERED, or AVOIDED - building your personal field manual."
+  },
+  {
+   "chapter_id": "df18",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Gesture x Status x Context Response",
+   "frame_excerpt": "A 8x4 behavior grid glows like a flight instrument panel; high-status moves light green, leaks flash amber, and the James Bond row sits perfectly still."
+  },
+  {
+   "chapter_id": "df18",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The John's Office Fix",
+   "frame_excerpt": "A diorama office you rebuild from scratch: the desk slides in front of the glass, the partition turns to one-way mirror, and the visitor's chair swings to the corner position while the room resets fro"
+  },
+  {
+   "chapter_id": "df19",
+   "index": 0,
+   "asset_type": "CUE_SCRUBBER_STATION",
+   "topic": "Cue Scrubber: Cluster Reader Trainer",
+   "frame_excerpt": "Sixteen framed photographs hang like evidence boards; each scan drags a magnifying glass over the scene and pins numbered tags to every signal it finds."
+  },
+  {
+   "chapter_id": "df19",
+   "index": 1,
+   "asset_type": "DYNAMIC_DIALOGUE_SIM",
+   "topic": "Dialogue: The Cocktail Triangle",
+   "frame_excerpt": "A smoky bar scene from the chapter's photo test; courtship arrows trace between the pair while the excluded man's Starter's Position points him toward the exit door."
+  },
+  {
+   "chapter_id": "df19",
+   "index": 2,
+   "asset_type": "DECEPTION_AUDIT_FILE",
+   "topic": "Audit: Signal-Tally Scorecard",
+   "frame_excerpt": "A scorecard ledger from 130 down to 70; your first tally lands mid-range, and a week later the second bar climbs toward 'Holy intuition, Batman!'"
+  },
+  {
+   "chapter_id": "df19",
+   "index": 3,
+   "asset_type": "DISCRIMINATION_MATRIX",
+   "topic": "Matrix: Signal x Cluster x Meaning Confidence",
+   "frame_excerpt": "A reference chart like a botanist's field guide; each gesture row unfolds into its cluster family with a confidence meter from 'weak tell' to 'high-confidence cluster'."
+  },
+  {
+   "chapter_id": "df19",
+   "index": 4,
+   "asset_type": "BOSS_BATTLE",
+   "topic": "Boss Battle: The Sixteen-Picture Final",
+   "frame_excerpt": "The sixteen evidence boards light up one by one on a gallery wall; the clock ticks as you tag signals, and the final score curtain raises with the 'How Did You Rate?' brackets."
+  }
+ ]
+}

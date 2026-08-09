@@ -738,6 +738,38 @@ content.
 If a session was interrupted, read this section first; it encodes exactly where
 the M5 pass stopped. Updated after every book commit.
 
+- 2026-08-09: Phase 7D (credibility ratings, cultural variations, concept map)
+  COMPLETE. Three deliverables, all verified:
+  1) CREDIBILITY RATINGS on all 2,676 Scenario Lab assets: 25 per-library
+     profiles authored by one classification agent (level High/Medium/Low x
+     consensus Broad/Emerging/Contested + 1-2 sentence basis) written to
+     `extract\generated_assets\phase7d_credibility_profiles.json`; applied
+     deterministically by `gen_credibility.py` (adds `credibility` to every
+     asset). validate.py gained a HARD check (credibility present + valid level
+     /consensus/basis). UI: colored badge in the lab card head (green/amber/red)
+     + "Credibility" insight block after grading; svUI keys added.
+  2) CULTURAL VARIATIONS on 5 gesture libraries (body_language 90,
+     definitive_body_language 200, dictionary_body_language 75, what_every_body
+     95, reiman_power_body_language 105 = 565 assets, 526 non-empty): 7 agent
+     batches authored per-asset 1-3 short culture-first caveats against specs
+     (`phase7d_cv_*_b*.json`), merged by `merge_cv.py`. UI: "Cultural
+     variations" dossier on the lab card.
+  3) CONCEPT MAP: new 13th tab. `data/concept-map.js` authored by one agent:
+     89 nodes across all 20 topics / 110 typed edges (builds-on, contrasts-with,
+     applies-to, foundation) / 7 thematic groups. renderConceptMap() draws an
+     SVG (grouped layout, colored nodes + edge type legend); clicking a node
+     opens a detail card with definition, related nodes (jump-to), and a
+     "Study this concept" button that filters Browse to the concept's topic.
+     Bilingual (svUI + updateNavLabels).
+  Verified: run_app_stub ALL OK (13 tabs / topics=20 / ASSET_LIBS=25),
+  validate.py 0 warnings (2676 assets), CDP browser E2E green (13/13 tabs incl.
+  map 57k chars, 0 console errors), dedicated CDP probes for the credibility
+  badge+insight, cultural-variations dossier, and map interactions (node click,
+  detail, study-jump, Swedish mode) all pass. Also FIXED: sw.js FILES list was
+  missing the two 7B topic files since v24 (latent offline bug) - added in v26.
+  sw v25 -> v26.
+
+
 - 2026-08-09: Phase 7C (Scenario Lab modalities) COMPLETE - 3 new lab modes:
   BASELINE_CALIBRATION (Baseline Calibration / Baslinjekalibrering),
   MICRO_EXPRESSION_SPEEDRUN (Micro-Expression Speed Run, 8s countdown that

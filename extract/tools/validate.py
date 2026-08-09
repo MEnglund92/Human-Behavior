@@ -42,6 +42,8 @@ REQUIRED = [
     "difficulty_level",
 ]
 VALID_DIFFICULTY = {"Beginner", "Intermediate", "Advanced"}
+VALID_LEVEL = {"High", "Medium", "Low"}
+VALID_CONSENSUS = {"Broad", "Emerging", "Contested"}
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ASSETS_DIR = os.path.join(HERE, "..", "generated_assets")
@@ -91,6 +93,16 @@ def validate_file(path):
             diff = a.get("difficulty_level")
             if diff not in VALID_DIFFICULTY:
                 warnings.append(f"{path}: chapter {cid} non-standard difficulty {diff!r}")
+            cred = a.get("credibility")
+            if not isinstance(cred, dict):
+                errors.append(f"{path}: chapter {cid} asset missing credibility")
+            else:
+                if cred.get("level") not in VALID_LEVEL:
+                    errors.append(f"{path}: chapter {cid} invalid credibility level {cred.get('level')!r}")
+                if cred.get("consensus") not in VALID_CONSENSUS:
+                    errors.append(f"{path}: chapter {cid} invalid credibility consensus {cred.get('consensus')!r}")
+                if not cred.get("basis"):
+                    errors.append(f"{path}: chapter {cid} credibility missing basis")
             kc = a.get("key_concepts")
             if isinstance(kc, list) and not (8 <= len(kc) <= 12):
                 warnings.append(f"{path}: chapter {cid} key_concepts has {len(kc)} items (want 8-12)")
