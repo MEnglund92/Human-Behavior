@@ -1,0 +1,614 @@
+{
+  "spec_file": "spec_kahneman_b04.json",
+  "chapters": [
+    {
+      "id": "ch10",
+      "title": "5. Cognitive Ease",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Sources of Cognitive Ease and Cognitive Strain",
+          "visual_frame_description": "A cockpit-style control panel fills the screen, dominated by a single large dial labeled Cognitive Ease that swings between Easy and Strained. Below the dial, a conveyor belt feeds in seven everyday stimuli, each represented by a small icon card: a crisp printed sentence, a faded gray poster, a cheerful radio voice, a repeated slogan, and an effortful worksheet. The player drags each card into one of three labeled bins beneath the dial.",
+          "player_mission": "Sort each incoming stimulus card into the bin it registers on the cognitive ease dial. Read each cue carefully and recall what the chapter says about which manipulations make associative processing flow smoothly and which engage effortful System 2.",
+          "key_concepts": [
+            "Cognitive ease is a single dial in System 1 whose range runs from Easy to Strained, and its setting tells System 1 whether extra System 2 effort is required.",
+            "Easy is a sign that things are going well, with no threats, no major news, and no need to redirect attention or mobilize effort.",
+            "Cognitive strain indicates that a problem exists and will require increased mobilization of System 2.",
+            "A sentence printed in a clear font is fluently processed with cognitive ease.",
+            "A word that has been repeated, or has been primed, will be processed with cognitive ease on later exposure.",
+            "Hearing a speaker while you are in a good mood, or even holding a pencil crosswise in your mouth to force a smile, induces cognitive ease.",
+            "The various causes of ease and strain have interchangeable effects on the same single dial.",
+            "When you feel strained you are more likely to be vigilant and suspicious, invest more effort, and make fewer errors.",
+            "When you are in a state of cognitive ease you are likely to like what you see, believe what you hear, trust your intuitions, and feel that the situation is comfortably familiar."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the cognitive-ease dial: System 1 continuously monitors ease versus strain to decide whether to mobilize effortful System 2. The chapter shows that fluency producers such as clear fonts, repetition, priming, good mood, and rhyme all register on the same single dial, so their effects are interchangeable.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "For each stimulus card, decide which setting it would produce on the cognitive ease dial.",
+          "column_a_label": "Induces Cognitive Ease",
+          "column_b_label": "Induces Cognitive Strain",
+          "column_c_label": "Induces Neither Ease Nor Strain",
+          "rows": [
+            { "label": "A sentence printed in a clear, high-contrast font", "col": "a" },
+            { "label": "A slogan you have seen repeated dozens of times", "col": "a" },
+            { "label": "Reading text printed in small, washed-out gray type", "col": "b" },
+            { "label": "Listening to a speaker while you are in a cheerful mood", "col": "a" },
+            { "label": "A word primed for a few milliseconds just before you read it", "col": "a" },
+            { "label": "An effortful task that engages the operations of System 2", "col": "b" },
+            { "label": "An aphorism that rhymes, like Woes unite foes", "col": "a" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Induces neither ease nor strain because most stimuli have no effect on the dial",
+            "Only affects long-term memory storage rather than current processing",
+            "Only affects visual perception, never judgment or mood"
+          ],
+          "explanation": "Clear fonts, repetition, priming, good mood, and rhyme all make associative processing run fluently and register on the Easy side of the dial, while effortful System 2 operations and illegible gray print register as Strained. A single dial receives all these diverse inputs, which is why their effects are interchangeable."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Familiarity, Truth, and Liking: Three Illusions of Ease",
+          "visual_frame_description": "An investigator's evidence wall in a bright lab-like setting displays three open case folders labeled Illusion of Remembering, Illusion of Truth, and Mere Exposure Effect. Seven evidence slips float over the folders, each describing a finding such as a made-up celebrity name, a repeated factoid, and a Turkish word shown many times in a newspaper. The player drags each slip into the folder that best explains it.",
+          "player_mission": "Classify each finding into the correct illusion by matching the psychological mechanism the chapter describes. Read the slip, recall who studied the effect, and decide whether it is about familiarity misread as fame, repetition misread as truth, or repetition creating liking.",
+          "key_concepts": [
+            "Larry Jacoby demonstrated the memory illusion in an article titled Becoming Famous Overnight.",
+            "A name you have seen before is more likely to be judged the name of a famous person because it is perceived with greater cognitive ease.",
+            "Jacoby described familiarity as having a simple but powerful quality of pastness that seems to indicate a direct reflection of prior experience, but the quality is an illusion.",
+            "Words that have been seen before become easier to see again, quicker to read, and better identified when masked by noise.",
+            "A new word is more likely to be recognized as familiar if it is unconsciously primed for a few milliseconds or shown in sharper contrast.",
+            "Frequent repetition is a reliable way to make people believe falsehoods, because familiarity is not easily distinguished from truth.",
+            "People repeatedly exposed to the phrase the body temperature of a chicken were more likely to accept the statement that the body temperature of a chicken is 144 degrees.",
+            "Robert Zajonc dedicated much of his career to showing that the repetition of an arbitrary stimulus creates mild affection for it, an effect he called the mere exposure effect.",
+            "In the Michigan and Michigan State student newspapers, Turkish words shown more often were rated as meaning something good far more than words shown only once.",
+            "The mere exposure effect occurs even when repeated stimuli are never consciously seen, and it is actually stronger for stimuli the individual never consciously sees."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests how the sense of cognitive ease produces three distinct illusions: familiarity misattributed to fame or memory (Jacoby), repetition misattributed to truth, and repetition producing liking (Zajonc). The chapter shows that a single feeling of ease has many possible sources and that System 1 cannot easily tell them apart.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Drag each evidence slip into the folder that names the illusion it demonstrates.",
+          "column_a_label": "Illusion of Remembering (familiarity misread as memory or fame)",
+          "column_b_label": "Illusion of Truth (repetition misread as truth)",
+          "column_c_label": "Mere Exposure Effect (repetition creating liking)",
+          "rows": [
+            { "label": "The made-up name David Stenbill is later judged to be a famous celebrity", "col": "a" },
+            { "label": "Hearing the phrase body temperature of a chicken makes you accept the number 144 as true", "col": "b" },
+            { "label": "The Turkish word saricik shown 25 times is rated as meaning something good", "col": "c" },
+            { "label": "A word shown in sharper contrast than others feels as if you have seen it before", "col": "a" },
+            { "label": "Chicks exposed to a tone inside the egg emit fewer distress calls to that tone after hatching", "col": "c" },
+            { "label": "An unconsciously primed word is more likely to be recognized as familiar", "col": "a" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Illusion of Truth, because all fluency effects are ultimately about belief",
+            "Halo Effect, in which one trait colors all judgments of a person",
+            "Anchoring, in which the first number considered biases later estimates"
+          ],
+          "explanation": "The David Stenbill case is Jacoby's becoming-famous-overnight effect: ease of perception is misattributed to the person being a known celebrity. The illusion-of-truth and mere-exposure slips operate on the same ease signal but produce belief and liking, respectively, rather than memory."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Designing Persuasion: What Reduces Strain and What Backfires",
+          "visual_frame_description": "A graphic designer's studio desk holds two competing campaign boards side by side. The left board uses glossy paper, bright blue ink, a rhyming headline, plain words, and a short pronounceable source name. The right board uses gray matte stock, dense jargon, a tongue-twisting source name, and a claim that contradicts common knowledge. The player assigns each design element to a category on a sorting grid.",
+          "player_mission": "Sort each design element into the category that predicts its effect on readers' belief. Use the chapter's persuasive-message findings to separate elements that reduce cognitive strain from those that increase it, and recognize the limits of these tricks.",
+          "key_concepts": [
+            "Anything you can do to reduce cognitive strain will help your message be believed, so you should first maximize legibility.",
+            "Experiments show that a statement like Adolf Hitler was born in 1892 is more likely to be believed than the same claim printed in a less legible form.",
+            "Messages are more likely to be believed when printed in bright blue or red than in middling shades of green, yellow, or pale blue.",
+            "Danny Oppenheimer showed that couching familiar ideas in pretentious long words is taken as a sign of poor intelligence and low credibility.",
+            "Aphorisms such as Woes unite foes were judged more insightful when they rhymed than when they did not.",
+            "People gave much more weight to a brokerage report from an easily pronounced name like Artan than from a firm with an unfortunate name like Taahhut.",
+            "System 2 is lazy and mental effort is aversive, so recipients want to stay away from anything that reminds them of effort, including a source with a complicated name.",
+            "High-quality paper, bright colors, and rhyme will not help a message that is obviously nonsensical or contradicts facts the audience knows to be true.",
+            "When a statement is strongly linked by logic or association to beliefs you hold, or comes from a source you trust and like, you feel a sense of cognitive ease and accept it.",
+            "People can overcome some superficial factors that produce illusions of truth when strongly motivated to do so, but the lazy System 2 usually adopts the suggestions of System 1 and marches on."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the persuasive-message logic of the ease dial: legibility, vivid contrast, rhyme, and pronounceable names all reduce strain and inflate belief. The chapter adds the crucial limit that these fluency tricks cannot rescue a claim that clashes with facts the audience already knows.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Assign each design element to the category predicting its effect on belief.",
+          "column_a_label": "Reduces Strain and Boosts Belief",
+          "column_b_label": "Increases Strain and Hurts Belief",
+          "column_c_label": "Cannot Be Rescued by Fluency (ease tricks fail)",
+          "rows": [
+            { "label": "Bright blue ink on glossy, high-contrast paper", "col": "a" },
+            { "label": "A rhyming slogan instead of a plain paraphrase", "col": "a" },
+            { "label": "Pretentious vocabulary when simple words would do", "col": "b" },
+            { "label": "Quoting a brokerage firm with the unfortunate name Taahhut", "col": "b" },
+            { "label": "Plain, simple language, as in Oppenheimer's study", "col": "a" },
+            { "label": "An obviously nonsensical claim even when printed in rhyme", "col": "c" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Increases strain and boosts belief, because effort makes a claim more credible",
+            "Only a mere exposure effect, having nothing to do with belief",
+            "Only a priming effect from muscle tension in the reader"
+          ],
+          "explanation": "Bright color, rhyme, and simple language all ease the associative machine and inflate belief, while jargon and hard-to-pronounce sources force strain and undercut credibility. The obviously nonsensical element sorts to column c because the chapter states that these fluency tricks do not rescue a message that contradicts facts the audience knows to be true."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Confident Witness: Familiarity Misread as Memory",
+          "visual_frame_description": "A small interview room with a wall clock; Priya, a retail loss-prevention investigator in a navy blazer, sits across from Marco, a store clerk wearing a laminated badge. A transcript panel and a nonverbal log with timestamps scroll on the right side of the screen. Marco answers quickly and leans back in his chair, appearing relaxed and certain.",
+          "player_mission": "Audit Marco's account of which customer shared a leaked promo code. Weigh his fluent confidence against what the cognitive-ease research says about familiarity, and issue the correct diagnosis rather than jumping to a deception verdict.",
+          "key_concepts": [
+            "Familiarity has a simple but powerful quality of pastness that seems to indicate a direct reflection of prior experience, but the quality is an illusion.",
+            "Seeing a name before makes it easier to see again and gives the impression that you know it.",
+            "Jacoby's becoming-famous-overnight effect shows people judge a previously seen name as belonging to a famous person.",
+            "The sense of ease in perceiving a previously seen word is what gives you the impression of familiarity.",
+            "System 2 relies on System 1's impression of familiarity for its judgments, even when the source of the familiarity is unknown.",
+            "Fluent, relaxed testimony is not evidence of memory accuracy, because cognitive ease is produced by many causes besides genuine recollection.",
+            "When you cannot remember the source of a statement and cannot relate it to other things you know, you have no option but to go with the sense of cognitive ease.",
+            "The various causes of ease or strain are interchangeable, and you may not know precisely what makes things feel easy or strained."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the illusion of remembering: Marco's fluent confidence comes from cognitive ease, not from a reliable memory trace. The chapter shows that a sense of pastness is manufactured by ease of perception, so confident familiarity is a poor guide to whether a memory is genuine.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "What is the correct diagnosis of Marco's testimony about the customer's identity?",
+          "subject_baseline": "Marco is a diligent nine-year store clerk with no prior discipline record; in his monthly interviews he is typically reserved, pauses before answering, and double-checks dates before asserting facts.",
+          "observed_nonverbal_log": "10:02 — Marco answers the opening question within two seconds, palm flat on the table, with no hesitation. 10:04 — When asked how he knows the customer's name, he recites it fluently, smiling slightly, gaze steady. 10:07 — Asked for the date of the leak, he gives a confident answer instantly, then shrugs and says he cannot place exactly where he first saw the name. 10:09 — He corrects himself mildly about the day of the week but does not show distress; his posture stays relaxed throughout.",
+          "interrogation_transcript": "Priya: How do you know this customer was the one with the code? Marco: I just know the name. I have seen it, it was definitely in the store. Priya: Where exactly did you see it? Marco: I could not tell you where, but I know it. I saw it, that is enough. Priya: Could you have seen the name somewhere else, like on a poster or a report? Marco: No, I remember the person. I am sure of it.",
+          "correct_diagnosis": "Not deliberate deception — Marco is experiencing an illusion of familiarity, misreading the cognitive ease of recognizing a name as evidence of having personally seen the customer.",
+          "diagnostic_breakdown": "Marco shows classic ease cues, such as instant answers, relaxed posture, and no stress, but that fluency is exactly the problem: the chapter shows cognitive ease produces a feeling of pastness regardless of its source. His admission that he cannot say where he first saw the name is the tell that the familiarity signal is unattached to any memory file, precisely the pattern of Jacoby's becoming-famous-overnight illusion.",
+          "distractors": [
+            "Deliberate deception, because Marco is lying to protect the real customer",
+            "Accurate, detailed memory, because his confidence confirms recall",
+            "Cognitive impairment, because his recall failure indicates poor memory function"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Repeated Statistic: Repetition Masquerading as Verification",
+          "visual_frame_description": "A windowless compliance office; Dana, a quality-assurance lead, reviews a claim on her monitor while her colleague Tina, a sales director, sits opposite holding a printed spec sheet. On screen, a fact tracker shows the claim conversion rose 12 percent with a small tally of how often the figure has appeared in emails and slide decks this quarter.",
+          "player_mission": "Audit whether Tina's assertion of the 12 percent conversion figure is grounded in verified data or in sheer repetition. Diagnose the source of her confidence using the illusions-of-truth findings.",
+          "key_concepts": [
+            "A reliable way to make people believe in falsehoods is frequent repetition, because familiarity is not easily distinguished from truth.",
+            "Authoritarian institutions and marketers have always known that repetition breeds belief.",
+            "You do not have to repeat an entire statement to make it appear true; repeating one familiar phrase can make the whole statement feel familiar.",
+            "People repeatedly exposed to the phrase the body temperature of a chicken were more likely to accept as true the statement that the body temperature of a chicken is 144 degrees.",
+            "If you cannot remember the source of a statement and have no way to relate it to other things you know, you have no option but to go with the sense of cognitive ease.",
+            "System 2 relies on System 1's impression of familiarity when making a true-false judgment.",
+            "The feeling of ease has many causes, including repetition, and you have no simple way of tracing the feeling to its source.",
+            "People can overcome some superficial factors when strongly motivated to do so, but the lazy System 2 usually adopts the suggestions of System 1 and marches on."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the illusion of truth: Tina's confidence rests on how often the figure has been repeated, not on verification. The chapter shows that repetition manufactures a feeling of familiarity that System 2 misreads as the mark of a true statement.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "What is the correct diagnosis of Tina's insistence that the 12 percent figure is accurate?",
+          "subject_baseline": "Tina is an energetic, deadline-driven sales director who forwards the quarterly deck to the whole team every Monday; she is known to assert figures with total confidence and rarely re-reads the underlying analytics exports herself.",
+          "observed_nonverbal_log": "09:41 — Tina quotes 12 percent within three seconds of the question, leaning forward with a bright tone. 09:43 — Asked for the source, she taps the printed deck confidently and says the number has been there all quarter. 09:46 — Asked when she last ran the query herself, she hesitates, glances at the ceiling, then answers cheerfully that the team has been quoting it since January. 09:50 — No classic deception cues; her posture is open, her speech steady, with occasional gestures to the deck.",
+          "interrogation_transcript": "Dana: Can you show me the query that produced the 12 percent? Tina: It is in the deck, Dana. It has been in every report since January. Dana: But where did the number itself come from? Tina: Honestly? It has been repeated so often that I would bet on it. Everybody says 12 percent. Dana: So you have never verified it yourself. Tina: I do not need to. It is obviously right, it is everywhere.",
+          "correct_diagnosis": "Not a deliberate lie — Tina is suffering the illusion of truth, in which the frequency of repetition creates a feeling of familiarity that is mistaken for verified accuracy.",
+          "diagnostic_breakdown": "Tina's answer that it has been repeated so often that she would bet on it is a direct description of the mechanism: familiarity produced by repetition is indistinguishable from truth. Her admission that she has never run the query mirrors the chapter's point that when you cannot trace a feeling to its source you have no option but to trust the ease. The absence of deception cues is consistent with the diagnosis, because the belief is genuinely held.",
+          "distractors": [
+            "Deliberate fraud, because Tina invented the 12 percent to impress her boss",
+            "Careful statistical verification from a fresh data export",
+            "A random guess with no underlying cause"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Primed Account: A Coerced-Sounding Story That Isn't a Lie",
+          "visual_frame_description": "A neutral meeting room in a bank; Victor, a compliance officer, reviews a recorded interview with Nadia, a junior analyst who reported a suspected policy breach. On screen, a transcript panel shows Nadia's first attempt, halting and vague, and a second account given a day later after she read a company-wide memo on the same incident; the second account is smooth and detailed.",
+          "player_mission": "Audit the two accounts and decide why Nadia's second story became so fluent. Determine whether the fluency reflects recovered truth, deliberate coaching, or the interchangeable effects of priming and pre-exposure on memory.",
+          "key_concepts": [
+            "A word that has been primed, or shown for a few milliseconds just before the test, is more likely to be recognized as familiar.",
+            "The various ways of inducing cognitive ease or strain are interchangeable, and you may not know precisely what makes things easy or strained.",
+            "The impression of familiarity is produced by System 1, and System 2 relies on that impression for a judgment.",
+            "Words that have been seen before become easier to see again and quicker to read.",
+            "Repeated exposure to a phrase can make the whole statement feel familiar and therefore true.",
+            "The feeling of pastness is an illusion; the sense of ease gives the impression of familiarity without telling you its source.",
+            "Manipulations that increase cognitive ease, including priming, a clear font, and pre-exposing words, all have interchangeable effects on judgments.",
+            "When you are in a state of cognitive ease you are more likely to trust your intuitions and believe what you hear."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests priming and pre-exposure as causes of cognitive ease: Nadia's second, fluid account was made fluent by reading the company memo, not by recovering a memory. The chapter shows ease has interchangeable causes, so a smoother story is not necessarily a truer one.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "What is the correct diagnosis of the change between Nadia's two accounts of the same event?",
+          "subject_baseline": "Nadia is a junior analyst known for meticulous, slightly anxious reporting; in her first interview she speaks in short sentences, corrects herself often, and flags uncertainty about her own memory of the incident.",
+          "observed_nonverbal_log": "11:15 — First interview: Nadia pauses four to five seconds per answer, looks down, describes the meeting in fragmentary sentences, and twice says she is not sure. 11:18 — She checks a notebook repeatedly and gives conflicting orderings of events. 15:02 — Second interview, next day: her answers begin within one second, her sentences are complete and chronological, and she gestures smoothly to details that match the wording of the memo now in her folder. 15:05 — Her posture is relaxed, her gaze steady, with none of the previous hesitation.",
+          "interrogation_transcript": "Victor: Your first account was hesitant. What changed? Nadia: I read the company memo about the incident yesterday, and everything snapped into place. Now I remember it clearly. Victor: So the sequence you now give comes from your memory? Nadia: Yes, it all flows now, exactly how it happened. Victor: Did you see any of these details before the memo existed? Nadia: I do not know. But now it is perfectly clear.",
+          "correct_diagnosis": "Not deliberate deception — Nadia's new fluency is the product of pre-exposure: reading the memo primed the details, and the resulting cognitive ease is being misattributed to recovered memory.",
+          "diagnostic_breakdown": "The chapter shows that pre-exposing material increases ease and that ease is misattributed to familiarity; Nadia even states that the memo snapped everything into place, and her story matches the memo's wording. Her transition from fragmented uncertainty to smooth chronological fluency is the signature of priming, not of a suddenly recovered memory trace. Because the ease is genuine, there are no stress cues, so the correct conclusion is that her confidence is contaminated rather than recovered.",
+          "distractors": [
+            "Deliberate deception, because Nadia fabricated the second story to cover her own error",
+            "Genuine recovered memory, because the delay allowed her to remember correctly",
+            "Mood effects, because Nadia simply felt better on the second day for unrelated reasons"
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Boss Battle: Defeating the Illusion of Truth",
+          "visual_frame_description": "A sleek campaign video fills the screen: a glossy, high-contrast ad repeats the claim Vitalight eliminates 99 percent of fatigue in a catchy rhyming jingle, flashes the company logo in bright red on white, and ends with a short, pronounceable brand name. An audience panel on the right shows rising trust meters as each repetition plays.",
+          "player_mission": "Stop the audience from accepting an unverified claim. Observe how the ad engineers cognitive ease, identify the mechanism being exploited, and then choose the intervention that breaks the illusion before the campaign goes nationwide.",
+          "key_concepts": [
+            "Frequent repetition is a reliable way to make people believe falsehoods, because familiarity is not easily distinguished from truth.",
+            "Anything that reduces cognitive strain will help make a message believed, so legibility and fluency are powerful levers.",
+            "Messages are more likely to be believed when printed in bright colors and on high-contrast, high-quality paper.",
+            "Aphorisms are judged more insightful when they rhyme than when they do not.",
+            "People give more weight to sources with easily pronounceable names than to those with complicated names.",
+            "System 2 relies on System 1's impression of familiarity when making a true-false judgment.",
+            "When you feel strained you are more likely to be vigilant and suspicious and to make fewer errors.",
+            "High-quality paper, bright colors, and rhyme will not help a message that is obviously nonsensical or contradicts facts the audience knows to be true.",
+            "People can overcome some superficial factors that produce illusions of truth when strongly motivated to do so."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "The battle tests the illusion of truth: a message becomes more believable when repetition, clear fonts, bright colors, rhyme, and pronounceable sources manufacture cognitive ease, because familiarity is easily mistaken for truth. The chapter shows that introducing strain and confronting the claim with known facts are the ways to break the illusion.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is the illusion of truth: a message becomes more believable when repetition, clear fonts, bright colors, rhyme, and pronounceable sources manufacture cognitive ease, because familiarity is easily mistaken for truth.",
+          "stage_1_observation": "A sleek campaign video fills the screen: a glossy, high-contrast ad repeats the claim Vitalight eliminates 99 percent of fatigue in a catchy rhyming jingle, flashes the company logo in bright red on white, and ends with a short, pronounceable brand name. The audience panel on the right shows rising trust meters as each repetition plays.",
+          "stage_1_question": "Which mechanism is primarily being exploited to make the audience accept this unverified claim?",
+          "stage_1_correct_answer": "The illusion of truth through repetition and fluency: frequent, easy-to-process repetition creates a feeling of familiarity that System 2 misreads as evidence that the claim is true.",
+          "stage_2_intervention": "You have 30 seconds before the ad runs again. Choose the intervention most likely to break the illusion for the audience.",
+          "stage_2_correct_answer": "Force the audience out of cognitive ease: present the claim in an unpolished, hard-to-read format, confront it with a known fact that contradicts it, and demand the source of the 99 percent figure, since the chapter shows cognitive strain mobilizes System 2 and that fluency tricks cannot rescue a claim that contradicts known facts."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Boss Battle: The Slick Pitch Versus the Lazy Controller",
+          "visual_frame_description": "In a boardroom, the founders of NovaGrid deliver a flawless pitch: a rhyming tagline, glossy slides in bright blue, the word breakthrough repeated four times, and a one-syllable company name. The CEO, Marcus, leans back smiling, and the audience's expressions relax with each smooth slide. The financials are never shown in raw form.",
+          "player_mission": "Prevent Marcus from approving the investment on the basis of polish alone. Identify how the presentation's fluency is distorting his judgment, then run an intervention that tests the plan's real worth rather than its ease of processing.",
+          "key_concepts": [
+            "When you are in a state of cognitive ease you are likely to like what you see, believe what you hear, and trust your intuitions.",
+            "The various causes of ease or strain have interchangeable effects, and you may not know precisely what makes things easy or strained.",
+            "System 2 is lazy, mental effort is aversive, and the lazy System 2 usually adopts the suggestions of System 1.",
+            "Cognitive strain, whatever its source, tends to mobilize System 2 and shift people from a casual intuitive mode to a more engaged analytic mode.",
+            "In the cognitive reflection test, students who saw puzzles in a small washed-out gray font made far fewer mistakes than those who saw the normal font.",
+            "Performance was better with the bad font because cognitive strain makes System 2 more likely to reject the intuitive answer suggested by System 1.",
+            "Repetition induces cognitive ease and a comforting feeling of familiarity.",
+            "Messages are more likely to be believed when printed in bright colors, and people trust sources with easy names.",
+            "When you are in a good mood you become more intuitive but less vigilant and more prone to logical errors."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "The battle tests whether a decision maker can resist the allure of cognitive ease: a fluent, well-designed pitch is judged more credible and more sound than the same content delivered under strain because the lazy System 2 adopts System 1's ease signal. The chapter's font experiment shows that deliberately inducing strain mobilizes System 2 and improves the rejection of intuitive but wrong answers.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is that fluency misleads judgment: a pitch that is fluent, well-designed, and pleasantly presented will be judged more credible and more sound than the same content delivered with strain, because the lazy System 2 adopts System 1's ease signal without checking the underlying content.",
+          "stage_1_observation": "In a boardroom, the founders of NovaGrid deliver a flawless pitch: a rhyming tagline, glossy slides in bright blue, the word breakthrough repeated four times, and a one-syllable company name. The CEO, Marcus, leans back smiling, and the audience's expressions relax with each smooth slide. The financials are never shown in raw form.",
+          "stage_1_question": "What is the most dangerous error Marcus is about to make as he feels ready to approve the investment?",
+          "stage_1_correct_answer": "He is misattributing cognitive ease to the soundness of the business plan: the fluency of the presentation, through repetition, rhyme, bright contrast, and an easy name, inflates his judgment, and his lazy System 2 is adopting the ease signal without checking the underlying numbers.",
+          "stage_2_intervention": "Marcus invites you to act as devil's advocate before he signs. Choose the intervention that most reliably tests the plan's real worth rather than its polish.",
+          "stage_2_correct_answer": "Deliberately introduce cognitive strain: print the deck in a hard-to-read font, make the founders answer detailed financial questions without their slides, and require a written source for every repeated claim, because the chapter shows cognitive strain mobilizes System 2, which is then more likely to reject the easy, intuitive verdict of System 1."
+        }
+      ]
+    },
+    {
+      "id": "ch11",
+      "title": "6. Norms, Surprises, and Causes",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Active Expectations, Passive Norms, and Normalized Coincidences",
+          "visual_frame_description": "A living-room calendar wall in a family home shows three magnetic zones: a red zone labeled Active Expectation, a blue zone labeled Passive Expectation, and a green zone labeled Made Normal by Recurrence. Seven day-planner cards float in, each describing an event such as a child returning from school or a repeated car fire on the same road. The player drags each card to the zone that best describes how it is expected.",
+          "player_mission": "Classify each event by the kind of expectation it creates, using the chapter's distinction between active conscious expectations, passive normal expectations, and events made to feel normal by a single prior incident.",
+          "key_concepts": [
+            "System 1's main function is to maintain and update a model of your personal world that represents what is normal in it.",
+            "Some expectations are active and conscious, meaning you know you are waiting for a particular event to happen.",
+            "You will be surprised if an actively expected event does not occur.",
+            "A much larger category of events are expected passively; you do not wait for them, but you are not surprised when they happen.",
+            "A single incident may make a recurrence less surprising.",
+            "Under some conditions, passive expectations quickly turn active, as when the same unusual event recurs in the same circumstances.",
+            "A capacity for surprise is the most sensitive indication of how we understand our world and what we expect from it.",
+            "Events appear normal not necessarily because they confirm advance expectations, but because they recruit the original episode from memory and are interpreted in conjunction with it."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the distinction between active and passive expectations that System 1 maintains: active expectations produce surprise when violated, while passive norms make events feel unsurprising, and a single recurrence can normalize a rare coincidence. The chapter uses the island-resort and burning-car examples to show how quickly experience redraws the boundaries of normal.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Drag each event card to the zone that best describes how it is expected.",
+          "column_a_label": "Active (Conscious) Expectation",
+          "column_b_label": "Passive Expectation (normal, not awaited)",
+          "column_c_label": "Made Normal by Recurrence",
+          "rows": [
+            { "label": "At 4 p.m. you stand by the door awaiting your child returning from school", "col": "a" },
+            { "label": "You are not surprised when a stranger at the next table orders water", "col": "b" },
+            { "label": "Meeting the same acquaintance abroad twice makes a third meeting feel almost normal", "col": "c" },
+            { "label": "For months after two car fires on the same stretch of road, you are prepared to see another burning car there", "col": "a" },
+            { "label": "You do not wait for the mail, but you are not surprised when it arrives in the afternoon", "col": "b" },
+            { "label": "After a diner winces at the soup, a later startled reaction from the same diner seems unsurprising", "col": "c" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Statistical expectation based on base rates and sample sizes",
+            "Effortful deliberate reasoning performed only by System 2",
+            "Impossible events that violate physical laws"
+          ],
+          "explanation": "Awaiting the child at the door is a textbook active expectation whose violation produces surprise. The mail and the water order are passive norms, while the travel coincidence and the car fires show how a single recurrence recruits the prior episode and makes the event feel normal, exactly as the chapter describes."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Associative Coherence Versus Abnormality Detection",
+          "visual_frame_description": "A stage-lit quiz set: a podium with a question card is flanked by three judge panels labeled Fits the Norm (Coherent), Abnormality Detected (Incongruent), and Active Expectation Met. A ticker streams sentences, including the Moses question, odd-sounding sentences, and a normal-size mouse and elephant, and the player assigns each to the panel that best describes System 1's reaction.",
+          "player_mission": "Sort each sentence by how System 1 treats it: whether it slots comfortably into associative coherence, triggers fast abnormality detection, or satisfies an active expectation.",
+          "key_concepts": [
+            "The Moses illusion occurs because the idea of animals going into the ark sets up a biblical context in which Moses is not abnormal.",
+            "Moses is not positively expected in the ark question, but his name is not surprising in that context.",
+            "Moses and Noah have the same vowel sound and number of syllables, which aids the associative coherence.",
+            "Replace Moses with George W. Bush in the ark sentence and you have a poor political joke but no illusion.",
+            "Violations of normality are detected with astonishing speed: an odd word in a sentence produced a distinctive brain response within two-tenths of a second.",
+            "The same fast brain response occurs when a male voice says I believe I am pregnant or an upper-class voice says I have a large tattoo on my back.",
+            "We have norms for a vast number of categories, and these norms provide the background for the immediate detection of anomalies.",
+            "When you mention a table without specifying further, people understand a normal table, with a surface that is approximately level and far fewer than 25 legs.",
+            "The sentence The large mouse climbed over the trunk of the very small elephant works because shared norms for mice and elephants specify typical sizes and ranges."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests norm theory: sentences that fit the activated context produce associative coherence and are accepted uncritically, while incongruent words trigger rapid abnormality detection. The chapter shows the Moses illusion and fast brain responses to odd sentences as two faces of the same System 1 norm machinery.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Assign each sentence to the panel describing System 1's immediate reaction to it.",
+          "column_a_label": "Fits the Norm (Associative Coherence)",
+          "column_b_label": "Abnormality Detected (Incongruent)",
+          "column_c_label": "Active Expectation Met",
+          "rows": [
+            { "label": "How many animals of each kind did Moses take into the ark?", "col": "a" },
+            { "label": "Earth revolves around the trouble every year", "col": "b" },
+            { "label": "A male voice: I believe I am pregnant because I feel sick every morning", "col": "b" },
+            { "label": "An upper-class voice: I have a large tattoo on my back", "col": "b" },
+            { "label": "The large mouse climbed over the trunk of the very small elephant", "col": "a" },
+            { "label": "The ark question with the name George W. Bush in place of Moses", "col": "b" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Active expectation, because all expected sentences fit the norm",
+            "Physical causality perception, as in Michotte's launching",
+            "Halo effect from a trusted source"
+          ],
+          "explanation": "The Moses question slides past because the ark context makes Moses coherent, supported by the shared sound of the two names; the incongruent sentences trip fast abnormality detection, and the mouse-and-elephant sentence works precisely because shared size norms make the normal image coherent."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Physical Causality, Intentional Causality, and Statistical Reasoning",
+          "visual_frame_description": "A psychology-demo theater shows three screens: Michotte's black squares colliding, Heider and Simmel's animated triangles and circle beside a schematic house, and a spreadsheet of county cancer rates with a margin-of-error note. A control desk lets the player route each observation to the mode of thinking it demonstrates.",
+          "player_mission": "Route each observation to the kind of causality or reasoning it embodies: Michotte's perceived physical launching, Heider and Simmel's perception of intentions, or genuine statistical reasoning about categories and ensembles.",
+          "key_concepts": [
+            "Albert Michotte argued that we see physical causality as directly as we see color, and his black-square episodes produce a powerful illusion of causality.",
+            "If a second object starts moving instantly after contact, observers describe it as having been launched by the first.",
+            "Six-month-old infants see Michotte's sequence as a cause-effect scenario and show surprise when the sequence is altered.",
+            "Fritz Heider and Mary-Ann Simmel's one-minute-forty-second film makes viewers see an aggressive large triangle bullying a smaller triangle and a terrified circle.",
+            "The perception of intention and emotion in the triangle film is irresistible; only people with autism do not experience it.",
+            "We are born ready to identify agents, assign them intentions, and view their actions as expressing individual propensities.",
+            "System 1 is adept at finding a coherent causal story that links the fragments of knowledge at its disposal.",
+            "The automatic search for causes led Bloomberg to run two contradictory headlines explaining bond prices through Saddam Hussein's capture.",
+            "Statistical thinking derives conclusions about individual cases from properties of categories and ensembles, a mode of reasoning System 1 cannot perform.",
+            "System 2 can learn to think statistically, but few people receive the necessary training."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario discriminates the chapter's three modes: Michotte's perceived physical launching, Heider and Simmel's irresistible intentional attributions, and statistical reasoning that System 1 lacks. The chapter argues that causal intuitions are prominent because people apply causal thinking even where statistical reasoning is required.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Route each observation to the mode of thinking it demonstrates.",
+          "column_a_label": "Physical Causality (launching perception)",
+          "column_b_label": "Intentional Causality (agents and intentions)",
+          "column_c_label": "Statistical Reasoning (categories and ensembles)",
+          "rows": [
+            { "label": "A black square in motion contacts a stationary square, which instantly moves, and you see it as launched", "col": "a" },
+            { "label": "Watching Heider and Simmel's film, you see the large triangle bullying the small triangle", "col": "b" },
+            { "label": "A six-month-old shows surprise when the launch sequence is reversed", "col": "a" },
+            { "label": "Bond traders and editors explain the day's price moves with the capture of Saddam Hussein", "col": "b" },
+            { "label": "Jane's lost wallet in New York conjures pickpocket rather than sights", "col": "b" },
+            { "label": "Judging a county's kidney-cancer rate while accounting for its small population sample", "col": "c" }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Physical causality, because all causality is ultimately physical",
+            "Mere exposure effect from repeated exposure",
+            "Anchoring and adjustment from an initial number"
+          ],
+          "explanation": "Michotte's launching and the infant's surprise are physical causality; the Heider-Simmel film, the bond headlines, and the pickpocket association are all System 1's automatic search for intentional causes; only the sample-size-aware judgment qualifies as statistical reasoning, which System 1 cannot perform on its own."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Coincidence Audit: How Surprise Becomes a False Signal",
+          "visual_frame_description": "A travel-and-expense office in the evening; Omar, a procurement manager, reviews a claim from Priya, a sales lead, about randomly running into a major client twice in one week at different airports. On screen, a coincidence tracker shows the two meetings flagged in red as improbable, and a probability wheel spins to illustrate the odds.",
+          "player_mission": "Audit whether Priya's two chance meetings with the client are genuinely improbable evidence of a coordinated relationship, or a normal coincidence that surprise has dressed up as significant. Use the chapter's analysis of how a first meeting normalizes a second.",
+          "key_concepts": [
+            "A single incident may make a recurrence less surprising.",
+            "Kahneman describes meeting the same psychologist, Jon, twice on a trip and being distinctly less surprised the second time.",
+            "The first meeting changed the idea of Jon in their minds, so he became the psychologist who shows up when we travel abroad.",
+            "By any measure of probability, meeting Jon in the theater was no more likely than meeting any other acquaintance, yet it seemed more normal.",
+            "Surprise is the most sensitive indication of how we understand our world and what we expect from it, but it is not a measure of objective probability.",
+            "When an event recurs in the same circumstances, the second incident can create an active expectation that lasts for months.",
+            "Events appear normal because they recruit the original episode from memory and are interpreted in conjunction with it.",
+            "System 2 may know that a normalized coincidence is statistically unlikely, but System 1 has already made it feel almost normal."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests whether surprise can be trusted as a probability signal: Priya's second meeting feels improbably meaningful only because the first meeting normalized the idea of encountering this client. The chapter's Jon anecdote shows that recurrence, not objective odds, drives how surprising a coincidence feels.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "What is the correct diagnosis of the remarkable coincidence in Priya's expense report?",
+          "subject_baseline": "Priya is a methodical, straight-talking sales lead who files meticulous trip reports and has never inflated an expense in six years; her diary is color-coded and her receipts are always numbered.",
+          "observed_nonverbal_log": "16:40 — Priya recounts the two airport meetings eagerly, smiling, with quick hand movements; she sounds delighted rather than evasive. 16:43 — When Omar asks about her flight schedule, she answers precisely from her diary without checking notes. 16:47 — Asked whether she arranged the second meeting, she pauses, blinks, and says honestly that she could not believe it either and that it just happened again. 16:50 — No signs of concealment: no gaze aversion, no long latencies, no over-explaining.",
+          "interrogation_transcript": "Omar: Two meetings with the same client in five days, that seems like a setup. Priya: It was pure chance. I was as surprised as you. Omar: You understand how unlikely that looks? Priya: Yes, but it felt normal. Honestly, after the first meeting, bumping into her again did not feel shocking at all. Omar: Statistically it is about as likely as meeting any other person in that terminal. Priya: I know. But my gut said it meant something.",
+          "correct_diagnosis": "No misconduct — Priya is reporting an honest coincidence whose felt significance is an illusion produced by norm theory: the first meeting normalized the second, so her surprise was no longer calibrated to the true odds.",
+          "diagnostic_breakdown": "Priya's own words, that after the first meeting it did not feel shocking at all, reproduce the chapter's Jon effect exactly: the recurrence recruited the first episode and made the second meeting feel almost normal. The absence of deception cues and her precise, non-defensive diary answers support honesty. The signal she felt is surprise, which the chapter shows reflects what our model of the world expects rather than the objective probability of the event.",
+          "distractors": [
+            "Deliberate fabrication to justify an expensive business trip",
+            "A coordinated client relationship that Priya is hiding",
+            "Cognitive impairment causing memory distortion about the meetings"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Sabotage Story: Causal Thinking After an Unlucky Accident",
+          "visual_frame_description": "A warehouse safety office; Ravi, a safety officer, interviews Delia, a forklift operator, after a pallet of ceramics toppled near the packing line. On the right, a root-cause board shows Delia's confident narrative that someone deliberately shifted the load. A dry-erase section labeled Possible causes lists both the sabotage story and mundane slip-ups.",
+          "player_mission": "Audit Delia's confident blame of a colleague. Decide whether her account is deception or an automatic causal story, using the chapter's evidence that System 1 hunts for agents and causes even when luck is the true explanation.",
+          "key_concepts": [
+            "Finding causal connections is part of understanding a story and is an automatic operation of System 1; System 2, the conscious self, accepts the interpretation it is offered.",
+            "In a story about a lost wallet in crowded New York, people recalled the word pickpocket more strongly than the word sights that actually appeared.",
+            "When the ideas of a lost wallet, New York, and crowds are juxtaposed, they jointly evoke the explanation that a pickpocket caused the loss.",
+            "System 1 is adept at finding a coherent causal story that links the fragments of knowledge at its disposal.",
+            "The automatic search for causes made the capture of Saddam Hussein the destined explanation of whatever happened in the bond market that day.",
+            "A statement that can explain two contradictory outcomes explains nothing at all; the headlines only satisfy our need for coherence.",
+            "A large event is supposed to have consequences, and consequences need causes to explain them.",
+            "People are prone to apply causal thinking inappropriately to situations that require statistical reasoning.",
+            "The chapter notes that someone who cannot accept being unlucky will end up thinking that someone intentionally sabotaged their work."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the automatic search for causality: Delia's confident sabotage claim is a System 1 causal story generated to explain an unlucky accident, not evidence of deception. The chapter shows that a need for coherent causes fills the gap left by statistical explanations such as chance.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "What is the correct diagnosis of Delia's confident claim that a coworker deliberately shifted the pallet?",
+          "subject_baseline": "Delia is a careful, experienced forklift operator who has never filed a grievance or accused a coworker before; her incident reports are typically terse and factual, and she is respected for level-headedness on the floor.",
+          "observed_nonverbal_log": "09:12 — Delia states the sabotage story immediately, before any questions, with a fixed, intense gaze and a slightly raised voice. 09:14 — Asked for evidence, she lists the pallet's tilt and the timing of the break, then adds that it has to be someone and that things do not just fall. 09:18 — She becomes agitated when Ravi mentions the forklift's vibration history and repeats the sabotage claim word for word. 09:21 — She shows anger, not fear or evasion, and repeatedly returns to the same conclusion rather than expanding the story.",
+          "interrogation_transcript": "Ravi: What exactly do you think happened? Delia: Someone moved that pallet. It was deliberate. Ravi: What makes you say that? Delia: A load that is stacked right does not just topple. There has to be a reason. Ravi: The maintenance log shows this forklift vibrates badly on that strip of floor. Delia: No. That is not it. Someone did this. There has to be a cause, it cannot just be nothing.",
+          "correct_diagnosis": "Not deception and not a reliable factual account — Delia is expressing an automatic causal story: her System 1 cannot accept an unlucky, chance event, so it generates an intentional agent as the cause, exactly as the chapter's pickpocket and sabotaged-work examples describe.",
+          "diagnostic_breakdown": "Delia's insistence that there has to be a cause is the chapter's point verbatim: consequences need causes, and System 1 fills the gap with an agent when no cause is visible. The signs of anger and fixation, with no classic deception cues, fit a genuinely held causal story rather than a manufactured alibi. Her refusal of the mundane vibration explanation mirrors how causal thinking crowds out statistical, chance-based explanations.",
+          "distractors": [
+            "Deliberate false accusation to cover her own driving error",
+            "Accurate eyewitness testimony based on direct observation",
+            "A delusional disorder requiring medical referral"
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Boss Battle: Two Wins Do Not Make a Law",
+          "visual_frame_description": "In a startup's war room, the founders show a dashboard: their new ad strategy has won big in two consecutive test markets. The whole team nods, saying twice in a row means it is clearly working. A ticker notes that the two markets were chosen for convenience and that hundreds of markets remain untested.",
+          "player_mission": "Stop the team from scaling a strategy on the strength of two convenient wins. Identify why the recurrence feels so convincing, then force the team to switch from causal storytelling to statistical reasoning before they commit the budget.",
+          "key_concepts": [
+            "A single incident may make a recurrence less surprising, and very little repetition is needed for a new experience to feel normal.",
+            "System 1's model of what is normal is built from associations of events that co-occur with some regularity.",
+            "When an event recurs in the same circumstances, it can quickly become an active expectation.",
+            "System 1 does not have the capability for statistical reasoning about categories and ensembles.",
+            "System 2 can learn to think statistically, but few people receive the necessary training.",
+            "People are prone to apply causal thinking inappropriately to situations that require statistical reasoning.",
+            "We should not focus exclusively on the average; we should consider the entire range of normal reactions.",
+            "A capacity for surprise is the most sensitive indication of how we understand our world and what we expect from it."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "The battle tests the normalization of small-sample evidence: when an event recurs just a couple of times, System 1 quietly treats it as normal and meaningful, yet such recurrences prove nothing about the underlying rate. The chapter shows that causal thinking and the comfort of recurrence must be checked by statistical reasoning, which only a trained System 2 can supply.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is the normalization of small-sample evidence: when an event recurs just a couple of times, System 1 quietly treats it as normal and meaningful, yet such recurrences prove nothing about the underlying rate, and only statistical reasoning about the whole ensemble can correct the impression.",
+          "stage_1_observation": "In a startup's war room, the founders show a dashboard: their new ad strategy has won big in two consecutive test markets. The whole team nods, saying twice in a row means it is clearly working. A ticker notes that the two markets were chosen for convenience and that hundreds of markets remain untested.",
+          "stage_1_question": "Why is the team's leap from two wins to the strategy works so seductive despite being statistically weak?",
+          "stage_1_correct_answer": "The recurrence normalizes the result and manufactures confidence, but two observations tell you almost nothing about the true rate; the chapter shows System 1 is comfortable with causal stories from tiny samples and is not built for statistical reasoning about ensembles.",
+          "stage_2_intervention": "The team wants to scale the strategy nationally tomorrow. Choose the intervention that best counters the normalcy trap.",
+          "stage_2_correct_answer": "Force a shift to statistical reasoning: demand the base rate of similar campaigns, the size of the samples, and the full range of plausible outcomes before scaling, because System 2 can learn to think statistically even though few people are trained to do so, and the ease-driven conclusion that it works must be checked against the ensemble."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Boss Battle: The Post-Hoc Headline Machine",
+          "visual_frame_description": "A newsroom screen shows the morning's bond desk: prices rose after Saddam Hussein's capture, and Bloomberg flashed the headline U.S. TREASURIES RISE; HUSSEIN CAPTURE MAY NOT CURB TERRORISM. Half an hour later prices fell, and the headline flipped to U.S. TREASURIES FALL; HUSSEIN CAPTURE BOOSTS ALLURE OF RISKY ASSETS. Editors nod approvingly at each framing.",
+          "player_mission": "Reform the newsroom's habit of forcing every market move into a causal story about the day's biggest event. Identify the flaw in the paired headlines, then choose the reporting move that resists the automatic search for causes.",
+          "key_concepts": [
+            "A story in Nassim Taleb's The Black Swan shows bond prices rising and then falling after the capture of Saddam Hussein, with a matching headline for each direction.",
+            "Because of the automatic search for causes, Hussein's capture was destined to be the explanation of whatever happened in the market that day.",
+            "A statement that can explain two contradictory outcomes explains nothing at all.",
+            "The two headlines only satisfy our need for coherence.",
+            "A large event is supposed to have consequences, and consequences need causes to explain them.",
+            "System 1 is adept at finding a coherent causal story that links the fragments of knowledge at its disposal.",
+            "Finding causal connections is part of understanding a story and is an automatic operation of System 1.",
+            "People are prone to apply causal thinking inappropriately to situations that require statistical reasoning."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "The battle tests the automatic search for causes: any notable event becomes the explanation for whatever happens next, even when the two explanations are contradictory and therefore explain nothing. The chapter shows these stories are not explanations but products of our need for coherence.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is the automatic search for causality: any large, salient event becomes the explanation for whatever happens next, even when the resulting statements are contradictory and therefore explain nothing at all.",
+          "stage_1_observation": "A newsroom screen shows the morning's bond desk: prices rose after Saddam Hussein's capture, and Bloomberg flashed the headline U.S. TREASURIES RISE; HUSSEIN CAPTURE MAY NOT CURB TERRORISM. Half an hour later prices fell, and the headline flipped to U.S. TREASURIES FALL; HUSSEIN CAPTURE BOOSTS ALLURE OF RISKY ASSETS. Editors nod approvingly at each framing.",
+          "stage_1_question": "What is the central flaw in the two headlines the editors are celebrating?",
+          "stage_1_correct_answer": "A statement that can explain two contradictory outcomes explains nothing at all; the headlines only satisfy the need for coherence, since a large event is supposed to have consequences and consequences need causes, a search performed automatically by System 1.",
+          "stage_2_intervention": "You have one minute to steer the next bulletin. Choose the move that best resists the causal-story machine.",
+          "stage_2_correct_answer": "Publish the price move without forcing a cause, label the explanation as speculation, and acknowledge that the day's fragments do not determine a single cause, because System 1 is adept at finding a coherent story but the honest report must refuse to manufacture one from insufficient information."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Boss Battle: Slaying the Moses Illusion",
+          "visual_frame_description": "A live interview set: the host asks a bright guest, How many animals of each kind did Moses take into the ark? The guest smiles and starts counting, the audience murmurs approvingly, and a fact-check panel lights up with the warning PRESUPPOSITION ERROR, noting that Moses took no animals onto the ark. The guest still does not notice.",
+          "player_mission": "Use the Moses illusion to teach the audience how System 1 accepts a false presupposition. Explain why the error goes undetected, then choose an intervention that makes people actually catch it.",
+          "key_concepts": [
+            "The Moses illusion occurs because the ark sets up a biblical context in which Moses is not abnormal.",
+            "You did not positively expect Moses in the ark question, but the mention of his name is not surprising in that context.",
+            "It also helps that Moses and Noah have the same vowel sound and number of syllables.",
+            "As with the triads that produce cognitive ease, you unconsciously detect associative coherence between Moses and ark and so quickly accept the question.",
+            "Replace Moses with George W. Bush in the sentence and you have a poor political joke but no illusion.",
+            "When something does not fit into the current context of activated ideas, the system detects an abnormality.",
+            "Violations of normality are detected with astonishing speed, within about two-tenths of a second of an odd word.",
+            "We have norms for a vast number of categories, and these norms provide the background for the immediate detection of anomalies."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "The battle tests the Moses illusion: a question whose false presupposition fits the activated context will be accepted and answered, because associative coherence plus phonological similarity suppress the abnormality that System 2 would otherwise detect. The chapter shows that swapping in an incongruent name triggers abnormality detection and that only deliberate System 2 checking catches the error.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is the Moses illusion: a question whose false presupposition fits the activated context will be accepted and answered, because associative coherence plus phonological similarity suppress the abnormality that System 2 would otherwise detect.",
+          "stage_1_observation": "A live interview set: the host asks a bright guest, How many animals of each kind did Moses take into the ark? The guest smiles and starts counting, the audience murmurs approvingly, and a fact-check panel lights up with the warning PRESUPPOSITION ERROR, noting that Moses took no animals onto the ark. The guest still does not notice.",
+          "stage_1_question": "Why does nearly everyone fail to catch the error in this question?",
+          "stage_1_correct_answer": "The ark sets up a biblical context in which Moses is not abnormal, and the similarity of the names Moses and Noah in sound and syllable count strengthens the associative coherence, so System 1 accepts the question and jumps to answering rather than checking its presupposition.",
+          "stage_2_intervention": "The host wants to turn the moment into a lesson. Choose the intervention most likely to make the audience actually detect the error.",
+          "stage_2_correct_answer": "Replace Moses with a name that does not fit the context, such as George W. Bush, which triggers abnormality detection, and then deliberately check the presupposition of every question, because the chapter shows violations of normality are detected with astonishing speed when the context does not fit, and only deliberate System 2 checking is what catches the illusion."
+        }
+      ]
+    }
+  ]
+}

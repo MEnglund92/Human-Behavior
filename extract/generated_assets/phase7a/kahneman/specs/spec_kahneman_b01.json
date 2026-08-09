@@ -1,0 +1,77 @@
+{
+  "spec_file": "spec_kahneman_b01.json",
+  "book_key": "kahneman",
+  "book_title": "Thinking, Fast and Slow (Daniel Kahneman)",
+  "topic": "cognitive-biases",
+  "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+  "credibility_profile": {
+    "level": "High",
+    "consensus": "Broad",
+    "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+  },
+  "modality_weights": {
+    "DISCRIMINATION_MATRIX": 40,
+    "DECEPTION_AUDIT_FILE": 30,
+    "BOSS_BATTLE": 30
+  },
+  "chapter_count": 1,
+  "chapters": [
+    {
+      "index": 5,
+      "title": "Introduction",
+      "words": 5269,
+      "asset_count": 12,
+      "text_path": "extract/generated_assets/phase7a/kahneman/chapter_0005.txt",
+      "top_concepts": [
+        {
+          "term": "intuition",
+          "context": "in silence in our mind. Much of the discussion in this book is about biases of intuition. However, the focus on error does not denigrate human intelligence, any more than the attention to diseases in medical"
+        },
+        {
+          "term": "system 1",
+          "context": "the next chapter, I describe mental life by the metaphor of two agents, called System 1 and System 2, which respectively produce fast and slow thinking. I speak of the features of intuitive and deliberate th"
+        },
+        {
+          "term": "self",
+          "context": "matters. The expectation of intelligent gossip is a powerful motive for serious self-criticism, more powerful than New Year resolutions to improve one’s decision making at work and at home. To be a good d"
+        },
+        {
+          "term": "system 2",
+          "context": "pter, I describe mental life by the metaphor of two agents, called System 1 and System 2, which respectively produce fast and slow thinking. I speak of the features of intuitive and deliberate thought as if t"
+        },
+        {
+          "term": "availability heuristic",
+          "context": "nstances came to mind. We called this reliance on the ease of memory search the availability heuristic. In one of our studies, we asked participants to answer a simple question about words in a typical English text: Consid"
+        },
+        {
+          "term": "prospect theory",
+          "context": "e rules of rational choice. Five years after the Science article, we published “Prospect Theory: An Analysis of Decision Under Risk,” a theory of choice that is by some counts more influential than our work on judgm"
+        },
+        {
+          "term": "halo effect",
+          "context": "ably than he deserves. The availability of a diagnostic label for this bias—the halo effect—makes it easier to anticipate, recognize, and understand. When you are asked what you are thinking about, you can norma"
+        },
+        {
+          "term": "silence",
+          "context": "ental work that produces impressions, intuitions, and many decisions goes on in silence in our mind. Much of the discussion in this book is about biases of intuition. However, the focus on error does not den"
+        },
+        {
+          "term": "influence",
+          "context": "we did not choose demonstrations over standard experiments because we wanted to influence philosophers and economists. We preferred demonstrations because they were more fun, and we were lucky in our choice of"
+        },
+        {
+          "term": "gut feeling",
+          "context": "to make a car!” was his explanation. He made it very clear that he trusted his gut feeling and was satisfied with himself and with his decision. I found it remarkable that he had apparently not considered the o"
+        },
+        {
+          "term": "affect heuristic",
+          "context": "he past. The executive’s decision would today be described as an example of the affect heuristic, where judgments and decisions are guided directly by feelings of liking and disliking, with little deliberation or rea"
+        },
+        {
+          "term": "substitution",
+          "context": "t question, we often answer an easier one instead, usually without noticing the substitution. The spontaneous search for an intuitive solution sometimes fails—neither an expert solution nor a heuristic answer com"
+        }
+      ]
+    }
+  ]
+}

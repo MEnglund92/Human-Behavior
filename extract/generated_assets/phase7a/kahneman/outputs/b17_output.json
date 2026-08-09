@@ -1,0 +1,815 @@
+{
+  "spec_file": "spec_kahneman_b17.json",
+  "chapters": [
+    {
+      "id": "ch33",
+      "title": "28. Bad Events",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Negativity Dominance: Bad Is Stronger Than Good",
+          "visual_frame_description": "A split-screen neuroscience console. On the left, a masked pair of terrified eyes flashes for less than a hundredth of a second and is instantly buried under a checkerboard of visual noise, while a brain-scan heatmap lights up the amygdala. On the right, a bowl of cherries with a single cockroach sits beside a bowl of cockroaches holding one cherry. Evidence cards slide across the bottom of the screen, each describing an asymmetry between good and bad events.",
+          "player_mission": "Sort each evidence card into the column for the mechanism it demonstrates: negativity dominance, loss aversion, or reference-point dependence. Drag all seven cards into place, then confirm your classifications to unlock the diagnostic breakdown.",
+          "key_concepts": [
+            "Bad is stronger than good: bad emotions, bad parents, and bad feedback have more impact than good ones.",
+            "Bad information is processed more thoroughly than good information.",
+            "The amygdala has a primary role as the 'threat center' of the brain and responds intensely to a masked threatening picture the viewer never consciously recognizes.",
+            "Threat information travels via a superfast neural channel that bypasses the visual cortex that supports conscious seeing.",
+            "Schematic angry faces are processed faster and more efficiently than schematic happy faces.",
+            "An angry face pops out of a crowd of happy faces, but a single happy face does not stand out in an angry crowd.",
+            "A single cockroach will completely wreck the appeal of a bowl of cherries, but a cherry does nothing at all for a bowl of cockroaches.",
+            "Gottman estimated that a stable relationship requires good interactions to outnumber bad ones by at least 5 to 1.",
+            "Bad impressions and bad stereotypes are quicker to form and more resistant to disconfirmation than good ones.",
+            "Loss aversion is one of many manifestations of a broad negativity dominance in which the negative trumps the positive.",
+            "No comparably rapid mechanism for recognizing good news has been detected in the brain."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests negativity dominance, the broad asymmetry in which bad events, bad feedback, and bad impressions have more impact and are processed more thoroughly than good ones, from the amygdala's superfast threat response to social and consumer judgments. Kahneman presents it as an evolutionary foundation of which loss aversion is one manifestation.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which mechanism explains each observed asymmetry: negativity dominance, loss aversion, or reference-point dependence?",
+          "column_a_label": "Negativity dominance (bad is stronger than good)",
+          "column_b_label": "Loss aversion (losses loom larger than gains)",
+          "column_c_label": "Reference-point dependence (the boundary between good and bad depends on a baseline)",
+          "rows": [
+            {
+              "label": "The amygdala responds intensely to a masked picture of terrified eyes the viewer never consciously recognized.",
+              "col": "a"
+            },
+            {
+              "label": "An angry face pops out of a crowd of happy faces faster than a happy face stands out in an angry crowd.",
+              "col": "a"
+            },
+            {
+              "label": "A single cockroach ruins a bowl of cherries, but a cherry does nothing for a bowl of cockroaches.",
+              "col": "a"
+            },
+            {
+              "label": "Professional golfers putt more accurately for par than for a birdie.",
+              "col": "b"
+            },
+            {
+              "label": "New York cabdrivers quit early on rainy days once their daily earnings target is reached.",
+              "col": "b"
+            },
+            {
+              "label": "82% of survey respondents rate a store raising shovel prices from $15 to $20 after a snowstorm as unfair.",
+              "col": "c"
+            },
+            {
+              "label": "A soaked hiker finds intense pleasure at a rock that blocks the wind, though the relief is brief.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The amygdala's response to the masked picture is best explained by loss aversion because the face signals a potential loss.",
+            "The golfer's extra accuracy on par putts is best explained by negativity dominance because missing par feels catastrophic.",
+            "The hiker's relief is best explained by negativity dominance because the wind was a strong negative event."
+          ],
+          "explanation": "The amygdala, angry-face pop-out, and cockroach-cherries rows all demonstrate negativity dominance: bad events are detected faster, processed more thoroughly, and outweigh good ones. The golfer and cabdriver rows show loss aversion, the asymmetric strength of avoiding losses versus pursuing gains, since failing to reach a goal reads as a loss. The shovel-price and hiker rows show reference-point dependence, where the boundary between good and bad depends on a baseline such as the pre-storm price or the current misery of the hiker."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Fairness Rules and Dual Entitlements",
+          "visual_frame_description": "A 1980s telephone-survey call center under a Department of Fisheries and Oceans banner. Interviewers in headsets read fairness vignettes from four color-coded questionnaires, with a standing rule that every version must mention fish. On a monitor, employer scenarios scroll past: a hardware store raising shovel prices after a blizzard, a photocopy shop cutting a worker's wage, and a profitable firm keeping its cost savings. A tally bar shows how respondents rate each action from Completely Fair to Very Unfair.",
+          "player_mission": "For each employer action, classify it as unfair, acceptable because it protects the firm's own entitlement to profit, or acceptable because no one's entitlement is infringed. Use the fairness rules the survey respondents applied to sort every row correctly.",
+          "key_concepts": [
+            "The existing wage, price, or rent sets a reference point that has the nature of an entitlement that must not be infringed.",
+            "82% of respondents rated the snow-shovel price hike from $15 to $20 as Unfair or Very Unfair.",
+            "83% of respondents rated cutting a current worker's wage from $9 to $7 as unfair, while a large majority (73%) called paying a replacement $7 acceptable.",
+            "The employer does not have a moral obligation to pay $9 an hour; the entitlement is personal to the current worker.",
+            "The firm has its own entitlement, which is to retain its current profit.",
+            "It is not unfair for a firm to reduce wages when its profitability is falling, because it is protecting its own entitlement.",
+            "A firm that faced lower production costs was not required by the rules of fairness to share the bonanza with customers or workers.",
+            "The exploitation of market power to impose losses on others is unacceptable.",
+            "Respondents showed indignation only when a firm exploited its power to break informal contracts and impose a loss to increase its profit.",
+            "Fairness concerns are economically significant: unfair merchants lose sales and unfair employers face reduced productivity."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests reference-dependent fairness and dual entitlements: the existing wage, price, or rent sets a reference point that operates as an entitlement, and the firm holds its own entitlement to current profit. Kahneman, Knetsch, and Thaler found 82% called the shovel hike unfair, 83% called a wage cut to a current worker unfair, but 73% accepted paying a replacement worker $7.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Under the fairness rules the survey respondents applied, how should each employer action be classified?",
+          "column_a_label": "Unfair (imposes a loss on customers or workers relative to the reference transaction)",
+          "column_b_label": "Acceptable because it protects the firm's own entitlement to profit",
+          "column_c_label": "Acceptable because no entitlement is infringed and no loss is imposed",
+          "rows": [
+            {
+              "label": "A hardware store raises shovel prices from $15 to $20 the morning after a large snowstorm.",
+              "col": "a"
+            },
+            {
+              "label": "A photocopy shop cuts its current worker's wage from $9 to $7 while the business remains profitable.",
+              "col": "a"
+            },
+            {
+              "label": "After the current employee leaves, the shop hires a replacement worker at $7 an hour.",
+              "col": "c"
+            },
+            {
+              "label": "A firm reduces wages when its own profitability is falling, to protect its entitlement to profit.",
+              "col": "b"
+            },
+            {
+              "label": "A firm with lower production costs keeps the savings instead of sharing them with customers.",
+              "col": "c"
+            },
+            {
+              "label": "A firm exploits its power to break informal contracts and impose a loss on others in order to increase its profit.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The snow-shovel price hike is acceptable because the store is simply responding to increased demand, which is the standard economic model.",
+            "Cutting a wage to $7 is fair whenever other shops in the area hire reliable workers at $7.",
+            "A firm must share windfall savings from lower costs, or it is branded unfair by respondents."
+          ],
+          "explanation": "The survey data show respondents judged the shovel hike (82% unfair) and the wage cut to a current worker (83% unfair) unacceptable because they impose losses relative to the reference transaction. A firm may reduce wages when its own profitability is threatened because it is defending its entitlement, but a replacement worker holds no entitlement to the prior wage, so paying $7 is acceptable. Not sharing cost savings is also acceptable, since the firm is entitled to its profit and no one suffers an imposed loss."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Losses, Foregone Gains, and the Reference Point in Law and Negotiation",
+          "visual_frame_description": "A law library reading room at dusk. On a wall terminal, a comparison grid sorts legal and commercial situations into two columns: ACTUAL LOSS and FOREGONE GAIN. A jurist's annotations appear beside each row: a merchant whose goods were lost in transit, a customer who overpaid relative to a new catalog price, and a handshake over a contract renewal. The cursor hovers over rows waiting to be classified.",
+          "player_mission": "Classify each situation by how loss aversion and the reference point treat it: as an actual loss that is heavily weighted and protected, a foregone gain that is lightly weighted, or a reference-point entitlement that defines the boundary between good and bad.",
+          "key_concepts": [
+            "A merchant whose goods were lost in transit may be compensated for costs he actually incurred, but is unlikely to be compensated for lost profits.",
+            "The law draws a sharp distinction between actual losses and foregone gains.",
+            "The rule that possession is nine-tenths of the law confirms the moral status of the reference point.",
+            "People who lose suffer more than people who merely fail to gain, and may therefore deserve more protection from the law.",
+            "Customers who learned from a new catalog that the merchant now charged less than they had paid reduced future purchases by 15%, an average loss of $90 per customer.",
+            "The existing terms of an agreement define reference points, and a proposed change is viewed as a concession one side makes to the other.",
+            "Renegotiation of an existing contract is the typical situation in labor negotiations and international discussions of trade or arms limitations.",
+            "The concessions you make to me are my gains but your losses; they cause you much more pain than they give me pleasure.",
+            "Loss aversion creates an asymmetry that makes agreements difficult to reach.",
+            "The boundary between good and bad is a reference point that changes over time and depends on the immediate circumstances."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests how loss aversion and the reference point structure law and negotiation: actual losses relative to a reference point are heavily weighted and protected, while foregone gains receive little weight. Kahneman notes the law compensates out-of-pocket costs but not lost profits, and that renegotiations are hard because existing terms define entitlements.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "How does the reference point treat each situation: as an actual loss, a foregone gain, or a reference-point entitlement?",
+          "column_a_label": "Actual loss (heavily weighted, compensated or protected)",
+          "column_b_label": "Foregone gain (lightly weighted, not compensated)",
+          "column_c_label": "Reference-point entitlement (existing terms define the boundary between good and bad)",
+          "rows": [
+            {
+              "label": "A merchant whose goods are lost in transit is compensated for the shipping costs he actually incurred.",
+              "col": "a"
+            },
+            {
+              "label": "The same merchant is unlikely to be compensated for the profits the lost goods would have earned.",
+              "col": "b"
+            },
+            {
+              "label": "Possession is nine-tenths of the law: the current holder's position is protected.",
+              "col": "c"
+            },
+            {
+              "label": "Customers who learn a new catalog charges less than they paid reduce their future purchases by 15%.",
+              "col": "a"
+            },
+            {
+              "label": "Renegotiating an existing contract is harder than a fresh deal because current terms are the reference point.",
+              "col": "c"
+            },
+            {
+              "label": "The concessions you make to me are my gains but your losses, so you value them more than I do.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The law compensates foregone profits just as readily as out-of-pocket costs, because both are economic losses.",
+            "Possession is protected only when the holder is the true owner, never on the basis of current position alone.",
+            "Renegotiation is hard mainly because negotiators are irrational, not because the reference point creates entitlements."
+          ],
+          "explanation": "The law compensates actual out-of-pocket losses but not foregone profits, because people who lose suffer more than people who merely fail to gain. Reference-point entitlement explains why possession is protected and why renegotiation of existing terms is difficult, since current terms define the boundary between good and bad. The catalog customers and the negotiation concessions show actual losses relative to a reference point driving behavior, because a loss hurts more than a foregone gain pleases."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Bargaining-Chip Bluff in Arms Negotiation",
+          "visual_frame_description": "A Vienna conference room where two delegations face each other across a long walnut table. Chief negotiator Elena Marchetti of the Alto Republic is mid-sentence, fist pressed flat on the table, describing her country's medium-range missile system as a matter of sovereign pride. A CCTV-style overlay records her micro-expressions while a transcript scrolls on a side monitor, and an analyst's cursor highlights the moment her voice rises above her normal range.",
+          "player_mission": "Audit negotiator Elena Marchetti's insistence on keeping the missile system out of the deal. Decide whether her demonstrated attachment is genuine commitment or a staged bargaining-chip bluff designed to force an equally painful reciprocal concession from the other side.",
+          "key_concepts": [
+            "Many of the messages negotiators exchange are attempts to communicate a reference point and provide an anchor to the other side.",
+            "Negotiators often pretend intense attachment to some good, such as missiles of a particular type in arms reductions, although they actually view it as a bargaining chip.",
+            "Because negotiators are influenced by a norm of reciprocity, a concession presented as painful calls for an equally painful concession from the other side.",
+            "The existing terms of an agreement define reference points, and a proposed change is inevitably viewed as a concession one side makes to the other.",
+            "Loss aversion creates an asymmetry that makes agreements difficult to reach.",
+            "The concessions you make to me are my gains but your losses; they cause you much more pain than they give me pleasure.",
+            "Negotiations over a shrinking pie are especially difficult because they require an allocation of losses.",
+            "People tend to be much more easygoing when they bargain over an expanding pie.",
+            "Potential losers will be more active and determined than potential winners in any proposed change.",
+            "Loss aversion is a powerful conservative force that favors minimal changes from the status quo."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the strategic use of loss aversion in negotiation: negotiators communicate reference points as anchors and often pretend intense attachment to a good they privately view as a bargaining chip they intend to give away. Kahneman notes that reciprocity then makes a concession presented as painful call for an equally painful concession in return.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Is Chief Negotiator Elena Marchetti genuinely committed to preserving the medium-range missile system, or is she bluffing with a bargaining chip?",
+          "subject_baseline": "Marchetti is a 24-year veteran diplomat who has led six arms-control rounds. In past rounds she argued in a low, steady register, made few gestures, and used understated language about her government's true red lines. Analysts noted that when she genuinely could not concede a point, she never dramatized it; she simply repeated the position flatly and refused to elaborate.",
+          "observed_nonverbal_log": [
+            "10:12 - Marchetti slams her palm on the table and raises her voice a full octave while calling the missile system 'the heart of our sovereignty'.",
+            "10:13 - Immediately after the outburst she looks down at her own notes and swallows, then glances at her junior aide as if checking the performance.",
+            "10:21 - When the other side floats a package that excludes the missile system, she repeats 'never' loudly, but her shoulders drop and she leans back into the chair.",
+            "10:28 - She exchanges a barely visible nod with her trade delegate when the topic shifts to tariff concessions.",
+            "10:34 - Asked whether the missile system could be revisited in a later round, she pauses three seconds and then says 'everything is possible in the end' in her normal low voice."
+          ],
+          "interrogation_transcript": [
+            "Inspector: 'You say the missile system is non-negotiable. Is that a final position?'",
+            "Marchetti: 'I said it is the heart of our sovereignty. That is a position, not a price.'",
+            "Inspector: 'Your predecessor once described this same system as a chip that could be cashed.'",
+            "Marchetti: 'My predecessor was not at this table. I am. We will not trade away our defenses for a tariff.'",
+            "Inspector: 'And if we were to make a painful concession of our own, would you still refuse?'",
+            "Marchetti: 'A painful concession deserves a painful concession. That is how these agreements are made.'",
+            "Inspector: 'So you would reconsider the missile system for the right price.'",
+            "Marchetti: 'You are the one who said price. I said reciprocity. But in the end, everything is possible.'"
+          ],
+          "correct_diagnosis": "Marchetti is bluffing: her theatrical outrage, the post-outburst check-in with her aide, the relaxed shoulders when she repeated 'never', and her final admission that 'everything is possible' reveal that the missile system is a bargaining chip. She is establishing a reference point and invoking reciprocity to force an equally painful concession from the other side, exactly the behavior Kahneman describes.",
+          "diagnostic_breakdown": "The voice spike and table slam deviate sharply from her documented flat-tone baseline for genuine red lines, which is the first evidence of staging. The glance at her aide right after the outburst and the relaxed posture during 'never' indicate performance rather than tension. The decisive evidence is her own words: she converts 'non-negotiable' into a reciprocity equation ('a painful concession deserves a painful concession') and then admits 'everything is possible', confirming the attachment was manufactured to anchor the other side.",
+          "distractors": [
+            "Marchetti is genuinely committed, because her intense emotion and raised voice show authentic investment in the missile system.",
+            "Marchetti is lying about whether the missile system exists, which the opposing delegation will later discover.",
+            "Marchetti is being pressured by her own military to keep the system, and her anger is frustration at that pressure."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Post-Storm Price Hike and the Exploitation of Market Power",
+          "visual_frame_description": "A neighborhood hardware store the morning after a heavy snowstorm. Owner Mr. Delgado stands by a stack of shovels under a large hand-painted $20 sign, ringing up bundled-up customers. An interviewer's camera captures a customer pointing at a faded $15 sticker still visible on the shelf behind the register, while Delgado shrugs and gestures at the crowd waiting at the door.",
+          "player_mission": "Audit hardware store owner Mr. Delgado's decision to raise shovel prices from $15 to $20 after a blizzard. Determine whether his justification reflects a legitimate market response or an exploitation of market power that imposes a loss on customers relative to the reference price.",
+          "key_concepts": [
+            "The existing price sets a reference point that has the nature of an entitlement that must not be infringed.",
+            "82% of respondents rated raising shovel prices from $15 to $20 after a large snowstorm as Unfair or Very Unfair.",
+            "The standard economic model says the store responds to increased demand by raising its price, but survey participants did not agree.",
+            "Customers view the pre-blizzard price as a reference point and the raised price as a loss the store imposes because it can, not because it must.",
+            "A basic rule of fairness is that the exploitation of market power to impose losses on others is unacceptable.",
+            "Firms that follow unfair pricing policies can expect to lose sales.",
+            "Customers who learned from a new catalog that a merchant charged them more than the new reference price reduced future purchases by 15%.",
+            "Unfairly imposing losses on people can be risky if the victims are in a position to retaliate.",
+            "Fairness concerns impose constraints on profit seeking, which is the overarching question of the chapter's fairness research.",
+            "The moral rules by which the public evaluates firms draw a crucial distinction between losses and gains."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests reference-dependent fairness in pricing: customers treat the pre-blizzard $15 price as a reference point, so the hike is read as a loss the store imposes because it can, not because it must. Kahneman, Knetsch, and Thaler found 82% of respondents rated this exact action unfair, even though it matches the standard economic model.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Is Mr. Delgado's post-blizzard price hike from $15 to $20 a legitimate market response or an unfair exploitation of market power?",
+          "subject_baseline": "Mr. Delgado is a 30-year neighborhood hardware merchant who prides himself on knowing customers by name and keeping prices stable season to season. In normal weeks he is chatty and relaxed at the register, and he has never changed a sticker price mid-day. He stocks shovels at a steady wholesale cost that did not change this week.",
+          "observed_nonverbal_log": [
+            "08:02 - Delgado tapes the new $20 sign over the shovels before the store opens, then stands back and crosses his arms.",
+            "08:20 - A regular customer points at the $15 sticker on the shelf; Delgado's eyes dart to the crowd at the door and he shrugs without speaking.",
+            "08:24 - Asked whether his wholesale cost changed, he rubs his neck and looks at the floor before answering about 'demand'.",
+            "08:31 - He rings up a shovel and, when the customer hesitates, he says 'take it or leave it, there's a line' while gesturing at the door.",
+            "08:38 - A customer who paid then turns back and photographs the $15 sticker; Delgado watches but does not object."
+          ],
+          "interrogation_transcript": [
+            "Interviewer: 'You sold these for $15 yesterday. Why $20 this morning?'",
+            "Delgado: 'Simple supply and demand. After a storm like this everybody needs a shovel.'",
+            "Interviewer: 'Did your own cost for the shovels go up?'",
+            "Delgado: 'Well, you know how it is. When demand goes up, price goes up. That's the market.'",
+            "Interviewer: 'So this isn't about your costs at all.'",
+            "Delgado: 'I'm not here to run a charity. If people are willing to pay $20, I'll take $20.'",
+            "Interviewer: 'Is that fair to your regulars?'",
+            "Delgado: 'Fair is what the market will bear. They don't have to buy it, but they will.'"
+          ],
+          "correct_diagnosis": "The price hike is an unfair exploitation of market power: Mr. Delgado's costs did not change, he raised the price purely because the storm created captive demand, and he thereby imposed a loss on customers relative to the $15 reference price. This is the exact scenario 82% of respondents branded unfair, and it risks retaliatory losses in future sales.",
+          "diagnostic_breakdown": "Delgado never cites a cost increase, and his nonverbal behavior at the cost question (neck rub, looking away) confirms there is none; his only justification is demand, which is the definition of exploiting market power. The reference price is anchored by the still-visible $15 sticker, so the hike reads as a loss the store imposes 'because it can, not because it must'. The chapter's survey data deliver the verdict: 82% rated this action unfair, and unfair merchants lose future sales, as the catalog customers' 15% purchase cutback shows.",
+          "distractors": [
+            "The price hike is fair because Delgado's wholesale costs genuinely rose overnight and he is merely passing through the increase.",
+            "The hike is fair because the standard economic model of supply and demand always determines what is fair.",
+            "The customer has no grounds to object because the $15 price was only a sticker, not a contractual promise."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Why Large-Scale Reforms Fail: Loss Aversion and the Status Quo",
+          "visual_frame_description": "A city hall committee room the day a sweeping tax-simplification reform is introduced. The proposal promises to help 85% of taxpayers but eliminates 40 redundant clerk positions and shifts pension accrual for senior employees. In the lobby outside, the clerks and senior employees are organizing a petition, while the silent majority of beneficiaries is nowhere to be seen. A wall chart lists winners and losers under the plan.",
+          "player_mission": "You are the reform director for a city government trying to simplify the tax code and reduce costs. Predict how loss aversion will shape the reform's fate, then choose the intervention that gives the reform a realistic chance of surviving intact.",
+          "boss_battle_explanation": "This battle tests loss aversion as a conservative force in institutional reform: plans for reform produce many winners and some losers, but potential losers mobilize more actively and determinedly than potential winners, biasing the outcome in their favor and padding the final package with grandfather clauses. The player must apply the asymmetric intensity of loss aversion to predict and steer a real reform's fate.",
+          "key_concepts": [
+            "As initially conceived, plans for reform almost always produce many winners and some losers while achieving an overall improvement.",
+            "If the affected parties have any political influence, potential losers will be more active and determined than potential winners.",
+            "The outcome of reform will be biased in favor of the losers and inevitably more expensive and less effective than initially planned.",
+            "Reforms commonly include grandfather clauses that protect current stakeholders.",
+            "Grandfather clauses can reduce the existing workforce by attrition rather than dismissals, or apply cuts in salaries and benefits only to future workers.",
+            "Loss aversion is a powerful conservative force that favors minimal changes from the status quo.",
+            "In the world of territorial animals, the owner of a territory almost always wins a challenge, and this principle explains the success of defenders in human affairs.",
+            "The existing terms of employment define reference points that have the nature of entitlements.",
+            "This conservatism helps keep us stable in our neighborhood, our marriage, and our job.",
+            "Loss aversion is the relative strength of two motives: we are driven more strongly to avoid losses than to achieve gains."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests loss aversion as a conservative force in institutional reform: potential losers mobilize more actively and determinedly than potential winners, so reforms get diluted, padded with grandfather clauses, and end up more expensive and less effective than planned. Kahneman links this to territorial defense, where the owner almost always wins a challenge.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "stage_1_observation": "The city's tax-simplification reform would save $12 million a year and help 85% of taxpayers, but it eliminates 40 redundant clerk positions and reduces pension accrual for senior employees. A week into public consultation, the clerks and senior employees have formed a coalition and are petitioning the city council, while the diffuse majority of beneficiaries has organized nothing.",
+          "stage_1_question": "Given loss aversion, what is the most likely trajectory of this reform as it moves through the city council?",
+          "stage_1_correct_answer": "The reform will be diluted to protect the current stakeholders: potential losers will lobby more actively and determinedly than the silent majority of winners, the package will gain grandfather clauses and exemptions, headcount reductions will shift from dismissals to attrition, and the final result will be more expensive and less effective than the initial plan.",
+          "stage_2_intervention": "You must now design the version of the reform most likely to survive. Which approach is grounded in the psychology of reference points and entitlements?",
+          "stage_2_correct_answer": "Redesign the reform to grandfather the current stakeholders: reduce headcount through attrition rather than dismissals, and apply the pension accrual changes only to future hires. By protecting the existing employees' reference point and entitlement, you remove the intense loss-aversion motivation that drives the losers' resistance, allowing the overall improvement to pass in a diluted but workable form."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Amygdala's Superfast Threat Response",
+          "visual_frame_description": "A university brain-imaging suite at night. A participant lies in an MRI scanner staring at a fixation cross while a researcher monitors a display that flashes two pictures, each shown for less than a hundredth of a second and immediately masked by a random display of dark and bright squares. On the left is a pair of terrified eyes; on the right, the same eyes narrowed by the raised cheeks of a smile. A live trace beside the scanner plots amygdala activation.",
+          "player_mission": "You are the research assistant running the masked-threat experiment. Predict which picture will trigger the stronger amygdala response, then select the demonstration that best confirms the same mechanism operates for symbolic threats.",
+          "boss_battle_explanation": "This battle tests the brain's priority-for-bad-news mechanism: the amygdala, the threat center of the brain, responds intensely to a masked threatening picture the viewer never consciously recognizes, via a superfast neural channel that bypasses the visual cortex supporting conscious seeing. The player must see that this automatic System 1 operation has no comparably rapid counterpart for good news.",
+          "key_concepts": [
+            "The amygdala has a primary role as the 'threat center' of the brain, although it is also activated in other emotional states.",
+            "Images of the brain showed an intense response of the amygdala to a threatening picture that the viewer did not recognize.",
+            "The information about the threat probably traveled via a superfast neural channel that bypasses the visual cortex that supports conscious seeing.",
+            "None of the observers ever consciously knew that they had seen pictures of eyes.",
+            "Schematic angry faces are processed faster and more efficiently than schematic happy faces.",
+            "An angry face pops out of a crowd of happy faces, but a single happy face does not stand out in an angry crowd.",
+            "The brains of humans and other animals contain a mechanism designed to give priority to bad news.",
+            "The automatic operations of System 1 reflect an evolutionary history in which shaving time from predator detection improves the odds of reproducing.",
+            "No comparably rapid mechanism for recognizing good news has been detected.",
+            "Emotionally loaded bad words such as 'war' and 'crime' attract attention faster than happy words such as 'peace' and 'love'."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the amygdala's superfast threat response: a masked, unrecognized picture of terrified eyes triggers an intense amygdala reaction via a channel that bypasses the visual cortex supporting conscious seeing. Kahneman presents this as the automatic System 1 mechanism that gives priority to bad news, for which no comparable good-news mechanism exists.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "stage_1_observation": "In the scanner bay, the participant reports seeing nothing but the visual-noise mask on every trial. The monitor shows the two eye pictures being flashed: the terrified eyes and the smiling eyes, each for less than one-hundredth of a second and each followed by the mask. The amygdala trace flickers after one of the two pictures.",
+          "stage_1_question": "Which picture produces the intense amygdala response, and what does the chapter say about how the information got there?",
+          "stage_1_correct_answer": "The terrified eyes produce the intense amygdala response even though the viewer never consciously recognizes seeing them. The threat information travels via a superfast neural channel that feeds directly into emotion-processing regions, bypassing the visual cortex that supports conscious seeing.",
+          "stage_2_intervention": "The lab director wants a second demonstration that the same priority-for-bad-news mechanism works for purely symbolic threats. Which demonstration is grounded in the chapter's evidence?",
+          "stage_2_correct_answer": "Use a word-attention task: show that emotionally loaded bad words such as 'war' and 'crime' attract attention faster than happy words such as 'peace' and 'love'. The chapter states that the mere reminder of a bad event is treated by System 1 as threatening, producing in attenuated form the same reactions as the real thing."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Par Putts vs. Birdie Putts: Loss Aversion on the Green",
+          "visual_frame_description": "A professional golf course on the 17th green at dusk. The player stands over a putt, and an overlaid graphic splits the screen between two scenarios: putting for par to avoid a bogey, and putting for a birdie from the same distance. A data panel streams '2.5 million putts analyzed' and a leaderboard shows Tiger Woods at the top of the earnings list. A coach's notes beside the graphic read: failing to make par is a loss; missing a birdie is a foregone gain.",
+          "player_mission": "You are a sports-performance analyst advising a tour golfer. Use prospect theory to predict which putt the golfer makes more often, then choose the coaching intervention that best counteracts the loss-aversion gap documented by Pope and Schweitzer.",
+          "boss_battle_explanation": "This battle tests the loss-aversion prediction of prospect theory applied to professional golf: par is a reference point, so failing to make par is a loss while missing a birdie putt is a foregone gain, and golfers consequently try harder and succeed more often when putting for par. Pope and Schweitzer analyzed more than 2.5 million putts and found a 3.6% advantage for par putts at every distance.",
+          "key_concepts": [
+            "Par provides a reference point: a birdie is a gain and a bogey is a loss.",
+            "According to prospect theory, some strokes count more than others: failing to make par is a loss, while missing a birdie putt is a foregone gain, not a loss.",
+            "Pope and Schweitzer analyzed more than 2.5 million putts to test whether loss aversion makes players try harder for par.",
+            "Whether the putt was easy or hard, at every distance from the hole, players were more successful when putting for par than for a birdie.",
+            "The difference in success when going for par versus a birdie was 3.6%.",
+            "If Tiger Woods had putted as well for birdies as for par, his average tournament score would have improved by one stroke.",
+            "That one-stroke improvement would have raised Tiger Woods' earnings by almost $1 million per season.",
+            "These fierce competitors do not make a conscious decision to slack off on birdie putts; their intense aversion to a bogey contributes to extra concentration.",
+            "A reference point can be a goal in the future: not achieving a goal is a loss, exceeding it is a gain.",
+            "The aversion to the failure of not reaching a goal is much stronger than the desire to exceed it."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests loss aversion applied to professional golf: par is a reference point, so failing to make par is a loss while missing a birdie is a foregone gain, and golfers therefore concentrate harder and succeed more often putting for par. Pope and Schweitzer's analysis of over 2.5 million putts found a 3.6% advantage for par putts at every distance.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "stage_1_observation": "On the 17th green, your client faces two identical-length putts over two rounds: one for par to avoid a bogey, and one for a birdie. The wind, grain, and distance are the same, and the only difference is what each putt means. The data panel reminds you that par provides the baseline for good, but not outstanding, performance.",
+          "stage_1_question": "Based on prospect theory, which putt should your client make more often, and what did Pope and Schweitzer find in the real data?",
+          "stage_1_correct_answer": "The putt for par should be made more often, because failing to make par is a loss and the aversion to it generates extra concentration, while missing a birdie is only a foregone gain. Pope and Schweitzer found exactly this: golfers were more successful putting for par at every distance, by 3.6%.",
+          "stage_2_intervention": "Your client has been missing birdie putts while saving every par. Which coaching instruction is best grounded in the psychology of reference points?",
+          "stage_2_correct_answer": "Re-anchor the birdie putt as a loss to avoid rather than a gain to pursue: instruct your client to treat each birdie putt as protecting a reference point, since not achieving a goal is a loss and the aversion to that failure is stronger than the desire to exceed the goal. This counteracts the gap by applying the same loss-aversion concentration that powers the par saves."
+        }
+      ]
+    },
+    {
+      "id": "ch34",
+      "title": "29. The Fourfold Pattern",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Mapping Behavior onto the Fourfold Pattern",
+          "visual_frame_description": "A decision-theory lecture screen showing a 2x2 matrix titled THE FOURFOLD PATTERN. The four cells glow with labels: gains with high probability, gains with low probability, losses with high probability, and losses with low probability. A stack of prospect cards sits beside the matrix: a plaintiff's settlement offer, a lottery ticket, an insurance policy, and a failing business's long-shot bet. The player drags each card toward its cell.",
+          "player_mission": "Classify each prospect card into the correct cell of the fourfold pattern by identifying whether it involves gains or losses and whether the probability is high or low. Then confirm the risk attitude prospect theory predicts for each cell.",
+          "key_concepts": [
+            "In the fourfold pattern, people are risk averse in the top-left cell: gains with a substantial chance to achieve a large gain.",
+            "People are willing to accept less than the expected value of a gamble to lock in a sure gain when the gain is probable.",
+            "In the top-right cell, people are risk seeking when they face losses with a substantial probability of occurring.",
+            "The possibility effect in the bottom-left cell explains why lotteries are popular: gains with a very low probability are overweighted.",
+            "The bottom-right cell is where insurance is bought: people pay more than expected value to eliminate a small risk of a large loss.",
+            "The top-right cell initially surprised the researchers because they were accustomed to risk aversion except in the bottom-left cell.",
+            "Risk seeking with negative prospects was reported by at least two authors before, but the fourfold pattern framework made it easy to interpret.",
+            "A lottery ticket is the ultimate example of the possibility effect; people acquire the right to dream pleasantly of winning.",
+            "In the top-right cell, people facing very bad options accept a high probability of making things worse in exchange for a small hope of avoiding a large loss.",
+            "The fourfold pattern is considered one of the core achievements of prospect theory."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the fourfold pattern of risk attitudes: risk aversion for probable gains, risk seeking for probable losses, and the reverse for improbable outcomes driven by the possibility effect. Kahneman and Tversky considered the pattern one of the core achievements of prospect theory, with the top-right cell a new and unexpected finding.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Into which cell of the fourfold pattern does each prospect belong, and what risk attitude does prospect theory predict?",
+          "column_a_label": "Top-left: gains with substantial probability (risk averse)",
+          "column_b_label": "Bottom-left: gains with very low probability (risk seeking; possibility effect)",
+          "column_c_label": "Losses: probable losses drive risk seeking, improbable losses drive risk aversion",
+          "rows": [
+            {
+              "label": "A plaintiff with a strong case (95% chance to win) accepts a settlement of 90% of the claim rather than risk trial.",
+              "col": "a"
+            },
+            {
+              "label": "A person buys a lottery ticket for a minuscule chance of a huge prize.",
+              "col": "b"
+            },
+            {
+              "label": "A defendant with a weak case refuses an unfavorable settlement and gambles on trial.",
+              "col": "c"
+            },
+            {
+              "label": "A homeowner pays more than expected value for insurance against an unlikely disaster.",
+              "col": "c"
+            },
+            {
+              "label": "A person offered $9,500 for sure or a 95% chance of $10,000 chooses the sure amount.",
+              "col": "a"
+            },
+            {
+              "label": "A failing business wastes its remaining assets on a long-shot bet to catch a superior technology.",
+              "col": "c"
+            },
+            {
+              "label": "Ticket buyers are indifferent to whether their chance of winning is tiny or merely small.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "A plaintiff with a strong case is risk seeking because she has already almost won the case.",
+            "Insurance is a form of gambling, so it belongs in the risk-seeking cell for losses with low probability.",
+            "A defendant with a weak case is risk averse because he faces a large probable loss and must be careful."
+          ],
+          "explanation": "The top-left rows show gains with substantial probability, where the certainty of the sure amount beats the gamble and the plaintiff becomes risk averse, settling below expected value. The bottom-left rows show low-probability gains, where the possibility effect overweights the chance and lottery tickets are bought. The loss rows show the surprise of the pattern: a probable loss drives the defendant and failing business to be risk seeking, while an improbable loss drives the homeowner to buy expensive insurance."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Certainty Effect, Possibility Effect, and the Expectation Principle",
+          "visual_frame_description": "A probability-scale control panel stretching from 0% to 100%. Two zones glow at the extremes: a red region near 0% labeled POSSIBILITY and a green region near 100% labeled CERTAINTY, with the middle band dimmed. A table of measured decision weights sits beside the scale, showing 2% mapped to 8.1 and a note that a 2% risk of not winning cuts utility from 100 to 87.1. Cards describing gambles, settlements, and insurance decisions wait to be sorted.",
+          "player_mission": "Sort each observation into the weighting mechanism that explains it: the possibility effect, the certainty effect, or the expectation principle. Drag all seven cards into the correct column, then confirm your sorting.",
+          "key_concepts": [
+            "Decision weights are not identical to probabilities, contrary to the expectation principle.",
+            "Improbable outcomes are overweighted, which is the possibility effect.",
+            "Outcomes that are almost certain are underweighted relative to actual certainty, which is the certainty effect.",
+            "The decision weight corresponding to a 2% chance is 8.1, so the rare event is overweighted by a factor of about 4.",
+            "A 2% risk of not winning reduces the utility of a gamble by 13%, from 100 to 87.1.",
+            "Increasing the chances from 0% to 5% is a qualitative change that creates a hope of winning the prize.",
+            "The improvement from 95% to 100% is another qualitative change that has a large impact.",
+            "The expectation principle, by which values are weighted by their probability, is poor psychology.",
+            "Decision weights are identical to probabilities at the extremes: 0 when impossible and 100 when a sure thing.",
+            "The range of probabilities between 5% and 95% is associated with a much smaller range of decision weights, about two-thirds as much as rationally expected."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the two end-point distortions of decision weighting: the possibility effect overweights unlikely outcomes, while the certainty effect underweights near-certain outcomes relative to true certainty. Kahneman and Tversky measured decision weights showing a 2% chance weighted at 8.1 and a 2% risk of failure reducing utility by 13%.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which weighting mechanism explains each observation: the possibility effect, the certainty effect, or the expectation principle?",
+          "column_a_label": "Possibility effect (unlikely outcomes overweighted)",
+          "column_b_label": "Certainty effect (near-certain outcomes underweighted relative to certainty)",
+          "column_c_label": "Expectation principle (weight proportional to probability)",
+          "rows": [
+            {
+              "label": "A structured-settlement firm offers $910,000 outright for a claim with a 95% chance of a $1 million verdict, and many clients accept.",
+              "col": "b"
+            },
+            {
+              "label": "Improving chances from 0% to 5% feels like a qualitative change because it creates a hope of winning.",
+              "col": "a"
+            },
+            {
+              "label": "A 2% chance of winning a prize is weighted at 8.1 in people's decisions, about four times its probability.",
+              "col": "a"
+            },
+            {
+              "label": "A 2% risk of not winning reduces a sure prize's utility by 13%, from 100 to 87.1.",
+              "col": "b"
+            },
+            {
+              "label": "The utility of a gamble is the average of the utilities of its outcomes, each weighted by its probability.",
+              "col": "c"
+            },
+            {
+              "label": "People buy lottery tickets in vast amounts, paying far more than expected value for very small chances.",
+              "col": "a"
+            },
+            {
+              "label": "The improvement from a 95% to a 100% chance feels more impressive than the same 5% improvement from 60% to 65%.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The structured-settlement offer reflects the possibility effect because the chance of winning is small.",
+            "A 2% chance weighted at 8.1 shows that people underweight rare events relative to their probability.",
+            "The expectation principle correctly describes how people think about probabilities in risky prospects."
+          ],
+          "explanation": "The certainty-effect rows share the same signature: people treat the gap between almost-sure and sure as enormous, so they accept a $910,000 offer against a $950,000 expectation and feel a 2% risk of failure as a 13% loss of value. The possibility-effect rows show rare outcomes being overweighted, from the 8.1 weight on a 2% chance to the qualitative hope created by moving from 0% to 5%. The expectation-principle row states the rational benchmark that the measured decision weights violate."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Allais's Paradox and the Axioms of Rational Choice",
+          "visual_frame_description": "A 1952 Paris conference room where a blackboard displays two choice problems. Problem A offers a 61% chance of $520,000 versus a 63% chance of $500,000; Problem B offers a 98% chance of $520,000 versus a 100% chance of $500,000. Seated economists including Samuelson, Arrow, Friedman, and Savage are shown making their selections, and an urn-diagram beside the board explains how the two problems are related.",
+          "player_mission": "Classify each element of the Allais paradox into the principle that explains it: the certainty effect, the expectation principle, or the possibility effect. Sort all seven cards, then confirm your reading of the paradox.",
+          "key_concepts": [
+            "In problem A, most people prefer a 61% chance to win $520,000 over a 63% chance to win $500,000.",
+            "In problem B, a large majority prefers the 100% chance of $500,000 over the 98% chance of $520,000.",
+            "The two urns of problem B are more favorable versions of the urns of problem A, with 37 white marbles replaced by red winning marbles in each.",
+            "The pattern of choices does not make logical sense, but the certainty effect provides a psychological explanation.",
+            "The 2% difference between a 100% and a 98% chance in problem B is vastly more impressive than the same 2% difference between 63% and 61% in problem A.",
+            "Von Neumann and Morgenstern proved that any weighting of uncertain outcomes that is not strictly proportional to probability leads to inconsistencies.",
+            "Allais intended to show that his distinguished audience was susceptible to a certainty effect and therefore violated expected utility theory.",
+            "The sophisticated participants at the meeting did not notice that their preferences violated utility theory until Allais drew their attention to it.",
+            "Amos called theorists who tried to rationalize violations of utility theory 'lawyers for the misguided'.",
+            "Kahneman and Tversky retained utility theory as a logic of rational choice but abandoned the idea that people are perfectly rational choosers."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the certainty effect through Allais's paradox: people prefer a 61% chance of $520,000 over a 63% chance of $500,000, but then prefer a guaranteed $500,000 over a 98% chance of $520,000, reversing preferences that are logically equivalent. Kahneman describes how this reversal violates the axioms of expected utility theory established by von Neumann and Morgenstern.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which principle explains each element of the Allais paradox: the certainty effect, the expectation principle, or the possibility effect?",
+          "column_a_label": "Certainty effect (the 2% gap between 98% and 100% is treated as vastly more impressive than the same gap between 61% and 63%)",
+          "column_b_label": "Expectation principle (utility is the probability-weighted average of outcome utilities)",
+          "column_c_label": "Possibility effect (a change from 0% to 5% creates hope and is a qualitative transformation)",
+          "rows": [
+            {
+              "label": "In problem A most people prefer a 61% chance of $520,000 over a 63% chance of $500,000, yet in problem B they prefer the guaranteed $500,000 over a 98% chance of $520,000.",
+              "col": "a"
+            },
+            {
+              "label": "The urns of problem B are more favorable versions of the urns of problem A, with 37 white marbles replaced by red, yet preferences flip.",
+              "col": "a"
+            },
+            {
+              "label": "A rational chooser who prefers the left urn in problem A must also prefer the improved left urn in problem B.",
+              "col": "b"
+            },
+            {
+              "label": "The utility of a gamble is the average of the utilities of its outcomes, each weighted by its probability.",
+              "col": "b"
+            },
+            {
+              "label": "The large impact of improving chances from 0% to 5% illustrates the possibility effect.",
+              "col": "c"
+            },
+            {
+              "label": "Buyers of lottery tickets pay much more than expected value for very small chances to win a large prize.",
+              "col": "c"
+            },
+            {
+              "label": "The economists at the 1952 Paris meeting did not notice their preferences violated utility theory until Allais drew their attention to it.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The preference reversal in the Allais problems follows directly from the expectation principle.",
+            "The two problems are unrelated, so there is no inconsistency in choosing differently.",
+            "The reversal is explained by the possibility effect because the chances of winning are low."
+          ],
+          "explanation": "The reversal rows are explained by the certainty effect: the 2% difference between 100% and 98% in problem B feels vastly more impressive than the same 2% difference between 63% and 61% in problem A, so people trade the slightly better prize for the guarantee. The expectation-principle rows state the rational benchmark the reversal violates, and the possibility-effect rows describe separate lottery behavior at the low end of the probability scale."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Structured-Settlement Pitch and the Certainty Effect",
+          "visual_frame_description": "A glass-walled office of a risk-adjustment company. Across a polished table, an advisor slides a single-page offer toward Marta, a woman in her forties: $910,000 outright for her contested $1 million inheritance claim. Her lawyer's memo beside her says she has a 95% chance to win, and the ruling is expected tomorrow. The advisor leans back with a practiced smile as the camera catches Marta glancing repeatedly between the offer and the memo.",
+          "player_mission": "Audit the risk-adjustment company's offer to Marta, who faces a 95% chance of winning her case tomorrow. Determine whether the offer of $910,000 is a fair deal or a deliberate exploitation of the certainty effect that charges her for removing a 5% risk.",
+          "key_concepts": [
+            "A 95% chance to win is not the same as certainty, and the psychological difference between 95% and 100% is the certainty effect.",
+            "The risk-adjustment company offers to buy the case for $910,000 outright, which is $40,000 below the expected value of $950,000.",
+            "Outcomes that are almost certain are given less weight than their probability justifies.",
+            "A large industry of structured settlements exists to provide certainty at a hefty price by taking advantage of the certainty effect.",
+            "Two emotions drive the plaintiff: the attraction of a sure and substantial gain, and the fear of intense disappointment and regret if she rejects a settlement and loses in court.",
+            "The plaintiff with a strong case is likely to be risk averse.",
+            "People are willing to pay far more than expected value to eliminate risk altogether.",
+            "The anxiety of a 1% risk of not winning appears to be more salient than the hope in a 1% chance to win.",
+            "Insurance companies cover their costs and make profits because people buy more than protection; they purchase peace of mind.",
+            "Systematic deviations from expected value are likely to be costly in the long run."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the certainty effect in commerce: the structured-settlement firm offers $910,000 for a claim with a 95% chance of a $1 million verdict, $40,000 below expected value, and profits because eliminating the residual 5% risk feels enormously valuable. Kahneman notes a large industry exists to provide certainty at a hefty price by taking advantage of the certainty effect.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Is the risk-adjustment company's offer of $910,000 a fair deal for Marta's claim, or does it exploit the certainty effect by charging a premium for removing a 5% risk?",
+          "subject_baseline": "Marta is a cautious, financially conservative school principal who has never litigated before and has a strong case: her lawyer cites expert opinion that she has a 95% chance to win outright, while reminding her that judicial decisions are never perfectly predictable. The ruling is expected tomorrow. She is risk-averse in her investments and carries comprehensive insurance on everything she owns.",
+          "observed_nonverbal_log": [
+            "14:02 - Marta reads the memo twice, then the offer once, and her lips press together at the $910,000 figure.",
+            "14:05 - When the advisor says 'the judge could go the other way tomorrow,' Marta's eyes widen and she grips the memo.",
+            "14:07 - She asks twice what happens if she waits, and each time looks at the door as if weighing escape.",
+            "14:09 - The advisor emphasizes 'you could walk out with nothing'; Marta exhales slowly and her shoulders drop.",
+            "14:12 - She signs the offer, then immediately asks whether she can change her mind, and is told no."
+          ],
+          "interrogation_transcript": [
+            "Advisor: 'You have a 95% chance to win tomorrow. Take the money today and none of that matters.'",
+            "Marta: 'Ninety-five percent is almost certain. Why would I give up $40,000?'",
+            "Advisor: 'Because almost certain is not certain. There is a real chance you walk out with nothing.'",
+            "Marta: 'The expected value of waiting is $950,000. You are offering less.'",
+            "Advisor: 'Expected value is what a statistician says. You get one ruling, not a thousand repetitions.'",
+            "Marta: 'But the chance of losing is only 5%.'",
+            "Advisor: 'Five percent is the difference between certainty and doubt. You are paying to stop worrying.'",
+            "Marta: 'So you profit from my fear of the 5%.'",
+            "Advisor: 'We profit from selling certainty. You profit from sleeping tonight.'"
+          ],
+          "correct_diagnosis": "The offer deliberately exploits the certainty effect: at $910,000 it sits $40,000 below the $950,000 expected value, and the entire pitch is engineered to amplify the residual 5% risk so that Marta pays a premium to eliminate it. Accepting reflects the risk aversion of a plaintiff with a strong case, exactly the behavior the fourfold pattern predicts.",
+          "diagnostic_breakdown": "The advisor's own words name the mechanism: 'you are paying to stop worrying' and 'we profit from selling certainty'. The $40,000 gap between the offer and expected value is the certainty premium, charged because the jump from 95% to 100% feels like a qualitative transformation. Marta's visible distress at the 'walk out with nothing' framing, her repeated glance at the door, and her immediate regret after signing all confirm that the certainty effect, not fair valuation, drove her decision.",
+          "distractors": [
+            "The offer is generous because it is only slightly below the expected value and saves Marta from trial costs.",
+            "Marta is being irrational to worry, because a 95% chance to win is effectively certain and the offer should be rejected without emotion.",
+            "The advisor is lying about the 95% probability, which is actually much lower than stated."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Willingness to Pay to Eliminate Risk and the Psychology of Worry",
+          "visual_frame_description": "A consumer-safety focus group room where parents of small children review a household insect-spray purchase. A moderator shows them a panel: the current spray causes 15 inhalation poisonings and 15 child poisonings per 10,000 bottles; a more expensive alternative cuts each risk to 5. A salesman for the premium spray stands to the side, urging the parents to eliminate the risk completely, and a price-tag graphic illustrates their average willingness to pay.",
+          "player_mission": "Audit the premium-insecticide sales pitch against the parents' actual valuation data. Determine whether the large premium paid to eliminate risk entirely reflects rational risk valuation or the overweighting of small probabilities driven by the psychology of worry.",
+          "key_concepts": [
+            "Parents were willing to pay an additional $2.38, on average, to reduce the risks from 15 per 10,000 bottles to 5.",
+            "They were willing to pay $8.09, more than three times as much, to eliminate the risk completely.",
+            "The parents treated the two risks (inhalation and child poisoning) as separate worries.",
+            "They were willing to pay a certainty premium for the complete elimination of either risk.",
+            "This premium is compatible with the psychology of worry but not with the rational model.",
+            "Because of the possibility effect, the worry is not proportional to the probability of the threat.",
+            "Reducing or mitigating the risk is not adequate; to eliminate the worry the probability must be brought down to zero.",
+            "When you pay attention to a threat, you worry, and the decision weights reflect how much you worry.",
+            "Overweighting of small probabilities increases the attractiveness of both gambles and insurance policies.",
+            "People are willing to pay far more than expected value to eliminate risk altogether."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the possibility effect and the psychology of worry in consumer risk valuation: parents paid $2.38 to reduce poison risks by two-thirds but $8.09, more than three times as much, to eliminate them completely. Kahneman notes this certainty premium is compatible with the psychology of worry but not with the rational model.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Does the parents' willingness to pay $8.09 to eliminate a risk they would pay only $2.38 to reduce reflect rational valuation, or the overweighting of small probabilities driven by worry?",
+          "subject_baseline": "The parents are typically budget-conscious shoppers who compare unit prices and clip coupons. They currently buy the $10-per-bottle spray and have never purchased the premium brand. In the study, each parent was asked how much they would be willing to pay for the safer product, after being told their household uses the spray regularly around small children.",
+          "observed_nonverbal_log": [
+            "10:02 - When the moderator reads the phrase '15 child poisonings', several parents sit forward and stop taking notes.",
+            "10:06 - The salesman says 'even 5 poisonings is too many'; a mother nods and writes a figure without re-checking her budget notes.",
+            "10:11 - Asked how they would value a two-thirds reduction, parents consult the price list; the average they state clusters near $2.38.",
+            "10:14 - Asked to value complete elimination, parents give figures far above their reduction valuations without recalculating the odds.",
+            "10:18 - One father states he would 'pay anything to get it to zero', though he earlier declined a $3 price increase for a different product."
+          ],
+          "interrogation_transcript": [
+            "Moderator: 'You would pay $2.38 to cut the risk from 15 to 5 per 10,000 bottles. What would you pay to eliminate it entirely?'",
+            "Parent: 'Maybe eight or nine dollars. Honestly, I'd pay whatever it takes to make it zero.'",
+            "Moderator: 'That is more than three times the amount you would pay to cut the risk by two-thirds.'",
+            "Parent: 'I know. But cutting it isn't the same as it being gone. If there is any chance my child gets poisoned, I can't relax.'",
+            "Moderator: 'The difference in risk is small relative to the difference in price.'",
+            "Parent: 'It's not about the odds. It's about knowing it can't happen at all.'",
+            "Moderator: 'Is that a rational price?'",
+            "Parent: 'It's what I would pay. Worry isn't rational, but it's real.'"
+          ],
+          "correct_diagnosis": "The $8.09 willingness to pay reflects the overweighting of a small probability driven by the psychology of worry, not rational risk valuation: the parent admits 'worry isn't rational, but it's real'. Because of the possibility effect, eliminating the risk entirely (bringing it to zero) is the only thing that removes the worry, which is why it commands more than three times the premium of a two-thirds reduction.",
+          "diagnostic_breakdown": "The decisive evidence is the stated logic of the parent: 'cutting it isn't the same as it being gone' and 'knowing it can't happen at all'. This matches the chapter's mechanism exactly: to eliminate the worry the probability must be brought down to zero, and the possibility effect makes worry disproportionate to the probability. The contrast between the $2.38 reduction valuation and the $8.09 elimination valuation is the certainty premium, compatible with the psychology of worry but not with the rational model of proportional risk pricing.",
+          "distractors": [
+            "The parents are paying rationally because a two-thirds reduction and complete elimination are equally valuable relative to the risk removed.",
+            "The salesman has provided independent laboratory evidence that the premium spray eliminates all poisonings, justifying the price.",
+            "The $8.09 figure is a statistical artifact of the survey format, not evidence about how parents actually value risk."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Desperate Gamble in the Top-Right Cell",
+          "visual_frame_description": "A boardroom at a struggling electronics firm whose product has been outclassed by a superior technology. The CEO stands before a decision slide: invest the company's remaining assets in a long-shot redesign, or accept a sale that guarantees a modest but certain return. An analyst's overlay labels the situation: probable loss, small hope of complete relief. The lights are dim and the mood is tense as the board waits.",
+          "player_mission": "You are the board's outside advisor watching the leadership consider a desperate gamble. Use the fourfold pattern to explain why the gamble feels so attractive, then choose the recommendation that best reflects the chapter's warning about risk taking in the domain of losses.",
+          "boss_battle_explanation": "This battle tests risk seeking in the domain of losses, the top-right cell of the fourfold pattern: when people face very bad options, they take desperate gambles, accepting a high probability of making things worse in exchange for a small hope of avoiding a large loss. The player must see why this gamble feels attractive and why risk taking of this kind often turns manageable failures into disasters.",
+          "key_concepts": [
+            "The top-right cell of the fourfold pattern is where people who face very bad options take desperate gambles.",
+            "Risk seeking in the domain of losses means accepting a high probability of making things worse in exchange for a small hope of avoiding a large loss.",
+            "Diminishing sensitivity makes the sure loss very aversive because the reaction to a loss of $900 is more than 90% as intense as the reaction to a loss of $1,000.",
+            "The decision weight that corresponds to a probability of 90% is only about 71, much lower than the probability.",
+            "The certainty effect reduces the aversiveness of the gamble, making the sure loss look worse by comparison.",
+            "Risk taking of this kind often turns manageable failures into disasters.",
+            "The thought of accepting the large sure loss is too painful, and the hope of complete relief too enticing, to make the sensible decision to cut one's losses.",
+            "This is where businesses that are losing ground to a superior technology waste their remaining assets in futile attempts to catch up.",
+            "Because defeat is so difficult to accept, the losing side in wars often fights long past the point at which victory of the other side is certain.",
+            "The top-right cell of the fourfold pattern was a new and unexpected finding."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests risk seeking in the domain of losses: when people face a probable loss, the sure loss is repugnant and the small hope of complete relief is enticing, so they accept a high probability of making things worse. Kahneman shows this top-right cell of the fourfold pattern is where failing businesses waste their remaining assets and wars are fought long past the point of certain defeat.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "stage_1_observation": "The electronics firm has two options: accept a $20 million buyout that guarantees survival at a smaller scale, or spend its remaining $30 million on a redesign that analysts give a 15% chance of beating the superior technology. The CEO argues that the buyout is 'the same as failing', while the redesign offers a real chance to win the market back. You watch the board weigh a sure loss against a long-shot hope.",
+          "stage_1_question": "According to the fourfold pattern, which option will the leadership be strongly drawn to, and what are the two psychological forces making it attractive?",
+          "stage_1_correct_answer": "The leadership will be strongly drawn to the desperate redesign gamble, because they are in the top-right cell facing a probable loss. The gamble feels attractive for two reasons: diminishing sensitivity makes the sure $20 million loss very aversive (a $900 loss feels more than 90% as intense as a $1,000 loss), and the certainty effect reduces the aversiveness of the gamble since the decision weight for a 90% probability is only about 71.",
+          "stage_2_intervention": "The board asks you to recommend a course of action. Which recommendation is best grounded in the chapter's analysis of the top-right cell?",
+          "stage_2_correct_answer": "Recommend accepting the sure loss and cutting losses now, explicitly naming the trap: the painful sure loss and the enticing hope of complete relief are exactly what drive businesses in this cell to turn manageable failures into disasters. Evaluate the gamble in expected-value terms rather than by its emotional relief, because risk taking in the top-right cell typically makes things worse."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The City of New York's Frivolous-Suits Policy and the Long-Run Cost of Overweighting",
+          "visual_frame_description": "A legal-policy office at New York City Hall. A wall screen displays the city's litigation portfolio: 200 'frivolous' suits this year, each with a 5% chance to cost the city $1 million, and each settleable now for $100,000. Two policy columns glow on the screen: SETTLE ALL and GO TO TRIAL, with projected totals beneath them. A deputy counsel's calculator sits beside the numbers.",
+          "player_mission": "You are a deputy counsel for the City of New York deciding between two blanket policies for handling 200 frivolous suits. Compute the expected total loss under each policy and select the option that minimizes the city's long-run cost, then explain why the intuitive choice is the costly one.",
+          "boss_battle_explanation": "This battle tests the long-run cost of systematic deviations from expected value: consistent overweighting of improbable outcomes, a feature of intuitive decision making, eventually leads to inferior outcomes. The player must compute the city's arithmetic and resist the case-by-case urge to buy insurance against small risks of large losses.",
+          "key_concepts": [
+            "The City of New York faces 200 frivolous suits each year, each with a 5% chance to cost $1 million.",
+            "In each case the city could settle the lawsuit for a payment of $100,000.",
+            "If the city litigates all 200 cases, it will lose 10, for a total loss of $10 million.",
+            "If the city settles every case for $100,000, its total loss will be $20 million.",
+            "Paying a premium to avoid a small risk of a large loss is costly when the decision is repeated many times.",
+            "Consistent overweighting of improbable outcomes, a feature of intuitive decision making, eventually leads to inferior outcomes.",
+            "Systematic deviations from expected value are costly in the long run.",
+            "The rule applies to both risk aversion and risk seeking.",
+            "In a frivolous suit, the defendant's settlement is equivalent to purchasing insurance against the unlikely event of a bad verdict.",
+            "The decisions described by the fourfold pattern are not obviously unreasonable, but in the long run they are costly."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the long-run cost of systematic deviations from expected value: consistent overweighting of improbable outcomes eventually leads to inferior outcomes. Kahneman's arithmetic shows the City of New York loses $10 million if it litigates all 200 frivolous suits but $20 million if it settles every one, because settling is a premium paid to avoid small risks of large losses.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "stage_1_observation": "The city faces 200 frivolous suits this year. Each has a 5% chance to cost the city $1 million if it goes to trial, and each could be settled today for $100,000. Two policies are on the table: settle every case, or litigate every case. Legal costs are ignored for simplicity, and a deputy counsel notes that the defendant in any single suit is inclined to settle to buy insurance against an unlikely bad verdict.",
+          "stage_1_question": "Which policy minimizes the city's total expected loss, and by how much?",
+          "stage_1_correct_answer": "Litigating every case minimizes the loss: the city will lose about 10 of the 200 cases for a total of $10 million, whereas settling every case for $100,000 costs $20 million. The settlement policy spends $10 million more because it is a premium paid in every case to avoid a small risk of a large loss.",
+          "stage_2_intervention": "A senior official proposes settling every suit because 'one freak verdict could bankrupt us'. Which response is best grounded in the chapter's lesson about long-run expected value?",
+          "stage_2_correct_answer": "Reject the blanket-settlement policy and explain that settling every case is costly precisely because the city faces many similar decisions: consistent overweighting of improbable outcomes leads to inferior outcomes in the long run, and the rule applies to both risk aversion and risk seeking. The single-case fear of a freak verdict is the overweighting the arithmetic shows the city cannot afford."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Gambling in the Shadow of the Law: Plaintiff vs. Defendant",
+          "visual_frame_description": "A civil-court conference room where a plaintiff and a defendant discuss a settlement before trial. On one wall, a graphic splits the fourfold pattern into the two cells at play: the plaintiff's strong case sits in the top-left risk-averse cell, while the defendant's weak case sits in the top-right risk-seeking cell. A second panel shows a frivolous suit, where the plaintiff's flimsy case drops into the bottom-left lottery cell and the defendant moves to the bottom-right insurance cell.",
+          "player_mission": "You are a legal-practice analyst applying Chris Guthrie's fourfold-pattern analysis to settlement negotiations. Determine which party holds the stronger hand in each scenario, and identify which cell of the pattern each party occupies.",
+          "boss_battle_explanation": "This battle tests the fourfold pattern in litigation, applying Chris Guthrie's analysis: a plaintiff with a strong case is risk averse and settles low, while a defendant with a weak case is risk seeking and holds the stronger hand, and these postures reverse for frivolous claims. The player must map each party onto the correct cell and predict how the settlement will deviate from the expected trial outcome.",
+          "key_concepts": [
+            "A plaintiff with a strong case is likely to be risk averse and settle below the expected value of the trial.",
+            "Two emotions drive the strong-case plaintiff: the attraction of a sure gain and the fear of intense disappointment and regret if she rejects a settlement and loses.",
+            "A defendant with a weak case is likely to be risk seeking, prepared to gamble rather than accept a very unfavorable settlement.",
+            "In the face-off between a risk-averse plaintiff and a risk-seeking defendant, the defendant holds the stronger hand.",
+            "The superior bargaining position of the defendant should be reflected in settlements below the statistically expected outcome of the trial.",
+            "This prediction was confirmed by experiments with law students and practicing judges, and by analyses of actual negotiations.",
+            "For a plaintiff with a flimsy case, the claim is a lottery ticket for a large prize, and overweighting the small chance of success leads to bold and aggressive negotiation.",
+            "For the defendant in a frivolous suit, settling for a modest amount is equivalent to purchasing insurance against an unlikely bad verdict.",
+            "Plaintiffs with frivolous claims are likely to obtain a more generous settlement than the statistics of the situation justify.",
+            "The plaintiff is willing to gamble and the defendant wants to be safe in a frivolous suit, the reverse of a strong case."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the fourfold pattern in litigation, applying the pattern Chris Guthrie drew for plaintiffs and defendants: a strong-case plaintiff is risk averse and settles low, while a weak-case defendant is risk seeking and holds the stronger hand, and these postures reverse for frivolous claims. Kahneman reports the predictions were confirmed with law students, judges, and actual negotiations.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "stage_1_observation": "In the strong-case scenario, the plaintiff's lawyer cites expert opinion of a 95% chance to win and urges accepting a settlement of 90% of the claim. The plaintiff hesitates, imagining the regret of rejecting a settlement and losing in court. Across the table, the defendant, who is likely to lose, refuses to settle and insists on taking the case to a jury. You observe the defendant's counsel repeating that the verdict is never certain.",
+          "stage_1_question": "Which party holds the stronger hand in this face-off, and which cell of the fourfold pattern does each occupy?",
+          "stage_1_correct_answer": "The defendant holds the stronger hand. The plaintiff occupies the top-left cell and is risk averse, anxious about the small chance of getting nothing and the regret of losing after rejecting a settlement, so she will accept less than expected value. The defendant occupies the top-right cell and is risk seeking, preferring the gamble of trial to the repugnant sure loss, which is why the plaintiff settles below the statistically expected outcome.",
+          "stage_2_intervention": "The next file on your desk is a frivolous suit: the plaintiff has a flimsy case that is most likely to fail, yet the plaintiff's lawyers are negotiating aggressively, while the defendant's counsel wants to settle quietly for a modest amount. Which parties hold which postures, and what settlement should you expect?",
+          "stage_2_correct_answer": "The postures reverse: the flimsy-case plaintiff occupies the bottom-left lottery cell and is bold and aggressive, overweighting the small chance of a large verdict, while the defendant occupies the bottom-right insurance cell and is risk averse, settling to buy protection against an unlikely bad verdict. The expected result is that the plaintiff with a frivolous claim obtains a more generous settlement than the statistics of the situation justify."
+        }
+      ]
+    }
+  ]
+}

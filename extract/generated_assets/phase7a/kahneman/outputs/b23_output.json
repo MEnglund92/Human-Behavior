@@ -1,0 +1,648 @@
+{
+  "spec_file": "spec_kahneman_b23.json",
+  "chapters": [
+    {
+      "id": "ch45",
+      "title": "Appendix A: Judgment Under Uncertainty",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Representativeness vs. Base-Rate Neglect vs. Availability",
+          "visual_frame_description": "A bright audit workstation in Meridian Insurance's analytics suite shows a sorting board with three bins labeled 'Representativeness,' 'Base-Rate Neglect,' and 'Availability.' Marina, a data analyst, is dragging evidence cards from the classic engineers-and-lawyers study into the bins, and a verdict stamp glows green when a card lands correctly.",
+          "player_mission": "Sort each evidence card into the bin naming the mechanism that drives the judgment it describes. Then read the engineers-and-lawyers study summary, identify which mechanism explains the headline result, and justify your diagnosis in the on-screen panel.",
+          "key_concepts": [
+            "The representativeness heuristic evaluates probability by the degree to which A resembles B, not by objective frequency.",
+            "People rank occupations for a person like Steve by similarity to stereotypes, in exactly the same order as by judged probability.",
+            "Prior probability (base rate) frequency does not affect similarity, so judging by representativeness leads to neglect of base rates.",
+            "Bayes' rule implies that, for each description, the odds of being an engineer rather than a lawyer should be 5.44 times higher in the 70-engineer condition than in the 30-engineer condition.",
+            "Subjects produced essentially identical engineer-or-lawyer judgments in the 70/30 and 30/70 conditions, sharply violating Bayes' rule.",
+            "When no personality description was given, subjects used the prior correctly, judging the probability of an engineer at .7 and .3 in the two conditions.",
+            "A worthless description such as Dick's, 'high ability and high motivation,' drove judgments to .5 regardless of the stated proportion of engineers.",
+            "People respond differently to no evidence, where priors are used, than to worthless evidence, where priors are ignored.",
+            "Availability, the ease with which instances come to mind, is a distinct mechanism not invoked in the engineers-and-lawyers task.",
+            "The biases described are not attributable to motivational effects such as wishful thinking or distortion by payoffs and penalties."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests base-rate neglect produced by the representativeness heuristic: once a description resembles a stereotype, people judge probability by similarity and abandon prior probabilities. Kahneman and Tversky showed that engineers-and-lawyers subjects produced the same judgments under opposite base rates, and even Dick's uninformative sketch reset answers to .5.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "The engineers-and-lawyers study found that subjects given base rates of 70/30 versus 30/70 produced essentially identical probability judgments once a personality sketch was shown. Which mechanism best explains this result?",
+          "column_a_label": "Representativeness heuristic",
+          "column_b_label": "Base-rate neglect",
+          "column_c_label": "Availability heuristic",
+          "rows": [
+            {
+              "label": "Steve, described as 'shy and withdrawn... a passion for detail,' judged likely to be a librarian",
+              "col": "a"
+            },
+            {
+              "label": "Occupation rankings mirror similarity to stereotypes, not population frequencies",
+              "col": "a"
+            },
+            {
+              "label": "Subjects given 70% engineers still judged a blank description at the prior probability",
+              "col": "b"
+            },
+            {
+              "label": "Without any description, subjects used the base rates correctly (.7 and .3)",
+              "col": "b"
+            },
+            {
+              "label": "Dick, 'high ability and high motivation,' judged .5 regardless of the stated base rate",
+              "col": "b"
+            },
+            {
+              "label": "Judging the risk of a business venture by imagining the difficulties it could hit",
+              "col": "c"
+            },
+            {
+              "label": "Word frequency judged by how easily words starting with a letter come to mind",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Representativeness, because the sketch resembles a stereotype, but the subjects used prior probabilities correctly when no sketch was shown, which isolates the base rate as the neglected factor.",
+            "Availability, but the study did not involve retrieval ease or memory search, so no availability effect is at work in this result.",
+            "Motivational bias, but subjects were not wishfully distorting; they were encouraged to be accurate, so a motivated error cannot explain the shift."
+          ],
+          "explanation": "Subjects used prior probabilities (.7 and .3) correctly when no description existed, but ignored them the moment a description appeared, even an uninformative one like Dick's. The description activated stereotype similarity (representativeness), and because similarity does not reflect base rates, the prior probability was dropped. Availability plays no role because nothing about retrieval ease changes between the conditions."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Sample-Size Neglect, Misconception of Chance, and Regression",
+          "visual_frame_description": "A hospital operations classroom at St. Anne's Medical Center shows a whiteboard split into three zones labeled 'Insensitivity to Sample Size,' 'Misconception of Chance,' and 'Regression toward the Mean.' Dr. Okonkwo, a resident in evidence-based medicine, is sorting flashcards of classic statistical puzzles while a cohort of students watches.",
+          "player_mission": "Classify each statistical puzzle onto the whiteboard zone that names the mechanism producing the error. Then diagnose the hospital-births problem, pick the mechanism behind the 53-of-95 'about the same' verdict, and confirm your classification.",
+          "key_concepts": [
+            "People assess the probability of a sample result by its similarity to the population parameter, a similarity that does not depend on sample size.",
+            "Subjects assigned identical distributions for the average height of samples of 10, 100, and 1,000 men.",
+            "In the hospital problem, 53 of 95 undergraduates judged 60-percent-boys days equally likely in the large and small hospital.",
+            "Sampling theory implies the smaller hospital records many more such days, because a large sample is less likely to stray from 50%.",
+            "In the urn problem, correct posterior odds are 8 to 1 for a 4-red-1-white sample and 16 to 1 for a 12-red-8-white sample, assuming equal priors.",
+            "Most people judged the 4:1 sample (proportion .80) as stronger evidence than the 12:8 sample (proportion .60), reversing the statistical order.",
+            "Intuitive posterior odds are far less extreme than the correct values, a pattern labeled conservatism.",
+            "People expect a random process to be represented locally as well as globally, producing the belief in short-run alternation behind the gambler's fallacy.",
+            "Chance is commonly viewed as a self-correcting process, but deviations are not corrected; they are merely diluted.",
+            "Experienced research psychologists displayed a lingering 'law of small numbers,' overestimating the replicability of results from small samples."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests insensitivity to sample size: people judge the likelihood of a sample statistic by representativeness rather than by the sample's size, so they expect large and small samples to behave alike. Kahneman and Tversky showed that even trained researchers obey a 'law of small numbers,' trusting small samples more than statistics justify.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "A town has two hospitals: about 45 births a day and about 15 births a day. Over a year, which recorded more days with more than 60% boys? Fifty-three of 95 undergraduates answered 'about the same.' Which mechanism explains that verdict?",
+          "column_a_label": "Insensitivity to sample size",
+          "column_b_label": "Misconception of chance",
+          "column_c_label": "Regression toward the mean",
+          "rows": [
+            {
+              "label": "Expecting 60%-boys days to be equally likely in the 45-baby and 15-baby hospitals",
+              "col": "a"
+            },
+            {
+              "label": "Judging the urn with 4 red and 1 white as stronger evidence than 12 red and 8 white",
+              "col": "a"
+            },
+            {
+              "label": "Expecting H-T-H-T-T-H to be more likely than H-H-H-T-T-T",
+              "col": "b"
+            },
+            {
+              "label": "Believing black is 'due' on the roulette wheel after a run of red",
+              "col": "b"
+            },
+            {
+              "label": "Viewing chance as a self-correcting process that restores equilibrium",
+              "col": "b"
+            },
+            {
+              "label": "Selecting the ten best scorers on one aptitude version and seeing them decline on the other",
+              "col": "c"
+            },
+            {
+              "label": "Tall fathers having sons whose heights are closer to the population mean",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Misconception of chance, but this error stems from ignoring sample size, not from expecting local self-correction in a sequence.",
+            "Regression toward the mean, but no repeated-measures or retest comparison is involved in the hospital question.",
+            "Illusion of validity, but the hospital question involves no personality match and no prediction confidence."
+          ],
+          "explanation": "The two events are described by the same statistic, so they look equally representative of the population. Sampling theory, however, says a large sample rarely strays from 50%, so the smaller hospital should record many more 60%-boys days. Ignoring sample size is the core mechanism; the gambler's fallacy concerns sequence self-correction and regression concerns retest shrinkage, neither of which operates here."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Availability: Retrieval, Imaginability, and Illusory Correlation",
+          "visual_frame_description": "A linguistics research lab in Portland displays three monitors labeled 'Retrievability,' 'Imaginability,' and 'Illusory Correlation.' Dr. Chen, a cognitive scientist, is sorting demonstration cards covering word lists, committee counts, and patient drawings, while a histogram of judged frequencies updates on the wall.",
+          "player_mission": "Sort each demonstration onto the monitor for the availability sub-mechanism it illustrates. Then diagnose the r-word frequency puzzle, identify the mechanism behind it, and justify why the other two monitors do not apply.",
+          "key_concepts": [
+            "Availability estimates the frequency of a class by the ease with which instances can be brought to mind.",
+            "When a list mixes famous men and famous women, subjects judge the sex with the more famous members as the more numerous, regardless of true counts.",
+            "Salience and recency inflate retrievability: seeing a house burn outweighs reading about a fire, and a freshly seen overturned car raises the subjective probability of accidents.",
+            "Because words are easier to search by first letter than by third letter, people think words beginning with r outnumber words with r in the third position.",
+            "Abstract words are judged more frequent and more varied in context than equally frequent concrete words, because contexts for them are easier to imagine.",
+            "When instances are constructed by rule, ease of construction substitutes for frequency: committees of 2 members (median estimate 70) seemed more numerous than committees of 8 (median 20), though the true count is 45 in both cases.",
+            "The risk of an adventurous expedition is evaluated by imagining contingencies it cannot handle, and vivid imagined disasters need not reflect actual likelihood.",
+            "Chapman and Chapman found that naive judges overestimated the co-occurrence of natural associates such as suspiciousness and peculiar eyes, an effect they labeled illusory correlation.",
+            "The illusory correlation effect persisted even when the true correlation was negative and prevented judges from detecting relationships that were in fact present.",
+            "Availability explains illusory correlation: a strong associative bond makes paired events seem to have occurred together frequently."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the availability heuristic, in which the frequency of a class is estimated by the ease of retrieving, searching for, or constructing instances. Kahneman and Tversky showed that ease of retrieval, not true frequency, drives estimates, producing biases in word-frequency, committee-counting, and illusory-correlation judgments.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "People were asked whether words sampled from an English text are more likely to start with r or to have r as the third letter. Most judged the first-letter case more common, even though consonants such as r are more frequent in the third position. Which mechanism produces this error?",
+          "column_a_label": "Availability: retrievability and search set",
+          "column_b_label": "Availability: imaginability",
+          "column_c_label": "Illusory correlation",
+          "rows": [
+            {
+              "label": "Judging that famous male names outnumber famous female names in a list of equal size",
+              "col": "a"
+            },
+            {
+              "label": "Traffic-accident probability rising after seeing an overturned car by the road",
+              "col": "a"
+            },
+            {
+              "label": "Abstract words judged more frequent than equally frequent concrete words",
+              "col": "a"
+            },
+            {
+              "label": "Judging committees of 2 members more numerous than committees of 8 from the same group of 10",
+              "col": "b"
+            },
+            {
+              "label": "An expedition made to appear exceedingly dangerous by vividly imagined contingencies",
+              "col": "b"
+            },
+            {
+              "label": "Judges overestimating how often suspiciousness accompanies peculiar eyes in patients' drawings",
+              "col": "c"
+            },
+            {
+              "label": "Strong associative bonds being read as frequent co-occurrence between two events",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Illusory correlation, but no diagnosis-drawing pairing or co-occurrence frequency is being judged here.",
+            "Imaginability, but the r-word task involves retrieving stored words, not constructing novel instances from a rule.",
+            "Insensitivity to sample size, but nothing about sample size or sampling variability is at stake in the word-frequency judgment."
+          ],
+          "explanation": "Words are searched by their first letter far more easily than by their third letter, so instances of the first-letter class are easier to retrieve. Because frequency is judged by ease of retrieval, the easier-to-search class is judged more numerous. The task uses stored examples rather than constructed ones, so imaginability is not the operative mechanism, and no pair of events is being judged for co-occurrence."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Anchoring, Conjunctive-Disjunctive Bias, and Calibration",
+          "visual_frame_description": "A decision-analysis seminar room at Rift University shows a spinning wheel of fortune on the projector and three pillars labeled 'Anchoring,' 'Compound-Event Bias,' and 'Calibration.' Professor Weiss, a behavioral economist, is pinning result cards for UN percentages, multiplication products, and confidence intervals onto the pillars.",
+          "player_mission": "Pin each experimental result onto the pillar that names the mechanism it demonstrates. Then diagnose the wheel-of-fortune finding on African countries in the UN, select the governing mechanism, and defend the choice against the distractors.",
+          "key_concepts": [
+            "In many estimation tasks people start from an initial value and adjust, and adjustments are typically insufficient, a phenomenon called anchoring.",
+            "Median estimates of the percentage of African countries in the UN were 25 for anchor 10 and 45 for anchor 65.",
+            "Payoffs for accuracy did not reduce the anchoring effect.",
+            "High school students estimated the product 8x7x6x5x4x3x2x1 at a median of 2,250 and 1x2x3x4x5x6x7x8 at 512, versus the correct value of 40,320.",
+            "Bar-Hillel's subjects preferred betting on a conjunctive event (probability .48) over a simple .50 event, and preferred the simple event over a disjunctive .52 event.",
+            "People tend to overestimate the probability of conjunctive events and underestimate the probability of disjunctive events.",
+            "The success of a plan has a conjunctive chain structure, producing unwarranted optimism about completing a project on time.",
+            "A complex system such as a nuclear reactor fails if any component fails, a disjunctive structure whose overall failure probability is underestimated.",
+            "Decision analysts elicit beliefs by asking judges to select percentile values, and judges produce overly narrow confidence intervals.",
+            "Proper scoring rules that reward external calibration did not eliminate the overconfidence bias."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests anchoring with insufficient adjustment: estimates start from a given or partially computed value and remain biased toward it. Kahneman and Tversky showed the same insufficient adjustment produces overestimation of conjunctive events, underestimation of disjunctive events, and confidence intervals that are too narrow.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "In a demonstration, subjects watched a wheel of fortune spin a number between 0 and 100, then estimated the percentage of African countries in the UN. Median estimates were 25 for a starting value of 10 and 45 for a starting value of 65. Which mechanism best explains the shift?",
+          "column_a_label": "Anchoring with insufficient adjustment",
+          "column_b_label": "Conjunctive-disjunctive evaluation",
+          "column_c_label": "Calibration",
+          "rows": [
+            {
+              "label": "Median estimate of 25 for anchor 10 and 45 for anchor 65 on African countries in the UN",
+              "col": "a"
+            },
+            {
+              "label": "Payoffs for accuracy failing to reduce the anchoring effect",
+              "col": "a"
+            },
+            {
+              "label": "The descending product 8x7x...x1 judged at 2,250 versus 512 for the ascending order (correct 40,320)",
+              "col": "a"
+            },
+            {
+              "label": "Preferring a bet on drawing a red marble seven times (.48) over a simple .50 chance",
+              "col": "b"
+            },
+            {
+              "label": "Planning that overestimates the likelihood a project will finish on time",
+              "col": "b"
+            },
+            {
+              "label": "Underestimating the probability of failure in a many-component system",
+              "col": "b"
+            },
+            {
+              "label": "True values falling outside the stated X01-X99 interval on about 30% of problems",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Conjunctive-disjunctive bias, but the UN question involves a single quantity, not a compound event.",
+            "Calibration, but the anchor shift changes point estimates, not the width of a confidence interval.",
+            "Availability, but the wheel number is not retrieved or searched for; it is a starting point supplied by the problem."
+          ],
+          "explanation": "Estimates are formed by starting from the given number and adjusting, but adjustment is typically insufficient, so answers remain biased toward the starting value. The same mechanism explains why the descending product was judged larger than the ascending one. Calibration concerns the width of probability distributions, and conjunctive-disjunctive bias concerns compound events, neither of which the UN question involves."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Predictability Neglect, Illusion of Validity, and Non-Motivational Bias",
+          "visual_frame_description": "A psychometrics office at an education school displays a whiteboard with three columns labeled 'Insensitivity to Predictability,' 'Illusion of Validity,' and 'Motivational Distortion.' Dr. Herrera, a measurement specialist, is sorting findings from the student-teacher prediction study into the columns while a chart of percentile judgments updates beside her.",
+          "player_mission": "Sort each study finding into the correct column. Then diagnose the finding that five-year predictions equaled same-day evaluations, choose the governing mechanism, and explain why a motivational explanation fails.",
+          "key_concepts": [
+            "Predictions are often made by representativeness: a very favorable description produces a very favorable predicted profit or grade.",
+            "The favorableness of a description is unaffected by its reliability, so representative predictions are insensitive to the expected accuracy of prediction.",
+            "Normative statistical theory holds that when predictability is nil, the same prediction (such as the average) should be made in all cases.",
+            "Student-teacher predictions of success after five years were identical to evaluations of the single practice lesson.",
+            "Confidence in a prediction depends mainly on the quality of the match between outcome and input, the basis of the illusion of validity.",
+            "The illusion of validity persists even when the judge knows the factors that limit accuracy, as with repeatedly discredited selection interviews.",
+            "More confidence is placed in a consistent all-B first-year record than in a mixed A-and-C record.",
+            "Given input variables of stated validity, a prediction based on independent inputs achieves higher accuracy than one based on redundant, correlated inputs.",
+            "Redundancy among inputs decreases accuracy even as it increases confidence.",
+            "The severe judgment errors reported occurred despite subjects being encouraged to be accurate and rewarded for correct answers."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests insensitivity to predictability and the illusion of validity: people predict by choosing the outcome most representative of the input and feel confident when the fit is good. Kahneman and Tversky showed such predictions ignore reliability, that confidence tracks internal consistency rather than accuracy, and that the errors are not motivational.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "In a study, one group evaluated the quality of a practice lesson in percentile scores; another group predicted, in percentile scores, the standing of the same student teachers five years later. The two sets of judgments were identical. Which mechanism explains this?",
+          "column_a_label": "Insensitivity to predictability",
+          "column_b_label": "Illusion of validity",
+          "column_c_label": "Motivational distortion",
+          "rows": [
+            {
+              "label": "Predictions of a student teacher's standing after 5 years were identical to evaluations of the practice lesson",
+              "col": "a"
+            },
+            {
+              "label": "Predictions that ignore the reliability of the evidence and the expected accuracy of prediction",
+              "col": "a"
+            },
+            {
+              "label": "Confidence in a librarian prediction that comes from the fit between description and stereotype",
+              "col": "b"
+            },
+            {
+              "label": "Selection interviews still trusted despite repeated demonstrations of their fallibility",
+              "col": "b"
+            },
+            {
+              "label": "A consistent all-B record producing more confidence than a mixed A-and-C record",
+              "col": "b"
+            },
+            {
+              "label": "Redundant, correlated inputs raising confidence while lowering predictive accuracy",
+              "col": "b"
+            },
+            {
+              "label": "Severe judgment errors persisting even when subjects were rewarded for accuracy",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Illusion of validity, but that explains confidence in a prediction, not why a distant prediction equals an immediate evaluation.",
+            "Anchoring, but the two tasks were administered to separate groups with no shared external starting value.",
+            "Regression neglect, but the study concerns the range of predictions, not the retest shrinkage of extreme scores."
+          ],
+          "explanation": "Predictions are made by representativeness: the outcome most representative of the description is produced, with no adjustment for how much the evidence actually predicts. Because predictability is not considered, the five-year prediction was as extreme as the immediate evaluation. Confidence driven by fit rather than validity is a separate illusion, and the errors persisted despite accuracy incentives, ruling out motivation."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Anchoring in Procurement Estimates",
+          "visual_frame_description": "A glass-walled audit room at Brightline Construction shows Maya, a procurement lead, negotiating with a steel vendor whose opening offer of $180 per ton is displayed on a large screen. On a side table sits her notepad, where the figure 180 is circled at the top, and an auditor's dashboard tracks her estimate against historical averages.",
+          "player_mission": "Review Maya's estimate, her body language, and the interview transcript. Determine which judgment bias corrupted her $172-per-ton forecast, record the correct diagnosis, and explain the evidence trail to the audit committee.",
+          "key_concepts": [
+            "People estimate quantities by starting from an initial value and adjusting, and adjustments are typically insufficient.",
+            "The initial value may be suggested by the formulation of the problem or by a partial computation.",
+            "Arbitrary starting numbers had marked effects on estimates, such as medians of 25 and 45 for anchors of 10 and 65.",
+            "Payoffs for accuracy do not reduce the anchoring effect.",
+            "Anchoring operates even when the starting point is the result of an incomplete computation, as in the 8x7x...x1 versus 1x2x...x8 study.",
+            "A completely uninformative starting value can nonetheless pull a final estimate toward itself.",
+            "Being aware of an anchor does not reliably eliminate its influence on judgment.",
+            "An auditor can test for anchoring by asking whether the estimate would change with a different starting value.",
+            "Insufficient adjustment from an anchor produces estimates that cluster near the starting point.",
+            "Insufficient adjustment is demonstrated when the same quantity is estimated differently under different starting values."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests anchoring with insufficient adjustment: once a number enters an estimate, final values stay biased toward it. Kahneman and Tversky demonstrated the effect across percent-estimation and arithmetic-extrapolation tasks, and showed that payoffs for accuracy do not weaken it.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Diagnose the bias behind Maya's cost estimate: what is driving her figure, and should the audit flag her numbers for adjustment?",
+          "subject_baseline": "Maya, 34, is a procurement lead at Brightline Construction who normally estimates steel and concrete costs within 5% of tender. Her colleagues describe her as careful and numbers-driven, and her past forecasts for framing materials have been her best in the department.",
+          "observed_nonverbal_log": [
+            "10:03 - The vendor opens with 'Most buyers are signing around $180 per ton these days.' Maya writes '$180' at the top of her notepad before any calculation.",
+            "10:11 - As she compares three quotes, Maya's cursor hovers longest over the quote near the $180 figure; she taps her pen and re-reads it twice.",
+            "10:19 - Asked to justify a lean $172 estimate, Maya's face flushes slightly and she glances at the $180 figure on her pad before speaking.",
+            "10:26 - After the meeting, Maya tells a teammate, 'Whatever I do, I keep landing back near 180; that number just feels right.'",
+            "10:31 - She never opens the supplier index data or the prior quarter's average price, despite having both available in another tab."
+          ],
+          "interrogation_transcript": [
+            "Auditor: How did you arrive at $172 per ton?",
+            "Maya: The supplier opened at 180, so I walked down from there. I know I should account for the last tender, but 180 is where my head is at.",
+            "Auditor: Did you review the historical average price in your analysis?",
+            "Maya: I have it in another tab, but honestly I did not open it. I kept adjusting off 180.",
+            "Auditor: Would your estimate change if the opening figure had been $210?",
+            "Maya: Probably. I would start from 210 and come down. Yeah, it would."
+          ],
+          "correct_diagnosis": "Anchoring with insufficient adjustment: Maya anchored on the vendor's opening $180 figure and adjusted too little, so her estimate remained biased toward the anchor despite ample data for a fuller analysis.",
+          "diagnostic_breakdown": "Maya wrote the vendor's opening figure before computing, kept returning to it during comparison (prolonged hover, re-reading), and admitted 'I kept adjusting off 180' in the transcript. Her admission that a $210 opening would have changed her estimate confirms that the starting value, not the data, drove the answer. The research analog is the wheel-of-fortune study, where medians were 25 and 45 for anchors 10 and 65, and accuracy incentives did not remove the effect.",
+          "distractors": [
+            "Availability, because Maya is not estimating a frequency or class size from recalled instances; her error is a numeric starting point.",
+            "Representativeness, because no stereotype or category resemblance is involved in her cost forecast.",
+            "Illusion of validity, because Maya shows no special confidence from a good fit; she is simply biased toward a number."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Representativeness and Base-Rate Neglect in Hiring",
+          "visual_frame_description": "A startup hiring suite at Helix Robotics shows Andre, the engineering manager, flipping through resumes on a tablet. One candidate's file featuring chess championships and rocketry is enlarged on the wall display, while an unopened coding-sample tab blinks in the corner and an HR audit panel tracks his rubric scores.",
+          "player_mission": "Study Andre's screening behavior, the nonverbal log, and his interview answers. Diagnose the bias driving his 'fast yes' on Elias, then determine whether his reasoning ignores the applicant base rate and write up the audit.",
+          "key_concepts": [
+            "The representativeness heuristic evaluates the probability that A belongs to class B by how much A resembles B.",
+            "Occupations are ranked by probability and by similarity in exactly the same way, as in the Steve-librarian problem.",
+            "Prior probabilities have no effect on similarity and are therefore neglected under representativeness.",
+            "Bayes' rule implies the odds of being an engineer should be 5.44 times higher in the 70-engineer condition than in the 30-engineer condition.",
+            "Subjects given a personality sketch produced the same judgments in the 70/30 and 30/70 conditions.",
+            "When no evidence was given, subjects used base rates correctly, answering .7 and .3.",
+            "An uninformative description like Dick's drove judgments to .5 regardless of the stated base rate.",
+            "Confidence based on a good fit between outcome and input is called the illusion of validity.",
+            "Selection interviews are routinely relied on despite repeated demonstrations of their fallibility.",
+            "Even people with extensive statistical training make intuitive representativeness errors in less transparent problems."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests representativeness-driven base-rate neglect: people judge probability by resemblance to a stereotype and abandon base rates. Kahneman and Tversky's engineers-and-lawyers study showed opposite base rates yielded identical judgments once a description appeared, and the illusion of validity keeps confidence high despite the low predictive value of fit.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Diagnose the bias driving Andre's hiring decision and decide whether his fit-based reasoning is sound.",
+          "subject_baseline": "Andre, 41, is the senior engineering manager at a robotics startup. He reviews dozens of resumes a month and is normally methodical, using a scored rubric. His prior hires have above-average retention, and HR audits show his rubric scores track performance well.",
+          "observed_nonverbal_log": [
+            "09:48 - Andre flips past two strong applicants in under a minute each because their resumes do not 'feel like engineer material.'",
+            "09:57 - He stops on a third applicant, Elias, whose resume lists chess championships and model rocketry, and smiles, muttering 'this is what I am looking for.'",
+            "10:02 - Andre leans back and tells a colleague 'Elias is clearly the engineer type; you can just tell.'",
+            "10:12 - He does not open the portfolio link or the coding-sample repository, even though both load instantly.",
+            "10:18 - Asked about the ratio of strong to weak candidates in the pool, Andre shrugs and says 'that does not matter, I am picking the person, not the population.'",
+            "10:25 - He writes 'fast yes' on Elias's file and moves on without scoring the rubric."
+          ],
+          "interrogation_transcript": [
+            "Interviewer: What made Elias your top pick?",
+            "Andre: The chess and the rocketry. He is the engineer archetype, exactly the person I picture for this team.",
+            "Interviewer: You reviewed his coding sample?",
+            "Andre: I did not need to. When the fit is that obvious, the details are just noise.",
+            "Interviewer: What share of applicants who look like this turn out to be strong hires?",
+            "Andre: I do not know, but look at him. He is clearly cut from the right cloth.",
+            "Interviewer: If only 5% of engineer-stereotyped candidates are actually strong, would that change your call?",
+            "Andre: I would still take him. You cannot put a number on instinct like that."
+          ],
+          "correct_diagnosis": "Representativeness with neglect of prior probability: Andre judged Elias by how well the resume matched the engineer stereotype and dismissed base rates about how often stereotype-fitting candidates actually succeed.",
+          "diagnostic_breakdown": "Andre announced the candidate 'is the engineer archetype' from chess and rocketry, skipped the objective coding sample, dismissed pool composition ('that does not matter'), and refused to revise his call when told stereotype-fitting candidates rarely succeed. This mirrors the engineers-and-lawyers result: a description that resembles a stereotype overrides base rates, and even worthless evidence such as Dick's sketch resets judgments to .5. His behavior also shows the illusion of validity, because confidence comes from fit rather than from predictive accuracy.",
+          "distractors": [
+            "Anchoring, because no initial numeric value anchors Andre's judgment; the driver is category resemblance.",
+            "Availability, because Andre is not estimating a frequency from the ease of recalling instances.",
+            "Confirmation bias, which is plausible but secondary; the primary mechanism is resemblance-driven probability judgment with prior neglect, which is the study's explicit finding."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Availability and Risk Perception",
+          "visual_frame_description": "A risk command center at Harbor Freight Lines shows Priya at her desk. On one monitor the monthly incident table lists causes of injury with crash fatality counts; on another a graphic truck-crash video is paused with its play icon glowing. A budget-allocation chart tilts heavily toward crash-response gear.",
+          "player_mission": "Audit Priya's budget decision using the incident table, her observed behavior, and the interview transcript. Diagnose the bias that shifted 60% of safety funds, and state whether the allocation matches the frequency data.",
+          "key_concepts": [
+            "Availability estimates the frequency of a class or event by the ease with which instances come to mind.",
+            "Instances of large classes are usually recalled better and faster, which makes availability a useful but biased clue.",
+            "A class whose instances are easily retrieved appears more numerous than an equal class that is harder to retrieve.",
+            "Salience affects retrievability: seeing a house burn has more impact on judged fire risk than reading about a fire.",
+            "Recent occurrences are more available: subjective accident probability rises temporarily after seeing an overturned car.",
+            "A dramatic clip can displace frequency data because its image is easy to bring to mind.",
+            "Different search sets produce different availability estimates, as with abstract versus concrete words.",
+            "Ease of imagining contingencies substitutes for their actual likelihood in risk evaluation.",
+            "Vivid imagined disasters can make an undertaking appear exceedingly dangerous regardless of true probability.",
+            "The reliance on availability is economical and usually effective but leads to systematic and predictable errors."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the availability heuristic: risk is judged by the ease with which vivid, recent instances come to mind rather than by their true frequency. Kahneman and Tversky showed that salience and recency inflate judged probabilities, as when a freshly witnessed overturned car temporarily raises the subjective risk of traffic accidents.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Diagnose the bias driving Priya's risk ranking and decide whether her reallocation of the safety budget is justified by the data.",
+          "subject_baseline": "Priya, 38, is the head of operations risk at Harbor Freight Lines, a trucking firm. She reviews incident statistics monthly and has a record of evidence-based resource allocation. Her own father is a truck driver, and she drives the interstate to work daily.",
+          "observed_nonverbal_log": [
+            "14:05 - Priya opens the monthly incident report; the table lists injuries by cause, with highway crashes first and slips and falls last.",
+            "14:09 - She pauses the report and searches 'truck crash' videos, watching one graphic clip twice; her jaw tightens and she taps the screen.",
+            "14:16 - She tells a teammate 'I drive that highway every day; I swear the risk has doubled since last year.'",
+            "14:22 - When a colleague notes crashes per mile are flat, Priya frowns and changes the subject, reopening the video.",
+            "14:30 - She drafts a memo shifting 60% of the safety budget toward crash-response gear and cutting slip-and-fall training, which the stats show causes more injuries per mile of road.",
+            "14:41 - Asked for the data behind the shift, she replies 'the numbers are in the video; you can see it yourself.'"
+          ],
+          "interrogation_transcript": [
+            "Auditor: What drives the new budget split toward crash gear?",
+            "Priya: I see overturned trucks on my commute, and that video. That is the real risk.",
+            "Auditor: The incident table says slips and falls cause more injuries. Did you weigh that?",
+            "Priya: Nobody dies from a wet floor in a way you can picture. The crash image is what sticks with you.",
+            "Auditor: So the decision rests on how easily you can picture the danger?",
+            "Priya: It rests on the danger being real. I have seen it with my own eyes."
+          ],
+          "correct_diagnosis": "Availability bias: Priya judged risk by the ease with which dramatic, salient instances came to mind, overriding the frequency data that showed a different hazard was more common.",
+          "diagnostic_breakdown": "Priya's own commentary is direct evidence: 'the crash image is what sticks with you' and 'I have seen it with my own eyes.' Her subjective probability rose after watching a vivid clip and after witnessing an overturned truck, exactly the mechanism the chapter describes in which recent, salient, and easily retrieved instances inflate judged frequency. She explicitly rejected the incident table ('nobody dies from a wet floor in a way you can picture'), confirming that retrievability, not frequency, drove the ranking. The chapter's examples include the temporary rise in subjective accident probability after seeing an overturned car.",
+          "distractors": [
+            "Representativeness, because Priya is not matching an event to a category stereotype; she is judging frequency from recall.",
+            "Anchoring, because no starting numeric value anchors her estimate.",
+            "Illusory correlation, because she is not overestimating the co-occurrence of two associated events."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Misconceptions of Regression and Feedback",
+          "visual_frame_description": "A flight-training review room at Ridgefield Aviation shows Marcus's desk covered with landing-grade logs, a highlighter resting beside a circled streak of excellent landings followed by declines. A second screen displays the week's grade distribution with the mean line, and an auditor's checklist floats beside the policy memo Marcus is drafting.",
+          "player_mission": "Review Marcus's before-and-after pattern, his logs, and the interview. Diagnose the statistical flaw in his conclusion that punishment outperforms reward, and decide what a proper control comparison would show.",
+          "key_concepts": [
+            "Regression toward the mean was first documented by Galton more than a century ago.",
+            "Among the ten children who did best on one aptitude test version, performance on the second version is usually somewhat disappointing.",
+            "If individuals deviate from the mean of X by k units, the average of their Y scores usually deviates by less than k units.",
+            "Regression occurs in many contexts: fathers and sons, husbands and wives, and performance on consecutive examinations.",
+            "People do not expect regression where it is bound to occur, and they invent spurious causal explanations when they see it.",
+            "Praise for an exceptionally smooth landing is typically followed by a poorer landing, and harsh criticism after a rough landing by an improvement.",
+            "Flight instructors concluded that rewards are detrimental to learning and punishments beneficial, contrary to accepted psychological doctrine.",
+            "Regression alone predicts improvement after poor performance and deterioration after outstanding performance, even without any feedback.",
+            "Because rewards follow good performance and punishments follow poor performance, behavior is most likely to improve after punishment and to deteriorate after reward.",
+            "By chance alone, one is most often rewarded for punishing others and most often punished for rewarding them."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests misconceptions of regression: because rewards follow good performance and punishments follow poor performance, behavior naturally improves after punishment and worsens after reward by regression alone. Kahneman and Tversky showed that experienced flight instructors misread this as evidence that punishment works, an error with real costs for how we train and manage.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Diagnose the flaw in Marcus's coaching strategy and decide whether the praise-and-punishment pattern he observed is evidence of causality.",
+          "subject_baseline": "Marcus, 45, is a flight-training instructor at Ridgefield Aviation with 20 years of experience. He is a respected, safety-obsessed teacher who logs every student flight and reviews performance data weekly. He believes strongly in direct, corrective feedback.",
+          "observed_nonverbal_log": [
+            "09:31 - Marcus reviews the week's landing grades and circles a string of excellent landings, then marks the following flights that scored lower.",
+            "09:40 - He highlights several rough landings that were followed by notably better attempts, nodding as he connects the dots.",
+            "09:48 - He tells a colleague 'It is consistent: praise the good ones and they slip; chew them out and they tighten up.'",
+            "09:55 - When a colleague suggests the pattern might just be luck, Marcus shakes his head and taps the logged grades.",
+            "10:05 - He drafts a policy memo recommending harsher criticism of poor landings and curtailing praise for smooth ones.",
+            "10:18 - He never compares grades against an untreated control group or checks the average performance across all flights."
+          ],
+          "interrogation_transcript": [
+            "Auditor: What led you to cut praise and add criticism?",
+            "Marcus: The logs. Every good landing I praised was followed by a worse one, and every rough landing I corrected was followed by improvement. That is data.",
+            "Auditor: Could the improvement after criticism be a coincidence?",
+            "Marcus: Twenty years of it? No. Reward softens people; punishment sharpens them.",
+            "Auditor: Did you compare against students who got no feedback at all?",
+            "Marcus: Did not need to. The before-and-after pattern is right there."
+          ],
+          "correct_diagnosis": "Misconceptions of regression: Marcus misattributed regression toward the mean to the causal power of punishment versus reward.",
+          "diagnostic_breakdown": "Marcus praised outstanding landings and criticized poor ones, so praise was typically followed by deterioration and criticism by improvement, which is exactly what regression predicts with no feedback at all. Extremely smooth landings are followed on average by somewhat poorer ones and rough landings by somewhat better ones, purely because performance fluctuates around a mean. The chapter's flight-training example is identical: instructors concluded rewards harm learning and punishments help, contrary to accepted psychological doctrine, because they missed the regression. Marcus's refusal to test a no-feedback control confirms the confound.",
+          "distractors": [
+            "Anchoring, because Marcus's estimates are not pulled toward an initial value; the error is causal misattribution.",
+            "Availability, because he is not judging a frequency from the ease of recall.",
+            "Illusion of validity, because his confidence comes from a mistaken causal reading, not from a stereotype fit."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Stereotype Sorter (Representativeness and Base Rates)",
+          "visual_frame_description": "A consultant's war room at Terra Analytics shows a split-screen study viewer: the 70-engineer and 30-engineer conditions side by side, with judgment sliders parked at identical probabilities. A recruiting-team leader in the corner insists the sketches make base rates irrelevant, while a Bayes' rule calculator updates on the center display.",
+          "player_mission": "Defeat the Stereotype Sorter by keeping base rates alive. First explain what identical scoring of neutral sketches reveals, then set the correct answer key for a new worthless description so the study reruns with proper calibration.",
+          "key_concepts": [
+            "The representativeness heuristic judges the probability that A belongs to class B by how much A resembles B.",
+            "Prior probability frequency has no effect on representativeness and is therefore neglected.",
+            "Bayes' rule implies the odds of being an engineer should be 5.44 times higher in the 70-engineer condition than in the 30-engineer condition.",
+            "Subjects in the two base-rate conditions produced essentially identical probability judgments.",
+            "When no description was provided, subjects used the priors correctly, answering .7 and .3.",
+            "An uninformative description like Dick's drove judgments to .5 in both conditions.",
+            "People respond differently to no evidence than to worthless evidence.",
+            "Even statistically sophisticated individuals make representativeness errors in less transparent problems.",
+            "The illusion of validity keeps confidence high when the fit is good, even if the description is scanty.",
+            "These errors occur despite incentives to be accurate, so they are not motivational."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This boss battle tests the representativeness heuristic and base-rate neglect: probability is judged by resemblance to a stereotype, so prior probabilities drop out of the calculation. Kahneman and Tversky's engineers-and-lawyers study showed opposite base rates (70/30 versus 30/70) produced identical judgments, with even worthless descriptions resetting answers to .5.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central test is the representativeness heuristic and its partner, base-rate neglect: whether the player can keep prior probabilities in play when a personality description matches a stereotype. The engineers-and-lawyers study is the ground truth.",
+          "stage_1_observation": "You are a consulting statistician called into Terra Analytics, where the recruiting team is replaying the classic study: 100 engineer-and-lawyer resumes, 70 engineers in one condition and 70 lawyers in another. Each resume gets a personality sketch, and analysts are scoring the probability that the person is an engineer. The screen splits: the 70/30 and 30/70 conditions side by side, with judgment sliders showing identical probabilities for the same sketch in both conditions.",
+          "stage_1_question": "In the 70-engineer and 30-engineer conditions, identical personality sketches are being scored the same (around .5 for a neutral description). What does this identical scoring reveal about the analysts' use of base rates?",
+          "stage_1_correct_answer": "It reveals base-rate neglect: the description overrode the prior probability, so the 5.44-to-1 ratio of the odds implied by Bayes' rule between conditions was ignored. The same sketch produced identical judgments even though the base rates between the conditions differed by a factor of more than five.",
+          "stage_2_intervention": "Now the boss escalates: 'Fine, so we calibrate the sliders to the base rates.' Your team must set the correct answer key for a brand-new neutral description ('Dick is a 30-year-old man, married, with high ability and high motivation') before the study reruns. Choose the probability that Dick is an engineer in each condition, given that the description carries no diagnostic information.",
+          "stage_2_correct_answer": "Set the probability to the base rate: .7 in the 70-engineer condition and .3 in the 30-engineer condition. Because the description is worthless evidence, the rational answer is the prior, exactly what Kahneman and Tversky found subjects abandoned when they answered .5 in both conditions."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Vividness Demon (Availability and Risk)",
+          "visual_frame_description": "The Ashford municipal council chamber glows with a dual display: a news wall replaying a week of graphic factory-explosion coverage and a 20-year incident table showing flat, low counts. Council members point at bars showing spiked judged risk while a facility-safety engineer waits with the frequency breakdown.",
+          "player_mission": "Advise the council by defeating the Vividness Demon. Identify the mechanism behind the spiked risk perception and its driving cue, then select the budget decision that best reflects the frequency data rather than the vivid coverage.",
+          "key_concepts": [
+            "Availability estimates the frequency of a class or the probability of an event by the ease of bringing instances to mind.",
+            "Instances of large classes are usually recalled better and faster, making availability useful but fallible.",
+            "Salience affects retrievability: seeing a house burn has more impact on judged fire risk than reading about a fire.",
+            "Recent occurrences are more available than earlier ones, as with the temporary spike after seeing an overturned car.",
+            "The ease with which instances are retrieved need not reflect their actual frequency.",
+            "Vivid imagined contingencies can make an undertaking appear exceedingly dangerous without changing its real likelihood.",
+            "A class whose instances are easily retrieved appears more numerous than an equal class that is harder to retrieve.",
+            "Abstract words are judged more frequent than concrete words of equal frequency due to search-set ease.",
+            "The availability heuristic is highly economical and usually effective but leads to systematic, predictable errors.",
+            "A risk assessed by imaginability may be grossly underestimated when possible dangers are difficult to conceive."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This boss battle tests the availability heuristic: judged frequency follows the ease with which vivid, recent, salient instances come to mind. Kahneman and Tversky showed such retrievability biases, from the overturned car to imagined expedition dangers, produce systematic misperceptions of risk.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central test is the availability heuristic: whether the player can resist letting vivid, easily retrieved instances inflate the judged frequency of an event. The chapter's demonstrations, from famous-name lists to the overturned car and imagined expedition contingencies, are the ground truth.",
+          "stage_1_observation": "You are a member of the municipal risk council in Ashford. The media have run a week of graphic stories about a single rare factory explosion, and residents now demand an emergency ordinance. The council's risk board displays two bars: the judged frequency of industrial explosions, which is sky-high and driven by the news cycle, versus the 20-year incident table showing stable low counts. Your job is to advise the council on where the perception came from.",
+          "stage_1_question": "Judged risk of factory explosions spiked after the news coverage, while the incident table shows the frequency is unchanged. Which mechanism best explains the spike, and what specific cue is driving it?",
+          "stage_1_correct_answer": "The availability heuristic: probability is being judged by the ease with which vivid instances come to mind. Salience and recency, driven by graphic coverage and the memorable single event, inflate retrievability, exactly as the chapter shows a freshly seen overturned car temporarily raises judged accident probability.",
+          "stage_2_intervention": "The council must vote on where to allocate the safety budget. An activist argues for banning all pressure-vessel plants based on the vivid explosion; an engineer presents the frequency data showing slips and falls in the facility cause far more injuries. Pick the decision that best counteracts the availability bias while respecting the data.",
+          "stage_2_correct_answer": "Allocate the budget according to the incident-frequency table rather than the vivid single event, and explicitly counter the coverage with base-rate data. The chapter shows availability is a useful clue but leads to systematic errors when salience and recency displace true frequency."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Conjunction Optimist (Anchoring and Compound Events)",
+          "visual_frame_description": "A program-review war room at Northwind Tech shows Daniela's Helios slide deck with a chain of twelve green 95% links and a glowing '95% overall success' banner. Across the table, Rajiv's screen displays the data center's 200-pump cooling network with red warning nodes. Two competing funding requests sit on the desk.",
+          "player_mission": "Defeat the Conjunction Optimist by correcting both compound-event estimates. First judge whether the 95% overall-success claim for the twelve-link project is biased and in which direction, then decide the correct reading of the cooling system's shutdown risk and the better funding choice.",
+          "key_concepts": [
+            "A conjunctive event requires all of a series of elementary events to occur, giving it a chain-like structure.",
+            "A disjunctive event occurs if any one of a set of elementary events fails, giving it a funnel-like structure.",
+            "The probability of a conjunctive event is lower than the probability of each of its elementary events.",
+            "The probability of a disjunctive event is higher than the probability of each of its elementary events.",
+            "Bar-Hillel's subjects preferred a conjunctive bet (probability .48) over a simple .50 event, and the simple event over a disjunctive .52 event.",
+            "People tend to overestimate conjunctive probabilities and underestimate disjunctive probabilities.",
+            "Anchoring explains both: the stated probability of the elementary event is the starting point, and adjustment is insufficient.",
+            "Planning has a conjunctive character, so the tendency produces unwarranted optimism about completing a project on time.",
+            "A complex system malfunctions if any essential component fails, so overall failure probability is underestimated.",
+            "The direction of the anchoring bias can be inferred from the structure of the event: chains lead to overestimation, funnels to underestimation."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This boss battle tests how anchoring biases compound events: people anchor on the elementary probability and adjust insufficiently, overestimating conjunctive success and underestimating disjunctive failure. Kahneman and Tversky cited Bar-Hillel's betting study and showed this drives unwarranted optimism in planning and misestimation of complex-system risk.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central test is how anchoring biases the evaluation of conjunctive and disjunctive events: chain-like conjunctions get overestimated and funnel-like disjunctions get underestimated, because people anchor on the probability of each elementary event and adjust insufficiently.",
+          "stage_1_observation": "You are a program-review advisor at Northwind Tech. The CEO, Daniela, is championing Project Helios: a hardware launch that requires twelve sequential milestones, each with a 95% chance of success. The slideshow shows a glowing chain of twelve green links, each labeled 95%, with an overall success banner at 95%. Separately, the CTO, Rajiv, is arguing about the data center's cooling system, a network where any one of 200 pumps failing can trigger shutdown, with each pump having a 0.5% annual failure rate.",
+          "stage_1_question": "For Project Helios, each of the twelve milestones has a 95% chance of success. Daniela's slides claim the overall probability of full success is about 95%. Is that estimate biased, and in which direction?",
+          "stage_1_correct_answer": "It is biased upward. Success is conjunctive: all twelve links must hold, so the true probability is 0.95 to the twelfth power, roughly 0.54, far below 95%. Because people anchor on the probability of each elementary event and adjust insufficiently, conjunctive events are systematically overestimated, which produces unwarranted optimism about plans.",
+          "stage_2_intervention": "Now resolve the cooling-system debate. Rajiv proposes a full redundant-pump overhaul because he estimates the chance of any single pump failure as tiny; the CEO, overoptimistic about Helios, wants to move the money to marketing. Given the disjunctive structure (any one of 200 pumps failing causes shutdown), choose the correct reading of the shutdown risk and the better decision.",
+          "stage_2_correct_answer": "Recognize that the system is disjunctive: with 200 pumps at a 0.5% failure rate each, the probability that at least one fails is roughly 1 minus 0.995 to the 200th power, about 63% per year, much higher than intuition suggests. Because disjunctive events are underestimated via anchoring, the prudent decision is to fund the redundancy rather than the marketing push."
+        }
+      ]
+    }
+  ]
+}

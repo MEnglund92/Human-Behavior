@@ -1,0 +1,3251 @@
+{
+  "book_key": "kahneman",
+  "chapters": [
+    {
+      "file": "chapter_0001.txt",
+      "title": "Cover",
+      "concepts": []
+    },
+    {
+      "file": "chapter_0002.txt",
+      "title": "Title Page",
+      "concepts": []
+    },
+    {
+      "file": "chapter_0003.txt",
+      "title": "Copyright Notice",
+      "concepts": []
+    },
+    {
+      "file": "chapter_0004.txt",
+      "title": "Dedication",
+      "concepts": []
+    },
+    {
+      "file": "chapter_0005.txt",
+      "title": "Introduction",
+      "concepts": [
+        {
+          "term": "intuition",
+          "count": 10,
+          "context": "in silence in our mind. Much of the discussion in this book is about biases of intuition. However, the focus on error does not denigrate human intelligence, any more than the attention to diseases in medical"
+        },
+        {
+          "term": "system 1",
+          "count": 9,
+          "context": "the next chapter, I describe mental life by the metaphor of two agents, called System 1 and System 2, which respectively produce fast and slow thinking. I speak of the features of intuitive and deliberate th"
+        },
+        {
+          "term": "self",
+          "count": 7,
+          "context": "matters. The expectation of intelligent gossip is a powerful motive for serious self-criticism, more powerful than New Year resolutions to improve one’s decision making at work and at home. To be a good d"
+        },
+        {
+          "term": "system 2",
+          "count": 4,
+          "context": "pter, I describe mental life by the metaphor of two agents, called System 1 and System 2, which respectively produce fast and slow thinking. I speak of the features of intuitive and deliberate thought as if t"
+        },
+        {
+          "term": "availability heuristic",
+          "count": 3,
+          "context": "nstances came to mind. We called this reliance on the ease of memory search the availability heuristic. In one of our studies, we asked participants to answer a simple question about words in a typical English text: Consid"
+        },
+        {
+          "term": "prospect theory",
+          "count": 3,
+          "context": "e rules of rational choice. Five years after the Science article, we published “Prospect Theory: An Analysis of Decision Under Risk,” a theory of choice that is by some counts more influential than our work on judgm"
+        },
+        {
+          "term": "halo effect",
+          "count": 1,
+          "context": "ably than he deserves. The availability of a diagnostic label for this bias—the halo effect—makes it easier to anticipate, recognize, and understand. When you are asked what you are thinking about, you can norma"
+        },
+        {
+          "term": "silence",
+          "count": 1,
+          "context": "ental work that produces impressions, intuitions, and many decisions goes on in silence in our mind. Much of the discussion in this book is about biases of intuition. However, the focus on error does not den"
+        },
+        {
+          "term": "influence",
+          "count": 1,
+          "context": "we did not choose demonstrations over standard experiments because we wanted to influence philosophers and economists. We preferred demonstrations because they were more fun, and we were lucky in our choice of"
+        },
+        {
+          "term": "gut feeling",
+          "count": 1,
+          "context": "to make a car!” was his explanation. He made it very clear that he trusted his gut feeling and was satisfied with himself and with his decision. I found it remarkable that he had apparently not considered the o"
+        },
+        {
+          "term": "affect heuristic",
+          "count": 1,
+          "context": "he past. The executive’s decision would today be described as an example of the affect heuristic, where judgments and decisions are guided directly by feelings of liking and disliking, with little deliberation or rea"
+        },
+        {
+          "term": "substitution",
+          "count": 1,
+          "context": "t question, we often answer an easier one instead, usually without noticing the substitution. The spontaneous search for an intuitive solution sometimes fails—neither an expert solution nor a heuristic answer com"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0006.txt",
+      "title": "1. The Characters of the Story",
+      "concepts": [
+        {
+          "term": "system 2",
+          "count": 45,
+          "context": "ovich and Richard West, and will refer to two systems in the mind, System 1 and System 2. System 1 operates automatically and quickly, with little or no effort and no sense of voluntary control. System 2 allo"
+        },
+        {
+          "term": "system 1",
+          "count": 39,
+          "context": "ts Keith Stanovich and Richard West, and will refer to two systems in the mind, System 1 and System 2. System 1 operates automatically and quickly, with little or no effort and no sense of voluntary control."
+        },
+        {
+          "term": "behavior",
+          "count": 4,
+          "context": "ster walking speed than is natural for you. Monitor the appropriateness of your behavior in a social situation. Count the occurrences of the letter a in a page of text. Tell someone your phone number. Park in"
+        },
+        {
+          "term": "response",
+          "count": 4,
+          "context": "e them. You were mostly able to respond correctly, but overcoming the competing response was a strain, and it slowed you down. You experienced a conflict between a task that you intended to carry out and an a"
+        },
+        {
+          "term": "upper",
+          "count": 3,
+          "context": "that some parts of each task were much easier than others. When you identified upper- and lowercase, the left-hand column was easy and the right-hand column caused you to slow down and perhaps to stammer"
+        },
+        {
+          "term": "hair",
+          "count": 2,
+          "context": "and intuitive thinking. As surely and quickly as you saw that the young woman’s hair is dark, you knew she is angry. Furthermore, what you saw extended into the future. You sensed that this woman is about"
+        },
+        {
+          "term": "self",
+          "count": 2,
+          "context": "When we think of ourselves, we identify with System 2, the conscious, reasoning self that has beliefs, makes choices, and decides what to think about and what to do. Although System 2 believes itself to b"
+        },
+        {
+          "term": "stimulus",
+          "count": 2,
+          "context": "f System 1, but they depend on the allocation of some attention to the relevant stimulus. The authors note that the most remarkable observation of their study is that people find its results very surprising."
+        },
+        {
+          "term": "autonomy",
+          "count": 1,
+          "context": "other words, System 2 is in charge of self-control. Illusions To appreciate the autonomy of System 1, as well as the distinction between impressions and beliefs, take a good look at figure 3. This picture is"
+        },
+        {
+          "term": "psychopath",
+          "count": 1,
+          "context": "ink of taking on this patient! Throw him out of the office! He is most likely a psychopath and you will not be able to help him.” Many years later I learned that the teacher had warned us against psychopathic c"
+        },
+        {
+          "term": "authority",
+          "count": 1,
+          "context": "rned that the teacher had warned us against psychopathic charm, and the leading authority in the study of psychopathy confirmed that the teacher’s advice was sound. The analogy to the Müller-Lyer illusion is c"
+        },
+        {
+          "term": "psychopathy",
+          "count": 1,
+          "context": "warned us against psychopathic charm, and the leading authority in the study of psychopathy confirmed that the teacher’s advice was sound. The analogy to the Müller-Lyer illusion is close. What we were being tau"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0007.txt",
+      "title": "2. Attention and Effort",
+      "concepts": [
+        {
+          "term": "system 2",
+          "count": 15,
+          "context": "Attention and Effort In the unlikely event of this book being made into a film, System 2 would be a supporting character who believes herself to be the hero. The defining feature of System 2, in this story, i"
+        },
+        {
+          "term": "system 1",
+          "count": 8,
+          "context": "lieves it has chosen are often guided by the figure at the center of the story, System 1. However, there are vital tasks that only System 2 can perform because they require effort and acts of self-control in"
+        },
+        {
+          "term": "response",
+          "count": 5,
+          "context": "nal digits is incremented by 1. If the digits on the card are 5294, the correct response is 6305. Keeping the rhythm is important. Few people can cope with more than four digits in the Add-1 task, but if you"
+        },
+        {
+          "term": "chin",
+          "count": 3,
+          "context": "two piles of books on a sturdy table, place a video camera on one and lean your chin on the other, get the video going, and stare at the camera lens while you work on Add-1 or Add-3 exercises. Later, you"
+        },
+        {
+          "term": "self",
+          "count": 2,
+          "context": "al tasks that only System 2 can perform because they require effort and acts of self-control in which the intuitions and impulses of System 1 are overcome. Mental Effort If you wish to experience your Sys"
+        },
+        {
+          "term": "hypnosis",
+          "count": 2,
+          "context": "a year at the University of Michigan, as a visitor in a laboratory that studied hypnosis. Casting about for a useful topic of research, I found an article in Scientific American in which the psychologist Eckh"
+        },
+        {
+          "term": "baseline",
+          "count": 2,
+          "context": "The tasks that we studied varied considerably in their effects on the pupil. At baseline, our subjects were awake, aware, and ready to engage in a task—probably at a higher level of arousal and cognitive read"
+        },
+        {
+          "term": "intuition",
+          "count": 2,
+          "context": "and a passion for detail” resembles a caricature librarian, but combining this intuition with knowledge about the small number of librarians is a task that only System 2 can perform—if System 2 knows how to d"
+        },
+        {
+          "term": "listening",
+          "count": 1,
+          "context": "cipant leaned her head on a chin-and-forehead rest and stared at a camera while listening to prerecorded information and answering questions on the recorded beats of a metronome. The beats triggered an infrare"
+        },
+        {
+          "term": "authority",
+          "count": 1,
+          "context": "had a large effect on our subsequent careers. He eventually became the leading authority on “cognitive pupillometry,” and I wrote a book titled Attention and Effort, which was based in large part on what we l"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0008.txt",
+      "title": "3. The Lazy Controller",
+      "concepts": [
+        {
+          "term": "system 2",
+          "count": 22,
+          "context": "mild physical arousal of the walk may spill over into greater mental alertness. System 2 also has a natural speed. You expend some mental energy in random thoughts and in monitoring what goes on around you ev"
+        },
+        {
+          "term": "self",
+          "count": 21,
+          "context": "s little strain. Unless you are in a situation that makes you unusually wary or self-conscious, monitoring what happens in the environment or inside your head demands little effort. You make many small de"
+        },
+        {
+          "term": "system 1",
+          "count": 10,
+          "context": "ely to select the tempting chocolate cake when your mind is loaded with digits. System 1 has more influence on behavior when System 2 is busy, and it has a sweet tooth. People who are cognitively busy are als"
+        },
+        {
+          "term": "flow",
+          "count": 6,
+          "context": "e to study this state of effortless attending, and the name he proposed for it, flow, has become part of the language. People who experience flow describe it as “a state of effortless concentration so dee"
+        },
+        {
+          "term": "behavior",
+          "count": 6,
+          "context": "olate cake when your mind is loaded with digits. System 1 has more influence on behavior when System 2 is busy, and it has a sweet tooth. People who are cognitively busy are also more likely to make selfish c"
+        },
+        {
+          "term": "ego depletion",
+          "count": 6,
+          "context": "elf-control when the next challenge comes around. The phenomenon has been named ego depletion. In a typical demonstration, participants who are instructed to stifle their emotional reaction to an emotionally charg"
+        },
+        {
+          "term": "ego",
+          "count": 3,
+          "context": "reduces the ability to withstand the pain of sustained muscle contraction, and ego-depleted people therefore succumb more quickly to the urge to quit. In another experiment, people are first depleted by"
+        },
+        {
+          "term": "response",
+          "count": 2,
+          "context": "ncy. They include: avoiding the thought of white bears inhibiting the emotional response to a stirring film making a series of choices that involve conflict trying to impress others responding kindly to a par"
+        },
+        {
+          "term": "motivation",
+          "count": 2,
+          "context": "unpleasant. Unlike cognitive load, ego depletion is at least in part a loss of motivation. After exerting self-control in one task, you do not feel like making an effort in another, although you could do it if"
+        },
+        {
+          "term": "intuition",
+          "count": 2,
+          "context": "an example, here is a simple puzzle. Do not try to solve it but listen to your intuition: A bat and ball cost $1.10. The bat costs one dollar more than the ball. How much does the ball cost? A number came to"
+        },
+        {
+          "term": "willpower",
+          "count": 1,
+          "context": "mes expend considerable effort for long periods of time without having to exert willpower. The psychologist Mihaly Csikszentmihalyi (pronounced six-cent-mihaly) has done more than anyone else to study this sta"
+        },
+        {
+          "term": "influence",
+          "count": 1,
+          "context": "tempting chocolate cake when your mind is loaded with digits. System 1 has more influence on behavior when System 2 is busy, and it has a sweet tooth. People who are cognitively busy are also more likely to ma"
+        },
+        {
+          "term": "hypothesis",
+          "count": 1,
+          "context": "one by ingesting glucose, and Baumeister and his colleagues have confirmed this hypothesis in several experiments. Volunteers in one of their studies watched a short silent film of a woman being interviewed and"
+        },
+        {
+          "term": "body language",
+          "count": 1,
+          "context": "short silent film of a woman being interviewed and were asked to interpret her body language. While they were performing the task, a series of words crossed the screen in slow succession. The participants were sp"
+        },
+        {
+          "term": "denial",
+          "count": 1,
+          "context": "pend little time on each one, an average of 6 minutes. (The default decision is denial of parole; only 35% of requests are approved. The exact time of each decision is recorded, and the times of the judges’"
+        },
+        {
+          "term": "self-monitoring",
+          "count": 1,
+          "context": "ough to stop thinking is rather troubling. “Lazy” is a harsh judgment about the self-monitoring of these young people and their System 2, but it does not seem to be unfair. Those who avoid the sin of intellectual sl"
+        },
+        {
+          "term": "correlation",
+          "count": 1,
+          "context": "nection between thinking and self-control. Some have addressed it by asking the correlation question: If people were ranked by their self-control and by their cognitive aptitude, would individuals have similar p"
+        },
+        {
+          "term": "laughter",
+          "count": 1,
+          "context": "shows their behavior during the waiting time always has the audience roaring in laughter. About half the children managed the feat of waiting for 15 minutes, mainly by keeping their attention away from the te"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0009.txt",
+      "title": "4. The Associative Machine",
+      "concepts": [
+        {
+          "term": "priming",
+          "count": 15,
+          "context": "is true: you know far less about yourself than you feel you do. The Marvels of Priming As is common in science, the first big breakthrough in our understanding of the mechanism of association was an improve"
+        },
+        {
+          "term": "system 1",
+          "count": 9,
+          "context": "The Associative Machine To begin your exploration of the surprising workings of System 1, look at the following words: Bananas Vomit A lot happened to you during the last second or two. You experienced some u"
+        },
+        {
+          "term": "self",
+          "count": 3,
+          "context": "einforce compatible ideas. All this happens quickly and all at once, yielding a self-reinforcing pattern of cognitive, emotional, and physical responses that is both diverse and integrated—it has been cal"
+        },
+        {
+          "term": "behavior",
+          "count": 3,
+          "context": "old age, though the word old is never mentioned; second, these thoughts prime a behavior, walking slowly, which is associated with old age. All this happens without any awareness. When they were questioned af"
+        },
+        {
+          "term": "smile",
+          "count": 3,
+          "context": "common in the associative network. For example, being amused tends to make you smile, and smiling tends to make you feel amused. Go ahead and take a pencil, and hold it between your teeth for a few second"
+        },
+        {
+          "term": "system 2",
+          "count": 3,
+          "context": "studies to audiences, the reaction is often disbelief. This is not a surprise: System 2 believes that it is in charge and that it knows the reasons for its choices. Questions are probably cropping up in your"
+        },
+        {
+          "term": "response",
+          "count": 2,
+          "context": "ted in an attenuated replica of a reaction to the real thing, and the emotional response and physical recoil were part of the interpretation of the event. As cognitive scientists have emphasized in recent yea"
+        },
+        {
+          "term": "hair",
+          "count": 1,
+          "context": "ave pushed this book imperceptibly farther away. Your heart rate increased, the hair on your arms rose a little, and your sweat glands were activated. In short, you responded to the disgusting word with a"
+        },
+        {
+          "term": "influence",
+          "count": 1,
+          "context": "rguing, maimed accident victims. Simple, common gestures can also unconsciously influence our thoughts and feelings. In one demonstration, people were asked to listen to messages through new headphones. They w"
+        },
+        {
+          "term": "purpose",
+          "count": 1,
+          "context": "ere asked to listen to messages through new headphones. They were told that the purpose of the experiment was to test the quality of the audio equipment and were instructed to move their heads repeatedly to"
+        },
+        {
+          "term": "obedience",
+          "count": 1,
+          "context": "espect, others constantly remind their members of God, and some societies prime obedience by large images of the Dear Leader. Can there be any doubt that the ubiquitous portraits of the national leader in dict"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0010.txt",
+      "title": "5. Cognitive Ease",
+      "concepts": [
+        {
+          "term": "cognitive ease",
+          "count": 30,
+          "context": "# 5. Cognitive Ease xml version='1.0' encoding='utf-8'? 5 Cognitive Ease Whenever you are conscious, and perhaps even when you are not, mu"
+        },
+        {
+          "term": "system 1",
+          "count": 12,
+          "context": "of these essential variables. The assessments are carried out automatically by System 1, and one of their functions is to determine whether extra effort is required from System 2. One of the dials measures c"
+        },
+        {
+          "term": "system 2",
+          "count": 12,
+          "context": "nd one of their functions is to determine whether extra effort is required from System 2. One of the dials measures cognitive ease, and its range is between “Easy” and “Strained.” Easy is a sign that things a"
+        },
+        {
+          "term": "cognitive strain",
+          "count": 7,
+          "context": "ich will require increased mobilization of System 2. Conversely, you experience cognitive strain. Cognitive strain is affected by both the current level of effort and the presence of unmet demands. The surprise is th"
+        },
+        {
+          "term": "intuition",
+          "count": 6,
+          "context": "and cognitive ease in System 1 has a long evolutionary history. Ease, Mood, and Intuition Around 1960, a young psychologist named Sarnoff Mednick thought he had identified the essence of creativity. His idea w"
+        },
+        {
+          "term": "smile",
+          "count": 5,
+          "context": "mood, or even when you have a pencil stuck crosswise in your mouth to make you “smile,” also induces cognitive ease. The various causes of ease or strain have interchangeable effects. When you are in a sta"
+        },
+        {
+          "term": "stimulus",
+          "count": 5,
+          "context": "h of his career to the study of the link between the repetition of an arbitrary stimulus and the mild affection that people eventually have for it. Zajonc called it the mere exposure effect. A demonstration c"
+        },
+        {
+          "term": "response",
+          "count": 2,
+          "context": "iminates the intuition of coherence. The finding shows that the brief emotional response that follows the presentation of a triad of words (pleasant if the triad is coherent, unpleasant otherwise) is actually"
+        },
+        {
+          "term": "self",
+          "count": 1,
+          "context": "to experience the emotions that frowning and smiling normally express. The same self-reinforcing reciprocity is found in studies of cognitive ease. On the one hand, cognitive strain is experienced when th"
+        },
+        {
+          "term": "reciprocity",
+          "count": 1,
+          "context": "emotions that frowning and smiling normally express. The same self-reinforcing reciprocity is found in studies of cognitive ease. On the one hand, cognitive strain is experienced when the effortful operations o"
+        },
+        {
+          "term": "influence",
+          "count": 1,
+          "context": "ad of words has a solution before they know what the solution is? How does mood influence performance in this task? To find out, they first made some of their subjects happy and others sad, by asking them to t"
+        },
+        {
+          "term": "priming",
+          "count": 1,
+          "context": "erimentally by another German team: manipulations that increase cognitive ease (priming, a clear font, pre-exposing words) all increase the tendency to see the words as linked. Another remarkable discovery i"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0011.txt",
+      "title": "6. Norms, Surprises, and Causes",
+      "concepts": [
+        {
+          "term": "system 1",
+          "count": 12,
+          "context": "8'? 6 Norms, Surprises, and Causes The central characteristics and functions of System 1 and System 2 have now been introduced, with a more detailed treatment of System 1. Freely mixing metaphors, we have in"
+        },
+        {
+          "term": "system 2",
+          "count": 5,
+          "context": "Surprises, and Causes The central characteristics and functions of System 1 and System 2 have now been introduced, with a more detailed treatment of System 1. Freely mixing metaphors, we have in our head a re"
+        },
+        {
+          "term": "upper",
+          "count": 3,
+          "context": "e says, “I believe I am pregnant because I feel sick every morning,” or when an upper-class voice says, “I have a large tattoo on my back.” A vast amount of world knowledge must instantly be brought to bea"
+        },
+        {
+          "term": "response",
+          "count": 2,
+          "context": "first guest’s unusual reaction to the soup, and surprised again by the startled response to the waiter’s touch. However, the second abnormal event will retrieve the first from memory, and both make sense toge"
+        },
+        {
+          "term": "cognitive ease",
+          "count": 1,
+          "context": "e the same vowel sound and number of syllables. As with the triads that produce cognitive ease, you unconsciously detect associative coherence between “Moses” and “ark” and so quickly accept the question. Replace M"
+        },
+        {
+          "term": "generalization",
+          "count": 1,
+          "context": "ed: the voice must be identified as upper-class English and confronted with the generalization that large tattoos are uncommon in the upper class. We are able to communicate with each other because our knowledge of"
+        },
+        {
+          "term": "self",
+          "count": 1,
+          "context": "ing a story and is an automatic operation of System 1. System 2, your conscious self, was offered the causal interpretation and accepted it. A story in Nassim Taleb’s The Black Swan illustrates this autom"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0012.txt",
+      "title": "7. A Machine for Jumping to Conclusions",
+      "concepts": [
+        {
+          "term": "system 1",
+          "count": 19,
+          "context": "f statistical intuitions, and now I believe it offers an apt description of how System 1 functions. Jumping to conclusions is efficient if the conclusions are likely to be correct and the costs of an occasion"
+        },
+        {
+          "term": "system 2",
+          "count": 12,
+          "context": "ive errors are probable, which may be prevented by a deliberate intervention of System 2. Neglect of Ambiguity and Suppression of Doubt What do the three exhibits in figure 6 have in common? The answer is tha"
+        },
+        {
+          "term": "halo effect",
+          "count": 8,
+          "context": "to overestimate the probability of a disaster. Exaggerated Emotional Coherence (Halo Effect) If you like the president’s politics, you probably like his voice and his appearance as well. The tendency to like (or"
+        },
+        {
+          "term": "wysiati",
+          "count": 8,
+          "context": "sertively, causing others to line up behind them. What You See Is All There Is (WYSIATI) One of my favorite memories of the early years of working with Amos is a comedy routine he enjoyed performing. In a pe"
+        },
+        {
+          "term": "cognitive ease",
+          "count": 3,
+          "context": "r. The consistency I had enjoyed earlier was spurious; it produced a feeling of cognitive ease, and my System 2 was happy to lazily accept the final grade. By allowing myself to be strongly influenced by the first"
+        },
+        {
+          "term": "what you see is all there is",
+          "count": 3,
+          "context": "f those who speak early and assertively, causing others to line up behind them. What You See Is All There Is (WYSIATI) One of my favorite memories of the early years of working with Amos is a comedy routine he enjoyed performing"
+        },
+        {
+          "term": "influence",
+          "count": 2,
+          "context": "ias, the aggregation of judgments will not reduce it. Allowing the observers to influence each other effectively reduces the size of the sample, and with it the precision of the group estimate. To derive the m"
+        },
+        {
+          "term": "confirmation bias",
+          "count": 1,
+          "context": "ired and depleted. The operations of associative memory contribute to a general confirmation bias. When asked, “Is Sam friendly?” different instances of Sam’s behavior will come to mind than would if you had been aske"
+        },
+        {
+          "term": "behavior",
+          "count": 1,
+          "context": "confirmation bias. When asked, “Is Sam friendly?” different instances of Sam’s behavior will come to mind than would if you had been asked “Is Sam unfriendly?” A deliberate search for confirming evidence, kn"
+        },
+        {
+          "term": "hypothesis",
+          "count": 1,
+          "context": "firming evidence, known as positive test strategy, is also how System 2 tests a hypothesis. Contrary to the rules of philosophers of science, who advise testing hypotheses by trying to refute them, people (and"
+        },
+        {
+          "term": "shaping",
+          "count": 1,
+          "context": "use the halo effect is a good name for a common bias that plays a large role in shaping our view of people and situations. It is one of the ways the representation of the world that System 1 generates is sim"
+        },
+        {
+          "term": "response",
+          "count": 1,
+          "context": "n the story of Joan, and the gap is filled by a guess that fits one’s emotional response to her. In other situations, evidence accumulates gradually and the interpretation is shaped by the emotion attached to"
+        },
+        {
+          "term": "intimidation",
+          "count": 1,
+          "context": "rties. Naturally, the lawyer for the union organizer described the arrest as an intimidation attempt, while the lawyer for the store argued that having the talk in the store was disruptive and that the manager wa"
+        },
+        {
+          "term": "base-rate neglect",
+          "count": 1,
+          "context": "dividual normally sees only one formulation, and what she sees is all there is. Base-rate neglect: Recall Steve, the meek and tidy soul who is often believed to be a librarian. The personality description is salient a"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0013.txt",
+      "title": "8. How Judgments Happen",
+      "concepts": [
+        {
+          "term": "system 1",
+          "count": 15,
+          "context": "m: in either case it directs attention and searches memory to find the answers. System 1 operates differently. It continuously monitors what is going on outside and inside the mind, and continuously generates"
+        },
+        {
+          "term": "system 2",
+          "count": 8,
+          "context": "he political prospects of your senator on a scale from excellent to disastrous. System 2 receives questions or generates them: in either case it directs attention and searches memory to find the answers. Syst"
+        },
+        {
+          "term": "mental shotgun",
+          "count": 5,
+          "context": "were as tall as he is intelligent, how tall would he be?” Finally, there is the mental shotgun. An intention of System 2 to answer a specific question or evaluate a particular attribute of the situation automatical"
+        },
+        {
+          "term": "chin",
+          "count": 3,
+          "context": "shape of the face provides the cues for assessing dominance: a “strong” square chin is one such cue. Facial expression (smile or frown) provides the cues for assessing the stranger’s intentions. The comb"
+        },
+        {
+          "term": "smile",
+          "count": 2,
+          "context": "assessing dominance: a “strong” square chin is one such cue. Facial expression (smile or frown) provides the cues for assessing the stranger’s intentions. The combination of a square chin with a turned-dow"
+        },
+        {
+          "term": "response",
+          "count": 2,
+          "context": "predict how well politicians will perform in office. But studies of the brain’s response to winning and losing candidates show that we are biologically predisposed to reject candidates who lack the attributes"
+        },
+        {
+          "term": "substitution",
+          "count": 1,
+          "context": "heuristics and biases approach. Two other features of System 1 also support the substitution of one judgment for another. One is the ability to translate values across dimensions, which you do in answering a ques"
+        },
+        {
+          "term": "cognitive ease",
+          "count": 1,
+          "context": "valuated as good or bad, requiring escape or permitting approach. Good mood and cognitive ease are the human equivalents of assessments of safety and familiarity. For a specific example of a basic assessment, consi"
+        },
+        {
+          "term": "influence",
+          "count": 1,
+          "context": ". This ancient mechanism is put to a novel use in the modern world: it has some influence on how people vote. Todorov showed his students pictures of men’s faces, sometimes for as little as one-tenth of a seco"
+        },
+        {
+          "term": "representativeness",
+          "count": 1,
+          "context": "rehension of messages. These assessments include computations of similarity and representativeness, attributions of causality, and evaluations of the availability of associations and exemplars. They are performed even"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0014.txt",
+      "title": "9. Answering an Easier Question",
+      "concepts": [
+        {
+          "term": "system 2",
+          "count": 13,
+          "context": "ólya’s heuristics are strategic procedures that are deliberately implemented by System 2. But the heuristics that I discuss in this chapter are not chosen; they are a consequence of the mental shotgun, the im"
+        },
+        {
+          "term": "system 1",
+          "count": 12,
+          "context": "plex matters. If a satisfactory answer to a hard question is not found quickly, System 1 will find a related question that is easier and will answer it. I call the operation of answering one question in place"
+        },
+        {
+          "term": "substitution",
+          "count": 11,
+          "context": "l answer it. I call the operation of answering one question in place of another substitution. I also adopt the following terms: The target question is the assessment you intend to produce. The heuristic question"
+        },
+        {
+          "term": "mental shotgun",
+          "count": 4,
+          "context": "cs that I discuss in this chapter are not chosen; they are a consequence of the mental shotgun, the imprecise control we have over targeting our responses to questions. Consider the questions listed in the left-han"
+        },
+        {
+          "term": "correlation",
+          "count": 3,
+          "context": "ow many dates did you have last month? The experimenters were interested in the correlation between the two answers. Would the students who reported many dates say that they were happier than those with fewer da"
+        },
+        {
+          "term": "affect heuristic",
+          "count": 3,
+          "context": "resent state of mind looms very large when people evaluate their happiness. The Affect Heuristic The dominance of conclusions over arguments is most pronounced where emotions are involved. The psychologist Paul Slovi"
+        },
+        {
+          "term": "wysiati",
+          "count": 2,
+          "context": "lly significant question that alters a person’s mood will have the same effect. WYSIATI. The present state of mind looms very large when people evaluate their happiness. The Affect Heuristic The dominance of"
+        },
+        {
+          "term": "self",
+          "count": 1,
+          "context": "ist the suggestions of System 1, slow things down, and impose logical analysis. Self-criticism is one of the functions of System 2. In the context of attitudes, however, System 2 is more of an apologist f"
+        },
+        {
+          "term": "cognitive ease",
+          "count": 1,
+          "context": "es a coherent pattern of activated ideas in associative memory links a sense of cognitive ease to illusions of truth, pleasant feelings, and reduced vigilance distinguishes the surprising from the normal infers and"
+        },
+        {
+          "term": "halo effect",
+          "count": 1,
+          "context": "esses doubt is biased to believe and confirm exaggerates emotional consistency (halo effect) focuses on existing evidence and ignores absent evidence (WYSIATI) generates a limited set of basic assessments repres"
+        },
+        {
+          "term": "prospect theory",
+          "count": 1,
+          "context": "n for a difficult one (heuristics) is more sensitive to changes than to states (prospect theory) overweights low probabilities shows diminishing sensitivity to quantity (psychophysics) responds more strongly to loss"
+        },
+        {
+          "term": "loss aversion",
+          "count": 1,
+          "context": "ity to quantity (psychophysics) responds more strongly to losses than to gains (loss aversion) frames decision problems narrowly, in isolation from one another"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0015.txt",
+      "title": "10. The Law of Small Numbers",
+      "concepts": [
+        {
+          "term": "law of small numbers",
+          "count": 10,
+          "context": "# 10. The Law of Small Numbers xml version='1.0' encoding='utf-8'? 10 The Law of Small Numbers A study of the incidence of kidney cancer in the 3,141"
+        },
+        {
+          "term": "system 1",
+          "count": 6,
+          "context": "as involved; your pupils dilated, and your heart rate increased measurably. But System 1 was not idle: the operation of System 2 depended on the facts and suggestions retrieved from associative memory. You pr"
+        },
+        {
+          "term": "system 2",
+          "count": 3,
+          "context": "is? Your mind has been very active in the last few seconds, and it was mainly a System 2 operation. You deliberately searched memory and formulated hypotheses. Some effort was involved; your pupils dilated, a"
+        },
+        {
+          "term": "hypothesis",
+          "count": 3,
+          "context": "g of every research project into a gamble. Suppose that you wish to confirm the hypothesis that the vocabulary of the average six-year-old girl is larger than the vocabulary of an average boy of the same age. T"
+        },
+        {
+          "term": "intuition",
+          "count": 2,
+          "context": "sample size by computation. Like my colleagues, I had trusted tradition and my intuition in planning my experiments and had never thought seriously about the issue. When Amos visited the seminar, I had alread"
+        },
+        {
+          "term": "curiosity",
+          "count": 1,
+          "context": "was worse than others. For a research psychologist, sampling variation is not a curiosity; it is a nuisance and a costly obstacle, which turns the undertaking of every research project into a gamble. Suppose t"
+        },
+        {
+          "term": "wysiati",
+          "count": 1,
+          "context": "atercooler…”? Can your System 1 distinguish degrees of belief? The principle of WYSIATI suggests that it cannot. As I described earlier, System 1 is not prone to doubt. It suppresses ambiguity and spontaneou"
+        },
+        {
+          "term": "halo effect",
+          "count": 1,
+          "context": "rchers in what can be learned from a few observations is closely related to the halo effect, the sense we often get that we know and understand a person about whom we actually know very little. System 1 runs ahe"
+        },
+        {
+          "term": "representativeness",
+          "count": 1,
+          "context": "tanding of randomness sometimes has significant consequences. In our article on representativeness, Amos and I cited the statistician William Feller, who illustrated the ease with which people see patterns where none e"
+        },
+        {
+          "term": "response",
+          "count": 1,
+          "context": "as picked up by the press because of its surprising conclusion, and the general response was disbelief. When the celebrated coach of the Boston Celtics, Red Auerbach, heard of Gilovich and his study, he respo"
+        },
+        {
+          "term": "splitting",
+          "count": 1,
+          "context": "to make a substantial investment in the creation of small schools, sometimes by splitting large schools into smaller units. At least half a dozen other prominent institutions, such as the Annenberg Foundation"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0016.txt",
+      "title": "11. Anchors",
+      "concepts": [
+        {
+          "term": "anchoring effect",
+          "count": 12,
+          "context": "and so important in the everyday world that you should know its name: it is an anchoring effect. It occurs when people consider a particular value for an unknown quantity before estimating that quantity. What happen"
+        },
+        {
+          "term": "system 2",
+          "count": 10,
+          "context": "of anchoring that occurs in a deliberate process of adjustment, an operation of System 2. And there is anchoring that occurs by a priming effect, an automatic manifestation of System 1. Anchoring as Adjustmen"
+        },
+        {
+          "term": "priming",
+          "count": 7,
+          "context": "f adjustment, an operation of System 2. And there is anchoring that occurs by a priming effect, an automatic manifestation of System 1. Anchoring as Adjustment Amos liked the idea of an adjust-and-anchor heu"
+        },
+        {
+          "term": "system 1",
+          "count": 6,
+          "context": "ere is anchoring that occurs by a priming effect, an automatic manifestation of System 1. Anchoring as Adjustment Amos liked the idea of an adjust-and-anchor heuristic as a strategy for estimating uncertain q"
+        },
+        {
+          "term": "influence",
+          "count": 4,
+          "context": "sting price is high than if it is low, even if you are determined to resist the influence of this number; and so on—the list of anchoring effects is endless. Any number that you are asked to consider as a poss"
+        },
+        {
+          "term": "behavior",
+          "count": 2,
+          "context": "iscussed the bewildering variety of priming effects, in which your thoughts and behavior may be influenced by stimuli to which you pay no attention at all, and even by stimuli of which you are completely unaw"
+        },
+        {
+          "term": "curiosity",
+          "count": 1,
+          "context": "n observed in numerous other problems. The anchoring effect is not a laboratory curiosity; it can be just as strong in the real world. In an experiment conducted some years ago, real-estate agents were given a"
+        },
+        {
+          "term": "ocean",
+          "count": 1,
+          "context": "orium study about the environmental damage caused by oil tankers in the Pacific Ocean and asked about their willingness to make an annual contribution “to save 50,000 offshore Pacific Coast seabirds from s"
+        },
+        {
+          "term": "law of small numbers",
+          "count": 1,
+          "context": "influenced their estimate, and they are wrong. We saw in the discussion of the law of small numbers that a message, unless it is immediately rejected as a lie, will have the same effect on the associative system regardl"
+        },
+        {
+          "term": "wysiati",
+          "count": 1,
+          "context": "ble, even if the quantity of the information is slight and its quality is poor: WYSIATI. When you read a story about the heroic rescue of a wounded mountain climber, its effect on your associative memory is"
+        },
+        {
+          "term": "autonomy",
+          "count": 1,
+          "context": "the results upsetting, because they threaten the subjective sense of agency and autonomy. If the content of a screen saver on an irrelevant computer can affect your willingness to help strangers without your"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0017.txt",
+      "title": "12. The Science of Availability",
+      "concepts": [
+        {
+          "term": "behavior",
+          "count": 9,
+          "context": "tive you are. Imagine that you had been asked for twelve instances of assertive behavior (a number most people find difficult). Would your view of your own assertiveness be different? Schwarz and his colleagu"
+        },
+        {
+          "term": "availability heuristic",
+          "count": 6,
+          "context": "rt. It was a busy year. One of our projects was the study of what we called the availability heuristic. We thought of that heuristic when we asked ourselves what people actually do when they wish to estimate the frequency"
+        },
+        {
+          "term": "system 1",
+          "count": 5,
+          "context": "ocess appears to consist of a sophisticated set of inferences. Is the automatic System 1 capable of it? The answer is that in fact no complex reasoning is needed. Among the basic features of System 1 is its a"
+        },
+        {
+          "term": "self",
+          "count": 4,
+          "context": "about “taking out the garbage,” “initiating social engagements,” etc. Would the self-estimated contributions add up to 100%, or more, or less? As expected, the self-assessed contributions added up to more"
+        },
+        {
+          "term": "intuition",
+          "count": 3,
+          "context": "e task, in contrast to true experts when they score high on a scale of faith in intuition if they are (or are made to feel) powerful I find the last finding particularly intriguing. The authors introduce their"
+        },
+        {
+          "term": "cognitive strain",
+          "count": 2,
+          "context": "quired to furrow their brow. As you already know, frowning normally accompanies cognitive strain and the effect is symmetric: when people are instructed to frown while doing a task, they actually try harder and exper"
+        },
+        {
+          "term": "system 2",
+          "count": 2,
+          "context": "prise, usually by finding a possible cause among recent surprises. Furthermore, System 2 can reset the expectations of System 1 on the fly, so that an event that would normally be surprising is now almost nor"
+        },
+        {
+          "term": "substitution",
+          "count": 1,
+          "context": "nt, but you report an impression of the ease with which instances come to mind. Substitution of questions inevitably produces systematic errors. You can discover how the heuristic leads to biases by following a s"
+        },
+        {
+          "term": "smile",
+          "count": 1,
+          "context": "ers” were instructed to contract the zygomaticus muscle, which produces a light smile; “frowners” were required to furrow their brow. As you already know, frowning normally accompanies cognitive strain and"
+        },
+        {
+          "term": "flow",
+          "count": 1,
+          "context": "igher vigilance. The following are some conditions in which people “go with the flow” and are affected more strongly by ease of retrieval than by the content they retrieved: when they are engaged in anoth"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0018.txt",
+      "title": "13. Availability, Emotion, and Risk",
+      "concepts": [
+        {
+          "term": "affect heuristic",
+          "count": 5,
+          "context": "erbate fear. As mentioned earlier, Slovic eventually developed the notion of an affect heuristic, in which people make judgments and decisions by consulting their emotions: Do I like it? Do I hate it? How strongly do"
+        },
+        {
+          "term": "substitution",
+          "count": 2,
+          "context": "ion of the activation of ideas in associative memory, and are a good example of substitution. But Slovic and his colleagues were led to a deeper insight: they saw that the ease with which ideas of various risks c"
+        },
+        {
+          "term": "flow",
+          "count": 2,
+          "context": "the jurist Timur Kuran, invented a name for the mechanism through which biases flow into policy: the availability cascade. They comment that in the social context, “all heuristics are equal, but availabi"
+        },
+        {
+          "term": "correlation",
+          "count": 1,
+          "context": "ts and the risks of each technology. They observed an implausibly high negative correlation between two estimates that their respondents made: the level of benefit and the level of risk that they attributed to t"
+        },
+        {
+          "term": "regulators",
+          "count": 1,
+          "context": "tant source of erratic and misplaced priorities in public policy. Lawmakers and regulators may be overly responsive to the irrational concerns of citizens, both because of political sensitivity and because they"
+        },
+        {
+          "term": "self",
+          "count": 1,
+          "context": "tional charge) with which that idea comes to mind. An availability cascade is a self-sustaining chain of events, which may start from media reports of a relatively minor event and lead up to public panic"
+        },
+        {
+          "term": "response",
+          "count": 1,
+          "context": "e issue becomes politically important because it is on everyone’s mind, and the response of the political system is guided by the intensity of public sentiment. The availability cascade has now reset prioriti"
+        },
+        {
+          "term": "system 1",
+          "count": 1,
+          "context": "t to reason oneself into a state of complete calm. Terrorism speaks directly to System 1. Where do I come down in the debate between my friends? Availability cascades are real and they undoubtedly distort pri"
+        },
+        {
+          "term": "influence",
+          "count": 1,
+          "context": "inently sensible, and I agree with both. I share Sunstein’s discomfort with the influence of irrational fears and availability cascades on public policy in the domain of risk. However, I also share Slovic’s be"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0019.txt",
+      "title": "14. Tom W’s Specialty",
+      "concepts": [
+        {
+          "term": "representativeness",
+          "count": 18,
+          "context": "to small fields and a poor fit to the most populated specialties. Predicting by Representativeness The third task in the sequence was administered to graduate students in psychology, and it is the critical one: rank th"
+        },
+        {
+          "term": "system 2",
+          "count": 7,
+          "context": "and certainly requires the discipline and sequential organization of which only System 2 is capable. However, the hints planted in the description (corny puns and others) were intended to activate an associat"
+        },
+        {
+          "term": "system 1",
+          "count": 6,
+          "context": "intended to activate an association with a stereotype, an automatic activity of System 1. The instructions for this similarity task required a comparison of the description of Tom W to the stereotypes of the"
+        },
+        {
+          "term": "intuition",
+          "count": 3,
+          "context": "s the vigilance of System 2 and reduces both overconfidence and the reliance on intuition. The students who puffed out their cheeks (an emotionally neutral expression) replicated the original results: they rel"
+        },
+        {
+          "term": "wysiati",
+          "count": 3,
+          "context": "eness is insensitivity to the quality of evidence. Recall the rule of System 1: WYSIATI. In the Tom W example, what activates your associative machinery is a description of Tom, which may or may not be an ac"
+        },
+        {
+          "term": "self",
+          "count": 2,
+          "context": "d little sympathy for other people, and does not enjoy interacting with others. Self-centered, he nonetheless has a deep moral sense. Now please take a sheet of paper and rank the nine fields of specializ"
+        },
+        {
+          "term": "representativeness heuristic",
+          "count": 2,
+          "context": "System 1 generates an impression of similarity without intending to do so. The representativeness heuristic is involved when someone says “She will win the election; you can see she is a winner” or “He won’t go far as an academ"
+        },
+        {
+          "term": "smile",
+          "count": 1,
+          "context": "just typed, and asked him to guess Tom W’s profession. I still remember his sly smile as he said tentatively, “computer scientist?” That was a happy moment—even the mighty had fallen. Of course, Robyn imme"
+        },
+        {
+          "term": "substitution",
+          "count": 1,
+          "context": "lds by probability did not differ from ratings by similarity to the stereotype. Substitution was perfect in this case: there was no indication that the participants did anything else but judge representativeness."
+        },
+        {
+          "term": "ocean",
+          "count": 1,
+          "context": "sun rose this morning, and others you consider impossible, such as the Pacific Ocean freezing all at once. Then there are many events, such as your next-door neighbor being a computer scientist, to which"
+        },
+        {
+          "term": "mental shotgun",
+          "count": 1,
+          "context": "ilosophers use the word. A question about probability or likelihood activates a mental shotgun, evoking answers to easier questions. One of the easy answers is an automatic assessment of representativeness—routine"
+        },
+        {
+          "term": "chin",
+          "count": 1,
+          "context": "we judge the potential leadership of a candidate for office by the shape of his chin or the forcefulness of his speeches. Although it is common, prediction by representativeness is not statistically optim"
+        },
+        {
+          "term": "base-rate neglect",
+          "count": 1,
+          "context": "If frowning makes a difference, laziness seems to be the proper explanation of base-rate neglect, at least among Harvard undergrads. Their System 2 “knows” that base rates are relevant even when they are not explicit"
+        },
+        {
+          "term": "self-monitoring",
+          "count": 1,
+          "context": "pect this exercise of discipline to be easy—it requires a significant effort of self-monitoring and self-control. The correct answer to the Tom W puzzle is that you should stay very close to your prior beliefs, slig"
+        },
+        {
+          "term": "hypothesis",
+          "count": 1,
+          "context": "bined with the diagnosticity of the evidence, the degree to which it favors the hypothesis over the alternative. For example, if you believe that 3% of graduate students are enrolled in computer science (the ba"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0020.txt",
+      "title": "15. Linda: Less is More",
+      "concepts": [
+        {
+          "term": "representativeness",
+          "count": 9,
+          "context": "ible scenarios for Linda. As in the Tom W problem, some ranked the scenarios by representativeness, others by probability. The Linda problem is similar, but with a twist. Linda is a teacher in elementary school. Linda"
+        },
+        {
+          "term": "conjunction fallacy",
+          "count": 9,
+          "context": "a logical rule that is obviously relevant. Amos and I introduced the idea of a conjunction fallacy, which people commit when they judge a conjunction of two events (here, bank teller and feminist) to be more probable t"
+        },
+        {
+          "term": "intuition",
+          "count": 7,
+          "context": "nly lower its probability. The problem therefore sets up a conflict between the intuition of representativeness and the logic of probability. Our initial experiment was between-subjects. Each participant saw a"
+        },
+        {
+          "term": "system 2",
+          "count": 7,
+          "context": "ntativeness had won! In the language of this book, we had observed a failure of System 2: our participants had a fair opportunity to detect the relevance of the logical rule, since both outcomes were included"
+        },
+        {
+          "term": "system 1",
+          "count": 2,
+          "context": "bank teller; read the description.’” The little homunculus is of course Gould’s System 1 speaking to him in insistent tones. (The two-system terminology had not yet been introduced when he wrote.) The correct"
+        },
+        {
+          "term": "hair",
+          "count": 2,
+          "context": "consider the following questions: Which alternative is more probable? Mark has hair. Mark has blond hair. and Which alternative is more probable? Jane is a teacher. Jane is a teacher and walks to work. T"
+        },
+        {
+          "term": "discrimination",
+          "count": 1,
+          "context": "he majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in antinuclear demonstrations. The audiences who heard this description in th"
+        },
+        {
+          "term": "response",
+          "count": 1,
+          "context": ") The correct answer to the short version of the Linda problem was the majority response in only one of our studies: 64% of a group of graduate students in the social sciences at Stanford and at Berkeley corr"
+        },
+        {
+          "term": "substitution",
+          "count": 1,
+          "context": "plausibility, and probability are easily confused by the unwary. The uncritical substitution of plausibility for probability has pernicious effects on judgments when scenarios are used as tools of forecasting. Co"
+        },
+        {
+          "term": "behavior",
+          "count": 1,
+          "context": "he dinnerware set that includes broken dishes put a very low price on it; their behavior reflects a rule of intuition. Others who see both sets at once apply the logical rule that more dishes can only add val"
+        },
+        {
+          "term": "salience",
+          "count": 1,
+          "context": "uding studies of Linda) was not challenged—it was simply not addressed, and its salience was diminished by the exclusive focus on the conjunction fallacy. The net effect of the Linda problem was an increase i"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0021.txt",
+      "title": "16. Causes Trump Statistics",
+      "concepts": [
+        {
+          "term": "stereotyping",
+          "count": 6,
+          "context": "to bring up the Tour de France in a conversation with a Frenchman you just met. Stereotyping is a bad word in our culture, but in my usage it is neutral. One of the basic characteristics of System 1 is that it re"
+        },
+        {
+          "term": "behavior",
+          "count": 6,
+          "context": "tt and Borgida asked two groups of students to watch the videos and predict the behavior of the two individuals. The students in the first group were told only about the procedure of the helping experiment, n"
+        },
+        {
+          "term": "system 1",
+          "count": 3,
+          "context": "our culture, but in my usage it is neutral. One of the basic characteristics of System 1 is that it represents categories as norms and prototypical exemplars. This is how we think of horses, refrigerators, an"
+        },
+        {
+          "term": "manipulation",
+          "count": 2,
+          "context": "articipants to judge the probability that each student had passed the test. The manipulation of causal base rates was straightforward: Ajzen told one group that the students they saw had been drawn from a class i"
+        },
+        {
+          "term": "diffusion of responsibility",
+          "count": 2,
+          "context": "re meant to take away is that some potent feature of the situation, such as the diffusion of responsibility, induces normal and decent people such as them to behave in a surprisingly unhelpful way. Changing one’s mind about hum"
+        },
+        {
+          "term": "affect heuristic",
+          "count": 1,
+          "context": "soul and politically correct, is not scientifically defensible. Reliance on the affect heuristic is common in politically charged arguments. The positions we favor have no cost and those we oppose have no benefits. W"
+        },
+        {
+          "term": "generalization",
+          "count": 1,
+          "context": "y individual cases—two nice people who had not helped—they immediately made the generalization and inferred that helping is more difficult than they had thought. Nisbett and Borgida summarize the results in a memor"
+        },
+        {
+          "term": "influence",
+          "count": 1,
+          "context": "mere statistics. Let’s show them one or two representative individual cases to influence their System 1.” “No need to worry about this statistical information being ignored. On the contrary, it will immediate"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0022.txt",
+      "title": "17. Regression to the Mean",
+      "concepts": [
+        {
+          "term": "correlation",
+          "count": 20,
+          "context": "ession in size to the broader notion that regression inevitably occurs when the correlation between two measures is less than perfect, and he needed the help of the most brilliant statisticians of his time to re"
+        },
+        {
+          "term": "regression to the mean",
+          "count": 13,
+          "context": "# 17. Regression to the Mean xml version='1.0' encoding='utf-8'? 17 Regression to the Mean I had one of the most satisfying eureka experiences of m"
+        },
+        {
+          "term": "praise",
+          "count": 2,
+          "context": "improvement and good performance by deterioration, without any help from either praise or punishment. The discovery I made on that day was that the flight instructors were trapped in an unfortunate continge"
+        },
+        {
+          "term": "influence",
+          "count": 2,
+          "context": "r parents, and for traits in which environmental factors have relatively little influence, such as height, the correlation between parent and child is not far from .50. To appreciate the meaning of the correla"
+        },
+        {
+          "term": "system 1",
+          "count": 2,
+          "context": "on the air. Our difficulties with the concept of regression originate with both System 1 and System 2. Without special instruction, and in quite a few cases even after some statistical instruction, the relati"
+        },
+        {
+          "term": "system 2",
+          "count": 2,
+          "context": "ur difficulties with the concept of regression originate with both System 1 and System 2. Without special instruction, and in quite a few cases even after some statistical instruction, the relationship betwee"
+        },
+        {
+          "term": "response",
+          "count": 1,
+          "context": "to the inevitable fluctuations of a random process. The challenge called for a response, but a lesson in the algebra of prediction would not be enthusiastically received. Instead, I used chalk to mark a targ"
+        },
+        {
+          "term": "nudge",
+          "count": 1,
+          "context": "d exceptionally well in the preceding season, probably with the assistance of a nudge from luck—and luck is fickle. I happened to watch the men’s ski jump event in the Winter Olympics while Amos and I were"
+        },
+        {
+          "term": "self",
+          "count": 1,
+          "context": "influences the other; 100% of determinants are shared. The correlation between self-reported height and weight among adult American males is .41. If you included women and children, the correlation would"
+        },
+        {
+          "term": "hugging",
+          "count": 1,
+          "context": "ers of such headlines will automatically infer that the energy drink or the cat hugging caused an improvement, but this conclusion is completely unjustified. Depressed children are an extreme group, they are"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0023.txt",
+      "title": "18. Taming Intuitive Predictions",
+      "concepts": [
+        {
+          "term": "system 1",
+          "count": 6,
+          "context": "nalyses of outcomes observed on similar occasions. Others involve intuition and System 1, in two main varieties. Some intuitions draw primarily on skill and expertise acquired by repeated experience. The rapi"
+        },
+        {
+          "term": "correlation",
+          "count": 6,
+          "context": "during adolescence that left her slightly impaired, and so on. Recall that the correlation between two measures—in the present case reading age and GPA—is equal to the proportion of shared factors among their d"
+        },
+        {
+          "term": "baseline",
+          "count": 6,
+          "context": "e 30% of the distance from the average to the matching GPA. Step 1 gets you the baseline, the GPA you would have predicted if you were told nothing about Julie beyond the fact that she is a graduating senior."
+        },
+        {
+          "term": "intuition",
+          "count": 5,
+          "context": "and explicit analyses of outcomes observed on similar occasions. Others involve intuition and System 1, in two main varieties. Some intuitions draw primarily on skill and expertise acquired by repeated experie"
+        },
+        {
+          "term": "system 2",
+          "count": 4,
+          "context": "re both indications of academic talent. Some connection is necessary. You (your System 2) would probably reject as irrelevant a report of Julie winning a fly fishing competition or excelling at weight lifting"
+        },
+        {
+          "term": "substitution",
+          "count": 4,
+          "context": "ite clever,’ which reference group do you have in mind?” The next step involves substitution and intensity matching. The evaluation of the flimsy evidence of cognitive ability in childhood is substituted as an an"
+        },
+        {
+          "term": "regression to the mean",
+          "count": 3,
+          "context": "to generate predictions that are systematically biased; they completely ignore regression to the mean. During my military service in the Israeli Defense Forces, I spent some time attached to a unit that selected candidate"
+        },
+        {
+          "term": "wysiati",
+          "count": 2,
+          "context": "of the evidence. When a link is found, as in the case of Julie’s early reading, WYSIATI applies: your associative memory quickly and automatically constructs the best possible story from the information avai"
+        },
+        {
+          "term": "self",
+          "count": 2,
+          "context": "ription consisted of five adjectives, as in the following example: intelligent, self-confident, well-read, hardworking, inquisitive We asked some participants to answer two questions: How much does this d"
+        },
+        {
+          "term": "response",
+          "count": 1,
+          "context": "m for a prediction that is intermediate between the baseline and your intuitive response. In the default case of no useful evidence, you stay with the baseline. At the other extreme, you also stay with your i"
+        },
+        {
+          "term": "law of small numbers",
+          "count": 1,
+          "context": "at there is much less information about Kim than about Jane. We are back to the law of small numbers. In effect, you have a smaller sample of information from Kim than from Jane, and extreme outcomes are much more likely"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0024.txt",
+      "title": "19. The Illusion of Understanding",
+      "concepts": [
+        {
+          "term": "halo effect",
+          "count": 9,
+          "context": "sities and personality traits—causes that you can readily match to effects. The halo effect discussed earlier contributes to coherence, because it inclines us to match our view of all the qualities of a person t"
+        },
+        {
+          "term": "outcome bias",
+          "count": 6,
+          "context": "ctually risky and that the doctor who ordered it should have known better. This outcome bias makes it almost impossible to evaluate a decision properly—in terms of the beliefs that were reasonable when the decisi"
+        },
+        {
+          "term": "correlation",
+          "count": 4,
+          "context": "business press suggests. Researchers measure the strength of relationships by a correlation coefficient, which varies between 0 and 1. The coefficient was defined earlier (in relation to regression to the mean)"
+        },
+        {
+          "term": "hindsight bias",
+          "count": 3,
+          "context": "ents. Baruch Fischhoff first demonstrated this “I-knew-it-all-along” effect, or hindsight bias, when he was a student in Jerusalem. Together with Ruth Beyth (another of our students), Fischhoff conducted a survey b"
+        },
+        {
+          "term": "intuition",
+          "count": 2,
+          "context": "now is not the only word that fosters this illusion. In common usage, the words intuition and premonition also are reserved for past thoughts that turned out to be true. The statement “I had a premonition that"
+        },
+        {
+          "term": "influence",
+          "count": 2,
+          "context": "books are tailor-made to satisfy this need. Do leaders and management practices influence the outcomes of firms in the market? Of course they do, and the effects have been confirmed by systematic research that"
+        },
+        {
+          "term": "regression to the mean",
+          "count": 2,
+          "context": "ich varies between 0 and 1. The coefficient was defined earlier (in relation to regression to the mean) by the extent to which two measures are determined by shared factors. A very generous estimate of the correlation betw"
+        },
+        {
+          "term": "behavior",
+          "count": 1,
+          "context": "t account of people’s actions and intentions. You are always ready to interpret behavior as a manifestation of general propensities and personality traits—causes that you can readily match to effects. The hal"
+        },
+        {
+          "term": "posture",
+          "count": 1,
+          "context": "him and to anticipate obstacles. He has learned to make the tiny adjustments of posture that keep him upright. There are fewer opportunities for young men to learn how to create a giant company, and fewer ch"
+        },
+        {
+          "term": "wysiati",
+          "count": 1,
+          "context": "ck was involved, the less there is to be learned. At work here is that powerful WYSIATI rule. You cannot help dealing with the limited information you have as if it were all there is to know. You build the b"
+        },
+        {
+          "term": "substitution",
+          "count": 1,
+          "context": "their former beliefs, people retrieve their current ones instead—an instance of substitution—and many cannot believe that they ever felt differently. Your inability to reconstruct past beliefs will inevitably cau"
+        },
+        {
+          "term": "flow",
+          "count": 1,
+          "context": "tor to protect against the risk that debris might get caught and block the free flow of water. One group was shown only the evidence available at the time of the city’s decision; 24% of these people felt"
+        },
+        {
+          "term": "risk aversion",
+          "count": 1,
+          "context": "y is a mixed blessing. Although hindsight and the outcome bias generally foster risk aversion, they also bring undeserved rewards to irresponsible risk seekers, such as a general or an entrepreneur who took a craz"
+        },
+        {
+          "term": "system 1",
+          "count": 1,
+          "context": "o of prescience and boldness. Recipes for Success The sense-making machinery of System 1 makes us see the world as more tidy, simple, predictable, and coherent than it really is. The illusion that one has und"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0025.txt",
+      "title": "20. The Illusion of Validity",
+      "concepts": [
+        {
+          "term": "behavior",
+          "count": 6,
+          "context": "esentativeness heuristic in particular. Having observed one hour of a soldier’s behavior in an artificial situation, we felt we knew how well he would face the challenges of officer training and of leadership"
+        },
+        {
+          "term": "correlation",
+          "count": 6,
+          "context": ", the ranking of investors and funds will vary erratically and the year-to-year correlation will be zero. Where there is skill, however, the rankings will be more stable. The persistence of individual difference"
+        },
+        {
+          "term": "system 1",
+          "count": 3,
+          "context": "on of Validity xml version='1.0' encoding='utf-8'? 20 The Illusion of Validity System 1 is designed to jump to conclusions from little evidence—and it is not designed to know the size of its jumps. Because o"
+        },
+        {
+          "term": "wysiati",
+          "count": 2,
+          "context": "ittle evidence—and it is not designed to know the size of its jumps. Because of WYSIATI, only the evidence at hand counts. Because of confidence by coherence, the subjective confidence we have in our opinion"
+        },
+        {
+          "term": "cognitive ease",
+          "count": 2,
+          "context": "onfidence is a feeling, which reflects the coherence of the information and the cognitive ease of processing it. It is wise to take admissions of uncertainty seriously, but declarations of high confidence mainly te"
+        },
+        {
+          "term": "response",
+          "count": 2,
+          "context": "perience. The next morning, we reported the findings to the advisers, and their response was equally bland. Their own experience of exercising careful judgment on complex problems was far more compelling to t"
+        },
+        {
+          "term": "system 2",
+          "count": 1,
+          "context": "e we have in our opinions reflects the coherence of the story that System 1 and System 2 have constructed. The amount of evidence and its quality do not count for much, because poor evidence can make a very g"
+        },
+        {
+          "term": "substitution",
+          "count": 1,
+          "context": "Our expectations for the soldiers’ future performance were a clear instance of substitution, and of the representativeness heuristic in particular. Having observed one hour of a soldier’s behavior in an artifici"
+        },
+        {
+          "term": "representativeness heuristic",
+          "count": 1,
+          "context": "soldiers’ future performance were a clear instance of substitution, and of the representativeness heuristic in particular. Having observed one hour of a soldier’s behavior in an artificial situation, we felt we knew how well he"
+        },
+        {
+          "term": "influence",
+          "count": 1,
+          "context": "y certainly believed the statistics they were shown, but the base rates did not influence their judgment of whether an individual they saw on the video would or would not help a stranger. Just as Nisbett and B"
+        },
+        {
+          "term": "self-esteem",
+          "count": 1,
+          "context": "t challenge such basic assumptions—and thereby threaten people’s livelihood and self-esteem—are simply not absorbed. The mind does not digest them. This is particularly true of statistical studies of performance"
+        },
+        {
+          "term": "intuition",
+          "count": 1,
+          "context": "er convincing accounts of the day’s events. And we cannot suppress the powerful intuition that what makes sense in hindsight today was predictable yesterday. The illusion that we understand the past fosters ov"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0026.txt",
+      "title": "21. Intuitions Vs. Formulas",
+      "concepts": [
+        {
+          "term": "influence",
+          "count": 2,
+          "context": "studies of priming that unnoticed stimuli in our environment have a substantial influence on our thoughts and actions. These influences fluctuate from moment to moment. The brief pleasure of a cool breeze on a"
+        },
+        {
+          "term": "intuition",
+          "count": 2,
+          "context": "sed to be ordered, by someone hardly older than themselves, to switch off their intuition and focus entirely on boring factual questions. One of them complained, “You are turning us into robots!” So I compromi"
+        },
+        {
+          "term": "behavior",
+          "count": 1,
+          "context": "cidivism among juvenile offenders, and the likelihood of other forms of violent behavior; and miscellaneous outcomes such as the evaluation of scientific presentations, the winners of football games, and the"
+        },
+        {
+          "term": "correlation",
+          "count": 1,
+          "context": "rmation, including the weather. Ashenfelter’s formula is extremely accurate—the correlation between his predictions and actual prices is above .90. Why are experts inferior to algorithms? One reason, which Meehl"
+        },
+        {
+          "term": "system 1",
+          "count": 1,
+          "context": "e widespread inconsistency is probably due to the extreme context dependency of System 1. We know from studies of priming that unnoticed stimuli in our environment have a substantial influence on our thoughts"
+        },
+        {
+          "term": "priming",
+          "count": 1,
+          "context": "ably due to the extreme context dependency of System 1. We know from studies of priming that unnoticed stimuli in our environment have a substantial influence on our thoughts and actions. These influences fl"
+        },
+        {
+          "term": "crying",
+          "count": 1,
+          "context": "born. A baby with a total score of 8 or above was likely to be pink, squirming, crying, grimacing, with a pulse of 100 or more—in good shape. A baby with a score of 4 or below was probably bluish, flaccid,"
+        },
+        {
+          "term": "response",
+          "count": 1,
+          "context": "oving their ability to identify the wines that later would be good. Not so. The response in French wine circles, wrote The New York Times, ranged “somewhere between violent and hysterical.” Ashenfelter report"
+        },
+        {
+          "term": "halo effect",
+          "count": 1,
+          "context": "imension. By focusing on standardized, factual questions, I hoped to combat the halo effect, where favorable first impressions influence later judgments. As a further precaution against halos, I instructed the i"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0027.txt",
+      "title": "22. Expert Intuition: When Can We Trust It?",
+      "concepts": [
+        {
+          "term": "intuition",
+          "count": 29,
+          "context": "# 22. Expert Intuition: When Can We Trust It? xml version='1.0' encoding='utf-8'? 22 Expert Intuition: When Can We Trust It? Professional con"
+        },
+        {
+          "term": "system 2",
+          "count": 5,
+          "context": "rtise in other domains, including chess. The process involves both System 1 and System 2. In the first phase, a tentative plan comes to mind by an automatic function of associative memory—System 1. The next p"
+        },
+        {
+          "term": "system 1",
+          "count": 4,
+          "context": "escribes expertise in other domains, including chess. The process involves both System 1 and System 2. In the first phase, a tentative plan comes to mind by an automatic function of associative memory—System"
+        },
+        {
+          "term": "boundary",
+          "count": 2,
+          "context": "sionals develop intuitive skills. I invited him to join in an effort to map the boundary that separates the marvels of intuition from its flaws. He was intrigued by the idea and we went ahead with the project"
+        },
+        {
+          "term": "hypothesis",
+          "count": 2,
+          "context": "the commanders could make good decisions without comparing options. The initial hypothesis was that commanders would restrict their analysis to only a pair of options, but that hypothesis proved to be incorrect"
+        },
+        {
+          "term": "self",
+          "count": 2,
+          "context": "is acquired. We still needed to agree on our key question: When can you trust a self-confident professional who claims to have an intuition? We eventually concluded that our disagreement was due in part t"
+        },
+        {
+          "term": "substitution",
+          "count": 2,
+          "context": "oked. System 1 is often able to produce quick answers to difficult questions by substitution, creating coherence where there is none. The question that is answered is not the one that was intended, but the answer"
+        },
+        {
+          "term": "cognitive ease",
+          "count": 1,
+          "context": "e. Earlier I traced people’s confidence in a belief to two related impressions: cognitive ease and coherence. We are confident when the story we tell ourselves comes easily to mind, with no contradiction and no com"
+        },
+        {
+          "term": "wysiati",
+          "count": 1,
+          "context": "tion that are compatible with the currently dominant story. A mind that follows WYSIATI will achieve high confidence much too easily by ignoring what it does not know. It is therefore not surprising that man"
+        },
+        {
+          "term": "smoking",
+          "count": 1,
+          "context": "very accurate. Indeed, the studies by Meehl and his followers never produced a “smoking gun” demonstration, a case in which clinicians completely missed a highly valid cue that the algorithm detected. An ext"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0028.txt",
+      "title": "23. The Outside View",
+      "concepts": [
+        {
+          "term": "planning fallacy",
+          "count": 14,
+          "context": "tial forecasts of about two years for the completion of the project exhibited a planning fallacy. Our estimates were closer to a best-case scenario than to a realistic assessment. I was slower to accept the third les"
+        },
+        {
+          "term": "baseline",
+          "count": 11,
+          "context": "p to scientific standards of evidence, but it provided a reasonable basis for a baseline prediction: the prediction you make about a case if you know nothing except the category to which it belongs. As we saw"
+        },
+        {
+          "term": "wysiati",
+          "count": 1,
+          "context": "ting was a mistake. We were forecasting based on the information in front of us—WYSIATI—but the chapters we wrote first were probably easier than others, and our commitment to the project was probably then a"
+        },
+        {
+          "term": "base-rate neglect",
+          "count": 1,
+          "context": "d that Flyvbjerg applies is similar to the practices recommended for overcoming base-rate neglect: Identify an appropriate reference class (kitchen renovations, large railway projects, etc.). Obtain the statistics of"
+        },
+        {
+          "term": "self",
+          "count": 1,
+          "context": "t they need in anticipation of overruns, although such precautions often become self-fulfilling prophecies. As one official told Flyvbjerg, “A budget reserve is to contractors as red meat is to lions, and"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0029.txt",
+      "title": "24. The Engine of Capitalism",
+      "concepts": [
+        {
+          "term": "self",
+          "count": 5,
+          "context": "med their faith in their judgment and in their ability to control events. Their self-confidence is reinforced by the admiration of others. This reasoning leads to a hypothesis: the people who have the gre"
+        },
+        {
+          "term": "wysiati",
+          "count": 5,
+          "context": "he story. Cognitive biases play an important role, notably the System 1 feature WYSIATI. We focus on our goal, anchor on our plan, and neglect relevant base rates, exposing ourselves to the planning fallacy."
+        },
+        {
+          "term": "system 1",
+          "count": 3,
+          "context": "is only part of the story. Cognitive biases play an important role, notably the System 1 feature WYSIATI. We focus on our goal, anchor on our plan, and neglect relevant base rates, exposing ourselves to the p"
+        },
+        {
+          "term": "planning fallacy",
+          "count": 2,
+          "context": "Capitalism xml version='1.0' encoding='utf-8'? 24 The Engine of Capitalism The planning fallacy is only one of the manifestations of a pervasive optimistic bias. Most of us view the world as more benign than it real"
+        },
+        {
+          "term": "temperament",
+          "count": 2,
+          "context": "almost certainly luckier than they acknowledge. They are probably optimistic by temperament; a survey of founders of small businesses concluded that entrepreneurs are more sanguine than midlevel managers about l"
+        },
+        {
+          "term": "hypothesis",
+          "count": 2,
+          "context": "confidence is reinforced by the admiration of others. This reasoning leads to a hypothesis: the people who have the greatest influence on the lives of others are likely to be optimistic and overconfident, and t"
+        },
+        {
+          "term": "shaping",
+          "count": 1,
+          "context": "losing track of reality. Optimistic individuals play a disproportionate role in shaping our lives. Their decisions make a difference; they are the inventors, the entrepreneurs, the political and military lea"
+        },
+        {
+          "term": "influence",
+          "count": 1,
+          "context": "others. This reasoning leads to a hypothesis: the people who have the greatest influence on the lives of others are likely to be optimistic and overconfident, and to take more risks than they realize. The evi"
+        },
+        {
+          "term": "substitution",
+          "count": 1,
+          "context": "good organization to market it? The familiar System 1 processes of WYSIATI and substitution produce both competition neglect and the above-average effect. The consequence of competition neglect is excess entry:"
+        },
+        {
+          "term": "correlation",
+          "count": 1,
+          "context": "e corporations had no clue about the short-term future of the stock market; the correlation between their estimates and the true value was slightly less than zero! When they said the market would go down, it was"
+        },
+        {
+          "term": "groupthink",
+          "count": 1,
+          "context": "rnational corporation.) The premortem has two main advantages: it overcomes the groupthink that affects many teams once a decision appears to have been made, and it unleashes the imagination of knowledgeable in"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0030.txt",
+      "title": "25. Bernoulli’s Errors",
+      "concepts": [
+        {
+          "term": "prospect theory",
+          "count": 3,
+          "context": "er we began our study of gambles, we finally completed an essay that we titled “Prospect Theory: An Analysis of Decision under Risk.” Our theory was closely modeled on utility theory but departed from it in fundamen"
+        },
+        {
+          "term": "stimulus",
+          "count": 3,
+          "context": "dimensions, the function is logarithmic—which simply means that an increase of stimulus intensity by a given factor (say, times 1.5 or times 10) always yields the same increment on the psychological scale. I"
+        },
+        {
+          "term": "response",
+          "count": 2,
+          "context": "% raise.” The idea is that a 30% raise may evoke a fairly similar psychological response for the rich and for the poor, which an increase of $100 will not do. As in Fechner’s law, the psychological response t"
+        },
+        {
+          "term": "risk aversion",
+          "count": 2,
+          "context": "he diminishing marginal value of wealth (in the modern jargon) is what explains risk aversion—the common preference that people generally show for a sure thing over a favorable gamble of equal or slightly higher e"
+        },
+        {
+          "term": "self",
+          "count": 1,
+          "context": "e profound difference between our intellectual worlds. To a psychologist, it is self-evident that people are neither fully rational nor completely selfish, and that their tastes are anything but stable. O"
+        },
+        {
+          "term": "system 1",
+          "count": 1,
+          "context": "ubbed Econs and Humans. Unlike Econs, the Humans that psychologists know have a System 1. Their view of the world is limited by the information that is available at a given moment (WYSIATI), and therefore the"
+        },
+        {
+          "term": "wysiati",
+          "count": 1,
+          "context": "of the world is limited by the information that is available at a given moment (WYSIATI), and therefore they cannot be as consistent and logical as Econs. They are sometimes generous and often willing to con"
+        },
+        {
+          "term": "influence",
+          "count": 1,
+          "context": "d little impact on economics. However, our decision was not guided by a wish to influence economics; Econometrica just happened to be where the best papers on decision making had been published in the past, an"
+        },
+        {
+          "term": "reference point",
+          "count": 1,
+          "context": "of wealth they face are the same. Because Bernoulli’s model lacks the idea of a reference point, expected utility theory does not represent the obvious fact that the outcome that is good for Anthony is bad for Betty"
+        },
+        {
+          "term": "behavior",
+          "count": 1,
+          "context": "ersion, but it cannot explain Betty’s risk-seeking preference for the gamble, a behavior that is often observed in entrepreneurs and in generals when all their options are bad. All this is rather obvious, isn"
+        },
+        {
+          "term": "system 2",
+          "count": 1,
+          "context": "h.” As the psychologist Daniel Gilbert observed, disbelieving is hard work, and System 2 is easily tired. Speaking of Bernoulli’s Errors “He was very happy with a $20,000 bonus three years ago, but his salary"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0031.txt",
+      "title": "26. Prospect Theory",
+      "concepts": [
+        {
+          "term": "prospect theory",
+          "count": 26,
+          "context": "# 26. Prospect Theory xml version='1.0' encoding='utf-8'? 26 Prospect Theory Amos and I stumbled on the central flaw in Bernoulli’s theory b"
+        },
+        {
+          "term": "reference point",
+          "count": 13,
+          "context": "hoices. The comparison of the problems highlights the all-important role of the reference point from which the options are evaluated. The reference point is higher than current wealth by $1,000 in problem 3, by $2,0"
+        },
+        {
+          "term": "loss aversion",
+          "count": 13,
+          "context": "much smaller than the difference between $100 and $200. The third principle is loss aversion. When directly compared or weighted against each other, losses loom larger than gains. This asymmetry between the power"
+        },
+        {
+          "term": "risk aversion",
+          "count": 4,
+          "context": "e casual suggestion, “How about losses?” and we quickly found that our familiar risk aversion was replaced by risk seeking when we switched our focus. Consider these two problems: Problem 1: Which do you choose? G"
+        },
+        {
+          "term": "response",
+          "count": 3,
+          "context": "etrical. The slope of the function changes abruptly at the reference point: the response to losses is stronger than the response to corresponding gains. This is loss aversion. Loss Aversion Many of the option"
+        },
+        {
+          "term": "system 1",
+          "count": 2,
+          "context": "ion, judgment, and emotion. They should be seen as operating characteristics of System 1. Evaluation is relative to a neutral reference point, which is sometimes referred to as an “adaptation level.” You can"
+        },
+        {
+          "term": "value function",
+          "count": 2,
+          "context": "ce as large as the possible gain, as you can see by comparing the slopes of the value function for losses and gains. In the bad case, the bending of the value curve (diminishing sensitivity) causes risk seeking. Th"
+        },
+        {
+          "term": "system 2",
+          "count": 1,
+          "context": "u probably dislike it—most people do. The rejection of this gamble is an act of System 2, but the critical inputs are emotional responses that are generated by System 1. For most people, the fear of losing $1"
+        },
+        {
+          "term": "hypothesis",
+          "count": 1,
+          "context": "say that “it is time for economists to recognize that expected utility is an ex-hypothesis.” Many economists saw this flippant statement as little short of blasphemy. However, the theory-induced blindness of ac"
+        },
+        {
+          "term": "influence",
+          "count": 1,
+          "context": "of regret and disappointment. It is fair to say that these models have had less influence than prospect theory, and the reason is instructive. The emotions of regret and disappointment are real, and decision m"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0032.txt",
+      "title": "27. The Endowment Effect",
+      "concepts": [
+        {
+          "term": "endowment effect",
+          "count": 22,
+          "context": "# 27. The Endowment Effect xml version='1.0' encoding='utf-8'? 27 The Endowment Effect You have probably seen figure 11 or a close cousin of it e"
+        },
+        {
+          "term": "reference point",
+          "count": 17,
+          "context": "salary and a number of vacation days, which is a point on the map. This is your reference point, your status quo, but the figure does not show it. By failing to display it, the theorists who draw this figure invite"
+        },
+        {
+          "term": "loss aversion",
+          "count": 13,
+          "context": "on mutual demands for concessions relative to that reference point. The role of loss aversion in bargaining is also well understood: making concessions hurts. You have much personal experience of the role of refer"
+        },
+        {
+          "term": "prospect theory",
+          "count": 7,
+          "context": "h twins and they will need little or no incentive to switch. In sharp contrast, prospect theory asserts that both twins will definitely prefer to remain as they are. This preference for the status quo is a consequen"
+        },
+        {
+          "term": "behavior",
+          "count": 3,
+          "context": "n ironic bent, and as a student he amused himself by collecting observations of behavior that the model of rational economic behavior could not explain. He took special pleasure in evidence of economic irrati"
+        },
+        {
+          "term": "value function",
+          "count": 3,
+          "context": "with considerable excitement, because he quickly realized that the loss-averse value function of prospect theory could explain the endowment effect and some other puzzles in his collection. The solution was to aba"
+        },
+        {
+          "term": "response",
+          "count": 3,
+          "context": "vious chapter. The slope of the function is steeper in the negative domain; the response to a loss is stronger than the response to a corresponding gain. This was the explanation of the endowment effect that"
+        },
+        {
+          "term": "purpose",
+          "count": 1,
+          "context": "sponsor of behavioral economics, gave one of its first grants to Thaler for the purpose of spending a year with me in Vancouver. During that year, we worked closely with a local economist, Jack Knetsch, with"
+        },
+        {
+          "term": "system 1",
+          "count": 1,
+          "context": "when it is taken away. Loss aversion is built into the automatic evaluations of System 1. Buyers and Choosers set similar cash values, although the Buyers have to pay for the mug, which is free for the Choose"
+        },
+        {
+          "term": "replication",
+          "count": 1,
+          "context": "t you can trade for a chocolate bar [or mug] instead, if you wish.” In an exact replication of Jack Knetsch’s earlier experiment, List found that only 18% of the inexperienced traders were willing to exchange th"
+        },
+        {
+          "term": "persuasion",
+          "count": 1,
+          "context": "before the possibility of trading it was mentioned. Economists of the standard persuasion might be tempted to say that Knetsch had spent too much time with psychologists, because his experimental manipulation"
+        },
+        {
+          "term": "manipulation",
+          "count": 1,
+          "context": "at Knetsch had spent too much time with psychologists, because his experimental manipulation showed concern for the variables that social psychologists expect to be important. Indeed, the different methodological"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0033.txt",
+      "title": "28. Bad Events",
+      "concepts": [
+        {
+          "term": "loss aversion",
+          "count": 12,
+          "context": "8. Bad Events xml version='1.0' encoding='utf-8'? 28 Bad Events The concept of loss aversion is certainly the most significant contribution of psychology to behavioral economics. This is odd, because the idea tha"
+        },
+        {
+          "term": "reference point",
+          "count": 9,
+          "context": "t) as good. In many situations, however, the boundary between good and bad is a reference point that changes over time and depends on the immediate circumstances. Imagine that you are out in the country on a cold ni"
+        },
+        {
+          "term": "behavior",
+          "count": 5,
+          "context": "gy of data collection. We studied public perceptions of what constitutes unfair behavior on the part of merchants, employers, and landlords. Our overarching question was whether the opprobrium attached to unf"
+        },
+        {
+          "term": "self",
+          "count": 3,
+          "context": "than good ones, and bad information is processed more thoroughly than good. The self is more motivated to avoid bad self-definitions than to pursue good ones. Bad impressions and bad stereotypes are quick"
+        },
+        {
+          "term": "amygdala",
+          "count": 2,
+          "context": "t he had seen pictures of eyes, but one part of their brain evidently knew: the amygdala, which has a primary role as the “threat center” of the brain, although it is also activated in other emotional states."
+        },
+        {
+          "term": "system 1",
+          "count": 2,
+          "context": "e animal’s odds of living long enough to reproduce. The automatic operations of System 1 reflect this evolutionary history. No comparably rapid mechanism for recognizing good news has been detected. Of course"
+        },
+        {
+          "term": "influence",
+          "count": 2,
+          "context": "le achieving an overall improvement. If the affected parties have any political influence, however, potential losers will be more active and determined than potential winners; the outcome will be biased in the"
+        },
+        {
+          "term": "smile",
+          "count": 1,
+          "context": "f a terrified person. The eyes on the right, narrowed by the raised cheeks of a smile, express happiness—and they are not nearly as exciting. The two pictures were presented to people lying in a brain scan"
+        },
+        {
+          "term": "response",
+          "count": 1,
+          "context": "also activated in other emotional states. Images of the brain showed an intense response of the amygdala to a threatening picture that the viewer did not recognize. The information about the threat probably t"
+        },
+        {
+          "term": "boundary",
+          "count": 1,
+          "context": "n as bad and to sweet (up to a point) as good. In many situations, however, the boundary between good and bad is a reference point that changes over time and depends on the immediate circumstances. Imagine th"
+        },
+        {
+          "term": "baseline",
+          "count": 1,
+          "context": "course has a number of strokes associated with it; the par number provides the baseline for good—but not outstanding—performance. For a professional golfer, a birdie (one stroke under par) is a gain, and a b"
+        },
+        {
+          "term": "prospect theory",
+          "count": 1,
+          "context": "ounts in golf, and in professional golf every stroke counts a lot. According to prospect theory, however, some strokes count more than others. Failing to make par is a loss, but missing a birdie putt is a foregone g"
+        },
+        {
+          "term": "hypothesis",
+          "count": 1,
+          "context": "ses no one except perhaps some economists, generated a precise and nonintuitive hypothesis and led researchers to a finding that surprised everyone—including professional golfers. Defending the Status Quo If yo"
+        },
+        {
+          "term": "reciprocity",
+          "count": 1,
+          "context": "to give it away in an exchange. Because negotiators are influenced by a norm of reciprocity, a concession that is presented as painful calls for an equally painful (and perhaps equally inauthentic) concession fr"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0034.txt",
+      "title": "29. The Fourfold Pattern",
+      "concepts": [
+        {
+          "term": "fourfold pattern",
+          "count": 12,
+          "context": "# 29. The Fourfold Pattern xml version='1.0' encoding='utf-8'? 29 The Fourfold Pattern Whenever you form a global evaluation of a complex object—"
+        },
+        {
+          "term": "certainty effect",
+          "count": 11,
+          "context": "ent from 95% to 100% is another qualitative change that has a large impact, the certainty effect. Outcomes that are almost certain are given less weight than their probability justifies. To appreciate the certainty e"
+        },
+        {
+          "term": "possibility effect",
+          "count": 10,
+          "context": "value of the prospect does not double. The large impact of 0 5% illustrates the possibility effect, which causes highly unlikely outcomes to be weighted disproportionately more than they “deserve.” People who buy lotte"
+        },
+        {
+          "term": "prospect theory",
+          "count": 4,
+          "context": "d describe the choices people make, regardless of whether they are rational. In prospect theory, decision weights would not be identical to probabilities. Decision Weights Many years after we published prospect theo"
+        },
+        {
+          "term": "risk aversion",
+          "count": 4,
+          "context": "top right cell initially surprised us. We were accustomed to think in terms of risk aversion except for the bottom left cell, where lotteries are preferred. When we looked at our choices for bad options, we quick"
+        },
+        {
+          "term": "system 1",
+          "count": 2,
+          "context": "The weighting occurs whether or not you are aware of it; it is an operation of System 1. Your overall evaluation of a car may put more or less weight on gas economy, comfort, or appearance. Your judgment of"
+        },
+        {
+          "term": "influence",
+          "count": 1,
+          "context": "cteristics. This is simply a cumbersome way of saying that some characteristics influence your assessment more than others do. The weighting occurs whether or not you are aware of it; it is an operation of Sys"
+        },
+        {
+          "term": "response",
+          "count": 1,
+          "context": "rain that respond to changes in the probability of winning a prize. The brain’s response to variations of probabilities is strikingly similar to the decision weights estimated from choices. Probabilities that"
+        },
+        {
+          "term": "value function",
+          "count": 1,
+          "context": "e attractiveness of the gamble when the outcomes are positive. The shape of the value function and the decision weights both contribute to the pattern observed in the top row of table 13. In the bottom row, however"
+        },
+        {
+          "term": "behavior",
+          "count": 1,
+          "context": "t and lose in court. You can feel the pressure that typically leads to cautious behavior in this situation. The plaintiff with a strong case is likely to be risk averse. Now step into the shoes of the defenda"
+        },
+        {
+          "term": "posture",
+          "count": 1,
+          "context": "ntiff and the defendant that lead them to adopt a combative or an accommodating posture. In the long run, however, deviations from expected value are likely to be costly. Consider a large organization, the C"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0035.txt",
+      "title": "30. Rare Events",
+      "concepts": [
+        {
+          "term": "system 1",
+          "count": 6,
+          "context": "edge does not eliminate the self-generated discomfort and the wish to avoid it. System 1 cannot be turned off. The emotion is not only disproportionate to the probability, it is also insensitive to the exact"
+        },
+        {
+          "term": "prospect theory",
+          "count": 6,
+          "context": "ility is inconsequential; only possibility matters. The original formulation of prospect theory included the argument that “highly unlikely events are either ignored or overweighted,” but it did not specify the cond"
+        },
+        {
+          "term": "response",
+          "count": 5,
+          "context": ", availability, and judgments of probability—and thus account for our excessive response to the few rare events that we do not ignore. Overestimation and Overweighting What is your judgment of the probability"
+        },
+        {
+          "term": "possibility effect",
+          "count": 4,
+          "context": "g is also represented vividly, and overweighted. The combination of an enhanced possibility effect with an enhanced certainty effect leaves little room for decision weights to change between chances of 21% and 84%. Viv"
+        },
+        {
+          "term": "system 2",
+          "count": 3,
+          "context": "automatic, and uncontrolled, and it produces an impulse for protective action. System 2 may “know” that the probability is low, but this knowledge does not eliminate the self-generated discomfort and the wis"
+        },
+        {
+          "term": "cognitive ease",
+          "count": 3,
+          "context": "ical mechanisms are involved in both: focused attention, confirmation bias, and cognitive ease. Specific descriptions trigger the associative machinery of System 1. When you thought about the unlikely victory of a"
+        },
+        {
+          "term": "hypothesis",
+          "count": 3,
+          "context": "educes the role of probability in the evaluation of an uncertain prospect. This hypothesis suggests a prediction, in which I have reasonably high confidence: adding irrelevant but vivid details to a monetary ou"
+        },
+        {
+          "term": "certainty effect",
+          "count": 3,
+          "context": "even if you know that its probability is low. Cognitive ease contributes to the certainty effect as well: when you hold a vivid image of an event, the possibility of its not occurring is also represented vividly, and"
+        },
+        {
+          "term": "behavior",
+          "count": 2,
+          "context": "n buses, as I was driving a rented car, but I was chagrined to discover that my behavior was also affected. I found that I did not like to stop next to a bus at a red light, and I drove away more quickly than"
+        },
+        {
+          "term": "salience",
+          "count": 2,
+          "context": "lobal Impressions The evidence suggests the hypothesis that focal attention and salience contribute to both the overestimation of unlikely events and the overweighting of unlikely outcomes. Salience is enhanc"
+        },
+        {
+          "term": "self",
+          "count": 1,
+          "context": "y “know” that the probability is low, but this knowledge does not eliminate the self-generated discomfort and the wish to avoid it. System 1 cannot be turned off. The emotion is not only disproportionate"
+        },
+        {
+          "term": "influence",
+          "count": 1,
+          "context": "is rooted in System 1 features that are familiar by now. Emotion and vividness influence fluency, availability, and judgments of probability—and thus account for our excessive response to the few rare events"
+        },
+        {
+          "term": "confirmation bias",
+          "count": 1,
+          "context": "ena, the same psychological mechanisms are involved in both: focused attention, confirmation bias, and cognitive ease. Specific descriptions trigger the associative machinery of System 1. When you thought about the un"
+        },
+        {
+          "term": "availability heuristic",
+          "count": 1,
+          "context": "ention turned to the abnormal alternative. The unlikely event became focal. The availability heuristic is likely to be evoked: your judgment was probably determined by the number of scenarios of medical problems you produc"
+        },
+        {
+          "term": "planning fallacy",
+          "count": 1,
+          "context": "were also much too willing to bet on them. These findings shed new light on the planning fallacy and other manifestations of optimism. The successful execution of a plan is specific and easy to imagine when one tries"
+        },
+        {
+          "term": "manipulation",
+          "count": 1,
+          "context": "weight for the same probability. The power of format creates opportunities for manipulation, which people with an axe to grind know how to exploit. Slovic and his colleagues cite an article that states that “app"
+        },
+        {
+          "term": "motivation",
+          "count": 1,
+          "context": "eal cancer.” Slovic points out that “these advocates are quite open about their motivation: they want to frighten the general public about violence by people with mental disorder, in the hope that this fear wil"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0036.txt",
+      "title": "31. Risk Policies",
+      "concepts": [
+        {
+          "term": "loss aversion",
+          "count": 10,
+          "context": "oice. Samuelson had not seen Rabin’s proof of the absurd consequences of severe loss aversion for small bets, but he would surely not have been surprised by it. His willingness even to consider the possibility tha"
+        },
+        {
+          "term": "narrow framing",
+          "count": 5,
+          "context": "e unlikely to be optimal. There were two ways of construing decisions i and ii: narrow framing: a sequence of two simple decisions, considered separately broad framing: a single comprehensive decision, with four op"
+        },
+        {
+          "term": "system 1",
+          "count": 2,
+          "context": "emotional evaluation of “sure gain” and “sure loss” is an automatic reaction of System 1, which certainly occurs before the more effortful (and optional) computation of the expected values of the two gambles"
+        },
+        {
+          "term": "response",
+          "count": 2,
+          "context": "ew, you lose a few. The main purpose of the mantra is to control your emotional response when you do lose. If you can trust it to be effective, you should remind yourself of it when deciding whether or not to"
+        },
+        {
+          "term": "prospect theory",
+          "count": 1,
+          "context": "e nothing This pair of choice problems has an important place in the history of prospect theory, and it has new things to tell us about rationality. As you skimmed the two problems, your initial reaction to the sure"
+        },
+        {
+          "term": "wysiati",
+          "count": 1,
+          "context": "ple shows, is not achievable by our limited mind. Because we are susceptible to WYSIATI and averse to mental effort, we tend to make decisions as problems arise, even when we are specifically instructed to c"
+        },
+        {
+          "term": "intuition",
+          "count": 1,
+          "context": "make 100 such bets.” Unless you are a decision theorist, you probably share the intuition of Samuelson’s friend, that playing a very favorable but risky gamble multiple times reduces the subjective risk. Samue"
+        },
+        {
+          "term": "value function",
+          "count": 1,
+          "context": "es to the powerful hold of the rational model. Let us assume that a very simple value function describes the preferences of Samuelson’s friend (call him Sam). To express his aversion to losses Sam first rewrites th"
+        },
+        {
+          "term": "purpose",
+          "count": 1,
+          "context": "icantly closer to economic rationality: you win a few, you lose a few. The main purpose of the mantra is to control your emotional response when you do lose. If you can trust it to be effective, you should r"
+        },
+        {
+          "term": "endowment effect",
+          "count": 1,
+          "context": "rader,” just as experienced baseball card traders are not as susceptible to the endowment effect as novices are. Students made risky decisions (to accept or reject gambles in which they could lose) under different in"
+        },
+        {
+          "term": "planning fallacy",
+          "count": 1,
+          "context": "two distinct biases that affect many decisions: the exaggerated optimism of the planning fallacy and the exaggerated caution induced by loss aversion. The two biases oppose each other. Exaggerated optimism protects i"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0037.txt",
+      "title": "32. Keeping Score",
+      "concepts": [
+        {
+          "term": "self",
+          "count": 5,
+          "context": "project looking for the extra dollar, money is a proxy for points on a scale of self-regard and achievement. These rewards and punishments, promises and threats, are all in our heads. We carefully keep sc"
+        },
+        {
+          "term": "behavior",
+          "count": 5,
+          "context": "article remains one of the best illustrations of how mental accounting affects behavior: Two avid sports fans plan to travel 40 miles to see a basketball game. One of them paid for his ticket; the other was"
+        },
+        {
+          "term": "mental accounting",
+          "count": 4,
+          "context": "ng debt on credit cards. The Econs of the rational-agent model do not resort to mental accounting: they have a comprehensive view of outcomes and are driven by external incentives. For Humans, mental accounts are a fo"
+        },
+        {
+          "term": "default option",
+          "count": 4,
+          "context": "ces, the discrepancy between the two can be the source of painful emotions. The default option when you own a stock is not to sell it, but the default option when you meet your colleague in the morning is to greet"
+        },
+        {
+          "term": "narrow framing",
+          "count": 2,
+          "context": "nd are driven by external incentives. For Humans, mental accounts are a form of narrow framing; they keep things under control and manageable by a finite mind. Mental accounts are used extensively to keep score. Re"
+        },
+        {
+          "term": "system 1",
+          "count": 2,
+          "context": "a blizzard. These are tacit calculations of emotional balance, of the kind that System 1 performs without deliberation. The emotions that people attach to the state of their mental accounts are not acknowledg"
+        },
+        {
+          "term": "system 2",
+          "count": 2,
+          "context": "it from a friend (if Econs have friends). To implement this rational behavior, System 2 would have to be aware of the counterfactual possibility: “Would I still drive into this snowstorm if I had gotten the"
+        },
+        {
+          "term": "fourfold pattern",
+          "count": 1,
+          "context": "the account of a costly failure. This situation is in the top-right cell of the fourfold pattern, where the choice is between a sure loss and an unfavorable gamble, which is often unwisely preferred. The escalation o"
+        },
+        {
+          "term": "simulation",
+          "count": 1,
+          "context": "g demonstration of the power of default options, participants played a computer simulation of blackjack. Some players were asked “Do you wish to hit?” while others were asked “Do you wish to stand?” Regardless"
+        },
+        {
+          "term": "response",
+          "count": 1,
+          "context": "han saying no if the outcome was bad! The question evidently suggests a default response, which is, “I don’t have a strong wish to do it.” It is the departure from the default that produces regret. Another si"
+        },
+        {
+          "term": "endowment effect",
+          "count": 1,
+          "context": "d about twice as much as gains in several contexts: choice between gambles, the endowment effect, and reactions to price changes. The loss-aversion coefficient is much higher in some situations. In particular, you ma"
+        },
+        {
+          "term": "loss aversion",
+          "count": 1,
+          "context": "ong version of the precautionary principle is obviously untenable. But enhanced loss aversion is embedded in a strong and widely shared moral intuition; it originates in System 1. The dilemma between intensely los"
+        },
+        {
+          "term": "intuition",
+          "count": 1,
+          "context": "ble. But enhanced loss aversion is embedded in a strong and widely shared moral intuition; it originates in System 1. The dilemma between intensely loss-averse moral attitudes and efficient risk management doe"
+        },
+        {
+          "term": "hindsight bias",
+          "count": 1,
+          "context": ", you are likely to experience less of it. You should also know that regret and hindsight bias will come together, so anything you can do to preclude hindsight is likely to be helpful. My personal hindsight-avoidin"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0038.txt",
+      "title": "33. Reversals",
+      "concepts": [
+        {
+          "term": "system 1",
+          "count": 6,
+          "context": "only he had shopped at his regular store…” comes readily to mind. The familiar System 1 mechanisms of substitution and intensity matching translate the strength of the emotional reaction to the story onto a"
+        },
+        {
+          "term": "system 2",
+          "count": 3,
+          "context": "in other situations that require an explicit comparison, thinking was slow and System 2 was involved. The psychologists Dale Miller and Cathy McFarland, who originally designed the two scenarios, presented t"
+        },
+        {
+          "term": "hypothesis",
+          "count": 3,
+          "context": "due to the experiment being carried out by psychologists! Eventually, only one hypothesis was left standing: the psychologists were right. Grether and Plott acknowledged that this hypothesis is the least satis"
+        },
+        {
+          "term": "substitution",
+          "count": 2,
+          "context": "his regular store…” comes readily to mind. The familiar System 1 mechanisms of substitution and intensity matching translate the strength of the emotional reaction to the story onto a monetary scale, creating a"
+        },
+        {
+          "term": "manipulation",
+          "count": 2,
+          "context": "ou see has a vested interest in what you choose. Salespeople quickly learn that manipulation of the context in which customers see a good can profoundly influence preferences. Except for such cases of deliberate"
+        },
+        {
+          "term": "wysiati",
+          "count": 1,
+          "context": "contrasting alternatives that might change your mind are absent, and of course WYSIATI. As a consequence, the beliefs that you endorse when you reflect about morality do not necessarily govern your emotiona"
+        },
+        {
+          "term": "narrow framing",
+          "count": 1,
+          "context": "human did not come to mind because all public-health issues involve humans. The narrow framing of single evaluation allowed dolphins to have a higher intensity score, leading to a high rate of contributions by inte"
+        },
+        {
+          "term": "anchoring effect",
+          "count": 1,
+          "context": "idered together, however, sympathy for the individual victim prevailed over the anchoring effect and the jurors increased the award to the child to surpass the award to the bank. Averaging over several such pairs of"
+        },
+        {
+          "term": "influence",
+          "count": 1,
+          "context": "n that manipulation of the context in which customers see a good can profoundly influence preferences. Except for such cases of deliberate manipulation, there is a presumption that the comparative judgment, wh"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0039.txt",
+      "title": "34. Frames and Reality",
+      "concepts": [
+        {
+          "term": "system 1",
+          "count": 10,
+          "context": "by the French star Zidane. In terms of the associations they bring to mind—how System 1 reacts to them—the two sentences really “mean” different things. The fact that logically equivalent statements evoke di"
+        },
+        {
+          "term": "system 2",
+          "count": 5,
+          "context": "unt into its KEEP equivalent. It would take an intelligent person (and an alert System 2) to learn to do this, and the few participants who managed the feat were probably among the “rational” agents that the"
+        },
+        {
+          "term": "framing effect",
+          "count": 4,
+          "context": "he KEEP and the LOSE frames. As expected, every one of the 20 subjects showed a framing effect: they were more likely to choose the sure thing in the KEEP frame and more likely to accept the gamble in the LOSE fram"
+        },
+        {
+          "term": "response",
+          "count": 2,
+          "context": "ifferent areas of the brain. In order to provide reliable measures of the brain response, the experiment consisted of many trials. Figure 14 illustrates the two stages of one of these trials. First, the subje"
+        },
+        {
+          "term": "amygdala",
+          "count": 2,
+          "context": "main findings: A region that is commonly associated with emotional arousal (the amygdala) was most likely to be active when subjects’ choices conformed to the frame. This is just as we would expect if the emo"
+        },
+        {
+          "term": "reference point",
+          "count": 2,
+          "context": "nces between the rich and the poor, but these intuitions depend on an arbitrary reference point, and they are not about the real problem. This problem—the question about actual states of the world—is how much tax in"
+        },
+        {
+          "term": "purpose",
+          "count": 1,
+          "context": "same meaning? The answer depends entirely on what you mean by meaning. For the purpose of logical reasoning, the two descriptions of the outcome of the match are interchangeable because they designate the s"
+        },
+        {
+          "term": "behavior",
+          "count": 1,
+          "context": "his board a card that said costs are not losses. In his early essay on consumer behavior, Thaler described the debate about whether gas stations would be allowed to charge different prices for purchases paid"
+        },
+        {
+          "term": "flow",
+          "count": 1,
+          "context": "ed to expect particular regions of the brain to “light up”—indicating increased flow of oxygen, which suggests heightened neural activity—depending on the nature of the task. Different regions are active"
+        },
+        {
+          "term": "self",
+          "count": 1,
+          "context": "nvolvement in System 1. A brain region known to be associated with conflict and self-control (the anterior cingulate) was more active when subjects did not do what comes naturally—when they chose the sure"
+        },
+        {
+          "term": "prospect theory",
+          "count": 1,
+          "context": "jority of people choose the gamble. The different choices in the two frames fit prospect theory, in which choices between gambles and sure things are resolved differently, depending on whether the outcomes are good"
+        },
+        {
+          "term": "manipulation",
+          "count": 1,
+          "context": "ake decisions that affect everyone’s health can be swayed by such a superficial manipulation—but we must get used to the idea that even important decisions are influenced, if not governed, by System 1. Even more"
+        },
+        {
+          "term": "silence",
+          "count": 1,
+          "context": "hoices were inconsistent, how do you decide?” The answer is usually embarrassed silence. The intuitions that determined the original choice came from System 1 and had no more moral basis than did the prefere"
+        },
+        {
+          "term": "mental accounting",
+          "count": 1,
+          "context": "as lost money. The explanation should already be familiar—this problem involves mental accounting and the sunk-cost fallacy. The different frames evoke different mental accounts, and the significance of the loss depen"
+        },
+        {
+          "term": "intuition",
+          "count": 1,
+          "context": "Who will save more gas by switching? You almost certainly share the widespread intuition that Beth’s action is more significant than Adam’s: she reduced mpg by 10 miles rather than 2, and by a third (from 30"
+        },
+        {
+          "term": "nudge",
+          "count": 1,
+          "context": "of Information and Regulatory Affairs. With Richard Thaler, Sunstein coauthored Nudge, which is the basic manual for applying behavioral economics to policy. It was no accident that the “fuel economy and e"
+        },
+        {
+          "term": "default option",
+          "count": 1,
+          "context": "tor of whether or not people will donate their organs is the designation of the default option that will be adopted without having to check a box. Unlike other framing effects that have been traced to features of S"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0040.txt",
+      "title": "35. Two Selves",
+      "concepts": [
+        {
+          "term": "self",
+          "count": 17,
+          "context": "selves (which do not correspond to the two familiar systems). The experiencing self is the one that answers the question: “Does it hurt now?” The remembering self is the one that answers the question: “H"
+        },
+        {
+          "term": "duration neglect",
+          "count": 5,
+          "context": "he level of pain reported at the worst moment of the experience and at its end. Duration neglect: The duration of the procedure had no effect whatsoever on the ratings of total pain. You can now apply these rules to"
+        },
+        {
+          "term": "peak-end rule",
+          "count": 3,
+          "context": "two findings, which illustrate a pattern we have observed in other experiments: Peak-end rule: The global retrospective rating was well predicted by the average of the level of pain reported at the worst moment of"
+        },
+        {
+          "term": "system 1",
+          "count": 3,
+          "context": "a bank teller. The similarity is not accidental. The same operating feature of System 1 accounts for all three situations: System 1 represents sets by averages, norms, and prototypes, not by sums. Each cold-"
+        },
+        {
+          "term": "prospect theory",
+          "count": 1,
+          "context": "d decision utility goes back a long way. While Amos and I were still working on prospect theory, I formulated a puzzle, which went like this: imagine an individual who receives one painful injection every day. There"
+        },
+        {
+          "term": "listening",
+          "count": 1,
+          "context": "ustrates the difficulty of distinguishing memories from experiences. He told of listening raptly to a long symphony on a disc that was scratched near the end, producing a shocking sound, and he reported that t"
+        },
+        {
+          "term": "substitution",
+          "count": 1,
+          "context": "perience with the memory of it is a compelling cognitive illusion—and it is the substitution that makes us believe a past experience can be ruined. The experiencing self does not have a voice. The remembering sel"
+        },
+        {
+          "term": "flow",
+          "count": 1,
+          "context": "the 60 seconds. Instead he opened a valve that allowed slightly warmer water to flow into the tub. During the additional 30 seconds, the temperature of the water rose by roughly 1°, just enough for most s"
+        },
+        {
+          "term": "stimulus",
+          "count": 1,
+          "context": "as little or no effect on fear—all that matters is the painful intensity of the stimulus. Other classic studies showed that electrical stimulation of specific areas in the rat brain (and of corresponding area"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0041.txt",
+      "title": "36. Life as a Story",
+      "concepts": [
+        {
+          "term": "self",
+          "count": 14,
+          "context": "mily and the marriage prospects of the young man’s sister. In an act of supreme self-sacrifice, Violetta pretends to reject the man she adores. She soon relapses into consumption (the nineteenth-century t"
+        },
+        {
+          "term": "duration neglect",
+          "count": 5,
+          "context": "tory is about significant events and memorable moments, not about time passing. Duration neglect is normal in a story, and the ending often defines its character. The same core features appear in the rules of narrati"
+        },
+        {
+          "term": "intuition",
+          "count": 2,
+          "context": "ghtly happy years to a life would make it substantially worse. I was wrong. The intuition that the disappointing extra 5 years made the whole life worse was overwhelming. The pattern of judgments seemed so abs"
+        },
+        {
+          "term": "peak-end rule",
+          "count": 1,
+          "context": "ychologist Ed Diener and his students wondered whether duration neglect and the peak-end rule would govern evaluations of entire lives. They used a short description of the life of a fictitious character called Je"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0042.txt",
+      "title": "37. Experienced Well-Being",
+      "concepts": [
+        {
+          "term": "self",
+          "count": 8,
+          "context": "s a measure of happiness. The question is clearly addressed to your remembering self, which is invited to think about your life: All things considered, how satisfied are you with your life as a whole thes"
+        },
+        {
+          "term": "temperament",
+          "count": 2,
+          "context": "most of the suffering—whether because of physical or mental illness, an unhappy temperament, or the misfortunes and personal tragedies in their life. A U-index can also be computed for activities. For example, w"
+        },
+        {
+          "term": "flow",
+          "count": 1,
+          "context": "to continue is total absorption in a task, which Mihaly Csikszentmihalyi calls flow—a state that some artists experience in their creative moments and that many other people achieve when enthralled by a"
+        },
+        {
+          "term": "influence",
+          "count": 1,
+          "context": "situation. Mood at work, for example, is largely unaffected by the factors that influence general job satisfaction, including benefits and status. More important are situational factors such as an opportunity"
+        },
+        {
+          "term": "baseline",
+          "count": 1,
+          "context": "ution. The corresponding numbers for the poorest tenth are 38% and 70%—a higher baseline level and a much larger increase. Significant differences between the very poor and others are also found for the effec"
+        },
+        {
+          "term": "priming",
+          "count": 1,
+          "context": "he small pleasures of life. There is suggestive evidence in favor of this idea: priming students with the idea of wealth reduces the pleasure their face expresses as they eat a bar of chocolate! There is a c"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0043.txt",
+      "title": "38. Thinking About Life",
+      "concepts": [
+        {
+          "term": "focusing illusion",
+          "count": 14,
+          "context": "ies of a hybrid view, in which the well-being of both selves is considered. The Focusing Illusion We can infer from the speed with which people respond to questions about their life, and from the effects of current mo"
+        },
+        {
+          "term": "self",
+          "count": 5,
+          "context": "iologically set to be signals that attract attention, and depression involves a self-reinforcing cycle of miserable thoughts. There is therefore no adaptation to these conditions. Paraplegia, however, is"
+        },
+        {
+          "term": "wysiati",
+          "count": 3,
+          "context": "ife. They must be using heuristics, which are examples of both substitution and WYSIATI. Although their view of their life was influenced by a question about dating or by a coin on the copying machine, the p"
+        },
+        {
+          "term": "system 1",
+          "count": 2,
+          "context": "atically make their task easier by substituting the answer to another question. System 1 is at work. When we look at figure 16 in this light, it takes on a different meaning. The answers to many simple questi"
+        },
+        {
+          "term": "influence",
+          "count": 2,
+          "context": "py thoughts about their marriage during much of their day, it will not directly influence their happiness. Even newlyweds who are lucky enough to enjoy a state of happy preoccupation with their love will event"
+        },
+        {
+          "term": "substitution",
+          "count": 2,
+          "context": "evaluate their life. They must be using heuristics, which are examples of both substitution and WYSIATI. Although their view of their life was influenced by a question about dating or by a coin on the copying ma"
+        },
+        {
+          "term": "duration neglect",
+          "count": 2,
+          "context": "n caused you to ignore the fact that you rarely think about your car, a form of duration neglect. The upshot is a focusing illusion. If you like your car, you are likely to exaggerate the pleasure you derive from it,"
+        },
+        {
+          "term": "laughter",
+          "count": 1,
+          "context": "d by people around the time they got married. The graph reliably evokes nervous laughter from audiences, and the nervousness is easy to understand: after all, people who decide to get married do so either bec"
+        },
+        {
+          "term": "response",
+          "count": 1,
+          "context": "they evaluated their life. Others, probably the majority, do not quickly find a response to the exact question they were asked, and automatically make their task easier by substituting the answer to another q"
+        },
+        {
+          "term": "salience",
+          "count": 1,
+          "context": "think of their recent or forthcoming marriage when asked about their life. The salience of this thought is bound to diminish with the passage of time, as its novelty wanes. The figure shows an unusually high"
+        },
+        {
+          "term": "temperament",
+          "count": 1,
+          "context": "enced happiness and life satisfaction are largely determined by the genetics of temperament. A disposition for well-being is as heritable as height or intelligence, as demonstrated by studies of twins separated"
+        },
+        {
+          "term": "purpose",
+          "count": 1,
+          "context": "-scale study of the impact of higher education, which was conducted for another purpose, revealed striking evidence of the lifelong effects of the goals that young people set for themselves. The relevant dat"
+        },
+        {
+          "term": "prospect theory",
+          "count": 1,
+          "context": "tuation and in Violetta’s story. We saw a different form of duration neglect in prospect theory, in which a state is represented by the transition to it. Winning a lottery yields a new state of wealth that will endu"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0044.txt",
+      "title": "Conclusions",
+      "concepts": [
+        {
+          "term": "system 1",
+          "count": 19,
+          "context": "g two species, and ended with two selves. The two characters were the intuitive System 1, which does the fast thinking, and the effortful and slower System 2, which does the slow thinking, monitors System 1,"
+        },
+        {
+          "term": "system 2",
+          "count": 15,
+          "context": "intuitive System 1, which does the fast thinking, and the effortful and slower System 2, which does the slow thinking, monitors System 1, and maintains control as best it can within its limited resources. Th"
+        },
+        {
+          "term": "self",
+          "count": 15,
+          "context": "and the Humans, who act in the real world. The two selves are the experiencing self, which does the living, and the remembering self, which keeps score and makes the choices. In this final chapter I cons"
+        },
+        {
+          "term": "nudge",
+          "count": 7,
+          "context": "conomist Richard Thaler and the jurist Cass Sunstein teamed up to write a book, Nudge, which quickly became an international bestseller and the bible of behavioral economics. Their book introduced several"
+        },
+        {
+          "term": "duration neglect",
+          "count": 4,
+          "context": "tially thought. In an early experiment, the cold-hand study, the combination of duration neglect and the peak-end rule led to choices that were manifestly absurd. Why would people willingly expose themselves to unnec"
+        },
+        {
+          "term": "peak-end rule",
+          "count": 4,
+          "context": "ly experiment, the cold-hand study, the combination of duration neglect and the peak-end rule led to choices that were manifestly absurd. Why would people willingly expose themselves to unnecessary pain? Our subje"
+        },
+        {
+          "term": "response",
+          "count": 4,
+          "context": "ion swiftly and efficiently. When a challenge is encountered to which a skilled response is available, that response is evoked. What happens in the absence of skill? Sometimes, as in the problem 17 × 24 = ?,"
+        },
+        {
+          "term": "libertarian paternalism",
+          "count": 3,
+          "context": "ns without curtailing their freedom. Thaler and Sunstein advocate a position of libertarian paternalism, in which the state and other institutions are allowed to nudge people to make decisions that serve their own long-term"
+        },
+        {
+          "term": "wysiati",
+          "count": 2,
+          "context": "ng evidence that Humans cannot be. An Econ would not be susceptible to priming, WYSIATI, narrow framing, the inside view, or preference reversals, which Humans cannot consistently avoid. The definition of ra"
+        },
+        {
+          "term": "narrow framing",
+          "count": 2,
+          "context": "ce that Humans cannot be. An Econ would not be susceptible to priming, WYSIATI, narrow framing, the inside view, or preference reversals, which Humans cannot consistently avoid. The definition of rationality as coh"
+        },
+        {
+          "term": "default option",
+          "count": 2,
+          "context": "their own long-term interests. The designation of joining a pension plan as the default option is an example of a nudge. It is difficult to argue that anyone’s freedom is diminished by being automatically enrolled"
+        },
+        {
+          "term": "listening",
+          "count": 1,
+          "context": "nt practicing the violin may enhance the experience of many hours of playing or listening to music years later. Similarly, a brief awful event that causes PTSD should be weighted by the total duration of the l"
+        },
+        {
+          "term": "priming",
+          "count": 1,
+          "context": "verwhelming evidence that Humans cannot be. An Econ would not be susceptible to priming, WYSIATI, narrow framing, the inside view, or preference reversals, which Humans cannot consistently avoid. The definit"
+        },
+        {
+          "term": "choice architecture",
+          "count": 1,
+          "context": "w earlier, the framing of the individual’s decision—Thaler and Sunstein call it choice architecture—has a huge effect on the outcome. The nudge is based on sound psychology, which I described earlier. The default option"
+        },
+        {
+          "term": "cognitive ease",
+          "count": 1,
+          "context": "proximately correct. And sometimes they are quite wrong. System 1 registers the cognitive ease with which it processes information, but it does not generate a warning signal when it becomes unreliable. Intuitive an"
+        },
+        {
+          "term": "planning fallacy",
+          "count": 1,
+          "context": "itive thinking is just as prone to overconfidence, extreme predictions, and the planning fallacy as it was before I made a study of these issues. I have improved only in my ability to recognize situations in which er"
+        },
+        {
+          "term": "intuition",
+          "count": 1,
+          "context": "ice of reason may be much fainter than the loud and clear voice of an erroneous intuition, and questioning your intuitions is unpleasant when you face the stress of a big decision. More doubt is the last thing"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0045.txt",
+      "title": "Appendix A: Judgment Under Uncertainty",
+      "concepts": [
+        {
+          "term": "representativeness",
+          "count": 11,
+          "context": "d the applied and theoretical implications of these observations are discussed. Representativeness Many of the probabilistic questions with which people are concerned belong to one of the following types: What is the p"
+        },
+        {
+          "term": "correlation",
+          "count": 7,
+          "context": "n redundant input variables. However, an elementary result in the statistics of correlation asserts that, given input variables of stated validity, a prediction based on several such inputs can achieve higher ac"
+        },
+        {
+          "term": "representativeness heuristic",
+          "count": 3,
+          "context": "ill generate event A? In answering such questions, people typically rely on the representativeness heuristic, in which probabilities are evaluated by the degree to which A is representative of B, that is, by the degree to which"
+        },
+        {
+          "term": "hypothesis",
+          "count": 3,
+          "context": "y by representativeness, therefore, prior probabilities will be neglected. This hypothesis was tested in an experiment where prior probabilities were manipulated. Subjects were shown brief personality descripti"
+        },
+        {
+          "term": "anchoring effect",
+          "count": 3,
+          "context": "l this phenomenon anchoring. Insufficient adjustment. In a demonstration of the anchoring effect, subjects were asked to estimate various quantities, stated in percentages (for example, the percentage of African coun"
+        },
+        {
+          "term": "motivation",
+          "count": 1,
+          "context": "30-year-old man. He is married with no children. A man of high ability and high motivation, he promises to be quite successful in his field. He is well liked by his colleagues. This description was intended to"
+        },
+        {
+          "term": "self",
+          "count": 1,
+          "context": "quence than the occurrence of an additional red. Chance is commonly viewed as a self-correcting process in which a deviation in one direction induces a deviation in the opposite direction to restore the e"
+        },
+        {
+          "term": "law of small numbers",
+          "count": 1,
+          "context": "d research psychologists revealed a lingering belief in what may be called the “law of small numbers,” according to which even small samples are highly representative of the populations from which they are drawn. The res"
+        },
+        {
+          "term": "praise",
+          "count": 1,
+          "context": "rvation. In a discussion of flight training, experienced instructors noted that praise for an exceptionally smooth landing is typically followed by a poorer landing on the next try, while harsh criticism af"
+        },
+        {
+          "term": "behavior",
+          "count": 1,
+          "context": "ypically administered when performance is poor. By regression alone, therefore, behavior is most likely to improve after punishment and most likely to deteriorate after reward. Consequently, the human conditi"
+        },
+        {
+          "term": "salience",
+          "count": 1,
+          "context": "the more numerous. In addition to familiarity, there are other factors, such as salience, which affect the retrievability of instances. For example, the impact of seeing a house burning on the subjective prob"
+        },
+        {
+          "term": "availability heuristic",
+          "count": 1,
+          "context": "ents frequently co-occur. As a result, man has at his disposal a procedure (the availability heuristic) for estimating the numerosity of a class, the likelihood of an event, or the frequency of co-occurrences, by the ease"
+        },
+        {
+          "term": "anchoring bias",
+          "count": 1,
+          "context": "ate the probabilities of failure in complex systems. Thus, the direction of the anchoring bias can sometimes be inferred from the structure of the event. The chain-like structure of conjunctions leads to overestima"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0046.txt",
+      "title": "Appendix B: Choices, Values, and Frames",
+      "concepts": [
+        {
+          "term": "behavior",
+          "count": 11,
+          "context": "ople organize the outcomes of transactions, explains some anomalies of consumer behavior. In particular, the acceptability of an option can depend on whether a negative outcome is evaluated as a cost or as an"
+        },
+        {
+          "term": "risk aversion",
+          "count": 10,
+          "context": "nts of choice in risky and riskless contexts. The psychophysics of value induce risk aversion in the domain of gains and risk seeking in the domain of losses. The psychophysics of chance induce overweighting of su"
+        },
+        {
+          "term": "mental accounting",
+          "count": 6,
+          "context": "rences, contrary to the invariance criterion of rational choice. The process of mental accounting, in which people organize the outcomes of transactions, explains some anomalies of consumer behavior. In particular, th"
+        },
+        {
+          "term": "loss aversion",
+          "count": 6,
+          "context": "nsiderably steeper for losses than for gains. The last property, which we label loss aversion, expresses the intuition that a loss of $X is more aversive than a gain of $X is attractive. Loss aversion explains peo"
+        },
+        {
+          "term": "value function",
+          "count": 4,
+          "context": "together, we obtain an S-shaped function of the type displayed in Figure 1. The value function shown in Figure 1 is (a) defined on gains and losses rather than on total wealth, (b) concave in the domain of gains an"
+        },
+        {
+          "term": "influence",
+          "count": 4,
+          "context": "rms of survival. A physician, and perhaps a presidential advisor as well, could influence the decision made by the patient or by the President, without distorting or suppressing information, merely by the fram"
+        },
+        {
+          "term": "reference point",
+          "count": 3,
+          "context": "o programs would you favor? The formulation of Problem 1 implicitly adopts as a reference point a state of affairs in which the disease is allowed to take its toll of 600 lives. The outcomes of the programs include"
+        },
+        {
+          "term": "endowment effect",
+          "count": 3,
+          "context": "be biased in favor of retaining the status quo. Thaler (1980) coined the term “endowment effect” to describe the reluctance of people to part from assets that belong to their endowment. When it is more painful to gi"
+        },
+        {
+          "term": "prospect theory",
+          "count": 2,
+          "context": "s assumption plays a central role in a treatment of risky choice that we called prospect theory (Kahneman and Tversky 1979). Introspection as well as psychophysical measurements suggest that subjective value is a co"
+        },
+        {
+          "term": "intuition",
+          "count": 2,
+          "context": "than for gains. The last property, which we label loss aversion, expresses the intuition that a loss of $X is more aversive than a gain of $X is attractive. Loss aversion explains people’s reluctance to bet o"
+        },
+        {
+          "term": "substitution",
+          "count": 2,
+          "context": "(if A is preferred to B and B is preferred to C, then A is preferred to C), and substitution (if A is preferred to B, then an even chance to get A or C is preferred to an even chance to get B or C), along with ot"
+        },
+        {
+          "term": "hypothesis",
+          "count": 2,
+          "context": "y has a bigger impact than a comparable change in the middle of the scale. This hypothesis is incorporated into the curve displayed in Figure 2, which plots the weight attached to an event as a function of its"
+        },
+        {
+          "term": "response",
+          "count": 2,
+          "context": "and Insurance 46: 603–18. Slovic, P., B. Fischhoff, and S. Lichtenstein. 1982. “Response Mode, Framing, and InformationProcessing Effects in Risk Assessment.” In New Directions for Methodology of Social and B"
+        },
+        {
+          "term": "generalization",
+          "count": 1,
+          "context": "est that subjective value is a concave function of the size of a gain. The same generalization applies to losses as well. The difference in subjective value between a loss of $200 and a loss of $100 appears greater"
+        },
+        {
+          "term": "boundary",
+          "count": 1,
+          "context": "ller than an increase from 95% to 100%. These considerations suggest a category-boundary effect: A change from impossibility to possibility or from possibility to certainty has a bigger impact than a comparab"
+        },
+        {
+          "term": "certainty effect",
+          "count": 1,
+          "context": "s more attractive in the sequential version. We call this phenomenon the pseudo-certainty effect because an event that is actually uncertain is weighted as if it were certain. A closely related phenomenon can be demo"
+        },
+        {
+          "term": "self",
+          "count": 1,
+          "context": "ay twice for the same ticket than to lose $10 in cash. Regret, frustration, and self-satisfaction can also be affected by framing (Kahneman and Tversky 1982). If such secondary consequences are considered"
+        },
+        {
+          "term": "manipulation",
+          "count": 1,
+          "context": "lent lottery in Problem 11. The effectiveness of this seemingly inconsequential manipulation illustrates both the cost-loss discrepancy and the power of framing. Thinking of the $5 as a payment makes the venture"
+        },
+        {
+          "term": "simulation",
+          "count": 1,
+          "context": ": An Analysis of Decision under Risk.” Econometrica 47: 263–91. ———. 1982. “The Simulation Heuristic.” In Judgment Under Uncertainty: Heuristics and Biases, ed. D. Kahneman, P. Slovic, and A. Tversky. New York:"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0047.txt",
+      "title": "Acknowledgments",
+      "concepts": []
+    },
+    {
+      "file": "chapter_0048.txt",
+      "title": "Notes",
+      "concepts": [
+        {
+          "term": "behavior",
+          "count": 25,
+          "context": "logy. “The situation…recognition”: Herbert A. Simon, “What Is an Explanation of Behavior?” Psychological Science 3 (1992): 150–61. affect heuristic: The concept of the affect heuristic was developed by Paul S"
+        },
+        {
+          "term": "loss aversion",
+          "count": 21,
+          "context": "hosen by the committee. My illustration was a stylized rendition of figure 10. “loss aversion ratio”: The loss aversion ratio is often found to be in the range of 1.5 and 2.5: Nathan Novemsky and Daniel Kahneman,"
+        },
+        {
+          "term": "self",
+          "count": 16,
+          "context": "Under Pressure in Math,” Psychological Science 16 (2005): 101–105. exertion of self-control: Martin S. Hagger et al., “Ego Depletion and the Strength Model of Self-Control: A Meta-Analysis,” Psychologica"
+        },
+        {
+          "term": "intuition",
+          "count": 16,
+          "context": "L. Alter, Daniel M. Oppenheimer, Nicholas Epley, and Rebecca Eyre, “Overcoming Intuition: Metacognitive Difficulty Activates Analytic Reasoning,” Journal of Experimental Psychology—General 136 (2007): 569–76."
+        },
+        {
+          "term": "correlation",
+          "count": 12,
+          "context": "Psychology 18 (1988): 429–42. correlations between psychological measures: The correlation was .66. dominates happiness reports: Other substitution topics include marital satisfaction, job satisfaction, and lei"
+        },
+        {
+          "term": "endowment effect",
+          "count": 10,
+          "context": "Organizational Behavior and Human Decision Processes 66 (1966): 228–36. 27: The Endowment Effect What is missing from the figure: A theoretical analysis that assumes loss aversion predicts a pronounced kink of the in"
+        },
+        {
+          "term": "hypothesis",
+          "count": 7,
+          "context": "nd Risk because of brain damage: Damasio’s idea is known as the “somatic marker hypothesis” and it has gathered substantial support: Antonio R. Damasio, Descartes’ Error: Emotion, Reason, and the Human Brain (N"
+        },
+        {
+          "term": "prospect theory",
+          "count": 7,
+          "context": "y concerned with rational choices, and Bernoulli’s model suited their goal. 26: Prospect Theory subjective value of wealth: Stanley S. Stevens, “To Honor Fechner and Repeal His Law,” Science 133 (1961): 80–86. Steve"
+        },
+        {
+          "term": "affect heuristic",
+          "count": 6,
+          "context": ", “What Is an Explanation of Behavior?” Psychological Science 3 (1992): 150–61. affect heuristic: The concept of the affect heuristic was developed by Paul Slovic, a classmate of Amos’s at Michigan and a lifelong fri"
+        },
+        {
+          "term": "response",
+          "count": 6,
+          "context": "Stanford Law Review 51 (1999): 683–768. CERCLA, the Comprehensive Environmental Response, Compensation, and Liability Act, passed in 1980. nothing in between: Paul Slovic, who testified for the apple growers"
+        },
+        {
+          "term": "influence",
+          "count": 5,
+          "context": "2001): 2371–88. clunky labels: Pascal Pensa, “Nomen Est Omen: How Company Names Influence Shortand Long-Run Stock Market Performance,” Social Science Research Network Working Paper, September 2006. mere exposu"
+        },
+        {
+          "term": "substitution",
+          "count": 4,
+          "context": ", a classmate of Amos’s at Michigan and a lifelong friend. without noticing the substitution:. 1: The Characters of the Story offered many labels: For reviews of the field, see Jonathan St. B. T. Evans and Keith"
+        },
+        {
+          "term": "delay of gratification",
+          "count": 4,
+          "context": "Press, 2011). cruel dilemma: Walter Mischel and Ebbe B. Ebbesen, “Attention in Delay of Gratification,” Journal of Personality and Social Psychology 16 (1970): 329–37. “There were no toys…distress”: Inge-Marie Eigsti et a"
+        },
+        {
+          "term": "priming",
+          "count": 4,
+          "context": "of schools: Jonah Berger, Marc Meredith, and S. Christian Wheeler, “Contextual Priming: Where People Vote Affects How They Vote,” PNAS 105 (2008): 8846–49. Reminders of money: Kathleen D. Vohs, “The Psychol"
+        },
+        {
+          "term": "conjunction fallacy",
+          "count": 4,
+          "context": "Amos Tversky and Daniel Kahneman, “Extensional Versus Intuitive Reasoning: The Conjunction Fallacy in Probability Judgment,” Psychological Review 90 (1983): 293–315. Exxon Valdez: William H. Desvousges et al., “Measuri"
+        },
+        {
+          "term": "halo effect",
+          "count": 4,
+          "context": "d, respectively, with inversion rates of 43% and 37%. his penetrating book: The Halo Effect was praised as one of the best business books of the year by both the Financial Times and The Wall Street Journal: Phil"
+        },
+        {
+          "term": "ego depletion",
+          "count": 3,
+          "context": "Science 16 (2005): 101–105. exertion of self-control: Martin S. Hagger et al., “Ego Depletion and the Strength Model of Self-Control: A Meta-Analysis,” Psychological Bulletin 136 (2010): 495–525. resist the effect"
+        },
+        {
+          "term": "cognitive ease",
+          "count": 3,
+          "context": "presents a concept of an “adaptive unconscious” that is similar to System 1. 5: Cognitive Ease “Easy” and “Strained”: The technical term for cognitive ease is fluency. diverse inputs and outputs: Adam L. Alter and"
+        },
+        {
+          "term": "law of small numbers",
+          "count": 3,
+          "context": "s and Benefits,” Journal of Behavioral Decision Making 13 (2000): 1–17. 10: The Law of Small Numbers “It is both…without additives”: Howard Wainer and Harris L. Zwerling, “Evidence That Smaller Schools Do Not Improve Stu"
+        },
+        {
+          "term": "amygdala",
+          "count": 3,
+          "context": "): 1561–80. 28: Bad Events heartbeat accelerated: Paul J. Whalen et al., “Human Amygdala Responsivity to Masked Fearful Eye Whites,” Science 306 (2004): 2061. Individuals with focal lesions of the amygdala sh"
+        },
+        {
+          "term": "system 1",
+          "count": 2,
+          "context": "han Evans, Steven Sloman, Keith Stanovich, and Richard West. I borrow the terms System 1 and System 2 from early writings of Stanovich and West that greatly influenced my thinking: Keith E. Stanovich and Rich"
+        },
+        {
+          "term": "prefrontal cortex",
+          "count": 2,
+          "context": "a cost in this neural computation. Joseph T. McGuire and Matthew M. Botvinick, “Prefrontal Cortex, Cognitive Control, and the Registration of Decision Costs,” PNAS 107 (2010): 7922–26. read distracting words: Bruno La"
+        },
+        {
+          "term": "willpower",
+          "count": 2,
+          "context": "T. Gailliot et al., “Self-Control Relies on Glucose as a Limited Energy Source: Willpower Is More Than a Metaphor,” Journal of Personality and Social Psychology 92 (2007): 325–36. Matthew T. Gailliot and Roy F"
+        },
+        {
+          "term": "smile",
+          "count": 2,
+          "context": "artin, and Sabine Stepper, “Inhibiting and Facilitating Conditions of the Human Smile: A Nonobtrusive Test of the Facial Feedback Hypothesis,” Journal of Personality and Social Psychology 54 (1988): 768–77"
+        },
+        {
+          "term": "anchoring and adjustment",
+          "count": 2,
+          "context": "their head: Nicholas Epley and Thomas Gilovich, “Putting Adjustment Back in the Anchoring and Adjustment Heuristic: Differential Processing of Self-Generated and Experimenter-Provided Anchors,” Psychological Science 12 (2001"
+        },
+        {
+          "term": "regression to the mean",
+          "count": 2,
+          "context": "onsibility,” Journal of Personality and Social Psychology 8 (1968): 377–83. 17: Regression to the Mean help of the most brilliant statisticians: Michael Bulmer, Francis Galton: Pioneer of Heredity and Biometry (Baltimore:"
+        },
+        {
+          "term": "baseline",
+          "count": 2,
+          "context": "ompany must buy out his stake (in stock and options) at his old firm, setting a baseline for future compensation that has nothing to do with performance at the new firm. Tens of millions of dollars in compens"
+        },
+        {
+          "term": "sunk cost",
+          "count": 2,
+          "context": "5–15. sunk-cost fallacy: Hal R. Arkes and Catherine Blumer, “The Psychology of Sunk Cost,” Organizational Behavior and Human Decision Processes 35 (1985): 124–40. Hal R. Arkes and Peter Ayton, “The Sunk Cost"
+        },
+        {
+          "term": "risk aversion",
+          "count": 2,
+          "context": "dily as the gambles become more extreme. “Even a lousy lawyer”: Matthew Rabin, “Risk Aversion and Expected-Utility Theory: A Calibration Theorem,” Econometrica 68 (2000): 1281–92. Matthew Rabin and Richard H. Thal"
+        },
+        {
+          "term": "reference point",
+          "count": 2,
+          "context": "sumes loss aversion predicts a pronounced kink of the indifference curve at the reference point: Amos Tversky and Daniel Kahneman, “Loss Aversion in Riskless Choice: A Reference-Dependent Model,” Quarterly Journal o"
+        },
+        {
+          "term": "simulation",
+          "count": 2,
+          "context": "ull, and Cathy McFarland, “When a Coincidence Is Suspicious: The Role of Mental Simulation,” Journal of Personality and Social Psychology 57 (1989): 581–89. Seymour Epstein and his colleagues argued for an inte"
+        },
+        {
+          "term": "nudge",
+          "count": 2,
+          "context": "eory of Rational Addiction,” Journal of Political Economics 96 (1988): 675–700. Nudge: Richard H. Thaler and Cass R. Sunstein, Nudge: Improving Decisions About Health, Wealth, and Happiness (New Haven: Yal"
+        },
+        {
+          "term": "availability heuristic",
+          "count": 1,
+          "context": "Norbert Schwarz et al., “Ease of Retrieval of Information: Another Look at the Availability Heuristic,” Journal of Personality and Social Psychology 61 (1991): 195–202. Elke U. Weber et al., “Asymmetric Discounting in Int"
+        },
+        {
+          "term": "system 2",
+          "count": 1,
+          "context": "even Sloman, Keith Stanovich, and Richard West. I borrow the terms System 1 and System 2 from early writings of Stanovich and West that greatly influenced my thinking: Keith E. Stanovich and Richard F. West,"
+        },
+        {
+          "term": "purpose",
+          "count": 1,
+          "context": "cience 4 (2003): 56–88. There is also growing experimental evidence for general-purpose resources of attention, as in Evie Vergauwe et al., “Do Mental Processes Share a Domain-General Resource?” Psychologica"
+        },
+        {
+          "term": "flow",
+          "count": 1,
+          "context": ": 173–83. 3: The Lazy Controller “optimal experience”: Mihaly Csikszentmihalyi, Flow: The Psychology of Optimal Experience (New York: Harper, 1990). sweet tooth: Baba Shiv and Alexander Fedorikhin, “Heart"
+        },
+        {
+          "term": "motivation",
+          "count": 1,
+          "context": "on: Mark Muraven and Elisaveta Slessareva, “Mechanisms of Self-Control Failure: Motivation and Limited Resources,” Personality and Social Psychology Bulletin 29 (2003): 894–906. Mark Muraven, Dianne M. Tice, an"
+        },
+        {
+          "term": "facial feedback hypothesis",
+          "count": 1,
+          "context": "ting and Facilitating Conditions of the Human Smile: A Nonobtrusive Test of the Facial Feedback Hypothesis,” Journal of Personality and Social Psychology 54 (1988): 768–77. upsetting pictures: Ulf Dimberg, Monika Thunberg, and"
+        },
+        {
+          "term": "persuasion",
+          "count": 1,
+          "context": "es: Gary L. Wells and Richard E. Petty, “The Effects of Overt Head Movements on Persuasion: Compatibility and Incompatibility of Responses,” Basic and Applied Social Psychology 1 (1980): 219–30. increase the fu"
+        },
+        {
+          "term": "salience",
+          "count": 1,
+          "context": "berg et al., “Evidence for Terror Management Theory II: The Effect of Mortality Salience on Reactions to Those Who Threaten or Bolster the Cultural Worldview,” Journal of Personality and Social Psychology 58"
+        },
+        {
+          "term": "gateway",
+          "count": 1,
+          "context": "25–36. “The consequences…social stability”: Robert B. Zajonc, “Mere Exposure: A Gateway to the Subliminal,” Current Directions in Psychological Science 10 (2001): 227. triad of words: Annette Bolte, Thomas G"
+        },
+        {
+          "term": "anchoring effect",
+          "count": 1,
+          "context": "Quantity Decisions,” Journal of Marketing Research 35 (1998): 71–81. resist the anchoring effect: Adam D. Galinsky and Thomas Mussweiler, “First Offers as Anchors: The Role of Perspective-Taking and Negotiator Focus,"
+        },
+        {
+          "term": "representativeness",
+          "count": 1,
+          "context": "gy 75 (1984): 451–68. the opposite effect: Norbert Schwarz et al., “Base Rates, Representativeness, and the Logic of Conversation: The Contextual Relevance of ‘Irrelevant’ Information,” Social Cognition 9 (1991): 67–84"
+        },
+        {
+          "term": "diffusion of responsibility",
+          "count": 1,
+          "context": "bility: John M. Darley and Bibb Latane, “Bystander Intervention in Emergencies: Diffusion of Responsibility,” Journal of Personality and Social Psychology 8 (1968): 377–83. 17: Regression to the Mean help of the most brilliant"
+        },
+        {
+          "term": "outcome bias",
+          "count": 1,
+          "context": "ce 13 (1975): 1–16. quality of a decision: Jonathan Baron and John C. Hershey, “Outcome Bias in Decision Evaluation,” Journal of Personality and Social Psychology 54 (1988): 569–79. should have hired the monitor:"
+        },
+        {
+          "term": "planning fallacy",
+          "count": 1,
+          "context": "ine, see Jerome Groopman, How Doctors Think (New York: Mariner Books, 2008), 6. planning fallacy: Daniel Kahneman and Amos Tversky, “Intuitive Prediction: Biases and Corrective Procedures,” Management Science 12 (197"
+        },
+        {
+          "term": "serotonin",
+          "count": 1,
+          "context": ", and Chris Ashwin, “Looking on the Bright Side: Biased Attention and the Human Serotonin Transporter Gene,” Proceedings of the Royal Society B 276 (2009): 1747–51. “triumph of hope over experience”: Manju Pur"
+        },
+        {
+          "term": "hindsight bias",
+          "count": 1,
+          "context": "t deal from the experience. Gavin Cassar and Justin Craig, “An Investigation of Hindsight Bias in Nascent Venture Activity,” Journal of Business Venturing 24 (2009): 149–64. influence on the lives of others: Keith"
+        },
+        {
+          "term": "value function",
+          "count": 1,
+          "context": ". The three principles: Writing this sentence reminded me that the graph of the value function has already been used as an emblem. Every Nobel laureate receives an individual certificate with a personalized drawing"
+        },
+        {
+          "term": "negativity bias",
+          "count": 1,
+          "context": "ce 20 (2009): 1092–99. negativity dominance: Paul Rozin and Edward B. Royzman, “Negativity Bias, Negativity Dominance, and Contagion,” Personality and Social Psychology Review 5 (2001): 296–320. resistant to disconf"
+        },
+        {
+          "term": "fourfold pattern",
+          "count": 1,
+          "context": "metrical effects on individual well-being: Zamir, “Law and Psychology.” 29: The Fourfold Pattern and other disasters: Including exposure to a “Dutch book,” which is a set of gambles that your incorrect preferences co"
+        },
+        {
+          "term": "peak-end rule",
+          "count": 1,
+          "context": "l Science 12 (2001): 124–28. The same series of experiments also tested for the peak-end rule in an unhappy life and found similar results: Jen was not judged twice as unhappy if she lived miserably for 60 years r"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0049.txt",
+      "title": "Index",
+      "concepts": [
+        {
+          "term": "self",
+          "count": 10,
+          "context": "d; and estimates of causes of death Åstebro, Thomas Atlantic, The attention; in self-control Attention and Effort (Kahneman) Auerbach, Red authoritarian ideas availability; affect and; and awareness of on"
+        },
+        {
+          "term": "intuition",
+          "count": 7,
+          "context": "xperience sampling experiencing self; well-being of; see also well-being expert intuition; evaluating; illusions of validity of; overconfidence and; as recognition; risk assessment and; vs. statistical predict"
+        },
+        {
+          "term": "halo effect",
+          "count": 6,
+          "context": "vated ideas in; causality and; priming and associative coherence; in anchoring; halo effect and; plausibility and, associative coherence (cont.); WYSIATI (what you see is all there is) and associative memory; ab"
+        },
+        {
+          "term": "wysiati",
+          "count": 6,
+          "context": "in anchoring; halo effect and; plausibility and, associative coherence (cont.); WYSIATI (what you see is all there is) and associative memory; abnormal events and; anchoring and; causality and; confirmation"
+        },
+        {
+          "term": "what you see is all there is",
+          "count": 6,
+          "context": "ing; halo effect and; plausibility and, associative coherence (cont.); WYSIATI (what you see is all there is) and associative memory; abnormal events and; anchoring and; causality and; confirmation bias and; creativity and; and"
+        },
+        {
+          "term": "loss aversion",
+          "count": 6,
+          "context": "lton, Francis gambles; bundling of; certainty effect and; emotional framing in; loss aversion in; lottery; mixed; and outcomes produced by action vs. inaction; possibility effect and; psychological value of; regre"
+        },
+        {
+          "term": "priming",
+          "count": 5,
+          "context": "djustment; associative coherence in; associative memory and; measurement of; as priming effect; random, power of; in System 1 and System 2; uses and abuses of anesthesiologists angry faces anomalies anterior"
+        },
+        {
+          "term": "correlation",
+          "count": 5,
+          "context": "nd; pleasure from cash box categories causal base rates causal interpretations; correlation and; regression effects and causal situations causal stereotypes causes, and statistics CEOs; optimistic certainty effe"
+        },
+        {
+          "term": "hypothesis",
+          "count": 5,
+          "context": "by Epley, Nick Epstein, Seymour equal-weighting schemes Erev, Ido evaluability hypothesis evaluations: joint; joint vs. single; single evidence: one-sided; of witnesses executive control expectation principle"
+        },
+        {
+          "term": "representativeness",
+          "count": 5,
+          "context": "presentation Frey, Bruno Friedman, Milton frowning; availability heuristic and; representativeness and gains Galinsky, Adam Gallup-Healthways Well-Being Index Galton, Francis gambles; bundling of; certainty effect and;"
+        },
+        {
+          "term": "system 2",
+          "count": 4,
+          "context": "emory and; measurement of; as priming effect; random, power of; in System 1 and System 2; uses and abuses of anesthesiologists angry faces anomalies anterior cingulate Apgar, Virginia Apgar scores aphorisms A"
+        },
+        {
+          "term": "law of small numbers",
+          "count": 4,
+          "context": "Overnight” (Jacoby) behavioral economics Behavioral Insight Team “Belief in the Law of Small Numbers” (Tversky and Kahneman) beliefs: bias for; past, reconstruction of Benartzi, Shlomo Bentham, Jeremy Berlin, Isaiah Bern"
+        },
+        {
+          "term": "planning fallacy",
+          "count": 4,
+          "context": "bal impressions and; hindsight bias and; narrow framing in; optimistic bias in; planning fallacy and; poverty and; premortem and; reference points in; regret and; risk and, see risk assessment decision utility decisi"
+        },
+        {
+          "term": "substitution",
+          "count": 4,
+          "context": "; and outcomes produced by action vs. inaction; paraplegics and; perception of; substitution of question on; in vivid outcomes; in vivid probabilities; weather and; work and employers, fairness rules and endanger"
+        },
+        {
+          "term": "fourfold pattern",
+          "count": 4,
+          "context": "; hostility to; for interviews; multiple regression formulation effects Fortune fourfold pattern; in legal cases Fox, Craig Fox, Seymour frames, framing; in Asian disease problem; in child exemption problem; in discl"
+        },
+        {
+          "term": "availability heuristic",
+          "count": 4,
+          "context": "oose (Friedman) frequency representation Frey, Bruno Friedman, Milton frowning; availability heuristic and; representativeness and gains Galinsky, Adam Gallup-Healthways Well-Being Index Galton, Francis gambles; bundling o"
+        },
+        {
+          "term": "possibility effect",
+          "count": 4,
+          "context": "loss aversion in; lottery; mixed; and outcomes produced by action vs. inaction; possibility effect and; psychological value of; regret and; simple; St. Petersburg paradox and; vs. sure things; utility of; vivid outcome"
+        },
+        {
+          "term": "system 1",
+          "count": 3,
+          "context": "associative memory and; measurement of; as priming effect; random, power of; in System 1 and System 2; uses and abuses of anesthesiologists angry faces anomalies anterior cingulate Apgar, Virginia Apgar score"
+        },
+        {
+          "term": "certainty effect",
+          "count": 3,
+          "context": "nd causal situations causal stereotypes causes, and statistics CEOs; optimistic certainty effect CFOs Chabris, Christopher chance and randomness; misconceptions of changing one’s mind Checklist Manifesto, A (Gawande)"
+        },
+        {
+          "term": "hindsight bias",
+          "count": 3,
+          "context": "in; expectation principle in; in gambles, see gambles; global impressions and; hindsight bias and; narrow framing in; optimistic bias in; planning fallacy and; poverty and; premortem and; reference points in; regr"
+        },
+        {
+          "term": "narrow framing",
+          "count": 3,
+          "context": "nciple in; in gambles, see gambles; global impressions and; hindsight bias and; narrow framing in; optimistic bias in; planning fallacy and; poverty and; premortem and; reference points in; regret and; risk and, se"
+        },
+        {
+          "term": "prospect theory",
+          "count": 3,
+          "context": "ity decision weights; overweighting; unlikely events and; in utility theory vs. prospect theory; vivid outcomes and; vivid probabilities and decorrelated errors default options denominator neglect depression Detroit"
+        },
+        {
+          "term": "duration neglect",
+          "count": 3,
+          "context": "ce over; premortem and; suppression of Duke University Duluth, Minn., bridge in duration neglect duration weighting earthquakes eating eBay Econometrica economics; behavioral; Chicago school of; neuroeconomics; prefe"
+        },
+        {
+          "term": "affect heuristic",
+          "count": 2,
+          "context": "nt index are listed below. adaptation level Add-1 task adjustment; insufficient affect heuristic; availability and affective forecasting airplane crashes Ajzen, Icek Alar scare algorithms; Apgar scores; hostility to;"
+        },
+        {
+          "term": "amygdala",
+          "count": 2,
+          "context": "ion Allais, Maurice al-Qaeda ambiguity, suppression of American Economic Review amygdala anchoring index anchors, anchoring; as adjustment; associative coherence in; associative memory and; measurement of; as"
+        },
+        {
+          "term": "confirmation bias",
+          "count": 2,
+          "context": "is) and associative memory; abnormal events and; anchoring and; causality and; confirmation bias and; creativity and; and estimates of causes of death Åstebro, Thomas Atlantic, The attention; in self-control Attentio"
+        },
+        {
+          "term": "baseline",
+          "count": 2,
+          "context": "ween banks bank teller problem Barber, Brad Bargh, John baseball baseball cards baseline predictions base rates; in cab driver problem; causal; in helping experiment; low; statistical; in Tom W problem; in Ya"
+        },
+        {
+          "term": "cognitive ease",
+          "count": 2,
+          "context": "e (Meehl) Clinton, Bill Coelho, Marta coffee mug experiments cognitive busyness cognitive ease; in basic assessments; and illusions of remembering; and illusions of truth; mood and; and writing persuasive messages;"
+        },
+        {
+          "term": "pupil dilation",
+          "count": 2,
+          "context": "dgment: How Good Is It? How Can We Know? (Tetlock) Exxon Valdez oil spill eyes, pupil dilation in face reading fairness fallacies; conjunction; narrative; planning; sunk-cost familiarity Far Side, The (Larson) fast"
+        },
+        {
+          "term": "mental shotgun",
+          "count": 2,
+          "context": "basic assessments in; of experts, see expert intuition; intensity matching in; mental shotgun in; predictive, see predictions and forecasts; sets and prototypes in; summary, of complex information; see also decisi"
+        },
+        {
+          "term": "outcome bias",
+          "count": 2,
+          "context": "NA evidence in; fourfold pattern and; frivolous; loss aversion in; malpractice; outcome bias in leisure time less-is-more pattern Lewis, Michael libertarian policies Lichtenstein, Sarah life: evaluation of; stori"
+        },
+        {
+          "term": "peak-end rule",
+          "count": 2,
+          "context": "uration neglect and; injection puzzle and; memory of; operation experiment and; peak-end rule and; in rats paraplegics parole past: and confusing experiences with memories; hindsight bias and; regret and pastness"
+        },
+        {
+          "term": "choice architecture",
+          "count": 1,
+          "context": "caring for; depressed; time spent with China Choice and Consequence (Schelling) choice architecture choices: from description; from experience; see also decisions, decision making; risk assessment “Choices, Values, and"
+        },
+        {
+          "term": "cognitive strain",
+          "count": 1,
+          "context": "skill; of truth; of understanding; of validity Cognitive Reflection Test (CRT) cognitive strain Cohen, David coherence; see also associative coherence Cohn, Beruria coincidence coin-on-the-machine experiment cold-ha"
+        },
+        {
+          "term": "conjunction fallacy",
+          "count": 1,
+          "context": "t; overconfidence; WYSIATI (what you see is all there is) and confirmation bias conjunction fallacy conjunctive events, evaluation of “Consequences of Erudite Vernacular Utilized Irrespective of Necessity: Problems with"
+        },
+        {
+          "term": "ego depletion",
+          "count": 1,
+          "context": "s education effectiveness of search sets effort; least, law of; in self-control ego depletion electricity electric shocks emotional coherence, see halo effect emotional learning emotions and mood: activities and;"
+        },
+        {
+          "term": "endowment effect",
+          "count": 1,
+          "context": "ilities; weather and; work and employers, fairness rules and endangered species endowment effect; and thinking like a trader energy, mental engagement Enquiry Concerning Human Understanding, An (Hume) entrepreneurs;"
+        },
+        {
+          "term": "flow",
+          "count": 1,
+          "context": "t impressions Fischhoff, Baruch flight instructors flood monitor Florida effect flow flowers syllogism Flyvbjerg, Bent focus focusing illusion fonts forecasts, see predictions and forecasts football game"
+        },
+        {
+          "term": "focusing illusion",
+          "count": 1,
+          "context": "ctors flood monitor Florida effect flow flowers syllogism Flyvbjerg, Bent focus focusing illusion fonts forecasts, see predictions and forecasts football game Ford Motor Company formulas; algorithms; Apgar scores; hos"
+        },
+        {
+          "term": "motivation",
+          "count": 1,
+          "context": "Moneyball (Lewis) mood, see emotions and mood Morgenstern, Oskar Moses illusion motivation movies “MPG Illusion, The” (Larrick and Soll) mug experiments Mullainathan, Sendhil Müller-Lyer illusion multiple regre"
+        },
+        {
+          "term": "nudge",
+          "count": 1,
+          "context": "sity 9/11 Nisbett, Richard Nixon, Richard Nobel Prize norms norm theory novelty Nudge (Thaler and Sunstein) nutrition Oakland A’s Obama, Barack obesity Odean, Terry Office of Information and Regulatory Aff"
+        },
+        {
+          "term": "regression to the mean",
+          "count": 1,
+          "context": "gnition-primed decision (RPD) model Redelmeier, Don reference class forecasting regression to the mean; causal interpretations and; correlation and; difficulty in grasping; two-systems view of “Regression towards Mediocrit"
+        },
+        {
+          "term": "risk aversion",
+          "count": 1,
+          "context": "policies and; small risks and; of technologies; terrorism and; see also gambles risk aversion risk seeking “Robust Beauty of Improper Linear Models in Decision Making, The” (Dawes) Rosett, Richard Rosenzweig, Phil"
+        },
+        {
+          "term": "temperament",
+          "count": 1,
+          "context": "ssim talent task sets task switching Tate, Geoffrey taxes; child exemptions and temperament temptation Tenet, George terrorism Tetlock, Philip Thaler, Richard theory-induced blindness therapists thinking like a"
+        },
+        {
+          "term": "sunk cost",
+          "count": 1,
+          "context": "s threats; possibility effect and 3-D heuristic tickets; buying and selling of; sunk cost in time; use of time pressure Todorov, Alex token experiment Tom W problem “Trading Is Hazardous to Your Wealth” (Barbe"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0050.txt",
+      "title": "About the Author",
+      "concepts": []
+    },
+    {
+      "file": "chapter_0051.txt",
+      "title": "Newsletter Sign-up",
+      "concepts": []
+    },
+    {
+      "file": "chapter_0052.txt",
+      "title": "Table of Contents",
+      "concepts": [
+        {
+          "term": "cognitive ease",
+          "count": 1,
+          "context": "ry 2. Attention and Effort 3. The Lazy Controller 4. The Associative Machine 5. Cognitive Ease 6. Norms, Surprises, and Causes 7. A Machine for Jumping to Conclusions 8. How Judgments Happen 9. Answering an Easier"
+        },
+        {
+          "term": "law of small numbers",
+          "count": 1,
+          "context": "s Happen 9. Answering an Easier Question Part II. Heuristics and Biases 10. The Law of Small Numbers 11. Anchors 12. The Science of Availability 13. Availability, Emotion, and Risk 14. Tom W’s Specialty 15. Linda: Less i"
+        },
+        {
+          "term": "regression to the mean",
+          "count": 1,
+          "context": "k 14. Tom W’s Specialty 15. Linda: Less is More 16. Causes Trump Statistics 17. Regression to the Mean 18. Taming Intuitive Predictions Part III. Overconfidence 19. The Illusion of Understanding 20. The Illusion of Validit"
+        },
+        {
+          "term": "intuition",
+          "count": 1,
+          "context": "derstanding 20. The Illusion of Validity 21. Intuitions Vs. Formulas 22. Expert Intuition: When Can We Trust It? 23. The Outside View 24. The Engine of Capitalism Part IV. Choices 25. Bernoulli’s Errors 26. Pr"
+        },
+        {
+          "term": "prospect theory",
+          "count": 1,
+          "context": "e View 24. The Engine of Capitalism Part IV. Choices 25. Bernoulli’s Errors 26. Prospect Theory 27. The Endowment Effect 28. Bad Events 29. The Fourfold Pattern 30. Rare Events 31. Risk Policies 32. Keeping Score 33"
+        },
+        {
+          "term": "endowment effect",
+          "count": 1,
+          "context": "Capitalism Part IV. Choices 25. Bernoulli’s Errors 26. Prospect Theory 27. The Endowment Effect 28. Bad Events 29. The Fourfold Pattern 30. Rare Events 31. Risk Policies 32. Keeping Score 33. Reversals 34. Frames an"
+        },
+        {
+          "term": "fourfold pattern",
+          "count": 1,
+          "context": "li’s Errors 26. Prospect Theory 27. The Endowment Effect 28. Bad Events 29. The Fourfold Pattern 30. Rare Events 31. Risk Policies 32. Keeping Score 33. Reversals 34. Frames and Reality Part V. Two Selves 35. Two Sel"
+        }
+      ]
+    },
+    {
+      "file": "chapter_0053.txt",
+      "title": "Copyright",
+      "concepts": [
+        {
+          "term": "amygdala",
+          "count": 1,
+          "context": "ny, 1990); reprinted by permission of Henry Holt and Company. Image from “Human Amygdala Responsivity to Masked Fearful Eye Whites” by Paul J. Whalen et al., Science 306 (2004). Reprinted by permission of Sci"
+        }
+      ]
+    }
+  ]
+}

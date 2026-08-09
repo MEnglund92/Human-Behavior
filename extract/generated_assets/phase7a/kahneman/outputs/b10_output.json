@@ -1,0 +1,816 @@
+{
+  "spec_file": "spec_kahneman_b10.json",
+  "chapters": [
+    {
+      "id": "ch22",
+      "title": "17. Regression to the Mean",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Causal Stories versus Regression to the Mean",
+          "visual_frame_description": "A training hangar in the Israeli Air Force. A chalk target on the floor and a blackboard listing two coin-toss distances per officer. Beside it, a split-screen shows a flight cadet being praised after a clean aerobatic loop and then wobbling on the next attempt, while a veteran instructor watches and nods. The player reads six real-world observations and must sort each into its correct explanatory category.",
+          "player_mission": "Classify each observation as explained by regression to the mean, a genuine causal effect supported by controlled evidence, or an unfounded causal story about regression data. Get the classification right to prove you see past the 'perverse feedback' that fooled the flight instructors.",
+          "key_concepts": [
+            "When performance is far above average it is probably a lucky draw, so the next attempt is likely to be worse regardless of praise.",
+            "When performance is far below average the next attempt is likely to improve regardless of punishment.",
+            "The flight instructor praised only cadets whose execution was far better than average and punished only those far worse, so he attached a causal interpretation to the inevitable fluctuations of a random process.",
+            "Depressed children are an extreme group, and extreme groups regress to the mean over time even with no treatment.",
+            "A treatment can be judged effective only by comparing a treated group to an untreated or placebo control group that is expected to improve by regression alone.",
+            "Regression to the mean has an explanation but does not have a cause.",
+            "The feedback life exposes us to is perverse: we are statistically punished for being nice and rewarded for being nasty.",
+            "Success equals talent plus luck, and great success equals a little more talent plus a lot of luck.",
+            "Our mind is strongly biased toward causal explanations and does not deal well with mere statistics."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the causal-misattribution error: when extreme performances are followed by change, System 1 automatically invents a causal story even though the change is the mathematically inevitable regression of a random process. Kahneman's flight-instructor episode shows that reward and punishment are wrongly credited for changes that regression alone explains.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sort each observed pattern into the column that best explains it, using what the chapter establishes about regression to the mean.",
+          "column_a_label": "Regression to the mean (statistical explanation, no causal mechanism needed)",
+          "column_b_label": "A genuine causal effect supported by controlled comparison",
+          "column_c_label": "An unfounded causal claim about regression data",
+          "rows": [
+            {
+              "label": "A flight cadet praised for a clean aerobatic maneuver does worse on the next attempt.",
+              "col": "a"
+            },
+            {
+              "label": "A cadet screamed at for bad execution does better on his next try.",
+              "col": "a"
+            },
+            {
+              "label": "In a randomized placebo-controlled trial, treated patients improve significantly more than the control group over three months.",
+              "col": "b"
+            },
+            {
+              "label": "Depressed children given an energy drink show clinically significant improvement over three months.",
+              "col": "a"
+            },
+            {
+              "label": "A golfer who shoots 66 on day 1 of a tournament scores higher on day 2.",
+              "col": "a"
+            },
+            {
+              "label": "An athlete on the cover of Sports Illustrated performs worse the following season.",
+              "col": "a"
+            },
+            {
+              "label": "A business did better this year than last, so a commentator announces the improvement was caused by last year's poor performance.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Praise genuinely impairs learning, so praised maneuvers deteriorate for that reason.",
+            "Punishment is proven more effective than reward for skill training in humans.",
+            "The energy drink was tested against a proper placebo control group."
+          ],
+          "explanation": "The modal category is regression to the mean: every extreme observation here selects an extreme group (praised successes, punished failures, depressed children, day-1 leaders, cover athletes), and because the relevant correlation is imperfect, the next measurement pulls back toward the average without any causal mechanism. Only the randomized controlled trial (b) warrants a causal claim, and only the commentator's 'better because it was worse' claim is an unfounded causal story (c), the kind Kahneman notes would end a business commentator's television career."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "When Imperfect Correlation Guarantees Regression",
+          "visual_frame_description": "A Victorian study recreated as a museum diorama. Sir Francis Galton stands at a lectern before the Royal Institution, holding a paper titled 'Regression towards Mediocrity in Hereditary Stature' beside a table of parent and child seed sizes. Floating over the scene are seven statistical facts, each a card the player must drag to the correct column about correlation, perfect correlation, or non-correlation.",
+          "player_mission": "Sort each statistical fact into the right column: imperfect correlation (so regression follows), perfect correlation (no regression), or no correlation at all. Show you understand Galton's discovery that correlation and regression are different perspectives on the same concept.",
+          "key_concepts": [
+            "Whenever the correlation between two scores is less than perfect, there will be regression to the mean.",
+            "Correlation and regression are not two concepts but different perspectives on the same concept.",
+            "The correlation between parent and child height is not far from .50 because environmental factors have little influence on that trait.",
+            "The correlation between object sizes measured in English and in metric units is 1, meaning 100% of determinants are shared.",
+            "The correlation between self-reported height and weight among adult American males is .41.",
+            "The correlation between SAT scores and college GPA is approximately .60.",
+            "The correlation between income and education level in the United States is approximately .40.",
+            "The correlation between family income and the last four digits of the family phone number is 0.",
+            "The correlation coefficient is a measure of the relative weight of the factors two measures share."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the statistical core of the chapter: regression to the mean is an inevitable consequence of imperfect correlation between two measures. Galton needed several years and the help of the best statisticians of his time to see that filial regression in seed and stature data was just the shadow of imperfect correlation.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Classify each fact about pairs of measures into the column that describes the correlation, using the coefficients and rules the chapter presents.",
+          "column_a_label": "Imperfect correlation, so regression to the mean follows",
+          "column_b_label": "Perfect correlation, no regression",
+          "column_c_label": "No meaningful correlation at all",
+          "rows": [
+            {
+              "label": "Height of parents and height of their adult children (coefficient near .50).",
+              "col": "a"
+            },
+            {
+              "label": "The size of objects measured precisely in inches and the size of the same objects in centimeters.",
+              "col": "b"
+            },
+            {
+              "label": "Self-reported height and weight among adult American males (coefficient .41).",
+              "col": "a"
+            },
+            {
+              "label": "Family income and the last four digits of the family's phone number.",
+              "col": "c"
+            },
+            {
+              "label": "SAT scores and college GPA (coefficient approximately .60).",
+              "col": "a"
+            },
+            {
+              "label": "Intelligence scores of spouses (less than perfect correlation).",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Regression happens only when the two measures are causally connected.",
+            "A correlation of .41 means both measures regress to different means.",
+            "The phone-number example shows correlation and regression are unrelated concepts."
+          ],
+          "explanation": "Every genuine pair of human measures in the chapter has imperfect correlation, so each belongs in column a and each guarantees regression to the mean. Only physical measurements in two units have perfect correlation (column b, regression coefficient of 1), and only the deliberately absurd family-income-versus-phone-digits example has no meaningful correlation (column c). This is exactly the insight Galton reached only with great difficulty."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Regressive versus Nonregressive Forecasting",
+          "visual_frame_description": "A department store executive's office. A whiteboard shows the Bazerman forecasting table: four stores with 2011 sales of $11M, $23M, $18M, and $29M, a total of $61M, and an empty 2012 column that must sum to $67.1M. Around the board float six candidate forecast actions the player must sort into regressive, nonregressive, or baseline-only predictions.",
+          "player_mission": "Classify each forecasting action as regressive (correct), nonregressive (biased), or a pure baseline. Then you will be ready to fill the 2012 column the way the chapter's lesson demands.",
+          "key_concepts": [
+            "The obvious solution of adding 10% to the sales of every store is wrong because it ignores regression to the mean.",
+            "Correct forecasts are regressive: add more than 10% to the low-performing branches and less (or even subtract) from the high performers.",
+            "Stores differ in sales because of location, competition, and random factors, and random factors are a source of regression.",
+            "The more extreme the original score, the more regression we expect, because an extreme score suggests a very lucky (or unlucky) day.",
+            "The best predicted performance on day 2 is more moderate, closer to the average, than the evidence on which it is based.",
+            "Nonregressive predictions are biased: overly optimistic for the best performers and overly pessimistic for the worst.",
+            "Regression does not have a causal explanation; it is a mathematically inevitable consequence of luck's role in the first observation.",
+            "Galton painfully discovered that the concept of regression is far from obvious, even to intelligent audiences."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the discipline of regressive prediction: when forecasting an outcome that is imperfectly correlated with past performance, you must pull each forecast toward the mean, adding more growth to weak branches and less to strong ones. Kahneman uses the department-store forecasting task, adapted from Bazerman, to show that even statistically literate readers find the regressive answer puzzling.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sort each forecasting action into the category that describes how it treats regression to the mean.",
+          "column_a_label": "Regressive (correct) prediction",
+          "column_b_label": "Nonregressive (biased) prediction",
+          "column_c_label": "Baseline-only prediction",
+          "rows": [
+            {
+              "label": "Adding exactly 10% to every store's 2011 sales to forecast 2012 sales.",
+              "col": "b"
+            },
+            {
+              "label": "Adding more than 10% to the weakest stores and less than 10% to the strongest stores so the total rises 10%.",
+              "col": "a"
+            },
+            {
+              "label": "Predicting the golfer who shot 66 on day 1 will shoot 66 again on day 2.",
+              "col": "b"
+            },
+            {
+              "label": "Predicting the golfer who shot 66 on day 1 will finish day 2 closer to the tournament average.",
+              "col": "a"
+            },
+            {
+              "label": "Forecasting the average GPA for all graduating seniors when told nothing about a specific student.",
+              "col": "c"
+            },
+            {
+              "label": "Forecasting each candidate's future performance will exactly match his first-round screening score.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The most extreme performers keep performing at the same extreme level because talent is stable.",
+            "Regressive forecasts must add the same percentage to every unit so the total adds up.",
+            "A baseline prediction is the same thing as a nonregressive prediction."
+          ],
+          "explanation": "The modal correct behavior is the regressive prediction (column a): pull extreme forecasts toward the average, because extreme first observations were probably inflated by luck. Flat 10% additions and exact repeat predictions are nonregressive (column b) and systematically biased in favor of the best performers and against the worst. The pure baseline (column c) applies only when you have no useful information at all, as when predicting GPA for an unnamed senior."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Flight Instructor's Training Theory",
+          "visual_frame_description": "A classroom at an Israeli Air Force base, mid-lecture. Major Avner, a gray-haired flight instructor, stands with a raised hand while other officers lean in, nodding. A case file on screen displays a timeline of his praise-punishment observations next to a red banner reading 'DECEPTION AUDIT: CAUSAL INFERENCE CHECK.'",
+          "player_mission": "Audit Major Avner's claim that punishment works and reward does not. Review his baseline behavior, his timed observations, and his interview transcript, then issue the correct diagnosis of what his data really show.",
+          "key_concepts": [
+            "The instructor's observations were astute and correct but his inference about reward and punishment was completely off the mark.",
+            "He praised only performances far better than average, which were probably lucky and likely to deteriorate regardless of praise.",
+            "He shouted only at performances far worse than average, which were likely to improve regardless of punishment.",
+            "Poor performance is typically followed by improvement and good performance by deterioration without any help from praise or punishment.",
+            "The flight instructors were trapped in an unfortunate contingency: because they punished poor performance, they were mostly rewarded by subsequent improvement even if punishment was ineffective.",
+            "Because we tend to be nice when people please us and nasty when they do not, we are statistically punished for being nice and rewarded for being nasty.",
+            "Regression to the mean has an explanation but does not have a cause.",
+            "System 1's demand for causal interpretations is a main reason regression stays obscure."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests causal misattribution of regression to the mean: the instructor's record of praise-then-worse and punishment-then-better is real, but it is a statistical artifact, not evidence about reinforcement. Kahneman's own eureka moment came from seeing that the instructor was 'right, but also completely wrong.'",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "What is the correct diagnosis of Major Avner's evidence about praise, punishment, and flight performance?",
+          "subject_baseline": "Major Avner is a seasoned flight instructor with over twenty years of training time, respected by his peers, who speaks with calm confidence and rarely interrupts. He claims to base his views strictly on what he has personally observed in the cockpit.",
+          "observed_nonverbal_log": [
+            "09:42 - Raises hand immediately after the lecturer finishes speaking on reward versus punishment.",
+            "09:43 - Stands, squares his shoulders, and counts examples on his fingers as he speaks.",
+            "09:44 - Two junior officers nod emphatically as he describes cadets improving after being shouted at.",
+            "09:46 - Shrugs dismissively toward the 'reward works' principle, saying it may be fine 'for the birds.'",
+            "09:47 - Sits down, arms crossed, clearly satisfied with his refutation."
+          ],
+          "interrogation_transcript": [
+            "Lecturer: 'Rewards for improved performance work better than punishment of mistakes.'",
+            "Avner: 'On many occasions I have praised flight cadets for clean execution of some aerobatic maneuver. The next time they try the same maneuver they usually do worse.'",
+            "Avner: 'On the other hand, I have often screamed into a cadet's earphone for bad execution, and in general he does better on his next try.'",
+            "Avner: 'So please don't tell us that reward works and punishment does not, because the opposite is the case.'",
+            "Lecturer: 'When you praised a cadet, how far above his usual level was that particular maneuver?'",
+            "Avner: 'Well, far above average, that's why I praised him.'",
+            "Lecturer: 'And when you screamed at a cadet, how bad was that attempt?'",
+            "Avner: 'Unusually bad, of course. That's why I screamed.'"
+          ],
+          "correct_diagnosis": "Major Avner is not lying, but he is wrong: he has observed regression to the mean and interpreted it as evidence that punishment works. His inference about the efficacy of reward and punishment is completely off the mark.",
+          "diagnostic_breakdown": "Evidence: He praised only performances far above the cadet's average, and shouted only at performances far below it. Conclusion: an extreme first attempt is likely to have been lucky (or unlucky), so the next attempt naturally regresses toward the cadet's typical level with no help from feedback. Therefore praise-then-worse and punishment-then-better are exactly what random fluctuation predicts, which is why his confident causal theory is unsupported. The pattern Kahneman demonstrated with the coin toss on the classroom floor confirms that the change requires no causal explanation.",
+          "distractors": [
+            "Punishment genuinely improves flight skill faster than reward, as the instructor's logs prove.",
+            "Praise actively degrades motor performance by making cadets overconfident.",
+            "The instructor is correct, and Kahneman was wrong to doubt his cockpit data."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Sportscaster's Causal Story",
+          "visual_frame_description": "A Winter Olympics broadcast booth overlooking the ski jump hill. A commentator leans into the microphone as jumpers prepare for their second jump; a live graphics feed shows his remarks as captions. A case file beside the screen labels his analysis 'CAUSAL STORY AUDIT' while the two-jump scoreboard updates behind him.",
+          "player_mission": "Audit the commentator's on-air explanations of why second jumps change. Compare his baseline style, his timed comments, and the transcript, then deliver the correct diagnosis of whether his causal stories are warranted.",
+          "key_concepts": [
+            "The ski jump event gives each athlete two jumps whose results are combined for the final score.",
+            "The sportscaster detected regression to the mean and invented causal stories for which there was no evidence.",
+            "The change from the first to the second jump does not need a causal explanation.",
+            "The change is a mathematically inevitable consequence of the fact that luck played a role in the outcome of the first jump.",
+            "It is possible the athlete is genuinely tense after a good jump or relaxed after a bad one, but the change itself requires no such account.",
+            "A player who did very well on day 1 probably enjoyed above-average luck on that day, so the best guess is that day 2 will be good but less extreme.",
+            "A player who scored 5 over par on day 1 is likely both weaker than average and unlucky, so day 2 will be below average but improved.",
+            "Regression is strange to the human mind and was only understood two hundred years after the theory of gravitation and differential calculus.",
+            "Our minds strongly prefer a causal account even when 'all there is' is the mathematics of regression."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the automatic invention of causal explanations for regression effects: the commentator noticed real regression but wrapped it in fabricated stories about tension and relaxation. Kahneman notes the stories could even be true, but they are unnecessary because the change is mathematically inevitable once luck influenced the first jump.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "What is the correct diagnosis of the commentator's explanations for the athletes' second-jump performance?",
+          "subject_baseline": "The commentator is a seasoned Olympic broadcaster known for energetic, pattern-rich narration. He fills every pause with an explanation of form, weather, and psychology, and treats 'story' as his job even when the underlying data are thin.",
+          "observed_nonverbal_log": [
+            "14:12 - After Norway's excellent first jump, the commentator's brow furrows and he lowers his voice conspiratorially.",
+            "14:13 - He gestures toward the scoreboard and predicts the athlete will 'be tense, hoping to protect his lead.'",
+            "14:18 - After Sweden's poor first jump, he brightens and smiles, describing the athlete as 'relaxed' with 'nothing to lose.'",
+            "14:19 - He taps the desk emphatically while asserting relaxation 'should help him do better.'",
+            "14:26 - He offers the same template again for a third jumper, adjusting only the names."
+          ],
+          "interrogation_transcript": [
+            "Analyst: 'Norway had a great first jump. How do you see his second?'",
+            "Commentator: 'He will be tense, hoping to protect his lead and will probably do worse.'",
+            "Analyst: 'And Sweden, who struggled badly on his first jump?'",
+            "Commentator: 'Now he knows he has nothing to lose and will be relaxed, which should help him do better.'",
+            "Analyst: 'But is there any evidence about their heart rates or tension levels?'",
+            "Commentator: 'Well, no, but you can see it in their body language.'",
+            "Analyst: 'If we measured pulse before each jump, do you think it would back up your story?'",
+            "Commentator: 'Maybe, and maybe not. But someone has to explain why they keep flipping like this.'"
+          ],
+          "correct_diagnosis": "The commentator has correctly noticed the statistical pattern of regression to the mean but has fabricated causal stories (tension after good jumps, relaxation after bad ones) for which there is no evidence. The second-jump change needs no causal explanation.",
+          "diagnostic_breakdown": "Evidence: The analyst's final exchange shows the commentator himself admits his pulse story 'maybe' holds and 'maybe not.' Conclusion: the only robust facts are that the first jump included luck, the second jump will regress toward the athlete's mean, and the pattern holds equally when you reverse the time arrow. Because the commentator supplied cause where the data support only statistics, his diagnosis is unsound; a better analyst would describe regression directly and avoid inventing motives for the athletes.",
+          "distractors": [
+            "The commentator correctly identified nerves as the genuine cause of second-jump decline.",
+            "Relaxed athletes reliably jump farther, so his psychological account is empirically sound.",
+            "The first jump is a near-perfect predictor of the second jump, so the change is surprising."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Energy Drink Headline",
+          "visual_frame_description": "A newsroom at a health magazine. A young editor named Priya pitches a headline card reading 'Depressed Children Treated with an Energy Drink Improve Significantly over Three Months' while a fact-checker's file tab blinks 'PLACEBO WARNING.' A stack of cat-hugging and head-standing photos sits on the desk, and a control-group ledger is conspicuously empty.",
+          "player_mission": "Audit the pitch behind the energy-drink headline. Review Priya's baseline claims, her timed notes from the clinic, and her interview answers, then issue the correct diagnosis of whether the drink's improvement can be credited to the product.",
+          "key_concepts": [
+            "Depressed children are an extreme group, and extreme groups regress to the mean over time.",
+            "A group of depressed children would show a clinically significant improvement even if they did nothing.",
+            "Depressed children who stand on their head or hug a cat for twenty minutes a day would also show improvement.",
+            "The correlation between depression scores on successive occasions of testing is less than perfect, so regression to the mean applies.",
+            "To conclude a treatment is effective you must compare treated patients to an untreated or placebo control group.",
+            "The control group is expected to improve by regression alone, and the aim of the experiment is to see whether treated patients improve more than regression can explain.",
+            "Most readers of such headlines will automatically infer a cause, but the conclusion is completely unjustified.",
+            "Incorrect causal interpretations of regression effects are made even by eminent researchers, not just readers of the popular press.",
+            "The statistician Howard Wainer drew up a long list of researchers who confused mere correlation with causation."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the need for a control group when evaluating any treatment aimed at an extreme group: improvement alone cannot prove efficacy because regression to the mean guarantees change. Kahneman's fabricated headline is true in fact yet its causal conclusion is unjustified without a comparison group.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "What is the correct diagnosis of the claim that the energy drink caused the children's improvement?",
+          "subject_baseline": "Priya is an enthusiastic health editor who genuinely believes the product line she covers. She is earnest rather than deceptive, but she consistently presents before-after improvement as proof of efficacy and rarely asks for control groups.",
+          "observed_nonverbal_log": [
+            "10:02 - Slides the headline card across the desk with both hands, smiling as she reads it aloud.",
+            "10:05 - Points at the 'clinically significant' figure in the clinic report with visible pride.",
+            "10:07 - When asked about a control group, her smile flickers and she checks her notes, then moves on quickly.",
+            "10:09 - Shrugs off the cat-hugging example as 'ridiculous' without addressing the underlying logic.",
+            "10:11 - Concludes by arguing the improvement proves the drink works because the numbers are significant."
+          ],
+          "interrogation_transcript": [
+            "Fact-checker: 'So the children were depressed, you gave them the drink, and they improved. What else was going on in those three months?'",
+            "Priya: 'Nothing systematic. Just the drink.'",
+            "Fact-checker: 'Was there a control group of depressed children who got no drink?'",
+            "Priya: 'No, the clinic did not want to deny any child the treatment.'",
+            "Fact-checker: 'Would depressed children improve on their own over three months?'",
+            "Priya: 'I don't think so, that's why the improvement is news.'",
+            "Fact-checker: 'What if I told you children who hug a cat for twenty minutes a day show the same improvement?'",
+            "Priya: 'That's ridiculous. Cats cannot cure depression.'",
+            "Fact-checker: 'Then how do you know the drink can?'"
+          ],
+          "correct_diagnosis": "The causal claim is unjustified: the improvement is exactly what regression to the mean predicts for an extreme group over time, and without a control group there is no way to attribute the change to the drink.",
+          "diagnostic_breakdown": "Evidence: The children were selected because they were more depressed than most, placing them at an extreme that regresses toward the mean; there was no control group; and Priya had no answer when shown that cat hugging or head standing would produce the same 'clinically significant' pattern. Conclusion: the correct design compares the treated group to an untreated or placebo control group expected to improve by regression alone, then asks whether the drink adds improvement beyond that. Because that comparison is missing, the headline's causal conclusion fails; the drink could be effective, but this evidence cannot show it.",
+          "distractors": [
+            "The drink is proven effective because the improvement reached clinical significance.",
+            "The lack of a control group strengthens the result by letting every child receive treatment.",
+            "Priya's honest belief in the product is sufficient evidence of its efficacy."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Department Store Sales Forecast",
+          "visual_frame_description": "The boardroom of a department store chain at the end of 2011. A projector shows a whiteboard table: four stores with 2011 sales of $11M, $23M, $18M, and $29M, totaling $61M, and an empty 2012 column that must total $67.1M. The CEO leans forward expectantly while a forecast officer, Mira, faces the skeptical finance director.",
+          "player_mission": "Defeat the 'obvious' but wrong forecast. First study the 2011 sales extremes and decide how to distribute the economists' 10% overall growth across the stores; then defend your regressive allocation to an executive who insists each store should simply grow by 10%.",
+          "key_concepts": [
+            "All stores are similar in size and merchandise selection, but sales differ because of location, competition, and random factors.",
+            "The obvious solution of adding 10% to each store's sales is wrong.",
+            "Correct forecasts are regressive: add more than 10% to the low-performing branches and add less (or even subtract) from the best performers.",
+            "The more extreme a store's 2011 sales, the more of its performance was probably luck, so the more it should regress.",
+            "Regression to the mean inevitably occurs when the correlation between two measures is less than perfect.",
+            "The overall forecast of a 10% sales increase is the baseline total that all four individual forecasts must respect.",
+            "Nonregressive predictions are overly optimistic for the best performers and overly pessimistic for the worst.",
+            "Galton's discovery was that the concept of regression is far from obvious, even when the arithmetic is simple.",
+            "Causal stories (location advantages, management talent) will be offered for store differences, but random factors matter too."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests regressive forecasting against the intuitive equal-percentage method: because each store's 2011 result mixes stable factors with random luck, the best stores should grow less than 10% and the weakest more than 10%. Kahneman adapted this task from Bazerman's textbook to show that even the obvious arithmetic answer is statistically wrong.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "Regression to the mean: forecast each store's 2012 sales by pulling the extreme 2011 performers toward the average, so the total still rises by 10% but individual growth rates differ.",
+          "stage_1_observation": "The board studies the table. Store 1 sold $11M in 2011, Store 2 $23M, Store 3 $18M, Store 4 $29M. The economists' forecast for the chain is a 10% overall increase, making the 2012 total $67.1M. Everyone in the room instinctively reaches for the same answer: add 10% to each store.",
+          "stage_1_question": "How should you allocate the 10% growth across the four stores to make the forecast regressive?",
+          "stage_1_correct_answer": "Add more than 10% to the weakest stores and less than 10% to the strongest, so the total rises by 10%: Store 1's $11M should jump well above 10%, Stores 2 and 3 around the average, and Store 4's $29M should rise by less than 10% (possibly even fall slightly). The extreme 2011 performances were partly luck, so the best store must be pulled back toward the mean while the worst store is pulled up.",
+          "stage_2_intervention": "The finance director slams the table: 'This is nonsense. Every store is the same size and carries the same merchandise. If the chain grows 10%, every store grows 10%. You're inventing winners and losers.' Mira must respond to save the regressive forecast in front of the CEO.",
+          "stage_2_correct_answer": "Mira should hold firm and explain that 2011 sales differences are partly location, competition, and random factors, and that an extreme 2011 result was probably inflated or depressed by luck. Because that luck will not repeat, the best store is likely to underperform its 2011 share next year and the weakest to improve, so the regressive allocation is the unbiased prediction. She can concede the chain-wide 10% total but refuse to apply it uniformly, framing it as anticipating regression rather than inventing winners."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Star Performer Hiring Trap",
+          "visual_frame_description": "The talent office of a management consultancy. A wall of name tags displays the screening scores of this year's new hires, with the top five circled in gold marker. The director, Carla, gestures toward the gold circles while a senior partner frowns at the first-year review rankings, which do not match the screening order.",
+          "player_mission": "Beat the star-performer trap. Study the screening scores and their first-year outcomes, decide what the screening really predicts, then intervene to stop the firm from fast-tracking the top scorers as if the screening were a perfect measure.",
+          "key_concepts": [
+            "Our screening procedure is good but not perfect, so we should anticipate regression.",
+            "We should not be surprised that the very best candidates often fail to meet our expectations.",
+            "Whenever the correlation between two scores is less than perfect, there will be regression to the mean.",
+            "The top candidates scored at an extreme, and extreme scores are likely to have been inflated by luck.",
+            "The more extreme the original score, the more regression we expect, because an extreme score suggests a very lucky performance.",
+            "Regression effects are ubiquitous, and so are misguided causal stories to explain them.",
+            "Causal explanations will be evoked when regression is detected, but they will be wrong because regression has no cause.",
+            "The event that attracts attention (top performers fading) is best explained by luck, but that explanation lacks the causal force our minds prefer.",
+            "Being 'nice when people please us and nasty when they do not' produces perverse statistical rewards and punishments in management."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the operational lesson of the chapter's closing example: an imperfect but good screening procedure guarantees that top-scoring candidates regress toward the mean, and managers who ignore this will be puzzled and unfair. Kahneman's advice is to anticipate regression and not be surprised when the very best candidates fail to meet expectations.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "Screening-induced regression to the mean: the top-scoring hires earned extreme scores that were partly luck, so their first-year performance will be above average but less extreme than their screening score suggested.",
+          "stage_1_observation": "Carla's team reviews the annual intake. The five candidates with the highest screening scores were given the most coveted projects and fast-track review meetings. Their first-year performance ratings, however, are good but not spectacular, and several trail peers who scored below them. The partner suspects the screening tool is broken or that the fast-tracking somehow demotivated the stars.",
+          "stage_1_question": "What is the correct interpretation of why the top screening scorers underperformed their screening rank?",
+          "stage_1_correct_answer": "The screening is good but imperfect, so regression to the mean guarantees that the most extreme scorers were partly lucky and will perform less extremely on the next measurement. Their ratings were not 'underperforming' relative to their true ability; the screening overrated the true average standing of the extremes. No causal story about demotivation or a broken tool is needed.",
+          "stage_2_intervention": "Carla proposes fast-tracking next year's top five scorers straight into the partner track, arguing the screening found rare talent and the first-year dip was just bad luck in project assignments. You must decide how to intervene in the promotion decision.",
+          "stage_2_correct_answer": "Block the fast-track decision and instead adjust expectations: treat screening rank as an imperfect predictor, expect top scorers to regress toward the mean, and base fast-track decisions on a longer, more reliable performance sample. Communicate to Carla and the partner that the pattern is statistical and inevitable, and that rewarding the extremes on the basis of a single good-but-imperfect measurement will produce systematically disappointed managers."
+        }
+      ]
+    },
+    {
+      "id": "ch23",
+      "title": "18. Taming Intuitive Predictions",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Skilled Intuition versus Heuristic Substitution",
+          "visual_frame_description": "A split-screen montage. On the left, a chess master plays a rapid blitz move and a fireground commander points at a burning building; on the right, a graduate advisor reads a description of Julie and scribbles a GPA. Between the panels floats a card-sorting board with seven prediction situations the player must classify.",
+          "player_mission": "Sort each intuitive judgment into skilled intuition from repeated experience, heuristic substitution of an easier question, or deliberate System 2 analysis. Distinguish the two very different varieties of intuition the chapter describes.",
+          "key_concepts": [
+            "Some intuitions draw primarily on skill and expertise acquired by repeated experience.",
+            "Chess masters, fireground commanders, and physicians produce rapid automatic judgments because familiar cues are recognized.",
+            "Gary Klein described these skilled intuitions in Sources of Power.",
+            "Other intuitions arise from heuristics that substitute an easy question for the harder one that was asked.",
+            "Intuitive judgments can be made with high confidence even when based on nonregressive assessments of weak evidence.",
+            "Many professional judgments combine analysis and intuition.",
+            "Engineers' predictions rely on look-up tables, precise calculations, and explicit analyses of outcomes observed on similar occasions.",
+            "The two varieties of intuition can be subjectively indistinguishable to the person experiencing them.",
+            "Heuristic intuition substitutes an easier question without the person noticing the substitution."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the chapter's core distinction between two kinds of intuition: genuine skilled intuition built from repeated experience, and heuristic intuition that answers an easier question by substitution. Kahneman notes the two are subjectively indistinguishable, which is why heuristic predictions are delivered with such unwarranted confidence.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sort each intuitive judgment into the category that best describes how it was produced.",
+          "column_a_label": "Skilled intuition (repeated experience and recognized cues)",
+          "column_b_label": "Heuristic intuition (substituting an easier question)",
+          "column_c_label": "Deliberate System 2 analysis",
+          "rows": [
+            {
+              "label": "A chess master instantly sees the right move because familiar patterns are recognized.",
+              "col": "a"
+            },
+            {
+              "label": "A fireground commander immediately assesses the trucks needed because the scene matches past fires.",
+              "col": "a"
+            },
+            {
+              "label": "A physician instantly recognizes a familiar pattern of symptoms.",
+              "col": "a"
+            },
+            {
+              "label": "Predicting Julie's GPA from the fact that she read fluently at age four.",
+              "col": "b"
+            },
+            {
+              "label": "A venture capitalist judging a start-up's prospects by how impressive the founder's pitch feels.",
+              "col": "b"
+            },
+            {
+              "label": "An engineer estimating concrete for a building from a look-up table and explicit calculation.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "All fast judgments are skilled intuition and equally trustworthy.",
+            "Heuristic intuition only occurs when people have no expertise at all.",
+            "Engineers' look-up table predictions are a form of skilled intuition because they are quick."
+          ],
+          "explanation": "The modal category is skilled intuition (column a): the chess master, commander, and physician benefit from repeated experience in which familiar cues were recognized, exactly the intuitions Klein documented. Julie's GPA and the start-up pitch are heuristic (column b) because an easy question about the quality of evidence substitutes for the hard question about an uncertain future. The engineer's calculation is deliberate System 2 analysis (column c). The two intuition varieties are subjectively similar, which is why the heuristic ones feel so confident."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Baseline, Intuition, and the Corrected Prediction",
+          "visual_frame_description": "A whiteboard in a statistics lecture hall. The board shows four numbered steps under the title 'A Correction for Intuitive Predictions': start with average GPA, find the GPA that matches the evidence, estimate the correlation, and move that fraction of the distance. Floating cards present seven actual forecast moves the player must classify as baseline, intuitive, or corrected.",
+          "player_mission": "Classify each forecasting move as a baseline prediction, an intuitive nonregressive prediction, or the corrected regressive prediction from the four-step procedure. Prove you can separate the pieces of the correction method.",
+          "key_concepts": [
+            "Step 1 is the baseline: the GPA you would predict if you knew nothing beyond that Julie is a graduating senior.",
+            "Step 2 is your intuitive prediction, which matches your evaluation of the evidence.",
+            "Step 3 asks you to estimate the correlation between your evidence and the predicted variable.",
+            "Step 4: if the correlation is .30, move 30% of the distance from the average to the matching GPA.",
+            "The correlation between two measures equals the proportion of shared factors among their determinants.",
+            "Kahneman's most optimistic guess about the correlation between reading age and GPA is about 30%.",
+            "Intuitive predictions are not regressive and therefore biased.",
+            "Nonregressive predictions are overly optimistic for those who did best and overly pessimistic for those who had a bad start.",
+            "Unbiased predictions are about equally likely to overestimate and to underestimate the true value.",
+            "Correcting intuitive predictions is a task for System 2 and requires significant effort."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the four-step correction formula that tames intuitive predictions: anchor at the baseline, register the intuitive number, estimate the evidence's correlation with the outcome, and move only that fraction of the distance. Kahneman's method converts an extreme intuitive guess into an unbiased, regressed prediction.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sort each forecasting move into the stage of the correction procedure it represents.",
+          "column_a_label": "Baseline prediction (no useful information)",
+          "column_b_label": "Intuitive nonregressive prediction (matches the evidence)",
+          "column_c_label": "Corrected regressive prediction (moved toward the baseline)",
+          "rows": [
+            {
+              "label": "Predicting the average GPA for all seniors because you were told nothing about Julie.",
+              "col": "a"
+            },
+            {
+              "label": "Predicting Julie's GPA is around 3.7 to 3.8 because early reading seems that impressive.",
+              "col": "b"
+            },
+            {
+              "label": "An IDF officer predicts a cadet will earn an A in officer school because he earned an A in the unit's rating.",
+              "col": "b"
+            },
+            {
+              "label": "Predicting each golfer's day-2 score will repeat his day-1 score exactly.",
+              "col": "b"
+            },
+            {
+              "label": "With an estimated correlation of .30, moving 30% of the distance from the average GPA toward the matching GPA.",
+              "col": "c"
+            },
+            {
+              "label": "Predicting the golfer who shot 66 on day 1 will finish day 2 closer to the tournament average.",
+              "col": "c"
+            },
+            {
+              "label": "Assigning Julie the same percentile for GPA as for reading precocity.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The corrected prediction keeps the extreme number because intuition is the best evidence available.",
+            "The baseline should always be the intuitive prediction because it uses more information.",
+            "The correlation estimate determines which stores, not how far to move."
+          ],
+          "explanation": "The modal category is the intuitive nonregressive prediction (column b): people match the extremeness of the prediction to the extremeness of the evidence, whether they are predicting Julie's GPA, repeating a golfer's day-1 score, or translating a unit grade into a school grade. The baseline (column a) applies only when no information exists, and the corrected prediction (column c) is what the four-step procedure produces by moving only the estimated correlation fraction of the distance from the baseline toward the intuition."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "When Extreme Predictions Are Justified",
+          "visual_frame_description": "A venture capital boardroom overlooking a city skyline. Across the table sit a conservative banker in a gray suit and a venture capitalist in a hoodie, each with a different set of decision cards. A flowchart on the wall asks: 'Are all errors equal?' and the player sorts seven decision rules into columns about unbiased prediction versus justified extremism.",
+          "player_mission": "Classify each decision rule as an unbiased moderate prediction, an extreme prediction justified by asymmetric costs, or an extreme prediction that is never justified. Master the chapter's argument that the choice of bias depends on how much worse one kind of error is than another.",
+          "key_concepts": [
+            "A preference for unbiased predictions is justified if all errors of prediction are treated alike regardless of direction.",
+            "There are situations in which one type of error is much worse than another.",
+            "When a venture capitalist looks for the next big thing, the risk of missing the next Google or Facebook matters more than small losses on failed start-ups.",
+            "The goal of venture capitalists is to call the extreme cases correctly, even at the cost of overestimating many other ventures.",
+            "For a conservative banker making large loans, the risk of a single borrower's bankruptcy may outweigh the risk of turning down several good clients.",
+            "In such cases extreme language ('very good prospect', 'serious risk of default') may be justified even if the underlying information is of only modest validity.",
+            "A rational person can invest a large sum in an enterprise most likely to fail if the rewards of success are large enough.",
+            "Rational individuals predicting a firm's revenue should consider a range of uncertainty, not a single number.",
+            "Extreme predictions and a willingness to predict rare events from weak evidence are both manifestations of System 1.",
+            "Unbiased predictions never produce the satisfying 'I thought so!' experience of correctly calling an extreme case."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the chapter's nuanced defense of extreme predictions: moderate unbiased predictions are the default ideal, but when the costs of errors are strongly asymmetric, extreme language can be justified even on weak evidence. Kahneman insists, however, that those who choose extreme predictions should remain aware they are indulging themselves.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sort each decision rule into the category that best describes its justification under the chapter's logic.",
+          "column_a_label": "Unbiased moderate prediction appropriate",
+          "column_b_label": "Extreme prediction justified by asymmetric error costs",
+          "column_c_label": "Extreme prediction always unjustified",
+          "rows": [
+            {
+              "label": "A venture capitalist aims to call the extreme cases correctly, accepting that most of her bets will fail.",
+              "col": "b"
+            },
+            {
+              "label": "A conservative banker treats one borrower's bankruptcy as worse than declining several good clients, and uses strong risk language.",
+              "col": "b"
+            },
+            {
+              "label": "A search committee forecasting a candidate's productivity regresses the prediction because the evidence from one talk is modest.",
+              "col": "a"
+            },
+            {
+              "label": "A rational investor invests large sums in risky ventures only when the rewards of success are large enough, without deluding herself.",
+              "col": "a"
+            },
+            {
+              "label": "A rational person predicting a firm's revenue reports a range of uncertainty instead of one dramatic number.",
+              "col": "a"
+            },
+            {
+              "label": "A banker labels a borrower 'serious risk of default' even though the information is of modest validity, because default is catastrophic for him.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Extreme predictions are always the rational choice because they are more decisive.",
+            "Unbiased predictions are worthless because they never call extreme events correctly.",
+            "Asymmetric error costs have no bearing on whether extreme language is justified."
+          ],
+          "explanation": "The modal category is the unbiased moderate prediction (column a): for rational decision makers with balanced error costs, moderate predictions and uncertainty ranges are the correct default. The venture capitalist and the conservative banker belong in column b because their error costs are asymmetric, making extreme bets or extreme risk language rational; nobody belongs in column c, because the chapter never endorses extremism as always wrong, only as a self-indulgence to be kept in view."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Officer School Forecasts",
+          "visual_frame_description": "An Israeli Defense Forces selection unit. Captain Mordechai, a senior interviewer, fills out a forecast card for a cadet while Kahneman's research assistant collects a stack of similar cards. A split screen compares the predicted grade distribution with the school's final grade distribution, showing nearly identical letter frequencies.",
+          "player_mission": "Audit the officer forecasts. Review Captain Mordechai's baseline grading habits, his timed forecasting behavior, and his interview answers, then diagnose why his predictions so perfectly mirror the school's grade frequencies instead of forecasting real outcomes.",
+          "key_concepts": [
+            "The unit selected candidates for officer training on the basis of a series of interviews and field tests.",
+            "The designated criterion for successful prediction was a cadet's final grade in officer school.",
+            "The validity of the ratings was known to be rather poor.",
+            "The officers were asked to give their best guess of the grade each future cadet would obtain in officer school.",
+            "The relative frequency of A's and B's in the predictions was almost identical to the frequencies in the final grades of the school.",
+            "The officers completely failed to discriminate between evaluating candidates at the unit and predicting a future grade.",
+            "They translated their own grades onto the scale used in officer school, applying intensity matching.",
+            "The failure to address the considerable uncertainty of their predictions led to predictions that were completely nonregressive.",
+            "When a link is found, WYSIATI applies: associative memory constructs the best possible story from the information available.",
+            "Intuitive predictions are almost completely insensitive to the actual predictive quality of the evidence."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests substitution and intensity matching in a real forecasting organization: officers answered 'what grade would he get here' instead of the harder question 'what grade will he earn next year,' so their predictions echoed the school's grade frequencies and ignored uncertainty. Kahneman collected a few hundred such forecasts and found them completely nonregressive.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "What is the correct diagnosis of why the officers' forecast grades so closely matched the school's final grade distribution?",
+          "subject_baseline": "Captain Mordechai has spent years interviewing candidates and issuing letter grades that describe performance during the unit's observation period. He is skilled at evaluating candidates at the unit and proud of his judgment, but he has never tracked how his ratings relate to later officer school outcomes.",
+          "observed_nonverbal_log": [
+            "11:03 - Receives the forecast forms and reads the instructions aloud once, nodding.",
+            "11:05 - Pauses briefly, then writes a grade for the first cadet without consulting any prior notes.",
+            "11:06 - Works through the stack quickly, roughly one card every twenty seconds.",
+            "11:08 - Pauses at a borderline cadet, frowns, then assigns the same letter he gave in the unit rating.",
+            "11:12 - Hands back the finished stack, visibly satisfied, and remarks that the task 'was easy.'",
+            "11:13 - Does not ask how well such forecasts have historically tracked officer school grades."
+          ],
+          "interrogation_transcript": [
+            "Researcher: 'This is not your usual rating. I am asking for the grade this cadet will obtain in officer school.'",
+            "Mordechai: 'Right. And he earned an A here, so he'll get an A there.'",
+            "Researcher: 'Officer school is a different environment, with different instructors and a different grading curve. Could that matter?'",
+            "Mordechai: 'A good cadet is a good cadet. Same scale, same letter.'",
+            "Researcher: 'How confident are you in each forecast?'",
+            "Mordechai: 'Very. I have met all of them.'",
+            "Researcher: 'If you compared these to the actual school grades later, would the match be perfect?'",
+            "Mordechai: 'It should be. That's the point of a forecast.'"
+          ],
+          "correct_diagnosis": "The officers committed substitution and intensity matching: they answered the easy question 'what grade did this candidate earn at the unit' instead of the hard question 'what grade will he earn in officer school,' translating their unit grades onto the school's scale and producing nonregressive predictions that ignored uncertainty.",
+          "diagnostic_breakdown": "Evidence: the predicted distribution of A's and B's matched the school's final grade frequencies almost exactly, and Mordechai's own answers reveal he saw no difference between the unit rating and the forecast. Conclusion: he evaluated current performance rather than predicting a future outcome, and because intensity matching holds the percentile constant, the prediction is as extreme as the evidence and ignores the school's uncertainty and the ratings' known poor validity. The correct approach would regress the forecasts toward the school's average grade in proportion to the (low) correlation between the ratings and final grades.",
+          "distractors": [
+            "The officers' forecasts were accurate, which is why the grade frequencies matched.",
+            "The officers deliberately copied the school's curve to please the researcher.",
+            "The matching grade frequencies prove the interviews were highly valid predictors."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Next Google Pitch",
+          "visual_frame_description": "A venture capital pitch room. Sofia, a founding partner, leans over the table as a founder finishes a demo, and she scrawls 'VERY HIGH probability of success' on a term sheet. Beside her, an analyst's laptop shows the start-up's scant early data. A banner reads 'NONREGRESSIVE PREDICTION AUDIT.'",
+          "player_mission": "Audit Sofia's forecast that this early-stage start-up is 'the next Google.' Review her baseline deal-making style, her timed reactions during the pitch, and her interview answers, then diagnose whether her extreme confidence is justified.",
+          "key_concepts": [
+            "Intuitive predictions tend to be overconfident and overly extreme.",
+            "Intensity matching yields predictions that are as extreme as the evidence on which they are based.",
+            "Confidence is determined by the coherence of the best story you can tell from the evidence at hand.",
+            "WYSIATI applies: associative memory quickly constructs the best possible story from available information.",
+            "Because of the limitations of the evidence, a venture capitalist will never be told that the probability of success for a start-up in its early stages is 'very high.'",
+            "If your predictions are unbiased, you will never have the satisfying experience of correctly calling an extreme case.",
+            "Unbiased predictions permit predicting rare or extreme events only when the information is very good.",
+            "A rational investor can invest in a venture most likely to fail if the rewards of success are large enough, without deluding herself.",
+            "Extreme predictions are a manifestation of System 1, which naturally matches the extremeness of the prediction to the extremeness of the evidence.",
+            "Correcting intuitive predictions is a task for System 2 and requires significant effort."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests overconfident nonregressive prediction: a compelling narrative makes confidence high while the actual evidence is tiny, so the 'very high probability' label is unjustified by the data. Kahneman states directly that an unbiased forecaster will never attach 'very high' probability to an early-stage start-up.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "What is the correct diagnosis of Sofia's 'very high probability of success' forecast for the early-stage start-up?",
+          "subject_baseline": "Sofia is a charismatic founding partner known for betting on narrative, not numbers. She routinely speaks in superlatives, prides herself on gut instinct, and has a track record of championing one dramatic success while quietly losing money on many smaller bets she barely remembers.",
+          "observed_nonverbal_log": [
+            "15:02 - Leans forward the moment the founder says the product will 'change how people think about work.'",
+            "15:04 - Interrupts the demo to ask about the founder's background rather than unit economics.",
+            "15:07 - Writes 'next Google' on a napkin and slides it toward her analyst, grinning.",
+            "15:09 - When the analyst mentions that only 20 pilot users exist, Sofia waves dismissively.",
+            "15:11 - Scrawls 'VERY HIGH probability of success' on the term sheet without running any scenario analysis."
+          ],
+          "interrogation_transcript": [
+            "Analyst: 'Sofia, you just marked the probability of success as very high. What data support that?'",
+            "Sofia: 'Did you watch that demo? The founder is exceptional, and the story is obvious.'",
+            "Analyst: 'Twenty pilot users and no revenue is a very small sample.'",
+            "Sofia: 'Google started in a garage. Small samples are exactly where the next big thing hides.'",
+            "Analyst: 'How many early-stage start-ups that you rated very high have failed?'",
+            "Sofia: 'I don't keep a count. I keep the ones I believed in.'",
+            "Analyst: 'Would you bet your bonus on this probability being accurate?'",
+            "Sofia: 'I would bet my reputation on the founder. That is what the number means.'"
+          ],
+          "correct_diagnosis": "The forecast is unjustified and nonregressive: Sofia substituted a compelling evaluation of the story for a probability judgment about an uncertain future, produced an extreme confidence number with no data behind it, and ignored the tiny sample and the base rate of start-up failure.",
+          "diagnostic_breakdown": "Evidence: twenty pilot users, no revenue, no scenario analysis, and Sofia's own refusal to track how her 'very high' ratings have fared. Conclusion: her confidence comes from the coherence of the story, not the quality of the evidence, which is exactly how System 1 generates overconfidence. The chapter states that an unbiased predictor would never call an early-stage start-up's success probability 'very high'; the rational move is to invest only if the potential payoff justifies the odds, while keeping the probability estimate moderate and honest.",
+          "distractors": [
+            "Sofia's track record of believing in founders proves her extreme probability estimate is accurate.",
+            "The small pilot sample is actually a strength because big ideas always start small.",
+            "An honest probability estimate for a start-up in its early stages should be 'very high' if the founder is exceptional."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Julie's GPA Correction",
+          "visual_frame_description": "A university advising office. On one screen, a file for Julie: 'read fluently at age four,' with a sticky note reading 'GPA ~3.7.' Beside it, a four-step whiteboard shows baseline, matching GPA, correlation estimate of .30, and the final corrected number. An advising dean, Rosa, stares at the corrected figure with her arms crossed.",
+          "player_mission": "Win the battle against the intuitive but biased GPA prediction. First apply the four-step correction to Julie's case and name the correct predicted GPA; then defend your regressive number against Dean Rosa, who prefers the exciting 3.7.",
+          "key_concepts": [
+            "Julie read fluently when she was four years old, and early reading and high GPA are both indications of academic talent.",
+            "People familiar with the American educational scene quickly estimate her GPA in the vicinity of 3.7 or 3.8.",
+            "The first step of the correction is the baseline: the average GPA for graduating seniors.",
+            "The second step is the GPA that matches your impression of the evidence.",
+            "The third step is estimating the correlation between the evidence (reading age) and GPA.",
+            "Kahneman's most optimistic estimate of that correlation is about 30%.",
+            "The final step moves 30% of the distance from the average to the matching GPA.",
+            "WYSIATI applies: associative memory constructs the best possible story from the available information.",
+            "Intuitive predictions are nonregressive and therefore systematically biased.",
+            "The corrected prediction is influenced by intuition but far more moderate."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the four-step correction formula using the chapter's central example: Julie's GPA should be predicted by moving only the estimated correlation fraction of the distance from the baseline toward the intuitive 3.7-3.8, yielding a much more moderate number. Kahneman's method makes predictions unbiased so errors do not systematically favor high or low outcomes.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The correction for intuitive predictions: start from the baseline, register the intuitive matching GPA, estimate the correlation between evidence and outcome, and move only that fraction of the distance from the baseline toward the intuition.",
+          "stage_1_observation": "Rosa reviews the file: Julie is a graduating senior who read fluently at age four. Everyone in the office immediately feels the GPA should be around 3.7 or 3.8. The four-step board shows the baseline average GPA for seniors (about 3.0), the matching GPA for early reading (about 3.75), and the estimated correlation between reading precocity and GPA of .30.",
+          "stage_1_question": "Applying the four-step correction with a .30 correlation, what GPA should you actually predict for Julie?",
+          "stage_1_correct_answer": "Move 30% of the distance from the baseline (about 3.0) toward the matching GPA (about 3.75), which lands around 3.2. You should not report 3.7-3.8: the intuitive number matches the extremeness of the evidence but ignores uncertainty, and with only a .30 correlation you are allowed to move only 30% of the distance, producing a moderate, regressive prediction.",
+          "stage_2_intervention": "Dean Rosa pushes back: 'This is ridiculous. A student who read fluently at four is clearly a 3.7 student. If we record 3.2 on her academic profile, we undersell a brilliant young woman. Change the number.'",
+          "stage_2_correct_answer": "Hold the regressive prediction and explain that 3.2 is the unbiased estimate because early reading and GPA share only about 30% of their determinants; the rest is specific factors and chance. Remind Rosa that predicting 3.7 would, on average, be overly optimistic for early readers, and that unbiased predictions are about equally likely to over- and underestimate. She may still invest emotionally in the student, but the forecast should remain moderate, with the acknowledgment that unbiased predictions never produce the thrilling 'I thought so' outcome."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Kim versus Jane",
+          "visual_frame_description": "A university search-committee room. On the screen, two candidate files: Kim, with spectacular recommendations and a brilliant talk but no substantial track record, and Jane, with three productive postdoctoral years but a less sparkling interview. Committee members lean toward Kim's file, which glows with the halo of a great impression.",
+          "player_mission": "Beat the WYSIATI-driven impulse to pick Kim. First decide which candidate's future productivity regresses more toward the mean and why; then guide the committee to the defensible hiring choice under the law of small numbers.",
+          "key_concepts": [
+            "Kim has spectacular recommendations, gave a brilliant talk, and impressed everyone in her interviews.",
+            "Kim has no substantial track record of scientific productivity.",
+            "Jane held a postdoctoral position for three years, is very productive, and has an excellent research record.",
+            "Jane's talk and interviews were less sparkling than Kim's.",
+            "The intuitive choice favors Kim because she left a stronger impression, and because of WYSIATI.",
+            "There is much less information about Kim than about Jane: a smaller sample, so extreme outcomes are much more likely.",
+            "More luck is in the outcomes of small samples, so you should regress your prediction more deeply toward the mean for Kim.",
+            "When you allow for the fact that Kim is likely to regress more than Jane, you might end up selecting Jane.",
+            "In the context of academic choices, Kahneman would vote for Jane, but it would be a struggle to overcome the impression that Kim is more promising.",
+            "Following our intuitions is more natural, and somehow more pleasant, than acting against them."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the law of small numbers applied to personnel prediction: Kim's brilliance rests on a small sample of impressive observations full of luck, so her future productivity should be regressed more deeply toward the mean than Jane's well-documented record. Kahneman says he would vote for Jane, but only by struggling against his intuition.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The law of small numbers in prediction: with less information about a candidate, extreme outcomes are more likely to be luck, so the future should be regressed more deeply toward the mean; the candidate with the longer record deserves more weight.",
+          "stage_1_observation": "The committee narrows the search to Kim and Jane. Kim's file glitters: spectacular recommendations, a brilliant talk, rave interviews, but no substantial publication record. Jane's file is solid: three years as a productive postdoc with an excellent research record, but her talk and interviews were less sparkling. The room's energy visibly tilts toward Kim.",
+          "stage_1_question": "Which candidate's future scientific productivity should be regressed more deeply toward the mean, and why?",
+          "stage_1_correct_answer": "Kim's. The evidence about her is a much smaller sample: spectacular impressions from a short contact window with no track record to back them. Small samples produce more extreme and luckier outcomes, so her observed brilliance is more likely to regress toward the mean than Jane's documented three-year record. The correct forecast pulls Kim's prediction down farther than Jane's.",
+          "stage_2_intervention": "The committee chair announces they will offer the position to Kim: 'Her talk was the best we have ever seen. This is the obvious hire.' You must decide how to steer the vote before the offer is made.",
+          "stage_2_correct_answer": "Argue for weighting the evidence correctly: Jane's larger sample of actual productivity is more reliable, and once Kim's prediction is regressed deeply toward the mean, Jane becomes the better bet. Recommend Jane, exactly as Kahneman says he would vote, while acknowledging that overriding the intuitive pull toward Kim is a real struggle; you can also suggest deferring judgment on Kim's fast-track potential until more of her track record accumulates."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The One-Review Trap",
+          "visual_frame_description": "A procurement desk at a retail buyer's office. Mateo, the procurement director, stares at two browser tabs: one brand with three five-star reviews, another with hundreds of reviews averaging 4.4. A graph shows the first brand's average trending downward as review count grows. His assistant points triumphantly at the five stars.",
+          "player_mission": "Defeat the one-review trap. First decide what the three five-star reviews actually predict about the brand's quality; then stop your assistant from ordering based on the small sample and choose the defensible procurement strategy.",
+          "key_concepts": [
+            "I read one review of that brand and it was excellent; still, that could have been a fluke.",
+            "Consider only the brands that have a large number of reviews and pick the one that looks best.",
+            "The law of small numbers: extreme outcomes are much more likely to be observed in small samples.",
+            "There is more luck in the outcomes of small samples.",
+            "When a link is found, WYSIATI applies: associative memory constructs the best possible story from the available information.",
+            "Intuitive predictions are almost completely insensitive to the actual predictive quality of the evidence.",
+            "A single excellent observation does not justify an extreme prediction of the true average.",
+            "Regression to the mean explains why the three-review brand's rating will likely drop as more reviews accumulate.",
+            "Unbiased predictions permit predicting extreme outcomes only when the information is very good.",
+            "Correcting intuitive predictions is a task for System 2 and requires significant effort."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the law of small numbers in everyday purchasing judgment: a handful of perfect reviews is a tiny sample whose extreme average is mostly luck, so it should regress toward the true quality as more data arrive. Kahneman's own advice is to consider only brands with a large number of reviews and pick the best among those.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The law of small numbers in data interpretation: small samples produce extreme and unreliable outcomes, so a brand's perfect-but-tiny review average is more likely to regress toward its true quality than a large sample's rating is to move.",
+          "stage_1_observation": "Mateo's assistant found a new supplier brand with only three reviews, all five stars, displayed prominently in the market. An established brand has hundreds of reviews averaging 4.4. The assistant argues the five-star brand is obviously superior because its average is higher.",
+          "stage_1_question": "What does the three-review brand's perfect average actually predict about the quality of its product?",
+          "stage_1_correct_answer": "Almost nothing reliable: three five-star ratings are a tiny sample, so the perfect average is very likely to be a fluke of luck and will regress toward the brand's true quality as more reviews accumulate. The correct expectation is a rating substantially below 5.0, while the 4.4 average based on hundreds of reviews is a far better estimate of actual quality.",
+          "stage_2_intervention": "The assistant has already prepared a purchase order for a large batch of the three-review brand, arguing that a 5.0 rating with rising demand makes it a bargain. Mateo must decide what to do before the order is submitted.",
+          "stage_2_correct_answer": "Cancel the small-sample order and switch procurement to the brand with a large number of reviews and the best stable rating, exactly as the chapter advises. Explain to the assistant that a perfect score on three reviews is expected to regress toward the mean, that extreme outcomes are much more likely in small samples, and that an honest estimate of the brand's quality must discount the perfect average until a large sample confirms it."
+        }
+      ]
+    }
+  ]
+}

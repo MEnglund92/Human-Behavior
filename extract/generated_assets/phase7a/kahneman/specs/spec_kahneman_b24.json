@@ -1,0 +1,89 @@
+{
+  "spec_file": "spec_kahneman_b24.json",
+  "book_key": "kahneman",
+  "book_title": "Thinking, Fast and Slow (Daniel Kahneman)",
+  "topic": "cognitive-biases",
+  "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+  "credibility_profile": {
+    "level": "High",
+    "consensus": "Broad",
+    "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+  },
+  "modality_weights": {
+    "DISCRIMINATION_MATRIX": 40,
+    "DECEPTION_AUDIT_FILE": 30,
+    "BOSS_BATTLE": 30
+  },
+  "chapter_count": 1,
+  "chapters": [
+    {
+      "index": 46,
+      "title": "Appendix B: Choices, Values, and Frames",
+      "words": 8404,
+      "asset_count": 12,
+      "text_path": "extract/generated_assets/phase7a/kahneman/chapter_0046.txt",
+      "top_concepts": [
+        {
+          "term": "behavior",
+          "context": "ople organize the outcomes of transactions, explains some anomalies of consumer behavior. In particular, the acceptability of an option can depend on whether a negative outcome is evaluated as a cost or as an"
+        },
+        {
+          "term": "risk aversion",
+          "context": "nts of choice in risky and riskless contexts. The psychophysics of value induce risk aversion in the domain of gains and risk seeking in the domain of losses. The psychophysics of chance induce overweighting of su"
+        },
+        {
+          "term": "mental accounting",
+          "context": "rences, contrary to the invariance criterion of rational choice. The process of mental accounting, in which people organize the outcomes of transactions, explains some anomalies of consumer behavior. In particular, th"
+        },
+        {
+          "term": "loss aversion",
+          "context": "nsiderably steeper for losses than for gains. The last property, which we label loss aversion, expresses the intuition that a loss of $X is more aversive than a gain of $X is attractive. Loss aversion explains peo"
+        },
+        {
+          "term": "value function",
+          "context": "together, we obtain an S-shaped function of the type displayed in Figure 1. The value function shown in Figure 1 is (a) defined on gains and losses rather than on total wealth, (b) concave in the domain of gains an"
+        },
+        {
+          "term": "influence",
+          "context": "rms of survival. A physician, and perhaps a presidential advisor as well, could influence the decision made by the patient or by the President, without distorting or suppressing information, merely by the fram"
+        },
+        {
+          "term": "reference point",
+          "context": "o programs would you favor? The formulation of Problem 1 implicitly adopts as a reference point a state of affairs in which the disease is allowed to take its toll of 600 lives. The outcomes of the programs include"
+        },
+        {
+          "term": "endowment effect",
+          "context": "be biased in favor of retaining the status quo. Thaler (1980) coined the term “endowment effect” to describe the reluctance of people to part from assets that belong to their endowment. When it is more painful to gi"
+        },
+        {
+          "term": "prospect theory",
+          "context": "s assumption plays a central role in a treatment of risky choice that we called prospect theory (Kahneman and Tversky 1979). Introspection as well as psychophysical measurements suggest that subjective value is a co"
+        },
+        {
+          "term": "intuition",
+          "context": "than for gains. The last property, which we label loss aversion, expresses the intuition that a loss of $X is more aversive than a gain of $X is attractive. Loss aversion explains people’s reluctance to bet o"
+        },
+        {
+          "term": "substitution",
+          "context": "(if A is preferred to B and B is preferred to C, then A is preferred to C), and substitution (if A is preferred to B, then an even chance to get A or C is preferred to an even chance to get B or C), along with ot"
+        },
+        {
+          "term": "hypothesis",
+          "context": "y has a bigger impact than a comparable change in the middle of the scale. This hypothesis is incorporated into the curve displayed in Figure 2, which plots the weight attached to an event as a function of its"
+        },
+        {
+          "term": "response",
+          "context": "and Insurance 46: 603–18. Slovic, P., B. Fischhoff, and S. Lichtenstein. 1982. “Response Mode, Framing, and InformationProcessing Effects in Risk Assessment.” In New Directions for Methodology of Social and B"
+        },
+        {
+          "term": "generalization",
+          "context": "est that subjective value is a concave function of the size of a gain. The same generalization applies to losses as well. The difference in subjective value between a loss of $200 and a loss of $100 appears greater"
+        },
+        {
+          "term": "boundary",
+          "context": "ller than an increase from 95% to 100%. These considerations suggest a category-boundary effect: A change from impossibility to possibility or from possibility to certainty has a bigger impact than a comparab"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,826 @@
+{
+  "spec_file": "spec_kahneman_b16.json",
+  "chapters": [
+    {
+      "id": "ch31",
+      "title": "26. Prospect Theory",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Reference Point and the Counterexample to Bernoulli",
+          "visual_frame_description": "Sofia, a junior analyst in a glass-walled finance office, stares at two side-by-side decision screens. On the left, the problem gives her $1,000 and asks whether she prefers a 50% chance to win $1,000 or $500 for sure. On the right, the problem gives her $2,000 and asks whether she prefers a 50% chance to lose $1,000 or losing $500 for sure. A subtle overlay highlights that both screens reduce to the same final wealth, while a small panel tracks her eye movements and reaction times.",
+          "player_mission": "Classify the evidence rows into the column that best explains why Sofia reverses her choice between the two problems. Your goal is to identify the single prospect-theory mechanism that accounts for the reversal, using each evidence item to confirm it.",
+          "key_concepts": [
+            "Prospect theory defines outcomes as gains and losses relative to a reference point, not as states of wealth.",
+            "Bernoulli's expected utility theory treats only final wealth, which is why it predicted identical choices in problems 3 and 4.",
+            "The reference point is the earlier state relative to which gains and losses are evaluated.",
+            "Gifts and bonuses already included in the reference point are generally ignored when people choose.",
+            "Identical final outcomes produce risk-averse choices when framed as gains and risk-seeking choices when framed as losses.",
+            "The reference point can be the status quo, an expected outcome, or an outcome to which the person feels entitled.",
+            "Kahneman and Tversky called the reference point the moving part missing from Bernoulli's model.",
+            "Theory-induced blindness kept scholars from noticing the missing reference point for more than 250 years.",
+            "The demonstration uses an adaptation level: the same stimulus can be a gain or a loss depending on context.",
+            "The rejection of a sure loss in favor of a gamble is driven by diminishing sensitivity in the loss domain."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests reference-point dependence: outcomes are evaluated as gains and losses relative to a reference point, and identical final states of wealth produce opposite choices when the reference point shifts. Kahneman and Tversky's problems 3 and 4 showed that a decisive counterexample to Bernoulli's theory arises purely from reframing the same outcomes relative to a different reference state.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sofia is given $2,000 before choosing between a 50% chance to lose $1,000 and a sure loss of $500; given $1,000 instead, she faces a 50% chance to win $1,000 versus $500 for sure and picks the sure thing. The two problems produce identical final states of wealth. Which mechanism in prospect theory explains why she reverses her choice?",
+          "column_a_label": "Evaluation relative to a reference point (gains and losses, not states of wealth)",
+          "column_b_label": "Loss aversion in mixed gambles (losses loom about twice as large as gains)",
+          "column_c_label": "Diminishing sensitivity (the S-shaped value function)",
+          "rows": [
+            {
+              "label": "With the $2,000 head start, the certain $1,500 outcome is experienced as a $500 loss, which makes the gamble look better.",
+              "col": "a"
+            },
+            {
+              "label": "With the $1,000 head start, the same certain $1,500 outcome is experienced as a $500 gain, which makes the sure thing look better.",
+              "col": "a"
+            },
+            {
+              "label": "The $1,000 or $2,000 gift is absorbed into the reference point, so Sofia barely notices it when she chooses.",
+              "col": "a"
+            },
+            {
+              "label": "Bernoulli's utility theory predicted identical choices because only final states of wealth mattered, yet large majorities reversed.",
+              "col": "a"
+            },
+            {
+              "label": "The reference point is the earlier state relative to which every option is coded as a gain or a loss.",
+              "col": "a"
+            },
+            {
+              "label": "When the same pair of options is framed once as gains and once as losses, risk attitude flips from risk aversion to risk seeking.",
+              "col": "a"
+            },
+            {
+              "label": "Kahneman and Tversky found this reversal to be a decisive counterexample to expected utility theory.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Loss aversion in mixed gambles: rejecting 50/50 bets with a positive expected value because the possible loss feels twice as large as the gain.",
+            "Diminishing sensitivity: the subjective difference between $1,000 and $2,000 is smaller than between $100 and $200.",
+            "Adaptation level: evaluations are relative to a neutral reference point, such as the temperature of three bowls of water."
+          ],
+          "explanation": "All seven evidence items point to the reference point, the missing moving part in Bernoulli's model. In problems 3 and 4 the final states of wealth are identical, so utility theory demanded the same preference in both. The reversal happened because the $2,000 version coded the certain option as a $500 loss (aversion to a sure loss pushes people to gamble) while the $1,000 version coded it as a $500 gain (people prefer the sure gain). The gift itself vanishes into the reference point and is ignored. This is why prospect theory evaluates gains and losses relative to a reference state rather than evaluating states of wealth."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Risk Aversion, Risk Seeking, and Mixed-Prospect Rejection",
+          "visual_frame_description": "Tom, a portfolio manager in a trading floor, faces a large wall of seven decision cards. Each card shows a gamble from Kahneman and Tversky's problems, and three colored sorting bays glow beneath: green for the gain domain, red for the loss domain, and gold for mixed prospects. Tom must drag each card into the correct bay as a live preference ticker shows how real participants answered.",
+          "player_mission": "Sort each decision problem into the column whose prospect-theory mechanism dominates most people's choice. Focus first on the focal problem in the question, then use the remaining rows to confirm that the same mechanism explains the whole set.",
+          "key_concepts": [
+            "Risk aversion is the norm for gains: the subjective value of $900 is more than 90% of the value of $1,000.",
+            "Risk aversion is replaced by risk seeking when the focus switches to losses.",
+            "The sure loss is very aversive and drives people to take a risk.",
+            "The negative value of losing $900 is much more than 90% of the negative value of losing $1,000.",
+            "In problem 3 most people prefer the sure $500 gain over the gamble.",
+            "In problem 4 most people prefer the gamble over the sure $500 loss.",
+            "A coin toss that loses $100 and wins $150 has a positive expected value, yet most people reject it.",
+            "For most people, the fear of losing $100 is more intense than the hope of gaining $150.",
+            "In mixed gambles, loss aversion causes extremely risk-averse choices.",
+            "In bad choices, diminishing sensitivity causes risk seeking."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This asset contrasts the three operating characteristics of System 1 that anchor prospect theory: risk aversion for gains, risk seeking for losses, and loss aversion that makes mixed prospects unattractive. Kahneman and Tversky found the same value function explains all three: diminishing sensitivity bends the curve in both domains, while the steeper slope for losses produces the roughly two-to-one asymmetry.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Priya's team faces problem 2 from the book: lose $900 for sure OR a 90% chance to lose $1,000. If she is like most people, she will take the gamble. Which prospect-theory mechanism drives that choice?",
+          "column_a_label": "Risk aversion in the gain domain (sure gain preferred)",
+          "column_b_label": "Risk seeking in the loss domain (gamble preferred over a sure loss)",
+          "column_c_label": "Loss aversion rejects favorable mixed gambles (possible loss looms larger than the gain)",
+          "rows": [
+            {
+              "label": "Get $900 for sure versus a 90% chance to get $1,000: the great majority choose the sure $900.",
+              "col": "a"
+            },
+            {
+              "label": "The sure loss of $900 is very aversive, which drives people to accept the risk of the gamble.",
+              "col": "b"
+            },
+            {
+              "label": "In problem 3 (after a $1,000 gift) most choose the sure $500 over a 50% chance to win $1,000.",
+              "col": "a"
+            },
+            {
+              "label": "In problem 4 (after a $2,000 gift) most choose the gamble over losing $500 for sure.",
+              "col": "b"
+            },
+            {
+              "label": "A coin toss where tails loses $100 and heads wins $150 has a positive expected value, yet most people reject it.",
+              "col": "c"
+            },
+            {
+              "label": "The fear of losing $100 is more intense than the hope of gaining $150 in the coin-toss prospect.",
+              "col": "c"
+            },
+            {
+              "label": "The pain of losing $900 is more than 90% of the pain of losing $1,000, so the sure loss is unbearable.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Loss aversion: the possible loss of $900 looms larger than the possible gain of $1,000.",
+            "Expected value maximization: the gamble's expected value exceeds the sure outcome.",
+            "A preference for certainty: people always avoid risk regardless of the domain."
+          ],
+          "explanation": "The focal problem sits in the loss domain, where the bending of the value curve makes losing $900 feel almost as bad as losing $1,000, so the 10% chance to escape the loss is worth taking. In the gain domain the same curvature makes the sure gain feel closer to the full gain, producing risk aversion. Mixed prospects are a different case: the possible loss looms about twice as large as the gain, so even favorable gambles are rejected. These two insights, loss aversion in mixed gambles and diminishing sensitivity driving risk seeking in losses, are the essence of prospect theory."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Expected Utility, Prospect Theory, and Regret-Based Models",
+          "visual_frame_description": "In a university seminar room, an economics PhD student stands beside a whiteboard divided into three columns labeled with the three theories. Underneath, a stack of evidence cards from the chapter lies scattered on the table, each printed with a finding. The student argues all three theories fit the data equally well, and the player must sort the evidence cards into the correct columns.",
+          "player_mission": "Sort each evidence card from the chapter into the theory column it actually supports. Start with the focal finding in the question, then place the remaining findings to reveal which theory is supported, which is refuted, and which is overshadowed.",
+          "key_concepts": [
+            "Prospect theory assigns a value of zero to the reference outcome, so it cannot represent the disappointment of failing to win when a big win was very likely.",
+            "A high probability of winning sets up a tentative new reference point, so winning nothing is experienced as a large loss.",
+            "Regret makes the experience of an outcome depend on an option you could have adopted but did not.",
+            "In problem 7, choosing the gamble and losing compounds disappointment with regret over spurning a sure $150,000.",
+            "Regret and disappointment are real and decision makers anticipate them, yet regret theories had less influence than prospect theory.",
+            "Regret theories made few striking predictions that distinguished them from the simpler prospect theory.",
+            "Theory-induced blindness contributed to the acceptance of prospect theory, which has flaws of its own.",
+            "Expected utility theory treats gains and losses as differing only in sign, so it cannot represent loss aversion.",
+            "Kahneman and Tversky saw their move to gains and losses as overcoming a serious case of theory-induced blindness.",
+            "Rabin and Thaler concluded that it was time for economists to recognize that expected utility is an ex-hypothesis."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests prospect theory's blind spot: it cannot represent disappointment and regret because it assigns a fixed value of zero to the reference outcome, regardless of how likely or how valuable the alternative was. Kahneman notes that regret- and disappointment-based models gained less traction than prospect theory because they made few predictions that distinguished them from the simpler and otherwise successful theory.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Problem 7 offers a 90% chance to win $1 million OR $150,000 with certainty. Kahneman says the pain of choosing the gamble and losing is compounded by knowing you spurned a sure gift, an emotion prospect theory cannot represent. Which column does this finding belong to?",
+          "column_a_label": "Expected utility theory (Bernoulli): utility of states of wealth",
+          "column_b_label": "Prospect theory: reference point, loss aversion, diminishing sensitivity",
+          "column_c_label": "Regret and disappointment-based models: counterfactual emotion",
+          "rows": [
+            {
+              "label": "Failing to win in problem 7 (90% chance of $1 million versus $150,000 sure) compounds disappointment with regret over spurning the sure gift.",
+              "col": "c"
+            },
+            {
+              "label": "In problem 6 (90% chance of $1 million versus $50 sure) failing to win is only a disappointment, without the added sting of regret.",
+              "col": "c"
+            },
+            {
+              "label": "Regret makes the experience of an outcome depend on an option you could have chosen but did not.",
+              "col": "c"
+            },
+            {
+              "label": "Problems 3 and 4 produce different preferences for identical final states of wealth, a counterexample to Bernoulli.",
+              "col": "b"
+            },
+            {
+              "label": "The value of winning nothing is fixed at zero by prospect theory, yet failing to win when the prize was 90% likely feels like a large loss.",
+              "col": "c"
+            },
+            {
+              "label": "Expected utility theory cannot represent the fact that the disutility of losing $500 exceeds the utility of winning $500.",
+              "col": "a"
+            },
+            {
+              "label": "Regret- and disappointment-based models made few striking predictions that distinguished them from the simpler prospect theory.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "Loss aversion: the possible loss looms twice as large as the gain in mixed prospects.",
+            "Diminishing sensitivity: the value curve bends in both domains, causing risk seeking in losses.",
+            "Theory-induced blindness: scholars accepted expected utility because it predicted most market outcomes."
+          ],
+          "explanation": "The focal finding is the classic regret setup: the outcome is experienced relative to the option the chooser could have had. Because prospect theory fixes the value of the reference outcome at zero regardless of probability or the alternative's value, it cannot represent disappointment and regret. These emotions are real and anticipated, but regret models remained less influential because they made few predictions that the simpler prospect theory could not already make."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Detecting Reference-Point Dependence Behind a Wealth-Based Story",
+          "visual_frame_description": "In a quiet interview room, Devon, a 34-year-old accountant in a cardigan, sits across from an auditor. A video feed on the side of the screen shows time-stamped clips of his reactions, and a behavioral log streams each hesitation, facial expression, and answer to a set of gamble problems. The auditor's notes fill the right panel.",
+          "player_mission": "Review Devon's baseline, the timed observation log, and the interrogation transcript, then diagnose the real mechanism behind his choices. Choose the correct diagnosis and justify it with the evidence before the audit is closed.",
+          "key_concepts": [
+            "People evaluate options as gains and losses relative to a reference point, not as states of wealth.",
+            "The same final outcome is experienced as a gain in one frame and a loss in another.",
+            "Gifts already included in the reference point are generally ignored when people choose.",
+            "Risk aversion is the norm for gains; risk seeking appears when all options are losses.",
+            "The sure loss is very aversive and drives people to accept a gamble.",
+            "The rejection of the mixed coin-toss prospect shows that losses loom larger than gains.",
+            "Evaluation relative to a reference point is an operating characteristic of System 1.",
+            "Physiological arousal and hesitation can betray conflict between stated beliefs and emotional valuation.",
+            "Kahneman and Tversky called the reference point the missing moving part in Bernoulli's theory.",
+            "People generally dislike losing more than they like winning, regardless of their wealth."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests reference-point dependence and the gain/loss asymmetry: the same final outcomes reverse preferences when the reference point moves, and risk seeking appears in the loss domain. Kahneman and Tversky showed that people code options as gains and losses relative to a reference state, ignoring amounts already absorbed into it.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Devon claims he evaluates every financial decision by its effect on his total wealth. His observed choices suggest otherwise. Diagnose the real mechanism behind his behavior.",
+          "subject_baseline": "Devon, a 34-year-old staff accountant, describes himself as completely rational and says he never lets feelings color money decisions. In routine chat he frequently cites his net worth and says a gain or loss of a few hundred dollars barely registers against his savings.",
+          "observed_nonverbal_log": [
+            "12:00 - Presented with Get $900 for sure versus a 90% chance to get $1,000. Devon answers quickly, Sure thing, and relaxes, leaning back.",
+            "12:04 - Presented with Lose $900 for sure versus a 90% chance to lose $1,000. He pauses 14 seconds, rubs his temple, and says he would roll the dice.",
+            "12:09 - Told he has been given $2,000, then offered a 50% chance to lose $1,000 or losing $500 for sure. He frowns at the framing, re-reads twice, and picks the gamble.",
+            "12:13 - Asked how the $2,000 gift affected his thinking, he says he ignored it because it is already his money. Pupils dilated during the 50/50 loss item."
+          ],
+          "interrogation_transcript": [
+            "Auditor: You said a $500 move barely registers against your savings. Then why does losing $500 for sure feel worse than a 50% chance to lose $1,000?",
+            "Devon: It just does. If I am going to lose either way, I want a shot at escaping.",
+            "Auditor: But you called yourself wealth-based. Same final wealth either way.",
+            "Devon: I know the math. I just do not feel it that way. The $2,000 was already mine."
+          ],
+          "correct_diagnosis": "Devon is not evaluating states of wealth; his choices are coded as gains and losses relative to a reference point, producing risk aversion for gains and risk seeking in the loss domain.",
+          "diagnostic_breakdown": "His claim of wealth-based evaluation predicts indifference to a $500 swing against his stated net worth, yet the sure-loss item produced a 14-second hesitation, temple rubbing, dilated pupils, and risk seeking. In the $2,000-framed problem the certain outcome is coded as a $500 loss, so he gambles; the same final outcome coded as a gain in the other frame produces a sure-thing choice. His own words confirm that the reference point absorbed the gift and that evaluations are relative, exactly the pattern prospect theory predicts and Bernoulli's theory cannot.",
+          "distractors": [
+            "He is deliberately lying about his net worth to appear rational in front of the auditor.",
+            "He has a stable, well-defined utility for total wealth that explains all seven responses.",
+            "His hesitation reflects simple fatigue or boredom, not a systematic preference structure."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Loss Aversion Disguised as Market Composure",
+          "visual_frame_description": "Renata, a 27-year-old day trader in a studio-lit mock trading desk, wears a discreet heart-rate monitor. The screen shows a split view: on one side, her terse answers to gamble questions; on the other, a live physiological trace that spikes at a simulated $3,000 loss. The auditor annotates each timestamp in the right rail.",
+          "player_mission": "Analyze the observation log and transcript to determine whether Renata's stated trader composure matches her actual loss responses. Render the correct diagnosis and cite the decisive evidence.",
+          "key_concepts": [
+            "In a mixed gamble the possible loss looms larger than a possible gain of the same size.",
+            "Most people reject a coin toss that loses $100 and wins $150 despite its positive expected value.",
+            "The loss aversion ratio is usually between 1.5 and 2.5, with many people needing about $200 to balance a $100 loss.",
+            "The rejection of a mixed gamble is an act of System 2, but the critical inputs are emotional responses generated by System 1.",
+            "Loss aversion is built into the automatic evaluations of System 1.",
+            "Professional risk takers are more tolerant of losses, probably because they do not respond emotionally to every fluctuation.",
+            "Participants instructed to think like a trader became less loss averse and their physiological reaction to losses dropped.",
+            "Loss aversion coefficients increase when stakes rise, and may be infinite when a loss threatens one's lifestyle.",
+            "Diminishing sensitivity causes risk seeking in the loss domain, while loss aversion causes extreme risk aversion in mixed gambles.",
+            "There is no contradiction between the two claims because they involve different slopes of the value function."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests loss aversion and its malleability: the fear of losing $100 exceeds the hope of gaining $150, so most people reject a positive-expected-value coin toss, and the loss aversion ratio typically falls between 1.5 and 2.5. Kahneman reports that instructing people to think like a trader reduced loss aversion and the physiological response to losses.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Renata insists she thinks like a trader and feels nothing at losses. Her behavior during a simulation suggests loss aversion is still driving her. Diagnose the mechanism.",
+          "subject_baseline": "Renata, 27, a day trader with two years of experience, prides herself on emotional composure and says she runs the numbers, not the feelings. Colleagues describe her as stoic and unfazed by market swings.",
+          "observed_nonverbal_log": [
+            "09:30 - Rejects a 50/50 coin toss that loses $100 or wins $150. Expected value +$25. She answers in under two seconds and shows no visible reaction.",
+            "09:34 - Asked for the smallest gain that would make that gamble attractive, she needs 24 seconds before saying $200.",
+            "09:38 - Presented with a 50/50 gamble losing $10 or winning $20, she accepts immediately and smiles.",
+            "09:42 - The heart-rate monitor shows a spike when a simulated position moves $3,000 into loss, though her face shows nothing.",
+            "09:47 - Asked to think like a trader explicitly, she re-evaluates the $150/$100 gamble and reluctantly says she would take it."
+          ],
+          "interrogation_transcript": [
+            "Auditor: You said a $100 loss is noise. Then why reject a coin toss that wins $150?",
+            "Renata: The downside still bugs me. In real markets I have a book, I am hedging. This feels like a pure bet on my own skin.",
+            "Auditor: But the expected value is positive.",
+            "Renata: I know. It is just that when it is mine, the loss hurts differently."
+          ],
+          "correct_diagnosis": "Renata shows classic loss aversion: losses loom about twice as large as gains, and her rejection of the positive-expected-value gamble is driven by System 1 emotional responses even though her System 2 knows the math.",
+          "diagnostic_breakdown": "Her loss aversion ratio of about $200 to balance a $100 loss matches the 1.5 to 2.5 range and the roughly two-to-one ratio reported from many experiments. The physiological spike at a simulated loss contradicts her stated composure and reflects the automatic emotional valuation of System 1. Crucially, the explicit instruction to think like a trader, the manipulation the book reports reduces loss aversion and physiological arousal, changed her answer, showing the response is emotional and malleable rather than a fixed wealth-utility calculation.",
+          "distractors": [
+            "She is rationally maximizing expected utility and her rejection reflects a subtle tax or fee.",
+            "She is lying about her trading experience to impress the auditor.",
+            "Her hesitations are random noise with no stable preference structure."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Defeating Expected Utility Theory with the Reference Point",
+          "visual_frame_description": "A holographic courtroom in the learning environment pits the player against a towering avatar labeled Expected Utility Theory, dressed in a Bernoulli-era coat. In front of the player float two decision problems side by side, each showing identical final-wealth outcomes wrapped in different framing. A verdict ribbon awaits the player's judgment.",
+          "player_mission": "Study the two problems, predict what the boss theory demands, then land the knock-out move by identifying the variable that changed between them. Defeat the boss by naming the mechanism that explains the reversal.",
+          "key_concepts": [
+            "Prospect theory defines outcomes as gains and losses relative to a reference point.",
+            "Bernoulli's theory requires only the state of wealth to determine utility.",
+            "Problems 3 and 4 are identical in final states of wealth but elicit opposite preferences.",
+            "The reference point was $1,000 above current wealth in problem 3 and $2,000 above in problem 4.",
+            "Being richer by $1,500 is a $500 gain in problem 3 and a $500 loss in problem 4.",
+            "The gifts of $1,000 or $2,000 were absorbed into the reference point and ignored.",
+            "This finding was a decisive counterexample to the key idea of Bernoulli's theory.",
+            "Theory-induced blindness kept the flaw unquestioned for more than 250 years.",
+            "People like winning and dislike losing, and they dislike losing more than they like winning.",
+            "The rejection of the mixed coin toss shows that losses loom larger than gains."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the decisive counterexample to Bernoulli's utility theory: identical final states of wealth produced opposite preferences when the reference point moved. The missing variable was the reference point, the earlier state relative to which gains and losses are evaluated, which prospect theory adds as the moving part absent from expected utility theory.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The battle tests the central counterexample to Bernoulli's theory: choices that depend on a reference point. The boss is expected utility theory, which insists that only final states of wealth matter, so transparently equivalent statements of the same problem must yield identical choices.",
+          "stage_1_observation": "Two decision problems appear on screen. Problem 3: In addition to whatever you own, you have been given $1,000. Choose: 50% chance to win $1,000 OR $500 for sure. Problem 4: In addition to whatever you own, you have been given $2,000. Choose: 50% chance to lose $1,000 OR lose $500 for sure. An overlay notes that both problems reduce to the same choice between final wealth of $1,500 for sure and a 50/50 shot at $1,000 or $2,000.",
+          "stage_1_question": "In both problems the final states of wealth are identical. What does Bernoulli's expected utility theory predict about the preferences people will express?",
+          "stage_1_correct_answer": "It predicts that the two problems will elicit the same preferences, because utility depends only on the state of wealth, so equivalent statements of the same choice must produce identical decisions.",
+          "stage_2_intervention": "The results are in: a large majority choose the sure thing in problem 3, and a large majority choose the gamble in problem 4. The boss is reeling. You must now deliver the knock-out move by identifying what changed between the two problems.",
+          "stage_2_correct_answer": "The reference point changed: it is $1,000 above current wealth in problem 3, so the certain $1,500 is a $500 gain, and $2,000 above in problem 4, so it is a $500 loss. Because outcomes are evaluated as gains and losses relative to a reference point, the same final outcome is a gain in one frame and a loss in the other, reversing preferences."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Risk Seeking When All Options Are Bad",
+          "visual_frame_description": "A medical-device startup's glass conference room hosts a decision war-game. Two problems project onto the wall while a tally board records how the founders, engineers, and an HR manager answered each. A stubborn co-founder stands between the two screens, insisting that risk aversion must be consistent.",
+          "player_mission": "Predict the team's preference in the loss-domain problem, then reconcile the two observations by identifying the single mechanism behind both. Name the mechanism to advance past the boss.",
+          "key_concepts": [
+            "Risk aversion in the gain domain: the subjective value of $900 is more than 90% of the value of $1,000.",
+            "In the loss domain, the negative value of losing $900 is much more than 90% of the value of losing $1,000.",
+            "The sure loss is very aversive and drives people to take the risk.",
+            "People become risk seeking when all their options are bad.",
+            "The two insights are not contradictory; they involve different parts of the value function.",
+            "Diminishing sensitivity applies to both gains and losses, making the value function S-shaped.",
+            "The evaluation of probabilities also contributes to both risk aversion and the preference for the gamble.",
+            "Theory-induced blindness had made economists ignore the different attitudes to risk for gains and losses.",
+            "The observation of contrasting risk attitudes across domains was a significant advance.",
+            "The value function's slope changes abruptly at the reference point due to loss aversion."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the gain/loss asymmetry in risk attitude: diminishing sensitivity makes people risk averse for gains but risk seeking when all options are bad. Kahneman and Tversky found that the familiar risk aversion was replaced by risk seeking when the focus switched to losses, driven by the mirror-image bending of the value function.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The battle tests the mirror-image principle of prospect theory: when all options are losses, diminishing sensitivity makes people risk seeking. The boss is the intuition that risk aversion is a fixed personality trait that should hold in every domain.",
+          "stage_1_observation": "The startup faces two problems. Problem 1: Get $900 for sure OR a 90% chance to get $1,000. Problem 2: Lose $900 for sure OR a 90% chance to lose $1,000. A tally shows nearly everyone takes the sure gain in problem 1, while the tally for problem 2 is still blank.",
+          "stage_1_question": "Given that risk aversion dominates problem 1, what does the book predict for problem 2, where a sure loss is compared to a larger loss that is merely probable?",
+          "stage_1_correct_answer": "Risk aversion is replaced by risk seeking: most people choose the gamble in problem 2, because the sure loss is very aversive and the negative value of losing $900 is much more than 90% of the value of losing $1,000.",
+          "stage_2_intervention": "A skeptical co-founder insists the team's risk-seeking answer in problem 2 must be an error, because risk aversion should be consistent. The escalation: you must reconcile the two observations by naming the single mechanism behind both.",
+          "stage_2_correct_answer": "Diminishing sensitivity in the S-shaped value function: the pain of losing $900 is more than 90% of the pain of losing $1,000, just as the value of $900 is more than 90% of the value of $1,000. The same bending of the value curve produces risk aversion for gains and risk seeking for losses, so the two observations are not contradictory."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Loss Aversion and the Two-to-One Ratio",
+          "visual_frame_description": "A rooftop angel-investing round with Dana, a sharp-eyed investor, faces a floating coin-toss display: heads wins $150, tails loses $100. A live readout shows the +$25 expected value alongside her delay, pupil dilation, and a slight frown as she declines. Beside her, fellow investor Leo shrugs and accepts the same bet.",
+          "player_mission": "Explain why Dana rejects a gamble with positive expected value, then give her the empirically grounded gain that would make the gamble feel fair. Complete both stages to defeat the boss of rational-agent assumptions.",
+          "key_concepts": [
+            "In a mixed gamble the loss looms larger than a gain of equal size.",
+            "Most people reject a coin toss that loses $100 and wins $150 despite a positive expected value.",
+            "The rejection is an act of System 2, but its critical inputs are emotional responses from System 1.",
+            "The loss aversion ratio is usually between 1.5 and 2.5, with a typical need for about $200 to offset a $100 loss.",
+            "The value function is about twice as steep for losses as for gains.",
+            "Loss aversion coefficients increase with stakes but not dramatically, unless the loss is ruinous.",
+            "Professional risk takers are more tolerant of losses, probably because they do not respond emotionally to every fluctuation.",
+            "Think like a trader instructions reduced loss aversion and physiological arousal.",
+            "Rabin's theorem shows that rejecting small favorable gambles commits a person to absurd risk aversion at larger stakes.",
+            "An individual who rejects the $100/$200 gamble would, by utility theory, also reject a 50/50 gamble of losing $200 and winning $20,000."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests loss aversion in mixed prospects: the possible loss looms about twice as large as the possible gain, so favorable gambles are rejected. Kahneman and Tversky estimated the loss aversion ratio at roughly 1.5 to 2.5 and showed that instructing participants to think like a trader reduces the aversion and its physiological signature.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The battle tests loss aversion in mixed prospects: when a gamble contains both a possible gain and a possible loss, losses loom roughly twice as large as gains, so people reject favorable gambles. The boss is the rational-agent assumption that any positive expected value should be accepted.",
+          "stage_1_observation": "An angel investor, Dana, is offered a coin toss: heads wins $150, tails loses $100. The screen shows the expected value calculation of +$25 floating above her, while a live readout displays her delay, pupil dilation, and a slight frown before she declines. A second investor, Leo, accepts the same bet with a shrug.",
+          "stage_1_question": "Dana rejects a gamble with positive expected value. What is the psychological reason most people, like Dana, reject it?",
+          "stage_1_correct_answer": "Loss aversion: the fear of losing $100 is more intense than the hope of gaining $150, because losses loom larger than gains, so the possible loss outweighs the possible gain in subjective value.",
+          "stage_2_intervention": "Dana asks how much the win would need to be for this to feel fair. The escalation: you must give her the empirically grounded answer and explain why it holds.",
+          "stage_2_correct_answer": "About $200, roughly twice the loss. The loss aversion ratio has been estimated in several experiments and is usually in the range of 1.5 to 2.5, consistent with a value function about twice as steep for losses as for gains. Telling Dana to think like a trader would reduce her aversion and blunt the physiological response to losses."
+        }
+      ]
+    },
+    {
+      "id": "ch32",
+      "title": "27. The Endowment Effect",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Why Sellers Demand More Than Buyers Will Pay",
+          "visual_frame_description": "At a startup retreat, free university-branded mugs are handed to half the team. Marisol, holding her mug, chats with teammates while a price-bidding board on the wall shows the mug experiment's numbers. A comparison panel overlays Seller, Chooser, and Buyer values on a small value-function graph.",
+          "player_mission": "Classify the evidence rows into the mechanism that explains the gap between Marisol's selling price and her buying price. Use the experimental results on screen to confirm the correct column.",
+          "key_concepts": [
+            "The endowment effect is the tendency to value goods more once they are owned.",
+            "In the mugs experiment, Sellers set an average price of $7.12 while Buyers set $2.87.",
+            "Sellers and Choosers faced identical options yet set different values ($7.12 versus $3.12).",
+            "The gap between selling and buying prices is inconsistent with a single stable utility.",
+            "Thaler's Professor R would neither sell his wine at $100 nor buy the same quality above $35.",
+            "Owning a good appears to increase its value because giving it up is painful.",
+            "The estimated number of mug trades was less than half of the number predicted by standard theory.",
+            "Loss aversion is built into the automatic evaluations of System 1.",
+            "The loss-averse value function of prospect theory explained the endowment effect.",
+            "The endowment effect is not universal: goods held for exchange show little or no effect."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the endowment effect: people demand much more to give up a good they own than they would pay to acquire the same good. Thaler, Knetsch, and Kahneman showed that a loss-averse value function explains the seller-buyer gap, with selling prices roughly double buying prices.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "At a startup retreat, free university-branded mugs are handed to half the team. Marisol, who got a mug, refuses to sell hers for $12 even though she told everyone she would never pay more than $5 for such a mug. Which mechanism explains the gap between her selling price and buying price?",
+          "column_a_label": "Endowment effect (loss aversion for owned goods)",
+          "column_b_label": "Stable rational valuation (a single utility for the good)",
+          "column_c_label": "Strategic bargaining (sellers bluff high prices)",
+          "rows": [
+            {
+              "label": "In the mugs experiment, the average Sellers' price of $7.12 was more than double the average Buyers' price of $2.87.",
+              "col": "a"
+            },
+            {
+              "label": "Sellers and Choosers faced identical options, yet Sellers set a much higher value ($7.12 versus $3.12).",
+              "col": "a"
+            },
+            {
+              "label": "Economic theory expects a single value: if a bottle is worth $50 to you, sell at anything above $50 and buy at anything below $50.",
+              "col": "b"
+            },
+            {
+              "label": "Professor R would neither sell his wine at $100 nor buy the same wine above $35, a gap inconsistent with a single value.",
+              "col": "a"
+            },
+            {
+              "label": "Owning the good appears to increase its value because giving it up is painful.",
+              "col": "a"
+            },
+            {
+              "label": "The estimated number of mug trades was less than half of the number predicted by standard theory.",
+              "col": "a"
+            },
+            {
+              "label": "Loss aversion is built into the automatic evaluations of System 1.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Marisol is trying to profit from a sucker by bargaining aggressively.",
+            "The mug's market value genuinely rose once she owned it.",
+            "Marisol and the buyers have different tastes for university-branded mugs."
+          ],
+          "explanation": "The mug is a good held for use, so giving it up is coded as a loss, and the pain of the loss outweighs the pleasure of the equivalent gain. This loss-averse value function explains why Sellers set values about double those of Buyers and why the trades in the market were less than half the predicted number. Standard theory, which assumes a single stable utility for the good, cannot explain the divergence, and neither strategic bargaining nor differing tastes predicts a selling price that exceeds the buying price for the same person."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Held for Use, Held for Exchange, and Labile Reference Points",
+          "visual_frame_description": "A baseball card convention hall bustles with tables of cards, mugs, and chocolate bars. A consultant with a clipboard observes novice and veteran traders, a shoe merchant, and a condo owner's listing photos on a laptop. Each person floats above a colored sorting bay as the player classifies them.",
+          "player_mission": "Classify each person or group into the column that predicts whether they will show the endowment effect. Start with the experienced traders from List's replication, then place the remaining cases.",
+          "key_concepts": [
+            "The endowment effect appears for goods held for use but not for goods held for exchange.",
+            "Routine commercial exchanges, like a $5 bill for five singles, show no loss aversion.",
+            "The merchant selling shoes and the shopper paying for them both treat the goods as proxies for exchange.",
+            "List found that only 18% of inexperienced traders would exchange their gift at a card convention.",
+            "48% of experienced traders exchanged the same gift, showing no trace of an endowment effect.",
+            "Veteran traders ask how much they want the good compared with other things they could have instead.",
+            "Knetsch found only about 10% of participants would exchange a pen or a bar of Swiss chocolate for the alternative.",
+            "The endowment effect appears when the owner has physical possession of the good before trading is mentioned.",
+            "Loss aversion is built into the automatic evaluations of System 1.",
+            "Reference points are labile and the endowment effect can be eliminated by changing them."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests when the endowment effect appears: goods held for use trigger loss aversion, while goods held for exchange do not, and trading experience eliminates the effect. List's replication found 18% of inexperienced traders exchanged their gift while 48% of experienced traders did, and Knetsch's pen-and-chocolate study found only about 10% exchanged.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "List's replication at a card convention gave volunteers a random gift, a mug or an equal-value chocolate bar, then offered a trade. Inexperienced traders mostly refused to exchange; experienced traders traded freely. Which column describes the experienced traders?",
+          "column_a_label": "Endowment effect present (good held for use)",
+          "column_b_label": "No endowment effect (good held for exchange, or trading experience)",
+          "column_c_label": "Reference point shifts, changing the effect",
+          "rows": [
+            {
+              "label": "A novice collector at a card convention who refuses to part with the card he was just handed.",
+              "col": "a"
+            },
+            {
+              "label": "A veteran dealer at the same convention who asks what else he could have instead, and trades readily.",
+              "col": "b"
+            },
+            {
+              "label": "A merchant who sells shoes for money, treating the shoes as a proxy for cash.",
+              "col": "b"
+            },
+            {
+              "label": "A shopper who pays the merchant, treating her money as a proxy for the shoes she intends to buy.",
+              "col": "b"
+            },
+            {
+              "label": "An owner of a Boston condo who bought at the market peak and now prices the unit far above a rational estimate.",
+              "col": "c"
+            },
+            {
+              "label": "A person asked to exchange a $5 bill for five singles, who does so without any sense of loss.",
+              "col": "b"
+            },
+            {
+              "label": "A homeowner in a declining market who faces large losses and waits longer to sell, receiving more in the end.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Experienced traders experience stronger loss aversion because they own more valuable goods.",
+            "The experienced traders secretly value the mug more than the chocolate.",
+            "Trading experience increases emotional attachment to owned goods."
+          ],
+          "explanation": "The endowment effect depends on whether a good is held for exchange and on trading experience. Veteran traders have learned to ask how much they want the good compared with other things they could have instead, the question Econs ask, which eliminates the asymmetry between the pleasure of getting and the pain of giving up. Novices, like babies clutching toys, show the automatic loss aversion of System 1; the contrast between the 18% of novices and 48% of experienced traders who traded is the cleanest demonstration that the effect is not fixed."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Status Quo and the Hedonic Twins",
+          "visual_frame_description": "Two identical-looking men, Albert and Ben, sit in matching cubicles on a large indifference-map projection. Albert's screen shows a raise of $10,000 and Ben's shows an extra vacation day each month. A coin flips in the center as the company's switch offer appears, and both twins frown at the proposal.",
+          "player_mission": "Classify the evidence rows to identify the mechanism that makes both twins prefer to stay in their current positions. Confirm the mechanism with the chapter's account of how reference points reshape the switch offer.",
+          "key_concepts": [
+            "Tastes are not fixed; they vary with the reference point.",
+            "The disadvantages of a change loom larger than its advantages.",
+            "Loss aversion induces a bias that favors the status quo.",
+            "After owning position A, Albert evaluates a switch as a $10,000 salary cut plus 12 vacation days.",
+            "Ben evaluates the same switch as a loss of now-precious leisure.",
+            "The twins were originally indifferent between the two positions.",
+            "Standard theory predicts stable preferences and little incentive to switch.",
+            "Loss aversion does not imply you never change; it biases choices toward the reference situation and small changes.",
+            "In labor negotiations the reference point is the existing contract.",
+            "Making concessions hurts, which is why both sides find bargaining difficult."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests status quo bias as a consequence of reference-point-dependent preferences: the same options the twins were originally indifferent between become unattractive once they are endowed with one option. Kahneman shows that loss aversion makes the disadvantage of a change loom larger than its advantage, biasing choices toward the status quo.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Albert and Ben are hedonic twins with identical tastes and identical starting jobs. Albert gets a $10,000 raise (position A) and Ben an extra vacation day each month (position B), options they were originally indifferent between. Now the company invites them to switch. Prospect theory says both will refuse. Which mechanism explains this?",
+          "column_a_label": "Status quo bias from loss aversion",
+          "column_b_label": "Stable preferences (standard indifference-curve theory)",
+          "column_c_label": "Diminishing marginal utility",
+          "rows": [
+            {
+              "label": "After taking position A, Albert codes a move to B as a $10,000 salary cut plus 12 vacation days, and the cut dominates.",
+              "col": "a"
+            },
+            {
+              "label": "After taking position B, Ben codes a move to A as losing now-precious leisure, and that loss dominates.",
+              "col": "a"
+            },
+            {
+              "label": "Standard theory assumes tastes are fixed, so the twins should need little or no incentive to switch.",
+              "col": "b"
+            },
+            {
+              "label": "The disadvantages of a change loom larger than its advantages, biasing choices toward the status quo.",
+              "col": "a"
+            },
+            {
+              "label": "Tastes are not fixed; they vary with the reference point.",
+              "col": "a"
+            },
+            {
+              "label": "The more leisure you have, the less you care for an extra day of it.",
+              "col": "c"
+            },
+            {
+              "label": "In labor negotiations both sides anchor on the existing contract, and making concessions hurts.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The twins' tastes genuinely differ because they value income and leisure differently.",
+            "The company's offer is technically inferior to both current positions.",
+            "Diminishing marginal utility makes the twins indifferent to any change."
+          ],
+          "explanation": "Each twin's current position becomes the reference point, so any move is coded as a package containing a loss, the $10,000 cut for Albert or lost leisure for Ben. Because losses loom larger than gains, the disadvantage of moving outweighs the advantage even though the twins were originally indifferent. This is a direct prediction of a loss-averse value function and contradicts the indifference-map assumption of fixed tastes and a unique utility per state."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Detecting a High Reference Point Behind a Stubborn Listing",
+          "visual_frame_description": "Elena, 41, in a bright condo living room, argues with her listing agent over a tablet showing comparable sales around $505,000. A price line on the wall stretches from her 2007 purchase at $620,000 to today's market, and her rejected offers flash across the bottom of the screen.",
+          "player_mission": "Review Elena's baseline, the timed observation log, and the transcript, then diagnose the mechanism driving her stubborn asking price. Identify the reference point and how loss aversion amplifies it.",
+          "key_concepts": [
+            "For a rational agent, the buying price is irrelevant history; only current market value matters.",
+            "Owners with a high reference point face higher losses and set a higher price on their dwelling.",
+            "High-reference owners spend a longer time trying to sell their home.",
+            "High-reference owners eventually receive more money for their homes.",
+            "Loss aversion makes selling below the reference point feel like a real loss.",
+            "The selling-buying gap is a signature of the endowment effect.",
+            "Reference points can be the status quo or the price originally paid.",
+            "Loss aversion is built into the automatic evaluations of System 1.",
+            "Reference points are labile, but here the purchase price anchors the owner's valuation.",
+            "The chapter reports this pattern from a study of Boston condos during a downturn."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests reference-point-dependent pricing: in a down market, owners who bought at a higher price face larger perceived losses, set higher asking prices, wait longer, and eventually receive more. Kahneman cites a Boston condominium study showing this pattern, an illustration of the power of reference points and loss aversion outside the lab.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Elena lists her Boston condo during a housing downturn. She insists her asking price is just what it is worth. Her behavior suggests a reference point, her purchase price, is driving the listing. Diagnose the mechanism.",
+          "subject_baseline": "Elena, 41, bought her condo at the market peak in 2007 for $620,000. She describes herself as a practical engineer and says she prices things by current value, not by what she paid. Neighboring identical units are now selling near $505,000.",
+          "observed_nonverbal_log": [
+            "10:00 - Asked what the unit is worth today, she answers instantly that it has to be six-twenty. She has not updated comparable sales in four months.",
+            "10:07 - Told identical units close near $505,000, she stares at the number for nine seconds, then waves her hand and says she is not selling hers at a loss.",
+            "10:12 - Her listing agent's phone log shows she has rejected three offers between $495,000 and $510,000 in the last month.",
+            "10:18 - Asked what she would pay for an identical unit today, she pauses and says she would perhaps pay five-oh-five, but this one is hers.",
+            "10:25 - She keeps repeating that she bought it in 2007, and her speech quickens whenever the purchase price is mentioned."
+          ],
+          "interrogation_transcript": [
+            "Auditor: You say you price by current value. An identical unit is worth about $505,000.",
+            "Elena: Then let someone else sell at that. I refuse to give it away.",
+            "Auditor: What would you pay for this exact unit if you did not own it?",
+            "Elena: I would look at comps and probably land near five-oh-five.",
+            "Auditor: So your buying price is $505,000 and your selling price is $620,000. What changed?",
+            "Elena: When it is your own, losing money feels different."
+          ],
+          "correct_diagnosis": "Elena's behavior is the Boston-condo pattern: owners with a high reference point face larger perceived losses, set higher prices, wait longer to sell, and eventually receive more money. Her purchase price acts as her reference point, so selling below it is coded as a loss that loss aversion amplifies.",
+          "diagnostic_breakdown": "Her stated policy of current value predicts she should accept about $505,000, yet she rejected offers above that and demands $620,000. Her own buying-price estimate of about $505,000 matches the market, exposing a selling-buying gap consistent with the endowment effect. The instant answer that it has to be six-twenty and the agitation at the purchase price betray an automatic, emotional valuation; the chapter reports exactly this pattern in the Boston condo market, where higher-reference owners hold out longer and net more.",
+          "distractors": [
+            "Elena is strategically overpricing to anchor future buyers into paying more.",
+            "Elena's unit is genuinely worth $620,000 because of hidden renovations.",
+            "Elena is simply uninformed and has never seen the comparable sales data."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Endowment Effect Behind a Claim of Indifference",
+          "visual_frame_description": "A card convention table shows Marcus, a 19-year-old first-timer, with a university-branded mug resting beside his elbow. A researcher slides an equal-value chocolate bar toward him. A side camera captures his hand staying on the mug and his gaze flicking between the two gifts as the researcher offers the trade again.",
+          "player_mission": "Analyze Marcus's claim of indifference against his observed behavior and transcript, then diagnose the mechanism behind his refusal to trade. Weigh the evidence before rendering the verdict.",
+          "key_concepts": [
+            "The endowment effect appears when the owner has physical possession of the good before trading is mentioned.",
+            "List replicated Knetsch's experiment and found only 18% of inexperienced traders would exchange their gift.",
+            "48% of experienced traders showed no trace of an endowment effect.",
+            "Ownership makes giving a good up feel like a loss.",
+            "Stated indifference can coexist with loss-averse behavior.",
+            "Loss aversion is built into the automatic evaluations of System 1.",
+            "Veteran traders ask how much they want the good compared with alternatives, eliminating the effect.",
+            "Knetsch's pen-and-chocolate study found only about 10% of participants exchanged their gift.",
+            "The long-term consequences of keeping or trading are identical for the two groups.",
+            "The only difference between the choices is the emotion of the moment."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the endowment effect and its dependence on physical possession: ownership changes the reference point so giving the good up is a loss. Knetsch found the effect only when participants held the good before trading was offered, and List replicated it at a card convention, where only 18% of novices traded versus 48% of experienced traders.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Marcus, a first-time attendee at a sports card convention, is given a coffee mug as a survey reward and told he may trade it for a chocolate bar of equal value. He claims to be indifferent, then refuses to trade. Diagnose the mechanism.",
+          "subject_baseline": "Marcus, 19, is at his first card convention and has never bought or sold a collectible in his life. He fills out List's survey expecting a small gift and says he could not care less which reward he gets.",
+          "observed_nonverbal_log": [
+            "14:02 - Handed a university-branded mug, he turns it over, sets it beside his elbow, and says that free stuff is fine either way.",
+            "14:11 - The researcher says he may trade the mug for a chocolate bar instead. Marcus glances at the chocolate, looks at the mug, and says he will keep this, without picking up the chocolate.",
+            "14:14 - Asked if the two gifts are equally valuable, he says yes, while his hand stays resting on the mug.",
+            "14:20 - When the researcher mentions the trade again, Marcus pulls the mug closer to his side and shakes his head.",
+            "14:26 - Asked to imagine the chocolate bar was his gift instead, he says he would probably keep the chocolate too."
+          ],
+          "interrogation_transcript": [
+            "Auditor: You said the gifts were equal. Why keep the mug?",
+            "Marcus: I do not know. It is mine now. Feels like I would be losing it.",
+            "Auditor: Losing a free mug?",
+            "Marcus: Sounds dumb, I know. But the bar is just something I could have. The mug is something I have.",
+            "Auditor: Would a more experienced trader feel the same?",
+            "Marcus: Probably not. They are used to swapping."
+          ],
+          "correct_diagnosis": "Marcus shows the endowment effect of a novice: because he physically possesses the mug, giving it up feels like a loss, so he refuses a trade he himself calls equal. His behavior mirrors List's finding that only 18% of inexperienced traders exchanged their gift.",
+          "diagnostic_breakdown": "His stated indifference is contradicted by his behavior, the hand resting on the mug, pulling it closer, and refusing an equal-value trade. Knetsch's manipulation shows the effect appears only when the person has physical possession before trading is mentioned, and Marcus's instant ownership does exactly that. His own explanation that the bar is something he could have while the mug is something he has captures the reference-point structure of loss aversion, and his guess about experienced traders matches List's data showing 48% traded.",
+          "distractors": [
+            "Marcus secretly prefers mugs over chocolate and is hiding his true taste.",
+            "Marcus believes the mug is worth more money than the chocolate bar.",
+            "Marcus is being polite and would trade if asked a third time."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Spending as Loss: Living on the Steep Limb",
+          "visual_frame_description": "Omar, a 38-year-old engineer in a tidy home office, faces a spending exercise on a tablet. On one side a $6 branded mug and $6 in cash sit on the desk; on the other, a gift card with unused balance. A behavioral log streams his decision times and a hand that tightens around the mug.",
+          "player_mission": "Review Omar's baseline and observation log, then diagnose why he treats spending as a loss. Distinguish his behavior from the trader pattern and identify the reference-relative mental accounting at work.",
+          "key_concepts": [
+            "For the poor, all choices are between losses, and costs are losses.",
+            "Being poor, in prospect theory, is living below one's reference point.",
+            "Small amounts of money the poor receive are perceived as a reduced loss, not a gain.",
+            "The poor always remain on the steep limb of the value function.",
+            "Money spent on one good is the loss of another good that could have been purchased instead.",
+            "We all know people for whom spending is painful, although they are objectively quite well-off.",
+            "The poor think like traders, but unlike traders they are not indifferent between gaining and giving up.",
+            "Loss aversion makes both buying and selling feel costly when money and goods are held for use.",
+            "The endowment effect means giving up the free mug feels like a loss.",
+            "Reference points can be the status quo, expectations, or outcomes to which a person feels entitled."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests loss aversion applied to spending: for people who treat money as a reference-relative resource, every purchase is a loss. Kahneman describes the poor as living in the losses so small amounts are reduced losses rather than gains, and notes that some well-off people experience the same painful spending.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Omar, a well-off engineer, describes himself as just careful with money. His behavior during a spending exercise suggests he experiences every purchase as a loss. Diagnose the mechanism.",
+          "subject_baseline": "Omar, 38, earns $140,000 a year and has six months of expenses saved. He describes money as the only thing you cannot get back and says he cannot enjoy a purchase after the fact. Colleagues call him the human coupon.",
+          "observed_nonverbal_log": [
+            "15:00 - Given a $50 gift card for a bookstore, he spends 11 minutes comparing prices and leaves with a single paperback and unused balance intact.",
+            "15:09 - Asked to choose between a $6 branded mug and $6 cash, he picks the cash instantly and says money is money.",
+            "15:14 - When told the mug would be free, he takes it immediately and later resists exchanging it for $6 in cash, saying it is his mug now.",
+            "15:20 - Asked why he treats his salary so differently from windfalls, he says salary is already spoken for while a windfall he can actually spend.",
+            "15:25 - His hand tightens around the mug when a colleague jokingly offers to trade a nicer one for it."
+          ],
+          "interrogation_transcript": [
+            "Auditor: You picked $6 cash over a mug worth $6, but then refused to sell the free mug for $6.",
+            "Omar: Buying it means giving up the cash. That is a cost. Selling it means giving up the mug. Also a cost. Costs are losses, so I avoid both.",
+            "Auditor: But you have plenty of money.",
+            "Omar: Irrelevant. The loss is the loss.",
+            "Auditor: Your salary is a gain when it lands. Why treat it as already spent?",
+            "Omar: Because I earned it. It has a job to do."
+          ],
+          "correct_diagnosis": "Omar treats spending as a loss, the mental accounting of someone for whom costs are losses. The chapter predicts this pattern for the poor, who live below their reference point, but notes that we all know well-off people for whom spending is painful.",
+          "diagnostic_breakdown": "His behavior shows symmetric avoidance of giving anything up: he will not give cash for a mug because buying is a cost, and will not give the mug for cash because selling is a loss of possession. Both sides of the mug exercise show loss aversion. The chapter describes the same dynamic among the poor, who always face choices between losses and for whom money spent on one good is the loss of another good, and explicitly notes that some people who are objectively quite well-off still find spending painful. His earned-versus-windfall distinction shows a reference point tied to expectations and entitlement.",
+          "distractors": [
+            "Omar is concealing a genuine cash shortage or debt.",
+            "Omar's mug is secretly worth more than $6 to him.",
+            "Omar is playing a game with the auditor and lying about his real preferences."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Breaking a Negotiation Deadlock by Resetting the Reference Point",
+          "visual_frame_description": "A union representative and a management team face each other across a long conference table. The current contract glows in the center as the reference point, and a negotiation ticker shows that neither side has moved in six rounds. A mediator's badge sits empty in the middle of the table.",
+          "player_mission": "Identify the mechanism that freezes both sides, then propose the reference-point intervention that could break the deadlock. Advance through both stages by naming the principle from the chapter.",
+          "key_concepts": [
+            "In labor negotiations the reference point is the existing contract.",
+            "Negotiations focus on mutual demands for concessions relative to that reference point.",
+            "Making concessions hurts because losses loom larger than gains.",
+            "The disadvantages of a change loom larger than its advantages.",
+            "Loss aversion induces a bias that favors the status quo.",
+            "The hedonic twins would both prefer to remain as they are after being endowed with a position.",
+            "Tastes are not fixed; they vary with the reference point.",
+            "Reference points are labile and the endowment effect can be eliminated by changing them.",
+            "Loss aversion biases choices to favor small rather than large changes.",
+            "The minimal wage unemployed workers accept averages 90% of their previous wage and falls slowly over a year."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests status quo bias and concession aversion in negotiation: the current contract is the reference point, and loss aversion makes any concession feel like a real loss. Kahneman notes that both sides in labor negotiations anchor on the existing contract and that making concessions hurts.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The battle tests status quo bias and concession aversion in negotiation: each side anchors on its current contract, and because losses loom larger than gains, making concessions hurts. The boss is a stalled labor negotiation.",
+          "stage_1_observation": "On screen, a union and a management team sit across a table with the current contract highlighted as the reference point. A line under it reads that the role of loss aversion in bargaining is well understood and that making concessions hurts. A ticker shows the two sides' offer history, and neither side has moved in six rounds.",
+          "stage_1_question": "Both sides refuse to move even when the other side offers something in return. What psychological mechanism, named in the chapter, explains why concessions are so painful?",
+          "stage_1_correct_answer": "Loss aversion: each side evaluates the other side's demands as losses relative to the existing contract, and losses loom larger than gains, so the pain of a concession exceeds the pleasure of a gain of equal size.",
+          "stage_2_intervention": "A mediator steps in and proposes reframing the negotiation so both sides evaluate proposals against a new reference point, the projected contract in two years, instead of the current one. The escalation: explain why this might break the deadlock.",
+          "stage_2_correct_answer": "Because the reference point determines what counts as a gain or loss, shifting it to the projected future contract recodes some concessions as gains or smaller losses. The chapter shows that changing the reference point can eliminate the loss aversion that freezes choice, since reference points are labile and the disadvantages of a change loom larger only relative to the current position."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Thinking Like a Trader to Beat the Endowment Effect",
+          "visual_frame_description": "A card convention table shows two volunteers under List's survey banner. Novice Nathan clutches a mug while experienced dealer Priya weighs a chocolate bar against a row of other collectibles. A tally board displays the numbers 18% and 48% beside two arrows, and the survey line reads that each person may trade if they wish.",
+          "player_mission": "Predict the experienced traders' behavior in List's replication, then deploy the intervention that converts a novice owner into a trader. Name the question that eliminates the endowment effect to defeat the boss.",
+          "key_concepts": [
+            "Veteran traders ask how much they want to have a good compared with other things they could have instead.",
+            "This is the question Econs ask, and with it there is no endowment effect.",
+            "List found that only 18% of inexperienced traders were willing to exchange their gift.",
+            "48% of experienced traders traded, showing no trace of an endowment effect.",
+            "The endowment effect is not universal; it depends on whether goods are held for use or exchange.",
+            "Goods held for exchange do not trigger loss aversion.",
+            "Knetsch's pen-and-chocolate study found only about 10% of participants exchanged their gift.",
+            "Physical possession of the good before trading is mentioned is required for the effect.",
+            "Reference points are labile, especially in unusual laboratory situations.",
+            "Routine commerce shows no loss aversion on either side of the exchange."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the boundary conditions of the endowment effect: trading experience and the trader's question eliminate it. List's card-convention study found 48% of experienced traders exchanged their gift versus 18% of novices, showing the effect is not universal and depends on whether goods are held for use or for exchange.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The battle tests the trader's question that eliminates the endowment effect: how much do I want to have this good, compared with other things I could have instead? The boss is the novice's automatic attachment to owned goods.",
+          "stage_1_observation": "A table at a card convention shows two volunteers. Novice Nathan received a mug, and experienced dealer Priya received a chocolate bar. List's survey script asks each of them that they were given one gift but can trade for the other if they wish. A live tally shows Nathan clutching his mug while Priya weighs the bar against a row of other items.",
+          "stage_1_question": "List's exact replication of Knetsch's experiment found that only 18% of inexperienced traders exchanged their gift. What proportion of experienced traders traded, and why the difference?",
+          "stage_1_correct_answer": "48% of experienced traders traded, showing no trace of an endowment effect, because trading experience and the market context made them treat the gift as a carrier of exchange value rather than a good held for use.",
+          "stage_2_intervention": "Nathan refuses to trade. The escalation: deploy the intervention that converts an owner into a trader so Nathan can compare his mug against the alternatives.",
+          "stage_2_correct_answer": "Prompt Nathan to ask the trader's question, how much he wants the mug compared with the chocolate bar and other things he could have instead, because this reframes the good as held for exchange, makes the pleasure of getting and the pain of giving up symmetric, and eliminates the endowment effect."
+        }
+      ]
+    }
+  ]
+}

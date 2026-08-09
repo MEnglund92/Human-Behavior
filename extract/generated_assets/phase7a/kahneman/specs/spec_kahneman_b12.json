@@ -1,0 +1,77 @@
+{
+  "spec_file": "spec_kahneman_b12.json",
+  "book_key": "kahneman",
+  "book_title": "Thinking, Fast and Slow (Daniel Kahneman)",
+  "topic": "cognitive-biases",
+  "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+  "credibility_profile": {
+    "level": "High",
+    "consensus": "Broad",
+    "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+  },
+  "modality_weights": {
+    "DISCRIMINATION_MATRIX": 40,
+    "DECEPTION_AUDIT_FILE": 30,
+    "BOSS_BATTLE": 30
+  },
+  "chapter_count": 1,
+  "chapters": [
+    {
+      "index": 25,
+      "title": "20. The Illusion of Validity",
+      "words": 5333,
+      "asset_count": 12,
+      "text_path": "extract/generated_assets/phase7a/kahneman/chapter_0025.txt",
+      "top_concepts": [
+        {
+          "term": "behavior",
+          "context": "esentativeness heuristic in particular. Having observed one hour of a soldier’s behavior in an artificial situation, we felt we knew how well he would face the challenges of officer training and of leadership"
+        },
+        {
+          "term": "correlation",
+          "context": ", the ranking of investors and funds will vary erratically and the year-to-year correlation will be zero. Where there is skill, however, the rankings will be more stable. The persistence of individual difference"
+        },
+        {
+          "term": "system 1",
+          "context": "on of Validity xml version='1.0' encoding='utf-8'? 20 The Illusion of Validity System 1 is designed to jump to conclusions from little evidence—and it is not designed to know the size of its jumps. Because o"
+        },
+        {
+          "term": "wysiati",
+          "context": "ittle evidence—and it is not designed to know the size of its jumps. Because of WYSIATI, only the evidence at hand counts. Because of confidence by coherence, the subjective confidence we have in our opinion"
+        },
+        {
+          "term": "cognitive ease",
+          "context": "onfidence is a feeling, which reflects the coherence of the information and the cognitive ease of processing it. It is wise to take admissions of uncertainty seriously, but declarations of high confidence mainly te"
+        },
+        {
+          "term": "response",
+          "context": "perience. The next morning, we reported the findings to the advisers, and their response was equally bland. Their own experience of exercising careful judgment on complex problems was far more compelling to t"
+        },
+        {
+          "term": "system 2",
+          "context": "e we have in our opinions reflects the coherence of the story that System 1 and System 2 have constructed. The amount of evidence and its quality do not count for much, because poor evidence can make a very g"
+        },
+        {
+          "term": "substitution",
+          "context": "Our expectations for the soldiers’ future performance were a clear instance of substitution, and of the representativeness heuristic in particular. Having observed one hour of a soldier’s behavior in an artifici"
+        },
+        {
+          "term": "representativeness heuristic",
+          "context": "soldiers’ future performance were a clear instance of substitution, and of the representativeness heuristic in particular. Having observed one hour of a soldier’s behavior in an artificial situation, we felt we knew how well he"
+        },
+        {
+          "term": "influence",
+          "context": "y certainly believed the statistics they were shown, but the base rates did not influence their judgment of whether an individual they saw on the video would or would not help a stranger. Just as Nisbett and B"
+        },
+        {
+          "term": "self-esteem",
+          "context": "t challenge such basic assumptions—and thereby threaten people’s livelihood and self-esteem—are simply not absorbed. The mind does not digest them. This is particularly true of statistical studies of performance"
+        },
+        {
+          "term": "intuition",
+          "context": "er convincing accounts of the day’s events. And we cannot suppress the powerful intuition that what makes sense in hindsight today was predictable yesterday. The illusion that we understand the past fosters ov"
+        }
+      ]
+    }
+  ]
+}

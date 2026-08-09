@@ -1,0 +1,660 @@
+{
+  "spec_file": "spec_kahneman_b07.json",
+  "chapters": [
+    {
+      "id": "ch16",
+      "title": "11. Anchors",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Two Mechanisms of Anchoring: Adjustment vs. Priming",
+          "visual_frame_description": "A split-screen diagnostic lab. On the left, Marco, a freelance industrial designer in Portland, stares at a client email that mentions an $80,000 project budget. On the right, two glowing panels are labeled 'System 2 Adjustment' and 'System 1 Priming,' and case cards slide between them. A needle hovering at $78,500 drifts toward whichever panel the player selects as the source of Marco's estimate.",
+          "player_mission": "Classify each case card into the anchoring mechanism that produced it, then decide which mechanism produced Marco's quote. Use the chapter's evidence about adjustment and priming to sort every case correctly before locking in your diagnosis.",
+          "key_concepts": [
+            "An anchoring effect occurs when people consider a particular value for an unknown quantity before estimating that quantity, and their estimate stays close to that number.",
+            "In Kahneman and Tversky's wheel-of-fortune experiment, students who spun 10 estimated that about 25% of African nations were UN members, while those who spun 65 estimated about 45%.",
+            "Anchoring has two distinct mechanisms: a deliberate System 2 adjustment process and an automatic System 1 priming effect.",
+            "Insufficient adjustment means people stop moving away from an anchor as soon as they are no longer certain they should move farther, at the near edge of their region of uncertainty.",
+            "Epley and Gilovich found that people who shook their heads as if rejecting an anchor moved farther from it, while those who nodded showed enhanced anchoring.",
+            "Adjustment is an effortful operation: people adjust less when their mental resources are depleted, such as when their memory is loaded with digits or they are slightly drunk.",
+            "Kahneman proposed that anchoring is a case of suggestion, now understood as a priming effect: System 1 tries to construct a world in which the anchor is true.",
+            "Mussweiler and Strack showed that a 68-degree anchor made summer words like 'sun' easier to recognize, while a 40-degree anchor facilitated winter words like 'frost.'",
+            "A high anchor about German car prices selectively primed luxury brands like Mercedes and Audi, while a low anchor primed mass-market brands like Volkswagen.",
+            "People who are exposed to random or absurd anchors confidently deny being influenced, but they are wrong: System 2 has no control over the effect and no knowledge of it."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the two-mechanism account of anchoring: a deliberate System 2 adjustment that typically stops too early, and an automatic System 1 priming effect in which the anchor selectively activates compatible memories. Kahneman and Tversky demonstrated that even obviously uninformative numbers, such as a rigged wheel of fortune, shift estimates, and later research confirmed that both mechanisms are real.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Marco, a freelance designer, is asked by a new client to quote a project. The client mentions a budget of $80,000, and Marco's quote comes out at $78,500, near that number. Yet when he reviews his reasoning he finds no moment of deliberate calculation; the figure simply felt right. Which anchoring mechanism best explains his estimate?",
+          "column_a_label": "System 2 Adjustment: deliberate, effortful movement away from the anchor that stops too early",
+          "column_b_label": "System 1 Priming: automatic associative activation that makes anchor-compatible values feel true",
+          "column_c_label": "No Anchoring: the prior number was correctly ignored",
+          "rows": [
+            {
+              "label": "A teenager turns down loud music only slightly to reach a parent's 'reasonable' volume, still leaving it too loud",
+              "col": "a"
+            },
+            {
+              "label": "Mussweiler and Strack's 68-degree temperature anchor speeds recognition of summer words like 'sun' and 'beach'",
+              "col": "b"
+            },
+            {
+              "label": "Exploratorium visitors asked to donate to save seabirds without any suggested amount gave $64 on average",
+              "col": "c"
+            },
+            {
+              "label": "A driver leaving the highway keeps going 45 mph on a 25 mph city street, adjusting down only a little",
+              "col": "a"
+            },
+            {
+              "label": "A judge rolls loaded dice showing 9 and sentences a shoplifter to 8 months",
+              "col": "b"
+            },
+            {
+              "label": "A student estimating the share of African nations in the UN writes down a wheel-of-fortune spin of 65 and estimates 45%",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Adjustment, because Marco consciously considered the budget number before quoting",
+            "No anchoring, because the client's number was a real, informative hint about the project",
+            "System 2 adjustment, because producing a professional quote always requires deliberate reasoning"
+          ],
+          "explanation": "Marco experienced no deliberate walking away from the anchor, so adjustment is not the driver. The budget figure selectively activated compatible values, quote amounts near $80,000, which is exactly the automatic System 1 priming effect Kahneman describes: the estimate is biased even though the person cannot recall being influenced. Random or absurd anchors, such as dice or wheel-of-fortune spins, produce the same priming-based pull, which is why the wheel-of-fortune experiment yielded estimates of 25% and 45% from spins of 10 and 65."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Resisting Anchors in Negotiation and Judgment",
+          "visual_frame_description": "A boardroom at a software company, Priya, a vice president of talent, sits across a table from a candidate while a whiteboard lists counter-strategies: think the opposite, costs of no deal, equal counteroffer, nod or shake. Tactic cards slide onto the board, and the player must drag each one into the column it belongs to: effective resistance, no effect, or backfire.",
+          "player_mission": "Classify each anchoring defense or aggravator into the correct column, then judge whether Priya's planned preparation for her salary negotiation will actually neutralize the anchor.",
+          "key_concepts": [
+            "Galinsky and Mussweiler found that instructing negotiators to focus on the minimal offer the opponent would accept reduces or eliminates anchoring.",
+            "Deliberately thinking the opposite is a good defense against anchoring because it negates the biased recruitment of thoughts that produces the effect.",
+            "In single-issue negotiations, moving first is an advantage because the initial anchor has a powerful pull on the final price.",
+            "Kahneman's advice was to make a scene or threaten to walk out when the other side makes an outrageous proposal, rather than replying with an equally extreme counteroffer.",
+            "Epley and Gilovich found that nodding when hearing an anchor enhances anchoring, while shaking the head moves estimates farther from the anchor.",
+            "Insufficient adjustment is a failure of a weak or lazy System 2: depleted people adjust less and stay closer to the anchor.",
+            "Anchoring effects in real-estate pricing were 41% for experienced agents, who denied the influence, and 48% for business-school students, who admitted it.",
+            "Anchors do not have their effects because people believe they are informative; random anchors are just as effective as plausible hints.",
+            "You should assume that any number on the table has had an anchoring effect on you, and if the stakes are high, mobilize System 2 to combat it."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the countermeasures to anchoring in negotiation: the pull of the first number on the table can be weakened by deliberately mobilizing System 2, for example by focusing on the opponent's minimal acceptable offer, the cost of a failed deal, or by thinking the opposite. Kahneman and colleagues showed these tactics reduce or eliminate anchoring, while nodding, countering with an extreme offer, or depleted mental resources strengthen it.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Priya is negotiating salary with a candidate who opened at $185,000. Before responding, she writes down every reason the opening number is too high, names the maximum she is willing to pay, and estimates the cost to the candidate of walking away. Does this preparation neutralize the anchor?",
+          "column_a_label": "Effective Resistance: activates System 2 and weakens the anchor",
+          "column_b_label": "No Effect: judgment remains anchored",
+          "column_c_label": "Backfires: strengthens the anchor",
+          "rows": [
+            {
+              "label": "Focusing attention on the minimal offer the opponent would accept (Galinsky and Mussweiler)",
+              "col": "a"
+            },
+            {
+              "label": "Deliberately thinking the opposite and generating arguments against the anchor",
+              "col": "a"
+            },
+            {
+              "label": "Returning an equally outrageous counteroffer, widening the gap in negotiations",
+              "col": "c"
+            },
+            {
+              "label": "Nodding your head when you hear the anchor, signaling acceptance",
+              "col": "c"
+            },
+            {
+              "label": "Making a scene or declaring the negotiations over when the other side names an extreme number",
+              "col": "a"
+            },
+            {
+              "label": "Estimating while your working memory is loaded with digits or you are slightly drunk",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Her preparation is futile because anchors act only when the stakes are low",
+            "She will be more anchored because she paid close attention to the $185,000 number",
+            "She should instead counter immediately with an equally extreme figure to reset the negotiation"
+          ],
+          "explanation": "Galinsky and Mussweiler showed that deliberately activating System 2, by focusing on the opponent's minimal acceptable offer, the costs of failing to reach an agreement, or generally thinking the opposite, reduces or eliminates anchoring. Priya's search for arguments against the anchor negates the biased recruitment of thoughts that produces the effect. By contrast, nodding enhances anchoring, an equally extreme counteroffer leaves a gap that is hard to bridge, and depleted mental resources leave people staying closer to the anchor."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Anchors in Real-World Money and Pricing Decisions",
+          "visual_frame_description": "A scrolling gallery of everyday money scenes: a supermarket shelf with a Campbell's soup 'limit of 12' sign, an online trading app showing two buy-now prices for the same gadget, a fine-art auctioneer gesturing at a printed estimate, and a donation kiosk at a science museum. Each scene is tagged with a number the player must sort into the correct mechanism column.",
+          "player_mission": "Decide which mechanism produced each anchoring effect in real-world decisions, automatic priming, deliberate adjustment, or a deliberate debiasing move, and then judge what is driving the change in donations at Mara's charity.",
+          "key_concepts": [
+            "In the Exploratorium seabird study, visitors with no anchor gave $64 on average, those considering $5 gave $20, and those considering $400 gave $143.",
+            "Increasing the initial request by $100 brought a return of about $30 in average willingness to pay, an anchoring effect above 30%.",
+            "French residents of the polluted Marseilles region showed an anchoring effect over 50% when asked what living-cost increase they would accept to live in a less polluted region.",
+            "Supermarket shoppers bought an average of 7 cans of soup under a 'limit of 12' sign, twice as many as when the sign was absent.",
+            "The estimate in fine-art auctions is an anchor that influences the first bid.",
+            "Online trading shows anchoring in everyday life, where the same item is offered at different buy-now prices.",
+            "Random anchors are as effective as potentially informative ones: a wheel-of-fortune spin produced an anchoring index of 44%.",
+            "Anchors do not have their effects because people believe they are informative.",
+            "Arbitrary rationing works as a marketing ploy in part because mentioning 12 cans as a possible purchase produces anchoring."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests anchoring in real-world money decisions: the amount a person first considers automatically pulls estimates and willingness to pay toward it. Kahneman's willingness-to-pay studies showed average donations rising from $64 with no anchor to $143 with a $400 anchor, an effect above 30%, and similar anchoring appears in auctions, online trading, and store rationing signs.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Mara runs a nonprofit and is choosing the wording of her online donation page. In the Exploratorium seabird study, visitors who first considered a $5 anchor gave about $20, those who considered $400 gave about $143, and visitors asked with no anchor gave $64. Which mechanism is producing the change in giving?",
+          "column_a_label": "System 1 Priming Anchoring: the considered number automatically pulls the estimate or decision toward it",
+          "column_b_label": "System 2 Adjustment Anchoring: deliberate movement from the anchor that stops too early",
+          "column_c_label": "Debiasing: an explicit System 2 move to neutralize the anchor",
+          "rows": [
+            {
+              "label": "Shoppers seeing a 'limit of 12 per person' sign on 10%-off Campbell's soup bought 7 cans on average, twice the no-limit amount",
+              "col": "a"
+            },
+            {
+              "label": "The printed estimate in a fine-art auction influencing the first bid",
+              "col": "a"
+            },
+            {
+              "label": "The same item offered at different buy-now prices in online trading shifting what buyers expect to pay",
+              "col": "a"
+            },
+            {
+              "label": "A negotiator who read the other side's business plan and then forecast revenue close to the plan's figures",
+              "col": "a"
+            },
+            {
+              "label": "A judge mentally walking down from a plaintiff's demand to a lower damages number but not far enough",
+              "col": "b"
+            },
+            {
+              "label": "A company setting aside the seller's revenue plan and explicitly forecasting ways the plan could go wrong",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "System 2 adjustment, because donors reason carefully about how much to give",
+            "Debiasing, because the anchor amounts are so different that donors notice them",
+            "No mechanism: $64, $20, and $143 are just random variation in generosity"
+          ],
+          "explanation": "The donation results are a classic priming-based anchoring effect: the considered amount, $5 or $400, automatically recruits compatible thinking about what is reasonable to give, so willingness to pay rises from $64 with no anchor to $143 with the $400 anchor, an effect above 30%. The rationing, auction-estimate, and buy-now price examples all show the same automatic pull of a considered number, whereas a truly deliberate countermeasure, like setting the business plan aside and imagining ways it could go wrong, is a debiasing move."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Denied Anchor: A Real-Estate Agent's Valuation",
+          "visual_frame_description": "A bright condo living room where Nina, a fifteen-year real-estate agent in her fifties, studies a thick booklet of comparable sales. A small clock and an observational camera log appear in the corner, timestamping every glance she steals at the asking-price line while she circles numbers on a valuation worksheet.",
+          "player_mission": "Review Nina's behavior log and interview transcript, then decide whether her confident denial of the listing price's influence is trustworthy or whether she is anchored despite herself.",
+          "key_concepts": [
+            "Real-estate agents given an inflated asking price produced valuations 41% higher than those given a deflated price.",
+            "Business-school students with no real-estate experience showed an anchoring index of 48% and conceded the anchor had influenced them.",
+            "The only difference between the agents and the students was that the agents denied the influence of the asking price while the students admitted it.",
+            "System 2 has no control over anchoring and no knowledge of it, so participants confidently deny that useless anchors influenced their estimates.",
+            "Anchoring works whether or not the anchor is informative; random numbers are as effective as plausible hints.",
+            "Any number considered as a possible answer to an estimation problem will induce an anchoring effect.",
+            "People often clutch at straws on difficult questions, and the anchor is a plausible straw, but random anchors work just as well as informative ones.",
+            "Anchoring effects can be just as strong in the real world as in the laboratory."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the claim that anchoring influences professional judgments even when experts deny it: System 2 has no knowledge of the effect and no control over it. Kahneman's real-estate-agent study showed a 41% anchoring effect on valuations alongside confident denial, with professionals almost as susceptible as novices.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Nina, a 15-year residential real-estate agent, toured a three-bedroom condo and studied a comprehensive booklet of comparable sales. Unbeknownst to her, the booklet showed an asking price $120,000 higher than the true listing. When asked what affected her opinion, Nina insisted the asking price had no influence on her valuation. Is her self-report trustworthy?",
+          "subject_baseline": "Nina is a meticulous, veteran agent known for studying comp sheets line by line and lecturing junior agents about pricing discipline. In past listings she has prided herself on ignoring sellers' inflated asks and pricing purely from data. She keeps a calm, confident posture when discussing numbers and treats her pricing method as entirely analytic.",
+          "observed_nonverbal_log": [
+            "10:03 - Nina opens the booklet; her gaze lingers on the asking-price line for roughly eight seconds before she flips on.",
+            "10:14 - While computing her reasonable buying price, her eyes repeatedly return to the price field at the top of the page.",
+            "10:21 - She writes $512,000, then underlines it without hesitation; her speech speeds up when she explains her method.",
+            "10:26 - Asked whether the listing price mattered, she smiles, uncrosses her arms, and leans forward to answer quickly.",
+            "10:29 - She checks the asking price one final time before giving the lowest price she would sell for figure of $498,000."
+          ],
+          "interrogation_transcript": [
+            "Auditor: What did the asking price tell you about this property?",
+            "Nina: Honestly, I barely register it. I price from comps, solds within the last six months, same block. The ask is just a seller's fantasy.",
+            "Auditor: You've listed your reasonable buying price at $512,000. The comparable solds you cited average $470,000. What accounts for the gap?",
+            "Nina: This unit has better light and a renovated kitchen. That's worth money.",
+            "Auditor: And your lowest acceptable selling price of $498,000, if you owned it?",
+            "Nina: That's my floor. I'd never go below it, regardless of the ask.",
+            "Auditor: Do you think the number you first saw could have nudged you at all?",
+            "Nina: Absolutely not. I've done this for fifteen years. I don't get anchored."
+          ],
+          "correct_diagnosis": "Anchored. Nina's valuations are pulled upward by the inflated asking price she saw first, consistent with the 41% anchoring effect Kahneman measured in real-estate agents, even though she sincerely denies being influenced and can cite plausible reasons for the gap.",
+          "diagnostic_breakdown": "The behavioral log shows Nina repeatedly returning to the price field before producing each figure, the hallmark of a considered number doing quiet work. Her $512,000 and $498,000 estimates both sit well above the $470,000 comparable sales she herself cited, which is hard to explain by condition alone. The decisive evidence is the chapter's experimental finding: when half the agents saw an inflated listing price and half a deflated one, valuations moved by 41%, and the agents, like Nina, insisted the ask had no effect while the inexperienced students conceded that it did. Nina's fluent denial and confident body language are exactly what the study predicts, not a sign that she is lying; her self-report is simply inaccurate.",
+          "distractors": [
+            "Not anchored: Nina's fifteen years of experience let her genuinely ignore the listing price",
+            "Deliberate deception: Nina is inflating her valuation on purpose to earn a higher commission",
+            "Halo effect: Nina is overvaluing the renovated kitchen rather than reacting to the asking price"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Judge and the Loaded Dice",
+          "visual_frame_description": "A wood-paneled judge's chambers. Judge Keller, a gray-haired jurist in his sixties, reads a shoplifting case file, then rolls a pair of dice that stop on 9. A timestamped log in the corner shows him writing an 8-month sentence immediately afterward while a clerk watches, and the number 3 hovers ghosted beside the dice to remind the player of the rigged alternative.",
+          "player_mission": "Study the judge's behavior during the sentencing session and his explanation afterward, then determine whether his stated reasoning, offense severity, actually explains the sentence he imposed.",
+          "key_concepts": [
+            "German judges with over fifteen years of experience rolled dice rigged to show only 3 or 9 before sentencing a shoplifter.",
+            "Judges who rolled a 9 sentenced the shoplifter to 8 months on average; those who rolled a 3 gave 5 months, a 50% anchoring effect.",
+            "The anchoring effect appeared even though the dice obviously carried no information about the crime.",
+            "Participants exposed to random or absurd anchors confidently deny that the useless information influenced their estimate, and they are wrong.",
+            "System 2 works on data retrieved automatically from memory by System 1 and is therefore susceptible to anchors that make some information easier to retrieve.",
+            "Random anchors are just as effective as potentially informative ones; the wheel-of-fortune experiment produced an anchoring index of 44%.",
+            "The last digits of a Social Security number used as an anchor produced anchoring effects comparable to plausible hints.",
+            "Anchors do not have their effects because people believe they are informative.",
+            "The anchoring effect is one of the most reliable and robust results of experimental psychology."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the power of random anchors on expert judgment: even when a number obviously carries no information, it pulls System 2's final answer toward it while remaining invisible to the decision maker. Kahneman's loaded-dice study found a 50% anchoring effect on experienced judges' sentencing, with the judges sincerely denying any influence.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Judge Keller, who has averaged over fifteen years on the bench, reads a case file describing a woman caught shoplifting a small amount. Before sentencing, he rolls a pair of dice that have been rigged to land only on 3 or 9; the roll shows 9. He sentences the woman to 8 months, explaining that the term fits the theft's seriousness. Does his stated reasoning explain the sentence?",
+          "subject_baseline": "Judge Keller is a deliberative jurist who favors written sentencing guidelines, runs long hearings, and frequently lectures clerks that sentences should track offense severity, not whim. He is proud of his even-handedness and keeps a running personal record of his sentencing consistency across similar cases.",
+          "observed_nonverbal_log": [
+            "14:05 - Keller skims the shoplifting file, then picks up the dice as part of the study procedure; his eyes flick to the number as they stop.",
+            "14:07 - The dice show 9. He holds the position for two seconds before writing the comparative-sentence check mark on the form.",
+            "14:12 - Asked to specify the sentence, he writes '8 months' quickly, without a pause to consult the file again.",
+            "14:14 - Explaining his reasoning, he taps the file: theft is theft, and the guidelines place this squarely at eight months.",
+            "14:18 - He pushes back when a clerk suggests the sentence might be lenient: he weighs the crime, not his mood, and certainly not a pair of dice."
+          ],
+          "interrogation_transcript": [
+            "Clerk: Judge, why eight months rather than five?",
+            "Keller: The file. Repeat offender history, taken goods valued over the threshold, no remorse in the arrest report. Eight months is consistent with what I'd hand down on any Tuesday.",
+            "Clerk: If the dice had shown a 3, do you think your sentence would have changed?",
+            "Keller: Not in the slightest. That's the point of the exercise, showing that extraneous numbers don't leak into my rulings.",
+            "Clerk: Five months versus eight months, both could be defensible under the guidelines. What made you settle?",
+            "Keller: I settled on the seriousness of the offense. The number I rolled is irrelevant."
+          ],
+          "correct_diagnosis": "Anchored. Keller's 8-month sentence is pulled up by the rolled 9, Kahneman reports that judges who rolled 9 averaged 8 months while those who rolled 3 averaged 5 months, a 50% anchoring effect, despite his sincere insistence that the dice were irrelevant to his reasoning.",
+          "diagnostic_breakdown": "Keller's file itself supports sentences in the 5-to-8-month range, so his stated rationale, offense severity, cannot discriminate between the two outcomes, which is exactly why the dice matter. The 14:12 time-stamp shows he wrote 8 months immediately after the roll without re-consulting the file, and his protestations to the clerk match the chapter's core finding: experienced judges were strongly influenced by random anchors while firmly believing they were not. A 50% anchoring effect with loaded dice that show only 3 or 9 means the average difference between the two conditions was half the distance between the anchors, evidence of a genuine priming pull rather than a reasoned judgment.",
+          "distractors": [
+            "Not anchored: fifteen-plus years of judicial experience insulate sentencing from random numbers",
+            "Self-serving bias: Keller is deliberately harsher because the defendant is a repeat offender",
+            "Priming from the case file: the crime details, not the dice, drove the sentence"
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Lowball Offer: A Negotiation Battle",
+          "visual_frame_description": "A conference room in Columbus, Ohio, where Marta, the seller of a family warehouse, sits beside you across from three buyers. The buyer's negotiator has just slid a term sheet showing $2.1 million across the table. The word ANCHOR flickers above the number as the tension mounts, and a sidebar tracks your response strategy options.",
+          "player_mission": "Run the negotiation as Marta's representative: choose a first move that defeats the lowball anchor rather than matching it, then handle the buyer's second offer by keeping System 2 engaged.",
+          "key_concepts": [
+            "Moving first is an advantage in single-issue negotiations, because the initial anchor has a powerful effect on the final price.",
+            "Galinsky and Mussweiler found that focusing on the minimal offer the opponent would accept reduces or eliminates anchoring.",
+            "Focusing on the costs to the opponent of failing to reach an agreement also weakens the anchor's pull.",
+            "Deliberately thinking the opposite is a good defense against anchoring because it negates the biased recruitment of thoughts that produces the effect.",
+            "Kahneman advised that when the other side makes an outrageous proposal, you should make a scene or threaten to walk away rather than respond with an equally outrageous counteroffer.",
+            "An equally extreme counteroffer creates a gap that will be difficult to bridge in further negotiations.",
+            "You are always aware of the anchor and even pay attention to it, but you do not know how it guides your thinking.",
+            "If the stakes are high, you should mobilize your System 2 to combat the anchoring effect of any number on the table.",
+            "Anchoring effects in negotiations over a single issue such as price are powerful and reliably observed.",
+            "Insufficient adjustment, stopping at the near edge of the region of uncertainty, leaves negotiators closer to the anchor than they realize."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests anchoring in single-issue negotiation: the first number considered pulls the final price toward it, and matching a lowball with an equal counteroffer widens an unbridgeable gap. Kahneman and colleagues showed the anchor's pull can be reduced by deliberately focusing on the opponent's minimal acceptable offer, the cost of no deal, and arguments against the anchor, that is, by mobilizing System 2.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is anchoring in negotiation: the first number on the table exerts a powerful pull on the final price, so a lowball offer from the buyer becomes an anchor you must actively defeat rather than match. The chapter's tested defenses are moving to reject the anchor outright and deliberately thinking the opposite by focusing on the other side's minimal acceptable offer and the cost of no deal.",
+          "stage_1_observation": "You represent Marta, who is selling her family's warehouse in Columbus. The buyer's team opens by offering $2.1 million, far below the $3.2 million that two independent appraisers support. Across the table, the buyer's negotiator slides a printed term sheet toward you and leans back with a satisfied look, waiting. The room is quiet; every eye is on how you handle the number now on the table.",
+          "stage_1_question": "The buyer's lowball is now the number on the table. What is the most effective first move, based on the chapter's negotiation evidence?",
+          "stage_1_correct_answer": "Refuse to negotiate from that number: make it clear, to yourself and the other side, that negotiations cannot continue while $2.1 million is on the table, rather than countering with an equally extreme figure.",
+          "stage_2_intervention": "The buyer withdraws the $2.1 million offer and returns the next day with $2.4 million, still below appraised value. Marta is tired and anxious to close, and she suggests you just meet in the middle at $2.8 million, which is close to her goal but still short. The buyer's negotiator, sensing weakness, begins talking about the warehouse needing a new roof to push the price down further. You have one move before the meeting escalates.",
+          "stage_2_correct_answer": "Keep Marta's System 2 engaged: explicitly search for arguments against the $2.4 million anchor, the cost to the buyer of failing to reach a deal, the buyer's own minimum acceptable price, and evidence contradicting the roof story, before naming any counterfigure, instead of anchoring on meeting in the middle."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Damages Cap: Anchoring in Public Policy",
+          "visual_frame_description": "A state capitol briefing room where you, chief policy adviser to the hospital association, stand before a table of three hospital executives. A projector shows a bar chart of personal-injury awards from $200,000 to $9 million, with a red line drawn at $1 million labeled CAP and small upward arrows sprouting from the smaller bars below it.",
+          "player_mission": "Advise the board on what a $1 million damages cap will actually do to the distribution of awards, then pick a lobbying strategy that accounts for the cap's hidden anchoring effect rather than assuming a lower cap is pure upside.",
+          "key_concepts": [
+            "A cap on damages eliminates all larger awards but also acts as an anchor that pulls up the size of many awards that would otherwise be much smaller.",
+            "Capping personal-injury awards would almost certainly benefit serious offenders and large firms much more than small ones.",
+            "Anchoring effects are so common in everyday decision making that any number considered as a possible solution will induce an anchoring effect.",
+            "Anchors do not have their effects because people believe they are informative; random anchors work as well as plausible hints.",
+            "System 2 has no control over anchoring and no knowledge of it, so policy makers cannot rely on deliberation to neutralize the effect.",
+            "Powerful anchoring effects are found in decisions people make about money, including contributions to causes and estimates of damages.",
+            "The anchoring index in the redwood experiment was 55%, a typical value across many problems.",
+            "If the stakes are high, you should assume that any number on the table has anchored you and mobilize System 2 to combat the effect.",
+            "People are far more suggestible than most of us would want to be, and there are people willing and able to exploit this gullibility."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests anchoring as a hidden force in public policy: a damages cap is simultaneously a ceiling and a psychological anchor that drags smaller awards upward. Kahneman's analysis shows the cap would eliminate the largest verdicts while inflating many modest ones, making the policy's real winners serious offenders and large firms.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is that anchors operate even in policy design: a legislated cap on damages is not only a ceiling but an anchor that pulls smaller awards upward. Kahneman argues that capping personal-injury awards at $1 million would eliminate larger awards but also raise many awards that would otherwise be far smaller, benefiting serious offenders and large firms more than small ones.",
+          "stage_1_observation": "You are chief policy adviser to the state hospital association, which has lobbied for years to cap personal-injury damages at $1 million. A plaintiff's advocacy group just released a report showing several recent awards of $3 to $9 million. The hospital board, including three executives who have never faced a lawsuit personally, expects you to brief them on why the cap is a win. You must decide what the cap will actually do to the distribution of awards.",
+          "stage_1_question": "Based on the chapter's analysis of anchoring, what is the most accurate prediction for a $1 million cap on damages?",
+          "stage_1_correct_answer": "The cap will eliminate awards above $1 million, but it will also serve as an anchor that pulls up many awards that would otherwise be much smaller, so the rule would likely benefit serious offenders and large firms more than small ones, and the net effect is not a straightforward win for defendants.",
+          "stage_2_intervention": "After your brief, the board splits. The general counsel insists the cap is pure upside and wants to lobby for an even lower cap of $500,000. A junior analyst objects that a lower cap anchors claims even harder upward, while the plaintiff's group now offers to support a $2 million cap in exchange for procedural concessions. The board looks to you to choose the strategy with the least anchoring downside.",
+          "stage_2_correct_answer": "Reject the framing that lower caps are pure upside: recognize that any cap, $500,000 or $2 million, becomes an anchor pulling smaller awards up toward it, and press the board to weigh the anchoring effect, not just the ceiling, when choosing a figure, rather than assuming a lower cap always helps defendants."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Donation Campaign: Setting the Anchor",
+          "visual_frame_description": "A bright nonprofit office where you, fundraising manager for CoastCare, face a large monitor showing three donation-page mockups: a bare donate button, a suggested $5 amount, and a suggested $400 amount. Below them, a small banner displays last year's average donation of $64, while a progress bar tracks how each anchor moves actual average gifts.",
+          "player_mission": "Choose the donation-page design that will maximize average giving based on the chapter's willingness-to-pay evidence, then rule on the executive director's proposal to escalate the anchor to $2,000.",
+          "key_concepts": [
+            "Exploratorium visitors asked to contribute to save seabirds with no anchor gave $64 on average.",
+            "Visitors anchored to $5 gave an average of $20, while those anchored to $400 gave an average of $143.",
+            "The difference between the high-anchor and low-anchor groups was $123, an anchoring effect above 30%.",
+            "Increasing the initial request by $100 brought a return of about $30 in average willingness to pay.",
+            "Anchoring effects in decisions about money, such as contributions to a cause, are powerful.",
+            "Random anchors are just as effective as potentially informative ones.",
+            "Anchors do not have their effects because people believe they are informative.",
+            "Any number considered as a possible answer to an estimation problem will induce an anchoring effect.",
+            "People are far more suggestible than most of us would want to be.",
+            "If the stakes are high, assume any number on the table has anchored you and mobilize System 2."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests anchoring in prosocial giving: the first dollar amount a donor considers becomes an anchor that shifts actual contributions. Kahneman's Exploratorium willingness-to-pay study showed average gifts of $64 with no anchor rising to $143 with a $400 anchor and falling to $20 with a $5 anchor, an effect above 30%.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is anchoring in willingness to pay: the amount a donor is first asked to consider shifts the amount they actually give, even when the anchor is arbitrary. In the Exploratorium seabird study, visitors with no anchor offered $64 on average, a $5 anchor pulled giving down to $20, and a $400 anchor raised it to $143.",
+          "stage_1_observation": "You manage fundraising for CoastCare, a seabird rescue nonprofit. You are redesigning the online donation page, which currently has no suggested amount. Your colleagues argue over three mockups: a bare donate button with no figure, a suggested amount of $5, and a suggested amount of $400. The screen in front of you shows the three options side by side, with last year's average donation of $64 displayed underneath.",
+          "stage_1_question": "Which mockup will produce the highest average donation, based on the chapter's willingness-to-pay evidence?",
+          "stage_1_correct_answer": "The $400 suggested amount: the Exploratorium study showed that anchoring with $400 raised average willingness to pay to $143, versus $64 with no anchor and $20 with a $5 anchor.",
+          "stage_2_intervention": "Your mockup with the $400 anchor wins, and first-week data shows average gifts of about $138, matching the study. Now the executive director wants to push further: she proposes a $2,000 hero-donor anchor on the same page, reasoning that if $400 worked, $2,000 will work even better. A skeptical donor-relations lead warns the number looks absurd and might backfire, and the board asks you to rule on the proposal.",
+          "stage_2_correct_answer": "Keep a high-but-plausible anchor on the $400 scale rather than escalating to an extravagant $2,000: the chapter's evidence supports strong effects from plausible high anchors, and while even absurd anchors still exert a priming pull, the $2,000 figure introduces reactions the study did not test, so you should monitor the data rather than assume a larger number always yields proportionally larger gifts."
+        }
+      ]
+    },
+    {
+      "id": "ch17",
+      "title": "12. The Science of Availability",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Sources of Availability Bias in Everyday Judgment",
+          "visual_frame_description": "A newsroom wall of memory clips: a burning car on a highway shoulder, a celebrity divorce headline, a plane crash story, a family courtroom scene, and a couple arguing over chores. Each clip shows a person about to estimate a frequency, and the player must sort each scene into the availability source that is skewing the estimate.",
+          "player_mission": "Classify each scenario by the source of its availability bias, dramatic or salient events, personal or vivid experience, or fluency of retrieval, and then diagnose what is skewing Dana's fear of the ocean.",
+          "key_concepts": [
+            "The availability heuristic judges the frequency of a category by the ease with which instances come to mind.",
+            "Salient events that attract attention are easily retrieved, so people exaggerate the frequency of celebrity divorces and political sex scandals.",
+            "A dramatic event temporarily increases the availability of its category: a plane crash alters feelings about the safety of flying for a while.",
+            "Personal experiences, pictures, and vivid examples are more available than incidents that happened to others, mere words, or statistics.",
+            "A judicial error that affects you undermines your faith in the justice system more than a similar incident read about in a newspaper.",
+            "Substitution of questions, estimating frequency while reporting ease of retrieval, inevitably produces systematic errors.",
+            "You can resist availability biases by asking whether a belief is due to a few recent instances rather than real frequency.",
+            "People estimate the frequency of a category such as people who divorce after age 60 from how easily instances come to mind.",
+            "The availability heuristic, like other heuristics, substitutes one question for another."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the availability heuristic, in which people judge frequency by the ease with which instances come to mind rather than by actual counts. Kahneman and Tversky showed that vivid, personal, and dramatic instances are more available than statistics, so a single vivid story can outweigh accurate base rates.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Dana read one vivid feature story about a shark bite off the Florida coast. Now, at a lifeguard briefing that cites statistics showing shark bites are extremely rare, she still tells friends the ocean is far more dangerous than the lifeguards' numbers suggest. Which availability mechanism is driving her judgment?",
+          "column_a_label": "Dramatic or salient event: attention-grabbing news temporarily inflates the category's judged frequency",
+          "column_b_label": "Personal or vivid experience: a personal, pictured, or story-based instance is more available than statistics",
+          "column_c_label": "Fluency of retrieval: the ease of calling instances to mind, not their number, drives the estimate",
+          "rows": [
+            {
+              "label": "After passing a car burning on the highway shoulder, Priya feels the roads are dangerous for weeks",
+              "col": "a"
+            },
+            {
+              "label": "A media-covered plane crash makes Lena overestimate the risk of flying for a while",
+              "col": "a"
+            },
+            {
+              "label": "Hollywood celebrity divorces make Leo think half of all marriages end in divorce",
+              "col": "a"
+            },
+            {
+              "label": "A judicial error that struck your own family undermines your faith in the courts more than a newspaper story would",
+              "col": "b"
+            },
+            {
+              "label": "A couple each remember their own household chores vividly and both estimate they do more than their share",
+              "col": "b"
+            },
+            {
+              "label": "People asked for twelve instances of assertiveness rate themselves as less assertive than people asked for six",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "She is rationally updating her risk estimate from the shark-bite report",
+            "A dramatic event: the shark story was attention-grabbing news",
+            "Anchoring on the lifeguards' statistic they just quoted"
+          ],
+          "explanation": "Dana is responding to a vivid, story-based instance, the single shark-bite feature, which is far more available in memory than the lifeguards' dry statistics. Kahneman notes that personal experiences, pictures, and vivid examples are more available than incidents that happened to others, mere words, or statistics, and that a dramatic event temporarily raises the availability of its category. Because the shark story is a vivid example rather than a frequency-driving salience event like the burning car or a plane crash, it sorts to column B."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Ease of Retrieval Versus Content in Self-Judgment",
+          "visual_frame_description": "A split laboratory: on one side, a person struggling to list twelve assertive moments, brow furrowed; on the other, a person breezing through six. Between them a whiteboard tallies amount retrieved against ease of retrieval. Cards showing Schwarz's paradoxical results and the heart-disease study slide past, and the player must sort which factor drove each judgment.",
+          "player_mission": "Determine, for each experiment card, whether the judgment followed content, ease of retrieval, or a disrupted and explained fluency, then diagnose the recruiter's counterintuitive impression of a candidate.",
+          "key_concepts": [
+            "People who listed twelve instances of assertiveness rated themselves as less assertive than people who listed six.",
+            "Participants asked to list twelve cases of non-assertive behavior ended up thinking of themselves as quite assertive.",
+            "Self-ratings were dominated by the ease with which examples came to mind; fluent retrieval trumped the number retrieved.",
+            "Frowning accompanies cognitive strain, and frowners who struggled to retrieve examples rated themselves as less assertive.",
+            "People believe they use their bicycles less after recalling many rather than few instances.",
+            "People are less confident in a choice when asked to produce more arguments to support it.",
+            "UCLA students who listed more ways to improve a course rated the course higher.",
+            "When fluency is given a spurious explanation, background music, straight text boxes, or screen color, it no longer influences judgment.",
+            "People who are personally involved in a judgment consider the number of instances retrieved rather than fluency.",
+            "The availability heuristic is better described as an unexplained unavailability heuristic."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests Schwarz's fluency discovery: judgments of traits and events are driven by the ease with which instances come to mind, not by the number retrieved, so demanding twelve examples paradoxically lowers self-rated assertiveness. The effect reverses when fluency is explained away, and people with personal stakes shift to evaluating content.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "A recruiter at a talent agency is asked to list 10 weaknesses of a candidate before rating her. She struggles through the task, producing only awkward, minor items. Afterward she rates the candidate MORE impressive than a colleague who was asked for just 3 weaknesses. Which factor is driving the recruiter's judgment?",
+          "column_a_label": "Content: the judgment follows the number and quality of instances retrieved",
+          "column_b_label": "Ease of retrieval: fluency, how hard the instances were to produce, drives the judgment",
+          "column_c_label": "Fluency explained or disrupted: a spurious cause is provided, so the heuristic stops operating",
+          "rows": [
+            {
+              "label": "Participants who listed twelve assertive instances rated themselves as less assertive than those who listed six",
+              "col": "b"
+            },
+            {
+              "label": "UCLA students who listed more ways to improve the course rated the course higher",
+              "col": "b"
+            },
+            {
+              "label": "Subjects told that background music would make recall harder rated themselves equally assertive at six and twelve instances",
+              "col": "c"
+            },
+            {
+              "label": "Cardiac-risk students with a family history of heart disease felt safer after recalling many safe behaviors",
+              "col": "a"
+            },
+            {
+              "label": "Frowners, who experienced greater retrieval strain, rated themselves as less assertive",
+              "col": "b"
+            },
+            {
+              "label": "Subjects whose difficulty was explained by straight text boxes stopped using fluency in their judgment",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Content: she genuinely retrieved many weaknesses, so the rating is evidence-based",
+            "Halo effect: she liked the candidate before the task began",
+            "Anchoring: the requested number 10 set a high standard for the rating"
+          ],
+          "explanation": "The recruiter's rating follows the difficulty of retrieval, not what she retrieved: struggling to produce ten weaknesses felt like unexplained unavailability, so she inferred the candidate must have few real weaknesses. Schwarz and colleagues showed self-ratings are dominated by fluency, people who listed twelve hard-to-produce instances rated themselves less assertive than those who listed six, and the paradox disappears when the fluency is given a spurious explanation. The heart-disease participants with personal stakes are the exception who used content instead, which is why they sort to column A."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Chore Audit: When Both Partners Claim More Than Half",
+          "visual_frame_description": "A softly lit couples-counseling office with a beige couch. Marcus and Elena sit at opposite ends, each holding a worksheet. A timestamped observational log in the corner shows how fluently each describes their own chores and how vaguely they describe the other's, while a tally at the top reads 70% plus 65%.",
+          "player_mission": "Review how each partner describes their own and the other's contributions, then determine whether either account of the household split is accurate or whether both are distorted by an availability bias.",
+          "key_concepts": [
+            "In a famous study, spouses' self-assessed contributions to household tasks added up to more than 100%.",
+            "Both spouses remember their own individual efforts much more clearly than those of the other, and the difference in availability leads to a difference in judged frequency.",
+            "The bias is not necessarily self-serving: spouses also overestimated their contribution to causing quarrels, though less than for desirable outcomes.",
+            "Many members of a collaborative team feel they have done more than their share and feel that the others are not adequately grateful.",
+            "There is usually more than 100% of credit to go around, and the mere observation of this is sometimes enough to defuse a situation.",
+            "The availability heuristic judges frequency by the ease with which instances come to mind.",
+            "Personal experiences are more available than incidents that happened to others.",
+            "Vigilance against availability biases is a chore, but the chance to avoid a costly mistake is sometimes worth the effort.",
+            "You will occasionally do more than your share, but it is useful to know you are likely to have that feeling even when everyone feels the same."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the availability bias in self-assessment: because people recall their own actions far more vividly than others', both partners' estimates of contribution sum past 100%. Kahneman's marriage study showed the summed estimates exceed 100% and that acknowledging there is usually more than 100% of credit available can defuse the conflict.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Marcus and Elena have been married nine years and are in couples counseling over household duties. When asked to estimate their own contribution to keeping the apartment tidy, each claims to do well over half the work, and each is certain the other underestimates them. Whose account of the household should the counselor treat as accurate?",
+          "subject_baseline": "Marcus keeps a running mental tally of chores and quotes specific evenings he scrubbed the kitchen; Elena maintains a shared calendar of her errands and resents having to reassign tasks. Both are ordinarily candid people who dislike conflict and genuinely believe they pull their weight; neither has any history of deceptive behavior.",
+          "observed_nonverbal_log": [
+            "15:02 - Marcus answers about 70 percent instantly, ticking off three specific chores he performed this week without hesitation.",
+            "15:06 - Asked to name Elena's contributions, Marcus pauses, looks at the ceiling, and produces two generic examples, she does some laundry.",
+            "15:11 - Elena answers 65 percent with detailed dates and times; her voice rises slightly as she itemizes.",
+            "15:16 - Elena, when listing Marcus's chores, gives a vague he takes out the garbage sometimes, after a two-second hesitation.",
+            "15:24 - Both lean forward when recounting their own work and lean back, relaxed, when describing the other's."
+          ],
+          "interrogation_transcript": [
+            "Counselor: Marcus, how much of the tidy-keeping would you say is yours?",
+            "Marcus: Honestly? Seventy percent. I did the kitchen after dinner Tuesday and Thursday, the bathroom Saturday, and I sweep every other day.",
+            "Counselor: And Elena's share?",
+            "Marcus: She handles some laundry, I guess. I don't keep track of her stuff the way I keep track of mine.",
+            "Counselor: Elena, your estimate?",
+            "Elena: Sixty-five percent, at least. I plan the meals, I book the cleaners, I do the groceries, I have the calendar to prove it.",
+            "Counselor: And what would Marcus's day look like, from your view?",
+            "Elena: He does the trash run and the occasional sweep. Beyond that, honestly, I couldn't say.",
+            "Counselor: So between you, that's 135% of the tidy-keeping. Does that strike either of you as possible?",
+            "Marcus: It must be more than 100% then, because neither of us is lying."
+          ],
+          "correct_diagnosis": "No deception. Both partners are honestly misestimating due to an availability bias: each remembers their own contributions far more vividly than the other's, so the judged contributions exceed the total. The counselor should treat neither estimate as an accurate allocation and should recognize that there is usually more than 100% of credit to go around.",
+          "diagnostic_breakdown": "The fluency markers are decisive: both partners produce their own contributions instantly, concretely, and in volume, but hesitate and go vague when asked about the other's, vivid personal recall is far more available. Kahneman's marriage study showed that self-assessed contributions add up to more than 100% for exactly this reason, and that people also overestimate their own contribution to causing quarrels. Neither partner is lying; their self-reports are both fluent and wrong. The constructive move is to defuse the conflict by observing that more than 100% credit is typically available for distribution.",
+          "distractors": [
+            "Marcus is lying: his concrete, itemized account is rehearsed to win the counseling session",
+            "Elena is accurate: her shared calendar proves her 65% is factual",
+            "One partner must be right because household work is a zero-sum allocation"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Performance Review: Twelve Hard-Won Examples",
+          "visual_frame_description": "A glass-walled review room at Meridian Consulting. Raj, a senior consultant, sits across from his manager, a notebook of twelve bullet points between them. A timestamped behavioral log shows him writing the first three examples quickly, then hesitating with a furrowed brow on the later ones before marking himself a 3 out of 10 on assertiveness.",
+          "player_mission": "Audit Raj's self-rating: weigh his visible retrieval effort, his interview answers, and his documented assertive record, then decide whether the low score reflects his actual behavior or an artifact of the task.",
+          "key_concepts": [
+            "People who listed twelve instances of assertive behavior rated themselves as less assertive than people who listed six.",
+            "The experience of fluent retrieval trumped the number of instances retrieved.",
+            "Participants asked for twelve cases of non-assertive behavior ended up thinking of themselves as quite assertive.",
+            "The availability heuristic is better described as an unexplained unavailability heuristic: people infer from difficulty that the trait must be absent.",
+            "The inference rests on surprise: retrieval fluency dropped more steeply between six and twelve instances than participants expected.",
+            "When fluency was given a spurious explanation, background music, straight text boxes, or screen color, it no longer influenced judgment.",
+            "Frowning accompanies cognitive strain, and instructed frowners rated themselves as less assertive.",
+            "People are less confident in a choice when asked to produce more arguments to support it.",
+            "The difficulty of coming up with new instances increases more rapidly than people expect."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the fluency paradox at the heart of Schwarz's research: asking for twelve examples makes retrieval hard, and the experienced difficulty is misread as evidence that the trait is absent. People who listed twelve instances rated themselves less assertive than those who listed six, so Raj's low self-rating reflects retrieval strain, not his actual behavior.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "At Meridian Consulting's annual review, Raj, asked by his manager to prepare twelve examples of his assertiveness, produces them with visible effort and then rates himself as not very assertive. His colleague Mei, asked for six examples, breezes through and rates herself highly assertive. Should Raj's low self-rating be taken at face value as an accurate measure of his assertiveness?",
+          "subject_baseline": "Raj is a senior consultant who volunteers first in meetings, has led two client pitches this year, and was nominated for a leadership track. He is not given to self-deprecation; in informal settings he describes himself as direct. He had a good, rested morning before the review.",
+          "observed_nonverbal_log": [
+            "09:12 - Raj picks up his pen; the first three assertiveness examples come quickly, written in under a minute.",
+            "09:19 - For examples seven through twelve, he pauses repeatedly, looks up, and taps the table; his brow furrows on examples nine and eleven.",
+            "09:24 - He finishes the list with a sigh, shaking his head slightly at the last two entries.",
+            "09:31 - Asked to rate his assertiveness, he marks 3 out of 10 without hesitation, citing his struggles during the task.",
+            "09:35 - His voice is flat as he explains that if he has to dig this hard, he must not really be like that.",
+            "09:40 - He recalls the twelve examples again with visible discomfort before closing his notebook."
+          ],
+          "interrogation_transcript": [
+            "Manager: Raj, that was a long list. How did the exercise feel?",
+            "Raj: The first few were easy, the client pitch, the team stand-up. After that it got hard. I was reaching for the last ones.",
+            "Manager: You've given me examples of leading two pitches and pushing back on scope creep. Those sound assertive.",
+            "Raj: But if being assertive were really me, the examples would have come easily. Twelve was nearly impossible. That tells me something.",
+            "Manager: You rate yourself three out of ten. Does that match how you behave in the room?",
+            "Raj: Apparently not. The task showed me the truth."
+          ],
+          "correct_diagnosis": "Not a valid self-assessment. Raj's low rating is produced by the difficulty of retrieving twelve instances, low fluency read as unexplained unavailability, not by his actual behavior. His earlier successes and his own account of leading pitches contradict the rating, and the chapter shows people who list twelve instances rate themselves less assertive than those who list six purely because retrieval got hard.",
+          "diagnostic_breakdown": "The behavioral log shows the telltale signature of the fluency effect: examples one through three flowed, then retrieval stalled, culminating in the brow-furrowing and sighs at the end, the exact pattern Schwarz and colleagues documented. Raj's own inference, that if it is hard to recall, he must not be that way, is the availability heuristic misreading retrieval difficulty as diagnostic content. Because he was asked for twelve rather than six instances, his low self-rating is an artifact of the task's difficulty, and his genuine assertive record, the pitches, stand-up, and scope-pushback, is the better evidence. The correct verdict is that the self-rating is biased, not that Raj is unassertive or that he is lying.",
+          "distractors": [
+            "Valid: the twelve hard-to-produce examples prove Raj truly lacks assertiveness",
+            "Deception: Raj is underrating himself strategically to lower next year's targets",
+            "Halo effect: Raj is flattering Mei by comparison because he likes her"
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The CEO's Winning Streak: Confronting Availability-Driven Overconfidence",
+          "visual_frame_description": "A boardroom at Meridian Logistics where CEO Carol stands at a large screen showing a pipeline dashboard with zero contingency scenarios. Below, the board table is lined with water glasses and folders. A small confidence meter at the side of the screen reads high while a faint image of a failed acquisition fades in and out of the display.",
+          "player_mission": "Diagnose the source of the CEO's confidence in the sixth acquisition, then take the deciding vote to ratify or require a debiasing review before the deal is signed.",
+          "key_concepts": [
+            "After a series of successes, failure does not come easily to mind, and the availability bias makes the CEO overconfident.",
+            "People who go with the flow are more strongly affected by ease of retrieval than by the content they retrieved.",
+            "Reliance on ease of retrieval is amplified when people are engaged in another effortful task, in a good mood, low on depression, knowledgeable novices, high in faith in intuition, or feeling powerful.",
+            "Merely reminding people of a time when they had power increases their trust in their own intuition.",
+            "Faith in intuition is only in part a personality trait; situational power inflates it.",
+            "The availability heuristic judges frequency and risk by the ease with which instances come to mind.",
+            "A dramatic event temporarily increases the availability of its category, and personal experiences are more available than statistics.",
+            "Resisting availability biases requires making the effort to reconsider impressions and asking whether a belief is due to a few recent instances.",
+            "People who let themselves be guided by System 1 are more susceptible to availability biases than those in a state of higher vigilance.",
+            "Substitution of questions, reporting ease of retrieval instead of actual frequency, inevitably produces systematic errors."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests availability-driven overconfidence after a winning streak: because failure no longer comes easily to mind, the CEO's risk estimates rest on fluency rather than evidence. Kahneman notes the bias is amplified in people who feel powerful and trust their intuition, and the corrective is deliberate System 2 engagement, generating failure scenarios and consulting base rates.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is availability-driven overconfidence: after a run of successes, failure becomes hard to retrieve, so the CEO underestimates risk. The chapter shows that ease of retrieval dominates when people go with the flow, under cognitive load, good mood, high faith in intuition, or a feeling of power, and that the corrective is to force System 2 engagement and look at statistics rather than fluency.",
+          "stage_1_observation": "You are chair of the board of Meridian Logistics. CEO Carol has closed five acquisitions in a row, and her quarterly letter to shareholders glows. In the board meeting she waves off risk analysis for deal number six, saying failure does not come easily to her mind right now, and the room nods. On the screen behind her, the pipeline dashboard shows zero contingency scenarios for the deal she is about to sign.",
+          "stage_1_question": "Carol says failure does not come easily to mind and feels the sixth deal is near-riskless. What is driving her optimism, and how should you interpret it?",
+          "stage_1_correct_answer": "Her optimism is driven by an availability bias: a sequence of recent successes makes failure instances hard to retrieve, so she judges risk by ease of recall rather than by statistics, and she is especially prone because she is powerful and trusts her intuition, conditions that amplify reliance on ease of retrieval.",
+          "stage_2_intervention": "Carol has signed off on the $90 million acquisition with no hedging and, when a director raises integration risk, replies that she does not spend a lot of time taking polls to tell her what is right, she just has to know how she feels. She asks the board to ratify the deal today. You hold the deciding vote. How do you respond?",
+          "stage_2_correct_answer": "Vote to force a debiasing review rather than ratify on intuition: require the team to deliberately generate failure scenarios and disconfirming evidence, ask whether the confidence is driven by a few recent wins, and compare the deal against base-rate statistics on similar acquisitions, mobilizing System 2 instead of deferring to Carol's fluent confidence."
+        }
+      ]
+    }
+  ]
+}

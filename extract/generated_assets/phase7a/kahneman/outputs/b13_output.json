@@ -1,0 +1,406 @@
+{
+  "spec_file": "spec_kahneman_b13.json",
+  "chapters": [
+    {
+      "id": "ch26",
+      "title": "21. Intuitions Vs. Formulas",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Clinical vs. Statistical Prediction (the Meehl pattern)",
+          "visual_frame_description": "A sorting station shaped like a courtroom evidence board fills the screen. On the left, a stack of index cards carries one-line claims drawn from Paul Meehl's research review, and three labeled columns await them on the board. A faded portrait of Meehl at a Minnesota seminar overlooks the scene, and a tally counter records how many cards the player has placed correctly.",
+          "player_mission": "Read each evidence card and drag it into the column it best supports: formulas beating expert judgment, intuition adding genuine value, or moral resistance to algorithms. Complete the board so every card sits in the column the chapter's evidence supports.",
+          "key_concepts": [
+            "Meehl's review of 20 studies found that statistical formulas matched or beat trained clinical judgment in nearly every comparison.",
+            "Roughly two hundred follow-up studies have since been conducted, and about 60% show significantly better accuracy for algorithms, with the rest tying and no convincing exception documented.",
+            "In low-validity environments, where outcomes are hard to predict, the accuracy of experts was matched or exceeded by a simple algorithm in every domain examined.",
+            "When trained counselors interviewed freshmen for forty-five minutes, a formula using only high-school grades and one aptitude test beat 11 of the 14 counselors.",
+            "People given the score suggested by a formula still overrule it on the strength of additional information about the case, and they are wrong more often than not.",
+            "The broken-leg rule states it is proper to disregard a formula only when rare, decisive information, such as a broken leg, arrives.",
+            "Experienced radiologists contradict themselves about 20% of the time when they see the same chest X-ray on separate occasions.",
+            "Unreliable judgments cannot be valid predictors of anything, which is why expert inconsistency destroys predictive validity.",
+            "Long-term predictions about a patient's future are where clinicians fail, whereas short-term in-session hunches are a genuine skill built on years of practice.",
+            "Many clinicians treat the idea that a mechanical combination of a few variables could outperform subtle human judgment as obviously wrong, an emotional reaction with a moral dimension."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This matrix tests the Meehl pattern: in low-validity environments a simple statistical combination of a few scores matches or beats the subjective judgment of trained professionals, with about 60% of roughly two hundred comparison studies favoring the algorithm. The book presents this as one of the most uniformly replicated findings in social science, tempered by the broken-leg rule for rare, decisive information and by genuine short-term clinical skill.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Drag each evidence card into the column it best supports: the Meehl pattern (formulas win), genuine clinical skill (intuition wins), or the moral resistance to algorithms.",
+          "column_a_label": "Formula beats expert judgment (Meehl pattern)",
+          "column_b_label": "Intuition adds genuine value",
+          "column_c_label": "Moral and aesthetic resistance to algorithms",
+          "rows": [
+            {
+              "label": "A counselor who interviewed a freshman for 45 minutes is outscored by a formula using only high-school grades and one aptitude test.",
+              "col": "a"
+            },
+            {
+              "label": "A therapist correctly anticipates that a patient will resist a particular intervention during the session.",
+              "col": "b"
+            },
+            {
+              "label": "Disregarding the movie-going prediction formula because the person broke a leg today.",
+              "col": "b"
+            },
+            {
+              "label": "A clinician combines subtle cues about a patient's dynamics to predict outcomes five years in the future.",
+              "col": "a"
+            },
+            {
+              "label": "An expert overrules a formula's score because she has extra information about the case, and she is wrong more often than not.",
+              "col": "a"
+            },
+            {
+              "label": "Wine professionals call Ashenfelter's weather-based price formula ludicrous and absurd.",
+              "col": "c"
+            },
+            {
+              "label": "A reviewer calls the statistical method mechanical, atomistic, cut and dried, dead and pedantic.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "That the 45-minute counselor study belongs in column b because a human gathered the grades used by the formula.",
+            "That the broken-leg example belongs in column a because it disproves the formula.",
+            "That the wine professionals' insults are evidence that the formula failed in practice."
+          ],
+          "explanation": "The chapter's central Meehl pattern is that simple statistical rules match or beat expert judgment in low-validity environments: the 45-minute counselor study, long-term clinical predictions, and overruled formulas all land in column A. Genuine clinical skill survives only in short-term, practiced settings such as in-session hunches, and the broken-leg rule is the rare, decisive case where overriding a formula is legitimate. The wine professionals' insults and the critics' adjectives are not evidence about accuracy at all; they are the documented hostility to algorithms, rooted in a preference for the natural over the synthetic."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Why Expert Judgment Fails: Complexity and Inconsistency",
+          "visual_frame_description": "A forensic analysis wall in a strategy war room displays two blurred photo panels: one of an expert hunched over a chessboard of complex feature combinations, the other of a judge at a bench where a food-break clock ticks. A third panel shows an interviewer checking off six trait boxes in a fixed order. The player drags colored observation chips onto the wall to sort them.",
+          "player_mission": "Sort each observation into the reason Meehl believed experts lose to formulas: complexity-seeking, context-dependent inconsistency, or the disciplined structured procedure that fixes the problem.",
+          "key_concepts": [
+            "Meehl suspected experts are inferior because they try to be clever, think outside the box, and consider complex combinations of features.",
+            "Complexity may work in the odd case, but more often than not it reduces validity; simple combinations of features are better.",
+            "The widespread inconsistency of expert judgment is probably due to the extreme context dependency of System 1.",
+            "Experienced radiologists contradict themselves 20% of the time when they see the same chest X-ray on separate occasions.",
+            "A study of 101 independent auditors who evaluated the reliability of internal corporate audits revealed a similar degree of inconsistency.",
+            "A review of 41 studies of auditors, pathologists, psychologists, and managers found such inconsistency is typical, even when a case is reevaluated within minutes.",
+            "The prospects of a convict being granted parole can change significantly during the time between successive food breaks in the parole judges' schedule.",
+            "The brief pleasure of a cool breeze on a hot day may make a person slightly more positive and optimistic about whatever they are evaluating at the time.",
+            "Because people have little direct knowledge of what goes on in their mind, they never know they might have made a different judgment under slightly different circumstances.",
+            "Given the same input, a formula always returns the same answer, so when predictability is poor, inconsistency destroys any predictive validity."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This matrix tests the two reasons experts are inferior to formulas: complexity-seeking and the extreme context dependency of System 1. Because unnoticed stimuli such as a food break or a cool breeze shift judgments from moment to moment, experts are inconsistent, and the book notes that unreliable judgments cannot be valid predictors of anything.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Meehl suspected two main reasons experts lose to formulas. Sort each observation into the reason it illustrates, or into the disciplined remedy.",
+          "column_a_label": "Experts try to be clever (complexity)",
+          "column_b_label": "Context-dependent inconsistency (System 1)",
+          "column_c_label": "Disciplined structured procedure",
+          "rows": [
+            {
+              "label": "Radiologists who read the same chest film twice on separate occasions contradict themselves 20% of the time.",
+              "col": "b"
+            },
+            {
+              "label": "A parole decision becomes more favorable right after a judge's food break than just before it.",
+              "col": "b"
+            },
+            {
+              "label": "Experts think outside the box and consider complex combinations of features.",
+              "col": "a"
+            },
+            {
+              "label": "Simple combinations of features are better, because complexity reduces validity more often than not.",
+              "col": "a"
+            },
+            {
+              "label": "The interviewer rates six traits in a fixed sequence on a five-point scale, scoring each before moving on.",
+              "col": "c"
+            },
+            {
+              "label": "101 independent auditors gave inconsistent reliability ratings of the same internal audit.",
+              "col": "b"
+            },
+            {
+              "label": "The same formula given the same input always returns the same answer.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "That radiologists' self-contradiction is a sign of careful, complex reasoning.",
+            "That scoring one trait at a time adds cleverness and thereby reduces validity.",
+            "That food-break timing is a deliberate policy choice made by the judge."
+          ],
+          "explanation": "The chapter attributes expert inferiority to two causes: experts trying to be clever with complex combinations of features, and the extreme context dependency of System 1, which makes the same judge or radiologist give different answers on different occasions. Consistency matters because unreliable judgments cannot be valid predictors, and the remedy is the disciplined procedure of rating each trait separately in a fixed order before summing, the same approach used in Kahneman's army interviews."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Equal-Weight Formulas and the Apgar Score",
+          "visual_frame_description": "A bright delivery-room tableau with a checklist overlay: a doctor checks heart rate, respiration, reflex, muscle tone, and color, each on a 0-2 scale, next to a scroll showing Dawes's marital stability formula. A regression equation and a midwife's folded arms frame the two other sorting bins. The player assigns each card to one of three labeled columns.",
+          "player_mission": "Sort each approach into equal-weight simplicity, regression-style optimization, or intuitive clinical judgment, then confirm which column the chapter credits with the most wins.",
+          "key_concepts": [
+            "Dawes's article 'The Robust Beauty of Improper Linear Models in Decision Making' showed that equal-weight formulas match optimally weighted regression in predicting new cases.",
+            "Equal-weight formulas are often superior because they are not affected by accidents of sampling that distort weights fit to one sample.",
+            "It is possible to develop useful algorithms without any prior statistical research using simple equally weighted formulas based on existing statistics or common sense.",
+            "Dawes showed marital stability is well predicted by the formula: frequency of lovemaking minus frequency of quarrels.",
+            "Apgar's score rates five variables (heart rate, respiration, reflex, muscle tone, and color) each on a 0, 1, or 2 scale, summed into a total.",
+            "A baby scoring 8 or above is likely to be pink, squirming, crying, and grimacing with a pulse of 100 or more; a score of 4 or below signals a need for immediate intervention.",
+            "Before Apgar intervened in 1953, physicians and midwives used inconsistent clinical judgment to decide whether a newborn was in distress.",
+            "The Apgar score is credited with helping reduce infant mortality and is still used every day in every delivery room.",
+            "Ashenfelter's formula predicts Bordeaux wine prices from three weather features: summer average temperature, harvest-time rain, and previous-winter rainfall.",
+            "Ashenfelter's predictions correlate above .90 with actual wine prices, outdoing the opinions of expert tasters."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This matrix tests Dawes's finding of the robust beauty of improper linear models: equal-weight formulas are often as accurate as optimally weighted regression because they avoid accidents of sampling. The book applies this to Apgar's five-variable newborn score, Ashenfelter's three-weather-variable wine formula, and a marital stability rule that subtracts quarrels from lovemaking.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sort each approach into equal-weight simplicity, regression-style optimization, or intuitive clinical judgment.",
+          "column_a_label": "Simple or equal-weight formula",
+          "column_b_label": "Optimally weighted statistical model",
+          "column_c_label": "Intuitive clinical judgment",
+          "rows": [
+            {
+              "label": "Apgar's score sums five variables (heart rate, respiration, reflex, muscle tone, color) each scored 0-2.",
+              "col": "a"
+            },
+            {
+              "label": "Multiple regression assigns each predictor the weight that was optimal in the original sample.",
+              "col": "b"
+            },
+            {
+              "label": "Dawes's formula for marital stability: frequency of lovemaking minus frequency of quarrels.",
+              "col": "a"
+            },
+            {
+              "label": "Ashenfelter predicts Bordeaux prices from summer temperature, harvest rain, and winter rain.",
+              "col": "a"
+            },
+            {
+              "label": "A midwife watches whether the baby cries soon after birth and relies on her gut to decide if it is in distress.",
+              "col": "c"
+            },
+            {
+              "label": "Equal-weight formulas are not affected by accidents of sampling and are often superior on new cases.",
+              "col": "a"
+            },
+            {
+              "label": "A hiring manager selects the candidate who made the strongest first impression in the interview.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "That Apgar's score required years of statistical research to construct.",
+            "That Dawes's marital stability formula was computed by multiple regression.",
+            "That Ashenfelter's wine formula is an example of intuitive judgment."
+          ],
+          "explanation": "The chapter's theme is that useful algorithms can be built on the back of an envelope: equal-weight formulas like the Apgar score, Dawes's lovemaking-minus-quarrels rule, and Ashenfelter's three-weather-variable wine formula routinely match optimized regression and beat intuition. The Apgar score, still used in every delivery room, is credited with saving hundreds of thousands of infants because it replaced inconsistent clinical judgment with a consistent, standardized procedure."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Auditing an Expert's Consistency",
+          "visual_frame_description": "A hospital review desk with two lightboxes side by side displaying the same chest X-ray. Dr. Elena Marsh's file is open on the table, with a timeline strip marking the three times she dictated a verdict on the identical film. A recorder runs a timestamped audio log while the auditor ticks boxes on a consistency checklist.",
+          "player_mission": "Audit Dr. Marsh's reading record across a single day. Decide whether her confident intuition is reliable or whether she is exhibiting the inconsistency that makes expert judgment lose to formulas, then deliver your diagnosis.",
+          "key_concepts": [
+            "Experienced radiologists who evaluate chest X-rays as normal or abnormal contradict themselves 20% of the time when they see the same picture on separate occasions.",
+            "A study of 101 independent auditors evaluating the reliability of internal corporate audits revealed a similar degree of inconsistency.",
+            "A review of 41 studies of auditors, pathologists, psychologists, and managers found such inconsistency is typical even when a case is reevaluated within a few minutes.",
+            "Unreliable judgments cannot be valid predictors of anything.",
+            "The widespread inconsistency is probably due to the extreme context dependency of System 1.",
+            "Because people have little direct knowledge of what goes on in their mind, they never know they might have made a different judgment under very slightly different circumstances.",
+            "Given the same input, a formula always returns the same answer.",
+            "When predictability is poor, which it is in most of the studies Meehl reviewed, inconsistency is destructive of any predictive validity.",
+            "Experts feel they can overrule a formula because they have additional information about the case, but they are wrong more often than not.",
+            "People are incorrigibly inconsistent in making summary judgments of complex information."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests expert inconsistency: radiologists and other professionals contradict themselves at high rates when reevaluating the same case, because System 1's judgments are extremely context-dependent. The chapter concludes that unreliable judgments cannot be valid predictors, which is why formulas, which always return the same answer for the same input, outpredict confident experts.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Dr. Elena Marsh is a respected radiologist whose confident readings carry weight in her hospital. Is her impressive-sounding intuition reliable, or is she exhibiting the inconsistency that makes expert judgment lose to formulas?",
+          "subject_baseline": "Dr. Marsh is a 52-year-old senior radiologist at St. Andrew's Medical Center, known for crisp, confident dictations and a no-nonsense manner. She prides herself on reading films by the gestalt, rarely changes a first impression, and has never tracked her own error rate. Colleagues defer to her certainty.",
+          "observed_nonverbal_log": [
+            "09:02 - Reads a chest film after a quick coffee and dictates 'normal'; leans back, appears relaxed and certain.",
+            "11:47 - Reviews the identical chest film during a busy pre-lunch stretch; pauses 40 seconds longer, frowns, then dictates 'subtle opacity in the right base, recommend follow-up.'",
+            "14:15 - Rereads the same film after returning from a walk; gestures dismissively, states 'definitely normal,' and closes the case.",
+            "16:40 - Asked whether she ever rereads her own films, she laughs and says 'Once I've seen it, I know it. I don't second-guess.'"
+          ],
+          "interrogation_transcript": [
+            "Auditor: You dictated 'normal' at 9:02, 'subtle opacity, follow-up' at 11:47, and 'definitely normal' at 14:15 - the identical film, same patient.",
+            "Marsh: The light was different in the morning, the monitor was recalibrated. That happens.",
+            "Auditor: But the film is the same file on the same monitor.",
+            "Marsh: Look, I've read a quarter million films. My gut is calibrated. You can't reduce radiology to a checklist.",
+            "Auditor: How often do you check your own accuracy against biopsy outcomes?",
+            "Marsh: I don't need a spreadsheet to tell me what I saw."
+          ],
+          "correct_diagnosis": "Illusion of skill through inconsistency: Dr. Marsh's confident intuitions are context-dependent and unreliable. Her readings of the same film changed three times in a single day, and she has never tracked her accuracy against outcomes.",
+          "diagnostic_breakdown": "The chapter reports that experienced radiologists contradict themselves 20% of the time on the same X-ray seen on separate occasions, and that this level of inconsistency is typical across auditors, pathologists, psychologists, and managers. Marsh's three different verdicts on one film in a single day, together with her refusal to check readings against biopsy outcomes, fits that pattern exactly. Her confidence is not evidence of validity: unreliable judgments cannot be valid predictors, and the correct response is to prefer a consistent scoring rule for screening, while letting intuition add value only after disciplined, standardized information collection.",
+          "distractors": [
+            "Deliberate deception: she is consciously hiding errors to protect her malpractice record.",
+            "Malicious carelessness: she is rushing on purpose to punish the hospital administration.",
+            "Superior skill: she can detect subtleties that simple formulas and other radiologists miss."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Food-Break Effect on a Parole Judge",
+          "visual_frame_description": "A courtroom bench in Austin at dusk, with a case file for Judge Rafael Ortiz open on the desk. A timeline chart plots his parole grants and denials against the clock, with lunch and snack breaks marked in green. A recorder plays his confident testimony while the audit screen tracks the hour-by-hour rulings.",
+          "player_mission": "Audit Judge Ortiz's ruling pattern against the timing of his food breaks. Determine whether he is being influenced by an unnoticed, context-dependent factor and deliver your verdict on what his data actually show.",
+          "key_concepts": [
+            "The prospects of a convict being granted parole may change significantly during the time that elapses between successive food breaks in the parole judges' schedule.",
+            "The brief pleasure of a cool breeze on a hot day may make a person slightly more positive and optimistic about whatever they are evaluating at the time.",
+            "Unnoticed stimuli in the environment have a substantial influence on thoughts and actions, and these influences fluctuate from moment to moment.",
+            "Because people have little direct knowledge of what goes on in their mind, they never know they might have made a different judgment or reached a different decision under very slightly different circumstances.",
+            "The widespread inconsistency of expert judgment is probably due to the extreme context dependency of System 1.",
+            "Unreliable judgments cannot be valid predictors of anything.",
+            "Given the same input, a formula always returns the same answer, while a judge's answer shifts with context.",
+            "The default decision in parole is denial, with only about 35% of requests approved.",
+            "People are incorrigibly inconsistent in making summary judgments of complex information."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests the extreme context dependency of System 1: unnoticed stimuli, including the timing of food breaks, shift a judge's rulings from moment to moment without his awareness. The chapter uses the parole-judge example to show why experts are inconsistent and why a formula, which is immune to such fluctuations, can be more reliable.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Judge Rafael Ortiz grants or denies parole based on his experience and gut feel for each defendant. The audit file shows a suspicious pattern in his ruling times. Is he being influenced by something he does not notice?",
+          "subject_baseline": "Judge Ortiz is a veteran parole judge in Austin, Texas, with 18 years on the bench. He describes his method as weighing the whole person, insists every case is decided on its own merits, and denies that mood, fatigue, or timing plays any role in his rulings. His grant rate hovers near the state average of roughly 35%.",
+          "observed_nonverbal_log": [
+            "10:55 - Second hearing of the morning block; the judge rubs his eyes, checks the clock, and denies parole to a candidate similar to cases he granted an hour earlier.",
+            "12:20 - Immediately after the lunch break; he returns to the bench briskly, grants parole twice in quick succession, looks engaged and cheerful.",
+            "13:05 - Mid-afternoon slump; he grants one of six petitions, sighs, and denies a borderline case he describes as a tough one.",
+            "15:10 - Near the end of a long block; he denies parole three times in a row, rubs his temples, and his verdicts grow terse."
+          ],
+          "interrogation_transcript": [
+            "Auditor: Your grant rate right after food breaks is nearly double your rate just before them.",
+            "Ortiz: That's coincidence. I decide each case on the record and the man in front of me. I don't check my watch.",
+            "Auditor: But the same profile of offender was granted at 12:20 and denied at 10:55.",
+            "Ortiz: Every case is different, counselor. You can't mechanize justice.",
+            "Auditor: If we plotted your rulings against time since the last meal, the line would be very clean.",
+            "Ortiz: Then your line is wrong, because my judgment is mine, not the cafeteria's."
+          ],
+          "correct_diagnosis": "Unnoticed context dependency: the judge's rulings shift systematically with the timing of food breaks, an influence he is unaware of and denies. His pattern matches the chapter's account of parole decisions changing between successive food breaks.",
+          "diagnostic_breakdown": "The chapter states that the prospects of a convict being granted parole can change significantly during the time between successive food breaks in the judges' schedule, and that a pleasant state such as the brief pleasure of a positive break makes a person slightly more optimistic about whatever they are evaluating. Judge Ortiz's grant pattern after breaks versus before them is that documented effect, and his insistence that timing plays no role is not deception but the fact that people have little direct knowledge of what goes on in their mind: he will never know he might have ruled differently under slightly different circumstances.",
+          "distractors": [
+            "Deliberate bias: he grants parole only to defendants who share his political affiliations.",
+            "Legal merit: the afternoon defendants genuinely committed more serious crimes.",
+            "Fatigue-induced corruption: he takes bribes during lunch and honors them in the afternoon."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Bordeaux Wine: Formula vs. Expert Palate",
+          "visual_frame_description": "A candle-lit Bordeaux tasting room in 1990. On one screen, economist Orley Ashenfelter's formula ticks through three inputs (summer temperature, harvest-time rain, and previous-winter rainfall) and prints price forecasts. Across the room, Master Sommelier Étienne Durand swirls a young wine, closes his eyes, and declares the vintage legendary purely from taste, while French wine professionals jeer at the formula as ludicrous and absurd.",
+          "player_mission": "Advise an investor on which forecast to trust for the future value of a young vintage, then survive the hostile pushback from the wine establishment when your recommendation follows the formula instead of the palate.",
+          "key_concepts": [
+            "Ashenfelter converted conventional knowledge into a formula that predicts wine price from three weather features: average summer temperature, harvest-time rain, and previous-winter rainfall.",
+            "The correlation between Ashenfelter's predictions and actual wine prices is above .90.",
+            "Ashenfelter's formula forecasts future prices much more accurately than the current prices of young wines do.",
+            "The fine-wine price question matters because bottles filled only twelve months apart can differ in value by a factor of 10 or more.",
+            "Experts who evaluate the quality of immature wine have a source of information that almost certainly makes things worse rather than better: they can taste the wine.",
+            "The response in French wine circles to Ashenfelter's formula ranged somewhere between violent and hysterical.",
+            "One oenophile called Ashenfelter's findings ludicrous and absurd; another scoffed that it is like judging movies without actually seeing them.",
+            "The aversion to algorithms making decisions is rooted in a strong preference for the natural over the synthetic or artificial.",
+            "Even after being told organic and commercial apples are identical in taste, nutrition, and healthfulness, a majority still prefer the organic fruit.",
+            "Experts are overconfident in their intuitions and assign too much weight to their personal impressions."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the Meehl pattern applied to fine wine: a formula built from three weather variables forecasts Bordeaux prices more accurately than expert tasters, with a correlation above .90. The chapter uses the wine community's hostile reaction to illustrate that the aversion to algorithms is an emotional preference for the natural over the synthetic, not a response to evidence.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The battle tests whether a simple statistical formula can beat world-renowned expert intuition: Ashenfelter's three-weather-variable formula predicted future Bordeaux prices with a correlation above .90, whereas the expert opinions that shape early prices were less accurate, and tasting the immature wine gave experts information that made things worse rather than better.",
+          "stage_1_observation": "You are an investor's analyst in a candle-lit Bordeaux tasting room in 1990. On one screen, economist Orley Ashenfelter's formula ticks through three inputs (average summer temperature, harvest-time rain, and prior-winter rainfall) and prints price forecasts for each vintage. Across the room, Master Sommelier Étienne Durand swirls a young wine, closes his eyes, and declares 'this vintage will be legendary' purely from taste, while French wine professionals call Ashenfelter's approach 'ludicrous and absurd.'",
+          "stage_1_question": "Which forecast should the investor trust for the future value of a young vintage: the three-weather-variable formula, the sommelier's blind tasting, or the consensus of the wine professionals?",
+          "stage_1_correct_answer": "The three-weather-variable formula. Ashenfelter's predictions correlated above .90 with actual prices, whereas the experts' opinions that shape early prices were less accurate, and tasting the immature wine gives experts information that the chapter says almost certainly makes their forecasts worse rather than better.",
+          "stage_2_intervention": "Word spreads that you are advising the investor from the formula rather than the palate. Étienne confronts you in the cellar: 'This is like judging movies without actually seeing them. You would let a blind, mechanical equation decide what we drink for the next decade?' The room turns hostile. How do you respond to keep the decision rational without losing the room?",
+          "stage_2_correct_answer": "Stand by the formula while acknowledging that the resistance is emotional, not technical. The chapter explains that the 'violent and hysterical' response of French wine circles is prejudice against algorithms rooted in a preference for the natural over the synthetic, and that for most people the cause of a mistake matters morally even when a formula is more accurate."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Recruitment Interview: Halo Effect vs. Discipline",
+          "visual_frame_description": "A sunlit briefing room at an Israeli Defense Forces base in 1955. Nineteen-year-old interviewers sit behind a long table with a list of six personality traits, each to be rated on a five-point scale in a fixed order. One young interviewer slams the paper down and protests that they are being turned into robots, while the others murmur in support.",
+          "player_mission": "Defend the structured interview procedure against the mutiny of bright young interviewers who prefer open-ended probing of the recruit's inner life. Then interpret the surprising 'close your eyes' result so the team does not throw out the disciplined method.",
+          "key_concepts": [
+            "The existing IDF interview procedure was almost useless for predicting the future success of recruits.",
+            "Meehl's book argued that statistical summaries of separately evaluated attributes achieve higher validity than global intuitive evaluations.",
+            "Kahneman's interviewers evaluated six traits including responsibility, sociability, and masculine pride, each scored on a five-point scale.",
+            "For each trait the interviewers asked factual questions about the individual's life before enlistment, such as the number of jobs held, punctuality, and interest in sports.",
+            "Focusing on standardized factual questions was designed to combat the halo effect, where favorable first impressions influence later judgments.",
+            "As a precaution against halos, interviewers rated the six traits in a fixed sequence, scoring each before going on to the next.",
+            "The sum of the six ratings predicted soldiers' performance much more accurately than the global evaluations of the previous method, progressing from completely useless to moderately useful.",
+            "The 'close your eyes' intuitive score, in which interviewers imagined the recruit as a soldier and assigned a score of 1 to 5, did just as well as the sum of the six trait ratings.",
+            "Intuition adds value even in the justly derided selection interview, but only after a disciplined collection of objective information and disciplined scoring of separate traits.",
+            "The general lesson is: do not simply trust intuitive judgment, but do not dismiss it either."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the halo effect and structured-interview design: by having interviewers rate six traits separately with factual questions in a fixed order, Kahneman's army interview progressed from completely useless to moderately useful in predicting soldier performance. The surprise finding that a final intuitive 'close your eyes' score matched the trait sum showed intuition adds value only on top of disciplined measurement.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The battle tests the halo effect and the design of structured interviews: in Kahneman's Israeli army assignment, six separately scored factual traits predicted recruits' performance far better than free-form global interviews, and intuition added value only after disciplined scoring of separate traits.",
+          "stage_1_observation": "You are Lieutenant Kahneman at an IDF base in 1955, briefing a room of nineteen-year-old interviewers, mostly women exempt from combat duty. They are used to exploring a recruit's inner mental life in fifteen-minute conversations. You hand them a list of six traits (responsibility, sociability, masculine pride, and others), each to be rated on a five-point scale in a fixed order using factual questions about the recruit's pre-enlistment life. A young interviewer slams the paper down: 'You are turning us into robots!' The rest murmur in support.",
+          "stage_1_question": "The interviewers are mutinying because you want facts instead of their favorite open-ended probing. What do you do to preserve predictive validity without losing the team?",
+          "stage_1_correct_answer": "Hold the line on the structured procedure: standardized factual questions scored one trait at a time in a fixed sequence. The open-ended global interview had proven almost useless, and scoring separate attributes avoids the halo effect where a favorable first impression colors every later rating.",
+          "stage_2_intervention": "A month later the results arrive: the sum of the six ratings predicts commanders' performance evaluations far better than the old method. But the 'close your eyes' compromise, where interviewers imagined the recruit as a soldier and assigned a 1-5 score, did just as well as the sum of the six ratings. Your team now wants to scrap the trait grid entirely and go back to pure intuition. What lesson do you apply?",
+          "stage_2_correct_answer": "Keep the trait grid and give the intuitive 'close your eyes' score equal weight, not more. The chapter's lesson is that intuition adds value only after disciplined collection of objective information and disciplined scoring of separate traits; the compromise worked precisely because the intuition came last, on top of the structured ratings, not instead of them."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Hiring Sales Reps: The DIY Formula",
+          "visual_frame_description": "A glass-walled conference room at a medical-device firm. CEO Marcus Bell is grinning at Priya, a warm and funny candidate, while the flatly spoken engineer candidate sits at the far end of the table. A whiteboard in the corner shows an empty six-trait grid with a 1-5 scale, and a sticky note reads 'resist inventing broken legs.'",
+          "player_mission": "Walk Marcus through the chapter's do-it-yourself hiring procedure instead of his charm-driven gut call, and then stop him from overturning the formula when his personal favorite loses on the numbers.",
+          "key_concepts": [
+            "The chapter's do-it-yourself hiring procedure selects a few prerequisite traits such as technical proficiency, engaging personality, and reliability; six dimensions is a good number.",
+            "The chosen traits should be as independent as possible from each other and reliably assessable by asking a few factual questions.",
+            "To avoid halo effects, information on one trait must be collected and scored before moving on to the next; the interviewer should not skip around.",
+            "The candidate's score is the sum of the six individual ratings, and the interviewer should firmly resolve to hire the highest scorer.",
+            "The procedure takes about half an hour of preparation and can make a significant difference in the quality of people hired.",
+            "People normally go into interviews unprepared and choose by an overall intuitive judgment such as 'I looked into his eyes and liked what I saw.'",
+            "The broken-leg rule: it is proper to disregard a formula only if rare, decisive information arrives, such as the individual breaking a leg today.",
+            "The temptation to invent broken legs to change the ranking should be resisted, because people who overrule formulas are wrong more often than not.",
+            "Interviewers are overconfident in their intuitions and assign too much weight to their personal impressions.",
+            "A simple equally weighted formula based on existing statistics or common sense is often good enough to outdo expert judgment."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the chapter's do-it-yourself hiring procedure: six independent traits, factual questions scored one at a time to block the halo effect, and a sum that decides the hire. The book warns against 'inventing broken legs' - the temptation to invent an excuse to overrule the formula for a candidate you prefer, which research shows is usually a mistake.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The battle tests disciplined hiring: selecting a few independent traits, scoring each with factual questions one at a time, summing the scores, and resolving in advance to take the highest score rather than inventing broken legs to overrule the formula.",
+          "stage_1_observation": "You are a consultant watching Marcus Bell, CEO of a medical-device firm, interview four candidates for a sales role. Marcus has no questions written down. Candidate Two, Priya, gives warm, funny answers and great handshake eye contact; Marcus is visibly charmed. Candidate Three, a former engineer, speaks flatly but answers every factual question about quotas and territory history precisely. By the time the lobby door closes, Marcus is already telling his CFO, 'I looked her in the eyes and liked what I saw.'",
+          "stage_1_question": "Before the interviews, Marcus skipped preparation. He is about to hire Priya on global charm. What should he do instead?",
+          "stage_1_correct_answer": "Stop, pick about six independent traits relevant to the job such as technical proficiency, engaging personality, and reliability, draft a few factual questions per trait with a 1-5 scoring rule, and re-interview the candidates scoring one trait at a time before moving on. Then hire the highest total, not the candidate he liked best.",
+          "stage_2_intervention": "Two weeks later Marcus ran the procedure. Candidate Three scored highest, but Marcus keeps staring at Priya's résumé photo. 'I know the numbers say Three,' he tells you, 'but I have a feeling about Priya. She'll fit our culture. Can't we make an exception, maybe weight the interview impression a bit more?' The chapter's broken-leg rule is on your mind. What is the right move?",
+          "stage_2_correct_answer": "Refuse the exception. The broken-leg rule permits overriding a formula only for rare, decisive information, and 'I like her better' is neither rare nor decisive; it is the halo effect trying to redraw the ranking. The chapter instructs you to firmly resolve to hire the highest score even if you like another candidate more, because people who overrule formulas are wrong more often than not."
+        }
+      ]
+    }
+  ]
+}

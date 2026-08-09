@@ -1,0 +1,644 @@
+{
+  "spec_file": "spec_kahneman_b24.json",
+  "chapters": [
+    {
+      "id": "ch46",
+      "title": "Appendix B: Choices, Values, and Frames",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The S-Shaped Value Function",
+          "visual_frame_description": "A financial-advising office on a Friday afternoon. Advisors Nina and Diego sit across from a tablet showing Figure 1, an S-shaped curve that passes through the origin and is steep in the negative quadrant. On the desk are stacks of client folders, each tagged with a behavior: 'sure $800 chosen,' 'gamble on loss chosen,' 'refuses coin bet.' A whiteboard behind them is split into three columns labeled with properties of the value function.",
+          "player_mission": "Read each client folder and classify the behavior it describes into one of three properties of the value function: concave in gains, convex in losses, or steeper for losses than for gains. Assign all six folders to the correct column before the advising session ends.",
+          "key_concepts": [
+            "Subjective value is a concave function of the size of a gain: the difference in value between $200 and $100 exceeds the difference between $1,200 and $1,100.",
+            "The same concavity applies to losses, so the difference in subjective value between a loss of $200 and a loss of $100 appears greater than between a loss of $1,200 and a loss of $1,100.",
+            "The value function is defined on gains and losses relative to a reference point rather than on total wealth.",
+            "The value function is concave in the domain of gains and convex in the domain of losses, producing an S-shaped curve.",
+            "The value function is considerably steeper for losses than for gains, a property labeled loss aversion.",
+            "Loss aversion expresses the intuition that a loss of $X is more aversive than a gain of $X is attractive.",
+            "Loss aversion explains the reluctance to bet on a fair coin for equal stakes, because the possible gain does not compensate for the possible loss.",
+            "Most undergraduates in the chapter's sample refused to stake $10 on the toss of a coin unless they could win at least $30.",
+            "Concavity of value in gains entails risk aversion for favorable gambles with equal expectation.",
+            "Convexity of value in losses entails risk seeking when losses are substantial.",
+            "The S-shaped value function has implications that are normatively unacceptable, as shown by violations of invariance and dominance.",
+            "These properties are part of prospect theory (Kahneman and Tversky 1979)."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This matrix tests the shape of the prospect-theory value function: concave for gains, convex for losses, and steeper for losses than for gains. Kahneman and Tversky derive risk aversion in gains and risk seeking in losses directly from this S-shaped psychophysical function.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Nina and Diego must sort six client behaviors into the value-function property each behavior demonstrates. Which property does the behavior 'losing $100 hurts more than gaining $100 feels good' illustrate?",
+          "column_a_label": "Concave in gains (diminishing sensitivity to larger gains)",
+          "column_b_label": "Convex in losses (diminishing sensitivity to larger losses)",
+          "column_c_label": "Steeper for losses than for gains (loss aversion)",
+          "rows": [
+            {
+              "label": "Marta, given a sure $800 or an 85% chance to win $1,000, chooses the sure $800 even though the gamble has a higher expectation of $850.",
+              "col": "a"
+            },
+            {
+              "label": "Diego, forced to choose between an 85% chance to lose $1,000 and a sure loss of $800, prefers the gamble despite its inferior expectation of -$850.",
+              "col": "b"
+            },
+            {
+              "label": "Priya says losing $100 is more painful than gaining $100 is pleasant.",
+              "col": "c"
+            },
+            {
+              "label": "For Ben, the difference in value between a gain of $200 and $100 seems greater than the difference between $1,200 and $1,100.",
+              "col": "a"
+            },
+            {
+              "label": "For Lena, the difference in value between a loss of $200 and $100 appears greater than the difference between $1,200 and $1,100.",
+              "col": "b"
+            },
+            {
+              "label": "Tomas refuses to stake $10 on the toss of a coin unless he can win at least $30.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "Risk aversion in the domain of gains, because the person always chooses sure outcomes.",
+            "Risk seeking in the domain of gains, because gains are evaluated on total wealth rather than changes.",
+            "Overweighting of sure things, because a certain gain is preferred to a probabilistic gain."
+          ],
+          "explanation": "Loss aversion is the asymmetry in the value function: the curve is considerably steeper for losses than for gains, so a loss of $X is more aversive than a gain of $X is attractive. Concavity in gains and convexity in losses are separate properties that generate risk aversion and risk seeking respectively, but the 'losses hurt more' intuition is specifically the steepness asymmetry labeled loss aversion."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Risk Attitudes in Gains versus Losses",
+          "visual_frame_description": "A trading desk at a small investment firm at 9:40 AM. Trader Omar has a split-screen monitor: on the left, green 'gain' decision problems with dollar figures; on the right, red 'loss' problems. His colleague Ana is building a decision tree on the shared whiteboard, drawing an S-shaped curve next to a list of six gamble choices. The phone rings with a client asking whether a guaranteed gain or a gamble is better.",
+          "player_mission": "Classify each of the six decision situations into the risk attitude or decision-weight mechanism it reveals: risk aversion in gains, risk seeking in losses, or a distortion produced by the psychophysics of chance. Fill in the matrix before Omar closes the morning positions.",
+          "key_concepts": [
+            "A preference for a sure outcome over a gamble with higher or equal expectation is called risk aversion.",
+            "The rejection of a sure thing in favor of a gamble of lower or equal expectation is called risk seeking.",
+            "In Bernoulli's analysis, risk aversion is explained by a concave utility function of money.",
+            "The concavity of the value of gains entails risk aversion in the domain of gains.",
+            "The convexity of the value of losses entails risk seeking in the domain of losses.",
+            "Risk seeking in losses is a robust effect, particularly when the probabilities of loss are substantial.",
+            "Risk seeking in losses has been observed with nonmonetary outcomes such as hours of pain and loss of human lives.",
+            "Decision weights are lower than stated probabilities over most of the range, which contributes to risk aversion in gains and risk seeking in losses.",
+            "Low probabilities are overweighted, and very low probabilities are either overweighted grossly or neglected altogether.",
+            "Overweighting of low probabilities enhances the value of long shots and amplifies the aversiveness of a small chance of a severe loss.",
+            "The characteristics of decision weights contribute to the attractiveness of both lottery tickets and insurance policies.",
+            "An 85% chance to win $1,000 versus a sure $800 is an illustrative choice in which most people show risk aversion despite the gamble's higher expectation."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This matrix separates risk aversion (sure outcomes preferred in gains) from risk seeking (gambles preferred in losses), and from decision-weight distortions where the psychophysics of chance, rather than the value function, drives the choice. Kahneman and Tversky show that the value function produces the gain-loss asymmetry, while nonlinear decision weights explain why both long-shot lotteries and insurance are attractive.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "When respondents choose a gamble with a 75% chance to lose $1,000 over a sure loss of $750, which mechanism is at work?",
+          "column_a_label": "Risk aversion (sure gain preferred over equal-or-better gamble)",
+          "column_b_label": "Risk seeking (gamble preferred over equal-or-better sure loss)",
+          "column_c_label": "Decision-weight distortion (psychophysics of chance)",
+          "rows": [
+            {
+              "label": "A large majority prefers a sure $800 over an 85% chance to win $1,000, despite the gamble's higher expectation of $850.",
+              "col": "a"
+            },
+            {
+              "label": "A large majority prefers an 85% chance to lose $1,000 over a sure loss of $800.",
+              "col": "b"
+            },
+            {
+              "label": "People find the purchase of a lottery ticket attractive despite a tiny chance of winning.",
+              "col": "c"
+            },
+            {
+              "label": "People find the purchase of an insurance policy attractive despite a small chance of a severe loss.",
+              "col": "c"
+            },
+            {
+              "label": "In Problem 4, 84% of respondents choose a sure gain of $240 over a 25% chance to gain $1,000.",
+              "col": "a"
+            },
+            {
+              "label": "In Problem 4, 87% of respondents choose a 75% chance to lose $1,000 over a sure loss of $750.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Risk aversion, because the respondent dislikes any gamble that involves a loss.",
+            "Overweighting of sure things, because the sure loss feels more certain than the gamble.",
+            "Concavity of value in gains, because losses are evaluated relative to current wealth."
+          ],
+          "explanation": "Choosing a 75% chance to lose $1,000 over a sure loss of $750 is risk seeking: the gamble's expectation of -$750 is equal to the sure loss, yet respondents prefer the gamble because the convex value function in the domain of losses makes the sure loss feel worse than its actuarial value. This contrasts with risk aversion in the gain domain, and with lottery and insurance choices, which are driven by the overweighting of low probabilities in decision weights rather than by the shape of the value function."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Framing and the Failure of Invariance",
+          "visual_frame_description": "A public-health agency conference room. Policy analyst Sana stands before two flip charts that describe the same disease-outbreak programs, one headlined '200 people will be saved' and the other '400 people will die.' Eighteen survey respondents have written their votes on sticky notes clustered around the charts, and the room's digital clock shows the deadline for the final recommendation. A large banner behind Sana reads: 'Invariance: the preference order must not depend on how options are described.'",
+          "player_mission": "Assign each of the six observed choice patterns to the framing mechanism that produced it: a gain frame inducing risk aversion, a loss frame inducing risk seeking, or a formulation effect in which a change of wording shifts preferences. Then identify which mechanism explains why the same health policy is endorsed in one wording and rejected in another.",
+          "key_concepts": [
+            "Invariance requires that the preference order between prospects should not depend on the manner in which they are described.",
+            "Dominance demands that if prospect A is at least as good as prospect B in every respect and better in at least one, A should be preferred to B.",
+            "The same option can be framed as gains and losses relative to the status quo or as asset positions that incorporate initial wealth.",
+            "In the Asian disease problem, a majority of respondents prefer saving 200 lives for sure over a one-third chance of saving 600.",
+            "When the identical programs are described in terms of lives lost, a majority prefer the gamble to the sure loss of 400 lives.",
+            "Options C and D in the loss version are undistinguishable in real terms from options A and B in the gain version.",
+            "The failure of invariance is as common among sophisticated respondents as among naive ones.",
+            "Even when the same respondents answer both versions within minutes, they still wish to be risk averse in the lives-saved version and risk seeking in the lives-lost version.",
+            "Framing effects resemble perceptual illusions more than computational errors in their stubborn appeal.",
+            "Invariance is normatively essential, intuitively compelling, and psychologically unfeasible.",
+            "It is good practice to test the robustness of preferences by deliberately framing a decision problem in more than one way.",
+            "Formulation effects can be exploited deliberately, as when credit-card lobbyists insisted that price differences be labeled a cash discount rather than a credit card surcharge."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This matrix tests the violation of invariance produced by outcome framing: describing identical outcomes as gains induces risk aversion, while describing them as losses induces risk seeking. Kahneman and Tversky show the failure of invariance is pervasive, robust, and resembles a perceptual illusion, and that a physician or presidential advisor could influence a decision merely by framing, without distorting or suppressing information.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which framing mechanism explains why respondents favor 'saving 200 people' but reject the equivalent program described as '400 people will die'?",
+          "column_a_label": "Gain frame induces risk aversion",
+          "column_b_label": "Loss frame induces risk seeking",
+          "column_c_label": "Formulation effect (change of wording shifts preference)",
+          "rows": [
+            {
+              "label": "Program A, which saves 200 people for sure, is chosen by 72% of respondents (Problem 1).",
+              "col": "a"
+            },
+            {
+              "label": "Program D, a one-third chance that nobody dies and a two-thirds chance that 600 die, is chosen by 78% of respondents (Problem 2).",
+              "col": "b"
+            },
+            {
+              "label": "Physicians and patients shift preferences between lung-cancer therapies when outcomes are described as survival versus mortality.",
+              "col": "c"
+            },
+            {
+              "label": "Consumers are less likely to accept a credit card surcharge than to forgo a cash discount for the same price difference.",
+              "col": "c"
+            },
+            {
+              "label": "In the lives-saved version, the reference state is one in which the disease is allowed to take its toll of 600 lives.",
+              "col": "a"
+            },
+            {
+              "label": "In the lives-lost version, the reference state is one in which no one dies of the disease.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Gain framing, because the respondent evaluates the program as a gain in both versions.",
+            "Dominance, because Program D dominates Program A in the loss version.",
+            "The certainty effect, because the sure option is overweighted in both versions."
+          ],
+          "explanation": "The lives-lost version assumes a reference state in which no one dies, so all outcomes are losses; convexity of value in the loss domain produces risk seeking, and 78% choose the gamble. The lives-saved version adopts the 600-deaths state as its reference, making outcomes gains and producing risk aversion. The physician-survival and cash-discount cases are formulation effects, where changing the wording rather than the reference-point logic shifts preferences."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Levels of Mental Accounts",
+          "visual_frame_description": "A sunlit kitchen in a suburb. Priya is looking at a two-store comparison on her phone: a $125 jacket and a $15 calculator at the first store, and a $10 calculator at the other branch, 20 minutes away. Her partner Lena watches the traffic app while her mother-in-law sips coffee. A sticky note on the fridge lists three account types: minimal, topical, and comprehensive.",
+          "player_mission": "Classify each of the six mental-accounting observations into the level of account it reflects: minimal (only the differences between options), topical (the context of the decision), or comprehensive (all related expenses combined). Then determine which account level best explains the finding that people will travel to save $5 on a $15 item but not on a $125 item.",
+          "key_concepts": [
+            "To evaluate a multiattribute option, a person sets up a mental account that specifies the advantages and disadvantages of the option relative to a reference state.",
+            "The overall value of an option is given by the balance of its advantages and disadvantages in relation to the reference state.",
+            "The minimal account includes only the differences between the two options and disregards the features they share.",
+            "A topical account relates consequences to a reference level determined by the context within which the decision arises.",
+            "In the calculator problem, the topical account frames the benefit of the trip as a reduction of the calculator's price from $15 to $10.",
+            "In the topical account, the price of the jacket is not included because the potential saving is associated only with the calculator.",
+            "A comprehensive account would include the jacket price and other expenses, evaluating the saving in relation to monthly expenses.",
+            "68% of respondents were willing to drive 20 minutes to save $5 on a $15 calculator, but only 29% were willing to make the same trip to save $5 on a $125 calculator.",
+            "The two versions of the calculator problem are identical in terms of both a minimal and a comprehensive account.",
+            "Topical organization in decision making plays a role analogous to that of good forms in perception and basic-level categories in cognition.",
+            "Consumers hardly exert more effort to save $15 on a $150 purchase than to save $5 on a $50 purchase.",
+            "Mental accounting explains anomalies of consumer behavior, including why the acceptability of an option depends on how negative outcomes are organized."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This matrix tests the three levels of mental accounts, minimal, topical, and comprehensive, that Kahneman and Tversky, following Thaler, propose for evaluating transactions. The topical account uniquely explains the saving behavior because the minimal and comprehensive accounts cannot distinguish the calculator versions, and topical organization makes willingness to travel inversely related to the item's price and independent of the jacket's price.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which level of mental account best explains why respondents will drive 20 minutes to save $5 on a $15 calculator but not on a $125 calculator, holding the total saving constant?",
+          "column_a_label": "Minimal account (only differences between options)",
+          "column_b_label": "Topical account (reference level set by decision context)",
+          "column_c_label": "Comprehensive account (all related expenses combined)",
+          "rows": [
+            {
+              "label": "The advantage of driving to the other store is framed as a gain of $5, disregarding shared features.",
+              "col": "a"
+            },
+            {
+              "label": "The benefit of the trip is framed as a reduction of the calculator's price from $15 to $10.",
+              "col": "b"
+            },
+            {
+              "label": "The price of the jacket is excluded from the account because the saving is associated only with the calculator.",
+              "col": "b"
+            },
+            {
+              "label": "The saving is evaluated in relation to monthly expenses.",
+              "col": "c"
+            },
+            {
+              "label": "Willingness to travel is inversely related to the price of the calculator and independent of the price of the jacket.",
+              "col": "b"
+            },
+            {
+              "label": "The standard deviation of prices quoted for the same product is roughly proportional to the average price of that product.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The minimal account, because it includes the $5 saving regardless of which item is discounted.",
+            "The comprehensive account, because it combines the jacket and calculator into a single transaction.",
+            "Loss aversion, because respondents dislike the effort of the trip more than they value the saving."
+          ],
+          "explanation": "Only the topical account predicts the result: it ties the $5 saving to the calculator's price, making the same saving feel large on a $15 item and trivial on a $125 item. The minimal and comprehensive accounts are identical across the two versions, so they cannot explain the sharp difference in willingness to travel. The price-dispersion observation confirms that consumers evaluate savings relative to the price of the item, not in absolute terms."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Psychophysics of Chance and Decision Weights",
+          "visual_frame_description": "An insurer's analytics lab at 3 PM. Actuary Tom studies Figure 2, a curve plotting decision weight against stated probability: it rises steeply near zero, stays below the diagonal through the middle, and jumps near one. On his desk sit six cards describing probability changes and risk choices, and his colleague Maya is annotating the curve with the labels 'overweighting of sure things,' 'overweighting of low probabilities,' and 'regressive weights.'",
+          "player_mission": "Sort each of the six observations into the pattern of decision weights that produces it: overweighting of sure things, overweighting of low probabilities, or regressive underweighting of moderate and high probabilities. Then state which pattern drives the attractiveness of both lottery tickets and insurance policies.",
+          "key_concepts": [
+            "Setting the value of the status quo at zero, a $300 cash gift can be assigned a value of one, and the value of a lottery ticket must vary between zero and one.",
+            "The value of a ticket is not a linear function of the probability of winning, as the expectation rule would require.",
+            "An increase from 0% to 5% appears to have a larger effect than an increase from 30% to 35%.",
+            "An increase from 95% to 100% also appears larger than an increase from 30% to 35%.",
+            "These observations suggest a category-boundary effect: a change from impossibility to possibility or from possibility to certainty has a bigger impact than a comparable change in the middle of the scale.",
+            "Decision weights are regressive with respect to stated probabilities: except near the endpoints, an increase of .05 in probability raises prospect value by less than 5% of the prize.",
+            "Decision weights are lower than the corresponding probabilities over most of the range.",
+            "Underweighting of moderate and high probabilities relative to sure things contributes to risk aversion in gains.",
+          "Low probabilities are overweighted, and very low probabilities are either overweighted grossly or neglected altogether.",
+            "Overweighting of low probabilities enhances the value of long shots and amplifies the aversiveness of a small chance of a severe loss.",
+            "The characteristics of decision weights contribute to the attractiveness of both lottery tickets and insurance policies.",
+            "The pseudo-certainty effect makes an event that is actually uncertain weighted as if it were certain."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This matrix tests the nonlinearity of decision weights: sure things and low probabilities are overweighted while moderate and high probabilities are underweighted in a regressive pattern. Kahneman and Tversky show these psychophysical properties explain why both lottery tickets and insurance are attractive, and why the pseudo-certainty effect and probabilistic insurance aversion arise.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which pattern of decision weights explains why both long-shot lottery tickets and insurance against a small chance of a severe loss are attractive?",
+          "column_a_label": "Overweighting of sure things (possibility-to-certainty boundary)",
+          "column_b_label": "Overweighting of low probabilities (impossibility-to-possibility boundary)",
+          "column_c_label": "Regressive weights (underweighting of moderate and high probabilities)",
+          "rows": [
+            {
+              "label": "An increase in probability from 95% to 100% has a bigger impact than an increase from 30% to 35%.",
+              "col": "a"
+            },
+            {
+              "label": "An increase in probability from 0% to 5% has a bigger impact than an increase from 30% to 35%.",
+              "col": "b"
+            },
+            {
+              "label": "Except near the endpoints, a .05 increase in probability raises prospect value by less than 5% of the prize value.",
+              "col": "c"
+            },
+            {
+              "label": "People are often risk seeking in dealing with improbable gains.",
+              "col": "b"
+            },
+            {
+              "label": "People are often risk averse in dealing with unlikely losses.",
+              "col": "b"
+            },
+            {
+              "label": "In the sequential two-stage game, an option with a sure gain in the second stage is weighted as if it were certain.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Overweighting of sure things, because both lottery and insurance outcomes are ultimately certain.",
+            "Regressive weights, because the middle of the probability range is the only region that matters for these choices.",
+            "The certainty effect, because both purchases eliminate risk entirely."
+          ],
+          "explanation": "Both the long-shot lottery (improbable gain) and the insurance policy (small chance of a severe loss) depend on the overweighting of low probabilities near the impossibility-to-possibility boundary. Overweighting makes the tiny prize feel valuable and the tiny risk feel dreadful. The sure-thing boundary operates at the other end of the scale (95% to 100%), and regressive underweighting dominates the middle range where moderate probabilities are discounted."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Cost-Loss Discrepancy",
+          "visual_frame_description": "A psychology laboratory with a respondent, Keiko, seated at a terminal running two decision problems. On the left screen, Problem 10 asks about accepting a gamble with a 10% chance to win $95 and a 90% chance to lose $5. On the right screen, Problem 11 asks whether to pay $5 for a lottery with a 10% chance to win $100. A researcher in a gray coat logs her responses while a one-way mirror reflects the observation room.",
+          "player_mission": "Audit Keiko's session and decide which psychological mechanism best explains why she rejects the objectively identical offer when it is framed as a gamble but accepts it when it is framed as a lottery payment. Read the baseline, the nonverbal log, and the interrogation transcript, then issue your diagnosis.",
+          "key_concepts": [
+            "Problem 10 and Problem 11 offer objectively identical options: a 10% chance at roughly $95 to $100 with a 90% chance of losing $5.",
+            "Among 132 undergraduates, 55 expressed different preferences in the two versions of the problem.",
+            "Among the inconsistent respondents, 42 rejected the gamble in Problem 10 but accepted the equivalent lottery in Problem 11.",
+            "Thinking of the $5 as a payment makes the venture more acceptable than thinking of the same amount as a loss.",
+            "The effect illustrates both the cost-loss discrepancy and the power of framing.",
+            "Losses are more aversive than costs: an amount framed as an uncompensated loss is rejected where the same amount framed as a cost of protection is accepted.",
+            "An individual's subjective state can be improved by framing negative outcomes as costs rather than as losses.",
+            "In the insurance example, 80% of subjects chose a gamble over a sure loss of $50, but only 35% refused to pay $50 for insurance against a 25% risk of losing $200.",
+            "The same money framed as an uncompensated loss versus a cost of protection reversed the modal preference.",
+            "The cost-loss discrepancy can lead to failures of invariance.",
+            "The order of the two questions was reversed for half the respondents, and the result held.",
+            "The effectiveness of this seemingly inconsequential manipulation illustrates the power of framing in decision making."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests the cost-loss discrepancy: the same $5 is evaluated as an acceptable cost when framed as a lottery payment but as an aversive uncompensated loss when framed as a potential loss in a gamble. Kahneman and Tversky report that most inconsistent respondents rejected the gamble yet accepted the identical lottery, showing losses are more aversive than costs.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which mechanism best explains why Keiko rejects the gamble ('lose $5') but accepts the identical lottery ('pay $5')?",
+          "subject_baseline": "Keiko, a 27-year-old graduate student, generally treats small sums of money casually, buys a weekly lottery ticket, and does not dwell on sunk costs. In screening tasks, she answers quickly and shows no strong aversion to gambling in principle.",
+          "observed_nonverbal_log": [
+            "0:00 Problem 10 (gamble with 10% chance to win $95 and 90% chance to lose $5) appears; Keiko frowns, leans back, and takes 6 seconds to respond 'No.'",
+            "0:20 She explains the gamble 'feels like handing over five dollars for nothing.'",
+            "0:30 Problem 11 (pay $5 for a lottery with 10% chance to win $100) appears; Keiko's expression softens and she responds 'Yes' in under 2 seconds.",
+            "0:45 When asked to compare the two, she shrugs and says the lottery is 'just buying a ticket, everyone does that.'"
+          ],
+          "interrogation_transcript": [
+            "Researcher: 'You rejected the first offer but accepted the second. Can you tell me why?'",
+            "Keiko: 'The first one, I lose five dollars most of the time. That's a loss.'",
+            "Researcher: 'And the second?'",
+            "Keiko: 'The second is just paying five dollars to play a lottery. Paying for a ticket isn't losing money.'",
+            "Researcher: 'Mathematically, the two are the same risk.'",
+            "Keiko: 'I know they look the same, but one feels like giving money away and the other feels like buying a chance.'"
+          ],
+          "correct_diagnosis": "The cost-loss discrepancy: Keiko frames the $5 as an uncompensated loss in the gamble but as a cost of participation in the lottery, and because losses are more aversive than costs, her preference reverses despite the objectively identical options.",
+          "diagnostic_breakdown": "The only difference between the two problems is the framing of the $5: as a possible loss in a gamble versus as a payment for a lottery ticket. Kahneman and Tversky found 42 of 55 inconsistent respondents rejected the gamble yet accepted the identical lottery. Keiko's explanation ('paying for a ticket isn't losing money') directly matches the proposed mechanism that losses are more aversive than costs, and her nonverbal hesitation on the gamble reflects the aversive loss frame. No other mechanism differs between the two offers because the odds, stake, and expected value are equivalent.",
+          "distractors": [
+            "Loss aversion at the value-function level: Keiko is simply more sensitive to losses than to gains, which would apply equally to both offers.",
+            "The certainty effect: Keiko treats the 90% chance of losing $5 as if it were a certain loss in the first offer only.",
+            "The pseudo-certainty effect: Keiko behaves as if the lottery's 10% chance of winning were certain."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Mortality versus Survival Framing in Medical Choice",
+          "visual_frame_description": "A hospital consultation room. Oncologist Dr. Amara Osei shows Mr. Ito two summary sheets for the same lung-cancer therapy: one reports survival statistics, the other reports the identical outcomes as mortality statistics. Both list the risk of death during surgery. Dr. Osei watches Mr. Ito's expression shift as the framing changes, and a second physician in the doorway records the consultation for the shared-decision audit.",
+          "player_mission": "Audit Dr. Osei's consultation and determine which mechanism explains why the therapy choice shifts when outcomes are described as mortality rather than survival, even though the underlying statistics are identical. Read the baseline, the nonverbal log, and the transcript, then issue your diagnosis.",
+          "key_concepts": [
+            "McNeil, Pauker, Sox, and Tversky (1982) found that preferences of physicians and patients between lung-cancer therapies varied markedly with whether outcomes were described as mortality or survival.",
+            "Surgery, unlike radiation therapy, entails a risk of death during treatment.",
+            "The surgery option was relatively less attractive when treatment outcomes were described in terms of mortality rather than survival.",
+            "Formulation effects can occur fortuitously, without anyone being aware of the impact of the frame on the decision.",
+            "Formulation effects can also be exploited deliberately to manipulate the relative attractiveness of options.",
+            "A physician, and perhaps a presidential advisor as well, could influence the decision made by the patient or by the President merely by the framing of outcomes and contingencies.",
+            "The evaluation of outcomes is susceptible to formulation effects because of the nonlinearity of the value function and the tendency to evaluate options in relation to a suggested reference point.",
+            "The framing of outcomes of therapies in terms of mortality or survival is unlikely to affect experience, although it can have a pronounced influence on choice.",
+            "The public health problem illustrates a formulation effect in which a change of wording from lives saved to lives lost induced a shift from risk aversion to risk seeking.",
+            "People adopt the descriptions of the outcomes as given in the question and evaluate the outcomes accordingly as gains or losses.",
+            "The mental machinery that silently recodes language is not adequate to recode the mortality-survival statistics into a common abstract form.",
+            "It is good practice to test the robustness of preferences by deliberately framing a decision problem in more than one way."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the formulation effect: changing the description of identical outcomes from survival to mortality shifts the relative attractiveness of surgery because the risk of death during treatment becomes salient. McNeil, Pauker, Sox, and Tversky demonstrated this shift in both physicians and patients, showing that framing alone can change medical choices without any change in the statistics.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which mechanism best explains why Mr. Ito's preference shifts when the same therapy statistics are presented as mortality rather than survival?",
+          "subject_baseline": "Mr. Ito, 61, is a retired accountant who makes decisions methodically and requests detailed information. In prior consultations he compared treatment options in writing and rarely changed his mind once a preference was stated. Dr. Osei is an experienced oncologist who believes she presents options neutrally.",
+          "observed_nonverbal_log": [
+            "0:00 Survival-frame sheet presented; Mr. Ito reads slowly, nods, and says surgery 'sounds like a reasonable option.'",
+            "1:30 Mortality-frame sheet presented with identical statistics; Mr. Ito pauses, furrows his brow at the phrase 'death during surgery,' and leans back.",
+            "2:10 He asks Dr. Osei to repeat the mortality figures and then says he would 'rather avoid the knife.'",
+            "2:40 When told the two sheets show the same numbers, Mr. Ito looks confused and says the mortality sheet 'made it feel like the operation was more dangerous.'"
+          ],
+          "interrogation_transcript": [
+            "Researcher: 'You changed your mind between the two sheets. What happened?'",
+            "Mr. Ito: 'On the survival sheet, surgery looked like the better chance. On the other one, the word mortality next to surgery made me picture dying on the table.'",
+            "Researcher: 'But the survival rate and the mortality rate are exact opposites of the same number.'",
+            "Mr. Ito: 'I understand that now, but when I was deciding, the mortality version made the risk during surgery feel bigger than the survival version did.'",
+            "Dr. Osei: 'I did not intend to push him either way, but I can see I presented the mortality sheet more cautiously.'"
+          ],
+          "correct_diagnosis": "A formulation effect: describing identical outcomes as mortality rather than survival made the in-treatment death risk of surgery salient and reduced its relative attractiveness, shifting Mr. Ito's choice despite unchanged statistics.",
+          "diagnostic_breakdown": "The statistics were identical across the two sheets; only the attribute used to describe them changed. Because surgery carries a risk of death during treatment, mortality framing highlights that risk, while survival framing highlights the larger share of survivors. This matches the McNeil et al. finding that both physicians and patients show the shift, and it explains why Dr. Osei's caution also increased in the mortality frame: the frame changes the salience of the hazard, not the underlying facts. The effect is a formulation effect rather than a change in risk aversion, since no probability or outcome changed.",
+          "distractors": [
+            "Loss aversion: Mr. Ito weighs the loss of life more heavily than the gain of survival, which would apply equally to both frames.",
+            "The certainty effect: Mr. Ito treats death during surgery as certain in the mortality frame.",
+            "Anchoring: Mr. Ito anchors on the first number he reads and does not adjust when the survival frame appears."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Mental Accounting and the Lost Ticket",
+          "visual_frame_description": "The lobby of the Civic Playhouse on a rainy Saturday. Elena stands at the box office after discovering her ticket is gone. In one version of the audit she lost the $10 ticket; in a matched version she lost a $10 bill. Her hands are in her pockets, and the cashier waits with a replacement ticket in hand. A research assistant off to the side logs her hesitation and final choice.",
+          "player_mission": "Audit Elena's behavior across the two matched situations and decide which mental-accounting mechanism explains why she refuses a second ticket after losing the ticket itself but readily buys one after losing the equivalent cash. Read the baseline, the nonverbal log, and the transcript, then issue your diagnosis.",
+          "key_concepts": [
+            "Problem 8 asked respondents who had lost a paid $10 ticket whether they would pay $10 for another: only 46% said yes.",
+            "Problem 9 asked respondents who had lost a $10 bill whether they would pay $10 for a ticket: 88% said yes.",
+            "The difference is attributed to the topical organization of mental accounts.",
+            "Going to the theater is normally viewed as a transaction in which the cost of the ticket is exchanged for the experience of the play.",
+            "Buying a second ticket increases the cost of seeing the play to a level that many respondents find unacceptable.",
+            "The loss of the cash is not posted to the account of the play; it only makes the individual feel slightly less affluent.",
+            "When both versions were presented to the same subjects, the willingness to replace a lost ticket increased.",
+            "The juxtaposition of the two problems enabled subjects to realize it makes sense to think of the lost ticket as lost cash, but not vice versa.",
+            "The willingness to buy a ticket after losing cash was not affected by prior presentation of the other problem.",
+            "It may be more annoying to pay twice for the same ticket than to lose $10 in cash.",
+            "Regret, frustration, and self-satisfaction can be affected by framing.",
+            "Systematic examination of alternative framings is a useful reflective device for assessing the values attached to primary and secondary consequences."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the topical organization of mental accounts: the theater outing is treated as one account, so buying a second ticket doubles the cost of that account, whereas lost cash is not posted to the play's account. Kahneman and Tversky report 46% versus 88% willingness across the two problems, and show that juxtaposing the versions increases replacement because subjects can recode the lost ticket as lost cash.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which mechanism best explains why Elena replaces a lost ticket less readily than she buys a ticket after losing equivalent cash?",
+          "subject_baseline": "Elena, 33, a product manager, attends the theater a few times a year and habitually buys her ticket online in advance. She does not normally agonize over small sums and considers herself financially pragmatic.",
+          "observed_nonverbal_log": [
+            "0:00 In the lost-ticket scenario, Elena discovers her ticket is missing, frowns, and stares at the box office for about 8 seconds before shaking her head.",
+            "0:20 She declines to buy a replacement and turns toward the exit.",
+            "1:00 In the separate lost-cash session, Elena discovers a $10 bill is missing, shrugs, and walks directly to the ticket window.",
+            "1:15 She purchases the $10 ticket without hesitation.",
+            "1:40 When asked about the difference, she says the ticket 'already counted as paying for the show.'"
+          ],
+          "interrogation_transcript": [
+            "Interviewer: 'In the first scenario you lost a $10 ticket. In the second you lost a $10 bill. Why did you act differently?'",
+            "Elena: 'Because in the first one I had already paid for the play. Buying another ticket means the play costs me $20. That's too much for one show.'",
+            "Interviewer: 'And when you lost the cash?'",
+            "Elena: 'That's just bad luck. The play still costs $10, and I still want to see it.'",
+            "Interviewer: 'But in both cases you are out $10 either way.'",
+            "Elena: 'I know, but the lost bill doesn't belong to the play. The lost ticket belongs to the play account, and I already paid that account.'"
+          ],
+          "correct_diagnosis": "Topical organization of mental accounts: the cost of the play is posted to a 'theater outing' account, so a second ticket raises that account to an unacceptable level, while the lost cash is not posted to the play's account and only makes Elena feel slightly less affluent.",
+          "diagnostic_breakdown": "Both scenarios reduce Elena's wealth by $10, so wealth-based accounts predict identical behavior. The topical account differs: buying a replacement ticket is booked against the same theater account, making the outing effectively cost $20; losing cash is not attributed to the play and leaves the $10 ticket price acceptable. The 46% versus 88% split in the original problems matches Elena's behavior, and the fact that presenting both problems together increased replacement confirms that the two situations are bookkept differently rather than being truly different in substance.",
+          "distractors": [
+            "Loss aversion: Elena values the lost ticket more than the lost cash because it is a possessed asset.",
+            "The certainty effect: Elena treats the second ticket purchase as a certain loss but the cash loss as uncertain.",
+            "The dead-loss effect: Elena refuses to buy a second ticket to avoid recognizing the first as a dead loss, which would be reversed by juxtaposition."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Dead-Loss Effect in Sunk-Cost Behavior",
+          "visual_frame_description": "A tennis club court on a humid evening. Mateo, a 44-year-old member, serves with a visible wince and shakes out his right elbow between points. His coach stands at the net holding a rescheduling form, while a sports-club analyst observes from the bench and logs Mateo's expressions. A banner behind the court advertises the club's $850 annual membership.",
+          "player_mission": "Audit Mateo's behavior and decide which mechanism best explains why he continues to play in pain to avoid stopping, even though quitting would spare him the discomfort. Read the baseline, the nonverbal log, and the transcript, then issue your diagnosis.",
+          "key_concepts": [
+            "The dead-loss effect describes a paradoxical behavior: an individual continues an activity to avoid recognizing a paid fee as a dead loss.",
+            "Thaler (1980) discussed a man who develops tennis elbow soon after paying a club membership fee and continues to play in agony to avoid wasting his investment.",
+            "Playing in pain maintains the evaluation of the membership fee as a cost.",
+            "If the individual stopped playing, he would be forced to recognize the fee as a dead loss, which may be more aversive than playing in pain.",
+            "An individual's subjective state can be improved by framing negative outcomes as costs rather than as losses.",
+            "Losses are more aversive than costs.",
+            "The dead-loss effect is a consequence of the cost-loss discrepancy applied to sunk costs.",
+            "The acceptability of an option can depend on whether a negative outcome is evaluated as a cost or as an uncompensated loss.",
+            "The analysis assumes that the individual would not play if he had not paid the membership fee.",
+            "Money is naturally viewed as a proxy for the goods and services that it could buy in standard economic analysis.",
+            "Loss aversion favors stability over change.",
+            "Secondary consequences such as regret and frustration can be affected by framing."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the dead-loss effect: Mateo continues to play in pain to keep the membership fee classified as a cost rather than reclassify it as a dead loss, which he finds more aversive. Kahneman and Tversky, following Thaler, present this as a case where framing a negative outcome as a cost rather than a loss improves the individual's subjective state despite objectively worsening physical discomfort.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which mechanism best explains why Mateo continues to play in pain rather than stop and forfeit his paid membership?",
+          "subject_baseline": "Mateo, 44, joined the club three weeks ago and paid the full $850 annual fee. He enjoys tennis in principle but has complained of elbow pain since his second session. In the past he has canceled gym memberships without much thought.",
+          "observed_nonverbal_log": [
+            "0:00 Mateo serves and immediately winces, rotating his right shoulder and rubbing his elbow.",
+            "0:20 When the coach suggests resting for two weeks, Mateo's jaw tightens and he replies that he 'already paid for the year.'",
+            "0:45 He plays on for another 10 minutes, his strokes visibly cautious.",
+            "1:05 As he leaves the court, Mateo looks at the club's membership banner and mutters that at least he is 'getting his money's worth.'",
+            "1:20 He declines the rescheduling offer without reading it."
+          ],
+          "interrogation_transcript": [
+            "Coach: 'Mateo, if you keep playing on that elbow you might make it worse. Why not take a break?'",
+            "Mateo: 'Because I paid $850 up front. If I stop now, that money is just gone.'",
+            "Coach: 'But you would be avoiding the pain and the risk of injury.'",
+            "Mateo: 'Quitting would mean admitting I wasted the whole fee. Playing through it keeps it a real membership, not money down the drain.'",
+            "Coach: 'So continuing in pain is easier than stopping?'",
+            "Mateo: 'Weirdly, yes. Stopping makes the loss final. This way I can tell myself I'm still using what I paid for.'"
+          ],
+          "correct_diagnosis": "The dead-loss effect: Mateo continues to play in pain to keep the membership fee classified as a cost, because stopping would force him to recognize the fee as an uncompensated dead loss, which he experiences as more aversive than playing in agony.",
+          "diagnostic_breakdown": "Mateo's own words make the mechanism explicit: stopping 'makes the loss final,' while continuing 'keeps it a real membership.' The fee is framed as a cost of an active membership rather than as a sunk and unrecoverable loss. Because losses are more aversive than costs, Mateo prefers sustained physical pain to the psychological pain of booking a dead loss. The baseline note that he cancels memberships easily when he has not just paid confirms the effect is tied to the recent large payment and its framing, not to a general aversion to quitting.",
+          "distractors": [
+            "Loss aversion at the value-function level: Mateo is reluctant to give up the membership as an owned asset, independent of the fee's framing.",
+            "The certainty effect: Mateo treats the pain of stopping as certain and the injury risk as negligible.",
+            "The endowment effect: Mateo overvalues the membership because he paid a high price for it, so he refuses to waste it."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Asian Disease Problem and the Framing Effect",
+          "visual_frame_description": "A windowless war-room at a public-health agency. A briefing screen shows the two versions of the Asian disease problem side by side: '200 people will be saved' next to '400 people will die.' Below, bar charts display the 72% versus 28% split and the 22% versus 78% split. The analyst, Dr. Yuki Tanaka, faces a countdown clock; the boss, the Framing Effect, appears as a mirrored pair of identical policy documents with different wordings.",
+          "player_mission": "Defeat the Framing Effect by reading the two versions of the disease program and identifying why preferences flip despite identical real-world outcomes. Then choose the intervention that restores invariance in the final policy recommendation.",
+          "key_concepts": [
+            "Problem 1 adopts as a reference point a state in which the disease is allowed to take its toll of 600 lives, so outcomes are gains measured in lives saved.",
+            "Problem 2 adopts a reference state in which no one dies, so outcomes are losses measured in lives lost.",
+            "Options C and D in the loss version are undistinguishable in real terms from options A and B in the gain version.",
+            "Risk aversion in the domain of gains produces a preference for saving 200 lives for sure.",
+            "Risk seeking in the domain of losses produces a preference for the gamble in the lives-lost version.",
+            "The failure of invariance is pervasive and robust, common among sophisticated and naive respondents alike.",
+            "Respondents confronted with their conflicting answers are typically puzzled and still wish to be risk averse in one version and risk seeking in the other.",
+            "Framing effects resemble perceptual illusions more than computational errors.",
+            "Invariance requires that the preference order between prospects not depend on the manner in which they are described.",
+            "Dominance demands that a prospect at least as good in every respect and better in one be preferred.",
+            "Frame invariance cannot be expected to hold, and a sense of confidence in a choice does not ensure the same choice would be made in another frame.",
+            "It is good practice to test the robustness of preferences by deliberately framing a decision in more than one way."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the framing effect and the failure of invariance: identical programs described as gains produce risk aversion while the same programs described as losses produce risk seeking. Kahneman and Tversky's Asian disease problem demonstrates that a physician or policy advisor can influence a decision merely by the frame, without distorting or suppressing information.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The boss, the Framing Effect, is the violation of invariance produced by describing identical outcomes as gains versus losses. Because the value function is concave for gains and convex for losses, respondents are risk averse when told '200 people will be saved' but risk seeking when told '400 people will die.' The player must see through the wording to the identical real-world outcomes.",
+          "stage_1_observation": "Dr. Tanaka reviews the briefing screen. Problem 1 asked 152 respondents to choose between Program A, which saves 200 people for sure, and Program B, which offers a one-third chance that 600 people will be saved and a two-thirds chance that no one will be saved. The data show 72% chose A and 28% chose B.",
+          "stage_1_question": "Why do 72% of respondents prefer the sure saving of 200 lives even though Program B has the same expected number of lives saved?",
+          "stage_1_correct_answer": "The outcomes are framed as gains relative to a reference state in which the disease is allowed to take its toll of 600 lives, and the value function is concave in the domain of gains, producing risk aversion: the sure saving of 200 lives is valued above its actuarial expectation, while the one-third chance of saving 600 lives is discounted.",
+          "stage_2_intervention": "The briefing then shows Problem 2, where the same programs are described as '400 people will die' versus a gamble with a one-third probability that nobody dies and a two-thirds probability that 600 people die. Dr. Tanaka must decide how to present the policy recommendation so that the choice does not flip with the frame. Choose the intervention that best defeats the Framing Effect.",
+          "stage_2_correct_answer": "Restore a single canonical representation by evaluating both programs on a common metric, such as expected lives saved, rather than accepting the frame each version suggests. Recognize that options C and D are real-world equivalents of A and B, that the loss frame induces risk seeking because the value function is convex for losses, and test the robustness of the final choice by deliberately framing the decision in more than one way before recommending it."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Dominance Violation in Concurrent Decisions",
+          "visual_frame_description": "A fintech product studio at 6 PM. Lead designer Jonah has two whiteboards: on one, the concurrent-decision problem showing a sure gain of $240 beside a 25% chance to gain $1,000, and a sure loss of $750 beside a 75% chance to lose $1,000. On the second whiteboard, the combination table reveals that the rejected conjunction B and C dominates the chosen conjunction A and D. The boss, Dominance Violation, looms as a pair of equal-expectation columns the players must reconcile.",
+          "player_mission": "Defeat the Dominance Violation by explaining why 73% of respondents chose the combination of a sure gain and a loss-gamble, and then intervene to redesign the interface so the client sees the dominated combination before choosing. Read the observation, answer the question, and pick the intervention that combines the concurrent decisions.",
+          "key_concepts": [
+            "Problem 4 presented two concurrent decisions: a sure gain of $240 versus a 25% chance to gain $1,000, and a sure loss of $750 versus a 75% chance to lose $1,000.",
+            "84% of respondents chose the sure gain of $240 in the first decision.",
+            "87% of respondents chose the gamble over the sure loss in the second decision.",
+            "73% of respondents chose A and D, and only 3% chose B and C.",
+            "The preferred conjunction A and D is dominated by the rejected conjunction B and C.",
+            "Adding the sure gain of $240 to option D yields a 25% chance to win $240 and a 75% chance to lose $760, which is option E in Problem 3.",
+            "Adding the sure loss of $750 to option B yields a 25% chance to win $250 and a 75% chance to lose $750, which is option F in Problem 3.",
+            "Problem 3 showed that all respondents chose F over E when the options were shown together because F dominates E.",
+            "The susceptibility to framing and the S-shaped value function produce a violation of dominance in a set of concurrent decisions.",
+            "Risk aversion in gains and risk seeking in losses combine to favor the dominated conjunction.",
+            "A canonical representation of risky prospects requires compounding all outcomes of concurrent decisions.",
+            "The standard admonition to consider each decision in terms of total assets rather than gains or losses is easier to give than to follow."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the dominance violation created when risk aversion in gains and risk seeking in losses are applied to concurrent decisions in isolation. Kahneman and Tversky show that the conjunction chosen by 73% of respondents is dominated by the rejected one, demonstrating that the S-shaped value function and framing combine to violate the dominance principle of rational choice.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The boss, Dominance Violation, arises when people evaluate concurrent decisions separately: they are risk averse on a sure gain and risk seeking on a sure loss, so they pick a combination that is dominated by the one they rejected. The player must combine the outcomes of the two decisions to expose the dominance.",
+          "stage_1_observation": "Jonah pulls up the decision from Problem 4: Decision (i) offers a sure gain of $240 or a 25% chance to gain $1,000 with a 75% chance to gain nothing; Decision (ii) offers a sure loss of $750 or a 75% chance to lose $1,000 with a 25% chance to lose nothing. The studio's test data show that 84% chose the sure gain, 87% chose the gamble on the loss, and 73% chose the combination A and D.",
+          "stage_1_question": "Why do 73% of respondents choose the conjunction of the sure gain (A) and the loss-gamble (D) when that conjunction is dominated by the rejected conjunction of the two gambles (B and C)?",
+          "stage_1_correct_answer": "Because the two decisions are framed and evaluated separately: the value function's concavity in gains makes the sure $240 attractive, and its convexity in losses makes the gamble against the sure loss attractive. When the outcomes are combined, A plus D equals a 25% chance to win $240 and a 75% chance to lose $760, which is exactly option E of Problem 3, while B plus C equals a 25% chance to win $250 and a 75% chance to lose $750, option F, which dominates E. Evaluating the decisions in isolation hides this dominance.",
+          "stage_2_intervention": "Jonah must redesign the product's choice screen so users do not fall into the dominated conjunction. The data show that when options E and F are shown together, every respondent chooses F. Choose the intervention that most reliably defeats the Dominance Violation.",
+          "stage_2_correct_answer": "Combine the two concurrent decisions into a single joint display before the user chooses, so the four conjunctions are compared in a canonical representation. Presenting A plus D versus B plus C as combined outcomes lets the user see that the rejected conjunction dominates, mirroring the finding that all respondents chose F over E when they were shown together. This implements the standard admonition to consider the compounding of outcomes rather than separate gains and losses."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Endowment Effect and Status-Quo Bias in Negotiation",
+          "visual_frame_description": "A mountain-lodge sales negotiation. Founder Amara is selling her ski lodge after years of ownership. Across the table, buyer Ben has offered $2.4 million, but Amara insists on $3.1 million, a figure shaped by the $2.2 million she paid a decade ago and by her reluctance to part with the lodge. Her advisor's tablet shows a bar chart comparing her buying price, her selling price, and Ben's offer, with the gap highlighted in red. The boss, the Endowment Effect, stands behind Amara as a mirrored scale weighing 'giving up' against 'acquiring.'",
+          "player_mission": "Defeat the Endowment Effect by explaining why selling prices systematically exceed buying prices and why Amara is biased toward retaining the status quo. Then choose the negotiation reframing that lets her set a price anchored in market value rather than in ownership.",
+          "key_concepts": [
+            "Thaler (1980) coined the term endowment effect to describe the reluctance of people to part from assets that belong to their endowment.",
+            "When it is more painful to give up an asset than it is pleasurable to obtain it, buying prices will be significantly lower than selling prices.",
+            "The highest price an individual will pay to acquire an asset is smaller than the minimal compensation that would induce the same individual to give it up once acquired.",
+            "Several studies have reported substantial discrepancies between buying and selling prices in both hypothetical and real transactions.",
+            "Loss aversion is the mechanism behind the endowment effect: losses loom larger than gains.",
+            "In the job study, most subjects assigned to one position did not wish to move to the other, and vice versa, because the same difference looms larger as a disadvantage than as an advantage.",
+            "Loss aversion favors stability over change.",
+            "Two hedonically identical twins placed in two equally attractive environments will both prefer to stay where they happen to be once they adopt their states as reference points.",
+            "The status quo defines the reference level for all attributes in a multiattribute decision.",
+            "The combination of adaptation and loss aversion reduces the attractiveness of foregone alternatives and of others' endowments.",
+            "Loss aversion and the consequent endowment effect are unlikely to play a significant role in routine economic exchanges where money is treated as a proxy for goods and services.",
+            "Money is naturally viewed as a proxy for the goods and services that it could buy, as when a person thinks 'I can either buy a new camera or a new tent.'"
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the endowment effect and status-quo bias: because losses loom larger than gains, people demand more to give up an asset than they would pay to acquire it, and the status quo becomes the reference point for all attributes. Kahneman and Tversky, following Thaler, show this produces substantial buying-selling price discrepancies and a general preference for stability over change.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The boss, the Endowment Effect, is the reluctance to part with owned assets caused by loss aversion: giving up an asset is more painful than acquiring it is pleasurable, so selling prices exceed buying prices and the status quo is favored. The player must recognize the effect and reframe the negotiation so value is evaluated in a common currency rather than as loss versus gain.",
+          "stage_1_observation": "Amara watches the negotiation replay. In round one, the advisor presented a market survey showing that sellers list their used equipment at prices roughly twice what buyers offer for identical items. In round two, the same advisor showed the lodge's purchase price of $2.2 million, Amara's asking price of $3.1 million, and Ben's offer of $2.4 million. Amara stated she would not accept less than $3.1 million because she 'already owns it and knows what it is worth to me.'",
+          "stage_1_question": "Why does Amara's minimum acceptable selling price ($3.1 million) exceed both what she paid ($2.2 million) and what a buyer like Ben would offer ($2.4 million)?",
+          "stage_1_correct_answer": "Amara treats the lodge as part of her endowment and her ownership as the reference point. Because it is more painful to give up an asset than it is pleasurable to acquire it, her selling price is inflated above what she would pay for an equivalent lodge she did not own. The buying-selling price gap is the hallmark of the endowment effect, and the same loss aversion biases her toward retaining the status quo rather than accepting the move to cash.",
+          "stage_2_intervention": "Ben's final offer is $2.8 million, still below Amara's floor of $3.1 million. The advisor must help Amara decide whether to accept, reframe the decision, or walk away. Choose the intervention that best defeats the Endowment Effect so her decision reflects value rather than ownership.",
+          "stage_2_correct_answer": "Reframe the sale as a choice between alternative uses of money rather than as the loss of an owned asset, matching how routine exchanges treat money as a proxy for what it can buy. Specifically, ask Amara to compare the cash from selling against specific alternatives, such as reinvesting in her new venture or the financial security it buys, so the transaction is evaluated as a gain of purchasing power instead of a loss of the lodge. This cancels the gain-loss asymmetry at the point of evaluation and lets her price the lodge against market value rather than against her endowment."
+        }
+      ]
+    }
+  ]
+}

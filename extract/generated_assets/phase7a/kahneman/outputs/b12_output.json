@@ -1,0 +1,646 @@
+{
+  "spec_file": "spec_kahneman_b12.json",
+  "chapters": [
+    {
+      "id": "ch25",
+      "title": "20. The Illusion of Validity",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Engines Behind Confident Judgments: WYSIATI, Coherence, and Substitution",
+          "visual_frame_description": "An obstacle field on a military base: eight sweat-soaked soldiers in numbered tags haul a heavy log toward a six-foot wall while two evaluators in fatigues take notes from the side. An overlay of three color-coded cards floats above the scene, labeled WYSIATI, Confidence by Coherence, and Substitution, and the player drags each italicized judgment card onto the mechanism it best explains.",
+          "player_mission": "Sort each judgment card into the mechanism that best explains it, then confirm which single mechanism dominated Kahneman's army officer evaluations. Drag the cards into the correct columns before the hour-long session timer runs out.",
+          "key_concepts": [
+            "In the leaderless group challenge, eight candidates lifted a log over a six-foot wall, and one hour of watching produced impressions as direct and compelling as the color of the sky.",
+            "The officers' forecasts were a clear instance of substitution and of the representativeness heuristic: observed behavior stood in for future performance.",
+            "Their predictions were completely nonregressive, with no reservations about predicting failure or outstanding success from weak evidence.",
+            "WYSIATI (what you see is all there is) means only the evidence at hand counts, and System 1 is not designed to know the size of its jumps.",
+            "Confidence is a feeling that reflects the coherence of the information and the cognitive ease of processing it, not a reasoned probability of being correct.",
+            "Poor evidence can make a very good story, and the amount of evidence does not count for much in the feeling of confidence.",
+            "Nisbett and Borgida's students believed that most people did not help a stranger having a seizure, yet the base rates did not influence their judgment of the individual on the video.",
+            "People are often reluctant to infer the particular from the general, accepting base-rate information without applying it to individuals.",
+            "Knowledge of the general rule that the predictions were useless had no effect on the officers' confidence in individual cases.",
+            "Errors of prediction are inevitable because the world is unpredictable."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests substitution by the representativeness heuristic: evaluators answered the hard question of a soldier's future performance with the easy impression of one hour's behavior, and WYSIATI left them no representation of their ignorance. Kahneman & Tversky's research shows such judgments are made with high confidence even when their validity is barely above chance.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Kahneman and a colleague watched eight soldiers haul a log over a six-foot wall for about an hour and felt they knew exactly who would make a strong officer. Which of the three mechanisms best explains each confidence-producing judgment below, and which mechanism dominated the army officer evaluations?",
+          "column_a_label": "WYSIATI (only the evidence at hand counts)",
+          "column_b_label": "Confidence by coherence (a coherent story creates the feeling of confidence)",
+          "column_c_label": "Substitution via representativeness (answering a hard question with a representative impression)",
+          "rows": [
+            {
+              "label": "Having observed one hour of a soldier's behavior in an artificial situation, the evaluators felt they knew how he would face officer training and combat.",
+              "col": "c"
+            },
+            {
+              "label": "The evaluators had no good way to represent what they did not know about the factors that would eventually determine the candidate's performance.",
+              "col": "a"
+            },
+            {
+              "label": "A doctor feels sure of a prognosis because every symptom fits neatly into one story, despite a medical record showing such cases are unpredictable.",
+              "col": "b"
+            },
+            {
+              "label": "The soldier who took over when the exhausted group had to start over was a leader at that moment, so he must lead just as well in officer training and combat.",
+              "col": "c"
+            },
+            {
+              "label": "Buyers and sellers trade billions of shares because each side attends only to the information it personally holds about the price.",
+              "col": "a"
+            },
+            {
+              "label": "Nisbett and Borgida's students believed the statistic that most people did not help a seizure victim, yet still judged the man on the video as likely to help.",
+              "col": "c"
+            },
+            {
+              "label": "Poor evidence can make a very good story, and the amount and quality of the evidence count for little in the feeling of confidence.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "The anchoring effect, because the first soldier evaluated sets the standard for all the rest",
+            "Loss aversion, because the evaluators feared being wrong about a candidate",
+            "The availability heuristic, because recent feedback sessions made past failures easy to recall"
+          ],
+          "explanation": "The army forecast was a clear instance of substitution: instead of estimating the candidate's future performance, the evaluators answered with the representativeness of the behavior they had just watched, and WYSIATI left them no representation of what they did not know. Confidence by coherence then dressed the impression in the feeling of certainty, which is why the general knowledge of past failure did nothing to their confidence in individual cases."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Diagnostic Test of Skill: Persistent Achievement vs. Luck",
+          "visual_frame_description": "A research desk piled with ranked leaderboards: one board shows golfers and toll collectors whose names repeat at the top season after season, while another board shows fund names reshuffling randomly every year. A spreadsheet titled '25 wealth advisers, 8 years' sits in the corner with a large .01 highlighted in red.",
+          "player_mission": "Classify each result as evidence of skill, evidence of luck, or ambiguous, then determine what the wealth-adviser data actually demonstrated. Drag each row into the correct column before analyzing the correlation coefficient.",
+          "key_concepts": [
+            "Terry Odean's study of 10,000 brokerage accounts over seven years found that the stocks individual investors sold did better than those they bought by 3.2 percentage points per year, before trading costs.",
+            "For the large majority of individual investors, taking a shower and doing nothing would have been a better policy than implementing the ideas that came to their minds.",
+            "The diagnostic for the existence of skill is the consistency of individual differences: if performance in any year were entirely due to luck, year-to-year correlations would be zero.",
+            "Skill is confirmed by persistence, with stable rankings over time as with golfers, car salespeople, orthodontists, and speedy toll collectors on the turnpike.",
+            "Over fifty years of research show that at least two out of every three mutual funds underperform the overall market in any given year.",
+            "The year-to-year correlation of mutual fund outcomes is barely higher than zero, so the successful funds in any given year are mostly lucky.",
+            "For most stock pickers, the selection of stocks is more like rolling dice than like playing poker.",
+            "In highly efficient markets, educated guesses are no more accurate than blind guesses.",
+            "The average of 28 year-to-year correlations in the rankings of 25 wealth advisers over 8 years was .01, indistinguishable from zero.",
+            "The firm was rewarding luck as if it were skill, because the rankings varied erratically from year to year."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the diagnostic logic of skill: persistence of individual differences. Kahneman shows that when year-to-year rankings correlate at about zero, individual outcomes are chance, and he demonstrated this with 25 wealth advisers whose 28 correlations averaged .01.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Kahneman writes that the persistence of individual differences is the measure by which we confirm the existence of skill. Classify each result as evidence of skill, evidence of luck, or ambiguous, then answer what the wealth-adviser data showed.",
+          "column_a_label": "Evidence of skill (rankings are stable across time)",
+          "column_b_label": "Evidence of luck (rankings vary erratically; year-to-year correlation near zero)",
+          "column_c_label": "Ambiguous or mixed (depends on other factors)",
+          "rows": [
+            {
+              "label": "The average of 28 year-to-year correlations among 25 wealth advisers over 8 years was .01.",
+              "col": "b"
+            },
+            {
+              "label": "Golfers and speedy toll collectors who rank high one season tend to rank high again next season.",
+              "col": "a"
+            },
+            {
+              "label": "At least two out of every three mutual funds underperform the overall market in any given year.",
+              "col": "b"
+            },
+            {
+              "label": "A car salesperson outsells every colleague in the dealership for five consecutive years.",
+              "col": "a"
+            },
+            {
+              "label": "The most active individual traders get the poorest results while the least active earn the highest returns.",
+              "col": "c"
+            },
+            {
+              "label": "The successful funds in any given year are mostly different funds from the successful ones last year.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Evidence of skill, because the advisers are experienced professionals",
+            "Evidence of skill, because a large number of correlations was computed",
+            "Ambiguous, because bonuses depend on a single year's return"
+          ],
+          "explanation": "With a year-to-year correlation of .01, the advisers' rankings varied almost randomly from year to year, which is exactly the signature of luck rather than skill. Where skill exists, individual differences persist and rankings remain stable, as with golfers, car salespeople, and toll collectors."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Hedgehogs and Foxes in Expert Forecasting",
+          "visual_frame_description": "A television debate studio: on one side a hedgehog-style commentator gestures at a single chart, certain one force drives history; on the other side a fox-style analyst lists interacting factors and luck. A research overlay shows a twenty-year grid of 284 experts and more than 80,000 probability forecasts scored against what actually happened.",
+          "player_mission": "Classify each statement as typical of a hedgehog, a fox, or neither, then identify which type scored best in Tetlock's landmark study. Sort the statements before the debate segment ends.",
+          "key_concepts": [
+            "Tetlock's twenty-year study, published as Expert Political Judgment in 2005, gathered more than 80,000 predictions from 284 experts who commented on political and economic trends.",
+            "The experts performed worse than if they had simply assigned equal probabilities to the three potential outcomes, worse than dart-throwing monkeys distributing their choices evenly.",
+            "Even in the region they knew best, experts were not significantly better than nonspecialists.",
+            "Those who know more forecast very slightly better, but those with the most knowledge are often less reliable because they develop an enhanced illusion of their skill.",
+            "We reach the point of diminishing marginal predictive returns for knowledge disconcertingly quickly.",
+            "The more famous the forecaster, the more flamboyant the forecasts; experts in demand were more overconfident than colleagues far from the limelight.",
+            "Experts resisted admitting that they had been wrong and produced excuses: wrong only in timing, an unforeseeable event intervened, or wrong but for the right reasons.",
+            "Experts are led astray not by what they believe but by how they think, says Tetlock.",
+            "Hedgehogs know one big thing, explain events within a single coherent framework, and are confident and reluctant to admit error.",
+            "Foxes recognize that reality emerges from the interactions of many agents and forces, including blind luck, and they scored best in Tetlock's study, though their performance was still very poor."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the distinction Tetlock drew, using Isaiah Berlin's terms, between hedgehogs who know one big thing and foxes who weigh many interacting forces. In Tetlock's twenty-year study the foxes scored best, yet both types performed poorly in absolute terms.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "In Tetlock's twenty-year study of expert political judgment, one type of thinker consistently did better. Classify each statement as hedgehog, fox, or neither, then identify the type that scored best.",
+          "column_a_label": "Hedgehog (knows one big thing; one theory explains everything)",
+          "column_b_label": "Fox (recognizes many interacting forces, including blind luck)",
+          "column_c_label": "Neither (a general forecasting regularity, not a thinker type)",
+          "rows": [
+            {
+              "label": "Unlikely to accept the view that Ronald Reagan single-handedly ended the Cold War by standing tall against the Soviet Union.",
+              "col": "b"
+            },
+            {
+              "label": "After a failed prediction, insists he was off only on timing or very nearly right.",
+              "col": "a"
+            },
+            {
+              "label": "Accounted for events within a single coherent framework and bristled with impatience at those who did not see things his way.",
+              "col": "a"
+            },
+            {
+              "label": "Recognized that reality emerges from the interactions of many agents and forces, including blind luck, producing large and unpredictable outcomes.",
+              "col": "b"
+            },
+            {
+              "label": "The type that scored best in Tetlock's study, although its performance was still very poor.",
+              "col": "b"
+            },
+            {
+              "label": "Short-term trends can be forecast, and behavior and achievements can be predicted with fair accuracy from previous behavior and achievements.",
+              "col": "c"
+            },
+            {
+              "label": "Opinionated and clear, exactly what television producers love to see on programs.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The hedgehogs, because they are more confident",
+            "Nonspecialists, because they have less at stake",
+            "The most famous forecasters, because they have the most information"
+          ],
+          "explanation": "Foxes scored best in Tetlock's study because their complex, multifactor view of the world made them less prone to confident error; even so, their performance was still poor. Hedgehogs were more confident, more flamboyant, and more reluctant to admit error, which is exactly why television producers favor them."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "What Sustains the Illusions of Skill and Validity",
+          "visual_frame_description": "A Wall Street trading floor at dusk: analysts pore over balance sheets and income statements, while a projector behind them shows the 25-adviser spreadsheet with a red .01. In the corner, an executive shakes hands at a bonus dinner, and a memo titled 'The Findings' slides into a drawer labeled 'Do Not Digest.'",
+          "player_mission": "Sort each sustaining factor into the mechanism that keeps the illusions alive, then identify the most potent psychological cause of the illusion of financial skill named by Kahneman. Sort the factors before the board meeting adjourns.",
+          "key_concepts": [
+            "One executive's defense, I have done very well for the firm and no one can take that away from me, shows personal experience outweighing base rates.",
+            "The most potent psychological cause of the illusion of financial skill is that stock pickers are exercising high-level skills, which gives them a valid experience of skilled work.",
+            "Skill in evaluating the business prospects of a firm is not sufficient for successful trading, because the key question is whether the information is already incorporated in the price of the stock.",
+            "Traders apparently lack the skill to answer that crucial question, but they appear to be ignorant of their ignorance.",
+            "Subjective confidence of traders is a feeling, not a judgment, and cognitive ease and associative coherence locate it firmly in System 1.",
+            "Professional culture sustains the illusions: people can maintain unshakable faith in any proposition when sustained by a community of like-minded believers.",
+            "The illusion of skill is not only an individual aberration but is deeply ingrained in the culture of the industry.",
+            "Facts that challenge basic assumptions, and thereby threaten people's livelihood and self-esteem, are simply not absorbed; the mind does not digest them.",
+            "Cognitive illusions can be more stubborn than visual illusions: learning about the Muller-Lyer illusion changed behavior, but knowledge of low validity changed neither feelings nor subsequent action.",
+            "Errors of prediction are inevitable because the world is unpredictable."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the three supports Kahneman identifies for the illusions of validity and skill: the genuine experience of exercising high-level skills, ignorance of ignorance in which confidence is a feeling rather than a judgment, and a professional culture of like-minded believers. He argues the most potent cause is the valid experience of skilled work, which masks the fact that the crucial information is already priced in.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Why does the illusion of financial skill persist even when the data show the results are luck? Sort each sustaining factor into its mechanism, then identify the most potent psychological cause named by Kahneman.",
+          "column_a_label": "Exercising high-level skills (valid experience of skilled work)",
+          "column_b_label": "Ignorance of ignorance (confidence is a feeling, not a judgment)",
+          "column_c_label": "Professional culture (a community of like-minded believers)",
+          "rows": [
+            {
+              "label": "Stock pickers consult economic data and forecasts, examine income statements and balance sheets, evaluate top management, and assess the competition.",
+              "col": "a"
+            },
+            {
+              "label": "The crucial question, whether the information is already incorporated in the price, is the one traders lack the skill to answer.",
+              "col": "b"
+            },
+            {
+              "label": "Cognitive ease and associative coherence locate subjective confidence firmly in System 1.",
+              "col": "b"
+            },
+            {
+              "label": "People can maintain unshakable faith in any proposition, however absurd, when they are sustained by a community of like-minded believers.",
+              "col": "c"
+            },
+            {
+              "label": "Statistical studies of performance provide base-rate information that people generally ignore when it clashes with their personal impressions from experience.",
+              "col": "c"
+            },
+            {
+              "label": "A portfolio manager reads detailed company research and feels the immediate, valid experience of using professional skills.",
+              "col": "a"
+            },
+            {
+              "label": "After hearing the .01 correlation, an executive says, I have done very well for the firm and no one can take that away from me.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The desire to impress clients with bold forecasts",
+            "Sheer greed on the part of individual investors",
+            "A conspiracy by fund managers to hide poor returns"
+          ],
+          "explanation": "Kahneman identifies the most potent psychological cause as the fact that stock pickers are exercising high-level skills: they genuinely use expertise in evaluating businesses, and that valid experience of skilled work masks the fact that the key judgment, whether information is already priced in, is beyond them. Ignorance of ignorance and the industry culture then cement the illusion, so statistical base rates are pushed aside."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Three Illusions: Validity, Skill, and Understanding the Past",
+          "visual_frame_description": "A split triptych montage: on the left, army officers declare 'He will be a star' as a soldier finishes the obstacle wall; in the center, a bonus spreadsheet shows the same advisers reshuffling rank each year; on the right, a pundit narrates the day's news with complete hindsight certainty. A caption bar reads 'Which illusion dominates?'",
+          "player_mission": "Classify each episode by the illusion that dominates it, then decide which illusion best captures the officers' predictions on the obstacle field. Sort the episodes before the montage loop completes.",
+          "key_concepts": [
+            "Kahneman coined the term 'illusion of validity' after the Israeli Army's officer-selection tests showed his leadership forecasts were barely better than blind guesses.",
+            "In the leaderless group challenge, eight candidates lifted a log over a six-foot wall, and one hour of watching produced impressions as direct and compelling as the color of the sky.",
+            "Their predictions were completely nonregressive, with no reservations about predicting failure or outstanding success from weak evidence.",
+            "WYSIATI (what you see is all there is) means only the evidence at hand counts, and System 1 is not designed to know the size of its jumps.",
+            "Knowledge of the general rule that the predictions were useless had no effect on the officers' confidence in individual cases.",
+            "Nassim Taleb's The Black Swan argues that the ease of constructing coherent narratives of the past makes it difficult to accept the limits of forecasting ability.",
+            "Everything makes sense in hindsight, and we cannot suppress the powerful intuition that what made sense today was predictable yesterday.",
+            "The illusion that we understand the past fosters overconfidence in our ability to predict the future.",
+            "The image of the 'march of history' implies order and direction, yet the book argues that large historical events are determined by luck.",
+            "The book notes a fifty-fifty chance that the embryo that became Hitler could have been female, and one chance in eight of a twentieth century without Hitler, Stalin, and Mao."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario distinguishes three closely related illusions from the chapter: the illusion of validity in confident prediction from thin evidence, the illusion of skill when luck is rewarded as skill, and the illusion of understanding the past fostered by hindsight. Kahneman shows all three share a root: confidence by coherence and the ease of constructing stories.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "The chapter names three related illusions. Classify each episode by which illusion dominates, then decide which illusion best captures the officers' predictions on the obstacle field.",
+          "column_a_label": "Illusion of validity (confident prediction from thin, unrepresentative evidence)",
+          "column_b_label": "Illusion of skill (personal results treated as skill when they are luck)",
+          "column_c_label": "Illusion of understanding the past (hindsight makes the past look predictable)",
+          "rows": [
+            {
+              "label": "This one will never make it, said with certainty after one hour of watching a soldier on an obstacle field.",
+              "col": "a"
+            },
+            {
+              "label": "An adviser's year-end bonus is based on returns that are statistically indistinguishable from chance.",
+              "col": "b"
+            },
+            {
+              "label": "Financial pundits offer convincing accounts of the day's events every evening.",
+              "col": "c"
+            },
+            {
+              "label": "Traders believe they know more about what a price should be than the market does.",
+              "col": "b"
+            },
+            {
+              "label": "Everything that happened makes sense in hindsight, so it must have been predictable yesterday.",
+              "col": "c"
+            },
+            {
+              "label": "Kahneman's forecasts for combat performance were better than blind guesses, but not by much.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Illusion of skill, because the evaluators were trained professionals",
+            "Illusion of understanding the past, because they reviewed past feedback",
+            "Anchoring, because the first soldier they saw set the standard"
+          ],
+          "explanation": "The officers' predictions were nonregressive forecasts of success or failure from a single hour of behavior, which is exactly the illusion of validity Kahneman coined on the obstacle field. The illusion of skill applies to the financial world, and the illusion of understanding the past applies to pundits explaining history."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Confident Prognosis",
+          "visual_frame_description": "A hospital consult room with a family seated across from an oncologist. The doctor, Dr. Priya Raman, delivers a prognosis with a steady, rehearsed certainty while a floating audit log timestamps her gestures, pauses, and word choices. A sidebar shows the five-year record for this illness subtype with the label 'Mostly Unpredictable.'",
+          "player_mission": "Audit Dr. Priya Raman's confident prognosis: study her baseline, review the timed nonverbal log and the interrogation transcript, then file the correct diagnosis. Choose the verdict that best explains her 90 percent certainty.",
+          "key_concepts": [
+            "Kahneman coined the term 'illusion of validity' after the Israeli Army's officer-selection tests showed his leadership forecasts were barely better than blind guesses.",
+            "WYSIATI (what you see is all there is) means only the evidence at hand counts, and System 1 is not designed to know the size of its jumps.",
+            "Confidence is a feeling that reflects the coherence of the information and the cognitive ease of processing it, not a reasoned probability of being correct.",
+            "Poor evidence can make a very good story, and the amount of evidence does not count for much in the feeling of confidence.",
+            "People are often reluctant to infer the particular from the general, accepting base-rate information without applying it to individuals.",
+            "Knowledge of the general rule that predictions were useless had no effect on the officers' confidence in individual cases.",
+            "Errors of prediction are inevitable because the world is unpredictable.",
+            "High subjective confidence is not to be trusted as an indicator of accuracy; low confidence could be more informative.",
+            "Short-term trends can be forecast, and behavior and achievements can be predicted with fair accuracy from previous behaviors and achievements.",
+            "Declarations of high confidence mainly tell you that an individual has constructed a coherent story, not necessarily that the story is true."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the illusion of validity as it appears in medicine: a knowledgeable professional's confidence reflects the coherence of the story she has built, not the predictability of the underlying condition. The chapter's claim is that high subjective confidence is a feeling produced by cognitive ease, so knowing that a record is mostly unpredictable rarely dampens certainty about a specific case.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Is Dr. Priya Raman's rock-solid confidence in her long-term prognosis evidence of genuine insight, or is it a self-deception that hides the record's unpredictability?",
+          "subject_baseline": "Dr. Priya Raman is a careful, widely respected oncologist who usually speaks in precise, hedged language and quotes study numbers from memory. In weekly tumor boards she is known as the colleague who flags uncertainty rather than glosses over it, which makes her unhesitating delivery today a departure from her norm.",
+          "observed_nonverbal_log": [
+            "14:02 - During the family meeting, Priya states the prognosis without pausing; her tone is steady and her posture relaxed, with no gaze shifts toward her notes.",
+            "14:04 - Asked about the range of possible outcomes, she waves a hand and says 'the pattern is clear,' smiling slightly.",
+            "14:07 - She speaks faster than is typical for her, listing vivid anecdotal cases rather than base rates.",
+            "14:09 - She leans forward and repeats the central claim word for word, as if rehearsed.",
+            "14:11 - Asked how much the literature supports certainty, she glances away briefly, then returns to the confident summary."
+          ],
+          "interrogation_transcript": [
+            "Interviewer: 'Priya, the five-year records on this subtype show outcomes are mostly unpredictable. How can you be so certain about this case?'",
+            "Priya: 'I have seen this pattern many times. The story fits together: the staging, the markers, the response so far.'",
+            "Interviewer: 'But the base rates suggest you cannot know.'",
+            "Priya: 'Base rates are averages. This patient is a person, and I know this person.'",
+            "Interviewer: 'If you had to put a number on your confidence, what would it be?'",
+            "Priya: 'Ninety percent. The evidence all points the same way.'"
+          ],
+          "correct_diagnosis": "Illusion of validity: Priya's high confidence reflects the coherence of the story she has constructed, not the predictability of the underlying disease. The record indicates the illness's course is mostly unpredictable, so her 90 percent certainty is a feeling, not a reasoned probability.",
+          "diagnostic_breakdown": "The timed log shows classic markers of a coherent narrative doing the work: rapid, unhesitating delivery; reliance on vivid anecdotes over base rates; and tightening of the same repeated claim under pressure. Her own words name the mechanism, 'the story fits together' and 'the evidence all points the same way,' which is coherence, not evidence quality. The chapter's lesson applies directly: declarations of high confidence mainly tell you that a person has constructed a coherent story, and knowing the general record is unpredictable does little to dampen confidence in a specific case.",
+          "distractors": [
+            "Illusion of skill, because Priya is exercising her medical expertise",
+            "The anchoring effect, because the first lab value she saw set her estimate",
+            "WYSIATI alone, because she ignored all evidence about the disease"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Adviser Who Beat the Market",
+          "visual_frame_description": "A private wealth firm's conference room at 15:00. Marcus Webb, 41, sits across from an interviewer with an 8-year spreadsheet of 25 advisers on the wall, where a red .01 is circled. A camera feed in the corner timestamps his expressions as he is shown that his own ranking is statistically indistinguishable from a dice roll.",
+          "player_mission": "Audit wealth adviser Marcus Webb's claim that his returns prove skill: review his baseline, the timed nonverbal log, and the interrogation transcript, then file the correct diagnosis. Decide whether his belief is justified or whether he is rewarding luck as if it were skill.",
+          "key_concepts": [
+            "Terry Odean's study of 10,000 brokerage accounts over seven years found that the stocks individual investors sold did better than those they bought by 3.2 percentage points per year, before trading costs.",
+            "For the large majority of individual investors, taking a shower and doing nothing would have been a better policy than implementing the ideas that came to their minds.",
+            "The average of 28 year-to-year correlations in the rankings of 25 wealth advisers over 8 years was .01, indistinguishable from zero.",
+            "The executives expected the correlation to be 'not very high' but never expected it to be zero.",
+            "The firm was rewarding luck as if it were skill, because the rankings varied erratically from year to year.",
+            "The illusion of skill is not only an individual aberration but is deeply ingrained in the culture of the industry.",
+            "Facts that challenge basic assumptions, and thereby threaten people's livelihood and self-esteem, are simply not absorbed; the mind does not digest them.",
+            "One executive's defense, I have done very well for the firm and no one can take that away from me, shows personal experience outweighing base rates.",
+            "For most stock pickers, the selection of stocks is more like rolling dice than like playing poker.",
+            "The year-to-year correlation of mutual fund outcomes is barely higher than zero, so the successful funds in any given year are mostly lucky."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the illusion of stock-picking skill: Marcus's personal experience of careful, skilled work is far more compelling to him than the statistical fact that his ranking is essentially random year to year. Kahneman showed the same with 25 wealth advisers whose 28 correlations averaged .01, and observed that such facts are 'swept under the rug' because they threaten livelihood and self-esteem.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Marcus Webb manages a portfolio for a family office and insists his returns prove skill. Is his belief justified, or is he rewarding luck as if it were skill?",
+          "subject_baseline": "Marcus Webb, 41, is a disciplined, detail-oriented wealth adviser who prides himself on reading every quarterly report and attending every company earnings call. He keeps a personal journal of his 'calls' and re-reads it before client meetings, and he has won the firm's top-producer award twice in eight years.",
+          "observed_nonverbal_log": [
+            "15:20 - When the 8-year spreadsheet of all 25 advisers is shown, Marcus tilts his head, scans it quickly, then sits back.",
+            "15:23 - Asked to guess the average year-to-year correlation of rankings, he smiles and says 'performance certainly fluctuates.'",
+            "15:26 - On hearing the average correlation is .01, his smile freezes; he blinks twice and looks at the screen again.",
+            "15:28 - He recites his best single year at length, with hand gestures, but omits his worst years.",
+            "15:31 - He concludes that the clients are happy and he is paid to make them happy.",
+            "15:33 - His voice tightens as he says, 'No one can take my record away from me.'"
+          ],
+          "interrogation_transcript": [
+            "Interviewer: 'Marcus, if the year-to-year correlation in advisers' rankings is .01, what does that tell you?'",
+            "Marcus: 'That performance fluctuates. It always has. But that's the market, not me.'",
+            "Interviewer: 'Across eight years, is there any evidence your results reflect persistent skill?'",
+            "Marcus: 'Look at my year-three run. I called the rotation before anyone. That is not luck.'",
+            "Interviewer: 'Statistically, one good year is what chance looks like.'",
+            "Marcus: 'I have done very well for the firm and no one can take that away from me.'"
+          ],
+          "correct_diagnosis": "Illusion of skill: Marcus's personal experience of careful, skilled work is far more compelling to him than the statistical fact that his ranking is essentially random year to year. The .01 correlation means his results resemble a dice-rolling contest, so he is attributing to skill what is mostly luck.",
+          "diagnostic_breakdown": "The log shows the classic sequence from the wealth-adviser episode: he expected the correlation to be 'not very high' but not zero, his confidence hinged on vivid single-year successes while ignoring the base rate, and his defensiveness peaked when the numbers threatened his livelihood and self-esteem. The chapter notes that facts that challenge basic assumptions are simply not absorbed, and this is exactly the pattern in Marcus's final, self-protective line.",
+          "distractors": [
+            "Illusion of validity, because his judgments are based on thorough research",
+            "Hindsight bias, because he is explaining the past after the fact",
+            "The hot-hand fallacy, because he had two good years in a row"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Pundit's Certainty",
+          "visual_frame_description": "A financial news studio at 19:00. Anchor Camille Osei, behind a glass desk, narrates the day's market rout with confident hand chops while a teleprompter counter shows last week's headline predicting the opposite direction. A live audit sidebar timestamps her claims and the single story she never mentions: her own failed forecast.",
+          "player_mission": "Audit evening commentator Camille Osei's confident explanation of today's market rout and her prediction for tomorrow: review her baseline, the timed nonverbal log, and the interrogation transcript, then file the correct diagnosis. Decide whether her certainty reflects real forecasting ability or the illusion of understanding the past.",
+          "key_concepts": [
+            "Nassim Taleb's The Black Swan argues that the ease of constructing coherent narratives of the past makes it difficult to accept the limits of forecasting ability.",
+            "Everything makes sense in hindsight, and we cannot suppress the powerful intuition that what made sense today was predictable yesterday.",
+            "The illusion that we understand the past fosters overconfidence in our ability to predict the future.",
+            "The image of the 'march of history' implies order and direction, yet the book argues that large historical events are determined by luck.",
+            "Tetlock's twenty-year study, published as Expert Political Judgment in 2005, gathered more than 80,000 predictions from 284 experts.",
+            "The experts performed worse than if they had simply assigned equal probabilities to the three potential outcomes, worse than dart-throwing monkeys.",
+            "The more famous the forecaster, the more flamboyant the forecasts; experts in demand were more overconfident than colleagues far from the limelight.",
+            "Errors of prediction are inevitable because the world is unpredictable.",
+            "High subjective confidence is not to be trusted as an indicator of accuracy; low confidence could be more informative.",
+            "Short-term trends can be forecast, and behavior and achievements can be predicted with fair accuracy from previous behaviors and achievements."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the illusion of understanding the past, which fosters overconfidence in predicting the future: the ease of explaining today's events in hindsight makes Camille believe they were predictable yesterday. Kahneman cites Taleb's point that coherent narratives of the past blind us to the limits of forecasting, and Tetlock's data showing even famous forecasters predict worse than chance.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Evening financial commentator Camille Osei delivers a confident explanation of today's market rout and predicts tomorrow's rebound. Is her certainty a sign of real forecasting ability, or the illusion of understanding the past?",
+          "subject_baseline": "Camille Osei is a seasoned anchor for a financial news network, known for rapid-fire analysis and a large social media following. Colleagues describe her as never wrong twice on the same show. She prepares daily with a thick file of analyst notes but rarely quotes base rates or her own prediction track record on air.",
+          "observed_nonverbal_log": [
+            "19:00 - On air, Camille narrates the day's sell-off in one continuous, polished narrative complete with causes: the rate decision, the earnings miss, the overseas sell-off.",
+            "19:03 - She punctuates each cause with a decisive downward chop of her hand; the story sounds inevitable.",
+            "19:05 - Asked why no one predicted it, she waves and says 'the signs were there for anyone paying attention.'",
+            "19:07 - She forecasts a rebound tomorrow with the same flat certainty she used for the day's recap.",
+            "19:09 - She never mentions that her own segments last week predicted the opposite direction.",
+            "19:12 - She smiles at the camera: 'History will show this was the turning point.'"
+          ],
+          "interrogation_transcript": [
+            "Interviewer: 'Camille, your explanation of today's drop is very neat. Was it predictable yesterday?'",
+            "Camille: 'Of course. The signs were there for anyone paying attention.'",
+            "Interviewer: 'Last week you told viewers the rally would continue.'",
+            "Camille: 'That was before the data. Timing aside, the drivers of this move were clear.'",
+            "Interviewer: 'How does that square with evidence that long-term forecasts are barely better than chance?'",
+            "Camille: 'People on the ground, people who watch the markets daily, know things the studies don't capture.'",
+            "Interviewer: 'So you stand by a specific call for tomorrow?'",
+            "Camille: 'I stand by it. The story is coherent, and coherent stories are right.'"
+          ],
+          "correct_diagnosis": "Illusion of understanding the past, which fosters overconfidence in predicting the future: the ease of explaining today's events in hindsight makes Camille believe they were predictable, so her forecast for tomorrow carries the false weight of a 'march of history' rather than the uncertainty it deserves.",
+          "diagnostic_breakdown": "The log shows the pundit's signature: a fluid, causal narrative of the recent past delivered with the same certainty as the forward forecast, and a deflection of her own failed predictions with 'timing aside.' The chapter warns that everything makes sense in hindsight and that we cannot suppress the intuition that what made sense today was predictable yesterday; that very intuition is what makes punditry feel like privileged information.",
+          "distractors": [
+            "Illusion of skill, because she has years of on-air experience",
+            "The anchoring effect, because the day's opening price set her narrative",
+            "Base-rate neglect in isolation, because she ignored the market's typical volatility"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Hedgehog's Excuse",
+          "visual_frame_description": "A cable news panel at 10:00. Geopolitical analyst Geoffrey Hale, 58, sits behind a name card with his bestselling book visible on the desk. A research sidebar displays three of his failed predictions from the past year, each marked with a red X, while a counter in the corner shows what random assignment would have scored. The moderator reads the counter-evidence aloud.",
+          "player_mission": "Audit analyst Geoffrey Hale's response to three straight failed predictions: review his baseline, the timed nonverbal log, and the interrogation transcript, then file the correct diagnosis. Decide whether his insistence that he was right 'in substance' is honest self-correction or the hedgehog's refusal to absorb evidence.",
+          "key_concepts": [
+            "Tetlock's twenty-year study, published as Expert Political Judgment in 2005, gathered more than 80,000 predictions from 284 experts.",
+            "Even in the region they knew best, experts were not significantly better than nonspecialists.",
+            "Those who know more forecast very slightly better, but those with the most knowledge are often less reliable because they develop an enhanced illusion of their skill.",
+            "We reach the point of diminishing marginal predictive returns for knowledge disconcertingly quickly.",
+            "Experts resisted admitting that they had been wrong and produced excuses: wrong only in timing, an unforeseeable event intervened, or wrong but for the right reasons.",
+            "Experts are led astray not by what they believe but by how they think, says Tetlock.",
+            "Hedgehogs know one big thing, explain events within a single coherent framework, and are confident and reluctant to admit error.",
+            "Foxes recognize that reality emerges from the interactions of many agents and forces, including blind luck.",
+            "High subjective confidence is not to be trusted as an indicator of accuracy; low confidence could be more informative."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests hedgehog cognition: Geoffrey explains everything through one big idea, treats failed forecasts as 'off only on timing' or 'wrong but for the right reasons,' and is especially reluctant to admit error. Tetlock found that exactly these thinkers were the most overconfident and the most resistant to absorbing disconfirming evidence.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "After three straight failed predictions, geopolitical analyst Geoffrey Hale insists he was right 'in substance.' Is this honest self-correction, or the hedgehog's refusal to absorb evidence?",
+          "subject_baseline": "Geoffrey Hale, 58, is a distinguished foreign-policy professor and author of a bestselling book with one grand thesis: great powers rise and fall on the strength of their leaders. He is a fixture of cable news panels and delivers sweeping forecasts with great flair, and he has never published an explicit scoring of his own predictions.",
+          "observed_nonverbal_log": [
+            "10:05 - On a panel, Geoffrey is asked about his prediction last year that the regional alliance would collapse within months.",
+            "10:06 - He leans forward, brow furrowed, and begins: 'The mechanism was right.'",
+            "10:09 - He re-states his original thesis at length, connecting unrelated events to it, speaking faster as he goes.",
+            "10:11 - He does not look at the moderator when the counter-evidence is read aloud; he looks down at his notes.",
+            "10:13 - He concedes only the date: 'I was wrong on timing.'",
+            "10:15 - He adds, 'An unforeseeable event intervened, a once-in-a-generation rupture, so the substance stands.'",
+            "10:17 - When pressed, he smiles: 'Even the best scholars are wrong for the right reasons.'"
+          ],
+          "interrogation_transcript": [
+            "Moderator: 'Geoffrey, your forecast was that the alliance would dissolve within six months. It did not.'",
+            "Geoffrey: 'The mechanism was right; only the timing was wrong. This is common in history.'",
+            "Moderator: 'Could the theory itself be wrong?'",
+            "Geoffrey: 'No theory accounts for everything, but mine accounts for the pattern. That is why it was a good call.'",
+            "Moderator: 'Tetlock's data suggest experts with a single big theory predict worse than chance.'",
+            "Geoffrey: 'Those studies don't measure judgment the way we practice it in the field.'",
+            "Moderator: 'So what do you take from three failed predictions in a row?'",
+            "Geoffrey: 'That the world is harder than the textbooks. The framework stands.'"
+          ],
+          "correct_diagnosis": "Hedgehog cognition: Geoffrey explains everything through one big idea, treats failed forecasts as off only on timing or wrong but for the right reasons, and is especially reluctant to admit error. His confidence reflects the coherence of his framework, not its track record.",
+          "diagnostic_breakdown": "Every element of the log matches Tetlock's description of hedgehogs: a single coherent framework applied to everything, impatience with counter-evidence, deflections of failure into 'timing' and 'unforeseeable events,' and a final appeal to being 'wrong for the right reasons.' Tetlock found hedgehogs were exactly the experts who resisted admitting they were wrong and who maintained the most flamboyant confidence in their forecasts.",
+          "distractors": [
+            "Fox thinking, because he weighs many alternative explanations",
+            "Illusion of skill, because his book sold widely",
+            "The halo effect, because he is a distinguished professor"
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Boss Battle: The Obstacle Field",
+          "visual_frame_description": "Under a scorching sun on an Israeli Army obstacle field, eight candidates in numbered tags, stripped of rank insignia, haul a heavy log toward a six-foot wall while a colleague and the player watch from the side. Sweat, shouts, a collapsed attempt, and a soldier berating a comrade fill the frame, and a thought bubble above the evaluators reads 'His true nature is revealed.'",
+          "player_mission": "Defeat the illusion of validity on the obstacle field. Study the scene and explain why one hour of observation produces total confidence in forecasts that the record shows are barely better than chance, then decide how the evaluation team should actually proceed with the next batch.",
+          "key_concepts": [
+            "Kahneman coined the term 'illusion of validity' after the Israeli Army's officer-selection tests showed his leadership forecasts were barely better than blind guesses.",
+            "In the leaderless group challenge, eight candidates lifted a log over a six-foot wall, and one hour of watching produced impressions as direct and compelling as the color of the sky.",
+            "The officers' forecasts were a clear instance of substitution and of the representativeness heuristic: observed behavior stood in for future performance.",
+            "Their predictions were completely nonregressive, with no reservations about predicting failure or outstanding success from weak evidence.",
+            "WYSIATI (what you see is all there is) means only the evidence at hand counts, and System 1 is not designed to know the size of its jumps.",
+            "Confidence is a feeling that reflects the coherence of the information and the cognitive ease of processing it, not a reasoned probability of being correct.",
+            "Nisbett and Borgida's students believed that most people did not help a stranger having a seizure, yet the base rates did not influence their judgment of the individual on the video.",
+            "Knowledge of the general rule that the predictions were useless had no effect on the officers' confidence in individual cases.",
+            "The illusion of validity resembles the Muller-Lyer illusion: knowing the lines are equal does not stop you from seeing them as different.",
+            "Cognitive illusions can be more stubborn than visual illusions: learning about the Muller-Lyer illusion changed behavior, but knowledge of low validity changed neither feelings nor subsequent action.",
+            "You should not expect performance in officer training and in combat to be predictable from behavior on an obstacle field.",
+            "If a test predicts an important outcome with a validity of .20 or .30, the test should be used, but you should not expect more."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the illusion of validity: System 1 jumps to conclusions from little evidence and is not designed to know the size of its jumps, so a vivid hour of behavior feels like a valid forecast of the future. Kahneman showed that knowledge of the general failure of his forecasts had no effect on his confidence in individual cases, the defining stubbornness of the illusion.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The illusion of validity is the chapter's central concept: System 1 is designed to jump to conclusions from little evidence and not designed to know the size of its jumps, so an hour of vivid behavior produces confident forecasts whose validity is barely above chance. The battle asks the player to see through that confidence by understanding substitution, WYSIATI, and confidence by coherence.",
+          "stage_1_observation": "Under a scorching sun on an Israeli Army obstacle field, Kahneman and a colleague watch eight unnamed, rank-stripped candidates lift a heavy log to a six-foot wall and try to get everyone over it without the log touching the ground or the wall. The evaluators note who takes charge, who is rebuffed, who berates a comrade whose mistake fails the group, and who steps forward to lead the exhausted team's restart. The scene is intense: sweat, repeated collapses, competitive spite, and a final leap along a pole held by the others, and every impression feels as direct and compelling as the color of the sky.",
+          "stage_1_question": "Why do Kahneman and his colleague feel completely confident in predicting each soldier's performance in officer training and combat after just one hour of observation, even though every feedback session shows their forecasts are only slightly better than blind guesses?",
+          "stage_1_correct_answer": "Because their judgment is a substitution: they answer the hard question about future performance with the easy, vivid impression of representativeness from the obstacle field, and WYSIATI gives them no representation of the many unseen factors that will actually determine performance. Confidence then arrives from the coherence of the story, not from the validity of the evidence, so the general knowledge of past failure does nothing to the confidence in individual cases.",
+          "stage_2_intervention": "The next morning a fresh batch of candidates arrives and the routine is to begin again. Rather than repeat the same ritual, the evaluation team must decide how to change. What is the corrective response the chapter actually supports?",
+          "stage_2_correct_answer": "Keep watching, because the behavior is genuinely informative, but stop treating subjective confidence as a measure of accuracy: acknowledge that predictions from the obstacle field have validity barely above chance, use base rates about selection outcomes where available, moderate the forecasts, and treat the high confidence as a feeling to discount rather than evidence. The chapter's lesson is that errors of prediction are inevitable because the world is unpredictable, and that declarations of high confidence mainly signal a coherent story, not a true one."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Boss Battle: The Dice-Rolling Fund",
+          "visual_frame_description": "A boardroom in a private wealth firm where a spreadsheet of 25 anonymous advisers' returns across eight years fills the wall. Sorting by any year reshuffles the rankings like a shuffled deck: the year-one star is mid-pack in year two and near the bottom in year three. Kahneman and Richard Thaler sit across from executives, and a highlighted box reads 'average correlation .01.'",
+          "player_mission": "Defeat the illusion of stock-picking skill. Interpret what the .01 average year-to-year correlation demonstrates about the advisers' results, then decide how the firm should actually change its bonus practice in light of the finding.",
+          "key_concepts": [
+            "Terry Odean's study of 10,000 brokerage accounts over seven years found that the stocks individual investors sold did better than those they bought by 3.2 percentage points per year, before trading costs.",
+            "For the large majority of individual investors, taking a shower and doing nothing would have been a better policy than implementing the ideas that came to their minds.",
+            "The diagnostic for the existence of skill is the consistency of individual differences: if performance in any year were entirely due to luck, year-to-year correlations would be zero.",
+            "Over fifty years of research show that at least two out of every three mutual funds underperform the overall market in any given year.",
+            "The year-to-year correlation of mutual fund outcomes is barely higher than zero, so the successful funds in any given year are mostly lucky.",
+            "The average of 28 year-to-year correlations in the rankings of 25 wealth advisers over 8 years was .01, indistinguishable from zero.",
+            "The executives expected the correlation to be 'not very high' but never expected it to be zero, and the firm was rewarding luck as if it were skill.",
+            "The illusion of skill is not only an individual aberration but is deeply ingrained in the culture of the industry, and facts that threaten livelihood and self-esteem are simply not absorbed.",
+            "The most potent psychological cause of the illusion of financial skill is that stock pickers are exercising high-level skills, which gives them a valid experience of skilled work.",
+            "Skill in evaluating the business prospects of a firm is not sufficient for successful trading, because the key question is whether the information is already incorporated in the price of the stock.",
+            "Traders apparently lack the skill to answer that crucial question, but they appear to be ignorant of their ignorance."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the illusion of skill in finance: because the year-to-year correlation of adviser and fund rankings is barely above zero, rewarding individual returns is rewarding luck as if it were skill. Kahneman showed this with 25 wealth advisers whose 28 correlations averaged .01, and noted that the disconfirming message was instantly swept under the rug.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The illusion of stock-picking skill is the chapter's second major concept: because the year-to-year correlation of fund and adviser rankings is barely above zero, individual returns are effectively chance, so rewarding them is rewarding luck as if it were skill. The battle asks the player to apply the persistence-of-achievement diagnostic and to confront how professional culture keeps the illusion alive.",
+          "stage_1_observation": "A boardroom in a private wealth firm. Kahneman and Richard Thaler are shown a spreadsheet with the year-end returns of twenty-five anonymous wealth advisers across eight consecutive years; each adviser's score determines his annual bonus. On the screen the rankings can be sorted by any year, and they reshuffle like a shuffled deck: the top performer of year one is mid-pack in year two and near the bottom in year three, and no one stays put.",
+          "stage_1_question": "Kahneman computed the 28 year-to-year correlations of these rankings and got an average of .01. What does that number demonstrate about the advisers' 'skill'?",
+          "stage_1_correct_answer": "It demonstrates that there is no persistence of individual differences, which is the signature of luck, not skill. If rankings were due to skill they would be stable; instead they vary erratically, exactly like a dice-rolling contest, so the returns being rewarded are effectively chance outcomes.",
+          "stage_2_intervention": "That evening Kahneman and Thaler dine with the executives who set bonuses and tell them the firm is rewarding luck as if it were skill. The executives nod and the conversation moves on. The player must choose how the firm should actually change its practice in light of the finding.",
+          "stage_2_correct_answer": "The firm should stop tying bonuses to short-run year-to-year returns and instead apply the diagnostic for skill, persistence of achievement over many periods and out-of-sample outcomes, while accepting that for most portfolios low-cost passive strategies will beat most active managers. The chapter warns the firm will likely do none of this: facts that threaten livelihood and self-esteem are simply not absorbed, and the message was instantly put away in a dark corner of memory."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Boss Battle: The Expert's Forecast",
+          "visual_frame_description": "A scrolling wall display in a research archive shows a grid of 284 experts' probability assessments across three possible outcomes for each question about coups, wars, and emerging markets. A ticker under the grid counts hits and misses, and an overlay shows what dart-throwing random assignment would have scored. The expert line consistently trails the random line, even inside each expert's own specialty region.",
+          "player_mission": "Defeat the illusion of expert forecasting. Interpret why the most knowledgeable experts forecast least reliably in Tetlock's study, then steer a famous hedgehog expert toward the response that Tetlock's data actually support on a live television panel.",
+          "key_concepts": [
+            "Tetlock's twenty-year study, published as Expert Political Judgment in 2005, gathered more than 80,000 predictions from 284 experts.",
+            "The experts performed worse than if they had simply assigned equal probabilities to the three potential outcomes, worse than dart-throwing monkeys.",
+            "Even in the region they knew best, experts were not significantly better than nonspecialists.",
+            "Those who know more forecast very slightly better, but those with the most knowledge are often less reliable because they develop an enhanced illusion of their skill.",
+            "We reach the point of diminishing marginal predictive returns for knowledge disconcertingly quickly.",
+            "The more famous the forecaster, the more flamboyant the forecasts; experts in demand were more overconfident than colleagues far from the limelight.",
+            "Experts resisted admitting that they had been wrong and produced excuses: wrong only in timing, an unforeseeable event intervened, or wrong but for the right reasons.",
+            "Hedgehogs know one big thing, explain events within a single coherent framework, and are confident and reluctant to admit error.",
+            "Foxes recognize that reality emerges from the interactions of many agents and forces, including blind luck, and they scored best in Tetlock's study, though still poorly.",
+            "Errors of prediction are inevitable because the world is unpredictable.",
+            "High subjective confidence is not to be trusted as an indicator of accuracy; low confidence could be more informative."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests Tetlock's finding on expert judgment: 284 professional forecasters produced more than 80,000 predictions that were worse than assigning equal probabilities, and those who knew more often developed an enhanced illusion of their own skill. The battle asks the player to recognize that overconfidence grows with expertise and to prefer fox-style thinking, which scored best though still poorly.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "Tetlock's study of expert political judgment is the chapter's third major concept: 284 professionals produced more than 80,000 predictions that were worse than assigning equal probabilities to the outcomes, and more knowledge built an enhanced illusion of skill rather than accuracy. The battle asks the player to apply the hedgehog-fox distinction to real forecasting behavior.",
+          "stage_1_observation": "A scrolling wall display in a research archive shows a grid of 284 experts' probability assessments, questions about coups, wars, and emerging markets, each answered across three possible outcomes. A ticker under the grid counts the hits and misses, and an overlay shows what 'dart-throwing' random assignment would have scored. As the player watches, the expert line consistently trails the random line, even inside each expert's own specialty region.",
+          "stage_1_question": "The experts scored worse than if they had simply assigned equal probabilities to each of the three outcomes. Why did those with the most knowledge often forecast least reliably?",
+          "stage_1_correct_answer": "Because more knowledge produces an enhanced illusion of skill and unrealistic overconfidence: we reach the point of diminishing marginal predictive returns for knowledge disconcertingly quickly. The more famous and 'in demand' the forecaster, the more flamboyant the forecasts, so overconfidence grows with expertise and accuracy does not.",
+          "stage_2_intervention": "One of the study's best-known experts, a hedgehog who 'knows one big thing,' has just been shown three failed predictions and must now decide how to respond on a nationally televised panel. The player must steer him toward the response that Tetlock's data actually support.",
+          "stage_2_correct_answer": "Adopt fox-style cognition: acknowledge that outcomes emerge from many interacting forces including blind luck, state uncertainty honestly and in probability ranges, drop excuses like 'off only on timing' and 'an unforeseeable event intervened,' and treat long-term prediction as inherently unreliable. Tetlock found foxes scored best, though still poorly, and were less confident, and the chapter adds that low confidence could be more informative than high."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "spec_file": "spec_kahneman_b22.json",
+  "chapters": [
+    {
+      "id": "ch44",
+      "title": "Conclusions",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Duration Neglect and the Peak-End Rule",
+          "visual_frame_description": "A vacation-retrospective board at a travel agency shows five postcard-sized memory bubbles above an employee's desk. Each bubble is a different person's snapshot of the same week: a firework finale, a lost tent, a violin lesson, a hand pressed into ice water. The player sorts these memory snapshots into three labeled columns while a clock icon ticks away the forgotten middle days.",
+          "player_mission": "Classify each remembered episode under the evaluation rule that governs it: duration neglect, the peak-end rule, or duration-weighted well-being. Read the evidence rows, assign each to the correct column, and answer which rule explains a person rating a whole festival by its final concert alone.",
+          "key_concepts": [
+            "The remembering self keeps score and makes the choices, while the experiencing self does the living.",
+            "Duration neglect means the remembering self gives no weight to how long an episode lasted.",
+            "The peak-end rule weights an episode by its most intense moment and by how it ended.",
+            "In the cold-hand study, duration neglect plus the peak-end rule made people willingly choose more total pain in order to repeat the trial with the better ending.",
+            "An objective observer choosing for someone else would favor the shorter exposure and the interests of the experiencing self.",
+            "Duration neglect and the peak-end rule are characteristics of memory and originate in System 1, not in the values of System 2.",
+            "Duration-weighted well-being treats all moments of life alike, whether they are memorable or not.",
+            "A moment can gain weight by altering later experience, as an hour of violin practice enhances many later hours of playing and listening to music.",
+            "The rules that govern the evaluation of the past are poor guides for decision making, because time does matter.",
+            "Time is the ultimate finite resource, but the remembering self ignores that reality when it evaluates episodes and lives.",
+            "The remembering self's neglect of duration, its emphasis on peaks and ends, and its susceptibility to hindsight combine to distort our reflections of actual experience."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests how the remembering self evaluates episodes: duration neglect strips away how long an experience lasted, while the peak-end rule compresses the whole episode into its most intense moment and its ending. In the cold-hand study Kahneman showed that these System 1 memory rules made people choose more total pain for a better-remembered ending, choices an objective observer would call mistakes.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Priya rates an entire weeklong festival almost solely by its spectacular closing concert, as if the two forgettable middle days never happened. Which evaluation mechanism best explains her rating?",
+          "column_a_label": "Duration neglect: the remembering self gives no weight to how long the episode lasted",
+          "column_b_label": "Peak-end rule: the remembering self weights the most intense moment and the ending",
+          "column_c_label": "Duration-weighted well-being: the experiencing self counts every moment equally",
+          "rows": [
+            {
+              "label": "Helena rates a 20-minute cold-water hand soak as just as bad as a 10-minute one, because how long it lasted never enters her score.",
+              "col": "a"
+            },
+            {
+              "label": "Marcus recalls his entire backpacking trip as the day they lost the tent and dismisses twelve pleasant days.",
+              "col": "b"
+            },
+            {
+              "label": "An objective observer choosing for someone else would always pick the shorter, less painful exposure.",
+              "col": "c"
+            },
+            {
+              "label": "A patient remembers a procedure by its agonizing peak and the soothing final minute a nurse spent holding her hand.",
+              "col": "b"
+            },
+            {
+              "label": "Ahmed prefers one vivid week of intense joy over a full year of moderate contentment because the year has no memorable peaks.",
+              "col": "b"
+            },
+            {
+              "label": "An hour of violin practice is weighted heavily because it improves hundreds of later hours of playing and listening to music.",
+              "col": "c"
+            },
+            {
+              "label": "Sofia fears a short, intense but tolerable pain more than a much longer stretch of moderate pain.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Anchoring: the closing concert sets a reference value that pulls all later estimates toward it",
+            "Availability cascade: media coverage of the festival amplified fear beyond the actual risk",
+            "Loss aversion: the remembered trip is treated as a loss that must be recovered"
+          ],
+          "explanation": "Priya's rating collapses onto the last moment, which is exactly the peak-end rule: the remembering self weights the most intense and the final moments of an episode and ignores its duration. Duration neglect and the peak-end rule work together, and in the cold-hand study they produced choices that an objective observer, favoring the experiencing self's duration-weighted view, would describe as mistakes."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Econs, Humans, and Libertarian Paternalism",
+          "visual_frame_description": "A split-screen policy design studio. On the left, a man in a pinstripe suit reads a contract under a magnifying glass labeled Econ. On the right, a woman signs the same contract without reading while a small print disclaimer scrolls beneath. In the center, a retirement-plan enrollment form sits with the opt-in box already checked, stamped Default.",
+          "player_mission": "Sort each evidence row under the category it illustrates: Econ behavior under the rational-agent model, Human behavior under System 1 quirks, or a libertarian-paternalist nudge. Then judge which category best explains an employee who stays in a pension plan purely because enrollment was the automatic default.",
+          "key_concepts": [
+            "For economists, the only test of rationality is internal consistency, not whether beliefs and preferences are reasonable.",
+            "An Econ is by definition not susceptible to priming, WYSIATI, narrow framing, the inside view, or preference reversals, which Humans cannot consistently avoid.",
+            "Reasonable people cannot be rational by the coherence definition, but they should not be branded irrational for that reason.",
+            "Thaler and Sunstein's libertarian paternalism lets institutions nudge people toward decisions that serve their own long-term interests.",
+            "The default option is naturally perceived as the normal choice, so deviating from it requires more effortful deliberation and risks regret.",
+            "Choice architecture, the framing of an individual's decision, has a huge effect on the outcome.",
+            "Save More Tomorrow ties increased saving to pay raises, turning losses into foregone gains that are easier to bear.",
+            "Save More Tomorrow's automaticity aligns the laziness of System 2 with the long-term interests of workers.",
+            "A rational agent is assumed to read and understand the fine print of a contract, but a Human usually does not.",
+            "The Chicago school view that rational people should be free to choose provides the foundation for the libertarian approach to public policy.",
+            "A nation of Econs needs no government protection because rational agents make no mistakes."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests libertarian paternalism and the default option effect: because the default is naturally perceived as the normal choice, deviating requires effortful System 2 deliberation and invites regret, so people passively stay enrolled. Thaler and Sunstein's Nudge shows that choice architecture can steer Humans toward their long-term interests without curtailing anyone's freedom, something the rational-agent model assumes is unnecessary.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Dana stays enrolled in her employer's pension plan simply because joining was the automatic default; she never even considers the opt-out checkbox. Which account best explains her behavior?",
+          "column_a_label": "Econ behavior under the rational-agent model (coherence)",
+          "column_b_label": "Human behavior under System 1 quirks (WYSIATI, framing, priming)",
+          "column_c_label": "Libertarian paternalism: a nudge through choice architecture",
+          "rows": [
+            {
+              "label": "An Econ reads and understands the fine print of a contract before signing it.",
+              "col": "a"
+            },
+            {
+              "label": "A Human routinely signs contracts in which important information is hidden in plain sight.",
+              "col": "b"
+            },
+            {
+              "label": "The default option is perceived as the normal choice, and deviating is an act of commission that takes more effort and risks regret.",
+              "col": "c"
+            },
+            {
+              "label": "A rational agent is by definition never susceptible to priming, WYSIATI, or narrow framing.",
+              "col": "a"
+            },
+            {
+              "label": "Save More Tomorrow ties increased saving to pay raises, turning losses into easier-to-bear foregone gains.",
+              "col": "c"
+            },
+            {
+              "label": "A shopper buys a product labeled 90 percent fat-free and rejects the identical one labeled 10 percent fat.",
+              "col": "b"
+            },
+            {
+              "label": "Extreme conservatives and liberals jointly sponsor the Save More Tomorrow bill in Congress.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "Prospect theory: Dana frames the pension contribution as a gain she is unwilling to risk",
+            "Affect heuristic: Dana likes the pension brand, so she judges enrollment by feeling alone",
+            "Hindsight bias: once the outcome is known, Dana believes she always intended to save"
+          ],
+          "explanation": "Dana never actively chose; she stayed with the default, which is the essence of a nudge. Libertarian paternalism relies on choice architecture, and the default is perceived as the normal choice, so deviating requires effortful deliberation and risks regret. An Econ would be immune because the rational-agent model assumes careful reading of all information, but a Human needs the default arranged in her own long-term interest."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "System 1, System 2, and Skilled Responses",
+          "visual_frame_description": "A laboratory bench shows the classic Mueller-Lyer illusion, two equal lines flanked by fins pointing in and out. Three gauges labeled System 1, System 2, and Skill hang above it. Below, a queue of mini-scenarios scrolls past: a math problem, a passenger outburst, a stone in the path, a chessboard.",
+          "player_mission": "Assign each scenario to the process that produces it: automatic System 1, effortful System 2, or a skilled response drawn from the repertory of practice. Then determine which process must be deliberately recruited to overcome a perceptual illusion that System 1 will never unsee.",
+          "key_concepts": [
+            "System 1 operates automatically and quickly, with little or no effort and no sense of voluntary control.",
+            "System 2 is the effortful, slower system that monitors System 1 and maintains control as best it can within its limited resources.",
+            "System 2 articulates judgments and makes choices, but it often endorses or rationalizes ideas and feelings generated by System 1.",
+            "When a challenge is encountered to which a skilled response is available, that response is evoked automatically.",
+            "Memory holds a vast repertory of skills acquired through practice, from walking around a large stone to averting an incipient customer outburst.",
+            "Skill develops when there is a regular environment, adequate opportunity to practice, and rapid, unequivocal feedback.",
+            "System 1 is not constrained by capacity limits and may substitute a response that more easily comes to mind for the one requested.",
+            "System 1 registers the cognitive ease with which it processes information but does not generate a warning signal when it becomes unreliable.",
+            "System 2's only recourse against an unreliable intuition is to slow down and construct an answer on its own, which it is reluctant to do because it is indolent.",
+            "The way to block errors originating in System 1 is to recognize the signs of a cognitive minefield, slow down, and ask for reinforcement from System 2.",
+            "Cognitive illusions are generally more difficult to recognize than perceptual illusions such as the Mueller-Lyer illusion."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the two-systems account of error correction: System 1 produces fast, confident impressions that cannot be unlearned on the spot, so the way to block its errors is to recognize the situation and slow down to recruit System 2. Kahneman warns that this is hardest exactly when it is needed most, because more doubt is the last thing you want when you are in trouble and cognitive illusions are harder to recognize than perceptual ones.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Facing a Mueller-Lyer illusion, you can verify that the two lines are equal but still cannot unsee the length difference. Which process must be deliberately recruited to avoid the error?",
+          "column_a_label": "System 1: automatic, fast, with no sense of voluntary control",
+          "column_b_label": "System 2: effortful, slow, monitors System 1 within its limited resources",
+          "column_c_label": "Skilled response: automatic yet accurate, refined by practice and feedback",
+          "rows": [
+            {
+              "label": "The answer 10 cents comes to mind immediately in the bat-and-ball problem.",
+              "col": "a"
+            },
+            {
+              "label": "You recognize that 17 times 24 calls for deliberate calculation and effort.",
+              "col": "b"
+            },
+            {
+              "label": "A veteran flight attendant averts an incipient passenger outburst almost without thinking.",
+              "col": "c"
+            },
+            {
+              "label": "You register cognitive ease and accept a familiar-sounding claim as true without checking it.",
+              "col": "a"
+            },
+            {
+              "label": "An auditor slows down and recomputes a forecast line by line before signing off.",
+              "col": "b"
+            },
+            {
+              "label": "Walking around a large stone in the path is executed automatically and correctly.",
+              "col": "c"
+            },
+            {
+              "label": "A chess master's opening response to a known position comes to mind instantly and accurately.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Skilled response: enough chess-style practice makes the illusion itself disappear",
+            "Cognitive ease: the correct answer simply feels more fluent after repetition",
+            "Anchoring: you can adjust away from the illusory length by estimating a correction"
+          ],
+          "explanation": "The illusion persists at the perceptual level, so System 1 keeps insisting on the wrong length, and the only reliable correction is to slow down and let System 2 override the impression. Kahneman's closing point is that System 2's only recourse is to slow down and construct an answer on its own, which it is reluctant to do because it is indolent."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Auditing the Remembering Self's Evaluation",
+          "visual_frame_description": "A conference-room audit plays back as a split screen: on the left, Mara, a product manager in a gray blazer, answers questions; on the right, a live log scrolls with timestamps and arousal notes. A 9-month project timeline runs along the bottom, with the middle eight months dimmed and the final demo glowing brightly.",
+          "player_mission": "Audit whether Mara's rating of her nine-month project reflects the duration-weighted experience or a memory distortion. Weigh the behavioral log and the interview transcript, then issue the correct diagnosis of the mechanism shaping her verdict.",
+          "key_concepts": [
+            "The remembering self keeps score and makes the choices, while the experiencing self does the living.",
+            "Duration neglect means the remembering self gives no weight to how long an episode lasted.",
+            "The peak-end rule weights an episode by its most intense moment and by how it ended.",
+            "The remembering self is a construction of System 2, but duration neglect and the peak-end rule originate in System 1.",
+            "The rules that govern the evaluation of the past are poor guides for decision making, because time does matter.",
+            "An objective observer of the hedonimeter profile might well offer different advice than the remembering self.",
+            "The central fact of our existence is that time is the ultimate finite resource, but the remembering self ignores that reality.",
+            "The remembering self's neglect of duration, emphasis on peaks and ends, and susceptibility to hindsight distort our reflections of actual experience.",
+            "A duration-weighted conception of well-being treats all moments of life alike, memorable or not.",
+            "In the cold-hand study, duration neglect and the peak-end rule made people choose more total pain to get a better-remembered ending."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests whether an evaluation is driven by the remembering self's memory rules rather than by the duration-weighted experience. The arousal spike at the remembered peak and the flat dismissal of the long middle are the signature of duration neglect plus the peak-end rule, which Kahneman showed in the cold-hand study can make people choose outcomes that are worse for the experiencing self.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Is Mara, a product manager, evaluating her nine-month project by the remembered whole, or is a memory distortion inflating her report?",
+          "subject_baseline": "Mara normally reviews projects with a detailed scorecard: budget variance, milestone timing, customer interviews, and team retrospective notes. Colleagues describe her as meticulous and numbers-driven; she keeps dated logs and can quote figures from months past.",
+          "observed_nonverbal_log": [
+            "09:12 - Asked for an overall rating of the project, Mara's eyes brighten, she leans forward, and she smiles broadly.",
+            "09:17 - Asked how the middle months went, Mara glances away, shrugs, and says 'fine, normal,' with flat, low-energy delivery.",
+            "09:24 - Asked to recall the final demo, Mara's posture snaps upright, her voice rises, and she gestures vividly while recounting the standing ovation.",
+            "09:31 - Told that the project actually ran two months late, Mara's mouth tightens; she quickly adds that the ending made it worth it.",
+            "09:38 - Asked to compare total effort across phases, she waves a hand dismissively and gives only the last-week numbers."
+          ],
+          "interrogation_transcript": [
+            "Interviewer: 'Overall, how would you rate the nine months of the project?'",
+            "Mara: 'Honestly? Ten out of ten. The demo we gave in the final week was incredible - everyone in the room was on their feet.'",
+            "Interviewer: 'What about the stretch from March to August?'",
+            "Mara: 'Hmm, that part was fine. Standard grind. Nothing much to say.'",
+            "Interviewer: 'The retrospective flagged that you delivered two months late. Does that change the rating?'",
+            "Mara: 'It is a wrinkle. But the ending - that is what the project is, really.'"
+          ],
+          "correct_diagnosis": "Duration neglect combined with the peak-end rule: Mara's remembering self compressed nine months into its final peak, gave the long middle no weight, and her perfect rating reflects the story of the ending rather than the duration-weighted experience.",
+          "diagnostic_breakdown": "The arousal spikes at 09:12 and 09:24 track with vivid peak-and-end material, while the middle months produce flat, dismissive responses, exactly the signature of an episode rated by its most intense and final moments. Her willingness to discount the two-month delay with the ending line is the remembering self's neglect of duration: time, the ultimate finite resource, drops out of the score. An objective observer of the whole profile would weigh all nine months, but Mara's memory does not.",
+          "distractors": [
+            "Anchoring: Mara anchored her rating on the standing ovation's intensity as a reference value",
+            "Availability cascade: media buzz about the demo amplified her fear of a bad ending",
+            "Loss aversion: Mara treats the late delivery as a loss she must immediately recover"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Auditing the Default Option Effect",
+          "visual_frame_description": "A benefits office cubicle, Dmitri a systems engineer in a hoodie, sits in front of a retirement enrollment portal where the 6 percent contribution box is already checked. A red tracer line highlights the single opt-out checkbox, tiny and far down the page, while a live emotion log records his hesitations.",
+          "player_mission": "Audit whether Dmitri's pension behavior is deliberate saving or passive acceptance of a nudge. Examine the timed behavioral log and the interview transcript, then diagnose the mechanism driving his 'choice' to keep the default rate.",
+          "key_concepts": [
+            "The default option is naturally perceived as the normal choice.",
+            "Deviating from the default is an act of commission that requires more effortful deliberation and takes on more responsibility.",
+            "Deviating from the default is more likely to evoke regret than doing nothing.",
+            "Choice architecture, the framing of the individual's decision, has a huge effect on the outcome.",
+            "Libertarian paternalism allows institutions to nudge people toward decisions that serve their own long-term interests.",
+            "It is difficult to argue that anyone's freedom is diminished by automatic enrollment when they merely have to check a box to opt out.",
+            "The nudge is based on sound psychology grounded in the workings of System 1 and System 2.",
+            "Save More Tomorrow avoids resistance to an immediate loss by tying increased saving to pay raises.",
+            "The automaticity of Save More Tomorrow aligns the laziness of System 2 with the long-term interests of workers.",
+            "Humans, unlike Econs, need help to make good decisions, and there are informed and unintrusive ways to provide that help."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests the default option effect within libertarian paternalism: a default is naturally perceived as the normal choice, so deviating feels like an effortful act of commission that risks regret. Kahneman's chapter concludes that such choice architecture can steer Humans toward their long-term interests, because an Econ would need no such help and a Human receives it without losing freedom.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Dmitri, a financially literate engineer, never opted out of his default pension plan despite earning enough to save far more on his own. Is his behavior deliberate saving, or is a nudge doing the work?",
+          "subject_baseline": "Dmitri is a sharp systems engineer who reads contracts carefully at work, debates fees with his bank, and complains loudly about inertia in others. He has never once reviewed his own benefits enrollment package and files those emails unread.",
+          "observed_nonverbal_log": [
+            "10:05 - Asked how he chose his contribution rate, Dmitri frowns and looks at the ceiling; his hand hovers motionless over the table.",
+            "10:11 - When the default rate of 6 percent is mentioned, he nods rapidly and says 'right, the 6 percent,' with no change in arousal.",
+            "10:18 - Asked why he never raised it to 10 percent, he shrugs, tilts his head, and delivers a memorized line about a sensible balance.",
+            "10:26 - Asked to name his actual rate, he hesitates for four seconds before answering, and his fingers tap the table.",
+            "10:33 - Told that opting out requires only one checkbox, his eyebrows rise and he laughs once, then goes silent."
+          ],
+          "interrogation_transcript": [
+            "Interviewer: 'How did you decide on your retirement contribution?'",
+            "Dmitri: 'I kept it where it was. It is the sensible, normal thing - that is what the plan sets you up with.'",
+            "Interviewer: 'Why not bump it up to the 10 percent you could easily afford?'",
+            "Dmitri: 'Changing it feels like a whole process - you would own the responsibility for it, and if it backfired you would kick yourself.'",
+            "Interviewer: 'It is literally one checkbox.'",
+            "Dmitri: 'Yeah, sure. Still. Why poke it.'"
+          ],
+          "correct_diagnosis": "Default option effect: Dmitri's 'choice' is passive acceptance of the default, which feels like the normal choice, while deviating would be an act of commission requiring effortful deliberation and risking regret.",
+          "diagnostic_breakdown": "The hesitation when naming his own rate and the memorized rationalization about the sensible, normal thing reveal that he never made a reasoned contribution decision; the 6 percent default was perceived as normal, and switching felt costly. His laugh at the single-checkbox fact is the recognition that inertia, not analysis, runs the account. Kahneman's summary: the default is naturally perceived as the normal choice, and deviations are more effortful and more likely to evoke regret.",
+          "distractors": [
+            "Loss aversion: Dmitri treats any contribution increase as a loss to his take-home pay",
+            "Anchoring: Dmitri anchored on the 6 percent number shown in the enrollment form",
+            "Availability cascade: retirement-fear media made Dmitri over-save"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Auditing a Rationalized System 1 Decision",
+          "visual_frame_description": "A corner-office audit plays with a live fact-check pane: a VP's fluent pitch about a product launch is cross-cut with her own March memo warning of the same market risks. A trail of micro-expressions - a blink, a collar touch - flickers at the moment a question about the project's leader lands.",
+          "player_mission": "Determine whether the VP's green light was reasoned analysis or a System 1 feeling that System 2 dressed up afterward. Read the nonverbal log and the interview transcript, then issue the correct diagnosis of the mechanism behind her fluent rationale.",
+          "key_concepts": [
+            "System 2 articulates judgments and makes choices, but it often endorses or rationalizes ideas and feelings generated by System 1.",
+            "You may not know that you are optimistic about a project because something about its leader reminds you of your beloved sister.",
+            "If asked for an explanation, you will search your memory for presentable reasons and will certainly find some, and you will believe the story you make up.",
+            "System 2 is not merely an apologist for System 1; it also prevents many foolish thoughts and inappropriate impulses from overt expression.",
+            "System 1 registers cognitive ease with which it processes information but does not generate a warning signal when it becomes unreliable.",
+            "Intuitive answers come to mind quickly and confidently, whether they originate from skills or from heuristics.",
+            "Many suggestions of System 1 are casually endorsed with minimal checking, as in the bat-and-ball problem.",
+            "The attentive System 2 is who we think we are, but its abilities and knowledge are limited.",
+            "We do not always think straight when we reason, and the errors are not always due to intrusive and incorrect intuitions.",
+            "A richer language of bias labels helps us recognize situations in which errors are likely."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests System 2's role as an apologist for System 1: a decision can be generated by an automatic feeling, and System 2 then searches memory for presentable reasons and sincerely believes the story it constructs. Kahneman's chapter stresses that System 2 often endorses or rationalizes System 1's output rather than independently analyzing it.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Renee, a VP, greenlit a risky product because she felt unusually optimistic about its leader. Was the decision reasoned analysis, or a System 1 feeling that System 2 dressed up afterward?",
+          "subject_baseline": "Renee is an experienced operations VP famous for demanding spreadsheets, market data, and pre-mortems before any launch. In one documented case she killed a project she privately admitted she liked too much. She gives polished, fluent rationales for every decision.",
+          "observed_nonverbal_log": [
+            "11:02 - Asked why she approved the launch, Renee answers instantly and fluently, eyes steady, with confident upward gestures.",
+            "11:09 - Asked to name the three weakest market assumptions, she stops, looks down, and lists generic competitive pressure items; her voice drops.",
+            "11:15 - Asked whether anything about the product's leader, Tom, influenced her, Renee blinks twice, touches her collar, and replies that this is not how she works.",
+            "11:22 - Asked again, she says Tom reminds her of someone dependable, then immediately adds that it is irrelevant to the numbers.",
+            "11:28 - Shown her own prior memo that flagged the same market risks, she squints and says those were resolved."
+          ],
+          "interrogation_transcript": [
+            "Interviewer: 'Walk me through the decision to approve the launch.'",
+            "Renee: 'The market timing is right, the unit economics hold at scale, and Tom's team is exactly the experienced group this needs.'",
+            "Interviewer: 'What are the two weakest assumptions in that case?'",
+            "Renee: 'Ah - competitive response, and maybe adoption speed. We have modeled both. We are comfortable.'",
+            "Interviewer: 'Could anything about Tom personally have shaped your optimism?'",
+            "Renee: 'No. I evaluate on the data. Tom just happens to be a very capable leader.'",
+            "Interviewer: 'Your March memo flagged the same adoption risk as a blocker.'",
+            "Renee: 'That was a different context. This is resolved.'"
+          ],
+          "correct_diagnosis": "System 2 endorsing and rationalizing a System 1-generated feeling: Renee's optimism was primed by Tom's resemblance to someone dependable, and her fluent answers are presentable reasons invented after the fact, which she sincerely believes.",
+          "diagnostic_breakdown": "The instant, fluent rationale at 11:02 with only generic risk items at 11:09, followed by the defensive collar-touch when the Tom question lands, matches Kahneman's description: you may not know you are optimistic because something about a leader reminds you of a beloved person, but asked for an explanation you search for presentable reasons and believe the story. Her denial is the hallmark of System 2 as apologist, articulating and justifying a choice actually generated by System 1, while her own March memo shows the analysis did not change the outcome.",
+          "distractors": [
+            "Anchoring: Renee anchored on the launch date and adjusted insufficiently",
+            "Duration neglect: Renee ignored the multi-year cost of a failed launch",
+            "Planning fallacy: Renee underestimated effort because of the inside view"
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Two Selves Face-Off",
+          "visual_frame_description": "A pain-research lab with two cold-water baths under crimson lights. A volunteer, Iris, stands between Trial A, a shorter flat 60-second immersion, and Trial B, a longer 90-second immersion that ends in pleasantly warming water. Above her, two crowned figures argue: the Remembering Self waves a highlight reel of the ending while the Experiencing Self points at a clock counting total time under the water.",
+          "player_mission": "Defeat the Remembering Self, the boss who keeps people choosing by the quality of their memories. Observe which trial Iris picks and identify the self that drives her choice, then design a nudge-style decision aid that lets patients choose in line with the experiencing self's interests.",
+          "key_concepts": [
+            "The remembering self keeps score and makes the choices, while the experiencing self does the living.",
+            "Duration neglect means the remembering self gives no weight to how long an episode lasted.",
+            "The peak-end rule weights an episode by its most intense moment and by how it ended.",
+            "In the cold-hand study, subjects preferred to repeat the trial that left the better memory even though it involved more pain.",
+            "An objective observer making the choice for someone else would undoubtedly choose the short exposure, favoring the sufferer's experiencing self.",
+            "The choices people made on their own behalf in the cold-hand study are fairly described as mistakes.",
+            "Duration neglect and the peak-end rule originate in System 1 and do not necessarily correspond to the values of System 2.",
+            "The central fact of our existence is that time is the ultimate finite resource, but the remembering self ignores that reality.",
+            "An objective observer of the hedonimeter profile might well offer different advice than the remembering self.",
+            "The remembering self's neglect of duration, emphasis on peaks and ends, and susceptibility to hindsight distort our reflections of actual experience."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This boss battle tests the conflict between the remembering self, which keeps score using duration neglect and the peak-end rule, and the interests of the experiencing self, which endures every moment. Kahneman's cold-hand study shows people will choose more total pain for a better-remembered ending, choices an objective observer would call mistakes, because the remembering self ignores that time is the ultimate finite resource.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The final conflict pits the remembering self, which keeps score and makes choices using duration neglect and the peak-end rule, against the interests of the experiencing self, which endures every moment. Kahneman's cold-hand study showed that people willingly repeated a longer, more painful trial because it ended better; the remembering self won, and by an objective standard the choice was a mistake.",
+          "stage_1_observation": "In a hospital pain-research lab, the experimenter offers each participant two versions of the same cold-water immersion. Trial A is 60 seconds of 14-degree water, flat the whole time. Trial B is 90 seconds of 14-degree water followed by 30 extra seconds of gradually warming water, so the ending is milder. Every participant chooses which trial to repeat for a small fee. You watch a volunteer, Iris, study the two options with a neutral expression and pick Trial B without hesitation.",
+          "stage_1_question": "Iris chose Trial B, which involves more total pain, because it ends more pleasantly. Which self is making the choice, and what rule drives it?",
+          "stage_1_correct_answer": "The remembering self, driven by the peak-end rule and duration neglect: Iris will remember the milder ending more than the longer exposure, so the memory of Trial B wins the choice, even though an objective observer favoring the experiencing self would pick the shorter Trial A.",
+          "stage_2_intervention": "The lab director asks you to design a nudge-style decision aid so future volunteers, and patients facing real procedures, choose in line with the experiencing self's interest. You can redesign the consent screen. Choose the intervention that research in this chapter supports as most effective.",
+          "stage_2_correct_answer": "Present a duration-weighted hedonimeter profile, a graph of the pain over time for each option so the total duration and the flat middle are visible, and ask the patient to choose for the person who actually endures the procedure, making the experiencing self's interest the explicit frame. Kahneman notes that an objective observer of the hedonimeter profile would choose the short exposure, and this framing recruits System 2 to counteract the peak-end shortcut of the remembering self."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Cognitive Minefield and Organizational Remedies",
+          "visual_frame_description": "A cavernous boardroom table holds a single optimistic project estimate: 18 months and $210 million, stamped High Confidence. Beneath it, a hidden comparison chart lists ten comparable tunnels averaging 34 months and $380 million. A small red wire, labeled Premortem, hangs unused beside the projector while the board members nod along.",
+          "player_mission": "Defeat the Cognitive Minefield, the boss that makes System 1 errors look like certainty. Observe why the team's plan is so far from comparable projects, then choose the organizational procedure that best corrects overconfident, inside-view predictions before the board votes.",
+          "key_concepts": [
+            "System 1 registers the cognitive ease with which it processes information but does not generate a warning signal when it becomes unreliable.",
+            "Kahneman's own intuitive thinking remains prone to overconfidence, extreme predictions, and the planning fallacy despite years of study.",
+            "The way to block errors originating in System 1 is to recognize the signs of a cognitive minefield, slow down, and ask for reinforcement from System 2.",
+            "It is much easier to identify a minefield when you observe others wandering into it than when you are about to do so.",
+            "Organizations are better than individuals at avoiding errors because they naturally think more slowly and have the power to impose orderly procedures.",
+            "Organizations can institute and enforce the application of useful checklists and more elaborate exercises such as reference-class forecasting and the premortem.",
+            "An organization is a factory that manufactures judgments and decisions and must ensure the quality of its products at framing, information collection, and review.",
+            "A richer language is essential to the skill of constructive criticism, because labels such as anchoring effects and narrow framing bring together what we know about a bias.",
+            "The operative concept for improving decisions is routine; constant quality control is an alternative to wholesale reviews after disasters.",
+            "Decision makers make better choices when they expect their decisions to be judged by how they were made, not only by how they turned out."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This boss battle tests why System 1 errors such as overconfidence, extreme predictions, and the planning fallacy are so hard to correct in oneself and why organizations, which think more slowly and can impose orderly procedures, are better positioned to avoid them. Kahneman's closing remedy is to recognize the minefield, slow down, recruit System 2, and let organizations institutionalize checklists, reference-class forecasting, and the premortem.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "This battle tests why System 1 errors, overconfidence, extreme predictions, and the planning fallacy, are so hard to correct in oneself and why organizations, which think more slowly and can impose orderly procedures, are better positioned to avoid them. Kahneman's remedy in the closing chapter is to recognize the minefield, slow down, recruit System 2, and let organizations institutionalize checklists, reference-class forecasting, and the premortem.",
+          "stage_1_observation": "The Brightline construction board reviews a new transit tunnel. The project lead, Naomi, presents a single, detailed estimate: 18 months and $210 million, with high confidence. The board members nod along. On your screen you can pull up a summary of ten comparable tunnels across the country: an average of 34 months and $380 million. Naomi's plan has no reference class, no premortem, and no buffer line item. A junior analyst, Tomas, quietly slides a comparison chart across the table.",
+          "stage_1_question": "Naomi's team expresses high confidence in 18 months and $210 million. Which combination of System 1 processes explains why the plan is so far from the comparable projects?",
+          "stage_1_correct_answer": "The inside view and the planning fallacy: Naomi's team is anchored on its own constructed story, makes overconfident, non-regressive predictions, and ignores the reference class of comparable tunnels. Kahneman notes that his own intuitive thinking remains just as prone to overconfidence, extreme predictions, and the planning fallacy despite years of studying these issues.",
+          "stage_2_intervention": "The board is minutes from voting. You must choose the intervention most consistent with the chapter's argument about how organizations improve judgment.",
+          "stage_2_correct_answer": "Institute reference-class forecasting before approval and run a premortem: take the outside view using the distribution of the ten comparable tunnels, and imagine the project has failed a year from now and list the causes. Organizations are better than individuals because they think more slowly and can impose orderly procedures, and the premortem together with the outside view directly counters the inside view, overconfidence, and the planning fallacy."
+        }
+      ]
+    }
+  ]
+}

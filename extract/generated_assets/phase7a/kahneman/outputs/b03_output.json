@@ -1,0 +1,793 @@
+{
+    "chapters":  [
+                     {
+                         "pages":  "",
+                         "title":  "3. The Lazy Controller",
+                         "id":  "ch08",
+                         "assets":  [
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Dual-Process Theory | Heuristics \u0026 Statistical Biases",
+                                            "topic":  "Cognitive Load, Ego Depletion, and Flow",
+                                            "visual_frame_description":  "The player faces a sorting board with three columns labeled Cognitive Load, Ego Depletion, and Flow. Video-clip cards float in a tray: a frazzled accountant juggling numbers, a drained manager reaching for a chocolate cake, and a painter absorbed in her canvas. The player drags each clip card into the column that names the mechanism at work.",
+                                            "player_mission":  "Classify all seven real-life episodes into the mechanism they best demonstrate: cognitive busyness (System 2 overloaded right now), ego depletion (willpower spent earlier, motivation drained), or flow (effortless, absorbing concentration). Finish the board with every card in the correct column.",
+                                            "key_concepts":  [
+                                                                 "Self-control and deliberate thought draw on the same limited budget of mental effort.",
+                                                                 "People who are cognitively busy are more likely to choose a tempting chocolate cake over a virtuous fruit salad.",
+                                                                 "Cognitive busyness loosens System 2\u0027s hold on behavior, making selfish choices, sexist language, and superficial judgments more likely.",
+                                                                 "Unlike ego depletion, cognitive load cannot be fixed by simply trying harder.",
+                                                                 "Ego depletion is at least in part a loss of motivation: after exerting self-control you feel unwilling, not unable, to make further effort.",
+                                                                 "Mihaly Csikszentmihalyi named the state of effortless attending \u0027flow,\u0027 describing it as a state of effortless concentration so deep that people lose their sense of time and self.",
+                                                                 "In flow, maintaining focused attention requires no exertion of self-control, freeing resources for the task at hand.",
+                                                                 "Activities that impose high demands on System 2 require self-control, and the exertion of self-control is depleting and unpleasant.",
+                                                                 "Baumeister\u0027s experiments show that all variants of voluntary effort draw at least partly on a shared pool of mental energy."
+                                                             ],
+                                            "difficulty_level":  "Beginner",
+                                            "theory_summary":  "This scenario tests the effect of cognitive load on self-control: when System 2 is busy holding digits in short-term memory, System 1 has more influence over behavior, so people yield to temptations such as chocolate cake. The chapter presents the digit-load dessert finding as evidence that self-control and cognitive effort draw on the same limited budget of mental work.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman \u0026 Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "Your colleague Nina is holding a seven-digit delivery code in working memory while the team orders dessert, and she picks the chocolate cake over the fruit salad. Into which column does her choice sort?",
+                                            "column_a_label":  "Cognitive Load (System 2 busy right now)",
+                                            "column_b_label":  "Ego Depletion (willpower spent earlier)",
+                                            "column_c_label":  "Flow (effortless absorbed attention)",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "Nina holds seven digits in short-term memory and chooses the chocolate cake over the fruit salad.",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Stifling your emotional reaction to a sad film, then quitting earlier on a painful handgrip task.",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Riding a motorcycle at 150 miles an hour, focused entirely on the road with no need for self-control.",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Repeating digits so that System 2 loosens its grip and you use sexist language in a meeting.",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Eating radishes and celery while resisting cookies, then giving up sooner on a hard logic problem.",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "A chess player in a competitive match, losing all sense of time and self in the game.",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Trying to hold six digits in memory while doing arithmetic, with no option to compensate by trying harder.",
+                                                             "col":  "a"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "a",
+                                            "distractors":  [
+                                                                "Ego depletion: Nina exhausted her willpower on an earlier task today.",
+                                                                "Flow: Nina is so absorbed in remembering the digits that she forgets her diet.",
+                                                                "A deliberate System 2 choice: she evaluated the calories and decided the cake is worth it."
+                                                            ],
+                                            "explanation":  "Nina\u0027s memory load is simultaneous with the choice, which is cognitive busyness, not the residual loss of motivation seen in ego depletion. The book\u0027s evidence shows that people who are cognitively busy are more likely to select a tempting dessert, make selfish choices, and judge superficially, because a loaded System 2 gives System 1 more influence over behavior."
+                                        },
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Dual-Process Theory | Heuristics \u0026 Statistical Biases",
+                                            "topic":  "Depleters of Self-Control and Signs of Depletion",
+                                            "visual_frame_description":  "A diagnostic wall shows two stacks of cue cards. The left stack is titled What Drains Self-Control and shows clips of people suppressing urges: a man told not to think of white bears, a woman fighting tears during a film. The right stack is titled What Signals Depletion and shows a dieter eating chips, a shopper overspending, and a driver snapping at a barista. One card shows a painter lost in her canvas.",
+                                            "player_mission":  "Sort each episode into one of three bins: a depleting situation (self-control being spent now), a sign of depletion (the costly result that shows up later), or a flow state (neither). Place all seven cards before the timer runs out.",
+                                            "key_concepts":  [
+                                                                 "All depleting situations involve conflict and the need to suppress a natural tendency.",
+                                                                 "Avoiding the thought of white bears depletes self-control.",
+                                                                 "Inhibiting your emotional response to a stirring film depletes self-control.",
+                                                                 "Making a series of choices that involve conflict depletes self-control.",
+                                                                 "Trying to impress others depletes self-control.",
+                                                                 "Signs of depletion include deviating from one\u0027s diet, overspending on impulsive purchases, and reacting aggressively to provocation.",
+                                                                 "Depleted people persist less time in a handgrip task and perform poorly in cognitive tasks and logical decision making.",
+                                                                 "Flow separates concentration on the task from the deliberate control of attention.",
+                                                                 "The law of least effort describes people\u0027s tendency to avoid effortful mental work when possible."
+                                                             ],
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This matrix separates the situations that deplete self-control from the behaviors that signal depletion has already occurred. Baumeister\u0027s research shows that all these conflict-laden exertions draw on a shared pool of mental energy, so suppressing one tendency makes diet, spending, and temper harder to control afterward.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman \u0026 Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "After a day of forcing himself to ignore his inbox, Joel snaps at a barista over a routine question and later admits he skipped the gym. Into which column does this episode belong?",
+                                            "column_a_label":  "Depleting situation (self-control spent now)",
+                                            "column_b_label":  "Sign of depletion (result of earlier self-control)",
+                                            "column_c_label":  "Neither - a flow state",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "Joel avoids the thought of white bears when told not to think about them.",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Inhibiting your emotional reaction to a stirring film.",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Joel deviates from his diet and eats the chips he planned to avoid.",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Overspending on impulsive purchases at the mall.",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Joel reacts aggressively to a mild provocation from a roommate.",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Trying to impress others at a networking event all evening.",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "A painter lost in her canvas, unaware of the passing hours.",
+                                                             "col":  "c"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "b",
+                                            "distractors":  [
+                                                                "All of these episodes are the same thing: cognitive busyness.",
+                                                                "Aggression and overspending are caused by hunger alone.",
+                                                                "Impressing others is a flow state because it feels rewarding."
+                                                            ],
+                                            "explanation":  "The book\u0027s depleters all involve suppressing a natural tendency, such as resisting thoughts, stifling emotion, or performing to impress. Its indicators of depletion, such as breaking a diet, impulsive overspending, aggression, and quitting a grip task early, show up later, after self-control has already been spent. The painter is in flow, where absorbing attention needs no self-control at all."
+                                        },
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Dual-Process Theory | Heuristics \u0026 Statistical Biases",
+                                            "topic":  "Intelligence, Rationality, and Impulsive System 1",
+                                            "visual_frame_description":  "A split screen shows two applicants in adjacent interview booths receiving the same rapid-fire puzzle. One blurts out an answer instantly; the other pauses, frowns, scribbles, and answers more slowly. Between the booths hangs a three-column scoring panel labeled Impulsive System 1, Intelligence/Algorithmic Mind, and Rationality/Engaged System 2.",
+                                            "player_mission":  "Classify each behavior into the right column: impulsive System 1 thinking, algorithmic intelligence, or Stanovich\u0027s rationality. Read the evidence about puzzle performance, IQ, and delay of gratification, then place all seven cards.",
+                                            "key_concepts":  [
+                                                                 "More than 50% of students at Harvard, MIT, and Princeton gave the intuitive, incorrect answer to the bat-and-ball puzzle.",
+                                                                 "At less selective universities, the rate of demonstrable failure to check the bat-and-ball answer was in excess of 80%.",
+                                                                 "The bat-and-ball puzzle costs little to check: a few seconds of mental work with slightly tensed muscles and dilated pupils.",
+                                                                 "Stanovich distinguishes algorithmic brain power (intelligence) from rationality, a reflective ability to override intuitions.",
+                                                                 "High intelligence does not make people immune to biases of judgment.",
+                                                                 "Bat-and-ball-type questions are somewhat better predictors of susceptibility to cognitive errors than conventional IQ tests.",
+                                                                 "Low scorers on Frederick\u0027s Cognitive Reflection Test answer with the first idea that comes to mind and are unwilling to check their intuitions.",
+                                                                 "Intuitive respondents prefer $3,400 this month over $3,800 next month; only 37% of those who solve all three puzzles do.",
+                                                                 "Intelligence is not only the ability to reason but also the ability to find relevant material in memory and deploy attention when needed."
+                                                             ],
+                                            "difficulty_level":  "Advanced",
+                                            "theory_summary":  "This matrix tests Stanovich\u0027s separation of intelligence from rationality: a smart person can still endorse a compelling wrong answer if their System 2 is lazy. The chapter argues that the failure to check intuitive answers is largely a matter of insufficient motivation rather than lacking ability, which is why puzzle-based measures predict biased judgment better than conventional IQ.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman \u0026 Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "Two applicants score identically on an IQ test. In a quick-fire session, one immediately accepts the bat-and-ball answer of 10 cents; the other pauses, works it out, and says 5 cents. Where does the second applicant\u0027s behavior belong?",
+                                            "column_a_label":  "Impulsive System 1 (lazy thinking)",
+                                            "column_b_label":  "Intelligence / algorithmic mind",
+                                            "column_c_label":  "Rationality / engaged System 2",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "Answering with the first idea that comes to mind and never checking it.",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Excelling on intelligence tests and switching between tasks quickly.",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Refusing to be satisfied with a superficially attractive answer and checking the logic.",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Preferring $3,400 this month over $3,800 next month.",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Paying twice as much for overnight delivery of a book.",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "The ability to find relevant material in memory and deploy attention when needed.",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Feeling the tug of \u0027it\u0027s true, it\u0027s true\u0027 on a flawed syllogism and overriding it anyway.",
+                                                             "col":  "c"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "c",
+                                            "distractors":  [
+                                                                "Rationality is identical to high intelligence.",
+                                                                "Accepting the intuitive answer proves the person lacks intelligence.",
+                                                                "Impatience is a sign of a strong, fast System 2."
+                                                            ],
+                                            "explanation":  "Stanovich distinguishes algorithmic brain power (intelligence) from rationality, the reflective tendency to override plausible-but-wrong intuitions. High IQ does not make people immune to bias: bat-and-ball-type questions predict susceptibility to cognitive errors somewhat better than IQ tests do, and low scorers on the Cognitive Reflection Test are impulsive, impatient, and keen on immediate gratification."
+                                        },
+                                        {
+                                            "asset_type":  "DECEPTION_AUDIT_FILE",
+                                            "domain":  "Dual-Process Theory | Heuristics \u0026 Statistical Biases",
+                                            "topic":  "Detecting a Lazy System 2 (Failure to Verify)",
+                                            "visual_frame_description":  "The player is an internal auditor in a gray interview room with a two-way mirror. Across the table sits Marcus, a data analyst in shirtsleeves, and the screen overlays his answers in real time. On the desk are his report, a pen, and a notepad he never touches.",
+                                            "player_mission":  "Audit whether Marcus actually verified the report numbers he claims to have double-checked, or whether he let a quick, appealing answer pass without checking. Weigh his baseline, his timed behavior, and the interrogation transcript, then file the correct diagnosis.",
+                                            "key_concepts":  [
+                                                                 "The bat-and-ball puzzle evokes an answer that is intuitive, appealing, and wrong: 10 cents.",
+                                                                 "People who answer 10 cents did not actively check the answer; their System 2 endorsed an intuition it could have rejected with a small investment of effort.",
+                                                                 "A failure to check is remarkable because the cost of checking is so low.",
+                                                                 "People who say 10 cents appear to be ardent followers of the law of least effort.",
+                                                                 "Failing these minitests is at least partly a matter of insufficient motivation, not trying hard enough.",
+                                                                 "Those who avoid the sin of intellectual sloth could be called \u0027engaged.\u0027",
+                                                                 "The ease with which students are satisfied enough to stop thinking is rather troubling.",
+                                                                 "If System 1 is involved, the conclusion comes first and the arguments follow."
+                                                             ],
+                                            "difficulty_level":  "Advanced",
+                                            "theory_summary":  "This audit tests the lazy System 2: a person can accept a compelling, intuitive, wrong answer because the cost of checking is low but the motivation to check is missing. The book frames failing the bat-and-ball puzzle as insufficient motivation and weak self-monitoring, not a lack of intelligence.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman \u0026 Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "Did Marcus actually verify the report numbers he claims to have double-checked, or did he let an easy, appealing answer slip through unchecked?",
+                                            "subject_baseline":  "Marcus, 31, a data analyst at a regional logistics firm, is usually diligent: he is the one who finds rounding errors in teammates\u0027 spreadsheets. He describes himself as a careful checker. Today is heavy, with three back-to-back review meetings and a skipped lunch.",
+                                            "observed_nonverbal_log":  [
+                                                                           "09:12 - Given the bat-and-ball-style check question (\u0027Two numbers together cost $1.10; one is a dollar more; what is the smaller?\u0027), Marcus answers \u002710 cents\u0027 within two seconds, before the interviewer finishes speaking.",
+                                                                           "09:13 - Asked to show his work, he shrugs, reaches for his coffee, and does not pick up the pen lying in front of him.",
+                                                                           "09:15 - He claims he \u0027verified\u0027 the freight report, but he cannot recall the exact total or the formula he says he used.",
+                                                                           "09:18 - When the correct answer (5 cents) is revealed, he frowns, leans back, and says he \u0027must have skimmed it.\u0027"
+                                                                       ],
+                                            "interrogation_transcript":  [
+                                                                             "Interviewer: \u0027Quick one, no calculators: a bat and a ball together cost $1.10. The bat costs a dollar more than the ball. What does the ball cost?\u0027",
+                                                                             "Marcus: \u0027Ten cents. That\u0027s easy.\u0027",
+                                                                             "Interviewer: \u0027And in the freight report, you wrote that the carrier\u0027s total came to $14,200. What line items make up that number?\u0027",
+                                                                             "Marcus: \u0027Uh... I\u0027d have to reopen the file. I trust the template did the math.\u0027",
+                                                                             "Interviewer: \u0027You told Sofia you double-checked every cell.\u0027",
+                                                                             "Marcus: \u0027I skimmed the columns. Close enough, right?\u0027"
+                                                                         ],
+                                            "correct_diagnosis":  "Marcus is not deliberately fabricating a story, but he has not actually verified the report: his System 2 was lazy. He endorsed the intuitive \u002710 cents\u0027 answer without checking, exactly the failure the bat-and-ball puzzle is designed to expose.",
+                                            "diagnostic_breakdown":  "His instant \u002710 cents\u0027 answer is the signature intuitive response the book documents: over 50% of students at Harvard, MIT, and Princeton give it, and more than 80% at less selective universities fail to check. His inability to reconstruct the report\u0027s total, combined with the admission of skimming, shows the same refusal to invest the small effort needed to verify. People who say 10 cents have a System 2 that endorsed an answer it could have rejected with a few seconds of work, so his pattern is lazy self-monitoring driven by motivation, not by ability.",
+                                            "distractors":  [
+                                                                "Marcus is deliberately fabricating the report to get Sofia in trouble.",
+                                                                "Marcus is cognitively overloaded right now because of his three meetings.",
+                                                                "Marcus has poor short-term memory and could not check even if he tried."
+                                                            ]
+                                        },
+                                        {
+                                            "asset_type":  "DECEPTION_AUDIT_FILE",
+                                            "domain":  "Dual-Process Theory | Heuristics \u0026 Statistical Biases",
+                                            "topic":  "Decision Fatigue and the Default of Denial",
+                                            "visual_frame_description":  "The player is an efficiency auditor watching a calendar view of a grants office. Elena, a grants director, reviews applications in six-minute blocks with timestamps. The screen plots her approval rate across the day, spiking after breaks and collapsing before the afternoon meal break.",
+                                            "player_mission":  "Determine whether Elena\u0027s behavior matches her claim of giving every proposal a full, fair, case-by-case review, or whether she is silently defaulting to denial once depleted. Inspect the timing of her approvals and the transcript, then file the diagnosis.",
+                                            "key_concepts":  [
+                                                                 "Israeli parole judges spend an average of 6 minutes per case; the default decision is denial of parole, with only 35% of requests approved.",
+                                                                 "Approval rates spike after each meal, to about 65%, and drop steadily toward zero before the next break.",
+                                                                 "Tired and hungry judges tend to fall back on the easier default position of denying requests for parole.",
+                                                                 "The exertion of self-control is depleting and unpleasant.",
+                                                                 "Ego-depleted people are less willing or less able to exert self-control when the next challenge comes around.",
+                                                                 "Signs of depletion include performing poorly in cognitive tasks and logical decision making.",
+                                                                 "The evidence supports the claim that self-control requires attention and effort.",
+                                                                 "Frequent switching of tasks and speeded-up mental work are not intrinsically pleasurable, and people avoid them when possible."
+                                                             ],
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This audit tests ego depletion and decision fatigue in judgment: mental effort and self-control draw on a shared, depleting budget, so after hours of decisions people default to the easier option. The chapter cites the Israeli parole judges whose approval rate dropped toward zero as time since their last food break increased.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman \u0026 Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "Elena claims she gives every funding proposal her full, fair review. Does her behavior across the day match that claim, or is she defaulting when depleted?",
+                                            "subject_baseline":  "Elena, 44, a grants director at a state agency, approves funding requests after reviewing applications at an average of six minutes each. She prides herself on \u0027giving each proposal a fresh look\u0027 and insists decisions are made case by case, not by default.",
+                                            "observed_nonverbal_log":  [
+                                                                           "10:05, right after the morning break - Elena approves three of four proposals in a row, leaning forward and writing notes.",
+                                                                           "12:50, minutes after lunch - she approves two applications quickly, humming.",
+                                                                           "15:40, about two hours after lunch - she denies six consecutive requests, each review taking less than two minutes, with a blank stare and a hurried signature.",
+                                                                           "17:20 - she denies the final application without opening the executive summary, checking her watch."
+                                                                       ],
+                                            "interrogation_transcript":  [
+                                                                             "Auditor: \u0027This afternoon you turned down six proposals in a row. Tell me what you saw in them.\u0027",
+                                                                             "Elena: \u0027They were... they all had the same weaknesses. I\u0027m consistent.\u0027",
+                                                                             "Auditor: \u0027Three of them had identical risk scores to ones you approved this morning.\u0027",
+                                                                             "Elena: \u0027Look, by late afternoon my head is fried. I just go with what\u0027s in front of me.\u0027",
+                                                                             "Auditor: \u0027Go with what\u0027s in front of you - meaning the default?\u0027",
+                                                                             "Elena: \u0027...Meaning the default, yes.\u0027"
+                                                                         ],
+                                            "correct_diagnosis":  "Elena is experiencing decision fatigue: her approval behavior collapses after the last food break, and she falls back on the easier default of denial. Her claim of case-by-case fairness is contradicted by the timing of her denials.",
+                                            "diagnostic_breakdown":  "The pattern mirrors the Israeli parole study: approval rates spike right after meals (about 65%) and slide toward zero as time since the last food break grows, because tired, hungry judges default to the easier decision of denial. Elena\u0027s denials cluster at the end of the day, her reviews shrink to two minutes, and she stops opening documents, the tell-tale signs of a depleted System 2 reaching for the path of least effort.",
+                                            "distractors":  [
+                                                                "Elena has a personal grudge against this morning\u0027s applicants.",
+                                                                "The afternoon proposals were genuinely weaker by design.",
+                                                                "Elena is deliberately trying to cut the agency\u0027s budget."
+                                                            ]
+                                        },
+                                        {
+                                            "asset_type":  "BOSS_BATTLE",
+                                            "domain":  "Dual-Process Theory | Heuristics \u0026 Statistical Biases",
+                                            "topic":  "The Bat-and-Ball Puzzle: Resisting a Tempting Wrong Answer",
+                                            "visual_frame_description":  "A university lecture hall fills with students as Professor Ravi projects the bat-and-ball puzzle on a screen and gives them four seconds. Over half the room shouts \u002710 cents.\u0027 One student, Amina, hesitates, scribbles two equations, and quietly says \u00275 cents.\u0027 The frame freezes on her worksheet.",
+                                            "player_mission":  "Defeat the lazy System 2 boss by explaining why the room was fooled and by arming Amina with a strategy that blocks the next tempting wrong answer. Answer the stage-one diagnosis, then choose the stage-two intervention that best builds her defense.",
+                                            "key_concepts":  [
+                                                                 "The bat-and-ball puzzle is the first encounter with a recurrent theme: many people are overconfident and place too much faith in their intuitions.",
+                                                                 "The distinctive mark of the puzzle is that it evokes an answer that is intuitive, appealing, and wrong.",
+                                                                 "Those who end up with the correct answer somehow managed to resist the intuition.",
+                                                                 "A failure to check is remarkable because the cost of checking is so low.",
+                                                                 "People who avoid the intuitive answer appear to have more active minds.",
+                                                                 "Anyone admitted to a good university is able to reason through the puzzle when not tempted to accept a superficially plausible answer.",
+                                                                 "The extent of deliberate checking and search is a characteristic of System 2 that varies among individuals.",
+                                                                 "The \u0027lazy\u0027 judgment about the self-monitoring of students who fail these minitests does not seem to be unfair."
+                                                             ],
+                                            "difficulty_level":  "Beginner",
+                                            "theory_summary":  "This battle trains the player to recognize the signature of the lazy System 2: endorsing an intuitive, appealing, wrong answer because checking is skipped. The chapter shows this failure is common, with the majority of students at elite universities giving the 10-cent answer, and that resisting it requires a small but genuine effort of engagement.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman \u0026 Tversky; Nobel 2002)"
+                                                            },
+                                            "boss_battle_explanation":  "The battle is against your own lazy System 2: the supervisory function that is supposed to check System 1\u0027s suggestions but often fails to bother. The bat-and-ball puzzle is the boss\u0027s opening attack.",
+                                            "stage_1_observation":  "A lecture hall fills with students. Professor Ravi projects the bat-and-ball puzzle and gives them four seconds. Hands go up; over half the room shouts \u002710 cents.\u0027 One student, Amina, hesitates, scribbles, and quietly says \u00275 cents.\u0027 The screen freezes on her worksheet showing the two equations.",
+                                            "stage_1_question":  "Why did so many students answer 10 cents, and what did Amina do differently?",
+                                            "stage_1_correct_answer":  "The 10-cent answer is the intuitive, appealing, wrong answer that System 1 offers; more than 50% at top universities and over 80% at less selective ones fail to check it. Amina resisted the intuition with a few seconds of System 2 work and got the correct 5 cents.",
+                                            "stage_2_intervention":  "You are Amina\u0027s study partner preparing for an exam. She wants to know how to avoid being fooled by the next tempting wrong answer that appears in her head. Choose the intervention that best builds her defense against a lazy System 2.",
+                                            "stage_2_correct_answer":  "Train her to treat every instant, plausible answer as a suspect: deliberately slow down, do the math or the logic, and ask what obvious cue would explain why this puzzle was included before she commits to an answer."
+                                        },
+                                        {
+                                            "asset_type":  "BOSS_BATTLE",
+                                            "domain":  "Dual-Process Theory | Heuristics \u0026 Statistical Biases",
+                                            "topic":  "Ego Depletion and the Collapsing Approval Rate",
+                                            "visual_frame_description":  "It is 4:15 pm on a Thursday in a district intake office. Judge Okafor has heard forty cases since the 1:00 lunch break. A clerk slides case number 41 across the desk: a parole request structurally identical to one granted at 1:05. The judge signs the denial form without reading page three, while the wall clock shows three hours since the last meal.",
+                                            "player_mission":  "Diagnose the mechanism driving the judge\u0027s denial, then design an operating schedule for a call center that prevents the same depletion-default pattern. Beat the boss by applying the chapter\u0027s evidence on ego depletion to a real workplace.",
+                                            "key_concepts":  [
+                                                                 "Ego depletion: an effort of will is tiring, so after forcing yourself to do something, you are less willing to exert self-control at the next challenge.",
+                                                                 "Parole approval rates spike after each meal and slide steadily toward zero before the next break.",
+                                                                 "Both fatigue and hunger probably play a role in the decline of approvals.",
+                                                                 "Depleted people default to the easier option, which for judges is denial.",
+                                                                 "People were able to resist the effects of ego depletion when given a strong incentive to do so.",
+                                                                 "Increasing effort is not an option when you must keep digits in short-term memory while performing a task.",
+                                                                 "The nervous system consumes more glucose than most other parts of the body, and effortful mental activity is especially expensive in glucose.",
+                                                                 "Baumeister and his colleagues confirmed that ingesting glucose can undo the effects of ego depletion."
+                                                             ],
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This battle tests ego depletion as it appears in real judgment: exerting self-control drains a shared pool of mental energy, and depleted people default to the easier option. The chapter grounds this in Baumeister\u0027s depletion experiments and the Israeli parole judges whose approval rate fell to near zero before meals.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman \u0026 Tversky; Nobel 2002)"
+                                                            },
+                                            "boss_battle_explanation":  "The boss is a full workday that drains the shared budget of self-control. The battle is to recognize depletion in yourself and others and to intervene before a lazy default decides for you.",
+                                            "stage_1_observation":  "It is 4:15 pm on a Thursday in the district court\u0027s intake office. Judge Okafor has heard forty cases since the 1:00 lunch break. His clerk hands him case number 41, a parole request identical in structure to one he granted at 1:05. He signs the denial form without reading page three. The clock shows the last meal was three hours ago.",
+                                            "stage_1_question":  "What is the most likely mechanism behind Judge Okafor\u0027s denial, given the case timing?",
+                                            "stage_1_correct_answer":  "Ego depletion and decision fatigue: the parole data show approval rates spiking after meals and sliding toward zero before the next break, because tired, hungry decision makers fall back on the easier default of denial.",
+                                            "stage_2_intervention":  "You run a call center that must make fair approval decisions on customer refunds all day, and your team\u0027s denial rate creeps up every afternoon. Choose the intervention that best counteracts the depletion-default pattern shown in the research.",
+                                            "stage_2_correct_answer":  "Schedule high-stakes discretionary approvals right after breaks, add a real food break before the late-afternoon slump, and require reviewers to state a written reason before selecting the default denial option."
+                                        },
+                                        {
+                                            "asset_type":  "BOSS_BATTLE",
+                                            "domain":  "Dual-Process Theory | Heuristics \u0026 Statistical Biases",
+                                            "topic":  "Flow versus Willpower: Attention Control as the Shield",
+                                            "visual_frame_description":  "A preschool waiting room appears on screen. Four-year-olds sit alone at a desk facing a single cookie and a bell. Half ring the bell within minutes; others last the full fifteen minutes. The camera lingers on Mira, who lasts by turning her chair away from the cookie and humming to herself while watched through a one-way mirror.",
+                                            "player_mission":  "Explain why Mira outlasted the bell ringers, then redesign a draining weekly meeting so your team can work like her, preserving attention and willpower. Defeat the boss by using the chapter\u0027s evidence on flow and attention control.",
+                                            "key_concepts":  [
+                                                                 "In Mischel\u0027s cookie experiment, about half of the four-year-olds waited the full 15 minutes, mainly by keeping their attention away from the tempting reward.",
+                                                                 "The resisters later had higher measures of executive control, especially the ability to reallocate attention effectively.",
+                                                                 "As young adults, the resisters were less likely to take drugs.",
+                                                                 "The children who showed more self-control as four-year-olds had substantially higher scores on tests of intelligence.",
+                                                                 "Training attention with computer games improved executive control and nonverbal intelligence scores, and the improvement lasted for several months.",
+                                                                 "Flow is \u0027a state of effortless concentration so deep that they lose their sense of time, of themselves, of their problems.\u0027",
+                                                                 "In flow, maintaining focused attention requires no exertion of self-control, freeing resources for the task at hand.",
+                                                                 "Self-control and cognitive effort are both forms of mental work."
+                                                             ],
+                                            "difficulty_level":  "Advanced",
+                                            "theory_summary":  "This battle contrasts fragile willpower with flow: self-control is depleting and must be budgeted, while flow provides deep, effortless attention that frees the limited budget for the task itself. The chapter connects Mischel\u0027s cookie-waiting children and Csikszentmihalyi\u0027s flow research to the idea that attention control is trainable and central to self-control.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman \u0026 Tversky; Nobel 2002)"
+                                                            },
+                                            "boss_battle_explanation":  "The battle is between two ways of deploying System 2: grinding willpower, which depletes, and flow, which frees attention from self-control. The arena is a preschool waiting room.",
+                                            "stage_1_observation":  "Four-year-olds sit alone at a desk facing a single cookie and a bell that calls the experimenter. The room has no toys or pictures. Half the children ring the bell within minutes; the others last the full fifteen minutes. The camera shows one girl, Mira, who lasts by turning her chair away from the cookie and humming to herself.",
+                                            "stage_1_question":  "Why did Mira succeed where the other children rang the bell?",
+                                            "stage_1_correct_answer":  "She kept her attention away from the tempting reward rather than staring it down. About half of the children managed the fifteen-minute wait mainly by reallocating attention, and those resisters later showed better executive control, less drug use, and higher intelligence-test scores.",
+                                            "stage_2_intervention":  "You manage a research team whose members say the weekly metrics meeting drains them for the rest of the day. You want them to work like Mira, resilient under pressure, without burning willpower. Choose the strategy that fits the chapter\u0027s evidence about attention and flow.",
+                                            "stage_2_correct_answer":  "Remove the distracting temptations from the room, such as phones and a snack table within reach, give each person a single absorbing task that structures attention, and let people enter a state of flow where concentration requires no self-control."
+                                        }
+                                    ]
+                     },
+                     {
+                         "pages":  "",
+                         "title":  "4. The Associative Machine",
+                         "id":  "ch09",
+                         "assets":  [
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Dual-Process Theory | Heuristics \u0026 Statistical Biases",
+                                            "topic":  "Hume\u0027s Three Principles of Association",
+                                            "visual_frame_description":  "A Victorian-style diagram shows the words BANANAS and VOMIT linked by branching threads that light up one by one: one thread to \u0027sick,\u0027 another to \u0027yellow,\u0027 another to \u0027fruit.\u0027 At the bottom of the board sit three labeled bins: Resemblance, Contiguity in Time and Place, and Causality.",
+                                            "player_mission":  "Sort each association into the principle it best illustrates, using David Hume\u0027s three rules of association. Classify all six items correctly to show you understand how the associative machine links ideas.",
+                                            "key_concepts":  [
+                                                                 "Associative activation means ideas that have been evoked trigger many other ideas in a spreading cascade of activity in the brain.",
+                                                                 "The word \u0027vomit\u0027 triggered disgust responses, pushing the book away, raising heart rate, and activating sweat glands, all automatically and beyond control.",
+                                                                 "Your mind automatically assumed a temporal sequence and a causal connection between the words \u0027bananas\u0027 and \u0027vomit.\u0027",
+                                                                 "David Hume reduced the principles of association to three: resemblance, contiguity in time and place, and causality.",
+                                                                 "Ideas are nodes in a vast network called associative memory, each linked to many others.",
+                                                                 "Causes are linked to their effects (virus to cold), things to their properties (lime to green), and things to their categories (banana to fruit).",
+                                                                 "Only a few of the activated ideas register in consciousness; most of the work of associative thinking is silent.",
+                                                                 "Cognition is embodied: you think with your body, not only with your brain.",
+                                                                 "You know far less about yourself than you feel you do."
+                                                             ],
+                                            "difficulty_level":  "Beginner",
+                                            "theory_summary":  "This matrix tests the associative machine\u0027s rules: ideas trigger other ideas along links of resemblance, contiguity, and causality, as David Hume first catalogued. The book shows System 1 builds an entire causal scenario from a mere juxtaposition of words, automatically and without will.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman \u0026 Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "You see the words \u0027bananas\u0027 and \u0027vomit\u0027 side by side, and your mind instantly builds a story in which the bananas made you sick. Which of Hume\u0027s principles is doing the heaviest lifting?",
+                                            "column_a_label":  "Resemblance",
+                                            "column_b_label":  "Contiguity in time and place",
+                                            "column_c_label":  "Causality",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "Reading \u0027lime\u0027 makes you think of the color green.",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "The word \u0027virus\u0027 brings \u0027cold\u0027 to mind.",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "The juxtaposition of \u0027bananas\u0027 and \u0027vomit\u0027 is read as a cause-and-effect sequence.",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "The word \u0027banana\u0027 brings \u0027fruit\u0027 to mind.",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Sitting at a wobbly restaurant table primes the word \u0027wobbly\u0027 later.",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Passing the bakery you walk by every morning makes you think of its smell.",
+                                                             "col":  "b"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "c",
+                                            "distractors":  [
+                                                                "Association happens one idea at a time, like beads on a string.",
+                                                                "The banana-vomit link is a conscious, deliberate inference.",
+                                                                "Only causality matters; resemblance and contiguity are obsolete."
+                                                            ],
+                                            "explanation":  "Hume reduced association to three principles: resemblance (lime to green), contiguity in time and place (the wobbly table and the morning bakery), and causality (virus to cold). The banana-vomit effect is a causal story: System 1 imposed a temporal sequence and a causal link onto two unrelated words. The modern view keeps Hume\u0027s start but notes that much association happens simultaneously and silently, outside awareness."
+                                        },
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Dual-Process Theory | Heuristics \u0026 Statistical Biases",
+                                            "topic":  "Word Priming, Behavioral Priming, and Embodied Priming",
+                                            "visual_frame_description":  "Three laboratory clips play side by side: a screen flashing EAT followed by the fragment SO_P; a hallway where students who unscrambled elderly-themed sentences walk more slowly; and a student holding a pencil in her mouth while rating cartoons. Three columns labeled Word, Behavior, and Embodied wait below.",
+                                            "player_mission":  "Sort each priming demonstration into the right column: conceptual word priming, behavioral (ideomotor) priming, or embodied and reciprocal priming. Classify all six demonstrations correctly.",
+                                            "key_concepts":  [
+                                                                 "Exposure to the word EAT makes you more likely to complete SO_P as SOUP; WASH primes SOAP instead.",
+                                                                 "Priming is not restricted to concepts: your actions and emotions can be primed by events of which you are not even aware.",
+                                                                 "In Bargh\u0027s Florida effect, elderly-themed words made young students walk down a corridor significantly more slowly.",
+                                                                 "The Florida effect is two-stage: words prime thoughts of old age, and these thoughts prime the behavior of walking slowly.",
+                                                                 "None of the students noticed the common theme, and all insisted nothing they did afterward could have been influenced by the words.",
+                                                                 "The influencing of an action by an idea is known as the ideomotor effect.",
+                                                                 "Walking slowly for five minutes made participants quicker to recognize old-age words such as \u0027forgetful,\u0027 a reciprocal priming effect.",
+                                                                 "Students holding a pencil so their face formed a smile found cartoons funnier than those forced into a frown.",
+                                                                 "People told to nod while listening to editorials tended to accept them; those told to shake their heads tended to reject them."
+                                                             ],
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This matrix distinguishes the layers of priming in the associative machine: exposure to a word changes the ease of recognizing related words, primes behaviors through the ideomotor effect, and works reciprocally through the body. The chapter\u0027s demonstrations, Bargh\u0027s Florida effect, the pencil-in-mouth study, and the nod-versus-shake headphone study, all occur without the participant\u0027s awareness.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman \u0026 Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "A job candidate has just unscrambled sentences full of \u0027Florida,\u0027 \u0027bald,\u0027 and \u0027wrinkle.\u0027 She walks to the next interview room noticeably more slowly than when she arrived. Which column explains her pace?",
+                                            "column_a_label":  "Conceptual word priming",
+                                            "column_b_label":  "Behavioral (ideomotor) priming",
+                                            "column_c_label":  "Embodied / reciprocal priming",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "Seeing EAT makes you complete SO_P as SOUP.",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Elderly-themed words make students walk more slowly down a corridor.",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Holding a pencil so your face forms a smile makes cartoons seem funnier.",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Walking at one-third your normal pace makes you quicker to recognize \u0027forgetful\u0027 and \u0027old.\u0027",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Seeing WASH makes you complete SO_P as SOAP.",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Nodding while listening to an editorial makes you accept the message; shaking makes you reject it.",
+                                                             "col":  "c"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "b",
+                                            "distractors":  [
+                                                                "Walking slowly after elderly words is an act of conscious role-playing.",
+                                                                "Priming only affects the recognition of words, never actions or emotions.",
+                                                                "The smile effect works only when you know you are smiling."
+                                                            ],
+                                            "explanation":  "Word fragments show conceptual priming (EAT primes SOUP). The Florida effect is ideomotor, or behavioral, priming: elderly words prime the idea of old age, which in turn primes the behavior of walking slowly, with no awareness. The pencil, slow-walk, and nod studies are embodied and reciprocal: a posture or gesture changes the emotion or attitude, and the state feeds back on itself."
+                                        },
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Dual-Process Theory | Heuristics \u0026 Statistical Biases",
+                                            "topic":  "Money, Mortality, and Moral-Cleansing Primes",
+                                            "visual_frame_description":  "Three experimental rooms appear on screen. In one, a screen saver of dollar bills floats on a monitor while a participant drops a pencil; in another, a subject reads reminders of mortality before answering a questionnaire; in a third, a person who just lied in an email stands in a shop aisle holding soap. Three columns wait beneath.",
+                                            "player_mission":  "Sort each finding into the prime family it demonstrates: money priming (individualism), mortality priming (authoritarian appeal), or moral-cleansing priming (the Lady Macbeth effect). Classify all seven findings correctly.",
+                                            "key_concepts":  [
+                                                                 "Money-primed people persevered almost twice as long on a difficult problem before asking for help.",
+                                                                 "Money-primed participants picked up fewer pencils when an experimenter dropped a bunch on the floor.",
+                                                                 "Money-primed participants set chairs 118 centimeters apart for a chat, far from the 80 centimeters of nonprimed peers.",
+                                                                 "The general theme is that money primes individualism: a reluctance to be involved with, depend on, or accept demands from others.",
+                                                                 "Thinking of an action you are ashamed of makes you more likely to complete W_ _ H as WASH and S_ _ P as SOAP.",
+                                                                 "Thinking about stabbing a coworker in the back leaves people more inclined to buy soap, disinfectant, or detergent.",
+                                                                 "People who lied on the phone preferred mouthwash over soap; those who lied in email preferred soap over mouthwash.",
+                                                                 "Reminding people of their mortality increases the appeal of authoritarian ideas.",
+                                                                 "A culture saturated with reminders of money may shape behavior and attitudes in ways we do not know about and may not be proud of."
+                                                             ],
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This matrix tests the reach of subtle primes into attitudes and purchases: money reminders shift people toward individualism, reminders of mortality toward authoritarian appeal, and moral stains toward physical cleansing (the Lady Macbeth effect). All operate silently in System 1, which is why the chapter says you know far less about yourself than you feel you do.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman \u0026 Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "In a get-acquainted setup, an experimenter asks a participant to set up two chairs for a conversation with a stranger, and the participant places them 118 centimeters apart. What primed that choice?",
+                                            "column_a_label":  "Money priming (individualism)",
+                                            "column_b_label":  "Mortality priming (authoritarian appeal)",
+                                            "column_c_label":  "Moral-cleansing priming (Lady Macbeth effect)",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "Picking up fewer pencils for a stranger who drops them.",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "After lying in an email, preferring soap over mouthwash.",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Thinking of an action you are ashamed of makes you complete W_ _ H as WASH.",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Reminders of death increasing the appeal of authoritarian ideas.",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Persevering almost twice as long on a hard problem before asking for help.",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "After \u0027stabbing a coworker in the back\u0027 in a thought exercise, buying more detergent than juice.",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Choosing to sit much farther apart (118 versus 80 centimeters) before a conversation.",
+                                                             "col":  "a"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "a",
+                                            "distractors":  [
+                                                                "Money primes generosity and helpfulness toward strangers.",
+                                                                "The 118-centimeter distance is a rational preference for personal space.",
+                                                                "Buying soap after a lie is a hygienic habit unrelated to the lie."
+                                                            ],
+                                            "explanation":  "Money cues prime individualism: independence, selfishness, and distance, seen in fewer pencils picked up, farther chairs, and longer self-reliance. Moral-cleansing studies show that a stained conscience triggers a desire to clean the relevant body part, such as washing after email lies and mouthwash after phone lies. The chapter also notes that mortality reminders increase the appeal of authoritarian ideas, as with the Dear Leader portraits that reduce spontaneous independent thought."
+                                        },
+                                        {
+                                            "asset_type":  "DECEPTION_AUDIT_FILE",
+                                            "domain":  "Dual-Process Theory | Heuristics \u0026 Statistical Biases",
+                                            "topic":  "The Honesty Box: Unaware Influence of Watching Eyes",
+                                            "visual_frame_description":  "The player is an office auditor viewing a break-room camera feed above a tea price list. A poster changes each week from wide-open eyes to flowers and back. A contributor, Priya, drops coins into the honesty box, and the screen tallies her payments in pence against the poster type.",
+                                            "player_mission":  "Audit whether Priya\u0027s paying behavior is under her conscious control. Compare her weekly payments with the posters, read the transcript, and decide whether her insistence that posters have no effect is credible.",
+                                            "key_concepts":  [
+                                                                 "In a British university kitchen, an \u0027honesty box\u0027 collected payment for tea and coffee for many years.",
+                                                                 "When posters of watching eyes were displayed, contributions were almost three times higher than in flower weeks.",
+                                                                 "No one commented on the new decorations, yet the amounts paid changed significantly.",
+                                                                 "A purely symbolic reminder of being watched prodded people into improved behavior.",
+                                                                 "The effect occurs without any awareness.",
+                                                                 "Priming phenomena arise in System 1, and you have no conscious access to them.",
+                                                                 "Your subjective experience consists largely of the story that your System 2 tells itself about what is going on.",
+                                                                 "Among a hundred voters, only a few with uncertain preferences will vote differently because of a prime, but a few percent can tip an election."
+                                                             ],
+                                            "difficulty_level":  "Beginner",
+                                            "theory_summary":  "This audit tests the reach of primes without awareness: a purely symbolic reminder of being watched improves honest behavior, and people deny any influence while the effect is measurable. The chapter concludes that priming arises in System 1, to which you have no conscious access, so your sense of being in charge is partly a story System 2 tells.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman \u0026 Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "Priya insists that posters above the office tea fund could never influence her, and that she always pays her fair share. Is her behavior actually under her conscious control, or is she being silently steered by the environment?",
+                                            "subject_baseline":  "Priya, 29, a product manager, is widely seen as scrupulous: she pays for her tea, returns borrowed money on time, and lectures teammates about the \u0027honesty box.\u0027 She has never been caught cheating.",
+                                            "observed_nonverbal_log":  [
+                                                                           "Week 1 - a poster of two wide-open eyes hangs above the price list. Priya puts 140 pence into the box for her week of tea and milk.",
+                                                                           "Week 2 - the poster changes to flowers. Priya drops in 30 pence, then refills her mug and leaves without looking at the price list.",
+                                                                           "Week 4 - flowers again. She adds 20 pence for two days of coffee.",
+                                                                           "Week 5 - the eyes return. Priya hesitates at the box, glances up at the poster, and adds 110 pence."
+                                                                       ],
+                                            "interrogation_transcript":  [
+                                                                             "Auditor: \u0027Did you notice the posters above the price list?\u0027",
+                                                                             "Priya: \u0027Honestly? No. I never look up.\u0027",
+                                                                             "Auditor: \u0027In flower weeks you paid about a fifth of what you paid in eye weeks.\u0027",
+                                                                             "Priya: \u0027That\u0027s impossible. I pay what I owe, every time. The posters have nothing to do with me.\u0027",
+                                                                             "Auditor: \u0027So the eye weeks and flower weeks differ by chance?\u0027",
+                                                                             "Priya: \u0027They must. I\u0027m not the kind of person who\u0027d be swayed by a picture.\u0027"
+                                                                         ],
+                                            "correct_diagnosis":  "Priya is not deliberately cheating, but her paying is not under her conscious control: a symbolic image of watching eyes raises her contributions to roughly three times the flower-week level, and she is completely unaware of the influence.",
+                                            "diagnostic_breakdown":  "In the British university study, contributions averaged almost three times more in \u0027eye weeks\u0027 than in \u0027flower weeks,\u0027 with nobody commenting on the posters or noticing the manipulation. Priya shows the same signature: she pays dramatically more when watched-eyes imagery is present, denies noticing the posters, and insists her behavior is unaffected. Her confident \u0027I\u0027m not the kind of person\u0027 claim is exactly the System 2 story that priming research shows is unreliable.",
+                                            "distractors":  [
+                                                                "Priya is consciously cheating and the posters are irrelevant.",
+                                                                "Priya\u0027s payments vary because she uses the kitchen more in some weeks.",
+                                                                "Priya noticed the posters and is consciously imitating the study."
+                                                            ]
+                                        },
+                                        {
+                                            "asset_type":  "DECEPTION_AUDIT_FILE",
+                                            "domain":  "Dual-Process Theory | Heuristics \u0026 Statistical Biases",
+                                            "topic":  "The Lady Macbeth Effect: Moral Stains and Cleaning",
+                                            "visual_frame_description":  "The player is an auditor reviewing a single day in the life of a sales manager through a timeline of stills. Omar sends an email, then appears in a shop aisle holding soap, washes his hands at a sink, and later asks where the mouthwash is kept. Each still is timestamped.",
+                                            "player_mission":  "Audit whether Omar\u0027s behavior after sending a dishonest email reveals a hidden moral discomfort. Compare his baseline habits with the timed observations and the transcript, then file the correct diagnosis.",
+                                            "key_concepts":  [
+                                                                 "Feeling that one\u0027s soul is stained appears to trigger a desire to cleanse one\u0027s body, an impulse dubbed the \u0027Lady Macbeth effect.\u0027",
+                                                                 "People asked to think of an action they are ashamed of are more likely to complete W_ _ H as WASH.",
+                                                                 "Merely thinking about stabbing a coworker in the back leaves people more inclined to buy soap, disinfectant, or detergent than batteries, juice, or candy bars.",
+                                                                 "The cleansing is highly specific to the body parts involved in a sin.",
+                                                                 "People who lied on the phone preferred mouthwash over soap; people who lied in email preferred soap over mouthwash.",
+                                                                 "Priming effects threaten our self-image as conscious, autonomous authors of our judgments and choices.",
+                                                                 "The associations connecting guilt to cleansing are unconscious and automatic.",
+                                                                 "Associative activation produces a self-reinforcing pattern of cognitive, emotional, and physical responses."
+                                                             ],
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This audit tests the Lady Macbeth effect: moral contamination primes physical cleansing, specific to the body part used in the transgression. The chapter reports that merely thinking about a betrayal leaves people more inclined to buy soap and disinfectant, demonstrating how unconscious associations connect abstract guilt to concrete behavior.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman \u0026 Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "Omar lied to a client in an email and now claims he \u0027feels fine about it.\u0027 Is his behavior consistent with feeling untroubled, or does his conduct betray a hidden moral stain?",
+                                            "subject_baseline":  "Omar, 36, a sales account manager, is normally unfussy: he drinks black coffee, buys batteries and snacks, and never mentions hygiene products. He is proud of \u0027moving on quickly\u0027 after difficult calls.",
+                                            "observed_nonverbal_log":  [
+                                                                           "14:02 - Omar sends the exaggerated email inflating the delivery timeline. He clears his throat twice and runs a hand over his face.",
+                                                                           "14:30 - In the company shop, he lingers in the soap and disinfectant aisle for over a minute, then buys a bottle of antibacterial hand wash.",
+                                                                           "15:10 - He washes his hands at the sink even though he touched nothing but his keyboard.",
+                                                                           "16:00 - Offered a free snack, he declines and instead asks where the mouthwash is kept."
+                                                                       ],
+                                            "interrogation_transcript":  [
+                                                                             "Auditor: \u0027How do you feel about that email you sent the client?\u0027",
+                                                                             "Omar: \u0027Totally fine. It\u0027s business. I don\u0027t carry that stuff around.\u0027",
+                                                                             "Auditor: \u0027You bought hand wash this afternoon. Do you usually?\u0027",
+                                                                             "Omar: \u0027I\u0027ve been... thinking about hygiene, I guess. No reason.\u0027",
+                                                                             "Auditor: \u0027And you asked for mouthwash?\u0027",
+                                                                             "Omar: \u0027Just checking stock. I\u0027m not stressed about anything, if that\u0027s what you\u0027re asking.\u0027"
+                                                                         ],
+                                            "correct_diagnosis":  "Omar is not consciously washing away guilt, but his behavior reveals an unconscious moral-cleansing drive: committing a deceitful act in email primed him to seek physical cleansing, especially for the body part, the hands, involved in the sin.",
+                                            "diagnostic_breakdown":  "The Lady Macbeth studies show that a stained conscience triggers a desire to cleanse: people who lied in an email preferred soap to mouthwash, while those who lied on the phone preferred mouthwash to soap, and thinking about stabbing a coworker in the back increased purchases of soap and disinfectant. Omar\u0027s email lie, his hand-washing, his soap purchase, and his mouthwash question all cluster around the hands and mouth of the \u0027sin,\u0027 and he offers no conscious explanation, the tell-tale pattern of a priming effect operating below awareness.",
+                                            "distractors":  [
+                                                                "Omar is deliberately trying to conceal the lie by buying cleaning products.",
+                                                                "Omar is naturally germ-averse and shops this way every week.",
+                                                                "Omar is worried the client will sue him."
+                                                            ]
+                                        },
+                                        {
+                                            "asset_type":  "DECEPTION_AUDIT_FILE",
+                                            "domain":  "Dual-Process Theory | Heuristics \u0026 Statistical Biases",
+                                            "topic":  "The Nod-and-Shake Effect: Gestures Steering Judgment",
+                                            "visual_frame_description":  "The player is an auditor reviewing a procurement evaluation session. Diego wears large headphones, and the screen shows a side view of him shaking his head side to side every few seconds while a recorded supplier pitch plays. He writes \u0027REJECT\u0027 on a score sheet.",
+                                            "player_mission":  "Audit whether Diego\u0027s rejection of the supplier\u0027s proposal is a purely rational judgment of the content, or whether his repeated head-shaking gesture steered his verdict. Weigh the observation log and transcript, then file the diagnosis.",
+                                            "key_concepts":  [
+                                                                 "People asked to listen to messages through new headphones were told to move their heads repeatedly to check for distortions of sound.",
+                                                                 "Those who were told to nod their head up and down tended to accept the radio editorials they heard.",
+                                                                 "Those who were told to shake their heads tended to reject the message.",
+                                                                 "There was no awareness, just a habitual connection between an attitude of rejection or acceptance and its common physical expression.",
+                                                                 "Reciprocal links in the associative network mean behavior feeds back into feeling.",
+                                                                 "Being amused tends to make you smile, and smiling tends to make you feel amused.",
+                                                                 "The admonition to \u0027act calm and kind regardless of how you feel\u0027 is good advice because you are likely to be rewarded by actually feeling calm and kind.",
+                                                                 "Simple, common gestures can unconsciously influence our thoughts and feelings."
+                                                             ],
+                                            "difficulty_level":  "Advanced",
+                                            "theory_summary":  "This audit tests embodied priming of attitudes: a repeated yes or no gesture can push judgment toward acceptance or rejection without awareness. The chapter\u0027s nod-and-shake study shows the habitual link between a gesture and its meaning, and supports the advice to act calm and kind regardless of how you feel because behavior feeds back into feeling.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman \u0026 Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "Diego insists his rejection of the supplier\u0027s proposal is a purely rational judgment of the content. Was his verdict actually steered by something irrelevant?",
+                                            "subject_baseline":  "Diego, 41, a procurement officer, was asked to \u0027test new headphones\u0027 by moving his head repeatedly to check for audio distortion while listening to a recorded supplier pitch. He is confident and says he does not do gut reactions.",
+                                            "observed_nonverbal_log":  [
+                                                                           "12:01 - Diego is told to shake his head side to side every few seconds during the playback, allegedly to test the headphones.",
+                                                                           "12:02 - He shakes his head as instructed, even as the pitch\u0027s strongest argument plays.",
+                                                                           "12:05 - He removes the headphones, writes \u0027REJECT - weak overall\u0027 in two minutes, and pushes the score sheet away.",
+                                                                           "12:08 - Asked to recall one strong point from the pitch, he cannot name any."
+                                                                       ],
+                                            "interrogation_transcript":  [
+                                                                             "Auditor: \u0027You rejected the proposal in under three minutes. Why?\u0027",
+                                                                             "Diego: \u0027It was weak. I could just tell.\u0027",
+                                                                             "Auditor: \u0027You were shaking your head the whole time you listened. Did that feel relevant?\u0027",
+                                                                             "Diego: \u0027I was testing the audio. It has zero to do with my judgment.\u0027",
+                                                                             "Auditor: \u0027But you rated it weak overall - the same verdict your body was rehearsing.\u0027",
+                                                                             "Diego: \u0027Coincidence. I\u0027d have said the same thing with headphones off.\u0027"
+                                                                         ],
+                                            "correct_diagnosis":  "Diego\u0027s rejection was steered by an embodied prime: the habitual no-gesture of shaking transferred its meaning onto the message he was evaluating, and he had no awareness of the influence.",
+                                            "diagnostic_breakdown":  "In the headphone study, participants told to nod while listening to radio editorials tended to accept the message, while those told to shake their heads tended to reject it, with no awareness of the manipulation. Diego was assigned the shake condition, and his swift blanket rejection, combined with his inability to recall a single strong point, is exactly the pattern: a habitual connection between a rejection gesture and an attitude of rejection, operating entirely outside his System 2.",
+                                            "distractors":  [
+                                                                "Diego actually disliked the headphones and vented on the pitch.",
+                                                                "Diego is lying and had already decided to reject the supplier before listening.",
+                                                                "Diego\u0027s verdict is accurate because he is an experienced procurement officer."
+                                                            ]
+                                        },
+                                        {
+                                            "asset_type":  "BOSS_BATTLE",
+                                            "domain":  "Dual-Process Theory | Heuristics \u0026 Statistical Biases",
+                                            "topic":  "The Honesty Box: Using a Being-Watched Prime Responsibly",
+                                            "visual_frame_description":  "The break-room wall of a London marketing agency. Above the price list for tea and milk hangs a poster of two wide-open eyes. For ten weeks the image alternates: eyes, flowers, eyes, flowers. The staff never comment on it, but the honesty box fills when the eyes are up and empties when flowers appear.",
+                                            "player_mission":  "Explain why contributions jump sharply in eye weeks despite nobody mentioning the posters, then choose a low-cost policy for a shared snack pantry that applies the priming evidence responsibly. Defeat the boss by making the environment work without coercion.",
+                                            "key_concepts":  [
+                                                                 "The honesty-box study is presented as a perfect demonstration of a priming effect.",
+                                                                 "A banner poster displayed above the price list was changed weekly for ten weeks, alternating flowers and watching eyes.",
+                                                                 "Contributions averaged almost three times more in eye weeks than in flower weeks.",
+                                                                 "The effect happens without any awareness and with nobody commenting on the decorations.",
+                                                                 "A purely symbolic reminder of being watched prodded people into improved behavior.",
+                                                                 "Priming phenomena arise in System 1, to which you have no conscious access.",
+                                                                 "The effects of the primes are robust but not necessarily large, yet a few percent can tip an election or a budget.",
+                                                                 "System 2 believes that it is in charge and that it knows the reasons for its choices."
+                                                             ],
+                                            "difficulty_level":  "Beginner",
+                                            "theory_summary":  "This battle tests the power of an ambient prime to change behavior silently: an image of eyes improves honesty-box payments almost threefold even though no one notices it. The chapter presents this as a perfect demonstration that System 1 is influenced by primes to which System 2 has no access.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman \u0026 Tversky; Nobel 2002)"
+                                                            },
+                                            "boss_battle_explanation":  "The boss is the environment itself: an office where a symbolic image of watching eyes reliably lifts honesty-box contributions to roughly three times the level of flower weeks. The battle is to understand that prime and to use it responsibly.",
+                                            "stage_1_observation":  "The break-room wall of a London marketing agency. Above the price list for tea and milk hangs a poster of two wide-open eyes. For ten weeks the image alternates: eyes, flowers, eyes, flowers. The staff never comment on it, but the honesty box fills when the eyes are up and empties when flowers appear.",
+                                            "stage_1_question":  "Why do contributions jump so sharply in eye weeks despite nobody mentioning the posters?",
+                                            "stage_1_correct_answer":  "A purely symbolic reminder of being watched primes prosocial behavior without awareness: in the British kitchen study, contributions averaged almost three times more in eye weeks than in flower weeks, with no one noticing the change.",
+                                            "stage_2_intervention":  "You manage a shared snack pantry where losses run high, and you must choose a low-cost policy. Which approach best reflects what the priming evidence supports?",
+                                            "stage_2_correct_answer":  "Add a discreet image of watching eyes above the price list rather than installing cameras, signs, or fines: the symbolic prime raises compliance without creating distrust or surveillance."
+                                        },
+                                        {
+                                            "asset_type":  "BOSS_BATTLE",
+                                            "domain":  "Dual-Process Theory | Heuristics \u0026 Statistical Biases",
+                                            "topic":  "The Money Screen Saver: Individualism by Ambience",
+                                            "visual_frame_description":  "The sales floor of a software company. Two labs are set up identically except that one team\u0027s breakroom computer runs a screen saver of dollar bills floating in water. In a collaboration drill, the money-primed team persists twice as long before asking for help, picks up fewer pencils dropped by a clumsy colleague, and sets chairs far apart for a chat.",
+                                            "player_mission":  "Identify the single theme that explains the whole cluster of money-primed behaviors, then advise the CEO on how to foster collaboration given that money reminders quietly shape behavior. Defeat the boss by acting on the research rather than on intuition.",
+                                            "key_concepts":  [
+                                                                 "Money-primed people become more independent than they would be without the associative trigger.",
+                                                                 "They persevered almost twice as long on a very difficult problem before asking the experimenter for help.",
+                                                                 "Money-primed people are more selfish: much less willing to spend time helping a student who pretended to be confused.",
+                                                                 "When an experimenter dropped a bunch of pencils, the participants with money on their mind picked up fewer pencils.",
+                                                                 "Money-primed participants placed chairs 118 centimeters apart for a get-acquainted chat, versus 80 centimeters for nonprimed peers.",
+                                                                 "Money-primed undergraduates showed a greater preference for being alone.",
+                                                                 "The idea of money primes individualism: a reluctance to be involved with, depend on, or accept demands from others.",
+                                                                 "The psychologist Kathleen Vohs conducted this research and was laudably restrained in discussing its implications.",
+                                                                 "A culture that surrounds us with reminders of money may shape our behavior and attitudes in ways that we do not know about."
+                                                             ],
+                                            "difficulty_level":  "Advanced",
+                                            "theory_summary":  "This battle tests the money-priming effect: reminders of money push people toward individualism, greater self-reliance, less helpfulness, and more distance from others, all without awareness. The chapter, citing Kathleen Vohs\u0027s experiments, warns that a culture saturated with money reminders may quietly shape attitudes in ways people do not recognize.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman \u0026 Tversky; Nobel 2002)"
+                                                            },
+                                            "boss_battle_explanation":  "The boss is a screen saver of dollar bills: a workplace ambient prime that quietly shifts everyone toward individualism. The battle is to recognize how money reminders change behavior and decide what to do about them.",
+                                            "stage_1_observation":  "The sales floor of a software company. Two labs are set up identically except that one team\u0027s breakroom computer runs a screen saver of dollar bills floating in water. In a collaboration drill, the money-primed team persists twice as long before asking for help, picks up fewer pencils dropped by a clumsy colleague, sets chairs 118 centimeters apart for a chat, and says it prefers working alone.",
+                                            "stage_1_question":  "What single theme explains the whole cluster of money-primed behaviors?",
+                                            "stage_1_correct_answer":  "Money primes individualism: a reluctance to depend on others, help others, or accept demands from others, shown in longer self-reliance, fewer pencils picked up, farther chair placement, and a preference for solitude.",
+                                            "stage_2_intervention":  "Your CEO wants next quarter to be the most collaborative quarter ever, but the lobby TV loops stock tickers and the breakroom shows cash-counting footage. Choose the move that best applies the research.",
+                                            "stage_2_correct_answer":  "Remove the money reminders from shared spaces and replace them with neutral or warm imagery, because the research shows money cues shift behavior toward independence and selfishness even when people deny any effect."
+                                        }
+                                    ]
+                     }
+                 ],
+    "spec_file":  "spec_kahneman_b03.json"
+}

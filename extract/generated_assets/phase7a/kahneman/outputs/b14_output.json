@@ -1,0 +1,742 @@
+{
+  "spec_file": "spec_kahneman_b14.json",
+  "chapters": [
+    {
+      "id": "ch27",
+      "title": "22. Expert Intuition: When Can We Trust It?",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Recognition-Primed Decision vs. Question Substitution",
+          "visual_frame_description": "Split-screen hospital scene. Left: Dr. Ana Mora, a 14-year trauma veteran, stands in a trauma bay while a crash victim is wheeled in on a gurney and monitors beep; a resident holds a tablet. Right: a boardroom where a woman in a navy suit stares at a slide that pairs the CEO's portrait with the label 'patient volume forecast.' A sorting board with three labeled columns spans the bottom of the screen.",
+          "player_mission": "Read each evidence card and drag it into the mechanism column it best supports. Then select the single mechanism that best explains Ana's rapid 'torn aorta' call before the next shift begins.",
+          "key_concepts": [
+            "Intuition is recognition: the situation provides a cue that gives the expert access to information stored in memory, and the information provides the answer.",
+            "The recognition-primed decision (RPD) model describes expertise in firefighting, chess, and other domains.",
+            "RPD has two phases: a tentative plan comes to mind automatically from associative memory (System 1), then is mentally simulated to check if it will work (System 2).",
+            "Fireground commanders usually generate only a single plausible option, not a pair of options to compare.",
+            "If a course of action has shortcomings, the expert modifies it; if it cannot be easily modified, she turns to the next most plausible option.",
+            "System 1 is often able to produce quick answers to difficult questions by substitution, creating coherence where there is none.",
+            "The question that is answered by substitution is not the one that was intended, but the answer is quick and plausible enough to pass the lenient review of System 2.",
+            "Voters elected Harding because they substituted an intuitive judgment of his strong, decisive appearance for a forecast of his presidential performance.",
+            "A reader of the book should expect a substituted intuition to be held with confidence.",
+            "The mystery of knowing without knowing is not a distinctive feature of intuition; it is the norm of mental life."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the contrast between recognition-primed intuition and question substitution. Klein's RPD model shows skilled intuition as System 1 pattern recognition checked by a System 2 mental simulation, whereas Kahneman shows that System 1 can substitute an easy question for a hard one, producing confident but misdirected judgments.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "At Memorial General's trauma bay, Dr. Ana Mora takes one look at a crash victim and tells the resident to prep for a torn aorta. Across town, a hospital board member predicts next quarter's patient volume based on how impressed she is by the CEO's presentation. Both judgments were fast and confident. Sort the evidence below into the mechanism that best explains it, then answer: which mechanism explains Ana's rapid judgment?",
+          "column_a_label": "Recognition-primed intuition (System 1 pattern recognition plus System 2 simulation)",
+          "column_b_label": "Question substitution (System 1 answers an easier question than the one asked)",
+          "column_c_label": "Deliberate statistical algorithm (System 2 computes from base rates)",
+          "rows": [
+            {
+              "label": "Ana's single plan to prep for the aorta comes to mind automatically and she mentally simulates it before acting.",
+              "col": "a"
+            },
+            {
+              "label": "The board member believes she is forecasting patient volume, but her judgment tracks the CEO's perceived energy and competence.",
+              "col": "b"
+            },
+            {
+              "label": "Fireground commanders usually generate only one option and simulate whether it will work in the situation they are facing.",
+              "col": "a"
+            },
+            {
+              "label": "Harding was elected because voters substituted a judgment of his strong, decisive appearance for a forecast of presidential performance.",
+              "col": "b"
+            },
+            {
+              "label": "The situation provides a cue; the cue gives the expert access to information stored in memory, and the information provides the answer.",
+              "col": "a"
+            },
+            {
+              "label": "The question that is answered is not the one that was intended, yet the quick answer passes the lax and lenient review of System 2.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The call was a lucky guess because Ana had no cues, just a hunch.",
+            "Ana answered a different, easier question than the one posed to her.",
+            "Ana ran a formal probabilistic model on the patient's charts before responding."
+          ],
+          "explanation": "The rows split between two System 1 operations. Ana's judgment fits recognition-primed decision making: a cue in the situation gives access to stored patterns, a single tentative plan comes to mind automatically (System 1), and she checks it by mental simulation (System 2), exactly the two-phase process Klein described. The board member and the Harding voters instead exhibit substitution: System 1 answers an easy question about impressions (competence, appearance) while the judge believes she is answering the hard forecast question. Because the substituted answer is quick and plausible, System 2 endorses it, which is why both kinds of judgment are held with high confidence. The correct overall answer is 'a': Ana's rapid call is genuine recognition."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Conditions for Trustworthy Intuition",
+          "visual_frame_description": "A hospital-network operations conference room, with a mentor standing at a whiteboard divided into three columns. Small vignette cards float across the screen: an operating room with an anesthesiologist, a stock ticker wall, a nineteenth-century clinic with a doctor in a frock coat, a burning building with a chief in turnout gear, a parliament building with a pundit's face, and a surgeon's operating table.",
+          "player_mission": "Drag each professional-setting card into the column that describes its environment. Then select the single column where you can legitimately trust an expert's intuition.",
+          "key_concepts": [
+            "The two conditions for acquiring a skill are a sufficiently regular environment and an opportunity to learn the regularities through prolonged practice.",
+            "When both conditions are satisfied, intuitions are likely to be skilled.",
+            "Chess is an extreme example of a regular environment; bridge and poker also provide robust statistical regularities that can support skill.",
+            "Stock pickers and political scientists who make long-term forecasts operate in a zero-validity environment.",
+            "Robin Hogarth described 'wicked' environments in which professionals are likely to learn the wrong lessons from experience.",
+            "The typhoid physician developed a sense of clinical infallibility because his own unwashed hands spread the disease.",
+            "Anesthesiologists benefit from good feedback because the effects of their actions are quickly evident.",
+            "Radiologists obtain little information about the accuracy of their diagnoses, so their feedback is sparse or absent.",
+            "If a strong predictive cue exists, human observers will find it, given a decent opportunity to do so.",
+            "Intuition cannot be trusted in the absence of stable regularities in the environment."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the boundary condition for skilled intuition: a regular, predictable environment plus an opportunity to learn its regularities through practice. Kahneman and Klein agreed that when both conditions hold, intuitions are likely to be valid, while in zero-validity or wicked environments confidence is not diagnostic of accuracy.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Your mentor at a hospital network is deciding whose gut judgment to trust in an operations meeting, and the candidates disagree. Sort the professional settings below by whether their environment can support skilled intuition, then answer: which column describes the environment where you can legitimately trust an expert's intuition?",
+          "column_a_label": "Regular environment with opportunity to learn (skilled intuition possible)",
+          "column_b_label": "Low-validity or zero-validity environment (no reliable cues to learn)",
+          "column_c_label": "Wicked environment (feedback teaches the wrong lesson)",
+          "rows": [
+            {
+              "label": "Anesthesiologists, because the effects of their actions are quickly evident in the operating room.",
+              "col": "a"
+            },
+            {
+              "label": "Stock pickers making long-term forecasts of company value.",
+              "col": "b"
+            },
+            {
+              "label": "A physician in the early twentieth century who palpated patients' tongues without washing his hands, then watched patient after patient become ill.",
+              "col": "c"
+            },
+            {
+              "label": "Fireground commanders who accumulate a decade of real and virtual experience fighting fires.",
+              "col": "a"
+            },
+            {
+              "label": "Political scientists making forecasts a decade ahead.",
+              "col": "b"
+            },
+            {
+              "label": "Surgeons, who can be highly proficient in some operations while remaining novices in others.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Trust the most self-confident professional, because subjective confidence reliably tracks accuracy.",
+            "Low-validity environments still allow skilled intuition as long as the expert has practiced for many years.",
+            "Any environment produces skilled intuition equally, because expertise is a single transferable skill."
+          ],
+          "explanation": "The two conditions for acquiring a skill are an environment sufficiently regular to be predictable and an opportunity to learn the regularities through prolonged practice. Anesthesiologists, firefighters, and surgeons face complex but fundamentally orderly situations, so their intuitions can be skilled. Stock pickers and long-term political forecasters operate in a zero-validity environment where the events they forecast are fundamentally unpredictable, so their failures reflect the environment rather than a lack of talent. The typhoid physician is the classic wicked environment: he learned infallibility from outcomes that his own unwashed hands had caused, the wrong lesson from experience. The correct answer is 'a': regularity plus a learning opportunity is the boundary condition for trusting intuition."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "WYSIATI and Subjective Confidence",
+          "visual_frame_description": "A coaching studio with a long glass table. Six evidence cards float over the table: a chessboard in a mid-game tactical position, a dark radiology reading room, a glowing narrative labeled 'the story,' a silent web of associative nodes, a statistician's spreadsheet, and a quote of Kahneman's words in quotation marks. Three labeled columns line the back wall.",
+          "player_mission": "Classify each source of confidence into the correct mechanism column. Then select the mechanism that best explains why unfounded intuitions are held with such high confidence.",
+          "key_concepts": [
+            "Confidence in a belief traces to two related impressions: cognitive ease and coherence.",
+            "We are confident when the story we tell ourselves comes easily to mind, with no contradiction and no competing scenario.",
+            "Ease and coherence do not guarantee that a belief held with confidence is true.",
+            "The associative machine is set to suppress doubt and to evoke ideas and information that are compatible with the currently dominant story.",
+            "A mind that follows WYSIATI will achieve high confidence much too easily by ignoring what it does not know.",
+            "Subjective confidence is not a reliable guide to the validity of an intuition.",
+            "True experts know the limits of their knowledge, while pseudo-experts have no idea that they do not know what they are doing.",
+            "Statistical algorithms greatly outdo humans in noisy environments because they are more likely to detect weakly valid cues and to use them consistently.",
+            "Judgments that answer the wrong question can also be made with high confidence.",
+            "At least 10,000 hours of dedicated practice are required to attain the highest levels of chess performance."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the WYSIATI account of overconfidence: cognitive ease and coherence generate subjective confidence without regard to whether valid cues exist. Kahneman argues that because the mind ignores what it does not know and suppresses doubt, high confidence accompanies unfounded intuitions as easily as genuine ones, making subjective confidence a poor index of accuracy.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "A leadership coach is teaching executives how to weigh confidence. The claim on the table is 'I trust my gut, and I am rarely wrong.' Sort the evidence below by the source of the confidence, then answer: which mechanism best explains why high confidence so often accompanies unfounded intuitions?",
+          "column_a_label": "WYSIATI-driven confidence (the mind ignores what it does not know)",
+          "column_b_label": "Confidence earned from a valid learning history (skilled intuition)",
+          "column_c_label": "Algorithmic consistency (weak cues applied reliably by a model)",
+          "rows": [
+            {
+              "label": "A mind that follows WYSIATI achieves high confidence much too easily by ignoring what it does not know.",
+              "col": "a"
+            },
+            {
+              "label": "A chess master's certainty about a tactical sequence after ten thousand hours of dedicated practice.",
+              "col": "b"
+            },
+            {
+              "label": "A radiologist who is confident about diagnoses whose accuracy she never learns about.",
+              "col": "a"
+            },
+            {
+              "label": "Statistical algorithms are more likely than human judges to detect weakly valid cues and to maintain modest accuracy by using them consistently.",
+              "col": "c"
+            },
+            {
+              "label": "The associative machine suppresses doubt and evokes ideas that are compatible with the currently dominant story.",
+              "col": "a"
+            },
+            {
+              "label": "Subjective confidence is not a good diagnostic of accuracy because judgments that answer the wrong question can be made with high confidence.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Confidence is produced only by explicit, deliberate reasoning about the evidence.",
+            "WYSIATI applies only to perception and never to judgments about what one knows.",
+            "Algorithms are always worse than human experts at detecting weakly valid cues."
+          ],
+          "explanation": "Confidence in a belief traces to two impressions: cognitive ease and coherence. The story comes easily to mind with no contradiction, so the mind feels sure. Because the associative machine suppresses doubt and WYSIATI makes the mind ignore what it does not know, high confidence is reached much too easily and does not distinguish a substituted, unfounded judgment from a genuinely skilled one. The chess master's confidence, by contrast, is grounded in a decade of practice in a regular environment, and the algorithm's modest, consistent accuracy in noisy environments is exactly what Meehl's research documents. The overall answer is 'a': WYSIATI is why confidence so often overreaches the evidence."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Anesthesiologist's Sixth Sense (Genuine Skilled Intuition)",
+          "visual_frame_description": "A hospital case-conference room with a long oak table. Dr. Yuki Tanaka sits across from a quality-review board, an anesthesia logbook open in front of her. A timeline of timed observations plays along the bottom of the screen with timestamps, and a transcript window shows the Q&A scrolling beside the speakers.",
+          "player_mission": "Review Dr. Tanaka's baseline, watch the timed nonverbal log, and read the interrogation transcript. Decide whether her claim is genuine skilled intuition, an illusion of validity, or deliberate deception, and justify the verdict with evidence.",
+          "key_concepts": [
+            "Anesthesiologists benefit from good feedback because the effects of their actions are likely to be quickly evident.",
+            "Radiologists obtain little information about the accuracy of the diagnoses they make, which is why their intuitive skills develop less.",
+            "When an anesthesiologist says 'I have a feeling something is wrong,' everyone in the operating room should prepare for an emergency.",
+            "Intuition is recognition: the situation provides a cue that gives the expert access to information stored in memory.",
+            "Subjective confidence is not a reliable guide to the validity of an intuition.",
+            "Klein's observation is that true experts know the limits of their knowledge.",
+            "The accurate intuitions Klein described are due to highly valid cues that System 1 has learned to use, even if System 2 has not learned to name them.",
+            "Expertise is not a single skill; it is a collection of skills, and the same professional may be expert in some tasks while a novice in others.",
+            "Whether professionals develop intuitive expertise depends on the quality and speed of feedback and on sufficient opportunity to practice.",
+            "Emotional learning can be quick, but expertise in complex tasks is slow because it is a large collection of miniskills."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests whether a confident claim reflects skilled intuition or an illusion of validity. Because Dr. Tanaka works in a regular environment with rapid feedback and can name a valid cue and a past failure, her 'feeling something is wrong' is recognition-based skill rather than overconfidence or deception.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Dr. Yuki Tanaka, a 58-year-old anesthesiologist at St. Cecilia's Hospital, tells a quality-review board that when she gets 'a feeling something is wrong' in the operating room, the team should prepare for an emergency. Is her claim genuine skilled intuition, an illusion of validity, or deliberate self-promotion?",
+          "subject_baseline": "Dr. Yuki Tanaka is a 58-year-old anesthesiologist at St. Cecilia's Hospital with 30 years of operating-room experience. Colleagues describe her as calm and understated; she rarely makes dramatic claims and is known for catching subtle trends in heart rate and blood pressure that others miss. She keeps meticulous anesthesia records and reviews them monthly.",
+          "observed_nonverbal_log": "14:02 - Case conference begins; Dr. Tanaka is asked whether her intraoperative warnings are 'just intuition.' She nods slowly, with no defensiveness and steady eye contact. 14:05 - She opens her logbook and points to two specific cases from the past month; her voice is even and her pacing deliberate. 14:09 - Asked whether she can name the cue she uses, she pauses briefly, then says she tracks small, consistent drifts in vital signs that the monitor alarms are too slow to flag. 14:12 - Asked whether she has ever been wrong when she felt something was wrong, she answers immediately and without hedging that yes, she has been wrong, and describes a near-miss she misread three years ago. 14:15 - She does not boast, does not raise her voice, and does not dismiss the question as naive.",
+          "interrogation_transcript": "Q: Dr. Tanaka, when you get that feeling in the OR, what exactly are you responding to?\nTanaka: The numbers tell a story before the alarms do. A slow drift in saturation, a heart rate that climbs a little and doesn't come back. I've seen those patterns end badly, so I say something.\nQ: How do you know the warning is worth acting on?\nTanaka: Because I've been in that room a few thousand times, and when I've acted on it, the team catches it early. When I didn't act once, three years ago, I was wrong to stay quiet.\nQ: Aren't you just being dramatic? Confident people say this all the time.\nTanaka: I'm not trying to be confident. I'm telling you the trend is there. Check the chart.\nQ: If you can name the cue, is it really intuition?\nTanaka: The recognition is automatic. Naming it afterwards is the part that takes a second.",
+          "correct_diagnosis": "Genuine skilled intuition, not deception and not an illusion of validity. Dr. Tanaka operates in a regular environment where the effects of her actions are quickly evident, has a long and documented learning history, can articulate the cue, and reports a concrete past failure, which is the signature of an expert who knows the limits of her knowledge.",
+          "diagnostic_breakdown": "Her baseline shows no pattern of boasting or overclaiming, so the confident tone is not deception. The key evidence is environmental: anesthesiologists receive immediate feedback because their interventions change vital signs within seconds, which the book identifies as a condition for developing skilled intuition. Her ability to name the cue (slow drifts in saturation and heart rate) and her willingness to cite a past misreading are signs that she has learned the regularities rather than mistaking luck for skill. The chapter's rule applies directly: when an anesthesiologist says 'I have a feeling something is wrong,' everyone in the operating room should prepare for an emergency.",
+          "distractors": [
+            "She is suffering from the illusion of validity, because her confidence reflects cognitive ease rather than skill.",
+            "She is deliberately exaggerating her warnings to raise her standing at the hospital.",
+            "Her intuition is bogus because she can name the cue, and true intuition is supposed to be ineffable."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Self-Confident Stock Picker (Illusion of Validity)",
+          "visual_frame_description": "A glass-walled broadcast studio for an investor panel. Marcus Delgado sits in a leather chair, hands clasped, facing a moderator and a bank of cameras. A thin timeline of timed observations with timestamps scrolls across the bottom, and a transcript panel slides up beside the speakers as the interview plays.",
+          "player_mission": "Audit Marcus Delgado's claim: study his baseline, the timed nonverbal log, and the transcript. Determine whether his 'sixth sense' is genuine skill, an illusion of validity, or outright fabrication, and mark the verdict with supporting evidence.",
+          "key_concepts": [
+            "Stock pickers making long-term forecasts operate in a zero-validity environment.",
+            "The failures of stock pickers reflect the basic unpredictability of the events they try to forecast.",
+            "As a general proposition, subjective confidence is commonly too high and often uninformative.",
+            "There are many pseudo-experts who have no idea that they do not know what they are doing.",
+            "In the absence of valid cues, intuitive 'hits' are due either to luck or to lies.",
+            "It seems fair to blame professionals for believing they can succeed in an impossible task.",
+            "Substituted judgments, which answer the wrong question, can be made with high confidence.",
+            "Whether professionals develop intuitive expertise depends on the quality and speed of feedback.",
+            "Klein and Kahneman agreed that confidence in intuitions is not a reliable guide to their validity.",
+            "The unrecognized limits of professional skill help explain why experts are often overconfident."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the illusion of validity in a zero-validity environment. Marcus's unverifiable confidence and refusal to confront a track record fit Kahneman's finding that subjective confidence is a poor index of accuracy, and that in the absence of stable regularities intuitive hits are luck or self-deception.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Marcus Delgado, a 55-year-old equity strategist at Meridian Capital, tells an investor panel that he has a 'sixth sense' for which stocks will triple over the next five years. Should the panel trust his intuition, or is this an illusion of validity or even fabrication?",
+          "subject_baseline": "Marcus spent 22 years as a senior analyst and is famous for his rapid-fire confidence: he answers questions instantly, never second-guesses himself, and has built a public brand on decisive calls. He keeps no personal track record of his long-term predictions, and colleagues note that he celebrates his hits and rarely revisits his misses.",
+          "observed_nonverbal_log": "10:03 - Asked how often his five-year stock calls are correct, Marcus smiles, answers immediately ('more often than not'), and does not cite a number. 10:06 - Asked how he would verify that claim, he leans forward, speaks faster, and pivots to a story about a biotech stock he recommended in 2019 that 'everyone said would fail.' 10:09 - Pressed for his record, he looks away from the camera toward the window, crosses his arms, and says tracking accuracy 'isn't how the business works.' 10:11 - Asked about a high-profile call that lost 60% of its value, he laughs and says 'You win some, you lose some' before moving to the next question. 10:14 - He returns to describing his gut with visible enthusiasm, straightening in his chair and raising his voice.",
+          "interrogation_transcript": "Moderator: Mr. Delgado, you've said you have a sixth sense for stocks. What's your long-term accuracy rate?\nMarcus: More often than not. I've been doing this longer than most people in this room have been investing.\nModerator: Can you show us the numbers?\nMarcus: Nobody keeps those kinds of scorecards. This business is about judgment, not bookkeeping.\nModerator: In 2021 you called NexWave a ten-bagger. It is down 60%.\nMarcus: The thesis was right, the timing was wrong. The market doesn't always agree with you.\nModerator: Why should a family trust its savings to your intuition?\nMarcus: Because I feel it. When I'm right, I'm very right.",
+          "correct_diagnosis": "This is an illusion of validity, not skilled intuition. Marcus's environment for five-year stock forecasting is essentially zero-validity, he has no learning history with feedback (no scorecard), and his confidence is the sign of a pseudo-expert who does not know that he does not know. His intuition is not trustable.",
+          "diagnostic_breakdown": "The chapter's test is not confidence but the environment and learning history. Long-term stock picking is the book's example of a zero-validity environment, where there are no stable regularities to learn. Marcus's own behavior confirms the absence of a learning history: he cannot produce a track record, deflects every request for verification, and treats a 60% loss as a timing issue, so there is no evidence of feedback that could have taught him valid cues. His smooth, unhedged delivery is the chapter's warning that judgments which answer the wrong question can be made with high confidence, and that subjective confidence is a poor diagnostic of accuracy. In the absence of valid cues, intuitive hits are due either to luck or to lies.",
+          "distractors": [
+            "He is genuinely skilled, because decades of experience always produce reliable intuition.",
+            "He is deliberately lying about a specific, verifiable fact.",
+            "He should be trusted because his confidence shows his System 2 has approved his judgment."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Wicked-Environment Clinician (Illusory Infallibility)",
+          "visual_frame_description": "A conference room at a bustling urgent-care chain. Dr. Ian Becker in a white coat sits opposite an interviewer, with a tablet reading 'Discharge outcomes: not tracked' faintly visible in a corner. A two-column comparison on screen shows his vivid recalled rescues versus an empty 'misses' ledger.",
+          "player_mission": "Audit Dr. Becker's intuition: study his baseline, timed nonverbal log, and transcript. Decide whether his 'feeling' is genuine skilled intuition, an illusion of validity from a wicked environment, or deliberate deception, then lock in the verdict with evidence.",
+          "key_concepts": [
+            "Robin Hogarth described 'wicked' environments in which professionals are likely to learn the wrong lessons from experience.",
+            "A physician who palpated patients' tongues without washing his hands developed a sense of clinical infallibility as patient after patient became ill.",
+            "Whether professionals develop intuitive expertise depends on the quality and speed of feedback.",
+            "The feedback that therapists receive from patients' long-term outcomes is sparse, delayed, or nonexistent.",
+            "Subjective confidence is not a reliable guide to the validity of an intuition.",
+            "Many pseudo-experts have no idea that they do not know what they are doing (the illusion of validity).",
+            "If a strong predictive cue exists, human observers will find it, given a decent opportunity to do so.",
+            "Statistical algorithms are more accurate than human judges, although they were never very accurate.",
+            "The unrecognized limits of professional skill help explain why experts are often overconfident.",
+            "Intuition cannot be trusted in the absence of stable regularities in the environment."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests intuitive claims made in a 'wicked' environment, where feedback is absent or teaches the wrong lesson. Dr. Becker's confident, dramatic recall of rescues without any outcome record reproduces the typhoid-physician pattern: an illusion of validity built on biased feedback rather than learned cues.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Dr. Ian Becker, medical director of a fast-growing chain of urgent-care clinics, claims he can 'feel' which patients are about to worsen before any test turns positive. Is his intuition genuine skilled intuition, an illusion of validity from a wicked environment, or deliberate fabrication?",
+          "subject_baseline": "Dr. Becker is 61, board-certified in internal medicine, and charismatic; nurses describe him as a natural diagnostician. He has never kept outcome records, rejects clinical dashboards as 'cookbook medicine,' and relies on what he calls clinical gestalt. The chain gives clinicians no feedback on what happens to patients after discharge.",
+          "observed_nonverbal_log": "09:40 - Asked how he knows a patient will crash, Dr. Becker taps his temple and says 'Twenty years at the bedside. You develop a feel.' His delivery is smooth and immediate. 09:44 - Asked which patients he has correctly predicted, he names two dramatic resuscitations from memory, each with vivid detail. 09:47 - Asked whether he tracks his false alarms, he waves a hand and says those don't stay with you. 09:50 - Asked whether the chain reviews discharge outcomes, he looks mildly annoyed and answers that review is for academics, not for people who save lives. 09:53 - When the interviewer reads a chart note where his gut feeling preceded a normal workup, he shrugs and calls it defensive medicine. 09:56 - He never requests to see the data the interviewer references and ends the interview early.",
+          "interrogation_transcript": "Interviewer: Dr. Becker, what makes your gut reliable when the tests are normal?\nBecker: Years of watching patients die when I trusted numbers over my instincts. The body sends signals before the labs catch up.\nInterviewer: Can you show me a record of your predictions, hits and misses together?\nBecker: That's not how real medicine works. You don't keep a scorecard on a life.\nInterviewer: The clinic system doesn't give you feedback on post-discharge outcomes, does it?\nBecker: I don't need a committee to tell me I was right.\nInterviewer: If you can't see your misses, how do you know the feeling isn't just confidence?\nBecker: Because I'm the one who's been in the room.",
+          "correct_diagnosis": "Illusory validity born of a wicked environment. Dr. Becker's setting gives him no reliable feedback because patients' post-discharge outcomes are never tracked, and his memory-based hits are selected for drama while misses are discarded, so the regularities he feels may be artifacts of biased recall rather than learned cues. His confidence cannot be validated.",
+          "diagnostic_breakdown": "The chapter's two conditions are missing: the environment is not demonstrably regular, and there is no opportunity to learn through accurate feedback because the chain never closes the loop on outcomes. Recall the book's warning example: the typhoid physician who felt infallible while his own unwashed hands caused the illnesses, a wicked environment teaching the wrong lesson. Dr. Becker's refusal to confront misses and his reliance on vivid, memorable resuscitations are exactly how an illusory sense of infallibility is built. His confidence is high but nondiagnostic, matching the principle that subjective confidence is not a reliable guide to validity.",
+          "distractors": [
+            "His intuition is genuine because his rescues are dramatic and he remembers them clearly.",
+            "Board certification and decades at the bedside are sufficient proof of valid intuition.",
+            "He is lying to the interviewer to protect his reputation."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Fireground Commander's Recognition-Primed Decision",
+          "visual_frame_description": "A night street scene at a burning two-story apartment building. Chief Dana Whitfield in turnout gear studies the smoke while her crew waits at the curb, hose lines in hand. A HUD overlay tracks her decision process: pattern retrieval (System 1), then a simulated run of the stairwell plan (System 2), then a branching path when the plan fails.",
+          "player_mission": "Guide Chief Whitfield through the recognition-primed decision process: watch how she generates and simulates a single plan, then decide how she adapts when the plan shows shortcomings before conditions worsen.",
+          "key_concepts": [
+            "Fireground commanders usually generate only a single option, and that is all they need.",
+            "Commanders draw on a repertoire of patterns compiled during more than a decade of real and virtual experience.",
+            "The commander evaluates a candidate plan by mentally simulating it to see if it will work in the situation she is facing.",
+            "If the course of action has shortcomings, the expert modifies it; if it cannot be easily modified, she turns to the next most plausible option.",
+            "The first phase of the recognition-primed decision is an automatic function of associative memory, which is System 1.",
+            "The second phase is a deliberate mental simulation that checks the plan, an operation of System 2.",
+            "Herbert Simon's definition: intuition is nothing more and nothing less than recognition.",
+            "Accurate intuitions are due to highly valid cues that the expert's System 1 has learned to use.",
+            "Fireground commanders and clinical nurses are among the professionals who have real expertise.",
+            "The situation provides a cue; the cue gives the expert access to information stored in memory."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the recognition-primed decision model of expert intuition: System 1 automatically recognizes a pattern and proposes a single plan, which System 2 then checks by mental simulation. Klein's studies of fireground commanders show that skilled intuition is pattern recognition, not magic or luck.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is the recognition-primed decision (RPD) model: a fireground commander draws on a decade of stored fire patterns, generates a single plausible plan automatically (System 1), and evaluates it by mental simulation (System 2), modifying or discarding it before acting.",
+          "stage_1_observation": "A two-story apartment building in a working-class district has smoke pouring from second-floor windows. Chief Dana Whitfield, an 18-year veteran of the fire service, stands at the curb with her hands on her hips, studying the smoke's color, the window frames, and the fire's trajectory. Her crew waits, radios crackling. She does not run a formal options analysis; a single course of action has already come to her.",
+          "stage_1_question": "According to Klein's studies of fireground commanders, what does Chief Whitfield generate and do first?",
+          "stage_1_correct_answer": "She generates a single plausible option from the repertoire of patterns she has compiled over a decade of real and virtual experience, and she evaluates it by mentally simulating whether it will work in this situation.",
+          "stage_2_intervention": "Chief Whitfield orders the initial attack through the front stairwell, but as her crew advances, smoke banks down and the plan begins to show shortcomings: the stairwell is a dead end under a collapsing roof truss. She has seconds to adapt before conditions worsen.",
+          "stage_2_correct_answer": "She modifies the plan to overcome the shortcoming; if it cannot be easily modified, she turns to the next most plausible option and runs the same mental simulation again until she finds an acceptable course of action."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Boundary: When to Trust a Claimed Intuition",
+          "visual_frame_description": "A hospital strategy retreat with floor-to-ceiling windows. Priya Shah sits at the head of a conference table; to her left, Ray Odum holds an evacuation diagram, and to her right, Todd Hsu gestures at a stock chart. A confidence meter on screen shows both men pegging at maximum while a second meter labeled 'valid cues' sits near zero for Todd and high for Ray.",
+          "player_mission": "Identify the question that separates the two experts' claims, then resist the pressure when the untrustworthy expert doubles down on confidence and vivid anecdotes, and commit to the correct verdict.",
+          "key_concepts": [
+            "The two basic conditions for acquiring a skill are a regular environment and an opportunity to learn its regularities through prolonged practice.",
+            "The confidence that people have in their intuitions is not a reliable guide to their validity.",
+            "Do not trust anyone, including yourself, to tell you how much you should trust their judgment.",
+            "Stock pickers operate in a zero-validity environment; their failures reflect the unpredictability of the events they forecast.",
+            "Intuition cannot be trusted in the absence of stable regularities in the environment.",
+            "Subjective confidence is commonly too high and often uninformative.",
+            "In a less regular, low-validity environment, the heuristics of judgment are invoked.",
+            "When evaluating expert intuition, consider whether there was an adequate opportunity to learn the cues, even in a regular environment.",
+            "Fireground commanders and clinical nurses have real expertise, while stock pickers and pundits do not.",
+            "Judgments that answer the wrong question can also be made with high confidence."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the chapter's central boundary question: when can you trust a confident professional's intuition? The answer is to assess the regularity of the environment and the expert's learning history, setting confidence aside, because subjective confidence is a poor diagnostic of accuracy.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is the boundary Kahneman and Klein mapped for when an expert's claimed intuition deserves trust: the two conditions of a regular environment and a genuine learning opportunity, with subjective confidence set aside as a diagnostic.",
+          "stage_1_observation": "A hospital strategy retreat. Two experts make confident claims to the CEO, Priya Shah. Fire-safety consultant Ray Odum, who has led 300 building evacuations, insists a new office layout's exit paths are dangerously slow in a smoke event. Financier Todd Hsu, whose fund calls are famously bullish, insists a regional bank stock will triple within three years. Both speak with identical unshakable confidence.",
+          "stage_1_question": "Priya can only trust one of these intuitions. Which question separates them, according to the chapter's framework?",
+          "stage_1_correct_answer": "Ask about the environment and learning history, not confidence: does the domain have stable regularities, and did the expert get prolonged practice with clear, timely feedback? Ray's evacuation judgments meet both conditions; Todd's three-year stock forecast is a zero-validity environment.",
+          "stage_2_intervention": "Todd pushes back, arguing that his confidence and twenty years of experience prove the call. He offers a vivid story of a past winner and warns Priya she will miss the boat. Priya must decide whether to revise her assessment.",
+          "stage_2_correct_answer": "Hold the line: subjective confidence is not a reliable guide to validity, vivid winning stories do not establish a learning history, and experience in a zero-validity environment cannot produce skill. Priya should trust Ray and treat Todd's forecast as ungrounded."
+        }
+      ]
+    },
+    {
+      "id": "ch28",
+      "title": "23. The Outside View",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Inside View, Outside View, and Baseline Adjustment",
+          "visual_frame_description": "A project-management classroom with three tall sorting columns. Draggable cards float across the screen: a chapter outline being written, Seymour at a blackboard with '40% failed, 7-10 yrs,' a silhouette of a tall woman beside a basketball center, and a database of construction projects. A scoring meter at the top tracks correct sorts.",
+          "player_mission": "Sort each forecasting behavior into inside view, outside view, or baseline adjustment, then select which approach generated the startlingly accurate forecast in the curriculum story.",
+          "key_concepts": [
+            "The inside view is the forecast we spontaneously adopt: we focus on our specific circumstances and search for evidence in our own experiences.",
+            "The outside view directs attention to a class of similar cases and their statistics.",
+            "Seymour estimated the base rate of the reference class: 40% of comparable curriculum teams failed and the rest took seven to ten years.",
+            "A baseline prediction is the prediction you make about a case if you know nothing except the category to which it belongs.",
+            "The baseline prediction should be the anchor for further adjustments.",
+            "Extrapolating from the plan in front of you is a mistake: we were forecasting based on the information in front of us, which is WYSIATI.",
+            "The spectacular accuracy of the outside-view forecast was surely a fluke and should not count as evidence for the validity of the outside view.",
+            "The argument for the outside view should be made on general grounds: if the reference class is properly chosen, it indicates where the ballpark is.",
+            "Seymour knew the relevant base rate but did not think of applying it, like the participants in the Tom W experiment.",
+            "People who have information about an individual case rarely feel the need to know the statistics of the class to which it belongs."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This matrix tests the distinction between the inside view, the outside view, and baseline adjustment. Kahneman's curriculum story shows that the inside view produces confidently optimistic forecasts, while the outside view, built on reference-class statistics, anchors a realistic baseline.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "A project-management office is teaching teams how to forecast completion times. Sort the following forecasting behaviors into inside view, outside view, or baseline adjustment, then answer: which approach produced the stunningly accurate forecast in the curriculum story?",
+          "column_a_label": "Inside view (forecast from the specifics of your own plan and experience)",
+          "column_b_label": "Outside view (forecast from the statistics of a reference class)",
+          "column_c_label": "Baseline adjustment (start from the category average, then adjust for case specifics)",
+          "rows": [
+            {
+              "label": "The curriculum team extrapolates from the two chapters already written to estimate the whole book.",
+              "col": "a"
+            },
+            {
+              "label": "Seymour recalls that 40% of comparable curriculum teams never finished and the rest took seven to ten years.",
+              "col": "b"
+            },
+            {
+              "label": "Guessing a New York woman's height as the city average, then adjusting upward because her son is a starting basketball center.",
+              "col": "c"
+            },
+            {
+              "label": "A team forecasts from its own detailed chapter list without considering how other teams fared.",
+              "col": "a"
+            },
+            {
+              "label": "Bent Flyvbjerg's database of hundreds of similar projects provides statistics of overruns.",
+              "col": "b"
+            },
+            {
+              "label": "The baseline prediction is used as the anchor for further adjustments.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The inside view is the more accurate approach because it uses case-specific detail.",
+            "Baseline adjustment means ignoring all case information and using only the average.",
+            "The outside view requires access to a crystal ball about your own future."
+          ],
+          "explanation": "The rows separate three ways of forecasting. The inside view focuses on the specific circumstances and the plan in front of you, which is how the curriculum team extrapolated from chapters already written, an approach driven by WYSIATI. The outside view asks what happened to similar cases: Seymour's 40% failure rate and seven-to-ten-year timeline for comparable curriculum teams. Baseline adjustment is the recommended structure: make the reference-class average the anchor, then adjust for case-specific information, exactly as you would for the height of a New Yorker whose son plays basketball. The spectacularly accurate forecast in the story came from the outside view, although the book cautions that its accuracy was a fluke and that the argument for the outside view rests on general grounds."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Planning Fallacy and Its Cure (Reference Class Forecasting)",
+          "visual_frame_description": "A transit authority boardroom with a light-rail map on the wall beside a screen of budget charts. Three sorting columns fill the center: a chandeliered kitchen-renovation photo, a database of railway projects, and a balanced scale labeled 'gains, losses, probabilities.'",
+          "player_mission": "Sort each statement into planning-fallacy symptom, reference-class step, or rational-economic assumption, then select the correct definition of the planning fallacy.",
+          "key_concepts": [
+            "Amos and Kahneman coined the term planning fallacy for plans and forecasts that are unrealistically close to best-case scenarios.",
+            "A planning-fallacy forecast could be improved by consulting the statistics of similar cases.",
+            "A 2005 study found that in more than 90% of rail projects, the passenger forecasts were overestimated.",
+            "Planners overestimated rail ridership by 106% on average, and the average cost overrun was 45%.",
+            "American homeowners expected kitchen remodels to cost $18,658 but paid an average of $38,769.",
+            "Reference class forecasting is the technical name for the cure to the planning fallacy.",
+            "Flyvbjerg concluded that the tendency to underweight or ignore distributional information is perhaps the major source of error in forecasting.",
+            "Using distributional information from similar ventures is called taking the outside view.",
+            "In the standard rational model of economics, people take risks because the odds are favorable.",
+            "Contractors readily admit that they routinely make most of their profit on additions to the original plan."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This matrix contrasts the planning fallacy, plans unrealistically close to best-case scenarios, with its cure, reference class forecasting. Kahneman and Flyvbjerg show that ignoring distributional information is the major source of forecasting error.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "A city transit authority is commissioning a new light-rail line. Sort the statements below into planning-fallacy symptoms, reference class forecasting steps, or the rational-economic assumption they replace, then answer: which description defines the planning fallacy?",
+          "column_a_label": "Planning fallacy symptom (plan unrealistically close to best-case)",
+          "column_b_label": "Reference class forecasting step (the cure)",
+          "column_c_label": "Rational-economic assumption (risk taken because odds are favorable)",
+          "rows": [
+            {
+              "label": "Kitchen renovators expected the job to cost $18,658 and ended up paying an average of $38,769.",
+              "col": "a"
+            },
+            {
+              "label": "Identify an appropriate reference class, such as kitchen renovations or large railway projects.",
+              "col": "b"
+            },
+            {
+              "label": "Obtain the statistics of the class and use them to generate a baseline prediction.",
+              "col": "b"
+            },
+            {
+              "label": "In the standard rational model, people take risks because the odds are favorable.",
+              "col": "c"
+            },
+            {
+              "label": "Plans and forecasts that are unrealistically close to best-case scenarios.",
+              "col": "a"
+            },
+            {
+              "label": "Use specific information about the case to adjust the baseline prediction when warranted.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The planning fallacy is cured by building a bigger budget reserve.",
+            "The planning fallacy means planners are too pessimistic about costs.",
+            "Reference class forecasting means ignoring the specific case entirely."
+          ],
+          "explanation": "The planning fallacy is defined by Amos and Kahneman as plans and forecasts that are unrealistically close to best-case scenarios and could be improved by consulting the statistics of similar cases. The kitchen-renovation survey is a textbook symptom: an expected $18,658 and a realized $38,769. The remedy, per Flyvbjerg, is reference class forecasting: identify a reference class, obtain its statistics, generate a baseline prediction, and adjust only for specific reasons. The rational-economic assumption differs because it describes risk-taking based on favorable odds, whereas the optimistic bias leads people to take risks they misjudge. The correct answer is 'a': the definition centers on best-case planning."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Why the Outside View Is Ignored",
+          "visual_frame_description": "A behavioral-consulting studio with three tall columns on a dark wall. Cards drift across the screen: a classroom of students ignoring a chart of global results, a Friday meeting with paper slips reading '2 years,' Seymour at the blackboard, a drop of ink over '40% failed,' and a boardroom of executives refusing to end a project.",
+          "player_mission": "Sort each neglect mechanism into its correct column, then select the single mechanism that best explains why the curriculum team carried on after hearing the base-rate statistics.",
+          "key_concepts": [
+            "We were forecasting based on the information in front of us, which is WYSIATI, and our commitment to the project was at its peak.",
+            "The main problem was that we failed to allow for the unknown unknowns.",
+            "Seymour's forecast from his inside view was not an adjustment from a baseline prediction that had not come to his mind.",
+            "Like the participants in the Tom W experiment, Seymour knew the relevant base rate but did not think of applying it.",
+            "Nisbett and Borgida's students completely neglected the global results they had just learned when making predictions about an individual case.",
+            "Pallid statistical information is routinely discarded when it is incompatible with one's personal impressions of a case.",
+            "In the competition with the inside view, the outside view doesn't stand a chance.",
+            "Kahneman calls the failure to abandon the project irrational perseverance: we gave up rationality rather than give up the enterprise.",
+            "The effort already invested is an instance of the sunk-cost fallacy.",
+            "Kahneman described the team's state as a form of lethargy, an unwillingness to think about what had happened."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This matrix examines why the outside view is routinely ignored: WYSIATI-driven inside forecasts, pallid base-rate neglect, and sunk-cost-driven irrational perseverance. In the curriculum story, the decisive mechanism was irrational perseverance, because the team heard the grim statistics and carried on rather than quit.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "A behavioral consulting firm wants to know why teams keep ignoring base-rate information. Sort the following mechanisms by how each explains the neglect, then answer: which mechanism best explains why the curriculum team, having heard Seymour's statistics, carried on as if nothing had happened?",
+          "column_a_label": "WYSIATI and the pull of the inside view (the plan in front of you dominates)",
+          "column_b_label": "Pallid base-rate neglect (statistical information loses to vivid impressions)",
+          "column_c_label": "Sunk-cost / irrational perseverance (already invested, unwilling to quit)",
+          "rows": [
+            {
+              "label": "Nisbett and Borgida's students, having just learned global results, completely neglected them when predicting an individual case.",
+              "col": "b"
+            },
+            {
+              "label": "The curriculum team had a plausible plan before them and did not feel the need for statistics about other teams.",
+              "col": "a"
+            },
+            {
+              "label": "Seymour knew the base rate but his own estimate was never an adjustment from a baseline that had not come to mind.",
+              "col": "a"
+            },
+            {
+              "label": "The team had already invested a year of Friday meetings and could not imagine abandoning the project.",
+              "col": "c"
+            },
+            {
+              "label": "A lawyer answers 'every case is unique' when asked about a reference class.",
+              "col": "a"
+            },
+            {
+              "label": "We gave up rationality rather than give up the enterprise.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "They lacked the statistical information entirely, so they had nothing to use.",
+            "The base rate never entered anyone's awareness, including Seymour's, so it could not have been applied.",
+            "The outside view is more persuasive than the inside view, but the meeting simply ended too early to decide."
+          ],
+          "explanation": "The three columns capture distinct reasons base rates lose. WYSIATI and the inside view dominate because the plan in front of you is all there is: the curriculum team did not feel the need for other teams' statistics until asked, and Seymour's own estimate was never an adjustment from a baseline that had not come to mind. Pallid base-rate neglect appears in Nisbett and Borgida's students, who discarded global results they had just learned when facing an individual case. But the decisive mechanism for the curriculum team's carrying on is sunk cost and irrational perseverance: they had already invested a year of effort, gave up rationality rather than give up the enterprise, and slipped into lethargy. The correct answer is 'c': the team acted on irrational perseverance, not ignorance."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Optimistic Project Sponsor (Planning Fallacy)",
+          "visual_frame_description": "A wood-paneled executive boardroom. Priya Raman stands at a screen showing an eleven-month Gantt chart and a $4.2M budget; the CFO sits opposite with a laptop. A timed observation strip runs along the bottom with timestamps, and an interrogation transcript scrolls beside the speakers.",
+          "player_mission": "Audit Priya's plan: study her baseline, the timed nonverbal log, and the transcript. Determine whether the proposal is genuine planning, the planning fallacy, or deliberate fabrication, and record the verdict with supporting evidence.",
+          "key_concepts": [
+            "The planning fallacy describes plans and forecasts that are unrealistically close to best-case scenarios.",
+            "A planning-fallacy forecast could be improved by consulting the statistics of similar cases.",
+            "Errors in the initial budget are not always innocent; the authors of unrealistic plans are often driven by the desire to get the plan approved.",
+            "The greatest responsibility for avoiding the planning fallacy lies with the decision makers who approve the plan.",
+            "The prevalent tendency to underweight or ignore distributional information is perhaps the major source of error in forecasting.",
+            "Planners should frame the forecasting problem so as to facilitate utilizing all the distributional information that is available.",
+            "The outside view is the cure to the planning fallacy.",
+            "In the competition with the inside view, the outside view doesn't stand a chance.",
+            "American homeowners expected kitchen remodels to cost $18,658 but paid an average of $38,769.",
+            "A well-run organization will reward planners for precise execution and penalize them for failing to anticipate difficulties."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests whether a confident project plan reflects genuine forecasting or the planning fallacy. Priya's best-case schedule, unquantified buffer, and dismissal of reference-class statistics match Kahneman's definition of the planning fallacy, exacerbated by the incentive to win approval.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Priya Raman, a marketing VP, presents a 'confident, deliverable' rollout of a new customer platform with an eleven-month schedule and a $4.2 million budget. The audit question: is this genuine planning, the planning fallacy, or deliberate fabrication to win approval?",
+          "subject_baseline": "Priya is a seasoned marketer with a strong record of on-time campaign launches. She is detail-oriented, keeps clean project logs, and has no history of deception. She is, however, competing with another VP for the same budget, and the CEO has publicly favored confident, can-do proposals.",
+          "observed_nonverbal_log": "11:02 - Priya opens with her eleven-month schedule, reciting it without notes. Her posture is confident; she speaks quickly and smiles at the CEO. 11:06 - Asked how the schedule was derived, she cites the team's prior launch ('nine months last time') without mentioning that the project had different scope and doubled its budget. 11:09 - The CFO asks what comparable platform rollouts in the industry took. Priya's smile tightens; she looks down at the table and says 'we're not like other companies,' then moves on. 11:12 - Asked about contingency for delays, she says 'we've built in buffer' but cannot say how much when pressed. 11:15 - She becomes visibly more animated when describing the upside (new customers, revenue) and visibly less so when the CFO asks about cost overruns in similar projects. 11:18 - She closes by asking for approval 'this month so we don't lose the window,' with a mild urgency in her voice.",
+          "interrogation_transcript": "CFO: How confident are you in the eleven-month date?\nPriya: Very. This team is the best I've run.\nCFO: What did the last comparable rollout in the industry take?\nPriya: We're not like other companies. We have the talent and the process.\nCFO: How much buffer is in the budget?\nPriya: Enough. We manage it tightly.\nCFO: What would a baseline prediction from similar platforms look like?\nPriya: I don't think you can run a plan like this from other people's failures.",
+          "correct_diagnosis": "Priya is committing the planning fallacy, not fabricating: her plan is unrealistically close to a best-case scenario and is not anchored to any reference-class statistics. Her confidence reflects optimism and the incentive to win approval, and her refusal to consult distributional information is the classic inside view.",
+          "diagnostic_breakdown": "The baseline shows Priya is honest and capable, so deliberate fabrication is not supported. But her own prior project doubled its budget, and she cites it as evidence of speed, selecting data that flatters the inside view. Her answers to the CFO ('we're not like other companies,' an unquantified 'buffer') are the signature of the planning fallacy: forecasts that could be improved by consulting the statistics of similar cases. The book notes that errors in initial budgets are not always innocent, because the authors of unrealistic plans are often driven by the desire to get the plan approved, and the greatest responsibility then lies with the decision makers who approve it. The verdict is the planning fallacy.",
+          "distractors": [
+            "She is lying outright to secure the budget.",
+            "Her plan is rational because her team is objectively more capable than industry baselines.",
+            "The plan is solid because it includes a buffer, which is the same as the outside view."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Contractor and the Budget Reserve (Self-Fulfilling Prophecy)",
+          "visual_frame_description": "A sunlit bridge-construction site with an agency director in a hard hat and Bruno Ferris in worn work boots standing over a site drawing. An email window pops up showing the change-order packet, and a small speech bubble shows Bruno's 'red meat' remark to his estimator. A transcript panel scrolls beside the pair.",
+          "player_mission": "Audit Bruno's behavior: review his baseline, the timed nonverbal log, and the transcript. Decide whether he is exploiting the reserve, responding reasonably, or fabricating defects, then lock in the verdict with evidence.",
+          "key_concepts": [
+            "Decision makers may wish to estimate the budget reserve they need in anticipation of overruns, but such precautions often become self-fulfilling prophecies.",
+            "As one official told Flyvbjerg, a budget reserve is to contractors as red meat is to lions, and they will devour it.",
+            "Contractors of kitchen renovations and weapon systems readily admit that they routinely make most of their profit on additions to the original plan.",
+            "The failures of forecasting reflect the customers' inability to imagine how much their wishes will escalate over time.",
+            "Customers end up paying much more than they would if they had made a realistic plan and stuck to it.",
+            "Reference class forecasting is the cure to the planning fallacy.",
+            "Errors in the initial budget are not always innocent; the authors of unrealistic plans are driven by the desire to get the plan approved.",
+            "The greatest responsibility for avoiding the planning fallacy lies with the decision makers who approve the plan.",
+            "Planners should make every effort to utilize all the distributional information that is available.",
+            "A well-run organization will penalize planners for failing to allow for difficulties they could not have anticipated, the unknown unknowns."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the self-fulfilling prophecy of budget reserves. Kahneman and Flyvbjerg note that reserves added in anticipation of overruns invite contractors to devour them, converting a safety cushion into spent money rather than a realistic forecast.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "A city infrastructure agency adds a 15% contingency reserve to a bridge-repair contract and hires Ferris & Sons. Is contractor Bruno Ferris's behavior a reasonable response to the reserve, or does it show the reserve becoming a self-fulfilling prophecy?",
+          "subject_baseline": "Bruno Ferris is a 52-year-old general contractor with a reputation for solid, honest work on fixed-price jobs; inspectors praise his crews. His company's margins are thin, and he has told friends that change orders are where the money is in public work.",
+          "observed_nonverbal_log": "09:00 - At the kickoff meeting, the agency director announces the 15% contingency for surprises. Bruno nods and writes a note; his expression is flat. 09:05 - Asked about the reserve, Bruno says 'reserves exist to be used' and smiles briefly, glancing at his estimator. 09:20 - During a site walk, Bruno points out two conditions he calls beyond the drawings that he says warrant change orders, though his own surveyor earlier logged them as minor. 09:30 - When the director suggests finishing under the original price, Bruno's tone turns cautious: 'That would mean cutting corners; you don't want that.' 09:41 - He emails a change-order packet to the agency 'before the budget gets clawed back,' copying the finance director. 09:55 - Over coffee, Bruno tells his estimator, quietly, that the reserve is red meat and they will be lions.",
+          "interrogation_transcript": "Director: Bruno, the reserve is only for genuine surprises.\nBruno: These are genuine. Nobody builds a bridge without surprises.\nDirector: The site walk showed minor conditions. Why a change order?\nBruno: You want the drawings interpreted generously? That's how you get a lawsuit.\nDirector: If you come in under budget, it looks great for your company.\nBruno: Coming in under budget means my crew works free. You don't want that either.\nDirector: What happens to the reserve if we don't spend it?\nBruno: It gets clawed back by the city. Reserves exist to be used.",
+          "correct_diagnosis": "The reserve is becoming a self-fulfilling prophecy. Bruno's baseline is honest work at fair margins, so he is not fabricating defects, but he treats the contingency as money to be captured, exactly the pattern the book describes: a budget reserve is to contractors as red meat is to lions, and they will devour it.",
+          "diagnostic_breakdown": "The chapter warns that budget reserves set up in anticipation of overruns often become self-fulfilling prophecies: the customer's inability to imagine how their wishes will escalate, combined with contractors who make most of their profit on additions, converts the cushion into spent money. Bruno's baseline (honest on fixed-price work) rules out outright fabrication, but his behavior, declaring minor conditions beyond the drawings, warning that thrift means cutting corners, and quietly framing the reserve as meat, shows the reserve being devoured. The agency's remedy is not a larger reserve but reference-class forecasting and disciplined scope control, because in the competition between the inside view and the outside view, the inside view wins when money is on the table.",
+          "distractors": [
+            "Bruno is lying about the site conditions to steal from the agency.",
+            "The reserve is a sound planning practice with no downside.",
+            "Bruno's behavior is unrelated to the reserve; he would seek change orders anyway."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Friday Afternoon Forecast (Inside vs. Outside View)",
+          "visual_frame_description": "A university seminar room with worn wood floors and a blackboard covered in a syllabus outline. Around a table sit six adults; paper slips showing '2 years' estimates sit in a neat stack. Seymour hesitates at the blackboard, visibly embarrassed. A clock shows Friday afternoon.",
+          "player_mission": "Guide Daniel through the forecasting decision: first direct the conversation toward the outside view, then decide how to respond when the baseline statistics conflict with the team's comfortable plan.",
+          "key_concepts": [
+            "The initial estimates of about two years exhibited a planning fallacy, being closer to a best-case scenario than to a realistic assessment.",
+            "The inside view focuses on specific circumstances and searches for evidence in one's own experiences.",
+            "Extrapolating from the plan in front of us was a mistake: we were forecasting based on the information in front of us, which is WYSIATI.",
+            "The main problem was failing to allow for the unknown unknowns.",
+            "Seymour's estimate of the reference class: 40% of comparable teams failed and the rest took seven to ten years.",
+            "The baseline prediction is the prediction you make if you know nothing except the category to which a case belongs.",
+            "In the competition with the inside view, the outside view doesn't stand a chance.",
+            "Kahneman calls the failure to abandon the project irrational perseverance.",
+            "The book was eventually completed eight years later and was never used.",
+            "The outside view is the cure to the planning fallacy."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the inside view versus the outside view in forecasting. The curriculum team's two-year estimate is a planning fallacy, a best-case extrapolation that ignores reference-class statistics showing 40% failure and seven-to-ten-year timelines.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is the inside view versus the outside view in project forecasting. A team that extrapolates from its own progress commits the planning fallacy, while a baseline drawn from similar cases gives a realistic anchor.",
+          "stage_1_observation": "It is a Friday afternoon in a university seminar room. A curriculum-design team has met weekly for a year, written two chapters, and run sample lessons. The team leader, Daniel, collects confidential estimates of the time to finish the textbook: the numbers cluster around two years, from one and a half to two and a half. Everyone nods, because the plan looks very manageable.",
+          "stage_1_question": "Daniel turns to Seymour, a curriculum expert, and asks about the history of other teams that built curricula from scratch. What is the right way to use what Seymour knows?",
+          "stage_1_correct_answer": "Ask Seymour to identify similar teams and estimate the base rate of the reference class, how many finished and how long they took, to build a baseline prediction, rather than relying on the team's extrapolation from its own two chapters.",
+          "stage_2_intervention": "Seymour reports that 40% of comparable teams never finished and the rest took seven to ten years. The team is shocked but, after a brief desultory debate, starts gathering its notebooks to continue. The book is not yet written; the only sunk cost is a year of meetings. Daniel must decide how to respond.",
+          "stage_2_correct_answer": "Treat the baseline as the anchor: acknowledge the planning fallacy and irrational perseverance, recognize that the new forecast conflicts with the comfortable plan, and explicitly weigh whether continuing is rational. The chapter's lesson is that the team should have quit that day."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Scottish Parliament Budget Battle (Megaproject Overrun)",
+          "visual_frame_description": "A Treasury committee room in Edinburgh with tall windows. A document titled 'Estimated Cost 40M pounds' lies on a mahogany table beside a second, later sheet reading '109M pounds' and a third with a handwritten 'cap 195M pounds.' A line graph on the wall traces the cost climbing toward 431M pounds over time.",
+          "player_mission": "Guide the committee: diagnose why the 40 million pound estimate failed, then choose the method that produces a realistic budget as costs escalate past successive caps.",
+          "key_concepts": [
+            "In July 1997 the Scottish Parliament building was estimated to cost up to 40 million pounds.",
+            "By June 1999 the budget was 109 million pounds; legislators then imposed a 195 million pound cap.",
+            "The building was finally completed in 2004 at an ultimate cost of roughly 431 million pounds.",
+            "The planning fallacy describes plans unrealistically close to best-case scenarios that could be improved by consulting statistics of similar cases.",
+            "A 2005 study of rail projects found average cost overruns of 45% and passenger forecasts overestimated by 106%.",
+            "As more evidence accumulated, the experts did not become more reliant on it.",
+            "Flyvbjerg concluded that the tendency to underweight or ignore distributional information is perhaps the major source of error in forecasting.",
+            "Reference class forecasting uses a large database providing information on plans and outcomes for hundreds of projects.",
+            "The outside view is the cure to the planning fallacy.",
+            "Decision makers need a realistic assessment of the costs and benefits of a proposal before making the final decision to approve it."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the planning fallacy in a public megaproject. The Scottish Parliament building's climb from 40 million to 431 million pounds illustrates a best-case initial estimate never anchored to reference-class statistics, which reference class forecasting is designed to cure.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is the planning fallacy in public projects: an initial best-case estimate that escalates repeatedly because it was never anchored to reference-class statistics.",
+          "stage_1_observation": "Edinburgh, July 1997. The proposed Scottish Parliament building is projected to cost up to 40 million pounds. The documents on the desk show a bold new design, an optimistic timetable, and no comparison to the cost distribution of comparable legislative or landmark building projects.",
+          "stage_1_question": "The Treasury team must decide whether to trust the 40 million pound estimate. What is the likeliest cause of the coming gap between estimate and reality?",
+          "stage_1_correct_answer": "The planning fallacy: the estimate is close to a best-case scenario and ignores distributional information about similar projects, which the book shows routinely run far over initial budgets.",
+          "stage_2_intervention": "By June 1999 the budget has climbed to 109 million pounds; legislators impose a 195 million pound cap, then demand a final cost estimate of 241 million pounds, and costs keep climbing. The committee must now set a realistic budget. What move follows the chapter's method?",
+          "stage_2_correct_answer": "Apply reference class forecasting before approving any number: identify comparable building projects, obtain the statistics of their cost overruns, generate a baseline prediction, and adjust only for specific reasons, instead of layering ad hoc caps that keep escalating."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The CEO's Delusional Optimism (Optimistic Risk Taking)",
+          "visual_frame_description": "A glass-walled boardroom at dusk. Amara Osei stands at a screen full of green upward arrows and synergy diagrams; Ravi sits at the far end with a folder marked 'Reference-class data: 40 deals.' A risk register glows on a side screen, almost empty. The mood is eager as the vote is called.",
+          "player_mission": "Identify the optimistic-bias error shaping the acquisition decision, then decide how to handle the vote when the CEO dismisses baseline data as 'different market conditions.'",
+          "key_concepts": [
+            "Executives too easily fall victim to the planning fallacy when forecasting the outcomes of risky projects.",
+            "In its grip, they make decisions based on delusional optimism rather than on a rational weighting of gains, losses, and probabilities.",
+            "They overestimate benefits and underestimate costs.",
+            "They spin scenarios of success while overlooking the potential for mistakes and miscalculations.",
+            "As a result, they pursue initiatives that are unlikely to come in on budget or on time or to deliver the expected returns.",
+            "People often take on risky projects because they are overly optimistic about the odds they face.",
+            "In the standard rational model, people take risks because the odds are favorable.",
+            "Kahneman and Lovallo sketched a theory in which the optimistic bias is a significant source of risk taking.",
+            "The prevalent tendency to underweight or ignore distributional information is perhaps the major source of error in forecasting.",
+            "The outside view is the cure to the planning fallacy."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the optimistic-bias account of risk taking. Kahneman and Lovallo argue that executives pursue risky projects on delusional optimism, overestimating benefits and underestimating costs, rather than on a rational weighting of odds, which the outside view corrects.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is Kahneman and Lovallo's claim that the optimistic bias is a significant source of risk taking: executives make decisions based on delusional optimism rather than a rational weighting of gains, losses, and probabilities.",
+          "stage_1_observation": "In the boardroom of a mid-size pharmaceutical company, the CEO, Amara Osei, is selling a 900 million dollar acquisition. The deck she presents spins an unbroken scenario of success, with blockbuster synergies and aggressive growth curves, while the risk register is a single slide of green checkmarks. A junior analyst, Ravi, has quietly prepared the outside-view statistics of similar acquisitions but has not been invited to speak.",
+          "stage_1_question": "What error is shaping the board's decision as the deck is presented?",
+          "stage_1_correct_answer": "The planning fallacy and optimistic bias: the board is overestimating benefits and underestimating costs, deciding on delusional optimism rather than a rational weighting of gains, losses, and probabilities.",
+          "stage_2_intervention": "The CFO asks for a show of hands. Before anyone votes, Ravi raises a hand and offers the baseline: of 40 similar acquisitions in the last decade, 31 destroyed value, and only 3 delivered the promised synergies. Amara dismisses the data as different market conditions and asks again for the vote. The board must decide how to proceed.",
+          "stage_2_correct_answer": "Insist on the outside view before voting: anchor the decision on the reference-class baseline (31 of 40 similar deals destroyed value), treat the CEO's optimism as a risk to be tested rather than evidence, and require a plan that accounts for the distributional information instead of dismissing it as different market conditions."
+        }
+      ]
+    }
+  ]
+}

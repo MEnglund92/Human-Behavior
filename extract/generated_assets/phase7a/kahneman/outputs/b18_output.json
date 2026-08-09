@@ -1,0 +1,693 @@
+{
+  "spec_file": "spec_kahneman_b18.json",
+  "chapters": [
+    {
+      "id": "ch35",
+      "title": "30. Rare Events",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Overestimation vs Overweighting of Rare Events",
+          "visual_frame_description": "Priya, a behavioral risk analyst, sits in a seminar room where a projection shows the results of Craig Fox's NBA playoffs study. Eight team logos line the whiteboard with probability estimates written beneath them that sum to 240 percent, and a cash-equivalent ledger shows bets totaling $287 against a maximum payoff of $160. Her colleague Marcus points at the board and asks her to separate judgments of probability from decisions that put money on the line.",
+          "player_mission": "Study the evidence rows and classify each as an example of overestimation, overweighting, or neglect. Then identify the single bias that best explains why basketball fans were willing to bet far more than the tournament could ever pay out.",
+          "key_concepts": [
+            "People overestimate the probabilities of unlikely events.",
+            "People overweight unlikely events in their decisions.",
+            "Overestimation and overweighting are distinct phenomena driven by the same mechanisms: focused attention, confirmation bias, and cognitive ease.",
+            "In Fox's study, fans' successive probability estimates for the eight NBA playoff teams summed to 240 percent.",
+            "The absurdity disappeared when the same judges assessed whether the winner would come from the Eastern or Western conference, because the focal event and its alternative were equally specific and their judgments summed to 100 percent.",
+            "The probability of a rare event is most likely to be overestimated when its alternative is not fully specified.",
+            "Fans assigned cash equivalents to bets on the eight teams that summed to $287, while a winning bet would pay at most $160.",
+            "An average participant who took all eight bets would be guaranteed a loss of $127.",
+            "The pattern sheds new light on the planning fallacy and other manifestations of optimism, because successful execution of a plan is specific and easy to imagine while failure is diffuse.",
+            "Entrepreneurs and the investors who evaluate their prospects are prone both to overestimate their chances and to overweight their estimates.",
+            "Rare events are overweighted when they specifically attract attention, as when prospects are described explicitly.",
+            "Decision weight drives choices, whereas probability judgment is an assessment of likelihood, and the two can diverge."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the distinction between overestimation of a rare event's probability and overweighting of the rare event in decisions: both spring from focused attention, confirmation bias, and cognitive ease, but only overweighting moves actual choices. Kahneman shows that Fox's basketball fans overestimated the eight teams' chances (estimates summing to 240%) and simultaneously overweighted them in bets whose cash equivalents guaranteed an average loss of $127.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Basketball fans in Fox's study assigned cash equivalents to bets on each of the eight NBA playoff teams; the values summed to $287, while a winning bet could pay at most $160. Which bias does this betting behavior best demonstrate?",
+          "column_a_label": "Overestimation of a rare event's probability",
+          "column_b_label": "Overweighting of a rare event in decisions",
+          "column_c_label": "Neglect of a rare event (underweighting)",
+          "rows": [
+            {
+              "label": "Fans' successive probability estimates for the eight teams summed to 240 percent.",
+              "col": "a"
+            },
+            {
+              "label": "Fans assigned cash equivalents totaling $287 for bets whose payoff could not exceed $160.",
+              "col": "b"
+            },
+            {
+              "label": "Most Californians, having never felt a major earthquake, remain underprepared for quake risk.",
+              "col": "c"
+            },
+            {
+              "label": "Israeli travelers avoided buses during the bombing period despite a negligible objective risk.",
+              "col": "b"
+            },
+            {
+              "label": "Judging the chance a newborn leaves the hospital within three days by imagining medical complications that could delay discharge.",
+              "col": "a"
+            },
+            {
+              "label": "In choice from experience, with outcomes sampled across repeated trials, rare events are underweighted.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The fans were ignoring the number of nonwinning teams, a denominator neglect error.",
+            "The fans treated each bet as if it were a sure thing, a certainty effect.",
+            "The fans had learned from repeated betting experience and so underweighted the rare win."
+          ],
+          "explanation": "The betting cash equivalents reflect decision weight, not judged probability: fans put money on the events they focused on even though the combined stakes guaranteed a loss, which is overweighting. The summed 240 percent estimates illustrate overestimation, the Israeli bus avoidance illustrates overweighting of a salient threat, and the California example illustrates neglect."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Possibility Effect, Certainty Effect, and Denominator Neglect",
+          "visual_frame_description": "In a campus psychology lab, a teaching assistant lays out two urns on a table: a small urn holding ten marbles with a single red one and a large urn holding one hundred marbles with eight red ones. A student, Tomas, stares at the eight red marbles in the large urn and says they look more hopeful. Beside him a poster shows the phrase '1,286 out of every 10,000' next to the phrase '24.14 percent,' and a note in the margin asks which formulation feels more dangerous.",
+          "player_mission": "Classify each evidence item into the mechanism it demonstrates: the possibility effect, the certainty effect, or denominator neglect. Then identify the mechanism that best explains why roughly 30 to 40 percent of students pick the 100-marble urn despite its worse odds.",
+          "key_concepts": [
+            "About 30 to 40 percent of students choose the urn with the larger number of winning marbles rather than the urn that provides a better chance of winning.",
+            "The tendency to focus on the winning marbles and neglect the number of nonwinning marbles is called denominator neglect.",
+            "Denominator neglect helps explain why different ways of communicating risk vary so much in their effects.",
+            "A risk stated as 'a 0.001 percent risk of permanent disability' appears small, while 'one of 100,000 vaccinated children will be permanently disabled' summons the image of an individual child.",
+            "Low-probability events are much more heavily weighted when described as relative frequencies than when described as chances, risk, or probability.",
+            "A disease that kills 1,286 people out of every 10,000 is judged more dangerous than one that kills 24.14 percent of the population, though the first risk is only half as large.",
+            "The possibility effect refers to the overweighting of highly unlikely outcomes, where only possibility matters.",
+            "The certainty effect refers to the overweighting of sure and nearly sure outcomes, which are also represented vividly.",
+            "When you hold a vivid image of an event, the possibility of its not occurring is also represented vividly and overweighted.",
+            "The enhanced possibility effect combined with the enhanced certainty effect leaves little room for decision weights to change between chances of 21 percent and 84 percent.",
+            "For the sight of a bus, the vivid image of a bomb creates an impulse for protective action even though the probability is tiny."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the mechanisms behind overweighting of rare events: the possibility effect, which makes mere possibility outweigh tiny probabilities, and denominator neglect, which makes people count winning marbles while ignoring nonwinners. Kahneman argues these mechanisms, plus the certainty effect, explain why a 10-percent chance can lose to an 8-percent chance when the winning image is more vivid.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Students choose between Urn A (1 red marble out of 10) and Urn B (8 red marbles out of 100), and about 30 to 40 percent pick Urn B even though its 8 percent chance is worse than the 10 percent chance of Urn A. Which mechanism best explains the attraction to the larger urn?",
+          "column_a_label": "Possibility effect",
+          "column_b_label": "Certainty effect",
+          "column_c_label": "Denominator neglect",
+          "rows": [
+            {
+              "label": "Students choose the 100-marble urn with 8 red winning marbles over the 10-marble urn with 1 red marble, despite worse odds.",
+              "col": "c"
+            },
+            {
+              "label": "A lottery ticket is worth buying because the thrilling possibility of the big prize dominates, though the odds are minuscule.",
+              "col": "a"
+            },
+            {
+              "label": "A 90 percent chance framed as '10 of 100 marbles are losers' makes the loss event more salient than '1 of 10 marbles.'",
+              "col": "b"
+            },
+            {
+              "label": "People judge 'a disease that kills 1,286 of every 10,000' as more dangerous than one that kills 24.14 percent of the population.",
+              "col": "c"
+            },
+            {
+              "label": "Holding a vivid image of winning roses also represents the possibility of not winning vividly, shrinking the decision-weight gap between 21 percent and 84 percent.",
+              "col": "b"
+            },
+            {
+              "label": "The bus-side image of a bomb creates an impulse for protective action even though the probability is extremely small.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "The students were weighting the possibilities of each urn equally because only possibility matters.",
+            "The students treated the 8 percent chance as a near-certainty because it was described with a round number.",
+            "The students were neglecting the probability entirely and choosing based on the total number of marbles."
+          ],
+          "explanation": "The larger urn wins because attention is drawn to the eight winning red marbles while the 92 nonwinning marbles fade into an indistinct background, so the count of nonwinners is not assessed with equal care. This is denominator neglect, the same mechanism that makes '1,286 of every 10,000' feel more dangerous than '24.14 percent.'"
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Choice from Description vs Choice from Experience",
+          "visual_frame_description": "In a research cubicle, a participant faces two buttons on a console. On one trial the buttons are described in writing ('5% to win $12' versus '95% chance to win $1'); on another trial the participant presses the buttons repeatedly and watches the payoffs accumulate across trials. A wall chart in the lab contrasts the two conditions and notes that the results diverge sharply. In a corner of the screen, two colleagues, Adele and Brian, are pictured next to a question about whom to ask for help.",
+          "player_mission": "Sort each item into choice from description, choice from experience, or judgment from global impressions. Then identify which mechanism best explains why a person would pick Adele over Brian despite Brian's rare flashes of extraordinary generosity.",
+          "key_concepts": [
+            "Choice from description is implemented by showing the subject the verbal description of the risky prospect and asking for a choice.",
+            "Choice from experience is implemented by exposing the participant to many trials in which she observes the consequences of pressing one button or another.",
+            "As expected from prospect theory, choice from description yields a possibility effect: rare outcomes are overweighted relative to their probability.",
+            "In sharp contrast, overweighting is never observed in choice from experience, and underweighting is common.",
+            "Many participants never experience the rare event at all, which is a major cause of underweighting in the real world.",
+            "Most Californians have never experienced a major earthquake, and in 2007 no banker had personally experienced a devastating financial crisis.",
+            "Hertwig and Erev note that chances of rare events such as the burst of housing bubbles receive less impact than they deserve according to their objective probabilities.",
+            "When choosing between Adele and Brian, System 1 generates global representations that include an emotional attitude and a tendency to approach or avoid.",
+            "Unless a rare event is so extreme that it comes to mind separately, the norm will be biased toward typical and recent instances.",
+            "Adele is closer to a sure thing, while Brian's prospect is a low probability of a very good outcome plus a higher probability of a slightly inferior one.",
+            "Rare events are overweighted when they specifically attract attention, as when prospects are described explicitly in choice from description."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the divergence between choices made from descriptions and choices made from experience: description yields a possibility effect that overweights rare outcomes, while experience produces underweighting, largely because many people never experience the rare event. It also tests the global-impressions account, in which rare events enter the picture only if they are extreme enough to come to mind separately, as with Adele and Brian.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Adele is generally helpful and consistent; Brian is usually slightly less helpful but has occasionally been extremely generous with his time and advice. A person must choose whom to ask for help. Which mechanism best explains why, in a two-system mind, the choice favors Adele unless the rare event comes to mind explicitly?",
+          "column_a_label": "Choice from description (rare events overweighted)",
+          "column_b_label": "Choice from experience (rare events underweighted)",
+          "column_c_label": "Global impressions of a person or source",
+          "rows": [
+            {
+              "label": "Participants see each button described as '5% to win $12' and choose; rare outcomes are overweighted.",
+              "col": "a"
+            },
+            {
+              "label": "Participants press two buttons across many trials and observe the outcomes; overweighting of rare events is never observed.",
+              "col": "b"
+            },
+            {
+              "label": "Choosing whether to ask Adele or Brian for help by comparing pooled global impressions of their behavior.",
+              "col": "c"
+            },
+            {
+              "label": "A restaurant that is usually good occasionally serves a brilliant or an awful meal; diners choose based on accumulated experience.",
+              "col": "b"
+            },
+            {
+              "label": "Prospect theory's choices from description yield a possibility effect.",
+              "col": "a"
+            },
+            {
+              "label": "Unless a rare event is so extreme that it comes to mind separately, it will not be overweighted in a global impression.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "The decision is a pure choice from description, so Brian's rare generosity is overweighted by a possibility effect.",
+            "The decision follows choice from experience, in which rare events are always underweighted regardless of how vivid they are.",
+            "The decision is an example of denominator neglect, in which the number of helpful occasions is ignored."
+          ],
+          "explanation": "In a two-system mind, System 1 generates global impressions of Adele and Brian that pool good and bad experiences into a norm; unless Brian's rare generosity is extreme enough to come to mind separately, the typical and recent instances dominate and the choice favors Adele. The possibility-effect reading would only apply if the rare event were made focal, as in choice from description."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Denominator Neglect in Vaccine Risk Communication",
+          "visual_frame_description": "In a brightly lit community-health center, Dr. Miriam Okonkwo stands before a parents' forum. A slide behind her reads 'Vaccine Risk: 0.001 percent' and is replaced a moment later by a slide that reads 'One of 100,000 vaccinated children will be permanently disabled.' Parents shift in their seats as the second slide stays on screen, and you are the auditor assigned to review her presentation for statistical accuracy and framing.",
+          "player_mission": "Review the observation log, the transcript, and the two slide formulations, then decide whether Miriam is misstating the statistics or exploiting a cognitive mechanism. Render a diagnosis with the evidence that supports it.",
+          "key_concepts": [
+            "A risk stated as 'a 0.001 percent risk of permanent disability' appears small.",
+            "The frequency statement 'One of 100,000 vaccinated children will be permanently disabled' calls up the image of an individual child.",
+            "The 99,999 safely vaccinated children fade into the background in the frequency frame.",
+            "Low-probability events are much more heavily weighted when described in terms of relative frequencies than when stated as chances, risk, or probability.",
+            "Denominator neglect is the tendency to focus on the winning cases while not assessing the number of nonwinning cases with the same care.",
+            "The power of format creates opportunities for manipulation, which people with an axe to grind know how to exploit.",
+            "System 1 is much better at dealing with individuals than categories.",
+            "The same statistics can produce different decision weights depending on how they are framed.",
+            "Focused attention, confirmation bias, and cognitive ease underlie the overestimation and overweighting of unlikely events.",
+            "Emotion and vividness influence fluency, availability, and judgments of probability."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests denominator neglect in risk communication: expressing an identical probability as a frequency ('one of 100,000') summons a vivid individual image that raises decision weight, whereas the abstract percentage form leaves the risk feeling small. Kahneman reports that low-probability events are weighted much more heavily when described as relative frequencies, and that the effect appears even in experienced professionals.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "An audit of a public-health advocacy meeting: is Dr. Miriam Okonkwo misstating the statistics, and what psychological mechanism is doing the work in her presentation?",
+          "subject_baseline": "Dr. Miriam Okonkwo, a pediatric epidemiologist and vaccination advocate, normally states figures as decimal percentages in her written reports and pauses to let numbers land. Colleagues describe her as precise, calm, and wary of alarmism in committee memos.",
+          "observed_nonverbal_log": [
+            "0:00-0:30: Miriam opens by quoting a '0.001 percent risk of permanent disability,' speaking evenly and reading from her notes.",
+            "0:31-1:10: As she switches to the frequency form, she leans toward the audience, raises her index finger, and slows her delivery.",
+            "1:11-1:45: She states 'One of 100,000 vaccinated children will be permanently disabled,' holds eye contact, and lets the sentence hang in silence for three seconds.",
+            "1:46-2:30: She returns to a relaxed posture and a quicker pace when summarizing the benefits of vaccination.",
+            "2:31-3:00: Asked whether 0.001 percent and 1 in 100,000 are the same risk, she nods and says 'mathematically identical,' then immediately pivots to the emotional toll on families."
+          ],
+          "interrogation_transcript": [
+            "Auditor: 'Are you aware that 0.001 percent and one in one hundred thousand describe exactly the same risk?'",
+            "Miriam: 'Yes, mathematically identical.'",
+            "Auditor: 'Then why present it as one child in a hundred thousand?'",
+            "Miriam: 'Because parents need to feel what is at stake. A number like 0.001 percent is meaningless to them.'",
+            "Auditor: 'Do you consider that manipulating their judgment?'",
+            "Miriam: 'I consider it communicating the risk in a way that registers. The statistics are honest.'"
+          ],
+          "correct_diagnosis": "Miriam is not falsifying the statistics; she is deliberately exploiting denominator neglect. The frequency frame 'one of 100,000 vaccinated children will be permanently disabled' summons a vivid image of a single disabled child, which raises the decision weight of the event far above the abstract '0.001 percent risk,' producing a higher judged danger for the same objective probability.",
+          "diagnostic_breakdown": [
+            "Her baseline is technical precision with decimal formats, so a pure factual error is unlikely.",
+            "The timing of the nonverbal shift (leaning in, raised finger, slow delivery) aligns exactly with the switch from probability format to frequency format, indicating deliberate staging rather than habit.",
+            "Her admission that the two formulations are mathematically identical, combined with her stated goal of making parents feel what is at stake, confirms strategic use of the frame.",
+            "The chapter's evidence predicts the outcome: low-probability events are more heavily weighted when described as frequencies, because the image of the one disabled child overwhelms the 99,999 safe children who fade into the background."
+          ],
+          "distractors": [
+            "Miriam is lying about the vaccine's risk in order to frighten parents into vaccinating.",
+            "Miriam is committing a certainty effect, treating vaccination as completely safe because the risk is 0.001 percent.",
+            "Miriam is falling for the planning fallacy and genuinely believes the risk is higher than it is."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Frequency Framing of DNA Evidence in the Courtroom",
+          "visual_frame_description": "In a hushed capital courtroom, the prosecutor finishes restating a DNA match figure as 'a 0.1 percent chance of a false match' while gesturing at the decimals. Defense attorney Greta Vasquez then walks slowly to the jury rail, and the camera holds on her face as she says 'one of one thousand.' You are the trial-practice auditor reviewing how the same statistic was framed for the jury.",
+          "player_mission": "Study the observation log and transcript, then determine whether Greta is misrepresenting the DNA statistics or using a legitimate cognitive mechanism to shift decision weight, and name that mechanism with the evidence.",
+          "key_concepts": [
+            "A good attorney who wishes to cast doubt on DNA evidence will not tell the jury that the chance of a false match is 0.1 percent.",
+            "The statement that a false match occurs in 1 of 1,000 capital cases is far more likely to pass the threshold of reasonable doubt.",
+            "The frequency statement invites jurors to generate the image of the man in the courtroom being wrongly convicted because of flawed DNA evidence.",
+            "The prosecutor will favor the more abstract frame, hoping to fill the jurors' minds with decimal points.",
+            "Denominator neglect causes people to overweight the salient case and underweight the background count.",
+            "Different ways of communicating the same risk vary widely in their effects.",
+            "Low-probability events are more heavily weighted when described in terms of relative frequencies than as abstract probabilities.",
+            "The effect of format would be reduced or eliminated by a direct comparison of the two formulations, a task that explicitly calls for System 2.",
+            "Life is usually a between-subjects experiment, in which you see only one formulation at a time.",
+            "It takes an exceptionally active System 2 to generate alternative formulations and discover that they evoke a different response."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the courtroom manipulation of decision weight through frequency framing: a false-match probability expressed as 'one of 1,000 capital cases' invites a vivid image of the wrongly convicted defendant, raising the decision weight above reasonable doubt, while the abstract '0.1 percent' frame leaves the mind filled with decimal points. Kahneman describes this as the power of format creating opportunities for manipulation, grounded in denominator neglect.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "An audit of a capital-murder trial: is defense attorney Greta Vasquez accurately presenting the DNA statistics, and what mechanism is influencing the jury's decision weight?",
+          "subject_baseline": "Greta Vasquez, a veteran public defender, is known for measured, low-key argument and for ending her opening statements with a single slow sentence. Her voice stays at a monotone pitch during technical testimony.",
+          "observed_nonverbal_log": [
+            "0:00-0:40: The prosecutor finishes by stating that the chance of a false match is 0.1 percent, moving his hands rapidly through the decimals.",
+            "0:41-1:10: Greta rises, walks toward the jury box, and lays both hands flat on the railing.",
+            "1:11-1:50: She says 'A false match occurs in one of one thousand capital cases,' dropping her voice and pausing between each word.",
+            "1:51-2:20: She glances at the defendant, then back to the jury, and repeats the phrase 'one of one thousand' while the courtroom is silent.",
+            "2:21-2:40: She returns to her seat and resumes a neutral tone, as if the point has been settled."
+          ],
+          "interrogation_transcript": [
+            "Auditor: 'The two numbers are statistically equivalent, are they not?'",
+            "Greta: 'They are. A 0.1 percent error rate and one false match per one thousand cases describe the same fact.'",
+            "Auditor: 'Then why did you choose the frequency version?'",
+            "Greta: 'Because a jury does not convict or acquit on decimals. It convicts or acquits on the man sitting in that chair.'",
+            "Auditor: 'Is that fair?'",
+            "Greta: 'It is the job of an advocate. The state can use the same facts to argue the other way.'"
+          ],
+          "correct_diagnosis": "Greta is exploiting denominator neglect through a concrete frequency frame. 'One of 1,000 capital cases' invites the jurors to generate the image of a single man wrongly convicted on flawed DNA evidence, raising the decision weight of a false match above the threshold of reasonable doubt, whereas the abstract '0.1 percent' frame leaves no such image. As the chapter notes, the prosecutor will favor the abstract frame in the hope of filling the jurors' minds with decimal points.",
+          "diagnostic_breakdown": [
+            "Her deliberate body staging (moving to the railing, slowed cadence, glance at the defendant) occurred only at the frequency sentence, marking it as a strategic choice.",
+            "Her admission that the figures are equivalent while insisting the frequency version is the advocate's job confirms intentional framing, not misunderstanding.",
+            "The chapter reports that the frequency format invites the listener to generate the image of the individual, which is exactly what she engineered by looking at the defendant.",
+            "Both numbers are true, so this is a manipulation of decision weight through format, not a misstatement of fact."
+          ],
+          "distractors": [
+            "Greta is presenting a fabricated DNA statistic in order to create reasonable doubt.",
+            "Greta is underweighting the DNA evidence because she trusts the prosecutor's decimal framing.",
+            "Greta is using the certainty effect by treating a 99.9 percent match as an absolute certainty."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Planning Fallacy and Overweighted Success Scenarios",
+          "visual_frame_description": "In a glass-walled startup office, founder Nolan Reyes faces three investors across a conference table. A roadmap slide glows on the wall behind him, and a handwritten '70% break-even' figure sits on a flip chart beside the table. His voice rises as he narrates the successful first month of launch, then drops when an investor asks about comparable failures.",
+          "player_mission": "Audit the pitch: determine whether Nolan is deceiving the investors or displaying a documented cognitive bias, and identify the mechanism that inflated his 70 percent break-even estimate.",
+          "key_concepts": [
+            "The successful execution of a plan is specific and easy to imagine when one tries to forecast the outcome of a project.",
+            "The alternative of failure is diffuse, because there are innumerable ways for things to go wrong.",
+            "Entrepreneurs and the investors who evaluate their prospects are prone both to overestimate their chances and to overweight their estimates.",
+            "Specific descriptions trigger the associative machinery of System 1 in its usual confirmatory mode.",
+            "People overestimate the probabilities of unlikely events.",
+            "The probability of a rare event is most likely to be overestimated when the alternative is not fully specified.",
+            "The probability judgments in Fox's NBA study summed to 240 percent because each focal event was assessed in isolation.",
+            "These findings shed new light on the planning fallacy and other manifestations of optimism.",
+            "Confirmatory imagination selectively retrieves evidence, instances, and images that would make the statement true.",
+            "A judgment of probability is ultimately determined by the cognitive ease with which a plausible scenario comes to mind."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the planning fallacy and the overestimation of focal scenarios: a founder's success path is specific and fluent to imagine while failure is diffuse, so his probability estimate is inflated and unanchored to base rates. Kahneman argues that the same confirmatory mechanisms that overestimate rare events shed new light on the planning fallacy and the optimism of entrepreneurs.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "An audit of a pitch meeting: is founder Nolan Reyes deceiving investors, or is his optimism a cognitive phenomenon the chapter calls the planning fallacy?",
+          "subject_baseline": "Nolan Reyes, 34, a first-time founder of a food-delivery logistics startup, is normally terse and data-driven in one-on-ones. He keeps a spreadsheet of every pilot test and shares failure logs with his engineering team without prompting.",
+          "observed_nonverbal_log": [
+            "0:00-0:50: Nolan walks investors through the roadmap slide, standing still and speaking in short declarative sentences.",
+            "0:51-1:40: He describes the launch scenario with his hands miming the delivery flow; his voice rises with enthusiasm as he narrates the successful first month.",
+            "1:41-2:30: Asked about risks, he gives three quick generic hazards (supplier delays, regulation, weather) and immediately returns to the upbeat narrative, drumming his fingers on the podium.",
+            "2:31-3:00: When an investor asks how many similar startups succeeded, Nolan has no number, shrugs, and says his team's execution is different.",
+            "3:01-3:40: He ends by projecting a 70 percent chance of hitting break-even in year one, a figure he concedes he chose himself."
+          ],
+          "interrogation_transcript": [
+            "Investor: 'You gave a 70 percent chance of breaking even. Where does that number come from?'",
+            "Nolan: 'It feels right. The plan is very specific.'",
+            "Investor: 'How many comparable ventures have hit break-even in year one?'",
+            "Nolan: 'I have not run that comparison. Our case is different.'",
+            "Investor: 'Are you hiding problems from us?'",
+            "Nolan: 'No. I just do not think about them as often.'"
+          ],
+          "correct_diagnosis": "Nolan is not deliberately lying; he is exhibiting the planning fallacy and the overestimation of a focal scenario. The successful execution of his plan is specific and easy to imagine, so confirmatory imagination builds a fluent success scenario, while failure is diffuse because there are innumerable ways for things to go wrong. His 70 percent estimate reflects overestimation: he focused on a single vivid success path and never enumerated alternatives, so his probability was not anchored to any base rate of comparable outcomes.",
+          "diagnostic_breakdown": [
+            "His nonverbal surge occurred precisely while narrating the success scenario, evidence of the fluency and cognitive ease that drive overestimation.",
+            "He could not supply base rates for comparable ventures, the missing alternative that allows a focal scenario's probability to be inflated without a check.",
+            "His estimate is self-generated and unanchored to any statistical comparison, matching the chapter's account of entrepreneurs overestimating their chances and overweighting their estimates.",
+            "The absence of enumerated failure modes is the signature of the planning fallacy: the successful execution of a plan is specific and easy to imagine, while the alternative of failure is diffuse."
+          ],
+          "distractors": [
+            "Nolan is hiding a known technical defect in the product in order to secure funding.",
+            "Nolan is underweighting his chances because he is excessively loss averse.",
+            "Nolan is showing denominator neglect by ignoring the number of competing startups."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Availability Cascade of Terror and Fear",
+          "visual_frame_description": "You are the transportation-security director of a city whose morning paper has run a week of front-page stories about bus bombings on another continent. A wall screen in your office loops a map of the local bus network with past bombing incidents marked in red, and a placard on your desk notes that the city's risk of a bus bombing is statistically negligible. Your deputy Lena watches commuters at a nearby station: riders edge away from buses, scan packages, and stand as far from the doors as the platform allows.",
+          "player_mission": "Determine why the commuters' fear persists despite their knowledge of the low probability. Then choose the decision rule that best reflects how the chapter says terrorism works and how a rational authority should respond.",
+          "key_concepts": [
+            "Terrorism works by inducing an availability cascade: an extremely vivid image of death and damage becomes highly accessible.",
+            "The image is constantly reinforced by media attention and frequent conversations.",
+            "The emotional arousal is associative, automatic, and uncontrolled, and it produces an impulse for protective action.",
+            "System 2 may know that the probability is low, but this knowledge does not eliminate the self-generated discomfort and the wish to avoid it.",
+            "System 1 cannot be turned off.",
+            "The emotion is disproportionate to the probability and insensitive to its exact level.",
+            "Residents told about two bombers versus one bomber would not feel twice as safe, because the emotion does not scale with probability.",
+            "Avoiding buses was immediately rewarded by relief from fear, just as buying a lottery ticket is rewarded by pleasant fantasies.",
+            "In both cases the actual probability is inconsequential; only possibility matters.",
+            "The original formulation of prospect theory argued that highly unlikely events are either ignored or overweighted."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the availability cascade behind terrorism: a vivid, repeatedly reinforced image of a bombed bus stays highly accessible and drives System 1's emotional impulse for protective action even when System 2 knows the probability is tiny. Kahneman reports that the emotion is both disproportionate to the probability and insensitive to its exact level, and that even he found his own behavior affected despite knowing better.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "This battle tests the availability cascade behind terrorism: an extremely vivid image of death and damage, constantly reinforced by media attention and frequent conversation, becomes highly accessible and is associated with a specific situation such as the sight of a bus. The emotional arousal is associative, automatic, and uncontrolled, producing an impulse for protective action, and System 2's knowledge that the probability is low does not eliminate the self-generated discomfort.",
+          "stage_1_observation": "Riders at the station visibly avoid standing next to buses, scan packages, and drive away more quickly than usual when a light changes. Everyone, including your deputy, knows the objective risk is negligible, yet the behavior is widespread. The chapter records that even its author, who knew better, found himself disliking stopping next to a bus at a red light and driving away more quickly when the light changed.",
+          "stage_1_question": "Why does the commuters' fear persist even though everyone in the room knows the probability of a bombing is minuscule?",
+          "stage_1_correct_answer": "Because the vivid image of a bombed bus is highly accessible and emotionally arousing, and System 1 produces an automatic impulse for protective action; System 2's knowledge of the low probability cannot turn System 1 off or remove the self-generated discomfort. The emotion is disproportionate to the probability and insensitive to its exact level, which is why residents told that the risk is half of what they feared would not feel twice as safe.",
+          "stage_2_intervention": "The mayor proposes spending $40 million on a bus-security program that will have a negligible effect on the statistical risk but will visibly reassure riders. Your deputy argues the money should instead go to road-safety measures that prevent a far larger number of deaths. The 23-bombing statistic from the news is on the table. Choose the decision rule that best reflects the chapter's account of how terrorism works and how to respond.",
+          "stage_2_correct_answer": "Recognize that the security spending is being driven by an availability cascade and by the decision weight of a vivid, salient image, not by objective probability. Present the neglected alternative in concrete terms, such as the road-safety deaths the money could prevent expressed as real people in a frequency format, so the alternative becomes equally vivid, and require the two proposals to be compared on the same terms. This forces the alternatives to compete as specified scenarios rather than leaving the rare event as the sole focal image."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Vivid Outcomes and Probability Insensitivity",
+          "visual_frame_description": "You run the consumer-insights desk at a national retail bank. A customer study on a rewards program shows members paying almost no attention to probability differences when the prize is described as a dozen red roses in a glass vase, while responding sharply to probabilities when the prize is cash. A colleague, Sanjay, proposes to launch the roses promotion precisely because it suppresses price sensitivity, and the compliance officer objects that this exploits customers.",
+          "player_mission": "Explain the mechanism that makes valuations of a vivid prize insensitive to probability. Then choose the disclosure design that will most reliably restore sensitivity to probability, based on the chapter's evidence.",
+          "key_concepts": [
+            "A rich and vivid representation of the outcome reduces the role of probability in the evaluation of an uncertain prospect.",
+            "The hypothesis predicts that adding irrelevant but vivid details to a monetary outcome also disrupts calculation.",
+            "In 'Money, Kisses, and Electric Shocks,' valuations of gambles were much less sensitive to probability when the outcomes were emotional.",
+            "The fear of an impending electric shock was essentially uncorrelated with the probability of receiving the shock.",
+            "The Princeton team argued that low sensitivity to probability for emotional outcomes is normal and that gambles on money are the exception.",
+            "Money gambles have a definite expected value, which provides a helpful anchor as the search for an equally attractive cash gift proceeds.",
+            "Cognitive ease contributes to the certainty effect: when you hold a vivid image of an event, the possibility of its not occurring is also represented vividly and overweighted.",
+            "The enhanced possibility effect combined with the enhanced certainty effect leaves little room for decision weights to change between 21% and 84%.",
+            "Adding explicit price information along with the description of the prize did not alter the results.",
+            "The decision weight for a 90% chance was 71.2 and for a 10% chance 18.6, a ratio of only 3.83 despite a probability ratio of 9."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the vivid-outcomes hypothesis: a rich, fluent representation of an outcome reduces the role of probability in evaluating a gamble, because the enhanced possibility and certainty effects compress decision weights between 21% and 84%. Kahneman expresses reasonably high confidence in the prediction that adding irrelevant but vivid details to a monetary outcome disrupts calculation, and he reports that adding price information did not restore sensitivity.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "This battle tests the hypothesis, for which Kahneman expresses reasonably high confidence, that a rich and vivid representation of an outcome reduces the role of probability in evaluating an uncertain prospect. Vivid imagery, whether or not it is emotional, shrinks the gap between decision weights for a 21 percent and an 84 percent chance, because the enhanced possibility effect and the enhanced certainty effect leave little room for probability to matter.",
+          "stage_1_observation": "The customer study shows that the cash equivalent of a roses gamble barely changes whether the chance of winning is 21 percent or 84 percent, while a money gamble is evaluated with clear sensitivity to probability because it has a definite expected value. The research record in the chapter includes the finding that adding explicit price information such as 'Value $59' did not alter the results.",
+          "stage_1_question": "Why do customers' valuations of a roses prize barely change between a 21 percent and an 84 percent chance of winning, while cash prizes are evaluated with clear sensitivity to probability?",
+          "stage_1_correct_answer": "Because the roses create a rich, fluent, vivid representation of the outcome, which reduces the role of probability in the evaluation of the prospect, whereas money has a definite expected value that provides a calculable anchor. The enhanced possibility effect for the low chance and the enhanced certainty effect for the high chance compress the decision weights, so 21 percent and 84 percent are evaluated almost alike, and adding price information does not restore sensitivity.",
+          "stage_2_intervention": "The compliance officer wants a disclosure that restores sensitivity to probability for customers making an informed decision about a financial product. Option A adds a line stating the dollar value of the prize next to the probability. Option B requires customers to compare two probabilities side by side in abstract percentage form and state which they prefer, without the vivid prize description. Based on the chapter's evidence, which option will most reliably restore sensitivity to probability?",
+          "stage_2_correct_answer": "Choose Option B: forcing an explicit, side-by-side comparison of abstract probabilities engages System 2 and reduces the influence of the vivid image. Option A is predicted to fail, because the price-information experiment in the chapter showed that adding a specific monetary value to a vivid outcome did not restore sensitivity to probability."
+        }
+      ]
+    },
+    {
+      "id": "ch36",
+      "title": "31. Risk Policies",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Narrow Framing vs Broad Framing in Concurrent Decisions",
+          "visual_frame_description": "On a conference-room monitor, a choice pair from prospect theory is displayed: Decision (i) offers a sure gain of $240 or a 25 percent chance to gain $1,000, and Decision (ii) offers a sure loss of $750 or a 75 percent chance to lose $1,000. Below the pair, a third problem shows that the combination of the two rejected options dominates the combination of the two preferred ones. Your colleague Dana asks why 73 percent of respondents chose A and D while only 3 percent favored B and C.",
+          "player_mission": "Sort each item into narrow framing, loss aversion, or broad framing. Then identify the mechanism that best explains why respondents preferred the dominated combination A plus D over the dominant combination B plus C.",
+          "key_concepts": [
+            "In the original experiment, 73 percent of respondents chose the sure gain in Decision (i) and the risky loss in Decision (ii), while only 3 percent favored the combination of B and C.",
+            "People tend to be risk averse in the domain of gains and risk seeking in the domain of losses for moderate or high probabilities.",
+            "The emotional evaluation of a sure gain and a sure loss is an automatic reaction of System 1 that occurs before the computation of expected values.",
+            "Narrow framing treats a sequence of two simple decisions as separate; broad framing treats them as a single comprehensive decision with four options.",
+            "The combined option B plus C dominates option A plus D, because a 25 percent chance to win $250 and lose $750 is unequivocally better than a 25 percent chance to win $240 and lose $760.",
+            "Broad framing is superior, or at least not inferior, in every case in which several decisions are to be contemplated together.",
+            "A rational agent will engage in broad framing, but Humans are by nature narrow framers.",
+            "Because we are susceptible to WYSIATI and averse to mental effort, we tend to make decisions as problems arise even when instructed to consider them jointly.",
+            "It is costly to be risk averse for gains and risk seeking for losses, because both attitudes make you willing to pay a premium out of the same pocket.",
+            "Every simple choice formulated in terms of gains and losses can be deconstructed into a combination of choices that yields inconsistent preferences."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests narrow framing: evaluating concurrent risky decisions one at a time rather than as a single comprehensive decision, which leads people to prefer a dominated combination. Kahneman and Tversky showed that 73 percent of respondents preferred A and D while only 3 percent chose the dominant B plus C, demonstrating that logical consistency is not achievable by our limited mind.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Respondents preferred a sure gain of $240 (A) and a 75 percent chance to lose $1,000 (D), even though combining the other two options, B plus C, dominates it. Which mechanism best explains this preference pattern?",
+          "column_a_label": "Narrow framing",
+          "column_b_label": "Loss aversion",
+          "column_c_label": "Broad framing",
+          "rows": [
+            {
+              "label": "Sam rejects the single coin toss that would lose $100 or win $200 because the $100 loss would feel worse than the $200 gain.",
+              "col": "b"
+            },
+            {
+              "label": "Respondents evaluate Decisions (i) and (ii) separately and never combine them to see that B plus C dominates.",
+              "col": "a"
+            },
+            {
+              "label": "A CEO tells her 25 division heads to all accept their risky gambles because the portfolio will aggregate the outcomes.",
+              "col": "c"
+            },
+            {
+              "label": "Investors who check their portfolio daily feel more pain from frequent small losses than pleasure from frequent small gains.",
+              "col": "b"
+            },
+            {
+              "label": "Students told to make each decision as if it were the only one show stronger loss aversion.",
+              "col": "a"
+            },
+            {
+              "label": "Students told to imagine themselves as a trader who does this all the time take more risks and show blunted emotional reactions to loss.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The respondents were underweighting the rare 25 percent chance in both gambles.",
+            "The respondents were overweighting the certainty of the sure gain through a possibility effect.",
+            "The respondents combined the two decisions and chose the option with the higher expected value."
+          ],
+          "explanation": "The A plus D preference is the classic narrow-framing trap: each decision is attractive on its own (risk averse for the sure gain, risk seeking for the sure loss), but the pair is inferior to B plus C, the combined option that only 3 percent of respondents chose. The mechanism is evaluating each problem separately rather than as one comprehensive decision."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Risk Policies and the Outside View as Broad Frames",
+          "visual_frame_description": "In a financial-literacy classroom, an instructor named Rosa draws a two-column table on the board. The left column lists routine decision rules such as 'always take the highest possible deductible' and 'never buy extended warranties.' The right column shows a chart of outcomes from many similar projects, labeled as the outside view. She explains that both columns are ways of widening the frame around individual risky choices.",
+          "player_mission": "Sort each item into a risk policy, narrow framing, or the outside view of planning. Then identify the category that best describes a rule that is routinely applied whenever a relevant problem arises.",
+          "key_concepts": [
+            "A risk policy is a broad frame that embeds a particular risky choice in a set of similar choices.",
+            "Familiar examples of risk policies are always taking the highest possible deductible when purchasing insurance and never buying extended warranties.",
+            "Decision makers who are prone to narrow framing construct a preference every time they face a risky choice; a risk policy avoids this by being applied routinely.",
+            "With a risk policy, you expect the occasional loss of the entire deductible or the occasional failure of an uninsured product.",
+            "The relevant issue is your ability to reduce the pain of the occasional loss by the thought that the policy will almost certainly be advantageous over the long run.",
+            "The outside view shifts the focus from the specifics of the current situation to the statistics of outcomes in similar situations.",
+            "The outside view is a broad frame for thinking about plans, and a risk policy is a broad frame for a particular risky choice.",
+            "The outside view and the risk policy are remedies against the exaggerated optimism of the planning fallacy and the exaggerated caution induced by loss aversion.",
+            "The two biases oppose each other: exaggerated optimism protects organizations from the paralyzing effects of loss aversion, and loss aversion protects them from the follies of overconfident optimism.",
+            "Because we are susceptible to WYSIATI and averse to mental effort, we tend to make decisions as problems arise rather than applying broad frames.",
+            "The combination of the outside view with a risk policy should be the goal for an organization."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the idea that a risk policy is a broad frame: it embeds a particular risky choice in a set of similar choices so that occasional losses are absorbed emotionally. Kahneman compares it to the outside view of planning, and argues that combining the two remedies counters both the planning fallacy's optimism and loss aversion's exaggerated caution.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "A shopper routinely applies the rule 'never buy extended warranties,' accepting the occasional failure of an uninsured product as part of the deal. Which category best describes this rule?",
+          "column_a_label": "Risk policy (a broad frame for repeated choices)",
+          "column_b_label": "Narrow framing",
+          "column_c_label": "Outside view of planning",
+          "rows": [
+            {
+              "label": "Always take the highest possible deductible when purchasing insurance.",
+              "col": "a"
+            },
+            {
+              "label": "Forecasting a project by looking at the base-rate outcomes of similar projects.",
+              "col": "c"
+            },
+            {
+              "label": "Treating each small risky decision as a one-off judgment made on the spot.",
+              "col": "b"
+            },
+            {
+              "label": "Bundling 100 small favorable coin tosses into a single package.",
+              "col": "a"
+            },
+            {
+              "label": "A division head refusing a risky bet because the possible loss of her own capital is painful.",
+              "col": "b"
+            },
+            {
+              "label": "Shifting focus from the specifics of the current situation to the statistics of similar situations.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The rule is a form of narrow framing because it evaluates each warranty purchase in isolation.",
+            "The rule is an outside view because it looks at the statistics of the specific product being purchased.",
+            "The rule is an example of loss aversion being intensified by daily monitoring."
+          ],
+          "explanation": "The extended-warranty rule is a risk policy, a broad frame applied routinely whenever the relevant problem arises, so the occasional loss is absorbed by the expectation that the policy is advantageous over the long run. The outside view, by contrast, is the broad frame applied to planning problems, shifting focus to the statistics of similar situations."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Loss Aversion in the Investment Audit",
+          "visual_frame_description": "In a quiet audit room, investor Dev Patel faces an examiner across a table covered with his daily portfolio logs. A monitor displays a skin-conductance trace that spikes sharply on down days and stays flat on up days. Dev crosses his arms as he recounts declining a 50-50 bet that would lose $100 or win $200.",
+          "player_mission": "Review Dev's baseline, the physiological trace, and the transcript, then decide whether his behavior reflects loss aversion under narrow framing, and state what would reduce it.",
+          "key_concepts": [
+            "Samuelson's friend rejected a coin toss in which he could lose $100 or win $200, explaining that he would feel the $100 loss more than the $200 gain.",
+            "Loss aversion is the tendency to weight losses more heavily than gains, roughly twice as intensely.",
+            "A single favorable gamble can be worth nothing to a loss-averse person once each loss is multiplied by 2.",
+            "Aggregating gambles reduces the probability of losing and shrinks the impact of loss aversion.",
+            "Two favorable gambles that are each worthless on their own can be jointly worth $50 when bundled.",
+            "The mantra 'you win a few, you lose a few' exists to control the emotional response when you do lose.",
+            "Broad framing blunts the emotional reaction to losses and increases the willingness to take risks.",
+            "Broad-framing instructions reduced skin-conductance responses to losses in the 'think like a trader' experiment.",
+            "Narrow framing makes a small loss feel like significant bad news about the whole portfolio.",
+            "The aggregation of small gambles works only when the gambles are independent and small relative to total wealth."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests loss aversion under narrow framing: Dev feels a $100 loss more intensely than a $200 gain, so a single favorable gamble is worth nothing to him, while the aggregated package becomes attractive. Kahneman shows that broad framing blunts the physiological emotional response to losses and increases risk taking, as demonstrated by the 'think like a trader' experiment.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "An audit of investor Dev Patel's trading decisions: why does he keep rejecting attractive small gambles, and is his stated reason consistent with the evidence?",
+          "subject_baseline": "Dev Patel, a 41-year-old software engineer and part-time investor, is described by his family as careful and deliberate. He keeps a daily log of his portfolio value, screenshots every trade, and says in interviews that he is not a gambler and that losing money ruins his day.",
+          "observed_nonverbal_log": [
+            "0:00-0:40: Dev recounts declining a colleague's offer of a 50-50 bet that would lose $100 or win $200. He shakes his head and crosses his arms.",
+            "0:41-1:20: He explains 'I would feel the $100 loss more than the $200 gain,' then adds that he would accept if allowed to make 100 such bets, leaning forward as he says it.",
+            "1:21-2:00: Asked to imagine the aggregated 100-bet package, he relaxes, uncrosses his arms, and nods, estimating that the package sounds like a good deal.",
+            "2:01-2:40: On a screen, the audit shows skin-conductance spikes on days his portfolio fell and near-flat readings on gain days.",
+            "2:41-3:10: When asked why he checks his portfolio daily, he says to catch problems early, but the physiological trace shows each check resets his emotional ledger."
+          ],
+          "interrogation_transcript": [
+            "Auditor: 'Why did you turn down a bet that offers twice as much gain as loss?'",
+            "Dev: 'Because losing $100 feels twice as bad as winning $200 feels good.'",
+            "Auditor: 'But you would accept 100 of them?'",
+            "Dev: 'Yes, because then I would win a few and lose a few. The package is different.'",
+            "Auditor: 'What would change if you only looked at your investments once a quarter?'",
+            "Dev: 'I would worry less about the dips, probably. But I would not know what was happening.'",
+            "Auditor: 'Do you think the daily checking changes what you do?'",
+            "Dev: 'It makes me sell more when things drop. I know that is not rational.'"
+          ],
+          "correct_diagnosis": "Dev is exhibiting classic loss aversion under narrow framing: he feels the $100 loss more than twice as intensely as the $200 gain, so a single favorable gamble is worth nothing to him, while bundling gambles reduces the chance of losing and the impact of loss aversion. His daily portfolio monitoring is a narrow frame that repeatedly exposes him to small losses, and the skin-conductance record shows the emotional asymmetry his own words confirm.",
+          "diagnostic_breakdown": [
+            "His explicit statement that the $100 loss feels worse than the $200 gain matches the value function in which losses are weighted roughly twice as much as gains.",
+            "His acceptance of the 100-bet package shows the aggregation mechanism: as gambles are bundled, the probability of losing falls and loss aversion matters less.",
+            "The skin-conductance asymmetry on loss days versus gain days is the physiological evidence the chapter cites for broad framing blunting the emotional reaction to losses.",
+            "His admission that he sells more when prices drop confirms that narrow framing amplifies loss aversion in real decisions."
+          ],
+          "distractors": [
+            "Dev is underweighting rare events because he has never personally experienced a large loss.",
+            "Dev is showing the planning fallacy, overestimating his future investment returns.",
+            "Dev is exhibiting an endowment effect, valuing his portfolio more because he owns it."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Samuelson's Problem and the Aggregation of Gambles",
+          "visual_frame_description": "You are a financial adviser in a city office, and your client Sam, a retired engineer, has just declined a one-time 50-50 offer to lose $100 or win $200. On the whiteboard behind him you draw his value function: the pain of the loss is drawn twice as tall as the pleasure of the gain, so the single bet computes to zero for him. Sam looks at the board and says that if he could make a hundred of these he would take them.",
+          "player_mission": "Explain why the single toss is worth nothing to Sam despite its positive expected value. Then guide Sam to the smallest bundle of tosses that turns the package positive, and state the caution about independence that the chapter adds.",
+          "key_concepts": [
+            "Samuelson's friend rejected a single coin toss that could lose $100 or win $200, saying he would feel the $100 loss more than the $200 gain.",
+            "The friend said he would accept if allowed to make 100 such bets.",
+            "Samuelson proved that under very specific conditions a utility maximizer who rejects a single gamble should also reject the offer of many.",
+            "Rabin and Thaler noted that the aggregated gamble of 100 bets has an expected return of $5,000 with only a 1/2,300 chance of losing any money.",
+            "One toss is worth nothing to Sam because the pain of losing a dollar is twice as intense as the pleasure of winning a dollar.",
+            "Two tosses reduce the chances of losing to 25 percent, and the intermediate outcome (one loss, one gain) is positive.",
+            "Two favorable gambles that are individually worth nothing to Sam are jointly worth $50 when bundled.",
+            "A third toss, although worthless on its own, adds $62.50 to the total value of the package.",
+            "By five tosses, the expected value is $250, the probability of losing anything is 18.75 percent, and the cash equivalent is $203.125.",
+            "The mantra 'you win a few, you lose a few' works only when gambles are genuinely independent and the possible loss is small relative to total wealth.",
+            "The mantra should not be applied to long shots, where the probability of winning is very small for each bet.",
+            "Aggregating favorable gambles rapidly reduces the probability of losing and diminishes the impact of loss aversion."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the aggregation of gambles against loss aversion: a single favorable coin toss is worth zero to Sam because he weights losses twice as much as gains, but bundling gambles reduces the probability of losing and shrinks the impact of loss aversion, making two tosses jointly worth $50. Kahneman presents Rabin and Thaler's demonstration that the package of 100 bets is so attractive that any utility theory that rejects it under some circumstances is wrong as a model of rational choice.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "This battle tests Samuelson's problem: Samuelson's friend rejected a single coin toss with a 50 percent chance to lose $100 and a 50 percent chance to win $200 because loss aversion makes the $100 loss feel twice as intense as the $200 gain, leaving the single gamble worth zero to him. But aggregating gambles reduces the probability of losing and shrinks the impact of loss aversion: two tosses are jointly worth $50, three tosses add another $62.50, and five tosses have an expected value of $250 with only an 18.75 percent chance of losing anything.",
+          "stage_1_observation": "The whiteboard shows Sam's rewritten bet: he multiplies each possible loss by a factor of 2 to express his aversion, then computes expected value. One toss is worth nothing to him, though its unadjusted expected value is a gain of $50. Sam rejects the single offer and says he would accept 100 of them.",
+          "stage_1_question": "Why is the single toss worth nothing to Sam, even though its expected value is positive at $50?",
+          "stage_1_correct_answer": "Because Sam multiplies the possible loss by 2 to express his loss aversion before computing expected value; rewriting the gamble that way makes one toss worth zero. He feels the pain of losing a dollar as twice the pleasure of winning a dollar, so the favorable expected value is not enough to overcome the aversion when the gamble is considered alone.",
+          "stage_2_intervention": "Sam now stands in front of a decision table with two, three, and five bundled tosses laid out as separate packages. Two tosses leave a 25 percent chance of losing, with the two extreme outcomes canceling out and the intermediate outcome (one loss, one gain) positive; three tosses add $62.50 to the package; five tosses have an expected value of $250 and an 18.75 percent chance of losing anything. Which recommendation follows from the chapter's arithmetic, and which caution about the mantra must you add?",
+          "stage_2_correct_answer": "Recommend that Sam bundle at least two tosses, because two favorable gambles that are each worthless on their own are jointly worth $50 when aggregated, and the probability of losing drops to 25 percent. Add the chapter's qualifications: the gambles must be genuinely independent, the possible loss must be small relative to Sam's total wealth, and the mantra should not be applied to long shots or to multiple investments in the same industry, which would all go bad together."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The CEO's Broad Frame and the Think Like a Trader Mantra",
+          "visual_frame_description": "You sit in the boardroom of a large company where Richard Thaler has posed a gamble to the 25 division heads: with equal probability they lose a large amount of the capital they control or earn double that amount. One by one, all 25 executives decline, each explaining that the pain of losing their division's capital is unbearable even though the expected value is positive. On the screen behind them, the numbers show that the portfolio of all 25 bets has a very high probability of profit.",
+          "player_mission": "Explain why every division head refuses the gamble. Then, as the new chief executive, choose the response that best follows the chapter's evidence and state the role of the mantra 'you win a few, you lose a few.'",
+          "key_concepts": [
+            "Thaler's CEO wanted all 25 division heads to accept their risky gambles even though none of them was willing on his own.",
+            "In that conversation it was natural for the CEO to adopt a broad frame encompassing all 25 bets.",
+            "Like Sam facing 100 coin tosses, the CEO could count on statistical aggregation to mitigate the overall risk.",
+            "Each executive is loss averse in his or her own domain, which is perfectly natural, but the result is that the organization is not taking enough risk.",
+            "Experienced traders in financial markets live by broad framing, shielding themselves from the pain of losses.",
+            "Students told to think like a trader showed blunted physiological reactions to losses and increased willingness to take risks.",
+            "The broad-framing instructions used the phrases 'imagine yourself as a trader,' 'you do this all the time,' and 'treat it as one of many monetary decisions.'",
+            "The mantra 'you win a few, you lose a few' exists to control the emotional response when you do lose.",
+            "A risk policy is a broad frame that embeds a particular risky choice in a set of similar choices.",
+            "The outside view is the broad frame for planning, and a risk policy is the broad frame for risky choices.",
+            "Checking investments only once a quarter reduces the pain of frequent small losses that exceeds the pleasure of small gains.",
+            "Investors who get aggregated feedback are likely to be less risk averse and to end up richer."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the broad frame of a risk policy: a CEO aggregates 25 division-level risky bets into one portfolio so that statistical aggregation blunts the loss aversion each executive feels in his or her own domain. Kahneman reports that inducing people to think like traders blunted physiological responses to loss and increased willingness to take risk, and that the combination of the outside view with a risk policy is the goal.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "This battle tests the risk-policy idea: a broad frame embeds a particular risky choice in a set of similar choices, letting statistical aggregation blunt loss aversion. Thaler's CEO wanted all 25 division heads to accept the risky gambles even though each head, loss averse in his or her own domain, refused, and the chapter notes that the result is an organization that is not taking enough risk. The outside view of planning is the parallel broad frame, and combining a risk policy with the outside view counters both the planning fallacy's optimism and loss aversion's excessive caution.",
+          "stage_1_observation": "All 25 division heads refuse the gamble with equal probabilities of losing a large amount of their controlled capital or earning double that amount. Each explains the refusal in personal terms: the pain of losing their own division's capital is unbearable. The CEO, who is present, says without hesitation that he would like all of them to accept their risks.",
+          "stage_1_question": "Why does every division head refuse the gamble, even though accepting it across all 25 divisions would almost certainly be profitable for the firm?",
+          "stage_1_correct_answer": "Because each division head is evaluating the gamble in a narrow frame and is loss averse in his or her own domain: the possible loss of their own controlled capital feels unbearable. The chapter notes that this is perfectly natural, but the result is an organization not taking enough risk, and the CEO's broad frame, which aggregates all 25 bets, is the antidote because statistical aggregation mitigates the overall risk.",
+          "stage_2_intervention": "As the newly appointed chief executive, you must respond to the division heads' collective refusal. Option A: order every division to accept the bet and take the losses personally. Option B: adopt a risk policy that treats the 25 bets as one portfolio, instruct heads to think like a trader and see each decision as one of many that will sum into a portfolio, while monitoring results quarterly rather than daily. Option C: forbid any risky decision above a fixed dollar threshold for a year. Choose the response that best follows the chapter's evidence and state the role of the mantra.",
+          "stage_2_correct_answer": "Choose Option B: adopt a risk policy that broadens the frame, telling each head to think like a trader who makes this kind of decision all the time and treating the bets as one portfolio. The mantra 'you win a few, you lose a few' exists to control the emotional response when a loss occurs, and the chapter's experiment showed that broad-framing instructions blunted skin-conductance responses to loss and increased willingness to take risk. Option A ignores that aggregation requires independence and emotional acceptance, and Option C is a blanket restriction rather than a change of frame."
+        }
+      ]
+    }
+  ]
+}

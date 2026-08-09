@@ -1,0 +1,422 @@
+{
+  "spec_file": "spec_kahneman_b11.json",
+  "chapters": [
+    {
+      "id": "ch24",
+      "title": "19. The Illusion of Understanding",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Halo, Outcome, and Hindsight Bias",
+          "visual_frame_description": "A warm living room in the evening. Dana and her brother Marcus argue about her failed startup while her friend Priya watches from the couch. Three labeled trays sit on the coffee table: Halo Effect, Outcome Bias, and Hindsight Bias. Statement cards float above the table, each describing a snippet of everyday judgment, and the player drags each card to the tray it best fits.",
+          "player_mission": "Sort each statement card into the mechanism it best illustrates. Read the situation behind each card and decide whether it shows the halo effect warping trait judgments, a decision judged by its outcome, or a memory rewritten after the fact.",
+          "key_concepts": [
+            "The halo effect inclines us to match our view of all of a person's qualities to our judgment of one attribute that is particularly significant.",
+            "If we think a baseball pitcher is handsome and athletic, we are likely to rate him better at throwing the ball, too.",
+            "Halos can be negative: if we think a player is ugly, we will probably underrate his athletic ability.",
+            "Hindsight bias is the I-knew-it-all-along effect, first demonstrated by Baruch Fischhoff when he was a student in Jerusalem.",
+            "Fischhoff and Ruth Beyth asked people to recall the probabilities they had assigned to Nixon's 1972 diplomatic outcomes; events that occurred had their earlier probability exaggerated.",
+            "Outcome bias makes it almost impossible to evaluate a decision properly in terms of the beliefs that were reasonable when the decision was made.",
+            "People are prone to blame decision makers for good decisions that worked out badly and to give them too little credit for successful moves that appear obvious only after the fact.",
+            "Actions that seemed prudent in foresight can look irresponsibly negligent in hindsight.",
+            "The worse the consequence, the greater the hindsight bias.",
+            "Hindsight and the outcome bias also bring undeserved rewards to irresponsible risk seekers, such as a general or an entrepreneur who took a crazy gamble and won."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This matrix tests the hindsight bias, the I-knew-it-all-along effect in which people who cannot reconstruct their past beliefs retrieve their current ones instead, an instance of substitution. Fischhoff and Beyth demonstrated it in 1972 when participants exaggerated the probabilities they had originally assigned to the Nixon trip outcomes that actually occurred.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Marcus insists he warned Dana months ago that her startup would fail. Which mechanism best explains his confident claim that he knew all along?",
+          "column_a_label": "Halo Effect",
+          "column_b_label": "Outcome Bias",
+          "column_c_label": "Hindsight Bias",
+          "rows": [
+            {
+              "label": "A recruiter hears that a candidate's former company went bankrupt and concludes the candidate must be careless.",
+              "col": "b"
+            },
+            {
+              "label": "An athlete considered unattractive is judged a weaker thrower despite strong performance statistics.",
+              "col": "a"
+            },
+            {
+              "label": "After a merger collapses, an analyst recalls assigning it a high chance of failure all along.",
+              "col": "c"
+            },
+            {
+              "label": "A successful CEO is described as flexible, methodical, and decisive.",
+              "col": "a"
+            },
+            {
+              "label": "A jury concludes a standard low-risk surgery was actually risky because an unpredictable accident killed the patient.",
+              "col": "b"
+            },
+            {
+              "label": "Students who learn that debris blocked a river and caused flood damage are far more likely to say Duluth should have hired a bridge monitor.",
+              "col": "b"
+            },
+            {
+              "label": "Years after the fact, people say they knew the 2008 financial crisis was inevitable.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "Marcus is deliberately lying to look smart in front of Dana.",
+            "Marcus wrote down his warning and can produce a dated, verified record of prescience.",
+            "Marcus is committing the outcome bias by judging Dana's decision harshly."
+          ],
+          "explanation": "Marcus's claim is best explained by hindsight bias: asked to reconstruct his former belief, he retrieves his current one instead, an instance of substitution. The matrix also shows the halo effect (one salient attribute bending all trait judgments) and the outcome bias (a decision judged by its outcome rather than by the beliefs that were reasonable at the time)."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Deconstructing the Google Success Story",
+          "visual_frame_description": "A startup accelerator conference room. Consultant Marco projects a slide titled How Google Won with four tidy bullets: two clever Stanford graduate students, a superior search idea, a series of decisions that worked out, and the buyer who once refused their offer to sell for under a million dollars. Founders take notes while a counter on the wall ticks up the number of failure stories the slide omits.",
+          "player_mission": "Classify each statement from the chapter into the mechanism that produces it: the narrative fallacy, the WYSIATI rule, or regression to the mean. The goal is to see why Marco's inspiring lesson about business success is largely illusory.",
+          "key_concepts": [
+            "Taleb's narrative fallacy describes how flawed stories of the past shape our view of the world and our expectations for the future.",
+            "The explanatory stories people find compelling are simple, concrete, and assign a larger role to talent, stupidity, and intentions than to luck.",
+            "Stories focus on a few striking events that happened rather than on the countless events that failed to happen.",
+            "The human mind does not deal well with nonevents.",
+            "The ultimate test of an explanation is whether it would have made the event predictable in advance; no story of Google's success meets that test.",
+            "The more luck was involved in an event, the less there is to be learned from it.",
+            "WYSIATI: you cannot help dealing with the limited information you have as if it were all there is to know.",
+            "It is paradoxically easier to construct a coherent story when you know little, because there are fewer pieces to fit into the puzzle.",
+            "Our conviction that the world makes sense rests on our almost unlimited ability to ignore our ignorance.",
+            "Regression to the mean explains why gaps between successful and less successful firms tend to shrink over time."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This matrix tests the narrative fallacy in combination with the WYSIATI rule: System 1 builds the simplest coherent story from the information at hand and treats it as complete, ignoring the counterfactual events that never happened. Because luck is underweighted in such stories, the sense of understanding they produce is largely illusory, and regression to the mean quietly erases the apparent patterns.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Marco tells the founders that the Google story proves they can predict which startups will succeed. Which mechanism best explains why his lesson is largely illusory?",
+          "column_a_label": "Narrative Fallacy",
+          "column_b_label": "WYSIATI",
+          "column_c_label": "Regression to the Mean",
+          "rows": [
+            {
+              "label": "The story is told as a simple, concrete sequence of good choices with no mention of the many paths that failed.",
+              "col": "a"
+            },
+            {
+              "label": "One lucky incident, the buyer refusing the founders' offer to sell for less than one million dollars, makes the story even more compelling.",
+              "col": "a"
+            },
+            {
+              "label": "The mind focuses on the striking events that happened and ignores the countless events that failed to happen.",
+              "col": "a"
+            },
+            {
+              "label": "You build the best possible story from the limited information you have, as if it were all there is to know.",
+              "col": "b"
+            },
+            {
+              "label": "It is easier to construct a coherent story when you know little, because there are fewer pieces to fit into the puzzle.",
+              "col": "b"
+            },
+            {
+              "label": "The gap in profitability between Built to Last's outstanding firms and its laggards shrank to almost nothing in the period following the study.",
+              "col": "c"
+            },
+            {
+              "label": "Fortune's Most Admired companies later earned much lower stock returns over twenty years than the least admired firms.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The lesson fails because the Google founders were unusually skilled and their skill cannot be replicated.",
+            "The lesson fails because the historical details about Stanford are inaccurate.",
+            "The lesson fails because regression to the mean guarantees that most startups will fail."
+          ],
+          "explanation": "Marco's lesson is best explained by the narrative fallacy: the Google story is a tidy causal account that hides luck and nonevents, so it cannot make the outcome predictable in advance. The matrix also sorts WYSIATI claims, which explain why the coherent story feels complete, and regression to the mean, which explains why celebrated patterns of firm success shrink over time."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Why Success-Book Lessons Fail",
+          "visual_frame_description": "A business book fair inside a bright airport bookstore. A display table features Built to Last, In Search of Excellence, and a biography of a gambler-general crowned with a laurel of prescience. Shoppers nod at the glowing cover quotes while a projection behind the counter shows stock return charts in which the stars' advantage shrinks to a flat line over time.",
+          "player_mission": "Classify each claim into the mechanism driving it: the halo effect, regression to the mean, or the risk aversion that hindsight fosters. Determine which bias manufactures the illusion that business success books sell.",
+          "key_concepts": [
+            "The halo effect inclines us to match our view of all the qualities of a person to our judgment of one attribute that is particularly significant.",
+            "The CEO of a successful company is likely to be called flexible, methodical, and decisive; the same executive in a failing company is described as confused, rigid, and authoritarian.",
+            "Because of the halo effect, we get the causal relationship backward: we believe the firm fails because its CEO is rigid, when the CEO appears rigid because the firm is failing.",
+            "A few lucky gambles can crown a reckless leader with a halo of prescience and boldness.",
+            "Although hindsight and the outcome bias generally foster risk aversion, they also bring undeserved rewards to irresponsible risk seekers who won.",
+            "Decision makers who expect to have their decisions scrutinized with hindsight are driven to bureaucratic solutions and an extreme reluctance to take risks.",
+            "The average gap between outstanding and less successful firms must shrink, because the original gap was due in good part to luck, which is regression to the mean.",
+            "In the presence of randomness, regular patterns can only be mirages.",
+            "The average profitability of the companies identified in In Search of Excellence dropped sharply within a short time.",
+            "A study of Fortune's Most Admired Companies found that over twenty years the worst-rated firms went on to earn much higher stock returns than the most admired firms."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This matrix tests how the halo effect and outcome bias combine to manufacture illusory insight about leaders, while regression to the mean erases the very patterns that success books celebrate. The chapter's evidence includes Rosenzweig's critique of Built to Last and the sharp post-publication decline of its stars' advantage.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "A general who gambled recklessly and won is celebrated as bold and prescient. Which mechanism best explains his new reputation for insight?",
+          "column_a_label": "Halo Effect",
+          "column_b_label": "Regression to the Mean",
+          "column_c_label": "Risk Aversion from Hindsight",
+          "rows": [
+            {
+              "label": "A lucky gamble crowns a reckless leader with a halo of prescience and boldness.",
+              "col": "a"
+            },
+            {
+              "label": "The same executive is called confused, rigid, and authoritarian a year after the firm's results sour.",
+              "col": "a"
+            },
+            {
+              "label": "The CEO appears rigid because the firm is failing, even though we believe the firm fails because its CEO is rigid.",
+              "col": "a"
+            },
+            {
+              "label": "The average profitability of the companies featured in In Search of Excellence dropped sharply within a short time.",
+              "col": "b"
+            },
+            {
+              "label": "The gap in stock returns between Built to Last's stars and its laggards shrank to almost nothing after the study.",
+              "col": "b"
+            },
+            {
+              "label": "Hindsight pushes physicians to order more tests and refer more cases to specialists, protecting themselves more than their patients.",
+              "col": "c"
+            },
+            {
+              "label": "Accountable decision makers who expect hindsight scrutiny become extremely reluctant to take risks and retreat to standard operating procedures.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The general's victory proves that his strategy was rational and worth copying.",
+            "The celebration reflects regression to the mean in military outcomes.",
+            "The general is rewarded because the outcome bias systematically punishes cautious rivals."
+          ],
+          "explanation": "The general's new reputation is best explained by the halo effect: a single salient success, the lucky win, is extended to his character, making him look prescient. The matrix also shows regression to the mean erasing the apparent advantage of celebrated firms and hindsight-driven risk aversion distorting the behavior of accountable decision makers."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Auditing an I-Knew-It-All-Along Claim",
+          "visual_frame_description": "A quietly lit conference room at a wealth management firm. Priya, a financial adviser in a gray blazer, sits across from an internal auditor holding a file of client notes. A wall clock and a recorded video feed are visible. The audit is examining her claim that she warned clients about the 2008 crisis months in advance.",
+          "player_mission": "Audit Priya's claim of prescience. Compare her baseline behavior, the timed observations, and her answers during the interview, then decide whether her warning was genuine foresight or a hindsight-biased reconstruction.",
+          "key_concepts": [
+            "Hindsight bias is the I-knew-it-all-along effect, first demonstrated by Baruch Fischhoff when he was a student in Jerusalem.",
+            "Fischhoff and Ruth Beyth surveyed people before Nixon's 1972 trips to China and Russia and later asked them to recall the probabilities they had assigned; events that occurred had their earlier probability exaggerated.",
+            "Asked to reconstruct their former beliefs, people retrieve their current ones instead, an instance of substitution, and many cannot believe that they ever felt differently.",
+            "Your inability to reconstruct past beliefs will inevitably cause you to underestimate the extent to which you were surprised by past events.",
+            "Once you adopt a new view of the world, you immediately lose much of your ability to recall what you used to believe before your mind changed.",
+            "The tendency to revise the history of one's beliefs in light of what actually happened produces a robust cognitive illusion.",
+            "People were driven to overstate the accuracy not only of their own original predictions but also of those made by others.",
+            "The people who thought there would be a financial crisis could not conclusively show it at the time, so the crisis was not knowable.",
+            "The words know, intuition, and premonition are reserved for past thoughts that turned out to be true, which fosters the illusion that the world is more knowable than it is.",
+            "Many intelligent and well-informed people were keenly interested in the future of the economy and did not believe a catastrophe was imminent, implying the crisis was not knowable."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the hindsight bias: because people cannot reconstruct past beliefs, they substitute their current ones, so I-knew-it-all-along claims are usually self-deception rather than prescience. Fischhoff and Beyth's Nixon study and the many people who claimed to have known the 2008 crisis were inevitable are the chapter's evidence for the bias.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Priya claims she warned her clients about the 2008 financial crisis months before it hit. Is her claim genuine prescience, or a hindsight-biased reconstruction?",
+          "subject_baseline": "Priya is a cautious, detail-oriented financial adviser who almost never makes emphatic market calls. In eleven years of client notes, her strongest written statements are hedged, such as risks are elevated but the timing is unpredictable. She is modest in meetings and frequently corrects her own overstatements.",
+          "observed_nonverbal_log": [
+            "00:00-00:45: Priya sits relaxed, makes steady eye contact, and smiles; her posture is open and she answers the opening questions fluidly.",
+            "01:30: Asked for the exact date or wording of her warning, she pauses, looks at the ceiling, and rubs her neck; her speech slows and she starts with Well, it was somewhere in.",
+            "02:40: Asked to produce the written note she claims to have sent, she shuffles papers and says it was not in writing, it was at a lunch.",
+            "03:15: When pressed for the reasoning she used at the time, she gives a confident, tidy account: everyone knew leverage was out of control.",
+            "04:00: Asked whether she made the same call in 2005, when markets were still rising, she laughs and says no one could have called it that early."
+          ],
+          "interrogation_transcript": [
+            "Interviewer: When exactly did you tell clients to get out of the market?",
+            "Priya: Months before the crash. I remember the lunch at the bistro, I told Marcus it was a house of cards.",
+            "Interviewer: Can you show me the note or the email?",
+            "Priya: It wasn't written down. I said it at a lunch.",
+            "Interviewer: What was your reasoning back then?",
+            "Priya: Everyone knew leverage was out of control.",
+            "Interviewer: Did you make the same warning in 2005, before the market peaked?",
+            "Priya: No one could have called it that early."
+          ],
+          "correct_diagnosis": "Hindsight bias, not genuine prescience. Priya has substituted her current belief for her actual past belief and has no recoverable contemporaneous record of warning anyone.",
+          "diagnostic_breakdown": [
+            "No written record exists, yet her confidence is high and her story is a tidy causal narrative, everyone knew, the same flavor of after-the-fact coherence Fischhoff and Beyth measured when people exaggerated the probabilities they had assigned to events that actually occurred.",
+            "Her stated reasoning is only describable in hindsight terms; she articulates no distinctive belief she held at the time that other well-informed people did not also hold.",
+            "Her own admission that no one could have called it that early in 2005 undercuts the claim of knowability, matching the chapter's point that many people who claimed to know the 2008 crisis was inevitable could not conclusively show it at the time.",
+            "The nonverbal cues, pausing, neck-rubbing, and vagueness about specifics, appear precisely when she is asked to reconstruct her past beliefs, the task people fail because they retrieve current beliefs instead, an instance of substitution."
+          ],
+          "distractors": [
+            "Priya is deliberately lying to attract new clients.",
+            "Priya showed genuine prescience and should be promoted for her market timing.",
+            "Priya's clients are committing the outcome bias against her."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Auditing an Outcome-Biased Review",
+          "visual_frame_description": "A hospital review board hearing in a windowless conference room. Dr. Okafor, a general surgeon, sits at the end of a long table facing five reviewers who hold a patient's death certificate. Board chair Maria Rojas leads the review of a standard low-risk surgery that ended in an unpredictable complication and the patient's death.",
+          "player_mission": "Audit the review board's reasoning. Determine whether their verdict that Dr. Okafor was negligent reflects a fair evaluation of the decision or the outcome bias, in which a decision is judged by its result rather than by the beliefs that were reasonable at the time.",
+          "key_concepts": [
+            "Outcome bias makes it almost impossible to evaluate a decision properly in terms of the beliefs that were reasonable when the decision was made.",
+            "Consider a low-risk surgical intervention in which an unpredictable accident occurred that caused the patient's death: the jury will be prone to believe after the fact that the operation was actually risky and that the doctor who ordered it should have known better.",
+            "Actions that seemed prudent in foresight can look irresponsibly negligent in hindsight.",
+            "We are prone to blame decision makers for good decisions that worked out badly and to give them too little credit for successful moves that appear obvious only after the fact.",
+            "When outcomes are bad, clients often blame their agents for not seeing the handwriting on the wall, forgetting that it was written in invisible ink that became legible only afterward.",
+            "Hindsight is especially unkind to decision makers who act as agents for others, such as physicians, financial advisers, and CEOs.",
+            "Hindsight bias leads observers to assess the quality of a decision not by whether the process was sound but by whether its outcome was good or bad.",
+            "The worse the consequence, the greater the hindsight bias.",
+            "In the Duluth bridge-monitor study, 56% of participants told that debris had blocked the river and caused major flood damage said the city should have hired the monitor, versus 24% who saw only the evidence available at the time.",
+            "Because adherence to standard operating procedures is difficult to second-guess, decision makers who expect hindsight scrutiny are driven to bureaucratic solutions and an extreme reluctance to take risks."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the outcome bias: when outcomes are bad, observers judge a decision by its result rather than by the beliefs that were reasonable when it was made. The chapter's Duluth and malpractice examples show that hindsight knowledge routinely rewrites what a good decision was, punishing agents who made sound choices that turned out badly.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "After a patient died from an unpredictable complication following standard low-risk surgery, the hospital review board concluded Dr. Okafor was negligent. Is the reviewers' verdict sound, or does outcome bias explain it?",
+          "subject_baseline": "Dr. Okafor is a careful general surgeon with twelve years of clean reviews, a protocol-adherent record, and complication rates at the hospital average. The review board members are experienced physicians and administrators who normally weigh evidence and cite guidelines in their written reports.",
+          "observed_nonverbal_log": [
+            "00:00-00:30: Chair Maria Rojas opens the review with a heavy sigh and glances at the patient's death certificate before reading the surgical notes.",
+            "01:10: When the anesthesia record is shown to be standard, three members exchange raised eyebrows and lean back in their chairs.",
+            "02:00: Board member Tom Ibarra repeatedly underlines the word death in the chart margin while Dr. Okafor testifies that every protocol was followed.",
+            "03:20: Asked whether they would have approved the same surgery before the complication, the members fall silent; no one answers for several seconds.",
+            "03:50: Chair Rojas says that given the outcome, the procedure was clearly too risky to order, and the board votes to censure Dr. Okafor."
+          ],
+          "interrogation_transcript": [
+            "Dr. Okafor: The consent form listed this complication. It is a known, rare event after this procedure.",
+            "Tom Ibarra: But the patient is dead. That changes everything.",
+            "Maria Rojas: Given the outcome, the procedure was clearly too risky to order.",
+            "Dr. Okafor: You reviewed this exact protocol last year and called it standard of care.",
+            "Maria Rojas: Last year nothing went wrong.",
+            "Tom Ibarra: The handwriting was on the wall. A good surgeon would have seen it."
+          ],
+          "correct_diagnosis": "The reviewers are committing outcome bias. The decision to operate was sound under the beliefs and evidence available at the time, and the unpredictable accident turned a good decision into a fatal one, so the board judged the decision by its outcome.",
+          "diagnostic_breakdown": [
+            "The surgical protocol matched hospital standards and the complication was a known rare risk, exactly the low-risk surgical intervention in which an unpredictable accident caused the patient's death that the chapter says will make a jury prone to believe after the fact that the operation was actually risky.",
+            "Board members' confidence rises only after the outcome is known: they reviewed the same protocol a year earlier and changed their verdict solely because the patient died.",
+            "Tom Ibarra's the handwriting was on the wall is the chapter's own image of hindsight: the ink was invisible until after the event, so the good decision can look irresponsibly negligent in hindsight.",
+            "The board failed the test of judging the decision by the beliefs that were reasonable when it was made, which the outcome bias makes almost impossible.",
+            "The nonverbal log shows outcome knowledge driving the verdict: sighs and underlining track the death certificate and the word death, not the procedural evidence, and no one answers when asked what they would have approved before the complication."
+          ],
+          "distractors": [
+            "Dr. Okafor was negligent because the complication occurred.",
+            "Dr. Okafor is suffering from hindsight bias about his own skills.",
+            "The board was correctly applying a zero-tolerance patient safety policy."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Fighting the Narrative Fallacy",
+          "visual_frame_description": "A conference room at a startup accelerator. Consultant Marco projects a slide titled How Google Won with four bullet points: two clever Stanford graduate students, superior search, a series of decisions that worked out, and the buyer who once refused their offer to sell for less than a million dollars. The founders take notes while no slide mentions competitors, failed paths, or market conditions.",
+          "player_mission": "Defeat the boss, the narrative fallacy. In stage one, identify the feature that makes Marco's story feel coherent but uninformative. In stage two, choose the intervention that stops the founders from adopting his four-step playbook as a reliable lesson.",
+          "key_concepts": [
+            "Taleb's narrative fallacy describes how flawed stories of the past shape our view of the world and our expectations for the future.",
+            "The explanatory stories that people find compelling are simple, concrete, and assign a larger role to talent, stupidity, and intentions than to luck.",
+            "Stories focus on a few striking events that happened rather than on the countless events that failed to happen.",
+            "The ultimate test of an explanation is whether it would have made the event predictable in advance; no story of Google's unlikely success will meet that test.",
+            "The human mind does not deal well with nonevents.",
+            "Because every critical decision turned out well, the record suggests almost flawless prescience, though bad luck could have disrupted any one of the successful steps.",
+            "The more luck was involved in the actual event, the less there is to be learned from it.",
+            "WYSIATI: you build the best possible story from the information available to you, and if it is a good story, you believe it.",
+            "The halo effect adds the final touches, lending an aura of invincibility to the heroes of the story.",
+            "Our comforting conviction that the world makes sense rests on our almost unlimited ability to ignore our ignorance."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the narrative fallacy: System 1's sense-making machinery turns a lucky sequence of choices into a tidy causal story that hides luck and nonevents. Because no story can include all the events that would have caused a different outcome, the sense of understanding such stories produce is largely illusory.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The boss is the narrative fallacy, Taleb's term for how flawed stories of the past shape our view of the world and our expectations for the future. Compelling stories are simple, concrete, weight talent and intentions over luck, and ignore the countless events that did not happen, so the sense of understanding they produce is largely illusory.",
+          "stage_1_observation": "Marco's slide ends with a flourish: the buyer who once refused the founders' offer to sell the company for less than one million dollars. The founders lean forward, visibly impressed, and one writes down the four steps. The counter on the wall showing omitted failure paths keeps climbing.",
+          "stage_1_question": "Which single feature should make the founders treat the Google story as an unreliable source of business lessons?",
+          "stage_1_correct_answer": "The story omits the counterfactual events, the myriad ways the outcome could have differed, so it can never meet the test of making the event predictable in advance.",
+          "stage_2_intervention": "Marco now proposes that the founders adopt his four-step playbook for guaranteed startup success. You are advising the founders. Which action best counters the narrative fallacy before they commit?",
+          "stage_2_correct_answer": "Run a counterfactual and base-rate review: ask what percentage of similar startups fail despite equally good decisions, and price in the fact that the more luck was involved, the less there is to be learned."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Beating the Outcome Bias Tribunal",
+          "visual_frame_description": "A municipal hearing in Duluth, Minnesota, years after a spring flood. Debris blocked the river and floodwater damaged the town. A city council panel reopens the decision not to hire a full-time bridge monitor. The room is split into two groups: one reads the damage report, the other sees only the evidence available at decision time.",
+          "player_mission": "Defeat the boss, the outcome bias in institutional review. In stage one, predict what the two groups will conclude about the city's decision. In stage two, choose the intervention that protects the original decision maker from being judged by the flood that followed.",
+          "key_concepts": [
+            "In the Duluth bridge-monitor study, 24% of participants shown only the evidence available at the time of the city's decision felt that Duluth should take on the expense of hiring a flood monitor.",
+            "The second group, told that debris had blocked the river and caused major flood damage, produced 56% who said the city should have hired the monitor.",
+            "The second group produced this result even though they had been explicitly instructed not to let hindsight distort their judgment.",
+            "Outcome bias makes it almost impossible to evaluate a decision properly in terms of the beliefs that were reasonable when the decision was made.",
+            "Actions that seemed prudent in foresight can look irresponsibly negligent in hindsight.",
+            "Hindsight is especially unkind to decision makers who act as agents for others, such as physicians, financial advisers, and city officials.",
+            "The worse the consequence, the greater the hindsight bias.",
+            "People are prone to blame decision makers for good decisions that worked out badly.",
+            "Because adherence to standard operating procedures is difficult to second-guess, decision makers who expect their decisions to be scrutinized with hindsight are driven to bureaucratic solutions.",
+            "Increased accountability is a mixed blessing, fostering risk aversion and an extreme reluctance to take risks."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the outcome bias and its resistance to instruction: even explicitly warned, people judge the Duluth decision by the flood that followed, with 56% versus 24% finding the city negligent. Hindsight and outcome bias foster risk aversion in accountable decision makers, pushing them toward bureaucratic, self-protective choices.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The boss is outcome bias in institutional review: evaluating a decision by its outcome rather than by the beliefs that were reasonable at the time. The chapter's Duluth study shows that people who know a flood occurred are far more likely to call the city's decision negligent, even when told not to let hindsight distort their judgment.",
+          "stage_1_observation": "The informed group reads the damage report and exchanges looks of certainty, while the uninformed group studies the original flood-risk memos from before the decision. A staffer distributes identical ballots asking each person whether the city should have hired a full-time bridge monitor.",
+          "stage_1_question": "Based on the chapter's bridge-monitor study, which outcome should you predict for the two groups?",
+          "stage_1_correct_answer": "About 56% of the informed group will say the city should have hired the monitor, versus about 24% of the group shown only the evidence available at the time, even though both were warned not to let hindsight distort their judgment.",
+          "stage_2_intervention": "The panel asks you to advise the official who made the original decision and now faces censure. Which intervention best protects against outcome bias in the panel's review?",
+          "stage_2_correct_answer": "Force the review to reconstruct the decision from the evidence available at the time and score decision quality before the outcome is revealed, evaluating the process rather than the result."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Breaking the Halo Effect",
+          "visual_frame_description": "In a boardroom, analyst Lena presents a performance review of CEO Amanda Chen. The firm's stock has doubled in two years, and the slide is filled with glowing trait labels: decisive, flexible, methodical, visionary. In gray at the bottom are two labels HR flagged as not fitting the narrative: rigid, cautious.",
+          "player_mission": "Defeat the boss, the halo effect. In stage one, explain why the team rejects rigid and cautious as descriptions of Amanda. In stage two, choose the intervention that prevents the board from overreacting when her firm's results turn sour.",
+          "key_concepts": [
+            "The halo effect inclines us to match our view of all the qualities of a person to our judgment of one attribute that is particularly significant.",
+            "The CEO of a successful company is likely to be called flexible, methodical, and decisive.",
+            "Imagine that a year has passed and things have gone sour: the same executive is now described as confused, rigid, and authoritarian.",
+            "Because of the halo effect, we get the causal relationship backward: we believe that the firm fails because its CEO is rigid, when the truth is that the CEO appears to be rigid because the firm is failing.",
+            "Halos can also be negative: if we think a player is ugly, we will probably underrate his athletic ability.",
+            "The halo effect helps keep explanatory narratives simple and coherent by exaggerating the consistency of evaluations.",
+            "A very generous estimate of the correlation between the success of a firm and the quality of its CEO might be as high as .30, indicating 30% overlap.",
+            "A correlation of .30 implies that the stronger CEO would lead the more successful firm in about 60% of pairs, a mere 10 percentage points over random guessing.",
+            "If you expected this value to be higher, that indicates you are prone to overestimate the predictability of the world you live in.",
+            "CEOs do influence performance, but the effects are much smaller than a reading of the business press suggests."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the halo effect: a salient success or failure colors every trait judgment, and the causal direction gets inverted, success seems to cause the halo rather than the halo the success. The chapter grounds this in CEO reputation studies and the modest .30 correlation between leadership quality and firm performance.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The boss is the halo effect: one salient attribute of a person or firm colors every other judgment, exaggerating consistency so that good people do only good things. The chapter shows the halo flipping with fortune, the same CEO is flexible and methodical when the firm thrives and confused and rigid when it fails.",
+          "stage_1_observation": "Lena's team rejects the gray labels as absurd, noting that Amanda has made three bold, successful pivots. Below the slide, an analyst mutters that calling such a leader rigid would be ridiculous.",
+          "stage_1_question": "Why does Lena's team so confidently reject rigid and cautious as descriptions of Amanda?",
+          "stage_1_correct_answer": "Because the halo effect makes trait judgments match the salient success: a thriving firm's CEO seems flexible and methodical, while the same behaviors in a struggling firm would be read as rigid and confused.",
+          "stage_2_intervention": "A year later, Amanda's firm misses three quarters and the board now describes her as rigid and authoritarian. You are asked to advise the board on whether to replace her. Which intervention best counters the halo effect?",
+          "stage_2_correct_answer": "Separate the firm's current performance from an independent evaluation of Amanda's actual decisions and traits, and remember that the correlation between CEO quality and firm success is only about .30, so the stronger CEO leads the more successful firm in only about 60% of pairs."
+        }
+      ]
+    }
+  ]
+}

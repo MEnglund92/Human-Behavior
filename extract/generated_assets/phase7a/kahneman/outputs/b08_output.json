@@ -1,0 +1,859 @@
+{
+  "spec_file": "spec_kahneman_b08.json",
+  "chapters": [
+    {
+      "id": "ch18",
+      "title": "13. Availability, Emotion, and Risk",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Affect Heuristic and the Benefit-Risk Inversion",
+          "visual_frame_description": "A product-safety boardroom. On screen, a marketing team presents a new food preservative to a skeptical compliance officer; above the table, three labeled columns float like inboxes. Cards showing risk judgments hover in the center, waiting to be sorted into the column that best explains them.",
+          "player_mission": "Sort each risk judgment into the column that best explains it. Read each card carefully and drag it to the affect heuristic, availability bias, or rational cost-benefit column based on the psychological mechanism the book describes.",
+          "key_concepts": [
+            "Slovic and his colleagues observed an implausibly high negative correlation between the benefits and the risks respondents attributed to technologies.",
+            "When people were favorably disposed toward a technology, they rated it as offering large benefits and imposing little risk.",
+            "When people disliked a technology, they could think only of its disadvantages, and few advantages came to mind.",
+            "Members of the British Toxicology Society responded similarly to laypeople, finding little benefit in substances they thought risky.",
+            "Respondents who received a message extolling a technology's benefits also lowered their estimates of its risks, although no risk evidence was given.",
+            "Ratings of risk and benefit corresponded even more closely when people rated them under time pressure.",
+            "The affect heuristic answers the easy question 'How do I feel about it?' in place of the harder question 'What do I think about it?'",
+            "Slovic related his views to Antonio Damasio's finding that people who lack the appropriate emotional signals, sometimes due to brain damage, make impaired decisions.",
+            "Jonathan Haidt's phrase 'The emotional tail wags the rational dog' captures how feelings steer evaluations of risk.",
+            "The affect heuristic simplifies life by creating a world in which good technologies have few costs and bad technologies have no benefits.",
+            "The affect heuristic is an instance of substitution, replacing a difficult judgment with an easier emotional one."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the affect heuristic: judgments about benefit and risk are made by consulting emotions such as 'Do I like it?' rather than by analyzing evidence, producing a strong negative correlation between perceived benefit and perceived risk. Slovic's research team documented this inversion across technologies, in laypeople and toxicologists alike, and under time pressure.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sort each risk judgment into the mechanism that best explains it. The focal card reads: 'A marketing team likes a new food preservative, so they rate its benefits high and its risks negligible.'",
+          "column_a_label": "Affect heuristic (emotion substitutes for analysis)",
+          "column_b_label": "Availability bias (ease of recall drives frequency estimates)",
+          "column_c_label": "Rational cost-benefit reasoning",
+          "rows": [
+            {
+              "label": "A marketing team likes a new food preservative, so they rate its benefits high and its risks negligible.",
+              "col": "a"
+            },
+            {
+              "label": "After televised shark-attack coverage, a beach town overestimates shark-related deaths relative to drowning.",
+              "col": "b"
+            },
+            {
+              "label": "A utility regulator compares the cost per life saved across safety programs before choosing one.",
+              "col": "c"
+            },
+            {
+              "label": "Survey respondents who disliked water fluoridation rated it as risky with few benefits.",
+              "col": "a"
+            },
+            {
+              "label": "A homeowner judged tornadoes a more frequent killer than asthma, although asthma causes 20 times more deaths.",
+              "col": "b"
+            },
+            {
+              "label": "An insurance actuary prices flood policies from historical loss data rather than from recent headlines.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The team reasoned from formal statistical analysis of the preservative's safety data",
+            "The team judged risk by the ease of recalling recent food recalls, an availability effect",
+            "The team balanced the preservative's risk against its benefit in a deliberate tradeoff"
+          ],
+          "explanation": "Liking a technology makes it feel high in benefit and low in risk even without supporting evidence, because the emotional evaluation substitutes for analysis. This mirrors Slovic's finding that benefit and risk ratings were implausibly negatively correlated, with toxicologists showing the same pattern as the public."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Availability Bias in Estimates of Causes of Death",
+          "visual_frame_description": "A public-health studio in a city health department. A data analyst stands before a wall of charts comparing the public's guesses about causes of death with official mortality statistics. Floating cards list survey findings, and three columns offer the candidate explanations.",
+          "player_mission": "Sort each statement into the mechanism it illustrates, using the findings of the Slovic, Lichtenstein, and Fischhoff surveys described in the chapter. Identify which judgments reflect media-warped availability, which reflect probability neglect, and which reflect sound statistical reasoning.",
+          "key_concepts": [
+            "Slovic, Lichtenstein, and Fischhoff asked people to compare pairs of causes of death, such as diabetes and asthma or stroke and accidents.",
+            "Strokes cause almost twice as many deaths as all accidents combined, yet 80% of respondents judged accidental death to be more likely.",
+            "Tornadoes were seen as more frequent killers than asthma, although asthma causes 20 times more deaths.",
+            "Death by lightning was judged less likely than death from botulism even though it is 52 times more frequent.",
+            "Death by disease is 18 times as likely as accidental death, but the two were judged about equally likely.",
+            "Accidental death was judged to be more than 300 times more likely than death from diabetes, but the true ratio is 1 to 4.",
+            "Estimates of causes of death are warped by media coverage, which is itself biased toward novelty and poignancy.",
+            "Unusual events such as botulism attract disproportionate attention and are consequently perceived as less unusual than they really are.",
+            "The estimates of causes of death are an almost direct representation of the activation of ideas in associative memory.",
+            "Frightening thoughts and images occur with particular ease, and fluent, vivid thoughts of danger exacerbate fear."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the availability bias in risk perception: people estimate the frequency of causes of death by the ease with which examples come to mind, so dramatic and media-covered causes are overestimated relative to health statistics. Slovic, Lichtenstein, and Fischhoff's surveys produced large systematic errors, such as judging accidents more likely killers than strokes.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sort each statement into the mechanism it illustrates. The focal card reads: 'Respondents judged accidental death more likely than stroke, although strokes kill almost twice as many people as all accidents combined.'",
+          "column_a_label": "Availability bias (media-warped frequency estimates)",
+          "column_b_label": "Probability neglect (concern insensitive to likelihood)",
+          "column_c_label": "Accurate statistical reasoning",
+          "rows": [
+            {
+              "label": "Respondents judged accidental death more likely than stroke, although strokes kill almost twice as many people as all accidents combined.",
+              "col": "a"
+            },
+            {
+              "label": "Tornadoes were rated more frequent killers than asthma, which causes 20 times more deaths.",
+              "col": "a"
+            },
+            {
+              "label": "Death by lightning was judged less likely than death from botulism, although lightning deaths are 52 times more frequent.",
+              "col": "a"
+            },
+            {
+              "label": "A worried parent cannot sleep while a teenager is late, even while knowing the true risk is tiny.",
+              "col": "b"
+            },
+            {
+              "label": "A regulator authorizes a ban because an image of harm is vivid, even though the probability of harm is negligibly small.",
+              "col": "b"
+            },
+            {
+              "label": "A public-health analyst cites annual mortality tables when ranking prevention programs.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The stroke-versus-accident error reflects an accurate memory of news reports about car crashes",
+            "The pattern reflects rational weighting of each cause by its true death toll",
+            "The errors arise from a deliberate rejection of base-rate statistics"
+          ],
+          "explanation": "The death-estimate errors track the availability of dramatic, emotionally vivid media coverage: unusual causes such as accidents, tornadoes, and botulism dominate memory, so their frequency is overestimated relative to the official statistics. The correct response for the focal card is the availability bias, since the error stems from ease of recall rather than from indifference to probability or accurate calculation."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Availability Cascade from News to Policy",
+          "visual_frame_description": "A newsroom map of a town. A small chemical-residue story on a corner screen is growing into headlines, tickers, and a crowd outside a courthouse. Three columns label the stages of an availability cascade, and cards describing events float between them.",
+          "player_mission": "Sort each event into the cascade stage it represents: media amplification, public emotional response, or political and policy response. Trace the self-sustaining chain from a minor report to large-scale government action.",
+          "key_concepts": [
+            "Kuran and Sunstein invented the term availability cascade for the mechanism through which biases flow into policy.",
+            "An availability cascade is a self-sustaining chain of events that may start from media reports of a relatively minor event and lead up to public panic and large-scale government action.",
+            "The importance of an idea is often judged by the fluency and emotional charge with which it comes to mind.",
+            "'Availability entrepreneurs' are individuals or organizations who work to ensure a continuous flow of worrying news.",
+            "The danger is increasingly exaggerated as the media compete for attention-grabbing headlines.",
+            "Scientists and others who try to dampen the increasing fear attract little attention, most of it hostile.",
+            "Anyone who claims that the danger is overstated is suspected of association with a 'heinous cover-up.'",
+            "The issue becomes politically important because it is on everyone's mind, and the response of the political system is guided by the intensity of public sentiment.",
+            "The availability cascade resets priorities, pushing other risks and other uses of resources into the background.",
+            "At Love Canal, daily stories, the ABC program The Killing Ground, and empty baby-size coffins paraded before the legislature sustained the cascade.",
+            "The Love Canal affair helped produce CERCLA, which established a Superfund for the cleanup of toxic sites.",
+            "In the Alar scare of 1989, the apple industry sustained large losses and the manufacturer withdrew the product after the FDA banned it."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the availability cascade: a self-sustaining cycle in which media coverage of a minor threat inflames public worry, the worry generates more coverage, and policy responds to the intensity of sentiment rather than to the objective risk. Kuran and Sunstein coined the term to explain events such as Love Canal and the Alar scare, where regulation followed public emotion rather than careful cost-benefit analysis.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "A minor chemical-residue story is snowballing into public panic. Sort each event into the cascade stage it represents. The focal card reads: 'A relatively minor event is reported, and the emotional reaction becomes a story in itself, prompting additional coverage.'",
+          "column_a_label": "Media amplification",
+          "column_b_label": "Public emotional response",
+          "column_c_label": "Political and policy response",
+          "rows": [
+            {
+              "label": "A relatively minor event is reported, and the emotional reaction becomes a story in itself, prompting additional coverage.",
+              "col": "a"
+            },
+            {
+              "label": "'Availability entrepreneurs' work to ensure a continuous flow of worrying news.",
+              "col": "a"
+            },
+            {
+              "label": "Scientists who say the danger is overstated are ignored or suspected of a cover-up.",
+              "col": "b"
+            },
+            {
+              "label": "The issue becomes politically important because it is on everyone's mind.",
+              "col": "c"
+            },
+            {
+              "label": "The political system responds to the intensity of public sentiment rather than to careful risk analysis.",
+              "col": "c"
+            },
+            {
+              "label": "The panic results in large-scale government action, such as the Superfund legislation after Love Canal.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The cascade is best understood as rational Bayesian updating on new evidence",
+            "The media story reflects the objective magnitude of the danger",
+            "Public officials respond to the statistical base rate of harm"
+          ],
+          "explanation": "In an availability cascade, a media report of a minor event arouses public worry, the worry becomes a story that prompts more coverage, and politicians eventually respond to the intensity of sentiment. The focal card is the amplification stage, because the emotional reaction being turned into further coverage is precisely the self-sustaining media loop Kuran and Sunstein described."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Probability Neglect and the Post-Disaster Insurance Cycle",
+          "visual_frame_description": "A bright living room after a river flood. An auditor sits across from Priya Sharma, a homeowner, with an official flood-probability chart on the table between them. A timed transcript panel records her words and gestures as she describes the disaster.",
+          "player_mission": "Audit Priya's reasoning about flood insurance and decide which mechanism explains her judgment. Weigh the vividness of her memories, her reaction to the probability figure, and her own forecast of future complacency.",
+          "key_concepts": [
+            "Howard Kunreuther noticed that availability effects help explain the pattern of insurance purchase and protective action after disasters.",
+            "After each significant earthquake, Californians are for a while diligent in purchasing insurance and adopting measures of protection and mitigation.",
+            "The memories of a disaster dim over time, and so do worry and diligence.",
+            "The dynamics of memory help explain the recurrent cycles of disaster, concern, and growing complacency.",
+            "Protective actions, whether by individuals or governments, are usually designed to be adequate to the worst disaster actually experienced.",
+            "Societies as long ago as pharaonic Egypt tracked the high-water mark of rivers and always prepared as if floods would not rise higher.",
+            "Images of a worse disaster than the one experienced do not come easily to mind.",
+            "The amount of concern is not adequately sensitive to the probability of harm; people imagine the numerator and not the denominator.",
+            "Sunstein coined the phrase 'probability neglect' to describe the pattern of ignoring probability in the face of vivid harm.",
+            "Concern is focused on the tragic story seen on the news rather than on the full set of cases the probability describes."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests probability neglect and the availability-driven insurance cycle: concern about a hazard is driven by how vividly it comes to mind and is nearly insensitive to its true probability, and that concern fades as memories of the disaster decay. Kunreuther showed this dynamic explains why insurance purchases spike after earthquakes and decline until the next disaster.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "After last winter's river flood, homeowner Priya Sharma must decide whether to renew her flood insurance. Audit her reasoning and identify the mechanism driving her judgment.",
+          "subject_baseline": "Priya is a careful civil engineer who tracks her budget, reads policy documents line by line, and in normal years decides insurance renewals on cost grounds alone.",
+          "observed_nonverbal_log": [
+            "0:00-1:30: Priya describes the flood vividly, recounting water stains and the sound of the sirens; her voice speeds up and her hands gesture broadly.",
+            "1:30-4:00: Asked for the probability of another flood this decade, she pauses, looks away, and answers, 'Hard to imagine... but after last time, I don't want to risk it.'",
+            "4:00-6:00: Shown the official 1% annual flood-probability chart, she nods but immediately returns to describing the basement damage.",
+            "6:00-8:00: Asked about earthquake risk in her area, which is very low, she shrugs and says she never thinks about it."
+          ],
+          "interrogation_transcript": [
+            "Auditor: 'What is the chance of another serious flood in the next ten years?'",
+            "Priya: 'I honestly can't picture it happening again. But I also can't picture my basement like that again.'",
+            "Auditor: 'The chart says roughly a one-in-one-hundred annual chance. Does that change anything?'",
+            "Priya: 'Numbers like that don't feel real. What feels real is the smell and the cleanup.'",
+            "Auditor: 'Would you still buy insurance three years from now?'",
+            "Priya: 'Probably not. By then I'll have forgotten how bad it was.'"
+          ],
+          "correct_diagnosis": "Priya's insurance decision is driven by availability and probability neglect rather than by statistical risk: a vivid recent flood dominates her concern now, her concern is insensitive to the actual low probability, and her own forecast of forgetting matches the documented cycle of disaster, concern, and growing complacency.",
+          "diagnostic_breakdown": "The vivid narration and bodily animation show the recent disaster is maximally available in memory, inflating present concern; her dismissal of the 1% figure illustrates probability neglect, where concern fails to track likelihood; and her prediction that she will forget reflects the memory-decay mechanism Kunreuther described, in which worry and diligence fade as memories dim, recreating the complacency that precedes the next disaster.",
+          "distractors": [
+            "Priya is deliberately misrepresenting her risk to obtain a subsidy on her policy premium",
+            "Priya is a rational Bayesian who has correctly weighted the 1% base rate against her exposure",
+            "Priya's anxiety reflects an availability cascade driven by media coverage rather than by her own memory"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Affect Heuristic in Expert Risk Assessment",
+          "visual_frame_description": "A regulatory briefing room. Dr. Nadia Fontaine, a senior toxicologist, sits across from a regulator reviewing a food preservative. A live transcript panel and a body-language feed capture her posture, expression, and words during the session.",
+          "player_mission": "Audit whether Dr. Fontaine's risk assessment reflects evidence or the affect heuristic. Compare her emotional reactions, her benefit and risk ratings, and her response to contrary dose-response data.",
+          "key_concepts": [
+            "Slovic developed the notion of an affect heuristic, in which people make judgments and decisions by consulting their emotions.",
+            "In many domains people form opinions and make choices that directly express their feelings and their tendency to approach or avoid, often without knowing it.",
+            "The affect heuristic is an instance of substitution, in which the answer to an easy question serves as the answer to a harder one.",
+            "Slovic's team observed an implausibly high negative correlation between the benefits and risks people attributed to technologies.",
+            "When people disliked a technology, they could think only of its disadvantages, and few advantages came to mind.",
+            "Members of the British Toxicology Society responded similarly to laypeople, finding little benefit in substances they thought risky.",
+            "Because the technologies lined up neatly from good to bad, no painful tradeoffs needed to be faced.",
+            "The emotional tail wags the rational dog, in Jonathan Haidt's phrase, and the affect heuristic creates a world much tidier than reality.",
+            "Experts show many of the same biases as the rest of us in attenuated form.",
+            "People who received a message extolling the benefits of a technology also changed their beliefs about its risks, with no relevant evidence provided."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the affect heuristic in expert judgment: a feeling of dislike substitutes for analysis, so a toxicologist rates a disliked substance as high-risk and low-benefit and holds the verdict even when shown contrary evidence. The book reports that even members of the British Toxicology Society showed the same benefit-risk inversion as the general public.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Dr. Nadia Fontaine, a senior toxicologist, is briefing a regulator on a food preservative. Audit whether her risk assessment reflects evidence or the affect heuristic.",
+          "subject_baseline": "Nadia is a rigorous scientist who publishes peer-reviewed toxicology studies and always demands dose-response data before opining on a chemical.",
+          "observed_nonverbal_log": [
+            "0:00-2:00: When the preservative is named, Nadia's face tightens; she frowns, leans back, and crosses her arms before any data is shown.",
+            "2:00-5:00: Asked for the benefits, she lists none and changes the subject; asked for the risks, she speaks fluently about 'unnecessary additives.'",
+            "5:00-8:00: Presented a dose-response study showing negligible risk at realistic intake, she nods but repeats, 'I just don't like the idea of it.'",
+            "8:00-10:00: Asked to rate benefit on a scale of 1 to 10, she says '1'; asked for risk, she says '9', with no reference to any figure."
+          ],
+          "interrogation_transcript": [
+            "Regulator: 'Can you quantify the risk at the approved concentration?'",
+            "Nadia: 'Risk at that level is negligible by the numbers, but I would not put it in my family's food.'",
+            "Regulator: 'So is the risk low or high?'",
+            "Nadia: 'Statistically low. I still think of it as dangerous. It feels wrong.'",
+            "Regulator: 'Is there any evidence of harm at realistic intake?'",
+            "Nadia: 'No. But I cannot find a benefit either, and that settles it for me.'"
+          ],
+          "correct_diagnosis": "Nadia's assessment is an affect heuristic rather than an evidence-based one: a feeling of dislike substitutes for analysis, so she rates the preservative as high-risk and low-benefit, and her verdict does not change when she is shown contrary dose-response data.",
+          "diagnostic_breakdown": "The immediate defensive posture and fluent litany of risks with no benefits mirror Slovic's finding that disliked technologies are judged high-risk and low-benefit with no painful tradeoffs; the book notes the parallel case of the British Toxicology Society responding like laypeople; and her admission that the statistics are negligible while her verdict stays dangerous shows the emotional tail wagging the rational dog.",
+          "distractors": [
+            "Nadia is deliberately concealing evidence of real harm to protect the chemical industry",
+            "Nadia's judgment reflects accurate Bayesian updating on the dose-response data",
+            "Nadia's response is driven by an availability cascade from media stories about additives"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Availability Cascade and Political Responsiveness",
+          "visual_frame_description": "A city council chamber mid-debate. Council member Leo Ortiz faces a staffer across a table covered with news clips, a toxicology report, and polling numbers. A transcript feed and a gesture tracker capture his reasoning in real time.",
+          "player_mission": "Audit whether council member Leo Ortiz is reasoning on the evidence or being carried along by an availability cascade. Examine what he cites as his basis for a ban and how he responds to probabilistic risk data.",
+          "key_concepts": [
+            "An availability cascade is a self-sustaining chain that may start from media reports of a relatively minor event and lead up to public panic and large-scale government action.",
+            "The importance of an idea is often judged by the fluency and emotional charge with which it comes to mind.",
+            "Lawmakers and regulators may be overly responsive to the irrational concerns of citizens, both because of political sensitivity and because they are prone to the same biases.",
+            "The danger is increasingly exaggerated as the media compete for attention-grabbing headlines.",
+            "The issue becomes politically important because it is on everyone's mind.",
+            "The response of the political system is guided by the intensity of public sentiment.",
+            "The availability cascade resets priorities, and other risks fade into the background.",
+            "In the Alar scare of 1989, the topic dominated the news and produced dramatic media events such as the testimony of the actress Meryl Streep before Congress.",
+            "In the Alar incident, the manufacturer withdrew the product and the FDA banned it, despite research showing only a possible very small risk.",
+            "Concern is not adequately sensitive to the probability of harm; people imagine the numerator, the tragic story seen on the news, and not the denominator."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests how an availability cascade reaches into policy: media coverage and public arousal set the agenda, and the political response is guided by the intensity of sentiment rather than by probabilistic analysis. The chapter's account of the Alar scare shows a minor possible risk producing a ban, large industry losses, and a broad overreaction.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Council member Leo Ortiz must decide whether to support a ban on a common growth-regulating spray after local news coverage. Audit his reasoning and identify the mechanism driving his decision.",
+          "subject_baseline": "Leo is a pragmatic politician who usually demands cost estimates and staff analysis before voting, and who previously opposed a similar ban for lack of evidence.",
+          "observed_nonverbal_log": [
+            "0:00-2:00: Leo opens by replaying the news clip and calling the spray 'apples that poison kids'; his voice rises and he taps the table.",
+            "2:00-5:00: When a state toxicologist reports that only gigantic doses caused tumors in rats, Leo interrupts to ask about the actress who testified before Congress.",
+            "5:00-8:00: Shown a low probabilistic risk estimate, he waves it away: 'The public is scared. That is the reality I answer to.'",
+            "8:00-10:00: He recalls that after the last scare the product was withdrawn and the FDA banned it, and he offers that as proof of danger."
+          ],
+          "interrogation_transcript": [
+            "Staffer: 'The evidence suggests the risk is minimal at realistic doses.'",
+            "Leo: 'My constituents saw the coverage. They called my office all week.'",
+            "Staffer: 'How many lives would the ban realistically protect?'",
+            "Leo: 'Doesn't matter. When everyone is talking about it, I have to act. Silence is political suicide.'",
+            "Staffer: 'Other risks with far higher death tolls receive no funding.'",
+            "Leo: 'They aren't on the news. Apples are.'"
+          ],
+          "correct_diagnosis": "Leo is being pulled along by an availability cascade: media coverage and public arousal set the political agenda, the intensity of public sentiment overrides probabilistic analysis, and his justification by recall of a prior scare repeats the cascade's logic rather than evaluating the evidence.",
+          "diagnostic_breakdown": "The cascade mechanics are on display: his decision cites public fear, news coverage, and the memory of a prior scare rather than the dose-response data; the book notes lawmakers and regulators may be overly responsive to irrational citizen concerns, both from political sensitivity and shared bias; and his 'silence is political suicide' line shows the political system responding to the intensity of sentiment, which is exactly how an availability cascade resets priorities.",
+          "distractors": [
+            "Leo is rationally weighting the expected number of lives saved by the ban",
+            "Leo is exhibiting the affect heuristic in his own liking for the spray's manufacturer",
+            "Leo is applying Bayes's rule to the toxicology evidence"
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Expert versus Public: Risk Policy Priorities",
+          "visual_frame_description": "A federal agency briefing room. A senior EPA advisor stands before a wall screen showing viral clips of a chemical scare, celebrity testimony, and a proposed ban. Two advisors on either side gesture with contrasting briefing binders, one marked Sunstein and one marked Slovic.",
+          "player_mission": "Guide the agency administrator through the experts-versus-public debate. Recognize the availability cascade and the affect heuristic at work, then craft a policy position that addresses both the legitimate pain of public fear and the need for broad, evidence-based priorities.",
+          "key_concepts": [
+            "Sunstein defends the role of experts as a bulwark against populist excesses in risk regulation.",
+            "Sunstein starts from the position that risk regulation should be guided by rational weighting of costs and benefits, with lives saved and dollar costs as the natural units.",
+            "Biased reactions to risks are an important source of erratic and misplaced priorities in public policy.",
+            "Slovic argues that risk is not objective: there is no such thing as 'real risk' or 'objective risk' waiting to be measured.",
+            "Slovic argues that 'defining risk is thus an exercise in power.'",
+            "The public draws finer distinctions than the experts, for example between 'good deaths' and 'bad deaths' or between random accidents and voluntary activities such as skiing.",
+            "Slovic strongly resists the view that the experts should rule, and says that when experts and the public disagree, each side must respect the insights and intelligence of the other.",
+            "Widespread fears, even if unreasonable, should not be ignored by policy makers, because fear is painful and debilitating.",
+            "Availability cascades may have a long-term benefit by calling attention to classes of risks and increasing the size of the risk-reduction budget.",
+            "Psychology should inform the design of risk policies that combine the experts' knowledge with the public's emotions and intuitions."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This boss battle tests the expert-versus-public debate over risk policy: Sunstein defends expert insulation against availability-driven populism, while Slovic insists that risk is not objective and that experts must respect the public's richer conception of risk and its real fears. Kahneman sides with both, concluding that policy should combine expert knowledge with the public's emotions and intuitions.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The battle tests whether a risk regulator can resist the affect heuristic and availability cascade while respecting legitimate public fears, the core tension between Sunstein's expert-centered view and Slovic's public-centered view.",
+          "stage_1_observation": "You are a senior advisor to the Environmental Protection Agency. A media-driven scare over a widely used growth-regulating chemical has erupted: viral clips, a celebrity testifying before Congress, and empty baby-size coffins at a hearing. You must brief the administrator on how to set the agency's priorities.",
+          "stage_1_question": "What should your opening recommendation be about how the agency should weight the public's fear?",
+          "stage_1_correct_answer": "Acknowledge the fear as real and painful while insisting that resource allocation be guided by a broad comparison of risks, because policy must both protect the public from fear and avoid erratic priorities: the book's lesson is that fear, rational or not, is painful and must not be ignored, but availability cascades distort the allocation of public resources.",
+          "stage_2_intervention": "The administrator asks you to draft the decision memo. Two factions press you: one quotes Sunstein and demands the decision be made by impartial experts insulated from public pressure; the other quotes Slovic and warns that expert-imposed priorities the public rejects are untenable in a democracy. A third group suggests quietly feeding the public reassuring statistics to calm the panic.",
+          "stage_2_correct_answer": "Draft a memo that combines the experts' broad risk assessment with explicit respect for the public's emotions and intuitions, and decline both pure insulation and fear-based capitulation, because the book concludes that psychology should inform risk policies that combine expert knowledge with public emotions, and that insulating experts entirely produces policies the public will reject.",
+          "key_concepts": [
+            "Sunstein defends the role of experts as a bulwark against populist excesses in risk regulation.",
+            "Biased reactions to risks are an important source of erratic and misplaced priorities in public policy.",
+            "Slovic argues that there is no such thing as 'real risk' or 'objective risk' waiting to be measured.",
+            "The public draws finer distinctions than experts, such as between 'good deaths' and 'bad deaths.'",
+            "Widespread fears, even if unreasonable, should not be ignored by policy makers, because fear is painful and debilitating.",
+            "Availability cascades may have a long-term benefit by calling attention to classes of risks and increasing the risk-reduction budget.",
+            "Psychology should inform the design of risk policies that combine the experts' knowledge with the public's emotions and intuitions.",
+            "Lawmakers and regulators may be overly responsive to the irrational concerns of citizens, both because of political sensitivity and because they share the same biases."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Defusing an Availability Cascade",
+          "visual_frame_description": "A small-town communications office in crisis. A wall of monitors shows a single food-safety incident exploding into national headlines, with a red 'panic meter' climbing. The mayor's phone glows with angry callers, and a reporter with a camera presses at the door.",
+          "player_mission": "Diagnose the situation as an availability cascade and then choose a response that breaks the self-sustaining loop. Recognize probability neglect in the public's demands and craft communication that addresses the fear without sensationalizing the risk.",
+          "key_concepts": [
+            "An availability cascade is a self-sustaining chain of events that may start from media reports of a relatively minor event and lead up to public panic and large-scale government action.",
+            "The emotional reaction to a story becomes a story in itself, prompting additional coverage and greater concern.",
+            "The danger is increasingly exaggerated as the media compete for attention-grabbing headlines.",
+            "Scientists and others who try to dampen the increasing fear attract little attention, most of it hostile.",
+            "Anyone who claims that the danger is overstated is suspected of association with a 'heinous cover-up.'",
+            "The amount of concern is not adequately sensitive to the probability of harm; people imagine the numerator and not the denominator.",
+            "Sunstein coined the phrase 'probability neglect' to describe the pattern.",
+            "The combination of probability neglect with the social mechanisms of availability cascades leads to gross exaggeration of minor threats.",
+            "The Alar incident was an enormous overreaction to a minor problem, and its net effect on public health was probably detrimental because fewer good apples were consumed.",
+            "Terrorists are the most significant practitioners of the art of inducing availability cascades, because gruesome images endlessly repeated keep everyone on edge."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This boss battle tests the player's ability to recognize and interrupt an availability cascade, in which media amplification and public arousal inflate a minor risk into a policy panic. The chapter documents how such cascades, as at Love Canal and with Alar, reset public priorities, and how probability neglect makes concern insensitive to the true likelihood of harm.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The battle tests whether the player can diagnose and interrupt an availability cascade, a self-sustaining media-fear-policy loop, by applying probability neglect and base-rate awareness.",
+          "stage_1_observation": "You are the communications director for a small town after a single dramatic food-safety incident made the national news. The story is dominating coverage, angry callers flood the mayor's office, and rival reporters compete for ever-more-alarming angles. Local officials are about to ban a harmless ingredient.",
+          "stage_1_question": "What is the defining feature of the situation you should first identify?",
+          "stage_1_correct_answer": "It is an availability cascade: a minor event has been inflated by media competition and public arousal into a self-sustaining loop in which the intensity of sentiment, not the probability of harm, is driving decisions.",
+          "stage_2_intervention": "The mayor asks for your recommendation. A reporter offers to run a 'balance' story claiming the danger is vastly overstated, but the FDA warns that public reassurance may backfire. Meanwhile, an 'availability entrepreneur' group is organizing a rally. What should you do?",
+          "stage_2_correct_answer": "Provide accurate, low-anxiety information that addresses the probability directly and refuses to sensationalize, while acknowledging the fear, because the book shows that scientists who try to dampen the fear attract little attention and are suspected of cover-ups, so reassurance must be persistent, honest, and grounded in the denominator rather than the vivid numerator.",
+          "key_concepts": [
+            "An availability cascade is a self-sustaining chain that may start from media reports of a relatively minor event and lead to public panic.",
+            "The emotional reaction becomes a story in itself, prompting additional coverage and greater concern.",
+            "The danger is increasingly exaggerated as the media compete for attention-grabbing headlines.",
+            "Anyone who claims the danger is overstated is suspected of association with a 'heinous cover-up.'",
+            "The amount of concern is not adequately sensitive to the probability of harm; people imagine the numerator and not the denominator.",
+            "Sunstein coined the phrase 'probability neglect' to describe the pattern.",
+            "The Alar incident was an enormous overreaction to a minor problem, and its net effect on public health was probably detrimental.",
+            "The combination of probability neglect with availability cascades leads to gross exaggeration of minor threats."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch19",
+      "title": "14. Tom W's Specialty",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Representativeness versus Base Rates in Prediction",
+          "visual_frame_description": "A university career-counseling office. A stack of Tom W-style personality sketches sits on the desk, and three columns float above it: prediction by representativeness, pure base-rate reasoning, and Bayesian combination. Cards describing judgments drift between the columns.",
+          "player_mission": "Sort each judgment into the mechanism it reflects. Distinguish similarity-based prediction from base-rate reasoning and from a Bayesian combination of the two, using the Tom W experiments as your guide.",
+          "key_concepts": [
+            "In the Tom W problem, participants ranked nine fields by how similar the description was to the stereotype of each field.",
+            "The participants' rankings of the nine fields by probability did not differ from their ratings by similarity to the stereotype.",
+            "Substitution was perfect: there was no indication that the participants did anything but judge representativeness.",
+            "Tom W was designed as an 'anti-base-rate' character, a good fit to small fields and a poor fit to the most populated specialties.",
+            "The correct answer is to stay very close to your prior beliefs, slightly reducing the high probabilities of well-populated fields and slightly raising the low probabilities of rare specialties.",
+            "The representativeness heuristic is involved when someone says 'She will win the election; you can see she is a winner.'",
+            "A question about probability or likelihood activates a mental shotgun, evoking easier questions, including an automatic assessment of representativeness.",
+            "Prediction by representativeness is not statistically optimal.",
+            "In the absence of specific information, using base rates is the obvious move when no other information is provided.",
+            "Base rates matter even in the presence of evidence about the case at hand.",
+            "When the evidence is weak, one should stick with the base rates."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests prediction by representativeness, in which the similarity of a description to a stereotype substitutes for a probability judgment. Kahneman and Tversky's Tom W studies showed that even statistically trained participants ranked outcomes by similarity, perfectly substituting representativeness for likelihood and neglecting base rates.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "A hiring committee debates a candidate. Sort each judgment into the mechanism it reflects. The focal card reads: 'The committee predicts the quiet, tidy applicant will be a great librarian even though the city employs almost no librarians.'",
+          "column_a_label": "Prediction by representativeness",
+          "column_b_label": "Pure base-rate reasoning",
+          "column_c_label": "Bayesian combination of base rate and evidence",
+          "rows": [
+            {
+              "label": "The committee predicts the quiet, tidy applicant will be a great librarian even though the city employs almost no librarians.",
+              "col": "a"
+            },
+            {
+              "label": "A recruiter says, 'She will win the election; you can see she is a winner.'",
+              "col": "a"
+            },
+            {
+              "label": "With no information about an applicant, HR guesses the field with the largest enrollment.",
+              "col": "b"
+            },
+            {
+              "label": "An analyst estimates that, given a 3% base rate and evidence four times more likely under one hypothesis, the posterior belief is 11%.",
+              "col": "c"
+            },
+            {
+              "label": "A scout rejects a promising batter because he does not look the part.",
+              "col": "a"
+            },
+            {
+              "label": "A judge sets the probability that an event occurred equal to the base rate because the evidence is worthless.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The librarian prediction is a rational use of the candidate's job-market statistics",
+            "The prediction reflects WYSIATI only, with no stereotype involved",
+            "The committee combined the candidate's similarity with the relevant base rates"
+          ],
+          "explanation": "Predicting the probability that Tom W studies a field by how similar his description is to the field's stereotype is prediction by representativeness. The Tom W studies showed participants' probability rankings did not differ from their similarity ratings, so the focal card sorts to the representativeness column: the description fits a stereotype, while the tiny base rate is ignored."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "WYSIATI and the Quality of Evidence",
+          "visual_frame_description": "A residency-program admissions office. A director holds a glowing but unverified letter of recommendation under a desk lamp, while three columns show how the evidence can be handled: as all there is, with appropriate skepticism, or by anchoring on base rates. Cards describing reactions hover above.",
+          "player_mission": "Sort each handling of the evidence into the correct column. Determine which reactions reflect WYSIATI, which reflect appropriate skepticism about evidence quality, and which anchor on base rates.",
+          "key_concepts": [
+            "WYSIATI is insensitivity to the quality of evidence.",
+            "Unless you decide immediately to reject evidence, your System 1 will automatically process the information available as if it were true.",
+            "Worthless information should not be treated differently from a complete lack of information, but WYSIATI makes that principle very difficult to apply.",
+            "The Tom W description was written from psychological tests of uncertain validity, yet readers treated its claims as reliable.",
+            "When you have doubts about the quality of the evidence, you should let your judgments of probability stay close to the base rate.",
+            "Staying close to the base rate requires a significant effort of self-monitoring and self-control.",
+            "The statement that Tom W has little feel for people was probably enough to convince most readers that he is unlikely to study social science.",
+            "The combination of WYSIATI and associative coherence tends to make us believe in the stories we spin for ourselves.",
+            "One thing you can do with dubious evidence is reject it immediately, for example by determining that you received it from a liar."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests insensitivity to the quality of evidence, the WYSIATI principle: System 1 treats whatever information is present as if it were true and complete, so unreliable evidence carries the same weight as reliable evidence. In the Tom W problem, readers trusted a description explicitly drawn from tests of uncertain validity, and the corrective is to anchor on base rates and question the diagnosticity of evidence.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "A residency director weighs a letter of recommendation. Sort each handling of the evidence into the correct column. The focal card reads: 'The director treats a glowing letter from an unknown mentor as strong proof the candidate will succeed, ignoring how rarely such letters are reliable.'",
+          "column_a_label": "WYSIATI (treating available evidence as all there is)",
+          "column_b_label": "Appropriate skepticism about evidence quality",
+          "column_c_label": "Base-rate anchoring",
+          "rows": [
+            {
+              "label": "The director treats a glowing, low-reliability letter as strong proof the candidate will succeed.",
+              "col": "a"
+            },
+            {
+              "label": "Because the description came from tests of uncertain validity, the reader discounts it and stays near the base rates.",
+              "col": "b"
+            },
+            {
+              "label": "A recruiter who knows most applicants are rejected still lets one strong interview swing the decision to accept.",
+              "col": "a"
+            },
+            {
+              "label": "An admissions dean first asks, 'What share of applicants is accepted here?' before judging any file.",
+              "col": "c"
+            },
+            {
+              "label": "A manager immediately discards an anonymous complaint because it cannot be verified, treating it as no information.",
+              "col": "b"
+            },
+            {
+              "label": "A voter assumes a candidate's confident speech reveals competence without checking any record.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Discarding a letter because it cannot be trusted is the same as ignoring the base rate",
+            "WYSIATI means people always verify the quality of their evidence",
+            "Treating a glowing letter as strong proof is a Bayesian combination of base rate and evidence"
+          ],
+          "explanation": "Under WYSIATI, System 1 processes the available description as true unless it is immediately rejected as a lie, so the director treats the glowing letter as decisive despite its low reliability. The focal card sorts to the WYSIATI column because the available evidence is treated as if it were all there is, exactly the pattern that led readers to trust Tom W's untrustworthy sketch."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "System 2 Vigilance: Ignorance versus Laziness",
+          "visual_frame_description": "A psychology laboratory classroom. Half the students are puffing out their cheeks and half are frowning while ranking a Tom W-style description. A column chart beside them divides predictive errors into ignorance, laziness, and successful System 2 vigilance.",
+          "player_mission": "Sort each case into the correct column, using the frowning experiment and the Schwarz findings to decide whether an error reflects ignorance of base rates, laziness in applying them, or successful System 2 vigilance.",
+          "key_concepts": [
+            "When an incorrect intuitive judgment is made, System 1 suggested the incorrect intuition and System 2 endorsed it and expressed it in a judgment.",
+            "There are two possible reasons for the failure of System 2: ignorance or laziness.",
+            "Some people ignore base rates because they believe them to be irrelevant in the presence of individual information.",
+            "Others make the same mistake because they are not focused on the task.",
+            "If frowning makes a difference, laziness seems to be the proper explanation of base-rate neglect, at least among Harvard undergrads.",
+            "The students who puffed out their cheeks replicated the original results, relying exclusively on representativeness and ignoring the base rates.",
+            "The frowners did show some sensitivity to the base rates.",
+            "Frowning generally increases the vigilance of System 2 and reduces both overconfidence and the reliance on intuition.",
+            "Their System 2 knows that base rates are relevant even when they are not explicitly mentioned, but applies that knowledge only when it invests special effort in the task.",
+            "Instructing people to 'think like a statistician' enhanced the use of base-rate information, while 'think like a clinician' had the opposite effect."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the laziness-versus-ignorance account of base-rate neglect: when an intuitive error occurs, a vigilant System 2 can correct it, and the failure reflects laziness when people know the base rate but do not apply it. The Harvard frowning experiment showed that raising System 2 vigilance restored sensitivity to base rates, implicating laziness rather than ignorance.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Predictive errors can reflect ignorance or laziness in System 2, or can be prevented by vigilance. Sort each case into the correct column. The focal card reads: 'A Harvard student told to puff out his cheeks relies exclusively on representativeness.'",
+          "column_a_label": "Ignorance (does not know base rates apply)",
+          "column_b_label": "Laziness (knows but does not apply the base rate)",
+          "column_c_label": "System 2 vigilance (resisting the intuition)",
+          "rows": [
+            {
+              "label": "A Harvard student told to puff out his cheeks relies exclusively on representativeness.",
+              "col": "b"
+            },
+            {
+              "label": "A student told to frown shows some sensitivity to the base rates.",
+              "col": "c"
+            },
+            {
+              "label": "A novice who has never heard of base rates predicts from the vivid description.",
+              "col": "a"
+            },
+            {
+              "label": "Instructed to 'think like a statistician,' a person makes more use of base-rate information.",
+              "col": "c"
+            },
+            {
+              "label": "A person convinced the base rate is irrelevant whenever individual information exists.",
+              "col": "a"
+            },
+            {
+              "label": "A manager who knows most start-ups fail but is too distracted to apply that fact when funding a charismatic founder.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Cheek-puffing students ignore the base rate because they have never heard of it",
+            "Frowning reduces vigilance and increases reliance on intuition",
+            "The instruction to think like a clinician increases the use of base rates"
+          ],
+          "explanation": "The cheek-puffing group reproduced the original Tom W results, relying exclusively on representativeness, while frowning restored some sensitivity to base rates by raising System 2 vigilance. Because these students demonstrably know base rates are relevant, the focal case reflects laziness rather than ignorance: System 2 endorses the intuition unless it makes a special effort."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Prediction by Representativeness in Talent Evaluation",
+          "visual_frame_description": "A baseball front office. Veteran scout Marcus Reed sits across from the general manager, a clipboard of performance statistics between them and a highlight reel on the wall. A transcript feed captures their exchange about an 'unathletic-looking' prospect.",
+          "player_mission": "Audit scout Marcus Reed's evaluation of a prospect and identify the mechanism driving his forecast. Compare his reliance on appearance, his dismissal of performance statistics, and his confidence in the prediction.",
+          "key_concepts": [
+            "Moneyball is a story about the inefficiency of prediction by representativeness in baseball scouting.",
+            "Professional baseball scouts traditionally forecast the success of players in part by their build and look.",
+            "Billy Beane, the manager of the Oakland A's, overruled his scouts and selected players by the statistics of past performance.",
+            "The players the A's picked were inexpensive because other teams had rejected them for not looking the part.",
+            "We rely on representativeness when we judge potential leadership by the shape of a chin or the forcefulness of a speech.",
+            "Judging probability by representativeness has important virtues, but exclusive reliance on it is associated with grave sins against statistical logic.",
+            "Prediction by representativeness is not statistically optimal.",
+            "The representativeness heuristic substitutes a judgment of similarity for a probability assessment.",
+            "Even when the heuristic has some validity, it misleads when it causes people to neglect base-rate information that points in another direction."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests prediction by representativeness in talent evaluation: a scout forecasts success from how well a player's build and manner match a stereotype rather than from the statistical record. The Moneyball example shows that players who do not 'look the part' are systematically undervalued, and that selecting on past performance yields excellent results at low cost.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "General manager Andre Silva is building a team on a small budget. Audit scout Marcus Reed's player evaluation and identify the mechanism driving his forecast.",
+          "subject_baseline": "Marcus is a veteran scout with twenty years of amateur baseball experience who values intangibles and the look of a player; he has never read a sabermetrics report.",
+          "observed_nonverbal_log": [
+            "0:00-2:00: Marcus watches a compact, deliberate prospect and shakes his head; he says nothing about statistics.",
+            "2:00-5:00: Asked about the player's on-base percentage, Marcus shrugs and gestures at his build: 'He doesn't look like a major leaguer.'",
+            "5:00-8:00: Shown that similar 'unathletic-looking' players have outperformed flashier ones, he nods politely but returns to the player's swing mechanics.",
+            "8:00-10:00: He confidently predicts the prospect will not reach the majors, citing the player's lack of size."
+          ],
+          "interrogation_transcript": [
+            "GM: 'His numbers are excellent. What's the problem?'",
+            "Marcus: 'He doesn't look the part. I've seen a thousand hitters. He won't go far.'",
+            "GM: 'The data says players with his profile succeed at twice the average rate.'",
+            "Marcus: 'Data can't watch him run. I trust what I see.'",
+            "GM: 'Last year you said the same about three players who made the majors.'",
+            "Marcus: 'Those were flukes. This guy is not a big leaguer.'"
+          ],
+          "correct_diagnosis": "Marcus is predicting by representativeness: he forecasts success from how well the player's build and manner match his stereotype of a major leaguer, ignoring the statistical record, the very inefficiency the Moneyball approach was built to exploit.",
+          "diagnostic_breakdown": "His evaluation relies entirely on physical appearance and the look, the trait-based forecasting that led scouts to reject undervalued players in Moneyball; his dismissal of the statistical profile despite its strong record shows base-rate neglect, and his overconfidence despite past misses reflects representativeness' disregard for evidence quality and base rates.",
+          "distractors": [
+            "Marcus is rationally weighting the player's limited power and swing mechanics",
+            "Marcus is displaying the affect heuristic, judging the player by liking rather than evidence",
+            "Marcus is applying Bayes's rule to the player's performance statistics"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Trusting Unreliable Evidence",
+          "visual_frame_description": "A corporate HR office. Hiring director Celeste Nguyen holds a personality sketch written from tests of uncertain validity, nodding as she reads. A transcript feed captures her conversation with a hiring coach about how much the sketch should count.",
+          "player_mission": "Audit whether Celeste's use of the personality sketch reflects WYSIATI-based trust in unreliable evidence or appropriate skepticism. Test her reaction to the sketch, to the warning about its validity, and to the correct discipline of staying near the base rates.",
+          "key_concepts": [
+            "In the Tom W example, what activates the associative machinery is a description of Tom, which may or may not be an accurate portrayal.",
+            "The statement that Tom W has little feel and little sympathy for people was probably enough to convince most readers that he is very unlikely to study social science.",
+            "You were explicitly told that the description of Tom W should not be trusted.",
+            "Unless you decide immediately to reject evidence, your System 1 will automatically process the information available as if it were true.",
+            "Worthless information should not be treated differently from a complete lack of information, but WYSIATI makes it very difficult to apply that principle.",
+            "There is one thing you can do when you have doubts about the quality of the evidence: let your judgments of probability stay close to the base rate.",
+            "Staying close to the base rate requires a significant effort of self-monitoring and self-control.",
+            "The combination of WYSIATI and associative coherence tends to make us believe in the stories we spin for ourselves.",
+            "The description of Tom W was written from psychological tests of uncertain validity."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests WYSIATI-based insensitivity to the quality of evidence: a description drawn from tests of uncertain validity is processed as true unless immediately rejected. In the Tom W problem, readers trusted exactly such a sketch, and the correct discipline is to stay close to the base rate and question the diagnosticity of the evidence.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Hiring director Celeste Nguyen is selecting a project manager using a personality sketch written by a former manager from tests of uncertain validity. Audit her use of the evidence.",
+          "subject_baseline": "Celeste is a disciplined hiring manager who runs structured interviews and checks references before offers; she keeps a rubric and dislikes snap judgments.",
+          "observed_nonverbal_log": [
+            "0:00-2:00: She reads the sketch aloud, noting 'needs order and clarity... little sympathy for others,' and nods; her expression relaxes into certainty.",
+            "2:00-5:00: Asked how reliable the sketch is, she says, 'It was written by a manager, so fairly reliable,' without checking.",
+            "5:00-8:00: Told the tests behind the sketch are of uncertain validity, she pauses briefly, then continues treating the traits as established facts.",
+            "8:00-10:00: She predicts the candidate will be difficult in team settings, citing only the sketch."
+          ],
+          "interrogation_transcript": [
+            "Coach: 'How sure are you the sketch describes him accurately?'",
+            "Celeste: 'It says what he's like. I'm going to run with it.'",
+            "Coach: 'It was derived from psychological tests of uncertain validity.'",
+            "Celeste: 'Still, it's the only real information I have about his personality.'",
+            "Coach: 'Should a possibly worthless description change your hiring decision?'",
+            "Celeste: 'I can't just ignore it. It's in front of me, so it counts.'"
+          ],
+          "correct_diagnosis": "Celeste is committing WYSIATI-based insensitivity to the quality of evidence: she processes a sketch of uncertain validity as if it were true, cannot discount it even after being told it is untrustworthy, and lets it dominate her prediction, exactly the pattern shown in the Tom W problem.",
+          "diagnostic_breakdown": "Her certainty is built entirely from a description she was warned is unreliable; the book's WYSIATI rule says that unless evidence is immediately rejected as a lie, System 1 processes it as true; her statement that 'it's the only real information' reveals the failure to discount worthless evidence, and the correct discipline is to stay close to the base rate and question diagnosticity.",
+          "distractors": [
+            "Celeste is correctly weighting the sketch as Bayesian evidence for the candidate's fit",
+            "Celeste's prediction is driven by an availability cascade from recent team conflicts",
+            "Celeste is rationally combining the sketch with structured interview data"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Predicting Rare Events from Weak Evidence",
+          "visual_frame_description": "A venture capital meeting room. Partner Jonah Weiss leans in over a founder's profile, a market-data deck beside him showing a brutal industry success rate. A transcript feed captures his pitch to the rest of the partnership.",
+          "player_mission": "Audit Jonah's prediction about the founder and identify the mechanism driving it. Compare his vivid impression of the founder, the industry base rate he admits to, and his confidence despite past failures.",
+          "key_concepts": [
+            "One sin of representativeness is an excessive willingness to predict the occurrence of unlikely, low-base-rate events.",
+            "If you see a person reading The New York Times on the New York subway, you should seriously consider that she does not have a college degree, because many more nongraduates than PhDs ride the subways.",
+            "Even if every female student of Chinese literature is shy and loves poetry, there are more bashful poetry lovers in the much larger population of business students.",
+            "The correct answer to the Tom W puzzle is to stay very close to your prior beliefs.",
+            "Prediction by representativeness is not statistically optimal.",
+            "Intuitive impressions of the diagnosticity of evidence are often exaggerated.",
+            "Base rates matter, even in the presence of evidence about the case at hand.",
+            "When the evidence is weak, one should stick with the base rates.",
+            "The combination of WYSIATI and associative coherence tends to make us believe in the stories we spin for ourselves."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the sin of predicting rare events from weak evidence: a vivid description that fits a stereotype is treated as strong grounds for betting on a low-base-rate outcome. The book's subway example shows that because the base rate of PhDs among subway readers is tiny, the safer bet is often the statistically common alternative.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Venture partner Jonah Weiss must decide whether to fund a founder described as 'brilliant, obsessive, a born leader.' Audit his prediction.",
+          "subject_baseline": "Jonah is a savvy investor who usually demands market data and traction metrics, and he has lost money on two previous 'obvious winner' founders.",
+          "observed_nonverbal_log": [
+            "0:00-2:00: Reading the founder's profile, Jonah smiles and leans in; he already sounds convinced.",
+            "2:00-5:00: Asked about the industry's success rate, he says 'low, like 5%,' but immediately adds, 'this one is different.'",
+            "5:00-8:00: Shown that 95% of similar start-ups fail, he nods and still proposes a large check, citing the founder's forcefulness.",
+            "8:00-10:00: He describes his gut feeling as 'I just know this guy.'"
+          ],
+          "interrogation_transcript": [
+            "Partner: 'The base rate here is brutal. What changes the odds?'",
+            "Jonah: 'Look at him. He's a natural leader. You can see it.'",
+            "Partner: 'Every founder we passed on looked like a leader too.'",
+            "Jonah: 'But this one fits the profile of a winner.'",
+            "Partner: 'The profile you used for the last two losers?'",
+            "Jonah: 'Those were flukes. This is the real one.'"
+          ],
+          "correct_diagnosis": "Jonah is committing the sin of predicting a rare, low-base-rate event from representativeness: he bets on a description that fits his stereotype of a winner while neglecting that almost all ventures in the class fail, and he stays overconfident despite his own track record.",
+          "diagnostic_breakdown": "This mirrors the book's subway example, where a person reading The New York Times is more likely to lack a college degree than to hold a PhD because of the base rates; Jonah acknowledges the low base rate but lets the vivid profile override it, exaggerating the diagnosticity of his evidence and forecasting a low-base-rate event from weak evidence, the error the book's 'stick with the base rates' advice targets.",
+          "distractors": [
+            "Jonah is rationally adjusting the base rate upward for this exceptional founder",
+            "Jonah's confidence reflects a well-calibrated expert intuition in venture investing",
+            "Jonah is using the outside view to anchor his prediction on industry statistics"
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Bayesian Discipline: Anchoring and Diagnosticity",
+          "visual_frame_description": "A university career-counseling office. A counselor faces a Tom W-style personality sketch on a screen, with a base-rate bar chart of graduate enrollments on one side and a Bayes's-rule equation on the other. A dean presses for a confident headline answer.",
+          "player_mission": "Apply disciplined Bayesian reasoning to predict a student's most likely field. Anchor on the base rates, question the diagnosticity of the unreliable sketch, and resist the pressure to predict by representativeness.",
+          "key_concepts": [
+            "The correct answer to the Tom W puzzle is to stay very close to your prior beliefs.",
+            "Bayes's rule specifies how prior beliefs, in these examples the base rates, should be combined with the diagnosticity of the evidence.",
+            "Base rates matter, even in the presence of evidence about the case at hand.",
+            "Intuitive impressions of the diagnosticity of evidence are often exaggerated.",
+            "The essential keys to disciplined Bayesian reasoning are: anchor your judgment on a plausible base rate, and question the diagnosticity of your evidence.",
+            "If you believe 3% of graduate students are enrolled in computer science and the description of Tom W is 4 times more likely for that field than for other fields, Bayes's rule says the probability becomes 11%.",
+            "If the base rate had been 80%, the new degree of belief would be 94.1%.",
+            "In the absence of specific information about Tom W, you go by the base rates.",
+            "The combination of WYSIATI and associative coherence tends to make us believe in the stories we spin for ourselves.",
+            "Staying close to the base rate requires a significant effort of self-monitoring and self-control."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This boss battle tests the two keys to disciplined Bayesian reasoning the chapter sets out: anchor your judgment on a plausible base rate and question the diagnosticity of your evidence. Kahneman shows that base-rate neglect and exaggerated diagnosticity combine under WYSIATI to make people over-trust vivid descriptions, and that correcting them requires effortful System 2 self-monitoring.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The battle tests disciplined Bayesian prediction: anchor on a plausible base rate and question the diagnosticity of the evidence instead of predicting purely by representativeness.",
+          "stage_1_observation": "A university career counselor, you must predict the most likely field for a new graduate student based only on a personality sketch written from tests of uncertain validity. The student's description fits a small, prestigious specialty's stereotype, but enrollment in that specialty is tiny compared with large fields such as humanities and education.",
+          "stage_1_question": "How should you set your initial probability estimates for the candidate's field?",
+          "stage_1_correct_answer": "Anchor on the base rates, keeping the large fields most likely and the small specialties unlikely, because with no trustworthy information your estimate should stay close to prior enrollment proportions, slightly adjusting them for whatever modest evidence exists.",
+          "stage_2_intervention": "A colleague insists the candidate is 'obviously' the rare specialty because the description matches the stereotype perfectly, and the dean wants a confident headline prediction. The description came from tests of uncertain validity and includes stereotype-planted hints. What do you do?",
+          "stage_2_correct_answer": "Resist prediction by representativeness: keep the posterior close to the base rates, explicitly downgrade the weight of the unreliable description, and present a hedged, base-rate-anchored estimate, since the book shows even statistically trained judges substitute similarity for probability and must exert deliberate self-monitoring to correct it.",
+          "key_concepts": [
+            "The correct answer to the Tom W puzzle is to stay very close to your prior beliefs.",
+            "Bayes's rule combines prior beliefs, the base rates, with the diagnosticity of the evidence.",
+            "Base rates matter even in the presence of evidence about the case at hand.",
+            "Intuitive impressions of the diagnosticity of evidence are often exaggerated.",
+            "Anchor your judgment on a plausible base rate and question the diagnosticity of your evidence.",
+            "With a 3% base rate and evidence 4 times more likely under the hypothesis, the posterior belief is 11%.",
+            "The combination of WYSIATI and associative coherence makes us believe the stories we spin for ourselves.",
+            "Staying close to the base rate requires a significant effort of self-monitoring and self-control."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Sins of Representativeness in Hiring",
+          "visual_frame_description": "A corporate hiring-committee room. Chair Dana Whitfield faces two candidate folders, a delivery-history spreadsheet for Samuel and a glowing interview note for Priya. Two senior engineers argue across the table as a base-rate chart of the applicant pool glows on the wall.",
+          "player_mission": "Steer the committee away from representativeness in a consequential hiring decision. Anchor on the base rates, separate reliable from unreliable evidence, and resist predictions of a rare successful hire from a charismatic impression.",
+          "key_concepts": [
+            "One sin of representativeness is an excessive willingness to predict the occurrence of unlikely, low-base-rate events.",
+            "The second sin of representativeness is insensitivity to the quality of evidence.",
+            "Base rates matter, even in the presence of evidence about the case at hand.",
+            "Intuitive impressions of the diagnosticity of evidence are often exaggerated.",
+            "When the evidence is weak, one should stick with the base rates.",
+            "The representativeness heuristic is involved when someone judges a candidate's potential by the forcefulness of speeches or the shape of a chin.",
+            "The correct answer to the Tom W puzzle is to stay very close to your prior beliefs.",
+            "An anchor on a plausible base rate and questioning the diagnosticity of evidence are the essential keys to disciplined reasoning.",
+            "Prediction by representativeness is not statistically optimal.",
+            "Their System 2 knows that base rates are relevant even when they are not explicitly mentioned, but applies that knowledge only when it invests special effort."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This boss battle tests applying the chapter's corrections in a hiring context: predictions should be anchored on base rates and driven by the diagnosticity of reliable evidence, not by representativeness. The book's guidance that base rates matter even with individual evidence, and that impressions of diagnosticity are exaggerated, is the weapon the player must wield against committee intuition.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The battle tests the player's ability to avoid the two sins of representativeness in a consequential hiring decision: predicting a rare event from weak evidence and being insensitive to the quality of evidence.",
+          "stage_1_observation": "You chair a hiring committee for a single software role. The finalist, Priya Rao, has an average portfolio but a charismatic interview; a rival candidate, Samuel, has a mediocre interview but strong, verifiable delivery history. The hiring pool is about 3% experienced developers and 97% junior applicants. Committee members say Priya 'looks like a lead.'",
+          "stage_1_question": "What should your first move as chair be?",
+          "stage_1_correct_answer": "State the base rates explicitly and separate the reliability of each piece of evidence, because committee judgments by 'look' are representativeness, the verifiable delivery history has genuine diagnosticity, and the charismatic impression is weak evidence that should be heavily discounted.",
+          "stage_2_intervention": "A senior engineer argues Priya's strong interview 'proves' she is the leader they need, and two members echo that a candidate who looks the part rarely fails. The deliverable-based assessment says Samuel outperforms on the exact skills the role requires, but the committee leans toward Priya. What do you do?",
+          "stage_2_correct_answer": "Override the representativeness-based intuition and choose on the base rate and the stronger evidence: anchor on the low experienced-developer base rate, weight the verifiable delivery history, and warn the committee that predicting a rare successful hire from a charismatic impression is the classic sin of predicting low-base-rate events from weak evidence.",
+          "key_concepts": [
+            "One sin of representativeness is an excessive willingness to predict unlikely, low-base-rate events.",
+            "The second sin of representativeness is insensitivity to the quality of evidence.",
+            "Base rates matter even in the presence of evidence about the case at hand.",
+            "Intuitive impressions of the diagnosticity of evidence are often exaggerated.",
+            "When the evidence is weak, one should stick with the base rates.",
+            "The representativeness heuristic is involved when judging a candidate by the forcefulness of speeches or the shape of a chin.",
+            "An anchor on a plausible base rate and questioning the diagnosticity of evidence are the essential keys to disciplined reasoning.",
+            "System 2 knows base rates are relevant but applies that knowledge only when it invests special effort."
+          ]
+        }
+      ]
+    }
+  ]
+}

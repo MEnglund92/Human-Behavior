@@ -1,0 +1,797 @@
+{
+  "spec_file": "spec_kahneman_b20.json",
+  "chapters": [
+    {
+      "id": "ch39",
+      "title": "34. Frames and Reality",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "KEEP and LOSE framing",
+          "visual_frame_description": "A split screen shows two versions of the same decision: a wheel-of-chance puzzle in which the sure outcome appears once as 'KEEP £20' and once as 'LOSE £30' out of an imaginary £50. A research console tracks the subject's choice beside a brain map that highlights the amygdala when the choice conforms to the frame. Three sorting bins labeled KEEP frame, LOSE frame, and reality-bound evaluation sit at the bottom of the screen for the player to drop each statement card into place.",
+          "player_mission": "Classify each decision formulation into the KEEP (gain) frame, the LOSE (loss) frame, or the reality-bound evaluation that ignores the frame entirely. Then identify which column the survival-rate description of surgery belongs to and confirm the framing effect the book predicts.",
+          "key_concepts": [
+            "Logically equivalent statements such as 'Italy won' and 'France lost' evoke different associations in System 1, so they 'mean' different things even though their truth conditions are identical.",
+            "Kahneman and Tversky called the unjustified influence of formulation on beliefs and preferences a framing effect.",
+            "In the University College London study, all 20 subjects showed a framing effect: they preferred the sure thing when it was labeled KEEP £20 and accepted the gamble when the same option was labeled LOSE £30.",
+            "The amygdala, a region linked to emotional arousal, was most likely to be active when a subject's choice conformed to the frame, as expected if the words KEEP and LOSE directly evoke approach or avoidance.",
+            "The anterior cingulate, associated with conflict and self-control, was more active when subjects resisted the frame, such as choosing the sure thing despite its being labeled LOSE.",
+            "The most rational subjects, least susceptible to framing, showed enhanced activity in a frontal area implicated in combining emotion and reasoning, and they chose with little neural evidence of conflict.",
+            "In the Harvard Medical School lung-cancer experiment, 84% of physicians chose surgery when the short-term risk was framed as a 'one-month survival rate of 90%' but 50% favored radiation when the identical statistic was framed as '10% mortality in the first month.'",
+            "Physicians were just as susceptible to the framing effect as hospital patients and graduate students, showing that medical training is no defense against framing.",
+            "Reframing is effortful and System 2 is normally lazy, so most people passively accept decision problems as they are framed and rarely discover how frame-bound their preferences are.",
+            "The emotion evoked by a word can leak into the final choice, which is why the framing study is a good illustration of emotion influencing decision."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the framing effect: System 1 reacts to emotionally loaded words, so logically identical outcomes produce different choices when described as gains versus losses. Kahneman and Tversky demonstrated that framing reverses preferences on the same objective outcomes, and neuroimaging showed the amygdala driving frame-conforming choices while the anterior cingulate signals the conflict of resisting the frame.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Physicians in the classic lung-cancer experiment chose surgery far more often when the short-term risk was described as a 'one-month survival rate of 90%' than when it was described as '10% mortality in the first month.' Into which column does the survival-rate description belong?",
+          "column_a_label": "KEEP / gain frame (approach the sure thing)",
+          "column_b_label": "LOSE / loss frame (avoid the sure thing, accept the gamble)",
+          "column_c_label": "Reality-bound evaluation (Econs' frame-neutral view)",
+          "rows": [
+            {
+              "label": "The sure outcome described as keeping £20 out of £50",
+              "col": "a"
+            },
+            {
+              "label": "The same sure outcome described as losing £30 out of £50",
+              "col": "b"
+            },
+            {
+              "label": "Physician reads that the one-month survival rate is 90%",
+              "col": "a"
+            },
+            {
+              "label": "Physician reads that there is 10% mortality in the first month",
+              "col": "b"
+            },
+            {
+              "label": "An alert subject translates the LOSE £30 into its KEEP £20 equivalent before choosing",
+              "col": "c"
+            },
+            {
+              "label": "Asian disease Program A: 200 people will be saved",
+              "col": "a"
+            },
+            {
+              "label": "Asian disease Program A': 400 people will die",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "b: Survival is a negative phrasing that triggers avoidance, so the survival frame should be filed under LOSE.",
+            "c: Because the two descriptions are logically identical, physicians who saw either version must have made the same choice.",
+            "b: The survival-rate description emphasizes the risk of dying, which activates the amygdala the same way the LOSE frame does."
+          ],
+          "explanation": "The survival-rate description belongs in the KEEP/gain column because '90% survival' evokes positive associations and an approach tendency, biasing the physician toward the safer sure thing (surgery). Its logical twin, '10% mortality,' evokes the aversive LOSE frame and pushes the same physicians toward the gamble (radiation). An Econs-style subject who translates one frame into the other, or ignores the wording entirely, belongs in the reality-bound column. The finding that 84% chose surgery under the survival frame but 50% favored radiation under the mortality frame is exactly the framing effect the chapter documents."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Opt-in versus opt-out defaults",
+          "visual_frame_description": "A map of Europe lights up donation rates: Austria near 100% and Sweden at 86% glow bright green, while Germany at 12% and Denmark at 4% sit in red. Beside the map, two blank driver-license forms show the critical difference: one requires a check box to join the donor registry and the other requires a check box to opt out. A sorting area offers three bins labeled opt-in form, opt-out form, and deliberate decision.",
+          "player_mission": "Sort each country and driver behavior into the correct column: opt-in form, opt-out form, or a deliberate System 2 decision. Then determine which form of the critical question produces the near-100% donation rate.",
+          "key_concepts": [
+            "Organ-donation rates in Europe differ dramatically between culturally similar neighbors: about 100% in Austria versus 12% in Germany, and 86% in Sweden versus 4% in Denmark.",
+            "The enormous differences are a framing effect caused by the format of the critical question on the driver's license.",
+            "In opt-out countries, individuals who do not wish to donate must check a box; in opt-in countries, you must check a box to become a donor.",
+            "The best single predictor of whether people will donate their organs is the designation of the default option that will be adopted without having to check a box.",
+            "Unlike other framing effects that have been traced to features of System 1, the organ-donation effect is best explained by the laziness of System 2.",
+            "People who have already decided what they wish to do will check the box regardless of the default.",
+            "Kahneman imagines an organ-donation form requiring people to solve '2 + 2 = ?' in one box and '13 × 37 = ?' in the other, arguing that the rate of donations would surely be swayed by the effort.",
+            "If you believe a large supply of donated organs is good for society, you cannot be neutral between a formulation that yields almost 100% donations and another that elicits donations from only 4% of drivers.",
+            "An important choice is often controlled by an utterly inconsequential feature of the situation, which is embarrassing but supported by the evidence for these cognitive illusions."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests how the default option in a choice's framing governs behavior: organ-donation rates jump from roughly 4% to near 100% depending solely on whether the form is opt-in or opt-out. Kahneman attributes the effect to the laziness of System 2, which accepts the default rather than exerting the effort to check a box.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which form of the organ-donation question is associated with the near-100% donation rate in Austria and Sweden?",
+          "column_a_label": "Opt-in form (check a box to become a donor)",
+          "column_b_label": "Opt-out form (check a box to decline donation)",
+          "column_c_label": "Deliberate decision (the driver has already made up their mind)",
+          "rows": [
+            {
+              "label": "Austria, where roughly 100% of drivers end up as donors",
+              "col": "b"
+            },
+            {
+              "label": "Germany, where only 12% of drivers become donors",
+              "col": "a"
+            },
+            {
+              "label": "Sweden, with 86% of drivers donating",
+              "col": "b"
+            },
+            {
+              "label": "Denmark, with only 4% of drivers donating",
+              "col": "a"
+            },
+            {
+              "label": "A driver who has decided to donate and checks the box to register",
+              "col": "c"
+            },
+            {
+              "label": "A driver who has decided against donation and checks the box to decline",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "a: High-donation countries must have used an opt-in form because donation is an active choice there.",
+            "c: The differences reflect each country's cultural attitude toward donation rather than the form's format.",
+            "a: Austria must be opt-in because voluntary giving is more consistent with its near-universal donation rate."
+          ],
+          "explanation": "The opt-out form belongs to Austria and Sweden: because the default is consent, a driver who never checks a box automatically becomes a donor, and the lazy System 2 lets that default stand. The opt-in form belongs to Germany and Denmark, where donors must actively check the box, so the passive majority simply never registers. Drivers who check a box either way are demonstrating a deliberate decision, which is exactly why the default predicts donation rates so powerfully."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Mental accounting and sunk costs",
+          "visual_frame_description": "A theater lobby at night: the woman with the lost tickets stares at a locked door, while the woman who lost the cash pulls out a credit card. An open ledger on screen shows two accounts — one labeled 'Tonight's Show,' where the lost tickets are posted, and a 'General Revenue' account, where the lost cash lands. Three sorting bins labeled specific ticket account, general revenue, and costs-versus-losses await the player's classifications.",
+          "player_mission": "Sort each decision into the mental account or frame it belongs to: the narrow show-specific ticket account, the broad general-revenue account, or the costs-versus-losses framing Thaler identified. Then identify which frame produces the more reasonable decision.",
+          "key_concepts": [
+            "Most respondents believe the woman who lost the two $80 theater tickets will go home without seeing the play, while the woman who lost the $160 cash will charge the tickets.",
+            "The different judgments arise from mental accounting and the sunk-cost fallacy, with the lost tickets posted to the account associated with that particular show.",
+            "When the tickets are lost, the cost appears to have doubled and may exceed what the experience is worth, so the woman stays home.",
+            "A loss of cash is charged to a 'general revenue' account, making the woman only slightly poorer than she thought she was, so she still buys the tickets.",
+            "The cash-loss version leads to more reasonable decisions because the loss, even if it were tickets, is sunk, and sunk costs should be ignored.",
+            "Broader frames and inclusive accounts generally lead to more rational decisions than narrow accounts.",
+            "Thaler pinned a card on his board as a graduate student that read 'costs are not losses.'",
+            "People will more readily forgo a discount than pay a surcharge, so the credit-card lobby wanted any price difference labeled a cash discount rather than a credit surcharge.",
+            "The gas-station cash-discount and credit-surcharge descriptions are economically equivalent but not emotionally equivalent.",
+            "Kahneman's advice to the woman who lost tickets: 'Would you have bought tickets if you had lost the equivalent amount of cash? If yes, go ahead and buy new ones.'"
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests mental accounting and the sunk-cost fallacy: the frame determines which mental account a loss is posted to, and that account decides whether the loss changes behavior. Kahneman shows that a broader, inclusive account (general revenue) ignores the sunk cost and produces more rational decisions than the narrow account tied to the specific show.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which frame produces the more reasonable decision for the woman who lost the tickets, and why?",
+          "column_a_label": "Narrow specific account (the show's ticket account)",
+          "column_b_label": "Broad inclusive account (general revenue)",
+          "column_c_label": "Costs-versus-losses framing (Thaler's 'costs are not losses')",
+          "rows": [
+            {
+              "label": "The lost theater tickets are posted to the account of tonight's show, doubling its apparent cost",
+              "col": "a"
+            },
+            {
+              "label": "The lost cash is posted to general revenue, only slightly reducing disposable wealth",
+              "col": "b"
+            },
+            {
+              "label": "Kahneman's advice to ask whether she would buy tickets if she had lost the equivalent cash",
+              "col": "b"
+            },
+            {
+              "label": "Gas stations charging less for cash purchases, labeled a cash discount rather than a credit surcharge",
+              "col": "c"
+            },
+            {
+              "label": "People more readily forgoing a discount than paying a surcharge",
+              "col": "c"
+            },
+            {
+              "label": "The woman deciding that the doubled ticket cost exceeds what the play is worth",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "a: The narrow ticket account is more rational because it captures what the show truly costs the woman.",
+            "c: The costs-versus-losses label is the correct frame because it reminds her the tickets are sunk.",
+            "a: Posting the loss to the show account is the best frame because history should influence the decision."
+          ],
+          "explanation": "The general-revenue frame (b) is the better one: whether the loss was tickets or cash, the money is gone, so only the current options and their likely consequences matter. Posting the lost tickets to the specific show account (a) doubles the apparent cost and triggers the sunk-cost fallacy, making her overvalue the loss and skip the play. The discount-versus-surcharge items illustrate the costs-are-not-losses insight, which is an emotional equivalence problem rather than a mental-accounting one."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Asian disease flip-flop in public health",
+          "visual_frame_description": "A conference room in a state health department. Dr. Mara Velez sits across from an auditor, two printed versions of the same outbreak problem on the table between them. A small counter on screen logs her reaction times and facial expressions. One sheet reads '200 people will be saved,' the other '400 people will die,' and the auditor watches as she gives opposite answers to identical outcomes.",
+          "player_mission": "Review Dr. Velez's baseline, her timed nonverbal reactions, and the interrogation transcript. Decide whether her two contradictory choices reveal deliberate reversal, a stable preference, or the framing effect the book documents, and record the correct diagnosis.",
+          "key_concepts": [
+            "In the Asian disease problem, a substantial majority of respondents choose the certain option when told '200 people will be saved,' but a large majority choose the gamble when told '400 people will die.'",
+            "The consequences of programs A and A' are identical, and so are the consequences of B and B', so the reversal is produced by the frame alone.",
+            "The different choices fit prospect theory: people are risk averse when outcomes are good and risk seeking when both outcomes are negative.",
+            "The disease problem shows that the risk-aversion and risk-seeking rules apply when outcomes are measured in lives saved or lost, not only in money.",
+            "Amos presented the Asian disease problem to public-health professionals who make decisions about vaccines, and they were as susceptible to the framing effects as anyone else.",
+            "It is worrying that officials who make decisions affecting everyone's health can be swayed by such a superficial manipulation.",
+            "When people are confronted with their inconsistency, the answer is usually embarrassed silence, because the intuitions came from System 1.",
+            "System 2 has no moral intuitions of its own to answer the question of how to decide between the framed versions."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the framing effect on important real decisions: presenting identical outbreak outcomes as 'people saved' versus 'people dying' reverses risk preference even among public-health professionals who make decisions affecting everyone's health. When the inconsistency is exposed, the book records that the answer is usually embarrassed silence, because System 1 supplied the intuitions and System 2 has no independent moral verdict.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Was Dr. Mara Velez, a state epidemiologist, deliberately reversing her position on a vaccination program, or is something else governing her two contradictory decisions?",
+          "subject_baseline": "Dr. Mara Velez is the deputy director of disease control for a state health department. In her eighteen months in the role she has built a reputation for methodical, evidence-based reviews: she reads the primary literature, asks junior analysts to re-run models, and is rarely accused of inconsistency. Her colleagues describe her as calm, slow to commit, and unusually careful about risk data.",
+          "observed_nonverbal_log": [
+            "T-30s: She reads the first version of the outbreak problem, nodding with her lips pressed together; her eyes rest on the words '200 people will be saved.'",
+            "T-0s: Asked for her choice, she answers 'Program A, the sure thing' without hesitation, leaning back in her chair as if satisfied.",
+            "T+2min: The auditor hands her the second sheet, which shows the same programs described as '400 people will die.' Her pupils widen; she frowns and rubs her temple.",
+            "T+2min45s: She reads the gamble option twice and mutters 'nobody will die' under her breath; her posture tightens.",
+            "T+3min: She announces she would gamble on Program B'. Her voice is firmer than it was for the first answer, and she nods once, as if the choice were obvious.",
+            "T+5min: Told that the two sheets describe identical outcomes, she stares at the desk for several seconds; her face goes blank and she laughs softly, shaking her head."
+          ],
+          "interrogation_transcript": [
+            "Auditor: 'Dr. Velez, in the first version you chose to save 200 lives for sure. In the second, you rejected the sure thing of 400 deaths and chose the gamble. The outcomes are the same. Which is your real position?'",
+            "Dr. Velez: 'They are not the same. One saves people. The other lets them die. Nobody wants to preside over a number of deaths.'",
+            "Auditor: 'But the second version's sure option simply states the same consequence as a death count. Is there a principle that separates them?'",
+            "Dr. Velez: 'I am not sure there is. I feel differently about them, but I cannot tell you what the difference is worth. This is embarrassing.'",
+            "Auditor: 'So how do you decide, then?'",
+            "Dr. Velez: 'Honestly? Silence. I do not have an answer. I only know that my first instinct felt right at the time.'"
+          ],
+          "correct_diagnosis": "Framing effect on an otherwise rational official: Dr. Velez's contradictory choices are driven by System 1's response to the emotional words 'saved' versus 'die,' not by any underlying, stable preference. Confronted with the inconsistency, she produces exactly the 'embarrassed silence' the book predicts.",
+          "diagnostic_breakdown": "Her baseline is careful and consistent, which rules out casual carelessness. The decisive evidence is the reversal itself: the two versions are logically identical, and a reality-bound decision maker would give the same answer twice. Her nonverbal reactions — the frown and widened pupils when the death framing appears, the firmer voice when endorsing the gamble — show the emotional 'leak' of the words into the choice. Prospect theory explains the direction: risk-averse for sure gains ('saved') and risk-seeking when outcomes are framed as losses ('die'). When the auditor exposes the contradiction, her blank stare and admission of 'silence' match the book's finding that System 2 has no moral intuitions of its own to arbitrate the frame-bound choice.",
+          "distractors": [
+            "Deliberate duplicity: she reversed positions for political advantage or to please the auditor, and the blank stare was a cover.",
+            "Simple risk preference: she is genuinely risk-seeking, and the first answer was a mistake she now corrects.",
+            "Decision fatigue: by the second sheet she was mentally depleted and answered impulsively, unrelated to the wording."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The MPG illusion in a fleet budget",
+          "visual_frame_description": "A fleet-management office. Priya Raman stands at a whiteboard with two lines written in marker: '12 → 14 mpg' and '30 → 40 mpg.' A calculator and a fuel-cost ledger sit on the desk. The screen displays a counter of her reaction times as she first insists Beth's switch is the bigger saving, then recomputes the gallon figures for 10,000 miles.",
+          "player_mission": "Audit Priya's fuel-saving analysis: review her arithmetic, her confident first judgment, and her correction during questioning. Decide whether her initial verdict was sound or was produced by the misleading miles-per-gallon frame.",
+          "key_concepts": [
+            "Most people share the widespread intuition that Beth's switch from 30 to 40 mpg saves more gas than Adam's switch from 12 to 14 mpg, because she gained 10 mpg rather than 2.",
+            "The intuition is wrong: over 10,000 miles, Adam drops from 833 gallons to 714 (a saving of 119 gallons) while Beth drops from 333 to 250 (a saving of only 83 gallons).",
+            "The miles-per-gallon frame exaggerates the value of improvements at the high end and hides them at the low end of the scale.",
+            "Larrick and Soll, writing in Science in 2008, called this the MPG illusion and argued that the mpg frame provides very poor guidance to both individuals and policy makers.",
+            "The correct frame is gallons-per-mile (or liters per 100 kilometers, which is used in most other countries).",
+            "The misleading intuitions fostered by the mpg frame are likely to mislead policy makers as well as car buyers.",
+            "The 2013 fuel-economy sticker in the United States added the gallons-per-mile information for the first time, though in small print next to the familiar mpg figure.",
+            "The mpg frame is a case in which passive acceptance of a misleading frame has substantial costs and serious policy consequences."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests the MPG illusion, a framing effect in which the miles-per-gallon metric distorts intuitions about fuel savings: switching from 12 to 14 mpg saves more gas than switching from 30 to 40 mpg, yet almost everyone judges the opposite. Kahneman, citing Larrick and Soll in Science, argues that gallons-per-mile is the correct frame and that the misleading mpg frame has substantial real-world and policy costs.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Priya Raman, a fleet manager, argues that Beth's switch from a 30 mpg to a 40 mpg car is the bigger fuel saving. Is her analysis correct, or is she being misled by the frame?",
+          "subject_baseline": "Priya Raman manages the 180-vehicle delivery fleet of a regional grocery chain. She is numerically sharp, keeps meticulous cost ledgers, and won a company award last year for a maintenance-cost overhaul. She is confident in her arithmetic and rarely defers to the two mechanics who report to her.",
+          "observed_nonverbal_log": [
+            "T-1min: She writes '12 → 14 mpg' and '30 → 40 mpg' on the whiteboard, underlining the mpg gains.",
+            "T-0s: Asked who saves more gas, she points at the 30-to-40 line without pausing and says 'Clearly Beth.' She taps the board for emphasis.",
+            "T+45s: When asked to compute gallons over 10,000 miles, she picks up a calculator but keeps glancing at the mpg numbers, as if the answer were obvious.",
+            "T+2min: She completes the division and goes quiet; she re-checks the keystrokes, then re-reads the problem statement.",
+            "T+3min: She looks up and says the mpg number 'made me think the wrong thing,' then laughs at her own stubbornness."
+          ],
+          "interrogation_transcript": [
+            "Auditor: 'Priya, why did you call Beth's switch the bigger saving?'",
+            "Priya: 'Because 10 miles per gallon is ten miles per gallon. She gains a third of her mileage; Adam gains a sixth. That is bigger.'",
+            "Auditor: 'Now assume both drivers cover 10,000 miles a year. What are the gallon figures?'",
+            "Priya: 'Adam drops from 833 gallons to 714, so 119 saved. Beth drops from 333 to 250, so 83 saved. Adam wins. That cannot be right.'",
+            "Auditor: 'What made the first judgment feel so certain?'",
+            "Priya: 'The mpg number itself. Ten is bigger than two, so my gut said ten. I did not invert it.'",
+            "Auditor: 'What would you do if this were a real fuel policy?'",
+            "Priya: 'Change the sticker. Show gallons per mile, not miles per gallon, before I approve any rebate program.'"
+          ],
+          "correct_diagnosis": "The MPG illusion: Priya's intuition was driven by the miles-per-gallon frame, which exaggerates the value of improvements at the high end and hides them at the low end. The correct gallons-per-mile frame shows Adam's switch from 12 to 14 mpg saves 119 gallons versus Beth's 83, the reverse of her intuition.",
+          "diagnostic_breakdown": "Priya's first judgment followed the classic pattern of the MPG illusion documented by Larrick and Soll: comparing mpg differences (10 versus 2) and ratios (a third versus a sixth) makes Beth look better, because mpg is a ratio whose inverse governs consumption. The moment she converted to gallons per 10,000 miles, the evidence forced a reversal — Adam saves 119 gallons, Beth only 83. Her surprise and self-correction confirm the diagnosis: the intuition was an artifact of the misleading frame, not a real preference or an arithmetic error, and the book notes that the same illusion misleads policy makers as well as car buyers.",
+          "distractors": [
+            "Rounding error: she simply misdivided the numbers and a correct calculation would vindicate Beth.",
+            "Anchoring: she anchored on the 30 mpg figure and never adjusted, so the mpg frame is incidental.",
+            "Loss aversion: she undervalued Adam's improvement because upgrading from a guzzler feels like repairing past waste."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Schelling's child-exemption contradiction",
+          "visual_frame_description": "A policy think-tank office. Tomas Berg sits across a table from an auditor, two index cards in front of him. The first reads 'Should the child exemption be larger for the rich than for the poor?' and the second 'Should the childless poor pay as large a surcharge as the childless rich?' A tax table showing the same redistribution from two different defaults is projected on the wall behind them.",
+          "player_mission": "Audit Tomas's two moral verdicts: review his fast emotional rejections, his slower second answer, and the logical demonstration that the two propositions are equivalent. Decide whether his morality rests on a coherent principle or is bound to the frame.",
+          "key_concepts": [
+            "Schelling's students found the idea of a larger child exemption for the rich completely unacceptable.",
+            "The tax law is arbitrary: it assumes a childless family as the default and reduces tax by the exemption for each child.",
+            "The law could be rewritten with a two-child default, in which case families with fewer than the default number of children would pay a surcharge.",
+            "Schelling's students rejected the proposition that the childless poor should pay as large a surcharge as the childless rich with as much vehemence as the first.",
+            "The two formulations describe the same tax difference as a reduction in one version and an increase in the other, so a person who rejects both is logically committed to contradictions.",
+            "If you want the poor to receive the same benefit as the rich for having children, you must want the poor to pay at least the same penalty as the rich for being childless.",
+            "System 1 delivers an immediate response to any question about rich and poor: when in doubt, favor the poor.",
+            "The apparently simple moral rule does not work reliably, because it generates contradictory answers to the same problem depending on how it is framed.",
+            "Moral feelings are attached to frames, to descriptions of reality rather than to reality itself, and there is no underlying preference that is masked or distorted by the frame."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the claim that moral intuitions are attached to frames rather than to reality: Schelling's tax problem shows the same distribution rule accepted or rejected depending on whether it is framed as an exemption for the rich or a surcharge for the childless poor. Kahneman concludes that there is no underlying preference being masked — System 1 delivers the reflexive 'favor the poor' response to whichever description is on the page, and System 2 has no moral intuitions of its own to reconcile the contradiction.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Policy analyst Tomas Berg simultaneously rejects 'a larger child exemption for the rich' and 'an equal surcharge for the childless poor.' Is there a coherent moral principle behind both verdicts, or is his morality frame-bound?",
+          "subject_baseline": "Tomas Berg is a senior policy analyst at a nonprofit tax-reform institute with a law degree and a decade of experience drafting equity arguments. He is articulate, enjoys Socratic debate, and prides himself on reasoning from principle. He has never worked on family-tax design before today.",
+          "observed_nonverbal_log": [
+            "T-1min: He reads proposition one — 'Should the child exemption be larger for the rich than for the poor?' — and scoffs, shaking his head immediately.",
+            "T-0s: He answers 'Absolutely not. Unacceptable,' crossing his arms.",
+            "T+2min: He is handed proposition two — 'Should the childless poor pay as large a surcharge as the childless rich?' — and his brow furrows; he re-reads it twice.",
+            "T+2min30s: He answers 'No,' more slowly this time, then adds 'That would punish poor families without children.'",
+            "T+4min: When shown that the two propositions are algebraically the same family-tax rule viewed from different defaults, he stops mid-sentence and rubs his eyes.",
+            "T+5min: He concedes he cannot reject both, then adds quietly that his feelings 'still want the poor to come out ahead, in whichever sentence the question is written.'"
+          ],
+          "interrogation_transcript": [
+            "Auditor: 'Tomas, you rejected the larger exemption for the rich. Do you also reject the surcharge for the childless poor?'",
+            "Tomas: 'Of course. The poor should not be penalized for not having children.'",
+            "Auditor: 'But set the two rules next to each other. The tax difference between a childless family and a two-child family is a reduction in the first framing and an increase in the second. If you want the poor to receive the same benefit as the rich for having children, you must want the poor to pay the same penalty as the rich for being childless.'",
+            "Tomas: 'That is logically airtight, and I have no answer. My gut rejected both sentences, and they cannot both be wrong.'",
+            "Auditor: 'So what is your actual position on how the tax code should treat the children of rich and poor?'",
+            "Tomas: 'I am dumbfounded. I have feelings about rich and poor, not about filling in the cells of the tax matrix.'"
+          ],
+          "correct_diagnosis": "Frame-bound moral intuition: Tomas's two verdicts are generated by System 1's simple rule — when in doubt, favor the poor — applied to whichever description of reality is presented. There is no underlying preference being masked; his moral feelings are attached to frames, and once the contradictory answers are exposed he cannot ground either in a stable principle.",
+          "diagnostic_breakdown": "The decisive evidence is the logical demonstration: the exemption and the surcharge are the same redistribution described from different default assumptions, so a coherent moral position could not reject both. Tomas's fast, emotional rejections ('scoffs,' 'unacceptable') show System 1 delivering its reflexive favor-the-poor response, while his slower, troubled 'no' to the surcharge and his eventual admission of being dumbfounded reveal that System 2 has no independent moral verdict. This matches Schelling's demonstration at the Kennedy School and Kahneman's conclusion that moral intuitions are about descriptions of reality, not about substance — there is no stable preference underneath for the frame to distort.",
+          "distractors": [
+            "Hypocrisy or bias against the rich: he secretly favors the rich and used the surcharge framing to disguise it.",
+            "A principled welfarist position that genuinely values childless-poor households differently from rich households.",
+            "Fatigue or inattention: he would reject neither proposition if he had more time to compute the tax tables."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The organ-donation default boss",
+          "visual_frame_description": "A European policy conference room. A wall map shows donation rates glowing next to each country: Austria near 100%, Germany 12%, Sweden 86%, Denmark 4%. On the table lie two blank driver-license forms, identical except that one requires a check box to join the donor registry and the other requires a check box to decline. Delegates argue that the differences must reflect national generosity or religion.",
+          "player_mission": "Defeat the Default Dictator by identifying which feature of the forms governs donation rates, then redesign the form so donations rise while the right to decline is preserved.",
+          "key_concepts": [
+            "Organ-donation rates are close to 100% in Austria but only 12% in Germany, and 86% in Sweden but only 4% in Denmark.",
+            "The differences are a framing effect caused by the format of the critical question: opt-out versus opt-in.",
+            "The best single predictor of donation is the designation of the default option that will be adopted without having to check a box.",
+            "The organ-donation effect is best explained by the laziness of System 2 rather than by the emotional features that drive other framing effects.",
+            "People will check the box if they have already decided what they wish to do; unprepared people must make the effort of thinking whether to check it.",
+            "Kahneman imagines a form requiring people to solve '2 + 2 = ?' in one box and '13 × 37 = ?' in the other, and argues the donation rate would surely be swayed.",
+            "If a large supply of donated organs is good for society, you cannot be neutral between a formulation yielding almost 100% donations and one eliciting donations from 4% of drivers.",
+            "An important choice is controlled by an utterly inconsequential feature of the situation, and the evidence for these cognitive illusions is undeniable."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the power of default options in framing: organ-donation rates swing from roughly 4% to near 100% depending solely on whether the form is opt-in or opt-out. Kahneman attributes the effect to the laziness of System 2, which accepts whichever option requires no active step.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The 'Default Dictator' boss tests whether the player understands that the default option in a framed choice, not people's attitudes, governs organ-donation rates. The book shows that donation swings from roughly 4% to near 100% depending solely on whether the form is opt-in or opt-out, an effect best explained by the laziness of System 2.",
+          "stage_1_observation": "A European policy conference room. A wall map shows donation rates glowing next to each country: Austria near 100%, Germany 12%, Sweden 86%, Denmark 4%. On the table lie two blank driver-license forms, identical except that one requires a check box to join the donor registry (opt-in) and the other requires a check box to decline (opt-out). Delegates argue that the differences must reflect national generosity or religion.",
+          "stage_1_question": "Which single feature of the forms best predicts whether a country's drivers end up as organ donors?",
+          "stage_1_correct_answer": "The designation of the default option — in opt-out countries the passive majority becomes donors without checking anything, while in opt-in countries the passive majority never registers. The 100%-versus-4% gap is a framing effect, not a difference in national values.",
+          "stage_2_intervention": "The minister asks the player to redesign the form for a country with 4% donation while respecting the right to decline. A draft form offers two decision boxes: one containing '2 + 2 = ?' and the other '13 × 37 = ?'. The player must choose how to set the default and whether to adopt Kahneman's effort-laden box idea.",
+          "stage_2_correct_answer": "Adopt an opt-out design (donors by default, with an easy box to decline) rather than opt-in, because the lazy System 2 will accept whichever option requires no effort. The '2 + 2' versus '13 × 37' demonstration is a thought experiment showing that donation rates would swing if declining required real effort, reinforcing that the default — not reasoned conviction — is what moves the rate."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The MPG-illusion boss: gallons per mile",
+          "visual_frame_description": "A city transportation office. On the whiteboard, two fleet proposals: Adam's department truck will move from 12 to 14 mpg, Beth's sedan from 30 to 40 mpg. The director has written 'BETH WINS' in marker beneath a ratio calculation, and the budget analyst nods along. A fuel-pump calculator sits beside the board for the player to use.",
+          "player_mission": "Defeat the MPG Mirage by computing the true gallon savings for 10,000 miles, then choose the fuel-economy measure that will guide buyers and policy without distortion.",
+          "key_concepts": [
+            "Over 10,000 miles, Adam's switch from 12 to 14 mpg cuts consumption from 833 gallons to 714, a saving of 119 gallons.",
+            "Beth's switch from 30 to 40 mpg cuts consumption from 333 gallons to 250, a saving of only 83 gallons.",
+            "Almost everyone shares the intuition that Beth's action is more significant because she reduced mpg by 10 rather than 2 and by a third rather than a sixth.",
+            "The miles-per-gallon frame provides very poor guidance to the decisions of both individuals and policy makers.",
+            "The correct frame is gallons-per-mile, or liters per 100 kilometers as used in most other countries.",
+            "Larrick and Soll called the misleading intuition the MPG illusion in a Science article published in 2008.",
+            "The misleading intuitions fostered by the mpg frame are likely to mislead policy makers as well as car buyers.",
+            "The 2013 fuel-economy sticker added gallons-per-mile information for the first time, though in small print beside the familiar mpg figure in large print."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the MPG illusion, in which the miles-per-gallon frame hides the true value of efficiency gains at the low end of the scale: switching 12 to 14 mpg saves more gas than switching 30 to 40 mpg, opposite to intuition. Kahneman, citing Larrick and Soll, argues that gallons-per-mile is the correct frame with substantial costs and serious policy consequences riding on the choice.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The 'MPG Mirage' boss tests whether the player can defeat a misleading frame with an inverse measure. Larrick and Soll's MPG illusion shows that miles-per-gallon exaggerates high-end improvements and hides low-end ones, so switching 12 to 14 mpg saves more gas than switching 30 to 40 mpg, opposite to intuition.",
+          "stage_1_observation": "A city transportation office. On the whiteboard, two fleet proposals: Adam's department truck will move from 12 to 14 mpg, Beth's sedan from 30 to 40 mpg. The director has written 'BETH WINS' in marker beneath a ratio calculation, and the budget analyst nods along. A fuel-pump calculator sits beside the board for the player to use.",
+          "stage_1_question": "Both drivers cover 10,000 miles a year. Which switch actually saves more gallons, and what does the mpg frame hide?",
+          "stage_1_correct_answer": "Adam saves more: 10,000 / 12 = 833 gallons and 10,000 / 14 = 714, a saving of 119 gallons, versus Beth's 333 to 250, a saving of only 83. The mpg frame hides this because mpg is a ratio whose inverse, gallons per mile, governs consumption, and intuition compares the 10-versus-2 difference instead of the inverted gallons.",
+          "stage_2_intervention": "The director must issue a city fuel-efficiency rebate but cannot tell which vehicles deserve the bonus from the current sticker. She asks the player to pick the measure that will guide both buyers and policy correctly: keep the mpg figure in large print, replace it with gallons per 100 miles, or add the gallons-per-mile figure in small print alongside mpg.",
+          "stage_2_correct_answer": "Replace or feature the gallons-per-mile (inverse) measure — for example gallons per 100 miles, as used in most other countries — because it linearizes fuel cost and prevents the MPG illusion. Merely adding the correct number in small print beside the familiar mpg figure is the partial fix the book records, and keeping mpg prominent preserves the misleading frame."
+        }
+      ]
+    },
+    {
+      "id": "ch40",
+      "title": "35. Two Selves",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Experiencing self, remembering self, and decision utility",
+          "visual_frame_description": "A hospital monitoring station shows two pain curves from a colonoscopy study: patient A over 8 minutes and patient B over 24 minutes, with a highlighted 'area under the curve' beneath each. Three columns on screen are labeled Experiencing Self, Remembering Self, and Decision Utility, with statement cards floating between them for the player to sort.",
+          "player_mission": "Sort each observation into the correct perspective: the experiencing self's moment-by-moment reports, the remembering self's global retrospectives, or the decision utility that drives choices. Then identify which perspective produced the hedonimeter total in the colonoscopy study.",
+          "key_concepts": [
+            "The experiencing self answers the question 'Does it hurt now?' and the remembering self answers 'How was it, on the whole?'",
+            "Bentham's interpretation of utility is called experienced utility, while economists use the same word to mean 'wantability,' which Kahneman calls decision utility.",
+            "Edgeworth proposed a hedonimeter, an imaginary instrument that would measure the level of pleasure or pain at any moment, with the total shown as the area under the curve.",
+            "The hedonimeter totals from the colonoscopy study were computed by an observer from moment-by-moment reports and are duration-weighted.",
+            "The retrospective assessments are insensitive to duration and weight the peak and the end much more than other moments.",
+            "In the cold-hand experiment, fully 80% of participants whose pain diminished in the final phase chose to repeat the longer 90-second episode.",
+            "The cold-hand choice revealed a discrepancy between decision utility and experienced utility.",
+            "The remembering self keeps score and governs what we learn from living, and it is the one that makes decisions.",
+            "In the injections puzzle, people pay more to reduce injections from 6 to 4 than from 20 to 18, even though the same amount of pain is avoided."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the distinction between the two selves and decision utility: the experiencing self tallies moment-by-moment pain, the remembering self issues global ratings that follow the peak and the end, and decision utility governs actual choices. Kahneman's cold-hand experiment shows the two selves in conflict, with 80% of participants choosing the longer, more painful episode because its memory was less aversive.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which perspective produced the 'hedonimeter total' in Redelmeier's colonoscopy study — the observer's moment-by-moment tally or the patient's global memory?",
+          "column_a_label": "Experiencing self (moment-by-moment, duration-weighted reports)",
+          "column_b_label": "Remembering self (global retrospective, peak and end)",
+          "column_c_label": "Decision utility (wantability, the utility behind choices)",
+          "rows": [
+            {
+              "label": "Patient B's pain profile summed over 24 minutes, the larger 'area under the curve'",
+              "col": "a"
+            },
+            {
+              "label": "Patient A's global rating of total pain despite a shorter 8-minute procedure",
+              "col": "b"
+            },
+            {
+              "label": "Edgeworth's imaginary hedonimeter recording pain level at every moment",
+              "col": "a"
+            },
+            {
+              "label": "80% of cold-hand participants choosing to repeat the 90-second episode",
+              "col": "c"
+            },
+            {
+              "label": "The remembering self's answer to 'How was it, on the whole?'",
+              "col": "b"
+            },
+            {
+              "label": "The experiencing self's answer to 'Does it hurt now?'",
+              "col": "a"
+            },
+            {
+              "label": "Paying more to reduce injections from 6 to 4 than from 20 to 18",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "b: The hedonimeter total comes from the patient's memory of the whole procedure.",
+            "c: The hedonimeter total measures what people want, not what they feel.",
+            "a: The hedonimeter total is the rating the patient gives after the procedure ends."
+          ],
+          "explanation": "The hedonimeter total is duration-weighted and computed from moment-by-moment reports, the domain of the experiencing self, which is why Edgeworth's weather-station analogy and the 'area under the curve' belong in column a. Global retrospective ratings follow the peak-end rule and ignore duration, the signature of the remembering self (column b). Choices such as repeating the longer cold-hand trial or paying more for the 6-to-4 injection reduction reflect decision utility, the 'wantability' that drives decisions even when it misaligns with what is actually experienced."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Peak-end rule, duration neglect, and the hedonimeter total",
+          "visual_frame_description": "Two patient pain profiles scroll side by side on a monitor: patient A's 8-minute colonoscopy spiking to 8 and ending at 7, and patient B's 24-minute procedure peaking at 8 early and ending at 1. A line under each curve shows the computed peak-end average, while a separate tally displays the duration-weighted 'area under the curve.'",
+          "player_mission": "Classify each statement into the rule it illustrates: the peak-end rule, duration neglect, or the observer's duration-weighted hedonimeter total. Then explain why the shorter procedure was remembered as the more painful one.",
+          "key_concepts": [
+            "The peak-end rule states that the global retrospective rating is well predicted by the average of the level of pain at the worst moment and at the end.",
+            "Duration neglect means the duration of the procedure had no effect whatsoever on the ratings of total pain.",
+            "In the colonoscopy study, patient A's procedure lasted 8 minutes and patient B's lasted 24 minutes, yet A retained a much worse memory of the episode.",
+            "The peak-end average was 7.5 for patient A and only 4.5 for patient B, because A ended at 7 and B ended at 1 while both peaked at 8.",
+            "It was the bad luck of patient A that the procedure ended at a bad moment, leaving an unpleasant memory.",
+            "Hedonimeter totals are duration-weighted because the computation assigns equal weights to all moments: two minutes of pain at level 9 is twice as bad as one minute.",
+            "A total of 154 patients participated in the colonoscopy experiment, with the shortest procedure lasting 4 minutes and the longest 69 minutes.",
+            "If the objective is to reduce patients' memory of pain, lowering the peak intensity could be more important than minimizing the duration of the procedure."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the two rules that govern retrospective ratings: the peak-end rule, which weights the worst and final moments, and duration neglect, which removes total length from the equation. Redelmeier and Kahneman's 154-patient colonoscopy study showed the 24-minute procedure was remembered as milder than the 8-minute one because of its gentle ending.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Patient A's colonoscopy lasted 8 minutes and patient B's lasted 24 minutes, yet A remembered far more pain. Which rule explains that reversal of the 'area under the curve'?",
+          "column_a_label": "Peak-end rule (global rating is the average of the worst moment and the end)",
+          "column_b_label": "Duration neglect (total duration has no effect on the global rating)",
+          "column_c_label": "Hedonimeter total (duration-weighted sum computed by an observer)",
+          "rows": [
+            {
+              "label": "Global retrospective rating predicted by the average of the worst pain and the final pain",
+              "col": "a"
+            },
+            {
+              "label": "Procedure length having no effect on ratings of total pain",
+              "col": "b"
+            },
+            {
+              "label": "Two minutes at pain level 9 being twice as bad as one minute at the same level",
+              "col": "c"
+            },
+            {
+              "label": "Patient A's peak of 8 and end of 7 averaging to a 7.5 memory",
+              "col": "a"
+            },
+            {
+              "label": "Patient B's peak of 8 and end of 1 averaging to a 4.5 memory",
+              "col": "a"
+            },
+            {
+              "label": "The observer's integration of pain over the whole 24-minute procedure",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "b: The shorter procedure must be remembered as worse because duration is neglected, not because of its ending.",
+            "c: The hedonimeter total is what patients report when they are asked for their total pain.",
+            "b: Duration neglect predicts that longer procedures are remembered as less painful in general."
+          ],
+          "explanation": "Patient A's worse memory is exactly the peak-end rule: both patients peaked at 8, but A's procedure ended at 7 while B's ended at 1, giving peak-end averages of 7.5 and 4.5 — A's bad luck was that the procedure ended at a bad moment. Duration neglect would predict no effect of the 16-minute difference, which is why the total duration does not rescue patient B's rating. The hedonimeter total (column c) is the observer's duration-weighted integration and is what the retrospective ratings conspicuously fail to reproduce."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "System 1 stores averages and prototypes, not sums",
+          "visual_frame_description": "A memory-laboratory screen shows three visualizations side by side: a set of 24 dishes with two broken plates added and its value bar dropping, a profile card for 'Linda' next to her bank-teller description, and a cold-water pain trace collapsing into a single prototypical moment. Three sorting columns labeled averages and prototypes, duration-weighted sums, and decision utility frame the puzzle.",
+          "player_mission": "Sort each finding into the mechanism it demonstrates: System 1's representation of sets by averages, norms, and prototypes; the duration-weighted integration of an observer; or the wantability that drives choices. Then identify why the cold-hand episode is remembered as a single representative moment.",
+          "key_concepts": [
+            "System 1 represents sets by averages, norms, and prototypes, not by sums.",
+            "Christopher Hsee's study showed that adding dishes to a set of 24 dishes lowered its total value because some of the added dishes were broken.",
+            "Linda, the activist woman, is judged more likely to be a feminist bank teller than a bank teller, a conjunction that a sum-based logic should forbid.",
+            "The less-is-more effect covers the broken-dish set, the Linda problem, and the cold-hand experiment alike.",
+            "Each cold-hand episode is a set of moments, which the remembering self stores as a prototypical moment strongly influenced by the peak and the end.",
+            "For an objective observer, what counts is the area under the curve that integrates pain over time, which has the nature of a sum.",
+            "It is important for a squirrel to know the total amount of food it has stored, and a representation of the average size of the nuts would not be a good substitute.",
+            "Rats show duration neglect for both pleasure and pain, with the duration of a shock having little or no effect on fear.",
+            "Electrical stimulation of specific brain areas can produce intense pleasure, and only the intensity of the stimulation matters, not its duration."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests why the remembering self keeps prototypes rather than sums: System 1 represents sets by averages, norms, and prototypes, which produces the less-is-more effect seen in Hsee's broken dishes, the Linda problem, and the cold-hand experiment. Kahneman argues this operating feature of System 1 explains why the peak and end dominate memory while duration is neglected.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Why does the remembering self treat the 90-second cold-hand episode as a single prototypical moment rather than a sum of painful moments?",
+          "column_a_label": "Representation by averages, norms, and prototypes (System 1)",
+          "column_b_label": "Duration-weighted integration ('area under the curve')",
+          "column_c_label": "Decision utility (wantability that guides choices)",
+          "rows": [
+            {
+              "label": "Linda the activist judged more likely to be a feminist bank teller than a bank teller",
+              "col": "a"
+            },
+            {
+              "label": "Hsee's set of 24 dishes losing value when broken dishes are added",
+              "col": "a"
+            },
+            {
+              "label": "Each cold-hand episode stored as a representative moment weighted by peak and end",
+              "col": "a"
+            },
+            {
+              "label": "The observer's integration of pain over time for a 90-second episode",
+              "col": "b"
+            },
+            {
+              "label": "Paying more to reduce injections from 6 to 4 than from 20 to 18",
+              "col": "c"
+            },
+            {
+              "label": "A squirrel needing to know the total amount of food stored, not the average nut",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "b: The cold-hand memory is stored as an integral of pain over time.",
+            "c: Decision utility explains why memories keep an average, since wantability follows sums.",
+            "b: The less-is-more effect comes from duration-weighted integration, not from prototypes."
+          ],
+          "explanation": "System 1 represents sets by averages, norms, and prototypes rather than by sums, which is why adding broken dishes to Hsee's set lowered its value and why the remembering self keeps a representative moment from each cold-hand episode instead of a pain total. Column b is the objective observer's integration, the 'area under the curve' that sums pain — evolution may store food totals for a squirrel, but the integral of pain is less biologically significant. Decision utility (column c) is the wantability that drives choices like paying more for the 6-to-4 injection cut, which is why the choice misaligns with the experienced sum."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The scratched symphony: was the experience ruined?",
+          "visual_frame_description": "A lecture hall foyer after a talk. Marcus, an investment analyst in his forties, stands with an auditor, gesturing as he describes a long symphony recording that was scratched near the end. A timeline of the evening renders behind them: 40 minutes of bright, rising segments collapsing into a single dark screech at the final second.",
+          "player_mission": "Audit Marcus's verdict that the scratched ending 'ruined the whole experience.' Review his moment-by-moment description against his global rating, then diagnose whether the experience itself was altered or only its memory.",
+          "key_concepts": [
+            "A listener told Kahneman that a scratched disc near the end of a long symphony 'ruined the whole experience,' but the experience was not actually ruined, only the memory of it.",
+            "The experiencing self had an experience that was almost entirely good, and the bad end could not undo it because it had already happened.",
+            "The peak-end rule predicts that the global retrospective rating is the average of the worst moment and the end, making the screech dominate the verdict.",
+            "Duration neglect means the 40 minutes of musical bliss barely count in the retrospective rating.",
+            "Confusing experience with the memory of it is a compelling cognitive illusion, and it is this substitution that makes a past experience seem ruinable.",
+            "The experiencing self does not have a voice; the remembering self is the one that keeps score and governs what we learn from living.",
+            "The remembering self is sometimes wrong, but it is the one that makes decisions, which Kahneman calls the tyranny of the remembering self.",
+            "What we learn from the past is to maximize the qualities of our future memories, not necessarily of our future experience."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the substitution of memory for experience: a bad ending led Marcus to grade a nearly all-good evening as ruined, although the 40 minutes of musical bliss had already happened and could not be undone. Kahneman's lecture anecdote makes the same point, and the peak-end rule plus duration neglect explain why the memory overrides the actual experience in the final verdict.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Marcus, an investment analyst, insists the scratch on the last movement of a symphony recording 'ruined the whole experience.' Is his verdict a faithful report of the experience itself?",
+          "subject_baseline": "Marcus is a 42-year-old investment analyst and an experienced classical-music listener who attends concerts monthly and owns a large record collection. He is articulate and introspective, and friends value his taste. He has never been in a psychology study before this lecture-hall exchange.",
+          "observed_nonverbal_log": [
+            "T-1min: Recounting the evening, Marcus's face brightens as he describes the opening movements; he gestures broadly, humming a phrase.",
+            "T-0s: He reaches the final movement, his expression clouds, and he winces, saying the record 'screeched.'",
+            "T+20s: Asked what grade he gives the whole evening, he answers without hesitation: a failing one, 'because of the ending.'",
+            "T+1min: Asked what the first 40 minutes were like, he pauses and says 'sublime, honestly' before insisting the ending still counts for everything.",
+            "T+2min: When the interviewer notes that the experience itself is already over, Marcus is quiet for a long moment, then says the memory 'is all I have left of it.'"
+          ],
+          "interrogation_transcript": [
+            "Auditor: 'Marcus, you graded the whole symphony evening a failure because the last seconds screeched. How would you grade the first 40 minutes alone?'",
+            "Marcus: 'Sublime. I was lost in it. But the scratch made the ending unbearable, and the ending colors everything.'",
+            "Auditor: 'The ending happened after the bliss. Can a moment that comes last change what you already felt during the earlier 40 minutes?'",
+            "Marcus: 'Logically it cannot. It was already a good experience. But it feels as if the whole thing is ruined.'",
+            "Auditor: 'Which is the better description of what happened — the experience was ruined, or the memory of it was?'",
+            "Marcus: 'The memory. I see it now. I let the ending rewrite forty minutes of music that had already happened.'"
+          ],
+          "correct_diagnosis": "Substitution of memory for experience, governed by the peak-end rule: the screeching finale dominates Marcus's global rating so thoroughly that he downgrades the entire episode. The experiencing self's 40 minutes of musical bliss already occurred and cannot be undone; only the memory — and therefore his verdict — was ruined.",
+          "diagnostic_breakdown": "The key evidence is the split between his moment-by-moment account ('sublime' for 40 minutes) and his global verdict (a failure). The ending was the most salient moment and, being last, anchors the retrospective rating under the peak-end rule, while duration neglect means the 40 good minutes barely count in the memory. The book's lecture anecdote — a disc scratched near the end 'ruining the whole experience' — is precisely this case, and Kahneman's conclusion is that confusing experience with its memory is a compelling cognitive illusion: the substitution is what makes a past experience seem ruinable. Marcus's own concession that the experience 'cannot' be changed confirms the diagnosis of the remembering self's tyranny over evaluation.",
+          "distractors": [
+            "A genuine hedonic reversal: the screech retroactively changed the pleasure Marcus felt during the earlier movements.",
+            "Dislike of the composer: the negative verdict reflects longstanding musical taste, not the ending.",
+            "Mood contagion: Marcus was irritable all evening and would have rated the symphony poorly regardless of the scratch."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Colonoscopy pain ratings and memory",
+          "visual_frame_description": "A clinic review room. Two patients' pain profiles are projected side by side: Elena's 8-minute curve peaking at 8 and ending at 7, Rosa's 24-minute curve peaking at 8 early and ending at 1. The screen labels each curve with its computed peak-end average while a nurse's note reads 'patient A retained a much worse memory.'",
+          "player_mission": "Audit Elena's high 'total pain' rating against the monitoring records. Review the timed pain reports and the interview, then decide whether Elena is exaggerating or whether her memory is following the rules the chapter documents.",
+          "key_concepts": [
+            "The colonoscopy study, designed by Redelmeier and Kahneman in the early 1990s at the University of Toronto, included 154 patients with procedures from 4 to 69 minutes long.",
+            "The peak-end rule states that the global retrospective rating is well predicted by the average of the level of pain at the worst moment and at its end.",
+            "Duration neglect means the duration of the procedure had no effect whatsoever on the ratings of total pain.",
+            "Patient A's procedure lasted 8 minutes with a peak of 8 and an end of 7, giving a peak-end average of 7.5.",
+            "Patient B's procedure lasted 24 minutes with a peak of 8 and an end of 1, giving a peak-end average of only 4.5.",
+            "As expected, patient A retained a much worse memory of the episode than patient B, despite the shorter procedure.",
+            "If the objective is to reduce patients' memory of pain, lowering the peak intensity could be more important than minimizing the duration of the procedure.",
+            "Gradual relief may be preferable to abrupt relief if patients retain a better memory when the pain at the end of the procedure is relatively mild."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the peak-end rule and duration neglect in clinical pain: retrospective ratings of a colonoscopy track the average of the worst and final moments and ignore total duration, so the shorter procedure that ended badly is remembered as more painful. Redelmeier and Kahneman's 154-patient study showed that duration had no effect on ratings of total pain, while the peak-end average predicted them well.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Elena rated her colonoscopy as far more painful 'on the whole' than Rosa rated hers, yet the monitoring records show Elena's procedure was far shorter. Is Elena exaggerating her pain?",
+          "subject_baseline": "Elena, 58, and Rosa, 61, are two patients in Don Redelmeier's early-1990s colonoscopy study at the University of Toronto. Both rated their pain every 60 seconds on a zero-to-ten scale, and neither received the amnesic drugs that are now routine. Both patients used the scale in similar ways, per the study's assumption.",
+          "observed_nonverbal_log": [
+            "During procedure (Elena, 8 minutes): her ratings climb to a peak of 8, then remain high; the final reading before the end is 7.",
+            "During procedure (Rosa, 24 minutes): her ratings also peak at 8 early on but gradually fall; the final reading before the end is 1.",
+            "T+0s after procedure (Elena): she rates 'total pain' near the peak-end average of 7.5 and says the worst moment and the ending were 'both awful.'",
+            "T+0s after procedure (Rosa): she rates total pain near the peak-end average of 4.5 and says 'the worst part was early, then it eased.'",
+            "T+5min: Elena is surprised that her procedure was shorter than Rosa's and insists it 'felt longer.'",
+            "T+10min: Both patients confirm the pain scale and their reports; neither shows signs of confusion or exaggeration."
+          ],
+          "interrogation_transcript": [
+            "Auditor: 'Elena, your procedure lasted 8 minutes; Rosa's lasted 24. Your pain at any moment was never higher than hers, and you spent less time at high pain. Yet you rated total pain far higher. How do you explain that?'",
+            "Elena: 'I am as surprised as you are. I only know that when it ended I was still hurting badly. The ending is what I remember.'",
+            "Auditor: 'Rosa, your procedure was three times as long. Why did you rate it more mildly?'",
+            "Rosa: 'The worst was at the start. By the end the pain had come down a lot, so it did not feel so bad overall.'",
+            "Auditor: 'So the global rating tracks the worst moment and the ending, not the minutes on the clock?'",
+            "Both: 'Apparently. The minutes themselves seemed to count for nothing.'"
+          ],
+          "correct_diagnosis": "Not exaggeration but the peak-end rule and duration neglect: Elena's memory of total pain follows the average of her peak (8) and final rating (7), yielding a 7.5 retrospective rating, while Rosa's peak-end average of (8 + 1) / 2 = 4.5 gives her a milder memory despite a procedure three times longer. Elena's rating is a faithful report of her remembering self, not an inflated claim.",
+          "diagnostic_breakdown": "The monitoring data rule out exaggeration: both patients used the same scale and their moment-by-moment reports match the study's records. The reversal is predicted exactly by the two memory rules — the peak-end rule (global rating equals the average of the worst and the final moment) and duration neglect (the 16-minute difference had no effect on the global rating). Patient A's profile in the chapter is Elena's: peak 8, end 7, peak-end average 7.5, and a worse memory; patient B is Rosa: peak 8, end 1, average 4.5, and a milder memory. The book's 154-patient study found precisely that the procedure's duration had no effect whatsoever on the ratings of total pain.",
+          "distractors": [
+            "Exaggeration or catastrophizing: Elena overstates her pain to gain sympathy or compensation.",
+            "Confusion between procedures: Elena misremembers Rosa's longer procedure as her own.",
+            "A higher pain threshold for Rosa: Rosa genuinely felt less pain, so the comparison is apples to oranges."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The cold-hand choice",
+          "visual_frame_description": "A psychophysics lab. Priya sits with her forearm immersed in 14-degree-Celsius water while a cursor traces her continuous pain ratings on a screen. She completes a 60-second trial, then a 90-second trial whose final 30 seconds are about 1 degree warmer and mildly less painful. A clock shows the 7-minute gap before she must choose which episode to repeat for trial three.",
+          "player_mission": "Defeat the Cold-Hand Paradox: predict which trial the remembering self will rate as less aversive, then guide Priya's repeat choice so the experiencing self wins once the memory illusion is made visible.",
+          "key_concepts": [
+            "In the cold-hand experiment, each participant endured a 60-second trial at 14 degrees Celsius and a 90-second trial whose final 30 seconds rose about 1 degree, just enough to detect a slight decrease in pain.",
+            "Participants were told they would have three cold-hand trials but in fact experienced only the short and the long episodes, separated by seven minutes.",
+            "Fully 80% of participants who reported that their pain diminished during the final phase of the longer episode opted to repeat it.",
+            "The participants thereby declared themselves willing to suffer 30 seconds of needless pain in the anticipated third trial.",
+            "The peak-end rule predicts a worse memory for the short than for the long trial, and duration neglect predicts the extra 30 seconds will be ignored.",
+            "The subjects knew quite well which exposure was longer, but they did not use that knowledge in their choice.",
+            "Their decision was governed by a simple rule of intuitive choice: pick the option you like the most, or dislike the least.",
+            "The cold-hand experiment revealed a discrepancy between decision utility and experienced utility.",
+            "If asked 'Would you prefer a 90-second immersion or only the first part of it?' the subjects would certainly have selected the short option."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the conflict between the experiencing and remembering selves: 80% of participants who felt their pain diminish in the final phase of the longer trial chose to repeat the 90-second episode over the 60-second one. The choice maximizes remembered relief while inflicting 30 seconds of needless pain, a decision utility that betrays experienced utility.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The 'Cold-Hand Paradox' boss tests the conflict between the experiencing and remembering selves: 80% of participants who felt their pain diminish in the final phase of the longer trial chose to repeat the 90-second episode over the 60-second one. The choice maximizes remembered pain relief while inflicting 30 seconds of needless pain — a decision utility that betrays experienced utility.",
+          "stage_1_observation": "A psychophysics lab. Priya sits with her forearm immersed in 14-degree-Celsius water; a cursor traces her continuous pain ratings on a screen. She completes a 60-second trial, then a 90-second trial whose final 30 seconds are about 1 degree warmer and mildly less painful. The clock shows the 7-minute gap before she must choose which episode to repeat for trial three.",
+          "stage_1_question": "From the perspective of the experiencing self, which trial is objectively worse, and which trial will the remembering self rate as less aversive?",
+          "stage_1_correct_answer": "The experiencing self should prefer the short trial, because the long trial contains everything in the short one plus 30 extra seconds of pain — a larger 'area under the curve.' But the remembering self will rate the long trial less aversively, because its final 30 seconds were milder, lowering the peak-end average, and duration neglect ignores the extra seconds.",
+          "stage_2_intervention": "Priya must now pick which trial to repeat in trial three. The experimenter also offers her a clearer choice: 'Would you prefer the 90-second immersion or only the first 60 seconds of it?' The player must decide which framing Priya should use to protect the experiencing self.",
+          "stage_2_correct_answer": "Choose the short 60-second trial and expose the illusion with the reframe. When the choice is stated as '90 seconds versus only the first 60,' Priya immediately recognizes that the long trial is worse and selects the short one. The book shows subjects chose the long episode only because they were picking the option they disliked least in memory; making the duration explicit lets the experiencing self win, because its preferences are clear once the memory illusion is stripped away."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The colonoscopy treatment design",
+          "visual_frame_description": "An endoscopy suite. Two pain curves on a monitor show patient A (8 minutes, peak 8, ending at 7) and patient B (24 minutes, peak 8, ending at 1). A nurse's note reads 'patient A retained a much worse memory despite the shorter procedure.' Dr. Omar Reyes reviews scheduling options for future procedures while a clinical-objectives board lists two goals: reduce the memory of pain, or reduce the pain actually experienced.",
+          "player_mission": "Defeat the Two-Selves Clinic boss by identifying which patient has the worse memory and why, then choose a procedure design matched to an explicit objective and explain the conflict between the two selves.",
+          "key_concepts": [
+            "If the objective is to reduce patients' memory of pain, lowering the peak intensity of pain could be more important than minimizing the duration of the procedure.",
+            "By the same reasoning, gradual relief may be preferable to abrupt relief if patients retain a better memory when the pain at the end is relatively mild.",
+            "If the objective is to reduce the amount of pain actually experienced, conducting the procedure swiftly may be appropriate even if it increases the peak pain intensity.",
+            "Kahneman's impression is that a strong majority would favor reducing the memory of pain over reducing the pain actually experienced.",
+            "The dilemma is a conflict of interests between the experiencing self and the remembering self, which do not correspond to the two familiar systems.",
+            "Memories are all we get to keep from our experience of living, and the only perspective we can adopt when thinking about our lives is that of the remembering self.",
+            "The peak-end average was 7.5 for patient A and 4.5 for patient B, because A ended at 7 and B at 1 while both peaked at 8.",
+            "The remembering self is sometimes wrong, but it is the one that keeps score and governs what we learn from living, and it is the one that makes decisions."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the clinical dilemma at the heart of the chapter: reducing the memory of pain requires lowering the peak and ending gently, while reducing pain actually experienced may require a swift procedure even at the cost of an awful memory. Kahneman frames the choice as a conflict of interests between the experiencing self and the remembering self.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The 'Two-Selves Clinic' boss tests the clinical dilemma at the heart of the chapter: if the goal is to reduce the memory of pain, lower the peak and end the procedure gently; if the goal is to reduce pain actually experienced, finish swiftly even if that raises the peak. The physician's choice is a conflict of interests between the two selves.",
+          "stage_1_observation": "An endoscopy suite. Two pain curves on a monitor show patient A (8 minutes, peak 8, ends at 7) and patient B (24 minutes, peak 8, ends at 1). A nurse notes that patient A retained a far worse memory despite the shorter procedure. Dr. Omar Reyes must decide how to schedule and conduct future procedures.",
+          "stage_1_question": "Which patient has the worse memory of the procedure, and which of the chapter's rules explains it?",
+          "stage_1_correct_answer": "Patient A has the worse memory, despite the shorter procedure, because the peak-end rule gives A a peak-end average of (8 + 7) / 2 = 7.5 versus B's (8 + 1) / 2 = 4.5, and duration neglect removes the 16-minute difference. A's bad luck was that the procedure ended at a painful moment.",
+          "stage_2_intervention": "Dr. Reyes must choose a redesign with a clear objective in mind. Option 1 lowers peak pain but prolongs the procedure; option 2 shortens the procedure but spikes the peak intensity near the end; option 3 adds a long, gradual relief phase that is painless but extends duration. The player must state which objective the redesign serves and pick the design that matches it.",
+          "stage_2_correct_answer": "Pick the design for the stated objective and name the conflict. If the objective is to reduce the memory of pain, choose gradual relief that ends mildly (the peak-end average drops even if duration grows), because duration does not count in memory. If the objective is to reduce pain actually experienced, choose the swift option regardless of the memory. The key lesson is that the two objectives conflict — the chapter's majority intuition favors reducing the memory of pain, and the tension between the two selves is what makes the choice a genuine dilemma."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The tyranny of the remembering self",
+          "visual_frame_description": "A therapist's office. Daniel, 47, describes his 15-year marriage, which ended in a bitter divorce over the final 18 months. He keeps returning to the last fight, the messages, and the abrupt separation, adding 'there were good years, sure, but look how it ended.' A timeline on the wall shows 15 years of mostly warm months with a single dark segment at the end.",
+          "player_mission": "Defeat the Tyranny of the Remembering Self: identify which self is issuing Daniel's verdict, then choose the intervention that lets him recover the duration-weighted view of the actual experience.",
+          "key_concepts": [
+            "The remembering self is the one that answers 'How was it, on the whole?' and keeps score, and it is the one that makes decisions.",
+            "A divorce, like a symphony with a screeching sound at the end, is an episode whose bad ending can dominate the global verdict even when most of it was good.",
+            "The fact that something ended badly does not mean it was all bad.",
+            "Confusing experience with the memory of it is a compelling cognitive illusion, and it is the substitution that makes us believe a past experience can be ruined.",
+            "The experiencing self does not have a voice; the remembering self is sometimes wrong but is the one that keeps score and governs what we learn from living.",
+            "This is the tyranny of the remembering self: what we learn from the past is to maximize the qualities of our future memories, not necessarily of our future experience.",
+            "Duration neglect means the long good stretch of the episode counts for little in the global rating.",
+            "The peak-end rule means the final bitter segment is weighted heavily in the retrospective verdict."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the tyranny of the remembering self: a bad ending recolors an entire episode, so Daniel grades 15 years of mostly good marriage as a failure because of its final 18 months. Kahneman's lesson is that the bad end cannot undo experience that has already happened, and the fix is to separate the ending from the episode and restore the duration-weighted view.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The 'Tyranny of the Remembering Self' boss tests how a bad ending can recolor an entire life episode: a divorce judged only by its final year, like the symphony with a screeching end, leads the remembering self to grade the whole experience a failure even when most of it was good. The fix is to separate the ending from the episode and restore the duration-weighted view.",
+          "stage_1_observation": "A therapist's office. Daniel, 47, is describing his 15-year marriage, which ended in a bitter divorce over the last 18 months. He keeps returning to the final fight, the messages, and the abrupt separation. When the therapist asks about the first 13 years, he says 'there were good years, sure,' then immediately adds 'but look how it ended.' A timeline on the wall shows 15 years of mostly warm months with a dark final segment.",
+          "stage_1_question": "Which self is issuing Daniel's verdict on the marriage, and what pattern of attention does it exhibit?",
+          "stage_1_correct_answer": "The remembering self governs his verdict: it weights the peak and the end of the episode, so the bitter final segment dominates the global evaluation, while duration neglect makes the 13 good years nearly invisible. This is the same peak-end substitution that made the symphony listener call a scratched ending 'ruined,' with the bad ending rewriting the memory of the whole.",
+          "stage_2_intervention": "The therapist asks Daniel to grade the marriage overall, and he starts to say 'a failure.' The player must choose the intervention that lets Daniel recover the actual experience: (a) accept the final-year verdict as the honest total, (b) list and duration-weight the good years against the bad ending, or (c) decide that no part of the past can be evaluated once the ending was bad.",
+          "stage_2_correct_answer": "Choose (b): reframe Daniel's evaluation to separate the ending from the episode and weight the episode by its actual duration. The book's speaking-of-frames line is direct — a divorce is like a symphony with a screeching sound at the end, and the fact that it ended badly does not mean it was all bad. The remembering self keeps score and governs decisions, so the intervention must deliberately restore the experiencing self's 13 good years; accepting the final-year verdict (a) or declaring the whole un-evaluable (c) both cede the episode to the peak-end illusion."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+{
+  "spec_file": "spec_kahneman_b02.json",
+  "chapters": [
+    {
+      "id": "ch06",
+      "title": "1. The Characters of the Story",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "System 2 self-control and the impulse to snap",
+          "visual_frame_description": "A lunchroom at a busy hospital. Two nurses, Dana and Marcus, argue over a patient chart. Dana's face flushes as Marcus loudly accuses her of falsifying records. A third nurse, Lena, watches Dana's jaw clench, then Dana turns and walks out without saying a word. A caption asks the player to classify the mental machinery behind each observed moment.",
+          "player_mission": "Sort each on-screen observation into the column that names the mental mechanism behind it. Then pick the column that explains why Dana stayed polite despite the provocation.",
+          "key_concepts": [
+            "System 1 operates automatically and quickly, with little or no effort and no sense of voluntary control.",
+            "System 2 allocates attention to the effortful mental activities that demand it, including complex computations.",
+            "One of the tasks of System 2 is to overcome the impulses of System 1, which makes System 2 responsible for self-control.",
+            "The ice-driving example, 'steer into the skid, and whatever you do, do not touch the brakes,' shows System 2 overriding a well-rehearsed natural response.",
+            "Every human being has had the experience of not telling someone to go to hell; restraint is an act of System 2 control.",
+            "The labels System 1 and System 2 come from psychologists Keith Stanovich and Richard West.",
+            "When we think of ourselves, we identify with System 2, the conscious, reasoning self that has beliefs, makes choices, and decides what to think about and what to do.",
+            "System 1 cannot be turned off: if you know a language, you will read a word shown on screen unless your attention is totally focused elsewhere.",
+            "System 2 is mobilized to increased effort when it detects an error about to be made."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the division of labor between System 1 and System 2, specifically System 2's role in self-control: it must override the automatic impulses System 1 generates, such as the urge to snap back under provocation. Kahneman argues that when all goes smoothly System 2 adopts System 1's suggestions, but when impulses must be restrained, System 2 does the effortful work of control.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Dana was furious, yet she kept her composure and said nothing. Which column best explains the mental mechanism that let her do that?",
+          "column_a_label": "System 1 — automatic, fast, effort-free impulses",
+          "column_b_label": "System 2 — effortful computations that demand attention",
+          "column_c_label": "System 2 self-control — overruling the impulses of System 1",
+          "rows": [
+            { "label": "Keeping yourself polite when you are angry", "col": "c" },
+            { "label": "Not telling someone to go to hell", "col": "c" },
+            { "label": "Steering into a skid instead of touching the brakes on ice", "col": "c" },
+            { "label": "Not staring at the oddly dressed couple at the next table", "col": "c" },
+            { "label": "Working hard to restore control before you blurt out an offensive remark", "col": "c" }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "System 1 handled it automatically, because the urge to snap is fast and effortless",
+            "System 2 ran a routine computation like mental arithmetic",
+            "There was no mental mechanism at all; Dana simply felt nothing"
+          ],
+          "explanation": "Dana's fury was a System 1 impulse that arose automatically and outside her control. Keeping it unspoken required System 2, which Kahneman says is in charge of self-control and exists to overcome the impulses of System 1."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The limited budget of attention",
+          "visual_frame_description": "A delivery driver's cab on a rain-slicked two-lane road. The driver, Omar, tightens his grip as he overtakes a semi truck; his passenger, Selma, stops mid-sentence and goes silent until the truck is passed. In the back, a dashboard navigation voice keeps talking, unheard. The screen prompts the player to sort the observations.",
+          "player_mission": "Sort each observation into the column that names the mechanism it demonstrates. Then choose the column that explains why Selma stopped talking.",
+          "key_concepts": [
+            "Attention is a limited budget: if you try to go beyond it, you will fail.",
+            "It is the mark of effortful activities that they interfere with each other, so several cannot be conducted at once.",
+            "You can do several things at once only if they are easy and undemanding, such as talking while driving on an empty highway.",
+            "When the driver is overtaking on a narrow road, passengers stop talking because they know distracting the driver is unwise.",
+            "Social behavior makes allowances for the limited capacity of attention.",
+            "The phrase 'pay attention' is apt because attention is a resource you allocate to activities.",
+            "Orienting to a loud sound is an involuntary System 1 operation that immediately mobilizes the voluntary attention of System 2.",
+            "Intense focusing on a task can make people effectively blind to stimuli that normally attract attention.",
+            "Attention can be moved away from an unwanted focus by focusing intently on another target."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the limited-capacity model of attention: System 2's effortful operations draw on a finite budget, and two demanding tasks interfere with one another. Kahneman notes that social behavior even accommodates this, as passengers go quiet during a risky overtake because the driver is effectively deaf while focused.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Why do adult passengers sensibly stop talking while a driver overtakes a truck on a narrow road?",
+          "column_a_label": "Limited attention budget — effortful tasks interfere with each other",
+          "column_b_label": "Automatic System 1 routines that run unattended",
+          "column_c_label": "System 2 programming memory for a deliberate task set",
+          "rows": [
+            { "label": "Passengers fall silent while the driver passes a truck on a narrow road", "col": "a" },
+            { "label": "You cannot compute 17 x 24 while making a left turn into dense traffic", "col": "a" },
+            { "label": "Effortful activities interfere with each other when attempted at once", "col": "a" },
+            { "label": "You can hold a conversation on an empty highway because the task is easy", "col": "a" },
+            { "label": "Trying to go beyond your budget of attention leads to failure", "col": "a" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Selma was bored and had nothing to say",
+            "The driver had programmed his memory to look for oncoming cars",
+            "Talking is a System 1 task that never interferes with driving"
+          ],
+          "explanation": "Kahneman writes that you dispose of a limited budget of attention and that it is the mark of effortful activities that they interfere with each other. Overtaking on a narrow road is effortful, so the driver is temporarily deaf and passengers stop talking."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Müller-Lyer illusion and cognitive illusions",
+          "visual_frame_description": "A psychology classroom. On the projector screen two horizontal lines with fins appear, the bottom one looking clearly longer. A student, Mei, measures the printed handout with a ruler and frowns. Her classmate, Diego, still insists the bottom line looks longer. A side panel shows a small gray silhouette of the angry woman. The player is asked to classify the mental processes at work.",
+          "player_mission": "Sort each observation into the column naming the mental mechanism it demonstrates. Then pick the column that explains why the lines still look unequal after measuring.",
+          "key_concepts": [
+            "The Müller-Lyer illusion shows that what you see and what you believe can come apart.",
+            "Even after measuring the lines, you still see the bottom line as longer because System 1 is autonomous.",
+            "To resist the illusion you must learn to mistrust your impression of line length when fins are attached.",
+            "There are illusions of thought as well as visual illusions; Kahneman calls them cognitive illusions.",
+            "A strong attraction to a patient with a repeated history of failed treatment is a danger sign, like the fins on the parallel lines.",
+            "System 1 operates automatically and cannot be turned off at will.",
+            "Errors of intuitive thought are often difficult to prevent because System 2 may have no clue to the error.",
+            "Errors can be prevented only by the enhanced monitoring and effortful activity of System 2.",
+            "Continuous vigilance is impractical; the compromise is to recognize situations in which mistakes are likely and try harder when the stakes are high.",
+            "The premise of the book is that it is easier to recognize other people's mistakes than our own."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the autonomy of System 1 and the distinction between impressions and beliefs: a System 1 impression (the lines look unequal) persists even after System 2 acquires a conflicting belief (the lines are equal). Kahneman extends the same logic to cognitive illusions, where a compelling feeling, such as being uniquely able to help a charming patient, can be a danger sign that must be recognized rather than believed.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "After measuring the Müller-Lyer lines with a ruler and knowing they are equal, Mei still sees the bottom line as longer. Which column explains this?",
+          "column_a_label": "Autonomy of System 1 — impressions persist even when belief changes",
+          "column_b_label": "System 2 computing an answer through deliberate steps",
+          "column_c_label": "Two competing System 1 responses to the same stimulus",
+          "rows": [
+            { "label": "You measure the lines and know they are equal, yet you still see one as longer", "col": "a" },
+            { "label": "You cannot decide to see the lines as equal, although you know they are", "col": "a" },
+            { "label": "The illusion continues because System 1 operates automatically and cannot be turned off", "col": "a" },
+            { "label": "Beliefs updated by measurement coexist with persistent visual impressions", "col": "a" },
+            { "label": "The only defense is to learn to mistrust impressions of line length when fins are attached", "col": "a" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The ruler measurement was performed by System 1 automatically",
+            "The fins are processed by System 2 as a deliberate computation",
+            "Seeing one line as longer is a voluntary choice the observer makes"
+          ],
+          "explanation": "The Müller-Lyer illusion shows the autonomy of System 1: your belief, held by System 2, can change while your impression, produced by System 1, stays fixed. Kahneman stresses the distinction between impressions and beliefs, so you know the lines are equal but cannot make them look equal."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Psychopathic charm as a cognitive illusion",
+          "visual_frame_description": "A clinical supervision room. A supervising therapist reviews an intake file on a tablet while a transcript and a timed nonverbal log of a client interview scroll beside it. The client's face, shown in a still frame, is calm and smiling. A red flag icon pulses over a line reading 'You're different, I can tell.' The player must audit the file and issue a verdict.",
+          "player_mission": "Review the client's baseline, the timed nonverbal log, and the interrogation transcript, then issue the correct diagnosis for whether this client's narrative is a trustworthy signal.",
+          "key_concepts": [
+            "Kahneman's teacher taught that a patient who shares a disturbing tale of repeated failures in previous treatment and insists 'you are different' is most likely a psychopath.",
+            "The teacher assumed the sympathy felt for such a patient would not be under our control; it arises from System 1.",
+            "The warning was not to be suspicious of all feelings about patients, but to treat strong attraction to a patient with a history of failed treatment as a danger sign.",
+            "The analogy to the Müller-Lyer illusion is close: the compelling feeling is an illusion, and you must recognize the pattern and not act on it.",
+            "The leading authority in the study of psychopathy confirmed that the teacher's advice was sound.",
+            "System 1 generates impressions and feelings automatically, and these are the main sources of the explicit beliefs and deliberate choices of System 2.",
+            "Errors of intuitive thought are difficult to prevent because System 2 may have no clue to the error.",
+            "The best compromise is to learn to recognize situations in which mistakes are likely and to try harder when the stakes are high.",
+            "The premise of the book is that it is easier to recognize other people's mistakes than our own."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the cognitive-illusion mechanism: System 1 automatically produces a strong, compelling impression that the flattering client is uniquely helpable, but that impression is an illusion that must be recognized and refused, exactly as the Müller-Lyer fins must be recognized. Kahneman reports his clinical teacher's hard rule, a repeated history of failed treatment combined with claims that 'you are different' is a psychopathy danger sign, endorsed by the leading authority on the condition.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "You are a supervising therapist reviewing an intake file. Is the client's narrative and your strong pull to help him a trustworthy signal, or a cognitive illusion?",
+          "subject_baseline": "In the clinic's records, the client, Ray, presents with warm eye contact, steady speech, and a calm, self-assured tone. His file shows four prior therapists in three years, each ending treatment after Ray described them as having misunderstood him. His baseline manner is smooth, composed, and slightly flattering.",
+          "observed_nonverbal_log": [
+            "09:14 — Ray recounts his failed treatments; voice stays level, no strain, no hesitation",
+            "09:17 — He says 'You're different, I can tell' and leans forward; pupils steady, posture relaxed",
+            "09:21 — Asked about the earliest therapist, he answers instantly with detail, showing no mental effort to recall",
+            "09:26 — He smiles when describing how each therapist gave up on him; no distress cues",
+            "09:31 — He compliments your insight three times within two minutes"
+          ],
+          "interrogation_transcript": [
+            "Ray: 'The first four just never really listened. Dr. Kim said she understood, then she dropped me after two months. You already get me better than she did.'",
+            "Ray: 'I've read that sometimes a patient just needs one therapist who clicks. I feel that with you.'",
+            "Ray: 'My last therapist actually said I was the most honest client she'd ever had.'",
+            "Ray: 'So you'll take me on, right? You can see I'm different from what they said.'"
+          ],
+          "correct_diagnosis": "High risk — deceptive. The polished narrative of repeated failed treatments combined with instant flattery is a cognitive illusion, the 'psychopathic charm' warning sign. Do not take on this patient.",
+          "diagnostic_breakdown": "Ray's tale of multiple failed therapists matches the exact profile Kahneman's clinical teacher warned about: the patient says everyone failed him and that you are different. The teacher's verdict was blunt, 'Throw him out of the office.' The absence of any strain or recall effort during emotionally loaded answers, while he works smoothly to flatter you, fits practiced psychopathic charm rather than genuine distress. Like the fins on the Müller-Lyer lines, the strong pull you feel is a danger sign your System 1 produces automatically and must not be trusted or acted on.",
+          "distractors": [
+            "Truthful and mistreated — the prior therapists genuinely failed him and he is simply hopeful",
+            "Borderline personality — the instability in his treatment history is the real red flag",
+            "Performance anxiety — his smoothness is overcompensation for nervousness about being judged"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Gut impressions that misread truthfulness",
+          "visual_frame_description": "A recorded procurement negotiation plays in a review suite. On the left, the supplier representative Elena re-checks her notes and asks for a calculator; on the right, the manager's typed objections appear with timestamps. A verdict panel waits for the player's diagnosis of whether Elena was deceptive or the manager's gut was an unreliable System 1 impression.",
+          "player_mission": "Audit the recording: compare the rep's baseline behavior to the timed log and transcript, then decide whether the manager's 'gut feeling' was evidence of deception or a System 1 impression that misread truthfulness.",
+          "key_concepts": [
+            "System 1 generates impressions and feelings automatically; System 2 generally believes its impressions and acts on them.",
+            "Fast thinking gives you a premonition or feeling with the sense that it just happened, without intention.",
+            "System 1 can detect hostility in a voice and make quick assessments of people without effort.",
+            "Impressions are not always beliefs: Kahneman stresses the distinction between impressions and beliefs.",
+            "Cognitive illusions show that a strong feeling can persist even when it is known to be wrong.",
+            "Errors of intuitive thought are difficult to prevent because System 2 may have no clue to the error.",
+            "The book's premise is that it is easier to recognize other people's mistakes than our own.",
+            "When all goes smoothly, System 2 adopts the suggestions of System 1 with little or no modification.",
+            "The best approach is a compromise: recognize situations in which mistakes are likely and try harder when the stakes are high.",
+            "The psychopathic-charm case illustrates that a compelling System 1 attraction is a danger sign, not evidence."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the reliability of System 1 impressions: the manager's gut feeling about deception is an automatic System 1 judgment that System 2 lazily endorses, even though impressions can be cognitive illusions. Kahneman emphasizes that fast, effortless impressions feel certain and are usually trusted, which is exactly why they can mislead when stakes are high.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "A senior procurement manager insists a supplier's rep was lying because 'something felt off.' Audit the recording: was the rep deceptive, or was the manager's gut feeling an unreliable System 1 impression?",
+          "subject_baseline": "The rep, Elena, negotiates price sheets weekly. In routine contract talks she speaks at a steady pace, answers promptly, and occasionally re-checks her notes. Colleagues describe her as brisk and direct; she does not flatter or small-talk.",
+          "observed_nonverbal_log": [
+            "14:02 — Asked about the defect rate, Elena pauses 2 seconds and looks down at her notes; voice stays steady",
+            "14:06 — Manager says the offer 'feels wrong'; Elena's brows rise, she blinks rapidly for a moment",
+            "14:10 — Elena answers the exact figure question with clear numeric detail, no hesitation",
+            "14:15 — Elena asks for a calculator to recompute her own quote, showing visible care",
+            "14:22 — After the call, Elena rubs her eyes and exhales loudly"
+          ],
+          "interrogation_transcript": [
+            "Manager: 'Your quoted rate can't be right. I have a feeling you're holding something back.'",
+            "Elena: 'I can give you the exact numbers from our line logs. They're in this folder.'",
+            "Manager: 'You hesitated when I asked about the defects. That's when people lie.'",
+            "Elena: 'I paused because I wanted to check the batch number before I said anything. That's all.'",
+            "Manager: 'Look, I've interviewed hundreds of vendors. I trust my gut. It says no.'"
+          ],
+          "correct_diagnosis": "No deception. The 'off' feeling was a System 1 impression treated as evidence; Elena's behavior shows care and verification, and the manager mistook ordinary deliberation for deceit.",
+          "diagnostic_breakdown": "Every cue the manager cites, the pause, the downward glance, the blink, is ordinary effortful verification, and System 1's read of hostility and deception is quick but not authoritative. Kahneman notes that System 1 impressions feel certain and that System 2 generally believes them, yet impressions can be illusions. The manager anchored on his gut and let the feeling drive the verdict, converting a routine negotiation into a rejection. The audit shows the rep recomputing her own quote and offering line logs, behavior consistent with truthfulness, not the smooth practiced evasion of the psychopathic-charm pattern.",
+          "distractors": [
+            "Deceptive — the pause before answering the defect question is a classic concealment cue",
+            "Deceptive — rapid blinking under pressure indicates fabrication",
+            "Indeterminate — gaze and hesitation data are too weak to draw any conclusion about Elena"
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Invisible Gorilla and inattentional blindness",
+          "visual_frame_description": "A training room where twelve new security officers watch a basketball-passing video on a large screen, each instructed to count the passes made by the white team and ignore the black team. A woman in a gorilla suit crosses the court, thumps her chest, and exits, while most eyes stay locked on the white players. A counter shows how many officers report seeing anything unusual.",
+          "player_mission": "Observe the training outcome, answer why so many officers missed the gorilla, then decide how to deploy attention in a real surveillance shift to avoid the same failure mode.",
+          "key_concepts": [
+            "In the gorilla study, viewers counting passes by the white team missed a woman in a gorilla suit that was in view for 9 seconds.",
+            "About half of the many thousands who have seen the video do not notice anything unusual.",
+            "It is the counting task, especially the instruction to ignore one team, that causes the blindness.",
+            "No one who watches the video without the task would miss the gorilla.",
+            "Seeing and orienting are automatic functions of System 1, but they depend on the allocation of some attention to the relevant stimulus.",
+            "The most remarkable observation of the study is that people find its results very surprising.",
+            "Viewers who fail to see the gorilla are initially sure that it was not there.",
+            "The gorilla study illustrates that we can be blind to the obvious and also blind to our blindness.",
+            "Surprise activates and orients your attention: you stare and search your memory for a story that makes sense of the surprising event."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests inattentional blindness: the gorilla study by Chabris and Simons shows that intense focusing on a counting task makes people blind even to striking stimuli that normally attract attention. Kahneman uses it to show that attention allocation gates even System 1's automatic seeing, and that we are blind to our own blindness.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is that paying close, effortful attention can make people blind to the obvious: in the gorilla video, about half of viewers counting basketball passes entirely miss a woman in a gorilla suit who crosses the court, thumps her chest, and is in view for nine seconds. We can be blind to the obvious and blind to our blindness.",
+          "stage_1_observation": "A training room. Twelve new security officers watch the basketball-passing video on a large screen, each instructed to count the passes made by the white team and ignore the black team. On a side camera you see half the officers' eyes locked on the white players. A woman in a gorilla suit crosses the court, beats her chest, and exits. Afterward, the instructor asks how many officers saw the gorilla.",
+          "stage_1_question": "Roughly how many of the twelve officers report seeing the gorilla, and why?",
+          "stage_1_correct_answer": "About half, about six, report nothing unusual, because the absorbing counting task and the instruction to ignore one team caused the blindness; seeing and orienting depend on the allocation of attention, and the observers were also blind to their own blindness.",
+          "stage_2_intervention": "The same officers must now guard a busy plaza and are told to stay hyper-focused on the entrance. A decoy theft takes place at the opposite end of the plaza. The shift supervisor must decide how to deploy attention to avoid a repeat of the gorilla failure.",
+          "stage_2_correct_answer": "Do not rely on one officer's tunneled focus; the gorilla finding shows focused attention creates blindness, so the supervisor should assign a second observer or a rotation that periodically reallocates attention and scanning. Intense focusing makes people effectively blind to stimuli that normally attract attention, so a single hyper-focused watcher is exactly the failure mode the video demonstrates."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Recognizing cognitive illusions in the clinic",
+          "visual_frame_description": "A quiet office at a community clinic. Dr. Ngo, a junior therapist, reads an intake note describing a new client, Marcus, who reports three prior therapists who all failed him and insists Dr. Ngo is different and truly understands him. A warm, flattering pull flickers over Dr. Ngo's face as she begins planning a long-term treatment, while the supervising clinician watches from the doorway.",
+          "player_mission": "Recognize the cognitive-illusion pattern in the intake, decide how Dr. Ngo should respond, then advise the supervisor when the therapist hesitates.",
+          "key_concepts": [
+            "A patient who tells a disturbing tale of multiple mistakes in previous treatments and insists 'you are different' is most likely a psychopath.",
+            "Kahneman's teacher said of such a patient: do not even think of taking him on; throw him out of the office.",
+            "The sympathy felt for the patient is not under voluntary control; it arises from System 1.",
+            "The teacher was not teaching general suspicion of patients, but that strong attraction to a patient with repeated failed treatment is a danger sign.",
+            "The analogy to the Müller-Lyer illusion is close: the feeling is an illusion to be recognized and refused.",
+            "System 2 is in charge of self-control, and its task is to overcome the impulses of System 1.",
+            "The book's premise is that it is easier to recognize other people's mistakes than our own.",
+            "The best compromise is to learn to recognize situations where mistakes are likely and try harder when the stakes are high."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the cognitive-illusion concept: System 1 automatically generates a compelling, flattering impression that feels true, but the impression is an illusion that System 2 must recognize and refuse. Kahneman reports the clinical warning against 'psychopathic charm,' a patient with a string of failed treatments who insists you are different, as a textbook cognitive illusion akin to the Müller-Lyer illusion.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is that a compelling System 1 feeling can be a cognitive illusion that must be recognized, not believed. A strong, instant attraction to a patient with a history of failed treatments is a danger sign, analogous to the fins on the Müller-Lyer lines.",
+          "stage_1_observation": "A quiet office at a community clinic. Dr. Ngo, a junior therapist, reads an intake note: the new client, Marcus, describes three prior therapists who all failed him and says he immediately feels Dr. Ngo is different and truly understands him. Dr. Ngo notices a warm, flattering pull toward Marcus and begins planning a long-term treatment plan. The supervising clinician is watching the file.",
+          "stage_1_question": "What is happening, and what should Dr. Ngo's first move be?",
+          "stage_1_correct_answer": "This is the cognitive-illusion pattern from Kahneman's clinical training: a patient with repeated failed treatments who insists 'you are different' is most likely a psychopath, and the therapist's strong attraction is the danger sign. Dr. Ngo should recognize the pattern and decline to take on the patient; the teacher's verdict was to throw him out of the office.",
+          "stage_2_intervention": "Dr. Ngo hesitates and tells the supervisor, 'But my gut says I can really help him.' The supervisor must decide how to respond to keep the clinic safe while respecting Dr. Ngo's feelings.",
+          "stage_2_correct_answer": "The supervisor should confirm the feeling is real but insist it is an illusion that must not be acted on: the sympathy is an automatic System 1 response that cannot be switched off, but recognizing the pattern, like recognizing the Müller-Lyer fins, means not believing or acting on it. The advice from the authority on psychopathy confirms the warning was sound."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "When System 2 takes over from System 1",
+          "visual_frame_description": "A kitchen at a dinner party with twelve guests around a table under warm lights and easy conversation. A small dog in the corner suddenly lets out a loud, cat-like meow. Every head snaps toward the dog, glasses rattle, and the host, Priya, stops mid-sentence and stares. A caption asks the player to explain the surge of attention and later to advise Priya on a high-stakes family decision.",
+          "player_mission": "Explain why the room's attention surged at the surprising sound, then decide how Priya should handle a warm, high-stakes financial decision where System 1 says it will be fine.",
+          "key_concepts": [
+            "System 1 runs automatically and continuously generates suggestions for System 2: impressions, intuitions, intentions, and feelings.",
+            "When all goes smoothly, System 2 adopts the suggestions of System 1 with little or no modification.",
+            "System 2 is mobilized when a question arises for which System 1 does not offer an answer, as with 17 x 24.",
+            "System 2 is activated when an event is detected that violates the model of the world that System 1 maintains.",
+            "In System 1's world, lamps do not jump, cats do not bark, and gorillas do not cross basketball courts.",
+            "Surprise activates and orients your attention: you stare and search your memory for a story that makes sense of the surprising event.",
+            "System 2 is credited with the continuous monitoring of your own behavior, keeping you polite when angry and alert when driving at night.",
+            "System 2 is mobilized to increased effort when it detects an error about to be made.",
+            "The best compromise is to learn to recognize situations in which mistakes are likely and to try harder when the stakes are high."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests when System 2 is mobilized: System 1 answers the easy, routine moments, but a surprise that violates System 1's model of the world, a meowing dog, triggers System 2's attention and memory search, and difficult or high-stakes judgments require its effortful, rule-following review. Kahneman's plot synopsis holds that System 1 originates most thought but System 2 takes over when things get difficult and normally has the last word.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is the plot of the two systems: System 1 runs automatically and continuously generates impressions and impulses; System 2 is normally lazy and endorses them, but is mobilized when System 1 runs into difficulty, when a question has no ready answer, or when an event violates System 1's model of the world. System 2 normally has the last word, and self-control means knowing when to bring it online.",
+          "stage_1_observation": "A kitchen at a dinner party. Twelve guests sit around a table; the lights are warm and conversation is easy. Suddenly a small dog in the corner lets out a loud, cat-like meow. Every head snaps toward the dog, glasses rattle, and the host, Priya, stops mid-sentence and stares, searching her memory for a story that makes sense of the moment.",
+          "stage_1_question": "Why did the entire room's attention surge at the meowing dog?",
+          "stage_1_correct_answer": "Because the event violated the model of the world that System 1 maintains, cats meow and dogs bark, and System 2 is activated whenever such an event is detected, orienting attention and triggering a memory search for a story that makes sense of the surprise. The cat-barking world is exactly the set of violations that mobilizes System 2.",
+          "stage_2_intervention": "Later the same night, Priya must decide whether to lend her brother a large sum to start a business. Her System 1 says 'he's family, it'll be fine.' The stakes are high and she knows mistakes are likelier in exactly this kind of warm, trusting moment. She must decide how to handle the decision.",
+          "stage_2_correct_answer": "Priya should recognize that this is a high-stakes situation where System 1's fluent, optimistic suggestion needs deliberate System 2 review: the compromise Kahneman recommends is to learn to recognize situations in which mistakes are likely and to try harder when the stakes are high. System 2 is the agent that follows rules, compares options on several attributes, and can make the deliberate choice, and it normally has the last word."
+        }
+      ]
+    },
+    {
+      "id": "ch07",
+      "title": "2. Attention and Effort",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Pupils as a window to mental effort",
+          "visual_frame_description": "A dark psychology laboratory. A participant's head rests on a chin-and-forehead frame while an infrared flash pictures her eye each second. On the corridor wall, a projector shows the pupil blown up to a foot across, and two researchers watch it dilate and contract like a metronome-driven dial. The player must classify what the pupil reveals.",
+          "player_mission": "Sort each observation into the column that names what the pupil data demonstrate. Then choose the column that best captures the pupillometry findings on mental effort.",
+          "key_concepts": [
+            "The pupil is a sensitive indicator of mental effort: it dilates substantially when people multiply two-digit numbers.",
+            "Hess observed that pupils dilate more for hard problems than for easy ones, and that this response is distinct from emotional arousal.",
+            "The shape of the pupil response over a paced task was an inverted V.",
+            "Longer digit strings reliably caused larger dilations, and the transformation task compounded the effort.",
+            "Add-1 with four digits caused a larger dilation than the task of holding seven digits for immediate recall.",
+            "Add-3, the most demanding task Kahneman ever observed, dilates the pupil by about 50% in the first 5 seconds and raises heart rate by about 7 beats per minute.",
+            "When subjects were given more digits than they could remember, their pupils stopped dilating or actually shrank.",
+            "Routine conversation demanded little effort, no more than retaining two or three digits.",
+            "The pupil offers an index of the current rate at which mental energy is used, like the electricity meter outside a house."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the pupillometry mechanism: the pupil dilates with mental effort, tracks demand second by second, and contracts when the effort ends, giving a visible 'window to the soul.' Kahneman and Jackson Beatty built the Add-1 and Add-3 paced tasks precisely to read this index, and found the pupil's inverted-V curve mirrors subjective mental strain.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which column best captures what Kahneman and Jackson Beatty found about the pupil during mental work?",
+          "column_a_label": "The pupil tracks mental effort second by second — dilating as effort builds and contracting when it ends",
+          "column_b_label": "The pupil is a fixed measure of intelligence that never varies during a task",
+          "column_c_label": "The pupil responds only to emotional arousal, not to effort",
+          "rows": [
+            { "label": "Longer digit strings reliably caused larger pupil dilations", "col": "a" },
+            { "label": "The peak of pupil size coincided with maximum effort", "col": "a" },
+            { "label": "Add-1 with four digits caused a larger dilation than holding seven digits for recall", "col": "a" },
+            { "label": "The pupil contracted immediately when the participant found a solution or gave up", "col": "a" },
+            { "label": "Routine conversation left the pupil small, as undemanding as holding two or three digits", "col": "a" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The pupil constricts whenever a task gets harder",
+            "Pupil size only changes when someone is lying",
+            "The pupil dilates randomly and tells us nothing about effort"
+          ],
+          "explanation": "Beatty and Kahneman's paced tasks showed the pupil is a faithful second-by-second index of mental effort: it dilates with every added digit, peaks with maximum effort, and relaxes as memory is unloaded, and it stays small during effortless conversation."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Selective allocation of attention under overload",
+          "visual_frame_description": "A testing booth in the 1970s University of Michigan lab. A subject on the chin rest performs the Add-1 digit task while a screen flashes letters; a researcher in the corridor watches the giant pupil image and notes that when the digit load peaks, the flashing letter K goes unseen even though the subject's open eye is staring straight at it. The player must classify the mechanism.",
+          "player_mission": "Sort each observation into the column that names the mechanism at work. Then choose the column that explains why the subject missed the letter K at peak effort.",
+          "key_concepts": [
+            "In the Add-1 blindness study, subjects almost never missed a K shown at the beginning or near the end of the task.",
+            "The letter K was missed almost half the time when mental effort was at its peak, although the camera showed a wide-open eye staring straight at it.",
+            "Failures of detection followed the same inverted-V pattern as the dilating pupil.",
+            "The pupil proved a good measure of the physical arousal that accompanies mental effort.",
+            "System 2 protects the most important activity, so it receives the attention it needs.",
+            "Spare capacity is allocated second by second to other tasks.",
+            "The timing of the visual target had no effect on the main task, confirming the priority instruction was followed.",
+            "In emergencies, System 1 takes over and assigns total priority to self-protective actions.",
+            "The sophisticated allocation of attention has been honed by a long evolutionary history of responding to threats and opportunities."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests selective attention under overload: mental capacity is limited but does not trip like a breaker; System 2 shields the highest-priority activity and rations spare capacity, so peripheral stimuli are simply not seen at peak effort. Kahneman's Add-1 version of the gorilla study showed the letter K vanishing exactly when effort peaked, even with the subject's eye open on it.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which column best explains why the Add-1 subjects missed the flashing letter K almost half the time at peak effort yet never faltered on the digit task?",
+          "column_a_label": "Selective allocation — System 2 protects the most important activity and doles out spare capacity",
+          "column_b_label": "Breaker-trip overload — the whole mind shuts down like a tripped circuit",
+          "column_c_label": "Motivational failure — the subjects secretly stopped paying attention",
+          "rows": [
+            { "label": "Participants were told to give the digit task complete priority and they followed the instruction", "col": "a" },
+            { "label": "The timing of the visual target had no effect on the main digit task", "col": "a" },
+            { "label": "If the critical letter was presented at a time of high demand, the subjects simply did not see it", "col": "a" },
+            { "label": "When the transformation task was less demanding, detection performance was better", "col": "a" },
+            { "label": "Spare capacity is allocated second by second to other tasks", "col": "a" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Mental overload trips a breaker, knocking out all processing at once",
+            "The subjects chose to ignore the letters out of boredom",
+            "Effort has no effect on what a person can see"
+          ],
+          "explanation": "Unlike a breaker that trips and kills all circuits, mental overload is selective: System 2 protects the most important activity so the digits always get processed, while spare capacity for the letter collapses, which is why the wide-open eye missed a K that was staring straight back at it."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Task sets, switching, and the cost of rapid switching",
+          "visual_frame_description": "A modern usability lab. A designer, Kojo, has just spent ten minutes counting the letter f on a page for a training exercise; the instructor then tells him to count commas on the next page. Kojo visibly slows, re-reads lines, and rubs his forehead. A brain-scan panel beside the screen glows in the prefrontal area. The player must classify what makes the switch hard.",
+          "player_mission": "Sort each observation into the column naming the mechanism it demonstrates. Then choose the column that best explains why switching from f-counting to comma-counting is so hard.",
+          "key_concepts": [
+            "System 2 can program memory to obey an instruction that overrides habitual responses, an ability called adopting a task set.",
+            "Psychologists speak of 'executive control' for the adoption and termination of task sets.",
+            "Neuroscientists have identified brain regions serving the executive function, including the prefrontal area.",
+            "Switching from one task to another is effortful, especially under time pressure.",
+            "The need for rapid switching is one of the reasons Add-3 and mental multiplication are so difficult.",
+            "Modern tests of working memory require switching between two demanding tasks, retaining one result while performing the other.",
+            "People who do well on switching tests tend to do well on tests of general intelligence.",
+            "Measures of efficiency in the control of attention predict performance of air traffic controllers and of Israeli Air Force pilots beyond the effects of intelligence.",
+            "Counting the letter f is a task you have never performed before, so setting yourself up for it is effortful, though you improve with practice."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests executive control and task-switching: System 2 programs memory with a task set, and switching to a competing set is effortful, especially under time pressure. Kahneman reports that the prefrontal cortex serves this function and that rapid switching is a key reason Add-3 and mental multiplication demand so much effort.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which column best explains why switching from counting the letter f to counting commas on the next page is effortful?",
+          "column_a_label": "Adoption and switching of task sets under executive control",
+          "column_b_label": "System 1's automatic statistical inference",
+          "column_c_label": "The pupil's baseline resting state",
+          "rows": [
+            { "label": "You must overcome the newly acquired tendency to focus attention on the letter f", "col": "a" },
+            { "label": "Switching from one task to another is effortful, especially under time pressure", "col": "a" },
+            { "label": "Rapid switching is one reason Add-3 and mental multiplication are so difficult", "col": "a" },
+            { "label": "Modern working-memory tests require switching between two demanding tasks", "col": "a" },
+            { "label": "The prefrontal area of the brain is involved in operations we associate with intelligence", "col": "a" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Counting letters draws on System 1's automatic pattern detection",
+            "The difficulty comes from the letters being emotional stimuli",
+            "The task is hard only because the page is printed in a small font"
+          ],
+          "explanation": "Psychologists call the adoption and termination of task sets 'executive control,' and switching from one set to another is effortful, especially under time pressure. Counting commas means suppressing the freshly learned f-focus, and the prefrontal cortex serves this executive function."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Pupil dilation as an index of fabrication effort",
+          "visual_frame_description": "An internal investigator's review suite plays a videotaped interview with a finance clerk, Dev, while a live pupil-trace graph scrolls beneath the footage, spiking and then collapsing at specific timestamps. A verdict panel awaits the player's diagnosis of when and whether Dev fabricated his story.",
+          "player_mission": "Compare Dev's baseline pupil behavior to the timed log and transcript, then determine whether he was fabricating and at which point the pattern gives it away.",
+          "key_concepts": [
+            "The pupil is a sensitive indicator of mental effort and dilates substantially during mental work.",
+            "When subjects were given more digits than they could remember, their pupils stopped dilating or actually shrank.",
+            "The pupil contracted immediately when the participant found a solution or gave up.",
+            "The size of the pupil varied second by second, reflecting the changing demands of the task.",
+            "The pupil offers an index of the current rate at which mental energy is used, like an electricity meter.",
+            "Routine conversation demanded little effort, no more than holding two or three digits.",
+            "Add-3, the most demanding task, dilates the pupil by about 50% of its original area and raises heart rate by about 7 beats per minute.",
+            "Failures of detection followed the same inverted-V pattern as the dilating pupil.",
+            "Mental life is normally conducted at the pace of a comfortable walk, with occasional sprints."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the pupil as an effort index in a deception context: fabrication is a mental sprint that drives the pupil up, and the moment the story is abandoned the pupil contracts, the same signature Kahneman observed when subjects exceeded their memory and gave up. Because people decide what to do but have limited control over the effort of doing it, the pupil reveals effort that words can hide.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "An internal investigator watches a videotaped interview in which a finance clerk, Dev, answers questions about a missing payment. Using the pupil index from the Add-1 research, is Dev fabricating, and at which point?",
+          "subject_baseline": "During the first five minutes of routine questions about his schedule, Dev's pupils stay small and steady, his voice is even, and he answers within a beat. His baseline reads as calm and cognitively unloaded, like a casual stroll.",
+          "observed_nonverbal_log": [
+            "11:00 — Routine questions; pupils small and stable",
+            "11:06 — Asked to recall where he was at 3 p.m. on Friday; pupils dilate sharply and heart rate ticks up",
+            "11:07 — He stalls, 'I was at the office, I think,' pupils at peak",
+            "11:09 — Asked to produce the receipt; pupils constrict suddenly as he says 'I don't have it'",
+            "11:11 — Asked again about the afternoon; pupils stay small, voice flat",
+            "11:14 — Asked whether anyone else touched the payment; pupils dilate again, then shrink as he gives up on an explanation"
+          ],
+          "interrogation_transcript": [
+            "Investigator: 'Where were you Friday at 3 p.m.?'",
+            "Dev: 'I was at the office, I think. The back desk.'",
+            "Investigator: 'Can you show me the receipt?'",
+            "Dev: 'I don't have it. It must have been filed wrong.'",
+            "Investigator: 'Who else could have touched the payment?'",
+            "Dev: 'I really couldn't say. People come and go.'",
+            "Investigator: 'Did you move the money yourself?'",
+            "Dev: 'No. I told you, no.'"
+          ],
+          "correct_diagnosis": "Deceptive — Dev's pupil peaked exactly while he built a shaky alibi and shrank the moment he abandoned it, matching the pattern of a subject who has exceeded what memory can support and gives up.",
+          "diagnostic_breakdown": "The 11:06 dilation marks effort far above his baseline: inventing a plausible location is a mental sprint, not recall. The constriction at 11:09 is the giveaway Kahneman describes, the pupil contracts immediately when the person finds a solution or gives up; here Dev gave up the fabrication and settled for 'filed wrong.' His flat, small pupils on re-questions show no genuine memory search. When asked about an accomplice, effort again spikes and then collapses, the signature of a story abandoned because nothing further could be constructed. The pupil, like the electricity meter, indexes the rate of mental energy use.",
+          "distractors": [
+            "Truthful but nervous — the dilations are simple anxiety about being interviewed",
+            "Truthful — recollection of a routine Friday genuinely takes effort",
+            "Indeterminate — pupil size has no known connection to effort or deception"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The overloaded employee who didn't hear the instruction",
+          "visual_frame_description": "A floor supervisor's office. On one screen, meeting footage shows engineer Nora with her eyes locked on a live production dashboard while a safety instruction is delivered to the room; on the other screen, an incident report accuses her of ignoring it. A verdict panel asks the player whether Nora was defiant or cognitively overloaded.",
+          "player_mission": "Audit the incident: compare Nora's record and baseline to the timed observation log and transcript, then decide whether she was being defiant or genuinely did not hear the instruction.",
+          "key_concepts": [
+            "People engaged in a mental sprint may become effectively blind to surrounding stimuli.",
+            "In the Add-1 study, subjects missed the target letter almost half the time when mental effort was at its peak.",
+            "The subjects missed the K even though the camera showed a wide-open eye staring straight at it.",
+            "The timing of the visual target had no effect on the main task, confirming subjects followed the priority instruction.",
+            "Spare capacity is allocated second by second to other tasks.",
+            "System 2 protects the most important activity, so it receives the attention it needs.",
+            "We can be blind to the obvious and also blind to our blindness.",
+            "Mental life is normally a comfortable walk, sometimes jogging, and on rare occasions a frantic sprint.",
+            "Kahneman's own line: 'She did not forget about the meeting. She was completely focused on something else when the meeting was set and she just didn't hear you.'"
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests attention blindness under overload: an employee at peak mental load can genuinely fail to hear a spoken instruction, exactly as Add-1 subjects missed a flashing letter while their eyes were open on it. Kahneman notes that attentional gaps are selective and precise, and that the conventional 'she just didn't hear you' explanation is exactly right when someone is deep in a mental sprint.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "A floor supervisor accuses an engineer, Nora, of ignoring a safety instruction given in a meeting. Nora insists she never heard it. Audit whether Nora is being defiant, or was cognitively overloaded in a way that made her genuinely deaf.",
+          "subject_baseline": "Nora is a meticulous engineer who always acknowledges instructions, confirms deadlines in writing, and has never had a disciplinary issue in six years. She is typically composed and attentive during briefings.",
+          "observed_nonverbal_log": [
+            "16:02 — During the meeting, Nora is simultaneously reconciling a live production dashboard she is responsible for",
+            "16:05 — The supervisor states the safety instruction; Nora's eyes remain locked on the dashboard and she shows no head turn or acknowledgment",
+            "16:07 — Nora keeps entering figures and appears focused, breathing steady",
+            "16:10 — A colleague repeats the instruction directly to Nora; she looks up, surprised, and asks them to repeat it",
+            "16:12 — Nora writes the instruction down and confirms it aloud, then apologizes for missing it"
+          ],
+          "interrogation_transcript": [
+            "Supervisor: 'You heard me say to halt the line until the bracket is replaced. You did not act. Explain.'",
+            "Nora: 'I genuinely did not hear the instruction. I was reconciling the live dashboard at that moment.'",
+            "Supervisor: 'The whole room heard it. You were standing right there.'",
+            "Nora: 'I'm sorry. My attention was fully on the dashboard figures. I missed it.'",
+            "Colleague: 'She really looked startled when I repeated it to her. I don't think she was faking.'"
+          ],
+          "correct_diagnosis": "No defiance — Nora was effectively blind to the spoken instruction because she was engaged in a mental sprint, the same overload that made Add-1 subjects miss a flashing letter K that their open eyes were staring at.",
+          "diagnostic_breakdown": "The failure is selective and precise, not a lack of intent: Nora was performing a demanding working-memory task when the instruction was given, and System 2 protects the most important activity while spare capacity is rationed second by second. The supervisor's conclusion that the whole room heard it is the gorilla-blindness error: other people with spare attention heard it, but a person at peak load can be blind to the obvious and blind to their blindness. Nora's surprise when the instruction was repeated, and her immediate written confirmation, match an attentional gap rather than defiance.",
+          "distractors": [
+            "Defiant — Nora deliberately ignored the instruction to stall the line",
+            "Deceptive — she claims forgetfulness to avoid accountability for a shutdown",
+            "Unreliable — her memory is poor and she frequently forgets directives"
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The mental sprint and the point of giving up",
+          "visual_frame_description": "A 1970s laboratory corridor. Through the glass, a participant on a chin rest works a paced mental-multiplication task while the projected image of her pupil fills the wall. The researchers watch the large pupil stay big for several seconds, then suddenly contract, and they lean toward the intercom to ask why she stopped. The player must interpret the give-up signal.",
+          "player_mission": "Interpret the sudden contraction of the projected pupil, then decide whether to keep pushing a participant on an impossible Add-3 trial or read the pupil signal and stop.",
+          "key_concepts": [
+            "Add-3 is the most demanding task Kahneman ever observed; few people can cope with more than four digits in Add-1.",
+            "In the first 5 seconds of Add-3, the pupil dilates by about 50% of its original area and heart rate increases by about 7 beats per minute.",
+            "During a mental multiplication, the pupil dilated to a large size within a few seconds and stayed large as long as the individual worked.",
+            "The pupil contracted immediately when she found a solution or gave up.",
+            "When subjects were exposed to more digits than they could remember, their pupils stopped dilating or actually shrank.",
+            "The researchers could divine when the participant gave up, and their favorite answer was: 'We have a window to your soul.'",
+            "Mental life is normally conducted at the pace of a comfortable walk, sometimes interrupted by jogging, and on rare occasions by a frantic sprint.",
+            "Add-1 and Add-3 exercises are sprints, while casual chatting is a stroll.",
+            "However much you want to live, you cannot exert as much effort as an Add-3 transformation demands; you have limited control over the effort of doing it."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the ceiling on mental effort: the pupil dilates and stays large through a mental sprint and contracts the instant the person solves or gives up, marking the hard limit of working memory. Kahneman's Add-3 data show the pupil swelling about 50% in five seconds, and that beyond this ceiling the pupil stops dilating or shrinks, the unmistakable give-up signal.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is that mental effort is a limited resource you can spend up to a hard ceiling: the Add-3 task is 'as hard as people can work,' dilating the pupil by about 50% and raising heart rate by about 7 beats per minute in the first 5 seconds, and when more is demanded than memory can hold, people give up and their pupils stop dilating or shrink.",
+          "stage_1_observation": "A 1970s laboratory corridor. Through the glass, a participant on a chin rest works a paced mental-multiplication task while the projected image of her pupil fills the wall. The researchers watch the large pupil stay big for several seconds, then suddenly contract. They lean in and ask over the intercom: 'Why did you stop working just now?'",
+          "stage_1_question": "Why did the researchers already know she had quit, and why did the pupil suddenly contract?",
+          "stage_1_correct_answer": "Because the pupil stays large as long as the person keeps working and contracts immediately when she finds a solution or gives up, so the sudden contraction was the visible signature of quitting. The participant, surprised, asked 'How did you know?' and the answer was: 'We have a window to your soul.'",
+          "stage_2_intervention": "The same participant is next handed Add-3 with six digits, far beyond what anyone can hold. The researchers must decide whether to keep pushing her to try harder or read the pupil signal and stop.",
+          "stage_2_correct_answer": "Read the pupil and stop: when subjects were exposed to more digits than they could remember, their pupils stopped dilating or actually shrank; this is as hard as people can work, and they give up if more is asked of them. Pushing further has no value; the pupil shows the ceiling has been reached."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The law of least effort at work",
+          "visual_frame_description": "A finance team's shared drive. Analyst Tasha must produce a quarterly reconciliation and hesitates between two shortcuts on her desktop: an old template and a blank data-linked workbook. She opens the old template while her teammate Ibrahim watches. A caption asks the player to name the principle behind her choice and then advise whether to invest the effort.",
+          "player_mission": "Identify the principle behind Tasha's choice of the easy template, then advise the team on whether building the robust workbook is worth the effort when errors are costly.",
+          "key_concepts": [
+            "A general 'law of least effort' applies to cognitive as well as physical exertion.",
+            "If there are several ways of achieving the same goal, people eventually gravitate to the least demanding course of action.",
+            "In the economy of action, effort is a cost, and the acquisition of skill is driven by the balance of benefits and costs.",
+            "Laziness is built deep into our nature.",
+            "The defining feature of System 2 is that its operations are effortful, and one of its main characteristics is laziness.",
+            "As you become skilled in a task, its demand for energy diminishes, with fewer brain regions involved.",
+            "Highly intelligent individuals need less effort to solve the same problems, as indicated by both pupil size and brain activity.",
+            "We normally avoid mental overload by dividing our tasks into multiple easy steps and committing intermediate results to memory or to paper."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the law of least effort: when several paths lead to the same goal, System 2 lazily takes the least demanding one, because effort is a cost in the economy of action. Kahneman argues this laziness is built into our nature, but also that skill and intelligence reduce effort, so the compromise is to mobilize effort deliberately when the stakes justify it.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is the law of least effort: if there are several ways of achieving the same goal, people gravitate to the least demanding course of action; effort is a cost in the economy of action, and laziness is built deep into our nature. It also drives skill acquisition, because as you become skilled, a task's demand for energy diminishes.",
+          "stage_1_observation": "A finance team's shared drive. Analyst Tasha must produce a quarterly reconciliation. She can copy the previous quarter's template and tweak the numbers, low effort with higher error risk, or build a fresh data-linked workbook, more effort but robust. She hesitates over the two shortcuts on her desktop, then opens the old template. Her teammate Ibrahim watches.",
+          "stage_1_question": "Which principle best explains Tasha's choice of the old template?",
+          "stage_1_correct_answer": "The law of least effort: given several routes to the same goal, people gravitate to the least demanding course. Effort is a cost, and System 2 is inherently lazy, reluctant to invest more effort than strictly necessary, so the familiar, easy template wins.",
+          "stage_2_intervention": "Ibrahim suggests they build the robust workbook together and split the effort. The team lead is skeptical and says the quick template has always been fine. The team must decide whether to invest the effort.",
+          "stage_2_correct_answer": "Invest the effort when the stakes justify it: the law of least effort explains the default pull toward the easy template, but it is exactly the lazy System 2 tendency that should be overcome when errors are costly. As you become skilled at a task its demand for energy diminishes, so the robust workbook gets easier with practice, and the compromise is to try harder when the stakes are high."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Protecting the main task under cognitive overload",
+          "visual_frame_description": "An operating theater between cases. Surgeon Priya is mentally rehearsing the next procedure and reconciling the day's surgical counts while a colleague, Dr. Ade, twice says her name about a scheduling change. Priya does not look up or respond, and Dr. Ade grows visibly irritated. The player must decide how Dr. Ade should deliver the change so it is actually received.",
+          "player_mission": "Determine whether Priya is ignoring Dr. Ade or is at peak mental load, then choose the delivery method that will actually get the message through.",
+          "key_concepts": [
+            "The response to mental overload is selective and precise: System 2 protects the most important activity, so it receives the attention it needs.",
+            "Spare capacity is allocated second by second to other tasks.",
+            "In the Add-1 study, the letter K was missed almost half the time at peak effort even with the subject's open eye staring straight at it.",
+            "The timing of the visual target had no effect on the main task, confirming that priority was assigned to the digits.",
+            "If the critical letter was presented at a time of high demand, the subjects simply did not see it.",
+            "When the transformation task was less demanding, detection performance was better.",
+            "In emergencies, System 1 takes over and assigns total priority to self-protective actions.",
+            "People engaged in a mental sprint may become effectively blind, as the gorilla was made invisible by the counting task.",
+            "'She did not forget about the meeting. She was completely focused on something else when the meeting was set and she just didn't hear you.'"
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the selective-allocation mechanism of attention: under overload System 2 protects the priority task and rations the rest, so a person can genuinely fail to register a message delivered at the moment of peak effort. Kahneman's letter-K result shows the effect is about timing and capacity; a message delivered when spare attention exists is heard, and one delivered at peak load is simply not processed.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is selective attention under overload: System 2 shields the highest-priority activity and rations spare capacity second by second, so a person at peak load can be genuinely unaware of what happens around them, even of a letter flashing at their open eye. This explains why someone 'didn't hear you' and why high-stakes operators guard their mental load.",
+          "stage_1_observation": "An operating theater, a clean-up between cases. Surgeon Priya is mentally rehearsing the next procedure and reconciling the day's surgical counts while a colleague, Dr. Ade, twice says her name about a scheduling change. Priya does not look up or respond. Dr. Ade is visibly irritated and starts to repeat herself more loudly, assuming Priya is ignoring her.",
+          "stage_1_question": "Is Priya ignoring Dr. Ade, and what should Dr. Ade infer from the non-response?",
+          "stage_1_correct_answer": "No; Priya is at peak mental load, and overload is selective: System 2 protects the most important activity, the surgical plan and counts, and rations spare capacity, so the spoken message falls outside what attention can capture. Like the Add-1 subjects who missed the letter K with their eyes open, Priya can be blind to the obvious and blind to her blindness.",
+          "stage_2_intervention": "Dr. Ade must decide how to deliver the scheduling change so it is actually received. She can keep repeating it louder, wait and confirm Priya is free then state the change and ask Priya to repeat it back, or file the change in the shared calendar and assume Priya will see it.",
+          "stage_2_correct_answer": "Choose to wait until Priya is out of the demanding task, state the change, and have her confirm it aloud. The research shows a person at peak effort simply does not process the input; the timing of the stimulus, not its loudness, determines detection, so the fix is to deliver the message when spare capacity exists, not to escalate volume."
+        }
+      ]
+    }
+  ]
+}

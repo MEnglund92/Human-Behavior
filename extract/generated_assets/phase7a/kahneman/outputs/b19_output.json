@@ -1,0 +1,851 @@
+{
+    "spec_file":  "spec_kahneman_b19.json",
+    "chapters":  [
+                     {
+                         "id":  "ch37",
+                         "title":  "32. Keeping Score",
+                         "pages":  "",
+                         "assets":  [
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Dual-Process Theory | Heuristics & Statistical Biases",
+                                            "topic":  "Mental Accounting vs. Econ Framing vs. Sunk-Cost Escalation",
+                                            "visual_frame_description":  "Nina, a retail investor, sits at a kitchen table covered with color-coded folders, one for every stock she owns. A ledger titled 'Blueberry Tiles +$5,000' is open next to 'Tiffany Motors -$5,000.' Floating above the table are three sorting bins labeled Econ, Mental Accountant, and Escalator, and a stack of decision cards drifts toward the player.",
+                                            "player_mission":  "Sort each decision card into the bin that best explains the thinking behind it. Distinguish the comprehensive Econ view from Humans' mental accounting and from escalation into sunk costs.",
+                                            "key_concepts":  [
+                                                                 "Money is often a proxy for points on a scale of self-regard and achievement, so people carefully keep score of wins and losses in their heads.",
+                                                                 "Mental accounts are a form of narrow framing: they keep things under control and manageable by a finite mind.",
+                                                                 "Econs of the rational-agent model do not resort to mental accounting; they take a comprehensive view of outcomes and are driven by external incentives.",
+                                                                 "The disposition effect is the documented preference for selling winners rather than losers, driven by a wish to close each mental account as a gain.",
+                                                                 "A rational agent with a comprehensive view sells the stock least likely to do well in the future, regardless of whether it is a winner or a loser.",
+                                                                 "In the United States, realizing losses reduces taxes while selling winners exposes them to taxes, so investors sell more losers in December.",
+                                                                 "Driving into a blizzard because a ticket was already paid for is a sunk-cost error.",
+                                                                 "The sunk-cost fallacy keeps people too long in poor jobs, unhappy marriages, and unpromising research projects.",
+                                                                 "The extra after-tax return expected from selling a loser rather than a winner is about 3.4% over the next year.",
+                                                                 "Experienced investors, who use System 2, are less susceptible to the disposition effect than novices are."
+                                                             ],
+                                            "difficulty_level":  "Beginner",
+                                            "theory_summary":  "This scenario tests narrow framing: mental accounting closes each decision in its own box, so a $5,000 win and a $5,000 loss feel like separate events instead of a $0 portfolio. Kahneman shows this produces the disposition effect and the sunk-cost fallacy, mistakes Econs never make.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "Nina keeps every stock in its own mental ledger. Sort each decision into the thinking style that best explains it: Econ/comprehensive framing, mental accounting, or sunk-cost escalation.",
+                                            "column_a_label":  "Econ / comprehensive framing",
+                                            "column_b_label":  "Mental accounting (narrow framing)",
+                                            "column_c_label":  "Sunk-cost escalation",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "Selling the winning stock Blueberry Tiles to close its account at a gain while holding the losing Tiffany Motors",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Holding separate pots for spending, general savings, and the children's education, and refusing to mix them for a car repair",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "A rational investor who weighs only expected future returns and ignores the price she paid for each share",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "A company pours an extra $60 million into a project already $50 million in the red because the earlier money must be recouped",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Driving 40 miles into a blizzard because the basketball ticket was already paid for",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Keeping credit-card debt while money sits in a savings account, paying interest just to keep the accounts separate",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Selling the loser stock in December because realized losses reduce the tax bill",
+                                                             "col":  "a"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "b",
+                                            "distractors":  [
+                                                                "Selling the winner reflects a comprehensive portfolio view and is tax-optimal.",
+                                                                "Driving into a blizzard for a prepaid ticket is best explained by the endowment effect.",
+                                                                "Maintaining debt beside savings is what Econs do because money is fungible."
+                                                            ],
+                                            "explanation":  "The first row is the disposition effect: selling the winner lets Nina close the Blueberry Tiles account at a gain and score success, so it belongs to mental accounting (b). The Econ rows (a) are comprehensive: taxes and future returns, not purchase price, drive the decision. The sunk-cost rows (c) throw good money after bad to avoid closing an account in the red."
+                                        },
+                                        {
+                                            "asset_type":  "DECEPTION_AUDIT_FILE",
+                                            "domain":  "Dual-Process Theory | Heuristics & Statistical Biases",
+                                            "topic":  "The Disposition Effect in Portfolio Decisions",
+                                            "visual_frame_description":  "A cold-brew coffee sits on Maya's desk at Northgate Advisors as she stares at a split screen of her personal portfolio. The left pane glows green for her winners; the right pane flickers red. A timer logs her eye movements and hesitations while an interviewer asks her to raise cash for her sister's wedding.",
+                                            "player_mission":  "Watch Maya's reactions during the interview, read her nonverbal log and transcript, and diagnose the bias that is steering her stock-selling decisions.",
+                                            "key_concepts":  [
+                                                                 "People keep a separate mental account for each share they buy and want to close every account as a gain.",
+                                                                 "The disposition effect is a documented massive preference for selling winners rather than losers.",
+                                                                 "Closing a mental account with a gain is a pleasure, but it is a pleasure you pay for.",
+                                                                 "A rational decision maker is interested only in the future consequences of current investments.",
+                                                                 "Selling winners in the United States exposes the gain to taxes, while realizing losses reduces the tax bill.",
+                                                                 "Stocks that recently gained in value tend to keep gaining, at least for a short while.",
+                                                                 "The expected after-tax extra return of selling a loser rather than a winner is about 3.4% over the next year.",
+                                                                 "Mental accounting is a form of narrow framing that keeps things manageable for a finite mind.",
+                                                                 "Experienced investors who engage System 2 are less susceptible to the disposition effect than novices are.",
+                                                                 "Finance research documents that investors sell more losers in December, when taxes are on their mind."
+                                                             ],
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This audit tests the disposition effect, in which investors sell winners to lock in a scored gain and ride losers to avoid closing accounts at a loss. The book's evidence is that this narrow-framing bias is costly, because tax rules and momentum favor selling losers instead.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "Which bias is driving Maya's decision to sell her winners rather than her losers?",
+                                            "subject_baseline":  "Maya is a disciplined 41-year-old investment manager who prepares written rationales for every trade she makes in her own account. Colleagues describe her as calm and methodical, and she rarely makes impulsive moves.",
+                                            "observed_nonverbal_log":  [
+                                                                           "14:02:41 - Asked to name the money she could free up quickly, Maya's gaze drops instantly to the green 'gains' column of her screen.",
+                                                                           "14:03:05 - When the interviewer says 'either stock could go,' Maya's fingers hover over the Blueberry Tiles row; her shoulders relax and she smiles faintly.",
+                                                                           "14:03:28 - Mentioning Tiffany Motors, her jaw tightens, she exhales sharply, and she looks away from the red pane.",
+                                                                           "14:04:12 - Asked about taxes, she frowns, shakes her head, and says 'I never think about it that way,' then picks up her coffee and drinks slowly.",
+                                                                           "14:04:49 - On the word 'wedding,' her posture becomes eager and she starts tapping the screen next to her winning stock."
+                                                                       ],
+                                            "interrogation_transcript":  [
+                                                                             "Interviewer: 'Which holding could you part with to cover the wedding?'",
+                                                                             "Maya: 'Blueberry Tiles, no question. I've had a great run on it. I want to take that win home.'",
+                                                                             "Interviewer: 'And Tiffany Motors?'",
+                                                                             "Maya: 'No. That one I'm holding. If I sell it now, it's like admitting I bought it wrong.'",
+                                                                             "Interviewer: 'Which is more likely to do well in the coming year?'",
+                                                                             "Maya: 'Honestly? Nobody knows. But Blueberry has been climbing all quarter.'",
+                                                                             "Interviewer: 'What if I told you selling Tiffany saves you a few hundred dollars in taxes?'",
+                                                                             "Maya: 'Taxes? I just... I don't think about my portfolio that way.'"
+                                                                         ],
+                                            "correct_diagnosis":  "The disposition effect: Maya wants to close the Blueberry Tiles account at a gain and keep Tiffany Motors open, sacrificing wealth to score a success in her mental ledger.",
+                                            "diagnostic_breakdown":  "Her gaze locks onto the gains column, she brightens when discussing the winner, and she stiffens at the loser, matching a wish to close accounts in the black. She explicitly frames selling Tiffany as 'admitting I bought it wrong' - pure scorekeeping, not expected returns. She dismisses the tax argument, which is exactly the month-of-the-year effect the text describes: mental accounting prevails over financial common sense for 11 months of the year.",
+                                            "distractors":  [
+                                                                "The sunk-cost fallacy, because she is pouring more money into the losing stock to recoup her purchase price.",
+                                                                "Anchoring, because the IPO price of Tiffany Motors is distorting her estimate of its future value.",
+                                                                "Loss aversion in risk-taking, because she avoids selling winners to reduce the variance of her portfolio."
+                                                            ]
+                                        },
+                                        {
+                                            "asset_type":  "BOSS_BATTLE",
+                                            "domain":  "Dual-Process Theory | Heuristics & Statistical Biases",
+                                            "topic":  "The Sunk-Cost CEO and Escalation of Commitment",
+                                            "visual_frame_description":  "A glass-walled boardroom at HelioGrid overlooks a rainy skyline. CEO Victor Okada stands before a wall chart of Project Aegis showing $50 million spent, a red 'behind schedule' flag, and a falling forecast line. A rival proposal, OrbitReach, glows on the table with a brighter projected return. Directors watch Victor, who keeps stroking the Aegis chart.",
+                                            "player_mission":  "First predict how a sunk-cost-afflicted company will act, then intervene as the board to break the escalation and protect shareholder value.",
+                                            "key_concepts":  [
+                                                                 "The decision to invest additional resources in a losing account when better investments are available is the sunk-cost fallacy.",
+                                                                 "All too often a company afflicted by sunk costs drives into the blizzard, throwing good money after bad.",
+                                                                 "The sunk-cost situation sits in the top-right cell of the fourfold pattern: a choice between a sure loss and an unfavorable gamble.",
+                                                                 "In the presence of sunk costs, the manager's incentives are misaligned with the objectives of the firm, a version of the agency problem.",
+                                                                 "Canceling a floundering project leaves a permanent stain on the executive's record, so he may gamble further to postpone the day of reckoning.",
+                                                                 "Boards often replace a CEO who is encumbered by prior decisions and reluctant to cut losses.",
+                                                                 "The board does not necessarily believe the new CEO is more competent; they know she does not carry the same mental accounts.",
+                                                                 "A rational decision maker is interested only in the future consequences of current investments.",
+                                                                 "Graduate students in economics and business are more willing than others to walk away from a failing project.",
+                                                                 "The escalation of commitment is a mistake from the perspective of the firm but not necessarily from the perspective of the executive who owns the floundering project."
+                                                             ],
+                                            "difficulty_level":  "Advanced",
+                                            "theory_summary":  "This battle tests escalation of commitment driven by sunk costs: the company keeps investing because canceling would close the mental account at a loss, even though better options exist. The book places this in the fourfold pattern's top-right cell, where an unfavorable gamble is often unwisely preferred to a sure loss.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+                                                            },
+                                            "boss_battle_explanation":  "The central concept is the sunk-cost fallacy and its escalation: past, unrecoverable investment continues to justify new spending because closing the mental account at a loss feels like failure.",
+                                            "stage_1_observation":  "Project Aegis has already consumed $50 million, is behind schedule, and its forecast returns now look worse than at planning. It needs a further $60 million to have a chance, while the new OrbitReach proposal offers higher expected returns for the same money. Watch Victor's reasoning as he stands in front of the Aegis chart.",
+                                            "stage_1_question":  "What is the sunk-cost-afflicted company most likely to do, and which frame describes its situation?",
+                                            "stage_1_correct_answer":  "It escalates: it throws good money after bad into Aegis rather than accept the humiliation of closing the account of a costly failure. This choice sits in the top-right cell of the fourfold pattern, a sure loss versus an unfavorable gamble, where the gamble is often unwisely preferred.",
+                                            "stage_2_intervention":  "Victor insists the $50 million 'must be protected' and pushes the board to fund Aegis. As the board, your move: keep Victor and fund Aegis, keep Victor and fund OrbitReach, or replace Victor and let the new CEO choose freely. Choose the intervention that breaks the sunk-cost trap.",
+                                            "stage_2_correct_answer":  "Replace the CEO who is encumbered by prior decisions, and reframe the decision around future costs and returns only. Boards do this not because the successor is more competent but because she does not carry the same mental accounts, so she can ignore sunk costs in evaluating current opportunities."
+                                        },
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Dual-Process Theory | Heuristics & Statistical Biases",
+                                            "topic":  "Three Shades of Loss Aversion: Standard, Enhanced, and Taboo",
+                                            "visual_frame_description":  "A regulator's briefing table in Geneva displays three trays: one labeled '2:1 standard loss aversion,' one 'enhanced by responsibility,' and one 'taboo tradeoffs.' Photographs float in: a coffee mug, a vaccine vial, an insecticide bottle, and a list of inventions that would be blocked by the precautionary principle. The player drags each image into a tray.",
+                                            "player_mission":  "Classify each loss-related response into the level of loss aversion that produces it: the standard 2:1 weighting, the enhanced version for important endowments and responsibility, or the taboo tradeoff that refuses to price safety at all.",
+                                            "key_concepts":  [
+                                                                 "Losses are weighted about twice as much as gains in several contexts: choice between gambles, the endowment effect, and reactions to price changes.",
+                                                                 "The loss-aversion coefficient is much higher when the endowment is more important than money, such as health.",
+                                                                 "Reluctance to sell an important endowment increases dramatically when selling might make you responsible for an awful outcome.",
+                                                                 "People set a far higher price to accept a 1/1,000 disease risk as a volunteer than they would pay to remove the same risk with a vaccine.",
+                                                                 "Thaler reported informally that the volunteer fee versus vaccine price ratio is typically about 50 to 1.",
+                                                                 "More than two-thirds of parents said they would not buy a cheaper, slightly less safe insecticide at any price.",
+                                                                 "Parents who accept a discount for added child risk demand significantly more than they would pay for a far larger safety improvement.",
+                                                                 "The precautionary principle prohibits any action that might cause harm and would have blocked airplanes, X-rays, chlorine, and the measles vaccine.",
+                                                                 "The strong version of the precautionary principle is untenable, but enhanced loss aversion is embedded in a strong moral intuition that originates in System 1.",
+                                                                 "The taboo tradeoff against accepting any increase in risk may be motivated by a selfish fear of regret more than by optimizing the child's safety."
+                                                             ],
+                                            "difficulty_level":  "Advanced",
+                                            "theory_summary":  "This scenario discriminates among levels of loss aversion: a baseline coefficient near 2 in gambles and endowments, a steeper version when the endowment is health or when responsibility for a bad outcome looms, and taboo tradeoffs that refuse to price safety at all. The book shows the last two originate in System 1 moral intuition and can be incoherent, since even loving parents have a finite safety budget.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "Classify each reaction by the strength of loss aversion behind it: standard 2:1, enhanced by responsibility for important endowments, or taboo tradeoff.",
+                                            "column_a_label":  "Standard loss aversion (~2:1)",
+                                            "column_b_label":  "Enhanced loss aversion (important endowment, responsibility)",
+                                            "column_c_label":  "Taboo tradeoff / precautionary principle",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "Losing $100 feels roughly twice as bad as gaining $100 feels good, across gambles, endowments, and price changes",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "A volunteer demands about 50 times more to accept a 1/1,000 disease risk than the same person would pay for a vaccine against it",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Parents refuse to switch to a cheaper insecticide at any discount because it raises the risk to their child",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "A strict precautionary principle would have blocked airplanes, air conditioning, chlorine, X-rays, and the measles vaccine",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "People value a mug they own at about twice what they would pay to buy the same mug",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Refusing to change insurers because you would feel responsible if the new plan ever failed you",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Demanding a much higher price to give up health than to give up money, because health cannot legitimately be sold",
+                                                             "col":  "b"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "a",
+                                            "distractors":  [
+                                                                "The 50:1 volunteer fee is an ordinary 2:1 loss-aversion coefficient applied to a small probability.",
+                                                                "The precautionary principle is a purely rational risk-management doctrine with no emotional component.",
+                                                                "Parents' refusal to switch insecticide is best explained by the disposition effect on their past purchases."
+                                                            ],
+                                            "explanation":  "The first row is the book's baseline claim that losses are weighted about twice as much as gains, so it belongs to column a. The 50:1 vaccine-versus-volunteer gap and the insurer reluctance involve responsibility for an awful outcome on an endowment more important than money, so they sort to b. The insecticide refusal and the precautionary principle refuse to price safety at all, sorting to c."
+                                        },
+                                        {
+                                            "asset_type":  "DECEPTION_AUDIT_FILE",
+                                            "domain":  "Dual-Process Theory | Heuristics & Statistical Biases",
+                                            "topic":  "Sunk-Cost Fallacy and the Agency Problem",
+                                            "visual_frame_description":  "Inside Mosaic Software's open-plan office, product lead Dev Mahlangu stands in front of a wall of Post-it notes for Project Phoenix, an app now 14 months overdue. A large burn chart shows the budget consumed. His manager, Priya, holds a forecast report with a declining line. Dev keeps pointing at the completed features rather than the red budget line.",
+                                            "player_mission":  "Watch Dev justify continuing Project Phoenix, review his body language and words, and diagnose the bias and the incentive problem behind his escalation.",
+                                            "key_concepts":  [
+                                                                 "The decision to invest additional resources in a losing account when better investments are available is the sunk-cost fallacy.",
+                                                                 "The sunk-cost fallacy keeps people for too long in poor jobs, unhappy marriages, and unpromising research projects.",
+                                                                 "Driving into a blizzard because one paid for the ticket is a sunk-cost error.",
+                                                                 "All too often a company afflicted by sunk costs throws good money after bad rather than accepting the humiliation of closing a costly account.",
+                                                                 "Canceling a floundering project leaves a permanent stain on the executive's record.",
+                                                                 "In the presence of sunk costs, the manager's incentives are misaligned with the objectives of the firm and its shareholders - the agency problem.",
+                                                                 "Boards replace CEOs encumbered by prior decisions because the successor carries no mental accounts and can ignore sunk costs.",
+                                                                 "The sunk-cost situation is the top-right cell of the fourfold pattern: a sure loss versus an unfavorable gamble.",
+                                                                 "Graduate students in economics and business are more willing to walk away from a failing project.",
+                                                                 "A rational decision maker is interested only in the future consequences of current investments."
+                                                             ],
+                                            "difficulty_level":  "Beginner",
+                                            "theory_summary":  "This audit tests the sunk-cost fallacy and the agency problem: Dev keeps funding Phoenix because closing the account admits failure, and his personal record is served by gambling further with the firm's money. The book notes this is rational for the executive even when it is a mistake for the firm.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "What is driving Dev to keep spending on Project Phoenix, and whose interests is it serving?",
+                                            "subject_baseline":  "Dev is a normally pragmatic product lead who praises 'quick kill' culture and has killed two of his own features in the past year. He keeps meticulous burndown charts and is known for data-driven planning meetings.",
+                                            "observed_nonverbal_log":  [
+                                                                           "10:02:14 - Asked how Phoenix compares to the new Solar app, Dev's eyes dart to the wall of completed feature cards and he straightens his posture.",
+                                                                           "10:02:58 - When Priya mentions 'sunk cost,' Dev's face flushes; he crosses his arms and stops making eye contact.",
+                                                                           "10:03:31 - He taps the burndown chart with his pen and says 'we are past the point of no return' while his voice rises half an octave.",
+                                                                           "10:04:02 - Presented with the Solar forecast, he pushes the report away and turns back to his Post-it wall.",
+                                                                           "10:04:40 - He begins recounting every feature 'we already built' as if that were a reason to build more."
+                                                                       ],
+                                            "interrogation_transcript":  [
+                                                                             "Priya: 'The forecast says Phoenix returns less than starting Solar fresh. What is your recommendation?'",
+                                                                             "Dev: 'We are $4 million deep. Walking away now would waste all of it.'",
+                                                                             "Priya: 'That money is already spent. It does not come back either way.'",
+                                                                             "Dev: 'Look at what we have shipped. Killing Phoenix is admitting I sold you all a broken roadmap.'",
+                                                                             "Priya: 'So we should put another $6 million into it?'",
+                                                                             "Dev: 'If we stop now, my whole two-year record at this company is a failure. Give it one more cycle.'"
+                                                                         ],
+                                            "correct_diagnosis":  "The sunk-cost fallacy compounded by the agency problem: Dev's 'already $4 million deep' reasoning ignores that the money is gone, while his fear of a tainted record makes gambling more of the firm's money serve his own interests.",
+                                            "diagnostic_breakdown":  "Dev anchors on the spent $4 million and treats completed work as a reason to continue, which is exactly throwing good money after bad. His explicit line 'killing Phoenix is admitting I sold you a broken roadmap' reveals the mental account he refuses to close at a loss. Priya's counterfactual, that the money does not come back, is the rational Econ move he cannot adopt. The agency element is his motive: a cancelled project stains his record, so his incentives are misaligned with the firm's.",
+                                            "distractors":  [
+                                                                "Loss aversion in gambles, because he is refusing a 50/50 bet that could break even.",
+                                                                "Anchoring, because the Solar forecast's $6 million figure is anchoring his estimate of Phoenix's value.",
+                                                                "The endowment effect, because he overvalues features the team already owns."
+                                                            ]
+                                        },
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Dual-Process Theory | Heuristics & Statistical Biases",
+                                            "topic":  "Regret, Blame, and the Default Option",
+                                            "visual_frame_description":  "A split courtroom sketch shows two witnesses: Mr. Brown, a man who almost never hitchhikes, and Mr. Smith, a habitual rider, both robbed after giving a ride yesterday. Above them float two counters - 'felt regret' and 'others blame' - plus a blackjack table where players answer 'Do you wish to hit?' and a stock chart where George sold and Paul did not.",
+                                            "player_mission":  "Sort each regret or blame reaction into the mechanism that produces it: departure from the default, abnormal events that are easy to undo in imagination, or violation of conventional norms as judged by others.",
+                                            "key_concepts":  [
+                                                                 "Regret is one of the counterfactual emotions triggered by the availability of alternatives to reality.",
+                                                                 "Unusual events are easier than normal events to undo in imagination, and abnormal events activate the idea of the event that would have been normal.",
+                                                                 "88% of respondents said Mr. Brown, who almost never picks up hitchhikers, would feel greater regret after being robbed than the habitual rider Mr. Smith.",
+                                                                 "Regret and blame are both evoked by comparison to a norm, but the relevant norms are different.",
+                                                                 "Observers compare both men to conventional norms and blame Mr. Smith for habitually taking unreasonable risks.",
+                                                                 "92% of respondents said George, who switched stocks and lost $1,200, feels more regret than Paul, who merely failed to switch.",
+                                                                 "People expect stronger emotional reactions to an outcome produced by action than to the same outcome produced by inaction.",
+                                                                 "The key is not commission versus omission but the distinction between default options and actions that deviate from the default.",
+                                                                 "In a blackjack simulation, saying yes to 'Do you wish to hit?' was associated with much more regret than saying no if the outcome was bad.",
+                                                                 "The physician who chooses an unconventional treatment faces a substantial risk of regret, blame, and litigation because the normal choice is easier to imagine."
+                                                             ],
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This scenario separates the counterfactual emotions that drive regret and blame: regret intensifies when an event departs from the default or is abnormal, while blame tracks deviation from conventional norms. Kahneman shows the departure-from-default account explains why George's action stings more than Paul's inaction and why a 'yes' in the blackjack simulation produces more regret than a 'no.'",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "Classify each reaction by the mechanism that produces it: departure from the default, abnormal-event counterfactuals, or observer blame for violating conventional norms.",
+                                            "column_a_label":  "Regret from departing from the default",
+                                            "column_b_label":  "Regret from abnormal events (easy to undo)",
+                                            "column_c_label":  "Blame for departing from conventional norms",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "George, who switched stocks and lost $1,200, feels more regret than Paul, who merely failed to switch",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Mr. Brown, who almost never hitchhikes, feels far more regret after being robbed on his rare ride than habitual rider Mr. Smith",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "An observer criticizes Mr. Smith, the habitual risk-taker, most severely for the same robbery",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "A blackjack player asked 'Do you wish to hit?' regrets a bad outcome more if the answer was yes",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "A coach who makes no changes after a bad loss is blamed for the failure to act, because action was the default",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Passengers who 'should not' have been on a crashed plane - the last-minute seat, the bumped flight - are singled out in memorial stories",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "A physician who prescribes an unusual treatment and gets a bad outcome fears regret, blame, and litigation",
+                                                             "col":  "a"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "a",
+                                            "distractors":  [
+                                                                "Regret and blame are identical judgments made against the same norm.",
+                                                                "George's regret is larger because his financial loss was objectively larger than Paul's.",
+                                                                "Mr. Smith feels more regret because he took the risk knowingly and should have known better."
+                                                            ],
+                                            "explanation":  "The first row is the classic action-versus-inaction result: George acted, and departing from the default of holding his stock makes the counterfactual vivid. The abnormal-event rows (b) work by undoing: rare events are easy to reverse in imagination. The blame rows (c) are what an observer compares to conventional norms of reasonable behavior."
+                                        },
+                                        {
+                                            "asset_type":  "DECEPTION_AUDIT_FILE",
+                                            "domain":  "Dual-Process Theory | Heuristics & Statistical Biases",
+                                            "topic":  "Anticipated Regret and the Conventional-Choice Bias",
+                                            "visual_frame_description":  "A hospital ward at dusk. Dr. Imani Okonkwo, an oncologist, stands at a patient's bedside chart, her pen hovering between two protocol boxes: 'standard of care' and 'experimental trial.' A colleague has slid an inconclusive evidence note under her door. Her shoulders are tight and she keeps looking at the clock, rehearsing the future she fears.",
+                                            "player_mission":  "Analyze Dr. Okonkwo's behavior as she weighs a conventional treatment against an unconventional one and diagnose the emotion steering her toward the safe option.",
+                                            "key_concepts":  [
+                                                                 "Regret is an emotion and also a punishment we administer to ourselves, triggered by the availability of alternatives to reality.",
+                                                                 "The asymmetry in the risk of regret favors conventional and risk-averse choices.",
+                                                                 "The physician who prescribes an unusual treatment faces a substantial risk of regret, blame, and perhaps litigation.",
+                                                                 "In hindsight it will be easier to imagine the normal choice; the abnormal choice will be easy to undo.",
+                                                                 "A good outcome contributes to the reputation of the physician who dared, but the potential benefit is smaller than the potential cost.",
+                                                                 "Departure from the default option is a natural candidate for regret or blame.",
+                                                                 "Consumers who are reminded they may feel regret show an increased preference for conventional options, favoring brand names over generics.",
+                                                                 "Financial fund managers clean their portfolios of unconventional stocks as the year approaches its end, an effect of anticipated evaluation.",
+                                                                 "If you can remember when things go badly that you considered the possibility of regret carefully, you are likely to experience less of it.",
+                                                                 "Regret and hindsight bias come together, so anything that precludes hindsight is likely to be helpful."
+                                                             ],
+                                            "difficulty_level":  "Advanced",
+                                            "theory_summary":  "This audit tests anticipated regret: the physician avoids the unconventional treatment because the normal choice is easier to imagine and undo if it fails, making its potential cost loom larger than its potential benefit. Kahneman shows this asymmetry in regret risk reliably favors conventional, risk-averse choices.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "Which psychological force is most strongly shaping Dr. Okonkwo's lean toward the standard treatment?",
+                                            "subject_baseline":  "Dr. Okonkwo is a 52-year-old oncologist with a reputation for reading trial literature and for being the first on her floor to adopt new protocols. She has given grand rounds on evidence-based medicine and has no history of lawsuit avoidance.",
+                                            "observed_nonverbal_log":  [
+                                                                           "15:12:03 - Reading the inconclusive trial note, she taps the pen against her teeth and her gaze drifts to the hospital's legal-risk poster on the wall.",
+                                                                           "15:13:20 - When her colleague says the trial 'could help,' she nods but her lips compress and she looks at the ceiling.",
+                                                                           "15:14:41 - She begins to recite the standard protocol's success figures, her voice steadier than at any point in the session.",
+                                                                           "15:16:05 - Asked what she would tell the family if the trial failed, she closes her eyes briefly and says 'I would replay that conversation every night.'",
+                                                                           "15:17:30 - She picks up the standard-of-care chart and starts writing orders, visibly relieved."
+                                                                       ],
+                                            "interrogation_transcript":  [
+                                                                             "Colleague: 'The trial data is promising but inconclusive. What are you leaning toward?'",
+                                                                             "Dr. Okonkwo: 'Standard of care. I keep imagining the family's face if the trial went wrong.'",
+                                                                             "Colleague: 'And if standard care goes wrong?'",
+                                                                             "Dr. Okonkwo: 'That is different. Everyone would understand. Nobody would ask why I did it.'",
+                                                                             "Colleague: 'The trial could raise her chances.'",
+                                                                             "Dr. Okonkwo: 'Maybe. But if it fails, I chose it. I can still see myself being cross-examined about it in five years.'"
+                                                                         ],
+                                            "correct_diagnosis":  "Anticipated regret driving a preference for the conventional option: Dr. Okonkwo is pricing the future counterfactual of a failed unusual choice more heavily than the potential benefit, because the abnormal choice is easy to undo and hard to defend.",
+                                            "diagnostic_breakdown":  "Her self-reported 'I keep imagining the family's face' and 'if it fails, I chose it' are textbook anticipated regret: the outcome produced by action produces stronger emotion than the same outcome by inaction. Her claim that standard care 'would be different' captures the default-option logic - departing from the default is a natural candidate for regret and blame. The potential benefit of daring is real but smaller than the potential cost because success is generally a more normal outcome than failure.",
+                                            "distractors":  [
+                                                                "Anchoring, because the trial's success statistics anchor her estimate of the standard treatment's value.",
+                                                                "The halo effect, because she overgeneralizes the colleague's enthusiasm to the evidence quality.",
+                                                                "Availability, because a recent malpractice news story about trials is dominating her risk estimate."
+                                                            ]
+                                        },
+                                        {
+                                            "asset_type":  "BOSS_BATTLE",
+                                            "domain":  "Dual-Process Theory | Heuristics & Statistical Biases",
+                                            "topic":  "The Winning-Ledger Investor vs. the Disposition Effect",
+                                            "visual_frame_description":  "Priyanka's dining table is strewn with wedding invitation samples and two stock certificates: Blueberry Tiles, glowing green with a +$5,000 tag, and Tiffany Motors, glowing red with a -$5,000 tag. A tax-form calculator sits folded at the edge of the table. She reaches for the green certificate and you see the words 'close as a win' floating over it.",
+                                            "player_mission":  "First determine which stock Priyanka should sell to protect her wealth, then coach her through the emotional pull to keep the loser, countering the disposition effect.",
+                                            "key_concepts":  [
+                                                                 "The disposition effect is a massive, documented preference for selling winners rather than losers.",
+                                                                 "The investor sets up an account for each share and wants to close every account as a gain.",
+                                                                 "A rational agent sells the stock least likely to do well in the future, without considering whether it is a winner or a loser.",
+                                                                 "In the United States, realizing losses reduces your taxes while selling winners exposes you to taxes.",
+                                                                 "Investors sell more losers in December, when taxes are on their mind, but mental accounting prevails for the other eleven months.",
+                                                                 "Stocks that recently gained in value are likely to go on gaining, at least for a short while.",
+                                                                 "The expected after-tax extra return of selling the loser rather than the winner is 3.4% over the next year.",
+                                                                 "Closing a mental account with a gain is a pleasure, but it is a pleasure you pay for.",
+                                                                 "Experienced investors, using System 2, are less susceptible to the disposition effect than novices.",
+                                                                 "An Econ would treat the purchase price as sunk and ignore it in deciding what to sell."
+                                                             ],
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This battle tests the disposition effect: Priyanka wants to close the Blueberry Tiles account at a gain, but wealth-maximizing choice favors selling the loser Tiffany Motors for tax and momentum reasons. Kahneman reports the expected after-tax extra return of selling the loser is about 3.4% over the next year.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+                                                            },
+                                            "boss_battle_explanation":  "The central concept is the disposition effect: investors treat each holding as a separate mental account and sell winners to lock in scored gains, even though taxes and momentum make selling losers the wealth-optimizing move.",
+                                            "stage_1_observation":  "Priyanka needs cash for her daughter's wedding and owns two equal positions: Blueberry Tiles, worth $5,000 more than she paid, and Tiffany Motors, worth $5,000 less. Both have been stable for weeks. She is reaching for Blueberry Tiles 'to feel like a successful investor.'",
+                                            "stage_1_question":  "Which stock should Priyanka sell to serve her wealth rather than her emotions?",
+                                            "stage_1_correct_answer":  "Sell Tiffany Motors, the loser. Realized losses reduce taxes while selling winners exposes the gain to taxes, recent winners tend to keep gaining, and the expected after-tax extra return of selling the loser is about 3.4% over the next year. The buying price matters only through taxes, not as a score to settle.",
+                                            "stage_2_intervention":  "Priyanka hesitates: 'Selling Tiffany is admitting I was wrong to buy it. Blueberry makes me feel like I won.' How do you respond to break the disposition effect?",
+                                            "stage_2_correct_answer":  "Reframe her as a rational agent: the money is already spent on both stocks, so only future returns and taxes should decide; explicitly separate her 'investor score' from the portfolio's wealth. Point to the tax deduction and momentum, and note that experienced investors who engage System 2 resist exactly this bias."
+                                        }
+                                    ]
+                     },
+                     {
+                         "id":  "ch38",
+                         "title":  "33. Reversals",
+                         "pages":  "",
+                         "assets":  [
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Dual-Process Theory | Heuristics & Statistical Biases",
+                                            "topic":  "Single vs. Joint Evaluation and the Burglary Compensation Reversal",
+                                            "visual_frame_description":  "A crime-victim compensation office displays two victim cards side by side: a man shot in his regular convenience store and the same man shot in the other store while his regular one was closed for a funeral. A toggle on the screen lets the player view the cases 'alone' or 'together,' and dollar amounts shift as the toggle flips.",
+                                            "player_mission":  "Classify each judgment by the evaluation mode that produced it: single evaluation, joint evaluation, or a within-category judgment that shows no reversal.",
+                                            "key_concepts":  [
+                                                                 "In joint evaluation, where both scenarios are seen together, there is almost universal agreement that compensation should be the same in both.",
+                                                                 "In single evaluation, the victim was awarded a much larger sum if he was shot in the store he rarely visited.",
+                                                                 "Poignancy is a counterfactual feeling evoked because 'if only he had shopped at his regular store' comes readily to mind.",
+                                                                 "Substitution and intensity matching translate the strength of the emotional reaction to the story onto a monetary scale.",
+                                                                 "We normally experience life in the between-subjects mode, where contrasting alternatives are absent, and of course WYSIATI.",
+                                                                 "The beliefs you endorse when you reflect about morality do not necessarily govern your emotional reactions.",
+                                                                 "Joint evaluation always involves a more careful and effortful assessment, which calls for System 2.",
+                                                                 "The emotional reactions of System 1 are much more likely to determine single evaluation.",
+                                                                 "Poignancy is a close cousin of regret.",
+                                                                 "Judgments are coherent within categories but potentially incoherent when the objects belong to different categories."
+                                                             ],
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This scenario tests the single-versus-joint evaluation reversal: alone, the rare-store victim draws a larger award driven by poignancy and System 1 intensity matching, but seen together, almost everyone endorses equal compensation. Kahneman shows the moral principle becomes relevant only when both scenarios are viewed together, which is not how life usually works.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "Classify each judgment by the evaluation mode that produced it: single evaluation, joint evaluation, or a within-category judgment that does not reverse.",
+                                            "column_a_label":  "Single evaluation (System 1 intensity)",
+                                            "column_b_label":  "Joint evaluation (System 2 comparison)",
+                                            "column_c_label":  "Coherent within a category (no reversal)",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "The victim shot in the store he rarely visits is awarded a much larger sum when each scenario is seen alone",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Anyone who sees both burglary scenarios together agrees compensation should be identical",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "John, 5'0 at age 6, is judged 'very tall,' while Jim, 5'1 at age 16, is judged 'not tall,' each against his own norm",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Dictionary A (10,000 entries, like new) is valued more highly than dictionary B (20,000 entries, torn cover) when shown alone",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Shown together, dictionary B wins because the entry count is obviously more important than the cover",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Apples and peaches keep the same ranking whether rated singly or jointly",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Bet B is chosen over bet A when the two are compared head-to-head",
+                                                             "col":  "b"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "a",
+                                            "distractors":  [
+                                                                "Poignancy is a legitimate factor that compensation rules actually endorse.",
+                                                                "Single evaluation engages System 2 and therefore produces more stable judgments.",
+                                                                "The regular-store victim deserves a larger award because the shooting happened where he felt safe."
+                                                            ],
+                                            "explanation":  "The first row is the Miller and McFarland between-subjects finding: poignancy drives a larger single-evaluation award. Joint-evaluation rows (b) are cases where explicit comparison engages System 2 and stabilizes the judgment. The category rows (c) use one norm for both items, so single and joint evaluations agree."
+                                        },
+                                        {
+                                            "asset_type":  "DECEPTION_AUDIT_FILE",
+                                            "domain":  "Dual-Process Theory | Heuristics & Statistical Biases",
+                                            "topic":  "Poignancy and the Compensation Award",
+                                            "visual_frame_description":  "A workers' compensation office. Claims adjuster Tanya Reyes reads a file with two claims from the same week: a machinist injured in the factory he has worked in for twelve years, and a courier who was substituting in an unfamiliar depot. Her pen hovers over the second claim's award field, and a sticky note reads 'if only he had been at his regular site.'",
+                                            "player_mission":  "Read Tanya's behavior as she awards compensation to each claimant and diagnose why the two awards, judged one after the other, diverge so sharply.",
+                                            "key_concepts":  [
+                                                                 "Poignancy is a counterfactual feeling, a close cousin of regret, evoked when 'if only' thoughts come readily to mind.",
+                                                                 "Unusual events are easier than normal events to undo in imagination.",
+                                                                 "Substitution and intensity matching translate the strength of an emotional reaction onto a monetary scale.",
+                                                                 "Single evaluation is much more likely to be determined by the emotional reactions of System 1.",
+                                                                 "Joint evaluation involves a more careful and effortful assessment, which calls for System 2.",
+                                                                 "We normally experience life in the between-subjects mode, in which contrasting alternatives are absent, and of course WYSIATI.",
+                                                                 "In single evaluation, the victim was awarded a much larger sum when the event was abnormal.",
+                                                                 "Almost everyone who sees both scenarios together endorses the principle that poignancy is not a legitimate consideration.",
+                                                                 "Moral intuitions that come to mind in different situations are not internally consistent.",
+                                                                 "The principle that poignancy is irrelevant becomes applicable only when the scenarios are seen together."
+                                                             ],
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This audit tests poignancy and intensity matching in single evaluation: Tanya awards more to the abnormal-site injury because the counterfactual 'if only' is easy to construct, and she maps the strength of that emotion straight onto dollars. Kahneman shows this System 1 reaction reverses once the two cases are judged jointly.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "Why does Tanya award the substituting courier substantially more than the machinist injured at his regular workplace?",
+                                            "subject_baseline":  "Tanya Reyes is a 34-year-old claims adjuster with five years of experience who follows the published compensation schedule line by line and prides herself on never improvising amounts. Her supervisors rate her as consistent.",
+                                            "observed_nonverbal_log":  [
+                                                                           "09:31:05 - Reading the machinist's file, she flips to the schedule, finds the standard figure, and enters it without hesitation.",
+                                                                           "09:33:18 - Opening the courier's file, her eyebrows rise, and she reads the 'was covering a shift at an unfamiliar depot' line twice.",
+                                                                           "09:34:02 - She murmurs the words 'if only he had been at his regular site' and sets her pen down.",
+                                                                           "09:34:41 - Rather than reaching for the schedule, she writes a number from memory, then stares at it and nods slowly.",
+                                                                           "09:35:20 - Asked to justify it, she hesitates and says 'the story just hits differently' before finding her usual schedule reference."
+                                                                       ],
+                                            "interrogation_transcript":  [
+                                                                             "Manager: 'The machinist was injured after twelve years at that plant. Why does he get the base award?'",
+                                                                             "Tanya: 'Because that is exactly the schedule for his injury class.'",
+                                                                             "Manager: 'And the courier who was substituting?'",
+                                                                             "Tanya: 'I gave him more. He should not have been there at all.'",
+                                                                             "Manager: 'The injury is identical. Same body part, same treatment cost.'",
+                                                                             "Tanya: 'I know. But when I picture him, I keep thinking - if he had just been at his own depot...'"
+                                                                         ],
+                                            "correct_diagnosis":  "Poignancy-driven single evaluation: the courier's abnormal location makes the counterfactual 'if only' vivid, and Tanya substitutes that emotional intensity for the schedule number, inflating the award.",
+                                            "diagnostic_breakdown":  "Her automatic murmur 'if only he had been at his regular site' is the exact poignancy trigger the book describes, and her 'the story just hits differently' is substitution of an emotional reaction for a dollar value. She bypasses her own schedule, the behavior she shows on the machinist's normal case, which is evidence of System 1 intensity matching rather than calculation. If she saw both cases together, the poignancy would be ruled illegitimate.",
+                                            "distractors":  [
+                                                                "The halo effect, because the courier's clean uniform makes her rate his whole file more favorably.",
+                                                                "Anchoring, because the machinist's base award anchors her downward estimate of the courier's case.",
+                                                                "Availability, because a recent news report about substitute-worker accidents is inflating her award."
+                                                            ]
+                                        },
+                                        {
+                                            "asset_type":  "BOSS_BATTLE",
+                                            "domain":  "Dual-Process Theory | Heuristics & Statistical Biases",
+                                            "topic":  "The Preference Reversal Bazaar: Choice vs. Pricing",
+                                            "visual_frame_description":  "A neon gambling arcade lit in red and blue. A roulette wheel with 36 sectors spins behind a counter where two bet cards float: Bet A, '11/36 win $160, 25/36 lose $15,' and Bet B, '35/36 win $40, 1/36 lose $10.' Traders crowd the choice board on the left and the pricing booth on the right, and the two lists are visibly inconsistent.",
+                                            "player_mission":  "First explain why the same people choose Bet B but price Bet A higher, then defend the finding against economists determined to discredit it.",
+                                            "key_concepts":  [
+                                                                 "Between a safe bet and a riskier one, safety prevails and Bet B is clearly the more popular choice.",
+                                                                 "When asked the lowest price at which they would sell each bet, people set a higher selling price on Bet A than on Bet B.",
+                                                                 "The preference reversal occurs because joint evaluation focuses attention on how much less safe Bet A is.",
+                                                                 "In single evaluation the selling price is anchored on the salient prize of $160.",
+                                                                 "The emotional reactions of System 1 determine single evaluation; comparison in joint evaluation calls for System 2.",
+                                                                 "Sarah Lichtenstein and Paul Slovic reported the original preference reversals between bets.",
+                                                                 "Grether and Plott published a study in the American Economic Review designed to discredit the psychologists' findings.",
+                                                                 "Of thirteen theories, only one hypothesis was left standing: the psychologists were right.",
+                                                                 "That hypothesis was least satisfactory to standard preference theory because it allows individual choice to depend on context.",
+                                                                 "In a within-subject experiment, participants are unaware of the inconsistency and react with bewilderment when confronted with it."
+                                                             ],
+                                            "difficulty_level":  "Advanced",
+                                            "theory_summary":  "This battle tests the preference reversal: joint evaluation makes Bet A's riskiness salient so people choose B, while single evaluation anchors the selling price on the $160 prize so they price A higher. Kahneman recounts how Grether and Plott tried to discredit the finding and confirmed it instead, a landmark challenge to the coherence of preference theory.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+                                                            },
+                                            "boss_battle_explanation":  "The central concept is the Lichtenstein and Slovic preference reversal: a choice between bets and a selling price for the same bets produce contradictory orderings because different features are salient in single versus joint evaluation.",
+                                            "stage_1_observation":  "At the arcade counter, Bet A offers 11/36 to win $160 with 25/36 to lose $15, and Bet B offers 35/36 to win $40 with 1/36 to lose $10. Watching the traders: they pick B when choosing between the two, but when each trader is asked alone for the lowest price at which they would sell one of the bets, the prices on A run higher.",
+                                            "stage_1_question":  "Why does the reversal happen?",
+                                            "stage_1_correct_answer":  "Choosing between the bets jointly highlights that A is much less safe, so safety prevails and B wins; pricing each bet alone anchors the valuation on the salient $160 prize, so A gets the higher price. System 1's emotional reactions dominate single evaluation, while the comparison in joint evaluation calls in System 2.",
+                                            "stage_2_intervention":  "Two skeptical economists, modeling Grether and Plott, demand proof that the reversal is real and list rival explanations. How do you demonstrate that the reversal is genuine?",
+                                            "stage_2_correct_answer":  "Run a within-subject design: have the same people price both bets on one long list and then choose between them, and confront them with the inconsistency. Like Lichtenstein's 1968 interview, a participant will choose one bet and then be willing to pay to exchange it for the one he just rejected, cycling repeatedly. This is exactly the test that left only the psychologists' hypothesis standing."
+                                        },
+                                        {
+                                            "asset_type":  "DECEPTION_AUDIT_FILE",
+                                            "domain":  "Dual-Process Theory | Heuristics & Statistical Biases",
+                                            "topic":  "The Anchored Verdict: Mock Jurors and Punitive Damages",
+                                            "visual_frame_description":  "A Texas jury deliberation room. Mock juror Marcus Webb studies two civil cases on a tablet: Case 1, a child burned when his pajamas caught fire while playing with matches, and Case 2, a bank defrauded by another bank's unscrupulous dealings for $10 million. Marcus jots numbers first beside the bank, then, after rereading the child's case, he crosses the number out and writes a larger one.",
+                                            "player_mission":  "Trace Marcus's punitive-damage awards across single and joint evaluation and diagnose what shifts his verdict when the second case appears.",
+                                            "key_concepts":  [
+                                                                 "In single evaluation, mock jurors awarded higher punitive damages to the defrauded bank than to the burned child.",
+                                                                 "The size of the financial loss, $10 million, provided a high anchor for the bank's award.",
+                                                                 "When the cases were considered together, sympathy for the individual victim prevailed over the anchoring effect.",
+                                                                 "In joint evaluation, the jurors increased the award to the child to surpass the award to the bank.",
+                                                                 "Awards to victims of personal injury were more than twice as large in joint as in single evaluation.",
+                                                                 "The jurors who saw the burned-child case alone matched the award to the intensity of their feelings.",
+                                                                 "The award to the bank remained anchored on its loss even in joint evaluation.",
+                                                                 "The punitive award to the child increased, reflecting outrage evoked by negligence that causes injury to a child.",
+                                                                 "Single evaluations often reflect the intensity of emotional responses of System 1.",
+                                                                 "The legal system favors single evaluation, contrary to psychological common sense."
+                                                             ],
+                                            "difficulty_level":  "Advanced",
+                                            "theory_summary":  "This audit tests anchoring and the reversal that joint evaluation produces: alone, the bank's $10 million loss anchors a high award, but when the child's case is seen alongside it, sympathy and outrage override the anchor and push the child's award past the bank's. Kahneman notes personal-injury awards more than double in joint evaluation.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "What explains Marcus giving the bank the higher punitive award first, then raising the child's award when he compares the cases?",
+                                            "subject_baseline":  "Marcus Webb, 58, is a retired high-school civics teacher called for jury duty. In everyday life he is deliberative, reads both sides of an issue, and has never been party to a lawsuit.",
+                                            "observed_nonverbal_log":  [
+                                                                           "10:02:12 - Skimming the bank case first, Marcus writes '6,500,000' quickly, then underlines the $10 million loss figure.",
+                                                                           "10:03:40 - Reading the burned child's case alone, he pauses, looks at his number, and leaves it unchanged.",
+                                                                           "10:05:07 - When the second scenario card for the child is placed beside the bank case, his eyes widen and he leans forward.",
+                                                                           "10:06:33 - He crosses out the child's number and writes a figure higher than the bank's, then rechecks the bank's line.",
+                                                                           "10:07:51 - He mutters 'a kid, versus a bank's lost quarter... that cannot be right' and revises the bank's award down slightly."
+                                                                       ],
+                                            "interrogation_transcript":  [
+                                                                             "Researcher: 'What did you award the bank in the first case?'",
+                                                                             "Marcus: 'Six and a half million. Their loss was ten million, so it felt like a fair fraction.'",
+                                                                             "Researcher: 'And the burned child, when you first saw only that case?'",
+                                                                             "Marcus: 'A smaller number. I thought, this is a small claim compared to the bank.'",
+                                                                             "Researcher: 'Now that you see both side by side?'",
+                                                                             "Marcus: 'Then it is obvious the child deserves more. A pajama maker that leaves a kid burned? That is worse than a bank losing money.'"
+                                                                         ],
+                                            "correct_diagnosis":  "Anchoring in single evaluation followed by a joint-evaluation reversal: the $10 million loss anchors the bank's award until the child's case is seen together with it, at which point sympathy and outrage override the anchor and push the child's award past the bank's.",
+                                            "diagnostic_breakdown":  "Marcus's initial award scales off the $10 million figure ('fair fraction'), which is anchoring on the size of the financial loss. His single-evaluation number for the child matches the intensity of his feelings, exactly as the mock-jury experiment found. When the cases are compared, the 'human versus money' comparison becomes salient, his outrage at negligence to a child takes over, and he revises both figures - the personal-injury award rising to surpass the bank's, consistent with awards more than doubling in joint evaluation.",
+                                            "distractors":  [
+                                                                "The availability heuristic, because recent news about child burns is inflating his sympathy.",
+                                                                "The affect heuristic, because the child's case triggers a like/dislike reaction that replaces all reasoning.",
+                                                                "Loss aversion, because he frames giving the child less as a loss of fairness he wants to avoid."
+                                                            ]
+                                        },
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Dual-Process Theory | Heuristics & Statistical Biases",
+                                            "topic":  "Evaluability, Category Norms, and the Dolphins vs. Farmworkers Reversal",
+                                            "visual_frame_description":  "A donation screen shows two appeal letters: a dolphin rescue fund and a farmworker skin-cancer screening fund. In single view, the dolphin letter attracts a larger pledge and a charm meter fills. In joint view, the scales visibly tip to the farmworkers as the words 'human vs. animal' light up. Beside them float a 1993 music dictionary and two height charts for six-year-old John and sixteen-year-old Jim.",
+                                            "player_mission":  "Classify each reversal by its mechanism: evaluability, category-based norms, or the narrow framing of single evaluation (WYSIATI).",
+                                            "key_concepts":  [
+                                                                 "Dolphins attracted somewhat larger contributions than farmworkers in single evaluation.",
+                                                                 "The dolphin has a highly favorable rank among the species to which it is spontaneously compared.",
+                                                                 "The farmworkers' problem did not rank high among public-health issues, which was the category it evoked as a norm.",
+                                                                 "In joint evaluation, people show a solid preference for the farmworkers and contribute substantially more to their welfare.",
+                                                                 "The 'human vs. animal' feature becomes salient only when the two causes are seen together.",
+                                                                 "The narrow framing of single evaluation allowed dolphins to have a higher intensity score.",
+                                                                 "The fact that farmworkers are human did not come to mind because all public-health issues involve humans.",
+                                                                 "Hsee's evaluability hypothesis holds that the number of entries in a dictionary is given no weight in single evaluation because the numbers are not evaluable on their own.",
+                                                                 "In joint evaluation it is immediately obvious that the 20,000-entry dictionary is superior and that entries matter more than the condition of the cover.",
+                                                                 "Judgments and preferences are coherent within categories but potentially incoherent when the objects belong to different categories."
+                                                             ],
+                                            "difficulty_level":  "Advanced",
+                                            "theory_summary":  "This scenario tests why a charming species outearns a human cause in single evaluation: WYSIATI makes the comparison category invisible, so intensity matching favors dolphins, while joint evaluation makes the 'human vs. animal' feature salient and reverses the choice. It also tests Hsee's evaluability hypothesis, where an attribute is ignored unless it can be compared.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "Classify each judgment by the mechanism behind it: evaluability, category-based norms, or the narrow framing of single evaluation (WYSIATI).",
+                                            "column_a_label":  "Evaluability hypothesis",
+                                            "column_b_label":  "Category-based norms",
+                                            "column_c_label":  "Narrow framing of single evaluation (WYSIATI)",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "The number of entries in a dictionary is given no weight in single evaluation because 10,000 versus 20,000 is not evaluable on its own",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "In joint evaluation the 20,000-entry dictionary wins because entries are obviously more important than the torn cover",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "A six-year-old who is 5'0 is very tall, while a sixteen-year-old at 5'1 is not, because each is matched to the norm for his age",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Dolphins attract larger donations than farmworkers in single evaluation because only similar species come to mind",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "The farmworkers' human-ness never surfaces in single evaluation because every public-health issue involves humans",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Apples and peaches, both fruit, rank identically whether rated singly or jointly",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "A restaurant meal 'matching' John's height costs much less if John is 6 than if he is 16",
+                                                             "col":  "b"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "a",
+                                            "distractors":  [
+                                                                "Dolphins outearn farmworkers even in joint evaluation because of their charisma.",
+                                                                "The torn cover is more important than the entry count in any presentation.",
+                                                                "Within a category, single and joint judgments usually disagree."
+                                                            ],
+                                            "explanation":  "The first row is Hsee's evaluability hypothesis: a standalone number like 10,000 has no reference, so it is ignored until comparison makes it matter (column a). The height and apple rows are within-category norms, coherent in both modes (b). The dolphin and farmworker rows are narrow-framing effects where the relevant comparison category is invisible in single evaluation (c)."
+                                        },
+                                        {
+                                            "asset_type":  "DECEPTION_AUDIT_FILE",
+                                            "domain":  "Dual-Process Theory | Heuristics & Statistical Biases",
+                                            "topic":  "The Context Artist: Manipulating Comparison",
+                                            "visual_frame_description":  "A showroom floor of a high-end furniture store. Salesperson Dario Menendez walks a couple, Leah and Owen, past a $2,900 armchair displayed alone beside a pricey designer sofa, then waits while they circle back. He watches their hands touch the cheaper chair and adjusts which piece is lit by the spotlight before they decide.",
+                                            "player_mission":  "Watch how Dario controls what the customers see and when, then diagnose the psychological lever he is pulling on their preferences.",
+                                            "key_concepts":  [
+                                                                 "Salespeople quickly learn that manipulation of the context in which customers see a good can profoundly influence preferences.",
+                                                                 "Joint evaluation focuses attention on features that are not salient in single evaluation.",
+                                                                 "Single evaluations often reflect the intensity of emotional responses of System 1.",
+                                                                 "The comparative judgment, which necessarily involves System 2, is more likely to be stable than single evaluations.",
+                                                                 "WYSIATI means that what you see is all there is, so absent contrasting alternatives do not enter the judgment.",
+                                                                 "When one option is presented alone, its evaluation is anchored on whatever attribute is salient in that context.",
+                                                                 "A broad frame leads to more reasonable decisions, and joint evaluation is obviously broader than single evaluation.",
+                                                                 "You should be wary of joint evaluation when someone who controls what you see has a vested interest in what you choose.",
+                                                                 "Except for deliberate manipulation, the comparative judgment is presumed more stable than single evaluation.",
+                                                                 "Manipulation of context can make a mid-priced option look like a bargain against a higher-priced neighbor."
+                                                             ],
+                                            "difficulty_level":  "Beginner",
+                                            "theory_summary":  "This audit tests deliberate manipulation of evaluation context: Dario stages which goods appear together so that a joint evaluation makes the mid-priced chair look like a bargain. Kahneman warns that broad comparison is generally good but dangerous when someone who controls what you see has a vested interest in your choice.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "What psychological lever is Dario pulling to steer Leah and Owen toward the $2,900 armchair?",
+                                            "subject_baseline":  "Dario Menendez, 39, has been a furniture salesperson for eleven years and is the store's top seller by commission. He keeps the sales floor meticulously arranged and is known among colleagues for 'curating' which pieces are displayed together.",
+                                            "observed_nonverbal_log":  [
+                                                                           "13:02:11 - Dario positions the $2,900 armchair beside the $7,400 designer sofa, then steps back and studies how the couple's eyes move between them.",
+                                                                           "13:04:33 - When Leah stops in front of the armchair alone, he angles the spotlight to leave it in shadow and lights the sofa instead.",
+                                                                           "13:06:47 - He waits until the couple has seen the price tag of the sofa before he mentions the armchair's price, watching Owen's face as he reads it.",
+                                                                           "13:08:02 - As they hesitate, he drapes a display card over the armchair's price and slides the sofa's card into full view.",
+                                                                           "13:10:24 - When Leah says the armchair 'suddenly seems reasonable,' Dario's posture relaxes and he reaches for the order pad."
+                                                                       ],
+                                            "interrogation_transcript":  [
+                                                                             "Leah: 'We came in looking for one nice reading chair, around two thousand.'",
+                                                                             "Dario: 'Of course. Have a seat in this one. You will not believe the frame on it.'",
+                                                                             "Owen: 'This sofa behind it is beautiful too. Is it much more?'",
+                                                                             "Dario: 'That one is seven-four. But compared to it, this chair is an absolute steal.'",
+                                                                             "Leah: 'It really is, for what you get.'",
+                                                                             "Dario: 'Exactly. And honestly, you will not find this leather in a cheaper range anywhere.'"
+                                                                         ],
+                                            "correct_diagnosis":  "Deliberate manipulation of comparison context: Dario stages the sofa next to the armchair so the joint evaluation anchors on the high price, making the $2,900 chair look like a bargain and shifting the customers' reference point.",
+                                            "diagnostic_breakdown":  "Dario controls which items appear together and which price is visible, engineering a joint evaluation that favors the mid-priced chair. The sequence - spotlighting the sofa, hiding the chair's price, then revealing it after the $7,400 anchor - is exactly the context manipulation Kahneman warns about. The customers' feeling that the chair 'suddenly seems reasonable' is the comparative judgment being steered, which is why the book cautions that broad comparison is valuable only when the person controlling what you see has no vested interest.",
+                                            "distractors":  [
+                                                                "The endowment effect, because the couple has already sat in the chair and now owns it psychologically.",
+                                                                "Loss aversion, because he frames missing the chair as a loss the couple would regret.",
+                                                                "Priming, because the spotlight on the sofa primes the couple's brain toward the color of the chair."
+                                                            ]
+                                        },
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Dual-Process Theory | Heuristics & Statistical Biases",
+                                            "topic":  "Why the Psychologists Won: Anatomy of a Reversal",
+                                            "visual_frame_description":  "A research archive splits into three columns: 'Choice board' where Bet B wins, 'Pricing booth' where Bet A prices higher, and a chalkboard of Econ axioms labeled 'coherence doctrine.' A grainy 1968 interview tape shows a bewildered participant swapping his chosen bet back and forth while a researcher annotates his moves.",
+                                            "player_mission":  "Classify each statement about the bets into the account it supports: joint-evaluation choice, single-evaluation pricing, or the rational-Econ coherence doctrine that the reversal violates.",
+                                            "key_concepts":  [
+                                                                 "Bet B wins the head-to-head choice because joint evaluation makes its safety salient.",
+                                                                 "Bet A gets the higher selling price alone because the price is anchored on the salient $160 prize.",
+                                                                 "The preference reversal occurs because joint evaluation focuses attention on how much less safe Bet A is.",
+                                                                 "The emotional reactions of System 1 are much more likely to determine single evaluation.",
+                                                                 "The comparison that occurs in joint evaluation always involves a more careful and effortful assessment that calls for System 2.",
+                                                                 "Lichtenstein and Slovic reported the reversals; Grether and Plott tried to discredit them and could not.",
+                                                                 "Grether and Plott listed thirteen theories that could explain the findings, including that the experimenters were psychologists.",
+                                                                 "Only one hypothesis was left standing: the psychologists were right, which allows individual choice to depend on context.",
+                                                                 "In a within-subject experiment participants are unaware of the inconsistency and react with bewilderment when confronted with it.",
+                                                                 "The reversal is a violation of the coherence doctrine that standard preference theory relies on."
+                                                             ],
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This scenario maps the anatomy of the Lichtenstein-Slovic reversal: joint evaluation of the bets makes riskiness salient so safety wins, while single evaluation anchors prices on the prize. Kahneman recounts that Grether and Plott's attempt to discredit the finding left only the psychologists' hypothesis standing, confirming that context dependence is real.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+                                                            },
+                                            "question":  "Classify each statement by the account it supports: joint-evaluation choice, single-evaluation pricing, or the Econ coherence doctrine.",
+                                            "column_a_label":  "Joint evaluation / safety salience",
+                                            "column_b_label":  "Single evaluation / anchoring on the prize",
+                                            "column_c_label":  "Econ coherence doctrine",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "Bet B wins the head-to-head choice because joint evaluation makes its safety salient",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Bet A gets the higher selling price alone because the price is anchored on the $160 prize",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "A rational Econ values each bet by expected value and shows no reversal",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "In a within-subject study, participants price both bets and choose between them without noticing the contradiction",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Lichtenstein's 1968 participant chose one bet but paid to swap it for the one he had rejected",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Grether and Plott set out to discredit the psychologists but left only the psychologists' hypothesis standing",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Confronted with both bets, the riskiness of Bet A - not its prize - dominates the choice",
+                                                             "col":  "a"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "b",
+                                            "distractors":  [
+                                                                "The reversal disappears when economists run the experiment themselves.",
+                                                                "Bet A's higher selling price shows that people love risk in their valuations.",
+                                                                "Preference reversals are explained by simple arithmetic mistakes by the participants."
+                                                            ],
+                                            "explanation":  "The first row sorts to a because safety only becomes salient when the bets are compared. The pricing rows (b) capture anchoring on the $160 prize in single evaluation, including the within-subject inconsistency and the 1968 swap. The coherence rows (c) are the Econ doctrine the reversal challenges, including Grether and Plott's failed attempt to discredit it."
+                                        },
+                                        {
+                                            "asset_type":  "BOSS_BATTLE",
+                                            "domain":  "Dual-Process Theory | Heuristics & Statistical Biases",
+                                            "topic":  "The Seven-Thousand-Dollar Fine: Regulatory Incoherence",
+                                            "visual_frame_description":  "Two enforcement desks side by side in a Washington hearing room. On the left, an OSHA badge pins a $7,000 cap on a serious worker-safety violation; on the right, a wildlife officer notes a $25,000 fine ceiling for a Wild Bird Conservation Act violation. A monitor plays stacked penalty lists for each agency, each list internally sensible and the two lists visibly absurd together.",
+                                            "player_mission":  "First diagnose why the penalty system looks absurd only when the two agencies are compared, then design the reform that makes penalties coherent across agencies.",
+                                            "key_concepts":  [
+                                                                 "The fine for a serious violation of worker-safety regulations is capped at $7,000, while a violation of the Wild Bird Conservation Act can be fined up to $25,000.",
+                                                                 "Within categories, penalties seem extremely sensible: more serious harms are punished more severely.",
+                                                                 "For occupational safety violations, the largest penalties are for repeated violations, then willful and serious ones, and least for failures in record-keeping.",
+                                                                 "The size of penalties varies greatly across agencies, reflecting politics and history more than global fairness.",
+                                                                 "The fines are sensible in the context of other penalties set by each agency but appear odd when compared to each other.",
+                                                                 "You can see the absurdity only when the two cases are viewed together in a broad frame.",
+                                                                 "The system of administrative penalties is coherent within agencies but incoherent globally.",
+                                                                 "Joint evaluation is obviously broader than single evaluation and generally serves rationality.",
+                                                                 "Any institution that wishes to elicit thoughtful judgments should provide judges a broad context for individual assessments.",
+                                                                 "The legal system favors single evaluation, contrary to psychological common sense."
+                                                             ],
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This battle tests Sunstein's finding that administrative penalties are coherent within each agency but incoherent globally: each agency sets fines against its own internal category of penalties, so the $7,000 safety fine and the $25,000 bird fine coexist. The book shows the absurdity is visible only in a broad joint frame, which is why broad comparison improves decisions.",
+                                            "credibility":  {
+                                                                "level":  "High",
+                                                                "consensus":  "Broad",
+                                                                "basis":  "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+                                                            },
+                                            "boss_battle_explanation":  "The central concept is incoherence across evaluation contexts: penalties that are perfectly sensible within an agency's own category become absurd when different agencies' scales are compared, because no single global norm binds them.",
+                                            "stage_1_observation":  "You are auditing the federal penalty book. The Occupational Safety and Health Administration caps a serious worker-safety violation at $7,000, while the Wild Bird Conservation Act allows fines up to $25,000. Inside each agency the penalties scale sensibly: repeated violations cost the most, then willful and serious ones, with record-keeping failures cheapest.",
+                                            "stage_1_question":  "Why does the system look absurd when you compare the two agencies?",
+                                            "stage_1_correct_answer":  "Because each agency sets penalties relative to its own internal category of harms, so fines are coherent within agencies but globally incoherent. The absurdity of a bird violation costing more than a serious safety hazard becomes visible only when both scales are viewed together in a broad frame, exactly the joint evaluation the legal system avoids.",
+                                            "stage_2_intervention":  "As a policy adviser, you are asked to fix the incoherence. Which approach produces more stable, thoughtful penalties?",
+                                            "stage_2_correct_answer":  "Force cross-agency joint evaluation: place each agency's severity scale side by side and calibrate fines to a common metric of harm. Broad frames and explicit comparison engage System 2 and produce more stable judgments, which is why institutions that want thoughtful decisions should provide judges with a broad context for individual assessments."
+                                        }
+                                    ]
+                     }
+                 ]
+}

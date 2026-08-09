@@ -1,0 +1,534 @@
+{
+  "spec_file": "spec_kahneman_b01.json",
+  "chapters": [
+    {
+      "id": "ch05",
+      "title": "Introduction",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Two Agents of the Mind: System 1 and System 2",
+          "visual_frame_description": "A split-screen diagram renders the mind as two animated agents. On the left, a blue figure labeled System 1 flickers at lightning speed over a lamp, a telephone, and a car, producing answers before they finish appearing; on the right, a slower amber figure labeled System 2 works through a spreadsheet with a furrowed brow. A progress bar shows the player sorting seven mental events into the two agents. The critical case, knowing there is a lamp on the desk, glows in the center of the screen.",
+          "player_mission": "Sort each mental event into the agent that produces it, then classify the glowing critical case. Correctly mapping all events to System 1 or System 2 reveals how much mental work runs silently beneath awareness.",
+          "key_concepts": [
+            "System 1 produces fast thinking that operates automatically and quickly, while System 2 produces slow, deliberate, and effortful thinking.",
+            "The mental work that produces impressions, intuitions, and many decisions goes on in silence in the mind.",
+            "You cannot trace how you came to the belief that there is a lamp on the desk, nor how you detected irritation in your spouse's voice on the telephone.",
+            "Fast thinking includes expert intuition, heuristic intuition, and the entirely automatic mental activities of perception and memory.",
+            "The intuitive System 1 is more influential than your experience tells you and is the secret author of many of the choices and judgments you make.",
+            "We normally allow ourselves to be guided by impressions and feelings, and the confidence in our intuitive beliefs is usually justified, but not always.",
+            "We are often confident even when we are wrong, and an objective observer is more likely to detect our errors than we are.",
+            "System 2 can perform vital tasks that require effort and self-control when System 1's intuitive solution is not available.",
+            "Most of our judgments and actions are appropriate most of the time, so the focus on error does not denigrate human intelligence.",
+            "The distinction between fast and slow thinking is described by the metaphor of two agents, System 1 and System 2."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the two-agent metaphor of mental life: System 1 silently generates impressions and many decisions without our awareness, while System 2 is the slow, deliberate system. The chapter claims System 1 is more influential than our experience tells us and is the secret author of many of the choices and judgments we make.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sort each mental event by the mind's agent that produces it. Then classify the critical case: how do you know there is a lamp on the desk in front of you?",
+          "column_a_label": "System 1 - fast, automatic, silent",
+          "column_b_label": "System 2 - slow, deliberate, effortful",
+          "column_c_label": "Both - automatic association feeding deliberate reasoning",
+          "rows": [
+            { "label": "Detecting a hint of irritation in your spouse's voice on the telephone", "col": "a" },
+            { "label": "Knowing there is a lamp on the desk in front of you", "col": "a" },
+            { "label": "Avoiding a threat on the road before you become consciously aware of it", "col": "a" },
+            { "label": "Deliberately verifying the arithmetic of a budget spreadsheet line by line", "col": "b" },
+            { "label": "Combining the librarian resemblance intuition with base-rate knowledge to reach a corrected answer", "col": "b" },
+            { "label": "Automatically retrieving the name of the capital of Russia when asked", "col": "a" },
+            { "label": "Switching to slow, effortful thinking when no intuitive answer comes to mind", "col": "b" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "b - you consciously verified the lamp's presence before accepting it",
+            "c - the belief requires deliberate reasoning about the light source",
+            "b - remembering any object's location requires effortful search"
+          ],
+          "explanation": "The text states that most impressions and thoughts arise in conscious experience without our knowing how they got there, and that the mental work producing impressions, intuitions, and many decisions goes on in silence. Knowing there is a lamp on the desk is an automatic perceptual operation of System 1, the fast thinking, exactly like detecting irritation in a spouse's voice or avoiding a road threat before awareness."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Three Sources of Intuitive and Deliberate Judgment",
+          "visual_frame_description": "A training dojo has three doorways labeled Expert Recognition, Heuristic Shortcut, and Deliberate Reasoning. Snapshots float past: a firefighter commander shouting in a burning kitchen, a chess master at a street game, Steve the shy and tidy librarian candidate, a doctor glancing at a patient, and an executive beaming at a car. The player drags each snapshot through the matching doorway.",
+          "player_mission": "Route each judgment snapshot through the correct door. Then identify which source produced the firefighter's sixth sense to unlock the exit and advance the battle.",
+          "key_concepts": [
+            "Expert intuition strikes us as magical but is not; it is best summarized by Herbert Simon: intuition is recognition.",
+            "Valid intuitions develop when experts have learned to recognize familiar elements in a new situation and act in a manner appropriate to it.",
+            "Gary Klein's firefighter commander sensed the fire was unusually quiet and his ears unusually hot, prompting him to shout, 'Let's get out of here!' just before the floor collapsed.",
+            "Skill and heuristics are alternative sources of intuitive judgments and choices.",
+            "The chess master who announces 'White mates in three' without stopping and the physician who diagnoses at a single glance are canonical examples of expert intuition.",
+            "Each of us performs feats of intuitive expertise many times each day, such as detecting anger in the first word of a telephone call.",
+            "The specific heuristics Amos and I studied provide little help in understanding the executive's Ford stock decision, which is better explained by the broader affect heuristic.",
+            "When the question is difficult and a skilled solution is not available, intuition still has a shot by answering an easier question.",
+            "Good intuitive judgments come to mind with the same immediacy as a two-year-old saying 'doggie!' at the sight of a dog.",
+            "The accurate intuitions of experts are better explained by the effects of prolonged practice than by heuristics."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the distinction between two variants of fast thinking: expert intuition, which is recognition built from prolonged practice, and heuristic intuition, which answers an easier question. The book argues that skill and heuristics are alternative sources of intuitive judgment, and that expert intuition is best understood through Herbert Simon's dictum that intuition is recognition.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sort each judgment by its source. Then classify the critical case: why did the firefighter commander shout, 'Let's get out of here!' before he knew why?",
+          "column_a_label": "Expert intuition - recognition built from prolonged practice",
+          "column_b_label": "Heuristic intuition - answering an easier question or using resemblance",
+          "column_c_label": "System 2 deliberation - conscious, effortful analysis",
+          "rows": [
+            { "label": "The commander sensed the unusually quiet fire and unusually hot ears and ordered everyone out", "col": "a" },
+            { "label": "Steve the shy, tidy soul judged more likely a librarian than a farmer", "col": "b" },
+            { "label": "The chess master announcing 'White mates in three' without stopping", "col": "a" },
+            { "label": "The executive who bought Ford stock because he liked the cars", "col": "b" },
+            { "label": "The physician making a complex diagnosis after a single glance at a patient", "col": "a" },
+            { "label": "A researcher computing required sample size from a statistical formula", "col": "c" },
+            { "label": "Detecting anger in the first word of a telephone call", "col": "a" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "b - he answered the easier question of whether he felt afraid",
+            "c - he consciously deduced that the fire must be in the basement",
+            "b - he recalled a similar fire from a news report and matched it"
+          ],
+          "explanation": "The commander's intuition is expert intuition: a situation cue, the quiet fire and the heat on his ears, gave him access to information stored in memory, and the information provided the answer. Herbert Simon's account holds that intuition is nothing more and nothing less than recognition, and valid intuitions develop when experts have learned to recognize familiar elements in a new situation."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Availability Heuristic and the Letter-K Study",
+          "visual_frame_description": "A word-laboratory shows giant alphabet tiles. A voice lists words beginning with K while a counter marks how fast each word comes to mind; a second, slower counter tallies words with K in the third position. News headlines about professors' divorces and politicians flash beside memory bubbles. The player assigns each example to the heuristic driving it.",
+          "player_mission": "Classify each example by the heuristic at work, then diagnose why people overestimate first-position letter frequency. Choosing correctly explains the availability bias behind the letter-K result.",
+          "key_concepts": [
+            "Kahneman and Tversky called reliance on the ease of memory search the availability heuristic.",
+            "People judged the size of categories by the ease with which instances came to mind, as in the question about the divorce rate among professors.",
+            "It is easier to come up with words beginning with a particular letter than to find words with that letter in the third position, for every letter of the alphabet.",
+            "Respondents exaggerated the frequency of letters in the first position, even for letters such as K, L, N, R, and V that in fact occur more frequently in the third position.",
+            "Reliance on a heuristic produces predictable biases, systematic errors, in judgments.",
+            "Kahneman's impression that adultery is more common among politicians than among physicians or lawyers could be due to journalists' choices of topics and to reliance on the availability heuristic.",
+            "People tend to assess the relative importance of issues by the ease with which they are retrieved from memory.",
+            "Frequently mentioned topics populate the mind even as others slip away from awareness.",
+            "Media feeding frenzies are common because public interest is most easily aroused by dramatic events and by celebrities.",
+            "The availability heuristic helps explain why some issues are highly salient in the public's mind while others are neglected."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the availability heuristic: people judge the frequency or importance of a category by the ease with which instances come to mind. The letter-K study shows this reliance on ease of retrieval produces a predictable bias, exaggerating first-position frequency even for letters that actually occur more often in the third position.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sort each example by the heuristic that best explains it. Then classify the critical case: why do people exaggerate the frequency of letters in the first position of words?",
+          "column_a_label": "Availability heuristic - judging frequency by ease of memory search",
+          "column_b_label": "Representativeness heuristic - judging by resemblance to a stereotype",
+          "column_c_label": "Affect heuristic - judging by feelings of liking or disliking",
+          "rows": [
+            { "label": "Estimating the divorce rate among professors from how easily divorced professors come to mind", "col": "a" },
+            { "label": "Believing K appears more often as a first letter when it actually occurs more often in the third position", "col": "a" },
+            { "label": "Judging Steve a librarian because his personality resembles the librarian stereotype", "col": "b" },
+            { "label": "Suspecting adultery is more common among politicians because their transgressions are more likely to be reported", "col": "a" },
+            { "label": "Buying Ford stock because you like the cars the company makes", "col": "c" },
+            { "label": "Assessing the importance of issues by how frequently the media mentions them", "col": "a" },
+            { "label": "Judging a category's size by the ease with which instances come to mind", "col": "a" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "b - words beginning with a letter resemble a mental image of the letter",
+            "c - certain letters feel more pleasant than others",
+            "b - the first-position letter is more representative of typical words"
+          ],
+          "explanation": "The letter-K study is a canonical availability demonstration: it is much easier to come up with words beginning with a letter than words with that letter in the third position, so respondents exaggerated first-position frequency even for letters like K, L, N, R, and V that truly occur more often in the third position. Reliance on the ease of memory search produces a predictable bias."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Halo Effect and Global Impressions",
+          "visual_frame_description": "An awards ceremony: a handsome, confident speaker bounds onto a stage while an audience of judges, including Dr. Priya Nair, nods and smiles. Her scoring tablet glows with high marks and no content notes. Side panels show three suspect mechanisms labeled for sorting.",
+          "player_mission": "Sort each perception by the bias it illustrates, then diagnose the halo effect inflating the speaker's ratings. Correctly naming the mechanism unlocks the label that makes the bias visible.",
+          "key_concepts": [
+            "When a handsome and confident speaker bounds onto the stage, you can anticipate that the audience will judge his comments more favorably than he deserves.",
+            "The availability of a diagnostic label for a bias, such as the halo effect, makes it easier to anticipate, recognize, and understand the error.",
+            "The halo effect is a common bias that plays a large role in shaping our view of people and situations.",
+            "Systematic errors are known as biases, and they recur predictably in particular circumstances.",
+            "A good diagnostician needs a large set of labels that bind an idea of an illness with its symptoms, antecedents, consequences, and interventions.",
+            "A deeper understanding of judgments and choices requires a richer vocabulary than is available in everyday language.",
+            "The expectation of intelligent gossip is a powerful motive for serious self-criticism.",
+            "It is much easier and more enjoyable to identify and label the mistakes of others than to recognize our own.",
+            "When the question is difficult and a skilled solution is not available, intuition still has a shot, but the answer is not an answer to the original question.",
+            "An accurate diagnosis may suggest an intervention to limit the damage that bad judgments and choices often cause."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the halo effect: a single salient, valued attribute of a person colors the overall evaluation of everything else about them. The chapter shows that once a diagnostic label such as the halo effect exists, it becomes easier to anticipate, recognize, and understand the systematic error.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sort each perception by the bias it best illustrates. Then classify the critical case: when a handsome, confident speaker bounds onto the stage, why will the audience judge his comments more favorably than he deserves?",
+          "column_a_label": "Halo effect - a salient trait colors the overall judgment of a person",
+          "column_b_label": "Availability heuristic - frequency or importance judged by ease of recall",
+          "column_c_label": "Substitution - answering an easier, related question instead of the hard one",
+          "rows": [
+            { "label": "Judging the handsome, confident speaker's comments more favorably than he deserves", "col": "a" },
+            { "label": "Liking a politician's voice and appearance because you like his politics", "col": "a" },
+            { "label": "Answering 'do I like Ford cars?' instead of 'is Ford stock underpriced?'", "col": "c" },
+            { "label": "Estimating how common adultery is among politicians from how easily reported cases come to mind", "col": "b" },
+            { "label": "Rating a colleague's entire proposal highly because she is articulate and well-dressed", "col": "a" },
+            { "label": "Assessing a technology's danger from how readily dramatic incidents come to mind", "col": "b" },
+            { "label": "When asked about the risk of a plan, reporting how anxious the idea makes you feel", "col": "c" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "b - his talk was the most recent one the audience heard",
+            "c - the audience answered the easier question of whether they liked his delivery",
+            "b - the audience recalls a similar brilliant speaker from the past"
+          ],
+          "explanation": "The halo effect is the tendency to like, or dislike, everything about a person, including their comments, on the basis of one salient trait. The chapter uses the handsome, confident speaker to show that a diagnostic label like the halo effect makes it easier to anticipate, recognize, and understand a systematic error."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Distinguishing Studies, Theories, and Anecdotes in the Text",
+          "visual_frame_description": "An evidence desk organizes the chapter's claims into three labeled drawers: Documented Study, Theory or Construct, and Personal Anecdote. Files include the mathematical-psychology survey, the letter-K study, prospect theory, the affect heuristic, the Ford investment, and Kahneman's musings about adultery among politicians. The player files each claim.",
+          "player_mission": "File each item into the correct epistemic drawer, then classify the Society of Mathematical Psychology survey. Sorting correctly demonstrates how the chapter distinguishes experimental evidence from theory and personal anecdote.",
+          "key_concepts": [
+            "In 1969 Kahneman invited Amos Tversky to speak to a seminar on intuitive statistics at the Hebrew University of Jerusalem.",
+            "The seminar concluded with a qualified no to the question of whether people are good intuitive statisticians.",
+            "Kahneman and Tversky planned a study of the statistical intuitions of sophisticated researchers after concluding their own intuitions were deficient.",
+            "The survey was collected at a meeting of the Society of Mathematical Psychology, including the authors of two statistical textbooks.",
+            "Expert colleagues greatly exaggerated the likelihood that the original result of an experiment would be successfully replicated even with a small sample.",
+            "The experts also gave very poor advice to a fictitious graduate student about the number of observations she needed to collect.",
+            "Even statisticians were not good intuitive statisticians.",
+            "The findings were published in Science in the article 'Judgment Under Uncertainty: Heuristics and Biases,' which described some 20 biases as manifestations of simplifying shortcuts.",
+            "The article challenged the 1970s assumptions that people are generally rational and that emotions explain departures from rationality.",
+            "The article is one of the most highly cited works in social science, with more than three hundred scholarly articles referring to it in 2010."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the epistemic grounding of the chapter's claims by sorting documented studies from proposed theories and from personal anecdotes. The Society of Mathematical Psychology survey is a documented study showing that even expert statisticians exaggerated the replicability of small-sample results, evidence that intuitive statistics is systematically biased.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sort each item by its epistemic status in the chapter. Then classify the critical case: the survey given to members of the Society of Mathematical Psychology.",
+          "column_a_label": "Documented study - an experiment or survey with reported findings",
+          "column_b_label": "Theory or construct - a proposed explanation or mechanism",
+          "column_c_label": "Personal anecdote or reflection - Kahneman's own experience, not a formal experiment",
+          "rows": [
+            { "label": "The survey of expert researchers that found they exaggerated replication likelihood with small samples", "col": "a" },
+            { "label": "The letter-K study of first- and third-position frequencies in English text", "col": "a" },
+            { "label": "The Steve problem, in which participants ignored base rates and relied on resemblance", "col": "a" },
+            { "label": "Prospect theory, the 1979 model of choice under risk", "col": "b" },
+            { "label": "The affect heuristic, in which judgments are guided by feelings of liking and disliking", "col": "b" },
+            { "label": "The chief investment officer's investment of tens of millions in Ford Motor Company stock", "col": "c" },
+            { "label": "Kahneman's doubt that adultery is more common among politicians than physicians or lawyers", "col": "c" }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "b - the replication claim was only a theory the authors proposed",
+            "c - it was a casual conversation among colleagues rather than data collection",
+            "b - the result illustrated the halo effect, which is a theory"
+          ],
+          "explanation": "The survey was a documented study: Amos collected responses from expert participants at a meeting of the Society of Mathematical Psychology, including the authors of two statistical textbooks, and found that they greatly exaggerated the likelihood that the original result of an experiment would be successfully replicated even with a small sample, and gave poor advice about the number of observations a fictitious graduate student needed."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Investment Officer and the Affect Heuristic",
+          "visual_frame_description": "A conference-room interrogation plays as a recording: Chief Investment Officer Marcus Reid leans back, smiling, recounting an automobile show, then hesitates and fidgets when an auditor asks about valuation. A timestamped behavioral log and transcript scroll beside the video feed.",
+          "player_mission": "Audit Marcus's decision file, weigh the nonverbal log and transcript against his methodical baseline, and diagnose the cognitive mechanism behind his ten-million-dollar Ford investment.",
+          "key_concepts": [
+            "The executive's decision to invest in Ford would today be described as an example of the affect heuristic, where judgments and decisions are guided directly by feelings of liking and disliking, with little deliberation or reasoning.",
+            "The question the executive faced, should I invest in Ford stock, was difficult, but the answer to an easier and related question, do I like Ford cars, came readily to his mind and determined his choice.",
+            "This is the essence of intuitive heuristics: when faced with a difficult question, we often answer an easier one instead, usually without noticing the substitution.",
+            "The executive made it very clear that he trusted his gut feeling and was satisfied with himself and with his decision.",
+            "The executive apparently never considered the question an economist would call relevant: whether Ford stock was currently underpriced.",
+            "From what is known about the accuracy of stock picking, it is reasonable to believe the executive did not know what he was doing.",
+            "An important advance is that emotion now looms much larger in our understanding of intuitive judgments and choices than it did in the past.",
+            "The specific heuristics Amos and I studied provide little help in understanding the executive's decision, but a broader conception of heuristics offers a good account.",
+            "When the individual has relevant expertise, she will recognize the situation and the intuitive solution that comes to mind is likely to be correct.",
+            "An accurate diagnosis may suggest an intervention to limit the damage that bad judgments and choices often cause."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the affect heuristic and substitution: judgments and choices guided directly by feelings of liking, where a difficult target question is replaced by an easier related one. The chapter's Ford Motor example shows the executive answering 'do I like Ford cars?' in place of 'is Ford underpriced?' without noticing the substitution.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Diagnose the cognitive mechanism driving Chief Investment Officer Marcus Reid's ten-million-dollar decision to buy Ford stock.",
+          "subject_baseline": "Marcus is the methodical chief investment officer of a large financial firm, known for rigorous discounted-cash-flow modeling and multi-week due diligence before committing capital. Colleagues describe him as numbers-driven and rarely impulsive.",
+          "observed_nonverbal_log": [
+            "09:02 - Marcus leans back, relaxed, smiling broadly while recounting a recent automobile show.",
+            "09:04 - Gestures expand and his voice warms as he praises the cars; no notes or spreadsheets are in view.",
+            "09:06 - Asked about valuation metrics, he hesitates, gazes upward, and fidgets with his pen.",
+            "09:07 - Answers about the stock in short, vague sentences and speeds up his speech.",
+            "09:08 - Becomes mildly defensive and waves a hand when pressed on whether the stock is underpriced."
+          ],
+          "interrogation_transcript": [
+            "Marcus: I recently attended an automobile show and I was impressed. Boy, do they know how to make a car!",
+            "Auditor: Did you consider whether Ford stock is currently underpriced?",
+            "Marcus: I like the cars. I like the company. I like the idea of owning the stock. It felt right.",
+            "Auditor: Is that how you normally evaluate a position of this size?",
+            "Marcus: I trust my gut feeling. It has served me well."
+          ],
+          "correct_diagnosis": "The affect heuristic with substitution: Marcus's judgment was guided directly by feelings of liking for the cars and the company, with little deliberation, and he answered the easier question 'do I like Ford cars?' in place of the difficult target question 'is Ford stock underpriced?'",
+          "diagnostic_breakdown": "The warmth, broad gestures, and smile appear only when discussing the cars, evidence of affect, while the valuation question triggers hesitation, an upward gaze, and vague hurried answers, evidence of no actual financial analysis. His own words, 'I like the cars. I like the company. I like the idea of owning the stock,' are a textbook substitution, and this behavior deviates sharply from his numbers-driven baseline. The book states such a decision would today be described as an example of the affect heuristic.",
+          "distractors": [
+            "Anchoring effect: Marcus anchored his valuation on the automobile show's sticker prices.",
+            "Availability heuristic: Marcus over-weighted a recent news story about Ford's recovery.",
+            "Base-rate neglect: Marcus ignored the typical failure rate of auto-industry stocks."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Awards Panel and the Halo Effect",
+          "visual_frame_description": "An awards panel room: Dr. Priya Nair scores keynote speakers while her own behavioral log runs alongside, showing nods and smiles for the charismatic presenter and a still pen and furrowed brow for the quieter one. The transcript shows her citing delivery when asked about methodology.",
+          "player_mission": "Review the scored rubrics, the nonverbal log, and the interrogation transcript, then render the diagnosis for Priya's inconsistent evaluations of the two keynote speakers.",
+          "key_concepts": [
+            "When the handsome and confident speaker bounds onto the stage, you can anticipate that the audience will judge his comments more favorably than he deserves.",
+            "The availability of a diagnostic label for this bias, the halo effect, makes it easier to anticipate, recognize, and understand it.",
+            "Systematic errors are known as biases, and they recur predictably in particular circumstances.",
+            "The halo effect is one of the ways the representation of the world that System 1 generates is simplified and made coherent.",
+            "We are often confident even when we are wrong, and an objective observer is more likely to detect our errors than we are.",
+            "A deeper understanding of judgments and choices requires a richer vocabulary than is available in everyday language.",
+            "The expectation of intelligent gossip is a powerful motive for serious self-criticism.",
+            "An accurate diagnosis may suggest an intervention to limit the damage that bad judgments and choices often cause.",
+            "Most impressions and thoughts arise in conscious experience without our knowing how they got there.",
+            "It is easier, and far more enjoyable, to identify and label the mistakes of others than to recognize our own."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the halo effect: a single salient positive trait inflates the overall evaluation of a person's work. The chapter predicts an audience will judge a handsome, confident speaker's comments more favorably than he deserves, and shows that a diagnostic label makes the bias easier to anticipate and recognize.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Diagnose the bias affecting Dr. Priya Nair's scoring of the two keynote speakers on the research awards panel.",
+          "subject_baseline": "Priya is a rigorous peer reviewer who normally scores presentations against a detailed rubric, takes methodical content notes, and is known for separating style from substance in grant panels.",
+          "observed_nonverbal_log": [
+            "09:15 - During the keynote by a tall, confident, impeccably dressed speaker, Priya's gaze stays fixed on him and she nods frequently.",
+            "09:18 - She circles high marks on the rubric without writing any content notes.",
+            "09:22 - She smiles and leans forward with open posture.",
+            "09:35 - A quieter, disheveled speaker covers similar technical depth; her pen stays still, her brow furrows, and she checks her phone."
+          ],
+          "interrogation_transcript": [
+            "Colleague: What did you think of the keynote?",
+            "Priya: He was fantastic. Brilliant. Really impressive work.",
+            "Colleague: Anything specific about the methodology?",
+            "Priya: The delivery was just so compelling. You can tell he knows his stuff.",
+            "Colleague: How did the second talk compare?",
+            "Priya: Harder to follow. I wasn't really engaged."
+          ],
+          "correct_diagnosis": "The halo effect: one salient positive attribute, the speaker's handsome, confident, well-dressed presentation, colored Priya's overall evaluation of the technical content, causing her to judge his work more favorably than the evidence warranted.",
+          "diagnostic_breakdown": "Priya's baseline is rubric-based scoring with content notes, yet she circled high marks while taking none, and her nonverbal affiliation, nodding, smiling, and open posture, was reserved for the attractive presenter. When pressed for specifics she cites delivery rather than methodology, and she rated the equal-depth but less polished talk lower. This matches the chapter's prediction that a handsome, confident speaker will be judged more favorably than he deserves.",
+          "distractors": [
+            "Anchoring effect: Priya anchored her score on the first speaker and could not adjust.",
+            "Availability heuristic: she recalled a famous researcher's earlier work and generalized.",
+            "Confirmation bias: she had already decided the speaker was good before the talk began."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Newsroom Salience and the Availability Heuristic",
+          "visual_frame_description": "A modern newsroom at 11:30 a.m.: editor-in-chief Yara Okonkwo's desk shows a celebrity death dominating the layout while a reporter gestures at declining-literacy charts. A behavioral log timestamps Yara's widening eyes, dismissive wave, and reallocated reporters.",
+          "player_mission": "Audit the editorial decision, connect the observed cues and transcript to the mechanism behind the coverage priorities, and deliver the correct diagnosis for why the literacy story was buried.",
+          "key_concepts": [
+            "People tend to assess the relative importance of issues by the ease with which they are retrieved from memory.",
+            "Salience is largely determined by the extent of coverage in the media; frequently mentioned topics populate the mind even as others slip away from awareness.",
+            "What the media choose to report corresponds to their view of what is currently on the public's mind.",
+            "Public interest is most easily aroused by dramatic events and by celebrities, so media feeding frenzies are common.",
+            "For several weeks after Michael Jackson's death, it was virtually impossible to find a television channel reporting on another topic.",
+            "There is little coverage of critical but unexciting issues that provide less drama, such as declining educational standards.",
+            "It is no accident that authoritarian regimes exert substantial pressure on independent media.",
+            "The availability heuristic helps explain why some issues are highly salient in the public's mind while others are neglected.",
+            "Kahneman noticed that his own choice of 'little-covered' examples was guided by availability.",
+            "Students of policy have noted that the availability heuristic helps explain which issues become salient in public attention."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the availability heuristic as it operates on public and editorial attention: issues are judged important by the ease with which they are retrieved, which is largely driven by media coverage. The chapter shows this produces media feeding frenzies around dramatic events while critical but unexciting issues are neglected.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Diagnose why editor-in-chief Yara Okonkwo's newsroom is burying a decade-long literacy story to lead with a celebrity death.",
+          "subject_baseline": "Yara is an experienced editor who publicly champions coverage of what matters, holds weekly data reviews, and has built a reputation for careful, deliberative editorial judgment rather than chasing ratings.",
+          "observed_nonverbal_log": [
+            "11:30 - At the pitch meeting, when a producer mentions a celebrity death, Yara's eyes widen, she leans forward, and starts typing immediately.",
+            "11:33 - A reporter pitches declining reading scores; Yara makes a dismissive hand wave and briefly rolls her eyes.",
+            "11:35 - She interrupts the data discussion to sketch a front-page layout of the celebrity story.",
+            "11:40 - She tells the team to move everything and allocates three reporters to the celebrity coverage."
+          ],
+          "interrogation_transcript": [
+            "Reporter: The literacy data shows a decade-long decline. That is arguably the bigger story.",
+            "Yara: Nobody is going to read that. The audience cares about this right now.",
+            "Reporter: Is that a reporting decision or a viewership decision?",
+            "Yara: The public's mind is on this. We cover what is on the public's mind.",
+            "Reporter: Should we at least hold space for the education analysis?",
+            "Yara: Not this week. This is what everyone is talking about."
+          ],
+          "correct_diagnosis": "The availability heuristic: Yara judged the importance and newsworthiness of stories by the ease with which they come to mind and by media salience, so the dramatic, heavily covered celebrity event crowded out the critical but unexciting education story, an availability-driven media feeding frenzy.",
+          "diagnostic_breakdown": "Her baseline is data-driven editorial review, yet the celebrity mention triggered immediate attention and resources while the statistics-backed education story was dismissed with a wave and an eye roll. Her rationale, 'we cover what is on the public's mind,' inverts the mechanism: the text notes people assess issue importance by retrieval ease, which is largely determined by media coverage, so coverage itself makes topics salient while critical but unexciting issues are neglected.",
+          "distractors": [
+            "Affect heuristic: Yara personally dislikes education reporting and dislikes the reporter.",
+            "Halo effect: Yara overrated the celebrity story because the producer is charismatic.",
+            "Representativeness: Yara judged the literacy story not to resemble typical front-page news."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Intuitive Statistics and the Advice to a Graduate Student",
+          "visual_frame_description": "A professor's office: Dr. Alan Whitfield waves a hand dismissively at a graduate student's sample-size question while a ticking log records his fast, confident answers and watch-checking. Pilot data from 12 participants sits on the desk between them.",
+          "player_mission": "Review the meeting log and transcript, compare Alan's behavior to his rigorous baseline, and diagnose the statistical intuition error in his replication advice to the graduate student.",
+          "key_concepts": [
+            "Kahneman and Tversky planned a study of the statistical intuitions of sophisticated researchers after concluding their own intuitions were deficient.",
+            "In spite of years of teaching and using statistics, they had not developed an intuitive sense of the reliability of statistical results observed in small samples.",
+            "Expert colleagues at the Society of Mathematical Psychology greatly exaggerated the likelihood that the original result of an experiment would be successfully replicated even with a small sample.",
+            "The experts also gave very poor advice to a fictitious graduate student about the number of observations she needed to collect.",
+            "Even statisticians were not good intuitive statisticians.",
+            "The early research concluded that people are good intuitive grammarians but that a qualified no was the better answer to whether they are good intuitive statisticians.",
+            "We are far too willing to believe research findings based on inadequate evidence and prone to collect too few observations in our own research.",
+            "Statistics requires thinking about many things at once, which System 1 is not designed to do.",
+            "People easily think associatively, metaphorically, and causally, but statistical thinking is difficult for System 1.",
+            "Reliance on a heuristic causes predictable biases, systematic errors, in predictions."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the bias of intuitive statistics, sometimes called the law of small numbers: overconfidence in the reliability of results from small samples. The book documents that even expert statisticians exaggerated the likelihood of replication with small samples and gave poor advice about sample size.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Diagnose the cognitive error in Dr. Alan Whitfield's advice about how many participants his graduate student needs for the real study.",
+          "subject_baseline": "Alan is a senior psychology professor who teaches a graduate statistics course and has published dozens of studies; he is normally rigorous about experimental design and routinely advises colleagues on power analyses.",
+          "observed_nonverbal_log": [
+            "14:00 - Alan flips quickly through the student's pilot data, nodding firmly within seconds.",
+            "14:03 - When the student asks about sample size, he waves a hand dismissively.",
+            "14:06 - Pressed about replication, his answers become faster and vaguer and he checks his watch.",
+            "14:07 - He gives a reassuring pat on the desk and declares the effect real."
+          ],
+          "interrogation_transcript": [
+            "Student: The pilot worked on 12 participants. How many do I need for the real study?",
+            "Alan: Twelve worked. The effect is real. Just run it again with the same number.",
+            "Student: Shouldn't I compute power or account for variance?",
+            "Alan: Trust me. If the effect showed up once, it will show up again.",
+            "Student: What if it was just noise?",
+            "Alan: You saw it with your own data. That is not noise."
+          ],
+          "correct_diagnosis": "Bias of intuitive statistics, the tendency the book treats as the law of small numbers: Alan treats a single small-sample result as diagnostic of a reliable effect, overestimates the likelihood of replication, and fails to consider that the result could be sampling noise, the very pattern the book documents in even expert statisticians.",
+          "diagnostic_breakdown": "Alan's baseline is methodical power analysis, yet here he rendered judgment within seconds, dismissed the sample-size question with a hand wave, and grew vaguer under pressure. His claim that a 12-person pilot guarantees replication mirrors the survey in which expert researchers, including textbook authors, greatly exaggerated the likelihood that an original result would replicate with a small sample and gave poor advice about the number of observations a fictitious graduate student needed.",
+          "distractors": [
+            "Anchoring effect: Alan anchored on the number 12 and refused to adjust upward.",
+            "Availability heuristic: Alan recalled a successful replication from his own lab.",
+            "Halo effect: Alan overrated the student and therefore the student's pilot data."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Silent Mind and the Two Systems",
+          "visual_frame_description": "A frozen freeway scene inside a car: Ravi's hands are already on the corrected wheel and his foot on the brake, while his conscious attention is still on lunch plans with colleagues. A narrator prompt asks which mind agent acted. In stage two, the passenger asks how he did it so fast.",
+          "player_mission": "Identify which system produced Ravi's swerve, then intervene correctly when he offers a confident but reconstructed account of his decision.",
+          "key_concepts": [
+            "The mental work that produces impressions, intuitions, and many decisions goes on in silence in our mind.",
+            "You cannot trace how you came to the belief that there is a lamp on the desk, or how you managed to avoid a threat on the road before you became consciously aware of it.",
+            "Fast thinking includes expert and heuristic intuition as well as entirely automatic mental activities of perception and memory.",
+            "System 1 is the intuitive system that produces fast thinking; System 2 is the deliberate system that produces slow thinking.",
+            "The intuitive System 1 is more influential than your experience tells you and is the secret author of many of the choices and judgments you make.",
+            "We are often confident even when we are wrong, and an objective observer is more likely to detect our errors than we are.",
+            "Most of us are pitch-perfect in detecting anger in the first word of a telephone call and react quickly to subtle signs that a driver in the next lane is dangerous.",
+            "When the spontaneous search for an intuitive solution fails, we often switch to slower, more deliberate, effortful thinking.",
+            "When we think of ourselves, we identify with System 2, the conscious, reasoning self that believes it is in charge.",
+            "An accurate diagnosis of a bias may suggest an intervention to limit the damage that bad judgments and choices often cause."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the silence of the mind and the two-agent metaphor: System 1 produces fast, automatic responses without our awareness, while the conscious System 2 confidently narrates after the fact. The chapter claims System 1 is the secret author of many choices and that we are often confident even when wrong.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The central concept is that mental work producing impressions, intuitions, and many decisions goes on in silence: System 1 generates fast, automatic outputs while System 2, the deliberate self, believes it is in charge and confidently narrates reasons that are often reconstructions. The player must learn to attribute mental events to the right system and distrust confident introspection.",
+          "stage_1_observation": "Ravi is driving his colleagues to lunch on a busy freeway when a car cuts sharply into his lane. The scene freezes mid-action: Ravi's hands have already corrected the wheel and his foot has hit the brake, but his conscious attention is still on the conversation about the restaurant.",
+          "stage_1_question": "Which system of the mind produced Ravi's evasive driving maneuver, and why can he not recall deciding to make it?",
+          "stage_1_correct_answer": "System 1 produced the maneuver: the text says we manage to avoid a threat on the road before we become consciously aware of it, and the mental work that produces impressions, intuitions, and many decisions goes on in silence in our mind.",
+          "stage_2_intervention": "The battle escalates: in the passenger seat, Ravi's colleague asks, 'How did you do that so fast?' Ravi replies with a confident, elaborate account of how he weighed the options and decided to brake. Choose the best intervention: (a) praise his rapid decision-making as a conscious choice, (b) gently note that his account is likely a confident reconstruction of System 1's silent work and that confidence does not prove the account is accurate, or (c) insist his System 2 must have made the decision because he can describe it.",
+          "stage_2_correct_answer": "(b) - the book states we cannot trace how most impressions and reactions arose, that we are often confident even when we are wrong, and that System 1 is the secret author of many choices; Ravi's story is a post-hoc reconstruction by the conscious self."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Catching the Substitution of an Easier Question",
+          "visual_frame_description": "A boardroom freeze: Chief Financial Officer David's 'Route Feasibility' slide shows only sun-drenched destination photos and a survey about liking the destination, while CEO Linda Harmon reaches for approval. The player must spot the substitution and redirect the room to the real analysis.",
+          "player_mission": "Detect which question David actually answered, then choose the intervention that forces the team back to the target question about whether the route will be profitable.",
+          "key_concepts": [
+            "When faced with a difficult question, we often answer an easier one instead, usually without noticing the substitution.",
+            "This is the essence of intuitive heuristics: an answer may come to mind quickly, but it is not an answer to the original question.",
+            "The executive faced the difficult question of whether to invest in Ford stock, but the answer to the easier question of whether he liked Ford cars came readily to mind and determined his choice.",
+            "When the individual has relevant expertise, she will recognize the situation and the intuitive solution that comes to mind is likely to be correct.",
+            "When the question is difficult and a skilled solution is not available, intuition still has a shot by answering an easier question.",
+            "The affect heuristic is a case in which judgments and decisions are guided directly by feelings of liking and disliking, with little deliberation or reasoning.",
+            "The specific heuristics studied early provide little help with the executive's decision, but a broader conception of heuristics offers a good account.",
+            "An accurate diagnosis may suggest an intervention to limit the damage that bad judgments and choices often cause.",
+            "The expectation of intelligent gossip is a powerful motive for serious self-criticism.",
+            "A deeper understanding of judgments and choices requires a richer vocabulary than is available in everyday language."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests substitution, the essence of intuitive heuristics: a difficult target question is silently replaced by an easier one. The chapter's Ford example shows an executive answering 'do I like Ford cars?' in place of 'is Ford underpriced?', and this battle asks the player to catch and correct that substitution in a business decision.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The essence of intuitive heuristics: when faced with a difficult question, we often answer an easier one instead, usually without noticing the substitution. This battle tests whether the player can spot a substitution in a business decision and force a return to the hard, target question.",
+          "stage_1_observation": "In a modern boardroom, CEO Linda Harmon asks the team whether to launch a new airline route between Pittsburgh and Lisbon. Chief Financial Officer David projects a single slide titled 'Route Feasibility' showing sun-drenched photos of the destination and a survey result that 92% of the panel love the idea of this destination. The rest of the deck is empty. The scene freezes with David pointing proudly at the slide.",
+          "stage_1_question": "What did David actually evaluate in place of the difficult target question of whether the route will be profitable?",
+          "stage_1_correct_answer": "He substituted an easier question, 'do people like this destination?', for the target question 'will this route be profitable?', answering the related easy question without noticing the substitution, just as the executive answered 'do I like Ford cars?' instead of 'is Ford underpriced?'",
+          "stage_2_intervention": "Linda, persuaded by the slide, is about to approve the launch. Choose the most effective move: (a) cheerfully second the motion so the meeting stays positive, (b) ask David to walk the team through the target analysis, forecast revenues, operating costs, load factors, and base demand, before any approval, explicitly naming the substitution that occurred, or (c) tell the team to trust their gut because they are experienced executives.",
+          "stage_2_correct_answer": "(b) - redirecting the room to the target question and naming the substitution forces System 2 deliberation on the hard analysis; the book's aim is exactly to enrich the vocabulary of judgment so that errors like substitution can be recognized and their damage limited."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Availability and Public Risk Perception",
+          "visual_frame_description": "A crowded coastal town hall: council member Nia points at dramatic shark-attack headlines while a quiet statistics table showing far higher drowning counts sits untouched on the projector. An outraged resident demands the beach be closed.",
+          "player_mission": "Identify the mechanism inflating the perceived danger, then pick the intervention that brings actual base-rate evidence into the decision.",
+          "key_concepts": [
+            "People tend to assess the relative importance of issues by the ease with which they are retrieved from memory.",
+            "The availability heuristic is reliance on the ease of memory search to judge the size of categories.",
+            "Respondents exaggerated the frequency of letters in the first position even for letters like K, L, N, R, and V that truly occur more often in the third position.",
+            "Reliance on a heuristic produces predictable biases in judgment.",
+            "Public interest is most easily aroused by dramatic events and by celebrities, so media feeding frenzies are common.",
+            "What the media choose to report corresponds to their view of what is currently on the public's mind.",
+            "There is little coverage of critical but unexciting issues that provide less drama.",
+            "Students of policy have noted that the availability heuristic helps explain which issues are salient and which are neglected.",
+            "Frequently mentioned topics populate the mind even as others slip away from awareness.",
+            "We are often confident even when we are wrong, and an objective observer is more likely to detect our errors than we are."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the availability heuristic in risk perception: dramatic, easily retrieved events inflate judged frequency and importance. The chapter shows availability drives public salience and media feeding frenzies, so the corrective is to consult actual base-rate statistics rather than the ease with which cases come to mind.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The availability heuristic causes people to judge the frequency and importance of events by the ease with which instances come to mind, which is driven by drama and media coverage. The battle tests whether the player can recognize availability-driven risk perception and counteract it with actual base-rate statistics.",
+          "stage_1_observation": "A coastal town hall is packed. Council member Nia proposes redirecting the entire public-safety budget to shark-mitigation measures because everyone is talking about the attacks. On the projector, three dramatic news headlines about recent shark encounters sit beside a quiet table showing years of data in which drownings outnumber shark encounters by a wide margin. The scene freezes as Nia gestures at the headlines.",
+          "stage_1_question": "What cognitive mechanism is driving the council's and the public's perception of how dangerous the water is?",
+          "stage_1_correct_answer": "The availability heuristic: dramatic, heavily covered attacks come to mind easily, so people overestimate their frequency and importance, just as the letter-K study showed that easy retrieval of first-letter words exaggerates their perceived frequency even when the truth favors the third position.",
+          "stage_2_intervention": "An outraged resident stands up and demands the beach be closed indefinitely. Choose the best intervention: (a) agree with the resident and close the beach to show responsiveness, (b) invite the group to compare the actual statistics, drowning counts against shark-attack counts, and use the base-rate evidence to set risk priorities while acknowledging the fear, or (c) declare the resident irrational and adjourn the meeting.",
+          "stage_2_correct_answer": "(b) - replacing ease of retrieval with actual evidence shifts the judgment to the statistics; the text notes availability produces predictable biases and that people assess importance by retrieval ease, so the remedy is to consult the true frequencies and to recognize that dramatic events drive salience while unexciting critical issues are neglected."
+        }
+      ]
+    }
+  ]
+}

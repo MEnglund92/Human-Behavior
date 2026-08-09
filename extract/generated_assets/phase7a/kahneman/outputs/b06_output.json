@@ -1,0 +1,631 @@
+{
+  "spec_file": "spec_kahneman_b06.json",
+  "chapters": [
+    {
+      "id": "ch14",
+      "title": "9. Answering an Easier Question",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Substitution in Charitable Giving Decisions",
+          "visual_frame_description": "Nina, a sustainability officer, watches a board member, Ray, fill out a pledge form for a wildlife campaign. On the left of the screen the target question is printed in bold: \"How much should the firm contribute to save an endangered species?\" On the right, a thought bubble shows Ray's face flicker with emotion as images of dying dolphins play, while a slider labeled \"dollars pledged\" moves under his hand.",
+          "player_mission": "Identify which substituted question Ray actually answers and sort each scenario into the correct component of the substitution mechanism: target question, heuristic question, or intensity matching. Assign every row to the column it illustrates before Ray finalizes the pledge.",
+          "key_concepts": [
+            "Substitution occurs when System 1 cannot quickly answer a hard target question, so it answers a related, easier heuristic question instead.",
+            "The target question is the assessment the person intends to produce, while the heuristic question is the simpler one actually answered.",
+            "The mental shotgun means System 1 computes more than the task intends, automatically generating related assessments without being asked.",
+            "Intensity matching maps the strength of a feeling onto another scale, such as converting felt concern into a dollar contribution.",
+            "In the book's table, \"How much would you contribute to save an endangered species?\" is paired with the heuristic \"How much emotion do I feel when I think of dying dolphins?\"",
+            "The heuristic answer must be fitted to the original question, and intensity matching supplies the mapping between the two scales.",
+            "Pólya's heuristics are deliberate System 2 strategies, but the heuristics in this chapter arise automatically from the mental shotgun.",
+            "A lazy System 2 often endorses the heuristic answer without much scrutiny of whether it truly answers the target question.",
+            "People can be influenced by the answer to a question they were not asked while remaining unaware that they substituted.",
+            "Substituting one question for another is a general account of how people generate intuitive opinions on complex matters."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests substitution: when System 1 cannot solve a hard target question, it answers an easier heuristic question and maps the answer onto the original scale via intensity matching. Kahneman reports that the heuristic questions paired with difficult targets are very likely to be evoked and easily answered, and a lazy System 2 typically endorses the substitute.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Ray is asked how much his firm should contribute to save an endangered species. According to the substitution account, which substituted question does he most likely answer instead?",
+          "column_a_label": "Target question (the intended assessment)",
+          "column_b_label": "Heuristic question (the easier substitute)",
+          "column_c_label": "Intensity matching (mapping feeling onto the target scale)",
+          "rows": [
+            {
+              "label": "How much emotion do I feel when I think of dying dolphins?",
+              "col": "b"
+            },
+            {
+              "label": "How much should the firm contribute to save an endangered species?",
+              "col": "a"
+            },
+            {
+              "label": "Converting a level of concern for seabirds into a dollar pledge amount",
+              "col": "c"
+            },
+            {
+              "label": "Using how popular the president is right now to answer how popular he will be in six months",
+              "col": "b"
+            },
+            {
+              "label": "Answering \"How much anger do I feel thinking of financial predators who prey on the elderly?\" in place of a sentence recommendation",
+              "col": "b"
+            },
+            {
+              "label": "Feeling that a candidate looks like a winner and concluding she will go far in the primary",
+              "col": "b"
+            },
+            {
+              "label": "Translating how impressed Ray is by a presentation into a budget number for next quarter",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Ray runs a full cost-benefit analysis, weighing every alternative before pledging",
+            "Ray waits to pledge until his colleagues reach a consensus on the donation amount",
+            "Ray refuses to give any amount until he receives complete data on the species' population"
+          ],
+          "explanation": "Ray cannot answer the difficult target question about contribution size, so System 1 answers the readymade heuristic question of how much emotion the dolphins arouse, and intensity matching converts that feeling into dollars. Rows describing an intended assessment, an easier substitute, or a cross-scale mapping sort into the three components, while the distractors describe effortful or social reasoning the substitution account does not rely on."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Affect Heuristic, Mood Heuristic, and WYSIATI Compared",
+          "visual_frame_description": "Three panels hang on one wall. Panel one shows a voter, Dana, nodding at a health-policy poster she likes, with a risk-o-meter set to low risk and a benefit bar set to high. Panel two shows two student survey forms: one asks \"How many dates did you have last month?\" directly above \"How happy are you these days?\" Panel three shows a lone eye hovering over a newspaper headline with the letters WYSIATI and blank space where missing evidence would be.",
+          "player_mission": "Decide which mechanism each scenario illustrates by assigning every row to the affect heuristic, the mood heuristic for happiness, or WYSIATI. Then identify which mechanism best explains a voter's risk beliefs.",
+          "key_concepts": [
+            "The affect heuristic, proposed by Paul Slovic, lets people's likes and dislikes determine their beliefs about the world.",
+            "If you like the current health policy, you believe its benefits are substantial and its costs more manageable than those of alternatives.",
+            "A person who dislikes a technology such as nuclear power tends to believe its risks are high and its benefits negligible.",
+            "In the German student survey, asking about dates before happiness made reported happiness strongly correlate with dating, although the two were unrelated when happiness was asked first.",
+            "The mood heuristic substitutes the present emotional state for an assessment of global life satisfaction.",
+            "WYSIATI (what you see is all there is) means System 1 focuses on existing evidence and ignores absent evidence.",
+            "Any emotionally significant question that alters a person's mood will affect happiness reports; the present state of mind looms very large.",
+            "In the context of attitudes, System 2 acts more as an apologist for the emotions of System 1 than as a critic.",
+            "System 2's search for information is mostly constrained to information consistent with existing beliefs.",
+            "The dominance of conclusions over arguments is most pronounced where emotions are involved."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario contrasts three System 1 shortcuts: Slovic's affect heuristic, in which liking drives beliefs about benefits and risks; the mood heuristic, in which the present emotional state is substituted for global happiness; and WYSIATI, the focus on available evidence. Kahneman reports that in the German student survey the correlation between dating and happiness jumped to near its maximum only when the dating question came first.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Dana likes a new health policy. Without seeing any data on its costs, she concludes it is low-risk and high-benefit. Which mechanism best explains her beliefs?",
+          "column_a_label": "Affect heuristic (likes and dislikes drive beliefs)",
+          "column_b_label": "Mood heuristic for happiness (present state stands in for a global assessment)",
+          "column_c_label": "WYSIATI (existing evidence in, absent evidence ignored)",
+          "rows": [
+            {
+              "label": "A dove in foreign policy believes other nations are strong and will not be easily coerced",
+              "col": "a"
+            },
+            {
+              "label": "A student who just reported many dates rates general life happiness as high",
+              "col": "b"
+            },
+            {
+              "label": "A person who dislikes irradiated food believes its risks are high and benefits negligible",
+              "col": "a"
+            },
+            {
+              "label": "A student who just reported no dates rates general happiness low because loneliness is on her mind",
+              "col": "b"
+            },
+            {
+              "label": "Judging a candidate's fitness from a confident face without seeking a voting record",
+              "col": "c"
+            },
+            {
+              "label": "Believing the message of a poll while ignoring the sample size printed beneath it",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Dana is deliberately concealing her true opinion to please her party",
+            "Dana is judging her own life satisfaction by her current mood",
+            "Dana can only use the information in front of her and cannot imagine what is missing"
+          ],
+          "explanation": "Dana's conclusion flows from her liking of the policy, the defining move of the affect heuristic; the book notes that information about lower risks would also improve her view of benefits. Rows about dating-primed happiness illustrate the mood heuristic, rows about judging from available cues illustrate WYSIATI, and the distractors describe deception, global mood, or pure availability that the scenario does not show."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The 3-D Size Illusion in a Packaging Review",
+          "visual_frame_description": "An auditor's desk is stacked with printed carton mockups. Priya, a senior packaging designer at Meridian Foods, points at a new label where two identical cartoon figures stand in a perspective corridor, while a ruler lies on the desk. A timestamped video log of the review meeting plays in a corner window.",
+          "player_mission": "Audit whether Priya's claim that the right-hand figure is larger is a deliberate deception, a misunderstanding, or an automatic perceptual illusion. Compare her baseline behavior against the observed nonverbal log and the interrogation transcript, then issue the correct diagnosis.",
+          "key_concepts": [
+            "In the 3-D figure, the man on the right looks larger although both figures are exactly the same size.",
+            "The perspective corridor automatically triggers a three-dimensional interpretation of the flat picture.",
+            "In the 3-D interpretation the person on the right appears both farther away and larger, so the impression of 3-D size dictates the judgment of 2-D size.",
+            "The substitution is a true perceptual illusion, not a misunderstanding of the question being asked.",
+            "When asked to estimate the size of the figures, experimental participants answer in inches, not feet, showing they understood the question.",
+            "The essential step, substituting three-dimensional for two-dimensional size, occurs automatically and cannot be overridden.",
+            "Objects that appear more distant also appear larger on the page, a predictable bias of the 3-D heuristic.",
+            "Only visual artists and experienced photographers develop the skill of seeing the drawing as an object on the page.",
+            "A judgment that is based on substitution will inevitably be biased in predictable ways.",
+            "The 3-D heuristic is a clear illustration of being influenced by the answer to a question you were not asked."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests the 3-D heuristic, in which the perceptual system automatically substitutes three-dimensional for two-dimensional size, making the farther figure appear larger even when both are equal. Kahneman shows the illusion is a true automatic perception, because participants who are asked to estimate size respond in inches rather than feet and still cannot correct their impression.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Priya insists the right-hand figure in the printed carton mockup is larger and objects even when the ruler proves otherwise. What is the correct diagnosis of her claim?",
+          "subject_baseline": "Priya has fifteen years of packaging design experience and is known in the studio for meticulous attention to line weight and spacing; she has never previously been accused of misstating a specification in a review.",
+          "observed_nonverbal_log": "13:02 Priya points at the mockup and answers immediately, before the ruler is mentioned, with a steady voice. 13:05 Asked to confirm, she answers without stammering and maintains eye contact, with no sign of pupil dilation. 13:11 She frowns with genuine surprise as the ruler is laid across both figures. 13:14 She leans in, rechecks the measurement, and says \"That can't be right\" with the calm bewilderment of someone shown a magic trick, not the tension of someone caught.",
+          "interrogation_transcript": "Auditor: \"Priya, can you confirm the right-hand figure is larger than the left?\" Priya: \"Yes, obviously. It's clearly bigger.\" Auditor: \"Even with a ruler across both of them, same size?\" Priya: \"It really looks bigger to me. I know the ruler says otherwise, but my eyes keep telling me it's larger.\"",
+          "correct_diagnosis": "Priya is telling the truth as she perceives it: she is experiencing a genuine automatic 3-D illusion, not lying about the mockup.",
+          "diagnostic_breakdown": "Priya's instant, unguarded answer and her sincere surprise at the ruler match the automatic, involuntary nature of the 3-D heuristic rather than the physiology of deliberate deception. Her comprehension is intact, because she answers about size on the page rather than about the people's height, and the perspective cue that misleads her is irrelevant to the task yet impossible to ignore, exactly as the book describes.",
+          "distractors": [
+            "Priya is deliberately hiding a production error she made in the artwork",
+            "Priya is anxious and guessing because she never checked the mockup",
+            "Priya misunderstood the question and answered about the height of the people instead of the size of the figures"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Affect Heuristic in Executive Risk Assessment",
+          "visual_frame_description": "A boardroom at Northbridge Capital. Marcus, the CFO, presents a risk-benefit chart for a bioreactor venture he championed: the benefit bar is tall and the risk bar is tiny. The chief auditor, Elena, watches a live feed with a risk matrix on the wall and timestamped footage of Marcus pitching the same venture to the investment committee.",
+          "player_mission": "Determine whether Marcus is deceiving the board about the venture's risk or sincerely believing his own optimistic assessment. Compare his baseline, the nonverbal log, and the transcript, then issue the correct diagnosis.",
+          "key_concepts": [
+            "The affect heuristic, proposed by Paul Slovic, holds that people let their likes and dislikes determine their beliefs about the world.",
+            "If a person likes an activity, they tend to believe its benefits are high and its risks low.",
+            "If a person dislikes something such as irradiated food or nuclear power, they tend to believe its risks are high and benefits negligible.",
+            "Information that lowers perceived risk will also improve perceived benefits, even when nothing is said about benefits.",
+            "In the context of attitudes, System 2 is more of an apologist for the emotions of System 1 than a critic.",
+            "System 2's search for information and arguments is mostly constrained to information consistent with existing beliefs.",
+            "An active, coherence-seeking System 1 suggests solutions to an undemanding System 2.",
+            "The dominance of conclusions over arguments is most pronounced where emotions are involved.",
+            "Beliefs and even emotional attitudes may change, at least a little, when risk information improves.",
+            "The affect heuristic explains why people's estimates of benefits and risks for a technology are strongly correlated in the wrong direction."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests Slovic's affect heuristic: Marcus's liking of the venture drives his beliefs about its benefits and risks, so his estimates are emotionally coherent rather than evidence-based. Kahneman emphasizes that in the context of attitudes System 2 acts as an apologist for System 1's emotions, endorsing rather than criticizing the conclusions.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Marcus's risk rating for the bioreactor venture is nearly zero while his benefit rating is maximal, and he pushes the board to approve it. What is the correct diagnosis of his assessment?",
+          "subject_baseline": "Marcus has run four venture reviews this year with disciplined, numbers-first presentations; colleagues describe him as cautious with capital, and he routinely demands external audits before committing funds.",
+          "observed_nonverbal_log": "14:20 Marcus opens the risk slide and talks faster with rising energy; his pupils are slightly dilated, consistent with excitement rather than strain. 14:26 When Elena asks for the downside scenario, he waves it away and pivots to the upside case, showing no averted gaze or lip compression. 14:31 He cites the benefit data fluently but struggles to recall any cost figure he prepared. 14:37 Asked directly whether he has any doubts, he answers instantly, \"Not really,\" with relaxed posture.",
+          "interrogation_transcript": "Elena: \"What is your worst-case estimate for this venture?\" Marcus: \"Honestly, the downside here is negligible. The upside is what matters.\" Elena: \"Do you have the independent cost assessment we asked for?\" Marcus: \"It's on the server. I haven't looked at it closely. I know in my gut this one is right.\"",
+          "correct_diagnosis": "Marcus is not deliberately deceiving the board; his polarized risk and benefit judgments are genuine outputs of the affect heuristic, with System 2 endorsing rather than auditing his emotion-driven conclusions.",
+          "diagnostic_breakdown": "Marcus's sincerity is supported by relaxed, non-defensive body language and instant answers, while his pattern matches the affect heuristic exactly: liking the venture inflates benefits and collapses risks, information that would lower risk would also raise benefits, and his System 2 searches for confirmatory evidence rather than examining the belief. The verdict is emotion-driven judgment, not fraud.",
+          "distractors": [
+            "Marcus is lying to secure his own bonus",
+            "Marcus is anchoring on a figure from an earlier deal and adjusting insufficiently",
+            "Marcus holds full evidence and made a rational, well-calculated trade-off"
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Mood Heuristic in Survey Design",
+          "visual_frame_description": "A policy research office. The research director's desk holds a printed draft survey in which the item \"How happy are you with your life these days?\" sits directly beneath \"How many dates did you have last month?\" On a monitor, two pilot respondents complete the form; both pause at the dating item, smile or frown, and then answer the happiness item within seconds.",
+          "player_mission": "Catch the survey-ordering flaw before the client ships the report, explain what it will do to the data, and force the correct redesign when the client resists.",
+          "key_concepts": [
+            "In the German student survey, the correlation between dating and happiness was about zero when happiness was asked first.",
+            "When the dating question preceded the happiness question, the correlation was about as high as correlations between psychological measures can get.",
+            "The explanation is substitution: the dating question arouses an emotional reaction that is still active when the happiness question is asked.",
+            "Students with many dates were reminded of a happy aspect of life, while those with none were reminded of loneliness and rejection.",
+            "Respondents substituted the question they had a readymade answer to, happiness with their love life, for the question they were asked.",
+            "The students were not confused about the distinction between romantic life and life as a whole.",
+            "The same pattern appears if a question about relations with parents or about finances precedes the happiness question.",
+            "Any emotionally significant question that alters a person's mood will affect happiness reports.",
+            "The present state of mind looms very large when people evaluate their happiness.",
+            "WYSIATI applies: the present state of mind is the evidence that dominates the assessment."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the mood heuristic: a preceding, emotionally significant question alters mood and is substituted for the target assessment of global happiness, so question order manufactures a correlation. Kahneman reports the correlation between dating and happiness was near zero when happiness was asked first but near the maximum possible when the dating question preceded it.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The mood heuristic for happiness: when people are asked to assess global life happiness, an emotionally significant preceding question can substitute a mood-derived answer for a considered one. In the German student survey, happiness and dating were uncorrelated when happiness came first, but the correlation jumped dramatically when the dating question preceded it.",
+          "stage_1_observation": "You are the research director at a policy firm. A junior analyst, Priyanka, has drafted a citizen survey for a quality-of-life report. Question 4 asks \"How happy are you with your life these days?\" and Question 5, printed directly above it, asks \"How many dates did you have last month?\" On screen, you watch two pilot respondents complete the form; both pause at the dating item, smile or frown, and then answer the happiness item in seconds.",
+          "stage_1_question": "What is the flaw in this questionnaire order, and what outcome will it produce in the data?",
+          "stage_1_correct_answer": "The order invites substitution: the dating item arouses an emotional reaction that is still active when the happiness question is asked, so respondents answer about their romantic life rather than their life as a whole. The result is a spurious positive correlation between dating frequency and reported happiness that would not appear if happiness were asked first.",
+          "stage_2_intervention": "The client has already collected 2,000 responses using this ordering and insists the finding that \"romance drives happiness\" is real and should headline the report. You must decide what to do before the report ships.",
+          "stage_2_correct_answer": "Push back on the headline and demand a re-run: move the happiness item to the start of the survey, or separate the domain questions with neutral filler items, so the mood from the dating question does not color global happiness reports. Explain that the observed correlation is an artifact of question order, not evidence about happiness, citing the German student survey in which the same two items produced opposite results depending on order."
+        }
+      ]
+    },
+    {
+      "id": "ch15",
+      "title": "10. The Law of Small Numbers",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Statistical Artifacts vs. Causal Stories in County Data",
+          "visual_frame_description": "A wall map of the 3,141 U.S. counties glows with kidney-cancer rates: the highest and lowest counties are both rural and sparsely populated. Beside the map, an urn demonstration shows Jack drawing 4 marbles while Jill draws 7, and a statistician's notepad contrasts \"clean living\" explanations with a sample-size explanation.",
+          "player_mission": "Sort each evidence row into the correct column, distinguishing sampling artifacts from causal stories and from sample-size neglect. Then answer which account correctly explains why rural counties appear at both extremes of the cancer map.",
+          "key_concepts": [
+            "Both the highest- and the lowest-kidney-cancer counties in the United States are mostly rural, sparsely populated, and in traditionally Republican states.",
+            "The rural lifestyle cannot explain both very high and very low cancer incidence in the same kind of county.",
+            "The key factor is population size: rural counties have small populations, and extreme outcomes are more likely in small samples.",
+            "A random event does not lend itself to explanation, but collections of random events behave in a highly regular fashion.",
+            "From an urn of half red and half white marbles, the outcome 2 red and 2 white occurs about 6 times as often as 4 red or 4 white.",
+            "Samples of 4 marbles yield extreme homogeneous outcomes about 8 times more often than samples of 7 marbles (12.5% versus 1.56%).",
+            "The apparent county differences are artifacts produced by differences in sample size, not real differences in cancer rates.",
+            "If the analysis is repeated next year, the counties with high incidence last year will not necessarily be high again.",
+            "Large samples are more precise than small samples, which is the same statement as small samples yielding extreme results more often.",
+            "Even sophisticated researchers have poor intuitions and a wobbly understanding of sampling effects."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the law of small numbers: extreme outcomes appear more often in small samples, so sparsely populated counties dominate both the highest and lowest cancer rates with no causal meaning. Kahneman, citing Wainer and Zwerling, notes the rural lifestyle cannot explain both very high and very low incidence, so the differences are sampling artifacts.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "The counties with the lowest kidney-cancer rates and the counties with the highest rates are both mostly rural, sparsely populated, and in Republican states. What is the correct account of this pattern?",
+          "column_a_label": "Statistical artifact (sampling variation)",
+          "column_b_label": "Causal story (attributing a mechanism)",
+          "column_c_label": "Sample-size neglect (acting as if small samples are representative)",
+          "rows": [
+            {
+              "label": "Concluding that rural clean living causes low kidney-cancer rates",
+              "col": "b"
+            },
+            {
+              "label": "Concluding that rural poverty and poor medical care cause high kidney-cancer rates",
+              "col": "b"
+            },
+            {
+              "label": "Extreme outcomes appearing more often in sparsely populated counties than in dense ones",
+              "col": "a"
+            },
+            {
+              "label": "Jack's 4-marble samples showing all-red or all-white outcomes 8 times more often than Jill's 7-marble samples",
+              "col": "a"
+            },
+            {
+              "label": "A researcher running an experiment on 20 subjects by tradition instead of computing the needed sample",
+              "col": "c"
+            },
+            {
+              "label": "Treating a telephone poll of 300 as if it were as precise as a poll of 3,000",
+              "col": "c"
+            },
+            {
+              "label": "Concluding small schools are better because 6 of the top 50 schools in a 1,662-school survey were small",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Rural lifestyle is genuinely protective and rural poverty genuinely harmful, both at once",
+            "Republican governance directly reduces cancer incidence in small counties",
+            "Small counties report health data more accurately than dense urban counties"
+          ],
+          "explanation": "The identical pattern at both extremes cannot be produced by any single causal factor; it is the sampling artifact that small samples yield extreme results more often, as the Jack-and-Jill marble demonstration shows. Rows that attach a mechanism to the rates illustrate causal stories, rows that ignore the trustworthiness of small samples illustrate sample-size neglect, and the distractors offer causal or data-quality explanations the statistical account rejects."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Seeing Order in Randomness: Hot Hands and Clustered Hits",
+          "visual_frame_description": "A basketball arena scoreboard shows a player's shot sequence with a run of makes, while a shot-chart analyst pulls up thousands of logged sequences that all pass randomness tests. Alongside it, a map of World War II London shows V-2 rocket hits with conspicuous gaps that turned out to be typical of a random distribution.",
+          "player_mission": "Sort each row into the correct column, separating genuine statistical processes from misperceived patterns and from the law of large numbers. Then answer what the shot-sequence analysis reveals about the hot hand.",
+          "key_concepts": [
+            "Gilovich, Vallone, and Tversky analyzed thousands of shot sequences and found no such thing as a hot hand in professional basketball.",
+            "Shot sequences from the field and the foul line satisfy all tests of randomness.",
+            "Some players are more accurate than others, but success does not cluster the way intuition suggests.",
+            "The inference that a player sinking three or four baskets in a row is hot is described as irresistible.",
+            "Teammates adapt by passing more to the hot scorer and the defense adapts by double-teaming.",
+            "The hot hand is entirely in the eye of the beholders, who are consistently too quick to perceive order and causality in randomness.",
+            "During the intensive rocket bombing of London, map gaps led some to suspect German spies, but the distribution was typical of a random process.",
+            "Random processes produce many sequences that convince people the process is not random after all.",
+            "We are pattern seekers who do not expect to see regularity produced by a random process.",
+            "If you follow your intuition, you will more often than not misclassify a random event as systematic."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the misperception of randomness: people impose causal stories on random sequences, from basketball hot hands to clustered wartime bomb hits. Kahneman reports that thousands of analyzed shot sequences satisfy all tests of randomness and that the London bombing map was typical of a random process despite looking clustered.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "After a player sinks four shots in a row, teammates pass to him more and the defense double-teams him. What does the Gilovich, Vallone, and Tversky analysis of thousands of shot sequences show?",
+          "column_a_label": "Random statistical process (no cause to find)",
+          "column_b_label": "Pattern misperception (seeing order where none exists)",
+          "column_c_label": "Law of large numbers (precision grows with sample size)",
+          "rows": [
+            {
+              "label": "Judging the sequence BGBBGB more likely than BBBGGG or GGGGGG even though all six-birth sequences are equally probable",
+              "col": "b"
+            },
+            {
+              "label": "Suspected German spies in unharmed districts because gaps in the London bombing map looked nonrandom",
+              "col": "b"
+            },
+            {
+              "label": "The conclusion that professional basketball shooting sequences satisfy all tests of randomness",
+              "col": "a"
+            },
+            {
+              "label": "The Israeli Air Force investigating why one squadron lost four planes while another from the same base lost none",
+              "col": "b"
+            },
+            {
+              "label": "Repeated sampling from an urn producing a predictable 6-to-1 ratio of balanced to extreme outcomes",
+              "col": "a"
+            },
+            {
+              "label": "A large-sample study reliably confirming that six-year-old girls have larger vocabularies than boys",
+              "col": "c"
+            },
+            {
+              "label": "Expecting a fair coin's sample proportion to settle near 50% as trials accumulate",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The shooter genuinely becomes more accurate after making baskets",
+            "The defense's double-teaming is proven to cause the next miss",
+            "Hot streaks can be confirmed by watching a single game closely"
+          ],
+          "explanation": "The analysis found no such thing as a hot hand: shot sequences from the field and the foul line satisfy all tests of randomness, so the hot shooter is a pattern misperception by players, coaches, and fans. Rows about births, bomb maps, and squadron losses are further causal attributions to random variation, while rows about urn sampling and large samples illustrate statistical regularity and the precision of large samples."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Certainty Over Doubt, WYSIATI, and the Halo Effect",
+          "visual_frame_description": "A boardroom slide shows a new CEO next to a column of three successful acquisitions, with a question mark where the sample size should be. Beside it, a news ticker reads \"Telephone poll of 300 seniors: 60% support the president\" and a colleague's face is overlaid with the word \"librarian\" after a one-minute introduction.",
+          "player_mission": "Sort each evidence row into the correct column, distinguishing the bias toward certainty over doubt, WYSIATI, and the halo effect. Then identify which mechanism most directly drives the board's conclusion about the CEO.",
+          "key_concepts": [
+            "The law of small numbers is a manifestation of a general bias that favors certainty over doubt.",
+            "System 1 is not prone to doubt; it suppresses ambiguity and spontaneously constructs stories that are as coherent as possible.",
+            "System 2 is capable of doubt because it can maintain incompatible possibilities at the same time.",
+            "Sustaining doubt is harder work than sliding into certainty.",
+            "Unless a message is immediately negated, the associations it evokes spread as if the message were true.",
+            "People pay more attention to the content of messages than to information about their reliability.",
+            "Can your System 1 distinguish degrees of belief? The principle of WYSIATI suggests that it cannot.",
+            "The exaggerated faith in what can be learned from a few observations is closely related to the halo effect.",
+            "The halo effect is the sense we often get that we know and understand a person about whom we actually know very little.",
+            "System 1 runs ahead of the facts in constructing a rich image on the basis of scraps of evidence."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the general bias favoring certainty over doubt, of which the law of small numbers is one manifestation: people treat a few observations as representative and slide into certainty because sustaining doubt is harder work. Kahneman links this to WYSIATI, which suggests System 1 cannot distinguish degrees of belief, and to the halo effect, the sense of knowing a person from very little evidence.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "A board concludes a new CEO has extraordinary acquisition flair after three successful deals. Which mechanism is most directly responsible for this conclusion?",
+          "column_a_label": "Confidence over doubt (believing small samples resemble the population)",
+          "column_b_label": "WYSIATI (ignoring reliability information in messages)",
+          "column_c_label": "Halo effect (knowing a person from a few observations)",
+          "rows": [
+            {
+              "label": "Research psychologists choosing samples that expose them to a 50% risk of failing to confirm true hypotheses",
+              "col": "a"
+            },
+            {
+              "label": "Summarizing \"a telephone poll of 300 seniors, 60% support the president\" as \"elderly support president\"",
+              "col": "b"
+            },
+            {
+              "label": "Feeling you know and understand a person about whom you actually know very little",
+              "col": "c"
+            },
+            {
+              "label": "System 1 suppressing ambiguity and constructing the most coherent story while sustaining doubt remains harder work",
+              "col": "a"
+            },
+            {
+              "label": "Treating a watercooler claim with the same belief as a report in The New York Times",
+              "col": "b"
+            },
+            {
+              "label": "Judging a new manager's competence after watching a single meeting",
+              "col": "c"
+            },
+            {
+              "label": "Believing the law of large numbers applies to small numbers as well",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The CEO's success was guaranteed by favorable market conditions",
+            "Three deals are a statistically sufficient sample to establish skill",
+            "The board weighed the base rate of acquisition success correctly"
+          ],
+          "explanation": "The conclusion rests on the law of small numbers, a manifestation of the general bias that favors certainty over doubt: three successes are treated as if they represented the population, and the board never asks how many deals would be needed to distinguish skill from luck. Rows about ignoring sample-size information in polls illustrate WYSIATI, rows about knowing people from scraps illustrate the halo effect, and the distractors assert the statistical rigor the scenario lacks."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Auditing a Scout's Hot-Hand Claim",
+          "visual_frame_description": "A gymnasium press box. Marcus, a veteran NBA scout for the Valley Hawks, points at a player who has just made four straight three-pointers. On the wall, a play-by-play chart shows the shooter's full sequence of makes and misses, and a timestamped audio log of the scouting call plays in the corner.",
+          "player_mission": "Determine whether Marcus is deliberately inflating the player's value, sincerely misreading randomness, or correctly identifying a real streak. Compare his baseline, the nonverbal log, and the transcript, then issue the correct diagnosis.",
+          "key_concepts": [
+            "Gilovich, Vallone, and Tversky analyzed thousands of shot sequences and found no such thing as a hot hand in professional basketball.",
+            "Shot sequences from the field and the foul line satisfy all tests of randomness.",
+            "Some players are more accurate than others, but success does not cluster the way intuition suggests.",
+            "The inference that a player sinking three or four baskets in a row is hot is described as irresistible.",
+            "Teammates adapt by passing more to the hot scorer and the defense adapts by double-teaming.",
+            "The hot hand is entirely in the eye of the beholders, who are consistently too quick to perceive order and causality in randomness.",
+            "The public response to the finding was disbelief; the celebrated coach Red Auerbach dismissed the study.",
+            "Random processes produce many sequences that convince people the process is not random.",
+            "We are pattern seekers, believers in a coherent world, who do not expect regularity to be produced by chance.",
+            "If you follow your intuition, you will more often than not misclassify a random event as systematic."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests the hot-hand illusion, the systematic misperception that random shot sequences reveal a causal streak. Kahneman reports that thousands of analyzed sequences satisfy all tests of randomness, making the hot hand a massive and widespread cognitive illusion in the eye of the beholder.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Marcus recommends giving the shooter every shot because \"he's hot.\" What is the correct diagnosis of his recommendation?",
+          "subject_baseline": "Marcus has scouted for twelve years, keeps detailed shot charts, and has a reputation for honest, unglamorous reporting; he has never been suspected of favoring a client or inflating a player's stock.",
+          "observed_nonverbal_log": "18:05 Marcus sees the fourth make and immediately straightens in his seat, his voice rising as he points with excitement. 18:11 He recounts the streak accurately from memory, checking his chart, and lists each shot location without hesitation. 18:18 When reminded that the same player missed five in a row last quarter, he waves dismissively and says that was before he got hot. 18:24 Asked whether he has any doubt, he answers firmly with no averted gaze or defensive tension.",
+          "interrogation_transcript": "Auditor: \"Do you believe this player is genuinely more likely to score right now?\" Marcus: \"Absolutely. Four in a row, he's locked in. You ride the hot hand.\" Auditor: \"But he missed five straight earlier.\" Marcus: \"Different story. That was before the switch flipped.\"",
+          "correct_diagnosis": "Marcus is sincere but wrong: he is a victim of the hot-hand illusion, misperceiving a random sequence as a causal streak rather than deliberately inflating the player's value.",
+          "diagnostic_breakdown": "Marcus's fluent recall, consistent enthusiasm, and quick, non-defensive answers indicate genuine belief, while his dismissal of the earlier misses reveals the pattern-seeking behavior the chapter describes: he reads order and causation into a sequence that satisfies all tests of randomness. The accurate shot chart he keeps rules out fabrication, so the verdict is a cognitive illusion, not deception.",
+          "distractors": [
+            "Marcus is lying to boost the player's trade value",
+            "Marcus has correctly detected a real improvement in shooting mechanics",
+            "Marcus is under pressure from ownership to produce a star"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Auditing the Small-Schools Finding",
+          "visual_frame_description": "A foundation boardroom at the Crestwood Education Trust. Lena, the education program officer, presents a slide titled \"The Most Successful Schools Are Small,\" citing 6 of the top 50 schools in a 1,662-school Pennsylvania survey. In the corner, a data window shows the same survey's bottom 50 schools, which are also mostly small, and a timestamped video of the board presentation plays.",
+          "player_mission": "Determine whether Lena is concealing data that contradicts the small-schools conclusion, made an honest statistical error, or found a real effect. Audit her baseline, the nonverbal log, and the transcript, then issue the correct diagnosis.",
+          "key_concepts": [
+            "The Gates Foundation made a substantial investment in the creation of small schools after researchers found that the most successful schools tend to be small.",
+            "In a survey of 1,662 schools in Pennsylvania, 6 of the top 50 were small, an overrepresentation by a factor of 4.",
+            "If the statisticians had asked about the characteristics of the worst schools, they would have found that bad schools also tend to be smaller than average.",
+            "Small schools are not better on average; they are simply more variable.",
+            "If anything, large schools tend to produce better results, especially in higher grades where a variety of curricular options is valuable.",
+            "A causal story that small schools give students more personal attention is easy to construct but pointless because the facts are wrong.",
+            "The Annenberg Foundation, the Pew Charitable Trust, and the U.S. Department of Education also joined the small-schools effort.",
+            "The finding is an artifact: extreme outcomes appear more often in small samples.",
+            "We are far too willing to reject the belief that much of what we see in life is random.",
+            "Causal explanations of chance events are inevitably wrong."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the sample-size artifact underlying the small-schools finding: the most successful schools and the worst schools are both smaller than average because small samples produce extreme outcomes more often. Kahneman reports that asking about the worst schools would have exposed the same small pattern, showing the effect is variability, not quality.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Lena recommends splitting large schools into small units because \"the best schools are small.\" What is the correct diagnosis of her recommendation?",
+          "subject_baseline": "Lena is a former teacher with a doctorate in education policy; she is known for reading every brief and has twice returned grants because the evidence was thin.",
+          "observed_nonverbal_log": "10:12 Lena opens with the top-50 slide and speaks fluently with open gestures. 10:19 When a trustee asks whether the bottom schools were also checked, she hesitates briefly, then says that analysis was not part of the report, her brow furrowing. 10:26 She defends the funding decision with rising conviction, citing the personal-attention story. 10:31 Asked directly whether she saw the bottom-50 data, she admits it was never pulled, with a genuine look of surprise rather than evasion.",
+          "interrogation_transcript": "Trustee: \"Did anyone check whether the worst schools are also small?\" Lena: \"No, that wasn't in the scope of the report.\" Trustee: \"If they were, what would that do to the conclusion?\" Lena: \"I honestly hadn't considered it. The story made so much sense to me.\"",
+          "correct_diagnosis": "Lena is not hiding evidence; she is sincerely endorsing a statistical artifact. The small-schools pattern reflects the variability of small samples, and neither she nor the researchers checked the bottom of the distribution.",
+          "diagnostic_breakdown": "Lena's honest admission that the bottom-50 analysis was never run, combined with her genuine surprise, rules out deliberate concealment. Her confident causal narrative about personal attention is exactly the story Kahneman warns against: easy to construct, pointless because the facts are wrong, since the worst schools are small too. The verdict is sample-size neglect, not fraud.",
+          "distractors": [
+            "Lena suppressed a report showing large schools outperformed small ones",
+            "Lena fabricated the 6-of-50 statistic to win the grant",
+            "Lena correctly identified that small schools cause better outcomes"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Auditing a Loss-Pattern Investigation",
+          "visual_frame_description": "A briefing room at an air-force base. Major Cohen, a wing commander, argues that the squadron which lost four planes to missile attacks must have done something wrong and wants every surviving pilot interrogated. On the wall, a mission board shows identical sortie counts for both squadrons flying from the same base, and a timestamped audio log of the command meeting plays.",
+          "player_mission": "Determine whether the proposed investigation into the squadron's losses is justified, masks a political motive, or misreads blind luck as a cause. Audit the commander's baseline, the nonverbal log, and the transcript, then issue the correct diagnosis.",
+          "key_concepts": [
+            "In the 1973 Yom Kippur War, one Israeli squadron lost four planes while another squadron from the same base lost none.",
+            "There was no prior reason to believe one squadron was more effective than the other, and no operational differences were found.",
+            "Kahneman advised the Israeli Air Force to stop the investigation and accept that the different outcomes were due to blind luck.",
+            "Sampling variation makes extreme outcomes such as four losses concentrated in one unit appear even when there is no cause.",
+            "A random search for a nonobvious cause was judged hopeless.",
+            "Kahneman reasoned that the pilots in the squadron that had sustained losses did not need the extra burden of being made to feel that they and their dead friends were at fault.",
+            "Causal attributions to random events are the subject of the chapter's warning about cause and chance.",
+            "System 1 automatically and effortlessly identifies causal connections between events, sometimes even when the connection is spurious.",
+            "Statistical facts change the probability of outcomes but do not cause them to happen.",
+            "We are pattern seekers who quickly reject the idea that a process is truly random."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the confusion of cause with chance: the unequal squadron losses are what sampling variation looks like, not evidence of error. Kahneman reports advising the Israeli Air Force that the outcomes were due to blind luck and that the investigation should stop because a random search for a nonobvious cause was hopeless.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Major Cohen wants every surviving pilot interrogated to find why one squadron lost four planes. What is the correct diagnosis of the proposed investigation?",
+          "subject_baseline": "Major Cohen is a decorated pilot known for meticulous debriefings and a strong sense of duty; he is not known for grandstanding, but he visibly struggles when a unit under his command takes losses.",
+          "observed_nonverbal_log": "09:40 Cohen sets down the loss chart and speaks with controlled anger, his jaw tight. 09:47 He insists the four-plane squadron must differ in procedure, citing debriefing differences while flipping through mission logs. 09:55 When the adjutant notes that the other squadron flew identical sorties, Cohen waves the point away and repeats that it cannot just be luck. 10:02 Asked what he would do if the inquiry finds nothing, he says he would keep looking, his voice rising, with no sign of evasion or personal gain.",
+          "interrogation_transcript": "Adjutant: \"The sortie counts are identical. What makes you certain there is an error to find?\" Cohen: \"Four planes is four planes. That doesn't happen by accident. There is always a cause.\" Adjutant: \"And if there isn't one?\" Cohen: \"Then we haven't looked hard enough.\"",
+          "correct_diagnosis": "The investigation is a misreading of random variation as a cause: the unequal losses are a sampling outcome, and continuing the inquiry would wrongly burden the surviving pilots, exactly as Kahneman advised against.",
+          "diagnostic_breakdown": "Cohen's certainty, emotional charge, and refusal to entertain chance match the chapter's account of causal thinking: System 1 automatically invents causes for statistical facts. Because no operational difference existed and both squadrons flew identical mission patterns, the four-versus-none split is the extreme outcome small groups produce, so the correct verdict is blind luck rather than error, and the honest recommendation is to stop the investigation.",
+          "distractors": [
+            "Cohen is launching the inquiry to protect a favored pilot from blame",
+            "The squadron that lost planes was demonstrably flying more dangerous missions",
+            "Four losses in one squadron proves that squadron trained incorrectly"
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Kidney-Cancer County Mystery",
+          "visual_frame_description": "A state health department war room. A data advisor studies a map of 3,141 counties where both the highest- and lowest-cancer counties are rural and sparsely populated. A colleague, Dr. Osei, types a press release crediting rural clean living for the low-rate counties, while a senator's funding proposal and a pollution investigation sit in separate inboxes.",
+          "player_mission": "Stop the causal misinterpretation of the county data, explain why both extremes are sampling artifacts, and block policy proposals that would spend public money chasing random variation.",
+          "key_concepts": [
+            "The counties with the lowest kidney-cancer incidence are mostly rural, sparsely populated, and in traditionally Republican states.",
+            "The counties with the highest incidence have the very same profile.",
+            "A single causal factor cannot explain both extremes, so the differences are artifacts of sample size.",
+            "Extreme outcomes are most likely to be found in sparsely populated counties because rural samples are smaller.",
+            "The small population of a county neither causes nor prevents cancer; it merely allows incidence to be much higher or lower.",
+            "If the analysis is repeated next year, the counties where cancer was common last year will not necessarily have a high incidence this year.",
+            "The differences between dense and rural counties do not really count as facts; they are artifacts produced by differences in sample size.",
+            "System 1 is inept when faced with merely statistical facts, which change the probability of outcomes but do not cause them to happen.",
+            "Sampling variation is a nuisance that turns every research project into a gamble.",
+            "Causal explanations of chance events are inevitably wrong."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the law of small numbers: extreme outcomes are more likely in small samples, so sparsely populated counties dominate both ends of the kidney-cancer distribution with no causal meaning. Kahneman, citing Wainer and Zwerling, notes that the rural lifestyle cannot explain both very high and very low incidence of kidney cancer.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The law of small numbers: extreme outcomes appear more often in small samples, so sparsely populated counties dominate both the highest and lowest kidney-cancer rates. The pattern is a sampling artifact, not a causal finding about rural life, and policy built on it misreads chance as cause.",
+          "stage_1_observation": "You are a data advisor at a state health department. A colleague, Dr. Osei, has mapped the 3,141 counties and found that both the highest- and lowest-cancer counties are mostly rural, sparsely populated, and in traditionally Republican states. He is drafting a press release crediting rural clean living for the low-rate counties.",
+          "stage_1_question": "Why do sparsely populated counties appear at both extremes of the cancer map, and what should Dr. Osei understand before he writes the release?",
+          "stage_1_correct_answer": "Both extremes are sampling artifacts: small populations yield extreme outcomes more often, so the low rates are no more real a fact than the high rates, and the pattern would shift if the analysis were repeated next year. Dr. Osei should not attribute the low counties to clean living, because the same kind of county can produce the highest rates for no causal reason.",
+          "stage_2_intervention": "A state senator has read Dr. Osei's draft and now proposes redirecting millions into rural wellness grants targeting the low-cancer counties, while the health director wants to investigate the high-cancer counties for industrial pollution. Both want your signature on their proposals by Friday.",
+          "stage_2_correct_answer": "Refuse to sign either causal proposal: the county differences do not count as facts but as artifacts of sample size, so targeting the low-rate counties would reinforce noise and the pollution investigation would chase a random outcome. Instead, recommend rate estimates adjusted for population size, aggregate small counties into larger regions for analysis, and repeat the analysis over multiple years before drawing any conclusion."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Sample-Size Decision",
+          "visual_frame_description": "A graduate research lab. A senior advisor stands beside a whiteboard where a doctoral student, Maya, has written her hypothesis that six-year-old girls have larger vocabularies than boys, with a plan to test 15 children per group and no power calculation. A line in the notes reads \"what the lab has always done.\"",
+          "player_mission": "Prevent Maya from running an undersized study, quantify the risk her sample size creates, and stop the department chair from treating a null result as proof that the hypothesis is false.",
+          "key_concepts": [
+            "Psychologists commonly chose samples so small that they exposed themselves to a 50% risk of failing to confirm their true hypotheses.",
+            "Sample-size decisions traditionally reflect prevalent intuitive misconceptions of the extent of sampling variation rather than computation.",
+            "Kahneman found that even authors of statistical textbooks made the same sample-size mistakes as everyone else.",
+            "The hypothesis that six-year-old girls have larger vocabularies than boys is true in the population but can be missed by a bad sample.",
+            "Using a sufficiently large sample is the only way to reduce the risk of failing to confirm a true hypothesis.",
+            "Intuitions about random sampling appear to satisfy the law of small numbers, which asserts that the law of large numbers applies to small numbers as well.",
+            "Kahneman and Tversky recommended regarding statistical intuitions with proper suspicion and replacing impression formation by computation whenever possible.",
+            "Sampling variation turns the undertaking of every research project into a gamble.",
+            "Large samples are more precise than small samples.",
+            "Researchers who pick too small a sample leave themselves at the mercy of sampling luck."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the belief in the law of small numbers, the intuition that the law of large numbers applies to small numbers as well. Kahneman reports that psychologists' sample-size decisions exposed them to about a 50% risk of failing to confirm true hypotheses, and that even sophisticated researchers made the same errors.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "Researchers' intuitions about sample size are poor: psychologists commonly chose samples so small they exposed themselves to a 50% risk of failing to confirm true hypotheses, and even experts paid insufficient attention to sample size. Kahneman and Tversky called the faith that small samples mirror the population belief in the law of small numbers.",
+          "stage_1_observation": "You are a senior advisor to a graduate lab. A doctoral student, Maya, shows you her study plan for testing whether six-year-old girls have larger vocabularies than boys: she plans to test 15 children per group, following what the lab has always done. A whiteboard in the scene shows her hypothesis, a total sample of 30 subjects, and no power calculation.",
+          "stage_1_question": "What risk does Maya's chosen sample size expose her to, and why does her reasoning fail?",
+          "stage_1_correct_answer": "Her small sample leaves her at the mercy of sampling luck, exposing her to as much as a 50% risk of failing to confirm a true hypothesis, because extreme results are more common in small samples. Her reasoning fails because she is following tradition and intuition rather than computing the sample size that would reduce the risk of failure to an acceptable level.",
+          "stage_2_intervention": "Maya runs the study with 30 children, the difference is in the predicted direction but not significant, and the department chair now wants to abandon the hypothesis as probably false. Maya asks you what to do next.",
+          "stage_2_correct_answer": "Stop treating the null result as evidence against the hypothesis: it is likely an artifact of an undersized sample. Compute the sample size required for an acceptable risk of failure, run a sufficiently large replication, and replace impression formation by computation, because the vocabulary hypothesis was true in the population and the small sample simply failed to detect it."
+        }
+      ]
+    }
+  ]
+}

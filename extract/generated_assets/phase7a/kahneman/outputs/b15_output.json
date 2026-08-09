@@ -1,0 +1,770 @@
+{"spec_file": "spec_kahneman_b15.json", "chapters": [{"id": "ch29", "title": "24. The Engine of Capitalism", "pages": "", "assets": [{
+    "asset_type": "DISCRIMINATION_MATRIX",
+    "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+    "topic": "Three System 1 biases behind overconfidence: above-average effect, competition neglect, and illusion of control",
+    "visual_frame_description": "A co-working space at dusk. Carmen Reyes, a start-up founder in a worn hoodie, stands at a whiteboard covered in roadmap arrows and sprint charts, gesturing at a growth curve she drew herself. Her co-founder, seated with a notebook, is asking about competitors. A sticky note on the wall reads 'We control our destiny.'",
+    "player_mission": "Classify each evidence card into the correct column of the matrix, then decide which bias Carmen's claim about self-control best illustrates. Select the column label that fits every row before answering the matrix question.",
+    "key_concepts": [
+      "Start-up founders asked how much their outcome depends on what they do in the firm answer at least 80% almost without exception, even when they doubt they will succeed.",
+      "The outcome of a start-up depends as much on the achievements of competitors and changes in the market as on its own efforts.",
+      "The observation that 90% of drivers believe they are better than average has changed in interpretation from self-aggrandizement to a cognitive bias.",
+      "People respond to the hard question 'Are you better than average as a driver?' by answering the easy question 'Are you a good driver?' without ever thinking about the average.",
+      "When asked about a task they find difficult, such as starting conversations with strangers, people readily rate themselves below average.",
+      "Competition neglect, coined by Camerer and Lovallo, arises when planners consider only their own plans and skills and leave rivals out of the decision.",
+      "The consequence of competition neglect is excess entry: more competitors enter the market than it can profitably sustain, so their average outcome is a loss.",
+      "The System 1 processes of WYSIATI and substitution produce both competition neglect and the above-average effect.",
+      "Entrepreneurs naturally focus on what they know best, their own plans and immediate threats such as funding, and find it natural to imagine a future in which competition plays little part."
+    ],
+    "difficulty_level": "Beginner",
+    "theory_summary": "This scenario tests the illusion of control and its System 1 siblings: WYSIATI and substitution make people overestimate how much their own actions determine outcomes while they neglect what they do not know. Kahneman reports that start-up founders estimate their fate is at least 80% in their own hands, even though competitors and market shifts matter as much.",
+    "credibility": {
+      "level": "High",
+      "consensus": "Broad",
+      "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+    },
+    "question": "A start-up founder, Carmen Reyes, tells her co-founder that her venture's fate depends at least 80% on what the team does itself. Which bias does this statement best illustrate?",
+    "column_a_label": "Above-average effect (substitution)",
+    "column_b_label": "Competition neglect (WYSIATI)",
+    "column_c_label": "Illusion of control",
+    "rows": [
+      {
+        "label": "Start-up founders routinely answer 'How much depends on your own actions?' with answers of 80% or more, even when they are not sure they will succeed.",
+        "col": "c"
+      },
+      {
+        "label": "90% of drivers rate themselves above average because they answer the easy question 'Am I a good driver?' instead of comparing themselves to the true average.",
+        "col": "a"
+      },
+      {
+        "label": "The Disney chairman released blockbusters on the same crowded weekend because each studio considered only its own film, story department, and marketing team.",
+        "col": "b"
+      },
+      {
+        "label": "People asked about a genuinely hard skill, like starting conversations with strangers, readily rate themselves below average.",
+        "col": "a"
+      },
+      {
+        "label": "More entrants enter a market than the market can profitably sustain, so the average entrant loses money: this is excess entry.",
+        "col": "b"
+      },
+      {
+        "label": "Founders think their fate is almost entirely in their own hands, though competitors and market changes matter just as much.",
+        "col": "c"
+      },
+      {
+        "label": "A restaurateur plans her menu and ad spend without counting how many rivals are opening on the same street.",
+        "col": "b"
+      }
+    ],
+    "correct_answer": "c",
+    "distractors": [
+      "Competition neglect arises from fear of rival studios.",
+      "The above-average effect is limited to driving ability.",
+      "The illusion of control strengthens as stakes rise and information grows."
+    ],
+    "explanation": "Carmen's claim matches the illusion of control: WYSIATI makes founders focus on their own plans and actions, so they attribute most of the outcome to themselves. The above-average effect answers an easy question in place of a hard one, and competition neglect leaves rivals out of the mental picture; all three flow from the same System 1 machinery."
+  },
+  {
+    "asset_type": "DECEPTION_AUDIT_FILE",
+    "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+    "topic": "Overconfidence in forecasting: the CFO's worthless confidence intervals",
+    "visual_frame_description": "A mahogany boardroom at a Cleveland manufacturer at dusk. Nathan Adeyemi, a silver-haired CFO, stands at the head of a long table pointing at a slide of quarterly S&P 500 projections. Directors lean in; a projector throws his forecast curve onto the wall behind him.",
+    "player_mission": "Audit whether Nathan is deliberately lying to the board or is simply overconfident about his forecasts. Read his baseline behavior, the timed observation log, and the transcript, then issue a correct diagnosis with evidence.",
+    "key_concepts": [
+      "Professors at Duke University collected 11,600 forecasts from the chief financial officers of large corporations and examined their accuracy.",
+      "The correlation between the CFOs' estimates of the S&P index and the true value was slightly less than zero; when they said the market would go down, it was slightly more likely than not to go up.",
+      "The truly bad news was that the CFOs did not appear to know that their forecasts were worthless.",
+      "Participants gave a value they were 90% sure would be too high and one they were 90% sure would be too low; the range is called an 80% confidence interval.",
+      "An individual who sets confidence intervals on multiple occasions expects about 20% of the outcomes to be surprises, but the actual incidence in the Duke study was 67%, more than three times higher than expected.",
+      "To maintain the desired rate of surprises, the CFOs should have said year after year that there is an 80% chance the S&P return next year will be between -10% and +30%.",
+      "The confidence interval that properly reflects the CFOs' knowledge is more than four times wider than the intervals they actually stated.",
+      "Overconfidence is another manifestation of WYSIATI: when we estimate a quantity we rely on information that comes to mind and construct a coherent story in which the estimate makes sense.",
+      "A CFO who informs colleagues that there is a good chance the S&P returns will be between -10% and +30% can expect to be laughed out of the room, because the wide interval is a confession of ignorance."
+    ],
+    "difficulty_level": "Intermediate",
+    "theory_summary": "This scenario tests overconfidence as a manifestation of WYSIATI: when estimating a quantity, people rely on what comes to mind and build a coherent story, and they cannot allow for information that never came to mind. The Duke CFO study found 11,600 forecasts whose correlation with the true S&P value was slightly less than zero, with surprises occurring 67% of the time instead of the expected 20%.",
+    "credibility": {
+      "level": "High",
+      "consensus": "Broad",
+      "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+    },
+    "question": "Is Nathan Adeyemi, a veteran CFO, lying to the board when he insists he can predict next year's S&P 500 return within a narrow band?",
+    "subject_baseline": "Nathan is a meticulous, soft-spoken finance chief with twenty years at a Cleveland manufacturing firm. He prepares detailed models, cites precise percentages from memory, and almost never raises his voice in meetings.",
+    "observed_nonverbal_log": [
+      "0:00-0:45 min: Nathan stands at the head of the boardroom table, posture upright, steady eye contact, a faint confident smile as he reveals his forecast of +9% for the S&P 500.",
+      "0:45-2:00 min: Asked about a downside scenario, he shakes his head briskly, waves a hand dismissively, and says a decline is 'not a real scenario.'",
+      "2:00-2:50 min: He states an 80% confidence interval of +6% to +12%; his voice stays flat and rehearsed, with no hesitation or self-interruption.",
+      "2:50-3:30 min: When the CEO presses him, he repeats the interval word-for-word and adds, 'I have been doing this for twenty years,' before crossing his arms."
+    ],
+    "interrogation_transcript": [
+      "Board member: 'How confident are you in that range, Nathan?'",
+      "Nathan: 'I am 90% confident it falls inside it. That is what my models say.'",
+      "Board member: 'But last year your interval missed the actual return entirely.'",
+      "Nathan: 'Last year was an anomaly. This year the fundamentals are clear.'"
+    ],
+    "correct_diagnosis": "Nathan is not lying; he is genuinely overconfident. In the Duke CFO survey, the correlation between CFOs' forecasts of the S&P index and the true value was slightly less than zero, and the CFOs did not appear to know their forecasts were worthless.",
+    "diagnostic_breakdown": "His calm confidence reflects social display and story coherence, not accuracy: subjective confidence is set by the coherence of the story one constructs, not by the quality of the information supporting it. To bring surprises down to the expected 20%, CFOs would need an interval about four times wider, roughly -10% to +30%, which Nathan would never dare state because the wide interval is a socially unacceptable confession of ignorance.",
+    "distractors": [
+      "Nathan is fabricating his forecasts to impress the board.",
+      "Nathan is unusually accurate and the board should trust his range.",
+      "Nathan secretly holds better information that he refuses to share."
+    ]
+  },
+  {
+    "asset_type": "BOSS_BATTLE",
+    "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+    "topic": "The premortem: legitimizing doubt against groupthink",
+    "visual_frame_description": "A glass-walled conference room in a Chicago pharmaceutical company. The leadership team has nearly approved a $2 billion acquisition; the CEO, Dr. Helen Osei, has just tipped her hand in favor of the deal. The finance VP nods energetically, the operations head praises the synergies, and Priya, a junior analyst who earlier voiced concerns, stares at her notes in silence. The room feels unanimous.",
+    "player_mission": "Identify the psychological process silencing Priya's doubts, then choose the correct organizational procedure for the final session before sign-off. Answer the observation question and select the best intervention.",
+    "key_concepts": [
+      "Gary Klein, Kahneman's adversarial collaborator, contributed the premortem procedure to tame overconfidence in organizations.",
+      "The premortem premise is a short speech: 'Imagine that we are a year into the future. We implemented the plan as it now exists. The outcome was a disaster. Please take 5 to 10 minutes to write a brief history of that disaster.'",
+      "The premortem has two main advantages: it overcomes the groupthink that affects many teams once a decision appears to have been made, and it unleashes the imagination of knowledgeable individuals in a much-needed direction.",
+      "As a team converges on a decision, and especially when the leader tips her hand, public doubts about the wisdom of the planned move are gradually suppressed.",
+      "Suppressed doubts eventually come to be treated as evidence of flawed loyalty to the team and its leaders, contributing to overconfidence in a group where only supporters of the decision have a voice.",
+      "The main virtue of the premortem is that it legitimizes doubts.",
+      "The premortem encourages even supporters of the decision to search for possible threats that they had not considered earlier.",
+      "The premortem is not a panacea and does not provide complete protection against nasty surprises, but it reduces the damage of plans subject to WYSIATI and uncritical optimism.",
+      "After Kahneman described the premortem casually at a session in Davos, a listener who turned out to be the CEO of a major international corporation muttered that it was worth coming to Davos just for this."
+    ],
+    "difficulty_level": "Beginner",
+    "theory_summary": "This scenario tests the premortem, a procedure that counteracts groupthink and uncritical optimism by legitimizing doubt before a decision is committed. Gary Klein's two-minute disaster-imagination speech overcomes the suppression of public doubt that makes groups more overconfident than their individual members.",
+    "credibility": {
+      "level": "High",
+      "consensus": "Broad",
+      "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+    },
+    "boss_battle_explanation": "The premortem, contributed by Gary Klein, attacks the optimistic bias at the group level: before a decision is formally committed, team members imagine that the plan failed a year later and write a brief history of that disaster, which legitimizes doubt and overcomes groupthink.",
+    "stage_1_observation": "In a glass-walled conference room of a Chicago pharma company, the leadership team has nearly approved a $2 billion acquisition. The CEO, Dr. Helen Osei, has just tipped her hand in favor of the deal. The finance VP nods energetically; the operations head praises the synergies; Priya, a junior analyst who earlier voiced concerns, looks down at her notes and says nothing. The room feels unanimous.",
+    "stage_1_question": "What psychological process is silencing Priya's doubts, and why does it raise the risk of the decision?",
+    "stage_1_correct_answer": "Groupthink: once a team converges and the leader tips her hand, public doubts are gradually suppressed and come to be treated as evidence of flawed loyalty, leaving only supporters of the decision with a voice and increasing overconfidence.",
+    "stage_2_intervention": "Helen must decide how to run the final session before sign-off. Her options: ask for a show of hands supporting the deal; schedule a 20-minute session that begins 'Imagine that we are a year into the future. We implemented the plan as it now exists. The outcome was a disaster. Please take 5 to 10 minutes to write a brief history of that disaster'; invite only the CEO's allies; or circulate a risk memo written by the CFO alone. Which action should Helen take?",
+    "stage_2_correct_answer": "Run the premortem as described: it overcomes the groupthink that affects teams once a decision appears to have been made, and it unleashes the imagination of knowledgeable individuals, including supporters, to search for threats they had not considered, although it is not a panacea."
+  },
+  {
+    "asset_type": "DISCRIMINATION_MATRIX",
+    "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+    "topic": "Sources of overconfidence: temperament, hubris, and social reward",
+    "visual_frame_description": "A business magazine cover lies on a boardroom table next to a live stock ticker. Marcus Okafor, the celebrated CEO on the cover, gestures grandly at an acquisition map while his CFO frowns at a tablet showing the company's share price sliding. Analysts murmur in the background.",
+    "player_mission": "Sort each evidence card into the column that best explains it, then determine which mechanism accounts for the market downgrading the award-winning CEO's stock after his acquisition announcement. Select a column for every row before answering.",
+    "key_concepts": [
+      "A survey of founders of small businesses concluded that entrepreneurs are more sanguine than midlevel managers about life in general.",
+      "An optimistic attitude is largely inherited and is part of a general disposition for well-being.",
+      "The hypothesis that people who have the greatest influence on the lives of others are likely to be optimistic and overconfident, and to take more risks than they realize, is supported by the evidence.",
+      "The misguided acquisitions by executives have been explained by a hubris hypothesis: the executives of the acquiring firm are simply less competent than they think they are.",
+      "The economists Ulrike Malmendier and Geoffrey Tate identified optimistic CEOs by the amount of company stock they owned personally.",
+      "Highly optimistic leaders assumed debt rather than issue equity and were more likely than others to overpay for target companies and undertake value-destroying mergers.",
+      "The stock of the acquiring company suffered substantially more in mergers if the CEO was overly optimistic by the authors' measure, so the market can identify overconfident CEOs.",
+      "Prestigious press awards to the CEO are costly to stockholders; firms with award-winning CEOs subsequently underperform in terms of both stock and operating performance.",
+      "An expert worthy of the name is expected to display high confidence, and the most overconfident experts were the most likely to be invited to appear on news shows."
+    ],
+    "difficulty_level": "Intermediate",
+    "theory_summary": "This scenario tests the hubris hypothesis: the executives of the acquiring firm are simply less competent than they think they are. Malmendier and Tate found that optimistic CEOs, identified by the company stock they personally owned, took greater risks and overpaid for target companies, and the market downgraded their stock accordingly.",
+    "credibility": {
+      "level": "High",
+      "consensus": "Broad",
+      "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+    },
+    "question": "A CEO who just won a business-press award announces a large acquisition, and the market immediately downgrades his company's stock. Which mechanism best explains the market's reaction?",
+    "column_a_label": "Optimism as inherited temperament",
+    "column_b_label": "Hubris hypothesis (overconfident executives)",
+    "column_c_label": "Social reward for confidence",
+    "rows": [
+      {
+        "label": "A survey of founders of small businesses found entrepreneurs more sanguine than midlevel managers about life in general.",
+        "col": "a"
+      },
+      {
+        "label": "Malmendier and Tate found that CEOs who owned large personal stakes in their company overpaid for targets and undertook value-destroying mergers.",
+        "col": "b"
+      },
+      {
+        "label": "Prestigious press awards to CEOs are costly to stockholders; award-winning CEOs subsequently underperform.",
+        "col": "b"
+      },
+      {
+        "label": "An optimistic attitude is largely inherited and is part of a general disposition for well-being.",
+        "col": "a"
+      },
+      {
+        "label": "Experts who acknowledge the full extent of their ignorance may expect to be replaced by more confident competitors who better gain the trust of clients.",
+        "col": "c"
+      },
+      {
+        "label": "Clinicians who were 'completely certain' of a diagnosis antemortem were wrong 40% of the time.",
+        "col": "c"
+      },
+      {
+        "label": "The stock market is apparently able to identify overconfident CEOs, whose firms' stock suffers more in mergers.",
+        "col": "b"
+      }
+    ],
+    "correct_answer": "b",
+    "distractors": [
+      "The market reacts because the CEO is known to be risk averse.",
+      "Press awards cause executives to become more cautious.",
+      "Social reward for confidence lowers CEO compensation."
+    ],
+    "explanation": "The market's downgrade reflects the hubris hypothesis: acquiring executives are less competent than they think, and optimistic CEOs identified by personal stock ownership overpay for targets and destroy value. Press awards and social admiration do not cause the loss, they compound it, while temperament is a background disposition rather than the direct cause of the downgrade."
+  },{
+    "asset_type": "DECEPTION_AUDIT_FILE",
+    "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+    "topic": "Optimistic persistence: the inventor who ignores a failure forecast",
+    "visual_frame_description": "A cluttered Toronto workshop lit by a single bench lamp. Priya Natarajan, a retired electrical engineer, holds a letter with the grade 'D' from the Inventor's Assistance Program while prototype circuit boards surround her. A prototype fan spins beside her notebooks.",
+    "player_mission": "Audit whether Priya is deceiving her investors or deceiving herself about the project's prospects. Review her baseline, the timed observation log, and the transcript, then issue the correct diagnosis with evidence from the chapter.",
+    "key_concepts": [
+      "The Canadian Inventor's Assistance Program collects a small fee to provide inventors with an objective assessment of the commercial prospects of their idea.",
+      "The evaluations rely on careful ratings of each invention on 37 criteria, including need for the product, cost of production, and estimated trend of demand.",
+      "The analysts summarize their ratings by a letter grade, where D and E predict failure, a prediction made for over 70% of the inventions they review.",
+      "The forecasts of failure are remarkably accurate: only 5 of 411 projects given the lowest grade reached commercialization, and none was successful.",
+      "Discouraging news led about half of the inventors to quit after receiving a grade that unequivocally predicted failure.",
+      "47% of the inventors continued development efforts even after being told that their project was hopeless, and on average these persistent individuals doubled their initial losses before giving up.",
+      "Persistence after discouraging advice was relatively common among inventors who had a high score on a personality measure of optimism, on which inventors generally scored higher than the general population.",
+      "Overall, the return on private invention was small, lower than the return on private equity and on high-risk securities.",
+      "The evidence suggests that optimism is widespread, stubborn, and costly."
+    ],
+    "difficulty_level": "Beginner",
+    "theory_summary": "This scenario tests optimistic persistence: optimists maintain their effort after discouraging evidence because their optimism is widespread, stubborn, and costly. Ã…stebro's data showed 47% of inventors kept developing after an objective failure forecast and doubled their losses on average, and such persistence was most common among those high in optimism.",
+    "credibility": {
+      "level": "High",
+      "consensus": "Broad",
+      "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+    },
+    "question": "Is Priya Natarajan, an inventor, lying to her investors when she keeps spending money on a project that an objective program has graded D for failure?",
+    "subject_baseline": "Priya is a retired electrical engineer in Toronto who keeps meticulous lab notebooks, gives blunt technical feedback, and scores unusually high on a standard optimism questionnaire, higher than the general population, as most inventors do.",
+    "observed_nonverbal_log": [
+      "0:00-1:00 min: Priya receives the letter-grade evaluation (D, predicted failure) and reads it twice; she pauses, then shrugs and smiles faintly.",
+      "1:00-2:30 min: She gestures quickly and speaks rapidly, listing reasons the analysts 'did not understand the real demand,' flipping through her notebook pages.",
+      "2:30-3:15 min: She announces she will spend another $40,000 on prototypes; her tone is bright and her posture relaxed, with no acknowledgment of the program's 37 evaluation criteria."
+    ],
+    "interrogation_transcript": [
+      "Investor: 'The program says fewer than one in eighty of these lowest-grade projects ever reaches commercialization. Why keep going?'",
+      "Priya: 'Because my case is different. The criteria miss the niche I know exists.'",
+      "Investor: 'What would make you stop?'",
+      "Priya: 'I have not seen a reason yet.'"
+    ],
+    "correct_diagnosis": "Priya is not deceiving her investors; she is deceiving herself through optimism. In Thomas Ã…stebro's study of the Inventor's Assistance Program, 47% of inventors continued development even after receiving a grade that unequivocally predicted failure, and these persistent inventors doubled their initial losses on average before quitting.",
+    "diagnostic_breakdown": "Persistence after discouraging advice was common among inventors who scored high on optimism, and the financial returns on private invention were small, lower than returns on private equity and on high-risk securities. Her relaxed confidence is a display of an optimistic explanation style, not evidence that the evaluation is wrong.",
+    "distractors": [
+      "Priya is deliberately hiding the D grade from her investors.",
+      "Priya rationally re-analyzed the data and found the program's forecast inaccurate.",
+      "Priya has no emotional stake in the project's outcome."
+    ]
+  },
+  {
+    "asset_type": "BOSS_BATTLE",
+    "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+    "topic": "Competition neglect: opening a blockbuster on a crowded weekend",
+    "visual_frame_description": "A dim screening room at a Los Angeles studio. Marketing director Leo Brandt gestures at a screen showing the trailer for 'Iron Skyfall,' then a chart of ad buys and a star's talk-show tour. A junior strategist slides up a chart showing three rival blockbusters opening the same Memorial Day weekend. Leo waves a hand dismissively.",
+    "player_mission": "Identify the two System 1 features driving Leo's dismissal of the competition, then choose the intervention that counters competition neglect before the release date is committed. Answer the observation question, then select the best course of action.",
+    "key_concepts": [
+      "Colin Camerer and Dan Lovallo coined the concept of competition neglect.",
+      "Asked why so many expensive big-budget movies are released on the same days, the then chairman of Disney Studios replied 'Hubris. Hubris. If you only think about your own business, you think I've got a good story department, I've got a good marketing department, we're going to go out and do this. And you don't think that everybody else is thinking the same way.'",
+      "The chairman's answer displayed no arrogance; the competition was simply not part of the decision, in which a difficult question was replaced by an easier one.",
+      "The question that needs an answer is, considering what others will do, how many people will see our film; the simpler question the studio considered is whether it has a good film and a good organization to market it.",
+      "The familiar System 1 processes of WYSIATI and substitution produce both competition neglect and the above-average effect.",
+      "The consequence of competition neglect is excess entry: more competitors enter the market than the market can profitably sustain, so their average outcome is a loss.",
+      "In a given weekend in a year there can be five movies opening, and there is certainly not enough audience to go around.",
+      "Giovanni Dosi and Dan Lovallo call entrepreneurial firms that fail but signal new markets to more qualified competitors 'optimistic martyrs', good for the economy but bad for their investors.",
+      "Entrepreneurs know less about their competitors and therefore find it natural to imagine a future in which competition plays little part."
+    ],
+    "difficulty_level": "Intermediate",
+    "theory_summary": "This scenario tests competition neglect, coined by Camerer and Lovallo: planners focus on what they know, their own plans and skills, and leave rivals out of the decision, producing excess entry. The consequence is that more competitors enter than the market can profitably sustain, so the average entrant's outcome is a loss even when failures signal new markets to others.",
+    "credibility": {
+      "level": "High",
+      "consensus": "Broad",
+      "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+    },
+    "boss_battle_explanation": "Competition neglect is the failure to include rivals in the decision picture, produced by WYSIATI and substitution: planners ask whether they have a good product and organization instead of whether the market can sustain everyone's launches.",
+    "stage_1_observation": "In a Los Angeles studio screening room, marketing director Leo Brandt presents the launch plan for 'Iron Skyfall' on Memorial Day weekend. He shows the trailer, the ad-buy schedule, and the star's talk-show tour. A junior strategist slides up a chart showing three rival blockbusters opening the same weekend and notes the weekend's total audience is finite. Leo waves a hand: 'Ours is better. That is all that matters.'",
+    "stage_1_question": "Which two System 1 features are driving Leo's dismissal, according to the chapter's account of the Disney chairman's answer?",
+    "stage_1_correct_answer": "WYSIATI and substitution: the studio answers the easy question 'Do we have a good film and a good organization to market it?' instead of the hard question 'Considering what others will do, how many people will see our film?' The competition simply is not part of the decision.",
+    "stage_2_intervention": "The strategist asks Leo to choose the approach for the final go/no-go memo: release on Memorial Day anyway, citing the film's quality; formally estimate the total audience across all five releases and the rivals' marketing firepower before committing the date; tell the rivals to move; or split the marketing budget evenly across the whole summer. Which approach counters competition neglect?",
+    "stage_2_correct_answer": "Formally estimate the total audience across all five releases and the rivals' plans: treating competitors as part of the decision avoids the excess entry in which more competitors enter than the market can profitably sustain, so the average entrant loses money."
+  },
+  {
+    "asset_type": "DISCRIMINATION_MATRIX",
+    "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+    "topic": "Emotional, cognitive, and social roots of overconfidence",
+    "visual_frame_description": "A bright kitchen in an Italian restaurant under construction. Rosa Bianchi, the new owner, flips through paint swatches and a menu while a real-estate agent waves at the empty dining room. On the counter sits a trade magazine showing that 60% of new restaurants are out of business after three years, face down.",
+    "player_mission": "Sort each evidence card into the column that names the correct engine of the optimistic bias, then decide which engine is most directly at work in Rosa's decision to open without researching the base rate. Select a column for every row before answering.",
+    "key_concepts": [
+      "The planning fallacy is only one of the manifestations of a pervasive optimistic bias.",
+      "Most of us view the world as more benign than it really is, our own attributes as more favorable than they truly are, and the goals we adopt as more achievable than they are likely to be.",
+      "We focus on our goal, anchor on our plan, and neglect relevant base rates, exposing ourselves to the planning fallacy.",
+      "The chances that a small business will survive for five years in the United States are about 35%.",
+      "A survey found that American entrepreneurs' average estimate of the chances of success for any business like their own was 60%, almost double the true value.",
+      "Fully 81% of the entrepreneurs put their personal odds of success at 7 out of 10 or higher, and 33% said their chance of failing was zero.",
+      "60% of new restaurants are out of business after three years.",
+      "People who exaggerate their expected life span beyond actuarial predictions work longer hours, are more optimistic about their future income, and are more prone to bet on individual stocks.",
+      "A wide confidence interval is a confession of ignorance, which is not socially acceptable for someone who is paid to be knowledgeable, so the answer that a truthful CFO would offer is plainly ridiculous."
+    ],
+    "difficulty_level": "Advanced",
+    "theory_summary": "This scenario tests the three engines of the optimistic bias that Kahneman distinguishes: emotional optimism (temperament), cognitive bias (WYSIATI, planning fallacy, base-rate neglect), and social pressure favoring confident experts. Base-rate neglect arises because System 1 anchors on the plan and cannot allow for information that never comes to mind.",
+    "credibility": {
+      "level": "High",
+      "consensus": "Broad",
+      "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+    },
+    "question": "An entrepreneur opens an Italian restaurant without researching that 60% of new restaurants close within three years. Which engine of optimistic bias is most directly at work?",
+    "column_a_label": "Emotional optimism (temperament)",
+    "column_b_label": "Cognitive bias (WYSIATI and the planning fallacy)",
+    "column_c_label": "Social pressure for confidence",
+    "rows": [
+      {
+        "label": "We focus on our goal, anchor on our plan, and neglect relevant base rates, exposing ourselves to the planning fallacy.",
+        "col": "b"
+      },
+      {
+        "label": "Most of us view the world as more benign than it is and our goals as more achievable than they are likely to be.",
+        "col": "a"
+      },
+      {
+        "label": "A CFO who admitted the S&P return might fall between -10% and +30% would be laughed out of the room, because the wide interval is a confession of ignorance.",
+        "col": "c"
+      },
+      {
+        "label": "People who exaggerate their expected life span work longer hours and are more prone to bet on individual stocks.",
+        "col": "a"
+      },
+      {
+        "label": "Subjective confidence is determined by the coherence of the story one has constructed, not by the quality and amount of information that supports it.",
+        "col": "b"
+      },
+      {
+        "label": "An expert worthy of the name is expected to display high confidence, and the most overconfident experts are the most likely to be invited on news shows.",
+        "col": "c"
+      },
+      {
+        "label": "The optimist's explanation style takes credit for successes but little blame for failures, defending the self-image.",
+        "col": "a"
+      }
+    ],
+    "correct_answer": "b",
+    "distractors": [
+      "The restaurant owner is defying social norms that favor caution.",
+      "Base-rate neglect requires formal statistical training to overcome.",
+      "Emotional optimism has no measurable effects on lifespan."
+    ],
+    "explanation": "Ignoring the base rate of restaurant failure is the cognitive engine: WYSIATI makes the entrepreneur anchor on her plan and neglect the 60% three-year failure rate. Emotional optimism shapes her overall outlook and social pressure discourages her from admitting ignorance, but the specific failure to weigh the known base rate is the cognitive planning-fallacy bias."
+  },
+  {
+    "asset_type": "BOSS_BATTLE",
+    "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+    "topic": "Overconfident forecasting: widening the CFO's 80% interval",
+    "visual_frame_description": "In the monthly risk committee of a pension fund, CFO Renata Silva stands beside a projector screen showing her 80% confidence interval for next year's S&P 500 return: +5% to +13%. A junior risk analyst, TomÃ¡s, points to a chart of the last four years in which her realized returns fell outside her stated intervals in about 65% of quarters. Renata gazes at the screen, arms crossed.",
+    "player_mission": "Explain why Renata keeps issuing intervals that are far too narrow, then select the interval that honestly reflects her knowledge. Answer the observation question, then choose the best course of action for next quarter's report.",
+    "key_concepts": [
+      "Professors at Duke University conducted a survey in which the chief financial officers of large corporations estimated the returns of the Standard & Poor's index over the following year, collecting 11,600 forecasts.",
+      "The correlation between the CFOs' estimates and the true value was slightly less than zero; financial officers of large corporations had no clue about the short-term future of the stock market.",
+      "The truly bad news is that the CFOs did not appear to know that their forecasts were worthless.",
+      "An individual who sets confidence intervals on multiple occasions expects about 20% of the outcomes to be surprises, but the incidence in the Duke study was 67%, more than three times higher than expected.",
+      "To maintain the rate of surprises at the desired level, the CFOs should have said year after year that there is an 80% chance the S&P return next year will be between -10% and +30%.",
+      "The confidence interval that properly reflects the CFOs' knowledge is more than four times wider than the intervals they actually stated.",
+      "Overconfidence is a direct consequence of features of System 1 that can be tamed, but not vanquished; the main obstacle is that subjective confidence is determined by the coherence of the story one has constructed.",
+      "The wide confidence interval is a confession of ignorance, which is not socially acceptable for someone who is paid to be knowledgeable in financial matters.",
+      "The most confident and optimistic CFOs about the S&P index were also overconfident and optimistic about the prospects of their own firm, which went on to take more risk than others."
+    ],
+    "difficulty_level": "Advanced",
+    "theory_summary": "This scenario tests overconfidence in interval estimation: people rely on the information that comes to mind and construct a coherent story, so stated confidence intervals are far too narrow. The Duke CFO survey found surprises occurred 67% of the time instead of the expected 20%, and an honest interval for the S&P return would be about -10% to +30%, more than four times wider than the CFOs' stated ranges.",
+    "credibility": {
+      "level": "High",
+      "consensus": "Broad",
+      "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+    },
+    "boss_battle_explanation": "Overconfidence in judgment tasks such as forecasting: people set tight confidence intervals because subjective confidence is driven by the coherence of the story they construct, and the honest interval is far wider than the stated one.",
+    "stage_1_observation": "In the monthly risk committee of a pension fund, CFO Renata Silva presents her 80% confidence interval for next year's S&P 500 return: +5% to +13%. A junior risk analyst, TomÃ¡s, pulls up the last four years of her intervals on a projector: her realized returns fell outside her stated intervals in about 65% of quarters. Renata looks at the screen, then says, 'The model has improved since then.'",
+    "stage_1_question": "Why does Renata keep issuing intervals that are far too narrow even after repeated misses, and what mechanism underlies this?",
+    "stage_1_correct_answer": "Overconfidence is a direct consequence of System 1 features that can be tamed but not vanquished: subjective confidence is determined by the coherence of the story one has constructed, not by the quality and amount of information that supports it. Allowing for the information that does not come to mind is impossible.",
+    "stage_2_intervention": "The committee asks Renata to propose next quarter's interval. Her options: keep the tight +5% to +13% range to preserve credibility; present the interval that would actually reduce surprises to 20%, roughly -10% to +30%, more than four times wider; refuse to give any interval; or quietly widen the range by one point. Which choice best reflects an unbiased appreciation of uncertainty?",
+    "stage_2_correct_answer": "Present the roughly -10% to +30% interval: the Duke CFO study showed the incidence of surprises would fall from 67% to the expected 20% only with an interval about four times wider than those stated, because that is what honestly reflects the CFOs' knowledge, their ignorance. The truthful answer will be socially penalized, but it is the rational one."
+  }]}, {"id": "ch30", "title": "25. Bernoulli's Errors", "pages": "", "assets": [{
+    "asset_type": "DISCRIMINATION_MATRIX",
+    "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+    "topic": "Econs and Humans: the two agents of choice",
+    "visual_frame_description": "A university seminar room in Jerusalem in the early 1970s. Two professors face each other across a table covered in mimeographed papers, one with a dark red cover. Kahneman holds up the red essay while Tversky sketches a decision tree on a blackboard. A single student watches from the back.",
+    "player_mission": "Sort each evidence card into the column that correctly names the agent or law it describes, then determine which label fits the economics lecturer's claim about the rational agent. Select a column for every row before answering.",
+    "key_concepts": [
+      "Bruno Frey's essay began with the sentence: 'The agent of economic theory is rational, selfish, and his tastes do not change.'",
+      "To a psychologist it is self-evident that people are neither fully rational nor completely selfish, and that their tastes are anything but stable.",
+      "The behavioral economist Richard Thaler later dubbed the two kinds of agents Econs and Humans.",
+      "Unlike Econs, the Humans that psychologists know have a System 1, and their view of the world is limited by the information available at a given moment (WYSIATI).",
+      "Because of WYSIATI, Humans cannot be as consistent and logical as Econs.",
+      "Humans are sometimes generous and often willing to contribute to the group to which they are attached.",
+      "Humans often have little idea of what they will like next year or even tomorrow.",
+      "Gustav Fechner founded and named the field of psychophysics, which relates the subjective experience in the observer's mind to the objective quantity in the material world.",
+      "Fechner proposed that for many dimensions the psychophysical function is logarithmic: an increase of stimulus intensity by a given factor always yields the same increment on the psychological scale."
+    ],
+    "difficulty_level": "Beginner",
+    "theory_summary": "This scenario tests the Econs-versus-Humans distinction drawn from Bruno Frey's essay and named by Richard Thaler: the rational, selfish, stable-taste agent of economics versus the Humans psychologists know, who have a System 1, see the world through WYSIATI, are sometimes generous, and have unstable tastes.",
+    "credibility": {
+      "level": "High",
+      "consensus": "Broad",
+      "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+    },
+    "question": "An economics lecturer claims that the agent of economic theory is 'rational, selfish, and his tastes do not change.' Which label does this describe?",
+    "column_a_label": "Econs (rational-agent assumption)",
+    "column_b_label": "Humans (System 1, WYSIATI)",
+    "column_c_label": "Psychophysics (Fechner's logarithmic law)",
+    "rows": [
+      {
+        "label": "The agent of economic theory is rational, selfish, and his tastes do not change.",
+        "col": "a"
+      },
+      {
+        "label": "Humans cannot be as consistent and logical as Econs because their view of the world is limited by the information available at a given moment (WYSIATI).",
+        "col": "b"
+      },
+      {
+        "label": "An increase of stimulus intensity by a given factor always yields the same increment on the psychological scale.",
+        "col": "c"
+      },
+      {
+        "label": "Humans are sometimes generous and often willing to contribute to the group to which they are attached.",
+        "col": "b"
+      },
+      {
+        "label": "Humans often have little idea of what they will like next year or even tomorrow.",
+        "col": "b"
+      },
+      {
+        "label": "The psychological response to a change of wealth is inversely proportional to the initial amount of wealth.",
+        "col": "c"
+      },
+      {
+        "label": "Expected utility theory serves as a logic that prescribes how decisions should be made and as a description of how Econs choose.",
+        "col": "a"
+      }
+    ],
+    "correct_answer": "a",
+    "distractors": [
+      "Humans are always irrational and never generous.",
+      "Econs possess a System 1.",
+      "Fechner founded prospect theory."
+    ],
+    "explanation": "The lecturer is describing the Econs of economic theory: rational, selfish, and stable in taste. Humans differ because they have a System 1 and see the world through WYSIATI, while psychophysics, Fechner's logarithmic law, describes how subjective response scales with physical stimulus rather than the rationality of the chooser."
+  },
+  {
+    "asset_type": "DECEPTION_AUDIT_FILE",
+    "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+    "topic": "Reference points: the $20,000 bonus that stopped feeling large",
+    "visual_frame_description": "A glass-walled office at a Boston software firm. Malik Reed, a senior engineer in a checked shirt, sits across from his manager as she slides an envelope with a bonus letter across the desk. A window behind them shows the city skyline at evening.",
+    "player_mission": "Audit whether Malik is lying about his lack of enthusiasm or genuinely reporting a change in how the bonus feels. Review his baseline, the timed observation log, and the transcript, then issue the correct diagnosis.",
+    "key_concepts": [
+      "In Bernoulli's account, the gift of 10 ducats to someone with 100 ducats has the same utility as a gift of 20 ducats to someone with 200 ducats.",
+      "We normally speak of changes of income in terms of percentages, as when we say 'she got a 30% raise.'",
+      "A 30% raise may evoke a fairly similar psychological response for the rich and for the poor, which an increase of $100 will not do.",
+      "As in Fechner's law, the psychological response to a change of wealth is inversely proportional to the initial amount of wealth, leading to the conclusion that utility is a logarithmic function of wealth.",
+      "The happiness people experience is determined by the recent change in their wealth relative to the states of wealth that define their reference points.",
+      "Reference dependence is ubiquitous in sensation and perception: the same sound is experienced as very loud or quite faint depending on whether it was preceded by a whisper or a roar.",
+      "To predict the utility of an amount of wealth, you need to know the reference to which it is compared.",
+      "The book's example notes that a person was very happy with a $20,000 bonus three years ago, but his salary has gone up by 20% since, so he will need a higher bonus to get the same utility."
+    ],
+    "difficulty_level": "Beginner",
+    "theory_summary": "This scenario tests reference dependence: the utility of a given amount of money depends on the reference point from which it is judged, not on the absolute amount. Kahneman's example, a person very happy with a $20,000 bonus whose salary has since risen 20% needs a higher bonus for the same utility, is exactly Malik's case.",
+    "credibility": {
+      "level": "High",
+      "consensus": "Broad",
+      "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+    },
+    "question": "Is Malik Reed, a senior engineer, lying when he says his $20,000 bonus no longer feels big, even though the same amount once made him 'very happy' three years ago?",
+    "subject_baseline": "Malik is a steady, honest engineer at a Boston software firm who keeps a gratitude journal, gives frank performance feedback, and has never complained about pay before this conversation.",
+    "observed_nonverbal_log": [
+      "0:00-1:00 min: When told his bonus is $20,000, Malik nods slowly with no smile and glances at his phone; his tone is flat.",
+      "1:00-2:00 min: He recalls, 'Three years ago this felt enormous,' with a slight shrug and a long pause.",
+      "2:00-2:40 min: Asked whether he is satisfied, he says 'It is fine,' then adds that his salary is up 20% since then and the same number 'buys less in context.'"
+    ],
+    "interrogation_transcript": [
+      "Manager: 'You used to be thrilled with exactly this amount.'",
+      "Malik: 'And I would be thrilled again if my situation had not changed. But my reference point moved.'",
+      "Manager: 'So is it a good bonus or not?'",
+      "Malik: 'Objectively fine. Subjectively, it is not what it once was.'"
+    ],
+    "correct_diagnosis": "Malik is not lying; his satisfaction is reference-dependent. The book notes that a person who was 'very happy with a $20,000 bonus three years ago' will need a higher bonus once his salary has risen by 20%, because the psychological value of money is relative to a reference point, not absolute.",
+    "diagnostic_breakdown": "His flat affect matches a genuine change in utility: as in Fechner's law and Bernoulli's logarithmic function, the same absolute amount of money evokes a smaller subjective response at a higher baseline. There is no evidence of ingratitude, negotiation strategy, or misremembering, only a shifted reference point.",
+    "distractors": [
+      "Malik is ungrateful and entitled.",
+      "Malik is feigning disappointment to force a bigger raise.",
+      "Malik misremembers how happy he was three years ago."
+    ]
+  },
+  {
+    "asset_type": "BOSS_BATTLE",
+    "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+    "topic": "Bernoulli's expected utility: pricing the infinite gamble and the spice shipment",
+    "visual_frame_description": "A decision-theory seminar at a London university. Professor Ada Mensah stands at a chalkboard covered in coin-toss payout trees and utility tables. A student near the window has just shouted, 'But the expected value is infinite!' Ada smiles and gestures toward the merchant's ledger on her desk.",
+    "player_mission": "Explain why people pay only a few pounds for a gamble with infinite expected value, then select the correct principle for pricing the merchant's insurance. Answer the observation question, then choose the best course of action.",
+    "key_concepts": [
+      "Simple gambles such as '40% chance to win $300' are to students of decision making what the fruit fly is to geneticists.",
+      "Expected value is a weighted average of the possible outcomes, where each outcome is weighted by its probability, as in the $82 expected value of an 80% chance to win $100 and a 20% chance to win $10.",
+      "Bernoulli proposed that people's choices are based not on dollar values but on the psychological values of outcomes, their utilities.",
+      "Bernoulli drew on the diminishing marginal value of wealth to explain risk aversion, the common preference for a sure thing over a favorable gamble of equal or slightly higher expected value.",
+      "The utility of a gamble is not the weighted average of its dollar outcomes but the average of the utilities of those outcomes, each weighted by its probability.",
+      "Bernoulli offered a solution to the famous St. Petersburg paradox, in which people offered a gamble that has infinite expected value are willing to spend only a few ducats for it.",
+      "Bernoulli computed how much a merchant in St. Petersburg would be willing to pay to insure a shipment of spice from Amsterdam when 5 of the 100 ships that sail are usually lost.",
+      "The utility function explains why poor people buy insurance and why richer people sell it to them.",
+      "The loss of 1 million causes a loss of 4 points of utility to someone who has 10 million and a much larger loss of 18 points to someone who starts off with 3 million."
+    ],
+    "difficulty_level": "Intermediate",
+    "theory_summary": "This scenario tests Bernoulli's expected-utility framework: diminishing marginal utility of wealth makes people risk averse, resolving the St. Petersburg paradox (a gamble with infinite expected value is priced at a few ducats) and explaining insurance. Bernoulli computed how much a St. Petersburg merchant would pay to insure a spice shipment when 5 of 100 ships are usually lost.",
+    "credibility": {
+      "level": "High",
+      "consensus": "Broad",
+      "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+    },
+    "boss_battle_explanation": "Bernoulli's expected utility (his 'moral expectation'), built on diminishing marginal utility of wealth, explains why people prefer sure things to favorable gambles, why the St. Petersburg gamble with infinite expected value is worth only a few ducats, and why poor people buy insurance from richer people.",
+    "stage_1_observation": "In a decision-theory seminar at a London university, Professor Ada Mensah presents the St. Petersburg game: a fair coin is tossed until it comes up tails, and the payout doubles with every heads (2, 4, 8, 16...), giving the gamble infinite expected value. She asks the class how much they would pay to play. The highest bid among the students is Â£12. One student shouts, 'But the expected value is infinite!'",
+    "stage_1_question": "Why would a person willingly pay only a few pounds for a gamble whose expected value is infinite?",
+    "stage_1_correct_answer": "Because people evaluate gambles by expected utility, not expected value: Bernoulli's logarithmic utility of wealth assigns finite utility to the infinite gamble, which resolves the St. Petersburg paradox and explains why people are willing to spend only a few ducats on it.",
+    "stage_2_intervention": "Ada now presents a merchant's problem: a spice shipment worth 4 million ducats sailing from Amsterdam to St. Petersburg, where 5 of 100 ships are usually lost. She asks the class to decide how insurance should be priced. The options: charge the premium that equals the expected loss; set the premium by comparing utility losses, so the poorer merchant pays a premium to the richer insurer to transfer the risk; refuse to insure because the risk is too small; or charge both parties an identical flat premium regardless of wealth. Which pricing is grounded in Bernoulli's framework?",
+    "stage_2_correct_answer": "Set the premium by comparing utility losses: the loss of 4 utility points to the man with 10 million versus 18 points to the man with 3 million means the poorer merchant will happily pay a premium to transfer risk, which is why poor people buy insurance and richer people sell it to them."
+  },
+  {
+    "asset_type": "DISCRIMINATION_MATRIX",
+    "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+    "topic": "Reference points: why identical wealth brings different happiness",
+    "visual_frame_description": "Two portraits side by side in a clean editorial layout: Jack, a smiling man in a bright shirt with 'today $5M, yesterday $1M' beneath him, and Jill, a downcast woman in muted clothes with 'today $5M, yesterday $9M.' A financial adviser in the foreground points at a balance sheet that lists the same current wealth for both.",
+    "player_mission": "Sort each evidence card into the column that names the framework it supports, then determine which framework the adviser's claim relies on. Select a column for every row before answering.",
+    "key_concepts": [
+      "Jack and Jill each have a wealth of 5 million today; yesterday Jack had 1 million and Jill had 9 million.",
+      "Bernoulli's theory assumes that the utility of wealth is what makes people more or less happy, so with equal current wealth it asserts Jack and Jill should be equally happy.",
+      "In fact today Jack is elated and Jill despondent; Jack would be a great deal happier than Jill even if he had only 2 million today while she has 5.",
+      "The happiness that Jack and Jill experience is determined by the recent change in their wealth relative to the different states of wealth that define their reference points.",
+      "Reference dependence is ubiquitous in sensation and perception: the same sound is experienced as loud or faint depending on whether it was preceded by a whisper or by a roar.",
+      "A gray patch on a page will appear dark or light depending on the background to which it is compared.",
+      "You need to know the reference before you can predict the utility of an amount of wealth.",
+      "The error survived for so long because of theory-induced blindness: once you accept a theory and use it as a tool in your thinking, it is extraordinarily difficult to notice its flaws.",
+      "Many scholars thought of stories such as those of Anthony and Betty and casually noted that they did not jibe with utility theory, but they did not pursue the idea to the point of saying the theory is seriously wrong."
+    ],
+    "difficulty_level": "Intermediate",
+    "theory_summary": "This scenario tests reference dependence: utility depends on changes relative to a reference point, not on absolute wealth, so Jack and Jill with equal current wealth feel very different. Kahneman argues Bernoulli's model is seriously wrong because it ignores the fact that utility depends on the history of one's wealth, and the error persisted through theory-induced blindness.",
+    "credibility": {
+      "level": "High",
+      "consensus": "Broad",
+      "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+    },
+    "question": "Jack and Jill each hold $5 million today; yesterday Jack had $1 million and Jill had $9 million. A financial adviser insists they must be equally happy because their wealth is equal. Which framework does the adviser's claim rely on?",
+    "column_a_label": "State-of-wealth view (Bernoulli)",
+    "column_b_label": "Reference-dependence view (prospect theory)",
+    "column_c_label": "Theory-induced blindness (why the error survived)",
+    "rows": [
+      {
+        "label": "Bernoulli's theory asserts that Jack and Jill, with the same current wealth, should have the same utility and be equally happy.",
+        "col": "a"
+      },
+      {
+        "label": "Jack is elated and Jill despondent because their happiness is determined by recent change relative to their reference points of $1 million and $9 million.",
+        "col": "b"
+      },
+      {
+        "label": "The same sound is experienced as loud or faint depending on whether it was preceded by a whisper or a roar.",
+        "col": "b"
+      },
+      {
+        "label": "Once you accept a theory and use it as a tool in your thinking, it is extraordinarily difficult to notice its flaws.",
+        "col": "c"
+      },
+      {
+        "label": "Expected utility theory does not represent the obvious fact that the outcome that is good for Anthony is bad for Betty.",
+        "col": "a"
+      },
+      {
+        "label": "Scholars who noticed that such stories did not jibe with utility theory assumed there must be a perfectly good explanation they were somehow missing.",
+        "col": "c"
+      },
+      {
+        "label": "You need to know the reference before you can predict the utility of an amount of wealth.",
+        "col": "b"
+      }
+    ],
+    "correct_answer": "a",
+    "distractors": [
+      "Reference dependence applies only to money, not to perception.",
+      "Theory-induced blindness is a deliberate, conscious choice to ignore evidence.",
+      "Jack's elation is caused by today's wealth alone."
+    ],
+    "explanation": "The adviser is applying Bernoulli's state-of-wealth view, which judges utility from current wealth alone and therefore predicts equal happiness for equal wealth. The chapter rejects this view: reference dependence in perception and value means happiness tracks changes relative to each person's reference point, and the error survived so long because of theory-induced blindness."
+  },{
+    "asset_type": "DECEPTION_AUDIT_FILE",
+    "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+    "topic": "Risk attitudes from reference points: why she settles and he goes to court",
+    "visual_frame_description": "A neutral mediation room in a suburban family-court annex. Elena, a pediatrician in a cardigan, sits beside a pad of settlement notes and nods at the mediator. Across the table, Tom, a restaurant owner, sits with arms crossed while his lawyer whispers to him. A court calendar hangs on the wall.",
+    "player_mission": "Audit whether either spouse is lying about wanting to settle or go to trial. Review the baselines, the timed observation log, and the transcript, then issue the correct diagnosis about their risk attitudes.",
+    "key_concepts": [
+      "The book's alimony example explains: 'She can only gain, so she's risk averse. He, on the other hand, faces options that are all bad, so he'd rather take the risk.'",
+      "Bernoulli's model could explain Anthony's risk aversion, but it cannot explain Betty's risk-seeking preference for the gamble.",
+      "Risk-seeking behavior in the face of bad options is often observed in entrepreneurs and in generals when all their options are bad.",
+      "Because Bernoulli's model lacks the idea of a reference point, expected utility theory does not represent the obvious fact that the outcome that is good for Anthony is bad for Betty.",
+      "The psychological outcomes that Anthony and Betty assess are entirely different, although the possible states of wealth they face are the same.",
+      "Anthony, who owns 1 million, thinks of the sure thing as doubling his wealth; Betty, who owns 4 million, thinks of it as losing half of hers.",
+      "Betty is much more likely to take her chances, as others do when faced with very bad options.",
+      "The happiness people experience is determined by the recent change in their wealth relative to the states that define their reference points."
+    ],
+    "difficulty_level": "Intermediate",
+    "theory_summary": "This scenario tests reference-dependent risk attitudes: the same objective options are evaluated as gains or losses relative to each party's reference point. Kahneman's alimony example shows the spouse who can only gain is risk averse while the spouse facing all-bad options prefers the gamble, a pattern Bernoulli's model cannot explain.",
+    "credibility": {
+      "level": "High",
+      "consensus": "Broad",
+      "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+    },
+    "question": "In a divorce mediation, Elena wants to settle while her ex-husband Tom insists on going to court. Is one of them lying about their preferences?",
+    "subject_baseline": "Elena is a cautious, detail-oriented pediatrician who has never litigated anything; Tom is a proud restaurant owner who hates losing negotiations and keeps his own books.",
+    "observed_nonverbal_log": [
+      "0:00-1:00 min: Elena reads the proposed settlement, exhales slowly, and nods twice at the mediator; her shoulders visibly drop as she relaxes.",
+      "1:00-2:30 min: Tom crosses his arms, shakes his head, and taps the table; when his lawyer whispers about trial costs, his jaw tightens but he keeps shaking his head.",
+      "2:30-3:30 min: The mediator notes that a trial could cost more than the settlement; Tom looks at Elena, then says, 'I will take my chances,' and leans back with a fixed stare."
+    ],
+    "interrogation_transcript": [
+      "Mediator: 'Tom, the settlement guarantees you something. Why go to court?'",
+      "Tom: 'Because this settlement gives me nothing either way. In court, at least I have a shot.'",
+      "Mediator: 'You understand a trial is risky for you?'",
+      "Tom: 'So is settling. Every option I have right now is bad.'"
+    ],
+    "correct_diagnosis": "Neither party is lying; their risk attitudes follow from their reference points. Elena can only gain from a settlement, so she is risk averse; Tom faces options that are all bad, so he prefers the gamble, exactly the book's example: 'She can only gain, so she's risk averse. He, on the other hand, faces options that are all bad, so he'd rather take the risk.'",
+    "diagnostic_breakdown": "Bernoulli's state-of-wealth model cannot explain Tom's risk seeking, but reference dependence can: outcomes are coded as gains or losses from each party's reference point, and risk seeking appears when all options look like losses. Tom's tense body language shows genuine discomfort, not deception; his stated preference matches the pattern observed in entrepreneurs and generals with only bad options.",
+    "distractors": [
+      "Tom is hiding assets and wants court to delay discovery.",
+      "Elena is secretly wealthy and bluffing about wanting to settle.",
+      "The mediator is biased toward one spouse."
+    ]
+  },
+  {
+    "asset_type": "DISCRIMINATION_MATRIX",
+    "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+    "topic": "Expected value, expected utility, and reference-dependent choice",
+    "visual_frame_description": "A tidy diagram on a screen shows three columns of math: a coin flip with dollar payoffs, a logarithmic curve labeled utility of wealth, and two figures labeled Anthony and Betty standing at different starting points on a wealth axis. A merchant's ship and a ledger sit in the corner of the frame.",
+    "player_mission": "Sort each evidence card into the column that names the framework it belongs to, then determine which framework best explains the merchant buying insurance at a premium. Select a column for every row before answering.",
+    "key_concepts": [
+      "Prior to Bernoulli, mathematicians assumed gambles are assessed by their expected value: a weighted average of outcomes, as in the $82 expected value of an 80% chance to win $100 and a 20% chance to win $10.",
+      "Bernoulli pointed out that people do not in fact evaluate gambles by expected value, since almost everyone prefers a sure $80 to a gamble with an expected value of $82.",
+      "Bernoulli observed that most people dislike risk and will choose a sure thing that is less than expected value, in effect paying a premium to avoid the uncertainty.",
+      "Adding 1 million to a wealth of 1 million yields 20 utility points, but adding 1 million to a wealth of 9 million adds only 4 points.",
+      "The utility of a gamble is the average of the utilities of its outcomes, each weighted by its probability; the utility of the 50/50 gamble for 1 or 4 million is 47, less than the utility of 60 for owning 4 million for sure.",
+      "Bernoulli's utility function explains why poor people buy insurance and why richer people sell it to them.",
+      "Anthony, who owns 1 million, thinks of the sure 2 million as doubling his wealth; Betty, who owns 4 million, thinks of it as losing half of hers.",
+      "Betty's risk-seeking preference for the gamble is often observed in entrepreneurs and in generals when all their options are bad.",
+      "Because Bernoulli's model lacks the idea of a reference point, it does not represent the fact that the outcome that is good for Anthony is bad for Betty."
+    ],
+    "difficulty_level": "Advanced",
+    "theory_summary": "This scenario tests the difference between expected value, expected utility, and reference-dependent choice. Bernoulli's logarithmic utility of wealth explains risk aversion and insurance (poor people buy it, richer people sell it), while the reference point absent from his model is what prospect theory adds to explain choices like Betty's.",
+    "credibility": {
+      "level": "High",
+      "consensus": "Broad",
+      "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+    },
+    "question": "A merchant in St. Petersburg happily pays an insurance premium to protect a spice shipment. Which framework best explains this willingness to pay more than the expected loss?",
+    "column_a_label": "Expected value (weighted average of dollars)",
+    "column_b_label": "Expected utility (Bernoulli's diminishing marginal utility)",
+    "column_c_label": "Reference-dependent choice (prospect theory)",
+    "rows": [
+      {
+        "label": "Mathematicians before Bernoulli assessed gambles by expected value: 0.8 x $100 + 0.2 x $10 = $82.",
+        "col": "a"
+      },
+      {
+        "label": "Adding 1 million to a wealth of 1 million yields 20 utility points, but adding 1 million to a wealth of 9 million adds only 4.",
+        "col": "b"
+      },
+      {
+        "label": "The utility of the 50/50 gamble for 1 or 4 million is 47, which is less than the utility 60 of owning 4 million for sure.",
+        "col": "b"
+      },
+      {
+        "label": "Anthony codes the sure $2 million as doubling his wealth; Betty codes it as losing half of hers.",
+        "col": "c"
+      },
+      {
+        "label": "A risk-averse decision maker will choose a sure thing that is less than the expected value, paying a premium to avoid uncertainty.",
+        "col": "b"
+      },
+      {
+        "label": "Betty prefers the gamble because the sure option is a loss from her reference point.",
+        "col": "c"
+      },
+      {
+        "label": "The St. Petersburg gamble has infinite expected value yet people spend only a few ducats for it.",
+        "col": "b"
+      }
+    ],
+    "correct_answer": "b",
+    "distractors": [
+      "Insurance pricing is explained by expected value, because the premium equals the expected loss.",
+      "Prospect theory predicts that merchants refuse to buy insurance.",
+      "The St. Petersburg paradox was never resolved by any theory."
+    ],
+    "explanation": "The merchant's premium is explained by expected utility: because utility is a logarithmic function of wealth, the utility loss from a wreck is far larger for the poorer man, so he pays a premium to transfer the risk, which is what insurance is about. Expected value cannot explain a premium above expected loss, and reference dependence concerns gains and losses around a reference point rather than the wealth-based utility that grounds insurance."
+  },
+  {
+    "asset_type": "DECEPTION_AUDIT_FILE",
+    "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+    "topic": "Risk seeking in the loss domain: the manager who prefers the gamble",
+    "visual_frame_description": "A regional manager's office at a retail chain. Dana Kowalski sits opposite a CFO who has placed two documents on the desk: one labeled 'Guaranteed 15% cut' and one labeled 'Restructuring gamble: 10% or 30%.' Dana leans forward, tapping a pen, with a store-sales chart visible on the wall behind her.",
+    "player_mission": "Audit whether Dana is being honest when she says she prefers the gamble to the guaranteed cut. Review her baseline, the timed observation log, and the transcript, then issue the correct diagnosis about her risk attitude.",
+    "key_concepts": [
+      "Betty, who currently owns 4 million, sees the sure thing of owning 2 million as a certain loss of half her wealth, which is awful.",
+      "Betty is much more likely to take her chances with a gamble, as others do when faced with very bad options.",
+      "The behavior of preferring a gamble when all options are bad is often observed in entrepreneurs and in generals when all their options are bad.",
+      "Bernoulli's model could explain Anthony's risk aversion, but it cannot explain Betty's risk-seeking preference for the gamble.",
+      "Because Bernoulli's model lacks the idea of a reference point, it does not represent that the outcome that is good for Anthony is bad for Betty.",
+      "The psychological outcomes that Anthony and Betty assess are entirely different, although the possible states of wealth they face are the same.",
+      "Anthony thinks of the sure thing as a gain (doubling his wealth) while Betty thinks of it as a loss (halving hers), so they choose differently.",
+      "The happiness people experience is determined by the recent change in their wealth relative to the states of wealth that define their reference points."
+    ],
+    "difficulty_level": "Advanced",
+    "theory_summary": "This scenario tests risk seeking in the loss domain: when all options are bad, people choose the gamble over a certain loss. Kahneman notes this behavior is often observed in entrepreneurs and generals, and it is exactly what Bernoulli's state-of-wealth model cannot explain but reference dependence can.",
+    "credibility": {
+      "level": "High",
+      "consensus": "Broad",
+      "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+    },
+    "question": "Dana Kowalski, a regional retail manager, must accept either a guaranteed 15% budget cut or gamble on a restructuring that could cut her budget by 10% or by 30%. Is she being dishonest when she says she prefers the gamble?",
+    "subject_baseline": "Dana is a conservative, detail-driven manager who has turned down risky store expansions for years and double-checks every budget line before signing it.",
+    "observed_nonverbal_log": [
+      "0:00-1:00 min: When the CFO slides over the guaranteed 15% cut, Dana frowns, pushes the paper slightly away, and shakes her head slowly.",
+      "1:00-2:30 min: When the CFO describes the restructuring gamble (10% or 30%), Dana leans forward, asks three sharp questions about the upside, and taps her pen rhythmically.",
+      "2:30-3:15 min: She says 'I will take the chance' quickly, with her jaw set and eyes fixed on the CFO, then relaxes into her chair."
+    ],
+    "interrogation_transcript": [
+      "CFO: 'The sure path is a 15% cut. The gamble could cost you 10% or 30%.'",
+      "Dana: 'I will take the gamble. The sure cut is a loss either way.'",
+      "CFO: 'A 30% cut could close one of your stores.'",
+      "Dana: 'And the 15% cut could close two. From where I sit, every option is a loss.'"
+    ],
+    "correct_diagnosis": "Dana is being honest: she is risk seeking in the loss domain because all her options are bad relative to her reference point. The book's Betty prefers the gamble over a sure loss of half her wealth, and this risk-seeking behavior is often observed in entrepreneurs and in generals when all their options are bad.",
+    "diagnostic_breakdown": "Bernoulli's model cannot explain Dana's choice, but reference dependence can: the sure 15% cut is coded as a certain loss, while the gamble offers a chance of a smaller loss, so it feels less bad. Her forward lean and quick decision indicate genuine engagement with the gamble, not concealment of information.",
+    "distractors": [
+      "Dana is trying to hide a worse problem in her own division.",
+      "Dana has secret information the CFO lacks.",
+      "Dana has a gambling problem unrelated to the budget."
+    ]
+  },
+  {
+    "asset_type": "BOSS_BATTLE",
+    "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+    "topic": "Reframing the buyout: Anthony and Betty",
+    "visual_frame_description": "A mediation suite overlooking a city. Two founders, Anthony and Betty, face a mediator across a table covered with offer sheets. Both sheets list the same pair of options: a sure $2 million or a 50/50 gamble ending at $1 million or $4 million. Anthony scribbles 'doubles everything' while Betty has written 'cuts my position in half.'",
+    "player_mission": "Explain why Anthony and Betty, facing identical final wealth states, want different options, then choose the correct framing for the closing memo. Answer the observation question, then select the best course of action.",
+    "key_concepts": [
+      "Anthony's current wealth is 1 million and Betty's is 4 million; both are offered equal chances to end up owning 1 million or 4 million, or the sure thing of owning 2 million.",
+      "In Bernoulli's account, Anthony and Betty face the same choice because their expected wealth will be 2.5 million with the gamble and 2 million with the sure thing, so he would expect the same choice.",
+      "The theory fails because it does not allow for the different reference points from which Anthony and Betty consider their options.",
+      "Anthony thinks: 'If I choose the sure thing, my wealth will double with certainty, which is very attractive; alternatively I can take a gamble with equal chances to quadruple my wealth or to gain nothing.'",
+      "Betty thinks: 'If I choose the sure thing, I lose half of my wealth with certainty, which is awful; alternatively I can take a gamble with equal chances to lose three-quarters of my wealth or to lose nothing.'",
+      "Neither Anthony nor Betty thinks in terms of states of wealth: Anthony thinks of gains and Betty thinks of losses, so the psychological outcomes they assess are entirely different.",
+      "Because Bernoulli's model lacks the idea of a reference point, expected utility theory does not represent the obvious fact that the outcome that is good for Anthony is bad for Betty.",
+      "His model could explain Anthony's risk aversion, but it cannot explain Betty's risk-seeking preference for the gamble."
+    ],
+    "difficulty_level": "Beginner",
+    "theory_summary": "This scenario tests reference dependence in choice: Anthony evaluates the sure option as a gain and Betty as a loss, so they choose differently despite identical final wealth states. Kahneman argues Bernoulli's expected utility theory does not represent the obvious fact that the outcome that is good for Anthony is bad for Betty.",
+    "credibility": {
+      "level": "High",
+      "consensus": "Broad",
+      "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+    },
+    "boss_battle_explanation": "Reference dependence in negotiation: the same objective outcomes are gains for one party and losses for another, because each evaluates options from a different reference point.",
+    "stage_1_observation": "Two founders, Anthony and Betty, meet with a mediator to divide a buyout offer. Both are offered the same pair of options: a sure $2 million in cash, or a gamble that ends at $1 million or $4 million with equal chances. Anthony, who currently has about $1 million in personal assets, keeps saying the sure thing 'doubles everything for me.' Betty, with about $4 million in assets, mutters that the sure thing 'cuts my position in half.' Both turn to the mediator, confused that they cannot agree.",
+    "stage_1_question": "Why do Anthony and Betty, facing identical final wealth states, want different options?",
+    "stage_1_correct_answer": "Their reference points differ: the sure $2 million doubles Anthony's wealth (a gain) but halves Betty's (a loss), so Anthony is risk averse and Betty is risk seeking. The psychological outcomes they assess are entirely different even though the possible states of wealth are the same.",
+    "stage_2_intervention": "The mediator must write the closing memo framing the offer. Options: present both options purely as final wealth amounts ($1M, $2M, or $4M); describe each option relative to each party's current wealth and acknowledge that the outcome 'good for Anthony is bad for Betty'; advise both to take the sure thing for safety; or warn both that they are being irrational. Which framing is most accurate?",
+    "stage_2_correct_answer": "Describe each option relative to each party's reference point and acknowledge that the outcome good for Anthony is bad for Betty: Bernoulli's model fails because it lacks a reference point, and reference dependence explains why risk aversion in gains and risk seeking in losses coexist in the same negotiation."
+  }]}]}

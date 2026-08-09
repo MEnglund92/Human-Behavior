@@ -1,0 +1,142 @@
+{
+  "spec_file": "spec_kahneman_b18.json",
+  "book_key": "kahneman",
+  "book_title": "Thinking, Fast and Slow (Daniel Kahneman)",
+  "topic": "cognitive-biases",
+  "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+  "credibility_profile": {
+    "level": "High",
+    "consensus": "Broad",
+    "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+  },
+  "modality_weights": {
+    "DISCRIMINATION_MATRIX": 40,
+    "DECEPTION_AUDIT_FILE": 30,
+    "BOSS_BATTLE": 30
+  },
+  "chapter_count": 2,
+  "chapters": [
+    {
+      "index": 35,
+      "title": "30. Rare Events",
+      "words": 4692,
+      "asset_count": 8,
+      "text_path": "extract/generated_assets/phase7a/kahneman/chapter_0035.txt",
+      "top_concepts": [
+        {
+          "term": "system 1",
+          "context": "edge does not eliminate the self-generated discomfort and the wish to avoid it. System 1 cannot be turned off. The emotion is not only disproportionate to the probability, it is also insensitive to the exact"
+        },
+        {
+          "term": "prospect theory",
+          "context": "ility is inconsequential; only possibility matters. The original formulation of prospect theory included the argument that “highly unlikely events are either ignored or overweighted,” but it did not specify the cond"
+        },
+        {
+          "term": "response",
+          "context": ", availability, and judgments of probability—and thus account for our excessive response to the few rare events that we do not ignore. Overestimation and Overweighting What is your judgment of the probability"
+        },
+        {
+          "term": "possibility effect",
+          "context": "g is also represented vividly, and overweighted. The combination of an enhanced possibility effect with an enhanced certainty effect leaves little room for decision weights to change between chances of 21% and 84%. Viv"
+        },
+        {
+          "term": "system 2",
+          "context": "automatic, and uncontrolled, and it produces an impulse for protective action. System 2 may “know” that the probability is low, but this knowledge does not eliminate the self-generated discomfort and the wis"
+        },
+        {
+          "term": "cognitive ease",
+          "context": "ical mechanisms are involved in both: focused attention, confirmation bias, and cognitive ease. Specific descriptions trigger the associative machinery of System 1. When you thought about the unlikely victory of a"
+        },
+        {
+          "term": "hypothesis",
+          "context": "educes the role of probability in the evaluation of an uncertain prospect. This hypothesis suggests a prediction, in which I have reasonably high confidence: adding irrelevant but vivid details to a monetary ou"
+        },
+        {
+          "term": "certainty effect",
+          "context": "even if you know that its probability is low. Cognitive ease contributes to the certainty effect as well: when you hold a vivid image of an event, the possibility of its not occurring is also represented vividly, and"
+        },
+        {
+          "term": "behavior",
+          "context": "n buses, as I was driving a rented car, but I was chagrined to discover that my behavior was also affected. I found that I did not like to stop next to a bus at a red light, and I drove away more quickly than"
+        },
+        {
+          "term": "salience",
+          "context": "lobal Impressions The evidence suggests the hypothesis that focal attention and salience contribute to both the overestimation of unlikely events and the overweighting of unlikely outcomes. Salience is enhanc"
+        },
+        {
+          "term": "self",
+          "context": "y “know” that the probability is low, but this knowledge does not eliminate the self-generated discomfort and the wish to avoid it. System 1 cannot be turned off. The emotion is not only disproportionate"
+        },
+        {
+          "term": "influence",
+          "context": "is rooted in System 1 features that are familiar by now. Emotion and vividness influence fluency, availability, and judgments of probability—and thus account for our excessive response to the few rare events"
+        },
+        {
+          "term": "confirmation bias",
+          "context": "ena, the same psychological mechanisms are involved in both: focused attention, confirmation bias, and cognitive ease. Specific descriptions trigger the associative machinery of System 1. When you thought about the un"
+        },
+        {
+          "term": "availability heuristic",
+          "context": "ention turned to the abnormal alternative. The unlikely event became focal. The availability heuristic is likely to be evoked: your judgment was probably determined by the number of scenarios of medical problems you produc"
+        },
+        {
+          "term": "planning fallacy",
+          "context": "were also much too willing to bet on them. These findings shed new light on the planning fallacy and other manifestations of optimism. The successful execution of a plan is specific and easy to imagine when one tries"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "title": "31. Risk Policies",
+      "words": 2788,
+      "asset_count": 5,
+      "text_path": "extract/generated_assets/phase7a/kahneman/chapter_0036.txt",
+      "top_concepts": [
+        {
+          "term": "loss aversion",
+          "context": "oice. Samuelson had not seen Rabin’s proof of the absurd consequences of severe loss aversion for small bets, but he would surely not have been surprised by it. His willingness even to consider the possibility tha"
+        },
+        {
+          "term": "narrow framing",
+          "context": "e unlikely to be optimal. There were two ways of construing decisions i and ii: narrow framing: a sequence of two simple decisions, considered separately broad framing: a single comprehensive decision, with four op"
+        },
+        {
+          "term": "system 1",
+          "context": "emotional evaluation of “sure gain” and “sure loss” is an automatic reaction of System 1, which certainly occurs before the more effortful (and optional) computation of the expected values of the two gambles"
+        },
+        {
+          "term": "response",
+          "context": "ew, you lose a few. The main purpose of the mantra is to control your emotional response when you do lose. If you can trust it to be effective, you should remind yourself of it when deciding whether or not to"
+        },
+        {
+          "term": "prospect theory",
+          "context": "e nothing This pair of choice problems has an important place in the history of prospect theory, and it has new things to tell us about rationality. As you skimmed the two problems, your initial reaction to the sure"
+        },
+        {
+          "term": "wysiati",
+          "context": "ple shows, is not achievable by our limited mind. Because we are susceptible to WYSIATI and averse to mental effort, we tend to make decisions as problems arise, even when we are specifically instructed to c"
+        },
+        {
+          "term": "intuition",
+          "context": "make 100 such bets.” Unless you are a decision theorist, you probably share the intuition of Samuelson’s friend, that playing a very favorable but risky gamble multiple times reduces the subjective risk. Samue"
+        },
+        {
+          "term": "value function",
+          "context": "es to the powerful hold of the rational model. Let us assume that a very simple value function describes the preferences of Samuelson’s friend (call him Sam). To express his aversion to losses Sam first rewrites th"
+        },
+        {
+          "term": "purpose",
+          "context": "icantly closer to economic rationality: you win a few, you lose a few. The main purpose of the mantra is to control your emotional response when you do lose. If you can trust it to be effective, you should r"
+        },
+        {
+          "term": "endowment effect",
+          "context": "rader,” just as experienced baseball card traders are not as susceptible to the endowment effect as novices are. Students made risky decisions (to accept or reject gambles in which they could lose) under different in"
+        },
+        {
+          "term": "planning fallacy",
+          "context": "two distinct biases that affect many decisions: the exaggerated optimism of the planning fallacy and the exaggerated caution induced by loss aversion. The two biases oppose each other. Exaggerated optimism protects i"
+        }
+      ]
+    }
+  ]
+}

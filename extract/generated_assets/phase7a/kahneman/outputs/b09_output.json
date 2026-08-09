@@ -1,0 +1,736 @@
+{
+  "spec_file": "spec_kahneman_b09.json",
+  "chapters": [
+    {
+      "id": "ch20",
+      "title": "15. Linda: Less is More",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Representativeness, Logic, and Plausibility in Probability Judgments",
+          "visual_frame_description": "A split-screen evidence board in a bright data-analysis office. On the left, three labeled columns await sorted cards: 'Representativeness', 'Logical Inference', and 'Plausibility Substitution'. In the center, Priya, a 34-year-old senior risk analyst in a navy blazer, circles two forecast scenarios on a whiteboard, a broad 'North America flood' and a detailed 'California earthquake causing a flood'. On the right, a stack of gray evidence cards shows judgment snippets from the Linda studies and the forecast experiments.",
+          "player_mission": "Sort each evidence card into the column it best illustrates, then classify Priya's forecast judgment. Read the label on every card and decide whether it reflects a similarity judgment, a logical-inclusion inference, or a substitution of plausibility for probability.",
+          "key_concepts": [
+            "The Linda problem pits the intuition of representativeness against the logic of probability, because a conjunction can never be more probable than one of its components.",
+            "Every feminist bank teller is a bank teller, so the probability that Linda is a feminist bank teller must be lower than the probability that she is a bank teller.",
+            "Specifying a possible event in greater detail can only lower its probability, because a more specific event is a subset of a broader one.",
+            "Judgments of probability in the Linda problem corresponded precisely to judgments of representativeness, that is, to similarity to a stereotype.",
+            "The notions of coherence, plausibility, and probability are easily confused, and the uncritical substitution of plausibility for probability corrupts scenario-based forecasting.",
+            "A detailed scenario (an earthquake in California causing a flood) was judged more probable than a broad one (a massive flood in North America), although the detailed event is strictly less probable.",
+            "The outcomes 'Mark has blond hair' and 'Jane is a teacher and walks to work' produce no fallacy, because the added detail is only detail, not extra plausibility.",
+            "System 2 is not impressively alert: respondents who knew the logic of Venn diagrams still failed to apply it when the conjunction simply appeared plausible.",
+            "Representativeness belongs to a cluster of closely related basic assessments that are generated together, so resemblance, coherence, and likelihood judgments tend to move as one."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the conjunction fallacy and the substitution of plausibility for probability: System 1 endorses the story that feels most coherent, so a detailed conjunction is treated as more likely than the broader event that contains it. Kahneman and Tversky showed that 85% to 90% of undergraduates violated the logic of the Linda problem, and that richer forecast scenarios were rated more probable despite being strictly less likely.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Priya, a senior risk analyst, is evaluating two scenarios for next year: 'a massive flood somewhere in North America in which more than 1,000 people drown' and 'an earthquake in California causing a flood in which more than 1,000 people drown.' She rates the California earthquake scenario as more probable. Study the sorted rows, then classify which column her judgment belongs in.",
+          "column_a_label": "Representativeness judgment (similarity to a stereotype)",
+          "column_b_label": "Logical inference (inclusion and sum-like variables)",
+          "column_c_label": "Plausibility substitution (detail taken for probability)",
+          "rows": [
+            {
+              "label": "Audience members judge that Linda, the philosophy-majoring antinuclear activist, is a very good fit for an 'active feminist'.",
+              "col": "a"
+            },
+            {
+              "label": "Every feminist bank teller is a bank teller, so the probability of 'feminist bank teller' cannot exceed the probability of 'bank teller'.",
+              "col": "b"
+            },
+            {
+              "label": "Forecasters rate the detailed California earthquake flood scenario as more probable than the broader North America flood, though detail can only lower probability.",
+              "col": "c"
+            },
+            {
+              "label": "The detailed outcome 'Jane is a teacher and walks to work' is judged no more probable than 'Jane is a teacher,' because the extra detail adds no plausibility.",
+              "col": "b"
+            },
+            {
+              "label": "Linda looks more like a 'feminist bank teller' than like the stereotypical bank teller, a purely resemblance-based assessment.",
+              "col": "a"
+            },
+            {
+              "label": "A committee prizes a richly detailed disaster scenario above a sparser one without checking the subset relation, confusing a good story with a high probability.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "Priya is correctly applying the inclusion rule because California is a part of North America.",
+            "Priya is using a causal base rate about earthquakes in California to update her estimate.",
+            "Priya is anchoring her probability estimate on the number 1,000 drownings."
+          ],
+          "explanation": "Priya's rating is the forecasting trap the book describes: adding detail (an earthquake in California) makes a scenario more coherent and persuasive, but the richer scenario is a subset of the broader one and is strictly less probable. Her judgment sorts to column c because she substituted plausibility for probability; a logician applying the inclusion rule would assign it to column b."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Single versus Joint Evaluation: When Intuition Beats Logic",
+          "visual_frame_description": "A museum-style comparison lab. On a long table sit two clearanced dinnerware displays and two trays of baseball cards. A left monitor shows one shopper pricing a single set (single evaluation) while a right monitor shows a shopper comparing both sets side by side. A small progress bar tracks the player's classifications, and a card deck labeled 'Linda', 'Wimbledon', and 'Die sequences' waits at the edge of the table.",
+          "player_mission": "Classify each experiment result as an instance of the less-is-more pattern, of logic prevailing in joint evaluation, or of a conjunction error surviving a direct comparison. Then classify the target row for the dinnerware joint-evaluation finding.",
+          "key_concepts": [
+            "In Hsee's dinnerware experiment, Set A (40 pieces, including broken cups and saucers) was priced below Set B (24 intact pieces) in single evaluation: about $23 versus $33.",
+            "In joint evaluation, participants were willing to pay a little more for Set A than for Set B, about $32 versus $30, because more dishes can only add value.",
+            "Sets, including dinnerware sets, are represented by norms and prototypes, so the average value of the dishes dominates single evaluation.",
+            "By removing 16 items from Set A, 7 of them intact, its judged value improved, a pattern Hsee called 'less is more.'",
+            "John List replicated the less-is-more pattern in a real market for baseball cards: larger sets sold for less in single evaluation but for more in joint evaluation.",
+            "Probability and economic value are sum-like variables, so adding a positively valued event or item to a set can only increase its true value.",
+            "In the within-subject Linda study, 89% of undergraduates still ranked 'feminist bank teller' above 'bank teller,' a conjunction error that survived direct comparison.",
+            "In the Wimbledon problem, 72% assigned 'Borg will lose the first set' a lower probability than 'Borg will lose the first set but win the match.'",
+            "The die problem was a nonverbal version of Linda: almost two-thirds of respondents preferred to bet on a longer, more representative sequence that was strictly less likely."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the contrast between single and joint evaluation: in single evaluation, System 1 averages instead of adding, producing the less-is-more illusion, while joint evaluation makes sum-like logic salient and lets System 2 rule. Kahneman shows the same structure governs probability and value, and that unlike the dinnerware case, the Linda conjunction error often survived joint evaluation.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Mia, a pricing analyst, is auditing how customers valued dinnerware and baseball-card sets in Hsee's and List's experiments. The target row: shoppers who saw both dinnerware sets together were willing to pay a little more for Set A (40 pieces) than for Set B (24 pieces). Which column best describes that result?",
+          "column_a_label": "Less is more: intuition governs in single evaluation",
+          "column_b_label": "Logic rules: joint evaluation makes the sum-like value obvious",
+          "column_c_label": "Conjunction fallacy persists even in a direct comparison",
+          "rows": [
+            {
+              "label": "A shopper shown only the 40-piece Set A with broken cups prices it at about $23, well below the price of the smaller intact Set B.",
+              "col": "a"
+            },
+            {
+              "label": "Shoppers who saw both sets together priced Set A (40 pieces) slightly above Set B (24 pieces), about $32 versus $30.",
+              "col": "b"
+            },
+            {
+              "label": "In John List's market for baseball cards, an identical set with three added cards of modest value sold for less than the smaller set when each was priced alone.",
+              "col": "a"
+            },
+            {
+              "label": "In List's market, the larger sets were valued more than the smaller ones when bidders could compare them.",
+              "col": "b"
+            },
+            {
+              "label": "In the within-subject Linda study, 89% of undergraduates ranked 'feminist bank teller' as more probable than 'bank teller' even though both items sat on the same page.",
+              "col": "c"
+            },
+            {
+              "label": "In the Wimbledon study, 72% judged 'Borg will lose the first set but win the match' more probable than the more inclusive 'Borg will lose the first set.'",
+              "col": "c"
+            },
+            {
+              "label": "Shoppers in joint evaluation paid a little more for the 40-piece Set A than for the 24-piece Set B.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The shoppers were applying the norm of the broken-dishes average and penalizing Set A for its damaged pieces.",
+            "The shoppers fell for the conjunction fallacy in a direct comparison.",
+            "The shoppers anchored their price on the regular dinnerware range of $30 to $60."
+          ],
+          "explanation": "Joint evaluation lets shoppers compare the sets at once, and then they apply the sum-like rule that more dishes can only add value, valuing Set A a little above Set B ($32 versus $30). That is why the target row sorts to column b: logic rules when the comparison is present, whereas intuition governs single evaluation."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Question Formats That Mobilize or Defeat System 2",
+          "visual_frame_description": "A trainer's whiteboard in a bright data-literacy workshop. Niko, a 47-year-old data-literacy trainer, has pinned three question formats: the eight-outcome Linda ranking, the stark two-item question, and a 'how many of the 100 participants' version. Colored magnets label each card, and a small histogram above shows the error rates 89%, 65%, and 25%.",
+          "player_mission": "Sort each presentation format into the correct column: formats that breed the conjunction fallacy, formats that make the inclusion relation obvious and reduce the error, and formats that cause no fallacy because added detail adds no plausibility. Then classify the target 'how many of the 100 participants' frequency format.",
+          "key_concepts": [
+            "In the original eight-outcome Linda problem, only 15% of a group of graduate students correctly ranked 'bank teller' above 'feminist bank teller.'",
+            "In the stark two-item version, about 85% to 90% of undergraduates chose the conjunction, contrary to logic.",
+            "In one study, 64% of graduate students in the social sciences at Stanford and Berkeley answered the short version correctly.",
+            "The shorter version required an explicit comparison that mobilized System 2 and allowed most statistically sophisticated students to avoid the fallacy.",
+            "A version asking 'How many of the 100 participants...' reduced conjunction errors to 25%, while the equivalent 'What percentage...' version kept errors at 65%.",
+            "The frequency representation, phrased as 'how many?', makes individuals concrete and makes the relation of inclusion obvious, whereas 'what percentage?' does not.",
+            "The problems 'Mark has hair versus Mark has blond hair' and 'Jane is a teacher versus Jane is a teacher and walks to work' cause no fallacy because the added detail adds no plausibility.",
+            "In the absence of a competing intuition, logic prevails.",
+            "System 2 is lazy: respondents spent very little time on the problem and were content to answer as if they had only been asked for their opinion."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests how question format recruits System 2: a direct comparison or a 'how many' frequency frame makes the subset relation vivid and collapses the conjunction fallacy, while word-based probability wording leaves plausibility in charge. Kahneman reports the frequency version cut the error rate from 65% to 25%, a likely explanation being the spatial imagery of people sorting themselves into groups.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Niko, a data-literacy trainer, wants to know which presentation of the Linda problem will reduce the conjunction fallacy. Sort each format into the correct column, then classify the target: the version that asks 'How many of the 100 participants...'",
+          "column_a_label": "Format that produces the conjunction fallacy",
+          "column_b_label": "Format that makes inclusion obvious and sharply reduces the error",
+          "column_c_label": "No fallacy arises because added detail adds no plausibility",
+          "rows": [
+            {
+              "label": "The original eight-outcome Linda ranking, in which 'feminist bank teller' appears as the last item.",
+              "col": "a"
+            },
+            {
+              "label": "The stark two-item question 'Which alternative is more probable?' with only 'bank teller' and 'feminist bank teller.'",
+              "col": "a"
+            },
+            {
+              "label": "The frequency version asking how many of 100 participants fit each description, which cuts errors from 65% to 25%.",
+              "col": "b"
+            },
+            {
+              "label": "The percentage version of the same problem, in which 65% of respondents still committed the fallacy.",
+              "col": "a"
+            },
+            {
+              "label": "Which is more probable: Mark has hair, or Mark has blond hair? Answered correctly, since the detailed option adds no plausibility.",
+              "col": "c"
+            },
+            {
+              "label": "Which is more probable: Jane is a teacher, or Jane is a teacher and walks to work? Answered correctly for the same reason.",
+              "col": "c"
+            },
+            {
+              "label": "The frequency format asking 'How many of the 100 participants...'",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The frequency format increases the error because counting individuals makes the story more vivid.",
+            "The frequency format eliminates the error because it removes the word 'probability' and therefore removes all logical constraints.",
+            "The frequency format works only for statistically sophisticated respondents, not for undergraduates."
+          ],
+          "explanation": "The 'how many of the 100 participants' format brings a spatial representation to mind, as if people were sorting themselves into groups in a room, so the inclusion relation becomes obvious and System 2 can apply it, cutting errors to 25%. That is why the target row sorts to column b."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Auditing a Forecast Built on Plausibility",
+          "visual_frame_description": "A glass-walled conference room at Apex Home Appliances. Dana stands at a projector, her quarterly forecast deck visible behind her, and the finance director Marcus sits opposite with a notepad. A timestamped observation feed runs along the bottom of the screen showing Dana's posture, gestures, and speech tempo during the meeting.",
+          "player_mission": "Audit Dana's probability claim during the quarterly risk review. Read her baseline, the timed nonverbal log, and the transcript, then issue the verdict: is her 'highly probable' detailed scenario a sound judgment or a substitution of plausibility for probability?",
+          "key_concepts": [
+            "Specifying a possible event in greater detail can only lower its probability, because a more detailed event is a subset of a broader one.",
+            "Adding detail to a scenario makes it more persuasive but less likely to come true, a trap for forecasters and their clients.",
+            "Probability is a sum-like variable: the probability of the broad scenario equals the probability of the detailed scenario plus the probability of all other ways the broad scenario could occur.",
+            "The uncritical substitution of plausibility for probability has pernicious effects on judgments when scenarios are used as tools of forecasting.",
+            "In the book's example, the California earthquake flood scenario was judged more probable than the North America flood scenario, contrary to logic.",
+            "The most coherent stories are not necessarily the most probable, but they are plausible, and the two are easily confused.",
+            "System 2 is not impressively alert: it often endorses a conclusion because the conjunction appeared plausible.",
+            "Joint comparison of a detailed scenario with its broader alternative mobilizes System 2 and reveals the inclusion relation."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the substitution of plausibility for probability in forecasting: a scenario gains persuasive power from added detail while its true probability falls, because a more detailed event is a subset of the broader one. Kahneman warns that forecasters and their clients systematically rate richer scenarios as more probable even though such scenarios are less likely to come true.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Is Dana's 'highly probable' detailed launch forecast a sound probability judgment, or is she substituting plausibility for probability?",
+          "subject_baseline": "Dana, 41, is the senior product forecast lead at Apex Home Appliances. She is admired for crisp timelines and energetic slide narratives, and she habitually delivers probability claims with flat, confident authority. She rarely pauses to decompose a forecast into its parts.",
+          "observed_nonverbal_log": "10:02 Dana opens her forecast deck, standing tall at the conference table, and gestures broadly toward the detailed scenario slide. 10:04 When Marcus, the finance director, asks how the detailed scenario relates to the broad market-entry scenario, Dana waves the question off and quickens her speech. 10:07 She reads the scenario aloud rapidly, a confident half-smile on her face, and taps the 'highly probable' label twice. 10:09 Asked to state the probability of the broader scenario alone, Dana frowns, glances at the ceiling, and gives a vague 'pretty high' while drumming her fingers. 10:11 When Marcus proposes writing the two scenarios side by side, Dana's shoulders drop slightly and she reaches for her coffee.",
+          "interrogation_transcript": "Marcus: 'So you're telling me the detailed launch scenario is more likely than simply entering the European market next year?' Dana: 'Yes, the full story, entry plus a 9% share in Germany within 18 months, that's the one we can plan on.' Marcus: 'What's the probability of the broad scenario, just entry, no share target?' Dana: 'I don't think we should waste time splitting hairs. The detailed picture is the real one.' Marcus: 'But isn't the detailed case contained inside the broad one?' Dana: 'Contained, sure, but it's the only version that makes sense as a plan.'",
+          "correct_diagnosis": "Dana is committing the conjunction fallacy in reverse form: she treats a detailed conjunction scenario as more probable than the broader scenario that contains it, substituting plausibility for probability. Her verdict reflects System 1's coherence-seeking, not a sum-like probability judgment.",
+          "diagnostic_breakdown": "The detailed scenario (enter Europe AND capture 9% share in Germany within 18 months) is a subset of the broad scenario (enter the European market next year), so it can only be less probable. Dana's confident delivery, her dismissal of the decomposition question, her vagueness about the broad scenario alone, and her discomfort when the two scenarios were placed side by side all point to the forecast trap the book describes: adding detail makes a scenario more persuasive but less likely to come true. The fix Marcus suggests, explicit joint comparison, is exactly the move that mobilizes System 2.",
+          "distractors": [
+            "Dana is anchoring on the 9% market-share figure she set earlier and insufficiently adjusting from it.",
+            "Dana is overconfident because of the availability heuristic: recent press coverage of appliance exports came easily to mind.",
+            "Dana is using a causal base rate about German market growth, which legitimately raises the probability of the specific scenario."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Auditing a Sports Analyst's Conjunction Error",
+          "visual_frame_description": "A sports-network studio at 2 PM. Raj, a 29-year-old analyst, stands at a glass board with four tennis match outcomes written on it while the host sits opposite. A timestamped observation feed tracks Raj's posture, gestures, and speech tempo as he discusses Björn Borg's chances in the Wimbledon tournament.",
+          "player_mission": "Audit Raj's ranking of the Borg match outcomes during the broadcast review. Read his baseline, the timed nonverbal log, and the transcript, then determine whether his ranking is logically sound or an instance of the conjunction fallacy in a direct comparison.",
+          "key_concepts": [
+            "The critical comparison in the Wimbledon problem is between 'Borg will lose the first set' and 'Borg will lose the first set but win the match.'",
+            "The event 'Borg will lose the first set but win the match' is wholly included in the event 'Borg will lose the first set,' so it cannot be more probable.",
+            "Contrary to logic, but not to representativeness or plausibility, 72% of respondents assigned the more inclusive event a lower probability.",
+            "The scenario that was judged more probable was also more plausible, a more coherent fit with what was known about the best tennis player in the world.",
+            "A conjunction fallacy is committed when people judge a conjunction of two events to be more probable than one of the events in a direct comparison.",
+            "As in the Müller-Lyer illusion, the fallacy remains attractive even when you recognize it for what it is.",
+            "Kahneman and Tversky found similar violations of logic in many other judgments, not only in the Linda problem.",
+            "Representativeness can block the application of an obvious logical rule."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests the conjunction fallacy in a direct comparison: the more inclusive event (losing the first set) is always at least as probable as the event it contains (losing the first set but winning the match), yet representativeness made 72% of respondents reverse the order. Kahneman reports the more probable scenario was also the more plausible, a coherent fit with what was known about the best tennis player in the world.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Is Raj's ranking of the Borg match outcomes logically sound, or does it commit a conjunction fallacy in a direct comparison?",
+          "subject_baseline": "Raj, 29, is a tennis analyst for a regional sports network. He is quick, personable, and proud of his story-first approach to match analysis. He reads matches narratively and visibly enjoys retelling dramatic comeback arcs.",
+          "observed_nonverbal_log": "14:03 During the broadcast review, Raj leans forward and tells the story of Borg's fighting spirit, shaping a comeback in the air with his hands. 14:05 He writes the four match outcomes on the glass and circles 'lose the first set but win the match,' nodding. 14:07 Asked to compare it with 'lose the first set' on its own, Raj tilts his head, raises his eyebrows, and answers with a dismissive shrug. 14:09 When the host says the two outcomes must be ranked against each other, Raj's speech slows and he taps his pen on 'lose the first set' without conviction. 14:11 He finally laughs, 'The comeback is just a better story,' and looks relieved.",
+          "interrogation_transcript": "Host: 'Which is more probable, Borg loses the first set, or Borg loses the first set but wins the match?' Raj: 'Oh, the comeback, no question. He's the best in the world; he drops a set, then takes over.' Host: 'But if he loses the first set and wins the match, he has still lost the first set.' Raj: 'Sure, technically, but that's not how the match plays out in anyone's mind.' Host: 'So you're ranking the comeback scenario above the plain fact it contains?' Raj: 'I'm ranking the story that fits him.'",
+          "correct_diagnosis": "Raj is committing the conjunction fallacy in a direct comparison: he judges 'Borg loses the first set but wins the match' more probable than 'Borg loses the first set,' even though the former is wholly included in the latter. Representativeness, not probability, drives his ranking.",
+          "diagnostic_breakdown": "The critical comparison in the Wimbledon study is between 'Borg will lose the first set' and 'Borg will lose the first set but win the match.' The second event is a subset of the first and cannot be more probable, yet 72% of respondents judged it more likely, a less-is-more error in a direct comparison. Raj's eager narrative, his refusal to engage the inclusion relation, and his closing admission that the comeback is 'a better story' are the signature tells of representativeness overriding logic.",
+          "distractors": [
+            "Raj is suffering from a hot-hand illusion, believing Borg is 'in the zone' during comebacks.",
+            "Raj is anchoring on Borg's world ranking and adjusting his probabilities from there.",
+            "Raj is applying a correct causal base rate: champions who drop the first set historically still win the match."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Defeating the Intuition of Representativeness",
+          "visual_frame_description": "A crowded university lecture hall. Yousef, a teaching assistant, stands at the front handing out the eight-item Linda questionnaire while students skim the description of the thirty-one-year-old philosophy major and begin ranking scenarios. A thought bubble shows the 'little homunculus' shouting, 'she can't just be a bank teller, read the description.'",
+          "player_mission": "Defeat the boss of representativeness in two stages. First diagnose the student responses that reveal System 1 winning the conflict, then choose the intervention that forces System 2 to apply the inclusion rule.",
+          "key_concepts": [
+            "In the within-subject Linda ranking, 89% of undergraduates ranked 'feminist bank teller' as more probable than 'bank teller,' a failure of System 2 despite a fair opportunity to detect the logical rule.",
+            "The stark two-item version, which requires an explicit comparison, allows most statistically sophisticated students to avoid the fallacy.",
+            "In one study, 64% of graduate students in the social sciences at Stanford and Berkeley answered the short version correctly.",
+            "A 'how many of the 100 participants' frequency version reduced conjunction errors to 25%, while a 'what percentage' version kept them at 65%.",
+            "The frequency representation makes the inclusion relation obvious by bringing a spatial image of people sorting into groups to mind.",
+            "Stephen Jay Gould's 'little homunculus' is System 1 speaking in insistent tones, overriding his knowledge of the correct answer.",
+            "The fallacy remains attractive even when recognized for what it is, like the Müller-Lyer illusion.",
+            "System 2 is lazy: respondents spent very little time and endorsed the plausible conjunction without effort.",
+            "The conjunction fallacy is a case of conflict between intuition and logic, and representativeness won in the original studies."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the conjunction fallacy as a conflict between intuition and logic: representativeness wins unless System 2 is actively recruited. Kahneman's evidence shows that an explicit two-item comparison and especially a 'how many' frequency frame collapse the fallacy, while vague probability wording leaves the plausible story in charge.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The boss is the insistent intuition of representativeness, the 'little homunculus' that shouts 'she can't just be a bank teller, read the description!' The battle tests whether you can recognize System 1 winning the conflict and then use format to mobilize System 2 against it.",
+          "stage_1_observation": "You are Yousef, a teaching assistant in a crowded lecture hall at a large university. You hand out the eight-outcome Linda questionnaire: two of the items are 'Linda is a bank teller' (sixth position) and 'Linda is a bank teller and is active in the feminist movement' (last position). You watch as students skim the description of the thirty-one-year-old philosophy major who was active in antinuclear demonstrations, smile knowingly, and rank the scenarios. In the first row of responses you see 'feminist bank teller' ranked above 'bank teller,' and the pattern spreads across the room.",
+          "stage_1_question": "Which response shows System 1 winning the conflict between representativeness and logic?",
+          "stage_1_correct_answer": "Students rank 'Linda is a bank teller and is active in the feminist movement' as more probable than 'Linda is a bank teller,' even though both items appear on the same page. Kahneman found 89% of undergraduates violated the logic this way, a failure of System 2 despite a fair opportunity to detect the logical rule.",
+          "stage_2_intervention": "The department now asks Yousef to brief a room full of statistically trained analysts, all of whom know the logic of Venn diagrams, so the error is harder to trigger. You must choose the move most likely to make them apply the inclusion rule rather than the intuitive story.",
+          "stage_2_correct_answer": "Present the stark two-item question ('Which alternative is more probable? Linda is a bank teller. Linda is a bank teller and is active in the feminist movement.') and, for stubborn cases, switch to the frequency frame 'How many of the 100 participants...?' The explicit comparison mobilizes System 2 (64% of Stanford and Berkeley social-science graduate students answered the short version correctly), and the 'how many' frequency representation reduced errors from 65% to 25% by making the inclusion relation spatial and obvious."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Breaking the Plausibility Trap in Forecasting",
+          "visual_frame_description": "A national emergency-preparedness committee in a wood-paneled briefing room. Two scenarios are projected on the wall, the broad 'North America flood' and the detailed 'California earthquake causing a flood'. Members lean forward when the detailed scenario is discussed, pointing at specific fault lines on a map, while the broad scenario receives dismissive waves.",
+          "player_mission": "Diagnose why the committee rates the detailed California earthquake scenario as more probable, then intervene to make the panel apply the logic of inclusion before budget is allocated.",
+          "key_concepts": [
+            "Specifying an event in greater detail can only lower its probability, because the specified event is a subset of the broader event.",
+            "In Kahneman's example, probability judgments were higher for the richer and more detailed scenario, contrary to logic.",
+            "Adding detail to scenarios makes them more persuasive, but less likely to come true, a trap for forecasters and their clients.",
+            "The California earthquake flood scenario is more plausible than the North America scenario, although its probability is certainly smaller.",
+            "The uncritical substitution of plausibility for probability corrupts scenario-based forecasting.",
+            "Coherence, plausibility, and probability are easily confused by the unwary.",
+            "Joint comparison of the two scenarios mobilizes System 2 and reveals the inclusion relation.",
+            "The 'how many' frequency representation makes the inclusion relation obvious and reduces reliance on the plausible story."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the forecasting trap of plausibility substitution: adding detail makes a scenario more persuasive but strictly less probable, because a specified event is a subset of the broader event. Kahneman's flood scenarios showed judged probability rising with detail, and he warned that rich scenarios are a trap for forecasters and their clients.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The boss is plausibility substitution: a richly detailed scenario is rated as more probable than the sparser scenario that contains it. The battle tests whether you can diagnose why detail inflates judged probability and then force the committee to apply the logic of inclusion.",
+          "stage_1_observation": "You are seated in a national emergency-preparedness committee. The panel is asked to rate two scenarios for next year: 'A massive flood somewhere in North America in which more than 1,000 people drown' and 'An earthquake in California sometime next year, causing a flood in which more than 1,000 people drown.' The room buzzes as the California scenario is discussed; members cite recent seismic risk, name specific fault lines, and several call the detailed scenario 'obviously the real risk.' The broad North America scenario is waved off as vague.",
+          "stage_1_question": "Why is the detailed California earthquake scenario rated more probable than the broad North America flood scenario, and what is wrong with that judgment?",
+          "stage_1_correct_answer": "The detailed scenario is more plausible and more coherent, so plausibility is substituted for probability, but an earthquake in California that causes a flood is wholly contained in a massive flood somewhere in North America, and specifying an event in greater detail can only lower its probability. Kahneman reports probability judgments were higher for the richer, more detailed scenario, contrary to logic.",
+          "stage_2_intervention": "The committee is about to allocate budget toward the 'likely' California scenario. You must intervene to make the panel see the inclusion relation and correct its probability ranking. Which action is most likely to work?",
+          "stage_2_correct_answer": "Place the two scenarios side by side and mark that the California event is a subset of the North America event, then reframe the question in frequency terms, asking how many of 100 such years would produce a flood with more than 1,000 drownings in North America and, of those, how many involve an earthquake in California. Joint comparison and a frequency frame make the subset relation obvious and mobilize System 2, exactly the conditions under which logic prevailed in the studies."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Defeating the Less-is-More Average",
+          "visual_frame_description": "A home-goods store during a clearance sale. On a shelf sit two dinnerware sets: Set A, 40 pieces with visibly chipped cups and saucers, and Set B, 24 intact pieces. Shoppers inspect each set one at a time and glance at price tags reading about $23 for Set A and about $33 for Set B. A small diagram overlay shows a scale of 'average dish value' tipping toward Set B.",
+          "player_mission": "Explain why the 40-piece set with broken pieces is priced below the intact 24-piece set, then choose the display change that makes shoppers value the larger set correctly.",
+          "key_concepts": [
+            "Sets, including dinnerware sets, are represented by norms and prototypes, so the average value of the dishes dominates single evaluation.",
+            "In Hsee's single evaluation, Set B (24 intact pieces) was priced much higher than Set A (40 pieces with broken cups and saucers): about $33 versus $23.",
+            "By removing 16 items from Set A, 7 of them intact, its judged value improved, a pattern Hsee called 'less is more.'",
+            "In joint evaluation, participants were willing to pay a little more for Set A than for Set B, about $32 versus $30.",
+            "People who see only the set that includes broken dishes price it very low, a rule of intuition.",
+            "People who see both sets at once apply the logical rule that more dishes can only add value.",
+            "John List replicated the pattern in a real market for baseball cards: larger sets valued less in single evaluation, more in joint evaluation.",
+            "Economic value is a sum-like variable: adding a positively valued item to the set can only increase its value.",
+            "Intuition governs judgments in between-subjects conditions; logic rules in joint evaluation."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the less-is-more illusion: System 1 evaluates sets by their norm and average, so broken or cheap items depress value in single evaluation even when removing them is irrational. Kahneman, drawing on Hsee's dinnerware study and List's baseball-card auction, shows joint evaluation restores the sum-like logic that more of a positively valued good can only add value.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The boss is the norm-and-prototype representation of sets: in single evaluation, System 1 prices by the average value of the parts, so removing broken or cheap items can make a set look more valuable. The battle tests whether you can spot the averaging error and then force the sum-like logic of value into play.",
+          "stage_1_observation": "You are a store manager overseeing a clearance sale of dinnerware that regularly runs between $30 and $60. On the shelf sits Set A: 40 pieces, with 2 of 8 cups broken and 7 of 8 saucers broken. Next to it, Set B: 24 pieces, all in good condition. A stream of shoppers is shown only one set at a time, and you watch them inspect the broken cups and saucers of Set A, grimace, and set it back. Your clerk reports that shoppers price Set A at about $23 while pricing the smaller, intact Set B at about $33.",
+          "stage_1_question": "Why does the 40-piece Set A with broken pieces fetch less than the 24-piece intact Set B, when Set A contains every dish in Set B plus seven intact extras?",
+          "stage_1_correct_answer": "Sets are represented by norms and prototypes, and the average value of the dishes in Set A is much lower because no one wants to pay for broken pieces, so the average dominates single evaluation. This is Hsee's less-is-more pattern: by removing 16 items from Set A, 7 of them intact, its judged value actually improved.",
+          "stage_2_intervention": "You decide you want shoppers to value Set A correctly, recognizing that adding dishes can only add value. Which change to the display is the most effective intervention?",
+          "stage_2_correct_answer": "Show both sets side by side so shoppers make a joint evaluation, the within-subject comparison Hsee used, which produced the logical result of valuing Set A a little above Set B ($32 versus $30). In joint evaluation people apply the sum-like rule that more dishes can only add value, whereas intuition governs the between-subjects single evaluation."
+        }
+      ]
+    },
+    {
+      "id": "ch21",
+      "title": "16. Causes Trump Statistics",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Statistical versus Causal Base Rates",
+          "visual_frame_description": "An evidence board in a police training room. Three columns are labeled 'Statistical Base Rate', 'Causal Base Rate', and 'Recited But Not Applied'. Cards show the cab problem, Ajzen's exam experiment, the helping experiment, and statements about inner-city school graduates. A detective's hand places a green card marked 'Green cabs cause 85% of accidents' above the board.",
+          "player_mission": "Sort each base-rate statement into the correct column, then classify the target base rate from version two of the cab problem. Decide whether each base rate is a neglected population fact, a causal fact used as information about the individual case, or a rate people accept but refuse to apply.",
+          "key_concepts": [
+            "Statistical base rates are facts about a population to which a case belongs, but they are not relevant to the individual case.",
+            "Causal base rates change your view of how the individual case came to be.",
+            "Statistical base rates are generally underweighted, and sometimes neglected altogether, when specific information about the case at hand is available.",
+            "Causal base rates are treated as information about the individual case and are easily combined with other case-specific information.",
+            "In the cab problem, 'Green cabs are involved in 85% of accidents' reads as a story of reckless Green drivers and pulls judgments toward the Bayesian estimate.",
+            "In Ajzen's experiment, a class in which 75% passed suggests the test was easy, a causal fact about every student's outcome.",
+            "Ajzen's constructed sample, in which 75% had failed, was a purely statistical fact about the ensemble and had much less impact.",
+            "Students in the helping-experiment study could recite the base rate but still predicted that two specific individuals would rush to help.",
+            "System 1 can deal with stories in which the elements are causally linked, but it is weak in statistical reasoning."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the distinction between statistical and causal base rates: inert population facts are underweighted or neglected, while causal base rates are treated as information about the individual case and combined with other evidence. Kahneman, borrowing the notion from Icek Ajzen, shows the two types of base-rate information are processed very differently by System 1.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "In the cab problem, version two presents this base rate: 'The two companies operate the same number of cabs, but Green cabs are involved in 85% of accidents.' How do people treat this base rate? Sort the rows, then classify the target.",
+          "column_a_label": "Statistical base rate (a population fact that is underweighted or neglected)",
+          "column_b_label": "Causal base rate (treated as information about the individual case and used)",
+          "column_c_label": "Base rate that conflicts with personal beliefs and is recited but not applied",
+          "rows": [
+            {
+              "label": "85% of the cabs in the city are Green and 15% are Blue, an inert statistical fact that most respondents ignore once a witness says 'Blue.'",
+              "col": "a"
+            },
+            {
+              "label": "Green cabs are involved in 85% of accidents, immediately read as 'the Green drivers must be reckless madmen,' a stereotype applied to individual drivers.",
+              "col": "b"
+            },
+            {
+              "label": "Ajzen told one group that the students were drawn from a class in which 75% passed, read as evidence that the test was easy, a causal fact about each student's outcome.",
+              "col": "b"
+            },
+            {
+              "label": "Ajzen told another group that the sample had been constructed so that 75% failed, a purely statistical fact about the ensemble that had much less impact.",
+              "col": "a"
+            },
+            {
+              "label": "Only 4 of the 15 participants in the helping experiment rushed to help; students could recite this rate yet still predicted that the two interviewees would rush to help.",
+              "col": "c"
+            },
+            {
+              "label": "Most graduates of this inner-city school go to college, interpreted as a propensity in individual members and fit into a causal story.",
+              "col": "b"
+            },
+            {
+              "label": "The base rate that Green cabs are involved in 85% of accidents.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The base rate is neglected because people anchor on the number 85.",
+            "The base rate is treated as a statistical fact about the population that does not apply to any individual driver.",
+            "The base rate has no effect on judgment because it conflicts with the witness's testimony."
+          ],
+          "explanation": "Causal base rates change your view of how the individual case came to be, so System 1 readily uses them, while statistical base rates are usually underweighted or neglected. The 'Green cabs cause 85% of accidents' phrasing invites the causal story of reckless drivers and pulls judgments toward the Bayesian estimate."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Cab Problem: Neglect, Causal Stories, and Bayes",
+          "visual_frame_description": "A night city street rendered on a decision-science dashboard. Two columns of cards show the cab problem in its two versions, a witness box with an 80% reliability badge, and a Bayes calculator displaying the 41% estimate. A poll meter shows the most common answer, 80%, ticking upward as new cards load.",
+          "player_mission": "Classify each response pattern in the cab problem as base-rate neglect, use of the causal base rate, or a correct Bayesian combination. Then classify the target row, the most common answer to the first version of the problem.",
+          "key_concepts": [
+            "In the first cab problem, 85% of cabs are Green and 15% are Blue, and a witness who is 80% reliable identifies the cab as Blue.",
+            "The correct Bayesian estimate for the first cab problem is about 41%.",
+            "The most common answer people give to the first cab problem is about 80%, driven by the witness's reliability.",
+            "In the absence of a witness, the probability of the guilty cab being Blue is 15%, the base rate.",
+            "If the two cab companies had been equally large, the base rate would be uninformative and the reliability of the witness, 80%, would be the answer.",
+            "In the causal version, people give considerable weight to the base rate, and their average judgment is not too far from the Bayesian solution.",
+            "In the causal version, the two causal stories (reckless Green driver, Blue-identifying witness) are contradictory and approximately cancel each other.",
+            "The two versions of the cab problem are mathematically indistinguishable but psychologically quite different.",
+            "A mind that is hungry for causal stories finds nothing to chew on in the first version's inert population count."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests base-rate neglect and the power of causal base rates: given a statistical base rate and a specific witness, System 1 ignores the base rate and answers with witness reliability, while a causal restatement of the base rate moves judgments toward Bayes. Kahneman reports the most common answer to the first cab problem is 80% rather than the correct 41%.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "In the first version of the cab problem, a witness identified the hit-and-run cab as Blue, 85% of cabs are Green, and the witness is 80% reliable. The most common answer people give is about 80%. Which column best describes that response?",
+          "column_a_label": "Neglect of the statistical base rate (going with the witness)",
+          "column_b_label": "Use of the causal base rate (judgments move toward the Bayesian solution)",
+          "column_c_label": "Correct Bayesian combination of base rate and witness reliability",
+          "rows": [
+            {
+              "label": "The most common answer to the first cab problem is about 80%, driven almost entirely by the witness's reliability.",
+              "col": "a"
+            },
+            {
+              "label": "The correct estimate in the first cab problem, combining the 15% Blue base rate with the 80%-reliable witness, is about 41%.",
+              "col": "c"
+            },
+            {
+              "label": "In the causal version, average judgments land not too far from the Bayesian solution, because the two causal stories roughly cancel each other.",
+              "col": "b"
+            },
+            {
+              "label": "If the two companies were equally large, the base rate would be uninformative and the witness's 80% reliability would be the answer.",
+              "col": "c"
+            },
+            {
+              "label": "A respondent answers 'Blue, because the witness saw it' without ever considering that only 15% of cabs are Blue.",
+              "col": "a"
+            },
+            {
+              "label": "Readers of the causal version give considerable weight to the base rate of accidents rather than only to the witness.",
+              "col": "b"
+            },
+            {
+              "label": "The most common answer to the first cab problem, about 80%.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The answer reflects a correct Bayesian update because the witness is highly reliable.",
+            "The answer reflects the affect heuristic, since Blue cabs feel safer at night.",
+            "The answer is produced by the law of small numbers applied to the night's traffic."
+          ],
+          "explanation": "The dominant 80% response ignores the statistical base rate entirely and goes with the witness, the pattern the book describes as base-rate neglect. Version two changes only the presentation, making the base rate causal, and average judgments then move close to the Bayesian 41%."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Causal Stereotypes, Affect, and Norms of Categories",
+          "visual_frame_description": "A mind-map display over a debate stage. Three columns show 'Causal Stereotype in Use', 'Affect Heuristic in Argument', and 'Norms and Prototypes of Categories'. Cards drift in showing reckless Green drivers, inner-city school graduates, the no-cost claim of political arguments, and images of horses, refrigerators, and New York police officers.",
+          "player_mission": "Sort each claim into the column it best illustrates, then classify the target claim about how System 1 represents categories. Distinguish judgment-improving causal stereotypes from emotion-driven affect arguments and from the structural fact of norm-based categorization.",
+          "key_concepts": [
+            "One of the basic characteristics of System 1 is that it represents categories as norms and prototypical exemplars.",
+            "We hold in memory a representation of one or more 'normal' members of each category, such as horses, refrigerators, and New York police officers.",
+            "When the categories are social, these representations are called stereotypes, and stereotyping is how we think of categories.",
+            "Stereotypes, both correct and false, are statements about the group accepted as facts about every member, and they fit in a causal story.",
+            "In the cab problem, stereotyping the Green drivers improves the accuracy of judgment.",
+            "Reliance on the affect heuristic is common in politically charged arguments, where the positions we favor have no cost and those we oppose have no benefits.",
+            "Resistance to stereotyping is a laudable moral position, but the idea that it is costless is not scientifically defensible.",
+            "In sensitive social contexts such as hiring and profiling, the law and social norms reject causal base rates, treating them as statistical facts about the group.",
+            "Neglecting valid stereotypes inevitably results in suboptimal judgments."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests three distinct ideas about categories: causal stereotypes are used as information and can improve judgment, the affect heuristic powers politically charged claims that favored positions have no cost, and System 1 structurally represents categories as norms and prototypes. Kahneman stresses that stereotyping is neutral in his usage even though it is a bad word in our culture.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "System 1 represents categories as norms and prototypical exemplars; when the categories are social, these representations are called stereotypes. The target claim is: 'We hold in memory a representation of one or more normal members of each category, such as horses, refrigerators, and New York police officers.' Which column describes it?",
+          "column_a_label": "Causal stereotype used to improve judgment",
+          "column_b_label": "Affect heuristic in a politically charged argument",
+          "column_c_label": "Representation of categories as norms and prototypical exemplars",
+          "rows": [
+            {
+              "label": "Green drivers are dangerous, a stereotype of Green recklessness applied to unknown drivers, which improved accuracy in the cab problem.",
+              "col": "a"
+            },
+            {
+              "label": "Many graduates of this inner-city school go to college, a propensity read into individual members and fit into a causal story.",
+              "col": "a"
+            },
+            {
+              "label": "The positions we favor have no cost and those we oppose have no benefits, a hallmark of reliance on the affect heuristic.",
+              "col": "b"
+            },
+            {
+              "label": "The idea that resistance to stereotyping is costless, though satisfying to the soul and politically correct, is not scientifically defensible.",
+              "col": "b"
+            },
+            {
+              "label": "We hold in memory a representation of one or more 'normal' members of each category, which is how we think of horses, refrigerators, and New York police officers.",
+              "col": "c"
+            },
+            {
+              "label": "When the categories are social, these representations are called stereotypes, and they are a basic characteristic of System 1.",
+              "col": "c"
+            },
+            {
+              "label": "We hold in memory a representation of one or more 'normal' members of each category.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "The claim is an example of the halo effect spreading one good trait to the whole category.",
+            "The claim recommends using stereotypes in hiring, which the book endorses.",
+            "The claim is an affect heuristic because it treats the category with emotional warmth."
+          ],
+          "explanation": "Kahneman's neutral usage holds that stereotypes are simply how System 1 represents social categories, as norms and prototypical exemplars, no more and no less. That is a structural claim about the mind, distinct from the judgment-improving causal stereotypes of the cab problem and from the emotion-driven affect heuristic of political debate."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Auditing an Investigator's Base-Rate Neglect",
+          "visual_frame_description": "A police precinct briefing room at 9 AM. Detective Lena Chen stands at a whiteboard with '80%' written in large letters, while the deputy chief sits with a folder that shows the cab data. A timestamped observation feed tracks Chen's posture, gestures, and attention as the base rate is introduced.",
+          "player_mission": "Audit Detective Chen's probability estimate for the hit-and-run case. Read her baseline, the timed nonverbal log, and the interrogation transcript, then decide whether her 80% verdict correctly combines the base rate and the witness or is an instance of base-rate neglect.",
+          "key_concepts": [
+            "In the cab problem, 85% of cabs are Green and 15% are Blue, and a witness who is 80% reliable identifies the cab as Blue.",
+            "The correct Bayesian estimate is about 41%, not 80%.",
+            "The most common answer people give is about 80% because they go with the witness and neglect the base rate.",
+            "Statistical base rates are generally underweighted, and sometimes neglected altogether, when specific information about the case at hand is available.",
+            "A mind that is hungry for causal stories finds nothing to chew on in the inert count of 85% Green cabs.",
+            "In the absence of a witness, the probability of the guilty cab being Blue is 15%, the base rate of that outcome.",
+            "Bayes's rule combines the base rate and the reliability of the witness into a single probability.",
+            "The two versions of the cab problem are mathematically indistinguishable but psychologically quite different."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests base-rate neglect: statistical base rates are generally underweighted and sometimes neglected altogether when specific information about the case is available. Kahneman reports the most common answer to the cab problem is 80%, the witness's reliability, rather than the Bayesian 41%.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Did Detective Chen's 80% probability estimate correctly combine the base rate of Blue cabs with the witness's reliability, or is it an instance of base-rate neglect?",
+          "subject_baseline": "Detective Lena Chen, 38, is a veteran investigator with twelve years on the force. She is methodical with evidence collection, decisive in briefings, and tends to commit to a single number early, defending it firmly once stated.",
+          "observed_nonverbal_log": "09:15 In the morning briefing, Chen writes '80%' on the whiteboard without hesitation and squares off her shoulders. 09:18 When the deputy chief reads out that only 15% of cabs are Blue, Chen's eyes stay fixed on her own number and she gives a small shake of her head. 09:22 Asked to explain the role of the 15% figure, Chen pauses, rubs her chin, and answers about the witness instead. 09:26 The deputy chief writes '41%' on the board; Chen crosses her arms and glances at the door. 09:30 When asked to re-derive the estimate from scratch, she picks up the marker slowly and draws a blank.",
+          "interrogation_transcript": "Deputy Chief: 'The witness is 80% reliable, but Blue cabs are only 15% of the fleet. What's the probability the car was Blue?' Chen: 'Eighty percent. The witness saw a Blue cab and the court tested her; that's the evidence.' Deputy Chief: 'What does the 15% base rate add?' Chen: 'It tells us Blue is the smaller company, but the witness actually saw the car.' Deputy Chief: 'So you weight the witness alone?' Chen: 'In a hit-and-run you trust the eyes that were there.'",
+          "correct_diagnosis": "Chen is committing base-rate neglect: she anchors on the 80%-reliable witness and ignores the 15% statistical base rate, when the correct Bayesian combination yields about 41%. Her confidence in the single number and her refusal to integrate the base rate are the diagnostic pattern.",
+          "diagnostic_breakdown": "The book's cab problem has exactly these inputs, and the most common answer is 80% because people go with the witness and drop the statistical base rate, whereas Bayes's rule gives 41%. Chen's instant commitment to 80%, her dismissal of the 15% figure, and her inability to re-derive the estimate all match the profile of a respondent who treats specific, vivid information as sufficient and the population fact as irrelevant.",
+          "distractors": [
+            "Chen is overestimating because she is anchoring on the number 80 from the witness's reliability and adjusting from there.",
+            "Chen is using a causal base rate: she reasons that reckless drivers are likelier to be involved in accidents.",
+            "Chen is committing the conjunction fallacy by treating 'Blue cab seen by witness' as a subset event."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Auditing a Student Who Quietly Exempts Herself",
+          "visual_frame_description": "A psychology seminar room. On the screen play the two bland interview videos from the helping experiment, showing nice, normal people describing their hobbies and future plans. Gemma, a 22-year-old senior, watches with a relaxed smile while the instructor holds a card reading 'Base rate: 4 of 15 helped.' A timestamped observation feed tracks her reactions.",
+          "player_mission": "Audit whether Gemma's predictions for the two interviewees reflect real learning from the helping experiment's statistics. Read her baseline, the timed nonverbal log, and the transcript, then decide whether her judgments changed or she quietly exempts herself and her friends from the statistical conclusion.",
+          "key_concepts": [
+            "In the New York University helping experiment, only four of the fifteen participants responded immediately to the appeal for help.",
+            "Six participants never got out of their booth, and five others came out only well after the seizure victim apparently choked.",
+            "Individuals feel relieved of responsibility when they know that others have heard the same request for help, an instance of diffusion of responsibility.",
+            "The base rate of immediate help was 4 of 15, about 27%, so the prior belief about an unspecified participant should be that he did not rush to help.",
+            "Students who knew both the procedure and the results of the helping experiment made predictions indistinguishable from students who knew only the procedure.",
+            "Nisbett and Borgida found that students quietly exempt themselves and their friends from the conclusions of experiments that surprise them.",
+            "A new group told only that the two individuals had not helped made extremely accurate guesses about the global results.",
+            "People infer the general from the particular, not the particular from the general.",
+            "Changing one's mind about human nature is hard work, and changing one's mind for the worse about oneself is even harder."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests the gap between knowing statistics and changing one's view of human nature: students who learned the helping experiment's results made predictions indistinguishable from those who had not. Kahneman's conclusion is that surprising individual cases change thinking, while surprising statistical facts are readily recited but not absorbed.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "After learning the helping experiment's results, does Gemma's prediction for the two interviewees show genuine learning, or does she quietly exempt herself and her friends from the statistical conclusion?",
+          "subject_baseline": "Gemma, 22, is a senior psychology major with a 3.9 GPA. In class she recites the helping experiment enthusiastically and can quote the 'diffusion of responsibility' interpretation word for word. She is warm, socially confident, and sure that she would step up in an emergency.",
+          "observed_nonverbal_log": "11:00 In the seminar, Gemma watches the two bland interview videos with a relaxed, open posture, nodding at the hobbies and future plans. 11:04 The instructor asks how quickly each person helped the stricken stranger; Gemma smiles and answers 'immediately' without a pause. 11:06 When the instructor reminds her that only 4 of the 15 participants responded right away, Gemma tilts her head and continues to smile, shrugging off the number. 11:09 Asked whether the base rate should shape her guess, Gemma's smile tightens and she looks at the ceiling. 11:12 She adds, 'But those two people seem really nice, they'd absolutely help.'",
+          "interrogation_transcript": "Instructor: 'The base rate is that 4 of 15 rushed to help, about 27%. What's your guess for this person?' Gemma: 'Oh, definitely quick to help. She seems lovely.' Instructor: 'So the base rate doesn't move your prediction?' Gemma: 'I understand the statistics, but I'm judging her as a person.' Instructor: 'What would you do if you were in that situation yourself?' Gemma: 'I'd run to help, no question. I'm not most people.'",
+          "correct_diagnosis": "Gemma knows the base rate but does not apply it to the individuals; her beliefs about human nature did not change. This is the pattern Nisbett and Borgida found, in which students quietly exempt themselves from the conclusions of experiments that surprise them.",
+          "diagnostic_breakdown": "The Bayesian task requires staying with the base rate, about 27% immediate help, because the videos were designed to be uninformative, but Gemma predicts immediate help for both, exactly like students who never saw the results. Her cheerful recitation of the statistics, her refusal to let them touch her predictions, and her appeal to 'I'm not most people' match the study's finding that surprising statistical facts are recited but do not change thinking, while surprising individual cases do.",
+          "distractors": [
+            "Gemma is committing the conjunction fallacy by judging 'nice person and quick helper' as more probable than 'nice person.'",
+            "Gemma is anchoring her prediction on the number 4 from the base rate and adjusting upward.",
+            "Gemma is using the availability heuristic because she recently heard a news story about a good Samaritan."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Defeating Base-Rate Neglect in the Cab Problem",
+          "visual_frame_description": "A focus-group room behind one-way glass. Twenty citizens fill out the cab problem sheets; a poll meter above the room climbs toward 80%. A court-appointed analyst at a desk holds two versions of the base-rate statement, one reading '85% of cabs are Green' and one reading 'Green cabs are involved in 85% of accidents.'",
+          "player_mission": "Defeat the boss of base-rate neglect in two stages. First identify the error the focus group commits, then choose the presentation of the base rate that pulls their average judgments back toward the Bayesian estimate.",
+          "key_concepts": [
+            "In the first cab problem, 85% of cabs are Green and 15% are Blue, and a witness who is 80% reliable identifies the cab as Blue.",
+            "The correct Bayesian estimate is about 41%, while the most common answer is about 80%.",
+            "Statistical base rates are generally underweighted, and sometimes neglected altogether, when specific information about the case at hand is available.",
+            "Causal base rates are treated as information about the individual case and are easily combined with other case-specific information.",
+            "In the causal version, the base rate reads as a story of reckless Green drivers, and judgments move close to the Bayesian solution.",
+            "A mind that is hungry for causal stories finds nothing to chew on in the inert count of 85% Green cabs.",
+            "In the causal version, the two causal stories (reckless Green driver, Blue-identifying witness) are contradictory and approximately cancel each other.",
+            "The two versions of the cab problem are mathematically indistinguishable but psychologically quite different."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests base-rate neglect and the power of causal base rates: statistical base rates are ignored, but causal base rates are treated as information about the individual case and combined with case-specific evidence. Kahneman shows the two mathematically identical versions of the cab problem produce dramatically different judgments, with the causal version moving people close to Bayes's 41%.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The boss is base-rate neglect: given a statistical base rate and vivid case-specific evidence, System 1 ignores the base rate and goes with the witness. The battle tests whether you can identify the error and then use a causal base rate to pull judgments back toward the Bayesian solution.",
+          "stage_1_observation": "You are a court-appointed analyst observing a focus group of 20 citizens who are each given the standard cab problem: 85% of cabs are Green and 15% Blue, a witness identified the cab as Blue and is 80% reliable, and the question is the probability the cab was Blue. You watch as the group reads the numbers, then nearly everyone scribbles '80%.' One participant mutters, 'The witness saw it, that's what matters.'",
+          "stage_1_question": "What error is the focus group committing, and what is the correct probability?",
+          "stage_1_correct_answer": "The group is neglecting the statistical base rate and going with the witness, giving 80% when Bayes's rule yields about 41%. The 15% base rate of Blue cabs and the 80%-reliable witness must be combined; statistical base rates are underweighted or neglected whenever specific information about the case is available.",
+          "stage_2_intervention": "The judge asks you to redesign the problem so the group's judgments improve. You may alter only the presentation of the base rate. Which presentation is most likely to move average judgments close to the Bayesian answer?",
+          "stage_2_correct_answer": "Present the causal version: 'The two companies operate the same number of cabs, but Green cabs are involved in 85% of accidents.' This turns the base rate into a causal story (reckless Green drivers) that combines with the witness's testimony, and people give considerable weight to it, with average judgments landing near the Bayesian solution. A mind hungry for causal stories finds nothing to chew on in the first version's inert population count."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Diffusion of Responsibility and How to Actually Teach It",
+          "visual_frame_description": "A research-lab schematic shows six booths with one active microphone. The stooge's booth is highlighted as his distress call plays, ending in choking sounds, while a side panel shows the results: 4 of 15 responded immediately, 6 never left their booth, and 5 left late. A panel of executives watches the footage with confident expressions.",
+          "player_mission": "Diagnose why so few participants helped in the classic New York University helping experiment, then choose the teaching intervention that Nisbett and Borgida found actually changes students' beliefs about human nature.",
+          "key_concepts": [
+            "In the helping experiment, six participants spoke in turn over an intercom while one, a stooge, described a seizure-prone condition.",
+            "The stooge's last words were 'C-could somebody-er-er-help-er-uh-uh-uh [choking sounds],' and then nothing more was heard from him.",
+            "Only four of the fifteen participants responded immediately to the appeal for help.",
+            "Six participants never got out of their booth, and five others came out only well after the seizure victim apparently choked.",
+            "Individuals feel relieved of responsibility when they know that others have heard the same request for help, an instance of diffusion of responsibility.",
+            "Most of us think of ourselves as decent people who would rush to help, and that expectation is wrong.",
+            "Students who learned the results of the helping experiment made predictions indistinguishable from students who had not.",
+            "Students who were told only that two individual interviewees had not helped then made extremely accurate guesses about the global results.",
+            "People are unwilling to deduce the particular from the general but very willing to infer the general from the particular."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests diffusion of responsibility and the teaching of psychology: a potent feature of the situation, not bad character, makes people unhelpful, yet surprising statistical facts do not change beliefs. Kahneman reports that Nisbett and Borgida's students learned nothing from the group results but immediately generalized from two surprising individual cases.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The boss is the diffusion of responsibility: when others have heard the same request for help, normal, decent people stay in their booths, and teaching this surprising result with statistics alone changes nothing. The battle tests whether you can recognize the effect and then choose the intervention that genuinely changes beliefs.",
+          "stage_1_observation": "You are reviewing the classic New York University helping experiment. Six participants sit in individual booths; one is a stooge who, after describing his seizure-prone condition, becomes agitated and pleads for help, ending with choking sounds: 'C-could somebody-er-er-help-er-uh-uh-uh...' You watch the participants' behavior: only four of the fifteen respond immediately, six never leave their booth, and five come out only after the victim apparently choked. A panel of executives watching this footage predict they themselves would have rushed to help at once.",
+          "stage_1_question": "Why did so few participants help, and why are the executives confident they would have acted differently?",
+          "stage_1_correct_answer": "Individuals feel relieved of responsibility when they know others have heard the same request; this diffusion of responsibility induced normal, decent people to behave in a surprisingly unhelpful way. The executives' confidence is the same error the participants themselves would make: most of us think of ourselves as the kind of person who would rush to help, and that expectation is wrong.",
+          "stage_2_intervention": "You are training a new class of managers and want their beliefs about human nature to actually change. You have two candidate approaches. Which is the one Nisbett and Borgida found worked?",
+          "stage_2_correct_answer": "Surprise them with individual cases rather than statistics: show the two bland interview videos and tell them that these two particular people did not help, then ask them to guess the global results, and their guesses were extremely accurate. Students who were told only the group statistics learned nothing at all and kept predicting immediate help; people infer the general from the particular, not the particular from the general."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Causal Stereotypes Versus the Norm Against Stereotyping",
+          "visual_frame_description": "A hiring-committee simulation room for a transit-safety analyst role. Two cab-problem versions flash on a screen while a committee member argues that ignoring all base rates is costless. A debate meter tracks whether the panel's reasoning relies on causal stereotypes, affect heuristics, or statistical norms.",
+          "player_mission": "Defeat the boss of the stereotype double standard in two stages. First explain why the causal version of the base rate improves the analyst's judgment, then respond to the committee member's claim that resisting stereotypes is costless.",
+          "key_concepts": [
+            "Causal base rates are treated as information about the individual case and are easily combined with other case-specific information.",
+            "In the cab problem, stereotyping the Green drivers improves the accuracy of judgment.",
+            "Stereotyping is a neutral term in Kahneman's usage because representing categories as norms and prototypes is a basic characteristic of System 1.",
+            "In sensitive social contexts such as hiring and profiling, there is a strong social norm against stereotyping that is also embedded in the law.",
+            "We reject causal base rates in sensitive contexts because we do not want to draw possibly erroneous conclusions about individuals from the statistics of the group.",
+            "The social norm against stereotyping has been highly beneficial in creating a more civilized and more equal society.",
+            "Resistance to stereotyping is a laudable moral position, but the idea that the resistance is costless is not scientifically defensible.",
+            "Reliance on the affect heuristic is common in politically charged arguments, where the positions we favor have no cost and those we oppose have no benefits.",
+            "Neglecting valid stereotypes inevitably results in suboptimal judgments, and the costs of resistance are worth paying."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the double standard of causal base rates: stereotypes that fit a causal story improve statistical judgment, yet in hiring and profiling we deliberately treat base rates as statistical facts about the group. Kahneman warns that claiming resistance to stereotyping is costless is an affect heuristic, not a scientifically defensible position.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The boss is the tension between causal stereotypes, which improve judgment, and the social norm against stereotyping, which is morally desirable but not costless. The battle tests whether you can recognize when a causal base rate legitimately improves a prediction and whether you can resist the affect heuristic's claim that favored positions have no costs.",
+          "stage_1_observation": "You sit on a hiring-committee simulation for a transit-safety analyst role. The panel is given the two cab-problem versions. In version one, the base rate is '85% of cabs are Green,' and the committee's analyst shrugs and says the base rate is irrelevant to the accident at hand. In version two, the base rate is 'Green cabs are involved in 85% of accidents,' and the same analyst immediately says, 'Then the Green drivers are the reckless ones, and that changes how I read the case.' The committee asks you which version is 'cheating' by relying on a stereotype.",
+          "stage_1_question": "Why does the causal version improve the analyst's judgment, and is that reliance on a stereotype a cognitive flaw in this context?",
+          "stage_1_correct_answer": "The causal base rate changes how the individual case came to be, so the stereotype of Green recklessness is used as information about the driver and improves accuracy, moving judgments near the Bayesian estimate. In the cab context, neglecting base-rate information is the cognitive flaw, and relying on the causal base rate is desirable; Kahneman calls stereotyping neutral in this usage because it is how System 1 represents categories.",
+          "stage_2_intervention": "A committee member now argues that since stereotyping is socially harmful, the panel should simply ignore all base rates, adding: 'Our position has no cost and the alternative has no benefits.' You must respond with the scientifically defensible position. What do you say?",
+          "stage_2_correct_answer": "Reject the affect heuristic in that argument: the social norm against stereotyping and profiling is highly beneficial and the costs of resistance are worth paying, but the claim that resistance is costless is not scientifically defensible. Neglecting valid stereotypes inevitably results in suboptimal judgments; the defensible stance is that we accept the costs of resisting stereotypes in sensitive contexts because a better society is worth them."
+        }
+      ]
+    }
+  ]
+}

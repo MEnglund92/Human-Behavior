@@ -58,6 +58,7 @@ def validate_file(path):
         return [f"{path}: top level is not a JSON object"], 0, []
     if "source" not in data:
         errors.append(f"{path}: missing 'source'")
+    weighted = data.get("weighted_modality", False)
     chapters = data.get("chapters", [])
     if not isinstance(chapters, list):
         return [f"{path}: 'chapters' is not a list"], 0, []
@@ -84,7 +85,7 @@ def validate_file(path):
             atype = a.get("asset_type")
             if atype not in VALID_TYPES:
                 errors.append(f"{path}: chapter {cid} invalid asset_type {atype!r}")
-            if atype in types_in_chapter:
+            if atype in types_in_chapter and not weighted:
                 warnings.append(f"{path}: chapter {cid} duplicates asset_type {atype!r}")
             types_in_chapter.add(atype)
             for key in REQUIRED:

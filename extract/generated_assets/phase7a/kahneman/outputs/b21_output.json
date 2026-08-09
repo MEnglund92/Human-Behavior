@@ -1,0 +1,931 @@
+{
+  "spec_file": "spec_kahneman_b21.json",
+  "chapters": [
+    {
+      "id": "ch41",
+      "title": "36. Life as a Story",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Duration Neglect, Peak-End Rule, and the Less-Is-More Effect in Judgments of a Whole Life",
+          "visual_frame_description": "A research console displays two biographies of a fictional woman named Jen side by side, one with a 30-year lifespan and one with a 60-year lifespan, both marked as extremely happy. Below them a third card appends five extra slightly happy years, and a bar chart shows desirability ratings. A cursor hovers over the words less-is-more as the player sorts each finding into one of three labeled columns.",
+          "player_mission": "Read each piece of evidence from Ed Diener's studies of Jen's life and classify it into the correct column: duration neglect, peak-end rule, or less-is-more prototype substitution. Place the final verdict for the key finding about the extra five years to complete the matrix.",
+          "key_concepts": [
+            "In Diener's studies, doubling the duration of Jen's life from 30 to 60 years had no effect on judgments of how desirable her life was.",
+            "Doubling the duration also left judgments of the total happiness Jen experienced unchanged.",
+            "Jen's total happiness was judged as the happiness of a typical period in her life, not as the sum of happiness over its duration.",
+            "Adding five slightly happy years to a very happy life caused a substantial drop in evaluations of the total happiness of that life.",
+            "This less-is-more effect indicates that an average, or prototype, has been substituted for a sum when people evaluate a whole life.",
+            "The pattern persisted when parents and older friends of the students answered the same questions.",
+            "In a within-subject experiment, participants still judged the extra five slightly happy years as making the whole life worse.",
+            "In intuitive evaluation of entire lives as well as brief episodes, peaks and ends matter but duration does not.",
+            "Kahneman realized he cared intensely about the final ten minutes of Violetta's life but not about whether she lived to 27 or 28.",
+            "Duration appears to matter for labor and vacations only because the quality of the end changes with the length of the episode."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the less-is-more prototype-substitution mechanism: when judging Jen's total happiness, System 1 substitutes the average happiness of a typical period for the sum over her whole life, so diluting that average with disappointing years makes the entire life look worse. Kahneman and Diener showed the same peak-end and duration-neglect pattern governs brief episodes and whole lives alike.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which mechanism best explains why adding five slightly happy years to Jen's very happy life made the whole life judged worse?",
+          "column_a_label": "Duration neglect",
+          "column_b_label": "Peak-end rule",
+          "column_c_label": "Less-is-more prototype substitution",
+          "rows": [
+            {
+              "label": "Doubling Jen's lifespan from 30 to 60 years leaves desirability ratings unchanged",
+              "col": "a"
+            },
+            {
+              "label": "Jen's total happiness is judged as the happiness of a typical period, not a summed total",
+              "col": "c"
+            },
+            {
+              "label": "Adding five pleasant-but-less-happy years drops the judged desirability of the whole life",
+              "col": "c"
+            },
+            {
+              "label": "The audience's verdict on Violetta's life turns on whether her lover arrives before she dies",
+              "col": "b"
+            },
+            {
+              "label": "In a within-subject comparison, participants still judged the extra years as making the life worse",
+              "col": "c"
+            },
+            {
+              "label": "A mother is judged by how she feels at the end of a 24-hour labor, not by the sum of her hours",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "Duration neglect, because the added years are simply ignored along with everything else",
+            "Peak-end rule, because the added years change the ending into a happier one",
+            "WYSIATI, because the researcher only showed one version of the biography"
+          ],
+          "explanation": "The drop caused by five slightly happy extra years is the less-is-more effect: people substitute the prototype (an average of a typical period) for a sum, so diluting that average drags the whole judgment down. The unchanged ratings when lifespan doubled are duration neglect, and the weight of the ending in Violetta and labor examples is the peak-end rule."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Remembering Self Versus the Experiencing Self in Vacation Choice",
+          "visual_frame_description": "A travel agency desk with a family debating next summer's destination while a photo album, a video camera, and a travel diary lie between them. Two silhouettes, one labeled remembering self and one labeled experiencing self, face the family as the player drags each decision onto the agent who really made it.",
+          "player_mission": "For each vacation-related decision, decide whether it was driven by the remembering self, the experiencing self, or by the peak-end rule shaping memory. Sort all six evidence cards into the correct column.",
+          "key_concepts": [
+            "Diener's team showed that intentions to repeat a vacation were entirely determined by its final global evaluation, not by the daily diary ratings.",
+            "Right or wrong, people choose by memory when they decide whether to repeat an experience.",
+            "Tourists who photograph every scene are designing a future memory rather than savoring the present view.",
+            "In the amnesic-vacation thought experiment, some people say they would not bother to go at all, revealing that they care only about their remembering self.",
+            "Some people treat themselves as they would treat another amnesic, maximizing overall pleasure by returning to a place where they were happy before.",
+            "A self-consciously memorable moment gains a weight and significance it would not otherwise have.",
+            "The word memorable in describing vacation highlights explicitly reveals that the goal of the experience is to store memories.",
+            "The remembering self composes stories and keeps them for future reference, in memories of colonoscopies, vacations, and films alike.",
+            "Kahneman's informal impression is that eliminating memories greatly reduces the value of an experience for most people.",
+            "Picture taking is not necessarily the best way for the tourist's experiencing self to enjoy a view."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the split between the remembering self and the experiencing self: vacation choices and repeat intentions are driven by the stored story and its final evaluation rather than by the pleasure actually experienced moment by moment. Kahneman's evidence shows that the remembering self chooses vacations, even when its verdict misrepresents the diary record.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which agent really makes each vacation decision: the remembering self that stores the story, the experiencing self that lives the moments, or the peak-end rule that reshapes the memory?",
+          "column_a_label": "Remembering self decides",
+          "column_b_label": "Experiencing self decides",
+          "column_c_label": "Peak-end rule reshapes memory",
+          "rows": [
+            {
+              "label": "A student plans to repeat spring break based only on her final global rating, not her daily diary scores",
+              "col": "a"
+            },
+            {
+              "label": "A tourist photographs every scene as a future memory to be designed rather than savoring the view",
+              "col": "a"
+            },
+            {
+              "label": "Violetta's lover makes it just in time, transforming the audience's verdict on her whole life",
+              "col": "c"
+            },
+            {
+              "label": "A person offered a memory-erasing potion says they would not bother to take the trip at all",
+              "col": "a"
+            },
+            {
+              "label": "A traveler returns to the familiar beach where she was happy before, maximizing pleasure for her own amnesic experiencing self",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Duration neglect, because the vacations differ only in length",
+            "WYSIATI, because the traveler attends only to the departure terminal",
+            "Affective forecasting, because the family predicts its future mood"
+          ],
+          "explanation": "The remembering self dominates: repeat decisions follow the final global evaluation even when it misrepresents the diary, and many people value a trip by the story they expect to store. Only the traveler who maximizes the amnesic self's future pleasure is choosing as the experiencing self would."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Peak-End Evaluation Masking the Experiencing Self in a Vacation Retrospective",
+          "visual_frame_description": "A bright living room where Nina, a project manager in her thirties, sits across from an interviewer, a tablet showing her mood journal on the table between them. A timeline of her Lisbon trip scrolls along the wall, the middle days faded to gray while the final sunset glows in color.",
+          "player_mission": "Review Nina's baseline journal, the timed nonverbal log of her interview, and her transcript. Determine whether her glowing account of the trip is an honest record of experience or the product of a specific judgment mechanism, and file the correct diagnosis.",
+          "key_concepts": [
+            "Duration neglect is normal in a story, and the ending often defines its character.",
+            "The remembering self evaluates episodes through critical moments, especially the beginning, the peak, and the end.",
+            "In the cold-hand experiments, people's memory-based choices did not match their moment-by-moment experience.",
+            "Vacation repeat intentions are determined by the final global evaluation, not by the diary record.",
+            "Adding five slightly happy years to a very happy life made the whole life judged worse, a less-is-more effect.",
+            "The peak-end rule governs evaluations of episodes, vacations, and entire lives.",
+            "Peaks and ends matter in intuitive evaluation but duration does not.",
+            "Kahneman reports that many people care more about their remembering self than about their amnesic experiencing self.",
+            "Caring for people often takes the form of concern for the quality of their stories, not for their feelings.",
+            "A self-consciously memorable moment gains a weight and significance it would not otherwise have."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the peak-end rule and duration neglect in memory: Nina's retrospective verdict is built from the peak and ending of the trip while the flat middle days are neglected, so her report reflects her remembering self rather than her experienced self. Kahneman's vacation-diary evidence shows such final evaluations, not actual experience, drive repeat decisions.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Is Nina's account of her week in Lisbon an honest report of how she experienced it, or is it distorted by a specific judgment mechanism?",
+          "subject_baseline": "Nina, a 34-year-old project manager, is normally precise and self-critical in meetings and keeps a meticulous mood journal. She rates her workdays candidly and complains freely about long commutes and rainy afternoons.",
+          "observed_nonverbal_log": [
+            "10:02 Nina leans forward, eyes bright, recounting the sunset at Belem on the final evening; her voice rises with excitement.",
+            "10:09 Asked how she felt on Tuesday, she pauses, shrugs, and says she does not really remember the middle days.",
+            "10:15 When the interviewer mentions rain on Thursday, Nina's smile fades and she rubs her forehead, then quickly returns to describing the last dinner.",
+            "10:21 She gestures with both hands while describing the perfect ending at the airport when the gate agent upgraded her to a window seat.",
+            "10:28 Asked if she would go again, she answers instantly, absolutely, before the interviewer has finished the question."
+          ],
+          "interrogation_transcript": [
+            "Interviewer: Tell me about the middle of the trip, say Tuesday afternoon.",
+            "Nina: Hmm, honestly it is a blur. A long walk, some rain I think. I mostly remember the beginning and the end.",
+            "Interviewer: Would you say it was a happy week overall?",
+            "Nina: Very. The ending sealed it, that last evening was perfect.",
+            "Interviewer: If you found out the final night had actually been cancelled, would that change your verdict?",
+            "Nina: Completely. It would be a different trip."
+          ],
+          "correct_diagnosis": "Nina is not fabricating anything. Her verdict is produced by the remembering self, which composes the trip as a story weighted by its peak and ending, neglecting the duration and the flat middle days.",
+          "diagnostic_breakdown": "Her baseline journal shows rain and fatigue midweek, yet she instantly substitutes the ending for the total-happiness question, which is the peak-end rule. The blurring of Tuesday, the eager return to the final dinner, and the reflexive yes all indicate duration neglect and prototype substitution: the week is represented by a few critical moments rather than a sequence. Her report is honest to her remembering self but is not a faithful record of her experiencing self.",
+          "distractors": [
+            "Nina is lying to appear adventurous and impress the interviewer",
+            "Nina is letting a likeable mood, the affect heuristic, color everything",
+            "Nina is suffering from an anchoring effect set by the airport upgrade"
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Ending Defines the Story: Duration Neglect in a Life and an Episode",
+          "visual_frame_description": "The final act of La Traviata fills the screen: Violetta on a chaise, the young lover arriving at the door, a glowing duet behind them. A caption asks whether the lover arrives in time, while a small timer shows 10 minutes remaining in the opera.",
+          "player_mission": "First explain why the last ten minutes matter more to the audience than a full year of Violetta's life. Then apply the same principle to advise a physician which of two patients will remember their painful procedure as milder.",
+          "key_concepts": [
+            "Duration neglect is normal in a story, and the ending often defines its character.",
+            "Kahneman cared about the possibility of missing Violetta's final ten minutes but not about missing a full year of her life.",
+            "The peak-end rule means evaluations are governed by the most intense moment and the ending.",
+            "Duration appears to matter for labor and vacations only because the end changes with the length of the episode.",
+            "A mother is more depleted after 24 hours of labor than after 6, which changes how she feels at the end.",
+            "In intuitive evaluation of entire lives as well as brief episodes, peaks and ends matter but duration does not.",
+            "The remembering self composes stories and keeps them for future reference.",
+            "We can be deeply moved even by events that change the stories of people who are already dead.",
+            "Diener's Jen study showed that doubling the lifespan had no effect on judged desirability.",
+            "We all care intensely for the narrative of our own life and want it to be a good story with a decent hero."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the peak-end rule and duration neglect: evaluations of an episode or a life are set by its memorable moments and its ending, not by the total time that passed. Kahneman's own response to La Traviata shows that the ending defines the character of the entire story, which is why retrospective judgments so often ignore duration.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "Duration neglect and the peak-end rule: a story, and an evaluation of a life, is about significant events and memorable moments rather than time passing, so how an episode ends defines its character.",
+          "stage_1_observation": "In the final act of La Traviata, Violetta is dying when word arrives that her lover is rushing to Paris. She rallies with hope and joy, they sing a duet, and ten minutes later she dies. The audience is gripped by whether the lover arrives in time yet is utterly unmoved by whether Violetta lived to 27 or 28.",
+          "stage_1_question": "Why does the last ten minutes matter more to the audience than a full year of Violetta's life?",
+          "stage_1_correct_answer": "Because the audience's remembering self evaluates the whole story through its peak and its ending: duration is neglected, and the ending, reunion before death, defines the character of her entire life. A missed year of happy life would not move them, but a missed reunion would make La Traviata an altogether different story.",
+          "stage_2_intervention": "Two patients both underwent the same painful procedure this morning. Patient A endured 10 minutes of pain that ended with a slow taper to mild discomfort. Patient B endured 6 minutes that ended in a sharp, sudden spike. The physician asks you which patient's procedure patients will retrospectively rate as milder.",
+          "stage_2_correct_answer": "Patient A's 10-minute taper-ending will be remembered as milder, even though the actual experienced pain lasted longer, because retrospective evaluation is governed by the ending (the peak-end rule) rather than total duration. Duration appears to matter only when the ending changes with length, as when a mother is more depleted after 24 hours of labor than after 6."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Choosing by Memory: The Final Evaluation Decides the Repeat Vacation",
+          "visual_frame_description": "A dorm room at the end of spring break: a student's daily diary lies open with mostly high ratings, beside a questionnaire asking for a single global rating and a repeat-or-not checkbox. A calendar counts down to booking season.",
+          "player_mission": "Predict how the student's repeat-vacation decision will be made from the research evidence, then advise a friend who says he would not travel at all if all memories would be erased, who is about to book a painful jungle trek.",
+          "key_concepts": [
+            "Diener's team showed that intentions for future vacations were entirely determined by the final evaluation, even when that score misrepresented the diary quality.",
+            "Right or wrong, people choose by memory when they decide whether to repeat an experience.",
+            "The remembering self chooses vacations, not the experiencing self.",
+            "In the amnesic-vacation thought experiment, many people would value the trip far less if all pictures and memories were destroyed.",
+            "Some people treat themselves as they would treat another amnesic, returning to a place where they were happy before.",
+            "Some people say they would not bother to go at all, revealing that they care only about their remembering self.",
+            "Most people are remarkably indifferent to the pains of their experiencing self.",
+            "Kahneman reports feeling pity for his suffering self but not more than he would feel for a stranger in pain.",
+            "The experiencing self, who does the living, is like a stranger to me, Kahneman writes.",
+            "Touristic vacations are often evaluated by the story and the memories expected to be stored."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the remembering self's control over choice: repeat decisions follow the final global evaluation of an experience, not the diary of moments that made it up. Kahneman's vacation-diary study shows that people choose by memory, right or wrong, and that many people value their remembered story above their experienced pleasure.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "People decide whether to repeat an experience based on their memory of it, specifically the final global evaluation, rather than on the experienced quality captured moment by moment, even when the memory misrepresents that experience.",
+          "stage_1_observation": "Students keep daily diaries during spring break and rate each day. At the end they give one global rating of the vacation and say whether they would repeat it. One student's diary shows a long, pleasant stretch followed by a disappointing final day in the rain.",
+          "stage_1_question": "What does the research by Ed Diener and his team predict this student will do with her repeat decision?",
+          "stage_1_correct_answer": "She will decide based entirely on the final global evaluation, so the rainy ending will sink the repeat decision even though the diary showed most days were excellent. Statistical analysis showed intentions for future vacations are entirely determined by the final evaluation, right or wrong, because the remembering self chooses by memory.",
+          "stage_2_intervention": "A friend says that in the amnesic-vacation thought experiment he would not bother to go at all if all pictures and memories would be destroyed after the trip. He is about to book an arduous jungle trek that is mostly painful in real time. Do you stop him?",
+          "stage_2_correct_answer": "No, his preference is consistent with what Kahneman observes informally: many people reveal they care mainly about their remembering self. But do point out that the trek gains value only from the expectation that the pain and the joy of reaching the goal will be memorable; if he truly wanted to maximize his experiencing self, he would book the comfortable beach where he was happy before, as one would for another amnesic."
+        }
+      ]
+    },
+    {
+      "id": "ch42",
+      "title": "37. Experienced Well-Being",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Measuring the Two Selves: Experience Sampling, the Day Reconstruction Method, and Global Surveys",
+          "visual_frame_description": "A methodology lab shows three instruments: a cell phone beeping at random moments, a journal broken into scenes like a film, and a survey form asking about satisfaction with life as a whole. A diagram of the U-index charts time in an unpleasant state.",
+          "player_mission": "Match each measurement technique to what it actually captures, sorting every evidence card into the column for experience sampling, the Day Reconstruction Method, or global life-satisfaction surveys. Confirm which method approximates experience sampling for large-scale studies.",
+          "key_concepts": [
+            "Experience sampling interrupts people at random moments to ask what they are doing and how they feel right now.",
+            "The Day Reconstruction Method (DRM) has participants relive the previous day in detail, breaking it into episodes like scenes in a film.",
+            "The DRM produces a duration-weighted measure of daily affect in which longer episodes count more than short ones.",
+            "Validations against experience sampling confirmed the DRM recovers the feeling of a prototypical moment of an episode.",
+            "The global question about satisfaction with life as a whole is clearly addressed to the remembering self.",
+            "The Cantril Self-Anchoring Striving Scale asks people to place their life on a ladder from worst to best possible life.",
+            "The U-index is the percentage of waking time a person spends in an unpleasant state, based on an objective measurement of time.",
+            "The DRM questionnaires also included measures of life satisfaction, interpreted as the satisfaction of the remembering self.",
+            "Experience sampling was invented by Mihaly Csikszentmihalyi.",
+            "Gallup's life evaluation and experienced well-being are two distinct aspects of well-being."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the distinction between measuring the experiencing self and the remembering self: experience sampling and the Day Reconstruction Method capture felt moments, while global satisfaction surveys and the Cantril ladder capture the remembering self's judgment. Kahneman and his dream team built the DRM because it approximates experience sampling at far lower cost.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which technique captures each kind of data: moment-by-moment experience, a structured reconstruction of yesterday, or the remembering self's global judgment?",
+          "column_a_label": "Experience sampling",
+          "column_b_label": "Day Reconstruction Method (DRM)",
+          "column_c_label": "Life-satisfaction survey",
+          "rows": [
+            {
+              "label": "A cell phone beeps at random moments and asks what the person is doing and how they feel right now",
+              "col": "a"
+            },
+            {
+              "label": "Participants relive the previous day as a sequence of scenes like a film, then rate each episode",
+              "col": "b"
+            },
+            {
+              "label": "A duration-weighted daily affect score gives longer episodes more weight",
+              "col": "b"
+            },
+            {
+              "label": "All things considered, how satisfied are you with your life as a whole these days?",
+              "col": "c"
+            },
+            {
+              "label": "The U-index, the share of waking time spent in an unpleasant state",
+              "col": "b"
+            },
+            {
+              "label": "The Cantril ladder asks where you stand from the worst to the best possible life",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Experience sampling, because the DRM was also invented by Csikszentmihalyi",
+            "The U-index, because it measures only positive moods",
+            "Life satisfaction, because both selves answer the same question"
+          ],
+          "explanation": "The Day Reconstruction Method approximates experience sampling by having people reconstruct yesterday into episodes and rate feelings, yielding duration-weighted measures like the U-index. Life-satisfaction surveys and the Cantril ladder instead ask the remembering self for a global judgment, which is a different thing from experienced well-being."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "What Moves Experienced Well-Being Versus Life Evaluation",
+          "visual_frame_description": "A dashboard splits a person's day in two: on the left, a live mood trace that dips during the commute, under the boss, and during a headache; on the right, a global ladder score that rises with education and income. The player sorts findings between the two panels and a neutral middle zone.",
+          "player_mission": "Sort each research finding by what it chiefly affects: the emotions experienced during the day, the global evaluation of life, or neither because the effect is balanced or satiated. Finish by identifying the column that best characterizes experienced well-being as a whole.",
+          "key_concepts": [
+            "A headache raises the proportion reporting sadness and worry from 19% to 38% for the top two-thirds of the income distribution.",
+            "For the poorest tenth, a headache raises that proportion from 38% to 70%, a higher baseline and a much larger increase.",
+            "Educational attainment is associated with higher evaluation of one's life but not with greater experienced well-being.",
+            "More educated Americans tend to report higher stress.",
+            "Ill health has a much stronger adverse effect on experienced well-being than on life evaluation.",
+            "Living with children raises daily stress and anger, but the adverse effects on life evaluation are smaller.",
+            "Income beyond the satiation level of about $75,000 adds precisely zero to average experienced well-being.",
+            "Time pressure is a significant source of negative affect at work.",
+            "In the first study, the immediate presence of a boss was the only thing that was worse than being alone.",
+            "Happiness is, with only slight exaggeration, the experience of spending time with people you love and who love you."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the dissociation between experienced well-being and life evaluation: daily emotions track situational factors such as health, time pressure, and social contact, while the global judgment tracks education, income, and status. Kahneman's Gallup analyses show these two aspects of well-being are related but different, and life satisfaction is not a flawed measure of experience but something else entirely.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sort each finding by what it chiefly affects: the emotions of the day, the global judgment of life, or neither because the effect is balanced or satiated.",
+          "column_a_label": "Affects experienced well-being",
+          "column_b_label": "Affects life evaluation",
+          "column_c_label": "Affects neither (balanced or satiated)",
+          "rows": [
+            {
+              "label": "A headache raises sadness and worry more sharply for the poorest tenth than for the better-off",
+              "col": "a"
+            },
+            {
+              "label": "Educational attainment raises life evaluation but is associated with higher stress in daily experience",
+              "col": "b"
+            },
+            {
+              "label": "Income above roughly $75,000 adds zero to average experienced well-being",
+              "col": "c"
+            },
+            {
+              "label": "Time pressure and the immediate presence of a boss sour mood at work",
+              "col": "a"
+            },
+            {
+              "label": "Marriage changes some aspects of life for the better and others for the worse, with no average effect on experienced well-being",
+              "col": "c"
+            },
+            {
+              "label": "Living with children raises daily stress and anger but has smaller effects on life evaluation",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Life evaluation, because all of these are global judgments people make in surveys",
+            "Temperament, because heritability determines every outcome here",
+            "The U-index, because it counts only negative moments"
+          ],
+          "explanation": "Experienced well-being is driven largely by situational factors, including health, time pressure, the boss in the room, and social contact, while life evaluation responds more to education and income. Marriage and income above the satiation point are balanced or satiated, but the general rule is that the emotions of the day track situations, not the variables that raise global satisfaction."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "High Global Satisfaction Masking a Miserable Workday",
+          "visual_frame_description": "A bright office where Marcus, a bank analyst, gives a 9 on a ladder diagram while a companion mood-trace graph beside him shows deep dips on the morning train and at his manager's door. The tension between the two displays is visible on the screen.",
+          "player_mission": "Compare Marcus's global life-satisfaction score with his experience-sampling log and interview. Diagnose whether he is lying, deluded, or answering a different question entirely, then file the correct verdict.",
+          "key_concepts": [
+            "Global satisfaction with life is addressed to the remembering self, which has not proved to be a good witness.",
+            "The mood of the moment depends primarily on the current situation, not on global life satisfaction.",
+            "Time pressure and the immediate presence of a boss are significant sources of negative affect at work.",
+            "The morning commute had a U-index of 29% among 1,000 American women.",
+            "Life satisfaction and experienced well-being are related but different; life satisfaction is not a flawed measure of experience.",
+            "People's evaluations of their lives and their actual experience may be related, but they are also different.",
+            "Our emotional state is largely determined by what we attend to, and we are normally focused on our current activity and environment.",
+            "The U-index is higher by about 6% on weekdays than on weekends, mostly because of work-related stress and disliked activities.",
+            "Situational factors such as the opportunity to socialize with coworkers affect mood at work.",
+            "The presence of a boss was the only thing in the first study that was worse than being alone."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the gap between the remembering self's global evaluation and the experiencing self's record: Marcus's life-satisfaction score tracks his status and self-image while his daily mood is dominated by situational misery such as the commute and the boss. Kahneman's DRM and Gallup analyses show these two measures are different things rather than one being a flawed version of the other.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Marcus gives his life satisfaction a 9 on the Cantril ladder, but his experience-sampling log tells a different story. Is he lying, deluded, or measuring something else?",
+          "subject_baseline": "Marcus, 41, a bank analyst, describes himself as a satisfied man. In interviews he is cheerful, stable, and articulate. His DRM log, however, shows a 90-minute commute each way, about 28% of his waking day rated in unpleasant states, with his worst moments clustered at work and under his manager's oversight.",
+          "observed_nonverbal_log": [
+            "09:31 Asked how satisfied he is with his life as a whole, Marcus answers fast, with a relaxed posture and a confident nod.",
+            "09:36 Asked to describe a typical workday, he leans back and says fine, standard, shoulders sagging slightly as he mentions his manager's office.",
+            "09:44 Recalling yesterday's 6:20 a.m. train, he checks his phone, sighs, and rubs the back of his neck.",
+            "09:52 Asked about the weekend with his sister, his face visibly relaxes; he smiles and talks for four uninterrupted minutes.",
+            "10:01 Asked to rate his mood right now, at this desk, he hesitates and gives a 6, then immediately corrects to 7, adding that he is basically a happy person."
+          ],
+          "interrogation_transcript": [
+            "Interviewer: Overall, how satisfied are you with your life these days?",
+            "Marcus: Very. A solid 9. I have a good job, a family, a plan.",
+            "Interviewer: And during an average workday, how do you actually feel?",
+            "Marcus: You know, fine. You just do it. I do not really think about it.",
+            "Interviewer: Your morning commute yesterday?",
+            "Marcus: Rotten, honestly. But that is not my life. That is just Tuesday morning.",
+            "Interviewer: If your commute were suddenly shorter, would your life satisfaction go up?",
+            "Marcus: My satisfaction with my life? No. My Tuesday mornings, definitely."
+          ],
+          "correct_diagnosis": "Marcus is not deceiving you. He is answering a global life-evaluation question with the remembering self, which is largely disconnected from the emotional record of his day; the situational misery of the commute and the boss shows up in experienced well-being but not in his life evaluation.",
+          "diagnostic_breakdown": "The fast, confident global answer and the dismissal of Tuesday as not my life reveal substitution: Marcus answers the easier question of how his life looks as a whole rather than summing his felt moments. His nonverbal relief on the weekend topic and his hesitation rating the in-the-moment mood confirm that situational factors dominate his day while leaving his life judgment untouched, exactly the measured gap between experienced well-being and life evaluation.",
+          "distractors": [
+            "Marcus is suppressing anger and scoring high to impress his employer",
+            "Marcus is anchored on his own 9-point self-rating",
+            "Marcus has a high U-index because he overestimates his pleasant activities"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Income Above Satiation and the Fading Pleasure of Small Joys",
+          "visual_frame_description": "A tasting room where Elena, a private-equity partner, takes a bite of dark chocolate while an expression-analysis overlay tracks her flat, brief smile. A chart beside her shows the Gallup satiation curve flattening near $75,000 while her forecast line keeps climbing.",
+          "player_mission": "Analyze Elena's baseline, her expression during a chocolate tasting, and her interview. Decide whether her claim that money buys happiness survives contact with the evidence, and file the correct diagnosis.",
+          "key_concepts": [
+            "Being poor makes one miserable, but being rich may enhance life satisfaction without improving experienced well-being.",
+            "Income beyond about $75,000 in high-cost areas adds zero to average experienced well-being.",
+            "Higher income is associated with a reduced ability to enjoy the small pleasures of life.",
+            "Priming students with the idea of wealth reduced the pleasure their faces expressed as they ate a bar of chocolate.",
+            "Life satisfaction keeps rising with income well beyond the point where experience stops improving.",
+            "Higher income permits many pleasures, but they do not show up in reports of emotional experience.",
+            "There is a clear contrast between the effects of income on experienced well-being and on life satisfaction.",
+            "An analysis of more than 450,000 Gallup-Healthways responses provided a definite answer about money and happiness.",
+            "The satiation level can be lower in areas where the cost of living is lower.",
+            "The average increase of experienced well-being associated with incomes beyond the satiation level was precisely zero."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the satiation of experienced well-being: beyond about $75,000, extra income adds nothing to daily emotional experience even though it keeps raising life satisfaction, and wealth priming appears to dull the enjoyment of small pleasures. The Gallup-Healthways analysis of over 450,000 responses supports this dissociation between experienced well-being and life evaluation.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Elena, who earns $310,000 a year, insists money buys happiness. Her facial-expression data during a chocolate-tasting session suggest otherwise. What is happening?",
+          "subject_baseline": "Elena, 45, a private-equity partner, describes wealth as the key to well-being and says the more the better. She is animated and expressive at work and describes herself as someone who appreciates the finer things.",
+          "observed_nonverbal_log": [
+            "11:02 Elena is told she is tasting a premium bar of dark chocolate; she glances at the brand and price on the wrapper, then shrugs.",
+            "11:04 First bite: a minimal smile, brief, and she immediately checks her watch.",
+            "11:08 Asked whether the chocolate was enjoyable, she says nice, I guess, with a flat intonation and no change in expression.",
+            "11:13 A colleague mentions a bonus; Elena brightens and leans in, clearly more engaged by the money talk than by the chocolate.",
+            "11:21 Asked how happy a newly awarded $50,000 bonus will make her, she answers enormously, with a wide, fast smile."
+          ],
+          "interrogation_transcript": [
+            "Interviewer: So you think income is the surest route to happiness?",
+            "Elena: Absolutely. Give me more money and you give me more pleasure.",
+            "Interviewer: We measured your expression while you ate that chocolate a few minutes ago.",
+            "Elena: It was fine. What does that prove?",
+            "Interviewer: The Gallup data suggest that beyond about $75,000, more income does not raise experienced well-being at all.",
+            "Elena: That cannot apply to me. I know I would enjoy my life more with another million."
+          ],
+          "correct_diagnosis": "Elena's forecast that income reliably buys emotional pleasure is contradicted by both the data and her own behavior: beyond the satiation point, extra income does not raise experienced well-being, and the suggestive priming finding, that thinking of wealth reduces the pleasure a face expresses while eating chocolate, shows up in her own tasting session.",
+          "diagnostic_breakdown": "Elena's flat response to the chocolate despite high income matches the chapter's observation that higher income is associated with a reduced ability to enjoy small pleasures, and the finding that priming students with wealth reduced the pleasure expressed while eating a bar of chocolate. Her excitement about a bonus, a future transition, versus her indifference to the present bite is an error of affective forecasting about her experiencing self. The verdict: not lying, but systematically misforecasting where pleasure comes from.",
+          "distractors": [
+            "Elena has an unusually high U-index caused by poor sleep",
+            "Elena is anchoring her happiness on her salary negotiation",
+            "Elena is experiencing a focusing illusion about her commute"
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Reducing the U-Index: Where Policy Can Cut Experienced Suffering",
+          "visual_frame_description": "A policy war room with the U-index activity chart glowing on a wall screen: commute at 29%, work at 27%, child care at 24%, housework at 18%, socializing 12%, TV 12%, sex 5%. Three policy folders lie on the table for the player to pick from.",
+          "player_mission": "First identify which activity carries the highest U-index and explain why the weekend is 6% better than weekdays. Then choose the policy recommendation best supported by the chapter's evidence about reducing society's experienced suffering.",
+          "key_concepts": [
+            "The U-index is the percentage of waking time a person spends in an unpleasant state, based on an objective measurement of time.",
+            "For 1,000 American women, the U-index was 29% for the morning commute, 27% for work, 24% for child care, and 5% for sex.",
+            "Time spent with one's children was slightly less enjoyable than housework for American women.",
+            "The U-index was higher by about 6% on weekdays than on weekends, mostly because of work tension and disliked activities.",
+            "About half the participants reported going through an entire day without an unpleasant episode, while a small minority did most of the suffering.",
+            "Improved transportation, child care for working women, and socializing opportunities for the elderly are relatively efficient ways to reduce the U-index.",
+            "Even a 1% reduction in the U-index would be a significant achievement, amounting to millions of hours of avoided suffering.",
+            "The use of time is one of the areas of life over which people have some control.",
+            "Switching time from passive leisure such as TV watching to socializing and exercise improves experience.",
+            "Economist Alan Krueger took the lead in introducing elements of the method into national statistics."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the U-index as a policy instrument: experienced suffering is concentrated in specific blocks of time such as commuting and work, and it is unequally distributed, with a small minority absorbing most of the day's emotional pain. Kahneman argues that time-use choices and social interventions can reduce the U-index even when a 1% drop represents millions of hours of avoided suffering.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The U-index measures the share of waking time spent in an unpleasant state, and it is not distributed equally: about half of people report no unpleasant episodes on a given day while a small fraction does most of the suffering. Because time use is one area people can control, policy can reduce suffering by shifting how time is spent.",
+          "stage_1_observation": "You are a policy analyst reviewing the U-index data from 1,000 American women in a Midwestern city: 29% for the morning commute, 27% for work, 24% for child care, 18% for housework, 12% for socializing, 12% for TV watching, and 5% for sex. The team needs to choose where to intervene.",
+          "stage_1_question": "According to the chapter's data, which activity carries the highest U-index, and why is the weekend about 6% better than weekdays?",
+          "stage_1_correct_answer": "The morning commute carries the highest U-index at 29%. The weekday-weekend gap is mostly explained by the tension and stress of work and the time spent on disliked activities; the weekend gap closes because people spend less time in activities they dislike. Time pressure is a significant source of negative affect, and the immediate presence of a boss was the only thing worse than being alone in the first study.",
+          "stage_2_intervention": "You must recommend one of three policies: improved public transit and child care, a program encouraging workers to switch from passive leisure such as TV to socializing and exercise, or a tax cut aimed at households earning above $150,000. Which best matches the chapter's evidence about reducing the U-index?",
+          "stage_2_correct_answer": "Combine the first two policies. The chapter argues that improved transportation, child care for working women, and improved socializing opportunities for the elderly are relatively efficient ways to reduce the U-index, and that switching time from passive leisure such as TV watching to more active leisure including socializing and exercise improves experience. The tax cut fails because income beyond the satiation level adds zero to experienced well-being."
+        }
+      ]
+    },
+    {
+      "id": "ch43",
+      "title": "38. Thinking About Life",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Reading the Marriage Graph: Adaptation Versus a Salience Heuristic",
+          "visual_frame_description": "A conference slide shows Figure 16 from the German Socio-Economic Panel: life satisfaction rising sharply for two or three years around a wedding and then declining. Three labeled thought bubbles hover over the graph, one about adaptation, one about salience, and one about forecasting errors.",
+          "player_mission": "Sort each claim about the marriage graph into the column that matches Kahneman's interpretation: adaptation, the salience heuristic, or affective forecasting error. Finish by selecting the column that Kahneman argues the graph itself actually traces.",
+          "key_concepts": [
+            "Figure 16 shows life satisfaction spiking for two or three years around marriage and then declining.",
+            "The graph is commonly interpreted as tracing adaptation, in which the early joys of marriage disappear as experiences become routine.",
+            "Kahneman instead reads the graph as the time course of a heuristic for answering the life-satisfaction question.",
+            "Attention is the key: the spike mirrors the likelihood that people will think of their recent or forthcoming marriage when asked about their life.",
+            "The salience of the marriage thought is bound to diminish with the passage of time as its novelty wanes.",
+            "People who are happy to be reminded of their marriage are not necessarily happier the rest of the time.",
+            "Newlyweds' experienced well-being will eventually depend, as it does for the rest of us, on the environment and activities of the present moment.",
+            "The decision to get married reflects, for many people, a massive error of affective forecasting.",
+            "In the DRM studies, there was no overall difference in experienced well-being between women who lived with a mate and women who did not.",
+            "Survey participants manage to answer global life questions in a few seconds, mostly by substituting an easier question; System 1 is at work."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the distinction between an adaptation explanation and a heuristic explanation of the marriage graph: Kahneman argues the spike and decline trace how salient the marriage thought is when people answer a life-satisfaction question, not a surge in daily happiness that recedes. The graph can therefore tell us little about happiness or adaptation, only about how people answer the question.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Which explanation best matches Kahneman's own reading of the spike and decline in life satisfaction around marriage?",
+          "column_a_label": "Adaptation explanation",
+          "column_b_label": "Salience heuristic explanation",
+          "column_c_label": "Affective forecasting error",
+          "rows": [
+            {
+              "label": "The graph is commonly read as tracing adaptation, with early joys dissolving into routine",
+              "col": "a"
+            },
+            {
+              "label": "Attention is the key: the spike mirrors the likelihood of being reminded of a recent or forthcoming marriage when asked about life",
+              "col": "b"
+            },
+            {
+              "label": "The salience of the marriage thought diminishes as its novelty wanes",
+              "col": "b"
+            },
+            {
+              "label": "Couples know divorce is common but do not believe the statistics apply to them",
+              "col": "c"
+            },
+            {
+              "label": "Survey participants answer global life questions in seconds by substituting an easier question",
+              "col": "b"
+            },
+            {
+              "label": "People who are happy to be reminded of their marriage are not necessarily happier the rest of the day",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Adaptation, because the graph literally shows a decline after the wedding",
+            "Duration neglect, because married years simply count the same as single years",
+            "Temperament, because heritability explains the whole spike"
+          ],
+          "explanation": "Kahneman argues the spike and decline in Figure 16 can be read as the time course of a heuristic: newlyweds are likely to retrieve the marriage when asked to evaluate their life, and that salience fades with novelty. The adaptation story is the folk reading and the divorce statistics are a separate affective-forecasting error, but the graph itself, Kahneman argues, mostly tells us about the question-answering heuristic."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "What Actually Drives Answers to Life-Satisfaction Questions",
+          "visual_frame_description": "A survey kiosk in a campus hallway where students answer a happiness question while floating reminders appear above them: a date card, a dime on a copying machine, a wedding photo, and a twins study pamphlet. Each reminder is tagged with the mechanism it activates.",
+          "player_mission": "Sort each finding by the mechanism that best explains the survey answers people give about their life as a whole: salience and substitution, temperament, or moment-by-moment experience. Confirm the column that dominates quick global judgments.",
+          "key_concepts": [
+            "Students who had just been asked how many dates they had reported their happiness these days as if dating was the only significant fact in their life.",
+            "Half the respondents who found a dime planted on the copying machine reported a marked improvement in satisfaction with their life as a whole.",
+            "A mood heuristic is one way to answer life-satisfaction questions.",
+            "The score quickly assigned to one's life is determined by a small sample of highly available ideas, not by a careful weighting of the domains of life.",
+            "A disposition for well-being is as heritable as height or intelligence, as demonstrated by studies of twins separated at birth.",
+            "Both experienced happiness and life satisfaction are largely determined by the genetics of temperament.",
+            "People who appear equally fortunate vary greatly in how happy they are.",
+            "The heuristics used to answer life questions are examples of both substitution and WYSIATI.",
+            "Any aspect of life to which attention is directed will loom large in a global evaluation.",
+            "The concept of happiness is not suddenly changed by finding a dime, but System 1 readily substitutes a small part of it for the whole."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests substitution and WYSIATI in global well-being judgments: quick answers to life-satisfaction questions are determined by a small sample of highly available ideas, such as a recent date or a found dime, rather than by careful weighting. Kahneman distinguishes these heuristic effects from the heritable temperament that explains stable between-person differences.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sort each finding by the mechanism that best explains the answers people give about their life as a whole.",
+          "column_a_label": "Salience and substitution",
+          "column_b_label": "Temperament",
+          "column_c_label": "Experience of the moment",
+          "rows": [
+            {
+              "label": "Students asked about dating before the happiness question report happiness as if dating were everything",
+              "col": "a"
+            },
+            {
+              "label": "Finding a dime on the copying machine measurably raises reported life satisfaction",
+              "col": "a"
+            },
+            {
+              "label": "Studies of twins separated at birth show a disposition for well-being is as heritable as height or intelligence",
+              "col": "b"
+            },
+            {
+              "label": "People who recently married retrieve that fact when asked a general question about their life",
+              "col": "a"
+            },
+            {
+              "label": "Paraplegics show near-normal experienced well-being much of the time once attention is withdrawn from the condition",
+              "col": "c"
+            },
+            {
+              "label": "Newlyweds' experienced happiness still depends on the environment and activities of the present moment",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Experience sampling, because all survey answers reflect the U-index",
+            "The peak-end rule, because only endings are retrieved",
+            "Goal-setting, because life satisfaction depends on your ambitions"
+          ],
+          "explanation": "Kahneman's core claim is that global life-satisfaction answers are produced by substitution and WYSIATI: a small sample of highly available ideas, a recent date, a found dime, a wedding, dominates the score. Temperament explains part of the stable between-person variance, and momentary experience explains felt states, but the quick survey answer is best predicted by what is salient at the moment of the question."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Time and the Two Selves: Adaptation, Duration Neglect, and the Transition Focus",
+          "visual_frame_description": "A time-themed diagram shows a long horizontal line of moments, but the mind's eye paints only three dots: a beginning, a peak, and an end. Off to the side, a lottery ticket, a paraplegic's day, and a colostomy patient's chart each route to one of three labeled mechanisms.",
+          "player_mission": "Sort each finding from the chapter's final reflections on time into the correct column: attention withdrawal and adaptation, duration neglect, or the transition focus of prospect theory. Finish by confirming the column that best captures adaptation to long-term circumstances.",
+          "key_concepts": [
+            "Adaptation to a new situation consists in large part of thinking less and less about it.",
+            "Most long-term circumstances of life, including paraplegia and marriage, are part-time states that one inhabits only when one attends to them.",
+            "Paraplegics are in a fairly good mood more than half of the time as early as one month following their accident.",
+            "Those who knew a paraplegic estimated 41% bad-mood time a year after the accident versus 68% for those who did not.",
+            "The main exceptions to adaptation are chronic pain, constant exposure to loud noise, and severe depression.",
+            "Colostomy patients show no difference in experienced happiness from healthy people but would trade away years of life to avoid the condition.",
+            "Duration is neglected in storytelling, where an episode is represented by a few critical moments, especially the beginning, the peak, and the end.",
+            "In prospect theory, a new state of wealth is represented by the transition to it, neglecting adaptation and time.",
+            "The mind is good with stories, but it does not appear to be well designed for the processing of time.",
+            "Winning a lottery is evaluated by the anticipated intensity of the reaction to the news that one has won."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests three distinct ways the mind mishandles time: attention withdrawal and adaptation for long-term circumstances, duration neglect in storytelling, and the transition focus of prospect theory where a state is judged by its onset. Kahneman concludes that the remembering self represents episodes by a few critical moments and that the mind is not well designed for the processing of time.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Sort each finding by the mechanism through which the mind handles time.",
+          "column_a_label": "Attention withdrawal and adaptation",
+          "column_b_label": "Duration neglect",
+          "column_c_label": "Transition focus",
+          "rows": [
+            {
+              "label": "Paraplegics are in a fairly good mood more than half the time as early as a month after the accident",
+              "col": "a"
+            },
+            {
+              "label": "People who know a paraplegic estimate far less bad-mood time a year on (41%) than people who do not (68%)",
+              "col": "a"
+            },
+            {
+              "label": "Adding five slightly happy years to Jen's life drops judged desirability because duration is neglected",
+              "col": "b"
+            },
+            {
+              "label": "Colostomy patients would trade years of life to be without the condition though their experienced happiness matches healthy people",
+              "col": "b"
+            },
+            {
+              "label": "Winning a lottery is evaluated by the anticipated reaction to the news, not by the years of the new state",
+              "col": "c"
+            },
+            {
+              "label": "In prospect theory, a new state of wealth is represented by the transition to it",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Duration neglect, because adaptation ignores how long episodes last",
+            "The peak-end rule, because all of these involve endings",
+            "Temperament, because heritability governs adaptation speed"
+          ],
+          "explanation": "The chapter argues that most long-term circumstances are part-time states inhabited only when attended to: adaptation consists of thinking less and less about a situation, which is why paraplegics' experienced mood returns toward normal. Duration neglect (the Jen results and the colostomy years traded away) and the transition focus of prospect theory (a lottery win judged by its announcement) are distinct errors of the same story-telling mind."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The California Transplant and the Focusing Illusion About Climate",
+          "visual_frame_description": "An engineer's kitchen in San Diego, Dario gesturing at a sunny window while a map of Ohio glows faintly on a tablet behind him. A mood log on the counter shows flat, ordinary weekdays punctuated by the word January in gray.",
+          "player_mission": "Evaluate whether Dario's report that the California climate made him happier is trustworthy. Weigh his baseline, the timed nonverbal log, and the transcript against the Schkade and Kahneman findings, then file the correct diagnosis.",
+          "key_concepts": [
+            "Students in California and the Midwest showed no difference whatsoever in life satisfaction.",
+            "Californians and Midwesterners shared the same mistaken view that Californians enjoy greater well-being.",
+            "The error was traced to an exaggerated belief in the importance of climate, which the researchers described as a focusing illusion.",
+            "The essence of the focusing illusion is WYSIATI: giving too much weight to the climate, too little to all the other determinants of well-being.",
+            "Long-term Californians are unlikely to be reminded of the climate when asked for a global evaluation of their life.",
+            "Thoughts of any aspect of life are more likely to be salient if a contrasting alternative is highly available.",
+            "The focusing illusion can cause people to be wrong about their present state of well-being, about the happiness of others, and about their own future happiness.",
+            "A person who recently moved will report himself happier because thoughts of the climate will make him believe that he is.",
+            "Nothing in life is as important as you think it is when you are thinking about it.",
+            "Climate was not an important determinant of well-being in the students studied."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the focusing illusion: when a salient thought such as the move from Ohio to California dominates a life-satisfaction question, the true weight of climate in experience is exaggerated. Kahneman and Schkade showed Californians and Midwesterners had identical life satisfaction despite both believing the opposite, because attention to a contrasting, salient feature distorts the global evaluation.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Dario moved from Cleveland to San Diego three years ago, convinced the climate made him happier. Is his reported well-being trustworthy?",
+          "subject_baseline": "Dario, 38, an engineer, is energetic, decisive, and good-humored. He talks about the move constantly, keeps a weather app on his home screen, and tells colleagues the relocation was the best decision of his life.",
+          "observed_nonverbal_log": [
+            "14:00 Asked about his life since moving, Dario's eyes light up; he gestures toward the window and says, look at that sky.",
+            "14:06 Asked how a typical Tuesday actually goes, he pauses and says normal, his enthusiasm visibly dropping.",
+            "14:12 When the interviewer asks about his commute, he grimaces; the 70-minute drive in traffic is clearly not sunny.",
+            "14:18 Asked whether he would move back to Ohio for a 40% raise, he hesitates, looks at the window again, and says he would miss the weather.",
+            "14:25 Asked how often he thinks about the climate during an ordinary week, he laughs and says he does not really think about it."
+          ],
+          "interrogation_transcript": [
+            "Interviewer: Are you happier in San Diego than you were in Cleveland?",
+            "Dario: Definitely. Just look outside.",
+            "Interviewer: And on an ordinary Tuesday, how is your actual mood?",
+            "Dario: Same as anywhere, I suppose. Traffic is bad, work is work.",
+            "Interviewer: If you moved back, how much would your day-to-day happiness fall?",
+            "Dario: A lot. I would be miserable in that gray winter.",
+            "Interviewer: But in Cleveland, were you miserable on ordinary days?",
+            "Dario: No... no, I guess not. I just hated January."
+          ],
+          "correct_diagnosis": "Dario's belief that the climate raises his well-being is a focusing illusion: the salient thought of the move and its contrast with Ohio distorts the weight of climate, while his actual daily experience of the commute and work is roughly unchanged.",
+          "diagnostic_breakdown": "The Schkade and Kahneman study found Californians and Midwesterners had identical life satisfaction even though both regions believed Californians were happier, an exaggerated belief in the importance of climate. Dario's own log shows the salience: he recalls the sky instantly but admits he rarely thinks about the climate on a normal week, and his Tuesday mood is unchanged. The verdict: he reports himself happier because the thought of the climate makes him believe he is, a focusing illusion, not a lie.",
+          "distractors": [
+            "Dario is deliberately exaggerating to justify a costly move",
+            "Dario's happiness is real and driven entirely by temperature effects",
+            "Dario is anchored on his old Ohio salary when judging the move"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Newlywed's Perfect Score and the Salience of the Wedding",
+          "visual_frame_description": "A kitchen in a new apartment where Nadia, a nurse, answers a survey while a wedding photo glows on the fridge and a mood-tracking phone shows ordinary, flat hospital shifts. The wedding photo and the phone are in visible tension.",
+          "player_mission": "Compare Nadia's perfect life-satisfaction score with her experience-sampling record and interview. Determine whether the score reflects daily happiness, the salience of the wedding thought, or something else, and file the correct diagnosis.",
+          "key_concepts": [
+            "The marriage graph spike reflects the likelihood that people will think of their recent or forthcoming marriage when asked about their life.",
+            "People who recently married, or expect to marry soon, are likely to retrieve that fact when asked a general question about their life.",
+            "Because marriage is almost always voluntary in the United States, almost everyone reminded of it will be happy with the idea.",
+            "Even newlyweds who enjoy a state of happy preoccupation with their love will eventually return to earth.",
+            "Unless people think happy thoughts about their marriage during much of their day, it will not directly influence their happiness.",
+            "Experienced well-being is on average unaffected by marriage because it changes some aspects of life for the better and others for the worse.",
+            "In the DRM studies, there was no overall difference in experienced well-being between women who lived with a mate and women who did not.",
+            "The decision to get married reflects, for many people, a massive error of affective forecasting.",
+            "The salience of the marriage thought is bound to diminish with the passage of time as its novelty wanes.",
+            "If the apparent surge in Figure 16 reflects a heuristic, there is little to learn from it about either happiness or adaptation."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests the salience heuristic behind life-satisfaction answers: Nadia's perfect score reflects how readily the wedding comes to mind when she evaluates her life, not a surge in her daily experienced well-being. Kahneman reads the marriage graph as the time course of this heuristic, whose salience fades as the wedding's novelty wanes.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Nadia married three months ago and gives her life satisfaction a perfect 10, yet her experience sampling shows an ordinary, even stressful, daily life. What explains the gap?",
+          "subject_baseline": "Nadia, 29, a nurse, is warm and talkative. She planned her wedding for two years, posts about it constantly, and says being married is everything she wanted. Her DRM log shows average moods across hospital shifts, cooking, and some friction with her husband over chores.",
+          "observed_nonverbal_log": [
+            "16:02 Asked how satisfied she is with her life, Nadia answers, a 10, no question, with a bright, fast smile.",
+            "16:08 Describing a typical Tuesday, she hesitates; her tone flattens while mentioning the hospital and the dishes.",
+            "16:15 When the word wedding is mentioned, her face animates again immediately.",
+            "16:22 Asked how her mood was during yesterday's 11 p.m. shift change, she says fine with a shrug.",
+            "16:30 Asked whether marriage has made her daily moments happier, she says the moment? I do not know. The fact of being married, yes."
+          ],
+          "interrogation_transcript": [
+            "Interviewer: Overall, how happy are you with your life right now?",
+            "Nadia: A 10. I am a married woman. It is everything.",
+            "Interviewer: And yesterday afternoon, during your shift?",
+            "Nadia: Oh, standard. Busy, a bit stressful. That is work.",
+            "Interviewer: So the marriage does not change your mood at work?",
+            "Nadia: Not the mood, no. But my life is better. Those are different questions.",
+            "Interviewer: In five years, when the wedding is old news, how will you answer?",
+            "Nadia: I hope the same. But I would probably think about something else."
+          ],
+          "correct_diagnosis": "Nadia's perfect score reflects the salience of the marriage thought when she evaluates her life, a substitution heuristic, not a surge in her experienced well-being, which the DRM shows is largely unchanged.",
+          "diagnostic_breakdown": "Figure 16's spike is best read as the likelihood of being reminded of a recent wedding when asked about life, and that salience fades as novelty wanes. Nadia's own testimony confirms it: the word wedding animates her face, while describing her Tuesday or her shift flattens it, and she admits the marriage does not change her in-the-moment mood. The verdict: not deception, but a heuristic answer whose underlying daily happiness is separate from the remembered event.",
+          "distractors": [
+            "Nadia is hiding marital conflict behind a perfect score",
+            "Nadia is experiencing the halo effect of her wedding dress",
+            "Nadia's temperament guarantees the 10 is a stable, accurate judgment"
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "The Luxury Car and Miswanting Through the Focusing Illusion",
+          "visual_frame_description": "A driveway where Owen, a sales director, stands beside a $72,000 sedan, grinning. A thought bubble over his head shows the car only appearing twice a week, while a weekly poker night with friends glows steadily in the corner of the scene.",
+          "player_mission": "Diagnose why Owen still insists the car transformed his daily happiness six months on. Review his baseline, the nonverbal log, and the transcript, then apply the focusing illusion and miswanting to file the correct verdict.",
+          "key_concepts": [
+            "You get pleasure from your car when you think about your car, which is probably not very often.",
+            "When asked how much you enjoy your car, you actually answer how much you enjoy it when you think about it.",
+            "The substitution caused you to ignore the fact that you rarely think about your car, a form of duration neglect.",
+            "The upshot is a focusing illusion: if you like your car, you are likely to exaggerate the pleasure you derive from it.",
+            "The focusing illusion misleads you when you think of your current vehicle and when you contemplate buying a new one.",
+            "Gilbert and Wilson introduced the word miswanting for bad choices that arise from errors of affective forecasting.",
+            "You are likely to exaggerate the long-term benefits of the car but not of a weekly social gathering that always demands attention.",
+            "The focusing illusion creates a bias in favor of goods that are initially exciting even if they will eventually lose their appeal.",
+            "Time is neglected, causing experiences that retain their attention value to be appreciated less than they deserve.",
+            "Nothing in life is as important as you think it is when you are thinking about it."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the focusing illusion as a source of miswanting: when Owen rates his car, he answers the narrower question of how much he enjoys it when he thinks about it, substituting that for the broader question and neglecting how rarely he actually thinks about the car. Kahneman argues this biases people toward initially exciting goods whose appeal fades, while attention-demanding activities like a weekly club retain their value.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "question": "Owen bought a $72,000 luxury sedan expecting it to transform his daily happiness. Six months later he still rates his life much better thanks to the car. His behavior suggests otherwise. Diagnose.",
+          "subject_baseline": "Owen, 44, a sales director, is decisive and image-conscious. He traded his compact for a flagship sedan, says the purchase was the smartest money he ever spent, and privately admits he could not stop thinking about it for the first month.",
+          "observed_nonverbal_log": [
+            "15:02 Asked how much pleasure the car gives him, Owen leans back, grins, and says huge, every single day.",
+            "15:09 Asked when he actually thinks about the car during a normal day, he stops; his eyes shift; he says during the drive, I guess. Or not really.",
+            "15:15 Describing his actual commute, he mimics staring at traffic, shoulders slumped, and says it is just the road, honestly.",
+            "15:21 When the interviewer mentions the car's acceleration, Owen brightens and recounts a single highway moment from last month.",
+            "15:28 Asked to compare the car to his weekly poker night, he pauses, then says the poker night probably matters more, now that you ask."
+          ],
+          "interrogation_transcript": [
+            "Interviewer: How much pleasure does the car give you?",
+            "Owen: Massive. Best money I have ever spent.",
+            "Interviewer: And when do you get that pleasure?",
+            "Owen: When I am driving it... well, I am not thinking about the car when I am driving. I am thinking about the call I have to make. So I guess, when I am thinking about it?",
+            "Interviewer: So when you rated the car, what were you really rating?",
+            "Owen: Huh. How much I enjoy it when I think about it. Which is maybe twice a week.",
+            "Interviewer: Would you trade the car for a weekly dinner with your old team?",
+            "Owen: Now that you make me think about it, yes, probably."
+          ],
+          "correct_diagnosis": "Owen is rating how much pleasure he gets from the car when he thinks about it, a substitution that ignores how rarely he actually thinks about it. This is the focusing illusion, producing miswanting about the car's long-term payoff.",
+          "diagnostic_breakdown": "The chapter's car exercise shows the trick: you know instantly how much you like your car, but asking when you get pleasure from it reveals you only feel it when you think about it, which is seldom. Owen's log confirms it: a single vivid highway memory stands in for the whole month, and he admits the weekly poker night would be worth more. The verdict: an error of affective forecasting, miswanting, driven by the focusing illusion, which biases people toward initially exciting goods whose appeal fades while time is neglected.",
+          "distractors": [
+            "Owen is under an anchoring effect from the car's sticker price",
+            "Owen is accurately reporting a genuine transformation of his daily happiness",
+            "Owen is suffering from ego depletion after the negotiation"
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Forecasting the Paraplegic's Mood: Attention Withdrawal and Adaptation",
+          "visual_frame_description": "A rehabilitation center office with two graphs side by side: one month and one year after a spinal-cord injury. Two estimation curves split dramatically at the one-year mark, while a patient in a wheelchair laughs with friends in the background of the scene.",
+          "player_mission": "First, read Beruria Cohn's survey results and state the two divergent estimates of bad-mood time one year after a paraplegic accident, explaining why they diverge. Then counsel two patients whose cases hinge on whether attention is withdrawn from a condition.",
+          "key_concepts": [
+            "Adaptation to a new situation consists in large part of thinking less and less about it.",
+            "Paraplegics are in a fairly good mood more than half of the time as early as one month following their accident.",
+            "People who knew a paraplegic estimated 41% bad-mood time one year after the accident; those who did not averaged 68%.",
+            "Those who did not know a paraplegic failed to forecast that attention would be withdrawn from the condition.",
+            "Chronic pain, constant exposure to loud noise, and severe depression are exceptions with no adaptation.",
+            "Pain and noise are biologically set to be signals that attract attention, and depression involves a self-reinforcing cycle of miserable thoughts.",
+            "Colostomy patients show no difference in experienced happiness from healthy populations yet would trade away years of life to avoid the condition.",
+            "The remembering self of colostomy patients is subject to a massive focusing illusion about the life the experiencing self endures quite comfortably.",
+            "Judgments about the mood of lottery winners one month and one year after the event showed exactly the same pattern.",
+            "Most long-term circumstances of life, including paraplegia and marriage, are part-time states that one inhabits only when one attends to them."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests adaptation as attention withdrawal: people who know a paraplegic personally observe the gradual withdrawal of attention and forecast far less bad-mood time a year on, while people who do not know one anchor on the salient early state. Kahneman's data show paraplegics return toward normal experienced mood quickly, with chronic pain, loud noise, and severe depression as the exceptions.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "Adaptation consists largely of attention withdrawal: most long-term circumstances are part-time states inhabited only when attended to, so people who have never experienced a condition overestimate its hold on daily mood, while those who know someone affected see the withdrawal.",
+          "stage_1_observation": "You are a rehabilitation counselor reviewing Beruria Cohn's survey. Respondents estimated what proportion of time paraplegics spend in a bad mood. One group was told the accident happened a month earlier, another a year earlier. Both were split into people who know a paraplegic personally and people who do not. The estimates for the recent accident are nearly identical, about 75% versus 70%, but the one-year estimates diverge sharply.",
+          "stage_1_question": "What are the two estimates for the proportion of bad-mood time one year after the accident, and why do they differ?",
+          "stage_1_correct_answer": "People who know a paraplegic estimated 41%, while people who did not averaged 68%. Those who know someone observed the gradual withdrawal of attention from the condition; those who do not failed to forecast that adaptation would occur, anchoring their judgment on the salient early state. Judgments about lottery winners one month and one year out showed exactly the same pattern.",
+          "stage_2_intervention": "Your hospital is counseling two patients. Patient A is newly injured and is about to read an article claiming that paraplegics are miserable most of the time. Patient B is a colostomy patient who, on experience sampling, shows normal happiness but would trade years of life to avoid the condition. Both need a prognosis. Which guidance best matches the chapter's findings?",
+          "stage_2_correct_answer": "Tell Patient A that adaptation is real and rapid: paraplegics are in a fairly good mood more than half of the time as early as one month after the accident, though chronic pain, constant loud noise, and severe depression never adapt. For Patient B, explain that the experienced happiness of the condition is close to normal, but the remembering self's evaluation is dominated by a massive focusing illusion, hence the willingness to trade years of life despite normal experienced happiness."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+          "topic": "Goals Set at Eighteen Predicting Satisfaction at Thirty-Eight",
+          "visual_frame_description": "A guidance counselor's office where an archival spreadsheet of 12,000 students from 1976 glows on a monitor, each row connecting a money-importance rating at age 18 to income and life-satisfaction scores twenty years later. A teenager in the foreground weighs three ambition cards.",
+          "player_mission": "First, extract the cohort findings on how the importance of money at age 18 predicted income and life satisfaction by age 38. Then advise a teenager choosing among three ambitions, identifying the goal that most risks a dissatisfied adulthood.",
+          "key_concepts": [
+            "Among 597 physicians and other medical professionals, each additional point on the money-importance scale was associated with an increment of over $14,000 of job income in 1995 dollars.",
+            "For nonworking married women, each point on the scale translated into more than $12,000 of added household income.",
+            "The importance people attached to income at age 18 anticipated their satisfaction with their income as adults.",
+            "For those who rated money as essential, the effect of income on life satisfaction was .57 point; for those who said money was not important, it was .12.",
+            "People who wanted money and got it were significantly more satisfied than average.",
+            "People who wanted money and did not get it were significantly more dissatisfied.",
+            "One recipe for a dissatisfied adulthood is setting goals that are especially difficult to attain.",
+            "The least promising goal, measured by life satisfaction twenty years later, was becoming accomplished in a performing art.",
+            "Teenagers' goals influence what happens to them, where they end up, and how satisfied they are.",
+            "Goals matter so much that an exclusive focus on experienced well-being is untenable; a hybrid view considering both selves is needed."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the lifelong effects of goals: ambitions rated at age 17 to 18 in a cohort of nearly 12,000 elite-school students predicted both income and satisfaction with income twenty years later, and hard-to-attain goals predicted dissatisfied adulthood. Kahneman concludes that well-being requires a hybrid view because goals are so central to what people do and how they feel about it.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+          },
+          "boss_battle_explanation": "The goals people set for themselves matter to what they do and how satisfied they are with the result: a large cohort study showed that financial ambitions rated at age 17 to 18 predicted income and life satisfaction twenty years later, and that especially difficult-to-attain goals predict a dissatisfied adulthood.",
+          "stage_1_observation": "You are advising a guidance counselor reviewing the 1976 elite-school cohort data. Nearly 12,000 students rated how important being very well-off financially was on a 4-point scale; twenty years later their income and life satisfaction were measured. Among the 597 physicians and other medical professionals, each additional point on the money-importance scale meant over $14,000 more job income in 1995 dollars, and for nonworking married women over $12,000 more household income per point.",
+          "stage_1_question": "How did the importance of money at age 18 predict satisfaction with income at age 38, according to the chapter's comparison?",
+          "stage_1_correct_answer": "The effect of income on life satisfaction was far larger for those who called money essential, a difference of .57 point on a 5-point scale between the high-income group, above $200,000, and the low-to-moderate group, below $50,000, than for those who said money was not important, where the difference was only .12. People who wanted money and got it were significantly more satisfied than average, and people who wanted money and did not get it were significantly more dissatisfied.",
+          "stage_2_intervention": "A teenager in your office is choosing between three ambitions: becoming accomplished in a performing art, becoming a well-paid physician, and joining a weekly community orchestra for fun. Based on the chapter's findings, which ambition carries the greatest risk of a dissatisfied adulthood, and what does the counselor conclude about measuring well-being by experience alone?",
+          "stage_2_correct_answer": "The performing-art goal is the riskiest: the chapter reports that becoming accomplished in a performing art was the least promising goal measured by life satisfaction twenty years later, because setting goals that are especially difficult to attain is a recipe for a dissatisfied adulthood. The counselor should also accept a hybrid view: goals matter so much to what people do and how they feel that an exclusive focus on experienced well-being is not tenable, and the well-being of both selves must be considered."
+        }
+      ]
+    }
+  ]
+}

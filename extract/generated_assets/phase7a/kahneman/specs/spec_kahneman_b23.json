@@ -1,0 +1,81 @@
+{
+  "spec_file": "spec_kahneman_b23.json",
+  "book_key": "kahneman",
+  "book_title": "Thinking, Fast and Slow (Daniel Kahneman)",
+  "topic": "cognitive-biases",
+  "domain": "Dual-Process Theory | Heuristics & Statistical Biases",
+  "credibility_profile": {
+    "level": "High",
+    "consensus": "Broad",
+    "basis": "Empirical behavioral economics research (Kahneman & Tversky; Nobel 2002)"
+  },
+  "modality_weights": {
+    "DISCRIMINATION_MATRIX": 40,
+    "DECEPTION_AUDIT_FILE": 30,
+    "BOSS_BATTLE": 30
+  },
+  "chapter_count": 1,
+  "chapters": [
+    {
+      "index": 45,
+      "title": "Appendix A: Judgment Under Uncertainty",
+      "words": 7861,
+      "asset_count": 12,
+      "text_path": "extract/generated_assets/phase7a/kahneman/chapter_0045.txt",
+      "top_concepts": [
+        {
+          "term": "representativeness",
+          "context": "d the applied and theoretical implications of these observations are discussed. Representativeness Many of the probabilistic questions with which people are concerned belong to one of the following types: What is the p"
+        },
+        {
+          "term": "correlation",
+          "context": "n redundant input variables. However, an elementary result in the statistics of correlation asserts that, given input variables of stated validity, a prediction based on several such inputs can achieve higher ac"
+        },
+        {
+          "term": "representativeness heuristic",
+          "context": "ill generate event A? In answering such questions, people typically rely on the representativeness heuristic, in which probabilities are evaluated by the degree to which A is representative of B, that is, by the degree to which"
+        },
+        {
+          "term": "hypothesis",
+          "context": "y by representativeness, therefore, prior probabilities will be neglected. This hypothesis was tested in an experiment where prior probabilities were manipulated. Subjects were shown brief personality descripti"
+        },
+        {
+          "term": "anchoring effect",
+          "context": "l this phenomenon anchoring. Insufficient adjustment. In a demonstration of the anchoring effect, subjects were asked to estimate various quantities, stated in percentages (for example, the percentage of African coun"
+        },
+        {
+          "term": "motivation",
+          "context": "30-year-old man. He is married with no children. A man of high ability and high motivation, he promises to be quite successful in his field. He is well liked by his colleagues. This description was intended to"
+        },
+        {
+          "term": "self",
+          "context": "quence than the occurrence of an additional red. Chance is commonly viewed as a self-correcting process in which a deviation in one direction induces a deviation in the opposite direction to restore the e"
+        },
+        {
+          "term": "law of small numbers",
+          "context": "d research psychologists revealed a lingering belief in what may be called the “law of small numbers,” according to which even small samples are highly representative of the populations from which they are drawn. The res"
+        },
+        {
+          "term": "praise",
+          "context": "rvation. In a discussion of flight training, experienced instructors noted that praise for an exceptionally smooth landing is typically followed by a poorer landing on the next try, while harsh criticism af"
+        },
+        {
+          "term": "behavior",
+          "context": "ypically administered when performance is poor. By regression alone, therefore, behavior is most likely to improve after punishment and most likely to deteriorate after reward. Consequently, the human conditi"
+        },
+        {
+          "term": "salience",
+          "context": "the more numerous. In addition to familiarity, there are other factors, such as salience, which affect the retrievability of instances. For example, the impact of seeing a house burning on the subjective prob"
+        },
+        {
+          "term": "availability heuristic",
+          "context": "ents frequently co-occur. As a result, man has at his disposal a procedure (the availability heuristic) for estimating the numerosity of a class, the likelihood of an event, or the frequency of co-occurrences, by the ease"
+        },
+        {
+          "term": "anchoring bias",
+          "context": "ate the probabilities of failure in complex systems. Thus, the direction of the anchoring bias can sometimes be inferred from the structure of the event. The chain-like structure of conjunctions leads to overestima"
+        }
+      ]
+    }
+  ]
+}
