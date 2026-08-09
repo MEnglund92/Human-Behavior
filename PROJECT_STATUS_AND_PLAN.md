@@ -738,6 +738,25 @@ content.
 If a session was interrupted, read this section first; it encodes exactly where
 the M5 pass stopped. Updated after every book commit.
 
+- 2026-08-09: Phase 7C (Scenario Lab modalities) COMPLETE - 3 new lab modes:
+  BASELINE_CALIBRATION (Baseline Calibration / Baslinjekalibrering),
+  MICRO_EXPRESSION_SPEEDRUN (Micro-Expression Speed Run, 8s countdown that
+  auto-grades on timeout), NUDGE_SIMULATOR (Nudge Simulator / Knuffsimulator).
+  They are derived modes: the pool builder maps ANY asset (book/chapter/diff
+  filtered) through labDeriveCard() which injects mode-specific dossiers
+  (subject baseline, speed-run timer, environment-redesign mission) while
+  reusing the shared quiz/reveal grading. index.html edits: labModes() +
+  labModeName() + svUI keys, labSessionStart() refactor (re-callable, takes
+  modeOverride/countOverride), renderLab dossier branches + countdown timer,
+  labGrade clears the timer. FIXED pre-existing bug: labAnswered was never
+  reset between cards, so every quiz card after the first in a session was
+  unanswerable (silent return in the click guard) - now reset per card in
+  renderLab. run_app_stub.js extended: exposes labModes/labSessionStart/labGrade
+  via __app and runs a full session per mode (8/8 modes). Verified: stub ALL OK,
+  CDP browser probes drive all 8 modes end-to-end (mode dossiers render,
+  quiz options appear, 3 consecutive cards grade, speed-run timeout auto-grades,
+  0 console exceptions). sw v24 -> v25.
+
 - 2026-08-09: Phase 7B (content gap-closing topics) COMPLETE - 2 new bilingual
   topics + 3 new deep dives authored and merged: topic 19 "Choice Architecture
   & Habit Mechanics" (24 concepts, `topic-choice-architecture.js`,

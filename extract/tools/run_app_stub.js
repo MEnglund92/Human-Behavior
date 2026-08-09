@@ -86,7 +86,7 @@ const m = html.match(/<script>([\s\S]*?)<\/script>/);
 if (!m) { console.log('FAIL: inline script not found'); process.exit(1); }
 // Inject the exposed app object at the TOP of the DOMContentLoaded callback body,
 // where all function declarations are hoisted (functions are NOT in scope at top level).
-const expose = 'document.addEventListener(\'DOMContentLoaded\',function(){window.__app={switchTab:switchTab,initMatch:initMatch,initCloze:initCloze,setDifficulty:setDifficulty,initQuiz:initQuiz,initFlash:initFlash,initSequence:initSequence,initLabConfig:initLabConfig,initReview:initReview,renderDeepDives:renderDeepDives,renderResources:renderResources,renderDashboard:renderDashboard,getEntries:getEntries,renderBrowse:renderBrowse,initSRS:initSRS};';
+const expose = 'document.addEventListener(\'DOMContentLoaded\',function(){window.__app={switchTab:switchTab,initMatch:initMatch,initCloze:initCloze,setDifficulty:setDifficulty,initQuiz:initQuiz,initFlash:initFlash,initSequence:initSequence,initLabConfig:initLabConfig,initReview:initReview,renderDeepDives:renderDeepDives,renderResources:renderResources,renderDashboard:renderDashboard,getEntries:getEntries,renderBrowse:renderBrowse,initSRS:initSRS,labModes:labModes,labSessionStart:labSessionStart,labGrade:labGrade,labInsights:labInsights,renderLab:renderLab,get labQ(){return labQ},get labIdx(){return labIdx},set labIdx(v){labIdx=v}};';
 let inline = m[1].replace('document.addEventListener(\'DOMContentLoaded\',function(){', expose);
 try { vm.runInContext(inline, ctx, { filename: 'index.html:inline' }); }
 catch (e) { fails++; console.log('FAIL inline parse/top-level: ' + String(e)); }
@@ -109,6 +109,15 @@ tabs.forEach(t => {
 // Match restart + browse re-render paths.
 try { vm.runInContext('__app.initMatch()', ctx); } catch (e) { fails++; console.log('FAIL initMatch rerun: ' + e.message); }
 try { vm.runInContext('__app.renderBrowse()', ctx); } catch (e) { fails++; console.log('FAIL renderBrowse rerun: ' + e.message); }
+
+// Scenario Lab: run a session per mode (incl. derived modes) with 3 fixed
+// questions, answer the first card, render the rest, and finish the session.
+const labModes = vm.runInContext('__app.labModes()', ctx);
+labModes.forEach(mode => {
+  try {
+    vm.runInContext("__app.labSessionStart('" + mode + "',3); if(__app.labQ.length){__app.labGrade(__app.labQ[__app.labIdx],true,__app.labInsights(__app.labQ[__app.labIdx]));__app.renderLab();} while(__app.labIdx+1<__app.labQ.length){__app.labIdx++;__app.renderLab();}", ctx);
+  } catch (e) { fails++; console.log('FAIL labSessionStart(' + mode + '): ' + e.message); }
+});
 
 // Data assertion: every entry must be playable - a concept plus a scenario
 // (or a definition fallback for it). Guards against blank match/quiz prompts.
