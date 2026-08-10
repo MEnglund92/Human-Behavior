@@ -764,8 +764,13 @@ the M5 pass stopped. Updated after every book commit.
   5) BUILD: build_frontend_assets.py regenerated 33 assetlib JS + assets.js;
   index.html script tags 25 -> 33 (sorted); sw.js v26 -> v27 FILES list fixed
   (added the 8 new libs AND pre-existing misses body_language,
-  nonverbal_communication, self_presentation, snoop); node --check passes on
-  all 56 JS files.
+  nonverbal_communication, self_presentation, snoop). Pre-existing gap fixed:
+  sw.js was NEVER registered by the app — added the register() snippet to
+  index.html; verified locally + live (controller on 2nd load, cache v27 with
+  all 33 libs precached). node --check passes on all 56 JS files; CDP e2e on
+  localhost AND live https://menglund92.github.io/Human-Behavior/: 33 libs /
+  4125 assets, 43 dives, 121-node map with working detail cards, lab dropdown
+  with all 8 new books, 0 runtime exceptions.
 - 2026-08-09: Phase 7D (credibility ratings, cultural variations, concept map)
   COMPLETE. Three deliverables, all verified:
   1) CREDIBILITY RATINGS on all 2,676 Scenario Lab assets: 25 per-library
