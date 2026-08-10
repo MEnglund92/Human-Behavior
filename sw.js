@@ -1,4 +1,4 @@
-﻿const CACHE = 'human-behavior-study-v26';
+﻿const CACHE = 'human-behavior-study-v27';
 const FILES = [
   'index.html','data.js','manifest.json','icons/icon-180.png','icons/icon-192.png','icons/icon-512.png',
   'data/topics/topic-intro-behavior.js','data/topics/topic-behavioral-psych.js','data/topics/topic-social-psych.js',
@@ -10,11 +10,15 @@ const FILES = [
   'data/topics/topic-choice-architecture.js','data/topics/topic-dark-triad.js',
   'data/deep-dives.js','data/concept-map.js','data/resources.js',
   'assets/assetlib-apa_nonverbal.js','assets/assetlib-attached_workbook.js','assets/assetlib-behave.js',
-  'assets/assetlib-bowden_truth_lies.js','assets/assetlib-definitive_body_language.js','assets/assetlib-dictionary_body_language.js',
-  'assets/assetlib-emotions_revealed.js','assets/assetlib-glass_liars.js','assets/assetlib-influence.js',
-  'assets/assetlib-laws_human_nature.js','assets/assetlib-mans_search_meaning.js','assets/assetlib-mistakes.js',
-  'assets/assetlib-moral_animal.js','assets/assetlib-predictably_irrational.js','assets/assetlib-reiman_power_body_language.js',
-  'assets/assetlib-research_methods.js','assets/assetlib-righteous_mind.js','assets/assetlib-social_animal.js',
+  'assets/assetlib-body_language.js','assets/assetlib-bowden_truth_lies.js','assets/assetlib-dark_psychology.js',
+  'assets/assetlib-definitive_body_language.js','assets/assetlib-dictionary_body_language.js','assets/assetlib-drive.js',
+  'assets/assetlib-emotional_intelligence.js','assets/assetlib-emotions_revealed.js','assets/assetlib-gift_of_fear.js',
+  'assets/assetlib-glass_liars.js','assets/assetlib-influence.js','assets/assetlib-kahneman.js',
+  'assets/assetlib-laws_human_nature.js','assets/assetlib-lucifer_effect.js','assets/assetlib-mans_search_meaning.js',
+  'assets/assetlib-mindset.js','assets/assetlib-mistakes.js','assets/assetlib-moral_animal.js',
+  'assets/assetlib-nonverbal_communication.js','assets/assetlib-power_of_habit.js','assets/assetlib-predictably_irrational.js',
+  'assets/assetlib-reiman_power_body_language.js','assets/assetlib-research_methods.js','assets/assetlib-righteous_mind.js',
+  'assets/assetlib-self_presentation.js','assets/assetlib-snoop.js','assets/assetlib-social_animal.js',
   'assets/assetlib-social_intelligence.js','assets/assetlib-telling_lies.js','assets/assetlib-what_every_body.js',
   'assets.js'
 ];

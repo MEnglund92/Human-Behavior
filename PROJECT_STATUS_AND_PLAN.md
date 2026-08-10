@@ -738,6 +738,34 @@ content.
 If a session was interrupted, read this section first; it encodes exactly where
 the M5 pass stopped. Updated after every book commit.
 
+- 2026-08-10: Phase 7A COMPLETE — 8 new books authored, built, verified and
+  deployed (sw v27, live at menglund92.github.io/Human-Behavior).
+  1) ASSETS: 4,125 total Scenario Lab assets across 33 libraries (was 2,676 /
+     25). New: kahneman 334 / 6 chapters, emotional_intelligence 205 / 23,
+  lucifer_effect 197 / 17, dark_psychology 186 / 34 (defensive/resistance
+  framing per user rule; credibility Low/Contested profile), gift_of_fear 195
+  / 24, power_of_habit 121 / 10, drive 113 / 19, mindset 98 / 16. Full
+  validate.py pass: 0 warnings, ALL FILES VALID. 9 logged authoring batches
+  (Lucifer b15, EI b06, drive b01/b06/b07, GoF b03/b17, DP b01/b11) backfilled
+  2026-08-10; FAILED_BATCHES.md all rows "Backfill DONE 2026-08-10.".
+  2) CREDIBILITY: 8 new profiles (kahneman High/Broad, power_of_habit
+  Medium/Emerging, mindset Medium/Emerging, lucifer_effect High/Broad,
+  emotional_intelligence Medium/Contested, drive Medium/Emerging, gift_of_fear
+  Medium/Emerging, dark_psychology Low/Contested) added to
+  phase7d_credibility_profiles.json (33 profiles); gen_credibility.py re-run
+  over all 33 libs (4,125 assets tagged).
+  3) DEEP DIVES: 16 new interactive deep dives (2 per new book) authored and
+  merged into data/deep-dives.js -> 19 topics / 43 dives (topics
+  choice-architecture and dark-triad newly added; cognitive-biases 4, personality 6).
+  4) CONCEPT MAP: extended data/concept-map.js +32 nodes / +70 edges (now 121
+  nodes / 180 edges; 60 new->existing links). All new nodes use entries
+  verbatim from phase7d_topics_ref.txt; merged and verified via
+  extract/tools/merge_phase7a_map.py (+gen_phase7a_map_ext.py / map_ext.json).
+  5) BUILD: build_frontend_assets.py regenerated 33 assetlib JS + assets.js;
+  index.html script tags 25 -> 33 (sorted); sw.js v26 -> v27 FILES list fixed
+  (added the 8 new libs AND pre-existing misses body_language,
+  nonverbal_communication, self_presentation, snoop); node --check passes on
+  all 56 JS files.
 - 2026-08-09: Phase 7D (credibility ratings, cultural variations, concept map)
   COMPLETE. Three deliverables, all verified:
   1) CREDIBILITY RATINGS on all 2,676 Scenario Lab assets: 25 per-library
