@@ -1,0 +1,25 @@
+{
+ "job": "deep_dive",
+ "output_dir": "C:\\Users\\matti\\Desktop\\Education\\Human Behavior\\extract\\generated_assets\\phase7a\\dives",
+ "schema": {
+  "title": "string, plain English title",
+  "framework_description": "intro paragraph, then exactly 3 marked sections separated by \\n: \"\\n.1. Heading Here\\n...paragraph...\", \"\\n.2. ...\", \"\\n.3. ...\"",
+  "key_takeaways": "array of exactly 4 English takeaways",
+  "sections": "array of exactly 2 objects: { heading: str, source: str (format 'AuthorName, Initial. (Year)'), body: str (2-3 sentences) }",
+  "svg": "single-line SVG string: only <rect> and <text> elements; viewBox=\"0 0 820 300\"; first element is <rect width=\"820\" height=\"300\" fill=\"#181825\" rx=\"10\" for the dark background; ends with </svg>",
+  "sv": {
+   "title": "natural Swedish title",
+   "framework_description": "Swedish version with the same .\\n.1/.2/.3 structure",
+   "key_takeaways": "exactly 4 Swedish takeaways",
+   "sections": "exactly 2 objects: { heading, body } in Swedish, no source field"
+  }
+ },
+ "quality_bar": [
+  "psychologically accurate and measured; only claims the book actually makes; both languages natural, correct, zero typos",
+  "no markdown, no backticks; no [] or {} characters inside any string value",
+  "exactly the fields above and nothing more"
+ ],
+ "spec_file": "gof_dive2.json",
+ "dive_topic_key": "reading-people",
+ "content": "Reading and defusing threatening behavior from de Becker: the interview techniques he teaches (open-ended questions, letting the subject talk, detecting deception through detail and relevance rather than body-language tells; the 'tyranny of relative safety' and the value of being unreasonable under threat), plus the limits of his case-based method versus controlled research."
+}

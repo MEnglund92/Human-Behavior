@@ -1,0 +1,25 @@
+{
+ "job": "deep_dive",
+ "output_dir": "C:\\Users\\matti\\Desktop\\Education\\Human Behavior\\extract\\generated_assets\\phase7a\\dives",
+ "schema": {
+  "title": "string, plain English title",
+  "framework_description": "intro paragraph, then exactly 3 marked sections separated by \\n: \"\\n.1. Heading Here\\n...paragraph...\", \"\\n.2. ...\", \"\\n.3. ...\"",
+  "key_takeaways": "array of exactly 4 English takeaways",
+  "sections": "array of exactly 2 objects: { heading: str, source: str (format 'AuthorName, Initial. (Year)'), body: str (2-3 sentences) }",
+  "svg": "single-line SVG string: only <rect> and <text> elements; viewBox=\"0 0 820 300\"; first element is <rect width=\"820\" height=\"300\" fill=\"#181825\" rx=\"10\" for the dark background; ends with </svg>",
+  "sv": {
+   "title": "natural Swedish title",
+   "framework_description": "Swedish version with the same .\\n.1/.2/.3 structure",
+   "key_takeaways": "exactly 4 Swedish takeaways",
+   "sections": "exactly 2 objects: { heading, body } in Swedish, no source field"
+  }
+ },
+ "quality_bar": [
+  "psychologically accurate and measured; only claims the book actually makes; both languages natural, correct, zero typos",
+  "no markdown, no backticks; no [] or {} characters inside any string value",
+  "exactly the fields above and nothing more"
+ ],
+ "spec_file": "lucifer_dive1.json",
+ "dive_topic_key": "social-psych",
+ "content": "The Stanford Prison Experiment as documented by Zimbardo: design, the nine days, the forces at work (deindividuation through uniforms and roles, anonymity, diffusion of responsibility, dehumanization, the banality of evil and situational attribution); the criticisms and debates about the SPE's validity (selection effects, demand characteristics, the BBC prison study), and Milgram's obedience experiments as the companion evidence."
+}
