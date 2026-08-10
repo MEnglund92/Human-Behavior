@@ -1,0 +1,918 @@
+{
+  "spec_file": "spec_drive_b01.json",
+  "chapters": [
+    {
+      "id": "ch04",
+      "title": "Introduction",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Harlow's rhesus monkeys and the discovery of the third drive",
+          "visual_frame_description": "A sunlit 1949 psychology laboratory at the University of Wisconsin with eight rhesus monkeys in individual cages, each cage holding a small mechanical puzzle with a vertical pin, a hook, and a hinged cover. Harry Harlow, in a white lab coat, watches through the glass while jotting on a clipboard as a monkey confidently opens the puzzle. A faded chalkboard behind him lists the day's observation data.",
+          "player_mission": "Examine the evidence from Harlow's two-week puzzle experiment and sort each observation into the driving force it demonstrates. Choose the column that best accounts for why the monkeys solved the puzzles without any external incentive.",
+          "key_concepts": [
+            "In 1949 Harry Harlow and two colleagues ran a two-week learning experiment with eight rhesus monkeys at the University of Wisconsin.",
+            "The puzzle required three steps: pull out the vertical pin, undo the hook, and lift the hinged cover.",
+            "The monkeys began playing with the puzzles without outside urging, with focus, determination, and what looked like enjoyment.",
+            "By days 13 and 14 the monkeys solved the puzzles frequently and quickly; two-thirds of the time in less than sixty seconds.",
+            "Harlow reported that puzzle solution did not lead to food, water, or sex gratification, ruling out the biological drive.",
+            "Neither rewards nor punishments from the environment had trained the monkeys; nobody rewarded them with food, affection, or applause.",
+            "Harlow concluded that 'the performance of the task provided intrinsic reward,' a satisfaction with the activity itself.",
+            "Harlow eventually called this newly discovered drive 'intrinsic motivation.'",
+            "The prevailing science of the day recognized only two drives: the biological drive and the external reward-and-punishment drive.",
+            "Harlow urged scientists to 'close down large sections of our theoretical junkyard' for a more accurate account of behavior."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This asset tests the discrimination between the two traditional drives (biological and reward-and-punishment) and Harlow's proposed third drive of intrinsic motivation. Harlow's evidence showed significant learning and efficient performance were attained without resort to special or extrinsic incentives.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "Which of the three candidate drives best explains why Harlow's monkeys solved the mechanical puzzles? Sort each piece of evidence into the drive it points to.",
+          "column_a_label": "Biological drive (hunger, thirst, sex)",
+          "column_b_label": "External reward-and-punishment drive",
+          "column_c_label": "Intrinsic motivation (the third drive)",
+          "rows": [
+            {
+              "label": "The monkeys manipulated the puzzles 'unbidden by any outside urging,' unprompted by the experimenters",
+              "col": "c"
+            },
+            {
+              "label": "Harlow reported: 'Solution did not lead to food, water, or sex gratification'",
+              "col": "c"
+            },
+            {
+              "label": "Nobody taught the monkeys or rewarded success with food, affection, or applause",
+              "col": "c"
+            },
+            {
+              "label": "Two-thirds of the time the monkeys cracked the puzzle in less than sixty seconds by days 13-14",
+              "col": "c"
+            },
+            {
+              "label": "Harlow: 'The performance of the task provided intrinsic reward'",
+              "col": "c"
+            },
+            {
+              "label": "Significant learning was attained and efficient performance maintained without resort to special or extrinsic incentives",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "The monkeys were solving the puzzles to earn the raisins they could see nearby, so the biological drive explains the behavior.",
+            "The experimenters had trained the monkeys step by step through conditioning, so the external reward-and-punishment drive explains the behavior.",
+            "The monkeys only mastered the puzzle in exchange for quiet applause from Harlow's colleagues."
+          ],
+          "explanation": "Every observation sorts to column c: the monkeys' behavior lacked the object of any biological drive (no food, water, or sex gratification) and any external contingency (no rewards, punishments, or instruction). The learning and efficient performance occurred purely because solving the puzzle was its own reward, which is Harlow's third drive, intrinsic motivation. Columns a and b fail because the evidence explicitly rules out both known drives."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Raisins and dollars: how contingent rewards changed behavior",
+          "visual_frame_description": "A split-screen comparison scene. On the left, a 1949 monkey cage where Harlow drops raisins into a bowl as a monkey hesitates over a puzzle; the monkey's error count rises. On the right, a 1969 Carnegie Mellon lab room where Edward Deci, stopwatch in hand, watches through a one-way window as a student leaves the Soma puzzle pieces on a table and picks up a magazine. A timeline bar across the bottom marks sessions one, two, and three.",
+          "player_mission": "Compare the raisin experiment and Deci's Soma puzzle study. Sort each observation into the outcome it demonstrates: a short-term boost, an undermined intrinsic interest, or no measurable change.",
+          "key_concepts": [
+            "When Harlow rewarded the monkeys with raisins for solving the puzzles, they made more errors and solved them less frequently.",
+            "Harlow wrote that 'introduction of food in the present experiment served to disrupt performance,' a phenomenon not reported in the literature.",
+            "Edward Deci, a Carnegie Mellon psychology graduate student, chose the Soma puzzle cube for his 1969 dissertation study.",
+            "Deci paid Group A one dollar for every configuration successfully reproduced in the second session, while Group B never received pay.",
+            "During the secretly watched eight-minute free-choice period, paid Group A participants spent more than five minutes with the puzzle on day two.",
+            "On the unpaid third session, Group A played about two minutes less than in the paid session and about a full minute less than in the first session.",
+            "Deci concluded: 'When money is used as an external reward for some activity, the subjects lose intrinsic interest for the activity.'",
+            "Deci compared the reward effect to caffeine: a short-term boost that wears off and can reduce longer-term motivation.",
+            "Group B, which was never paid, played with the puzzle for a little longer than in previous sessions during the third day.",
+            "Deci argued that enhancing intrinsic motivation means not concentrating on external-control systems such as monetary rewards."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This asset tests the undermining effect of contingent rewards documented by Harlow and Deci: rewards deliver a short-term engagement boost, but using money as an external reward makes people lose intrinsic interest in the activity over the longer term. The effect is the reverse of the Motivation 2.0 assumption that reward intensifies interest.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "Each row describes an outcome from Harlow's raisin test or Deci's Soma sessions. Which conclusion does the evidence as a whole support? Sort each observation into the pattern it demonstrates.",
+          "column_a_label": "Short-term engagement boost (rewards spur temporary interest)",
+          "column_b_label": "Undermined intrinsic interest (rewards erode lasting motivation)",
+          "column_c_label": "No measurable change (behavior stays stable)",
+          "rows": [
+            {
+              "label": "Harlow's monkeys made more errors and solved puzzles less frequently once raisins were introduced",
+              "col": "b"
+            },
+            {
+              "label": "Deci's paid Group A spent more than five minutes on the puzzle during day-two free choice, up from three-and-a-half to four minutes",
+              "col": "a"
+            },
+            {
+              "label": "On the third, unpaid session, Group A's free-choice puzzle time fell about a minute below the first session baseline",
+              "col": "b"
+            },
+            {
+              "label": "Deci: 'When money is used as an external reward for some activity, the subjects lose intrinsic interest for the activity'",
+              "col": "b"
+            },
+            {
+              "label": "Deci likened the reward effect to a jolt of caffeine that keeps you working a few more hours before wearing off",
+              "col": "a"
+            },
+            {
+              "label": "Never-paid Group B played with the puzzle for a little longer than before on the final session",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The evidence shows rewards always intensify interest and enhance performance, exactly as the pay-for-performance view predicts.",
+            "The evidence shows money has no effect on intrinsic interest either way, since both groups behaved identically.",
+            "The evidence shows the monkeys and students simply lost interest over time because the puzzles became boring."
+          ],
+          "explanation": "The pivotal rows sort to column b: contingent reward followed by its removal left Harlow's monkeys and Deci's Group A performing worse than baseline, precisely Deci's finding that money used as an external reward destroys intrinsic interest. The day-two rows are column a decoys because payment did produce a visible short-term boost, and the never-paid Group B rows are column c decoys, showing that without any reward contingency interest held steady. The weight of evidence is the undermining effect, column b."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The raisin reversal: rewarding the puzzle made it worse",
+          "visual_frame_description": "A two-panel laboratory tableau. In the first panel, a rhesus monkey in a Wisconsin cage clicks a puzzle's hinged cover open with confident paws while Harlow beams. In the second panel, the same monkey stares at a dish of raisins beside the puzzle, makes a fumbling error, and stops, while Harlow scribbles 'disrupted performance' on his clipboard. A dramatic red glow surrounds the dish of raisins.",
+          "player_mission": "Confront the puzzle of the raisin reward. First explain why the monkeys mastered the puzzle with no incentive at all. Then diagnose what happened when Harlow added the reward that conventional theory promised would improve their performance.",
+          "key_concepts": [
+            "Harlow's rhesus monkeys played with the mechanical puzzles with focus, determination, and what looked like enjoyment.",
+            "By days 13 and 14, the monkeys solved the puzzles frequently and quickly, two-thirds of the time in less than sixty seconds.",
+            "The puzzle required pulling out a vertical pin, undoing a hook, and lifting a hinged cover.",
+            "Harlow noted the solution did not lead to food, water, or sex gratification.",
+            "Harlow concluded the performance of the task provided intrinsic reward; the joy of the task was its own reward.",
+            "Harlow emphasized the strength and persistence of the monkeys' drive to complete the puzzles.",
+            "Harlow believed this drive may be as basic and strong as the other drives and as efficient in facilitating learning.",
+            "Introducing raisins as rewards led the monkeys to make more errors and solve the puzzles less frequently.",
+            "Harlow called the raisin disruption 'a phenomenon not reported in the literature.'",
+            "Harlow urged scientists to close down large sections of their theoretical junkyard and offer fresher accounts of human behavior."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the central mechanism of intrinsic motivation: the satisfaction of the task itself is its own reward and can be as basic and strong as the biological and reward drives. The evidence from the raisin test is that adding an external reward to an intrinsically interesting activity disrupted performance instead of improving it.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "Intrinsic motivation: Harlow's third drive, in which the performance of the task provides intrinsic reward, is powerful enough to produce significant learning with no external incentive, and contingent extrinsic rewards can actively disrupt it.",
+          "stage_1_observation": "You are standing in Harlow's 1949 primate lab. Eight rhesus monkeys sit in cages, each with a three-step mechanical puzzle: pull the vertical pin, undo the hook, lift the hinged cover. Nobody has taught the monkeys, and nobody has rewarded them, but they manipulate the puzzles with focus and determination, and by days 13-14 they crack the puzzle in under sixty seconds two-thirds of the time.",
+          "stage_1_question": "Harlow reported that puzzle solution did not lead to food, water, or sex gratification, and nobody offered rewards or punishments. What accounts for the monkeys' rapid mastery of the puzzle?",
+          "stage_1_correct_answer": "The performance of the task provided intrinsic reward. The monkeys found solving the puzzle gratifying in itself, and Harlow proposed this as a third drive that may be as basic and strong as the biological and external drives and as efficient in facilitating learning.",
+          "stage_2_intervention": "The puzzle deepens. Harlow applies the conventional wisdom: if a little motivation is good, a raisin reward should make the monkeys perform even better. He introduces raisins for solving the puzzles during the experiment and counts the errors and completion rates.",
+          "stage_2_correct_answer": "Performance got worse: the monkeys made more errors and solved the puzzles less frequently. As Harlow wrote, the introduction of food served to disrupt performance, a phenomenon not reported in the literature. Extrinsic incentives imposed on an intrinsically interesting task undermined the very behavior they were meant to encourage."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Deci's eight-minute test: the Soma sessions and the money effect",
+          "visual_frame_description": "A 1969 Carnegie Mellon lab room seen through a one-way mirror. Seven colored Soma puzzle pieces lie scattered on a table beside copies of Time and The New Yorker; a female student fiddles with the pieces while Edward Deci, stopwatch in hand on the other side of the glass, calmly records her free-choice minutes. A small chalk ledger tracks session one, two, and three times beside him.",
+          "player_mission": "Master Deci's free-choice paradigm. First read why the paid students suddenly seemed more interested in the puzzle. Then diagnose the surprise waiting in the third session when the money disappeared.",
+          "key_concepts": [
+            "In the summer of 1969, Edward Deci was a Carnegie Mellon graduate student in psychology with an MBA from Wharton pursuing a dissertation on motivation.",
+            "Deci used the Soma puzzle cube, seven pieces that could be assembled into a few million possible configurations.",
+            "Participants were divided into experimental Group A and control Group B, each attending three one-hour sessions on consecutive days.",
+            "Deci paid Group A one dollar per successful configuration in session two; the sum is roughly six dollars today.",
+            "Midway through each session Deci left the room for eight minutes, claiming he needed a computer to process times, and watched through a one-way window.",
+            "In session two, paid Group A participants spent more than five minutes on the puzzle during free choice, up from three-and-a-half to four minutes.",
+            "In session three, unpaid again, Group A spent about two minutes less than in the paid session and about a minute less than in session one.",
+            "The never-paid Group B played with the puzzle a little longer than before during the third free-choice period.",
+            "Deci concluded that when money is used as an external reward, subjects lose intrinsic interest for the activity.",
+            "Deci described rewards as a short-term boost like caffeine that wears off and can reduce longer-term motivation."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the free-choice paradigm and the undermining effect of contingent cash: an external reward produces a visible short-term engagement boost, but once the reward is removed, intrinsic interest falls below its original baseline. Deci confirmed the effect in two additional studies shortly after the Soma experiment.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "The free-choice paradigm and the money effect: paid participants show extra interest while the money is flowing, but when money is used as an external reward for an activity, the subjects lose intrinsic interest, with post-reward engagement dropping below the pre-reward baseline.",
+          "stage_1_observation": "It is 1969 at Carnegie Mellon. Deci runs three daily one-hour sessions. Each participant assembles Soma configurations; Group A is paid one dollar per configuration only in session two. After the second configuration of each session, Deci excuses himself for eight minutes, claiming the mainframe needs his data, and secretly watches through a one-way window. On day two, the paid Group A students suddenly linger on the puzzle for more than five minutes, well above their earlier three-and-a-half to four minutes.",
+          "stage_1_question": "Why did Group A suddenly spend so much more free-choice time with the puzzle on the day they were being paid?",
+          "stage_1_correct_answer": "The external reward produced a short-term engagement boost: with money on offer the students geared up for the chance to earn more, exactly what Motivation 2.0 would predict. This boost is real but, as Deci later showed, it is a jolt of caffeine, not a lasting change in interest.",
+          "stage_2_intervention": "Day three: Deci announces there is only enough money for one day, so today is unpaid. The routine repeats: two configurations, the interruption, the eight-minute free-choice window while Deci watches from behind the mirror. Group A's puzzle time now plunges.",
+          "stage_2_correct_answer": "Group A spent about two minutes less than in the paid session and about a minute less than in their very first session, falling below their original baseline. Deci's conclusion: when money is used as an external reward for an activity, subjects lose intrinsic interest for the activity. The short-term boost wore off and carried a lasting cost to motivation."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Rosalind's prototype bonuses: pay-for-performance at Brightloop Studio",
+          "visual_frame_description": "A glass-walled design studio in late afternoon light. Rosalind, a product design director in a charcoal blazer, stands in front of a whiteboard covered with a proposed bonus spreadsheet titled 'Prototype Bonus Plan', while eight designers sketch at their desks around an unfinished 3D model. A coffee cup and a stack of Post-it notes sit between her and the camera, where the player, her advisor, is seated.",
+          "player_mission": "Counsel Rosalind, a design director who wants to attach cash bonuses to each prototype her studio produces. Guide her through the evidence on monetary rewards and intrinsic motivation so her team's creative output is protected, not eroded.",
+          "key_concepts": [
+            "Deci found that when money is used as an external reward for an activity, subjects lose intrinsic interest for the activity.",
+            "Deci wrote that one interested in developing intrinsic motivation should not concentrate on external-control systems such as monetary rewards.",
+            "Rewards can deliver a short-term boost, like a jolt of caffeine, but the effect wears off and can reduce longer-term motivation.",
+            "Harlow's monkeys made more errors and solved the puzzle less frequently when raisins were introduced as rewards.",
+            "Human beings have an inherent tendency to seek out novelty and challenges, to extend and exercise their capacities, to explore, and to learn.",
+            "This third drive is fragile; it needs the right environment to survive.",
+            "Most organizations still operate on outdated assumptions rooted more in folklore than in science about what motivates people.",
+            "Short-term incentive plans and pay-for-performance schemes usually don't work and often do harm, yet businesses keep pursuing them.",
+            "The same incentive practices have infiltrated schools, where students are plied with iPods, cash, and pizza coupons.",
+            "The mismatch between what science knows and what business does is the gap Drive intends to repair."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the undermining effect of contingent cash rewards on intrinsically interesting creative work, the mechanism behind Deci's Soma finding that external-control systems such as monetary rewards erode intrinsic interest. The optimal counsel is to strengthen the task's intrinsic appeal rather than price each unit of output.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "scenario_setup": "Brightloop Studio is a twelve-person product design agency in Portland. Rosalind, the design director, is under pressure from the CEO to lift throughput before the quarterly review. She has drafted a plan paying each designer $150 per approved prototype and wants your opinion before the all-hands meeting. Her team currently treats prototyping as the most enjoyable phase of their work, but Rosalind worries that without a tangible reward they will slow down.",
+          "dialogue": [
+            {
+              "speaker": "Rosalind",
+              "line": "I've drafted a plan: $150 per approved prototype, paid at the end of each week. Simple, transparent, and it rewards exactly the output we need."
+            },
+            {
+              "speaker": "You",
+              "line": "Rosalind, what does your team do during the free moments of a project week, when nobody is watching what they work on?"
+            },
+            {
+              "speaker": "Rosalind",
+              "line": "They tinker. Last month two of them built the medical-brace concept over a weekend, unpaid, just because it was fun."
+            },
+            {
+              "speaker": "You",
+              "line": "Exactly. That's intrinsic motivation at work. Gordon and Priya spent a weekend on the brace because the task itself was the reward."
+            },
+            {
+              "speaker": "Rosalind",
+              "line": "But cash is clearer than goodwill. Won't the bonus just push more people to prototype faster?"
+            },
+            {
+              "speaker": "You",
+              "line": "In the short run, maybe a jolt. But Deci's free-choice studies showed that when money becomes the external reward, people lose intrinsic interest the moment the reward stops."
+            },
+            {
+              "speaker": "Rosalind",
+              "line": "So you're saying my bonus plan could make prototyping feel like piecework? That's the opposite of what I want."
+            },
+            {
+              "speaker": "You",
+              "line": "Harlow saw it with monkeys and raisins: add the reward, and the monkeys made more errors and solved less. Protect the fun, protect the flow, and the throughput follows."
+            }
+          ],
+          "choices": [
+            "Drop the per-prototype bonus. Keep salaries fair, then invest in the work itself: more interesting briefs, fewer confining specs, and public credit for what the team loves.",
+            "Keep the full per-prototype bonus plan. Money is the clearest signal a designer can get, and the team will simply produce more.",
+            "Keep the bonuses but hand out small weekly treats, studio swag, and pizza on top so nobody loses interest.",
+            "Keep the bonuses and add a leaderboard, with the lowest weekly total reviewed by the CEO to keep everyone honest."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "The third drive and the undermining effect of contingent monetary rewards: when money is used as an external reward for an activity, subjects lose intrinsic interest, so managers should not concentrate on external-control systems such as monetary rewards.",
+          "psychological_breakdown": "The optimal choice removes the contingent reward from the intrinsically interesting act of prototyping, exactly what Deci prescribed for developing intrinsic motivation in employees. Choice 1 fails because contingent cash converts a self-directed activity into paid piecework, producing the caffeine-boost-then-crash pattern from the Soma sessions. Choice 2 mistakes gestures for the mechanism: swag and pizza do not reverse the controlling effect of the per-unit price once it is in place. Choice 3 compounds the damage by adding surveillance, which treats designers like machine parts and signals distrust, precisely the external-control system Deci warned against."
+        }
+      ]
+    },
+    {
+      "id": "ch05",
+      "title": "CHAPTER 1 - The Rise and Fall of Motivation 2.0",
+      "pages": "",
+      "assets": [{
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Motivation 1.0, 2.0, and 2.1: the operating systems of behavior",
+          "visual_frame_description": "A console-style screen split into three eras. Left, a savannah at dawn with early humans gathering food while a saber-toothed tiger prowls in the distance, labeled 'Motivation 1.0'. Center, a factory floor circa 1900 with a Taylor-era time-study engineer holding a stopwatch, labeled 'Motivation 2.0'. Right, a 1960s office where a manager loosens his tie in a relaxed, flexible workspace, labeled 'Motivation 2.1'. A status bar along the top reads: OPERATING SYSTEM UPGRADE SEQUENCE.",
+          "player_mission": "Audit humanity's motivational operating systems. Sort the evidence rows into the operating system each one belongs to, then identify which system the chapter's evidence shows is failing.",
+          "key_concepts": [
+            "Societies have operating systems: layers of laws, social customs, and economic arrangements resting on assumptions about human behavior.",
+            "Motivation 1.0 was the early operating system, based on the biological drive to survive, guided behavior roughly fifty thousand years ago.",
+            "Motivation 1.0 worked until humans formed complex societies that required cooperation and restraint of the biological drive.",
+            "Motivation 2.0 arose from the second drive to seek reward and avoid punishment, channeled by humans into everything from contract law to convenience stores.",
+            "At the heart of Motivation 2.0 is the assumption: reward the good and punish the bad to improve performance, productivity, and excellence.",
+            "The Industrial Revolution ran on Motivation 2.0, fueled in part by Frederick Winslow Taylor's scientific management.",
+            "In the 1950s Abraham Maslow, a former student of Harry Harlow's, developed humanistic psychology, questioning behavior as ratlike seeking of stimuli.",
+            "In 1960 MIT professor Douglas McGregor challenged the presumption that humans are fundamentally inert without external rewards and punishments.",
+            "McGregor-era refinements such as relaxed dress codes and flexible schedules were a modest improvement that Pink calls Motivation 2.1.",
+            "Motivation 2.0 is easy to understand, simple to monitor, and straightforward to enforce, but it has become incompatible with contemporary business."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This asset tests the successive operating systems of human motivation: the biological drive of Motivation 1.0, the reward-and-punishment platform of Motivation 2.0, and the modest humanistic refinements of Motivation 2.1. The chapter's claim is that Motivation 2.0, though deeply embedded, is proving incompatible with modern work and needs a full-scale upgrade.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "Which operating-system era does the preponderance of this evidence describe? Sort each row into the system it belongs to, then choose the column that holds the system the evidence is centered on.",
+          "column_a_label": "Motivation 1.0 (biological survival drive)",
+          "column_b_label": "Motivation 2.0 (seek reward, avoid punishment)",
+          "column_c_label": "Motivation 2.1 (humanistic refinements)",
+          "rows": [
+            {
+              "label": "Fifty thousand years ago, the drive to survive guided most behavior, from gathering food to fleeing the saber-toothed tiger",
+              "col": "a"
+            },
+            {
+              "label": "Core assumption: the way to improve performance and encourage excellence is to reward the good and punish the bad",
+              "col": "b"
+            },
+            {
+              "label": "Channeled the second drive to develop everything from contract law to convenience stores",
+              "col": "b"
+            },
+            {
+              "label": "Frederick Winslow Taylor's scientific management was software crafted to run atop this platform",
+              "col": "b"
+            },
+            {
+              "label": "The engine of commerce has been fueled equally by carrots and sticks",
+              "col": "b"
+            },
+            {
+              "label": "Maslow's humanistic psychology questioned the idea that behavior was purely ratlike seeking of positive stimuli and avoidance of negative stimuli",
+              "col": "c"
+            },
+            {
+              "label": "McGregor-inspired refinements: dress codes relaxed, schedules became more flexible",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The evidence shows the biological survival drive still governs modern commerce, making Motivation 1.0 the correct column.",
+            "The evidence shows the Maslow and McGregor refinements fully replaced reward-and-punishment logic with self-actualization.",
+            "The evidence shows Motivation 2.1, with its relaxed dress codes, was the era that built the Industrial Revolution."
+          ],
+          "explanation": "The bulk of the evidence sorts to column b: reward-and-punishment logic built Motivation 2.0, powered Taylor's scientific management, and fueled commerce with carrots and sticks. One row belongs to column a because it describes the savannah-era biological drive, and two rows belong to column c because Maslow's and McGregor's humanistic refinements were only modest patches on the old platform. The center of gravity of the evidence is Motivation 2.0, the deeply embedded system that the chapter argues is now crashing."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Encarta versus Wikipedia: the encyclopedia that defied Motivation 2.0",
+          "visual_frame_description": "A split-screen boardroom in 1995. On one side, a gleaming Microsoft-branded CD-ROM case labeled 'Encarta' on a marble table, staffed by professional writers in ties. On the other, a folding table with a single laptop and scattered handwritten notes where an anonymous volunteer edits an article titled 'Encyclopedia'. Between them, a shadowy economist in a professor's gown skeptically weighs the two on a scale.",
+          "player_mission": "Run the 1995 forecasting experiment. Sort the evidence about both encyclopedias into its rightful column, then judge which model the actual 2010 outcome vindicated.",
+          "key_concepts": [
+            "The thought experiment: predict which of two encyclopedias would be larger and more popular in 2010, one funded by Microsoft, one built by unpaid volunteers.",
+            "Microsoft's encyclopedia would pay professional writers, editors, and well-compensated managers to craft articles on thousands of topics.",
+            "The volunteer encyclopedia would be created by hobbyists with no special qualifications, contributing twenty or thirty hours a week for free.",
+            "In 1995, no sober economist would have predicted the volunteer model to win; the incentives were judged all wrong.",
+            "On October 31, 2009, Microsoft pulled the plug on MSN Encarta, its disc and online encyclopedia, after sixteen years on the market.",
+            "Wikipedia became the largest and most popular encyclopedia in the world, eight years after its inception.",
+            "By then Wikipedia had more than 13 million articles in some 260 languages, including 3 million in English alone.",
+            "The conventional view of human motivation has a very hard time explaining the Wikipedia result.",
+            "Volunteers were not paid a dollar, euro, or yen and even lost potential income by contributing free labor.",
+            "Pink calls Wikipedia a case where the predictions of Motivation 2.0 seem to defy the laws of behavioral physics."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This asset tests the explanatory failure of Motivation 2.0: a corporate encyclopedia with paid professionals lost to a free encyclopedia built by unpaid hobbyists, because the conventional reward-and-punishment view has no room for intrinsic motivation. The evidence vindicates the volunteer model despite its grossly 'wrong' incentives.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "Which encyclopedia model does the evidence, taken together, vindicate? Sort each row into the column it describes, then choose the column where the proof lands.",
+          "column_a_label": "MSN Encarta (profit-driven corporate model)",
+          "column_b_label": "Wikipedia (volunteer open model)",
+          "column_c_label": "Motivation 2.0 expectations (the 1995 prediction)",
+          "rows": [
+            {
+              "label": "Paid professional writers and editors plus well-compensated managers overseeing completion on budget and on time",
+              "col": "a"
+            },
+            {
+              "label": "Created by tens of thousands of people who write and edit articles for fun, with nobody paid a dollar, euro, or yen",
+              "col": "b"
+            },
+            {
+              "label": "Contributors sometimes gave twenty and thirty hours per week of their labor for free",
+              "col": "b"
+            },
+            {
+              "label": "Became the largest and most popular encyclopedia in the world, with more than 13 million articles in some 260 languages",
+              "col": "b"
+            },
+            {
+              "label": "Pulled the plug on October 31, 2009, after sixteen years on the market",
+              "col": "a"
+            },
+            {
+              "label": "In 1995, nearly every business principle said this model was the certain winner",
+              "col": "c"
+            },
+            {
+              "label": "The conventional view of human motivation has a very hard time explaining this result",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The evidence vindicates Encarta, whose paid professionals ultimately produced a larger and more popular encyclopedia.",
+            "The evidence vindicates the Motivation 2.0 prediction, since the incentives of the corporate model proved decisive.",
+            "The evidence shows both encyclopedias were equally successful and neither model changed the market."
+          ],
+          "explanation": "The rows in column b describe the volunteer model's inputs and its outcome-the largest encyclopedia in the world, built by unpaid hobbyists-while the column a rows describe the corporate model that was shut down after sixteen years. The column c rows capture the 1995 prediction that the profit-driven model would win, a prediction the actual 2010 outcome contradicted. The proof therefore lands in column b: Wikipedia's triumph is the evidence that intrinsic motivation, not pay, can sustain world-class production."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "What fuels open source: enjoyment, flow, and the gift to the community",
+          "visual_frame_description": "A cozy home office at 2 a.m., a hoodie-clad programmer smiling at a laptop running a Firefox browser, a server rack glowing softly behind him with Linux and Apache logos. In a corner of the screen, a survey pie chart labeled '684 developers' shows a large slice marked 'enjoyment-based intrinsic motivation'. A mailbox icon at the bottom reads: gift delivered to the programmer community.",
+          "player_mission": "Analyze the survey and market evidence about open-source contributors. Sort each finding into the motivational force it reveals, then select the column that shows what ultimately fuels the open-source movement.",
+          "key_concepts": [
+            "Open source depends on intrinsic motivation with the same ferocity that older business models rely on extrinsic motivation.",
+            "MIT professor Karim Lakhani and BCG consultant Bob Wolf surveyed 684 open-source developers, mostly in North America and Europe.",
+            "Lakhani and Wolf found that enjoyment-based intrinsic motivation, how creative a person feels when working on the project, is the strongest and most pervasive driver.",
+            "A large majority of the surveyed programmers reported frequently reaching the state of optimal challenge called 'flow.'",
+            "Three German economists studying open-source projects found a set of predominantly intrinsic motives at work.",
+            "Among the German findings: the fun of mastering the challenge of a given software problem drives participation.",
+            "Among the German findings: the desire to give a gift to the programmer community drives participation.",
+            "Firefox, a free open-source Web browser created almost exclusively by volunteers, has more than 150 million users.",
+            "Linux, devised by an army of unpaid programmers, powers one in four corporate servers.",
+            "Apache, maintained by a far-flung global group of volunteers, holds 52 percent of the corporate Web server market."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This asset tests the motivational base of open source: enjoyment-based intrinsic motivation, confirmed as the strongest and most pervasive driver in Lakhani and Wolf's survey of 684 developers, alongside the optimal-challenge state of flow and gift motives found by German economists. The market evidence shows volunteer-built software powering a large share of corporate infrastructure.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "Which motivational force does the evidence show is behind open-source participation? Sort each finding into the column it demonstrates, then choose the column that the survey evidence names as the strongest driver.",
+          "column_a_label": "Extrinsic incentives (reputation, career, pay)",
+          "column_b_label": "Intrinsic motives (enjoyment, challenge, gift)",
+          "column_c_label": "Flow (optimal challenge during work)",
+          "rows": [
+            {
+              "label": "Lakhani and Wolf: 'enjoyment-based intrinsic motivation' was the strongest and most pervasive driver in their survey of 684 developers",
+              "col": "b"
+            },
+            {
+              "label": "German economists: participants are driven by 'the fun of mastering the challenge of a given software problem'",
+              "col": "b"
+            },
+            {
+              "label": "German economists: a 'desire to give a gift to the programmer community' also drives participation",
+              "col": "b"
+            },
+            {
+              "label": "A large majority of surveyed programmers frequently reached the state of optimal challenge called 'flow'",
+              "col": "c"
+            },
+            {
+              "label": "Firefox, created almost exclusively by volunteers, now has more than 150 million users",
+              "col": "b"
+            },
+            {
+              "label": "Linux powers one in four corporate servers and Apache holds 52 percent of the corporate Web server market",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The evidence shows open-source contributors are driven mainly by payments and job offers issued by corporations that adopt their software.",
+            "The evidence shows open-source participation is best explained by the biological survival drive of Motivation 1.0.",
+            "The evidence shows contributors stay because they are contractually required to maintain their volunteer posts."
+          ],
+          "explanation": "The survey and economist findings all sort to column b: the strongest and most pervasive driver is enjoyment-based intrinsic motivation, expressed as fun in mastering a challenge and the desire to give a gift to the community. The flow row sorts to column c because it is a distinct experiential state the chapter defines separately, while the market-share rows reinforce column b by showing that unpaid volunteers sustain Firefox, Linux, and Apache. Column a fails because payment was not what the surveys named as the strongest motive."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Purpose maximizers: L3Cs, social businesses, and for-benefit organizations",
+          "visual_frame_description": "A gallery of new-organization plaques on a wall. One plaque reads 'L3C - Vermont, April 2008' above a North Carolina furniture factory being renovated with green technology; another reads 'Grameen Social Business - with the profit-maximization principle replaced by the social-benefit principle' beneath a portrait of Muhammad Yunus; a third shows Mozilla's Firefox logo styled as a nonprofit charter. A brass nameplate at the bottom reads: THE FOR-BENEFIT MOVEMENT.",
+          "player_mission": "Inspect the new species of business organizations described in the chapter. Sort each entity into its organizational category, then identify the category these hybrids embody.",
+          "key_concepts": [
+            "Traditional U.S. business forms-partnerships, S corporations, C corporations, and more-all aim to maximize profit.",
+            "In April 2008 Vermont became the first U.S. state to allow the low-profit limited liability corporation, dubbed the L3C.",
+            "An L3C operates like a for-profit business generating at least modest profits, but its primary aim is to offer significant social benefits.",
+            "A North Carolina L3C buys abandoned furniture factories, updates them with green technology, and leases them back to beleaguered manufacturers at a low rate.",
+            "Nobel Peace Prize winner Muhammad Yunus creates 'social businesses' that sell in an open market in the service of a larger social mission.",
+            "Yunus's formulation: the profit-maximization principle is replaced by the social-benefit principle.",
+            "The Fourth Sector Network in the United States and Denmark promotes the 'for-benefit organization,' economically self-sustaining and animated by a public purpose.",
+            "Mozilla, the entity that gave us Firefox, is organized as a for-benefit organization.",
+            "Three U.S. entrepreneurs invented the B Corporation, which requires bylaws amended so incentives favor long-term value and social impact.",
+            "These new entities are purpose maximizers, unsuited to Motivation 2.0 because they flout its very principles."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This asset tests the emergence of purpose-maximizing organizations: L3Cs, social businesses, for-benefit organizations, and B Corporations that trade the profit-maximization principle for a social-benefit principle. These hybrids flout Motivation 2.0's norms and signal where organizing is heading.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "Which organizational category do the chapter's new hybrid entities belong to? Sort each entity into its column, then choose the column that captures the movement's direction.",
+          "column_a_label": "Traditional profit-maximizing corporation",
+          "column_b_label": "Purpose-maximizing hybrid",
+          "column_c_label": "Open-source software collective",
+          "rows": [
+            {
+              "label": "Publicly held corporation owned by shareholders, with managers and a board bearing the overriding responsibility to maximize shareholder gain",
+              "col": "a"
+            },
+            {
+              "label": "Vermont's 2008 L3C: operates like a for-profit business but its primary aim is to offer significant social benefits",
+              "col": "b"
+            },
+            {
+              "label": "Yunus's social businesses, 'with the profit-maximization principle replaced by the social-benefit principle'",
+              "col": "b"
+            },
+            {
+              "label": "Mozilla, the entity behind Firefox, organized as a 'for-benefit' organization",
+              "col": "b"
+            },
+            {
+              "label": "B Corporation: bylaws amended so incentives favor long-term value and social impact instead of short-term economic gain",
+              "col": "b"
+            },
+            {
+              "label": "A North Carolina L3C updating abandoned furniture factories to help revitalize a struggling region",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The evidence shows the L3C, social business, and B Corporation are simply new names for traditional profit-maximizing corporations.",
+            "The evidence shows these hybrids are open-source software collectives organized like Wikipedia and Firefox.",
+            "The evidence shows these entities exist to replace Motivation 2.0 itself with a legally mandated reward system."
+          ],
+          "explanation": "Every hybrid entity-the L3C, Yunus's social businesses, Mozilla's for-benefit form, and the B Corporation-sorts to column b: each trades profit maximization for a social-benefit purpose while remaining economically self-sustaining. The public corporation row sorts to column a as the contrast case, and none of the entities are software collectives, so column c is empty. The direction of the rows is unmistakable: purpose maximizers are emerging because they flout Motivation 2.0's very principles."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Algorithmic versus heuristic work: where carrots and sticks fail",
+          "visual_frame_description": "A conveyor-belt factory floor on the left where a checkout clerk scans groceries in an endless loop, labeled 'algorithmic'; on the right, a sunlit agency studio where two people sketch ad concepts on a wall covered in torn poster boards, labeled 'heuristic'. A thin red dotted line separates the two worlds, and a whiteboard in the middle displays the McKinsey split: 30 percent algorithmic, 70 percent heuristic.",
+          "player_mission": "Classify each work example and finding into the right category of task. Then decide which column the chapter's evidence says depends on the third drive, where external rewards do the most damage.",
+          "key_concepts": [
+            "An algorithmic task follows a set of established instructions down a single pathway to one conclusion.",
+            "A heuristic task has no algorithm, so you must experiment with possibilities and devise a novel solution.",
+            "Working as a grocery checkout clerk is mostly algorithmic; creating an ad campaign is mostly heuristic.",
+            "During the twentieth century, most work was algorithmic, even white-collar work that could be reduced to a script or formula.",
+            "McKinsey & Co. estimates that in the United States only 30 percent of job growth now comes from algorithmic work.",
+            "McKinsey & Co. estimates that 70 percent of U.S. job growth now comes from heuristic work.",
+            "Routine work can be outsourced or automated; artistic, empathic, nonroutine work generally cannot.",
+            "Teresa Amabile of Harvard Business School found external rewards and punishments work nicely for algorithmic tasks.",
+            "Amabile found external rewards and punishments can be devastating for heuristic tasks.",
+            "Amabile's intrinsic motivation principle of creativity: intrinsic motivation is conducive to creativity; controlling extrinsic motivation is detrimental to creativity."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This asset tests the algorithmic-heuristic distinction and Amabile's intrinsic motivation principle of creativity: external rewards and punishments work nicely for algorithmic tasks but can be devastating for heuristic ones. Since most U.S. job growth is now heuristic, the central tenets of Motivation 2.0 may impair the work modern economies depend on.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "Which category does the chapter's evidence show is dominant in modern job growth and most vulnerable to external rewards? Sort each row into its column, then choose the column the evidence centers on.",
+          "column_a_label": "Algorithmic task (single pathway to one conclusion)",
+          "column_b_label": "Heuristic task (experiment to a novel solution)",
+          "column_c_label": "Routine work that can be outsourced or automated",
+          "rows": [
+            {
+              "label": "Follow a set of established instructions down a single pathway to one conclusion",
+              "col": "a"
+            },
+            {
+              "label": "No algorithm exists; you must experiment with possibilities and devise a novel solution",
+              "col": "b"
+            },
+            {
+              "label": "Working as a grocery checkout clerk, much the same thing over and over in a certain way",
+              "col": "a"
+            },
+            {
+              "label": "Creating an ad campaign, coming up with something new",
+              "col": "b"
+            },
+            {
+              "label": "McKinsey: 70 percent of U.S. job growth now comes from this kind of work",
+              "col": "b"
+            },
+            {
+              "label": "Amabile: external rewards can be devastating for this kind of task",
+              "col": "b"
+            },
+            {
+              "label": "Routine accounting work that a downloadable thirty-dollar tax program can perform",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The evidence centers on algorithmic tasks, which Amabile showed external rewards can devastate.",
+            "The evidence centers on routine offshored work, since most U.S. job growth now comes from rule-based labor.",
+            "The evidence shows heuristic tasks are best motivated by carrots and sticks because they lack clear algorithms."
+          ],
+          "explanation": "The rows sort cleanly: definitions and examples of following a set path belong to column a, the checkout clerk and tax-program rows belong to column a or c as the routine work that can be offshored or automated, and every finding about modern job growth and Amabile's research sorts to column b. The evidence centers on heuristic work because McKinsey shows it is 70 percent of U.S. job growth and Amabile shows external rewards are devastating for it, making the dependence on intrinsic motivation the chapter's key claim."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The encyclopedia showdown: beating the 1995 forecast",
+          "visual_frame_description": "A time-bending boardroom where 1995 and 2010 overlap. On one side, an economist in academic robes smirks at a PowerPoint slide of the Microsoft Encarta business plan with checkmarks next to paid writers and monitored managers. On the other side, the same room is lit by the blue glow of a Wikipedia search page showing 13 million articles in 260 languages, and the Encarta slide fades like a ghost. A counter in the corner reads: October 31, 2009 - plug pulled.",
+          "player_mission": "Defeat the 1995 forecast. First argue which encyclopedia the conventional business logic of the day demands will win. Then explain the real 2010 outcome and the motivational mechanism that made it possible.",
+          "key_concepts": [
+            "In 1995 the crystal-ball test asked which of two encyclopedias would be more successful in 2010.",
+            "The Microsoft model paid professional writers, editors, and well-compensated managers to craft articles on thousands of topics.",
+            "The volunteer model had no qualifications, no pay, and contributors who donated twenty and thirty hours per week.",
+            "In 1995 no sober economist would have picked the volunteer model; the incentives were judged all wrong.",
+            "Microsoft pulled the plug on MSN Encarta on October 31, 2009, after sixteen years on the market.",
+            "Wikipedia became the largest and most popular encyclopedia in the world within eight years of its inception.",
+            "Wikipedia had more than 13 million articles in some 260 languages, including 3 million in English alone.",
+            "The second encyclopedia existed online and was free for all users.",
+            "The conventional view of human motivation has a very hard time explaining the Wikipedia result.",
+            "Wikipedia represents the most powerful new business model of the twenty-first century: open source."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the failure of Motivation 2.0's prediction machinery: by its logic the paid corporate encyclopedia must win, yet the volunteer-built Wikipedia defeated it. The mechanism is intrinsic motivation, which the conventional reward-and-punishment view cannot accommodate.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "Motivation 2.0 assumes paying people and aligning their incentives is the surest route to performance, so it predicts the corporate encyclopedia's victory. The actual result, Wikipedia's triumph, shows that intrinsic motivation can sustain world-class production that no amount of conventional incentive design predicted.",
+          "stage_1_observation": "It is 1995. You are seated across from a skeptical economist with a Ph.D. and an MBA classroom behind her. You describe two encyclopedias: one funded and staffed by Microsoft with paid writers, paid editors, and well-compensated managers; the other free, online, built by tens of thousands of unpaid hobbyists contributing twenty to thirty hours a week. You ask her to predict which will be the largest and most popular in 2010.",
+          "stage_1_question": "By the logic of Motivation 2.0, which encyclopedia must win-and why does the economist answer without hesitation?",
+          "stage_1_correct_answer": "The Microsoft encyclopedia must win. Its incentives are aligned-profits for the company, pay for writers, editors, and managers-while the volunteer project's incentives are all wrong: its contributors earn nothing and even forgo remunerative labor. Every business principle of 1995 points the same way, so the answer was considered a no-brainer.",
+          "stage_2_intervention": "The crystal ball speaks. On October 31, 2009, Microsoft pulls the plug on MSN Encarta after sixteen years, while Wikipedia becomes the largest and most popular encyclopedia in the world with more than 13 million articles in some 260 languages within eight years. A colleague asks you to explain how the outcome that 'shouldn't be possible' happened.",
+          "stage_2_correct_answer": "Wikipedia triumphed because its volunteers are driven by intrinsic motivation: enjoyment of writing and editing, the challenge of the work, and the purpose of giving an encyclopedia to the world for free. The conventional view of human motivation has a very hard time explaining this result, which is why Pink calls it a defiance of the laws of behavioral physics."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The ghost of Frederick Taylor: why scientific management misfires today",
+          "visual_frame_description": "A modern open-plan product studio at dusk, where a translucent spirit in an early-1900s suit and wire spectacles hovers behind the shoulder of a manager, whispering. On the manager's screen, a time-and-motion spreadsheet collides with a wall of post-it ideas and half-built prototypes. A subtitle glows beneath the ghost: 'Work consists mainly of simple, not particularly interesting, tasks.'",
+          "player_mission": "Battle the ghost of Frederick Winslow Taylor. First justify why his scientific management worked so well for the industrial era. Then decide what happens when his incentive-and-monitor doctrine is applied to today's heuristic knowledge work.",
+          "key_concepts": [
+            "Frederick Winslow Taylor invented 'scientific management' in the early 1900s as software crafted to run atop Motivation 2.0.",
+            "Taylor's approach treated workers like parts in a complicated machine functioning smoothly when each part did the right work in the right way.",
+            "Scientific management rewarded the behavior sought and punished the behavior discouraged, expecting people to respond rationally to external forces.",
+            "Most twentieth-century work was algorithmic, reducible to a script, a spec sheet, a formula, or a series of steps that produced a right answer.",
+            "Today routine white-collar work is racing offshore to wherever it can be done cheapest, such as India, Bulgaria, and the Philippines.",
+            "Computers are replacing simple intellectual labor, so a cousin the CPA faces competition from thirty-dollar tax programs.",
+            "McKinsey estimates that only 30 percent of U.S. job growth now comes from algorithmic work, and 70 percent from heuristic work.",
+            "Amabile found external rewards and punishments work nicely for algorithmic tasks.",
+            "Amabile found external rewards and punishments can be devastating for heuristic tasks.",
+            "Amabile's intrinsic motivation principle of creativity: intrinsic motivation is conducive to creativity; controlling extrinsic motivation is detrimental to creativity."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the fit between Taylor's scientific management and the nature of the work: rewards and monitoring worked when tasks were routine and algorithmic, but are devastating for heuristic tasks. The mechanism is Amabile's intrinsic motivation principle of creativity, which holds that controlling extrinsic motivation is detrimental to creativity.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "Scientific management, the software of Motivation 2.0, assumes work is simple, routine, and best handled by proper incentives and careful monitoring. That assumption fit the algorithmic industrial era, but as work turned heuristic, the same doctrine damages the performance it is meant to secure.",
+          "stage_1_observation": "A ghost hovers over a factory floor in 1910: Frederick Winslow Taylor insists that work consists mainly of simple, not particularly interesting, tasks, and the only way to get people to do them is to incentivize them properly and monitor them carefully. Workers are treated like parts in a machine; the company rewards the behavior it seeks and punishes the behavior it discourages, and people respond rationally to these extrinsic motivators. Productivity soars through the Industrial Revolution.",
+          "stage_1_question": "Why did Taylor's scientific management work so well for the industrial economy, and why was it considered 'software' for its era?",
+          "stage_1_correct_answer": "Because most twentieth-century work was algorithmic: tasks followed a single pathway to one right answer and could be reduced to scripts, specs, formulas, or steps. With predictability and routine at the core, rewarding the sought behavior and punishing the discouraged behavior produced exactly the rational response Motivation 2.0 promised, which is why the engine of commerce was fueled equally by carrots and sticks.",
+          "stage_2_intervention": "The ghost reappears, now whispering into the ear of a manager at a design agency whose briefs are open-ended and whose profits depend on novel campaigns. The manager adopts Taylor's doctrine: piece-rate bonuses per finished concept, strict timesheets, and monitoring of every idle minute. Morale sags and the agency's best creative work dries up, but the manager insists the incentives were proper.",
+          "stage_2_correct_answer": "The doctrine misfires because this is heuristic work: no algorithm exists, so success depends on experimenting with possibilities and devising novel solutions. As Teresa Amabile found, external rewards and punishments work nicely for algorithmic tasks but can be devastating for heuristic ones, because intrinsic motivation is conducive to creativity while controlling extrinsic motivation is detrimental to it. Carrots and sticks turned an intrinsically enjoyable craft into monitored piecework."
+        }
+      ,
+      {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The two-dollar rejection: fair play beats the rational calculator",
+          "visual_frame_description": "A psychology lab table with ten dollars in cash between two chairs. A warm-hearted man offers two dollar bills with an open palm. A woman's hands hover over the money, conflicted; a thought bubble shows two numbers, '2 > 0', being crossed out by a red 'NO' stamp labeled 'FAIR PLAY'. In the background, a 2002 Nobel medal glints, captioned 'Kahneman, with Tversky'.",
+          "player_mission": "Defeat the myth of the rational calculator. First explain why people reject a two-dollar offer in the ten-dollar sharing game. Then show what that predictable irrationality does to Motivation 2.0's premise that incentives always get a rational response.",
+          "key_concepts": [
+            "Economics, as Pink's first professor taught, is not the study of money but the study of behavior.",
+            "The old view held that people are rational calculators of their economic self-interest, always doing what is best for them.",
+            "In 2002 the Nobel Foundation awarded the economics prize to Daniel Kahneman, an American psychologist, largely for showing we are not always rational calculators.",
+            "Kahneman did the work with Israeli scholar Amos Tversky, helping force a change in how we think about what we do.",
+            "In the ten-dollar sharing game, if the offer is accepted both keep the money; if rejected, neither gets anything.",
+            "Most people accepted offers of six dollars and probably five, but most people rejected offers of two dollars and below.",
+            "Rejecting two dollars makes no sense for wealth maximization: two dollars is more than zero, yet fairness, revenge, or irritation overrides the calculator.",
+            "The experiment has been replicated around the world with the same pattern of rejections.",
+            "We don't save enough for retirement even though it is to our clear economic advantage to save.",
+            "We hang on to bad investments longer than we should because the pain of losing money feels sharper than the joy of gaining the same amount.",
+            "Dan Ariely, author of Predictably Irrational, concludes that we are irrational and predictably so."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the collapse of the rational-calculator assumption: in the ultimatum-style ten-dollar game, most people worldwide reject a two-dollar offer because fairness, revenge, and irritation override calculation of self-interest. Kahneman and Tversky's behavioral-economic research shows humans are predictably irrational, undermining the premise of Motivation 2.0 that people always respond rationally to extrinsic incentives.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "The rational-calculator fiction vs. predictable irrationality: people routinely reject free money in the ten-dollar sharing game because social and emotional considerations override wealth maximization, exactly the kind of finding that breaks Motivation 2.0's assumption of rational response to incentives.",
+          "stage_1_observation": "You watch an experiment replicated around the world. Someone is given ten dollars to share, some, all, or none, with a partner. If the partner accepts, both keep the money; if the partner rejects, neither gets anything. Offers of six dollars are accepted, offers of five dollars are probably accepted, but offers of two dollars and below are rejected by most people, even though accepting means the partner is two dollars richer and rejecting means nothing.",
+          "stage_1_question": "Why would anyone reject a two-dollar offer when accepting is worth two dollars and rejecting is worth zero?",
+          "stage_1_correct_answer": "Because humans are not hyperrational calculators of economic self-interest. Notions of fair play, the desire for revenge, or simple irritation override the cognitive calculator in most people, which is why the rejection pattern replicates around the world. Kahneman, who won the 2002 Nobel in economics for work with Amos Tversky, helped show exactly this: we are not always rational calculators of our economic self-interest.",
+          "stage_2_intervention": "The battle escalates to a boardroom. A CFO insists his software developer can be 'rationally motivated' by sharpening incentive tiers and pain-at-risk, because everyone calculates. His VP of engineering objects, and you are called in. As evidence, consider the retirement savings gap, the bad investments people hold because loss pain outweighs equal gain joy, and the way adding an irrelevant third television changes which of two otherwise identical sets people choose.",
+          "stage_2_correct_answer": "The CFO's premise is false. We are predictably irrational, as Dan Ariely's Predictably Irrational argues: we don't save enough for retirement, we cling to losing investments because losing stings more than gaining the same amount pleases, and irrelevant third choices flip our decisions. Since the very premise of extrinsic incentives is that we will always respond rationally to them, and we clearly don't, Motivation 2.0 is hard to reconcile with how economists now think about what we do."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Bruno Frey's Mature Economic Man: intrinsic motivation in economics",
+          "visual_frame_description": "A Zurich seminar room at dusk. Bruno Frey, an economist in a tweed jacket, stands at a chalkboard drawing a figure labeled 'Homo Oeconomicus Maturus' with two chambers: a calculator and a heart. Behind him, a slide shows a weekend clarinetist practicing sheet music, a person handing in a resignation letter from a lucrative job, and a monkey at a puzzle, all captioned 'No raisins required'.",
+          "player_mission": "Battle for an upgraded view of economic man. First explain what Frey adds to behavioral economics. Then apply his thesis to a company redesigning its incentive system for knowledge workers.",
+          "key_concepts": [
+            "Bruno Frey, an economist at the University of Zurich, is the most prominent scholar widening behavioral economics toward intrinsic motivation.",
+            "Frey argues we need to move beyond Homo Oeconomicus, the fictional wealth-maximizing robot.",
+            "Frey proposes Homo Oeconomicus Maturus, or Mature Economic Man, 'endowed with a more refined motivational structure.'",
+            "Frey writes that intrinsic motivation is of great importance for all economic activities.",
+            "Frey writes that it is inconceivable that people are motivated solely or even mainly by external incentives.",
+            "People leave lucrative jobs to take low-paying ones that provide a clearer sense of purpose.",
+            "People work to master the clarinet on weekends with little hope of making money, which Motivation 2.0 cannot explain.",
+            "People play with puzzles even when they don't get raisins or dollars, echoing Harlow's monkeys.",
+            "The hyperrational calculator-brained person is a convenient fiction, not a real human being.",
+            "If people act irrationally for backward-looking reasons, there is no reason they can't also act for significance-seeking, self-actualizing reasons.",
+            "Since we are predictably irrational, we could also be predictably transcendent."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests Bruno Frey's extension of behavioral economics: replacing Homo Oeconomicus with Homo Oeconomicus Maturus, a figure with a more refined motivational structure in which intrinsic motivation is central to all economic activity. The mechanism is that humans act for purpose and significance as well as incentives, so it is inconceivable that external incentives alone drive economic behavior.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "Homo Oeconomicus Maturus: the mature account of economic behavior must include intrinsic motivation and the refined motivational structure of real humans, because it is inconceivable that people are motivated solely or even mainly by external incentives.",
+          "stage_1_observation": "You are invited to a University of Zurich seminar where Bruno Frey is defending his position that behavioral economics, for all its progress, is still too narrow. Around you sit examples he loves to cite: a surgeon leaving a lucrative practice for a low-paying clinic job because it gives her work meaning, a colleague who spends weekends mastering the clarinet with no prospect of money, and a lab report on monkeys that solve puzzles for the sheer satisfaction.",
+          "stage_1_question": "What exactly does Frey argue the economics of the future must add to Homo Oeconomicus?",
+          "stage_1_correct_answer": "Frey argues we must move beyond Homo Oeconomicus, the fictional wealth-maximizing robot, to Homo Oeconomicus Maturus, who is more mature in being 'endowed with a more refined motivational structure.' Intrinsic motivation is of great importance for all economic activities, and it is inconceivable that people are motivated solely or even mainly by external incentives.",
+          "stage_2_intervention": "The seminar leads to an executive session. A Fortune 500 CFO, impressed by pay-for-performance, proposes stripping all base pay components down to maximal variable bonuses because 'people are calculators and respond to money.' Your role: show how Frey's thesis defeats this design for a workforce whose work is creative, interesting, and self-directed.",
+          "stage_2_correct_answer": "The pure variable-bonus design treats employees as Homo Oeconomicus. Frey's thesis defeats it: humans also act for significance-seeking, self-actualizing reasons, as shown by people trading lucrative jobs for purposeful ones, mastering instruments with no financial payoff, and solving puzzles without raisins. If we are predictably irrational, we can be predictably transcendent; a refined motivational structure requires intrinsic motivation, so pay alone is inconceivable as the main engine."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Work beyond the manager's gaze: the self-directed workforce",
+          "visual_frame_description": "A city at 9 a.m. shown as a constellation of glowing home offices, each a small box with a different professional at a desk: a nurse scheduling telehealth calls, a coder merging pull requests, a consultant drafting a proposal. An aerial map labels clusters '33.7 million telecommute monthly, 14.7 million daily' and '18 million non-employer businesses'. A manager's empty office chair sits alone in the corner, gathering dust.",
+          "player_mission": "Confront the collapse of Motivation 2.0's monitoring assumption. First explain how the self-directed workforce breaks the supervise-manage model. Then judge the hiring philosophy that assumes self-motivation instead of manufacturing it.",
+          "key_concepts": [
+            "Motivation 2.0 holds that because work is supposed to be dreary, people need careful monitoring so they don't shirk.",
+            "America alone has more than 18 million 'non-employer businesses'-businesses without any paid employees.",
+            "People in non-employer businesses have no underlings to manage and no bosses to manage them; they must be self-directed.",
+            "In the United States, 33.7 million people telecommute at least one day a month.",
+            "In the United States, 14.7 million people telecommute every single day.",
+            "Telecommuting places a substantial portion of the workforce beyond the gaze of a manager, forcing them to direct their own work.",
+            "Organizations are becoming leaner and less hierarchical, trimming the fatty middle and leaving managers to oversee larger numbers of people.",
+            "When managers oversee more people, each person is scrutinized less closely.",
+            "As organizations flatten, companies need people who are self-motivated, becoming more like Wikipedia, where nobody manages the Wikipedians.",
+            "Routine, not-so-interesting jobs require direction; nonroutine, more interesting work depends on self-direction.",
+            "One anonymous business leader tells job candidates: 'If you need me to motivate you, I probably don't want to hire you.'"
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the incompatibility between Motivation 2.0's monitor-and-supervise logic and a workforce that is increasingly self-directed and beyond managerial gaze. The mechanism is self-direction: nonroutine, interesting work depends on it, so monitoring-based motivation collapses and organizations must operate more like Wikipedia.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "The monitoring assumption of Motivation 2.0 dies when work is self-directed: with millions of telecommuters, non-employer businesses, and flattened hierarchies, nobody can supervise the shirking the system fears, and nonroutine interesting work depends on self-direction rather than external monitoring.",
+          "stage_1_observation": "You stand at the window of a head office where the seats of managers are emptier than those of the specialists. On the screen behind you: the U.S. Census Bureau's 18 million non-employer businesses, businesses with no paid employees and therefore no one to manage or be managed by; then the telework numbers, 33.7 million Americans working from home at least one day a month and 14.7 million working from home every day, beyond any manager's gaze; finally the organizational chart, flattening as the fatty middle is trimmed and each manager is asked to oversee far more people.",
+          "stage_1_question": "Why does Motivation 2.0's assumption that people must be monitored to avoid shirking fail in the face of these numbers?",
+          "stage_1_correct_answer": "Because monitoring is physically and organizationally impossible at that scale. Non-employer businesses have no bosses to do the motivating, telecommuters sit beyond the manager's gaze and must direct their own work, and flattened hierarchies give each manager too many people to scrutinize individually. The logic of Motivation 2.0 depends on oversight it can no longer deliver, so organizations must rely on self-directed, self-motivated people.",
+          "stage_2_intervention": "You join a hiring panel where a business leader ends interviews with an unusual statement, telling prospective employees: 'If you need me to motivate you, I probably don't want to hire you.' A skeptical recruiter objects, arguing the company should 'manage motivation' with perks and carrots. You must decide which stance the evidence supports for jobs that are nonroutine and interesting.",
+          "stage_2_correct_answer": "The leader's stance is right for nonroutine, interesting work. Routine, not-so-interesting jobs require direction, but nonroutine, more interesting work depends on self-direction, as Wikipedia shows-nobody manages the Wikipedians and nobody tries to motivate them, and that is exactly why Wikipedia works. For a workforce of self-directed specialists, hiring self-motivated people beats manufacturing motivation with prize schemes."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The bounty that backfired: open-source support at Midwest Health Cooperative",
+          "visual_frame_description": "A basement IT war room in a hospital cooperative. Maya, the IT director, projects a message board where volunteer contributors discuss a bug tracker; a proposed bounty table labeled '$25 per fixed bug' hovers next to it, casting a long shadow. Karim, a volunteer maintainer on a video call from Berlin, shrugs with a half-smile while an espresso cup beside him waits unattended.",
+          "player_mission": "Advise Maya, IT director at a hospital cooperative whose software stack runs on volunteer-maintained open-source tools. The board wants per-bug bounties to speed fixes. Guide her through what the research says actually drives open-source contributors before she announces the policy.",
+          "key_concepts": [
+            "Open source depends on intrinsic motivation with the same ferocity that older business models rely on extrinsic motivation.",
+            "Lakhani and Wolf surveyed 684 open-source developers and found enjoyment-based intrinsic motivation is the strongest and most pervasive driver.",
+            "A large majority of surveyed programmers frequently reached the state of optimal challenge called 'flow.'",
+            "Three German economists found open-source participants are driven by predominantly intrinsic motives.",
+            "The 'fun of mastering the challenge of a given software problem' is a central motive among open-source participants.",
+            "The 'desire to give a gift to the programmer community' also drives open-source participation.",
+            "Open-source people haven't taken vows of poverty; participation can burnish reputations and sharpen skills that enhance earning power.",
+            "Firefox, created almost exclusively by volunteers, has more than 150 million users.",
+            "Linux powers one in four corporate servers, and Apache holds 52 percent of the corporate Web server market.",
+            "Motivation 2.0 has little room for the intrinsic impulses that power open source."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests what actually fuels open-source participation: enjoyment-based intrinsic motivation, the fun of mastering a challenge, and the desire to give a gift to the community, all confirmed by Lakhani and Wolf's 684-developer survey and German economists' studies. Contingent cash bounties reframe the work as paid piecework and can crowd out those intrinsic drivers.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "scenario_setup": "Midwest Health Cooperative runs its patient portal and scheduling systems on free open-source software maintained by volunteers across the world. A recent vulnerability took three weeks to get patched, and the board has drafted a plan to pay $25 per accepted bug fix to 'accelerate the community.' Maya, the IT director, must decide whether to adopt the bounties or present an alternative. She has called you, a motivation consultant, into a meeting with Karim, a lead volunteer maintainer, on the line from Berlin.",
+          "dialogue": [
+            {
+              "speaker": "Maya",
+              "line": "The board's logic is simple: pay people for fixes and we'll get more fixes, faster. Twenty-five dollars per merged patch, paid monthly."
+            },
+            {
+              "speaker": "Karim",
+              "line": "I've been maintaining this library for nine years. I've never been paid a cent, and I've merged over four hundred patches. The board is about to add the one thing we never wanted in here."
+            },
+            {
+              "speaker": "You",
+              "line": "Karim, what keeps you coming back to a bug tracker on Friday nights after a full consulting week?"
+            },
+            {
+              "speaker": "Karim",
+              "line": "Honestly? The puzzle. A gnarly race condition is like a Rubik's cube that bites back. And when a hospital in Ohio tells me their portal works because of a fix I wrote, that's the payment."
+            },
+            {
+              "speaker": "Maya",
+              "line": "So you're telling me the one thing research shows drives contributors is the intrinsic joy of the work and the gift of it to the community?"
+            },
+            {
+              "speaker": "You",
+              "line": "Exactly. Lakhani and Wolf surveyed 684 developers and found enjoyment-based intrinsic motivation was the strongest and most pervasive driver, and most of them hit 'flow' regularly."
+            },
+            {
+              "speaker": "Karim",
+              "line": "Put a price on a patch and suddenly the interesting bugs get cherry-picked for the easy ones, and the gift culture turns into a gig economy. I've seen it happen in two other projects."
+            },
+            {
+              "speaker": "Maya",
+              "line": "So instead of bounties, we publicly thank contributors, sponsor the project's yearly meetup, and route our engineers' time to the hard bugs as a gift back?"
+            },
+            {
+              "speaker": "You",
+              "line": "Now you're reinforcing the motive that actually moves the community, and you'll get the reliability you need as a side effect."
+            }
+          ],
+          "choices": [
+            "Park the bounty policy. Ask the board to fund what contributors actually value: recognition, travel sponsorship to the project's conference, and dedicated engineer hours to take on the hardest bugs as a gift to the community.",
+            "Adopt the bounty plan as drafted. Twenty-five dollars per fix is a clear, measurable incentive that will speed up the most important patches.",
+            "Adopt the bounties but post them only for boring, low-prestige fixes so the interesting work stays volunteer-driven.",
+            "Adopt the bounties and add a monthly leaderboard of top paid contributors so the board can see the investment working."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "The enjoyment-based intrinsic motivation principle of open source: Lakhani and Wolf found intrinsic enjoyment is the strongest and most pervasive driver of the 684 developers surveyed, alongside the fun of mastering a challenge and the gift motive, so cash bounties reframe the work as paid piecework and suppress those drivers.",
+          "psychological_breakdown": "The optimal choice protects the drivers the research actually names: enjoyment, mastery, and the gift to the community, replacing contingent cash with recognition and support. The bounty choice fails because it converts a self-directed gift culture into priced piecework, crowding out the intrinsic motives Lakhani and Wolf found strongest. Pricing only 'boring' bugs still attaches external contingencies and divides the community, and the leaderboard choice adds public comparison that makes the payment scheme more salient still. Karim's testimony and the 684-developer survey both affirm that the cooperative gets more reliability by feeding the community's intrinsic motivation than by pricing it."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The per-idea fee: pricing creativity at Nocturne Agency",
+          "visual_frame_description": "A walnut-and-brass conference room at a Chicago ad agency. Ava, the creative director in a linen blazer, stands before mood boards of a car campaign while Diego, a stoic client procurement executive, slides a single-page contract across the table with '$2,000 per approved concept' in bold. A whiteboard behind them shows two columns, 'algorithmic' and 'heuristic', with the heuristic column glowing.",
+          "player_mission": "Negotiate the contract structure with a client who wants to pay per approved creative idea. Keep the campaign's creative quality intact by resisting incentive schemes that the science shows are devastating for heuristic work.",
+          "key_concepts": [
+            "A heuristic task is one where no algorithm exists, so you must experiment with possibilities and devise a novel solution.",
+            "An algorithmic task follows a set of established instructions down a single pathway to one conclusion.",
+            "Creating an ad campaign is mostly heuristic work.",
+            "Teresa Amabile of Harvard Business School found external rewards and punishments work nicely for algorithmic tasks.",
+            "Amabile found external rewards and punishments can be devastating for heuristic tasks.",
+            "Amabile's intrinsic motivation principle of creativity: intrinsic motivation is conducive to creativity; controlling extrinsic motivation is detrimental to creativity.",
+            "McKinsey estimates 70 percent of U.S. job growth now comes from heuristic work and 30 percent from algorithmic work.",
+            "Routine work can be outsourced or automated; artistic, empathic, nonroutine work generally cannot.",
+            "Because work has become more creative and less routine, it has also become more enjoyable.",
+            "Csikszentmihalyi found people are much more likely to report optimal experiences on the job than during leisure.",
+            "Work that economists once considered a 'disutility' is becoming a 'utility' people pursue even without a tangible return, as Vocation Vacations shows."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests Amabile's intrinsic motivation principle of creativity in a negotiation: controlling extrinsic motivation is detrimental to creativity while intrinsic motivation is conducive to it, and external rewards that work for algorithmic tasks can be devastating for heuristic ones. The optimal strategy refuses to price individual creative ideas and protects the team's intrinsic engagement instead.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "scenario_setup": "Nocturne Agency, a 40-person creative shop, is one round from winning the Everest Motors account, a campaign worth $4 million a year. Everest's procurement chief, Diego, wants to 'align incentives': Nocturne would be paid $2,000 for every concept the client approves, with nothing for concepts rejected in review. Ava, the creative director, fears this will turn idea generation into monitored piecework and gut the campaign. She has asked you, her strategy adviser, to join the negotiation call before she signs anything.",
+          "dialogue": [
+            {
+              "speaker": "Diego",
+              "line": "Pay-per-approved-concept is simple: we buy what we use and we never pay for flops. It keeps every creative hour accountable to the brand."
+            },
+            {
+              "speaker": "Ava",
+              "line": "Diego, our concepts are not widgets. Half the winning work arrives as a wild card scribbled after a walk, not as a line item on a timesheet."
+            },
+            {
+              "speaker": "You",
+              "line": "There's a research-backed reason that deal worries us. Harvard's Teresa Amabile found external rewards work fine for algorithmic tasks-rule-following work-with definite steps and one right answer."
+            },
+            {
+              "speaker": "Diego",
+              "line": "And what does she say about creative work like ours?"
+            },
+            {
+              "speaker": "You",
+              "line": "That controlling extrinsic rewards can be devastating for heuristic tasks. Intrinsic motivation is conducive to creativity; controlling extrinsic motivation is detrimental to it."
+            },
+            {
+              "speaker": "Ava",
+              "line": "That's the entire campaign at stake. If every concept gets priced and judged, my teams will design to the review, not to the road."
+            },
+            {
+              "speaker": "Diego",
+              "line": "So you want me to hand over four million dollars on good faith and no scoreboard?"
+            },
+            {
+              "speaker": "You",
+              "line": "No-document the quality bar, pay per milestone of an agreed process, and let the craft be judged by the work, not by what it cost per rejected idea."
+            },
+            {
+              "speaker": "Ava",
+              "line": "Price the risk, not the ideas. Fund the exploration, then we'll bet on the outcome together."
+            }
+          ],
+          "choices": [
+            "Refuse per-idea pricing. Propose a fixed campaign fee with milestone payments tied to an agreed process, and let the creative team work without per-concept surveillance.",
+            "Accept per-idea pricing as offered, since paying only for approved concepts is the fairest way to hold the agency accountable.",
+            "Accept per-idea pricing but only for final campaign deliverables, keeping concept development unpriced.",
+            "Accept per-idea pricing and install the client's dashboard to monitor every rejected concept in real time so the agency learns faster."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "The intrinsic motivation principle of creativity (Teresa Amabile): intrinsic motivation is conducive to creativity and controlling extrinsic motivation is detrimental to it, so external rewards that suit algorithmic tasks can be devastating for heuristic tasks like campaign ideation.",
+          "psychological_breakdown": "The optimal choice keeps contingent pricing off the creative act itself, exactly what Amabile's principle demands: concept generation is heuristic work and a per-idea bounty is a controlling extrinsic motivator that would narrow exploration to what reviewers will approve. Choice 1's ethical premise fails because contingent payment per approved output is precisely the controlling reward the research warns against. Choice 2 still attaches the price to the creative act at its most vulnerable stage. Choice 3 adds monitoring, magnifying the controlling character of the scheme and converting enjoyable craft into auditable piecework, the pattern the chapter shows dragging down performance exactly where it matters most."
+        }
+      ]
+    }
+  ]
+}
