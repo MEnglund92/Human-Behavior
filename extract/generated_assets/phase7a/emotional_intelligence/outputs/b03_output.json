@@ -1,0 +1,509 @@
+{
+  "spec_file": "spec_emotional_intelligence_b03.json",
+  "chapters": [
+    {
+      "id": "ch09",
+      "title": "3. When Smart Is Dumb",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Self-awareness: naming a feeling as it happens",
+          "visual_frame_description": "A late-afternoon conference room in a Denver logistics office. Aisha, 34, an operations manager, sits across from Daniel, a quiet data analyst still in his parka, after the CEO rejected his routing proposal. A whiteboard carries a scrawled Q3 plan and a half-empty coffee mug sits between them. Aisha watches Daniel's jaw tighten each time he insists everything is fine.",
+          "player_mission": "You play Aisha. Guide the conversation so Daniel can recognize and name what he is feeling as it happens, rather than burying it. Choose responses that invite his self-awareness without interrogating him.",
+          "scenario_setup": "Daniel spent three weekends building the routing proposal with no overtime pay, and the CEO rejected it in two sentences. He is now claiming complete indifference. The stakes: if Daniel swallows the setback, it will poison his next project and the team's trust in you. Your goal is to put Salovey's first domain to work: helping him know his own emotions.",
+          "dialogue": [
+            "Aisha: So the CEO passed on the routing proposal. That was a real kick.",
+            "Daniel: Yeah. Whatever. It was a long shot from the start.",
+            "Daniel: I'm fine. I've got a dozen ideas backed up on my drive. This is nothing.",
+            "Aisha: You keep saying fine. You also haven't looked at me since I brought it up.",
+            "Daniel: Because there's nothing to look at. It's a work thing. Numbers don't have feelings.",
+            "Aisha: But you do. You put three weekends into that deck. I was here. I saw the lights on.",
+            "Daniel: ...It stung. It stung more than I want to admit.",
+            "Aisha: Good. That's the thing worth saying out loud. Now we can do something with it."
+          ],
+          "choices": [
+            "Show me what it actually felt like, the sting, when he said no.",
+            "Cheer up. Rejection is part of the job. You'll win the next one.",
+            "Fair enough. Let's move to the Monday numbers so we don't waste the hour.",
+            "I'll go to the CEO right now and fight to revive the proposal."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Self-awareness, recognizing a feeling as it happens - Salovey's first domain and the keystone of emotional intelligence",
+          "psychological_breakdown": "Option 0 invites Daniel to notice and label the emotion in the moment, which is the keystone of emotional intelligence; the chapter holds that an inability to notice true feelings leaves us at their mercy, while people with greater certainty about their feelings are better pilots of their lives. Option 1 (cheerleading) and option 2 (task pivot) collude with his denial and teach him that feelings are irrelevant. Option 3 bypasses Daniel's agency, making him a spectator of his own recovery.",
+          "key_concepts": [
+            "Self-awareness, recognizing a feeling as it happens, is the keystone of emotional intelligence.",
+            "The ability to monitor feelings from moment to moment is crucial to psychological insight and self-understanding.",
+            "An inability to notice our true feelings leaves us at their mercy.",
+            "People with greater certainty about their feelings are better pilots of their lives.",
+            "Emotional life is a domain that, as surely as math or reading, can be handled with greater or lesser skill.",
+            "Each of the emotional domains represents a body of habit and response that can be improved on with the right effort.",
+            "Managing emotions builds on self-awareness: people poor at this ability constantly battle distress, while those who excel bounce back faster from setbacks.",
+            "Salovey expanded Gardner's personal intelligences into five domains: knowing one's emotions, managing them, motivating oneself, recognizing emotions in others, and handling relationships.",
+            "People who are emotionally adept are at an advantage in any domain of life, from romance to organizational politics."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests self-awareness, the keystone of emotional intelligence: recognizing a feeling as it happens rather than being swept by it. Goleman's five-domain model holds that people with more certainty about their feelings are better pilots of their lives, a claim the book presents as the foundation for every other emotional competency.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Empathy: reading and responding to a colleague's distress",
+          "visual_frame_description": "Mid-morning in a bright Chicago nonprofit call center. Marcus, 41, a team lead, finds Elena, 26, a new intake counselor, standing in the supply-closet doorway with red-rimmed eyes after a caller screamed at her. Headsets hang on hooks and workstations hum softly. Elena forces a tight smile and waves him off.",
+          "player_mission": "You are Marcus. Decide how to respond to Elena in the next minute. Your goal is to practice the fourth domain, recognizing emotions in others, so Elena feels seen rather than dismissed or coached.",
+          "scenario_setup": "Elena took a hostile call from a landlord who insulted her and told her to quit. She is pretending the job does not touch her. The stakes: if the moment passes unacknowledged, a new hire loses faith in the team and her distress festers. The goal is empathic recognition, not problem-solving.",
+          "dialogue": [
+            "Elena: I'm okay. It's nothing. (voice flat, eyes on the floor)",
+            "Marcus: That call, the landlord one, sounded rough from the next desk.",
+            "Elena: It's fine. People are angry. It's part of the job. I know.",
+            "Marcus: Part of the job doesn't mean it can't hit you. You looked rattled a second ago.",
+            "Elena: ...He said my job was worthless and I should go back to school. It's stupid. I know it's stupid.",
+            "Marcus: It's not stupid. Being told you're worthless stings, even from a stranger.",
+            "Elena: ...Thanks. That's weirdly exactly what I needed to hear."
+          ],
+          "choices": [
+            "Let's review what you said on that call so we can coach the technique for next time.",
+            "Say: That was a brutal call. Want to tell me what he said, or just take five minutes?",
+            "Shake it off. Next call will be better. Don't let one jerk own your day.",
+            "I'll flag that caller's number so he can't reach this line again."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Empathy - recognizing emotions in others - the fundamental people skill",
+          "psychological_breakdown": "Option 1 reads her emotional state from subtle signals (flat voice, reddened eyes, deflection) and gives her the choice to vent or pause, which is exactly how empathic people operate: they are more attuned to the subtle social signals indicating what others need or want. Option 0 converts the moment into task-focused coaching, the coldly cognitive bias the chapter criticizes. Option 2 dismisses the feeling, and option 3 fixes the logistics while leaving the feeling to fester unexamined.",
+          "key_concepts": [
+            "Empathy, another ability that builds on emotional self-awareness, is the fundamental people skill.",
+            "People who are empathic are more attuned to the subtle social signals that indicate what others need or want.",
+            "Empathy can be tested by sampling a person's actual ability at the task, for example reading feelings from a video of facial expressions.",
+            "People with well-developed emotional skills read and deal effectively with other people's feelings.",
+            "Empathic skill is an advantage in callings such as the caring professions, teaching, sales, and management.",
+            "The realm of the emotions extends beyond the reach of language and cognition.",
+            "Rationality is guided by, and can be swamped by, feeling.",
+            "People who cannot marshal some control over their emotional life fight inner battles that sabotage focused work and clear thought."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests empathy, the ability to recognize emotions in others, which the book calls the fundamental people skill and traces to emotional self-awareness. Goleman claims empathic people are more attuned to subtle social signals of what others need, making the skill a tested ability rather than a fixed trait.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Motivating oneself: marshaling emotions in service of a goal",
+          "visual_frame_description": "A neon-lit diner in Jersey City at 10 p.m. Dev, 29, a law school graduate, stares at a bar-exam prep book still in its plastic sleeve while his cousin Priya sits across the booth. His knee bounces under the table and he pushes fries around his plate, deflecting every question about the exam with a shrug.",
+          "player_mission": "You are Priya. Help Dev marshal his emotions in the service of his goal: attention, self-motivation, and the persistent work the exam requires. Do not fix the exam for him; rebuild his motivation.",
+          "scenario_setup": "Dev is two months from the bar exam, but every time he opens the book he freezes with pounding anxiety and closes it again. He is now proposing to defer a year. The stakes: a talented candidate is about to hand his goal to fear. Your goal is to re-engage his emotions behind the goal without dismissing the fear.",
+          "dialogue": [
+            "Priya: The book's still in the plastic sleeve, Dev.",
+            "Dev: I know. I sit down, I open it, and I just freeze. My heart starts pounding and I close it again.",
+            "Dev: Maybe I should defer a year. Everyone says there's no shame in it.",
+            "Priya: Deferring is a decision, not a verdict. But tell me honestly: is it the material, or the fear?",
+            "Dev: The fear. I've always been the smart one, the one who doesn't fail. If I fail this, who am I?",
+            "Priya: Who you are is someone who can study one section tonight and sit with the fear afterward.",
+            "Dev: One section? That's... actually manageable. Yeah. Okay.",
+            "Priya: That's the deal. One section tonight. The fear gets a vote, not a veto."
+          ],
+          "choices": [
+            "Tell him to defer. Forcing it will only make the anxiety worse.",
+            "Remind him how brilliant he is and that he has never failed anything.",
+            "Set a tiny first step for tonight and treat the fear as a visitor, not the driver.",
+            "Ask him to sign up for a two-year tutoring program to guarantee the outcome."
+          ],
+          "optimal_choice": 2,
+          "theoretical_principle": "Motivating oneself - marshaling emotions in the service of a goal, built on emotional self-control",
+          "psychological_breakdown": "Option 2 restores agency with a micro-goal: the chapter states that marshaling emotions in the service of a goal is essential for attention, self-motivation, mastery, and creativity, and that entering the concentrated flow state takes effortful calm. Option 0 surrenders the goal to the fear, option 1 flatters the fixed-intellect identity that makes failure catastrophic, and option 3 outsources the work while raising the stakes, deepening rather than dissolving the paralysis.",
+          "key_concepts": [
+            "Marshaling emotions in the service of a goal is essential for paying attention, for self-motivation and mastery, and for creativity.",
+            "Emotional self-control, delaying gratification and stifling impulsiveness, underlies accomplishment of every sort.",
+            "Being able to get into the flow state enables outstanding performance of all kinds.",
+            "People who have the self-motivation skill tend to be more highly productive and effective in whatever they undertake.",
+            "Emotional intelligence includes being able to motivate oneself and persist in the face of frustrations.",
+            "The brain is remarkably plastic; each emotional domain is a body of habit and response that can be improved on with the right effort.",
+            "Sternberg and Salovey have taken a wider view of intelligence, reinventing it in terms of what it takes to lead life successfully.",
+            "Intrapersonal intelligence is the capacity to form an accurate, veridical model of oneself and to use it to operate effectively in life."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the third domain, motivating oneself: marshaling emotions behind a goal, with delayed gratification and impulse control as its base. Goleman claims this skill underlies attention, mastery, creativity, and productivity, and that the flow state depends on it.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Handling relationships: managing emotions in others during a reorganization",
+          "visual_frame_description": "A windowless conference room at a Portland machining plant at 7 a.m. Nina, 45, the operations director, faces Marco, 52, the assembly-line manager, whose face is flushed and whose fist is pressed flat on the table. A printed org chart lies between them with half the boxes crossed out. Julia, the second department head, waits in the hall with her arms crossed.",
+          "player_mission": "You are Nina. Deliver the reorganization to Marco using the fifth domain, the art of relationships, which is largely skill in managing emotions in others. Let his fury run its course without letting it sink the reorganization.",
+          "scenario_setup": "Nina must cut Marco's crew by a third within a week, and he is threatening to walk with his people. The stakes: a leadership failure here ends in a walkout and a union grievance; a success keeps the best crews intact. Your goal is to convert his rage into engaged cooperation.",
+          "dialogue": [
+            "Marco: You're cutting my crew by a third, Nina. In a week? My people walk, I walk. That's not negotiation, that's a funeral.",
+            "Nina: You have every right to be angry. This is the worst news I've had to deliver in twenty years here.",
+            "Marco: Angry? I'm past angry. You don't know what it's like to have your people's kids on the line.",
+            "Nina: You're right, I don't. But I need you, exactly you, to decide how the cuts land.",
+            "Marco: ...What do you mean, how they land?",
+            "Nina: The number is fixed. The who and the order are not. I need your read on the floor to protect the best crews.",
+            "Marco: (long pause, shoulders dropping) If I pick, you'll actually use my list?",
+            "Nina: If you pick, I'll trust your list. And I'll stand with you when you explain it."
+          ],
+          "choices": [
+            "Let him vent fully, acknowledge the injury, then hand him real authority over how the cuts land.",
+            "Explain the numbers coldly and clearly, then ask him to confirm the plan by Friday.",
+            "Tell him his walkout threat is noted and that HR has a replacement process ready.",
+            "Promise to fight for a smaller cut next quarter if he stays quiet about this one."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Handling relationships - the art of relationships as skill in managing emotions in others",
+          "psychological_breakdown": "Option 0 uses the sequence the domain describes: empathy for his anger first, then conversion of the emotion into productive engagement, which is how people who excel at the social arts wield leadership and interpersonal effectiveness. Option 1 repeats the Spock-like error of treating the news as pure data, ignoring the flood of feeling. Option 2 escalates his fight stance, and option 3 trades false future promises for silence, breeding the resentment that the chapter says poisons relationships.",
+          "key_concepts": [
+            "The art of relationships is, in large part, skill in managing emotions in others.",
+            "Handling relationships is one of Salovey's five domains; these abilities undergird popularity, leadership, and interpersonal effectiveness.",
+            "People who excel in relationship skills do well at anything that relies on interacting smoothly with others; they are social stars.",
+            "Interpersonal intelligence is the ability to understand other people: what motivates them, how they work, how to work cooperatively with them.",
+            "Gardner notes that many people with IQs of 160 work for people with IQs of 100 if the former have poor intrapersonal intelligence and the latter have a high one.",
+            "In the day-to-day world, Gardner argues, no intelligence is more important than the interpersonal.",
+            "Emotionally adept people read and deal effectively with other people's feelings, an advantage in any domain of life.",
+            "People who are emotionally adept are better at picking up the unspoken rules that govern success in organizational politics."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the fifth domain, handling relationships, which the book defines as skill in managing emotions in others, built on empathy and self-awareness. Goleman claims these abilities undergird leadership and interpersonal effectiveness, making the social arts central to success beyond IQ.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Grades versus life success: the valedictorian's dilemma",
+          "visual_frame_description": "A high-school counseling office in Naperville, Illinois, with a full-ride scholarship offer on the desk. Tara, 18, the valedictorian, sits rigidly clutching a rejection letter from a college honors program. Her mother Priya hovers in the doorway. Tara is describing her first B-plus, on a physics quiz, as the end of her identity.",
+          "player_mission": "You are Ms. Sonia Rivera, the school counselor. Tara's identity is built entirely on grades. Your goal is to introduce the chapter's distinction: academic intelligence prepares you for classrooms, not for the vicissitudes of life, without undermining her drive.",
+          "scenario_setup": "Tara, valedictorian of her class, received her first B-plus and a rejection from the honors program, and she is spiraling. The stakes: a brilliant student is about to define her entire future by one grade. Your goal is to give her a wider map of her own talents and a way to weather setbacks.",
+          "dialogue": [
+            "Tara: I got a B-plus on the quiz. That's it. The honors program saw it and said no.",
+            "Sonia: A B-plus on one physics quiz, out of four years of straight A's.",
+            "Tara: It's not one quiz, it's the pattern. I'm the valedictorian. Without the 4.0, who even am I?",
+            "Sonia: Who are you? You organized the tutoring circle, you run the peer listening program, you talked the principal into the gym schedule change.",
+            "Tara: Those don't count. Anybody could do those.",
+            "Sonia: Tara, ninety-five Harvard men with top scores were followed into middle age and ended up ordinary. The valedictorians from the class of 1981? By their late twenties they were averaging out in life.",
+            "Tara: ...So you're saying it doesn't matter at all?",
+            "Sonia: I'm saying grades predict how well you do in the system. Not how you weather the vicissitudes. That part is a different skill, and it's the one you're practicing right now, sitting in this chair."
+          ],
+          "choices": [
+            "List every academic strategy to get the GPA back up so the program reconsiders.",
+            "Name the distinction: grades predict academic success, while emotional skills, like coping with setback, predict how you weather life.",
+            "Reassure her that the program will regret this and she will prove them wrong.",
+            "Tell her grades genuinely don't matter and she should stop caring about them."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Academic intelligence offers virtually no preparation for the turmoil, or opportunity, that life's vicissitudes bring; emotional aptitude is a meta-ability",
+          "psychological_breakdown": "Option 1 gives Tara the book's core distinction: IQ and grades mainly predict classroom and professor-like paths, while follow-up research found that emotional competencies, handling frustrations, controlling emotions, and getting on with others, made the greater difference in life. Option 0 doubles down on the system she already masters, the dutiful trap Karen Arnold describes. Option 2 feeds the need to be proven right rather than the ability to recover, and option 3 collapses real motivation, which the book never claims is worthless.",
+          "key_concepts": [
+            "Academic intelligence has little to do with emotional life: the brightest among us can founder on the shoals of unbridled passions and unruly impulses.",
+            "At best, IQ contributes about 20 percent to the factors that determine life success, which leaves 80 percent to other forces.",
+            "In a follow-up of ninety-five Harvard men from the classes of the 1940s, those with the highest test scores were not particularly successful in salary, productivity, or status compared to lower-scoring peers.",
+            "Of eighty-one Illinois valedictorians and salutatorians from the class of 1981, by their late twenties most had climbed to only average levels of success.",
+            "Ten years after graduating, only one in four valedictorians were at the highest level of comparable young people in their chosen profession.",
+            "Karen Arnold of Boston University calls valedictorians the dutiful: people who know how to achieve in the system.",
+            "In the Somerville study of 450 boys, 7 percent of men with IQs under 80 were unemployed for ten years or more, exactly the same 7 percent as men with IQs over 100.",
+            "Childhood abilities such as handling frustrations, controlling emotions, and getting on with other people made the greater difference in later life.",
+            "Emotional aptitude is a meta-ability, determining how well we can use whatever other skills we have, including raw intellect.",
+            "The Amherst classmate who scored five perfect 800s on the SAT and other achievement tests took nearly ten years to finally get his degree."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the claim that academic intelligence and life success are loosely coupled: IQ predicts classroom achievement, while emotional competencies predict how people weather life's vicissitudes. Goleman marshals follow-up studies of Harvard men, Somerville boys, and Illinois valedictorians to argue that at best IQ accounts for about 20 percent of life success.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Managing emotions: bouncing back after a costly mistake",
+          "visual_frame_description": "The coffee break room of a Toledo distribution center. Jordan, 38, a supervisor, stares into a cardboard cup, replaying a shipment of the wrong bearings that cost the company forty thousand dollars and drove a client to a competitor. His manager Lena leans against the counter, watching his knuckles whiten as he recounts the week for the fourth time.",
+          "player_mission": "You are Lena. Jordan's rumination is paralyzing his next decisions. Use the second domain, managing emotions, the ability to soothe oneself and bounce back from setbacks, to break the loop without excusing the mistake.",
+          "scenario_setup": "Three weeks of Jordan's quiet competence evaporated in one wrong spreadsheet row, and he now describes himself as unfit for his own job. The stakes: the holiday rush scheduling decision lands on his desk tomorrow. Your goal is to end the spiral of replay so he can act.",
+          "dialogue": [
+            "Jordan: Four hours of my life. One wrong row in the spreadsheet, and the whole month is gone.",
+            "Lena: The shipment is recovered; the client is gone. That part is past tense, Jordan.",
+            "Jordan: You don't get it. I played it over in my head on the drive home. I was in bed and I was still replaying it.",
+            "Lena: And tomorrow you'll make the schedule call that decides how we handle the holiday rush.",
+            "Jordan: Maybe they should hand the schedule to someone who didn't do what I did.",
+            "Lena: Whoa. The mistake is one row in a spreadsheet. The way you're talking, it's a verdict on who you are.",
+            "Jordan: ...Yeah. It's like that, in my head.",
+            "Lena: Then let's do this: write down what you'll do differently, one item, and I'll sign it with you. Then the washout can end."
+          ],
+          "choices": [
+            "Tell him the company carries insurance for these losses, so it's genuinely no big deal.",
+            "Ask him to walk through the spreadsheet error step by step so it can never happen again.",
+            "Suggest he take next week off to decompress and come back fresh.",
+            "Help him separate the mistake from his identity and end with one concrete corrective step."
+          ],
+          "optimal_choice": 3,
+          "theoretical_principle": "Managing emotions - handling feelings so they are appropriate, an ability that builds on self-awareness",
+          "psychological_breakdown": "Option 3 targets the rumination loop directly: it reframes the error as a discrete event rather than a verdict on the self and anchors recovery in a concrete corrective step, which matches the chapter's claim that people who excel at managing emotions bounce back far more quickly from setbacks while people poor at it constantly battle distress. Option 0 erases responsibility, option 1 re-enters the replay loop under the guise of learning, and option 2 avoids the moment, leaving the feeling to return unexamined.",
+          "key_concepts": [
+            "Managing emotions, handling feelings so they are appropriate, is an ability that builds on self-awareness.",
+            "People who are poor at managing their emotions are constantly battling feelings of distress.",
+            "People who excel at managing emotions can bounce back far more quickly from life's setbacks and upsets.",
+            "The capacity to soothe oneself and shake off rampant anxiety, gloom, or irritability is a basic emotional skill.",
+            "People who cannot marshal some control over their emotional life fight inner battles that sabotage their ability for focused work and clear thought.",
+            "Emotional self-control, delaying gratification and stifling impulsiveness, underlies accomplishment of every sort.",
+            "Lapses in emotional skills can be remedied: each domain represents a body of habit and response that, with the right effort, can be improved on.",
+            "Doing well on IQ tests was most directly a predictor of success in the classroom or as a professor, less so as life's paths diverged from academe."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the second domain, managing emotions: handling feelings so they are appropriate, which builds on self-awareness. Goleman claims people who excel at this skill bounce back quickly from setbacks, while those who are poor at it wage constant battles with distress that sabotage focused work.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The high-IQ pure type in the corner office",
+          "visual_frame_description": "A glass-walled review room at a Bay Area software firm. Graham Vance, the VP of engineering, reads from a metrics sheet and never once looks up as Priya, a team lead, explains a missed milestone caused by her mother's surgery. He cuts her off mid-sentence, calls the quarter a failure of discipline, and his face shows nothing at all.",
+          "player_mission": "You are the people director. First, recognize the profile on the other side of the table: which of Graham's behaviors matches a documented pure type. Then decide the single move that can keep Priya from being fired on Friday.",
+          "boss_battle_explanation": "This battle tests Jack Block's pure-type comparison: the high-IQ disposition is ambitious, productive, predictable, and dogged, yet also critical, condescending, unexpressive, and emotionally bland, while IQ and emotional intelligence are separate competencies that mix in real people.",
+          "stage_1_observation": "Graham reviews Priya's quarter with her. He reads from the metrics sheet, cutting her off when she begins to explain the missed milestone caused by her mother's surgery. When her voice wavers, his expression does not change. When the meeting ends he says only: 'The numbers will be better next quarter,' and turns to his laptop.",
+          "stage_1_question": "Which cluster of behaviors shown by Graham matches the profile of the purely high-IQ type identified in Jack Block's ego-resilience comparison?",
+          "stage_1_correct_answer": "He is critical and condescending, unexpressive and detached, and emotionally bland: he registers the human context as noise against his metrics, exactly the high-IQ male profile the chapter describes as adept in the realm of mind but inept in the personal world.",
+          "stage_2_intervention": "Graham tells you Priya will be fired Friday. You have one move: (a) back his decision to preserve his trust, (b) present the missed milestone as data only and propose a recovery plan, or (c) reframe the decision by giving him the emotional context, her mother's surgery, her repair plan, and her team's loyalty, as facts he has not priced in, then ask him to let her present the recovery plan herself.",
+          "stage_2_correct_answer": "(c) Reframe the decision: the chapter shows intelligence and emotion are not opposites, and Gardner's point is that a purely cognitive view leaves out what makes working and living work. Feeding the emotional facts into Graham's decision model, and letting Priya make her own case, is itself the exercise of interpersonal intelligence, with the empathic side converting the human data he never noticed.",
+          "key_concepts": [
+            "Jack Block's comparison of pure types: high-IQ men are ambitious and productive, yet also critical, condescending, unexpressive, and emotionally bland and cold.",
+            "By contrast, men high in emotional intelligence are socially poised, outgoing, cheerful, and not prone to fearfulness or worried rumination.",
+            "IQ and emotional intelligence are not opposing competencies but separate ones; pure types are, despite the stereotypes, relatively rare.",
+            "There is a slight correlation between IQ and some aspects of emotional intelligence, small enough to make clear these are largely independent entities.",
+            "The purely high-IQ type is a caricature of the intellectual, adept in the realm of mind but inept in the personal world.",
+            "People with high IQs can be stunningly poor pilots of their private lives.",
+            "Of the two dimensions, emotional intelligence adds far more of the qualities that make us more fully human.",
+            "Interpersonal intelligence includes the capacities to discern and respond appropriately to the moods, temperaments, motivations, and desires of other people.",
+            "Many people with IQs of 160 work for people with IQs of 100 if the former have poor intrapersonal intelligence and the latter have a high one."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the independence of IQ and emotional intelligence through Block's pure-type profiles: a purely high-IQ disposition pairs dogged productivity with emotional blandness and detachment. Goleman uses the profiles to argue the two dimensions contribute separately to a person's qualities, and that emotional intelligence adds more of the qualities making us fully human.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "What decides destiny: the 20 percent question",
+          "visual_frame_description": "An HR panel room at Meridian Financial in Minneapolis. Three candidate files fan across the table: the Harvard men study, the Somerville boys follow-up, and the Illinois valedictorians. The panel chair, Derek, taps the first file and asks where the finest minds of their class ended up.",
+          "player_mission": "You sit on the panel. First, decide what the follow-up studies actually show about high test scores and IQ. Then stop the panel from making a promotion-and-cut decision on transcript scores alone.",
+          "boss_battle_explanation": "This battle tests the chapter's evidence that grades, IQ, and SAT scores do not predict who succeeds in life: IQ contributes at best about 20 percent of the factors determining life success, and follow-up studies of Harvard men, Somerville boys, and Illinois valedictorians show emotional competencies predicting life outcomes better than test scores do.",
+          "stage_1_observation": "The files summarize three studies: ninety-five Harvard men from the 1940s classes followed into middle age; 450 Somerville boys, two thirds from welfare families, a third with IQs below 90, followed to age forty-seven; and eighty-one Illinois valedictorians and salutatorians from the class of 1981 tracked for ten years. Derek asks: 'These were the finest minds of their class. Where are they now?'",
+          "stage_1_question": "Based on the three follow-up studies described in the chapter, which conclusion about high test scores and IQ is directly supported?",
+          "stage_1_correct_answer": "High test scores and IQ do not reliably predict salary, productivity, status, or life satisfaction: the Harvard men with the highest scores were not particularly successful compared with lower-scoring peers, the valedictorians reached only average success by their late twenties, and in Somerville the same 7 percent of men with IQs under 80 and over 100 were unemployed for ten years or more.",
+          "stage_2_intervention": "Derek now wants to cut the junior analyst with a 3.2 GPA, calling him not leadership material, and promote the 4.0 hire who is known to freeze under pressure and alienate clients. You can: (a) follow the transcript and promote the 4.0 while cutting the 3.2, (b) flip it entirely and promote the 3.2 for charm, or (c) refuse the single-score ranking and evaluate emotional competencies, handling frustration, controlling emotions, and getting on with people, which the studies found made the greater difference.",
+          "stage_2_correct_answer": "(c) Refuse the single-score ranking and weigh emotional competencies: in the Somerville follow-up, childhood abilities such as handling frustrations, controlling emotions, and getting on with other people made the greater difference in later life, and academic intelligence offers virtually no preparation for life's vicissitudes. A 4.0 who freezes under pressure is the pure-grade profile, not the pure-promotion profile.",
+          "key_concepts": [
+            "At best, IQ contributes about 20 percent to the factors that determine life success, which leaves 80 percent to other forces.",
+            "The vast majority of one's ultimate niche in society is determined by non-IQ factors, ranging from social class to luck.",
+            "Herrnstein and Murray acknowledged that for running a business, entering politics, or making a fortune, the link between test scores and achievement is dwarfed by the totality of other characteristics.",
+            "Ninety-five Harvard men from the 1940s classes with the highest test scores were not particularly successful in salary, productivity, or status, nor happiest in friendships, family, and romance.",
+            "In the Somerville study, a third of the 450 boys had IQs below 90, yet IQ had little relationship to how well they did at work or in the rest of their lives.",
+            "Seven percent of men with IQs under 80 were unemployed for ten years or more, exactly the same 7 percent as men with IQs over 100.",
+            "Childhood abilities such as being able to handle frustrations, control emotions, and get on with other people made the greater difference in the Somerville follow-up.",
+            "Illinois valedictorians and salutatorians from the class of 1981 continued to achieve well in college but by their late twenties had climbed to only average levels of success.",
+            "Ten years after high school, only one in four valedictorians were at the highest level of comparable young people in their chosen profession.",
+            "Doing well on IQ tests was most directly a predictor of success in the classroom or as a professor, less and less so as life's paths diverged from academe."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the claim that test scores poorly predict life outcomes, with IQ contributing at best about 20 percent of the factors in life success. Goleman's evidence is three longitudinal studies, the Harvard classes of the 1940s, the Somerville boys, and the Illinois valedictorians, in which emotional competencies predicted outcomes better than IQ.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The IQ way of thinking versus the spectrum of talents",
+          "visual_frame_description": "The Project Spectrum observation room at the Eliot-Pearson Preschool on the Tufts campus. Five four-year-olds spread across activity centers. Max, the highest-IQ child at 133, wanders restlessly, weak in movement, numbers, and mechanics, while Judy, average on the Binet, moves photo-figures to the corners where every child prefers to play, mapping the class with perfect accuracy.",
+          "player_mission": "You are the evaluator. First, state what the Spectrum research found when Stanford-Binet scores were compared with the spectrum battery. Then decide the placement of a musically gifted child whose IQ score missed the gifted cutoff.",
+          "boss_battle_explanation": "This battle tests Gardner's multiple-intelligences model against the IQ way of thinking, the notion that people are either smart or not, born that way, and that tests can tell which you are. Project Spectrum's data showed no significant relationship between Stanford-Binet scores and strengths across the spectrum of abilities.",
+          "stage_1_observation": "The evaluator, Ms. Delaney, holds Binet scores and Spectrum profiles side by side. The five children with the highest IQs, from 125 to 133, show scattered spectra: one strong in three areas, three strong in two, one strong in just one, with strengths in music, visual arts, social understanding, logic, and language, and none strong in movement, numbers, or mechanics. Judy maps the classroom's social geometry with complete accuracy.",
+          "stage_1_question": "What did the Spectrum research find when children's Stanford-Binet scores were compared with a battery designed to measure Gardner's spectrum of intelligences?",
+          "stage_1_correct_answer": "There was no significant relationship between children's scores on the two tests: the five highest-IQ children showed scattered Spectrum profiles, and none were strong in movement, numbers, or mechanics. The Binet did not predict successful performance across Spectrum activities.",
+          "stage_2_intervention": "A school committee must place Rosa, a six-year-old whose Stanford-Binet score falls below the gifted cutoff but who shows obvious musical strength. The chair argues the score settles it. You can: (a) place Rosa in the remedial basics track per the cutoff, (b) place her in the music track where her strength is visible and brief the teachers on her profile, or (c) refuse to test any child again because tests are worthless.",
+          "stage_2_correct_answer": "(b) Place Rosa in the music track and brief the teachers: Gardner's central claim is that education's single most important contribution is helping a child toward a field where her talents best suit her, and that there are hundreds and hundreds of ways to succeed. The Spectrum data show IQ scores do not predict performance across activities, so the cutoff is a classification error, not destiny.",
+          "key_concepts": [
+            "Howard Gardner's 1983 book Frames of Mind proposed a wide spectrum of intelligences with seven key varieties rather than one monolithic IQ.",
+            "The seven varieties include verbal and mathematical-logical alacrity, spatial capacity, kinesthetic genius, musical gifts, interpersonal skills, and intrapersonal capacity.",
+            "Interpersonal intelligence is the ability to understand other people: what motivates them, how they work, and how to work cooperatively with them.",
+            "Intrapersonal intelligence is the capacity to form an accurate, veridical model of oneself and to use that model to operate effectively in life.",
+            "In the Spectrum comparison there was no significant relationship between children's Stanford-Binet scores and scores on the spectrum battery.",
+            "None of the five highest-IQ children, from 125 to 133, were strong in movement, numbers, or mechanics; those were weak spots for two of them.",
+            "The glory days of IQ tests began during World War I, when two million American men were sorted by the first mass paper-and-pencil test, freshly developed by Lewis Terman of Stanford.",
+            "The IQ way of thinking holds that people are either smart or not, are born that way, and that tests can tell you which one you are; the SAT is based on the same single-aptitude notion.",
+            "Project Spectrum at the Eliot-Pearson Preschool intentionally cultivates a variety of kinds of intelligence, treating capacities such as Judy's social perceptiveness as talents an education can nurture.",
+            "Gardner on education: there are hundreds and hundreds of ways to succeed, and many, many different abilities that will help you get there."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests Gardner's multiple-intelligences model against the single-score IQ way of thinking that drives tests from the Binet to the SAT. Goleman cites Project Spectrum's finding of no significant relationship between Binet scores and spectrum strengths as evidence that intelligence is multiple and educable.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Spock versus Data: when cognition is not enough",
+          "visual_frame_description": "The analytics division of a healthcare insurer. Scott Reiner, 39, runs stand-up meetings from his dashboard: response times down, error rates at record lows, eleven of fifteen analysts gone in eighteen months. When an analyst mentions that a grieving teammate missed a deadline, Scott answers, 'Feelings don't ship,' and nobody speaks.",
+          "player_mission": "You are the division's new director. First, identify which view of mind, criticized by the chapter, Scott is enacting. Then choose the move that saves the client rollout without letting the board go red.",
+          "boss_battle_explanation": "This battle tests the chapter's critique of the cognitive model of mind: intelligence treated as cold, emotion-free processing, the Spock archetype, with the computer as the operative model of mind, set against Data's lesson that cool logic fails to bring the right human solution because rationality is guided by, and can be swamped by, feeling.",
+          "stage_1_observation": "Scott's dashboards are perfect: response times down, error rates at record lows. In eighteen months, eleven of fifteen analysts quit. In the stand-up, Dana mentions that Miguel, whose father died last week, missed a deadline. Scott answers: 'Feelings don't ship. Let's keep the board green.' Dana's shoulders sag and nobody speaks.",
+          "stage_1_question": "Which view of the mind, criticized in the chapter, is Scott enacting when he says 'feelings don't ship'?",
+          "stage_1_correct_answer": "The cognitive-science assumption that intelligence is hyper-rational and emotion-free, the Spock archetype of dry information bytes unmuddied by feeling, treating the mind as a sanitized computer in which emotions only muddle the processing of fact.",
+          "stage_2_intervention": "Miguel's project, a client-facing rollout, is now at risk of collapse. Scott drafts a terse memo: 'Missed deadline. Corrective action plan due Friday.' You can: (a) approve the memo because urgency is the priority, (b) pull Scott aside and propose a different move: have the team meet Miguel in person, acknowledge the loss, and re-scope the rollout together, or (c) reassign Miguel quietly and keep the memo unchanged.",
+          "stage_2_correct_answer": "(b) The in-person, feeling-aware move: the chapter's Data lesson is that feelings are not noise, people who cannot marshal control over their emotional life fight inner battles that sabotage focused work, and rationality is guided by, and can be swamped by, feeling. Re-scoping the rollout with Miguel as a participant treats the emotional reality as part of the project's data rather than pollution of it.",
+          "key_concepts": [
+            "The cognitive revolution of the late 1960s turned psychological science to how the mind registers and stores information, but emotions were still considered off-limits.",
+            "The Spock archetype embodies the idea that emotions have no place in intelligence and only muddle our picture of mental life.",
+            "Cognitive scientists were seduced by the computer as the operative model of mind, forgetting that the brain's wetware is awash in a messy, pulsating puddle of neurochemicals.",
+            "Data of Star Trek: The Next Generation is the counterpoint: his cool logic fails to bring the right human solution, and he seeks feeling knowing something essential is missing.",
+            "The higher values of the human heart, faith, hope, devotion, and love, are missing entirely from the coldly cognitive view.",
+            "Rationality is guided by, and can be swamped by, feeling.",
+            "Gardner's work was strongly informed by a cognitive-science model of mind, so his personal intelligences emphasize cognitions about feeling more than the emotions themselves.",
+            "Gardner acknowledged that emotionally tuning in to yourself, the visceral-feeling signals, is essential for interpersonal intelligence, though his theory evolved toward metacognition.",
+            "People who cannot marshal some control over their emotional life fight inner battles that sabotage their ability for focused work and clear thought.",
+            "The behaviorists in the mold of B. F. Skinner had earlier ruled all inner life, including emotions, out-of-bounds for science."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the chapter's critique of the coldly cognitive model of mind, in which emotions are treated as noise to be filtered out of intelligence. Goleman argues, via the Spock and Data figures, that rationality is guided by, and can be swamped by, feeling, and that a model of mind leaving emotions out is impoverished.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Reading hidden distress behind a straight-A facade",
+          "visual_frame_description": "A bright Coral Ridge High physics lab at 9:30 a.m. Ms. Okonkwo stands at the front holding the graded quiz stack while Brendan, 17, slumps at his desk, frozen over the 84 at the top of his paper. The camera pans between his whited knuckles, his tapping foot, and his flat voice, with timestamps overlaid on each observation.",
+          "player_mission": "You are Ms. Okonkwo, the physics teacher. Study Brendan's baseline, the timed nonverbal log, and the interrogation transcript, then diagnose whether he is genuinely fine or in real distress. Base your verdict on the evidence, not on his straight-A record.",
+          "question": "Is Brendan genuinely fine after the B-plus physics quiz, or is he in real emotional distress that his academic record is masking?",
+          "subject_baseline": "Brendan, 17, a straight-A junior at Coral Ridge High who dreams of Harvard medical school, is normally chatty and jokes with his lab partner, treating quizzes as scrimmage. Teachers describe him as sunny and confident.",
+          "observed_nonverbal_log": [
+            "9:31 a.m. - Ms. Okonkwo hands back the quizzes. Brendan's face goes still for a full two seconds before he smiles.",
+            "9:33 a.m. - He stares at the 84 at the top of the page; his knuckles whiten on the paper's edge.",
+            "9:37 a.m. - To a classmate's question he answers 'Fine, it's fine' without looking up, his voice a half-tone flat.",
+            "9:41 a.m. - His right foot taps rapidly under the desk through the entire review.",
+            "9:45 a.m. - When Ms. Okonkwo offers help he shakes his head sharply and says 'I've got it,' jaw clenched.",
+            "9:50 a.m. - Alone at his desk he sits motionless, staring at the same line of the paper for four minutes."
+          ],
+          "interrogation_transcript": [
+            "Ms. Okonkwo: Brendan, you looked upset when you got the quiz back. Everything okay?",
+            "Brendan: Yeah. Totally. I just... it's fine. It's one quiz.",
+            "Ms. Okonkwo: You keep saying fine, and your face says something else.",
+            "Brendan: It doesn't matter. I know what this means. It means I'm not going to make it.",
+            "Ms. Okonkwo: Make it where?",
+            "Brendan: Medical school. Harvard. That's the whole point of everything, and with an 84 on my record it's done. It's over.",
+            "Ms. Okonkwo: Brendan, one quiz cannot end a dream like that.",
+            "Brendan: (standing abruptly) You don't understand. You can't put it back. It's over."
+          ],
+          "correct_diagnosis": "Brendan is in acute emotional distress, not placid acceptance: the single B-plus has triggered a catastrophic emotional reaction that his fine script cannot conceal. The mismatch between his words and his physical signals, whitened knuckles, foot tapping, clenched jaw, flat voice, and frozen stare, is the tell.",
+          "diagnostic_breakdown": "The chapter opens with Jason H., a straight-A student who reacted to an 80 on a physics quiz with a catastrophic act, and poses the question of how obvious intelligence can do something so irrational. Brendan's baseline was expressive and warm; the flattening, the tension cues, and the catastrophic framing ('it's over') show his emotional life swamping his cognition, exactly the moment where academic intelligence provides no protection. Goleman's point is that emotional intelligence, not IQ, determines how a person weathers such a setback, and that reading these signals is an empathic skill built on self-awareness.",
+          "distractors": [
+            "Brendan is fine; his tension is just normal disappointment that any driven student would show.",
+            "Brendan is deceiving Ms. Okonkwo about cheating on the quiz and fears being caught.",
+            "Brendan is angry at Ms. Okonkwo personally and is planning a confrontation with her."
+          ],
+          "key_concepts": [
+            "Academic intelligence has little to do with emotional life: people with high IQs can be stunningly poor pilots of their private lives.",
+            "The case of Jason H., a straight-A student who attacked his physics teacher over an 80 on a quiz, shows a grade triggering a catastrophic emotional reaction.",
+            "An inability to notice our true feelings leaves us at their mercy.",
+            "Recognizing emotions in others depends on reading subtle signals: tone, posture, tension, and timing, not just words.",
+            "Empathy can be tested by sampling a person's actual ability at the task, such as reading feelings from a video of facial expressions.",
+            "Empathic people are more attuned to the subtle social signals that indicate what others need or want.",
+            "The realm of the emotions extends beyond the reach of language and cognition.",
+            "Rationality is guided by, and can be swamped by, feeling.",
+            "Knowing that a person is a valedictorian tells you only that they are exceedingly good at achievement as measured by grades, nothing about how they react to the vicissitudes of life."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests empathic perception, reading another's emotional state from nonverbal leakage when the words claim otherwise. Goleman argues empathy builds on self-awareness and that the telling tone of voice, shift in posture, and telltale tremble carry the emotional truth a speaker's script hides.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The emotionally bland high-IQ performer: trait or concealment",
+          "visual_frame_description": "A beige corner office at Meridian Financial at 10:00 a.m. Dana, the reviewer, sits across from Anton, 51, whose tie is straight and whose face shows nothing, as the 360-degree feedback scrolls on a screen between them. Timestamps mark each moment: glowing praise, a complaint, a personal story, each landing on Anton's expressionless composure.",
+          "player_mission": "You are Dana, the reviewer. Study Anton's baseline, the timed nonverbal log, and the interrogation transcript, then diagnose whether his flatness conceals anger or depression or is simply his emotional baseline. Base your verdict on the evidence, not on his flawless record.",
+          "question": "During Anton's 360-degree review, is he concealing anger or depression, or is his flatness simply his emotional baseline?",
+          "subject_baseline": "Anton, 51, a senior finance director, is famously brilliant with numbers: ambitious, productive, predictable, and dogged. Colleagues know he never does small talk, never mentions feelings, and reacts to praise and criticism with the same neutral expression. In fifteen years no one has seen him raise his voice.",
+          "observed_nonverbal_log": [
+            "10:04 a.m. - The reviewer, Dana, welcomes Anton warmly; he nods once, face composed, and sits without settling into the chair.",
+            "10:09 a.m. - Dana reads glowing feedback: 'Brilliant analysis, saved the division.' Anton's expression does not change; he says only 'Good.'",
+            "10:14 a.m. - Dana raises a complaint about his terse emails. Anton's face shows nothing and his voice stays level: 'Noted. I'll be more explicit.'",
+            "10:19 a.m. - Dana tells a personal story about her daughter; Anton looks at his watch, then at the window, offering no reaction.",
+            "10:23 a.m. - When praise resumes he makes no smile, and when the meeting ends he is out of the chair before the door closes.",
+            "10:25 a.m. - In the corridor, two colleagues remark that he hasn't changed in a decade."
+          ],
+          "interrogation_transcript": [
+            "Dana: Anton, how do you feel about how the quarter went?",
+            "Anton: The quarter was strong. Variance was down three points. Feelings are not part of the variance.",
+            "Dana: What about the feedback that people find you hard to read?",
+            "Anton: They should read the numbers. The numbers are accurate.",
+            "Dana: Are you angry that the promotion went to someone else last year?",
+            "Anton: I was not promoted. I continue to do excellent work. There is nothing to add.",
+            "Dana: Are you happy here, Anton?",
+            "Anton: The work is excellent. The work continues. That is the answer."
+          ],
+          "correct_diagnosis": "Anton is not concealing anger or depression; he is displaying the profile of the purely high-IQ type described by Jack Block: unexpressive, detached, emotionally bland and cold, with a dogged, untroubled focus on the work itself.",
+          "diagnostic_breakdown": "Block's ego-resilience comparison describes high-IQ men as ambitious, productive, predictable, and dogged, yet critical, fastidious, unexpressive, and emotionally bland. Anton's consistent flat affect across praise, criticism, and personal warmth, with no strain cues, no leakage, and no shift, fits a stable trait rather than concealment. The high-IQ pure type is adept in the realm of mind but inept in the personal world, and the chapter stresses that IQ and emotional intelligence are largely independent entities.",
+          "distractors": [
+            "Anton is masking intense anger about the lost promotion; his flatness is a suppression strategy.",
+            "Anton is clinically depressed and his flatness is a symptom he is hiding.",
+            "Anton is lying about the quarter's results and stays composed to avoid scrutiny."
+          ],
+          "key_concepts": [
+            "Jack Block's ego-resilience comparison: high-IQ men are ambitious, productive, predictable, and dogged, yet also critical, condescending, unexpressive, and emotionally bland and cold.",
+            "The purely high-IQ type is a caricature of the intellectual: adept in the realm of mind but inept in the personal world.",
+            "Men high in emotional intelligence, by contrast, are socially poised, outgoing, cheerful, sympathetic, and caring, with a rich but appropriate emotional life.",
+            "IQ and emotional intelligence are not opposing competencies but separate ones; pure types are relatively rare.",
+            "There is no single paper-and-pencil test that yields an emotional intelligence score; some components, such as empathy, are best tested by sampling actual ability at the task.",
+            "Emotional life is a domain that can be handled with greater or lesser skill, as surely as math or reading.",
+            "The high-IQ type tends to be uneasy with sensual experience and untroubled by concerns about himself.",
+            "People with high IQs can be stunningly poor pilots of their private lives.",
+            "Of the two dimensions, emotional intelligence adds far more of the qualities that make us more fully human."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests the distinction between a stable emotional trait and a concealed emotional state, using Block's pure-type profiles. A purely high-IQ disposition is marked by an unexpressive, detached, emotionally bland presentation that reads as a trait rather than a disguise, and the chapter stresses that IQ and emotional competence are largely independent entities.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        }
+      ]
+    }
+  ]
+}

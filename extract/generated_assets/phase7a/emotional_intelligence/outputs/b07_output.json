@@ -1,0 +1,505 @@
+{
+  "spec_file": "spec_emotional_intelligence_b07.json",
+  "chapters": [
+    {
+      "id": "ch13",
+      "title": "7. The Roots of Empathy",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Alexithymia: Hearing the Feeling Behind the Critique",
+          "scenario_setup": "Context: Rachel and Sam are engaged; Sam is a brilliant but alexithymic software architect who registers his own feelings poorly, let alone hers — much like Gary the surgeon with Ellen. Goals: Rachel needs reassurance before next week's launch review, not a critique of her slides. Stakes: each exchange either deepens their emotional distance or rebuilds the attunement Rachel has been asking for.",
+          "visual_frame_description": "A warmly lit kitchen on a weeknight in Portland. Rachel, a product manager, sits across from her fiancé Sam, a brilliant software architect, whose laptop is closed but whose posture is stiff and voice flat as he delivers his review of her presentation. Rachel's shoulders drop almost imperceptibly as the words land, and the camera lingers on Sam's face, which shows no register of her reaction at all.",
+          "player_mission": "Play Rachel and respond to Sam in a way that addresses the emotional message carried by his tone, posture, and gaze rather than only the literal words of his critique. Choose the response most likely to create genuine emotional attunement instead of another round of hurt.",
+          "dialogue": [
+            "Sam: Your presentation had two wrong assumptions in the data section. Overall it was fine.",
+            "Rachel: 'Fine.' That doesn't sound like you think it's fine.",
+            "Sam: I'm giving you useful feedback. That's what helpful partners do.",
+            "Rachel: It landed like an attack, not help.",
+            "Sam: I don't understand. I'm talking about the numbers, not about you.",
+            "Rachel: The message I heard was in your voice and your face, not in the numbers.",
+            "Sam: You want me to read your mind? I can't do that."
+          ],
+          "choices": [
+            "When you say 'fine' in that flat voice and look away, I hear distance, not reassurance. Are you okay, Sam?",
+            "Fine. I'll redo the data section tonight. You're probably right about the assumptions.",
+            "What do you mean you can't read my mind? That's exactly the point, Sam — you never try to notice how I feel.",
+            "You know what? I don't need feedback on my feelings. Stick to the slides."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Empathy builds on self-awareness, and emotional messages are carried far more by the nonverbal channel — tone of voice, posture, gaze, silence — than by words.",
+          "psychological_breakdown": "Choice 0 names the emotional truth that is carried by Sam's flat tone and averted gaze and invites him to attune, which is exactly what alexithymics like Gary never do: they miss the telling tone, the shift in posture, the telltale tremble, and so their 'helpful' critiques land as attacks. Choice 1 accepts the words only, reinforces the tone-deaf exchange, and leaves Rachel feeling unseen, because the emotional truth is in how something is said, not what is said. Choice 2 attacks Sam instead of attuning; the accusation replaces empathy with blame and mirrors the bewilderment alexithymics feel when partners express feelings to them. Choice 3 closes the emotional channel entirely and teaches Sam, as Stern's work shows, that feelings are not worth expressing.",
+          "key_concepts": [
+            "Alexithymics like Gary lack empathy as well as insight, being oblivious both to their own feelings and to those of others.",
+            "Empathy builds on self-awareness: the more open we are to our own emotions, the more skilled we are in reading feelings.",
+            "Alexithymics are emotionally tone-deaf, letting the emotional notes woven through people's words and actions go by unnoted.",
+            "The telling tone of voice, shift in posture, eloquent silence, and telltale tremble carry emotional meaning that alexithymics miss.",
+            "A failure to register another's feelings is a major deficit in emotional intelligence.",
+            "All rapport, the root of caring, stems from emotional attunement and the capacity for empathy.",
+            "People's emotions are rarely put into words; they are most often expressed through nonverbal cues such as tone, gesture, and facial expression.",
+            "When a person's words disagree with the tone of voice or gesture, the emotional truth is in how he says something rather than in what he says.",
+            "Gary would make 'helpful' critiques of things Ellen did, not realizing these criticisms made her feel attacked, not helped.",
+            "Confused about their own feelings, alexithymics are equally bewildered when other people express their feelings to them."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests emotional attunement: the player must register the feeling conveyed through tone and gaze rather than respond to literal words, because empathy builds on self-awareness and on reading the nonverbal channel. Goleman reports that alexithymics like Gary miss these channels entirely, so their 'helpful' critiques land as attacks and they remain baffled when partners ask for feeling, not fixes.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Hesitant Yes: Reading Tone Over Words",
+          "scenario_setup": "Context: the team's Friday migration launch was nearly derailed by a demo failure, and the execs will announce the date publicly tomorrow morning. Goals: Priya must confirm the real schedule without destroying Marcus's trust. Stakes: a wrong read means a public missed deadline and a blamed engineer; a good read surfaces the blocker before it reaches customers.",
+          "visual_frame_description": "A quiet hallway outside a conference room in a mid-size tech company. Priya, a delivery lead, corners Marcus, her senior engineer, the morning after a go-live scare. Marcus leans against the wall, arms crossed, voice flat, and glances away each time he says 'fine,' while the execs' calendar looms on Priya's phone screen like a countdown.",
+          "player_mission": "Play Priya and decide how to extract the real status of the Friday migration from an engineer whose words say one thing and whose tone and gestures say another. Choose the response that reads the emotional message instead of accepting the literal claim.",
+          "dialogue": [
+            "Priya: So the migration ships Friday, right?",
+            "Marcus: Sure. We're on track.",
+            "Priya: That's good to hear. The execs are asking for a firm date to announce.",
+            "Marcus: Yeah. Friday. Fine.",
+            "Priya: You keep saying fine, but your voice keeps dropping and you keep looking away.",
+            "Marcus: Look, we'll make the date. Just... don't ask for the demo.",
+            "Priya: What would a reasonable person hear in 'we're on track'?",
+            "Marcus: That I'm not telling you everything, I guess."
+          ],
+          "choices": [
+            "Marcus, 'fine' in a flat voice with a shrug tells me the opposite of on track. What is actually blocking us?",
+            "Great — I'll tell the execs we're locked in for Friday.",
+            "Are you lying to me, Marcus? Because I will not be made a fool of in that meeting.",
+            "That's a relief. I knew you'd pull it off — you always do."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "The 90-percent rule of emotional messages: most of an emotional message is nonverbal, and when words disagree with tone or gesture, the emotional truth is in the how, not the what.",
+          "psychological_breakdown": "Choice 0 reads the nonverbal channel — the flat tone, the shrug, the averted gaze — and names the discrepancy, which is the only way to reach the truth because anxiety in a tone of voice and irritation in the quickness of a gesture are almost always taken in unconsciously and tacitly. Choice 1 takes the words at face value and sails the whole team into a deadline that is secretly uncommitted, repeating the exact failure of letting the literal claim override the emotional message. Choice 2 turns the read into an accusation and makes Marcus defensive, killing the tacit channel that still might carry the real status. Choice 3 rewards the performance and guarantees the Friday surprise, because empathic skill means detecting that 'on track' and 'fine' are delivered in a voice that says the opposite.",
+          "key_concepts": [
+            "A rule of thumb in communications research is that 90 percent or more of an emotional message is nonverbal.",
+            "When a person's words disagree with what is conveyed via tone of voice or gesture, the emotional truth is in how he says something rather than in what he says.",
+            "Nonverbal messages — anxiety in someone's tone of voice, irritation in the quickness of a gesture — are almost always taken in unconsciously, without specific attention to their nature.",
+            "The skills that let us read these channels well or poorly are, for the most part, learned tacitly.",
+            "People skilled at reading feelings from nonverbal cues are better adjusted emotionally, more popular, more outgoing, and more sensitive.",
+            "Empathic acuity is largely independent of IQ, SAT scores, and school achievement tests.",
+            "In general, women are better than men at reading this kind of empathy from nonverbal channels.",
+            "Just as the mode of the rational mind is words, the mode of the emotions is nonverbal.",
+            "Alexithymics, confused about their own feelings, are equally bewildered when other people express feelings to them, missing the telling tone or shift in posture."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the nonverbal channel of empathy: when the literal words say 'on track' but the tone is flat and the gaze averted, the emotional truth is carried by the how, not the what. Goleman cites the communications-research rule that 90 percent or more of an emotional message is nonverbal and that such messages are received tacitly, so only a listener who reads the channel can extract the real status.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Attunement, Not Imitation: Playing Back Inner Feeling",
+          "scenario_setup": "Context: Tasha is new to childcare and has been reading Daniel Stern's work on how parents and infants communicate, while Leo's mother watches from the kitchen doorway. Goals: let fourteen-month-old Leo know his burst of delight is seen, accepted, and reciprocated. Stakes: every small exchange is a lesson in whether feelings are met with empathy — the root of rapport and caring.",
+          "visual_frame_description": "A sunlit playroom with a foam mat scattered with rattles. Tasha, a nanny in her first month with the family, sits on the floor facing fourteen-month-old Leo, who is squealing with delight and shaking his rattle hard. The room is quiet apart from the boy's sounds; the scene lingers on the exchange of energy between them, moment by moment.",
+          "player_mission": "Play Tasha and respond to Leo's burst of delight in the way that lets him know his feeling is seen, accepted, and reciprocated. Choose the response that creates attunement rather than mere imitation, indifference, or overload.",
+          "dialogue": [
+            "Leo: (squeals with glee, shaking his rattle hard)",
+            "Tasha: That's a lot of excitement for a Tuesday morning.",
+            "Leo: (squeals again, bouncing, watching her)",
+            "Tasha: Should I clap and cheer for you? Like this? Clap, clap, clap.",
+            "Leo: (stops squealing, watches her, goes still)",
+            "Tasha: Hmm. The clapping didn't land the way the squeal felt.",
+            "Leo: (rattles again, looking at her expectantly)"
+          ],
+          "choices": [
+            "Mimic his squeal exactly — same pitch, same shake — to show you noticed exactly what he did.",
+            "Echo his energy in a new way: bounce him gently on your knee and coo on the same pitch, matching his level of excitement without copying the act.",
+            "Stay calm and still; too much noise and motion will overstimulate him.",
+            "Cheer loudly, applaud, and call the room's attention to him to reward him for being happy."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Daniel Stern's attunement: the caregiver plays back the infant's inner feeling in a different channel, matching the level of excitement, because simple imitation only shows you know what the baby did, not how he felt.",
+          "psychological_breakdown": "Choice 1 is attunement: the affirming message is in the caregiver more or less matching the baby's level of excitement — a squeal met with a gentle shake, cooing, or a matching pitch — and Stern finds such messages are sent about once a minute in normal caregiving. Choice 0 is plain imitation, which Stern rejects outright: 'If you just imitate a baby, that only shows you know what he did, not how he felt.' Choice 2 withholds reciprocity and teaches the lesson Stern describes for under-responded infants: when I get excited I can't get her to be equally excited, so I may as well not try at all. Choice 3 overresponds, and Stern's experiments in which mothers deliberately over- or under-responded produced immediate dismay and distress in infants rather than connection.",
+          "key_concepts": [
+            "The most critical parent-child moments are those that let the child know her emotions are met with empathy, accepted, and reciprocated — a process Stern calls attunement.",
+            "In attunement, the affirming message is in the caregiver more or less matching the baby's level of excitement.",
+            "Stern: 'If you just imitate a baby, that only shows you know what he did, not how he felt.'",
+            "To let a baby know you sense how he feels, you have to play back his inner feelings in another way.",
+            "Stern found that mothers send attunement messages about once a minute when they interact with their babies.",
+            "When mothers deliberately over- or under-responded to their infants in Stern's experiment, the infants responded with immediate dismay and distress.",
+            "An infant treated with chronic under-response learns: when I get excited I can't get my mother to be equally excited, so I may as well not try at all.",
+            "Attunement occurs tacitly, as part of the rhythm of relationship.",
+            "From repeated attunements, an infant develops a sense that other people can and will share in her feelings.",
+            "The countlessly repeated moments of attunement or misattunement between parent and child shape the emotional expectations adults bring to close relationships."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests Stern's concept of attunement: emotional connection requires playing back the infant's inner feeling in a different channel at a matching level of excitement, not copying the act itself. Goleman reports Stern's finding that mothers who communicate this way send such messages about once a minute, and that both over- and under-responding produce immediate distress in the infant.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Discipline That Builds Empathy: Naming the Distress",
+          "scenario_setup": "Context: Aiden, four, snatched his cousin Leila's toy truck and she is sobbing; the adults on the couch are silently watching how Omar handles it. Goals: discipline Aiden in a way that builds empathy rather than simple compliance. Stakes: the Radke-Yarrow studies show this style of moment determines whether a child learns to register the distress he causes or learns merely to fear punishment.",
+          "visual_frame_description": "A weekend living room in a small apartment, toys scattered across the rug. Omar kneels between his four-year-old son Aiden and Aiden's cousin Leila, who is sobbing because Aiden snatched her toy truck out of her hands. Leila's chin is shaking and tears are running; Aiden clutches the truck with a stubborn grip but keeps glancing at her face.",
+          "player_mission": "Play Omar and decide how to discipline Aiden in the moment after the snatching. Choose the approach that builds Aiden's empathy for the distress he caused rather than teaching simple compliance.",
+          "dialogue": [
+            "Omar: Aiden, Leila is crying. What happened just now?",
+            "Aiden: I had the truck first.",
+            "Leila: (sobbing) He pulled it right out of my hands!",
+            "Aiden: She was done with it.",
+            "Omar: Look at her face, Aiden. Her chin is shaking and the tears are rolling.",
+            "Aiden: (goes quiet, looks at Leila)",
+            "Omar: How do you think she feels right now?",
+            "Aiden: Sad. Like when Tommy took my ball."
+          ],
+          "choices": [
+            "That was naughty, Aiden. Go to your room until you can behave.",
+            "Stop crying, Leila, and Aiden, say sorry so we can move on to dinner.",
+            "Look how sad you've made her feel, Aiden. How would you want to be comforted if you were in her shoes?",
+            "Boys will be boys. Shake hands and let's eat."
+          ],
+          "optimal_choice": 2,
+          "theoretical_principle": "Radke-Yarrow and Zahn-Waxler's finding on discipline: children become more empathic when discipline calls strong attention to the distress their misbehavior caused someone else — 'Look how sad you've made her feel' rather than 'That was naughty.'",
+          "psychological_breakdown": "Choice 2 does exactly what the NIMH studies found builds empathy: it names the victim's distress and invites Aiden to feel it, and it lets him practice the comforting repertoire he has seen modeled, since children's empathy is shaped by seeing how others react when someone is distressed. Choice 0 labels the child 'naughty' and removes him — the comparison style the research found weaker at building empathic concern, because it centers the child's badness rather than the victim's pain. Choice 1 rushes the apology and ignores the distress entirely, so Leila stays hurt and Aiden learns the incident is a formality. Choice 4 waves away the event, and children whose environment never highlights other people's distress simply tune out, the divergence in empathic sensitivity the Radke-Yarrow studies documented among toddlers.",
+          "key_concepts": [
+            "Children are more empathic when the discipline they receive calls strong attention to the distress their misbehavior caused someone else.",
+            "'Look how sad you've made her feel' builds empathy more effectively than 'That was naughty.'",
+            "Children's empathy is also shaped by seeing how others react when someone else is distressed.",
+            "By imitating what they see, children develop a repertoire of empathic response, especially in helping other people who are distressed.",
+            "Toddlers begin to diverge in their overall sensitivity to others' emotional upsets, with some keenly aware and others tuning out.",
+            "Infants feel sympathetic distress even before they fully realize that they exist apart from other people.",
+            "Around one year of age, children start to realize the misery is not their own but someone else's, though they are still confused about what to do.",
+            "After the age of two, children understand that someone else's feelings differ from their own and become more sensitive to cues revealing what another actually feels.",
+            "Jenny, a toddler in a mother's diary, kept bringing toys to a crying neighbor baby and patting his head and shoulders even after he calmed down — persistent empathic concern.",
+            "The roots of empathy can be traced to infancy, when infants are upset merely by hearing another infant cry."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the discipline style that cultivates empathy: calling strong attention to the distress the child caused ('Look how sad you've made her feel') rather than labeling the child naughty. Goleman reports the NIMH studies by Radke-Yarrow and Zahn-Waxler showing that such discipline, plus watching others respond to distress, produces more empathic children.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Sick-Bed Promise: Empathy and Moral Judgment",
+          "scenario_setup": "Context: Maya promised her sick friend Jonas a Saturday hospital visit, and an investor dinner that night now offers the career deal she has chased for a year. Goals: honor a moral commitment without surrendering her ambition. Stakes: Hoffman's framework says empathizing with the potential victim — a friend in pain and deprivation — is what moves people to act, and how Maya resolves this sets the terms of her character.",
+          "visual_frame_description": "A dim hospital room where Jonas lies in bed with a heart monitor, and a bright phone screen showing a text thread from Tom, Maya's colleague, promising a table at a private dinner with Meridian's partners on Saturday night. Maya stands between the two worlds, her hand on Jonas's blanket and her eyes on the phone.",
+          "player_mission": "Play Maya and resolve the conflict between a promise to a sick friend and a career-making invitation. Choose the resolution that treats the friend as a potential victim of deprivation rather than as an obstacle to status.",
+          "dialogue": [
+            "Jonas: I'm just glad you're coming on Saturday. It gets lonely in here by evening.",
+            "Maya: Of course I'm coming. I told you I would.",
+            "Jonas: I know you're busy with the company stuff. If you need to skip it, I'd understand.",
+            "Maya: That doesn't change my promise.",
+            "Tom (urgent text): Maya, the Meridian partners are flying in Saturday and there's a table with your name on it. This is the deal we've been chasing for a year.",
+            "Maya: I already promised Jonas I'd be at the hospital on Saturday.",
+            "Tom: He's a grown man with nurses around him, Maya. This is your career."
+          ],
+          "choices": [
+            "Tom is right — Jonas would understand. I'll send flowers, go to the dinner, and visit him Sunday instead.",
+            "I'm going to visit Jonas as promised and work the room at the smaller Sunday event instead — I won't let him sit there with a broken promise.",
+            "I'll tell Jonas my flight got cancelled, take the dinner table, and visit next weekend so no one's feelings get hurt.",
+            "I'll ask Jonas to reschedule my visit 'for his own good,' then take the dinner table with a clear conscience."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Hoffman's argument that the roots of morality are found in empathy: empathizing with a potential victim's distress moves people to act to help, and this empathic affect underlies adherence to moral principles.",
+          "psychological_breakdown": "Choice 1 keeps the promise because Jonas is exactly the 'potential victim — someone in pain, danger, or deprivation' whose distress, when shared, moves people to help, and the book holds that this empathic affect is the engine of moral action. Choice 0 rationalizes a broken promise by imagining Jonas's forgiveness, quietly ranking status above the friend's deprivation, which is the book's warning that empathy, not convenience, drives caring. Choice 2 is a lie, and the chapter's link between empathy and ethics cannot sponsor deception of the very person whose pain triggered the obligation. Choice 3 manipulates the friend into releasing her — treating him as a means to her own career goal, the precise inversion of the empathic attitude, which the book calls the root of caring and the opposite of antipathy.",
+          "key_concepts": [
+            "Hoffman argues that the roots of morality are found in empathy, since empathizing with potential victims — someone in pain, danger, or deprivation — moves people to act to help them.",
+            "'Should you keep a promise to visit a sick friend or accept a last-minute invitation to a dinner party instead?' is one of the moral questions the book poses in the voice of the empathy researcher Martin Hoffman.",
+            "The empathic attitude is engaged again and again in moral judgments, because moral dilemmas involve potential victims.",
+            "'Never send to know for whom the bell tolls; it tolls for thee' — John Donne's sentiment speaks to the link between empathy and caring: another's pain is one's own.",
+            "To feel with another is to care; in this sense, the opposite of empathy is antipathy.",
+            "Empathic anger, which John Stuart Mill called the 'guardian of justice,' is the natural feeling of retaliation rendered by intellect and sympathy against hurts that wound us through wounding others.",
+            "The more empathy a bystander feels for a victim, the more likely it is that she will intervene.",
+            "Studies in Germany and the United States found that the more empathic people are, the more they favor allocating resources according to people's need.",
+            "By late childhood, children can feel for the plight of an entire group — the poor, the oppressed, the outcast — understanding that circumstance can be a source of chronic distress.",
+            "In adolescence, that understanding can buttress moral convictions centered on alleviating misfortune and injustice."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests Hoffman's claim that the roots of morality lie in empathy: sharing a potential victim's distress is what moves people to help and to honor moral principles. Goleman presents the visit-a-sick-friend dilemma directly, along with evidence that empathic people intervene more as bystanders and favor need-based allocation of resources.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Reparative Attunement: Welcoming Joy That Was Once Discouraged",
+          "scenario_setup": "Context: Kira grew up in a household where her joys went unreciprocated, and she still delivers good news in a flat, self-dismissing tone; Dev wants to celebrate with her without re-enacting the old pattern. Goals: help Kira risk expressing joy and feel it welcomed. Stakes: Stern's research shows over- and under-responding both produce distress rather than connection, so the response either repairs her working model of relationships or confirms it.",
+          "visual_frame_description": "An evening couch scene in a shared apartment. Kira, who grew up in a household where her joys went unreciprocated, sits curled up; she has just told her partner Dev that she signed up for a half marathon, in the same flat, self-dismissing tone she uses for all good news. Dev watches her face carefully, measuring his response against the quietness of hers.",
+          "player_mission": "Play Dev and respond to Kira's small victory in a way that repairs her old lesson that excitement is worthless. Choose the response that attunes to her actual level of feeling rather than ignoring it, flooding it, or criticizing it.",
+          "dialogue": [
+            "Kira: I finally signed up for the half marathon. It's probably silly.",
+            "Dev: It's not silly. But you said it like you expect me to shrug it off.",
+            "Kira: Big news was never really a thing in my house. Excitement just... died on the table.",
+            "Dev: So when you were a kid, you learned that showing joy got you nowhere?",
+            "Kira: Something like that. I mostly stopped trying.",
+            "Dev: I want to get excited with you about this. But I don't want to pile on top of you, either.",
+            "Kira: Just... being held. That would help."
+          ],
+          "choices": [
+            "Then I'm cheering — a half marathon, that's amazing! We should celebrate this all week!",
+            "Okay. I'll match your energy: quiet pride, a long hug, and we'll build the training plan together whenever you want to.",
+            "Honestly, you should be more excited — it's a real achievement, and you're underselling it.",
+            "I'll wait until you bring it up again. I don't want to push you into excitement you're not ready for."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Stern's attunement and repair: repeated attunement or misattunement shapes the working model of relationships, later relationships continually reshape it, and mirroring an inner state — rather than imitating, ignoring, or overwhelming it — is how understanding is conveyed.",
+          "psychological_breakdown": "Choice 1 matches Kira's level of excitement while signaling that the feeling is accepted, exactly the mechanism Stern describes: the affirming message is in matching the other's level, and the long hug plays back her stated need in another channel, the way an attuned therapist's mirroring reflects an understanding of a client's inner state. Choice 0 overresponds, and Stern's experiments showed that over- or under-responding produces immediate dismay rather than connection — a flood of celebration can re-enact the overload that originally taught Kira to suppress joy. Choice 2 criticizes her emotional style, the 'helpful' critique that lands as an attack because it registers content, not feeling. Choice 3 under-responds and quietly re-teaches her childhood lesson: when I get excited I can't get my partner to be equally excited, so I may as well not try at all.",
+          "key_concepts": [
+            "When a parent consistently fails to show empathy with a particular range of emotion in the child — joys, tears, needing to cuddle — the child begins to avoid expressing, and perhaps even feeling, those emotions.",
+            "Entire ranges of emotion can begin to be obliterated from the repertoire for intimate relations if consistently discouraged through childhood.",
+            "Stern: 'Relationships throughout life — with friends or relatives, for example, or in psychotherapy — continually reshape your working model of relationships.'",
+            "An imbalance at one point in the working model of relationships can be corrected later; it is an ongoing, lifelong process.",
+            "Mirroring is the term used by some psychoanalytic thinkers for the therapist's reflecting back to the client an understanding of his inner state, just as an attuned mother does with her infant.",
+            "Several theories of psychoanalysis see the therapeutic relationship as a reparative experience of attunement.",
+            "Mothers who deliberately over- or under-responded to their infants produced immediate dismay and distress in Stern's experiment.",
+            "An infant treated with consistent under-response learns: when I get excited I can't get my mother to be equally excited, so I may as well not try at all.",
+            "Lovemaking at its best is an act of mutual empathy — sensing the other's subjective state, shared desire, aligned intentions, and mutual states of simultaneously shifting arousal.",
+            "Emotional synchrony is usually unstated and outside conscious awareness, though a person may bask in the sense of being deeply acknowledged and understood."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests Stern's claim that working models of relationships are shaped by repeated attunement or misattunement and continually reshaped by later relationships, so an emotional imbalance from childhood can be repaired. Goleman reports that mirroring the inner state in another channel — rather than imitating, ignoring, or flooding it — is how attunement and repair are conveyed.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The PONS Gauntlet: Detecting Emotion from One Channel",
+          "visual_frame_description": "A laboratory monitor in a quiet testing room where a young woman's face fills the screen, her voice muffled to a murmur and her body blocked from view. A scene list beside the monitor offers the same categories Rosenthal's test uses: loathing, motherly love, jealous rage, asking forgiveness, gratitude, seduction. The clock runs; each scene lasts only a few seconds.",
+          "player_mission": "Work through the PONS gauntlet like a test-taker: read each scene from whatever single nonverbal channel remains, and then choose the empathic response the reading demands. Beat the scenes by trusting the channel, not the words you cannot hear.",
+          "boss_battle_explanation": "The PONS (Profile of Nonverbal Sensitivity), devised by Harvard psychologist Robert Rosenthal, measures empathy by forcing viewers to read a person's feelings from one or another nonverbal channel at a time — facial expression only, body movement only, or tone only — while the other channels are systematically blanked out. The battle requires decoding each scene under channel limits, exactly like the test taken by over seven thousand people in the United States and eighteen other countries.",
+          "stage_1_observation": "A young woman appears on the monitor; the audio is muffled to a murmur and her body is hidden, leaving only her face. You watch: her jaw tightens, her eyes narrow to slits, her lips press into a thin line, and her gaze cuts away sharply before snapping back forward.",
+          "stage_1_question": "Which feeling is being expressed in this face-only scene?",
+          "stage_1_correct_answer": "Jealous rage. A tight jaw, narrowed eyes, pressed lips, and an averted-then-locked gaze are the face-channel signatures of suppressed fury; with audio and body blocked, the viewer must read the one channel that carries the truth, which is exactly the PONS design. The other scene categories — loathing, motherly love, asking forgiveness, gratitude, seduction — have distinct facial signatures that do not match a rigid, narrowed glare.",
+          "stage_2_intervention": "Scene two: now only the body is visible, with the face blacked out and the audio muffled. The woman's shoulders slump, her head drops, her hands clasp and unclasp in her lap, and she leans forward slowly in a hesitant, approaching posture. Before the scene ends you must decide how you would respond to her if she were your colleague, because the PONS data show that people who read these channels accurately are better adjusted, more popular, and more sensitive.",
+          "stage_2_correct_answer": "This is asking forgiveness — the slumped shoulders, dropped head, and hesitant approach are body-channel signs of shame and supplication — so the accurate, empathic response is to soften your own posture, keep gentle eye contact, and accept her apology without making her grovel. Reading it as seduction or gratitude would make you respond warmly to the wrong emotional message, which is precisely the failure that occurs when the emotional truth is carried only in a single nonverbal channel.",
+          "key_concepts": [
+            "Rosenthal and his students devised the PONS, a test of empathy in which a young woman expresses feelings ranging from loathing to motherly love.",
+            "In PONS scenes, one or more channels of nonverbal communication are systematically blanked out, so viewers must detect emotion from one specific cue — facial expression only, or body movements only.",
+            "The test was given to over seven thousand people in the United States and eighteen other countries.",
+            "People who can read feelings from nonverbal cues are better adjusted emotionally, more popular, more outgoing, and more sensitive.",
+            "In general, women are better than men at this kind of empathy.",
+            "People whose performance improved over the forty-five-minute test showed a talent for picking up empathy skills and had better relationships with the opposite sex.",
+            "Empathy helps with romantic life.",
+            "Scores on this measure of empathic acuity had only an incidental relationship with SAT or IQ scores or school achievement.",
+            "In testing with 1,011 children, those with an aptitude for reading feelings nonverbally were among the most popular and most emotionally stable in their schools.",
+            "Just as the mode of the rational mind is words, the mode of the emotions is nonverbal."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the ability to read emotion from single nonverbal channels, the skill Rosenthal's PONS measures by systematically blanking out all channels but one. Goleman reports that across more than seven thousand people in nineteen countries, empathic acuity was associated with emotional adjustment, popularity, and romantic success, and was largely independent of IQ.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Physiological Synchrony: Body-Tracking the Spouse",
+          "visual_frame_description": "A lab with two monitors side by side. On one, a married couple, Tanya and Ben, argue on videotape about budgeting for their daughter's school; on the other, two scrolling physiological traces — heart rate and skin conductance — wobble in near-identical rhythm. A small label reads 'Levenson protocol: emotion-reading trial two.'",
+          "player_mission": "Analyze the physiology traces to decide why one spouse can read the other's feelings, then advise the couple on when emotion-reading can actually work. Beat the battle by understanding that empathy happens in the body's synchrony, not in words, memory, or intelligence.",
+          "boss_battle_explanation": "This battle tests the physiological route to empathic accuracy: Robert Levenson's method in which married couples are videotaped and physiologically measured while discussing a troubling issue, then each partner tries to read the other's feelings. The key finding is that the most empathic accuracy occurred in spouses whose own physiology tracked that of the spouse they were watching, and that empathy requires enough calm and receptivity for the subtle signals of feeling to be received and mimicked by one's own emotional brain.",
+          "stage_1_observation": "You watch Tanya and Ben argue on tape about how to budget for their daughter's school — a real couple in Levenson's protocol. The on-screen display shows two traces: Ben's heart rate and skin conductance, and Tanya's, as she watches the playback a second time trying to read Ben's feelings. In the section where Ben's heart rate drops and his palms sweat more heavily, Tanya's trace dips and rises in near-perfect copy a fraction of a second later.",
+          "stage_1_question": "According to Levenson's research, what best explains why Tanya can read Ben accurately in this segment?",
+          "stage_1_correct_answer": "Her body is in physiological synchrony with his — her sweat response and heart rate track his moment-to-moment changes, and the book reports that the most empathic accuracy occurred in husbands and wives whose own physiology tracked that of the spouse they were watching. Viewers whose physiology merely repeated their own reactions from the original interaction were very poor at surmising what their partner was feeling; only when the bodies were in synch was there empathy.",
+          "stage_2_intervention": "The argument escalates: Ben's face flushes, his voice rises, and his heart rate climbs steeply into the heat of anger. The two-minute segment ends with Tanya storming out, and you must coach the couple on when to attempt the emotion-reading exercise again.",
+          "stage_2_correct_answer": "Delay the exercise until both partners are calm — the chapter states that when the emotional brain is driving the body with a strong reaction, such as the heat of anger, there can be little or no empathy, because empathy requires enough calm and receptivity for the subtle signals of feeling to be received and mimicked by one's own emotional brain. Attempting emotion-reading inside the hot state guarantees a repeat of the failure, since anger's physiology is precisely the state that blocks the bodily mimicry on which empathic accuracy depends.",
+          "key_concepts": [
+            "Levenson videotaped married couples discussing troubling issues — disciplining the kids, spending habits — while their physiological responses were measured.",
+            "Each partner reviewed the tape, narrated what he or she had been feeling, then watched again trying to read the other's feelings.",
+            "The most empathic accuracy occurred in those husbands and wives whose own physiology tracked that of the spouse they were watching.",
+            "When the partner had an elevated sweat response, so did the empathic viewer; when the partner's heart rate dropped, so did the viewer's.",
+            "In accurate readers, the body mimicked the subtle, moment-to-moment physical reactions of the spouse being read.",
+            "If the viewer's physiological patterns simply repeated their own during the original interaction, they were very poor at surmising what their partner was feeling.",
+            "Only when their bodies were in synch was there empathy.",
+            "When the emotional brain drives the body with a strong reaction — the heat of anger — there can be little or no empathy.",
+            "Empathy requires enough calm and receptivity so that the subtle signals of feeling from another person can be received and mimicked by one's own emotional brain."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests Levenson's finding that empathic accuracy between spouses depends on physiological synchrony — the viewer's body tracking the partner's moment-to-moment reactions — not on words or intellect. Goleman adds that this mimicry requires calm, since a strong emotional reaction like the heat of anger leaves little or no room for empathy.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Cold Calculator: Heart Rate That Drops as Fury Mounts",
+          "visual_frame_description": "A clinician's office where intake logs and heart-rate traces are spread on a desk. Arnold, 34, sits in the waiting room of a mandatory intervention program after his wife filed a protection order; the trace on screen shows his pulse sliding downward even as his recorded voice grows louder and more threatening during an anger discussion.",
+          "player_mission": "Review the session data and identify what type of perpetrator you are facing, then set a treatment direction that fits the physiology. Beat the battle by recognizing that this violence is calculated, not a loss of temper.",
+          "boss_battle_explanation": "This battle tests the counterintuitive physiology of the most vicious wife batterers: as their anger mounts, their heart rate drops instead of climbing, meaning they grow physiologically calmer even as they become more belligerent and abusive. The research characterizes their violence as a calculated act of terrorism aimed at controlling a partner by instilling fear, which is a breed apart from impulsive batterers who strike in the heat of rage.",
+          "stage_1_observation": "You are a clinician reviewing session data from a mandatory intervention program. Arnold, 34, is there after his wife Tanya filed a protection order citing beatings and threats with a knife. The intake nurse's log shows his heart rate at the start of the anger-management discussion, and then his readings as he describes 'what she does to provoke me' — his voice gets louder and his language more threatening while the trace shows his pulse sliding downward, dropping steadily below his resting rate.",
+          "stage_1_question": "What does the combination of escalating threats and a dropping heart rate most likely indicate?",
+          "stage_1_correct_answer": "That Arnold is growing physiologically calmer even as he gets more belligerent — the anomaly found in many of the most violent husbands, who beat their wives and threaten them with knives or guns in a cold, calculating state rather than being carried away by the heat of fury. This is the breed apart: unlike impulsive batterers whose heart rate climbs with rage, these men are doing calculated emotional terrorism aimed at instilling fear and controlling their partner, and the research found them far more likely to be violent outside the marriage, striking for no apparent reason, and unresponsive to anything the wife does, including trying to leave.",
+          "stage_2_intervention": "The program director asks you to set Arnold's treatment plan. A colleague proposes standard anger-management to 'cool him down,' another suggests couples counseling so both partners work on the marriage, and a third recommends relaxation training for what she calls 'his temper problem.'",
+          "stage_2_correct_answer": "Reject the rage-based approaches and treat the violence as calculated control: the heart-rate data show the abuse is not an anger-discharge problem, so cooling techniques and couples sessions aimed at his 'temper' do not address its purpose — instilling terror — and would even put the partner at risk in joint sessions. The safe plan prioritizes Tanya's safety planning and holds Arnold accountable for the cold, instrumental coercion the physiology reveals, because the text shows that once these calculating batterers start, nothing the partner does, including leaving, restrains their violence.",
+          "key_concepts": [
+            "The most vicious wife batterers often beat their wives or threaten them with knives or guns in a cold, calculating state rather than while being carried away by the heat of fury.",
+            "As the anger of these very violent husbands mounts, their heart rate drops instead of climbing higher, as is ordinarily the case with mounting fury.",
+            "The dropping heart rate means they are growing physiologically calmer even as they get more belligerent and abusive.",
+            "Their violence appears to be a calculated act of terrorism, a method of controlling their wives by instilling fear.",
+            "These coolly brutal husbands are a breed apart, far more likely to be violent outside the marriage as well — bar fights, coworkers, and other family members.",
+            "Most men who become violent with their wives do so impulsively, out of rage after feeling rejected or jealous, or out of fear of abandonment.",
+            "The calculating batterers will strike out at their wives seemingly for no reason at all.",
+            "Once the calculating batterer starts, nothing the wife does, including trying to leave, seems to restrain the violence.",
+            "The heart-rate anomaly was discovered by accident in a study of the most vicious of wife batterers.",
+            "An inability to feel their victims' pain allows such perpetrators to tell themselves lies that encourage their crime."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the cold-calculating batterer pattern: unlike impulsive abusers whose heart rate climbs with fury, the most vicious batterers grow physiologically calmer as their threats escalate, indicating violence as calculated emotional terrorism. Goleman reports the accidental discovery of the dropping heart rate in a study of the most violent husbands and stresses that this breed is more violent outside the marriage and unrestrained by anything the partner does.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Scrambled-Word Test: Shallowness in the Affective Realm",
+          "visual_frame_description": "A forensic psychology lab where an EEG trace scrolls across a screen beside a list of words — 'kill,' 'chair,' 'blood,' 'cloud' — each flashed for a tenth of a second. Darnell, an inmate convicted in a robbery, sits in the testing booth with electrodes on his scalp; his response times for emotional and neutral words are identical, and no distinctive wave pattern appears.",
+          "player_mission": "Interpret the psychophysiological evidence about the inmate and decide how it should weigh in the sentencing report. Beat the battle by applying Hare's findings without falling into biological determinism.",
+          "boss_battle_explanation": "This battle tests Robert Hare's physiological findings on psychopathy: in a word-deciphering task, most people react differently to emotional words such as 'kill' than to neutral words such as 'chair' — deciding more quickly and showing a distinctive brain-wave pattern — while psychopaths show neither response, suggesting a disruption in circuits between the verbal cortex and the limbic brain. Hare also found that psychopaths about to receive an electric shock show no normal fear response, and he links their callousness to this shallowness in the affective realm.",
+          "stage_1_observation": "You are a forensic psychologist reviewing EEG data from Darnell, scanned during Hare's scrambled-word task. Words flash for approximately a tenth of a second and the participant decides whether each was scrambled. The protocol expects a distinctive wave pattern and a speed advantage for emotional words like 'kill' versus neutral words like 'chair.' Darnell's trace shows no distinctive wave for the emotional words, and his response times are identical for 'kill' and 'chair.'",
+          "stage_1_question": "What does Darnell's pattern on the task indicate, according to Hare's interpretation?",
+          "stage_1_correct_answer": "That Darnell has a shallow understanding of emotional words, reflecting a general shallowness in the affective realm: the absence of the distinctive brain-wave response and the equal reaction times to emotional and neutral words suggest a disruption in circuits between the verbal cortex, which recognizes the word, and the limbic brain, which attaches feeling to it. This is the same pattern Hare found in psychopaths, consistent with their inability to make anything more than the shallowest of emotional connections.",
+          "stage_2_intervention": "Darnell, who crippled two people in a robbery and now faces sentencing, sits in the interview: relaxed, charming, smiling, describing the crime without hesitation. When his lawyer mentions the possible sentence, Darnell shrugs — his heart rate and sweat response stay flat, with none of the surge normal people show at the prospect of pain. The sentencing report asks you to weigh this evidence.",
+          "stage_2_correct_answer": "Weigh the evidence carefully without biological determinism: the flat fear response indicates he lacks the anxiety that normally accompanies the prospect of pain, so concern about future punishment is likely to be weak and genuine remorse is in doubt — which matters for risk assessment. But the chapter's caution applies: there is no biological marker for crime and no 'criminal gene,' most people with empathy deficits do not drift to crime, and this evidence must be factored in with all the psychological, economic, and social forces that contribute to a vector toward criminality.",
+          "key_concepts": [
+            "In Hare's task, words are flashed very quickly, for about a tenth of a second, and participants decide whether each was scrambled.",
+            "Most people react differently to emotional words such as 'kill' than to neutral words such as 'chair': they can decide more quickly and their brains show a distinctive wave pattern.",
+            "Psychopaths show neither response — no distinctive brain-wave pattern and no quicker decision for emotional words.",
+            "The pattern suggests a disruption in circuits between the verbal cortex, which recognizes the word, and the limbic brain, which attaches feeling to it.",
+            "Hare interprets the results as a shallow understanding of emotional words, a reflection of a more general shallowness in the affective realm.",
+            "Psychopaths about to receive an electric shock show no sign of the fear response that is normal in people about to experience pain.",
+            "Because the prospect of pain does not trigger a surge of anxiety, psychopaths lack concern about future punishment.",
+            "Because psychopaths themselves do not feel fear, they have no empathy or compassion for the fear and pain of their victims.",
+            "The heart of the psychopath's coldness seems to lie in an inability to make anything more than the shallowest of emotional connections.",
+            "There is no biological marker for crime and certainly no 'criminal gene,' and most people with an empathy deficit will not drift to crime.",
+            "A lack of empathy should be factored in with the psychological, economic, and social forces that contribute to a vector toward criminality."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests Hare's evidence that psychopaths show no distinctive brain-wave response and no reaction-time advantage for emotional words, reflecting a disruption between the verbal cortex and the limbic brain, and that they lack the normal fear response to anticipated pain. Goleman pairs the findings with a caution that there is no biological marker for crime, so the evidence must be weighed alongside psychological, economic, and social forces.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Auditing 'This Is Just Good Discipline'",
+          "visual_frame_description": "A pale family-assessment room at a county clinic. On one side of the couch sits Zoe, eight, curled small with her chin tucked; on the other sits her father Marcus, relaxed and smiling toward the interviewer. The corner video feed records everything: the flat voice, the mid-sentence watch-check, and the moment Zoe cries while her father's torso turns away from her.",
+          "player_mission": "Review the observation log, the interrogation transcript, and the subject baseline, then decide what Marcus's account of his treatment of Zoe really is. Your verdict determines whether the family gets parenting skills, anger management, or a safety-focused intervention.",
+          "question": "Is Marcus's account of his treatment of his daughter an example of empathic discipline, impulsive rage, or an empathy-blocking self-justification?",
+          "subject_baseline": "Marcus, 38, a warehouse supervisor, is known among neighbors as warm and funny — he organizes the block party and tells great jokes, and he speaks proudly of raising his eight-year-old daughter Zoe 'with a firm hand.' He has never sought help; the assessment happens because Zoe's school counselor noticed bruises and Marcus agreed to a family evaluation, insisting he has nothing to hide.",
+          "observed_nonverbal_log": [
+            "14:02 — Zoe is sent in; she sits curled at the far end of the couch, chin tucked, not meeting anyone's eyes.",
+            "14:03 — Marcus recounts 'the incident': Zoe refused to do her homework, and he slapped her hand hard enough to leave marks and locked her in her room. His voice is steady and flat; he checks his watch mid-sentence.",
+            "14:05 — Zoe begins to cry quietly; Marcus turns his torso away from her and straightens his collar rather than looking at her.",
+            "14:07 — He smiles toward the interviewer: 'Parents need a backbone. This is discipline, not abuse.'"
+          ],
+          "interrogation_transcript": [
+            "Interviewer: When you slapped her, what do you think Zoe was feeling?",
+            "Marcus: Disobedient. She was testing me. Kids bounce back.",
+            "Interviewer: Her counselor says she cries when adults raise their voices.",
+            "Marcus: Tears don't mean anything. If I don't teach her now, the streets will teach her worse."
+          ],
+          "correct_diagnosis": "Empathy-blocking self-justification: Marcus is using the lie 'this is just good discipline' to blot out empathy for his daughter's fear — the exact self-justification the book collects from physically abusive parents — and his flat, controlled delivery betrays the cold, calculating detachment that drives deliberate abuse, not impulsive rage.",
+          "diagnostic_breakdown": "Evidence to conclusion: (1) The steady flat voice and the mid-sentence watch-check while describing striking a seven- or eight-year-old match the text's cold, calculating perpetrators, who abuse in a controlled state rather than in the heat of fury. (2) Turning his torso away when Zoe cries is an empathy-avoidance cue: the book says the blotting out of empathy while inflicting damage is almost always part of the emotional cycle that precipitates cruel acts, and registering a victim's distress would ruin the script for the perpetrator. (3) His justification sentence is verbatim the pattern the text states abusive parents tell themselves — 'This is just good discipline.' (4) This is not impulsive rage (steady delivery, rehearsed speech) and not the empathic discipline style of the Radke-Yarrow studies, which calls attention to the distress caused — 'Look how sad you've made her feel.'",
+          "distractors": [
+            "Impulsive rage: Marcus is carried away by the heat of fury, his heart rate climbing with his temper — incorrect because his delivery is flat and controlled, the pattern of cold, calculating abuse rather than rage discharge.",
+            "Genuine firm discipline with a tough-love philosophy: his severity teaches respect the way the Radke-Yarrow empathic methods do — incorrect because his method never names or registers the child's distress, and he dismisses her tears as meaningless.",
+            "Sadistic enjoyment of suffering: Marcus deliberately delights in causing Zoe pain — incorrect because the evidence shows emotional detachment and control to a purpose, and the book distinguishes psychopathic delight in suffering from the self-justifying abuse cycle."
+          ],
+          "key_concepts": [
+            "The psychological fault line common to rapists, child molesters, and many perpetrators of family violence is an incapacity for empathy.",
+            "Physically abusive parents tell themselves lies that encourage their crime, including 'This is just good discipline.'",
+            "The inability to feel victims' pain allows perpetrators to tell themselves self-justifications that encourage the crime.",
+            "The blotting out of empathy while inflicting damage is almost always part of an emotional cycle that precipitates cruel acts.",
+            "The most vicious wife batterers often abuse in a cold, calculating state rather than in the heat of fury.",
+            "Empathic discipline, by contrast, calls strong attention to the distress the misbehavior caused — 'Look how sad you've made her feel.'",
+            "The heart rate of coldly brutal perpetrators drops as their anger mounts, showing they grow physiologically calmer even as they get more belligerent.",
+            "Children can develop empathy by imitating how others respond to someone in distress.",
+            "Intense, sustained emotional abuse can leave children hyperalert to the emotions of those around them, in a post-traumatic vigilance to threat cues.",
+            "Emotional neglect seems to dull empathy, while the paradox of intense abuse can produce obsessive preoccupation with others' feelings."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests the empathy-blocking self-justification cycle: the perpetrator tells himself 'this is just good discipline' so his victim's fear never registers, and the flat, controlled delivery betrays calculated cruelty rather than rage. Goleman collects such justifications verbatim from perpetrators in treatment and contrasts the pattern with the empathic discipline style shown to build empathy in children.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Nightmare Face: Auditing a Street Confrontation",
+          "visual_frame_description": "A slow-motion replay of a street scene filmed from inside a moving car on a Los Angeles boulevard. In the next lane, a driver's eyes connect with the passenger's, widen for an instant, then drop, and the passenger — a seventeen-year-old in a baseball cap — turns toward the camera and lets his face rearrange itself into a mask of threat. The frame freezes on the two faces.",
+          "player_mission": "Audit the recorded confrontation by reading the nonverbal log and the transcript, then issue the verdict on what is being performed. Get the read right: anger, guilt, and playfulness all carry different warning value.",
+          "question": "What is actually happening in the documented confrontation — is the subject reacting in anger, performing intimidation, or showing guilt?",
+          "subject_baseline": "Faro, seventeen, a member of a Los Angeles gang, rides in a car with Leon Bing, a writer working on a book about the Crips and the Bloods. Faro previously described crippling a mother and her baby in a drive-by shooting with more pride than remorse, and he wants to show off to Bing. He is voluble, confident, and eager to perform his reputation.",
+          "observed_nonverbal_log": [
+            "0:10 — The driver of the next car, sensing that someone is looking at him, glances over; his eyes connect with Faro's and widen for an instant.",
+            "0:12 — The driver breaks the contact, looks down, then looks away; Bing records that there is no mistaking what she saw in his eyes: it was fear.",
+            "0:15 — Faro demonstrates for Bing the look he had flashed: his face shifts and changes, as if by some trick of time-lapse photography, and becomes a nightmare face.",
+            "0:18 — The look conveys that if you return his stare or challenge him, you had better be able to stand your ground; it tells you that he does not care about anything, not your life and not his."
+          ],
+          "interrogation_transcript": [
+            "Bing: What were you doing with that look?",
+            "Faro: Gonna look crazy at them dudes. That's how you own the block. They won't even look at you twice after that.",
+            "Bing: What if he'd stared back?",
+            "Faro: Then we find out who's real."
+          ],
+          "correct_diagnosis": "Deliberate intimidation performed with a strategic absence of empathy: Faro's nightmare face is a rehearsed threat display designed to produce fear, and his pride in it shows the opportunistic, emotionless manipulation that can function as a survival virtue in violent neighborhoods — while the driver's widening eyes and averted gaze are the victim's visible fear response, which Faro reads and exploits rather than shares.",
+          "diagnostic_breakdown": "Evidence to conclusion: (1) The driver's response — eyes widening, then breaking contact and looking down — is fear registered in the nonverbal channel, exactly the kind of telling cue the chapter says carries the emotional truth: tone, gesture, and facial expression. (2) Faro's demonstration is performed and deliberate: his face 'shifts and changes' into a threat mask on command, and he describes it as a tool — 'that's how you own the block' — matching the text's description of the look that says he does not care about anything, not your life and not his. (3) He describes the drive-by that crippled a mother and her baby with more pride than remorse; the chapter notes that psychopaths are charming and without remorse, but also that there are many routes to manipulativeness, and that an opportunistic lack of empathy may be a virtue in roles from bad-cop interrogators to corporate raiders; Faro's case is the gang-ecology version of that calculation. (4) This is not anger — the display is controlled and repeatable on demand — and not guilt, since the account is delivered with pride.",
+          "distractors": [
+            "Rage reaction: Faro is flooded with hot anger at being stared at and acts without thought — incorrect because he can reproduce the look on demand for Bing, a controlled, rehearsed performance rather than an autonomic outburst.",
+            "Guilt and remorse over the earlier shooting: the confrontation shows him regretting what he did — incorrect because he describes crippling a mother and baby with more pride than remorse and brags about the fear he instills.",
+            "Playful showing off that harms no one: the look is just teenage posturing — incorrect because its explicit purpose is to terrify and dominate, and the driver's visible fear shows real intimidation being delivered and received."
+          ],
+          "key_concepts": [
+            "Psychopaths are notorious for being both charming and completely without remorse for even the most cruel and heartless acts.",
+            "Psychopathy, the incapacity to feel empathy or compassion of any sort, or the least twinge of conscience, is one of the more perplexing of emotional defects.",
+            "The heart of the psychopath's coldness seems to lie in an inability to make anything more than the shallowest of emotional connections.",
+            "An opportunistic lack of empathy may be a virtue in many roles in life, from bad-cop police interrogator to corporate raider.",
+            "There are many routes to manipulativeness; too much empathy can be counterproductive in violent neighborhoods.",
+            "The telling tone of voice, shift in posture, eloquent silence, and telltale tremble carry the emotional truth that empathic people read.",
+            "A fear display — eyes widening, then breaking contact and looking away — is visible in the face of a person being intimidated.",
+            "The absence of empathy is telling: it is seen in criminal psychopaths, rapists, and child molesters.",
+            "Perpetrators of violent acts blot out the victim's feelings so their cruelty can proceed.",
+            "Because psychopaths do not feel fear, they have no empathy for the fear and pain of their victims."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the strategic display and absence of empathy behind intimidation: Faro's nightmare face is a controlled threat performance whose aim is to terrorize, while the victim's fear is read in the nonverbal channel. Goleman presents the exchange as evidence that an opportunistic lack of empathy can be a survival virtue in violent environments, and notes there are many routes to manipulativeness.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        }
+      ]
+    }
+  ]
+}

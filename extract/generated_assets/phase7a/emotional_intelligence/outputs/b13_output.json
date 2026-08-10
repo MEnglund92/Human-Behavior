@@ -1,0 +1,518 @@
+{
+  "spec_file": "spec_emotional_intelligence_b13.json",
+  "chapters": [
+    {
+      "id": "ch19",
+      "title": "13. Trauma and Emotional Relearning",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Hair-Trigger Traumatic Memory",
+          "visual_frame_description": "Five months after the Cleveland Elementary shooting, a sunny recess at the school in Stockton, California. Six-year-old Rosa bolts across the playground toward counselor Miriam Chen, screaming, while the swinging chain on a tetherball pole clanks in the background. Other children freeze mid-game and stare; a designated child stands lookout near the classroom doors, and the principal, Pat Busher, watches from the doorway.",
+          "player_mission": "You are counselor Miriam Chen. Respond to Rosa in the seconds after she mistakes the tetherball chain for gunfire. Choose the response that soothes the alarm without dismissing the child or feeding the panic, because weeks of sirens and rumors have kept the whole school on edge.",
+          "key_concepts": [
+            "In PTSD the symptoms are signs of an overaroused amygdala impelling vivid memories of a traumatic moment to intrude on awareness.",
+            "Traumatic memories become mental hair triggers, ready to sound an alarm at the least hint that the dread moment is about to happen once again.",
+            "The intrusive core of trauma is the perceptual memory of the central violent action: the sight, sound, and smell of gunfire; the screams or sudden silence of the victim; the splash of blood; the police sirens (Spencer Eth).",
+            "At Cleveland Elementary months after the shooting, any small similar detail revived the memory: an ambulance siren halted the school, and a rumor about restroom mirrors terrified many children for weeks.",
+            "The hair-trigger phenomenon is a hallmark of emotional trauma of all kinds, including suffering repeated physical abuse in childhood.",
+            "Any traumatizing event, from a fire or auto accident to an earthquake, hurricane, rape, or mugging, can implant trigger memories in the amygdala.",
+            "Many children at the school became hypervigilant, hovering at recess next to the classroom doors or posting a designated child as lookout.",
+            "A frantic girl came running to the principal yelling 'I hear shots! I hear shots!' when the sound was only the swinging chain on a tetherball pole.",
+            "The traumatic memories also intruded in sleep: children were flooded with anxiety dreams that left them apprehensive that they too would die soon.",
+            "Hundreds of thousands of people each year endure disasters, and many or most come away with emotional wounding that leaves its imprint on the brain."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the hair-trigger alarm of the overaroused amygdala: reminders that merely resemble the trauma are treated as emergencies and produce panic and hypervigilance. The chapter grounds this in the Cleveland Elementary children, who froze at ambulance sirens and mistook a tetherball chain for gunfire.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "You are Miriam Chen, a school counselor at Cleveland Elementary, five months after the shooting. Rosa, six, ran to you screaming 'I hear shots!' because of the tetherball chain. Weeks of ambulance sirens, restroom mirror rumors, and St. Patrick's Day confusion over the killer's name have kept the school jumpy. The stakes: how you respond in this minute will either coach Rosa's alarm down or reinforce it.",
+          "dialogue": [
+            "Rosa: 'I hear shots! I hear shots! It's happening again!'",
+            "Miriam: 'Rosa, look at me. What did you hear?'",
+            "Rosa: 'The gun. He's here again, like before.'",
+            "Miriam: 'That was the chain on the tetherball pole swinging in the wind. No one is shooting. You are safe, and I am right here with you.'",
+            "Rosa: 'But my heart is pounding and my legs won't stop shaking. It sounded just like that day.'",
+            "Miriam: 'That is the part of your brain that keeps the memory of the shooting, scaring your body again. It does not mean something bad is happening now.'",
+            "Rosa: 'So it's not real? The kids said Bloody Virgin Mary is in the bathroom mirror.'",
+            "Miriam: 'The mirror is just a mirror. Your fear is real, but the danger is not. Let's walk to the door together and watch the children play.'"
+          ],
+          "choices": [
+            "Tell Rosa firmly to calm down and go back to playing, because nothing actually happened.",
+            "Run inside, blow the whistle, and call a surprise safety drill so the whole school practices what to do.",
+            "Name her reaction as the trauma memory doing its hair-trigger job, stay beside her, and walk her to a safe spot until the alarm passes.",
+            "Tell Rosa that from now on she should stay by the classroom doors at recess and avoid the tetherball pole."
+          ],
+          "optimal_choice": 2,
+          "theoretical_principle": "The hair-trigger traumatic memory: an overaroused amygdala sounds an alarm at the least hint that the dread moment is about to happen once again.",
+          "psychological_breakdown": "The optimal choice names the trigger honestly and keeps the child in the present with a safe adult, which is exactly what the hair-trigger alarm needs: calm pairing rather than added drama. Dismissing Rosa ('nothing happened') invalidates her real fear and teaches her to suppress it unmanaged. Calling a drill turns an innocent sound into a rehearsal of terror and confirms that alarms are warranted everywhere. Restricting her from the tetherball area turns a neutral object into a permanently feared zone, cementing the avoidance and hypervigilance the chapter describes in the children who kept away from the 'evil' areas where children had died."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "PTSD Hypervigilance and the Trigger Alarm",
+          "visual_frame_description": "A weekday morning at Cleveland Elementary, five months after the shooting. Mid-recess, an ambulance siren rises from the rest home down the street; the entire playground halts as children listen to see whether it will stop at the school. Near the classroom doors, clusters of children hover, and a first grader sits on the steps hugging his knees, rocking slightly.",
+          "player_mission": "Diagnose why the school keeps freezing at sirens, then decide how the principal should handle the next trigger moment. Your decisions will either lower the children's alarm setpoint or confirm to them that every siren is a threat.",
+          "key_concepts": [
+            "PTSD represents a perilous lowering of the neural setpoint for alarm, leaving the person to react to life's ordinary moments as though they were emergencies.",
+            "At Cleveland Elementary, 'whenever we hear an ambulance on its way to the rest home down the street, everything halts' - the children listen to see if it will stop.",
+            "A wave of fright swept the school when it was announced St. Patrick's Day was coming, because children somehow connected the day to the killer, Patrick Purdy.",
+            "Weeks after the shooting a frantic girl came running to the principal yelling 'I hear shots! I hear shots!' - the sound was the swinging chain on a tetherball pole.",
+            "Children became hypervigilant, hovering at recess next to the classroom doors, and others would only play in small groups, posting a designated child as lookout.",
+            "Many children continued for months to avoid the 'evil' areas where children had died.",
+            "The main symptoms of PTSD include anxiety, fear, hypervigilance, being easily upset and aroused, readiness for fight or flight, and the indelible encoding of intense emotional memories.",
+            "Violent acts shatter assumptions about the trustworthiness of people and the safety of the interpersonal world, an assumption natural catastrophes leave untouched.",
+            "A woman mugged in an elevator was fearful for weeks of elevators, subways, and any enclosed space, and ran from her bank when she saw a man put his hand in his jacket as the mugger had done.",
+            "Close to fifty years after the Holocaust, nearly three quarters of survivors still became anxious at reminders such as a uniform, a knock at the door, dogs barking, or smoke rising from a chimney."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the hair-trigger and lowered alarm setpoint of PTSD: reminders that resemble the trauma produce a full emergency reaction in ordinary moments. The chapter shows the Cleveland Elementary children halting at ambulance sirens and panicking at a tetherball chain, behaviors driven by an overaroused amygdala.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "The overaroused amygdala turns traumatic memories into mental hair triggers: reminders of the trauma are treated as emergencies, so the school freezes at every siren. The battle is won by recognizing the trigger mechanism and then pairing the trigger with calm instead of alarm.",
+          "stage_1_observation": "The ambulance siren fades as it passes the rest home, and the children slowly relax - but one first grader remains glued to the steps, and two girls refuse to leave the doorway for the rest of recess. A teacher reports that this has happened every time a siren passes since the shooting.",
+          "stage_1_question": "Why does a passing ambulance siren freeze the entire playground, and why do some children stay frozen long after the sound fades?",
+          "stage_1_correct_answer": "The siren is a perceptual match to the police sirens of the shooting, so the overaroused amygdala treats the reminder as an emergency - and in some children the alarm persists in hypervigilance long after the trigger passes.",
+          "stage_2_intervention": "The principal must decide how to handle the next siren moment with the whole school watching. An ambulance approaches again during recess, and the children halt mid-game.",
+          "stage_2_correct_answer": "Stay visibly calm, name the sound plainly ('that is an ambulance going to the rest home down the street, not here'), and keep the routine going - pairing the trigger with calm so the fear pathway is not strengthened again."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Herman's Three Stages of Recovery",
+          "visual_frame_description": "A softly lit therapy office at 4 p.m. Dana Whitfield, a trauma therapist, sits across from Priya, a 34-year-old bookkeeper who has not left her apartment for social events in four months. Priya's hands are clasped tight in her lap; she flinches when a car door slams outside the window. On the desk between them is the intake form on which she has circled 'sleep problems' and left 'describe the event' blank.",
+          "player_mission": "You are therapist Dana Whitfield, working from Judith Lewis Herman's three-stage model of recovery. Priya's sister wants her to 'talk about it and get it over with,' but Priya is still in the grip of hypervigilance after months of stalking. Guide the session toward the correct first stage of recovery.",
+          "key_concepts": [
+            "Judith Lewis Herman outlines three stages of recovery from trauma: attaining a sense of safety, remembering the details of the trauma and mourning the loss it has brought, and finally reestablishing a normal life.",
+            "The sequence of Herman's stages reflects how the emotional brain learns once again that life need not be regarded as an emergency about to happen.",
+            "The first step, regaining a sense of safety, means finding ways to calm the too-fearful, too-easily-triggered emotional circuits enough to allow relearning.",
+            "Helping patients understand that their jumpiness, nightmares, hypervigilance, and panics are part of the symptoms of PTSD makes the symptoms themselves less frightening.",
+            "Another early step is helping patients regain some sense of control over what is happening to them - a direct unlearning of the lesson of helplessness that the trauma imparted.",
+            "Irene, stalked after an attempted rape, mobilized her friends and family to form a buffer between her and her stalker, and was able to get the police to intervene.",
+            "The sense in which PTSD patients feel unsafe begins more intimately: in the feeling that they have no control over what is happening in their body and to their emotions.",
+            "In Irene's case the police dismissed her problem as trivial since 'nothing had really happened,' even though she had full PTSD symptoms and felt a prisoner in her own house.",
+            "Retelling and reconstructing the story of the trauma must happen in the harbor of safety, allowing the emotional circuitry to acquire a new, more realistic response to the memory and its triggers.",
+            "When Priya stopped asking anyone for anything, her constriction grew - the same shutting down Herman describes in patients whose calls for help were dismissed."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests Herman's staged recovery model, in which safety and control must be restored before remembrance and mourning can begin. The chapter argues the ordering has a biological logic: the emotional brain can only relearn that life is not an emergency once the alarm circuits are calmed enough to allow it.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "You are Dana Whitfield, and Priya - assaulted on a date by a man who now calls at all hours, threatens her, and watches her building - has come to you after the police told her 'nothing had really happened.' Her sister urges her to relive the assault to purge it. The stakes: pushing her to retell before safety is established can overwhelm the relearning process, exactly as Herman warns.",
+          "dialogue": [
+            "Priya: 'My sister says I should just talk about it and get it over with. But the minute I think about that night, I start shaking.'",
+            "Dana: 'We will not go there yet. Right now the goal is for you to feel safe in your body and your apartment again.'",
+            "Priya: 'Safe? I check the lock four times a night. I jump when the phone rings. That is not safe.'",
+            "Dana: 'Those jumpy reactions, the nightmares, the checking - those are symptoms of the trauma. Knowing they are symptoms makes them less frightening, and it means they are not a sign that you are going crazy.'",
+            "Priya: 'The police said nothing had really happened. So I stopped asking anyone for anything.'",
+            "Dana: 'Then our first work is restoring your sense of control. Who could sit with you, walk with you, answer the phone when you are afraid?'",
+            "Priya: 'My cousin Marcus and my friend Lena offered. I pushed them away.'",
+            "Dana: 'Calling them back is our first assignment. When you have a buffer and a way to act, we can begin remembering - in the harbor of that safety.'"
+          ],
+          "choices": [
+            "Begin the detailed retelling immediately, since avoiding the memory only strengthens it.",
+            "First stabilize safety and control: name the symptoms, build her support buffer, and involve the police before any retelling.",
+            "Skip the events entirely and focus only on prescribing sleep medication for her insomnia.",
+            "Tell her the police were right that nothing really happened, so she should resume socializing to prove it to herself."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Herman's three-stage recovery: safety and control first, remembrance and mourning second, reconnection third.",
+          "psychological_breakdown": "The optimal choice follows the chapter's ordering: regaining a sense of safety calms the too-fearful circuits enough to allow relearning, and restoring control directly unlearns the helplessness the trauma taught. Immediate retelling risks overwhelming reactions that disrupt relearning, since the fear circuits are still on hair-trigger. Treating only sleep ignores the core alarm problem, and echoing the police's dismissal repeats the exact invalidation that made Priya stop asking for help, deepening her imprisonment."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Art, Rapport, and Trauma Mastery",
+          "visual_frame_description": "A child therapy room with a low table, crayons, and blocks. Five-year-old Leo sits across from child psychiatrist Dr. Aaron Reyes. Leo has just finished a crayon drawing of a race-car driver whose eyes are drawn enormous, filling most of the helmet. Leo's posture is rigid, and he avoids the doctor's gaze, but he pushes the drawing forward.",
+          "player_mission": "You are Dr. Aaron Reyes, working as Spencer Eth does with traumatized children. Leo hid under a blanket while his mother was killed and will not speak about it. Use the drawing and play to open a path, and decide when and how to approach the story of that night.",
+          "key_concepts": [
+            "Art is a way to get at the picture frozen in the amygdala, because the emotional brain is highly attuned to symbolic meanings and to the mode Freud called the 'primary process.'",
+            "Eth, a Los Angeles child psychiatrist who specializes in treating traumatized children, makes having such children draw a picture the opening gambit in therapy.",
+            "The five-year-old boy in Eth's care, who hid under a blanket while his mother was killed, drew a race-car driver with a strikingly large pair of eyes, which Eth took to refer to the boy's own daring in peeking at the killer.",
+            "Hidden references to the traumatic scene almost always appear in the artwork of traumatized children; the potent memories that preoccupy them intrude in their art just as in their thoughts.",
+            "The act of drawing is itself therapeutic, beginning the process of mastering the trauma.",
+            "Eth played games with the boy instead of pressing him, creating a bond of rapport, before the boy slowly began to retell the story of the murder.",
+            "The boy first retold the murder in a stereotyped way, reciting each detail exactly the same in each telling.",
+            "Gradually the boy's narrative became more open and free-flowing and his body less tense as he told it, and his nightmares came less often - an indication of some 'trauma mastery.'",
+            "Children's psyches handle overwhelming trauma differently from adults': they less often become numb because they use fantasy, play, and daydreams to recall and rethink their ordeals.",
+            "Voluntary replays of trauma seem to head off the need to dam them up in potent memories that can later burst through as flashbacks."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests art and play as routes to the memory frozen in the amygdala, and rapport as the precondition for retelling. The chapter shows how the boy's giant-eyed drawing opened therapy and how games built the bond of rapport that made a slow, stereotyped retelling of the murder possible.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "You are Dr. Aaron Reyes. Leo, five, was kidnapped with his mother by her ex-lover, forced under a blanket in a motel room while the man beat her to death. He will not discuss it, and he has drawn a race-car driver with enormous eyes. The stakes: an insensitive approach could shut him down for months, while a skilled one starts the mastery of the trauma.",
+          "dialogue": [
+            "Dr. Reyes: 'That is a great race-car driver. Those are very big eyes. Do drivers need big eyes?'",
+            "Leo: (shrugs) 'To see.'",
+            "Dr. Reyes: 'To see what?'",
+            "Leo: 'Everything. Even from under a blanket.'",
+            "Dr. Reyes: 'Even from under a blanket.' (pauses) 'I was thinking we could play a game instead of talking today.'",
+            "Leo: 'What game?'",
+            "Dr. Reyes: 'Any game you pick. It is your hour.'",
+            "Leo: 'Blocks. I want to build a garage for the race car.'",
+            "Dr. Reyes: 'Then we build a garage. And whenever you are ready, we can talk about the night with the blanket, one detail at a time.'"
+          ],
+          "choices": [
+            "Press Leo right now to describe everything he heard and saw under the blanket, since the drawing proves he is ready.",
+            "Interpret the giant eyes to Leo directly by telling him the eyes mean he peeked at the killer.",
+            "Drop the drawing and art entirely and talk only about his new home with his father.",
+            "Let the drawing open the door, then shift into play that builds a bond of rapport, letting Leo set the pace for any retelling."
+          ],
+          "optimal_choice": 3,
+          "theoretical_principle": "The primary process and the opening gambit of drawing, followed by rapport through play, with retelling paced by the child.",
+          "psychological_breakdown": "The optimal choice follows Eth's method: the drawing opens the door without being forced, and play builds the rapport bond that makes retelling possible at the child's pace. Pressing for full disclosure now would flood Leo, because the retelling must be dosed slowly - he later recited details in a stereotyped way before the narrative opened up. Directly interpreting the eyes ('you peeked at the killer') names what he cannot yet bear and would shut him down. Dropping art and play forfeits the two channels children use to rethink ordeals, leaving the memory dammed up for a later flashback."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Trauma Play and Mastery",
+          "visual_frame_description": "The Cleveland Elementary playground at recess. Second graders play a game called Purdy: one boy plays the villain with a toy AK-47, children play the victims, and in some rounds the children turn and 'kill' Purdy. A newly hired teacher stands at the edge, hands on hips, about to blow her whistle and stop it. Som Chit's six-year-old son holds his toy gun and looks up at her.",
+          "player_mission": "You are consulting with the school after the shooting. First identify what the Purdy game actually is for these children, then decide what the teacher should do about it. Stopping or allowing the game will either support or block the children's natural relearning.",
+          "key_concepts": [
+            "The Purdy game spontaneously appeared in the play of children at Cleveland Elementary, reenacting the seven minutes in which Patrick Purdy sprayed bullets at the playground.",
+            "Sometimes in playing Purdy the children kill him, boosting their sense of mastery over that traumatic moment of helplessness.",
+            "Games like Purdy are predictable in younger children who have been through overwhelming violence, and were first noted by Dr. Lenore Terr, a child psychiatrist in San Francisco.",
+            "Such games let children relive a trauma safely, as play: the memory repeats in a context of low anxiety, desensitizing it and allowing a nontraumatized set of responses to become associated with it.",
+            "A second route to healing is that in their minds children can magically give the tragedy another, better outcome - in the game, the children kill Purdy.",
+            "Five years after the Chowchilla bus kidnapping, Terr found the ordeal still being reenacted in the victims' games, including symbolic Barbie play.",
+            "One Chowchilla girl played 'Traveling Barbie,' in which Barbie travels somewhere - it does not matter where - and returns safely, which is the point of the game.",
+            "Children less often become numb to trauma than adults because they use fantasy, play, and daydreams to recall and rethink their ordeals.",
+            "If a trauma is overwhelming, a child needs endless repetitions, replaying the trauma over and over again in a grim, monotonous ritual.",
+            "Voluntary replays of trauma seem to head off the need to dam them up in potent memories that can later burst through as flashbacks."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests repetitive trauma play as the child's natural emotional relearning: reliving the trauma in a low-anxiety context desensitizes the memory, and invented better endings restore mastery over helplessness. The chapter documents the Purdy game at Cleveland Elementary and Terr's Chowchilla findings as evidence for this route to healing.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "Children reenact overwhelming trauma in play to desensitize the memory in a safe context and to rewrite its ending, restoring mastery. The battle is won by recognizing this mechanism and protecting the play rather than banning it.",
+          "stage_1_observation": "Watching the full recess, you see the same scene replayed several times: children fall, some 'die,' and in roughly every third round the children triumphantly 'kill' Purdy, cheering. One quiet girl plays the whole recess at the edge, re-enacting the falling children without ever joining the victory rounds.",
+          "stage_1_question": "Why do these children keep replaying the shooting scene, and why does the girl at the edge repeat only the falling part?",
+          "stage_1_correct_answer": "The game lets children relive the trauma safely as play: the memory repeats in a low-anxiety context and the invented ending restores mastery, while the girl at the edge is dosing herself with a smaller piece of the memory - the same voluntary replay Terr saw in the Chowchilla children years after their kidnapping.",
+          "stage_2_intervention": "The new teacher is about to blow her whistle and ban the game as macabre and inappropriate. You have one chance to redirect her decision before she interrupts the recess.",
+          "stage_2_correct_answer": "Let the children direct the play within safe limits, because banning the game would block their natural channel of emotional relearning - they need endless repetitions to rework an overwhelming trauma, and stopping the game dams the memory up for a later flashback."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Retelling as Emotional Relearning",
+          "visual_frame_description": "A veterans' therapy office in the afternoon. Tom, 48, a Vietnam veteran twenty-four years after his service, sits forward in his chair, hands gripping his knees. A thunderstorm rumbles outside. He has just described waking frozen in fear, back at his guard post in the monsoon, smelling sulfur and seeing what was left of his buddy Troy. His therapist, Grace Okonkwo, leans in calmly.",
+          "player_mission": "You are Grace Okonkwo. Guide Tom through retelling his traumatic night the way the chapter describes - vividly, like a horror home video - while managing the pace so the retelling relearns rather than re-traumatizes. Your choices decide whether the memory comes under his control or floods him.",
+          "key_concepts": [
+            "The therapist encourages the patient to retell the traumatic events as vividly as possible, like a horror home video, retrieving every sordid detail - what they saw, heard, smelled, and felt, plus the dread, disgust, and nausea.",
+            "Putting sensory details and feelings into words presumably brings memories more under control of the neocortex, where the reactions they kindle can be rendered more understandable and so more manageable.",
+            "There seems to be an inner clock that doses people with intrusive memories that relive the trauma, intercut with weeks or months when they remember hardly anything of the horrible events.",
+            "This alternation of reimmersion and respite seems to allow a spontaneous review of the trauma and relearning of emotional response to it.",
+            "For intractable PTSD, retelling can trigger overwhelming fears, in which case the therapist should ease the pace to keep the patient's reactions within a bearable range that will not disrupt the relearning.",
+            "The Vietnam vet's account: thunder woke him instantly, frozen in fear, right back in Vietnam at his guard post, sure he would die, sweating and heart pounding, smelling damp sulfur.",
+            "PTSD represents a perilous lowering of the neural setpoint for alarm, leaving the person to react to life's ordinary moments as though they were emergencies.",
+            "Reliving the events and their emotions in surroundings of safety and security begins to impart the lesson that security, rather than unremitting terror, can be experienced in tandem with the trauma memories.",
+            "As patients retell the horrific details, the memory starts to be transformed, both in its emotional meaning and in its effects on the emotional brain.",
+            "The more brutal, shocking, and horrendous the events that trigger the amygdala hijacking, the more indelible the memory."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests retelling as the engine of emotional relearning: vivid re-experiencing inside a safe, trusting relationship, dosed by the inner clock of reimmersion and respite. The chapter presents this as the route by which memories are brought under neocortical control, with the therapist easing the pace whenever reactions threaten to overwhelm.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "You are Grace Okonkwo, and Tom wants the memory gone. He woke at 2 a.m. on the floor after thunder, twenty-four years after the night his buddy Troy died. The stakes: retelling too fast can flood his alarm circuits and strengthen the fear pathway, while a well-dosed retelling in the safety of your office begins to teach his emotional circuitry that security can accompany the memory.",
+          "dialogue": [
+            "Tom: 'Last night thunder woke me and I was back on the guard post. Smelled the sulfur. Saw Troy.'",
+            "Grace: 'When you are ready, tell me that night in the most detail you can - what you saw, heard, smelled, and what your body did.'",
+            "Tom: 'Rain like a wall. I hear the mortar round... I can't. My hands are sweating just saying this.'",
+            "Grace: 'That is okay. Put your feet on the floor. Look at the window. You are in my office, and it is 2 p.m.'",
+            "Tom: '...and I am not in the monsoon. I know. It just feels like dying.'",
+            "Grace: 'You lived through it. Now say it again, one piece at a time, and we stop the moment it floods you.'",
+            "Tom: 'Okay. The bamboo platter. He was on it... I can say it. It stays in this room.'",
+            "Grace: 'It stays in this room. That is the point - you are telling it here, in safety, not being taken back there.'"
+          ],
+          "choices": [
+            "Push Tom through the entire narrative in one long session so the memory gets drained of its power.",
+            "Follow his inner clock: alternate reimmersion with respite, ease the pace whenever he floods, and keep his reactions within a bearable range.",
+            "Skip the sensory details and focus on rationally reminding him that the war ended twenty-four years ago.",
+            "Tell him to stop retelling the night entirely, since reliving it will only strengthen the flashbacks."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Retelling as emotional relearning, dosed by the inner clock of reimmersion and respite, with the memory put into words under neocortical control.",
+          "psychological_breakdown": "The optimal choice mirrors the chapter's natural recovery pattern: intrusive reliving intercut with respite allows spontaneous review and relearning, and easing the pace when the patient floods protects the relearning from being disrupted. Forcing the entire narrative at once risks overwhelming fear that strengthens the fear pathway rather than the calm. Skipping sensory detail defeats the purpose, since capturing the dissociated, unworded parts of the memory is what brings it under neocortical control. Avoiding the retelling entirely leaves the hair-trigger intact, with the memory erupting uncontrollably at thunder for another two decades."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Neurochemistry of the Startle Response",
+          "visual_frame_description": "A mall parking lot in the late afternoon. A car backfires at the far end of the lot, and Sam, a 52-year-old Vietnam veteran in a golf shirt, drops into a crouch beside his wife's sedan, sweating and scanning the lot before straightening up and apologizing. Later that evening, in the family living room, his wife claps her hands behind him four times in a row - and he jumps, hard, each time.",
+          "player_mission": "First diagnose the mechanism behind Sam's non-habituating startle response, then choose a treatment strategy that calms his hyperreactive alarm circuitry enough for therapy to work. Your diagnosis determines whether his doctor reaches for the right tools.",
+          "key_concepts": [
+            "Changes in the locus ceruleus dysregulate the brain's secretion of catecholamines - adrenaline and noradrenaline - which mobilize the body for an emergency and stamp memories with special strength.",
+            "In PTSD the catecholamine system becomes hyperreactive, secreting extra-large doses in response to situations that hold little or no threat but somehow are reminders of the original trauma.",
+            "Vietnam vets with PTSD, one study found, had 40 percent fewer catecholamine-stopping receptors than did men without the symptoms, suggesting their catecholamine secretion was poorly controlled.",
+            "Other changes occur in the circuit linking the limbic brain with the pituitary gland, which regulates release of CRF, the main stress hormone the body secretes to mobilize the emergency fight-or-flight response.",
+            "As Charles Nemeroff put it, too much CRF makes you overreact: a car backfiring at the mall can flood a vet with the same feelings as the original trauma - sweating, chills, shakes, flashbacks.",
+            "People who hypersecrete CRF do not habituate: they respond as much to the fourth clap of hands as to the first.",
+            "The opioid system, which secretes endorphins to blunt the feeling of pain, also becomes hyperactive in PTSD, numbing certain feelings.",
+            "Battlefield surgeons found severely wounded soldiers needed lower doses of narcotics to handle their pain than did civilians with far less serious injuries - the pain-numbing power of high opioid levels.",
+            "Medications can counter only some of these changes: the antidepressants that act on the serotonin system, and beta-blockers like propranolol, which block the activation of the sympathetic nervous system.",
+            "A physiological calm opens a window for helping the emotional circuitry rediscover that life is not a threat."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the neurochemistry of the hyperreactive alarm: hypersecreted CRF and poorly controlled catecholamines keep the startle response overactive and un-habituating, while opioid changes add numbing. The chapter grounds this in Nemeroff's account of the un-habituating startle and the 40 percent receptor deficit found in PTSD vets.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "In PTSD the locus ceruleus-catecholamine and CRF circuits are hyperreactive, so ordinary sounds like a backfire trigger a full emergency response and the startle never habituates. The battle is won by identifying the hyperactive emergency circuitry and then choosing treatments that restore physiological calm before emotional relearning.",
+          "stage_1_observation": "At the mall, Sam dropped to a crouch at a car backfire, sweating and scanning the lot, then apologized a minute later. At home, his wife claps her hands behind him four times in a row; he jumps as hard on the fourth clap as on the first. He is embarrassed: 'I know there is nothing there. I cannot make my body believe it.'",
+          "stage_1_question": "Why does Sam's startle response fail to wear down with repetition, even though he knows the claps are harmless?",
+          "stage_1_correct_answer": "Sam hypersecretes CRF, so his startle response is overactive and does not habituate - he responds as much to the fourth clap as to the first, because the alarm circuits stay in emergency mode and flood him with the feelings of the original trauma.",
+          "stage_2_intervention": "Sam's psychiatrist must choose the treatment plan that restores a physiological calm before therapy can reeducate the emotional circuitry. The doctor's options include cognitive exercises alone, medication targeting the emergency circuits, or reassurance that time will heal the startle.",
+          "stage_2_correct_answer": "Combine medications that counter the brain changes - beta-blockers like propranolol that block sympathetic nervous system activation and serotonin-system antidepressants - with relaxation techniques and therapy, since a physiological calm opens the window for the emotional circuitry to rediscover that life is not a threat."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Extinction and the Cortical Brake",
+          "visual_frame_description": "A psychologist's office at a university clinic. Dr. Hal Linden, a research psychologist, sits opposite Yuki, 29, a graphic designer who has been terrified of dogs since a snarling German shepherd chased her at age eight. Outside the window, a man walks a friendly golden retriever past the building. Yuki watches it with a mixture of longing and dread.",
+          "player_mission": "You are Dr. Hal Linden. Yuki is dating someone who owns a gentle Labrador and wants to know if a twenty-year fear of dogs can actually go away. Explain the mechanism of extinction correctly and advise a strategy grounded in the chapter's account of fear conditioning and relearning.",
+          "key_concepts": [
+            "Fear conditioning is the name psychologists use for the process whereby something that is not in the least threatening becomes dreaded as it is associated in someone's mind with something frightening.",
+            "The key region of the brain that learns, retains, and acts on this fearful response is the circuit between the thalamus, amygdala, and prefrontal lobe - the pathway of neural hijacking.",
+            "Ordinarily, when someone learns to be frightened by something through fear conditioning, the fear subsides with time through natural relearning, as the feared object is encountered again in the absence of anything truly scary.",
+            "A child who acquires a fear of dogs because of being chased by a snarling German shepherd gradually and naturally loses that fear if she moves next door to someone who owns a friendly shepherd and spends time playing with the dog.",
+            "In PTSD spontaneous relearning fails to occur: the amygdala hijacking occurs every time something even vaguely reminiscent of the original trauma comes along, so there is never a time when what is feared is paired with a feeling of calm.",
+            "Charney observes that extinction of the fear appears to involve an active learning process, which is itself impaired in people with PTSD, leading to the abnormal persistence of emotional memories.",
+            "The original fear ingrained in the amygdala does not go away completely; rather, the prefrontal cortex actively suppresses the amygdala's command to the rest of the brain to respond with fear.",
+            "Richard Davidson, who discovered the role of the left prefrontal cortex as a damper on distress, found that people with more activity in the left prefrontal cortex got over a learned fear more quickly.",
+            "In a laboratory experiment where people first learned an aversion to a loud noise - a lower-key parallel of PTSD - Davidson showed that higher left prefrontal activity predicted faster letting go of the learned distress.",
+            "In overcoming learned fear, the neocortex is critical, even though the amygdala is key among the brain regions involved in acquiring it."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests extinction as an active relearning in which the prefrontal cortex suppresses the amygdala's alarm, with the left prefrontal cortex acting as a damper on distress. The chapter grounds this in Charney's account of extinction and Davidson's experiment on letting go of learned fear.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "You are Dr. Hal Linden, and Yuki has a twenty-year dog phobia from a childhood chase. She wants to know whether the fear can truly be unlearned before she commits to her partner's Labrador. The stakes: if you describe extinction as erasure, she will despair when the first twinge remains; if you describe it correctly, she can begin the gradual relearning.",
+          "dialogue": [
+            "Yuki: 'I have been scared of dogs for twenty years. How could that ever go away?'",
+            "Hal: 'Extinction is an active learning process, not erasure. Your amygdala kept its record of the chase - what changes is that your prefrontal cortex learns to suppress its alarm.'",
+            "Yuki: 'So the fear is still in there forever?'",
+            "Hal: 'Something like that. In the lab, people who show more activity in the left prefrontal cortex let go of a learned fear faster. That region is a damper on distress.'",
+            "Yuki: 'And in real life?'",
+            "Hal: 'You meet the friendly Labrador again and again with nothing scary happening. Each calm encounter pairs the dog with safety - that is the relearning.'",
+            "Yuki: 'But I cannot just show up and pet it.'",
+            "Hal: 'Correct. You start at the distance where you stay calm and shrink that distance. That relearning is exactly what PTSD interrupts - the feared thing never gets paired with calm, so the fear never extinguishes.'"
+          ],
+          "choices": [
+            "Tell Yuki the fear is permanently imprinted in the amygdala, so the best she can do is manage around it and warn her partner.",
+            "Explain the mechanism and recommend graduated calm encounters with the dog, since each safe pairing teaches the cortex to suppress the amygdala's alarm.",
+            "Suggest she adopt a dog immediately and force the extinction through exposure, since delay only strengthens the fear.",
+            "Tell her to mentally replay the original chase repeatedly in her mind to break the association down."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Extinction as active relearning, with the prefrontal cortex suppressing the amygdala's fear command and the left prefrontal cortex as the damper on distress.",
+          "psychological_breakdown": "The optimal choice matches the chapter's natural relearning: encountering the feared object again without anything scary, at a manageable distance, lets the cortex learn to suppress the amygdala's alarm - as with the child who lost her dog fear by playing with a friendly shepherd next door. Telling her the fear is permanent denies the central good news that even PTSD can lift through relearning. Forced immersion skips the graduated pairing with calm that extinction requires and would likely re-traumatize her on day one. Mental replay of the chase rehearses the fear without any calm pairing, which is the opposite of what extinction needs."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Helplessness as the Wild Card in PTSD",
+          "visual_frame_description": "A research laboratory at the National Center for Post-Traumatic Stress Disorder. Two identical cages sit side by side, each holding a rat wired for mild electric shocks of identical severity. In cage A a small lever stops the shocks for both cages; in cage B there is no lever. A researcher's log shows the same shock count for both animals over three weeks - and markedly different stress outcomes.",
+          "player_mission": "First interpret the paired-cage experiment correctly: identify which rat develops the stress-induced brain changes and why. Then apply that lesson to a patient who feels at the mercy of her own alarms, choosing the first step of recovery that directly unlearns helplessness.",
+          "key_concepts": [
+            "Dr. John Krystal: it is the feeling that your life is in danger and there is nothing you can do to escape it - that is the moment the brain change begins.",
+            "In the paired-cage experiments, two rats in different cages receive mild electric shocks of identical severity, but only one rat has a lever that stops the shocks for both cages.",
+            "Over days and weeks both rats get precisely the same amount of shock, but the rat with the power to turn the shocks off comes through without lasting signs of stress.",
+            "It is only in the helpless one of the pair that the stress-induced brain changes occur.",
+            "The operative word is uncontrollable: if people feel there is something they can do in a catastrophic situation, some control they can exert, no matter how minor, they fare far better emotionally than those who feel utterly helpless.",
+            "Helplessness is what makes a given event subjectively overwhelming.",
+            "Dr. Dennis Charney: all uncontrollable stress can have the same biological impact, whether the incessant terror of combat, torture, repeated abuse in childhood, or a one-time experience like being trapped in a hurricane.",
+            "Helping patients regain some sense of control over what is happening to them is a direct unlearning of the lesson of helplessness that the trauma imparted.",
+            "Irene mobilized her friends and family to form a buffer between her and her stalker, and was able to get the police to intervene.",
+            "For a child being shot at on a playground, seeing his playmates bleeding and dying - or for a teacher there, unable to stop the carnage - that helplessness must have been palpable."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests uncontrollability as the trigger of trauma: identical shocks produce brain changes only in the helpless animal, because the feeling that nothing can be done is what makes an event overwhelming. The chapter extends this to treatment, where regaining control is a direct unlearning of the helplessness lesson.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "Helplessness, not the stressor itself, is the wild card in PTSD: identical shock produces lasting brain changes only in the rat without the lever. The battle is won by recognizing control as the protective factor and then rebuilding it in the patient before tackling the memory.",
+          "stage_1_observation": "The research log shows both rats received 480 identical shocks over three weeks. Rat A has a lever that stopped both cages' shocks; Rat B has none. At week three, stress hormone assays and brain measures show lasting stress-induced changes in only one of the two animals, and Rat A is foraging and grooming normally while Rat B is huddled and startle-prone.",
+          "stage_1_question": "Both rats received the same shocks. Why does only one show lasting stress-induced brain changes, and which one?",
+          "stage_1_correct_answer": "Only the helpless rat (Rat B) shows the changes: identical shock, but no control, and helplessness is the element that makes an event subjectively overwhelming and sets the brain change in motion - the rat with the lever comes through without lasting signs of stress.",
+          "stage_2_intervention": "A therapist applies the lesson to Marta, a mugging survivor who says her own body alarms are out of her control and she cannot sleep, leave the house, or quiet her heart. The therapist must choose the first step of the session that directly unlearns the lesson of helplessness.",
+          "stage_2_correct_answer": "Help Marta regain concrete control before the memory work - name her symptoms as PTSD, teach her a relaxation technique she can run, and plan a small concrete action (as Irene mobilized friends, family, and police), because regaining a sense of control is a direct unlearning of the helplessness the trauma imparted."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Changing Responses, Not the Underlying Wish",
+          "visual_frame_description": "A therapist's office at the University of Pennsylvania. Nadia Farrow, a psychotherapist, sits with Ravi, 41, an architect, eighteen months into therapy. Ravi is relaxed, hands open. The wall clock shows the session is one of the last before termination, and the office feels quieter than in the early months, when Ravi's voice was clipped and defensive.",
+          "player_mission": "You are Nadia Farrow, applying the pattern Luborsky documented in long-term therapy patients. Ravi's craving for acceptance is still intact, but his self-defeating responses have changed. Guide the closing work so Ravi understands exactly what therapy changed - and what it did not.",
+          "key_concepts": [
+            "Luborsky and his colleagues analyzed the main relationship conflicts that brought dozens of patients into psychotherapy - issues such as a deep craving to be accepted or find intimacy, or a fear of being a failure or being overly dependent.",
+            "Patients made typical, always self-defeating responses when these wishes and fears were activated in their relationships - such as being too demanding, which created a backlash of anger or coldness, or withdrawing in self-defense from an anticipated slight.",
+            "Whatever the specific pattern, it showed up in most every important relationship, whether with a spouse or lover, a child or parent, or peers and bosses at work.",
+            "During such ill-fated encounters the patients felt flooded by upsetting feelings - hopelessness and sadness, resentment and anger, tension and fear, guilt and self-blame.",
+            "Over the course of long-term therapy, patients' emotional reactions to the triggering events became less distressing, even calm or bemused, and their overt responses became more effective in getting what they truly wanted.",
+            "What did not change, however, was the underlying wish or fear, and the initial twinge of feeling.",
+            "By the end of therapy, the encounters patients told about showed only half as many negative emotional reactions compared to when they first started, and they were twice as likely to get the positive response they deeply desired.",
+            "As Joseph LeDoux conjectures, once your emotional system learns something, it seems you never let it go; what therapy does is teach you to control it - it teaches your neocortex how to inhibit your amygdala.",
+            "What seems to remain even after successful therapy is a vestigial reaction: the prefrontal cortex can put the brakes on the amygdala's impulse to rampage, but cannot keep it from reacting in the first place.",
+            "A quicker recovery time from emotional outbursts may well be one mark of emotional maturity."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the central finding of Luborsky's psychotherapy studies: long-term therapy halves negative emotional reactions and doubles the chance of getting the desired response, while the underlying wish and the initial twinge remain. The chapter frames this in brain terms as the prefrontal cortex learning a healthier response that brakes, but cannot abolish, the amygdala's first reaction.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "You are Nadia Farrow, and Ravi entered therapy because any hint of criticism collapsed him - he withdrew, colleagues were miffed, and his wife felt shut out. After eighteen months he reports asking a question instead of disappearing when a partner questioned his work. The stakes: Ravi worries the persistence of his initial twinge means the therapy failed, and your framing of what changed will determine how he uses the skill after termination.",
+          "dialogue": [
+            "Ravi: 'In yesterday's meeting, Dana questioned my framing. I felt the old collapse and went quiet for the rest of the afternoon.'",
+            "Nadia: 'Notice what you said: the old collapse. The twinge is still there?'",
+            "Ravi: 'It fired instantly - she thinks you are a failure. But here is what changed: I asked her a question instead of disappearing.'",
+            "Nadia: 'And?'",
+            "Ravi: 'She said she wanted to talk about the framing, not me. We redid the slide together. Then I told Mira about it at dinner - she laughed with me instead of going quiet.'",
+            "Nadia: 'The wish - to be accepted - did not vanish. What changed is what you did with the twinge.'",
+            "Ravi: 'So I do not have to be rid of it. I just have to outlast it.'",
+            "Nadia: 'That is the mark of emotional maturity the research points to: not never being triggered, but how quickly you recover once you are.'"
+          ],
+          "choices": [
+            "Congratulate Ravi that the therapy has finally removed the sensitivity itself.",
+            "Urge Ravi to suppress the initial twinge before it shows, since that is the last step to full recovery.",
+            "Trace how the new response got him what he wanted, while confirming that the underlying wish and the first twinge remain - and that this is the expected, healthy outcome.",
+            "Warn Ravi that any future retreat at the first twinge means the therapy has failed and he must restart."
+          ],
+          "optimal_choice": 2,
+          "theoretical_principle": "Luborsky's finding that therapy changes responses, not the underlying wish or the initial twinge, plus LeDoux's model of the neocortex inhibiting the amygdala.",
+          "psychological_breakdown": "The optimal choice matches the data: what changed over therapy was that Ravi's reaction became less distressing and his overt response more effective - while the underlying wish and the initial twinge of feeling stayed the same. Claiming the sensitivity is gone would set him up for failure at the first relapse, since the vestigial reaction remains and the amygdala still fires first. Suppression is the old self-defeating strategy in new clothing - the skill is a quicker recovery, not preventing the twinge. Threatening him with failure converts a normal relapse into a catastrophe, exactly the kind of loaded reaction the therapy exists to soften."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Emotional Numbing Mistaken for Coldness",
+          "visual_frame_description": "A backyard cookout on a summer afternoon. Marcus, 51, a Gulf War veteran, sits at the edge of a picnic table, apart from the laughter, holding a plate he has not eaten from. Children fire a cap gun near the grill, and Marcus drops into a crouch, breathing hard, before slowly sitting back down. His wife watches him with hurt in her eyes.",
+          "player_mission": "You are a clinician reviewing a family's video of the cookout. Audit Marcus's behavior across the afternoon and decide what his flatness actually is. The family believes he no longer cares about any of them; your diagnosis will determine whether he gets treatment or gets written off as cold.",
+          "key_concepts": [
+            "In PTSD the brain's opioid system, which secretes endorphins to blunt the feeling of pain, becomes hyperactive - the opioids are the brain's own morphine.",
+            "Endorphin changes add a new dimension to the neural mix triggered by reexposure to trauma: a numbing of certain feelings.",
+            "This numbing appears to explain a set of negative psychological symptoms long noted in PTSD: anhedonia, the inability to feel pleasure, and a general emotional numbness, a sense of being cut off from life.",
+            "Those close to such people may experience this indifference as a lack of empathy.",
+            "Another possible effect of the numbing may be dissociation, including the inability to remember crucial minutes, hours, or even days of the traumatic event.",
+            "People who hypersecrete CRF do not habituate: they respond as much to the fourth clap of hands as to the first, because the startle response is overactive.",
+            "Under duress it is adaptive to be highly vigilant, aroused, ready for anything, impervious to pain, and indifferent to what might otherwise be intensely disturbing events - but these short-term advantages become lasting problems.",
+            "The symptoms of PTSD include anxiety, fear, hypervigilance, being easily upset and aroused, and readiness for fight or flight.",
+            "The neural changes of PTSD also seem to make a person more susceptible to further traumatizing.",
+            "The hippocampus is among the regions where the stress hormone CRF is oversecreted, alerting the body for an emergency that is not there in reality."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the difference between PTSD-related emotional numbing and genuine indifference: the hyperactive opioid system blunts feeling while the alarm circuitry stays overactive. The chapter notes that people close to the traumatized person may misread this numbing as a lack of empathy.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "question": "Marcus's family has concluded he is lying about caring, or simply no longer cares. What does the full observation log actually show?",
+          "subject_baseline": "Before his deployment-related trauma, Marcus organized these cookouts himself, told stories, and hugged every arriving relative. In the past two years he attends but sits at the edge, speaks little, and shows almost no reaction to jokes or news. He still drives his daughter to work every morning without fail.",
+          "observed_nonverbal_log": [
+            "12:04 pm - A car backfires in the street. Marcus flinches hard, grips his plate, and scans the yard; within a minute his posture goes flat again.",
+            "12:20 pm - The table erupts at his wife's joke. Marcus shows a half-second flicker of a smile, then a blank, still face, and looks down at his plate.",
+            "12:41 pm - His sister tells him she is divorcing. He nods, looks away at the fence line, and says nothing for several seconds before asking about the potato salad.",
+            "1:05 pm - A child fires a cap gun. Marcus drops into a crouch, breathing fast, eyes wide; he sits back down slowly and is silent for the rest of the meal.",
+            "1:30 pm - His daughter hugs him goodbye. He holds her for a full ten seconds but his face does not move; when she pulls back he does not meet her eyes."
+          ],
+          "interrogation_transcript": [
+            "Wife: 'Marcus, did you even hear what Janie said? You just stared at the fence.'",
+            "Marcus: 'I heard. I do not know why I cannot feel it when it is her.'",
+            "Sister: 'Are you even glad I told you?'",
+            "Marcus: 'I am trying to feel it. It is like my feelings are wrapped in cotton.'",
+            "Wife: 'Then why do you jump out of your skin at a cap gun and feel nothing for your own sister?'",
+            "Marcus: 'That is the thing I cannot explain. The jump is automatic. The feeling is not.'"
+          ],
+          "correct_diagnosis": "Marcus shows PTSD with hyperarousal plus emotional numbing: his non-habituating startle at a backfire and cap gun, paired with anhedonia and a stated inability to feel, matches the endorphin-related numbing the chapter describes - not indifference, deception, or a real lack of empathy.",
+          "diagnostic_breakdown": "The baseline matters: Marcus was emotionally expressive before, and he still reliably acts on care (driving his daughter daily, the ten-second hug), so genuine indifference is inconsistent with the record. The paired signs clinch it: an overactive, non-habituating startle to trauma-like sounds, exactly the CRF-driven pattern, plus the 'wrapped in cotton' flatness and the flicker-then-blank responses, which match the numbing produced by opioid hyperactivity. The family's reading of 'lack of empathy' is precisely the misperception the chapter warns of when the traumatized person's numbing is seen from outside.",
+          "distractors": [
+            "Marcus is lying about caring and is consciously withholding his reactions to punish the family.",
+            "Marcus has simply lost interest in his family and the cookout is his way of signaling he is done with them.",
+            "Marcus is drunk or heavily medicated, and the alcohol is what is dulling his responses and slowing his startle."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Minimized Trauma: Diagnosing PTSD After Stalking",
+          "visual_frame_description": "A therapist's office on a weekday afternoon. Carmen, 32, a community organizer who used to host weekly dinner parties, sits hunched in a chair, arms wrapped around herself. When a car door slams in the street, she flinches and checks the window twice. Across from her, the therapist reviews an intake that lists unplugged phones and months of canceled plans.",
+          "player_mission": "You are the clinician evaluating Carmen, who was assaulted on a date and then stalked for months. The police told her 'nothing had really happened.' Audit her behavior and account, and decide whether her constriction and fear are a genuine trauma response or an exaggeration. Your verdict determines whether she gets treatment or another dismissal.",
+          "key_concepts": [
+            "Violent acts are more pernicious than natural catastrophes because, unlike victims of a natural disaster, victims of violence feel themselves to have been intentionally selected as the target of malevolence.",
+            "Intentional violence shatters assumptions about the trustworthiness of people and the safety of the interpersonal world, an assumption natural catastrophes leave untouched.",
+            "Within an instant, the social world becomes a dangerous place, one in which people are potential threats to your safety.",
+            "Human cruelties stamp their victims' memories with a template that regards with fear anything vaguely similar to the assault itself.",
+            "Irene had symptoms of PTSD after an attempted rape and months of harassment, had given up socializing at all, and felt a prisoner in her own house.",
+            "The police dismissed Irene's problem as trivial since 'nothing had really happened,' even though the harassment continued with obscene calls, threats, and stalking.",
+            "The first step of recovery is regaining a sense of safety, which translates to finding ways to calm the too-fearful, too-easily-triggered emotional circuits enough to allow relearning.",
+            "Understanding that jumpiness, nightmares, hypervigilance, and panics are part of the symptoms of PTSD makes the symptoms themselves less frightening.",
+            "PTSD patients' insecurity begins more intimately: in the feeling that they have no control over what is happening in their body and to their emotions.",
+            "One of the more encouraging findings about PTSD: a quarter of Holocaust survivors who once had been troubled by symptoms no longer had them - the brain changes of PTSD are not indelible."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests recognition of PTSD after intentional violence, where the shattering of trust in the interpersonal world produces hypervigilance, constriction, and a sense of being a prisoner. The chapter uses Irene's case to show both the full symptom picture and the destructive misreading of it as trivial.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "question": "Carmen has stopped seeing friends, unplugged her phone, and told her sister the stalker will 'get to me anytime he wants.' The police said nothing happened. Is Carmen's presentation a genuine PTSD response, a bid for sympathy, or something else?",
+          "subject_baseline": "Before the assault, Carmen hosted weekly dinner parties for a dozen friends, spoke at community meetings, and answered her phone on the first ring. In the four months since the stalking began, she has canceled every gathering, stopped answering calls, and leaves her apartment only for work, taking a different route each day.",
+          "observed_nonverbal_log": [
+            "2:02 pm - A car door slams outside the office. Carmen flinches, wraps her arms around herself, checks the window twice, and her breathing stays shallow for several minutes.",
+            "2:15 pm - Describing the obscene phone calls, her voice flattens and she stares at a fixed point on the carpet; she does not cry.",
+            "2:24 pm - Recounting how the police dismissed her case, her jaw tightens, she looks away, and her voice drops to a whisper: 'Nothing had really happened.'",
+            "2:31 pm - Asked to list her friends' names, she can recall only two of the twelve she used to host; she rubs her arms as she tries.",
+            "2:38 pm - When the therapist asks if she feels safe anywhere, Carmen shakes her head slowly, pulls her cardigan closed, and says nothing for fifteen seconds."
+          ],
+          "interrogation_transcript": [
+            "Carmen: 'I hear the phone ring and my heart stops. I have unplugged it at night.'",
+            "Therapist: 'What do you think the calls meant?'",
+            "Carmen: 'That he can get to me anytime he wants. The police said nothing had happened, so maybe he is right.'",
+            "Therapist: 'You said your sister thinks you are hiding from everything.'",
+            "Carmen: 'I am hiding. And she thinks I am making the whole thing bigger than it is.'",
+            "Therapist: 'Do you think you are making it bigger than it is?'",
+            "Carmen: 'I do not know anymore. I only know I cannot make my body feel safe, and I used to feel safe everywhere.'"
+          ],
+          "correct_diagnosis": "Carmen has PTSD following the assault and sustained stalking - hypervigilance to neutral sounds, constricted life, flattened affect, and the shattered sense that the interpersonal world is unsafe. The police's dismissal, like the one in Irene's case, was a failure of recognition, not evidence that nothing happened.",
+          "diagnostic_breakdown": "The record shows the classic PTSD profile from the chapter: a startle to a neutral sound (the car door), hypervigilance with repeated checking, flattening exactly when the threat is described, a narrowed social world, and the core belief of victims of intentional violence - that people are potential threats and nowhere is safe. The baseline contrast is decisive: a woman who hosted a dozen friends weekly does not become housebound and phone-phobic out of bid for sympathy, and she volunteered the police's dismissal herself, repeating it as evidence against her own suffering. Her case maps directly onto Irene's, where the symptoms were real, the constriction complete, and the authorities' minimization the wound that made her stop asking for help.",
+          "distractors": [
+            "Carmen is malingering to gain sympathy or some form of compensation from her therapist.",
+            "Carmen simply has a social anxiety disorder that predates the assault and is unrelated to it.",
+            "Carmen's fears are purely rational because the stalker is still at large, so no treatment should begin until he is caught."
+          ]
+        }
+      ]
+    }
+  ]
+}

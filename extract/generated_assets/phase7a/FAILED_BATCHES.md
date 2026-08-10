@@ -7,3 +7,4 @@ AFTER all books are attempted.
 | Batch | Book | #Fails | First Failure | Last Attempt | Error / Notes |
 |-------|------|--------|---------------|--------------|----------------|
 | spec_lucifer_effect_b15 | lucifer_effect | 3 | 2026-08-10 | 2026-08-10, wave b15+waves | Agent session returned empty result; no file written (3 consecutive attempts). Chapter ch21 (CHAPTER FIFTEEN). Backfill needed. |
+| spec_emotional_intelligence_b06 | emotional_intelligence | 2 | 2026-08-10 | 2026-08-10, retry | Agent session returned empty result; no file written (2 attempts: initial + retry). Chapter ch12. Backfill needed. |

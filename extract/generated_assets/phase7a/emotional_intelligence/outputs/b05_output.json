@@ -1,0 +1,436 @@
+{
+  "spec_file": "spec_emotional_intelligence_b05.json",
+  "chapters": [
+    {
+      "id": "ch11",
+      "title": "5. Passion's Slaves",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Charitable Reappraisal of the Road-Rage Trigger",
+          "visual_frame_description": "A four-lane freeway at Friday rush hour, 5:45 PM, cars bumper to bumper in golden evening light. Maya grips the steering wheel of her sedan with white knuckles after a silver SUV cut across two lanes and nearly clipped her bumper; Leo, her partner, sits in the passenger seat. The SUV is still visible three car-lengths ahead, and Maya's jaw is locked as she watches it. A faint bead of sweat is visible on her temple.",
+          "player_mission": "You are Leo. Maya's reflexive thought was 'That son of a bitch!' and she is one angry rumination away from escalating into road rage. Steer her away from the train of outrage-and-revenge thoughts and toward reappraisal before she acts on the anger. Choose the response that short-circuits the rage buildup.",
+          "dialogue": "MAYA: \"Did you see that? That son of a bitch cut right across both lanes!\"\nLEO: \"I saw it. You were lucky you reacted as fast as you did.\"\nMAYA: \"He could have hit us! He could have killed us! And he just drives off like nothing happened.\"\nLEO: \"But he didn't hit us. We're fine.\"\nMAYA: \"I can't just let him get away with that. I'm going to catch up and tell him exactly what I think of him.\"\nLEO: \"Hold on. Before you do that, listen to me for a second.\"",
+          "choices": [
+            "That was terrifying, and he was wrong. But think about it: maybe he didn't see us, or maybe he's rushing somewhere in an emergency. Catching up to him will only end badly for both of you. Let him go.",
+            "Yeah, catch up to him and honk. People get away with too much out here — you have every right to be furious.",
+            "Don't say anything, just keep gripping the wheel and stewing. Let it burn quietly so you don't cause a scene.",
+            "Fine — chase him if you want, but I'm calling the police and reporting a reckless driver right now."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Zillmann's reappraisal of anger: challenging the thoughts that trigger the anger surge, ideally before the anger is acted on, can completely short-circuit the buildup of rage.",
+          "psychological_breakdown": "Choice 0 works because it validates the fear ('terrifying') while replacing the hostile appraisal ('That son of a bitch!') with mitigating possibilities ('maybe he didn't see us, maybe an emergency'). Zillmann found that mitigating information lets the angered person reappraise the event, and if it arrives before the anger is acted on the rage can be completely defused. Choice 1 fans the flames: every angry thought is a minitrigger for another catecholamine surge, so each justification ('people get away with too much') adds fuel. Choice 2 is suppression without reappraisal — the indignant train of thought keeps stoking arousal while she drives, the exact condition that leads to exploding at the next innocent driver. Choice 3 keeps her attention locked on the 'revenge and reprisal' frame, rehearsing the event instead of reinterpreting it, and sustains the arousal that produces reckless driving.",
+          "key_concepts": [
+            "A universal trigger for anger is the sense of being endangered, whether by a physical threat or a symbolic threat to self-esteem or dignity.",
+            "The reflexive thought 'That son of a bitch!' can launch a train of outrage-and-revenge thoughts that escalates rage with each added justification.",
+            "Reframing a situation more positively was one of the most potent ways to put anger to rest in Diane Tice's research.",
+            "Mitigating information that arrives before anger is acted on can completely short-circuit the anger cycle, but it fails at high levels of rage.",
+            "Benjamin Franklin's observation applies here: 'Anger is never without a reason, but seldom a good one.'",
+            "The amygdala is the likely source of the sudden spark of rage at a driver whose carelessness endangers us.",
+            "Brooding fuels anger's flames; seeing things differently douses them.",
+            "Anger is the mood people are worst at controlling, and its self-righteous inner monologue produces the most convincing arguments for venting it.",
+            "Zillmann's experiments showed retaliation intensity was proportional to how physiologically aroused the provoked person had become.",
+            "The original appraisal of an interaction confirms the first burst of anger, and subsequent reappraisals fan the flames."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the reappraisal path of anger de-escalation: the initial hostile appraisal triggers the first surge of rage, and each subsequent angry thought is a minitrigger that builds on the arousal of those before. Zillmann found that challenging those thoughts early, or supplying mitigating information before anger is acted on, can completely short-circuit the rage cascade.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Maya and Leo drive home after a near-collision on the freeway; Maya is still flooded with anger and wants to chase the other driver. Your goal as the dialogue partner is to guide her through reappraising the trigger before the surge drives action, knowing that at peak arousal the body runs the show."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Symbolic Threats to Dignity and Cooling Off",
+          "visual_frame_description": "The windowless conference room of Medline Pharmaceuticals after the 9:00 AM ops review, fluorescent lights humming. Priya, a senior analyst in her thirties, stands beside the conference table gripping a water bottle; her face is flushed and her hands shake slightly. Daniel, the director, has just left after publicly calling her forecast 'embarrassing' in front of the whole team. Ravi, a colleague, stands in the doorway watching her breathe in short, tight bursts.",
+          "player_mission": "You are Ravi. Priya has just been demeaned in front of her peers — an insult that strikes at self-esteem, one of Zillmann's universal triggers for anger. She is about to march back into Daniel's office at the peak of her arousal. Guide her through the response that lets the surge settle before she confronts him.",
+          "dialogue": "RAVI: \"Priya, hey. You look really shaken. What happened in there?\"\nPRIYA: \"Did you hear him? 'This forecast is embarrassing.' In front of the whole team, after I worked on that model for two weeks. I feel like he punched me in the gut.\"\nRAVI: \"That was unfair. Nobody deserves to be called out like that.\"\nPRIYA: \"I'm going to march right back in there and tell him exactly what I think of him. Humiliate him right back.\"\nRAVI: \"Priya — your hands are shaking. That's your body still in fight mode.\"\nPRIYA: \"So what? I can't just sit here and take it. I'm so wound up I could scream.\"",
+          "choices": [
+            "You have every right to be furious — that was an insult. But right now your body is still at peak arousal, and at this level the surge runs the show. Walk the building's perimeter first, let the adrenaline settle, then go back and say what you need to say with a clear head.",
+            "March in there and tell him off. You have to defend your dignity, or he'll do this to you again every single week.",
+            "Just forget about it. He's an idiot with no manners, and giving him a reaction is exactly what he wants. Swallow it and move on.",
+            "Draft a furious email to HR right now while it's fresh, so you have the record of what he said before he can spin it."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Zillmann's two-stage anger management: the body's arousal must be cooled down physiologically before confrontation, because the angry train of thought keeps triggering new surges and rage is beyond reason.",
+          "psychological_breakdown": "Choice 0 works because it first validates the emotion — the goal is balance, not suppression — then applies Zillmann's cooling-off method: wait out the adrenal surge in a setting with no further triggers, so the confrontation happens at a level where Priya has cognitive access. Tice found that cooling down first and then confronting assertively was far more effective than acting on the rage itself. Choice 1 sends her in at peak arousal, where Zillmann finds 'cognitive incapacitation': rage is unhampered by reason, and her retaliation would be a primitive, reckless blast. Choice 2 is suppression: the feeling stays undischarged while the angry inner monologue — anger is energizing and seductive — keeps running, and the indignity is never addressed. Choice 3 converts the moment into rumination and replay, the very 'train of anger-inducing thought' that stokes cascades of anger; a fury-email written at this arousal level is rage acted on, not thought captured for reappraisal.",
+          "key_concepts": [
+            "Endangerment that triggers anger is more often symbolic than physical: being treated unjustly or rudely, insulted, demeaned, or frustrated in an important goal.",
+            "The catecholamine release from the anger surge provides a quick, episodic rush of energy enough for one course of vigorous action such as fight or flight.",
+            "The adrenocortical branch creates a tonic readiness that can last for hours or days, lowering the threshold for what provokes anger.",
+            "At high levels of rage people suffer cognitive incapacitation and can no longer think straight, dismissing mitigating information.",
+            "Zillmann sees escalating anger as a sequence of provocations, each triggering an excitatory reaction that dissipates slowly.",
+            "Tice found that ventilating anger was one of the worst ways to cool down: outbursts leave people feeling more angry, not less.",
+            "The more effective pattern Tice documented was to cool down first, then confront the person in a constructive or assertive manner.",
+            "Cooling off physiologically means waiting out the adrenal surge in a setting where there are not likely to be further triggers for rage.",
+            "Active exercise and relaxation methods change the body from the high arousal of anger to a low-arousal state.",
+            "Chogyam Trungpa's counsel on anger: 'Don't suppress it. But don't act on it.'"
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the endangerment trigger of anger — a symbolic threat to self-esteem being as potent as a physical one — and the two-stage de-escalation Zillmann described: cool the body's arousal down before any confrontation. The evidence base is the finding that at high arousal levels anger operates without cognitive guidance, so only after the surge subsides can constructive confrontation succeed.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Priya just had her work torn apart by a manager who mocked her forecast in front of the team; she is recounting the insult at full boil. Your goal is to help her cool down physiologically first, because symbolic threats to dignity stoke anger even without physical danger."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Escalation Cascade and the Power of Distraction",
+          "visual_frame_description": "A crowded Costco on Saturday morning, echoing with announcements and the clatter of carts. Elena, a young mother in yoga pants, pushes a shopping cart with her crying baby in the seat while her three-year-old son Marcus clings to a Ninja Turtles cereal box. Her shoulders are bunched, her voice has been rising with each exchange, and a shattered jelly jar is spreading glass across the floor at her feet. Naomi stands beside her, having just watched the sequence of small provocations stack up.",
+          "player_mission": "You are Naomi, Elena's friend. Elena's body was already edgy before the jelly jar shattered, and Zillmann's model says the next trigger will produce an especially intense explosion. Intervene in the seconds before she erupts — your goal is to break the escalation cascade by removing triggers and changing the setting.",
+          "dialogue": "ELENA: (tensely, to Marcus) \"Marcus, put that box back. Now.\"\nMARCUS: \"But I want it!\"\nELENA: \"Put it back!\" (her voice rising as she grips the cart handle)\nNAOMI: \"Elena, hey. Breathe. I've got you.\"\nELENA: \"That's it! That is it! I cannot take one more thing today, I swear —\" (the baby drops a jar of jelly; it shatters)\nNAOMI: (you speak, now)",
+          "choices": [
+            "Hey — I'll take care of the glass. You grab Marcus and head toward the checkout line; I'll carry the baby's bag and follow with the cart. Let's get you out of this aisle right now.",
+            "Elena, honestly, just give him the box. You're making this worse by fighting him over a cereal box — you have to pick your battles.",
+            "You're right, that's it. Tell him exactly how much trouble he's causing you. He has to learn that this behavior has consequences.",
+            "Stop and think about why Marcus acts out like this. If you don't figure out the root cause, this will keep happening for years."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Zillmann's anger-builds-on-anger escalation and cooling off: when the body is already edgy, a trigger produces especially intense emotion, so the intervention must remove further triggers and use distraction to break the angry train of thought.",
+          "psychological_breakdown": "Choice 0 is the intervention that matches Zillmann's model: Elena's arousal had been stacking — the whining, the store crowds, the earlier frustrations — and each angry thought or perception is a minitrigger building on the hormonal momentum of the ones before. Physical separation, concrete help, and movement toward the exit remove future triggers and begin the cooling-off period, while the task of herding a toddler to checkout is itself a distraction ('it's hard to stay angry when we're having a pleasant time'). Choice 1 argues with a woman whose arousal is peaking, where cognitive incapacitation makes reasoning useless, and it adds a fresh provocation (being told she's incompetent at parenting). Choice 2 actively fans the flame by inviting more anger talk — each angry thought rides the tails of those before and escalates the body's level of physiological arousal. Choice 3 demands introspection at the exact moment the cooling-off period must NOT include pursuing the train of anger-inducing thought, and turns her attention back onto the source of her fury.",
+          "key_concepts": [
+            "Zillmann found that when the body is already in a state of edginess, a trigger for emotional hijacking produces an emotion of especially great intensity.",
+            "Escalating anger is a sequence of provocations, each triggering an excitatory reaction that dissipates slowly.",
+            "Each successive anger-provoking thought is a minitrigger for amygdala-driven surges of catecholamines, building on the hormonal momentum of those before.",
+            "A thought that comes later in the buildup triggers a far greater intensity of anger than one that comes at the beginning.",
+            "At peak excitation, anger fosters an illusion of power and invulnerability that can inspire aggression as the enraged person falls back on primitive responses.",
+            "Stress of all sorts creates adrenocortical arousal, lowering the threshold for what provokes anger, so a hard day makes the evening more explosive.",
+            "Cooling off physiologically means waiting out the adrenal surge somewhere unlikely to contain further triggers for rage.",
+            "Distraction is a highly powerful mood-altering device: it is hard to stay angry when we are having a pleasant time.",
+            "A cooling-down period will not work if it is spent pursuing the train of anger-inducing thought, since each thought is itself a minor trigger.",
+            "Tice found that distractions like TV, movies, and reading help calm anger because they interfere with the angry thoughts that stoke rage."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the anger-builds-on-anger cascade Zillmann measured: successive provocations each trigger excitatory surges that ride the tails of those before, so the supermarket mother's explosion is far bigger than the jelly jar merits. The correct intervention removes triggers and applies distraction, because cooling off fails entirely when the angry train of thought is allowed to keep running.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "At a crowded store, Elena is already edgy from a long day when toddler Marcus throws a tantrum and knocks glassware; her arousal is stacking and a trigger is about to explode. Your goal is to intervene so the anger cascade does not escalate, using distraction and leaving the angry scene."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Interrupting the Chronic Worry Spiral",
+          "visual_frame_description": "The empty office kitchen at 9:40 PM, only the vending machine humming. Sam, a marketing associate, leans against the counter holding two mugs of tea; Jenna sits at the table with a half-built slide deck laptop, knees bouncing, staring at the ceiling. She is due to present the quarterly results to the executive committee in twelve hours and has been narrating catastrophe after catastrophe to herself all evening.",
+          "player_mission": "You are Sam. Jenna's mind is running the chronic worry loop: one catastrophic image, a rush of anxiety, then a verbal spiral that jumps from concern to concern and ends at total disaster. Apply Borkovec's method — catch the worry, challenge its assumptions, and break the loop with relaxation and incompatible activity.",
+          "dialogue": "JENNA: \"I keep running through tomorrow. What if the numbers in my deck don't match theirs? What if I freeze mid-sentence?\"\nSAM: \"That's a normal worry before a big presentation. What do you actually think happens if you freeze?\"\nJENNA: \"They'll think I'm incompetent. The project loses funding, and my career here is basically over. I can't stop thinking about it — I've been replaying it for three hours now.\"\nSAM: \"And has replaying it produced a single thing you'd put in the deck?\"\nJENNA: \"No. It's 9:40 and I still haven't finished the slides because I keep going over every failure scenario. The worry just keeps coming back no matter what I do.\"\nSAM: (you speak, now)",
+          "choices": [
+            "Let's reality-check that chain. Honestly, how likely is it that one shaky minute ends your career? Close to zero. And freezing is more likely if you stay wound up. Do five minutes of slow breathing with me now, then I'll quiz you on the numbers until you feel solid — that rehearsal actually helps, the catastrophe rehearsal doesn't.",
+            "Yeah, you really need to nail this. If you freeze, it could be bad. So let's go through every worst-case scenario together and write down your answers in advance — then you're prepared for each one.",
+            "Just stop worrying. Don't worry — be happy. You're a great analyst and they love you. Go home, sleep, and it'll be fine.",
+            "You're right to be worried. The committee is brutal — last year they grilled Omar for a full hour. You should probably practice the hardest questions they could possibly ask."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Borkovec's three-step method for chronic worry: self-awareness of the worry's onset, relaxation applied in the moment, and actively challenging the assumptions at the center of the worry train.",
+          "psychological_breakdown": "Choice 0 follows Borkovec's steps precisely: it challenges the catastrophic assumption ('your career is over') with the critical question 'Is it very probable the dreaded event will occur?', uses slow breathing to shift attention off the worry and onto the body, and replaces the worry loop with an incompatible train of mental activity — quizzing on the actual numbers, which is constructive preparation rather than catastrophic rehearsal. Choice 1 is the trap of treating worry as preparation: chronic worry is a rehearsal that never reaches positive solutions, and rehearsing every worst case primes more fear with each topic. Choice 2 is the advice chronic worriers cannot follow — the worries are low-grade amygdala episodes that come unbidden and persist, so 'just stop worrying' fails. Choice 3 actively feeds her spiral with more catastrophic material, adding a concrete terror (the Omar grilling) that will become her next loop.",
+          "key_concepts": [
+            "Chronic, repetitive worry has all the attributes of a low-grade emotional hijacking: unbidden, uncontrollable, impervious to reason, and locked into a single inflexible view.",
+            "The task of worrying is to come up with positive solutions for life's perils by anticipating dangers before they arise.",
+            "Worries typically include catastrophizing, imagining some terrible tragedy, and jump from concern to concern in words rather than images.",
+            "Chronic worriers ruminate on the danger itself and stay in the same rut of thought instead of generating new solutions.",
+            "The worry habit is reinforcing in the same sense that superstitions are: since the dreaded events rarely occur, the worry gets credit for preventing them.",
+            "Images are more powerful triggers for physiological anxiety than thoughts, so immersion in worry-thoughts partially suppresses the experience of anxiety.",
+            "Borkovec's first step is self-awareness: catching the worrisome episode as near its beginning as possible and identifying the cues that trigger it.",
+            "Relaxation methods must be practiced daily so they can be applied on the spot when the worry is recognized.",
+            "Worriers need to actively challenge their assumptions: Is it very probable the dreaded event will occur? Are there constructive steps to be taken?",
+            "These strategies establish a train of mental activity that is incompatible with worry, keeping the worried thought from being naively taken as true."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests Borkovec's account of chronic worry as a self-perpetuating, low-grade amygdala episode whose superstitious payoff (the feared event rarely happens, so the worry gets the credit) keeps the habit alive. The intervention combines the three tested steps — early self-awareness, relaxation, and challenging the worry's catastrophic assumptions — which create an incompatible train of mental activity.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Jenna is rehearsing tomorrow's presentation for the tenth time, convinced one shaky minute will end her career; the spiral is keeping her activated and helpless. Your goal is to walk her through Borkovec's three steps: self-awareness of the worry onset, relaxation, and challenging the catastrophic assumption."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Rumination and Reframing After a Breakup",
+          "visual_frame_description": "A quiet corner table at the Bluebird Coffee Shop on a gray Sunday afternoon, steam rising from two mugs. Dana, 34, sits hunched over an untouched pastry, phone face-down and screen black. Alex sits across from her. Dana's voice is flat and she keeps returning to the same two sentences about being tired and unlovable; she has declined every invitation for three weeks and spends her evenings re-reading old messages.",
+          "player_mission": "You are Alex. Dana is three weeks past a four-year breakup and is now ruminating: replaying the relationship, scanning her own failures, and telling herself this proves she will always be alone. Your mission is to break the rumination loop without dismissing her grief — shift her to concrete action, distraction, and a reframed story of the relationship.",
+          "dialogue": "DANA: \"I don't know why I came out. I'm so tired of being tired. I got nothing done all week — I can't even clean my apartment.\"\nALEX: \"Three weeks after a four-year breakup, of course you're exhausted. But it sounds like you've been inside replaying it the whole time.\"\nDANA: \"I keep telling myself I need to understand what happened. That's why I read his old messages — I'm trying to figure out where I went wrong. I guess I'm still not done grieving.\"\nALEX: \"Reading old messages at midnight — does that feel like understanding, or does it feel like soaking in it?\"\nDANA: \"Maybe both. And anyway, what's the point? If I couldn't make it work with him, I'll probably always be alone.\"\nALEX: (you speak, now)",
+          "choices": [
+            "You're not 'probably always alone' — you're deciding that on one bad afternoon. But I'm not going to argue you out of it with words. New plan: tomorrow we go to that climbing gym you've been putting off, and tonight the phone goes in a drawer and we watch the funny movie. You can't think your way out of this one — you have to act your way out.",
+            "You're probably right that you need to understand it fully first. Take all the time you need — let's sit here and walk through every detail of the relationship again, from the first date to the end.",
+            "You're not always going to be alone, but honestly, people are starting to notice you've disappeared. You need to try harder to be positive, or the invitations will dry up.",
+            "Maybe you should stay home this weekend after all. A breakup is a real loss, and if you don't feel the grief fully, you'll never heal — staying alone is how you process it."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Nolen-Hoeksma's rumination research and the mood-lifting strategies in Tice's and Wenzlaff's work: rumination that passively immerses in sadness primes more sadness, while distraction, scheduled pleasant events, and cognitive reframing break the chain.",
+          "psychological_breakdown": "Choice 0 works on three fronts at once. It reframes the relationship story ('you're deciding that on one bad afternoon' — the antidote to the self-pitying conviction that 'this means I'll always be alone'), it schedules a pleasant distracting event (Wenzlaff's finding that the most effective distractions shift mood), and it removes the fuel source (the phone and the message-reading that functions as rumination disguised as 'understanding myself better'). It also acknowledges the grief rather than dismissing it. Choice 1 colludes with the rumination: the book notes that depressed people justify endless reflection as self-understanding when in fact it primes the sadness without taking any step to lift the mood. Choice 2 adds criticism and moralizing — 'try harder to be positive' — which deepens the sense of worthlessness and offers no concrete action. Choice 3 is the isolation backfire: staying alone when down usually adds loneliness and isolation to the sadness, and Tice found socializing was the most popular effective tactic when it actually distracted.",
+          "key_concepts": [
+            "One of the main determinants of whether a depressed mood persists or lifts is the degree to which people ruminate.",
+            "Rumination focuses on the depression itself — how tired we feel, how little energy or motivation we have — without any concrete course of action.",
+            "Depressed people sometimes justify rumination as trying to 'understand themselves better', but it merely primes the feelings of sadness.",
+            "Passive immersion in the sadness makes it worse; reflection helps only if it leads to insights or actions that change the conditions causing the depression.",
+            "Nolen-Hoeksma's example: a saleswoman's hours of worrying lead to missed sales calls, declining sales, and feelings of failure that feed the depression.",
+            "The most effective distractions are ones that shift mood — an exciting sporting event, a funny movie, an uplifting book.",
+            "Cognitive reframing of a breakup — seeing the ways you and your partner were mismatched — is an antidote to the sadness.",
+            "Engineering a small triumph, like tackling a long-delayed chore, is a constructive approach to mood-lifting.",
+            "Downward comparisons are surprisingly cheering: cancer patients in better moods brought to mind another patient who was worse off.",
+            "Aerobic exercise is one of the more effective tactics for lifting mild depression because it pitches the body from low arousal to high arousal."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the rumination mechanism central to Nolen-Hoeksma's account of depression: passively dwelling on the sadness and its symptoms primes more sadness and blocks the action that would lift the mood. The effective response combines distraction with pleasant scheduled events, cognitive reframing of the loss, and concrete action — strategies that cognitive therapy studies found on a par with medication for mild depression.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Dana is stuck in a blunt, repetitive loop about being alone forever, replaying the breakup instead of reaching out to friends; rumination is keeping her depressed. Your goal is to interrupt the loop and steer her toward active reframing and action rather than introspection."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Positive-to-Negative Ratio and Mood Self-Management",
+          "visual_frame_description": "A phone call screen at 7:30 PM, the player's apartment lit only by the kitchen light; Tomas's voice comes through the speaker as he paces his restaurant office. Tomas, 41, is a manager who has had three staff blow-ups this quarter and one paralyzing panic episode, but he insists he is basically a happy man whose highs and lows 'balance out'. He has just described waking up to gray, unexplained mornings that he cannot tell are mood or identity.",
+          "player_mission": "You are Tomas's old friend. He believes his volatility is simply family character that evens out, and he has never tracked it. Help him apply the book's model of well-being as a ratio of positive to negative emotions, and steer him toward self-awareness — including recognizing when a mood pattern is beyond self-management.",
+          "dialogue": "TOMAS: \"Look, I'm fine. Yeah, I yelled at Marco, and yeah, there was that panic thing last month. But I also love my job and my family. It all balances out.\"\nYOU: \"Maybe. But last week you were in a rage for two days over a vendor's screw-up. That's not a quick storm — that's a long one.\"\nTOMAS: \"My grandfather was exactly like me. Hot temper, then fine. It runs in the family, and I'm not going to pretend to be someone else.\"\nYOU: \"Nobody's asking you to pretend. But some mornings you told me the whole world looks gray and you can't shake it.\"\nTOMAS: \"Yeah. And I can't tell if that's a mood or just who I am. That's the part that scares me.\"\nYOU: (you speak, now)",
+          "choices": [
+            "Balance is a real thing — studies where people carried beepers showed it's the ratio of positive to negative moods that drives well-being, and stormy people do fine when they have countervailing good times. So let's make it a project: for two weeks, jot down your moods twice a day and see which direction the ratio actually tips. Track it before you dismiss it — and if the gray mornings keep winning, that's data worth taking to a doctor.",
+            "You're fine, Tomas. Your grandfather was the same man and he did okay. Don't overthink this — if you start labeling yourself, you'll invent problems that aren't there.",
+            "See, this is why you need to control your temper at work. You have to suppress those outbursts completely, or one day you'll get fired over a vendor.",
+            "Two-day rages and unexplained gray mornings that you can't talk yourself out of — that's clearly clinical. Call a psychiatrist this week and get medication, no questions asked."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "The beeper-study model of well-being (the ratio of positive to negative emotion, not the absence of storms) combined with self-awareness as the first tool of mood management — tracking the pattern before treating it.",
+          "psychological_breakdown": "Choice 0 gets the model right on both sides. It confirms the balance finding — people with strong episodes of anger or depression can still feel well-being if they have countervailing joyous times, so Tomas's volatility is not automatically a disorder. But it also insists on data: self-awareness is the keystone, and mood tracking mirrors both Tice's beeper methodology and Redford Williams's advice to catch and write down hostile thoughts so they can be examined. It keeps the door open to professional help without leaping. Choice 1 is heredity fatalism that forecloses management — the chapter's entire premise is that keeping distressing emotions in check is the key to emotional well-being, and that recognizing when chronic agitation needs pharmacologic help is itself a sign of self-regulation. Choice 2 preaches suppression, which contradicts the book's core claim that the goal is balance, not emotional suppression. Choice 3 over-pathologizes: medication is for severe disorders like manic-depression or clinical depression, and Tomas's range is still the ordinary mood territory people manage 'with their own devices'.",
+          "key_concepts": [
+            "The goal of emotional life is balance, not suppression: every feeling has its value and significance.",
+            "In the calculus of the heart it is the ratio of positive to negative emotions that determines the sense of well-being.",
+            "People who have strong episodes of anger or depression can still feel a sense of well-being if they have a countervailing set of equally joyous or happy times.",
+            "Beeper studies in which hundreds of men and women recorded their emotions at random times found little or no relationship between grades or IQ and emotional well-being.",
+            "Managing our emotions is something of a full-time job: much of what we do in free time is an attempt to manage mood.",
+            "The art of soothing ourselves is a fundamental life skill; emotionally sound infants learn to soothe themselves by treating themselves as their caretakers treated them.",
+            "When emotions are too extreme or persistent they become pathological: immobilizing depression, overwhelming anxiety, raging anger, manic agitation.",
+            "Recognizing when chronic agitation of the emotional brain is too strong to be overcome without pharmacologic help is a sign of the capacity for emotional self-regulation.",
+            "Two thirds of those who suffer from manic-depression have never been treated for the disorder, even though lithium or newer medications can thwart its cycles.",
+            "In severe emotional disorders psychiatric medication offers a tool for managing life better, while ordinary bad moods are left to our own devices."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the book's model of well-being as a ratio of positive to negative emotion rather than the absence of storms, and the role of self-awareness in mood management. The evidence base is the beeper studies, which found that stormy emotions can coexist with well-being when countervailing joys exist, and that recognizing when agitation exceeds self-management is itself a mark of self-regulation.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Tomas believes one bad day means his emotional life is failing, though he mostly loves his job and family; he is confusing intensity with balance. Your goal is to teach the beeper-study model: well-being comes from the ratio of positive to negative moods, not from the absence of storms."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Boss Battle: The Rage Cascade on the Platform",
+          "visual_frame_description": "The downtown No. 6 subway platform at 8:05 AM, packed shoulder to shoulder, a rumble announcing the approaching train. Marcus, a commuter in a stained shirt, is already wired: he spilled coffee on himself, watched his train pull away, and was jostled by the crowd. His jaw is tight and he mutters to himself as a man shoulders past him without apologizing. You observe as a transit security officer in a high-vis vest, watching the sequence of small provocations stack toward an explosion.",
+          "player_mission": "You are the transit security officer working the platform. Observe Marcus's escalating state, predict what the next provocation will trigger, and then intervene to stop the cascade before it becomes violence. Choose your observations and interventions based on Zillmann's anatomy of rage.",
+          "boss_battle_explanation": "The boss is the Rage Cascade: Zillmann found that anger escalates as a sequence of provocations, each triggering an excitatory reaction that dissipates slowly, so each new provocation builds on the hormonal momentum of those before. Adrenocortical arousal from earlier stress keeps the emotional brain in a hair-trigger state for hours, meaning a trivial bump produces a rage far out of proportion to the trigger.",
+          "stage_1_observation": "Watch Marcus for ninety seconds. He spills coffee (stress event one), misses his train (stress event two), gets shoved in the crowd (stress event three). His breathing turns shallow, his fingers curl around the railing, and his muttering turns into half-formed words about 'this city'. A man with a backpack turns suddenly and elbows him in the ribs. Marcus's face goes dark, and he steps toward the man with his fist clenched. The crowd parts slightly around them.",
+          "stage_1_question": "Why is Marcus's reaction to the backpack elbow so much more intense than the same bump would have triggered at 7:00 AM before his string of frustrations?",
+          "stage_1_correct_answer": "Because the earlier provocations (spilled coffee, missed train, the crowd) already triggered excitatory surges that dissipate slowly, and the adrenocortical arousal they created keeps the emotional brain in special readiness for arousal for hours; the elbow is the minitrigger that rides the hormonal momentum of everything before it, so the resulting surge is far larger than the event itself. Marcus is in the hair-trigger condition Zillmann describes, where people become far more prone to anger once already provoked or slightly irritated.",
+          "stage_2_intervention": "Marcus shoves the man, who shoves back, and a ring of commuters forms with phones out. You are the only official on the platform and must act in the next few seconds. Choose your intervention: (a) step between them, raise your palm, and order Marcus firmly to 'calm down — it's not worth it' while the other man keeps arguing over your shoulder; (b) step between them with your back to the other man, turn Marcus physically away from him, and give him a concrete task — 'Help me hold this gate. Come with me to the booth' — walking him out of the trigger-rich crowd while you talk; (c) hold the other man back and let Marcus shout it out, because venting the anger releases the pressure and he will calm down on his own.",
+          "stage_2_correct_answer": "Choice (b) is correct: it implements Zillmann's two effective interventions — cooling off physiologically by removing the person from further triggers, and distraction, which stops the train of angry thought ('it's hard to stay angry when we're having a pleasant time'). Choice (a) fails because at this level of excitation Marcus is beyond being reasoned with — his thoughts revolve around revenge and the high arousal creates cognitive incapacitation, so an order to 'calm down' has no purchase, and the other man's continued arguing adds fresh minitriggers. Choice (c) is the ventilation fallacy: giving vent to rage pumps the emotional brain's arousal higher and prolongs the anger rather than dispelling it.",
+          "key_concepts": [
+            "Zillmann sees escalating anger as a sequence of provocations, each triggering an excitatory reaction that dissipates slowly.",
+            "Each successive anger-provoking thought is a minitrigger for amygdala-driven catecholamine surges, building on the hormonal momentum of those before.",
+            "The adrenocortical arousal from stress can last for hours and even days, keeping the emotional brain in special readiness for arousal.",
+            "The hair-trigger condition created by adrenocortical arousal explains why people are much more prone to anger once they have already been provoked.",
+            "At peak excitation, anger creates an illusion of power and invulnerability that may inspire aggression as the person fails cognitive guidance.",
+            "By the point of full rage people are unforgiving and beyond being reasoned with, their thoughts revolving around revenge and reprisal.",
+            "One way of defusing anger is to challenge the thoughts that trigger the surges, and timing matters: the earlier in the cycle, the more effective.",
+            "Anger can be completely short-circuited if mitigating information comes before the anger is acted on.",
+            "Cooling off physiologically means waiting out the adrenal surge in a setting where there are not likely to be further triggers for rage.",
+            "Distraction is a highly powerful mood-altering device because it stops the train of angry thought."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests Zillmann's escalation model of anger: each provocation triggers an excitatory surge that dissipates slowly, so later provocations produce disproportionately intense rage, amplified by hours-long adrenocortical readiness. The winning interventions are the two Zillmann validated — early challenge of the angry thoughts and physiological cooling off with distraction — applied before rage reaches cognitive incapacitation.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Boss Battle: The Ventilation Myth in the Claims Office",
+          "visual_frame_description": "The open-plan claims office of Beacon Insurance at 11:20 AM, cubicles buzzing. A red-faced customer has just stormed out after shouting at Dana, a claims adjuster, over a denied policy. Dana is slamming her keyboard, re-enacting the argument in a loud voice for her desk neighbor, and her face is flushing deeper with each retelling. A colleague's joke about the incident has redirected her fury at him. You watch as the floor supervisor.",
+          "player_mission": "You are the floor supervisor watching Dana work herself into a louder and louder state. She believes her outburst is 'releasing' the anger. Diagnose what her venting is actually doing to her arousal, then stop her from making the call that would convert venting into a destructive confrontation.",
+          "boss_battle_explanation": "The boss is the Ventilation Myth: the popular theory that giving vent to rage 'makes you feel better'. Since the 1950s, experimental tests of catharsis found that giving vent to anger did little or nothing to dispel it, and Tice found that ventilating anger is one of the worst ways to cool down — outbursts pump up the emotional brain's arousal, leaving people more angry, not less, and prolonging the mood.",
+          "stage_1_observation": "Observe Dana for ten minutes. Minute one to three: she re-enacts the customer's shouting, slapping her desk at the punchline. Minute four: the desk neighbor laughs and says 'He got you good,' and Dana's voice jumps a full octave as she snaps at him. Minute six: she says to no one in particular, 'I'm gonna call him right back and give him a piece of my mind.' Her face is flushed, her breathing is fast, and she is now angry at both the customer and her co-worker. By minute nine her venting is louder than the customer's original tirade was.",
+          "stage_1_question": "Dana tells you she feels better when she lets it out and that her yelling is releasing the pressure. Based on Tice's findings about venting, what is the actual effect of her venting session on her anger?",
+          "stage_1_correct_answer": "The venting is pumping up her physiological arousal and prolonging the anger rather than ending it. Tice found that outbursts of rage typically leave people feeling more angry, not less, and that when people took their rage out on the person who provoked it, the net effect was to prolong the mood. Dana's escalating volume and the redirecting of her fury at the co-worker show the arousal building, not discharging.",
+          "stage_2_intervention": "Dana picks up her phone to call the customer and 'give him a piece of her mind.' Choose your intervention: (a) let her make the call — expressing anger directly to its target is one of the specific conditions under which lashing out can restore a sense of control and right an injustice; (b) take the phone, send her on a ten-minute walk with a real errand — picking up the mail and buying coffee for the floor — so the adrenal surge can subside, then have her draft a firm, professional written response to the customer's complaint once she has cooled; (c) tell her to suppress it entirely, apologize to her co-worker, and never mention the incident again.",
+          "stage_2_correct_answer": "Choice (b) is correct: it applies Tice's finding that the effective sequence is to cool down first and then, in a more constructive or assertive manner, confront the person to settle the dispute — the walk waits out the adrenal surge in a setting free of triggers, and the drafted response converts confrontation into assertion rather than rage. Choice (a) misapplies the rare exception: while direct expression can work under specific conditions, at her current arousal level the call would be an angry blast issued during cognitive incapacitation, escalating rather than resolving the dispute. Choice (c) is suppression, which the book rejects — the aim is balance and appropriate expression, not emotional suppression.",
+          "key_concepts": [
+            "Catharsis — giving vent to rage — has been tested experimentally since the 1950s, and time after time venting did little or nothing to dispel anger.",
+            "Because of the seductive nature of anger, venting may feel satisfying even though it does not work.",
+            "Tice found that ventilating anger is one of the worst ways to cool down: outbursts of rage typically pump up the emotional brain's arousal.",
+            "When people took their rage out on the person who provoked it, the net effect was to prolong the mood rather than end it.",
+            "Far more effective was cooling down first, then confronting the person in a more constructive or assertive manner to settle the dispute.",
+            "Lashing out in anger may work under specific conditions: direct expression to the target, restoring a sense of control, righting an injustice, or inflicting appropriate harm that changes the other's behavior.",
+            "Anger is the most seductive of the negative emotions, and its self-righteous inner monologue produces the most convincing arguments for venting.",
+            "Distraction is powerful because it stops the train of angry thought, and cooling off requires waiting out the adrenal surge away from further triggers.",
+            "Chogyam Trungpa's counsel on handling anger: 'Don't suppress it. But don't act on it.'",
+            "Active exercise and relaxation methods change the body's physiology from the high arousal of anger to a low-arousal state."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the ventilation fallacy: the belief that expressing rage releases it, when the experimental record since the 1950s shows venting does little to dispel anger and, per Tice, typically prolongs the mood by pumping up arousal. The winning move is the documented sequence of cooling down first and only then confronting the source assertively.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Boss Battle: The Superstitious Payoff of Chronic Worry",
+          "visual_frame_description": "A surgical waiting room at 6:10 PM, beige chairs and a glowing OR board. Andre, 34, sits alone under the fluorescent lights, vibrating his leg and staring at the board where his sister's name still appears. His pulse is visible in his neck as his eyes go wide at a 'procedure in progress' status; then he drops his gaze and mutters a rapid half-audible monologue to himself. As the muttering continues, his body paradoxically settles. A second hour passes and the surgery still has not ended.",
+          "player_mission": "You are a chaplain-in-training in the waiting room. First, diagnose why Andre's body settles while he is immersed in his worry monologue. Then, when his worry spiral accelerates, apply Borkovec's method to break the loop without dismissing his very real fear.",
+          "boss_battle_explanation": "The boss is the Worry Spiral's superstitious reinforcement: chronic worry is a low-grade amygdala episode that is unbidden and uncontrollable, and it is reinforced the way superstitions are — because the dreaded events usually do not occur, the worry gets the credit for preventing them. Worry also partially suppresses its own somatic anxiety, because verbal worry-thoughts replace the catastrophic images that more powerfully trigger physiological arousal.",
+          "stage_1_observation": "Watch Andre for fifteen minutes. At 6:10 he glances at the OR board — his neck pulses visibly and he grips the armrest (a catastrophic image triggering anxiety). At 6:12 he begins muttering: '...if she's bleeding internally... then they'd need a second surgeon... what if there's no one on call...' As the monologue runs on, his grip loosens slightly and his breathing steadies. At 6:20 a nurse walks by without stopping; Andre's eyes widen again, and the whole cycle repeats. By 6:25 his leg is shaking and the muttering is continuous.",
+          "stage_1_question": "Andre's thoughts are distressing, yet his body settles slightly while he is immersed in the muttering monologue. What mechanism, identified by Borkovec, explains this paradoxical relief?",
+          "stage_1_correct_answer": "Immersion in verbal worry-thoughts takes attention off the catastrophic image that triggered the anxiety, and images are more powerful triggers of physiological anxiety than thoughts are. So the worry partially alleviates the experience of being anxious — which is exactly why the habit is reinforced as a halfway antidote to the very anxiety it evoked, and why Andre cannot let go of it.",
+          "stage_2_intervention": "The surgery has run an hour over, and Andre's muttering has sped into a stream of escalating catastrophes: 'what if she doesn't wake up... what if the kids lose their mother... what if I can't take care of them...' He is rocking now, and tells you his worry 'keeps me ready.' Choose your intervention: (a) tell him firmly, 'It's going to be fine. Just stop worrying — the surgeons are excellent, and worrying won't change a thing'; (b) sit beside him, have him match your slow breathing for a few minutes, then ask him to rate on a 0-100 scale how likely each of his feared scenarios actually is, and walk him through the most probable constructive alternative while watching the board together; (c) invite him to enumerate every catastrophe he can imagine so that he is mentally prepared for each possible outcome of the surgery.",
+          "stage_2_correct_answer": "Choice (b) is correct: it implements Borkovec's method — relaxation applied in the moment the worry is recognized, combined with actively challenging the worry's assumptions by questioning the probability of each dreaded event. Choice (a) is the useless advice chronic worriers cannot follow: the worries come unbidden as low-grade amygdala episodes and persist once they arise, so 'just stop worrying' fails. Choice (c) is catastrophic rehearsal dressed as preparation: chronic worry is a rehearsal that never reaches positive solutions, and generating more feared outcomes only primes more anxiety loops.",
+          "key_concepts": [
+            "Chronic, repetitive worry has all the attributes of a low-grade emotional hijacking: it comes from nowhere, is uncontrollable, and is impervious to reason.",
+            "The worry habit is reinforcing in the same sense that superstitions are: since people worry about things with a very low probability of occurring, the worry gets the credit for preventing the danger it obsesses about.",
+            "Images are more powerful triggers for physiological anxiety than are thoughts, so immersion in worry-thoughts partially alleviates the experience of anxiety.",
+            "Worries are almost always expressed in the mind's ear, not its eye — in words, not images.",
+            "Chronic worries read dangers into life's journey that others never notice and ruminate on dangers themselves instead of finding solutions.",
+            "Borkovec's first step is self-awareness: catching the worrisome episode as near its beginning as possible by monitoring the cues and images that initiate it.",
+            "Worriers need to challenge their assumptions: Is it very probable that the dreaded event will occur? Are there constructive steps to be taken?",
+            "Relaxation methods must be practiced daily so they can be applied on the spot when the worry begins.",
+            "Challenging a worry by contemplating equally plausible points of view keeps the worried thought from being naively taken as true.",
+            "For worries that have flowered into phobia, obsessive-compulsive disorder, or panic disorder, medication may be needed to interrupt the cycle, with therapy to retrain the emotional circuitry."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests Borkovec's dual account of chronic worry: it is reinforced like a superstition (the dreaded event rarely happens, so the worry takes credit), and it partially suppresses its own somatic anxiety because verbal thoughts replace the more physiologically potent catastrophic images. The winning intervention combines the tested steps of self-awareness, on-the-spot relaxation, and challenging the probability of the feared outcomes.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Boss Battle: The Rumination Vortex on the Sales Floor",
+          "visual_frame_description": "The sales floor of Hartley & Finch, a mid-size brokerage, at 3:15 PM on a Friday. Doreen, 47, a top producer, sits frozen at her desk with nine missed calls stacking on her phone, face-down. Her screen shows the Q3 pipeline spreadsheet; she alternates between staring at the totals and scrolling through a folder of rejection emails. Her manager observes from the glass office wall as her weekly numbers trend down for the fifth week in a row, and she tells colleagues she is 'in a slump' and 'can't get motivated'.",
+          "player_mission": "You are the newly hired floor manager observing Doreen. Diagnose the self-perpetuating loop her worrying has created, then intervene with the strategies that cognitive therapy research found effective — challenging the ruminated thoughts and scheduling pleasant, distracting events.",
+          "boss_battle_explanation": "The boss is the Rumination Vortex: Nolen-Hoeksma found that the degree to which people ruminate determines whether a depressed mood persists or lifts. Rumination focuses on the depression itself — fatigue, low motivation, declining output — without any concrete action, and it creates more depressing conditions: Doreen's hours of worrying produce missed sales calls, declining sales, and feelings of failure that feed the depression in a self-perpetuating loop.",
+          "stage_1_observation": "Observe Doreen for twenty minutes. Minute one: she opens the pipeline spreadsheet, sighs, and closes it. Minute four: she opens the rejection-email folder and reads three old 'no thank you' messages slowly. Minute eight: her phone buzzes with a missed call; she looks at it, then puts it face-down again. Minute twelve: she whispers to herself, 'I just can't get going this quarter.' Minute seventeen: she opens the spreadsheet again, makes a mark, and deletes it. Her neighbors' phones ring unanswered as they work around her. No sales call has been made all afternoon.",
+          "stage_1_question": "Doreen tells you she is 'trying to figure out what went wrong' with her quarter. What is the mechanism by which her worry is actively deepening and prolonging her depressed mood?",
+          "stage_1_correct_answer": "Her rumination focuses on the depression itself — how tired and unmotivated she feels and how little work she is getting done — with no concrete action attached. The hours spent worrying are hours not spent on sales calls, so her sales decline, which makes her feel like a failure, which feeds the depression: exactly the cycle Nolen-Hoeksma documented, and the reason distraction would help — if she reacted by plunging into calls, the very experience of making a sale would bolster her confidence and lessen the depression.",
+          "stage_2_intervention": "Doreen tells you: 'I need to understand why I've gone off the rails. I keep replaying every rejection to find the moment I lost my touch.' Choose your intervention: (a) agree that self-understanding comes first and schedule a two-hour session for her to walk through every rejection in detail so she can see the pattern; (b) gently challenge the rumination and replace it: spend thirty minutes reality-checking 'I'm a failure' against her actual record, then send her out on a block of client calls starting with one easy follow-up call as a small win, and book her into the team lunch that she has been skipping; (c) let her take the rest of the week off to stay home and work through the slump on her own, since time away from the pressure will clear her head.",
+          "stage_2_correct_answer": "Choice (b) is correct: it applies the two strategies cognitive therapy found effective — challenging the thoughts at the center of rumination and deliberately scheduling pleasant, distracting events — plus a small engineered triumph, the kind of constructive mood-lifter Tice documented. Choice (a) colludes with rumination disguised as self-understanding: the book notes that depressed people justify this kind of reflection as 'understanding myself better' when it merely primes the sadness without any step to lift the mood. Choice (c) is the isolation backfire: staying alone when down usually adds loneliness and isolation to the sadness, and gives the rumination more hours to run.",
+          "key_concepts": [
+            "One of the main determinants of whether a depressed mood persists or lifts is the degree to which people ruminate.",
+            "In depression, worry takes forms that focus on the depression itself — how tired we feel, how little energy or motivation we have, how little work we're getting done — without concrete action.",
+            "Nolen-Hoeksma's example: a saleswoman who spends so many hours worrying that she misses sales calls; her sales decline, making her feel like a failure, which feeds the depression.",
+            "If she reacted to depression by trying to distract herself, she might plunge into the sales calls as a way to get her mind off the sadness, and making a sale might bolster her self-confidence.",
+            "Cognitive therapy aimed at changing these thought patterns has been found on a par with medication for treating mild clinical depression, and superior to medication in preventing its return.",
+            "Two strategies are particularly effective: challenging the thoughts at the center of rumination, and purposely scheduling pleasant, distracting events.",
+            "Depressing thoughts are automatic, intruding unbidden, and once the depressive tide starts it has a powerful magnetic effect on the train of association.",
+            "Depressed people were much better at unscrambling depressing messages like 'The future looks very dismal' than upbeat ones like 'The future looks very bright'.",
+            "Tice found the most popular tactic for battling depression is socializing, which works when it gets the person's mind off the sadness.",
+            "Staying alone when feeling down usually only adds a sense of loneliness and isolation to the sadness."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests Nolen-Hoeksma's rumination mechanism: dwelling on the symptoms of depression without action creates conditions that are more depressing, closing the self-perpetuating loop. The winning intervention is the cognitive-therapy pair — challenging the ruminated thoughts and scheduling pleasant, distracting events — which studies found on a par with medication for mild depression and superior in preventing its return.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Unflappable Accountant: Repression as Upbeat Denial",
+          "visual_frame_description": "A beige consultation room in a stress clinic, the overhead light dimmed and a physiological monitor screen glowing on the desk. Marcus Weber, 42, sits in a leather armchair in a crisp gray suit, face relaxed and pleasant, while the interviewer, a white-coated clinician, runs an intake questionnaire. A split-screen display shows his live pulse, blood pressure, and skin conductance, and a stack of sentence-completion forms lies between them.",
+          "player_mission": "You are the reviewing clinician observing the intake. Compare Marcus's verbal reports of perfect calm against his live physiological readings across the interview, note the pattern of when his body reacts, and deliver the correct diagnosis of what is actually regulating his emotion.",
+          "question": "You are a senior clinician reviewing the intake interview of Marcus Weber, 42, an accountant referred by his wife after a near-miss car accident two weeks ago. His wife says he 'doesn't seem to feel anything' and that his calm 'isn't normal'. Marcus insists he is perfectly fine and rates his stress at 1 out of 10. His physiology during the interview tells a different story. Is Marcus genuinely calm, deliberately hiding his feelings, or something else entirely?",
+          "subject_baseline": "At work and at home, Marcus is famously imperturbable — colleagues call him 'the ice cube'. He never raises his voice, never complains, and describes himself as 'not much of a feelings person'. He reports feeling 'perfectly fine' during the accident and sleeping well that night. On his intake questionnaire he rates his stress 1 out of 10 and denies any anxiety, anger, or sadness. His resting heart rate before the interview is a normal 68 beats per minute.",
+          "observed_nonverbal_log": "Timed observations during the forty-minute intake, while the interviewer measures his physiology and asks him to complete sentence stems, some neutral and some about violence and anger:\n0:00-0:30 — Neutral questions (hobbies, commute): breathing even, 68 bpm, hands still, relaxed posture, steady voice.\n1:10 — 'Tell me about the moment the car hit you': pulse rises to 96 bpm; a bead of sweat appears at his temple; his fingers begin drumming the armrest; he recrosses his legs.\n1:30 — Asked 'How did you feel at that moment?', he answers 'Calm. No big deal.' — while leaving damp palm prints on the leather armrest and speaking at a measurably higher pitch.\n2:40 — Sentence-completion 'He kicked his roommate in the stomach...': heart rate 102 bpm and climbing blood pressure; Marcus completes it as '...but he meant to turn on the light.' He smiles as he writes it.\n3:00 — Asked directly whether he is feeling anxious, he replies 'Me? No, I feel great. This is easy.'\n3:20 — The interviewer notes his left hand is trembling slightly as he sets the pen down, while his face remains relaxed and pleasant.",
+          "interrogation_transcript": "INTERVIEWER: \"Marcus, at the moment of impact, what went through your mind?\"\nMARCUS: \"Nothing really. I saw it coming, braked, and it was over. I didn't get upset. That's just how I'm built.\"\nINTERVIEWER: \"You're telling me you felt no fear, no anger at all?\"\nMARCUS: \"No point in feelings. Panic wouldn't have helped anything.\"\nINTERVIEWER: \"Your body seems to disagree with you. Your heart rate spiked, you're sweating, and your hand is trembling.\"\nMARCUS: \"I'm fine. It's warm in here. I don't know why you're making a big deal out of nothing.\"",
+          "correct_diagnosis": "Marcus is not faking calm and is not unemotional — he is a repressor, an 'unflappable' person who automatically blots emotional disturbance from awareness while his body registers the distress. The interview shows the signature dissociation between reported calm and racing heart, sweating, and rising blood pressure, with the classic sanitizing verbal avoidance in the sentence-completion test.",
+          "diagnostic_breakdown": "The log shows Weinberger's repressor pattern precisely: physiological agitation (heart rate climbing from 68 to 102, sweat, tremor, rising blood pressure) appears selectively when upsetting material is presented, while Marcus's reports are of perfect calm — and the sentence completion '...but he meant to turn on the light' is the hallmark verbal sanitizing of an aggressive act. Crucially, the pattern is not deception: Davidson's later work showed that in such people the unawareness is genuine, produced by a neural mechanism that slows the transfer of upsetting information, with a predominance of left-prefrontal activity associated with positive feeling. Marcus's calm is real to him — an 'upbeat denial' that is, in equanimity, a successful self-regulation strategy, though with an unknown cost to self-awareness.",
+          "distractors": [
+            "Marcus is faking his calm — he knows exactly how anxious he is and is lying to avoid a psychiatric label. (Rejected: Davidson's research shows the unawareness is genuine; the brain keeps the upsetting information from reaching awareness, so he is not feigning.)",
+            "Marcus is a psychopath who genuinely feels no anxiety at all, which is why his face and voice stay flat. (Rejected: his body clearly registers distress — the pattern is tuning-out of emotion, not absence of emotion; psychopathy involves an absence of empathy and conscience, which is not the evidence here.)",
+            "Marcus is simply phlegmatic by temperament, with an unusually low physiological baseline that happens to spike on all questions. (Rejected: his baseline is a normal 68 bpm, and the agitation appears selectively in response to upsetting material while neutral topics leave him steady — the repressor signature, not a low-arousal temperament.)"
+          ],
+          "key_concepts": [
+            "Repressors habitually and automatically seem to blot emotional disturbance from their awareness, tuning out most emotional upset.",
+            "While repressors may seem calm and imperturbable, they can seethe with physiological upsets they are oblivious to: racing heart, sweating, climbing blood pressure.",
+            "When asked, repressors say they feel perfectly calm even while their bodies show all the signs of anxiety.",
+            "About one person in six shows the repressor pattern, according to Weinberger.",
+            "Repressors are not cousins of alexithymics who cannot feel emotion; current thinking sees them as quite proficient in regulating emotion.",
+            "In Davidson's study, repressors sanitized upsetting words in free association — if the first word was 'hate', the response might be 'love'.",
+            "The unflappables showed a time lag in responding only when upsetting words were presented to the right hemisphere, the side that processes negative emotion.",
+            "Repressors show a predominance of left-frontal activity, the center for good feeling, while sitting at rest.",
+            "Their mellow layer is not faked: a neural mechanism slows or interferes with the transfer of upsetting information to awareness.",
+            "Unflappableness is a kind of upbeat denial, a positive dissociation, and possibly a clue to the neural mechanisms of more severe dissociative states such as post-traumatic stress disorder."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit file tests the repressor pattern Weinberger and Davidson documented: people who report perfect calm while their physiology registers clear distress, because a neural mechanism keeps upsetting information from reaching awareness. The deception here is not social but neural — an 'upbeat denial' that the book treats as a possibly successful self-regulation strategy with an unknown cost to self-awareness.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Addictive Worrier: Superstitious Reinforcement in Action",
+          "visual_frame_description": "A bright counseling office at a career-transition program, a whiteboard listing job-search milestones behind the desk. Renee, 29, sits across from the counselor holding a worn notebook of handwritten risk lists, her knees bouncing as a pulse monitor is clipped to her finger. A wall clock faces her, and the room is quiet except for the counselor's instructions to worry aloud for one minute.",
+          "player_mission": "You are the observing counselor in the session. Track Renee's verbal escalation and her live pulse readings through the worry-aloud exercise, weigh her stated belief that worry keeps her safe against the evidence she produces, and determine what mechanism is actually maintaining her habit.",
+          "question": "You are a counselor at a career-transition program. Renee, 29, a freelance writer who lost her publishing job in a buyout, tells you her worries are 'addictive' and that worrying is 'the only thing that keeps me from being blindsided'. She insists the nightly review of her disaster list makes her feel better. Is her worrying helping her cope, is she deliberately using fear as motivation, or is something more self-defeating at work?",
+          "subject_baseline": "Renee moved to Los Angeles from the Midwest for a publisher job that vanished in a buyout; she now free-lances, and between jobs and clients her income is erratic. She is organized and articulate, but she catastrophizes: every headache is a brain tumor, every drive a potential accident. Each night she reviews a handwritten list of 'things that could go wrong this month' and says this ritual calms her. She estimates she spends two to three hours a day rehearsing disasters and only about two hours actually writing. Her client deadlines are slipping.",
+          "observed_nonverbal_log": "Timed observations during a session in which Renee is asked to worry aloud for one minute:\n0:00-0:10 — Asked to worry aloud: breathing becomes shallow and fast; pulse rises from 72 to 88; she grips her notebook.\n0:10-0:25 — 'If I miss this deadline, the client drops me... and if the client drops me, I miss rent... and if I miss rent, I lose the apartment...' — her voice is rapid, but her pulse actually declines from 88 to 81 as the monologue continues.\n0:30 — She jumps domains mid-sentence: '...and then my health insurance lapses, and the headache I have is probably the tumor.'\n0:45-1:00 — She accelerates to 'and I'll be forty and homeless and alone', then stops, exhales, and looks relieved, saying 'See? I feel better now that it's all out.'\n1:10 — Asked what she learned, she answers, 'That I was right to worry — it's the only thing keeping me from being blindsided.'",
+          "interrogation_transcript": "COUNSELOR: \"Renee, in the last month, how many of the disasters you rehearsed actually happened?\"\nRENEE: \"None. But that's because I worried about them. The minute I stop worrying is the minute the real one hits.\"\nCOUNSELOR: \"You called the worry an addiction. What happens when you try to stop?\"\nRENEE: \"I can't. It starts by itself, and it won't leave until I've gone through the whole list. And if I tried to ignore it, I'd be lying to myself about how dangerous everything is.\"\nCOUNSELOR: \"What would change if you replaced the worry hour with an hour of writing?\"\nRENEE: \"I'd feel like I was tempting fate. The worry is what keeps me safe.\"",
+          "correct_diagnosis": "Renee's worrying is not protective preparation and not deliberate motivation: it is chronic worry driven by the superstitious reinforcement Borkovec described — the ritual gets the credit for preventing disasters that almost never occur, and it 'works' as a halfway antidote because verbal worry suppresses the somatic anxiety stirred by catastrophic images. The habit is self-defeating: it never produces solutions and is eroding the work that would actually relieve her stressors.",
+          "diagnostic_breakdown": "Every observation fits Borkovec's model. The worry is unbidden and uncontrollable ('It starts by itself') — the signature of a low-grade amygdala episode. It jumps catastrophically from concern to concern in words rather than images, ending at 'homeless and alone', the same escalation path as the patient who went from 'I might not do this right' to 'I'll never be happy'. Her pulse actually settled as her verbal monologue replaced the catastrophic imagery — the exact mechanism that reinforces the habit, since images trigger more physiological anxiety than thoughts. And her belief that worry prevents disasters ('the minute I stop worrying is the minute the real one hits') is the superstition-like payoff: the dreaded events have a low probability of occurring, so the worry takes the credit for their absence. The counter-evidence is decisive: no new solutions, rigid repetition of the same fears, and hours lost that are worsening her real problems — chronic worry eases some anxiety but never solves the problem.",
+          "distractors": [
+            "Renee's worrying is constructive reflection — rehearsing dangers is what keeps her safe, and the relief she feels after each session proves it works. (Rejected: chronic worry is a rehearsal that never reaches positive solutions; it eases some anxiety but never solves the problem, and its 'prevention' of rare disasters is superstition-like credit-taking.)",
+            "Renee is deliberately cultivating her fear like the bill collectors who work themselves into a rage to be firmer with deadbeats, using worry as a motivational tool. (Rejected: her worry is involuntary and self-perpetuating — she cannot start or stop it at will, whereas the bill collectors' anger is a purposive cultivation they control.)",
+            "Renee is suffering from panic disorder, and her worry is a secondary symptom of an underlying somatic condition she is hiding. (Rejected: her anxiety is cognitive — worrisome thoughts — with no panic-attack signature in the log; her physical signs settle during the worry, the opposite of a panic pattern.)"
+          ],
+          "key_concepts": [
+            "Chronic, repetitive worry recycles on and on and never gets nearer a positive solution, and it has the attributes of a low-grade emotional hijacking.",
+            "The worry habit is reinforcing in the same sense that superstitions are: people worry about things with very low probability of occurring, so the worry gets credit for preventing the danger it obsesses about.",
+            "As the worry proceeds it seems to suppress some of the anxiety it stirs, at least as reflected in heart rate.",
+            "Images are more powerful triggers for physiological anxiety than are thoughts, so immersion in worry-thoughts partially alleviates the experience of anxiety.",
+            "Chronic worries are self-perpetuating, an endless loop of angst-ridden thought that worriers describe as helping them.",
+            "Chronic worriers ruminate on the danger itself while staying in the same rut of thought, instead of coming up with solutions.",
+            "Worriers read dangers into life's journey that others never notice, and most of what they worry about has almost no chance of happening.",
+            "Chronic worry works in some ways but not in others: it eases some anxiety, but never solves the problem.",
+            "Catastrophizing jumps from concern to concern and more often than not imagines some terrible tragedy.",
+            "Worry is a rehearsal of what might go wrong and how to deal with it, but for chronic worriers it is a rehearsal that never reaches positive solutions."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit file tests Borkovec's account of why worry becomes addictive: the habit is reinforced the way superstitions are, because the dreaded events almost never occur so the worry takes credit for preventing them, and immersion in worry-thoughts suppresses the somatic anxiety that catastrophic images trigger. The correct diagnosis rejects protective preparation and deliberate motivation in favor of this self-reinforcing, self-defeating loop.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        }
+      ]
+    }
+  ]
+}

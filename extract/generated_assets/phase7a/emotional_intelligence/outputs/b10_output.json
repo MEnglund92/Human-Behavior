@@ -1,0 +1,492 @@
+{
+  "spec_file": "spec_emotional_intelligence_b10.json",
+  "chapters": [
+    {
+      "id": "ch16",
+      "title": "10. Managing with Heart",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The artful inquiry after a destructive critique",
+          "visual_frame_description": "A corner office with floor-to-ceiling windows at a software company. Carlos Mendez, a seasoned engineer in his forties, sits across from Vice President Diane Whitmore, who is checking her watch. Two weeks after a product review where she sneered that his specifications were ridiculous, the atmosphere is tense; a framed team photo on Carlos's desk faces him as a reminder of the six months of work his team poured into the plan.",
+          "player_mission": "You are Carlos. The vice president's sarcastic review left you obsessed, dispirited, and thinking about resigning. In this meeting, you must find out what the vice president was actually trying to accomplish, so the feedback can become useful information instead of a lingering wound.",
+          "key_concepts": [
+            "In a company everyone is part of a system, so feedback is the lifeblood of the organization: the exchange of information that lets people know if their work is on track.",
+            "Without feedback people are in the dark about how they stand with their boss and peers, and problems only get worse as time passes.",
+            "How criticisms are given and received goes a long way in determining how satisfied people are with their work and with those they work for.",
+            "Destructive criticism delivered as a personal attack leaves the receiver feeling helpless and angry, with devastating effects on motivation, energy, and confidence.",
+            "An artful critique focuses on what a person has done and can do rather than reading a mark of character into a job poorly done.",
+            "Levinson advises those on the receiving end to see criticism as valuable information about how to do better, not as a personal attack.",
+            "The emotional dynamic of destructive criticism at work mirrors the marriage pattern: attacks give rise to defensiveness, dodging of responsibility, and finally stonewalling.",
+            "A critique may open the door to possibilities the person did not realize were there, if it points toward a way to fix the problem.",
+            "Managers who deliver criticism with little empathy are most prone to hurtful put-downs whose net effect is resentment, bitterness, and distance."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests feedback as the lifeblood of organizations and the receiver's artful, non-defensive inquiry: instead of counterattacking or retreating, the engineer turns a destructive remark into a question that surfaces the giver's real intent. The book shows this exact inquiry worked: the vice president, astonished, realized he had never meant to dismiss the work and apologized.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Two weeks ago, Carlos's team presented six months of software development work to Diane Whitmore, the vice president of product development. Her response was a sarcastic put-down: 'How long have you been out of graduate school? These specifications are ridiculous. They have no chance of getting past my desk.' Carlos sat silent and deflated through the rest of the meeting, then spent two weeks convinced he would never get another important assignment and seriously considered leaving the company he enjoys. Today he requested this private meeting. His goals: clarify what the vice president actually meant, rescue his reputation and his team's morale, and stay at the company. The stakes are his career, his team's future assignments, and the organization's ability to exchange honest feedback.",
+          "dialogue": [
+            "Diane Whitmore: 'Carlos, come in. I have twenty minutes before a steering committee call.'",
+            "Carlos: 'I wanted to talk about the product review two weeks ago, Diane.'",
+            "Diane Whitmore: 'The platform specifications meeting? I remember it.'",
+            "Carlos: 'So do I. It stayed with me.'",
+            "Diane Whitmore: 'Look, I am under real pressure on that roadmap. What is your point?'",
+            "Carlos: 'I left that room feeling like six months of work by my whole team was worthless.'",
+            "Diane Whitmore: 'Worthless? No. I thought the plan was promising. It just needs another round of work.'",
+            "Carlos: 'Then help me understand what you were actually trying to accomplish that day.'"
+          ],
+          "choices": [
+            "I'm a little confused by what you were trying to accomplish. I assume you were not just trying to embarrass me - did you have some other goal in mind?",
+            "You publicly humiliated me and my team in front of everyone. I want an apology before we discuss anything else.",
+            "Then I am handing in my notice. I just wanted you to know why before I go.",
+            "Good, I am glad it was not worthless. Can you tell me exactly which sections you want fixed?"
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Feedback as the lifeblood of the organization, combined with the receiver's counsel to treat criticism as valuable information rather than a personal attack.",
+          "psychological_breakdown": "Choice 0 is the book's exact artful inquiry: it is specific, non-defensive, and forces the critic to examine her own intent, which in the chapter's account produced astonishment, a belated apology, and a working relationship rescued. Choice 1 converts the exchange into an adversarial personal standoff - the defensiveness that makes the critic shut down and blocks the corrective. Choice 2 is the flight response the engineer nearly took: quitting is the business equivalent of divorce and throws away feedback he could use. Choice 3 skips the interpersonal repair, accepts the damage silently, and still leaves the vice president unaware of how her delivery lands, guaranteeing the pattern repeats; the chapter stresses that receiving criticism well includes hearing the impact through to a shared plan."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Speaking up against a domineering boss (the cockpit lesson)",
+          "visual_frame_description": "The dark cockpit of an airliner in a holding pattern above Portland, Oregon, 1978. Captain Melburn McBroom hunches over the landing gear controls, muttering to himself, while First Officer Lee Nakamura and Second Officer Renata Okafor watch the fuel gauges drift toward empty. Gray rain streaks the windshield and the runway lights below grow distant as the aircraft circles.",
+          "player_mission": "You are First Officer Lee Nakamura. The captain is obsessed with a landing gear problem and has ignored your fuel warnings. Ten lives and the safety of the flight depend on getting the crew to speak up together despite the captain's temper. Break the silence the way the crash's cautionary tale demands.",
+          "key_concepts": [
+            "The McBroom crash is told as a cautionary tale in pilot safety training: the copilots feared the domineering captain's wrath so much they said nothing as the fuel ran out, and the plane crashed, killing ten people.",
+            "In 80 percent of airline crashes, pilots make mistakes that could have been prevented, particularly if the crew had worked together more harmoniously.",
+            "Teamwork, open lines of communication, cooperation, listening, and speaking one's mind are rudiments of social intelligence now emphasized in training pilots along with technical prowess.",
+            "The cockpit is a microcosm of any working organization, where the costs of miserable morale and intimidated workers can go unnoticed until disaster.",
+            "When people are emotionally upset, they cannot remember, attend, learn, or make decisions clearly; stress makes people stupid, as one management consultant put it.",
+            "A domineering, intimidating boss suppresses the exchange of information that is the lifeblood of any team.",
+            "Feedback is the exchange of data about how one part of a system is working, so that any part heading off course can be changed for the better.",
+            "The fuel gauges of the real 1978 flight steadily approached empty while the copilots remained silent out of fear, a failure of communication rather than of technical skill."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the suppression of information under intimidating authority: fear of the boss's temper silences the very communication a team needs to correct a deadly error. The chapter uses the 1978 Portland crash to show that social intelligence - speaking one's mind, cooperation, listening - is what turns a group of skilled individuals into a crew that survives.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Captain Melburn McBroom, a domineering pilot with a temper that intimidates everyone who works with him, has been circling Portland for nearly an hour while he fiddles with a landing gear indicator. The fuel gauges are approaching empty, but the first and second officers are so afraid of his wrath that neither wants to challenge him. Your job as first officer is to get the truth onto the table and the aircraft on the ground. The stakes are the lives of everyone on board and the lesson of the real 1978 crash, where ten people died because nobody spoke up.",
+          "dialogue": [
+            "Captain McBroom: 'Keep circling. I am going to get this gear light to stop blinking.'",
+            "First Officer Lee: 'We have been in the hold for forty minutes, Captain. The fuel is getting low.'",
+            "Captain McBroom: 'I said I am working the problem. Fly the airplane.'",
+            "Second Officer Renata: (whispering) 'He is not hearing us, Lee. That gauge is near empty.'",
+            "First Officer Lee: 'Captain, we have fuel for roughly twenty more minutes in this pattern.'",
+            "Captain McBroom: 'Quiet. One more pass and I will have it.'",
+            "Second Officer Renata: 'Lee, somebody has to say it out loud. He will rage at us if we interrupt.'",
+            "First Officer Lee: 'If we do not, we land short of the field.'"
+          ],
+          "choices": [
+            "Captain, I need to state this clearly: we are below our minimum fuel for another approach. We must land now, gear or no gear. I am prepared to take the aircraft if you will not.",
+            "Okay, Captain. One more pass then.",
+            "Renata, you tell him. He listens to you more than he listens to me.",
+            "Fine. We keep circling. If we crash, it is on his head."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Speaking one's mind and refusing to be silenced by intimidation - the rudiments of social intelligence that the chapter says could have prevented the Portland crash.",
+          "psychological_breakdown": "Choice 0 does exactly what the real copilots failed to do: it names the life-threatening problem in specific, unambiguous terms, backs it with data (minimum fuel), and offers the captain a face-saving but non-negotiable path, forcing the information exchange that the chapter calls the lifeblood of a team. Choice 1 reproduces the fatal silence - fear of the boss overrides judgment and the fuel runs out. Choice 2 merely transfers the risk to a colleague who is just as intimidated, so the information still never reaches the captain decisively. Choice 3 is resentful compliance, the passive resistance that leaves the decision to fate; the book's cockpit lesson is that communication and cooperation, not deference to a temper, are what keep a crew alive."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Specific praise and prompt feedback (Levinson's rules)",
+          "visual_frame_description": "A bright, open-plan operations floor at a logistics firm, early morning. Priya Raman, an operations manager in her thirties, sits beside her analyst Tom Webb at his desk, notebooks out, away from the open walkway. Tom's latest three deliverables have slipped, and Priya has a reputation for staying silent about problems for months and then exploding with a list of old grievances.",
+          "player_mission": "You are Priya. Tom has missed three deadlines in a row, and you are about to lose your temper with a sweeping personal attack. Instead, deliver the feedback the chapter says managers should give: specific, prompt, face-to-face, with a solution - and lead with genuine, specific praise so Tom knows where he stands.",
+          "key_concepts": [
+            "Many managers are too willing to criticize but frugal with praise, leaving employees feeling they only hear about their performance when they make a mistake.",
+            "Specificity is just as important for praise as for criticism; vague praise has little effect, and you cannot learn from it.",
+            "Most problems in an employee's performance develop slowly over time; when the boss fails to let his feelings be known promptly, frustration builds until he blows up about a long list of old grievances.",
+            "Criticism given too late, in a tone of biting sarcasm, with a list of past grievances and threats, backfires: it is received as an affront and the recipient becomes angry in return.",
+            "A blanket, generalized statement like 'You're screwing up' provides no chance to respond and no suggestion of how to do better, leaving the receiver helpless and angry.",
+            "Levinson's rules for the artful critique: be specific, offer a solution, be present (face to face and in private), and be sensitive to the impact of what you say.",
+            "The critique should point to a way to fix the problem, opening the door to possibilities the person did not realize were there.",
+            "Air grievances as helpful critiques rather than personal attacks, just as healthy couples air their complaints without permanent damage."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the timing and framing of feedback: criticism must be specific, prompt, private, and paired with a solution, and praise must be equally specific to be learnable. The chapter grounds this in Levinson's rules and Larson's observation that delayed, boiling-over criticism is the worst way to motivate someone because it triggers anger instead of correction.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Tom Webb is a capable analyst who has quietly slipped on the last three deliverables because he keeps getting pulled into ad hoc requests from the sales team. Priya has said nothing for months - her habit - and she can feel the frustration building into a head of steam. Her goals: correct the pattern before it hardens, keep Tom motivated, and avoid the blow-up that the chapter says makes employees defensive, evasive, and ready to stonewall. The stakes are Tom's performance, the team's deadlines, and whether Priya develops a feedback habit that builds trust instead of resentment.",
+          "dialogue": [
+            "Priya: 'Tom, thanks for staying late Tuesday to finish the margin report. The reconciliation section was clean - I pulled those numbers straight into my board pack.'",
+            "Tom: 'Uh, thanks, Priya. That is good to hear.'",
+            "Priya: 'I also want to talk about the delivery schedule, before it becomes a pattern.'",
+            "Tom: 'I know I am behind on the Q3 forecast. I have been dreading this conversation.'",
+            "Priya: 'Let us look at the last three deliverables together and find out what is actually slowing you down.'",
+            "Tom: 'Honestly? I keep getting pulled into ad hoc requests from the sales team, and I never say no.'",
+            "Priya: 'That is useful to know. Here is what I propose we do about it.'"
+          ],
+          "choices": [
+            "Set aside a half hour now. Go through each late deliverable, name the specific part that slipped, ask what blocked it, and agree on a fix - starting with rerouting all sales requests through me.",
+            "Tom, you are screwing up, and I cannot keep covering for you. Get it together before I lose patience.",
+            "I do not like giving negative feedback, so I will send you a memo outlining what needs fixing. Read it when you have a moment.",
+            "You have been late three times this quarter. I do not know what to tell you - maybe this role is not the right fit."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "The artful critique: be specific, offer a solution, be present, be sensitive - with the specificity of praise matching the specificity of criticism.",
+          "psychological_breakdown": "Choice 0 follows Levinson's rules exactly: it is face to face and private, names a significant pattern with specifics, asks what blocked the work instead of assuming character, and ends with a concrete solution, so Tom leaves with hope and a plan rather than helplessness. Choice 1 is the blanket personal attack the chapter describes as the worst way to motivate: it provides no chance to respond, no path to improvement, and triggers anger and defensiveness. Choice 2 violates the rule to be present: distant feedback robs the receiver of a chance to respond or clarify and muddies the message. Choice 3 reads a mark of character into the problem, which puts Tom on the defensive so he is no longer receptive to instruction on how to do better."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Receiving criticism without defensiveness (the receiver's playbook)",
+          "visual_frame_description": "A cramped glass-walled meeting room at a design agency. Amara Osei, a junior designer, sits rigid, jaw tight and face hot, across from director Joel Reyes, who is leaning back with his arms crossed. A printout of her deck lies torn at the corner between them; outside, coworkers glance in through the glass as they pass.",
+          "player_mission": "You are Amara. Joel has just told you that you 'didn't even try' and suggested getting someone else to do the work. You feel flooded - heart pounding, words failing. Apply the chapter's counsel for people on the receiving end of criticism: catch the defensiveness impulse, keep the exchange alive, and turn it into a working session instead of a battle.",
+          "key_concepts": [
+            "Employees who receive angry personal attacks react by becoming defensive, making excuses, evading responsibility, or stonewalling - avoiding all contact with the manager who blew up at them.",
+            "Under the emotional microscope, embittered employees think the thoughts of innocent victimhood or righteous indignation typical of partners who feel unfairly attacked.",
+            "Physiological flooding reinforces those thoughts of victimhood, the same flooding that occurs in distressed couples.",
+            "Levinson's counsel to the receiver: see the criticism as valuable information about how to do better, not as a personal attack.",
+            "Watch for the impulse toward defensiveness instead of taking responsibility.",
+            "If it gets too upsetting, ask to resume the meeting later, after a period to absorb the difficult message and cool down.",
+            "See criticism as an opportunity to work together with the critic to solve the problem, not as an adversarial situation.",
+            "In the Rensselaer simulation, harsh personal criticism left recipients so demoralized they no longer tried as hard and believed they were no longer capable of doing well."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests emotional self-regulation in the heat of an attack: when criticism lands as a personal assault, flooding activates defensive victimhood thoughts, and the receiver's only constructive move is to name the reaction, pause, and reframe the message as workable information. The chapter adapts Levinson's receiver's playbook and Gottman-style findings on flooding to the workplace, showing that defensiveness and stonewalling end the feedback exchange that could have corrected the problem.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Amara delivered a client deck two days late and Joel, her director, opened the review by saying she 'didn't even try' and 'can't seem to do anything right.' Amara is flooded: her heart is racing and her first impulse is to either fight back or storm out. She genuinely wants to keep this job and fix the deck, but the meeting is spiraling into a war. Her goals: cool her own physiology, keep Joel from writing her off, and get the specific changes she needs so the client-ready version is done by Friday.",
+          "dialogue": [
+            "Joel Reyes: 'This deck was due Tuesday. You did not even try; you cannot seem to do anything right.'",
+            "Amara: (jaw tight) 'That is not fair -'",
+            "Joel Reyes: 'Maybe it is just lack of talent. I would try to get someone else to do it.'",
+            "Amara: (heart pounding, wanting to walk out) '...'",
+            "Joel Reyes: 'I need the client-ready version by Friday. Say something.'"
+          ],
+          "choices": [
+            "I can feel myself getting defensive, and I do not want to respond from that place. Can we pause for twenty minutes so I can absorb this? Then I would like to work through the specific changes you want and how I will make them.",
+            "That is a personal attack and you know it. You have never once said anything positive about my work - why should I trust your judgment now?",
+            "Fine. Then do it yourself. I am out of here.",
+            "Understood. I will redo it." 
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "The receiver's playbook: interrupt the defensiveness impulse, request a cooling pause when flooded, and treat the critic as a collaborator on the problem.",
+          "psychological_breakdown": "Choice 0 is the exact sequence the chapter recommends: it names the defensiveness instead of acting on it, buys a cooling period to let the flooding subside, and converts the criticism into a specific working session, keeping the feedback channel - the lifeblood of the organization - open. Choice 1 escalates into a counterattack that breeds mutual resentment and makes Joel more entrenched; it is the defensiveness the book says to watch for. Choice 2 is the flight response, the business equivalent of divorce, which throws away both the job and the information. Choice 3 is silent, resentful compliance that borders on stonewalling: Amara avoids the confrontation but swallows the attack, keeps no clarity about specifics, and leaves with helplessness and bitterness that will corrode the work."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Naming bias on the spot (zero tolerance at team level)",
+          "visual_frame_description": "A break room at a midsize insurance firm, lunchtime. Danny Kowalski, a sales rep in his forties, is propped against a counter about to launch into a joke about the new analyst from the Seoul office. A demeaning calendar hangs on the wall behind him. Two coworkers are grinning, one laughs, and Tanya, a junior analyst, is staring into her coffee with a tight face.",
+          "player_mission": "You are Marcus Bell, the team lead. You know the research in the chapter: hearing an ethnic slur leads others to make them, and saying nothing condones it. Interrupt the moment with the finesse of an effective critique so the message lands without defensiveness, and reset the norm for the whole team.",
+          "key_concepts": [
+            "One study found that when people in a group heard someone make ethnic slurs, it led others to do the same.",
+            "The simple act of naming bias as such or objecting to it on the spot establishes a social atmosphere that discourages it; saying nothing serves to condone it.",
+            "Those in positions of authority play a pivotal role: their failure to condemn acts of bias sends the tacit message that such acts are okay.",
+            "Following through with action such as a reprimand sends a powerful message that bias is not trivial, but has real - and negative - consequences.",
+            "The norms of a group must be decisively changed by taking an active stance against any acts of discrimination, from the top echelons of management on down.",
+            "Biases may not budge, but acts of prejudice can be quashed if the climate is changed, as an IBM executive put it: 'We don't tolerate slights or insults in any way; respect for the individual is central to IBM's culture.'",
+            "Speaking up against bias should be couched with all the finesse of an effective criticism, so it can be heard without defensiveness.",
+            "Diversity is a source of value, not friction, when organizations foster an atmosphere in which it is valued rather than a source of friction."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the bystander-to-advocate shift that changes group norms: naming bias on the spot and, as an authority figure, refusing to let it pass, which the chapter says discourages future bias while silence condones it. The contagion finding - hearing slurs leads others to make them - is the mechanism that makes timely objection so consequential.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "It is lunch break, and Danny is about to tell an ethnic joke in a break room full of coworkers, with a demeaning calendar as backdrop. Tanya looks uncomfortable; the others are grinning. Marcus knows that if nobody says anything, the message to the whole team is that bias is acceptable here - and that one slur will breed more. His goals: stop the joke, protect the new analyst and Tanya, and reset the norm without creating a martyr out of Danny, so the objection is heard, not resented.",
+          "dialogue": [
+            "Danny Kowalski: 'Wait till you hear this one. It is about the new guy from the Seoul office...'",
+            "Marcus: 'Hold on, Danny.'",
+            "Danny Kowalski: 'Relax, it is just a joke. Everyone is laughing.'",
+            "Tanya (junior analyst): (staring at her coffee, silent)",
+            "Marcus: 'I am going to stop you there. I want to talk about this for a minute, because I think it matters.'",
+            "Danny Kowalski: 'I did not mean anything by it. Now I am the bad guy?'",
+            "Marcus: 'You are not the bad guy. But this is the kind of thing we have agreed does not fly here, and here is why...'"
+          ],
+          "choices": [
+            "An offensive joke is not harmless. When one person hears a slur and nobody says anything, others repeat it, and it tells every person in this room that their identity is fair game. I am asking you not to tell it, and I will hold everyone in this team to that standard.",
+            "Say nothing and let the moment pass, hoping nobody repeats the joke.",
+            "Danny, that was funny, but maybe keep those jokes to the guys.",
+            "Tanya, you look uncomfortable. Do you have a problem with this? You should speak up."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Naming bias as such, on the spot, from a position of authority: the chapter's zero-tolerance norm that discourages bias while silence condones it.",
+          "psychological_breakdown": "Choice 0 does three things the chapter demands: it names the bias explicitly rather than letting it slip by, it gives the evidence-based reason (slurs breed slurs, silence condones), and it sets a team-wide norm from a position of authority so the standard outlives the moment. Choice 1 is the condoning silence the chapter condemns - the joke proceeds, the norm is set, and witnesses learn that bias passes. Choice 2 half-condones: it lets the content stand while quietly endorsing it among 'the guys,' splitting the team and endorsing the harassment. Choice 3 blames the victimized witness: it puts Tanya on the spot and sends the message that the burden of objection falls on the person most hurt, the exact opposite of the authority figure's responsibility to speak."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Building rapport networks before the crunch (Bell Labs)",
+          "visual_frame_description": "A hushed research lab at a famous telephone-switch design center near Princeton, the afternoon light falling across cubicle walls covered in circuit diagrams. Elena Vasquez, a new engineer, is on the phone, listening to a ringing line, while her mentor Rachel Okafor - one of the lab's star performers - watches knowingly from the next desk, a coffee mug in hand.",
+          "player_mission": "You are Elena. You are stumped by a technical problem and the lab's top guru, Harold Chen, has ignored four calls and three e-mails this week. Learn from Rachel how stars get answers - by building rapport with key people before they are ever needed - and take the first step toward becoming a node in the lab's informal networks.",
+          "key_concepts": [
+            "At Bell Labs, stars were better able to motivate themselves and to work their informal networks into ad hoc teams.",
+            "Academic talent was not a good predictor of on-the-job productivity at Bell Labs; stars differed from average performers mainly in internal and interpersonal strategies.",
+            "One of the most important star strategies was rapport with a network of key people, cultivated before services were needed in a crunch.",
+            "A middle performer studied by Kelley and Caplan wasted valuable time calling gurus and waiting while calls went unreturned and e-mail went unanswered.",
+            "Star performers rarely face such waits because they do the work of building reliable networks before they need them; when they call for advice, they almost always get a faster answer.",
+            "Informal networks come in at least three varieties: communications webs (who talks to whom), expertise networks (who is turned to for advice), and trust networks.",
+            "There is virtually no relationship between being an expert and being seen as someone people trust with their secrets, doubts, and vulnerabilities.",
+            "Stars of an organization often have thick connections on all three networks - communications, expertise, and trust."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests proactive network cultivation: rapport with key people must be built before a crunch, because informal networks - expertise and trust, not just the formal hierarchy - decide who gets help fast. The chapter grounds this in the Kelley and Caplan study of Bell Labs stars versus middle performers, where the difference was not IQ but the pre-built social fabric stars could call on.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Elena Vasquez has been at the lab for six months and is stuck on a tricky switching problem. Harold Chen, the acknowledged technical guru, has not answered her calls all week, and her deadline is Friday. Rachel Okafor, a star performer, has just explained the difference between how stars and middle performers get help. Elena's goals: solve the immediate problem, but more importantly learn the networking behavior that turns strangers into a reliable ad hoc team. The stakes are her deadline, her reputation in the expertise network, and her long-term effectiveness at the lab.",
+          "dialogue": [
+            "Elena: 'I have called Harold Chen's office four times this week. Nothing. Not even a reply to e-mail.'",
+            "Rachel Okafor: 'Harold gets thirty requests a day. The middle performers here wait days for his answers.'",
+            "Elena: 'So how does anyone ever get help?'",
+            "Rachel Okafor: 'Watch the stars. We already know Harold's coffee schedule, his lunch habits, his pet projects.'",
+            "Elena: 'You are saying I should have started building this relationship months ago?'",
+            "Rachel Okafor: 'Exactly. The network is built before the crunch, not during it.'"
+          ],
+          "choices": [
+            "Then let us go find him. I will take a genuine interest in his project, ask his advice on mine, and follow up with a real thank-you - so next time I call, I am a person he knows, not another inbox item.",
+            "I will just keep calling. Persistence has to pay off eventually.",
+            "I will route around him and ask random senior people in other divisions until somebody answers.",
+            "This networking stuff is a waste of time. I will figure it out alone - I always do."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Pre-built rapport networks: stars cultivate relationships with key people before they are needed, so when a crunch comes they get fast answers from expertise and trust networks.",
+          "psychological_breakdown": "Choice 0 is the star strategy from the Bell Labs study: it starts building rapport now - genuine interest, a concrete exchange of advice, a follow-up that registers as a person rather than a request - which is precisely the work stars do 'before they actually need them.' Choice 1 repeats the middle performer's dead-end persistence the study documented, wasting time while calls go unreturned. Choice 2 spreads a thin, random net without building trust in any node, so Elena stays outside the expertise network's main lines. Choice 3 is the isolation of the lone performer, which fails precisely because at this lab the work is beyond any one engineer's capacity and getting things done demands tapping other people's expertise."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The 'heads but not hearts' doctrine vs. empathy at work",
+          "visual_frame_description": "A wood-paneled boardroom in a 1970s-style corporation. Victor Hale, a silver-haired vice president, has just cut down a junior manager's proposal in front of her entire team and now stands at the head of the table, arms folded, delivering a lecture about hard numbers. His direct reports slump in their chairs; a rising star visibly rolls her eyes; two colleagues exchange a glance that says they are already updating their résumés.",
+          "player_mission": "You are Mara Chen, chief operating officer, watching the fallout of Victor's 'heads but not hearts' doctrine. You still must cut the junior manager's project, but you must defeat the belief that empathy and hard decisions are opposites - and keep the team from crumbling. Choose your observation, then your move.",
+          "key_concepts": [
+            "A study of 250 executives found that most felt their work demanded 'their heads but not their hearts.'",
+            "Many executives feared that empathy or compassion for those they worked with would put them in conflict with their organizational goals.",
+            "One executive felt the idea of sensing the feelings of those who worked for him was absurd, saying it would be 'impossible to deal with people.'",
+            "The chapter argues such attitudes are outmoded: hard decisions are likely to be delivered more humanely when managers are not emotionally aloof.",
+            "Shoshona Zuboff, a psychologist at Harvard Business School, observed that the rigid corporate hierarchy that rewarded the manipulative jungle-fighter boss started breaking down in the 1980s under globalization and information technology.",
+            "'The jungle fighter symbolizes where the corporation has been; the virtuoso in interpersonal skills is the corporate future,' Zuboff said.",
+            "Leadership is not domination, but the art of persuading people to work toward a common goal.",
+            "When emotionally upset, people cannot remember, attend, learn, or make decisions clearly - the costs of an intimidating emotional climate are measurable in productivity and talent exodus.",
+            "There is a cost to the bottom line from low levels of emotional intelligence on the job; when it is rampant, companies can crash and burn."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the doctrine that empathy is a luxury that conflicts with organizational goals: the 250-executive study shows the fear, while the chapter argues the aloof stance is outmoded and that humanely delivered hard decisions are both possible and necessary. The mechanism at stake is whether emotional attunement is treated as incompatible with authority or as part of the data a leader reads.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "The central concept is that emotional aloofness is an outmoded management doctrine: the 1970s study of 250 executives captured the widespread fear that empathy conflicts with organizational goals, but the chapter argues that this 'heads but not hearts' attitude is a luxury of a former day, and that the jungle-fighter boss is being replaced by the virtuoso in interpersonal skills.",
+          "stage_1_observation": "Victor Hale has just demolished the junior manager's proposal in front of her team and is now lecturing: 'Business runs on hard numbers, not feelings. I cannot afford empathy, and neither should you.' Watch the room: the team is deflated, the rising star is already disengaging, and two employees exchange a glance that reads as resignation. Notice the emotional climate Victor's doctrine creates and what it predicts for the bottom line.",
+          "stage_1_question": "According to the chapter, what does the study of 250 executives reveal about the cost of the 'heads but not hearts' attitude that Victor is preaching?",
+          "stage_1_correct_answer": "The study found that most executives believed empathy or compassion at work would put them in conflict with organizational goals, yet the chapter argues this attitude is outmoded - hard decisions can be delivered more humanely, and the rigid hierarchies that rewarded jungle-fighter bosses have been breaking down since the 1980s under the twin pressures of globalization and information technology; the jungle fighter symbolizes where the corporation has been, while the virtuoso in interpersonal skills is the corporate future.",
+          "stage_2_intervention": "You are Mara Chen, the COO, and the project cut is still on your table. Choose the move that delivers the hard decision while defeating the doctrine that empathy has no place at work.",
+          "stage_2_correct_answer": "Deliver the cut directly to the junior manager in private - respectfully, with the business rationale and a path forward - while publicly telling the team that listening to their reactions is part of the information you read, and quietly coaching Victor that his sarcasm and aloofness are costing him the team; this shows empathy and hard decisions are not opposites, which is precisely the false either/or the 250-executive study's fears rest on."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Destructive vs. artful critique (the rewrite battle)",
+          "visual_frame_description": "A conference room at a software firm, end of a product review. Vice President Diane Whitmore has just slammed her palm on the table and told engineer Carlos's team that their specifications 'have no chance of getting past my desk.' Carlos sits frozen and silent; his teammates mutter hostile remarks; the meeting breaks up abruptly, leaving a residue of bitterness in the air as people file out.",
+          "player_mission": "You face the same critique twice. First, observe the damage the sarcastic attack does and identify the mechanism. Then, as the vice president, rewrite the criticism the way the chapter's model artful critique does - specific, solution-oriented, and motivating - so the team can actually improve.",
+          "key_concepts": [
+            "Inept criticism was ahead of mistrust, personality struggles, and disputes over power and pay as a reason for conflict on the job, in a study of 108 managers and white-collar workers.",
+            "In a simulation at Rensselaer Polytechnic Institute, volunteers who received a harsh, blaming critique became tense, angry, and antagonistic, refusing to collaborate or cooperate on future projects.",
+            "Harsh criticism made recipients so demoralized that they no longer tried as hard and said they no longer felt capable of doing well.",
+            "The destructive critique was a blanket, generalized statement in a harsh, sarcastic tone that gave no chance to respond and no suggestion of how to do better.",
+            "An artful critique holds out the hope of doing better and suggests the beginning of a plan for doing so.",
+            "The chapter's model critique: 'The main difficulty at this stage is that your plan will take too long and so escalate costs. I'd like you to think more about your proposal, especially the design specifications for software development, to see if you can figure out a way to do the same job more quickly.'",
+            "A character attack - calling someone stupid or incompetent - misses the point and puts the person on the defensive, making them unreceptive to instruction.",
+            "When people believe their failures are due to an unchangeable deficit in themselves, they lose hope and stop trying; optimism rests on the belief that setbacks are due to circumstances we can change."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the difference between destructive and artful critique: personal attacks trigger anger, demoralization, and stonewalling, while specific, solution-oriented feedback keeps people motivated and capable. The chapter's evidence includes the Rensselaer shampoo-ad simulation, where blamed volunteers refused future collaboration and believed themselves incapable, and the 108-manager survey ranking inept criticism the top cause of workplace conflict.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "The central concept is the artful critique: criticism is one of the most important and most dreaded tasks a manager has, and how it is delivered determines whether employees gain hope and a plan or lose motivation and confidence. The sarcastic vice president's attack is the chapter's prime example of destructive criticism, and the chapter supplies the exact artful alternative.",
+          "stage_1_observation": "Diane Whitmore has just told engineer Carlos that his specifications are ridiculous and have no chance of getting past her desk, then walked out, leaving the meeting to break up in bitterness. Watch what happens in the room and over the following weeks: Carlos sits glum and silent, his team makes hostile remarks, and Carlos will spend two weeks dispirited, convinced he will never get another important assignment - even though the vice president actually thought the plan was promising.",
+          "stage_1_question": "Why is the vice president's criticism so damaging, according to the chapter's analysis?",
+          "stage_1_correct_answer": "It is a blanket, generalized, sarcastic personal attack that reads a mark of character into a job poorly done: it provides no chance to respond, no suggestion of how to do better, and no path to correction; research shows such attacks make recipients tense, angry, and antagonistic, unwilling to collaborate again, demoralized enough to stop trying and doubt their own capability - and inept criticism ranks ahead of mistrust and power struggles as a cause of on-the-job conflict.",
+          "stage_2_intervention": "The scene rewinds. You are now Diane Whitmore, and the same plan just landed on your desk with real problems: it will take too long and escalate costs. Rewrite your criticism so it holds out hope and a plan instead of a wound.",
+          "stage_2_correct_answer": "Deliver the chapter's model artful critique: name the specific problem and offer the solution - 'The main difficulty at this stage is that your plan will take too long and so escalate costs. I'd like you to think more about your proposal, especially the design specifications for software development, to see if you can figure out a way to do the same job more quickly' - focusing on what was done and can be done, not on character, so the team is motivated to improve rather than demoralized."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Group IQ and social harmony (Sternberg and Williams)",
+          "visual_frame_description": "A conference room at a branding agency, whiteboards covered in sticky notes. A five-person team is racing to produce an ad campaign for 'SweetSure,' a fictitious sweetener. Priya, loud and confident, has seized the whiteboard marker and is talking over everyone, erasing a colleague's headline; Leo sits in the corner scrolling his phone; two members with strong ideas are slowly going quiet, arms crossed.",
+          "player_mission": "You are team lead Maya. Watch the group dynamics and identify what is dragging the team's collective intelligence down, then intervene to restore the harmony that lets the group capitalize on its most talented members before the client deadline.",
+          "key_concepts": [
+            "The idea of group intelligence comes from Robert Sternberg and Wendy Williams, who studied groups given the creative challenge of producing an advertising campaign for a fictitious sweetener.",
+            "The single most important element in group intelligence is not the average IQ in the academic sense, but emotional intelligence: the key to a high group IQ is social harmony.",
+            "People who were too eager to take part were a drag on the group, lowering its overall performance; these eager beavers were too controlling or domineering.",
+            "Eager beavers seemed to lack a basic element of social intelligence: the ability to recognize what is apt and what is inappropriate in give-and-take.",
+            "Another negative was dead weight - members who did not participate.",
+            "The overall performance of harmonious groups was helped by having a member who was particularly talented; groups with more friction were far less able to capitalize on having members of great ability.",
+            "In groups with high levels of emotional and social static - fear, anger, rivalries, resentments - people cannot offer their best.",
+            "Harmony allows a group to take maximum advantage of its most creative and talented members' abilities.",
+            "A group can be no smarter than the sum of its members' strengths, but it can be much dumber if its internal workings do not let people share their talents."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests group intelligence as a product of social harmony rather than average IQ: Sternberg and Williams found that domineering 'eager beavers' and non-participating dead weight both lower group performance, while internal harmony lets a group leverage its most talented members. The mechanism is the give-and-take of social intelligence - recognizing what is apt and what is inappropriate in collaboration.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "The central concept is the group IQ: whenever people collaborate there is a collective intelligence that is determined less by average academic IQ than by emotional intelligence and social harmony. Sternberg and Williams' sweetener-ad-campaign groups showed that eager beavers and dead weight drag performance down, while harmonious groups maximize the talent of their best members.",
+          "stage_1_observation": "The SweetSure team has thirty minutes left. Priya is rewriting everyone's lines and has erased a colleague's headline twice; Leo has contributed nothing and is scrolling his phone; the two strongest creative minds, Dana and Marcus, have stopped pitching ideas entirely and are watching the clock. Watch who is raising and who is lowering the group's collective intelligence.",
+          "stage_1_question": "According to Sternberg and Williams' research, what most determines whether this team produces an excellent campaign?",
+          "stage_1_correct_answer": "The key is internal harmony that lets the group take advantage of the full talent of its members - not the average academic IQ; the controlling eager beaver (Priya) and the dead weight (Leo) both lower performance, and when a group is full of emotional and social static, people cannot offer their best, so even a highly talented member's gifts go unused.",
+          "stage_2_intervention": "You are Maya, the team lead, and the session is spiraling into Priya's monologue while Dana and Marcus shut down. Intervene now to restore the give-and-take before the deadline.",
+          "stage_2_correct_answer": "Gently check Priya's takeover by explicitly inviting Dana and Marcus to present their ideas in turn, giving each person a defined airtime, and naming the ground rule that every contribution gets heard - the recognition of what is apt and what is inappropriate in give-and-take that eager beavers lack - so the harmony is restored and the group can capitalize on its most creative members' abilities."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Zero tolerance and the Denny's pattern",
+          "visual_frame_description": "A Denny's restaurant in Columbia, South Carolina, mid-1990s, on a slow afternoon. A booth holds four Black customers - a minister, an assistant pastor, and two visiting gospel singers - who sit unattended while three waitresses glare with their hands on their hips and return to talking among themselves. Shift manager Sylvia Skeeter watches from the pass, and the branch manager leans against the counter shrugging.",
+          "player_mission": "You are on a two-stage mission: first, read why the manager's shrug allowed discrimination to thrive at Denny's; then, as the new district manager on a surprise visit, intervene decisively to change the branch's norms from the top down.",
+          "key_concepts": [
+            "Sylvia Skeeter, a shift manager at a Denny's in Columbia, South Carolina, watched waitresses ignore a party of Black customers - a minister, an assistant pastor, and two gospel singers - and confronted them, only to have the manager shrug: 'That's how they were raised, and there's nothing I can do about it.'",
+            "Skeeter quit on the spot; she is black, and she became one of hundreds who testified to a widespread pattern of antiblack prejudice across the Denny's chain.",
+            "The pattern of discrimination resulted in a $54 million settlement of a class-action suit on behalf of thousands of Black customers.",
+            "The class-action suit held that the discrimination was driven by the widespread assumption throughout the Denny's chain that Black customers were bad for business.",
+            "Attorney John P. Relman said of Denny's management: 'They closed their eyes to what the field staff was doing. There must have been some message... which freed up the inhibitions of local managers to act on their racist impulses.'",
+            "To do nothing in the face of bias is an act of consequence in itself, letting the virus of prejudice spread unopposed.",
+            "The norms of a group must be decisively changed by taking an active stance against any acts of discrimination, from the top echelons of management on down.",
+            "Biases may not budge, but acts of prejudice can be quashed if the climate is changed.",
+            "The chapter's lesson: people in positions of authority play a pivotal role - their failure to condemn acts of bias sends the tacit message that such acts are okay."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the zero-tolerance principle: discrimination thrives when authority figures turn a blind eye, because silence condones bias and frees subordinates to act on their impulses. The chapter grounds this in the Denny's class-action case, where a $54 million settlement followed a chain-wide pattern of managers closing their eyes to field staff discrimination.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "The central concept is that intolerance must be met with zero tolerance from the top: individual biases may not be weeded out, but acts of discrimination can be suppressed when authority figures actively condemn them, because doing nothing condones bias and lets it spread unopposed.",
+          "stage_1_observation": "The minister's party has been sitting for twenty minutes. The waitresses glare with their hands on their hips, then go back to their conversation. Sylvia Skeeter is indignant and confronts them, then complains to the branch manager, who shrugs: 'That's how they were raised, and there's nothing I can do about it.' Watch the manager's behavior and what it communicates to every employee on the floor.",
+          "stage_1_question": "Why does the branch manager's shrug - his refusal to act - make the discrimination worse, according to the chapter?",
+          "stage_1_correct_answer": "Because doing nothing is an act of consequence in itself: saying nothing serves to condone bias and lets it spread unopposed; the Denny's class-action suit found that discrimination was driven by the chain-wide assumption that Black customers were bad for business and thrived because managers closed their eyes, which freed local staff from the inhibitions that would otherwise have stopped them from acting on their biases.",
+          "stage_2_intervention": "You are the new district manager on your first surprise visit, and you have just witnessed the same scene: the party is still ignored, and the branch manager is shrugging again. Choose the decisive move that changes this branch's norms from the top down.",
+          "stage_2_correct_answer": "Intervene on the spot: personally seat and serve the waiting party, then hold a brief staff meeting that states the new explicit ground rule that bias in any form is out-of-bounds, and issue a formal reprimand to the offending staff - so the action sends the powerful message that bias is not trivial but has real, negative consequences, changing the climate even where individual biases remain."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The condoning manager (audit of feigned helplessness)",
+          "visual_frame_description": "A grainy security-camera montage of a Denny's branch floor circa 1994, overlaid with an audit console. Timestamped clips play in a grid: a Black party of four seated and ignored, waitresses with hands on hips, a manager at the register turning away. A typed audit report scrolls beside the footage, and the auditor's cursor hovers over the verdict button.",
+          "player_mission": "You are the compliance auditor. Branch manager Earl Suggs claims he is a neutral bystander who is simply helpless against his staff's upbringing. Examine his baseline behavior, the observed log, and the interrogation transcript, then deliver the correct diagnosis of what Earl's 'neutrality' actually does.",
+          "key_concepts": [
+            "Saying nothing serves to condone acts of bias; the simple act of naming bias establishes a social atmosphere that discourages it.",
+            "Denny's management 'closed their eyes to what the field staff was doing,' which freed up the inhibitions of local managers to act on their racist impulses, as attorney John P. Relman put it.",
+            "The Denny's class-action suit held that discrimination was due to the widespread assumption that Black customers were bad for business, particularly at the level of district and branch managers.",
+            "To do nothing, in this context, is an act of consequence in itself, letting the virus of prejudice spread unopposed.",
+            "Those in positions of authority play a pivotal role: their failure to condemn acts of bias sends the tacit message that such acts are okay.",
+            "Some Denny's managers tacitly encouraged discrimination, even suggesting policies like demanding payment in advance from Black customers only or locking the doors and claiming to be closed when groups of Black customers approached.",
+            "The norms of a group change when people take an active stance against acts of discrimination from the top echelons on down.",
+            "Biases may not budge, but acts of prejudice can be quashed if the climate is changed."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the difference between genuine neutrality and condoning silence: a manager who watches bias unfold and claims helplessness is functionally enabling the discrimination, because in the chapter's account, closing one's eyes is exactly the management behavior that let Denny's discrimination thrive. The mechanism is authority-based norm-setting - what the person in power fails to condemn, they license.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "question": "Branch manager Earl Suggs insists he is neutral and helpless in the face of his staff's discrimination - 'That's how they were raised, and there's nothing I can do about it.' Is Earl's posture genuine neutrality, or does it function as something else?",
+          "subject_baseline": "Earl, a ten-year Denny's branch manager, prides himself on never rocking the boat. He says he treats everyone the same, insists he has no prejudice, and describes his management style as 'not getting involved' in how his waitresses behave with customers. Colleagues describe him as pleasant but passive, a man who never raises an issue with staff or with corporate.",
+          "observed_nonverbal_log": [
+            "10:03 AM - A party of four Black customers is seated; three waitresses glance at each other and cross their arms. Earl watches from the register, then turns away.",
+            "10:12 AM - A waitress walks past the Black table twice without stopping, hands on hips. Earl pulls receipts and examines them, his back to the floor.",
+            "10:20 AM - The minister at the table raises his hand to signal for service. Earl sees him, then picks up the phone and makes a call.",
+            "10:35 AM - A white family is seated and served within four minutes. Earl nods approvingly at the waitress.",
+            "10:41 AM - A hostess whispers to Earl, 'Should we do something about that table?' Earl shrugs and mouths, 'That's how they were raised.'"
+          ],
+          "interrogation_transcript": [
+            "Earl: 'I never discriminated against anyone in my life. I just let my girls do their jobs.'",
+            "Auditor: 'What did you do when the table of four had not been served for over half an hour?'",
+            "Earl: 'I am not their babysitter. I cannot change how people were raised.'",
+            "Auditor: 'Did you notice the difference between how the white table and the black table were treated?'",
+            "Earl: 'People are different, that is all. Not my place to get in the middle.'",
+            "Auditor: 'So you consider watching a table be ignored for thirty minutes \"not getting in the middle\"?'",
+            "Earl: (long pause) 'I told you. There is nothing I can do.'"
+          ],
+          "correct_diagnosis": "Earl's 'neutrality' is not genuine: it is a false claim of helplessness that functions as tacit condoning of discrimination - he has the authority to act and chooses not to, and his selective attention shows he is not actually blind to the pattern.",
+          "diagnostic_breakdown": "The log contradicts Earl's story at three points: he saw the ignored table and actively looked away when signaled (10:20 AM), he acknowledged the differential treatment when the hostess asked (10:41 AM), and he approved the white table's fast service while ignoring the Black table's wait - behavior inconsistent with true blindness or neutrality. His claim that there is 'nothing I can do' is contradicted by his authority: he is the branch manager, the very level the class-action suit identified as pivotal in Denny's discrimination. The chapter's analysis supplies the verdict: to do nothing is an act of consequence in itself, and 'saying nothing serves to condone it'; as Relman said of Denny's managers, they closed their eyes and thereby freed local staff to act on their impulses.",
+          "distractors": [
+            "Earl is lying about his own beliefs - his personal racism is the direct root cause of the incident.",
+            "Earl is simply a weak manager who genuinely lacks the authority to correct his staff.",
+            "Earl is telling the truth: individual upbringing genuinely cannot be changed by a manager, so he is not responsible."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Covert bias and disavowed prejudice (audit)",
+          "visual_frame_description": "A split-screen audit interface. Left side: a calendar timeline of a corporate week - briefing sessions, interview rooms, handshakes at elevators. Right side: freeze-frames with timestamps and annotation arrows, showing identical resumes in two piles. A summary panel reads 'Subject disavows bias: claims merit-only hiring.'",
+          "player_mission": "You are the internal investigator. Senior manager Tom Gallagher swears he is 'color-blind when it comes to hiring,' yet his outcomes show a pattern. Audit his baseline, the observed log, and the interrogation, then determine whether his self-report of unbiasedness is credible.",
+          "key_concepts": [
+            "Over the last forty years, racial attitudes of American whites toward blacks have become increasingly more tolerant, yet more subtle forms of bias persist: people disavow racist attitudes while still acting with covert bias.",
+            "When asked, such people say they feel no bigotry, but in ambiguous situations still act in a biased way - though they give a rationale other than prejudice.",
+            "Covert bias can take the form of a white senior manager who believes he has no prejudices rejecting a black job applicant, ostensibly not because of his race but because his education and experience 'are not quite right,' while hiring a white applicant with about the same background.",
+            "Covert bias can also take the form of giving a briefing and helpful tips to a white salesman about to make a call, while neglecting to do the same for a black or Hispanic salesman.",
+            "Stereotypes of all kinds are self-confirming: people remember more readily instances that support the stereotype while tending to discount instances that challenge it.",
+            "Prejudices are a kind of emotional learning that occurs early in life, making them hard to eradicate entirely even in people who as adults feel it is wrong to hold them.",
+            "Thomas Pettigrew found that it is far easier to change intellectual beliefs than deep feelings; many Southerners confessed that even when they no longer felt prejudice in their minds, they felt squeamish shaking hands with a black person.",
+            "Even when people disconfirm a stereotype - such as an emotionally open, warm Englishman - others can discount the instance by saying he is just unusual or 'he's been drinking.'"
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests covert bias detection: the subject genuinely disavows prejudice while systematically acting in biased ways with non-racial rationales, the exact pattern the chapter describes in managers who reject Black applicants for reasons 'not quite right' or brief the white salesman but not the Black one. The mechanism is the disconnection between declared attitudes and ambiguous-situation behavior, reinforced by self-confirming stereotypes.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "question": "Tom Gallagher, a white senior manager, insists he has no racial prejudice: 'I judge candidates on merit.' Yet over the past year he rejected every Black applicant for the field-sales role while hiring white applicants with nearly identical backgrounds, and his briefing behavior differs by race. Is Tom's self-report of unbiasedness credible?",
+          "subject_baseline": "Tom, 48, is a senior manager celebrated for saying the right things about diversity at company events. He genuinely believes he is unprejudiced: he recalls his parents teaching him that everyone is equal, and he becomes visibly uncomfortable when anyone suggests he might act otherwise. He is known as a 'gut-feel' interviewer who trusts his instincts and cannot explain every hire in detail.",
+          "observed_nonverbal_log": [
+            "9:00 AM - Pre-call briefing with white salesman Pete Novak: Tom leans in, gives three product tips, a pricing override, and an introduction to a key buyer, then claps Pete on the shoulder.",
+            "9:40 AM - Same briefing with Black salesman Derek Fields: Tom hands him the folder, says 'You know the drill,' and returns to his desk without another word.",
+            "11:15 AM - Interview with Black candidate Dana Carter: four questions, a glance at the clock, then 'Your experience is solid, but not quite right for this role.' Interview length: eleven minutes.",
+            "11:50 AM - Interview with white candidate Josh Miller, nearly identical resume profile: Tom runs twenty minutes over, asks follow-up questions, laughs, and walks Josh to the elevator saying, 'I will call you Monday.'",
+            "2:00 PM - Tom, to the HR representative: 'I am color-blind when it comes to hiring. I have never once rejected someone because of race.'"
+          ],
+          "interrogation_transcript": [
+            "Auditor: 'Mr. Gallagher, how did you decide Dana Carter was not right for the role?'",
+            "Tom: 'Education and experience. It just was not quite right. Same standard I apply to everyone.'",
+            "Auditor: 'And Josh Miller, hired the same week, with the same background?'",
+            "Tom: 'He just clicked in the interview, that is all. I cannot explain every gut call.'",
+            "Auditor: 'Did you give both salesmen the same preparation for their client calls that morning?'",
+            "Tom: (shifts in his chair, looks at the window) 'Pete had been here longer. He needed more context, I mean - less context. It is not what you think.'",
+            "Auditor: 'What do I think?'",
+            "Tom: (long silence) 'I really believe I am fair. I have to believe that.'"
+          ],
+          "correct_diagnosis": "Tom's self-report is not credible as a description of his behavior: he disavows prejudice while systematically acting with covert bias, offering non-racial rationales - 'not quite right' fit, 'gut call,' seniority - for identical cases treated differently.",
+          "diagnostic_breakdown": "The log shows a consistent split: White candidates and salesmen receive elaboration - briefings, pricing overrides, introductions, twenty-minute interviews, elevator promises - while Black counterparts receive procedural minimums and a nine-minute rejection. That is the exact pattern the chapter names: rejecting a Black applicant because his experience is 'not quite right' while hiring a white applicant with about the same background, and briefing the white salesman while neglecting the Black one. Tom's rationales are the chapter's 'rationale other than prejudice': he reaches for education, fit, and gut feel rather than race. His discomfort under questioning - shifting in his chair, hedging, the defensive 'I have to believe that' - marks the gap between his sincere self-image and his observed behavior; like Pettigrew's Southerners, he may genuinely hold no animus yet act on emotional learning from childhood that his conscious beliefs no longer endorse. The verdict is covert bias: the behavior is biased even if the self-report is honestly held.",
+          "distractors": [
+            "Tom is a deliberate, self-aware racist who maintains a fake persona specifically to deceive HR.",
+            "Tom's behavior is fully consistent with his claim: he applies different standards based purely on experience and fit.",
+            "Tom is unbiased, but his subordinates filter out Black candidates before they ever reach his desk."
+          ]
+        }
+      ]
+    }
+  ]
+}

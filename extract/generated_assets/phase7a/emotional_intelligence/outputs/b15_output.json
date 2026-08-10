@@ -1,0 +1,517 @@
+{
+  "spec_file": "spec_emotional_intelligence_b15.json",
+  "chapters": [
+    {
+      "id": "ch21",
+      "title": "15. The Cost of Emotional Illiteracy",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Hallway Bump: Reading Intent in Accidental Encounters",
+          "visual_frame_description": "A small counseling office at a Brooklyn elementary school. Ms. Alvarez, a warm school counselor, sits across from Marcus, a nine-year-old fourth grader with a rumpled shirt and a report on her desk showing three office referrals for fighting this month. A poster on the wall lists the group rules: catch the cue, pause, choose. Marcus bounces his knee as they re-enact Tuesday's hallway bump that led to his latest suspension.",
+          "player_mission": "Guide Marcus through a Lochman-style anger-control role-play of the hallway bump that set him off. Help him notice his body's early warning cues and choose a response that keeps his dignity without starting a fight.",
+          "key_concepts": [
+            "Aggressive children perceive slights where none were intended, imagining their peers to be more hostile toward them than they actually are.",
+            "They misperceive neutral acts as threatening, seeing an innocent bump as a vendetta and attacking in return.",
+            "Their presumption is of malevolence rather than innocence, so their reaction is automatic hostility.",
+            "Anger-control training taught boys to monitor body sensations such as flushing or muscle tensing as a cue to stop and consider what to do next rather than strike out.",
+            "Boys in the Duke program learned alternatives like staring at the offender, telling him not to do it again, and walking away, exerting control while keeping self-esteem.",
+            "In the book's checkers example, an aggressive boy interprets a piece moved out of turn as cheating without checking whether it was an innocent mistake.",
+            "Within two or three hours of a first playground contact, other children already say they dislike a bully.",
+            "The more children act on automatic aggression, the more their repertoire of alternatives such as politeness and joking shrinks.",
+            "Aggressive children have a low threshold for upset, getting peeved more often by more things than other children.",
+            "Three years after training, boys who completed the anger-control program were less disruptive in class, had more positive feelings about themselves, and were less likely to drink or take drugs."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the hostile-attribution bias: aggressive children presume malevolence rather than innocence, misreading neutral acts such as hallway bumps as intentional attacks. The book documents this knee-jerk perception in aggressive boys and shows that anger-control training based on monitoring early body cues can replace the automatic strike with a rehearsed, dignity-preserving response.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Marcus has been sent to Ms. Alvarez's office again after shoving Lenny in the hallway, claiming Lenny shoved him on purpose in front of everyone. Ms. Alvarez runs a weekly group based on the Duke University anger-control program, and today she wants Marcus to re-enact the bump and practice a different ending. The goal is to get Marcus out of the suspension cycle; the stakes are his dwindling recess privileges and his growing reputation with the principal.",
+          "dialogue": [
+            "Ms. Alvarez: Marcus, walk me through Tuesday. What happened when Lenny came through the door?",
+            "Marcus: He shoved me. He did it on purpose, right in front of everyone. I'm not taking that from anybody.",
+            "Ms. Alvarez: Before you felt the shove, did you notice anything in your body, your face, your hands?",
+            "Marcus: My face got hot and my hands balled up. That's when I swung.",
+            "Ms. Alvarez: That heat is your early-warning cue. In this group we practice catching it before it turns into a swing. Is there another way to read Lenny's bump?",
+            "Marcus: Like... it wasn't on purpose?",
+            "Ms. Alvarez: Exactly. Let's role-play it. I'll be Lenny at the door. You try the response that keeps your dignity without a fight."
+          ],
+          "choices": [
+            "He did it on purpose and everyone saw. If I walk away, they'll think I'm a coward.",
+            "I felt my face get hot, so I told him, 'Don't do that again,' and walked away before I swung.",
+            "I shoved him back harder so he learns not to mess with me.",
+            "I reported it to the teacher so Lenny gets detention."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Knee-jerk perception of hostile intent with automatic aggression, retrained through body-cue monitoring and pre-practiced alternatives, as taught in John Lochman's Duke University program.",
+          "psychological_breakdown": "The optimal choice applies the exact technique the Duke program taught: catch the bodily cue of rising anger (flushing, muscle tensing), pause, then deploy a rehearsed alternative, such as the boy in Lochman's example who stared at the bumper, said 'don't do it again,' and walked away, which put him in the position of exerting control and keeping his self-esteem without a fight. Choice 0 rehearses the aggressive child's justifying belief that backing down makes you a coward, which entrenches the bias. Choice 2 practices automatic aggression, shrinking the repertoire of alternatives. Choice 3 avoids practicing self-regulation entirely, so the impulse remains unmanaged and the habit intact."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Report Card: Challenging a Pessimistic Explanation",
+          "visual_frame_description": "A suburban kitchen on a weekday afternoon. Priya, a mother, stands at the counter chopping vegetables while her eleven-year-old daughter Maya sits slumped at the kitchen table in front of a math test marked with a C. Report cards and a school flyer for an after-school depression-prevention class sit on the counter. Maya has been silent in her room for an hour, and her eyes are red.",
+          "player_mission": "Help Priya talk Maya out of the pessimistic explanation she has just given for her grade. Steer the conversation toward a controllable, action-based interpretation of the setback rather than a verdict about who Maya is.",
+          "key_concepts": [
+            "Children who see a bad grade as due to a personal flaw such as 'I'm stupid' feel more depressed than those who explain it in terms of something they can change.",
+            "Children prone to melancholy tend toward a pessimistic outlook before they become depressed, suggesting a window for inoculating them before depression strikes.",
+            "In the report-card study, the protective explanation was 'If I work harder on my math homework I'll get a better grade.'",
+            "Between the third and fifth grades, children increasingly ascribe their good and bad events to their own traits, as in 'I don't have many friends because I'm no fun.'",
+            "A pessimistic outlook coupled with a major blow such as parental divorce or a death in the family was the strongest predictor of depression in the younger children of a five-year study.",
+            "Depression itself reinforces pessimistic ways of thinking, leaving an emotional scar that makes another episode more likely.",
+            "Because disputing the depressing thought vanquishes the gathering mood of gloom, the skill becomes an instant reinforcer that, in Seligman's words, becomes a habit.",
+            "Children who feel little sense of control rate themselves low on statements such as 'When I work hard I get good grades.'",
+            "In the Oregon high school prevention study, about one student in four had a low-level depression not yet severe enough to be diagnosed.",
+            "An eight-week after-school class lowered depression risk by about half, with the gains visible as long as two years later."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the depressionogenic way of thought Seligman describes: children who attribute setbacks to stable personal flaws such as being stupid become more depressed than children who attribute them to controllable actions. The book's report-card research and its prevention programs show that disputing the pessimistic thought and substituting an action plan lowers the risk of depression by about half.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Maya came home from school with a C on her math exam and announced she is 'just stupid' and thinking of dropping out of the advanced track. Priya knows Maya studied for this test and wants to head off the spiral before it hardens. The stakes: research shows children who explain bad grades as personal flaws feel more depressed, and pessimistic thinking that precedes depression is the best target for prevention.",
+          "dialogue": [
+            "Priya: Maya, you've been in your room for an hour. What happened with the math test?",
+            "Maya: I got a C. I'm just stupid. Everyone else in the class gets it and I don't.",
+            "Priya: Do you really believe the test shows who you are? Last month you brought your grade up on the science project.",
+            "Maya: That was luck. I think my brain just doesn't do numbers.",
+            "Priya: What could you actually change before the next exam?",
+            "Maya: I guess... if I did extra practice problems every night, I'd probably do better?",
+            "Priya: Then that's the thought to hold onto. The test measured one week of math, not you."
+          ],
+          "choices": [
+            "Tell Maya she is right and suggest she drop out of the advanced class to protect herself from more failure.",
+            "Ask Maya to name one thing she can change about how she prepares, and tie her next test grade to that action rather than to her worth.",
+            "Tell Maya the teacher grades unfairly and the C isn't her fault at all.",
+            "Tell Maya to stop thinking about the grade entirely and to distract herself until the feeling passes."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Depressionogenic ways of thought: pessimistic, stable, personal attributions for setbacks versus changeable, action-oriented ones, per Martin Seligman's analysis and the report-card research.",
+          "psychological_breakdown": "The optimal choice mirrors the protective attribution from the report-card study: seeing the grade as something one can change ('If I work harder on my math homework I'll get a better grade') keeps mood intact, while the personal-flaw reading ('I'm stupid') predicts more depressed feelings. Choice 0 endorses the trait attribution that the research links to depression and removes the child's agency. Choice 2 externalizes blame without restoring any sense of control, which the book links to helplessness. Choice 3 avoids the thought entirely, leaving the pessimistic habit to do its work on the next setback."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Relationship Skills as the Antidote to Teen Depression",
+          "visual_frame_description": "A therapy room at Columbia University's experimental program for depressed adolescents. Dr. Ng, a gentle psychiatrist, sits across from Zara, a sixteen-year-old in a new school who has just broken up with her boyfriend. Zara's hands are folded tightly; a box of tissues and a notebook with the words 'feelings words' sit between them. Zara told the intake worker she feels hopeless and has thought about suicide.",
+          "player_mission": "Choose how Zara and Dr. Ng should work on the skilled deficit behind her depressed mood. Direct the session toward practice in naming feelings, asserting limits on sexual closeness, and building friendships rather than moralizing or symptom talk.",
+          "key_concepts": [
+            "Problems in relationships are a trigger for depression, particularly in young people.",
+            "Depressed teenagers often cannot label their feelings accurately, showing sullen irritability, crankiness, and anger instead.",
+            "That unlabeled anger toward parents makes it harder for parents to offer support, starting a downward spiral of arguments and alienation.",
+            "The book's Dana, sixteen, could not assert limits on sexual closeness, hold on to boyfriends, or end an unsatisfying relationship, and went to bed with boys when she only wanted to get to know them.",
+            "The Columbia program was a remedial tutorial in basic emotional skills: developing friendships, feeling confident with peers, asserting limits, being intimate, and expressing feelings.",
+            "Dana's depression lifted after she learned those relationship skills.",
+            "Symptoms of depression, whether major or minor, affect up to one third of teenagers.",
+            "For girls, the incidence of depression doubles at puberty, and up to 16 percent of girls between fourteen and sixteen suffer a bout of depression.",
+            "Withdrawal or social problems, preferring to be alone and feeling lonely, are among the indicators that worsened in the national sample of children from the mid-1970s to the late 1980s.",
+            "Depression interferes with memory and concentration, and there is a direct correlation between how long a child has been depressed and dropping grade-point average."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the relationship-skills account of adolescent depression: problems in relationships trigger depression, and depressed teens often cannot label their feelings, which blocks the support that could help them. The Columbia program described in the chapter treated depression as a remedial tutorial in basic emotional skills, friendship, assertiveness, intimacy, and expressing feelings, and Dana's depression lifted.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Zara, sixteen, recently moved schools, cannot hold a conversation past 'hello, how are you,' and just ended a relationship in which she slept with the boy without wanting to. She says she feels hopeless and helpless to escape her mood. Dr. Ng's program treats teens like Zara by training the relationship skills they never learned; the stakes are whether Zara can build the emotional toolbox before her mood spirals further.",
+          "dialogue": [
+            "Dr. Ng: You mentioned the breakup set this off. What did you actually want with him?",
+            "Zara: I just wanted him to like me. I ended up sleeping with him and it felt terrible, but I didn't know how to say no.",
+            "Dr. Ng: So you couldn't tell him what you needed.",
+            "Zara: I can't with anyone. At the new school I only talk when someone speaks to me first. I don't know what to say after 'hello, how are you?'",
+            "Dr. Ng: Those are skills, Zara, not moral failings. We can practice them here: starting a conversation, naming what you feel, and asking for what you need before things get physical.",
+            "Zara: You mean I get to practice... talking?",
+            "Dr. Ng: Yes. That's what this program is for."
+          ],
+          "choices": [
+            "Tell Zara the real problem is boys and advise her to stay single until college.",
+            "Practice assertiveness with her: naming the feeling first, then the line 'I like you, but I'm not ready to be sexual,' and role-play it with Dr. Ng until it feels natural.",
+            "Advise Zara to keep her feelings to herself, since voicing them makes her uncomfortable and the mood will lift on its own.",
+            "Encourage Zara to jump into a new relationship immediately to prove she can handle one."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Relationship-skills deficits as trigger and remedy for adolescent depression, as treated in the Columbia University program for depressed adolescents.",
+          "psychological_breakdown": "The optimal choice applies the program's core move: a remedial tutorial in the basic emotional skills the girl lacks, asserting limits on sexual closeness, expressing feelings, and building friendships, the same curriculum that lifted Dana's depression. Choice 0 skips the skill deficit and blames the object of the relationship, leaving Zara no more able to manage the next one. Choice 2 repeats the depressed child's silent sullenness that, per the chapter, blocks support and deepens alienation. Choice 3 demands performance the skill base cannot support, guaranteeing another failure."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Drinking to Feel Normal: Self-Medication of Anxiety",
+          "visual_frame_description": "A dorm lounge at a large state university at night. Ava, a nineteen-year-old sophomore, sits on a worn couch with a plastic cup of punch, twirling a strand of hair. Jordan, her resident assistant, leans against the doorframe holding a clipboard of incident reports, having found Ava funneling beer at a party three weekends in a row. Exam posters and a Student Health brochure about anxiety cover the corkboard behind them.",
+          "player_mission": "Run the conversation Jordan must have with Ava about her binge drinking. Recognize the emotional pattern behind the drinking, the craving for calm, rather than treating it as harmless partying or as pure moral failure.",
+          "key_concepts": [
+            "The self-medication theory holds that people who become dependent on alcohol or drugs are using them to soothe feelings of anxiety, anger, or depression.",
+            "Among several hundred seventh and eighth graders tracked for two years, those reporting higher levels of emotional distress subsequently had the highest rates of substance abuse.",
+            "Recovering drug abusers told Ralph Tarter, 'The moment I took my first drug, I felt normal for the first time.'",
+            "One emotional pathway to alcoholism begins with someone highly strung and anxious in childhood who discovers as a teenager that alcohol calms the anxiety.",
+            "Sons of alcoholic fathers had low GABA levels and were highly anxious, and when they drank, their GABA rose as their anxiety fell.",
+            "A study of thirteen hundred relatives of alcoholics found the children at highest risk for alcoholism were those reporting chronically high levels of anxiety.",
+            "The researchers concluded that alcoholism develops in such people as self-medication of anxiety symptoms.",
+            "Over 90 percent of students have tried alcohol by the end of high school, yet only about 14 percent eventually become alcoholics.",
+            "A 1993 survey found 35 percent of college women said they drank to get drunk, compared with 10 percent in 1977.",
+            "Alcohol-related accidents are the leading cause of death among young people between fifteen and twenty-four."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the self-medication theory of addiction: people who stay with alcohol or drugs use them to soothe chronic anxiety, anger, or depression, having hit upon a chemical fix early in experimentation. The book links the craving for calm to genetic susceptibility, including low GABA regulation in sons of alcoholics, and argues that acquiring the ability to handle the underlying feelings removes the impetus to drink.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Ava has funneled beers at the past three weekend parties and now admits her heart races through exam week, a tension that drinking instantly quiets. Jordan must decide whether this is a rite of passage to shrug off or a risk marker worth referral. The stakes are high: the book reports 90 percent of campus rapes involve drinking, and the anxiety pathway marks genuine vulnerability to alcoholism as self-medication.",
+          "dialogue": [
+            "Jordan: Ava, this is the third weekend in a row with the funnel. What's going on?",
+            "Ava: It's fun. Everyone does it. I'm fine.",
+            "Jordan: You told me last month your heart races before exams and you can't sit still. Does the beer help that?",
+            "Ava: Yeah... the first beer, it's like my brain finally goes quiet. All day I'm wound up, then I drink and I'm normal.",
+            "Jordan: That 'finally quiet' feeling... was it like that the very first time you drank?",
+            "Ava: Yeah, the first time. I told my friend, 'this is how everyone else must feel all the time.'",
+            "Jordan: That's worth talking to someone at Student Health about. Needing a drink to feel calm is a pattern, not just a party habit."
+          ],
+          "choices": [
+            "Reassure her that binge drinking is a rite of passage and advise her to pace herself with water between beers.",
+            "Help her name the craving for calm, connect it to her anxiety, and encourage her to learn to soothe that tension without alcohol before the habit hardens.",
+            "Tell her sternly she is an alcoholic and must quit cold turkey or face a conduct report.",
+            "Suggest she trade beer for marijuana, which carries less risk of overdose."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Addiction as self-medication of anxiety, with the craving for calm as an emotional marker of susceptibility, per the chapter's two-pathway analysis of alcoholism.",
+          "psychological_breakdown": "The optimal choice matches the chapter's account: drinkers in the anxiety pathway 'felt normal for the first time' because alcohol quieted tension they could not soothe otherwise, and the study of thirteen hundred relatives of alcoholics found chronically anxious children most at risk, with alcoholism developing as self-medication of anxiety symptoms. Choice 0 dismisses a documented risk marker as normal partying. Choice 2 mislabels the mechanism and bypasses the skill acquisition that, the book notes, can remove the impetus to drink. Choice 3 merely swaps substances while leaving the underlying distress untouched."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Teased Ride Home: Pre-Practicing Anger Control",
+          "visual_frame_description": "An empty classroom after school, chairs pushed into a circle. Jaylen, a stocky ten-year-old with a new black eye, sits across from Mr. Ortiz, the group leader, who holds up two index cards labeled 'scene: the bus' and 'outcome: dignity.' The other boys on the bus had taunted Jaylen about his height every morning this week, and yesterday he swung first. A whiteboard behind them lists the group's steps: notice the cue, pause, choose.",
+          "player_mission": "Run the role-play of the taunting bus scene with Jaylen the way the Duke program did with its boys. Lead him to notice his body's signal and rehearse a response that preserves dignity without hitting or retreating in shame.",
+          "key_concepts": [
+            "Cool-headed responses such as walking away or counting to ten so the impulse to hit passes are not automatic in the heat of the moment and must be practiced beforehand.",
+            "The Duke program had boys enact scenes likely to make them lose their temper, such as being teased.",
+            "Boys practiced friendly responses that preserve their dignity while giving an alternative to hitting, crying, or running away in shame.",
+            "Monitoring body sensations such as flushing or muscle tensing was a key skill for anger control.",
+            "One boy handled a hallway bump by staring at the other boy, telling him not to do it again, and walking away, exerting control and keeping his self-esteem.",
+            "Many aggressive boys are unhappy that they lose their temper so easily and are receptive to learning to control it.",
+            "Three years after the training, graduates were much less disruptive in class, had more positive feelings about themselves, and were less likely to drink or take drugs.",
+            "The longer boys stayed in the program, the less aggressive they were as teenagers.",
+            "Aggressive students justify their bent with beliefs such as 'It's okay to hit someone if you just go crazy from anger.'",
+            "They also believe that if you back down from a fight everyone will think you're a coward."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests pre-practiced anger-control alternatives: cool-headed responses such as walking away are not automatic in the heat of the moment, so they must be rehearsed in role-played provocations such as being taunted. The Duke program's three-year follow-up found graduates were less disruptive in class, had more positive feelings about themselves, and were less likely to drink or take drugs.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Jaylen threw the first punch again yesterday when Andre and two other boys taunted him on the bus ride home, and he earned his second suspension. Mr. Ortiz has one session left before the referral meeting that could send Jaylen to a disciplinary school. The group's whole method hinges on rehearsal, so Jaylen must practice the bus scene until a cool-headed response is available to him automatically.",
+          "dialogue": [
+            "Mr. Ortiz: Jaylen, you chose the bus scene. Two kids behind you are calling you names. What's happening in your body?",
+            "Jaylen: My ears get hot and I want to spin around and shove Andre.",
+            "Mr. Ortiz: That heat is your cue to stop, not to shove. What outcome do you want?",
+            "Jaylen: I don't want to lose my lunch money again... I want them to shut up.",
+            "Mr. Ortiz: Let's practice a line that gives you control and keeps your dignity. Stare at Andre, tell him to knock it off, then sit forward. Try it.",
+            "Jaylen: (practicing) Knock it off. ... Why does that work?",
+            "Mr. Ortiz: Because you're not hitting, crying, or running away in shame. You're the one choosing the response."
+          ],
+          "choices": [
+            "Scream insults back at Andre so his friends laugh at him instead.",
+            "Tell Jaylen to swing first and hard so Andre learns to fear him.",
+            "Practice the cool-headed response: notice the hot ears, stare at Andre, say 'knock it off,' and walk away without a fight.",
+            "Tell Jaylen to start crying so Andre feels guilty and leaves him alone."
+          ],
+          "optimal_choice": 2,
+          "theoretical_principle": "Anger control through role-play and pre-practiced alternatives, replacing hitting, crying, or running away in shame with dignity-preserving responses, per the Duke University program.",
+          "psychological_breakdown": "The optimal choice follows the program's method: because cool-headed responses are not automatic in the heat of the moment, boys rehearsed them in scenes such as being taunted on a bus, so the alternative could actually be available when provoked. Choice 0 and Choice 1 rehearse automatic aggression, the very habit the research shows becomes more entrenched and more automatic the more it is used. Choice 3 rehearses shameful withdrawal, one of the three responses the program aimed to replace, and hands the control to the provoker."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Pick-Up Sticks Practice: Coaching Friendship",
+          "visual_frame_description": "A bright classroom corner after school, where fourth grader Leo kneels across a low table from Hannah, a dark-haired classmate, a spilled game of Pick-up Sticks between them. Coach Dana, a graduate student, sits beside them with a clipboard labeled 'consultant notes,' modeling the friendly, fun, and nice behaviors her program teaches. Leo was picked as the least-liked child in his class; this is his fourth of six sessions.",
+          "player_mission": "Co-author the coaching approach for Leo's play session. Direct him to use the social amenities of popular children, asking questions, watching how Hannah is doing, and praising her play, so the game itself repairs his reputation.",
+          "key_concepts": [
+            "Steven Asher designed six friendship-coaching sessions teaching unpopular third and fourth graders how to make playing games more fun by being friendly, fun, and nice.",
+            "To avoid stigma, coached children were told they were acting as consultants to the coach, who was trying to learn what makes games enjoyable.",
+            "Coached behaviors included thinking of alternative suggestions and compromises rather than fighting about rules.",
+            "Children were taught to ask questions about the other child while playing and to listen and look to see how the other was doing.",
+            "They practiced saying something nice when the other person did well and smiling while offering help or suggestions and encouragement.",
+            "The children tried out the social amenities while playing games such as Pick-up Sticks and were coached afterward on how they did.",
+            "A year later, the coached children, all once the least liked in their classes, were solidly in the middle of classroom popularity.",
+            "Stephen Nowicki's Emory program videotaped social outcasts practicing expressions such as happiness and sadness and coached them toward better emotional expressiveness.",
+            "Such programs report a 50 to 60 percent success rate in raising the popularity of rejected children.",
+            "Unpopular children observed at play are more likely to cheat, sulk, quit when losing, or show off and brag about winning."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests Asher's friendship-coaching model: popularity is teachable through six sessions of practicing friendly, fun, and nice play behaviors such as asking questions, watching how the other child is doing, and praising good play. Least-liked children who completed the coaching landed solidly in the middle of classroom popularity a year later.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Leo has two playmates at most, and both of last year's playdates ended with him flipping the board. Coach Dana's program, modeled on Asher's, has six sessions to teach him what popular children do at play so he can climb out of the rejected category. The stakes: rejected children drop out of school at two to eight times the rate of children with friends, and third-grade popularity predicts mental health at eighteen.",
+          "dialogue": [
+            "Coach Dana: Leo, as our consultant: what makes a game fun for both players?",
+            "Leo: Uh... winning?",
+            "Coach Dana: What about the other kid, what does she want?",
+            "Leo: Not losing, I guess. Punching isn't part of Pick-up Sticks, right? He grins.",
+            "Coach Dana: Here's what kids who are fun to play with do: they ask questions, they watch to see how the other person is doing, and they say something nice when the other does well. Let's try it with Hannah.",
+            "Leo: (playing) Nice one, Hannah. That was a clean pickup.",
+            "Hannah: Thanks! Your turn.",
+            "Coach Dana: See what just happened? She smiled. That's the whole trick: friendly, fun, and nice."
+          ],
+          "choices": [
+            "Coach him to win every round and never let Hannah take a good stick, since respect comes from dominating.",
+            "Coach him to say something nice when Hannah does well, ask her questions, and check how she's doing between turns.",
+            "Tell Leo to quit the game whenever he is about to lose so he never looks bad in front of Hannah.",
+            "Tell Leo to brag loudly about his highest score so Hannah is impressed."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Asher's friendship-coaching model: systematically practicing the social amenities of popular children retrains rejected children's play behavior and raises their standing.",
+          "psychological_breakdown": "The optimal choice follows the coached behavior list exactly: ask questions, listen and look to see how the other child is doing, say something nice when the other does well, smile and offer help, all practiced in real games with classmates. This is what moved least-liked children into the middle of class popularity within a year. Choices 2 and 3 reproduce the documented behaviors of unpopular children, sulking, quitting when losing, and bragging, which make other children dislike their company. Choice 0 mistakes dominance for likability, the opposite of what the coaching data show works."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Boss: The Knee-Jerk Hostility Percept",
+          "visual_frame_description": "A research laboratory with a wall monitor replaying the checkers study the book describes. Two boys, Marcus and Andre, sit at a board; Marcus reaches for a snack and knocks a checker out of turn, and on the screen Andre's face hardens, he knocks the board over, and he accuses Marcus of cheating. Below the monitor, you face a control panel with two stage readouts: Observe and Intervene. A transcript panel shows Andre telling the teacher, 'He did it to mess with me.'",
+          "player_mission": "Defeat the boss by correctly diagnosing the perceptual bias behind Andre's blow-up, then choose the retraining intervention that replaces it. Pass stage one by identifying the mechanism driving Andre's reaction and stage two by applying the program's evidence-backed technique.",
+          "key_concepts": [
+            "The perceptual flaw that unites such children is perceiving slights where none were intended, imagining peers to be more hostile toward them than they actually are.",
+            "An innocent bump is seen as a vendetta, and the child attacks in return.",
+            "Their presumption is of malevolence rather than innocence; their reaction is automatic hostility.",
+            "In the book's checkers example, the aggressive boy interprets a piece moved out of turn as cheating without pausing to find out if it was an innocent mistake.",
+            "Instead of pointing out the mistake to the other boy, he jumps to accusation, yelling, and hitting.",
+            "The more children act this way, the more automatic aggression becomes and the more the repertoire of alternatives such as politeness and joking shrinks.",
+            "When aggressive and peaceable boys watched a video in which a boy dropped his books after being knocked into, the bullies saw the boy who struck out as justified.",
+            "By second grade, aggressive children have failed to learn the self-control their classmates show on the playground.",
+            "Up to half of first graders who are disruptive, unable to get along, and resistant to teachers become delinquents in their teen years.",
+            "These perceptual biases toward hostility are already in place by the early grades."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the knee-jerk hostility percept: aggressive children presume malevolence rather than innocence, interpreting out-of-turn moves and innocent bumps as attacks without seeking information. The chapter shows the bias is entrenched by the early grades and can be retrained through body-cue monitoring and rehearsed alternatives.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "The central concept is the hostile-attribution bias: aggressive children presume malevolence rather than innocence, misread neutral acts such as an out-of-turn move or an innocent bump as intentional threats, and react with automatic aggression, a perceptual flaw that anger-control training can retrain.",
+          "stage_1_observation": "You replay the checkers scene: Marcus moves a checker out of turn while reaching for a snack, and Andre knocks the board over and accuses him of cheating. The teacher asks Andre whether Marcus might have made an innocent mistake, and Andre refuses the possibility, insisting Marcus did it to mess with him. You freeze the frame on Andre's face and the transcript of his accusation.",
+          "stage_1_question": "According to the book's research on aggressive boys, what perception best explains Andre's reaction to the out-of-turn move?",
+          "stage_1_correct_answer": "Andre presumes malevolence rather than innocence: he interprets the out-of-turn move as cheating without pausing to consider that it was an innocent mistake, the same knee-jerk perception the book documents in aggressive boys, who leapfrog straight from assumed threat to action.",
+          "stage_2_intervention": "The boss escalates: weeks later, Andre, who has a record of hallway shoves, is bumped in a crowded cafeteria line and his fists clench before he turns around. The counselor, trained on the Duke model, has one chance to intervene before the automatic aggression fires. Choose the intervention that best matches what the program taught.",
+          "stage_2_correct_answer": "The counselor runs a quick rehearsal with Andre: catch the early body cue (the flushing and clenching), pause, then deploy a pre-practiced response, staring at the boy, telling him not to do it again, and walking away, the response one of Lochman's boys used to exert control and keep his self-esteem without starting a fight; replacing the automatic strike with a rehearsed alternative is the program's core skill.",
+          "player_mission_note": ""
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Boss: The Depression Spiral of Pessimistic Thought",
+          "visual_frame_description": "A high school hallway in Oregon on report-card day. Elena, a junior, and Marcus, a sophomore, open their envelopes side by side. Elena's jaw drops at a D in science and she mutters that she is stupid and it is always this way; Marcus shrugs at a C in math and says he rushed the last section and will check his work next time. Behind them a bulletin board advertises the after-school class that challenges depressing thoughts.",
+          "player_mission": "Defeat the boss by predicting which student's explanation puts her at risk for depression, then choose the prevention route with the strongest evidence behind it. Pass stage one by naming the depression-promoting attribution and stage two by selecting the program whose results the chapter reports.",
+          "key_concepts": [
+            "Children who see a bad grade as due to a personal flaw such as 'I'm stupid' feel more depressed than those who explain it in terms of something they can change.",
+            "Children most prone to melancholy tend toward a pessimistic outlook before they become depressed, revealing a window for inoculation.",
+            "In the five-year study beginning in third grade, the strongest predictor of depression in younger children was a pessimistic outlook coupled with a major blow such as parental divorce or a death in the family.",
+            "As children grow through elementary school, they increasingly ascribe good and bad events to their own traits, like 'I'm getting good grades because I'm smart.'",
+            "Depression itself reinforces pessimistic ways of thinking, leaving an emotional scar that makes another episode more likely.",
+            "About one in four students in the Oregon high school had a low-level depression not yet severe enough to be diagnosed.",
+            "Of seventy-five mildly depressed students in the eight-week after-school class, 55 percent recovered, versus about a quarter of equally depressed students not in the program.",
+            "A year later, one quarter of the comparison group had fallen into major depression, versus 14 percent of students in the prevention program.",
+            "Seligman's twelve-week class for ten- to thirteen-year-olds taught children to challenge pessimistic beliefs, for example resolving to study harder after doing poorly on an exam instead of thinking 'I'm just not smart enough.'",
+            "Two years after the twelve-week program, about 20 percent of participants showed some signs of mild depression, versus 44 percent of the comparison group."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests depressionogenic attribution: a pessimistic tendency to read setbacks as stable personal flaws predicts depression, and thinking this way precedes depression in vulnerable children. The chapter's prevention classes, which teach children to dispute these thoughts, cut the risk of later major depression roughly in half.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "The central concept is the depressionogenic way of thought: children who attribute setbacks to stable personal flaws such as stupidity fall into depressed mood, while those who attribute them to changeable actions stay protected. Because the pessimistic outlook precedes depression, it can be trained out in classroom prevention programs.",
+          "stage_1_observation": "On the monitor, Elena and Marcus compare envelopes. Elena, holding her D in science, says 'I knew it. I'm just stupid. It's always this way.' Marcus, holding his C in math, says 'I rushed the last section. Next time I'll check my work over.' A speech-bubble overlay tags each line with an attribution: personal flaw versus changeable action.",
+          "stage_1_question": "According to the book's report-card research, which student's explanation carries the higher risk of depressed mood, and why?",
+          "stage_1_correct_answer": "Elena's, because she attributes the grade to a stable personal flaw, and the research shows children who see a bad grade as due to a personal flaw such as 'I'm stupid' feel more depressed than those who explain it away in terms of something they can change, as Marcus does with his plan to check his work.",
+          "stage_2_intervention": "The boss escalates: Elena's mood has soured her friendships and her parents are considering pulling her out of school activities. The principal offers three options: intensive academic tutoring, weekly one-on-one counseling about her feelings, or enrollment in the after-school class that challenges pessimistic beliefs and practices friendship skills. Choose the option the chapter's outcome data support.",
+          "stage_2_correct_answer": "Enroll Elena in the after-school class that teaches disputing pessimistic beliefs: in the Oregon study, 55 percent of mildly depressed students recovered by the end of eight weeks versus about a quarter of the comparison group, a year later only 14 percent of program students fell into major depression versus 25 percent, and in the twelve-week version the depression rate stayed cut by about half even two years later.",
+          "player_mission_note": ""
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Boss: The Emotional Confusion Chain to Eating Disorders",
+          "visual_frame_description": "A tenth-grade locker room in an affluent Minneapolis high school. Chloe, a cross-country runner in a team windbreaker, sits on a bench after an argument with her boyfriend, her head in her hands. When her friend asks whether she is angry or sad, Chloe answers that she doesn't know, she just feels bad all over. In the next panel she skips lunch, then binges in the restroom and vomits, and the final panel shows her mother at home hovering over her plate.",
+          "player_mission": "Defeat the boss by identifying the strongest predictor of Chloe's trajectory, then choose the treatment lever the book's evidence supports. Pass stage one by naming the emotional deficit from the prospective study and stage two by selecting the intervention that addresses it.",
+          "key_concepts": [
+            "In the prospective study of more than nine hundred girls in grades seven through ten, emotional deficits, particularly a failure to tell distressing feelings from one another and to control them, were key among the factors leading to eating disorders.",
+            "Poor awareness of feelings and body signals was the strongest single predictor that a girl would develop an eating disorder within the next two years, according to Gloria Leon.",
+            "These girls cannot tell whether they are angry, anxious, or depressed; they experience a diffuse emotional storm they do not know how to deal with.",
+            "They learn to make themselves feel better by eating, which can become a strongly entrenched emotional habit.",
+            "Overly controlling parents were not found to play a prime role in causing eating disorders, and parents can become intensely controlling in response to the disorder out of desperation.",
+            "Also judged irrelevant were fear of sexuality, early onset of puberty, and low self-esteem.",
+            "Some obese people cannot tell the difference between being scared, angry, and hungry and lump all those feelings together as hunger, leading to overeating whenever they feel upset.",
+            "The struggle to handle emotional confusion can turn to vomiting, laxatives, or intense physical exertion to undo weight gain, or to not eating at all as a way to feel control over overwhelming feelings.",
+            "By tenth grade, sixty-one girls in the affluent suburban Minneapolis high school already had serious symptoms of anorexia or bulimia.",
+            "Clinicians find that if you address the emotional deficits, therapy works better, teaching girls to identify feelings and soothe themselves without maladaptive eating."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the emotional-confusion chain to eating disorders: girls who cannot distinguish distressing feelings from one another experience a diffuse emotional storm and learn to soothe it with eating. Gloria Leon's prospective study found poor awareness of feelings and body signals was the strongest single predictor of an eating disorder within two years, with remedial emotional skills as the treatment lever.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "The central concept is the causal chain the book derives from the Minneapolis prospective study: a society preoccupied with thinness plus poor interoceptive awareness and weak self-soothing skills, in which a girl who cannot tell anger from anxiety from hunger soothes her distress with food, a habit that hardens into anorexia or bulimia.",
+          "stage_1_observation": "The observation panel replays three scenes from Chloe's week: the boyfriend argument where she cannot say what she feels, the skipped lunch followed by the binge and vomiting, and her boyfriend-less evening spent staring at her phone. A data ticker beside the screen runs Leon's variables: feeling awareness, body dissatisfaction, parental control, self-esteem.",
+          "stage_1_question": "According to the book's report of Gloria Leon's prospective study of more than nine hundred girls, what was the strongest single predictor that a girl would develop an eating disorder within the next two years?",
+          "stage_1_correct_answer": "Poor awareness of her feelings and body signals: the failure to distinguish anger, anxiety, depression, or hunger, which Leon identified as the strongest single predictor of an eating disorder within two years, even stronger than body dissatisfaction, parental control, or self-esteem, which the study found irrelevant or secondary.",
+          "stage_2_intervention": "The boss escalates: Chloe's mother tightens control over every meal, and the school presents three plans: a strict calorie and diet regimen, a disciplinary talk about vanity and discipline, or remedial emotional-skills therapy that teaches Chloe to identify her feelings and soothe herself without food. Choose the intervention the chapter's evidence supports.",
+          "stage_2_correct_answer": "The remedial emotional-skills therapy: the chapter reports that clinicians find addressing the emotional deficits makes therapy work better, teaching girls to identify what they are feeling and to soothe themselves or handle relationships without turning to maladaptive eating, which is the actual deficit behind the disorder; a diet regimen and moralizing both target non-causes.",
+          "player_mission_note": ""
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Boss: The Rejection Cascade from Lunchroom to Dropout",
+          "visual_frame_description": "A school lunchroom at noon. Eleven-year-old Ben, in a striped shirt, has just been told by his one buddy Jason that they won't play together today because Jason is playing with Chad. Ben yells 'I hate your guts,' and when Jason and Chad come over to make peace, he puts his fingers in his ears and runs behind the school's green Dumpster. A knot of girls finds him and relays that Jason will still play with him; Ben tells them to leave him alone.",
+          "player_mission": "Defeat the boss by reading the most telling feature of Ben's reaction and its documented consequences, then choose the intervention with evidence for reversing the trajectory. Pass stage one by identifying the skill deficit and its costs, and stage two by selecting the coaching approach the chapter reports as effective.",
+          "key_concepts": [
+            "The most telling feature of Ben's reaction is his failure to respond to Jason's efforts to repair the friendship, a stance that extends his plight when it might have ended.",
+            "Socially rejected children are typically poor at reading emotional and social signals, and even when they do read them, they may have limited repertoires for response.",
+            "The dropout rate for children rejected by their peers is between two and eight times greater than for children who have friends.",
+            "About 25 percent of children who were unpopular in elementary school dropped out before completing high school, versus a general rate of 8 percent.",
+            "Two kinds of emotional proclivities lead children to outcast status: angry outbursts with perceived hostility, and timidity, anxiety, and social shyness.",
+            "Unpopular grade schoolers made far more mismatches when matching emotions such as disgust or anger to faces than popular children did.",
+            "Their social incompetence becomes a self-fulfilling prophecy: instead of learning new approaches, they keep doing the same things that have not worked.",
+            "How popular a child was in third grade predicts mental-health problems at age eighteen better than teachers' and nurses' ratings, school performance, IQ, or psychological test scores.",
+            "Rejected children are only half as likely as their peers to have a best friend during the crucial elementary school years.",
+            "Per Harry Stack Sullivan, children learn to negotiate intimate relations in their first close friendships with same-sex chums."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the rejection-to-dropout cascade: rejected children misread social cues and fail to respond to repair attempts, creating a self-fulfilling prophecy of social incompetence. The chapter's evidence shows third-grade popularity predicts adult mental health and that friendship coaching can move least-liked children into the middle of classroom popularity.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "The central concept is the social-rejection cascade: children who are poor at reading and responding to emotional signals end up excluded from the rough-and-tumble of play where social skills are refined, a self-fulfilling prophecy that raises dropout risk two to eight times and predicts adult mental-health problems, but one that friendship coaching can reverse.",
+          "stage_1_observation": "The observation panel replays the lunchroom drama in slow motion: Ben's outburst, Jason and Chad's approach, Ben's fingers in his ears, the girls carrying Jason's offer, and Ben's refusal. A diagnostics bar on screen tracks Ben's reading of each social cue as the scene plays, flagging the moment when a repair offer is transmitted and missed.",
+          "stage_1_question": "According to the book's analysis, what is the most telling feature of Ben's reaction, and what documented costs does it predict?",
+          "stage_1_correct_answer": "Ben's failure to respond to the others' efforts to repair the friendship, the stance that extends his plight when it might have ended; rejected children are typically poor at reading social signals, and the book links the resulting outcast status to dropout rates two to eight times higher and to third-grade popularity being the best predictor of mental-health problems at eighteen.",
+          "stage_2_intervention": "The boss escalates: Ben's teacher reports he now sits alone daily and his grades are slipping, and the school counselor must pick one plan: intensive academic tutoring, weekly one-on-one talks about Ben's feelings, or Asher-style friendship coaching in which Ben practices being friendly, fun, and nice during supervised game sessions with classmates. Choose the plan with the chapter's evidence behind it.",
+          "stage_2_correct_answer": "Asher-style friendship coaching: six sessions teaching alternative suggestions and compromises, asking questions of playmates, watching how the other child is doing, saying something nice when the other does well, and smiling while offering help, practiced in real games such as Pick-up Sticks, which moved least-liked third and fourth graders to the solid middle of class popularity a year later.",
+          "player_mission_note": ""
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Audit: The 'He Started It' Account of the Gym Shove",
+          "visual_frame_description": "A principal's office with tan walls and a filing cabinet. Devin, a ten-year-old fifth grader in a gym shirt, sits across from Principal Ortega, arms crossed, a thin smile on his face. Mateo, the other boy, waits in the hallway with a nurse; his shoelace is still untied. On the desk sits the incident report: Devin was suspended for shoving Mateo into a row of lockers after claiming Mateo bumped him on purpose and 'everyone laughed.'",
+          "player_mission": "Audit Devin's account of the gym shove against his baseline and the observed record. Determine whether his story reflects accurate perception, a hostile-attribution bias, or something else, and document the evidence for your verdict.",
+          "key_concepts": [
+            "Aggressive children perceive slights where none were intended, imagining their peers to be more hostile toward them than they actually are.",
+            "Misperceiving neutral acts as threatening, with an innocent bump seen as a vendetta, leads them to attack in return.",
+            "Their presumption is of malevolence rather than innocence, and their reaction is automatic hostility.",
+            "Once they assume threat, they leapfrog to action, paying too little attention to what is actually going on.",
+"They typically see themselves as victims and can recite a list of instances when they were blamed while innocent.",
+            "In the checkers research, an aggressive boy interprets an out-of-turn move as cheating without pausing to consider it was an innocent mistake.",
+            "Such children justify their bent with beliefs like 'It's okay to hit someone if you just go crazy from anger.'",
+            "They have a low threshold for upset, and once upset, their thinking is muddled so benign acts look hostile.",
+            "The more the automatic aggression is used, the more the repertoire of alternatives such as politeness and joking shrinks.",
+            "Up to half of first graders who are disruptive, unable to get along, and resistant to teachers become delinquents in their teen years."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests hostile-attribution bias as a source of distorted accounts: Devin's story of intentional provocation reflects his presumption of malevolence rather than accurate reporting. The book's evidence on automatic aggression, justifying beliefs, and the victim self-image distinguishes this bias from deliberate lying, pleasure-seeking bullying, or isolated acting out.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "question": "Audit Devin's claim that Mateo bumped him on purpose and that shoving him into the lockers was justified. Determine whether his account reflects accurate perception, the hostile-attribution bias the book documents in aggressive children, or a different cause.",
+          "subject_baseline": "Devin is a ten-year-old fifth grader with a hot temper and few friends; teachers say he argues a lot, is mean when teased, and has a low threshold for upset. Over the semester he has accused classmates of looking at him funny, and once claimed a boy aimed a basketball at his head, though the coach's video showed the ball bouncing off the wall. He sees himself as a victim and can recite instances of being blamed when he was innocent.",
+          "observed_nonverbal_log": [
+            "0:00-1:20: As Principal Ortega describes Mateo's account, Devin's arms cross, his jaw tightens, and he looks away.",
+            "1:20-2:10: At the phrase 'Mateo says he tripped on his loose shoelace,' Devin flushes, his fists clench on his knees, and he interrupts twice.",
+            "2:10-3:00: Asked to show what happened, Devin re-enacts the bump with a hard shoulder shove, grinning slightly.",
+            "3:00-4:30: Told the suspension stands regardless, he slumps and insists, 'Everyone is against me.'"
+          ],
+          "interrogation_transcript": [
+            "Principal Ortega: Mateo says his shoelace was untied and he stumbled into you. What did you see?",
+            "Devin: He did it on purpose. He's always messing with me.",
+            "Principal Ortega: Did you see his foot catch the lace?",
+            "Devin: I didn't need to. He bumped me, that's how he is.",
+            "Principal Ortega: What did you do next?",
+            "Devin: I hit him. It's okay to hit someone if you just go crazy from anger.",
+            "Principal Ortega: Did you think of asking him what happened?",
+            "Devin: Why? Everyone knows what happened. He started it and I finished it."
+          ],
+          "correct_diagnosis": "Devin's account is the hostile-attribution bias, not accurate reporting: he presumes malevolence rather than innocence, misreads an innocent stumble as an intentional attack, and reacts with automatic aggression, the knee-jerk perception the book documents in aggressive children who leapfrog from assumed threat to action without seeking further information.",
+          "diagnostic_breakdown": "Devin's baseline shows a victim-minded, hot-tempered boy with a documented history of misreading neutral events as attacks, and his flush, clenched fists, and interruptions at the stumble explanation show emotional activation triggered by the perceived threat, not the calm of a deliberate fabrication. His refusal to examine the evidence, 'I didn't need to,' mirrors the research finding that aggressive children act on the assumption of threat while paying too little attention to what is actually going on. His justification, 'It's okay to hit someone if you just go crazy from anger,' is one of the beliefs the book collected from aggressive students who justify their bent. Conclusion: the diagnosis is misperception of hostile intent plus automatic aggression, which anger-control training in body-cue monitoring and rehearsed alternatives is designed to retrain.",
+          "distractors": [
+            "Devin is lying to avoid punishment, and he knew the bump was an accident from the start.",
+            "Devin is a calculating bully who enjoys frightening other children for sport.",
+            "Devin's shove is an isolated adolescent acting-out incident with no perceptual or emotional pattern behind it."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Audit: The 'Stomach Bug' Cover Story of the Binge-and-Purge Cycle",
+          "visual_frame_description": "A swimming-team locker room after practice at an affluent Minneapolis-area high school. Priya, a fifteen-year-old sophomore with a swim bag at her feet, sits on a bench across from Coach Bell, who found her vomiting in a stall after the team lunch. A clip-on log on the bench records her skipped breakfasts and her long bathroom trips after meals this week. Priya's eyes flick toward the door as the coach opens the conversation.",
+          "player_mission": "Audit Priya's stomach-bug explanation against her baseline and the observed record. Decide whether the vomiting is a physical illness or the eating-disorder pattern the chapter documents, and build the evidence chain for your verdict.",
+          "key_concepts": [
+            "In the prospective study of more than nine hundred girls in grades seven through ten, emotional deficits, particularly a failure to tell distressing feelings from one another and to control them, were key among the factors leading to eating disorders.",
+            "Poor awareness of feelings and body signals was the strongest single predictor that a girl would develop an eating disorder within the next two years, according to Gloria Leon.",
+            "Such girls cannot tell whether they are angry, anxious, or depressed; they experience a diffuse emotional storm they do not know how to deal with effectively.",
+            "They learn to make themselves feel better by eating, which can become a strongly entrenched emotional habit.",
+            "Overly controlling parents were not found to play a prime role in causing eating disorders, and parents can become intensely controlling in response to the disorder out of desperation.",
+            "Fear of sexuality, early onset of puberty, and low self-esteem were judged irrelevant as causes in the prospective study.",
+            "Most children learn to distinguish being bored, angry, depressed, or hungry, a basic part of emotional learning that these girls lack.",
+            "Binge eating may be followed by vomiting, laxatives, or intense physical exertion to undo weight gain, or by not eating at all as a way to feel control over overwhelming feelings.",
+            "In one study of 271 young teenagers, half the girls thought they were too fat even though the vast majority were normal in weight, but weight obsession alone did not predict who developed a disorder.",
+            "Clinicians find that if you address the emotional deficits, therapy works better, teaching girls to identify feelings and soothe themselves without turning to maladaptive eating."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests interoceptive-emotional confusion: the subject's stomach-bug story masks an inability to tell anger, sadness, anxiety, and hunger apart, with eating and purging used to soothe a diffuse emotional storm. The chapter's prospective data identify this poor feeling awareness as the strongest single predictor of eating-disorder onset within two years.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "question": "Audit Priya's claim that the vomiting is a stomach bug. Determine whether her account is a physical illness or the emotional-confusion pathway to bulimia that the chapter's prospective study documents, and state the strongest predictor at work.",
+          "subject_baseline": "Priya is a quiet, diligent sophomore who keeps a strict diet to stay swimsuit-ready; the swim coach's log shows she skipped breakfast four times this week and spent about twenty minutes in the restroom after each team lunch. Her best friend says Priya can never say what she is feeling: she cries and can only answer 'I'm fine.' After an argument with a teammate last week, Priya described herself as 'just bad all over' and could not say whether she was angry or hurt.",
+          "observed_nonverbal_log": [
+            "0:00-0:45: When the coach mentions the stall, Priya smiles briefly, drops her gaze to the floor, and picks at her sleeve, eager to close the topic.",
+            "0:45-1:30: Asked about the team lunch, she answers in a flat tone about the cafeteria salad while her hand drifts to her stomach and stays there.",
+            "1:30-2:15: Asked whether she feels stress from the team, her jaw tightens, she crosses her arms, and her voice rises slightly as she denies it.",
+            "2:15-3:00: Asked how she felt after the argument with her teammate, her face goes blank, she shrugs with both palms open, and repeats 'I don't know.'"
+          ],
+          "interrogation_transcript": [
+            "Coach Bell: Priya, were you throwing up in the stall?",
+            "Priya: Stomach bug. My mom gets them too.",
+            "Coach Bell: You've skipped breakfast most of this week. Is something wrong?",
+            "Priya: I'm not hungry in the mornings. That's all.",
+            "Coach Bell: How did you feel after the fight with Kristina at practice?",
+            "Priya: I don't know. Just bad. All over, kind of.",
+            "Coach Bell: Bad how? Angry, sad, scared?",
+            "Priya: I can't tell. It's like everything at once. I just want it to stop."
+          ],
+          "correct_diagnosis": "Priya's stomach-bug story masks the pattern the chapter documents: poor awareness of her feelings and body signals. She cannot distinguish anger, sadness, anxiety, or hunger and has learned to soothe the resulting diffuse emotional storm with eating and purging to stay thin, the emotional-confusion pathway to bulimia that Gloria Leon's prospective study identified.",
+          "diagnostic_breakdown": "Her baseline shows a girl who cannot label feelings, answering 'just bad all over' for anger or hurt, with dieting strictness that predates the incident. In the observed log, the emotional questions about the teammate fight produce the blank 'I don't know' and flat affect, while meal questions produce guarded, rehearsed answers, incoherence about feelings rather than about food. The transcript reproduces Leon's description of girls who have a problem with a boyfriend and are not sure whether they are angry, anxious, or depressed, and her vomiting matches the book's account of girls who purge to undo the weight gain from overeating. Conclusion: the stomach-bug explanation is not credible; the operative deficit is poor interoceptive awareness with food used as self-soothing, the strongest single predictor of an eating disorder within two years, and the treatment implication is remedial emotional-skills work.",
+          "distractors": [
+            "Priya is faking illness to get attention from the swim team.",
+            "Priya's disorder is caused by her mother's controlling behavior over meals.",
+            "Priya eats normally and the vomiting is an isolated gastrointestinal issue with no emotional component."
+          ]
+        }
+      ]
+    }
+  ]
+}

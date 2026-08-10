@@ -1,0 +1,645 @@
+{
+  "spec_file": "spec_emotional_intelligence_b17.json",
+  "chapters": [
+    {
+      "id": "ch23",
+      "title": "Appendix A: What Is Emotion?",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Jealousy as a Blend of Anger, Sadness, and Fear",
+          "visual_frame_description": "A quiet coffee shop in Reno, mid-afternoon. Priya, a 29-year-old project coordinator at Brightline Logistics, sits across from her former manager and mentor Lena, clutching a cold latte. Between them, Priya's phone shows the congratulatory email announcing that colleague Dana won the Apex account lead role that Priya wanted. Steam rises from Lena's tea as she leans in to listen.",
+          "player_mission": "You play Lena, Priya's mentor. Priya describes her reaction to losing the account as pure anger and is drafting a hostile email to Dana. Help her label the feeling accurately so she understands what is actually driving her before she acts on it.",
+          "key_concepts": [
+            "Emotion is defined as a feeling and its distinctive thoughts, psychological and biological states, and range of propensities to act.",
+            "There are hundreds of emotions, along with their blends, variations, mutations, and nuances, and more subtleties than we have words for.",
+            "Researchers argue over which emotions can be considered primary or even whether primary emotions exist at all.",
+            "Goleman follows Ekman in thinking of emotions as families, such as anger, sadness, fear, enjoyment, love, and shame, each with a basic nucleus and relatives rippling outward.",
+            "The anger family includes fury, outrage, resentment, wrath, exasperation, indignation, vexation, annoyance, irritability, and hostility.",
+            "The sadness family includes grief, sorrow, self-pity, loneliness, dejection, and despair, and, when pathological, severe depression.",
+            "Jealousy is a blend, a variant of anger that also melds sadness and fear.",
+            "The fear family runs from anxiety and apprehension to dread and terror, with phobia and panic at the psychopathological end.",
+            "The enjoyment family runs from contentment and delight to rapture and ecstasy, and, at the far edge, mania.",
+            "Ekman found that specific facial expressions for fear, anger, sadness, and enjoyment are recognized in cultures around the world, including the Fore of New Guinea.",
+            "Darwin first noted the universality of facial expressions as evidence that evolution stamped these signals into the central nervous system.",
+            "Moods are more muted than emotions and last far longer, while temperaments are the readiness to evoke a given emotion or mood."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the book's taxonomy of emotion families and blends: jealousy is a variant of anger that also melds sadness and fear. Naming all three component feelings, rather than collapsing the state into a single word, disarms the impulse that any one component alone can drive.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Priya lost the Apex account lead role to her colleague Dana at Brightline Logistics and believes she is simply furious. She met Lena, her mentor, at a coffee shop near the office before pressing send on a cold, accusatory email to Dana. The stakes: an accurate reading of her own state decides whether the email goes out or gets rewritten.",
+          "dialogue": [
+            "Priya: Dana got the Apex account. And I know it is just anger - I keep replaying the announcement and feeling my jaw go tight.",
+            "Lena: Anger is part of it. What else surfaces when you picture her walking into that first client meeting?",
+            "Priya: Honestly? A hollow feeling, like I have lost my place in the office... and a fear that I will never get a shot like this again.",
+            "Lena: So the anger is real, but it is braided with something sadder and something anxious. That fits how emotion researchers classify feelings: jealousy is not a basic emotion, it is a blend.",
+            "Priya: A blend of what exactly?",
+            "Lena: Anger, sadness, and fear, each doing different work. Anger at being displaced, sadness at the loss, and fear about what it means for your standing here.",
+            "Priya: I was ready to send a cold email to Dana. Naming all three parts makes that email feel... less urgent."
+          ],
+          "choices": [
+            "Hold on - angry is only one thread. In the book's taxonomy jealousy is a blend: anger at being displaced, sadness at the loss, and fear about your standing. Name all three and the cold email to Dana loses its pull.",
+            "You deserved that account more than she did. If you are angry, that is a sign you should push back hard.",
+            "Stop overthinking. Anger is anger - the exact word does not change what you do.",
+            "The research says jealousy is basically fear in disguise, so ignore the anger and focus on your anxiety."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Emotion families and blends: jealousy as a variant of anger that also melds sadness and fear.",
+          "psychological_breakdown": "Option 0 applies the book's family-and-blend taxonomy: jealousy belongs to the anger family but also carries sadness and fear, so an accurate read includes all three threads, and each thread points at different work to do in her life. Option 1 fuels a single thread of anger and treats it as the whole feeling, which is exactly the mislabel that drives hostile action. Option 2 collapses the blend into one word and denies the other two components. Option 3 replaces one wrong single-word label (anger) with another (fear) and is no more accurate."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Emotion vs Mood: The Brief Heat of Anger",
+          "visual_frame_description": "A Sunday morning kitchen in Portland, bright light over a half-eaten breakfast. Marcus, 38, stands at the counter with a mug in his fist describing his whole day as one stretch of fury, from the neighbor's leaf blower to a slow checkout line. His partner Ana sits at the table, eyebrows up, a plate of untouched toast in front of her.",
+          "player_mission": "You play Ana, Marcus's partner. Marcus insists he has been furious all day and expects the fury to burn out on its own. Coach him to distinguish a single full-blown emotion from a mood so he can manage what is actually happening.",
+          "key_concepts": [
+            "The full heat of an emotion is very brief, lasting just seconds rather than minutes, hours, or days.",
+            "It would be maladaptive for an emotion to capture the brain and body for a long time regardless of changing circumstance.",
+            "For an emotion to last, the trigger must be sustained, as when the loss of a loved one keeps us mourning.",
+            "When feelings persist for hours, it is usually as moods, a muted form of emotion.",
+            "Moods set an affective tone, but they are not as strong shapers of how we perceive and act as the high heat of full emotion.",
+            "It is relatively rare to be in the full heat of anger all day, but not rare to be in a grumpy, irritable mood in which shorter bouts of anger are easily triggered.",
+            "Temperament is the readiness to evoke a given emotion or mood that makes people melancholy, timid, or cheery.",
+            "Outright disorders of emotion, such as clinical depression or unremitting anxiety, leave someone perpetually trapped in a toxic state.",
+            "The anger family spans annoyance and irritability up to fury, outrage, and wrath.",
+            "The scientific debate on how to classify emotions continues, with no clear answers for blends, virtues, and vices."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests Goleman's distinction between emotion and mood: the full heat of anger lasts seconds, while an irritable mood is a muted state that lasts far longer and makes short anger bouts easy to trigger. Labeling the day-long state as a mood, rather than one long fury, changes what management is possible.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Marcus has been snapping for nine hours straight - at the leaf blower, the checkout line, a kid kicking his seat on the bus - and declares he is simply furious all day. His partner Ana has just read the appendix on how emotions work and wants to help before Marcus's irritability sinks the family brunch. The stakes: if he treats a mood as a single long emotion, he waits for it to drain on its own and nothing changes.",
+          "dialogue": [
+            "Marcus: I am furious. All day. The leaf blower this morning, the slow checkout line, the kid kicking my chair - all of it, straight fury.",
+            "Ana: Full heat of anger for a whole day, though? That is not how the science describes it.",
+            "Marcus: What does that mean - am I supposed to be less mad?",
+            "Ana: No. It means what you are carrying is a mood, not one long emotion. A full anger emotion lasts seconds, then passes. What you have is a grumpy, irritable mood - the muted, durable version of the feeling.",
+            "Marcus: So if I am in the mood, the angry bursts keep getting re-triggered?",
+            "Ana: Exactly. Moods set the affective tone and make short bouts of anger easy to trip. Name it as a mood and you stop expecting one long fury to burn out on its own.",
+            "Marcus: Huh. So when the kid kicked my chair, that was the real anger - brief - and the day-long part is the tone underneath.",
+            "Ana: Yes. For the anger to last, the trigger would have to keep firing. Yesterday it was a mood looking for triggers all day."
+          ],
+          "choices": [
+            "That is the idea - the heat of a full emotion burns for seconds; what lasts all day is the mood, the muted form that makes short anger bouts easy to trigger. Treat the day as a mood to manage, not one long fury to wait out.",
+            "You are right, you are furious, and the only fix is to let it all out until it drains.",
+            "If it lasted all day it is not real anger at all, so just shrug it off.",
+            "Fury does last all day for some people - it is a temperament, and there is nothing you can do about it."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Emotion versus mood: moods are muted emotions that last far longer than the brief full heat of an emotion.",
+          "psychological_breakdown": "Option 0 matches the chapter's claim that the full heat of anger is brief, lasting seconds, and that day-long states are normally grumpy, irritable moods in which shorter bouts of anger are easily triggered; that reframe points Marcus to mood management instead of waiting for a single fury to exhaust itself. Option 1 wrongly assumes an emotion can burn at full heat all day and endorses discharge that the chapter gives no support to. Option 2 denies the real state entirely. Option 3 confuses temperament, a standing readiness to evoke feelings, with a day-long mood."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Four Layers of Feeling: Emotion, Mood, Temperament, Disorder",
+          "visual_frame_description": "A staff meeting at Cactus Vista Middle School in Tucson. Counselor Elena Guzman stands at a whiteboard that reads Emotion, Mood, Temperament, Disorder. Four case cards are pinned beneath the heading; seven teachers sit in a horseshoe of chairs, notebooks open, as Elena taps the first card.",
+          "player_mission": "You are assisting Elena Guzman as she sorts four student cases into the correct layers of emotional life. Read each presentation, decide which layer it belongs to, then help Elena correct the faculty's confusion between mood and temperament for a parent.",
+          "key_concepts": [
+            "Ekman argues that the full heat of emotion is very brief, lasting just seconds rather than minutes, hours, or days.",
+            "A sustained emotion requires a sustained trigger, as when the loss of a loved one keeps us mourning.",
+            "When feelings persist for hours, it is usually as moods, a muted form that sets an affective tone.",
+            "Temperament is the readiness to evoke a given emotion or mood that makes people melancholy, timid, or cheery.",
+            "Outright disorders of emotion, such as clinical depression or unremitting anxiety, leave someone perpetually trapped in a toxic state.",
+            "Severe depression is the pathological extreme of the sadness family, and phobia and panic are the psychopathology at the far end of the fear family.",
+            "Mania sits at the far edge of the enjoyment family.",
+            "Researchers still dispute which emotions qualify as primary and how to classify blends, virtues, and vices.",
+            "The emotional mind is quick and sloppy, and its snap impressions may be mistaken even when they feel certain.",
+            "Moods are not as strong shapers of how we perceive and act as is the high heat of a full emotion."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests Goleman's layered scheme of emotional life: full emotions are brief events, moods are muted and long-lasting, temperaments are standing readinesses to evoke feelings, and clinical depression or unremitting anxiety are disorders. Sorting a presentation to the correct layer determines which kind of help makes sense.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "The chapter distinguishes four layers: the emotion itself (brief, full heat), the mood (muted, lasting far longer, easily re-triggered), the temperament (a readiness to evoke a given emotion or mood), and outright emotional disorder such as clinical depression or unremitting anxiety. The player must sort ambiguous presentations into the right layer and then coach a parent who has confused temperament with a verdict.",
+          "stage_1_observation": "Four teacher reports appear on the board. Keisha, a 7th grader, bursts into sobs when her essay comes back with a C, then recovers within about ninety seconds and jokes with her friends at lunch. David, a 6th grader, has been quietly downcast for six straight weeks with no failure to explain it. Priya, an 8th grader, is famously gloomy: even in good weeks her first reaction to any news is a sigh. The librarian reports she herself has felt angry for a full workday since a faculty email dispute.",
+          "stage_1_question": "Which of the four presentations belongs to the layer of a single full emotion - the brief, intense event - rather than a mood, temperament, or disorder?",
+          "stage_1_correct_answer": "Keisha: her intense distress lasts about ninety seconds and passes once the trigger is gone, which matches the chapter's claim that the full heat of an emotion lasts just seconds. David's six-week despondency indicates a sustained mood or, at the extreme, a disorder; Priya's chronic gloom is better read as a temperament, the readiness to evoke sadness; and the librarian's all-day anger is an irritable mood, since full-blown anger burning an entire day is rare.",
+          "stage_2_intervention": "Elena must answer a parent who says: My daughter is just a melancholy kid, born that way, so there is no point in helping her. Elena has one conversation to correct the confusion between temperament and the other layers. Which correction should she give?",
+          "stage_2_correct_answer": "Elena should distinguish temperament from verdict: a temperament is a readiness to evoke a given emotion or mood, the tendency that makes a person melancholy, timid, or cheery - it is the disposition scheme, not a fixed outcome, and it sits one layer beneath the brief emotion and the longer mood. She should also note that even the classification of emotions remains an open scientific debate, so the parent's fatalism is not supported by the text."
+        }]
+    },
+    {
+      "id": "ch24",
+      "title": "Appendix B: Hallmarks of the Emotional Mind",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Two Pathways to Emotion: First Feelings, Second Thoughts",
+          "visual_frame_description": "A break room at a Seattle software firm, mid-afternoon. Nina, 34, a product manager, stands at the window replaying the moment her teammate Sam slid a proposal across her desk and she snapped, This is a mess, before she had thought anything. Her mentor Paul sits on the couch holding two mugs of coffee.",
+          "player_mission": "You play Paul, Nina's mentor. Nina is confused and embarrassed about snapping at Sam and wants to understand what the reaction was. Explain the two pathways to emotion in a way she can use at work.",
+          "key_concepts": [
+            "The emotional mind is far quicker than the rational mind, springing into action without pausing even a moment to consider what it is doing.",
+            "The emotional mind's quickness evolved around the basic decision of what to pay attention to, such as split-second do I eat this or does it eat me choices.",
+            "Because the rational mind takes a moment or two longer to register and respond, the first impulse in an emotional situation is the heart's, not the head's.",
+            "In the fast-response sequence, feeling seems to precede or be simultaneous with thought, and it takes over in situations that have the urgency of primal survival.",
+            "In the slower pathway, feelings simmer and brew first in our thoughts before leading to feeling, and we are typically aware of the thoughts that lead to them.",
+            "More complicated emotions, like embarrassment or apprehension over an upcoming exam, follow the slower route, taking seconds or minutes to unfold.",
+            "Our most intense feelings are involuntary reactions; we cannot decide when they will erupt.",
+            "Ekman notes that because we cannot choose our emotions, people can explain away their actions by saying they were in the grip of emotion.",
+            "There are also emotions which come bidden, such as intentionally manipulated feeling, the actors' stock-in-trade.",
+            "We can choose what to think about, so happy memories can cheer us up and melancholy thoughts can make us reflective.",
+            "The rational mind usually does not decide what emotions we should have; what it can ordinarily control is the course of those reactions."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the chapter's two pathways to emotion: the fast-response route in which feeling precedes or rides alongside thought, and the slower deliberative route in which thought precedes feeling, as in embarrassment. Knowing which route produced a reaction determines how the aftermath should be handled.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Nina snapped at her teammate Sam the instant his proposal hit her desk - the words left her mouth before any thought - and she is now embarrassed because she genuinely likes Sam. Her mentor Paul has fifteen minutes before her next meeting to help her make sense of what happened. The stakes: if Nina thinks the fast flash is a verdict about Sam, she will double down or apologize for the wrong reason.",
+          "dialogue": [
+            "Nina: Sam handed me the proposal and before I even knew what happened I had said, this is a mess. The words came out of nowhere.",
+            "Paul: Did you register anything before you said it - a thought, a decision?",
+            "Nina: No. It was like the reaction was already done when I got there. I like Sam. I do not think his proposal is a mess.",
+            "Paul: That is the fast route to emotion: in urgent moments, feeling precedes or rides alongside thought, and action springs out before reflection can vet it.",
+            "Nina: So why did I snap at a teammate? That is not a survival emergency.",
+            "Paul: It felt urgent. Primal-survival urgency is the fast route's home turf, but it fires on high-stakes moments too. The slow route is the one where thought comes first - your embarrassment right now is stewing that way.",
+            "Nina: Embarrassment... yes, that one I could feel building for the last ten minutes.",
+            "Paul: Exactly - more complicated emotions like embarrassment and exam-day dread unfold over seconds or minutes, brewed first in thoughts. Two different recipes, two different timetables."
+          ],
+          "choices": [
+            "The fast route feels done before you arrive: the appraisal and the reaction are nearly simultaneous and the why shows up later. Your embarrassment is the slow route, brewed in thought for minutes. Both are normal - knowing which one is running changes how you handle the aftermath.",
+            "You must secretly resent Sam. Snaps like that only come from stored-up anger.",
+            "Just apologize. Fast or slow, it is all the same emotion and the same fix.",
+            "Next time, think harder before every word and you will never feel the fast route again."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "The two pathways to emotion: the fast-response route where feeling precedes thought, and the slower deliberative route where thought precedes feeling.",
+          "psychological_breakdown": "Option 0 maps Nina's flash onto the fast route - an automatic appraisal so rapid it never enters awareness - and her embarrassment onto the slow route, where thoughts brew first, and that distinction guides what to do next. Option 1 misattributes the fast route to stored resentment, inventing a cause the text does not support. Option 2 treats both routes as one undifferentiated emotion, losing the insight that the flash was not a verdict about Sam. Option 3 assumes the fast route can be eliminated by will, contradicting the chapter's point that intense feelings are involuntary and we control the course, not the onset."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Quick but Sloppy Reader: Microemotions and Snap Judgments",
+          "visual_frame_description": "A dim training room in Denver where two consultants, you and Renata, review negotiation footage on a wall monitor. The freeze frame shows a client's face at the moment of a handshake; a timer readout marks 0.4 seconds. Renata leans toward the screen, pen pointing at the client's brow.",
+          "player_mission": "You are coding video of a client negotiation with Renata to train new consultants. Judge whether a sub-second facial flicker is a genuine signal, then decide what the team is entitled to claim from a fast emotional reading.",
+          "key_concepts": [
+            "Using his system for detecting emotions from subtle facial changes, Ekman can track microemotions that flit across the face in less than a half second.",
+            "Emotional expressions begin to show up in changes in facial musculature within a few thousandths of a second after the event that triggers the reaction.",
+            "The physiological changes typical of a given emotion, like shunting blood flow and increasing heart rate, also take only fractions of a second to begin.",
+            "The swiftness of the emotional response is particularly true of intense emotion, like fear of a sudden threat.",
+            "The quick mode of perception sacrifices accuracy for speed, relying on first impressions and reacting to the overall picture or the most striking aspects.",
+            "Vivid elements can determine an impression, outweighing a careful evaluation of the details.",
+            "The emotional mind can read an emotional reality in an instant, making intuitive snap judgments about who to be wary of, who to trust, and who is in distress.",
+            "The emotional mind is our radar for danger.",
+            "Because these impressions are made in the snap of a finger, they may be mistaken or misguided.",
+            "The appraisal of the need to act must be automatic, so rapid that it never enters conscious awareness.",
+            "Actions that spring from the emotional mind carry a particularly strong sense of certainty."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the chapter's claim that the emotional mind is quick but sloppy: expressions surface in facial musculature within thousandths of a second and microemotions pass in under half a second, yet the fast reading sacrifices accuracy for speed and may be mistaken. The player must separate a real microsignal from a warranted verdict.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "The quick-but-sloppy response: Ekman's microemotion work shows real signals cross the face in less than half a second, while the emotional mind's speed trades accuracy for first impressions. A detected microexpression is evidence, but the conviction of certainty it produces is not proof.",
+          "stage_1_observation": "Replaying the final handshake of a stalled negotiation, you and Renata catch a flicker: the client's lips press and the brow dips for a fraction of a second before the smile lands. The screen timer marks the flicker at 0.4 seconds. Renata is not sure it registered - it was faster than she can comfortably follow.",
+          "stage_1_question": "Given the timing facts in the chapter - expressions begin in facial musculature within a few thousandths of a second of the trigger, and microemotions flit across the face in less than half a second - what should you conclude about the 0.4-second flicker?",
+          "stage_1_correct_answer": "That it is a genuine, detectable microexpression - facial changes begin within thousandths of a second of the trigger, microemotions cross in under half a second, and Ekman built a system precisely for tracking such fleeting signals. The flicker is real signal, not video noise, so it warrants attention; the sloppy part of the system lies in what conclusion the viewer draws from it.",
+          "stage_2_intervention": "Minutes later the client pauses before answering the pricing question. Renata wants to tell the team he is lying, I saw it. You must decide what the evidence in this chapter actually authorizes the team to claim.",
+          "stage_2_correct_answer": "Authorize only a provisional cue, not a verdict: the emotional mind reads an emotional reality in an instant and is our radar for danger, but snap impressions made in the blink of an eye may be mistaken or misguided, and the rapid mode's certainty is a by-product of its speed. The team should log the cue and test it against sustained channels - tone, posture, and later behavior - instead of acting on conviction."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Past Imposed on the Present: The Rationalization Audit",
+          "visual_frame_description": "A conference room at a municipal facilities office in Columbus, video camera running. Viktor, 51, a meticulous facilities manager, replays for an auditor the moment he shouted at Marcus, a 24-year-old clerk, over a routine invoice. The room is beige and bare; Viktor's crossed arms and fixed smile fight each other.",
+          "player_mission": "You are the auditor reviewing Viktor's explanation of his outburst. Determine whether his present-moment account of the incident is reliable or whether an emotionally charged memory is driving him while his rational mind spins justification.",
+          "key_concepts": [
+            "When some feature of an event seems similar to an emotionally charged memory from the past, the emotional mind responds by triggering the feelings that went with the remembered event.",
+            "The emotional mind reacts to the present as though it were the past, especially when the appraisal is fast and automatic.",
+            "Someone who learned through painful childhood beatings to react to an angry scowl with intense fear and loathing will have that reaction to some degree even as an adult, when the scowl carries no such threat.",
+            "If the feelings are vague or subtle, we may not quite realize the emotional reaction we are having, even though it is subtly coloring how we react to the moment.",
+            "The emotional mind will harness the rational mind to its purposes, so we come up with rationalizations justifying our feelings in terms of the present moment.",
+            "Rationalization happens without realizing the influence of the emotional memory.",
+            "We can have no idea of what is actually going on, though we may have the conviction of certainty that we know exactly what is happening.",
+            "Feelings are self-justifying, with a set of perceptions and proofs all their own.",
+            "The emotional mind is self-confirming, suppressing or ignoring memories or facts that would undermine its beliefs and seizing on those that support them.",
+            "The beliefs of the rational mind are tentative and can be disconfirmed by new evidence, while the emotional mind takes its beliefs to be absolutely true."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the hallmark of the past imposed on the present: a feature of an event that resembles an emotionally charged memory triggers the old feelings, and the rational mind is then harnessed to produce present-moment rationalizations. The evidence - an instant pre-appraisal reaction followed by a tidy narrative - exposes the memory-driven mechanism behind Viktor's confident account.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "question": "Viktor insists he knows exactly why he snapped - the invoice was wrong and Marcus was smug - and that it is simply who he becomes under deadline pressure. Is his account of his own reaction reliable, and what is actually driving the outburst?",
+          "subject_baseline": "Viktor is a meticulous, even-tempered facilities manager in his fifties, known for calm building walkthroughs and quiet speaking at all-hands meetings. Colleagues describe him as steady and slow to complain, but several staff have noted that he becomes visibly rigid around younger, confident clerks - a pattern that predates the deadline crunch.",
+          "observed_nonverbal_log": [
+            "0:00-0:05 - When Marcus asks if he should run the invoice again, Viktor's brow drops and his jaw tightens within the same second - before Marcus finishes the sentence.",
+            "0:06-0:12 - Viktor takes a half-step toward Marcus, arms going tense and voice rising half an octave, mid-question.",
+            "0:13-0:20 - Asked whether Marcus's tone reminded him of anything, Viktor blinks rapidly, shakes his head no, crosses his arms, and redirects to the invoice details.",
+            "0:21-0:30 - At the phrase who is in charge here, Viktor's breathing slows, his shoulders come down, and he straightens his posture - a visible, sharp stop of the defensive spiral.",
+            "0:31-0:45 - He then delivers a tidy, fluent narrative: he smirked, the invoice was padded, and I have been under pressure. That is all. No hesitation in the telling."
+          ],
+          "interrogation_transcript": [
+            "Auditor: When your jaw tightened, what were you thinking?",
+            "Viktor: That he was challenging me. Disrespect. It was obvious.",
+            "Auditor: And before the thought - did anything else surface?",
+            "Viktor: Nothing. It was just obvious. I have seen his type before.",
+            "Auditor: Marcus is twenty-four and says sir. Did the specifics of the invoice matter, or the challenge itself?",
+            "Viktor: The challenge. The invoice was the excuse to say what needed saying.",
+            "Auditor: Have you felt this way before, in a setting with no invoices?",
+            "Viktor: (long pause, gaze drops to the table) My father's foreman talked to my mother that way. Kids heard everything. I was nine. But that is not why I snapped - I was provoked this time, plain and simple."
+          ],
+          "correct_diagnosis": "Viktor's present-moment fury is driven by an emotionally charged memory being imposed on the present - the chapter's past-imposed-on-present hallmark - while his rational mind, entrained by the emotional mind, spins confident present-moment rationalizations about the invoice and the smirk. His claim that he knows exactly what is happening is exactly what the chapter predicts from someone in the grip of the mechanism.",
+          "diagnostic_breakdown": [
+            "Viktor's reaction completed before he could appraise the invoice - brow and jaw within one second of Marcus's question - matching the fast, automatic emotional response rather than a deliberate judgment, so the invoice functions as a justification rather than as a cause.",
+            "His language of challenge and his aside that the other had challenged him first shows the triggering feature was not the invoice but a felt threat, the kind of feature that resembles an old emotionally charged situation.",
+            "The transcribed memory of the foreman surfaced only when he paused, and his instant denial that anything reminded him shows the influence of the memory is not conscious - the chapter says we may have no idea what is actually going on.",
+            "His fluent, confident narrative after the spiral stopped is the rationalization the chapter describes: the emotional mind harnesses the rational mind to justify feelings in terms of the present moment."
+          ],
+          "distractors": [
+            "Viktor is a chronic liar whose anger is a cover-up for fraud on the invoice.",
+            "Viktor is suffering simple work stress with no memory component whatsoever.",
+            "Viktor is accurately reporting a rational business dispute; his face and body signals are incidental noise."
+          ]
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Categorical and Personalized Thinking: The Symbolic Emotional Mind",
+          "visual_frame_description": "A rooftop patio in Chicago on a summer evening. Daniel, 27, hunched over a phone, replays a video of himself fumbling his toast at his sister's wedding - hesitating, dropping the microphone, laughing too late. His friend Hana sits across from him, two sparkling waters between them, the city lights behind her.",
+          "player_mission": "You play Hana, Daniel's friend. Daniel has concluded he always says the wrong thing and ruins every event, and he replays the toast like a film with himself center frame. Help him see the categorical, personalized logic of the emotional mind and feed the rational mind real details.",
+          "key_concepts": [
+            "The logic of the emotional mind is associative; it takes elements that symbolize a reality, or trigger a memory of it, to be the same as that reality.",
+            "Similes, metaphors, and images speak directly to the emotional mind, as do the arts.",
+            "The emotional mind is childlike in its categorical thinking, where everything is in black and white, with no shades of gray.",
+            "Someone mortified about a faux pas might have the immediate thought I always say the wrong thing.",
+            "Personalized thinking perceives events with a bias centering on oneself, like the driver who explained that the telephone pole came straight at me.",
+            "Epstein notes that while the rational mind makes logical connections between causes and effects, the emotional mind is indiscriminate, connecting things that merely have similar striking features.",
+            "In the emotional mind, what matters is how things are perceived; things are as they seem, and what something reminds us of can be far more important than what it is.",
+            "Freud described this logic as primary process thought, the logic of religion and poetry, psychosis and children, dream and myth.",
+            "In primary process thought, one object symbolizes another and one feeling displaces another, and there is no such thing as No.",
+            "The emotional mind's beliefs are self-confirming, suppressing or ignoring facts that would undermine them.",
+            "Great spiritual teachers like Buddha and Jesus spoke in the language of emotion, teaching in parables, fables, and stories."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the symbolic, childlike reality of the emotional mind: its associative logic leaps from one vivid image to a total verdict, producing categorical thinking (always) and personalized thinking (it was all me). The remedy is feeding the rational mind objective details, which reasons from evidence rather than from the striking picture.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Daniel botched a portion of his sister's wedding toast - he dropped the microphone mid-sentence - and has spent the evening replaying it as proof that he always ruins every event he touches. His friend Hana is trying to get him to see the emotional mind's logic before he declines the next family gathering. The stakes: if the categorical verdict sticks, Daniel stops showing up.",
+          "dialogue": [
+            "Daniel: I always do this. Every event, every toast - I ruin them. The camera angle, the stumbling words - it was all me.",
+            "Hana: Always and every - let us look at that. Last month you gave the farewell speech at work, and people quoted it for a week.",
+            "Daniel: That was luck. This proves what I knew all along: I am the one who breaks things.",
+            "Hana: Do you hear the shape of that? It is black and white - all or nothing. The emotional mind thinks categorically: one mishap becomes I always, and the spotlight lands entirely on you.",
+            "Daniel: I literally replayed it as a film where I am center frame the whole time, everyone staring.",
+            "Hana: That is the symbolic, self-centered reading - the event as a picture with you at its center. The rational mind would weigh details: the mic cut out for thirty seconds, you recovered, and ninety people hugged you afterward.",
+            "Daniel: So my always is... a feeling, not a fact.",
+            "Hana: Exactly. Emotional logic takes a vivid image as the whole truth. That is why parables and stories speak to it so directly - and also why one vivid scene can outweigh a careful tally of details."
+          ],
+          "choices": [
+            "Your mind turned one moment into a self-centered symbol - a film with you center frame - and coded it always. That is categorical, personalized logic: the emotional mind connects things by similar vivid features, not by an objective tally. Replay the facts: the mic outage, the recovery, the ninety hugs.",
+            "You are right: one ruined toast, and that is the evidence. Own it and skip the next three events.",
+            "Stop being dramatic. Just memorize a better toast and move on.",
+            "The trick is to never think about yourself at all - then nothing can feel personal."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Categorical and personalized thinking - the symbolic, childlike logic of the emotional mind.",
+          "psychological_breakdown": "Option 0 names the two childlike modes the chapter describes - categorical thinking that turns one slip into always and personalized thinking that puts the self at the center - and counters them with the rational mind's objective tally, which reasons by evidence. Option 1 agrees with the distorted verdict and rewards the emotional mind's self-confirming style. Option 2 dismisses the feeling without addressing the mechanism, so the verdict survives intact. Option 3 confuses empathy or self-effacement with accuracy and leaves the categorical logic untouched."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "State-Specific Reality: Selective Memory in Emotion",
+          "visual_frame_description": "A hospital break room in Austin, morning light on tile. Aisha, 30, an ICU nurse, sits with her mentor across a small table, a coffee cup turning in her hands. Two sticky notes on the wall show the same prompt written at different hours: your strongest clinical saves. One note is covered in lines; the other is blank.",
+          "player_mission": "You are Aisha's mentor, preparing her for a promotion interview. Observe how her recall of the same personal history changes between an upbeat and a dejected state, identify the mechanism, then decide what to advise when the state hijacks her memory before the interview.",
+          "key_concepts": [
+            "The working of the emotional mind is to a large degree state-specific, dictated by the particular feeling ascendant at a given moment.",
+            "How we think and act when we are feeling romantic is entirely different from how we behave when enraged or dejected.",
+            "In the mechanics of emotion, each feeling has its own distinct repertoire of thought, reactions, even memories.",
+            "State-specific repertoires become most predominant in moments of intense emotion.",
+            "Part of the mind's response to an emotional situation is to reshuffle memory and options for action so that those most relevant are at the top of the hierarchy and more readily enacted.",
+            "Each major emotion has its hallmark biological signature, a pattern of sweeping changes that entrain the body as that emotion becomes ascendant.",
+            "Each major emotion has a unique set of cues the body automatically sends out when in its grip.",
+            "In the fast-response sequence, feeling seems to precede or be simultaneous with thought.",
+            "Vague or subtle feelings may color our reactions without our realizing the emotional reaction we are having.",
+            "The rational mind can ordinarily control the course of emotional reactions, though not their onset."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the state-specific reality of the emotional mind: each ascendant feeling runs its own repertoire of thought, reactions, and even memories, reshuffling memory so that state-relevant material sits at the top of the hierarchy. Aisha's inability to retrieve her wins under dejection is a state-driven reshuffle, not a fact about her record.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "State-specific reality: the emotion ascendant in a given moment dictates a distinct repertoire of thought, reactions, and memories, and selective memory reshuffles the hierarchy of what is readily recalled. The player must recognize the mechanism in a live case and then decide how to act on it.",
+          "stage_1_observation": "In one morning Aisha shows you two different minds. At shift handover she is upbeat and expansive; asked to name her strongest clinical saves, she reels off a rich list. Hours later, after a patient's family blamed her for a delay, she is dejected; asked the identical question, she draws a blank, then volunteers only the one case where she lost a patient, describing herself as a nurse who fails people.",
+          "stage_1_question": "Aisha's recall of the same personal history changed radically between the two states. Which hallmark of the emotional mind does this demonstrate?",
+          "stage_1_correct_answer": "State-specific reality with selective memory: each ascendant feeling runs its own distinct repertoire of thought, reactions, and even memories, and part of the mind's response is to reshuffle memory and options so those most relevant to the current state sit at the top of the hierarchy. Under dejection, the loss case becomes most readily recalled and the wins sink below reach - not because they are gone, but because the state reshuffled the hierarchy.",
+          "stage_2_intervention": "Minutes before her interview, Aisha texts you in a panic: I cannot remember a single win. Should I cancel? You must decide what to do based on the state-specific logic.",
+          "stage_2_correct_answer": "Do not let her cancel, and do not treat the blank as evidence: the memories still exist at the bottom of a state-specific hierarchy, and each emotion carries its own repertoire and biological signature, so the intervenable point is the ascendant feeling, not the archive. Address the dejected state first - a reset that changes the ascendant emotion - and only then retrieve the wins; treating the blank as a verdict would confirm exactly the state-driven story the chapter says is unreliable."
+        }
+      ]
+    },
+    {
+      "id": "ch25",
+      "title": "Appendix C: The Neural Circuitry of Fear",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Crash in the Kitchen: Two Branches of the Fear Circuit",
+          "visual_frame_description": "A new apartment in Minneapolis at 11 p.m. Tom, 33, stands frozen at the bedroom door, one hand on the frame, eyes wide, after a crash shook the kitchen next door. Mira, 32, sits up in bed with the lamp on, calm but alert; a floor lamp has tipped across the doorway.",
+          "player_mission": "You play Mira, Tom's partner. Tom's body has already alarmed at a crash in the kitchen and he wants to charge in. Explain how the fear circuitry works - the fast startle route and the slower sorting route - so he gives his brain two seconds to identify the sound.",
+          "key_concepts": [
+            "The amygdala is central to fear.",
+            "The first fear circuit takes the sound as raw physical waves from the ear to the brainstem and then to the thalamus, startling you into alertness.",
+            "From the thalamus a small bundle of projections leads to the amygdala and nearby hippocampus, while the other, larger pathway leads to the auditory cortex, where sounds are sorted out and comprehended.",
+            "The hippocampus, a key storage site for memory, quickly sorts the crash against other similar sounds heard before, to see if it is familiar.",
+            "The auditory cortex develops a hypothesis about the sound's source - the cat, a shutter banging in the wind, or a prowler - and sends that message to the amygdala and hippocampus.",
+            "If the conclusion is reassuring, the general alert does not escalate to the next level.",
+            "If no satisfying answer comes, circuitry reverberating between amygdala, hippocampus, and the prefrontal cortex heightens uncertainty and fixates attention.",
+            "The entire sequence from surprise to uncertainty to apprehension to fear can be telescoped within about a second.",
+            "The amygdala is a continual sentinel, scrutinizing every sensory experience.",
+            "Misplaced fears in modern life leave us with frets, angst, and garden-variety worries, and at the pathological extreme with panic attacks, phobias, or obsessive-compulsive disorder."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the two-branch fear circuit: a fast bundle from the thalamus to the amygdala startles you before identification, while a larger, slower pathway to the auditory cortex sorts the sound and checks it against memory. A reassuring match keeps the alarm from escalating; ambiguity keeps the uncertainty circuit running.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Tom and Mira moved into their apartment three weeks ago. At 11 p.m. a crash from the kitchen snaps Tom out of bed - his heart is already pounding and he wants to go check right now. Mira has been reading about the fear circuitry the amygdala runs. The stakes: Tom's next two seconds determine whether the alarm escalates or resolves, and whether he walks into the kitchen with a shout or a flashlight.",
+          "dialogue": [
+            "Tom: (eyes wide, one hand on the doorframe) Something is in the kitchen. Big. I need to check - now.",
+            "Mira: Hold on. You heard the crash before you could even identify it, right? That is the raw-sound pathway: ear to brainstem to thalamus, and a fast branch straight down to the amygdala - startle first, understanding second.",
+            "Tom: Understanding second?! My body is already running. What is understanding doing?",
+            "Mira: A bigger branch of that sound went to your auditory cortex, which is sorting it - cat, shutter, lamp, prowler - while your hippocampus compares it to sounds you have heard before.",
+            "Tom: So if it is the lamp the cat knocked over, what happens?",
+            "Mira: The conclusion comes back reassuring - a match - and the alert does not escalate. Only if the answer stays unsure does the alarm get fully armed.",
+            "Tom: It is probably the bookshelf. I will listen for one extra second - a cat footstep, not a shoe.",
+            "Mira: Exactly. You are giving your cortex two seconds to do its hypothesis work before the alarm circuit takes over."
+          ],
+          "choices": [
+            "Take the beat. The fast branch from your ear to your amygdala already startled you, but the larger, slower branch to your auditory cortex is sorting the sound while your hippocampus matches it against familiar ones. A reassuring match keeps the alarm from escalating.",
+            "You are overreacting - the sound was small, so there was never any real alarm at all.",
+            "Charge into the kitchen immediately; your gut reaction is always right in these moments.",
+            "Alarm is all one system - the quality of the sound makes no difference to fear."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "The two-branch fear circuit: the fast thalamus-to-amygdala startle route versus the slower auditory-cortex sorting route.",
+          "psychological_breakdown": "Option 0 follows the chapter's map: the raw-sound circuit already produced the startle, so the useful work now belongs to the auditory cortex's hypothesis and the hippocampus's memory match, which can keep the alert from escalating. Option 1 denies that the amygdala reflex fired at all. Option 2 endorses acting on the alarm before identification, forfeiting the sorting pathway entirely. Option 3 misstates the circuitry, since the chapter explicitly separates the fast and slow branches and their different jobs."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Unflinching Patient: Fear Without an Amygdala",
+          "visual_frame_description": "A neurology research suite at a university hospital, cameras and monitors ringed around a reclining chair. Dana Nowak, 36, sits in the chair in a soft blue shirt, calm and chatty, while a resident reviews her scan on a wall screen showing the amygdala region dark and absent on both sides.",
+          "player_mission": "You are the neurology resident reviewing Dana's evaluation. Sort the observations of her response to threats, horror imagery, and frightened faces, and determine what explains her flatness - the answer grounded in the book's report of patient S.M.",
+          "key_concepts": [
+            "When a rare brain disease destroyed the amygdala but no other brain structures in the patient S.M., fear disappeared from her mental repertoire.",
+            "S.M. became unable to identify looks of fear on other people's faces, nor to make such an expression herself.",
+            "As S.M.'s neurologist put it, if someone put a gun to her head, she would know intellectually to be afraid but she would not feel afraid as you or I would.",
+            "The amygdala's central area activates the areas of the hypothalamus that secrete the body's emergency-response substance, corticotropin-releasing hormone (CRH), which mobilizes the fight-or-flight reaction via a cascade of hormones.",
+            "Through the central nucleus the amygdala sends signals to the autonomic nervous system via the medulla, activating responses in the cardiovascular system, the muscles, and the gut.",
+            "Fibers from the amygdala to the central gray regulate the large muscles of the skeleton, and the same circuits tighten human vocal cords, creating the high-pitched voice of fright.",
+            "The locus ceruleus manufactures norepinephrine and disperses it throughout the brain, heightening the overall reactivity of the areas that receive it.",
+            "As you begin to feel fear, the amygdala commands a fearful expression, edginess, a startle, faster heart rate, higher blood pressure, and slowed breathing.",
+            "The amygdala and hippocampus direct releases of dopamine that rivet attention on the source of the fear and put muscles at readiness.",
+            "Fear, in evolution, has special prominence because more than any other emotion it is crucial for survival.",
+            "Misplaced fears in modern life leave us suffering from frets, angst, and worries, or at the pathological extreme from panic attacks, phobias, and obsessive-compulsive disorder."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the chapter's central claim about the amygdala: patient S.M., whose amygdala was destroyed by a rare disease, lost fear from her mental repertoire - she could not read fear in faces, could not produce the expression, and knew danger only intellectually. Dana's pattern mirrors that reported case, separating amygdala-driven fear from intellectual threat knowledge.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "question": "Dana shows no fear response to staged threats, horror footage, or frightened faces, yet her cognition is fully intact. What explains her flatness, and how should her case be classified?",
+          "subject_baseline": "Dana Nowak, 36, was referred after scans revealed a rare brain disease that destroyed her amygdala bilaterally with no other visible lesions. Her memory, language, and IQ scores are normal; she is warm, chatty, and cooperative, and can describe what fear is for other people in textbook terms - but reports never feeling it herself, not even as a child during an earthquake.",
+          "observed_nonverbal_log": [
+            "0:00-0:10 - Forty seconds of horror footage of a car crash: Dana watches with a steady, interested gaze; no startle, brows still, and the pulse trace stays flat.",
+            "0:11-0:20 - A staff member bursts in shouting during a staged alarm: Dana turns her head calmly, asks what is going on, and shows no flinch and no change in voice pitch.",
+            "0:21-0:30 - Shown photos of terrified faces, she labels them scared by explicit features - wide eyes, open mouth - but when asked to make a fear face herself, she produces a puzzled neutral expression and laughs.",
+            "0:31-0:40 - Asked what she would feel with a gun at her head, she answers intellectually: she would know it is dangerous and be extremely careful, but she does not think the feeling would come.",
+            "0:41-0:50 - Pulse and skin conductance remain flat through every stimulus, including a sudden loud noise behind her chair."
+          ],
+          "interrogation_transcript": [
+            "Resident: When the alarm went off, what did your body do?",
+            "Dana: Honestly? Nothing. I registered the noise as information. Should I have jumped?",
+            "Resident: Most people feel a lurch of fear. Did you feel anything during the crash video?",
+            "Dana: I found the editing interesting. I understood the people were in danger - but it never seems more than a fact to me.",
+            "Resident: As a child - heights, dogs, a tornado warning?",
+            "Dana: Everyone around me panicked once and I remember thinking, this is what they mean by scared. I checked my pulse to see what it felt like. It never came.",
+            "Resident: If a real threat were imminent, how would you behave?",
+            "Dana: Calmly, and very fast. I once walked away from a street robbery without breaking stride. That is not courage - I just do not have the fear to burn."
+          ],
+          "correct_diagnosis": "Dana's amygdala was destroyed by a rare brain disease and fear disappeared from her mental repertoire: she cannot identify fearful faces, cannot make the expression herself, and treats danger as knowledge without feeling - the exact pattern the chapter reports for patient S.M.",
+          "diagnostic_breakdown": [
+            "No startle, no autonomic surge, and no freeze across loud noises and horror footage: the amygdala's alarm outputs - CRH-driven fight-or-flight through the hypothalamus, autonomic responses through the medulla, and freezing through the central gray - have no executor, and the flat pulse trace matches that absence.",
+            "She can label fear features in others' photos but cannot produce the expression herself: reading and producing the fearful face both depend on circuitry the amygdala drives.",
+            "Her description of danger as information rather than feeling matches S.M.'s neurologist: intellectual knowledge of danger without the felt fear.",
+            "Warm social behavior, intact cognition, and normal memory rule out callousness, denial, or anxiety pathology - she simply cannot recruit fear."
+          ],
+          "distractors": [
+            "Dana is a psychopath whose charm and calm under threat hide an absence of conscience and empathy.",
+            "Dana is a repressor who denies her fear to awareness while her body registers it elsewhere.",
+            "Dana's flatness is a severe anxiety disorder that has numbed her emotional responding over time."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Trace the Alarm: From Crash to Full-Fledged Fear",
+          "visual_frame_description": "A dim simulation suite in a sleep lab, a wall screen showing an animation of a young man reading in an apartment as a crash sounds in the next room. The trace pauses at 0.15 seconds; overlaid glowing lines show the ear, brainstem, and thalamus lit, with a thin bright bundle toward the amygdala and a broad slow beam rising toward the temporal cortex.",
+          "player_mission": "You are a trainee reading the fear-circuit simulation for your supervisor. Identify which structure produces the vague hypothesis about the sound, then predict the escalation pathway when the hypothesis stays ambiguous and no reassuring match is found.",
+          "key_concepts": [
+            "The first circuit of fear takes the sound as raw physical waves from the ear to the brainstem and then to the thalamus, startling you into alertness.",
+            "From the thalamus a small bundle of projections leads to the amygdala and nearby hippocampus, while the larger pathway leads to the auditory cortex in the temporal lobe.",
+            "The hippocampus quickly sorts the crash against other similar sounds heard before to see if it is familiar.",
+            "The auditory cortex comes up with its hypothesis - the cat knocking a lamp off the table, say, or a prowler - and sends that message to the amygdala and hippocampus.",
+            "If the conclusion is reassuring, the general alert does not escalate to the next level.",
+            "If no satisfying answer comes, circuitry reverberating between amygdala, hippocampus, and the prefrontal cortex heightens uncertainty and fixates attention.",
+            "The amygdala's central area activates the hypothalamus, which secretes corticotropin-releasing hormone (CRH) and mobilizes the fight-or-flight reaction via a cascade of hormones.",
+            "The locus ceruleus manufactures norepinephrine, which heightens the overall reactivity of the brain areas that receive it, setting the brain on edge.",
+            "The amygdala and hippocampus direct releases of dopamine that rivet attention on the source of the fear and put muscles at readiness.",
+            "Cortical memory systems are reshuffled so that knowledge most relevant to the emotional urgency is most readily recalled.",
+            "The entire sequence - from surprise to uncertainty to apprehension to fear - can be telescoped within about a second."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the full fear cascade: raw sound to the thalamus, a fast startle branch to the amygdala, and a slower branch to the auditory cortex whose hypothesis is checked against memory by the hippocampus. When the hypothesis stays ambiguous, reverberating amygdala-hippocampus-prefrontal circuitry escalates uncertainty until the amygdala's alarm triggers the fight-or-flight cascade - all within about a second.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "Tracing the neural circuitry of fear from an ambiguous crash to full-fledged fear: the startle branch reacts before comprehension, the auditory cortex generates hypotheses, the hippocampus checks familiarity, and unresolved ambiguity hands control to the amygdala's alarm, activating the hypothalamus, brainstem, and autonomic nervous system.",
+          "stage_1_observation": "The simulation freezes at 0.15 seconds after the crash. The young man has startled - his body is already in the first alert - but he has no clear idea what he heard. The overlaid trace lights the ear, brainstem, and thalamus, with a thin bright bundle shooting toward the amygdala and hippocampus while a broad, slower beam rises toward the temporal lobe cortex.",
+          "stage_1_question": "The startle has occurred but the young man still cannot identify the sound. Which structure, via the larger pathway, is responsible for the distressingly vague hypothesis - possibly the cat, possibly a prowler - before sending its message to the amygdala and hippocampus?",
+          "stage_1_correct_answer": "The auditory cortex: the larger pathway from the thalamus leads to the temporal lobe auditory cortex, where sounds are sorted out and comprehended, and it is the cortex that builds the hypothesis about the source - the cat, a shutter banging in the wind, or a prowler - and relays it to the amygdala and hippocampus for checking against similar memories. The thin fast bundle is the amygdala startle route, which reacts in advance of comprehension.",
+          "stage_2_intervention": "The simulation runs again. This time the hippocampus finds no reassuring match and the auditory cortex's hypothesis stays ambiguous. You must predict the next step in the trace and what happens if the uncertainty persists.",
+          "stage_2_correct_answer": "The escalation: circuitry reverberating between the amygdala, hippocampus, and prefrontal cortex heightens uncertainty and fixates attention on identifying the source, and if no satisfying answer emerges, the amygdala triggers its alarm - its central area activating the hypothalamus to secrete corticotropin-releasing hormone (CRH) and mobilize the fight-or-flight cascade, plus the brainstem and the autonomic nervous system - with norepinephrine from the locus ceruleus setting the brain on edge and dopamine riveting attention, all telescoped within about a second."
+        }
+      ]
+    },
+    {
+      "id": "ch26",
+      "title": "Appendix D: W. T. Grant Consortium: Active Ingredients of Prevention Programs",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Feelings and Actions Are Not the Same: Emotional Skills in Prevention",
+          "visual_frame_description": "A bright afterschool room at Lincoln Middle School in Akron, chairs in a loose circle. Ms. Okafor, the Life Skills facilitator, sits across from Jordan, a 14-year-old 8th grader in a gray hoodie, who is describing the fury he felt when Damien mocked him in the lunch line. A whiteboard behind them reads Label it, Rate it, Decide.",
+          "player_mission": "You are the player assisting Ms. Okafor in the Life Skills group. Jordan claims his honest feelings justify an honest swing at Damien. Use the consortium's emotional skills - labeling, assessing intensity, impulse control - to teach the difference between feelings and actions.",
+          "key_concepts": [
+            "Key ingredients of effective prevention programs include identifying and labeling feelings.",
+            "The menu of emotional skills includes assessing the intensity of feelings.",
+            "Managing feelings, delaying gratification, and controlling impulses are listed among the emotional skills.",
+            "Knowing the difference between feelings and actions is a listed emotional skill.",
+            "The cognitive skills include steps for problem-solving and decision-making: controlling impulses, setting goals, identifying alternative actions, and anticipating consequences.",
+            "Reducing stress is one of the program's emotional skills.",
+            "Expressing feelings is a listed emotional skill.",
+            "Behavioral skills include making clear requests and responding effectively to criticism.",
+            "Resisting negative influences is named among the verbal behavioral skills.",
+            "The framework comes from the W. T. Grant Consortium on the School-Based Promotion of Social Competence, drawing on Hawkins et al., Communities That Care (1992)."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the W. T. Grant Consortium's emotional skills, especially knowing the difference between feelings and actions, assessing intensity, and controlling impulses. The exchange models the curriculum's core move: the feeling is real and must be labeled and rated, but the behavior remains a choice run through decision steps.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "In the afterschool Life Skills group, Jordan tells Ms. Okafor that if he feels like punching Damien, the feeling is too real to ignore, so swinging is just honesty. Ms. Okafor has one conversation to teach the difference between feelings and actions before recess ends and Jordan walks past Damien's locker. The stakes: a suspension, or a teenager who learns the step between feeling and doing.",
+          "dialogue": [
+            "Jordan: If I feel like punching Damien, that feeling is real. So acting on it is just being honest about who I am.",
+            "Ms. Okafor: The feeling is real - nobody disputes that. The skill this program teaches is knowing the difference between feelings and actions.",
+            "Jordan: What difference? If I feel it, it is coming out.",
+            "Ms. Okafor: Feelings are information; actions are choices. One of our core emotional skills is assessing the intensity of a feeling - scale your fury from one to ten - and another is controlling impulses and delaying gratification. Both live between feeling and swinging.",
+            "Jordan: So I can be at a ten and still not act? That feels fake.",
+            "Ms. Okafor: That is the practice. Name it, rate it, then run it through the decision steps: what are the alternative actions, and what are the consequences of each?",
+            "Jordan: So honesty is about what I do with the ten, not the swing itself.",
+            "Ms. Okafor: Exactly - that is the whole curriculum in one sentence."
+          ],
+          "choices": [
+            "The curriculum's first rule is knowing the difference between feelings and actions. Feelings are real but they do not command behavior - name the feeling, assess its intensity, control the impulse, and run alternatives through consequence-checking before acting.",
+            "You are right - honest feelings should be expressed openly, so go ahead and tell Damien you are going to swing.",
+            "Real students do not get furious. You should feel ashamed of the feeling itself.",
+            "Save the anger up and unload it on Damien later - timing is the only skill that matters."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Knowing the difference between feelings and actions, with impulse control - emotional skills from the W. T. Grant Consortium framework.",
+          "psychological_breakdown": "Option 0 applies the consortium's emotional skills as listed: labeling the feeling, assessing its intensity, controlling the impulse, and then using the problem-solving steps of identifying alternative actions and anticipating consequences. Option 1 collapses feeling and action together, which the framework explicitly separates, and encourages the escalation. Option 2 condemns the feeling itself, which the framework treats as legitimate and labelable. Option 3 substitutes a timing rule for a decision method and keeps the swing in play."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Vendor's Full-Coverage Claim: Auditing a Prevention Curriculum",
+          "visual_frame_description": "A district office conference room in Dayton, sunlight across a long table. Dr. Helen Marsh, founder of ClearPath Youth, presents slides to Principal Rivera; the screen reads Full Coverage of All Three Clusters. Rivera's notepad has three columns headed Emotional, Cognitive, Behavioral - one stays mostly empty.",
+          "player_mission": "You are assisting Principal Rivera in evaluating ClearPath Youth's curriculum pitch against the consortium's list of active prevention ingredients. Decide whether the full-coverage claim holds up or whether a cluster is missing.",
+          "key_concepts": [
+            "Key ingredients of effective prevention programs are organized into emotional, cognitive, and behavioral skills.",
+            "The emotional skills include identifying and labeling feelings, expressing feelings, assessing intensity, managing feelings, delaying gratification, controlling impulses, reducing stress, and knowing the difference between feelings and actions.",
+            "The cognitive skills include self-talk - conducting an inner dialogue as a way to cope with a topic or challenge or reinforce one's own behavior.",
+            "The cognitive skills include reading and interpreting social cues, such as recognizing social influences on behavior and seeing oneself in the perspective of the larger community.",
+            "The cognitive skills include steps for problem-solving and decision-making: controlling impulses, setting goals, identifying alternative actions, anticipating consequences.",
+            "The cognitive skills include understanding the perspective of others, understanding behavioral norms, a positive attitude toward life, and self-awareness with realistic expectations about oneself.",
+            "The behavioral skills include nonverbal communication through eye contact, facial expressiveness, tone of voice, and gestures.",
+            "The behavioral skills include verbal abilities: making clear requests, responding effectively to criticism, resisting negative influences, and listening to others.",
+            "Helping others and participating in positive peer groups are named behavioral skills.",
+            "The framework is credited to the W. T. Grant Consortium on the School-Based Promotion of Social Competence, in Hawkins et al., Communities That Care (1992)."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the W. T. Grant Consortium's inventory of active prevention ingredients as a checklist for evaluating a program's claims about coverage. The presenter's fluency within the emotional and behavioral clusters, alongside deflection exactly at the cognitive ingredients, exposes the gap the framework is designed to make visible.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "question": "Dr. Marsh claims her ClearPath Youth curriculum gives full coverage of all three skill clusters from the consortium list. Does the evidence from the session support that claim, or is the pitch overstating the program?",
+          "subject_baseline": "Helen Marsh is a polished presenter, a former teacher with a warm, upbeat delivery who answers questions about her own program with broad enthusiasm while discussing competitors' curricula in precise detail. In earlier district meetings she emphasized engagement and activities over specific named skills.",
+          "observed_nonverbal_log": [
+            "0:00-0:06 - Asked to walk through the emotional cluster, Marsh lists the first four items fluently - identifying, expressing, assessing intensity, managing - then slows, drops her gaze to her notes, and reads the rest from the page.",
+            "0:07-0:14 - Asked where children learn the difference between feelings and actions, she pauses for two and a half seconds, smiles, and says it is woven throughout while spreading both hands wide, naming no lesson.",
+            "0:15-0:24 - Asked whether the curriculum includes self-talk, an inner dialogue, she deflects with we do a lot of reflection time, and her crossed-arm posture loosens only when she pivots back to the emotional cluster.",
+            "0:25-0:40 - Asked for the decision-making steps children practice, she says they have a decision wheel and immediately switches to the behavioral drills her program runs twice a week, her tone rising in confidence exactly on the topic shift.",
+            "0:41-0:55 - When Rivera reads the cognitive list aloud - inner dialogue, social cues, goals, alternative actions, anticipated consequences - Marsh laughs and repeats that all three clusters are equal."
+          ],
+          "interrogation_transcript": [
+            "Rivera: Which of the three clusters - emotional, cognitive, behavioral - is the backbone of your sessions?",
+            "Marsh: All three. We are full coverage - we do not slice the child.",
+            "Rivera: Name one activity where students practice inner dialogue - self-talk - as a coping tool.",
+            "Marsh: We have reflection time. It is analogous.",
+            "Rivera: And the decision-making sequence - setting goals, identifying alternative actions, anticipating consequences?",
+            "Marsh: Our decision wheel is very popular. The kids pick it up in week three. Behavioral skills are really where we shine - eye contact, requests, handling criticism.",
+            "Rivera: If a student is mocked at lunch and feels a wave of fury, what in your program teaches the step between the feeling and the swing?",
+            "Marsh: We would do a role-play. Certainly. All three clusters. Could I show you the behavioral drills first?"
+          ],
+          "correct_diagnosis": "Marsh's curriculum covers the emotional cluster in part and carries strong behavioral drills, but the cognitive-skills ingredients - self-talk as an inner dialogue, social-cue reading, and the explicit problem-solving sequence of goals, alternatives, and consequences - are absent, and the full-coverage claim evaporates exactly when the conversation enters the cognitive cluster.",
+          "diagnostic_breakdown": [
+            "Fluency on the first four emotional items that then slows into note-reading shows the emotional cluster is only partially built into lessons, with later ingredients such as delaying gratification, controlling impulses, and reducing stress present on paper but not in delivery.",
+            "The non-answer on feelings-versus-actions, followed by a weaved-in claim with no named lesson, indicates the ingredient is not actually placed anywhere in the program.",
+            "The deflection from self-talk to reflection time treats an analogous activity as the listed ingredient, which the consortium framework does not - inner dialogue as a coping tool is a specific cognitive skill.",
+            "The confidence spike exactly when topics shift to behavioral drills reveals where the real depth lives: the nonverbal and verbal behavioral skills, which partner with partial emotional content and no cognitive spine."
+          ],
+          "distractors": [
+            "Marsh is running a fraudulent shell that delivers none of the listed skills at all.",
+            "Marsh is telling the truth: every ingredient in the consortium list is equally present across her sessions.",
+            "Marsh's program is purely behavioral, with no emotional content anywhere in the curriculum."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Build the Missing Ingredient: Diagnosing a Prevention Gap",
+          "visual_frame_description": "An advisory board room at Roosevelt High in Portland, budget sheets taped to the wall. You sit at the table across from the Compass program director; beside you, a list on a flip chart shows the consortium's three clusters with the cognitive column circled in red, a sticky note reading self-talk under it.",
+          "player_mission": "You are the Compass program's advisory board member. Diagnose why a knowledge-only curriculum has not changed Alex's behavior under peer pressure, then specify exactly which consortium ingredients a new module must contain for his profile.",
+          "key_concepts": [
+            "The W. T. Grant Consortium list is presented as the key ingredients of effective prevention programs, organized into emotional, cognitive, and behavioral skills.",
+            "Emotional skills include identifying and labeling feelings, assessing intensity, managing feelings, controlling impulses, and delaying gratification.",
+            "Emotional skills include reducing stress and knowing the difference between feelings and actions.",
+            "Cognitive skills include self-talk - conducting an inner dialogue as a way to cope with a challenge or reinforce one's own behavior.",
+            "Cognitive skills include reading and interpreting social cues, such as recognizing social influences on behavior and seeing oneself in the perspective of the larger community.",
+            "Cognitive skills include explicit problem-solving and decision-making steps: controlling impulses, setting goals, identifying alternative actions, anticipating consequences.",
+            "Behavioral skills include making clear requests and responding effectively to criticism.",
+            "Behavioral skills include resisting negative influences and listening to others.",
+            "Behavioral skills include helping others and participating in positive peer groups.",
+            "The framework is credited to the W. T. Grant Consortium on the School-Based Promotion of Social Competence in Hawkins et al., Communities That Care (1992)."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the consortium's framework as a diagnostic and design tool for prevention programs: facts about substance effects are not among the named active ingredients, while self-talk, social-cue reading, decision steps, and resisting negative influences are. Diagnosing which clusters are missing determines what a new module must contain to change Alex's behavior.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "boss_battle_explanation": "Translating the consortium's active ingredients into program design: observe the student's actual deficits, map them onto the three named clusters, and specify a module whose content is drawn from the listed ingredients rather than from intuition.",
+          "stage_1_observation": "You join the advisory board of the Compass after-school program, funded to prevent substance use. The case: Alex, 16, laughs along when his friends pressure him to skip class and smoke; told to stand up for yourself, he mimics his friends' shrugs, because he genuinely cannot read the moment when the group's tone turns pressuring, cannot name his own rising discomfort aloud, and has no script for a refusal. The program currently teaches facts about substance effects and plays weekly basketball, and the director claims they cover resistance by example.",
+          "stage_1_question": "The knowledge-only curriculum has not changed Alex's behavior. Which consortium ingredients are missing from his training, given what we observe - he misses the social cue, cannot label the feeling in the moment, has no refusal script, and belongs to a peer group that rewards going along?",
+          "stage_1_correct_answer": "Alex lacks cognitive skills - reading and interpreting social cues and the explicit decision steps of identifying alternative actions and anticipating consequences - plus self-talk, an inner dialogue he could use as a refusal script; he also lacks the emotional skill of identifying and labeling feelings as the pressure builds and knowing the difference between feelings and actions; and he lacks the verbal behavioral skill of resisting negative influences supported by a positive peer group. Facts about substance effects appear nowhere on the consortium's ingredient list, and resistance by example gives him no inner dialogue or decision steps to practice.",
+          "stage_2_intervention": "The board votes a budget for exactly one new module. You must specify the module design that best matches the consortium framework for Alex's profile.",
+          "stage_2_correct_answer": "Design a module that pairs the three clusters: emotional skills that teach labeling the feeling and assessing its intensity as pressure builds plus knowing the difference between feelings and actions; the cognitive skills of self-talk as an inner dialogue refusal script and the explicit problem-solving sequence - set the goal, identify alternative actions, anticipate consequences; and the behavioral skills of making a clear verbal request and resisting negative influences, practiced inside a positive peer group. That combination maps one-to-one onto the consortium's active ingredients, which the framework treats as the definition of an effective prevention program."
+        }
+      ]
+    }
+  ]
+}

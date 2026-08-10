@@ -1,0 +1,515 @@
+{
+  "spec_file": "spec_emotional_intelligence_b11.json",
+  "chapters": [
+    {
+      "id": "ch17",
+      "title": "11. Mind and Medicine",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Psychoneuroimmunology: The Immune System Can Learn",
+          "visual_frame_description": "A warm seminar room at the University of Rochester, late afternoon light through tall windows. Dr. Everett, a silver-haired immunologist in a rumpled lab coat, stands at a whiteboard diagram showing the immune system as a closed loop with no brain connections. Priya Nair, a first-year medical student, sits in the front row with a notebook, her face a mix of nerves and determination as the professor challenges her.",
+          "player_mission": "You are Priya. Dr. Everett insists the immune system is a self-contained defense network that cannot be influenced by the brain. Your mission is to argue from evidence, presenting Robert Ader's 1974 experiment and David Felten's nerve-immune findings in a way that changes the professor's mind and the class's understanding.",
+          "key_concepts": [
+            "Robert Ader's 1974 experiment at the University of Rochester showed the immune system can learn: rats given a T-cell-suppressing drug in saccharin-laced water later suppressed T cells on the flavored water alone.",
+            "Before Ader, biologists believed only the brain and central nervous system could change their behavior in response to experience, and that the immune system was a separate entity.",
+            "Ader's discovery founded psychoneuroimmunology, or PNI, whose name links psycho (mind), neuro (the neuroendocrine system), and immunology.",
+            "The immune system has been called 'the body's brain,' defining the body's own sense of self by attacking cells it does not recognize.",
+            "David Felten found synapse-like contacts where autonomic nervous system nerve endings directly abut lymphocytes and macrophages, allowing them to signal back and forth.",
+            "When Felten removed those nerves from lymph nodes and spleens in animals, immune response to a viral challenge dropped hugely.",
+            "Felten concluded the nervous system not only connects to the immune system but is essential for proper immune function.",
+            "Stress arousal releases catecholamines, cortisol, prolactin, beta-endorphin, and enkephalin, each of which has a strong impact on immune cells.",
+            "While those stress hormones surge through the body, immune cells are hampered in their function, so stress suppresses immune resistance at least temporarily.",
+            "If stress is constant and intense, the suppression of immunity may become long-lasting."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests psychoneuroimmunology (PNI): the claim that the immune system and the central nervous system communicate, so that what the mind learns and feels shapes immune function. Goleman grounds this in Ader's conditioned-immunosuppression discovery and Felten's demonstration of direct nerve-immune contacts, which together broke the century-old doctrine of two separate systems.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Priya Nair, a first-year medical student, is called on in Dr. Everett's immunology seminar. He has just declared that the brain and the immune system are separate entities with no pathway between them, a view she knows was overturned in 1974. She has one chance to correct the record with the evidence from Ader and Felten. Stakes: her seminar grade, her credibility with the teaching resident, and whether the whole class leaves with an outdated map of the body.",
+          "dialogue": [
+            "Dr. Everett: Priya, you look unconvinced. Is there a problem with the claim that the immune system operates independently of the nervous system?",
+            "Priya: Yes, sir. In 1974 Robert Ader gave rats a drug that suppressed their T cells, mixed into saccharin-laced water. Later, the flavored water alone lowered their T-cell counts, and some rats got sick and died.",
+            "Dr. Everett: You mean their immune systems learned the taste. That should not have happened by the best science of the time.",
+            "Priya: It shouldn't have, but it did. The immune system could learn, just like the brain.",
+            "Dr. Everett: A conditioned reflex is one thing. Show me a physical pathway by which nerves could touch immune cells.",
+            "Priya: David Felten found synapse-like contacts under the electron microscope where autonomic nerve endings directly abut lymphocytes and macrophages. The cells signal back and forth.",
+            "Dr. Everett: And you are claiming these contacts matter functionally?",
+            "Priya: When Felten removed those nerves from lymph nodes and spleens in animals, the immune response to a viral challenge dropped hugely. The nervous system is essential for immunity, not separate from it."
+          ],
+          "choices": [
+            "Argue that since only the brain can learn, the sick rats must have been responding to stress rather than to conditioning.",
+            "Present Ader's saccharin-conditioning experiment and Felten's nerve-immune contacts as converging evidence that the nervous system and immune system communicate.",
+            "Concede the professor's point to avoid a confrontation and move the discussion back to pharmacology.",
+            "Claim that the immune system is literally made of brain cells distributed throughout the body."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Psychoneuroimmunology (PNI) — the discovery that the immune system and central nervous system are entwined, so the mind can influence immune function.",
+          "psychological_breakdown": "Option 1 is optimal because it stands on the two strongest results in the chapter: Ader's 1974 conditioned immunosuppression, which proved immune cells learn from experience, and Felten's synapse-like nerve-immune contacts plus nerve-removal experiments, which supply the physical pathway skeptics demand. Option 0 misattributes the rats' sickness to stress, which Goleman's account does not support and which concedes the very mind-body separation PNI overturns. Option 2 surrenders the point needlessly, and option 3 fabricates a claim about immune cells being brain cells."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Chronic Hostility and the Heart",
+          "visual_frame_description": "A small consultation room at Stanford University Medical School, sunlight spilling over a desk with a heart diagram. Dr. Renata Silva, a cardiologist in a white coat, sits across from Marcus Bell, a 58-year-old contractor in a flannel shirt who slumps in his chair, arms crossed, jaw tight. His file on the desk is stamped with the anger-control program enrollment sheet.",
+          "player_mission": "You are Dr. Silva. Marcus, recovering from a first heart attack, scoffs at the idea that his quick temper matters. Your mission is to correct his two misconceptions (venting is healthy, bottling it up is healthy) and guide him into the specific anger-control technique that lowered second-heart-attack rates by 44 percent.",
+          "key_concepts": [
+            "In a Stanford study, heart patients who recounted angering incidents showed a five-percentage-point drop in heart pumping efficiency, with some showing drops of 7 percent or more, a sign of myocardial ischemia.",
+            "The drop in pumping efficiency was not seen with anxiety or physical exertion; anger seems to be the one emotion that does the most harm to the heart.",
+            "The old Type-A personality theory failed to hold up, and research found instead that it is hostility that puts people at risk for heart disease.",
+            "Redford Williams found that physicians with the highest hostility scores in medical school were seven times as likely to have died by age fifty as those with low scores.",
+            "A Yale study of 929 heart-attack survivors found those easily roused to anger were three times more likely to die of cardiac arrest, a risk that rose to five times with high cholesterol.",
+            "A Harvard study found that being angry more than doubled the risk of cardiac arrest in people who already had heart disease, with the heightened risk lasting about two hours.",
+            "Suppressing anger entirely in the heat of the moment magnifies the body's agitation and may raise blood pressure.",
+            "Ventilating anger every time it is felt simply feeds it, making it a more likely response to any annoying situation.",
+            "Whether anger is expressed or not matters less than whether it is chronic; an occasional display of hostility is not dangerous to health.",
+            "Heart-attack patients in Stanford's anger-control program had a second-heart-attack rate 44 percent lower than those who did not change their hostility.",
+            "Williams's program teaches mindfulness of anger as it stirs, regulation once it has begun, and empathy, plus jotting down cynical thoughts and substituting reasonable ones.",
+            "As Williams put it, the antidote to hostility is to develop a more trusting heart, and all it takes is the right motivation."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the chronic-hostility model of cardiac risk: anger, when it defines an antagonistic personal style, is a cardiotoxic habit. Goleman's evidence shows anger-specific drops in heart efficiency and quadrupled-to-septupled mortality risks, while trained mindfulness of anger plus cognitive substitution and empathy cut re-infarction rates by 44 percent.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Marcus Bell, 58, is two weeks past his first heart attack. He is hostile toward hospital staff, snide about his wife, and convinced his temper is 'just who I am.' Dr. Renata Silva has one session to enroll him in the anger-control program and to correct his belief that rage is either harmless or must be vented. Stakes: his odds of a second, possibly fatal, heart attack.",
+          "dialogue": [
+            "Marcus: Doc, I told you — I don't need a class to 'feel my feelings.' Getting mad is normal. Everyone's an idiot but me.",
+            "Renata: Marcus, men rated most hostile right after a first heart attack go on to have the highest rate of second heart attacks. Easily roused anger made men three times more likely to die of cardiac arrest in one ten-year study.",
+            "Marcus: So you want me to bottle it all up? That would give me an aneurysm.",
+            "Renata: No. Bottling it up in the heat of the moment magnifies your body's agitation and can raise blood pressure. Venting feeds the habit. What matters is whether anger is chronic — whether it defines you.",
+            "Marcus: Then what's left? Scream into a pillow?",
+            "Renata: Notice the cynical thoughts as they start, jot them down. If they persist, say 'Stop!' to yourself. Then deliberately substitute a reasonable thought — the elevator is slow because it's Tuesday, not because someone is out to get you. And try to see the other person's side; empathy is a balm for anger.",
+            "Marcus: ...And that actually changes my odds of dying?",
+            "Renata: Patients who went through anger-control training like this had a second-heart-attack rate 44 percent lower than those who never tried to change. Occasional anger is fine, Marcus. Hostility as a way of life is what kills."
+          ],
+          "choices": [
+            "Advise Marcus to vent every angry feeling immediately, since 'getting it out' is the healthy option.",
+            "Clarify that occasional anger is acceptable but chronic hostility is the risk, and teach him to catch cynical thoughts, say 'Stop!', substitute reasonable thoughts, and practice empathy.",
+            "Reassure Marcus that his anger is harmless now that his cholesterol is controlled.",
+            "Instruct Marcus to suppress and hide every angry feeling from now on and never display emotion."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Anger regulation through mindful self-awareness, self-distraction ('Stop!'), cognitive reappraisal, and empathy — the Williams/Stanford model of treating chronic hostility.",
+          "psychological_breakdown": "Option 1 matches the book's resolution of the anger paradox: neither suppression nor ventilation is healthy, and the trained alternative (mindfulness, 'Stop!', substituting benign explanations, empathy) is what produced the 44 percent drop in second heart attacks. Option 0 ignores the finding that ventilating anger feeds it. Option 3 fails because suppressing anger in the moment magnifies agitation and raises blood pressure. Option 2 misreads the risk data, which center on hostility as an independent cardiac risk factor, not cholesterol."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Job Strain, Stress, and the Vulnerable Immune System",
+          "visual_frame_description": "A cramped employee health office at a city transit depot. Elena Marsh, an occupational health nurse, sits at a desk with a blood-pressure cuff and a stack of charts. Daniel Okafor, a 44-year-old bus driver in his uniform, rubs his stomach and sips a coffee, looking tired; a wall clock and route map hang behind him.",
+          "player_mission": "You are Elena. Daniel's blood pressure is climbing, his stomach churns, and he catches every cold going around. Your mission is to explain the stress-immune pathway with the chapter's strongest evidence and to refer him to a remedy that directly counters stress arousal.",
+          "key_concepts": [
+            "Anxiety is the emotion with the greatest weight of scientific evidence connecting it to the onset of sickness and the course of recovery.",
+            "Repeated bouts of anxiety signal high levels of stress; the woman whose constant worrying primed her gastrointestinal trouble is a textbook example of how anxiety exacerbates medical problems.",
+            "Stress hormones such as catecholamines, cortisol, prolactin, beta-endorphin, and enkephalin surge during stress arousal, and while they surge, immune cells are hampered in their function.",
+            "In Sheldon Cohen's colds research, 27 percent of people with little stress caught a cold after exposure to the virus, versus 47 percent of the most stressed.",
+            "Couples who kept daily checklists came down with colds or upper-respiratory infections three or four days after especially intense batches of upsets, matching cold-virus incubation time.",
+            "Herpes virus reactivation, tracked by antibodies in the blood, was found in medical students undergoing year-end exams, recently separated women, and people caring for a family member with Alzheimer's disease.",
+            "Bruce McEwen's 1993 review tied stress to compromised immune function, speeded metastasis of cancer, increased viral vulnerability, plaque formation, blood clotting, and worsening of diabetes and asthma.",
+            "Stephen Manuck found that under intense laboratory stress, volunteers' platelet ATP levels, heart rate, and blood pressure rose sharply.",
+            "Health risks are greatest for jobs high in 'strain': high-pressure performance demands with little control, a predicament giving bus drivers a high rate of hypertension.",
+            "In a study of 569 patients with colorectal cancer, those reporting severe on-the-job aggravation were five and a half times more likely to have developed the cancer.",
+            "Relaxation techniques, which directly counter the physiological arousal of stress, are used clinically to ease symptoms of cardiovascular disease, diabetes, arthritis, asthma, gastrointestinal disorders, and chronic pain."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the stress-suppresses-immunity pathway: stress hormones hamper immune cells, and chronic anxiety predicts vulnerability to infection and disease. Goleman's evidence runs from Cohen's controlled cold-virus experiment (27 percent versus 47 percent) to the job-strain pattern of high demands with low control that drives bus drivers' hypertension, with relaxation training as the counter-measure.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Daniel Okafor drives the 42 bus through congested downtown routes on a rigid timetable. He has mild hypertension, recurring stomach trouble, and has been sick three times this winter. He dismisses stress as an excuse. Elena Marsh has fifteen minutes to make the stress-illness connection credible and get him into the health plan's relaxation program. Stakes: his blood pressure, his infection rate, and his willingness to come back.",
+          "dialogue": [
+            "Daniel: The doctors say my pressure is high and I catch everything going around. My body's just getting old, I guess.",
+            "Elena: Maybe you're right to wonder, but look at the pattern. Repeated anxiety signals high stress, and stress suppresses immune resistance — that's a measured effect, not folklore.",
+            "Daniel: Suppresses what now?",
+            "Elena: When you're under stress, adrenaline, cortisol, and the natural opiates surge. While they surge, your immune cells are hampered in their work. Constant stress makes that suppression long-lasting.",
+            "Daniel: So stress really can make you sick?",
+            "Elena: Sheldon Cohen exposed healthy volunteers to a cold virus. Among people with little stress, 27 percent caught a cold. Among the most stressed, 47 percent did.",
+            "Daniel: Hmph. And my route — the pressure, the timetable, no control over anything?",
+            "Elena: That is the worst pattern there is: high demands with little control. It gives bus drivers a high rate of hypertension. That's exactly why relaxation training, which directly counters stress arousal, is used clinically for heart disease, diabetes, asthma, and chronic pain. I'm referring you today."
+          ],
+          "choices": [
+            "Tell Daniel his blood pressure is purely genetic and that emotions play no measurable role in illness.",
+            "Advise Daniel to quit his job immediately, since any employment pressure is toxic to health.",
+            "Explain the stress-immune link with Cohen's cold data and the job-strain findings, then refer him to relaxation training that directly counters stress arousal.",
+            "Prescribe Daniel stronger coffee and tell him to tough it out, because worrying is a sign of weakness."
+          ],
+          "optimal_choice": 2,
+          "theoretical_principle": "The stress-anxiety-immune pathway and the job-strain model of hypertension, with the relaxation response as the physiological counter.",
+          "psychological_breakdown": "Option 2 is optimal because it gives Daniel the chapter's hardest evidence (Cohen's controlled colds study and the bus-driver strain data) and a concrete remedy whose clinical use Goleman documents. Option 0 denies the stress-immune pathway the chapter documents. Option 1 overcorrects, since the findings concern chronic strain, not any employment per se. Option 4 is both unsupported and clinically reckless."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Social Isolation as a Health Risk",
+          "visual_frame_description": "A tidy living room in a seniors' building, TV flickering with the sound down. Harold Feinberg, 71, sits in an armchair in a cardigan, an untouched chessboard on a side table. Tomás Reyes, a home-care social worker in a polo shirt and lanyard, sits opposite him, holding a notebook; a framed photo of Harold's late wife and old friends rests on the mantel.",
+          "player_mission": "You are Tomás. Harold has stopped seeing everyone since his wife died, and his daughter is worried. Your mission is to separate harmless solitude from medically risky isolation, and to help Harold hold onto the one protective strand of intimacy he still has.",
+          "key_concepts": [
+            "Studies done over two decades involving more than thirty-seven thousand people show that social isolation doubles the chances of sickness or death.",
+            "A 1987 report in Science concluded that isolation is as significant to mortality rates as smoking, high blood pressure, high cholesterol, obesity, and lack of physical exercise.",
+            "Smoking increases mortality risk by a factor of 1.6, while social isolation does so by a factor of 2.0, making isolation the greater health risk.",
+            "Isolation is harder on men than on women: isolated men were two to three times more likely to die than men with close ties, while isolated women's risk was one and a half times greater.",
+            "Solitude is not the same as isolation; many people who live alone are content and healthy, and it is the subjective sense of being cut off that is the medical risk.",
+            "Among bone marrow transplant patients, 54 percent of those with strong emotional support survived after two years versus just 20 percent of those reporting little support.",
+            "Elderly heart-attack patients with two or more people they can rely on are more than twice as likely to survive longer than a year after the attack.",
+            "In the Goteborg study, men with three or more life troubles within a year predicted death better than high blood pressure, triglycerides, or cholesterol.",
+            "Among Swedish men with a dependable web of intimacy, there was no relationship whatever between high stress levels and death rate.",
+            "John Cacioppo's college-roommate study found that the more roommates disliked each other, the more susceptible they were to colds and flu."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests social isolation as a mortality risk factor: the subjective sense of having no one close doubles sickness and death odds, a heavier weight than smoking. Goleman's evidence shows a dependable web of intimacy buffers even high-stress lives, making close ties a protective factor rather than mere comfort.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Harold Feinberg, 71, spent four decades in a tight circle of friends. Six months after his wife died, he has stopped answering calls, sold his chess club membership, and lives with the TV on. His daughter, who lives out of state, asked Tomás Reyes to visit. Goal: keep Harold from sliding into the isolation that doubles mortality odds, without pathologizing his preference for quiet. Stakes: Harold's health, and his daughter's peace of mind.",
+          "dialogue": [
+            "Tomás: Harold, your daughter tells me you've stopped calling Manny and the chess group. That's why I'm here.",
+            "Harold: Solitude never killed anybody, son. I like my own company.",
+            "Tomás: Fair point, and you're half right. Plenty of people who live alone are content and healthy. Solitude isn't the risk.",
+            "Harold: Then what is?",
+            "Tomás: The subjective sense that you have nobody to share your private feelings with, no one to turn to. That feeling is what doubles the chances of sickness or death in studies of more than thirty-seven thousand people over two decades.",
+            "Harold: My TV keeps me company.",
+            "Tomás: Isolation is a bigger mortality risk than smoking — factor of 2.0 versus 1.6. But here's the good news: elderly heart patients with just two people they can rely on are more than twice as likely to survive the year. Manny calls you every Sunday, doesn't he?",
+            "Harold: ...He does. Every Sunday at two.",
+            "Tomás: Then that Sunday call is a lifeline. Let's build from it — start with the chess club, one evening a week."
+          ],
+          "choices": [
+            "Tell Harold he is right that solitude is harmless, and leave him to his TV.",
+            "Warn Harold that being alone for even a day is dangerous and that he can never be by himself.",
+            "Distinguish solitude from isolation, cite the doubling of sickness and death risk, and help him preserve and build on his existing ties, starting with Manny's Sunday calls.",
+            "Give Harold a shopping list of vitamins and assure him nutrition outweighs friendship."
+          ],
+          "optimal_choice": 2,
+          "theoretical_principle": "Social isolation as a mortality risk and emotional ties as a protective buffer, per the two-decade, thirty-seven-thousand-person studies and the Goteborg intimacy findings.",
+          "psychological_breakdown": "Option 2 is optimal because it teaches the chapter's precise distinction between solitude and isolation, delivers the weight of the data, and acts on it by strengthening Harold's one remaining strand of intimacy, which the research shows buffers even high stress. Option 0 confuses solitude with isolation, abandoning the actual risk. Option 1 pathologizes solitude itself, which the book explicitly rejects as healthy for many people. Option 4 replaces social medicine with folk nutrition."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Frozen Patient: Emotional Intelligence in the Exam Room",
+          "visual_frame_description": "A clinic exam room with a paper-covered table and a single window. Dr. Amara Osei, a resident in a white coat, sits at a rolling stool facing Gabe Turner, a 60-year-old in a work jacket who grips the armrest, staring past her. A urine-test report lies on the counter between them; Gabe's father's death certificate memories hang in the air between them.",
+          "player_mission": "You are Dr. Amara Osei. Gabe froze at the word 'cytology' and is sitting with unasked questions he cannot form. Your mission is to notice his emotional state, name the scary word plainly, and actively pull out the questions patients carry in — the ones that otherwise go unanswered and feed fear.",
+          "key_concepts": [
+            "Sickness bursts the illusion of invulnerability, attacking the premise that our private world is safe and secure, leaving patients weak, helpless, and vulnerable.",
+            "In the land of the sick, emotions reign supreme, and fear is a thought away.",
+            "Every encounter with a nurse or physician can be a chance for reassuring information, comfort, and solace, or, if mishandled, an invitation to despair.",
+            "Modern medical care too often lacks emotional intelligence.",
+            "A study of patients in physicians' waiting rooms found each had an average of three or more questions in mind, but left with only about one and a half answers.",
+            "Unanswered questions feed uncertainty, fear, and catastrophizing, and they lead patients to balk at treatment regimes they do not fully understand.",
+            "Some programs teach patients to be effective questioners so that three questions in mind become three answers at the door.",
+            "Hospitals that answer questions well in advance of surgery and describe the coming recovery teach patients what to expect, and patients recover two to three days sooner.",
+            "Goleman's own diagnostic kidney test ended with a nephrologist's curt 'No abnormalities' before hurrying off, leaving his one real question unspoken.",
+            "Medicine historically defined its mission as curing disease while overlooking illness, the patient's experience of disease."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests emotional intelligence as a component of medical care: fear-driven cognitive freezing in patients, and the physician's empathy, listening, and information-giving as the remedy. Goleman shows that patients routinely leave with half their questions unanswered, and that answering questions early, with reassurance, measurably speeds recovery and can prevent the despair that follows catastrophic catastrophizing.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Gabe Turner's routine urine test showed traces of blood. Gabe's father died of bladder cancer, and at the word 'cytology' his mind froze, exactly as Goleman describes in his own encounter. Dr. Amara Osei has a crowded schedule but notices Gabe is dazed and withholding questions. Her mission: treat the emotional dimension of the encounter as part of the care. Stakes: whether Gabe leaves the clinic informed and calm or confused, afraid, and resistant to follow-up.",
+          "dialogue": [
+            "Gabe: So... the urine test. You have to understand — my dad died of bladder cancer. He was 62.",
+            "Amara: I didn't know that, Gabe. Thank you for telling me. What do you understand so far about your test?",
+            "Gabe: Nothing. I heard 'cytology' and my brain just went blank. I've been sitting here trying to remember your instructions.",
+            "Amara: That word scares people. Let me say it plainly: cytology is a test that looks at cells under a microscope. We are a long way from any diagnosis — blood traces in urine have many causes.",
+            "Gabe: Is it cancer? Is that what you're checking for? And what happens next week? Those are the questions I've been holding all morning.",
+            "Amara: Cancer is one thing we check for, but it is not what we assume. I'll explain every test before we run it, and what each result would mean, step by step — you won't have to hold questions again.",
+            "Gabe: ...Why didn't the other doctor explain it like this the first time?",
+            "Amara: He should have. Studies show patients leave offices with half their questions unanswered, and that feeds fear and catastrophizing. That's a failure of care, not a badge of efficiency. What else do you want to know, Gabe? Ask me everything on your list."
+          ],
+          "choices": [
+            "Hand Gabe a pamphlet and tell him the details are in there, since information is information.",
+            "Reassure Gabe vaguely that he should not worry because everything will be fine.",
+            "Name what cytology is, lay out the step-by-step plan, and actively invite him to voice every question he is holding.",
+            "Tell Gabe his fear is disproportionate, because the statistics say this is probably nothing."
+          ],
+          "optimal_choice": 2,
+          "theoretical_principle": "Empathy, listening, and reassuring information as emotional intelligence in medical care; explicit handling of patient questions to prevent uncertainty-driven catastrophizing.",
+          "psychological_breakdown": "Option 2 works because it does what the chapter says the medical encounter should do: treat it as a chance for reassuring information and solace, answer the questions patients actually carry, and prevent the fear and catastrophizing that unanswered questions breed. Option 0 shifts the burden onto a shocked patient and leaves his questions unanswered. Option 1 is empty reassurance without information, which the chapter implies is worthless to a catastrophizing mind. Option 3 dismisses his emotional state and would humiliate rather than calm him."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Unburdening: Expressive Writing and Support Groups",
+          "visual_frame_description": "A bright group-therapy room in a university cancer center, chairs in a circle under a large window. Maya Lindgren, a psychologist in a linen jacket, sits with a clipboard. Fatima Haddad, 49, in a headscarf and cardigan, sits with her arms crossed, a typed schedule of the writing program on her lap.",
+          "player_mission": "You are Maya. Fatima, newly diagnosed with metastatic breast cancer, believes talking and writing are a waste of her remaining time. Your mission is to provide the evidence for expressive writing and support groups without overpromising a cure, and to persuade her to stay in the program.",
+          "key_concepts": [
+            "James Pennebaker's method asks people to write for fifteen to twenty minutes a day over about five days about the most traumatic experience of their lives.",
+            "The writing produced enhanced immune function, significant drops in health-center visits over the following six months, fewer missed work days, and improved liver enzyme function.",
+            "Those whose writing showed the most evidence of turbulent feelings had the greatest improvements in immune function.",
+            "The healthiest pattern was to express high levels of sadness, anxiety, or anger at first, then to weave a narrative and find some meaning in the trauma over the following days.",
+            "In David Spiegel's Stanford study, women with advanced metastatic breast cancer who attended weekly support groups survived twice as long as women with the same disease who faced it alone.",
+            "The women in the groups lived an average of thirty-seven additional months, while those not in the groups died on average in nineteen months.",
+            "All the women received standard medical care; the only difference was the weekly group where they could unburden themselves to people who understood.",
+            "Often the group was the only place the women could be open about their fears, pain, and anger, since others dreaded talking with them about death.",
+            "Dr. Jimmie Holland of Sloan-Kettering said every cancer patient should be in a group like that.",
+            "Pennebaker's findings suggest one reason medical patients given psychotherapy in addition to treatment often fare better medically.",
+            "The book by no means claims positive emotion is curative or that laughter or happiness alone will turn the course of a serious disease."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests cathartic disclosure and emotional support as physiological interventions: structured writing about trauma enhances immune function, and peer groups that allow unburdening of fear and anger doubled survival in Spiegel's breast-cancer trial. Goleman presents both as evidence that attending to emotional needs can be as potent, medically, as many drug treatments.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Fatima Haddad, 49, has metastatic breast cancer and has been referred to Maya Lindgren's program, which combines Pennebaker-style expressive writing with weekly Spiegel-style support groups. Fatima is educated, skeptical, and fiercely pragmatic: she intends to spend her energy on treatment, not 'navel-gazing.' Maya has one intake session to change her mind. Stakes: whether Fatima gains access to what Goleman calls a survival gain beyond any medication.",
+          "dialogue": [
+            "Fatima: I'm here because my oncologist insisted. But writing about my worst memories is not chemo, Maya. What is the point?",
+            "Maya: Fair question. The method comes from James Pennebaker: write fifteen to twenty minutes a day, five days or so, about the most traumatic experience of your life — or whatever is pressing hardest on you.",
+            "Fatima: And that changes my immune system? It sounds like magic.",
+            "Maya: It was measured: enhanced immune function, fewer health-center visits in the next six months, fewer missed work days, even improved liver enzyme function. The people whose writing showed the most turbulence improved the most.",
+            "Fatima: So I should write about my cancer in detail?",
+            "Maya: First express the sadness, anger, and fear fully. Then, over the following days, weave it into a narrative and try to find some meaning in it. That pattern was the healthiest.",
+            "Fatima: And the women's group here — is that the same logic?",
+            "Maya: David Spiegel ran weekly groups for women with advanced breast cancer at Stanford. Everyone got standard care; the only difference was the group. Women who attended lived, on average, thirty-seven months. Women who didn't: nineteen. It was often the only place they could speak their fear and anger openly.",
+            "Fatima: ...Then I will stay for the whole course."
+          ],
+          "choices": [
+            "Tell Fatima the group is a pleasant social hour and the survival numbers are coincidence.",
+            "Explain Pennebaker's writing method and Spiegel's support-group survival findings, and encourage her to complete the full program without promising a cure.",
+            "Tell Fatima she must think only happy thoughts, because a positive attitude can cure cancer.",
+            "Agree that the group is pointless for someone as strong as she is and excuse her from attending."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Cathartic disclosure and social support as health-relevant processes: Pennebaker's expressive writing and Spiegel's support-group survival effect.",
+          "psychological_breakdown": "Option 1 is optimal because it presents the mechanism honestly — turbulent expression followed by narrative meaning, plus the doubled survival in support groups — while respecting the book's caveat that positive emotion is not curative. Option 0 denies the measured immune and survival effects. Option 3 exemplifies the attitude-will-cure-all rhetoric Goleman explicitly debunks as confusing and guilt-inducing. Option 4 abandons a documented survival benefit out of misplaced deference."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The 101-Study Verdict: Emotions as Toxic Risk Factors",
+          "visual_frame_description": "A grand-rounds auditorium with rising tiers of seats. Dr. Vance, the chief of medicine, stands at a podium dismissing emotion studies as 'fringe anecdotes' while interns fidget in the front rows. At his side, a slide carousel; in your hands, a bound folder of the analytic review he waved away.",
+          "player_mission": "You are a chief resident defending psychosomatic medicine. Boss Battle: defeat Dr. Vance's dismissal of emotion research, first by stating exactly what the mass analysis of 101 studies found, then by deploying the single most rigorous study to seal the argument.",
+          "key_concepts": [
+            "A mass analysis combining results from 101 smaller studies into a single one of several thousand men and women found that chronic anxiety, sadness, pessimism, tension, hostility, cynicism, and suspiciousness double the risk of disease.",
+            "The doubled risk covered asthma, arthritis, headaches, peptic ulcers, and heart disease, each representative of major categories of disease.",
+            "The order of magnitude makes distressing emotions as toxic a risk factor as smoking or high cholesterol are for heart disease.",
+            "The broad statistical link does not mean everyone with chronic distressing feelings falls prey to disease.",
+            "Physicians often remain skeptical because it is not always clear that the range of immune changes is great enough to make a medical difference.",
+            "Sheldon Cohen's prospective colds study assessed stress first, then systematically exposed people to a cold virus: 27 percent of low-stress people caught cold versus 47 percent of the most stressed.",
+            "Cohen's study is considered a landmark because of its scientific rigor, confirming what people had long observed.",
+            "The stress-disease findings have prompted relaxation techniques to be used clinically for cardiovascular disease, diabetes, arthritis, asthma, and gastrointestinal disorders.",
+            "Helping people manage upsetting feelings such as anger, anxiety, depression, pessimism, and loneliness is a form of disease prevention.",
+            "The toxicity of these emotions, when chronic, is on a par with smoking cigarettes."
+          ],
+          "difficulty_level": "Beginner",
+          "boss_battle_explanation": "The battle tests the claim that chronic distressing emotions are toxic risk factors for disease, on a par with smoking and high cholesterol, backed by a mass analysis of 101 studies, and the fallback to rigorous prospective evidence when a skeptic demands more.",
+          "stage_1_observation": "Dr. Vance has just told the interns that 'mind-body research is a pile of anecdotes.' Around him you study the evidence table: the folded meta-analysis of 101 studies, the Cohen colds protocol, the McEwen review, and the 1987 Science isolation report. He asks you directly what those '101 studies' actually showed.",
+          "stage_1_question": "What did the mass analysis of 101 smaller studies of several thousand men and women actually show?",
+          "stage_1_correct_answer": "The analysis showed that people who experienced chronic anxiety, long periods of sadness and pessimism, unremitting tension or incessant hostility, relentless cynicism, or suspiciousness had double the risk of disease, including asthma, arthritis, headaches, peptic ulcers, and heart disease — an effect on par with smoking or high cholesterol for heart disease. The correct response is to state that doubled-risk finding precisely, adding the chapter's caveat that it is a broad statistical link, not a guarantee for any individual.",
+          "stage_2_intervention": "Dr. Vance accepts the meta-analysis but calls it 'correlational mush,' demanding an experiment where stress was measured before illness and exposure was controlled. You hold the floor with the study that Goleman calls a landmark because of its rigor. Choose your weapon: the Cohen colds experiment, the Yale anger study, the hip-fracture depression study, or the waiting-room question study.",
+          "stage_2_correct_answer": "The correct intervention is the Cohen colds experiment: Sheldon Cohen assessed how much stress healthy people felt in their lives, then systematically exposed them to a cold virus at the Sheffield colds unit. Among those with little stress, 27 percent came down with a cold; among the most stressed, 47 percent did — direct, prospective, controlled evidence that stress itself weakens the immune system. The Yale anger study and the hip-fracture study are real findings but do not test stress before controlled virus exposure, and the waiting-room study concerns communication, not immunity.",
+          "theory_summary": "This battle tests the clinical-data foundation of mind-body medicine: a meta-analysis of 101 studies links chronic distressing emotions to double the risk of disease, as toxic as smoking. The rigorous-seeming counter comes from Cohen's prospective colds experiment, which shows stress measured beforehand predicts who actually catches a controlled virus exposure.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Defusing Hostility: The Anger-Control Program",
+          "visual_frame_description": "A hospital conference room turned anger-management classroom, whiteboard at the front, chairs in a circle. Vernon Aldridge, 61, a barrel-chested retired foreman in a polo shirt, sits with clenched fists, recounting a morning elevator delay. A facilitator's manual titled 'Anger Control' lies open on the table beside a heart-monitor chart.",
+          "player_mission": "You are a facilitator in Stanford's anger-control program. Boss Battle: first prove to Vernon that hostility, not occasional anger, is the lethal pattern, and then coach him through his elevator incident using the program's exact technique.",
+          "key_concepts": [
+            "Redford Williams found that physicians with the highest hostility scores in medical school were seven times as likely to have died by age fifty as those with low scores.",
+            "Being prone to anger was a stronger predictor of dying young than smoking, high blood pressure, or high cholesterol.",
+            "The problem arises when hostility becomes constant enough to define an antagonistic personal style of mistrust, cynicism, snide comments, put-downs, and bouts of rage.",
+            "An occasional display of hostility is not dangerous to health.",
+            "Heart-attack patients in the Stanford anger-control program had a second-heart-attack rate 44 percent lower than those who did not try to change.",
+            "Patients are asked to jot down cynical or hostile thoughts as they notice them.",
+            "If the thoughts persist, patients try to short-circuit them by saying, or thinking, 'Stop!'",
+            "Patients are encouraged to substitute reasonable thoughts for cynical, mistrustful ones during trying situations, such as finding a benign reason for a delayed elevator.",
+            "Patients learn to see things from the other person's perspective, because empathy is a balm for anger.",
+            "Williams's program, like the Stanford program, teaches mindfulness of anger as it begins to stir, regulation once it has begun, and empathy.",
+            "The antidote to hostility is to develop a more trusting heart, and all it takes is the right motivation."
+          ],
+          "difficulty_level": "Intermediate",
+          "boss_battle_explanation": "The battle tests whether the player can apply the chronic-hostility model and the Williams/Stanford anger-control technique: recognizing hostility as a lethal, changeable habit and using mindfulness, 'Stop!', reasonable substitution, and empathy to defuse a real incident.",
+          "stage_1_observation": "Vernon Aldridge describes his morning: he pressed the elevator button three times, waited five minutes, and 'was about to tear the building manager a new one.' He insists his temper is 'what kept my crew honest for thirty years.' You study the data chart on the wall — Williams's medical-school hostility study and the Yale anger findings — and he demands to know why you are ruining a good survival instinct.",
+          "stage_1_question": "Which finding best establishes that hostility, not occasional anger, is the lethal pattern worth treating?",
+          "stage_1_correct_answer": "The correct answer is Williams's finding that physicians who scored highest on a hostility test in medical school were seven times as likely to have died by age fifty as those with low scores — prone anger was a stronger predictor of dying young than smoking, high blood pressure, or high cholesterol. The auxiliary point is the Yale finding that easily roused anger tripled the risk of cardiac death, but the 7-fold predictor is the chapter's strongest single statistic for hostility as the lethal pattern, not the occasional flash of anger.",
+          "stage_2_intervention": "Vernon reports that right now, in this room, he is mentally composing a complaint letter about the elevator. The participant's manual is open in your lap. Choose your intervention: validate and amplify his grievance so he feels heard; teach him the program sequence of jotting, 'Stop!', and reasonable substitution, then empathy; tell him to bury every angry thought; or suggest he vent at the building manager's office after class.",
+          "stage_2_correct_answer": "The correct intervention is to walk Vernon through the program sequence: jot down the cynical thought as he notices it, say or think 'Stop!' if it persists, then deliberately substitute a reasonable thought — the elevator is slow on a rainy Tuesday, not a personal conspiracy — and finally practice seeing the building manager's perspective, since empathy is a balm for anger. Amplifying the grievance feeds the anger, suppressing it in the moment magnifies bodily agitation, and venting at the manager is exactly the ventilating habit the chapter warns feeds anger.",
+          "theory_summary": "This battle tests anger regulation for cardiac patients: hostility as an antagonistic personal style is the cardiotoxic pattern, and the Williams/Stanford program of mindfulness, 'Stop!' reframing, and empathy cut re-infarction rates by 44 percent. Goleman's evidence makes chronic hostility, not occasional anger, the treatable target.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Rebuilding a Web of Intimacy",
+          "visual_frame_description": "A dim ground-floor apartment. Arthur Delacroix, 74, sits in a wing chair before a silent television, a stack of unanswered sympathy cards on the table beside him. A visiting nurse, Priyanka Shah, holds a clipboard; on it, the checklist of his canceled appointments — bridge club, church supper, his grandson's visits.",
+          "player_mission": "You are Priyanka, a home-health liaison. Boss Battle: first establish, with data, why Arthur's slide into isolation is a medical emergency, and then choose the intervention that the research says restores the protective effect of close ties.",
+          "key_concepts": [
+            "Social isolation doubles the chances of sickness or death, according to studies of more than thirty-seven thousand people over two decades.",
+            "A 1987 Science report ranked isolation as significant to mortality as smoking, high blood pressure, high cholesterol, obesity, and lack of physical exercise.",
+            "Smoking raises mortality risk by a factor of 1.6 while social isolation raises it by 2.0.",
+            "Isolation hits men harder: isolated men were two to three times more likely to die than men with close social ties.",
+            "Helplessness and loneliness in hospital patients reflect the same emotional neglect that the chapter ties to worse medical outcomes.",
+            "In the Goteborg study of men born in 1933, intense emotional stress tripled the death rate over seven years, but men with a dependable web of intimacy showed no stress-death relationship at all.",
+            "Elderly heart-attack patients with two or more reliable supporters are more than twice as likely to survive longer than a year.",
+            "Bone marrow transplant patients with strong emotional support had a 54 percent two-year survival versus 20 percent for those with little support.",
+            "Self-help groups such as Alcoholics Anonymous add value as surrogate communities for isolated people.",
+            "Solitude is not the same as isolation; it is the subjective sense of being cut off that is the medical risk."
+          ],
+          "difficulty_level": "Intermediate",
+          "boss_battle_explanation": "The battle tests the isolation-mortality model and the protective power of a dependable web of intimacy: the player must first quantify the risk of isolation, then select the intervention that research shows restores the buffering effect.",
+          "stage_1_observation": "Arthur Delacroix has refused eleven visitors since his wife died, telling everyone he is 'fine on my own.' His daughter has called you in a panic. Arthur waves at his TV and says, 'I have plenty of company.' On your clipboard you have the Science report data and the two-decade, thirty-seven-thousand-person studies, and you must answer his challenge: 'Prove to me my loneliness is any worse than my neighbor who lives alone.'",
+          "stage_1_question": "Which finding most directly answers Arthur's claim that living alone is harmless?",
+          "stage_1_correct_answer": "The correct answer is to distinguish solitude from isolation and cite the data: studies of more than thirty-seven thousand people over two decades show that the subjective sense of having no one to share private feelings with doubles the chances of sickness or death, and a 1987 Science report rated isolation as significant to mortality as smoking, high blood pressure, high cholesterol, and obesity, with isolation's mortality factor of 2.0 exceeding smoking's 1.6. Living alone is not the risk; feeling cut off is, and Arthur's canceled bridge club, church suppers, and grandson visits show the subjective isolation, not mere solitude.",
+          "stage_2_intervention": "Arthur finally admits, quietly, that he stopped answering the phone because 'every call felt like a funeral.' You must choose the intervention most supported by the chapter's research: prescribe him a strict schedule of solitary self-care; re-enroll him in a regular weekly contact with his old friend Leon and a bridge club, creating a dependable web of intimacy; warn him that any social contact is risky until his grief passes; or advise him that modern solitary TV watching is the healthiest coping style.",
+          "stage_2_correct_answer": "The correct intervention is to re-establish a dependable web of intimacy: regular weekly contact with his lifelong friend Leon plus one structured group, the bridge club, mirroring the Goteborg finding that men with a dependable web of intimacy showed no relationship between high stress and death, and the surrogate-community value of groups. A schedule of solitary self-care preserves the isolation; postponing contact until grief 'passes' ignores that support is needed most during stress; and TV-centered solitude is precisely the modern isolation the chapter flags as ominous.",
+          "theory_summary": "This battle tests social isolation as a mortality risk and the buffering power of a dependable web of intimacy. Goleman's evidence shows isolation doubles sickness and death odds while close emotional ties eliminate the stress-death connection even under life's harshest strain.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Depression Blind Spot in Medical Care",
+          "visual_frame_description": "A hospital oncology corridor at dusk. Dr. Broderick, an oncologist in scrubs and a white coat, stands outside an exam room where a patient is audibly crying, and tells the charge nurse he has asked the patient to leave. You, a consult-liaison psychiatry resident, hold a chart folder with transplant outcome data and a study abstract on hip-fracture patients.",
+          "player_mission": "You are the psychiatry consult called to a unit where depression goes untreated. Boss Battle: defeat the 'depression is not my job' stance, first by stating the data on depression and death in the severely ill, then by prescribing the intervention the research shows to be both humane and cost-effective.",
+          "key_concepts": [
+            "Of 100 bone marrow transplant patients, 12 of the 13 who had been depressed died within the first year, while 34 of the remaining 87 were still alive two years later.",
+            "Among dialysis patients with chronic kidney failure, those diagnosed with major depression were most likely to die within two years, making depression a stronger predictor of death than any medical sign.",
+            "The depressed dialysis patients complied far worse with their medical regimens, such as cheating on their diets, a route that is attitudinal rather than biological.",
+            "In a study of 2,832 middle-aged men and women tracked for twelve years, those with nagging despair and hopelessness had a heightened death rate from heart disease.",
+            "For the 3 percent or so most severely depressed, the death rate from heart disease was four times greater than for those without depression.",
+            "Among Montreal heart-attack patients, the one in eight who were seriously depressed had a death rate five times higher than others with comparable disease in the following six months.",
+            "Depression may increase the risk of fatal arrhythmias through its effects on heart rate variability.",
+            "Depressed elderly women with hip fracture stayed an average of eight days longer and were only a third as likely ever to walk again.",
+            "Depressed hip-fracture patients who received psychiatric help needed less physical therapy and had fewer rehospitalizations in the three months after leaving the hospital.",
+            "At Mt. Sinai and Northwestern, hip-fracture patients treated for depression left the hospital an average of two days earlier, saving about $97,361 for a hundred or so patients.",
+            "A JAMA editorial said it would be unethical not to start treating psychological factors that distinguish coronary heart disease patients at highest risk.",
+            "Depression symptoms such as loss of appetite and lethargy are easily mistaken for signs of other diseases, so it often goes undiagnosed."
+          ],
+          "difficulty_level": "Advanced",
+          "boss_battle_explanation": "The battle tests the medical significance of untreated depression: the player must know the mortality data in the severely ill and then defend treating depression as part of medical care, using the compliance mechanism, the survival data, and the documented cost savings.",
+          "stage_1_observation": "Dr. Broderick defends himself: 'She cries at every visit. I asked her to leave the office because it distresses the other patients — and I am an oncologist, not a shrink. Show me one number that says her mood changes her prognosis.' On the wall you study the chart you brought: the bone marrow transplant outcomes, the Montreal heart-attack data, and the dialysis compliance findings. He wants exactly one number.",
+          "stage_1_question": "Which finding best shows that depression alters survival in the severely medically ill?",
+          "stage_1_correct_answer": "The correct answer is the bone marrow transplant finding: of 100 patients who received transplants, 12 of the 13 who had been depressed died within the first year, while 34 of the remaining 87 were still alive two years later. The Montreal finding (one in eight seriously depressed heart-attack patients had a five times higher death rate at six months) and the dialysis finding (depression a stronger predictor of death than any medical sign, via regimen noncompliance) are also valid, but the transplant numbers give the most stark, single-answer demonstration of depression's lethal weight in the severely ill.",
+          "stage_2_intervention": "Dr. Broderick now says, 'Fine — but treating her depression is a luxury this unit cannot afford.' You must select the response backed by the chapter: argue that depression treatment is a luxury only for well-funded units; propose screening and treating depression alongside medical care, citing the hip-fracture discharge savings and the improvement in walking; agree that oncology patients' emotional care is the family's job, not the hospital's; or tell the patient to cheer up, since attitude is her responsibility.",
+          "stage_2_correct_answer": "The correct intervention is to propose treating depression as part of medical care: depressed hip-fracture patients who received psychiatric help needed less physical therapy, had fewer rehospitalizations, and, in the Mt. Sinai and Northwestern study, left the hospital an average of two days earlier — saving about $97,361 for the hundred or so patients. This makes emotional care cost-saving rather than a luxury, and the JAMA editorial the chapter cites calls it unethical to ignore psychological risk factors in heart patients. Delegating care to family and blaming the patient repeat the blind spot the chapter condemns.",
+          "theory_summary": "This battle tests the medical costs of untreated depression in the severely ill: it predicts death more strongly than medical signs in transplant and dialysis patients and complicates recovery from hip fracture. Goleman's evidence shows treating depression shortens hospital stays, restores function, and saves money, making it a clinical necessity rather than a kindness.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Man Who Was Never Angry: Detecting Denied Hostility",
+          "visual_frame_description": "A cardiac rehabilitation evaluation room. Ray Cotter, 62, a retired warehouse supervisor in a plaid shirt, sits across a table from a clinician, hands clasped. A blood-pressure monitor on the counter shows a reading of 168/105. A file folder is open with his intake form where he wrote 'easygoing, never angry' in firm, angry-looking slashes of pen.",
+          "player_mission": "You are the clinician reviewing Ray's intake. Your mission is to audit whether his self-report of calm matches his observed behavior, using the nonverbal log, and to deliver a verdict about what his emotional pattern actually is.",
+          "key_concepts": [
+            "Whether anger is expressed or not matters less than whether it is chronic; an occasional display of hostility is not dangerous to health.",
+            "The dangerous pattern is chronic hostility: an antagonistic personal style marked by repeated mistrust, cynicism, snide comments, and put-downs.",
+            "In a Stanford study, heart patients who recounted angering incidents dropped heart pumping efficiency by five percentage points on average, and some by 7 percent or more.",
+            "Suppressing anger entirely in the heat of the moment can magnify the body's agitation and may raise blood pressure.",
+            "Being prone to anger was a stronger predictor of dying young than smoking, high blood pressure, or high cholesterol in Williams's medical-school study.",
+            "Harvard research found being angry more than doubled the risk of cardiac arrest in people with heart disease, lasting about two hours.",
+            "Williams's program treats hostility by having patients jot down cynical thoughts and substitute reasonable ones.",
+            "Type-A personality theory failed and was replaced by the finding that hostility, not hurriedness, puts people at risk for heart disease.",
+            "The Yale study found easily roused anger tripled the odds of dying of cardiac arrest among heart-attack survivors.",
+            "The antidote to hostility is developing a more trusting heart, with the right motivation."
+          ],
+          "difficulty_level": "Intermediate",
+          "question": "Ray Cotter, 62, recovering from a first heart attack, insists he is 'easygoing and never angry.' The observation log contradicts him repeatedly. What is the correct diagnosis of his emotional state?",
+          "subject_baseline": "Ray introduces himself as the calm one: at the warehouse he was 'the guy they sent in to talk down the hotheads.' He reports he sleeps well, has no complaints, and volunteers that his wife 'would say I bottle things up, but that's because there's nothing to bottle.' His resting blood pressure at the start of the session is 138/84.",
+          "observed_nonverbal_log": "0:00-2:00: Ray smiles fixedly, arms crossed, foot tapping under the table. 3:10: Asked about the insurance dispute over his car repairs, his jaw tightens and his knuckles whiten on the armrest. 4:40: Recounting the auto body shop that 'made it worse,' his voice rises half an octave and he delivers the line 'typical morons' through a clenched smile. 7:25: His blood pressure read again: 168/105. 9:15: When asked about his wife's comment, he exhales loudly, waves a hand, and mutters 'women' under his breath. 10:00: Session ends with him describing the shop owner as 'the kind of guy you'd like to strangle — not that I would.'",
+          "interrogation_transcript": [
+            "Clinician: Ray, you wrote here that you're never angry. But you just went through the car-repair story with a lot of heat in your voice.",
+            "Ray: I'm not angry. I'm just explaining. That shop charged me double and then fixed nothing — that's just a fact.",
+            "Clinician: Your blood pressure went from 138 over 84 to 168 over 105 while you described it.",
+            "Ray: Machines do what machines do. I've never thrown a punch in my life; I don't have a temper.",
+            "Clinician: Nobody said you throw punches. I'm asking about the running commentary — the snide remarks, the 'morons,' the way the story still burns you years later.",
+            "Ray: That's just how I talk. Everyone's an idiot; that's why I got so far. Look, doc, if I was an angry man, you'd know it."
+          ],
+          "correct_diagnosis": "Chronic hostility in denial — an antagonistic personal style of cynicism, mistrust, and snide put-downs that Ray mistakes for calm, and that the book identifies as the cardiotoxic pattern.",
+          "diagnostic_breakdown": "The evidence converges on the verdict: Ray's self-report of never being angry (baseline 'easygoing') contradicts the physiologic log — a 30-point blood-pressure spike and clenched jaw, tightened voice, and hostile asides triggered by an old grievance. The chapter states that whether anger is expressed matters less than whether it is chronic, and that the dangerous pattern is a constant antagonistic style of cynicism, snide comments, and put-downs, which is exactly the behavior observed. His insistence that no temper means no risk misses the finding that hostility, not overt rage, predicts heart risk; his habit of 'bottling' the heat of the moment may also be magnifying his bodily agitation and blood pressure.",
+          "distractors": [
+            "Healthy emotional control: Ray genuinely feels nothing and his calm self-report is accurate.",
+            "Acute anxiety about dying: his elevated blood pressure is driven by fear of his heart attack, not by anger.",
+            "Clinical depression: Ray's flat affect and low energy suggest a mood disorder that is being denied."
+          ],
+          "theory_summary": "Denied hostility lets chronic anger hide behind a calm facade while the body pays the toll: overcontrolled, hostile men showed the largest stress-hormone surges, and hostility scores predicted coronary risk independent of other factors. The audit catches the mismatch between stated calm and observed nonverbal log signs such as jaw tension and clipped answers.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Caregiver Who Is Fine: Reading Chronic Stress",
+          "visual_frame_description": "A support-center intake room with warm lighting. Yolanda Reyes, 47, a caregiver in a worn cardigan, sits with her purse clutched, a fresh cold sore visible at the corner of her mouth. Across the desk, a clinician's tablet displays her intake questionnaire, where she has answered 'I thrive under pressure' in neat handwriting. A small sticky note on the desk reads 'recurrent cold sores x4 this year.'",
+          "player_mission": "You are the intake clinician for a caregiver support program. Your mission is to audit Yolanda's claim that she is thriving against her nonverbal log and her medical pattern, and to deliver the diagnosis that explains both her physical symptoms and her denials.",
+          "key_concepts": [
+            "Herpes virus stays latent in the body once contracted and flares up from time to time; its activity can be tracked by levels of antibodies to it in the blood.",
+            "Reactivation of the herpes virus has been found in people under constant pressure from caring for a family member with Alzheimer's disease.",
+            "Reactivation of herpes was also found in medical students undergoing year-end exams and in recently separated women.",
+            "Stress hormones such as cortisol and the catecholamines hamper immune cell function while they surge, and chronic stress makes that suppression long-lasting.",
+            "Repeated bouts of anxiety signal high levels of stress and are the textbook engine of stress-related physical symptoms.",
+            "Anxiety's toll is not only lowered immune response but adverse effects on the cardiovascular system.",
+            "Relaxation techniques that counter stress arousal are used clinically to ease symptoms of a wide variety of chronic illnesses.",
+            "The woman whose constant worrying primed her gastrointestinal trouble is a textbook example of how anxiety exacerbates medical problems.",
+            "Isolation and the burden of caregiving place people at risk; close emotional ties are protective.",
+            "In the Goteborg study, men with a dependable web of intimacy showed no relationship between high stress and death rate."
+          ],
+          "difficulty_level": "Advanced",
+          "question": "Yolanda Reyes claims she 'thrives under pressure' caring for her mother with Alzheimer's disease, yet she has had four cold-sore outbreaks this year. Which diagnosis best explains her condition?",
+          "subject_baseline": "Yolanda describes herself as the family's anchor: she is 'built for this,' never complains, and says her mother 'gave me everything, so I give her everything.' She reports that she sleeps fine, eats well, and that people tell her she looks tired only because they don't know how much she runs on. She declined the support group twice, saying other caregivers need it more.",
+          "observed_nonverbal_log": "0:00-3:00: Yolanda sits forward, smiling, hands folded; her left thumb rubs her right palm in a slow circle. 5:20: Asked about her sleep, she checks her phone and replies 'fine,' while her eyes drop away for two full seconds and her smile thins. 8:40: Describing the night her mother wandered out at 3 a.m., her voice tightens, she rubs her temples with both hands, and she sighs three times in quick succession. 12:10: She glances at the cold sore in the window reflection and tugs her cardigan collar up. 15:00: Asked about the support group again, she laughs briefly, her eyes brightening with moisture, and says 'I'm fine — really.' 18:00: On the way out she asks, in a lowered voice, whether cold sores 'count as a sign of anything.'",
+          "interrogation_transcript": [
+            "Clinician: Yolanda, you wrote 'I thrive under pressure.' Tell me about a night when your mother needs you at 3 a.m.",
+            "Yolanda: I'm up, I'm there, I handle it. That's what family means. It's not stress; it's just what needs doing.",
+            "Clinician: You've had four cold sores this year. Did the doctor link them to anything?",
+            "Yolanda: Everyone gets cold sores. It's just... my body's way of saying it's tired.",
+            "Clinician: How many hours of sleep did you actually get last night?",
+            "Yolanda: I told you, I'm fine. Maybe... four. But I'm fine. I was fine yesterday and I'll be fine tomorrow.",
+            "Clinician: If you were to describe your mother's care to a friend who did it themselves, what would you warn them about?",
+            "Yolanda: (pause, voice dropping) That nobody tells you it never stops. That you'll catch every cold that passes your door. That sometimes you'd give anything for one single hour of absolutely nothing."
+          ],
+          "correct_diagnosis": "Chronic stress with immune suppression and herpes reactivation, masked by a denial-based coping style — the caregiver pattern the book documents directly.",
+          "diagnostic_breakdown": "The clinching evidence is the coincidence the chapter reports: herpes reactivation has been found precisely in people under constant pressure caring for a family member with Alzheimer's disease, and Yolanda's four outbreaks this year are the latent virus flaring under chronic stress. The nonverbal log contradicts her reported calm: temple rubbing, rapid sighs, eye-drop avoidance, trembling laughter at the mention of the group, and the 3 a.m. story of her mother wandering all flag sustained strain, while her disclosure that she got 'maybe four' hours of sleep contradicts her 'sleep fine' answer. Her denial ('I'm fine — really') is the coping style, not evidence of thriving, and the chapter's stress-hormone data explain why her immunity is failing despite her protestations.",
+          "distractors": [
+            "Malingering: Yolanda is exaggerating her hardship to win sympathy and avoid her duties.",
+            "Healthy resilience: her calm self-presentation and positive attitude mean the cold sores are an unrelated coincidence.",
+            "A primary mood disorder: her flat, guarded presentation indicates clinical depression that predates the caregiving."
+          ],
+          "theory_summary": "Chronic caregiving stress elevates cortisol and suppresses immune markers even when the caregiver insists she is fine, consistent with the stress-and-immunity research reviewed in the chapter. The audit reads the mismatch between the caregiver's scripted reassurance and her repeated respiratory infections and fatigue, showing how stress leaks through the body when words deny it.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        }
+      ]
+    }
+  ]
+}
