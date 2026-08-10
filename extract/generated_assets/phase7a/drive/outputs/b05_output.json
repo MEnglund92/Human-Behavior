@@ -1,0 +1,601 @@
+{
+  "spec_file": "spec_drive_b05.json",
+  "chapters": [
+    {
+      "id": "ch10",
+      "title": "CHAPTER 5 - Mastery",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Flow, autotelic experience, and mastery",
+          "visual_frame_description": "A split-screen animation in Csikszentmihalyi's Claremont research office. On the left, a painter at an easel is so absorbed his coffee cools untouched; on the right, a scroll of Experience Sampling Method booklet entries streams by with timestamps and mood ratings. Floating observation cards drift across the screen and the player must drag each one into one of three labeled bins.",
+          "player_mission": "Read each observation card and sort it into the bin it best describes: autotelic experience, flow, or mastery. Complete all seven sorts so the researcher's wall of findings is accurately filed.",
+          "key_concepts": [
+            "Csikszentmihalyi coined 'autotelic experience' from the Greek auto (self) and telos (goal or purpose); in an autotelic experience the goal is self-fulfilling and the activity is its own reward.",
+            "Painters Csikszentmihalyi observed during his Ph.D. research were so enthralled they seemed in a trance, with time passing quickly and self-consciousness dissolving.",
+            "Csikszentmihalyi replaced the Greek-derived adjective with the word people used for these optimal moments: flow.",
+            "In flow, goals are clear, such as reaching the top of the mountain or molding the clay just right.",
+            "In flow, feedback is immediate: the ball sails in or out of bounds and the pot you are throwing comes out smooth or uneven.",
+            "The most important flow condition is a perfect relationship between what a person had to do and what he could do.",
+            "The flow challenge sits a notch or two beyond current abilities, stretching body and mind so that effort itself becomes the most delicious reward.",
+            "In flow, people live so deeply in the moment that their sense of time, place, and even self melts away.",
+            "Csikszentmihalyi developed the Experience Sampling Method, paging people eight times a day at random intervals to record what they were doing and how they felt.",
+            "Mastery, the desire to get better and better at something that matters, unfolds over a longer time horizon than flow: one happens in a moment, the other over months, years, sometimes decades."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This matrix tests the distinction between autotelic experience, the flow state, and mastery: autotelic activities are their own reward, flow is the moment of perfect challenge with clear goals and immediate feedback, and mastery is the long-horizon pursuit. Csikszentmihalyi's Experience Sampling Method data showed that the highest, most satisfying moments in people's lives occur when they are in flow.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "Classify each observation into the concept it best describes: autotelic experience, flow, or mastery.",
+          "column_a_label": "Autotelic experience",
+          "column_b_label": "Flow",
+          "column_c_label": "Mastery",
+          "rows": [
+            {
+              "label": "The activity is its own reward; the goal is self-fulfilling.",
+              "col": "a"
+            },
+            {
+              "label": "Goals are clear and feedback is immediate.",
+              "col": "b"
+            },
+            {
+              "label": "The challenge sits a notch or two beyond your current abilities.",
+              "col": "b"
+            },
+            {
+              "label": "The desire to get better and better at something that matters.",
+              "col": "c"
+            },
+            {
+              "label": "Can happen tomorrow morning; it lives in a single moment.",
+              "col": "b"
+            },
+            {
+              "label": "Unfolds over months, years, sometimes decades.",
+              "col": "c"
+            },
+            {
+              "label": "Painters so enthralled that time passes quickly and self-consciousness dissolves.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Any activity that ends in a trophy or medal is autotelic",
+            "Flow requires challenges far beyond your current ability so you are pushed to the limit",
+            "Flow and mastery operate on the same time horizon"
+          ],
+          "explanation": "The matrix contrasts three related concepts from the chapter. Autotelic experiences are activities that are their own reward, which is why the painters in Csikszentmihalyi's research seemed entranced. Flow is the in-the-moment state defined by clear goals, immediate feedback, and a challenge calibrated just beyond ability, so the sense of self melts away. Mastery is the long-horizon pursuit of getting better at something that matters; flow can occur tomorrow morning, whereas mastery takes years."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Entity theory and incremental theory",
+          "visual_frame_description": "A split-screen classroom in East Palo Alto. On the left, Ms. Alvarez's fifth-grade class wrestles with word problems; on the right, a think-aloud panel shows each student's inner monologue during the task. Statement cards float across the bottom of the screen, and the player must drag each card to the belief-system column it reflects.",
+          "player_mission": "Read each inner-thought card and sort it into the column it reflects: entity theory, incremental theory, or Motivation 2.0 compliance logic. Sort every card so the class's belief map accurately shows which self-theory each voice represents.",
+          "key_concepts": [
+            "Carol Dweck's signature insight is that what people believe shapes what they achieve; our self-theories determine how we interpret experiences and can set boundaries on what we accomplish.",
+            "Entity theorists believe intelligence is an entity that exists within us in a finite supply that we cannot increase.",
+            "Incremental theorists believe intelligence, though it varies slightly from person to person, can be increased with effort.",
+            "Dweck analogizes intelligence to height for entity theorists, since you cannot make yourself taller, and to strength for incremental theorists, since you can pump iron and grow.",
+            "If you believe intelligence is a fixed quantity, every educational and professional encounter becomes a measure of how much you have.",
+            "If you believe intelligence can be increased, the same encounters become opportunities for growth: intelligence is something you develop rather than demonstrate.",
+            "Dweck says the entity theory is a system that requires a diet of easy successes.",
+            "Under an entity view, if you have to work hard, it means you are not very good.",
+            "Type X behavior often holds an entity theory of intelligence and disdains effort as a sign of weakness.",
+            "Type I behavior holds an incremental theory of intelligence and welcomes effort as a way to improve at something that matters."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This matrix tests Carol Dweck's self-theory framework: entity theorists treat intelligence as a fixed entity to be measured and demonstrated, while incremental theorists treat it as a capacity that grows through effort. Dweck's research shows the incremental view heads toward mastery, while the entity view demands easy successes and reads hard work as a sign of weakness.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "Classify each statement into the belief system it reflects: entity theory, incremental theory, or Motivation 2.0 compliance logic.",
+          "column_a_label": "Entity theory",
+          "column_b_label": "Incremental theory",
+          "column_c_label": "Motivation 2.0 compliance logic",
+          "rows": [
+            {
+              "label": "Intelligence is like height; wanting to grow taller does not make it happen.",
+              "col": "a"
+            },
+            {
+              "label": "Intelligence is like strength; pumping iron builds more of it.",
+              "col": "b"
+            },
+            {
+              "label": "That tough problem just measured how much I have.",
+              "col": "a"
+            },
+            {
+              "label": "That tough problem is a chance to develop my ability.",
+              "col": "b"
+            },
+            {
+              "label": "If I have to work hard, I must not be very good.",
+              "col": "a"
+            },
+            {
+              "label": "Effort is a welcome route to getting better at something that matters.",
+              "col": "b"
+            },
+            {
+              "label": "A nice bunch of carrots and the threat of a stick get the job done.",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Intelligence is inherited and cannot change under any circumstances",
+            "Everyone is born with exactly the same amount of intelligence",
+            "Intelligence is nothing more than how fast you finish a timed test"
+          ],
+          "explanation": "The matrix sorts statements about ability into Dweck's two self-theories plus the Motivation 2.0 premise. Statements that treat intelligence as fixed, measured, and demonstrated sort to entity theory; statements that treat it as expandable through effort sort to incremental theory, the mastery-oriented column; and statements that treat behavior as a product of carrots and sticks sort to Motivation 2.0 logic."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Performance goals and learning goals",
+          "visual_frame_description": "A junior high science classroom in the 1990s where half the students receive a sheet reading 'Goal: score high on the test' and half receive 'Goal: understand the scientific principles.' Later panels show both groups tackling a new set of related problems; the learning-goal students work deeper into the hour, while the performance-goal students stop early. The player sorts goal statements into labeled columns.",
+          "player_mission": "Classify each goal statement as a performance goal, a learning goal, or one of the goal features Dweck says both types share. Sort all seven statements so the study's design and findings are correctly mapped.",
+          "key_concepts": [
+            "Dweck says goals come in two varieties: performance goals and learning goals.",
+            "Getting an A in French class is a performance goal; being able to speak French is a learning goal.",
+            "Both goal types are entirely normal and pretty much universal, and both can fuel achievement.",
+            "Only one of the two goal types leads to mastery.",
+            "In Dweck's studies, giving children a performance goal was effective for relatively straightforward problems.",
+            "Performance goals often inhibited children's ability to apply the concepts to new situations.",
+            "In one study, junior high students given learning goals scored significantly higher when asked to apply scientific principles to new problems.",
+            "Students with learning goals also worked longer and tried more solutions.",
+            "Dweck writes that with a learning goal, students do not have to feel they are already good at something in order to hang in and keep trying.",
+            "Because their goal is to learn rather than prove they are smart, learning-goal students persist through difficulty."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This matrix tests Dweck's distinction between performance goals, which demonstrate existing ability, and learning goals, which develop ability. Her junior high science studies showed that while both goal types fuel achievement, learning goals produce better transfer to novel problems and longer persistence, which is why only they lead to mastery.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "Classify each goal statement as a performance goal, a learning goal, or a feature that applies to both goal types according to Dweck.",
+          "column_a_label": "Performance goal",
+          "column_b_label": "Learning goal",
+          "column_c_label": "Both goal types",
+          "rows": [
+            {
+              "label": "Getting an A in French class.",
+              "col": "a"
+            },
+            {
+              "label": "Being able to speak French.",
+              "col": "b"
+            },
+            {
+              "label": "Effective for relatively straightforward problems.",
+              "col": "a"
+            },
+            {
+              "label": "Helped junior high students apply learned scientific principles to new problems.",
+              "col": "b"
+            },
+            {
+              "label": "Entirely normal, pretty much universal, and capable of fueling achievement.",
+              "col": "c"
+            },
+            {
+              "label": "Students do not feel they must already be good at something to keep trying.",
+              "col": "b"
+            },
+            {
+              "label": "Inhibited students' ability to apply concepts to new situations.",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Performance goals are the only goals that can fuel achievement",
+            "Learning goals are abnormal and rarely universal among students",
+            "Performance goals lead more reliably to mastery than learning goals"
+          ],
+          "explanation": "The matrix separates goals that prove ability from goals that build it. Performance goals, like getting an A, work on straightforward problems but inhibited transfer in Dweck's studies; learning goals, like learning to speak French, helped students apply knowledge to novel problems and keep working. The 'both' column captures Dweck's point that the two goal types are normal, universal, and able to fuel achievement, even though only learning goals lead to mastery."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The conditions of flow in game design",
+          "visual_frame_description": "A small indie game studio in Santa Monica, where Nina, a 27-year-old level designer, is absorbed in a surreal underwater scene: a glowing organism devours smaller creatures and slowly evolves. Teammates pass her desk all afternoon and she never looks up; the on-screen creature responds instantly to each tweak she makes. A producer's proposal document is about to land on her desk.",
+          "player_mission": "You are the studio's design lead. First, identify the conditions that explain why Nina is clearly in flow. Then, evaluate the producer's plan to 'professionalize' the team and decide whether to approve, revise, or scrap it before it kills the studio's engagement.",
+          "key_concepts": [
+            "In flow, goals are clear, such as reaching the top of the mountain or molding the clay just right.",
+            "In flow, feedback is immediate, so the ball sails in or out of bounds and the pot comes out smooth or uneven.",
+            "The most important flow condition is the perfect relationship between what a person had to do and what he could do.",
+            "When a challenge is too difficult relative to ability, the result is anxiety.",
+            "When a challenge is too easy relative to ability, the result is boredom.",
+            "Csikszentmihalyi titled his first book on autotelic experiences Beyond Boredom and Anxiety.",
+            "Work can have the structure of autotelic experiences: clear goals, immediate feedback, and challenges well matched to abilities.",
+            "Csikszentmihalyi found people are much more likely to reach flow at work than in leisure.",
+            "Jenova Chen designed the game flOw so players advance and explore any way they desire and failure pushes the player to a level better matched to her ability.",
+            "The free online version of flOw was played more than three million times, and the PlayStation version generated more than 350,000 downloads."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the recipe for flow: clear goals, immediate feedback, and a challenge calibrated just beyond current ability. Csikszentmihalyi's Experience Sampling Method research showed this match produces the deep engagement that the chapter calls central to mastery, and game designer Jenova Chen built flOw around exactly that calibration.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "Flow arises when goals are clear, feedback is immediate, and the challenge sits a notch or two beyond the person's current abilities. The chapter applies these conditions to both game design and organizational work, because a challenge that exceeds capability produces anxiety and one that falls short produces boredom.",
+          "stage_1_observation": "Nina, a level designer at Comet Games, is playtesting her new underwater level in a quiet corner office. Her glowing organism must eat smaller creatures to evolve, and every mouse gesture produces an immediate visual reaction. She mutters 'the shell pattern is off,' re-tunes a value, watches the creature's behavior smooth out, and beams. Her teammates pass by for hours without breaking her concentration; her sense of time appears to have dissolved.",
+          "stage_1_question": "Which combination of conditions best explains why Nina is so obviously in flow?",
+          "stage_1_correct_answer": "Nina's work has the three flow ingredients: a clear goal (evolve the organism), immediate feedback (the creature reacts to every tweak), and tuning problems that sit just beyond her current skill, so the effort itself feels rewarding and her sense of time and self melts away.",
+          "stage_2_intervention": "The studio's new producer, Malik, announces a plan to 'professionalize' the team: everyone must design from the same fixed template, difficulty ratings must match a company-wide standard, and an hourly red-yellow-green dashboard will grade each designer's progress in real time. Before he sends the memo, decide what to do with the plan.",
+          "stage_2_correct_answer": "Scrap or heavily revise the plan, because a fixed template destroys the match between challenge and ability, and an hourly surveillance dashboard replaces immediate task feedback with external grading, which breeds anxiety or boredom rather than flow. Keep goals clear, feedback tied directly to the work, and difficulty individualized so each designer's challenge stays a notch beyond her ability, the way flOw pushed players to levels matched to their skill."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Raising a learning goal instead of a performance goal",
+          "visual_frame_description": "A kitchen in Omaha on a Saturday evening. Maya, a 24-year-old grad student, sits across from her sixteen-year-old brother Jordan, whose French II quiz with a C-minus written in red sits face-down on the table. Jordan's phone shows an open email draft to the school counselor requesting to drop the class. Warm light, a half-eaten dinner, and one conversation that could change the draft.",
+          "player_mission": "You are Maya. In one conversation, shift Jordan's reading of the failed quiz from a verdict on fixed ability to a guidepost for growth, and steer him toward a learning goal instead of a performance goal before he sends the drop request.",
+          "key_concepts": [
+            "What people believe shapes what they achieve; beliefs about the nature of ability can set boundaries on accomplishment.",
+            "An entity theory treats intelligence as a finite supply inside us that cannot be increased.",
+            "An incremental theory treats intelligence as something that, with effort, we can increase.",
+            "Getting an A in French class is a performance goal; being able to speak French is a learning goal.",
+            "Both performance and learning goals are entirely normal, pretty much universal, and both can fuel achievement.",
+            "Only the learning goal leads to mastery.",
+            "In Dweck's junior high science study, students with learning goals scored significantly higher when applying knowledge to new problems.",
+            "Students with learning goals worked longer and tried more solutions than performance-goal students.",
+            "With a learning goal, students do not have to feel they are already good at something in order to hang in and keep trying.",
+            "Students with an expansive mindset recognized that setbacks are inevitable on the road to mastery and can be guideposts for the journey."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This dialogue tests Dweck's goal framework under an incremental self-theory: a performance goal asks a student to prove ability, while a learning goal asks her to develop it, and only the learning goal produces persistence and transfer. The failed quiz becomes information about where practice should go instead of a verdict on fixed intelligence.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "scenario_setup": "Jordan, sixteen, just got a C-minus on a French II quiz and announced he is 'just not a languages person' and wants to drop the class. You are his older sister Maya, home for the weekend. Jordan's self-talk is a textbook entity-theory response: a setback read as evidence of a fixed ceiling. You have one conversation to reshape how he reads the failure before he emails the counselor.",
+          "dialogue": [
+            "Jordan: I don't know why I try. The teacher said my accent is 'developing,' which is code for terrible.",
+            "Maya: Developing is literally the point. French is a skill you are building, not an asset you were issued at birth.",
+            "Jordan: Easy for you to say. You got A's in Spanish without trying.",
+            "Maya: I studied every morning for a year and still butchered the subjunctive. The grade came after the grind, not instead of it.",
+            "Jordan: So what do I do? Memorize the verb charts for the retest so I can get a B and look normal?",
+            "Maya: That is a performance goal: get the letter, prove you are not dumb. Here is a different one: by June, be able to hold a real conversation at a bakery counter in Paris.",
+            "Jordan: A conversation? That is way scarier than a quiz.",
+            "Maya: Scarier means it is the right size. A goal that asks you to grow is supposed to stretch you. The C is not a verdict; it is information about where the stretch should go.",
+            "Jordan: So retaking the quiz just to check the box is the trap.",
+            "Maya: Now you are seeing it. Want me to quiz you on the verb charts tonight, and after that we practice ordering a pain au chocolat?"
+          ],
+          "choices": [
+            "Exactly. Let us replace 'get an A on the retest' with 'speak French well enough to order lunch in Paris by June' and start tonight with verb charts and an accent drill.",
+            "Do not be so hard on yourself, sweetie. You are smart, and I am sure you will get an A on the retest. I believe in you.",
+            "You are right that your ceiling may be lower than your classmates'. Let us just try to pass the class and get the credit over with.",
+            "Fine, drop the class. Mom and Dad will be upset, but if French makes you feel bad about yourself, protecting your self-image matters more."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Dweck's learning goals versus performance goals operating under an incremental self-theory.",
+          "psychological_breakdown": "Choice 0 reframes the setback under an incremental theory: the C becomes guidepost information, and the goal shifts from proving ability to developing it, the pattern Dweck's junior high studies showed produced higher transfer scores and longer persistence. Choice 1 is a performance-goal pep talk that ties Jordan's worth to fixed smartness and pressures him toward easy successes. Choice 2 endorses the entity theory, telling a capable student she has hit her ceiling, which Dweck's data show produces helpless responses to difficulty. Choice 3 opts out of mastery entirely, treating self-image as something to protect instead of competence as something to build."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The three laws of mastery",
+          "visual_frame_description": "A courtroom-style evidence wall in a behavioral-science archive. On one wall hang six exhibits: Dweck's classroom data, a West Point summer training photo, a Cézanne landscape, a practice-session time log, a diagram of an asymptote curve approaching a horizontal line, and Tiger Woods at a practice range. The player drags each exhibit under one of three law placards.",
+          "player_mission": "Read each finding and sort it under the law of mastery it best supports: mastery is a mindset, mastery is a pain, or mastery is an asymptote. File all seven exhibits correctly on the evidence wall.",
+          "key_concepts": [
+            "Mastery abides by three laws: mastery is a mindset, mastery is a pain, and mastery is an asymptote.",
+            "Flow is essential to mastery but does not guarantee it, because flow happens in a moment while mastery unfolds over months, years, sometimes decades.",
+            "Dweck's research shows that beliefs about the nature of ability determine how we interpret experiences and can set boundaries on accomplishment.",
+            "Anders Ericsson's research holds that many characteristics once believed to reflect innate talent are actually the results of intense practice for a minimum of ten years.",
+            "At West Point, the best predictor of which cadets survived Beast Barracks was grit, defined as perseverance and passion for long-term goals.",
+            "Daniel Chambliss, after a three-year study of Olympic swimmers, called excellence's dependence on routine preparation 'the mundanity of excellence.'",
+            "The West Point researchers argued that in every field, grit may be as essential as talent to high accomplishment.",
+            "An asymptote is a straight line that a curve approaches but never quite reaches.",
+            "A critic wrote that for Cézanne, the synthesis of a design was an asymptote toward which he was forever approaching without ever quite reaching it.",
+            "Tiger Woods says he can and must become better, and he understands that mastery will always hover beyond his grasp; the joy is in the pursuit more than the realization."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This matrix tests the chapter's three laws of mastery: mindset, pain, and asymptote. Pink argues that mastery requires a growth-oriented self-theory, grueling decade-scale practice, and acceptance that perfection recedes as we approach it.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "Sort each finding into the law of mastery it best supports: mastery is a mindset, mastery is a pain, or mastery is an asymptote.",
+          "column_a_label": "Mastery is a mindset",
+          "column_b_label": "Mastery is a pain",
+          "column_c_label": "Mastery is an asymptote",
+          "rows": [
+            {
+              "label": "Dweck: what students believe about intelligence predicted whether they persisted on problems they could not solve.",
+              "col": "a"
+            },
+            {
+              "label": "West Point: grit, not intellect or athleticism, predicted which cadets survived Beast Barracks.",
+              "col": "b"
+            },
+            {
+              "label": "Cézanne stalked the ultimate synthesis of a design his whole career without ever quite reaching it.",
+              "col": "c"
+            },
+            {
+              "label": "Ericsson: traits once believed to reflect innate talent are often the results of intense practice for a minimum of ten years.",
+              "col": "b"
+            },
+            {
+              "label": "Fifth- and sixth-graders who believed brainpower was fixed gave up quickly on hard problems and blamed their intelligence.",
+              "col": "a"
+            },
+            {
+              "label": "Tiger Woods insists he must become better even as he knows mastery will always hover beyond his grasp.",
+              "col": "c"
+            },
+            {
+              "label": "Chambliss: Olympic swimmers who did the best spent the most time on mundane race-readiness activities.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "The three laws operate on the same time horizon as flow itself",
+            "Mastery is fully attainable after ten years of consistent practice",
+            "Beliefs about ability have no measurable effect on achievement"
+          ],
+          "explanation": "The matrix files each finding under one of the three laws. Mindset findings come from Dweck's prediction work and the fifth- and sixth-grader persistence study; pain findings come from Ericsson's ten-year practice research, the West Point grit results, and Chambliss's mundanity-of-excellence observation; asymptote findings come from Cézanne's endless approach to an unreachable synthesis and Tiger Woods's insistence that he can and must improve."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The mindset reset",
+          "visual_frame_description": "A Portland accounting firm's break room, where Marcus, a 34-year-old accountant, stares at a mock exam marked 61 percent. His colleague watches as Marcus re-reads his old notes and retakes the same practice exam rather than tackling unfamiliar problems. The failed analytics module is scheduled to be dropped from his plan next week.",
+          "player_mission": "You are Marcus's mentor. First, identify the self-theory and goal pattern that is derailing his study plan. Then, one week later, give him guidance grounded in Dweck's findings that can shift his mindset before he withdraws from the module.",
+          "key_concepts": [
+            "Dweck's signature insight is that what people believe shapes what they achieve.",
+            "Entity theorists believe intelligence exists within us in a finite supply that we cannot increase; incremental theorists believe it can increase with effort.",
+            "If you believe intelligence is a fixed quantity, every educational and professional encounter becomes a measure of how much you have.",
+            "If you believe intelligence can increase, the same encounters become opportunities for growth.",
+            "Entity theorists want to look like masters without expending the effort to attain mastery.",
+            "In Dweck's study, students who subscribed to fixed brain-power gave up quickly on tough problems and blamed their lack of intelligence.",
+            "Students with a more expansive mindset kept working, deployed far more inventive strategies, and did not blame anything for their difficulty.",
+            "The young people with an expansive mindset recognized that setbacks are inevitable on the road to mastery and can be guideposts for the journey.",
+            "With a learning goal, students do not have to feel they are already good at something in order to hang in and keep trying.",
+            "Dweck says effort is one of the things that gives meaning to life because it means you care about something and are willing to work for it."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests Dweck's entity-versus-incremental self-theory distinction: a fixed belief converts failure into evidence of incapacity, while a malleable belief converts failure into guidance. Her studies of fifth- and sixth-graders show the growth-oriented view produces persistence, inventive strategies, and mastery-oriented responses to adversity.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "Mastery is a mindset. Dweck's self-theories show that believing intelligence is a fixed entity turns every setback into a verdict on your worth, while believing it can grow turns setbacks into guideposts, and the goal a person chooses follows from whichever belief he holds.",
+          "stage_1_observation": "Marcus, a 34-year-old accountant at a mid-sized firm in Portland, just scored 61 percent on the mock exam for the new data-analytics module of the CPA credential. In the break room he tells a colleague, 'I have never been good with software, and clearly I never will be. I would rather stick to what I am already good at.' His colleague notices that Marcus keeps re-reading his old notes and re-taking the same practice exam instead of solving unfamiliar problems.",
+          "stage_1_question": "What belief-and-goal pattern is holding Marcus back?",
+          "stage_1_correct_answer": "Marcus holds an entity theory of intelligence: he treats the module as a measure of a fixed ability he cannot increase. His behavior shows a shift toward performance goals that demand easy successes he can already hit, which is why he repeats familiar practice exams; Dweck's research shows this pattern converts the setback into proof of incapacity and drives helpless responses.",
+          "stage_2_intervention": "One week later Marcus tells you he is dropping the analytics module. Which guidance, grounded in Dweck's findings, should you give him to change course?",
+          "stage_2_correct_answer": "Recast the goal from performance to learning: reframe the module as a chance to develop a new capability, like building strength, treat the failed mock exam as a guidepost, and have him practice on problems just beyond his current level. Dweck's studies show learning-goal students hang in, try more solutions, and outscore performance-goal students on novel problems, so the module becomes an opportunity for growth instead of a verdict."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Grit at Beast Barracks",
+          "visual_frame_description": "Week six of Cadet Basic Training at West Point: a dusty parade ground at dusk, cadets in gray T-shirts running the same footwork drill for the fifth time. Cadet Rivera, a star athlete, slumps against a wall during a rest break; Cadet Osei, unremarkable on paper, quietly keeps drilling. Behind them, the long gray line of the Academy library rises against the Hudson River.",
+          "player_mission": "You serve on the Academy's retention research team. First, predict which cadet profile the West Point grit study says will persist, and why. Then, in week seven, recommend how to respond when the promising cadet wants to quit.",
+          "key_concepts": [
+            "Each summer about 1,200 young American men and women arrive at West Point, and before any classroom work they endure seven weeks of Cadet Basic Training known as Beast Barracks.",
+            "By the time the summer ends, one in twenty of these talented, dedicated young adults has dropped out.",
+            "The West Point study team included scholars from West Point, the University of Pennsylvania, and the University of Michigan.",
+            "The best predictor of cadet success was their rating on grit, defined as perseverance and passion for long-term goals.",
+            "Physical strength, intellect, leadership ability, and well-roundedness were not the predictors that distinguished those who stayed.",
+            "The same researchers found that grittiness, rather than IQ or standardized test scores, is the most accurate predictor of college grades.",
+            "The researchers wrote that working longer without switching objectives may be less perceptible than working harder, and that grit may be as essential as talent to high accomplishment.",
+            "Ericsson's research holds that many characteristics once believed to reflect innate talent are actually the results of intense practice for a minimum of ten years.",
+            "Daniel Chambliss's three-year study of Olympic swimmers found that the best spent the most time and effort on the mundane activities that readied them for races.",
+            "Moments of flow in the course of pursuing excellence can help people through the rough parts of mastery."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the second law of mastery, that mastery is a pain. The West Point study showed that grit, defined as perseverance and passion for long-term goals, predicted which cadets endured Beast Barracks better than strength, intellect, or leadership, and Ericsson's expert-performance research links achievement to years of effortful, often unglamorous practice.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "Mastery is a pain. The path to becoming ever better at something you care about requires difficult, all-consuming effort over a long time, and the West Point evidence shows the trait that carries people through is grit: perseverance and passion for long-term goals.",
+          "stage_1_observation": "It is week six of Beast Barracks. Cadet Rivera, a gifted athlete with a 4.0 GPA, is wilting under the routine of marching drills, uniform inspections, and demerit paperwork. Cadet Osei, average on every physical and academic metric so far, wakes early, drills the same footwork nightly, and has never missed a study session. On the latest fitness test the two nearly match. The retention committee must predict who is more likely to be standing in the long gray line in four years.",
+          "stage_1_question": "Which cadet does the grit research predict will persist, and why?",
+          "stage_1_correct_answer": "Cadet Osei, because the best predictor of staying was not physical strength, intellect, leadership, or well-roundedness, but grit. Osei shows the perseverance and passion for long-term goals that keeps her working the same routine without switching objectives, the trait the same researchers found predicted college grades better than IQ or test scores.",
+          "stage_2_intervention": "Week seven: Cadet Rivera, facing her first demerit, says, 'Maybe the Army just is not for me.' The retention team wants your recommendation on how to respond, given that mastery hurts.",
+          "stage_2_correct_answer": "Keep Rivera oriented toward the long-term goal rather than the immediate setback: acknowledge that difficulty is normal on the path to mastery, since expert performance grows out of intense practice over a minimum of ten years. Help her identify which moments put her in flow so she knows what she is working toward, and set the expectation that progress comes from working longer without switching objectives, not from sudden talent."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The mastery asymptote",
+          "visual_frame_description": "A busy pastry kitchen in San Francisco the night of a regional competition. Elena, a 41-year-old pastry chef, stares at her winning mille-feuille on the pass counter while the trophy sits untouched beside it. In the corner of the frame, a math textbook diagram shows a curve approaching a horizontal asymptote that it never touches, and a Cézanne landscape hangs on the wall.",
+          "player_mission": "You are Elena's mentor. First, explain to her sous-chef why Elena's dissatisfaction is not a failure of appreciation. Then, recommend which of two career paths she should choose and what she should expect to feel along it.",
+          "key_concepts": [
+            "An asymptote is a straight line that a curve approaches but never quite reaches.",
+            "University of Chicago economist David Galenson, who studied the careers of artists, linked Cézanne's most enduring late paintings to his endless attempts to realize his best work.",
+            "A critic wrote that for Cézanne the ultimate synthesis of a design was never revealed in a flash but approached with infinite precautions, forever approaching without ever quite reaching it.",
+            "Mastery is impossible to realize fully: you can approach it, home in on it, and get really, really close, but never touch it.",
+            "Tiger Woods has said flatly that he can, and must, become better, whether as an amateur, after his best outing, or at the end of his finest season.",
+            "Woods understands that mastery will always hover beyond his grasp.",
+            "The mastery asymptote is a source of frustration because it asks why you would reach for something you can never fully attain.",
+            "The mastery asymptote is also a source of allure because the joy is in the pursuit more than the realization.",
+            "In the end, mastery attracts precisely because mastery eludes.",
+            "Robert Reich advises figuring out what you want to be really good at, knowing you will never really satisfy yourself that you have made it, and accepting that that is okay."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the third law of mastery, the asymptote: the goal recedes as you approach it, generating frustration and allure in equal measure. Pink grounds the law in Cézanne's endless stalking of an unreachable synthesis and Tiger Woods's insistence that he can and must improve even though mastery will always hover beyond his grasp.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "Mastery is an asymptote: like a curve approaching a horizontal line, you can home in on mastery but never touch it. Cézanne stalked his ideal synthesis for decades without reaching it, and Tiger Woods knows his best will always hover beyond his grasp; the frustration and the allure come from the same unattainability.",
+          "stage_1_observation": "Elena, a 41-year-old pastry chef, has just won a regional competition for her signature mille-feuille. At the celebration she looks uneasy and tells her sous-chef, 'It is good, but I can already see the next version. The caramel needs one more degree of patience.' Her sous-chef is baffled: 'You just won first place. Why do you look like you lost?'",
+          "stage_1_question": "Is Elena's dissatisfaction a failure of appreciation or the signature of the mastery asymptote?",
+          "stage_1_correct_answer": "It is the mastery asymptote at work. Elena's joy is in the pursuit more than the realization, because mastery attracts precisely because mastery eludes. Cézanne approached his ultimate synthesis forever without quite reaching it, and Tiger Woods says he can and must become better even as he knows mastery will always hover beyond his grasp.",
+          "stage_2_intervention": "Elena's mentor offers two paths: cap her ambition and compete at a comfortable level where she always wins, or keep pushing toward a 'perfect' mille-feuille she concedes she will never wholly produce. Which path should she choose, and what should she expect to feel along the way?",
+          "stage_2_correct_answer": "She should choose the second path and accept the asymptote as both frustration and allure: find the joy in the pursuit rather than completion, and let the unattainable perfect version keep her engaged. That is the position Robert Reich describes: figure out what you want to be really good at, know you will never fully make it, and accept that that is okay."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Goldilocks tasks and the positive Sawyer Effect",
+          "visual_frame_description": "A hospital corridor where a cleaner in navy scrubs stops to chat with a recovering patient and then straightens a nurse's supply cart; a second panel shows an Ericsson manager in a one-on-one meeting, and a third shows a calibration dial labeled 'challenge' being tuned between 'boredom' and 'anxiety.' Tactic cards float onto the screen for sorting.",
+          "player_mission": "Classify each workplace tactic as a Goldilocks task, positive-Sawyer-Effect job sculpting, or broader flow-friendly structuring. Sort all seven tactic cards into the correct columns on the strategy board.",
+          "key_concepts": [
+            "Organizations that increase flow-friendliness typically use Goldilocks tasks: challenges that are neither too hot nor too cold, neither overly difficult nor overly simple.",
+            "A frequent source of workplace frustration is the mismatch between what people must do and what people can do.",
+            "When what people must do exceeds their capabilities, the result is anxiety.",
+            "When what people must do falls short of their capabilities, the result is boredom.",
+            "Csikszentmihalyi titled his first book on autotelic experiences Beyond Boredom and Anxiety.",
+            "The positive side of the Sawyer Effect runs the current in the other direction, turning work into play.",
+            "Amy Wrzesniewski and Jane Dutton studied hospital cleaners, nurses, and hairdressers, finding that some cleaners took on tasks such as chatting with patients and helping nurses' jobs go more smoothly.",
+            "Adding more absorbing challenges increased the cleaners' satisfaction and boosted their own views of their skills.",
+            "Wrzesniewski and Dutton write that even in low-autonomy jobs, employees can create new domains for mastery.",
+            "A study of 11,000 industrial scientists and engineers in the United States found that the desire for intellectual challenge was the best predictor of productivity."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This matrix tests two organizational tactics the chapter endorses: Goldilocks tasks that match challenge to capability, and the positive Sawyer Effect of sculpting jobs to bring flow into mundane duties. The chapter's evidence, including Wrzesniewski and Dutton's studies and the 11,000-scientist study, links both tactics to flow, productivity, and mastery.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "Classify each workplace tactic as a Goldilocks task, positive-Sawyer-Effect job sculpting, or broader flow-friendly structuring of work.",
+          "column_a_label": "Goldilocks tasks",
+          "column_b_label": "Positive Sawyer Effect",
+          "column_c_label": "Flow-friendly structuring",
+          "rows": [
+            {
+              "label": "A task that is neither too hot nor too cold, neither overly difficult nor overly simple.",
+              "col": "a"
+            },
+            {
+              "label": "A hospital cleaner takes on chatting with patients and helping nurses' jobs go more smoothly.",
+              "col": "b"
+            },
+            {
+              "label": "Managers configure work assignments so employees have clear objectives and a way to get quick feedback.",
+              "col": "c"
+            },
+            {
+              "label": "Teams adjust assignments so that what people must do matches what they can do.",
+              "col": "a"
+            },
+            {
+              "label": "Hairdressers reframe aspects of their duties to make work more playful and more fully their own.",
+              "col": "b"
+            },
+            {
+              "label": "Managers meet staff monthly to sense who is overwhelmed and who is underwhelmed, then adjust assignments.",
+              "col": "c"
+            },
+            {
+              "label": "Even in low-autonomy jobs, employees create new domains for mastery.",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Goldilocks tasks require challenges far beyond current capability to stretch employees",
+            "Job sculpting is only possible in high-autonomy positions",
+            "Revamping work assignments has no measurable effect on company profitability"
+          ],
+          "explanation": "The matrix separates the chapter's two named tactics plus broader structuring. Goldilocks tactics calibrate the difficulty of a task so it neither exceeds nor falls short of capability; positive-Sawyer-Effect tactics let employees sculpt mundane duties, as the hospital cleaners did when they added absorbing challenges; and flow-friendly structuring refers to systemic design, such as Ericsson's clear objectives with quick feedback and Green Cargo's monthly overwhelmed-underwhelmed check-ins."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Forty-eight hours without flow",
+          "visual_frame_description": "A 1970s psychology laboratory at the University of Chicago: participants sit in a drab waiting room filling out Experience Sampling Method booklets. One man rubs a headache beneath fluorescent lights, a woman stares at the clock, and a handwritten sign on the door reads 'No Play Allowed.' A DSM-IV symptom checklist sits beside the researcher's notebook.",
+          "player_mission": "You are the lab's attending researcher. First, diagnose what is happening to the participants of Csikszentmihalyi's two-day experiment. Then, propose a workplace package that prevents the same danger signs in employees.",
+          "key_concepts": [
+            "Generalized anxiety disorder is a mental illness that afflicts roughly 3 percent of the adult population.",
+            "According to the DSM-IV, the presence of any three of six symptoms, such as restlessness, fatigue, difficulty concentrating, irritability, muscle tension, and sleep disturbance, indicates a potentially serious problem.",
+            "In the early 1970s Csikszentmihalyi asked people to record all the noninstrumental things they did, small activities undertaken not out of obligation but because they enjoyed them.",
+            "He then instructed participants to act in a normal way while doing nothing that was play or noninstrumental.",
+            "One woman enjoyed washing dishes because it gave her something constructive to do and time to fantasize free of guilt, but she could wash dishes only when absolutely necessary.",
+            "Even at the end of the first day, participants noticed an increased sluggishness about their behavior.",
+            "Participants complained of headaches, difficulty concentrating, and thoughts that wandered round in circles without getting anywhere.",
+            "Some felt sleepy while others were too agitated to sleep.",
+            "After just two days of deprivation, the general deterioration in mood was so advanced that prolonging the experiment would have been unadvisable.",
+            "Flow is not a nicety; it is a necessity, the oxygen of the soul."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the chapter's 'oxygen of the soul' experiment: scrubbing every play-like, noninstrumental activity from daily life produced headaches, irritability, concentration trouble, and sleep disruption within two days, a mood profile resembling generalized anxiety disorder. The finding supports Pink's claim that flow is a psychological necessity rather than a luxury.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "Flow is the oxygen of the soul. In Csikszentmihalyi's early-1970s experiment, removing all 'play' and noninstrumental activity produced within two days a deterioration in mood eerily similar to a serious psychiatric disorder, showing that engagement is a necessity for psychological survival.",
+          "stage_1_observation": "It is day two of an experiment in a psychology lab in Chicago in the early 1970s. Participants were told to act normally but to do nothing that is play or noninstrumental. In their booklets, one writes 'Slept badly, listless, more nervous, more guarded'; another reports feeling 'tense, more hostile, angry, and irritated'; a third notes difficulty concentrating, with thoughts that wander round in circles without getting anywhere. A woman who enjoyed washing dishes has been told she may wash only when absolutely necessary. The study team consults the DSM-IV checklist.",
+          "stage_1_question": "What is happening to these participants, and why?",
+          "stage_1_correct_answer": "They are suffering flow deprivation, not generalized anxiety disorder. Measured against the DSM-IV, people can show three or more symptoms such as irritability, difficulty concentrating, sleep disturbance, and fatigue, but these healthy participants were stripped of all play-like activity, and after just two days the general deterioration in mood was so advanced that prolonging the experiment would have been unadvisable.",
+          "stage_2_intervention": "The lab director asks a business leader to observe the results and propose how a workplace could avoid producing the same danger signs. Which package of changes, grounded in the chapter, should you propose?",
+          "stage_2_correct_answer": "Restore the conditions of flow that the experiment removed: offer Goldilocks tasks matched to people's abilities, let employees sculpt mundane duties through the positive Sawyer Effect, and build flow-friendly practices such as clear objectives, quick feedback, and regular check-ins on whether people are overwhelmed or underwhelmed, as Ericsson and Green Cargo did."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Building engagement through flow-friendly check-ins",
+          "visual_frame_description": "A small meeting room at Nordwind Logistics in Gothenburg, Sweden, where Priya, a 29-year-old customs-documentation specialist, sits across from her manager at a table holding two coffee cups and a scheduling calendar. A wall of green shipping containers glows through the window. The monthly one-on-one is on the agenda.",
+          "player_mission": "You are Priya's manager at Nordwind Logistics, a Swedish freight company trying to break a 125-year losing streak by rebuilding work around flow. Conduct the monthly one-on-one so that you discover whether Priya is overwhelmed or underwhelmed, and adjust her assignments toward the challenge-ability match.",
+          "key_concepts": [
+            "A frequent source of frustration in the workplace is the mismatch between what people must do and what people can do.",
+            "When what people must do falls short of their capabilities, the result is boredom.",
+            "When what people must do exceeds their capabilities, the result is anxiety.",
+            "Goldilocks tasks are challenges that are neither overly difficult nor overly simple.",
+            "Fast Company has noted that companies including Microsoft, Patagonia, and Toyota have created flow-friendly environments that help people move toward mastery.",
+            "At Ericsson, Stefan Falk persuaded managers to configure work assignments so employees had clear objectives and a way to get quick feedback.",
+            "Falk replaced once-a-year performance reviews with one-on-one meetings six times a year, often as long as ninety minutes, to discuss level of engagement and path toward mastery.",
+            "At Green Cargo, managers met staff once a month to get a sense of whether people were overwhelmed or underwhelmed and adjusted assignments to help them find flow.",
+            "After two years of managerial revamping, state-owned Green Cargo became profitable for the first time in 125 years, with executives citing flowcentricity as a key reason.",
+            "When work has the structure of autotelic experiences, clear goals, immediate feedback, and well-matched challenges, we do not just enjoy it more, we do it better."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This dialogue simulates the flow-calibrated check-in that Stefan Falk ran at Ericsson and Green Cargo: the manager probes whether an employee is overwhelmed or underwhelmed, then adjusts assignments toward the Goldilocks zone. The mechanism is flow's core condition, which the chapter ties to engagement and mastery rather than compliance.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "scenario_setup": "You are Priya's manager at Nordwind Logistics, a Swedish freight company whose leadership is replacing 125 years of losses with a flow-based management overhaul. Monthly one-on-ones now replace annual reviews, and leadership has asked you to sense whether people are overwhelmed or underwhelmed and adjust assignments so they can find flow. Priya, a perceptive 29-year-old customs-documentation specialist, has been watched the clock for weeks, and this meeting is where the change happens or stalls.",
+          "dialogue": [
+            "Priya: I am not sure how to say this, but I am honestly bored most days. The customs forms are the same fifteen fields, over and over. I finish my batch by noon and then I am just watching the clock.",
+            "You: That is exactly what this meeting is for. Walk me through a normal week.",
+            "Priya: I file, I check the registry, I file some more. Nothing asks anything of me. When my colleague Anders retired, his exception queue, the tricky shipments that need human judgment, just sat there waiting for the system to time out.",
+            "You: The exception queue is technically mine to assign. If I moved the hard cases to you, what would that change?",
+            "Priya: Honestly, that is the work I actually like. Nobody has looked at it since Anders left, so I would be figuring it out from scratch. It is a puzzle. It might take me a while, and I would probably need someone to tell me when I am getting it right.",
+            "You: So the goal would be clear, the feedback would be immediate, and the challenge would sit slightly beyond your current skill. That is the profile of work people get lost in.",
+            "Priya: I want that. I want to get genuinely good at this, even if it is ugly in the middle.",
+            "You: Then let us set it up. The exception queue is yours weekly, and every Friday we review what you shipped, what stumped you, and what you figured out, and we tune the difficulty as you improve."
+          ],
+          "choices": [
+            "I hear you, but leadership needs throughput. I will give you the exception queue only if you promise to keep your error rate under half a percent, tracked daily on the dashboard.",
+            "Agreed. The exception queue is yours weekly, and every Friday we review what you shipped, what stumped you, and what you figured out, tuning the difficulty as you improve.",
+            "Boredom is part of any job, Priya. Let us focus on making the routine forms 100 percent accurate, and I will note your patience in your annual review.",
+            "I will put you on a special project team for a month. It is more interesting, but it means working nights, and I cannot promise the arrangement will stick."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Goldilocks tasks and flow-friendly management as practiced by Stefan Falk at Ericsson and Green Cargo.",
+          "psychological_breakdown": "The optimal choice converts Priya's work into a properly scaled challenge with a clear goal, quick feedback, and difficulty calibrated just beyond her current ability, plus regular recalibration check-ins, which mirrors Falk's structure at Ericsson and Green Cargo. Choice 0 adds a performance-goal dashboard that turns the work into a compliance test, which the chapter links to anxiety rather than flow. Choice 2 denies the problem and preserves the boredom-inducing mismatch between what Priya must do and what she can do. Choice 3 trades engagement for overtime and treats mastery as a temporary favor instead of a sustained path."
+        }
+      ]
+    }
+  ]
+}

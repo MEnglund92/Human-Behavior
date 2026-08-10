@@ -1,0 +1,827 @@
+{
+  "spec_file": "spec_drive_b02.json",
+  "chapters": [
+    {
+      "id": "ch06",
+      "title": "CHAPTER 2 - Seven Reasons Carrots and Sticks (Often) Don’t Work . . .",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Baseline Rewards and the Threshold Effect",
+          "visual_frame_description": "Nadia, a recruiter at a midsize logistics firm, studies a wall chart of employee complaints. Across the room, a newly hired warehouse organizer complains weekly about pay while her colleague shrugs off a missed bonus. The on-screen chart renders every complaint and perk in three color-coded columns, and Nadia's cursor hovers over the salary cell as the player is asked to sort each item.",
+          "player_mission": "Classify each on-screen item into the correct column: baseline rewards, contingent if-then rewards, or punishments. Confirm that every row belongs to the same category before locking in your answer and explaining your reasoning.",
+          "key_concepts": [
+            "Baseline rewards are salary, contract payments, benefits, and perks that let people earn a living.",
+            "If someone's baseline rewards are inadequate or inequitable, her focus turns to the unfairness of her situation and the anxiety of her circumstance.",
+            "Below the baseline threshold, you get neither the predictability of extrinsic motivation nor the weirdness of intrinsic motivation - you get very little motivation at all.",
+            "Once baseline rewards are past that threshold, carrots and sticks can achieve precisely the opposite of their intended aims.",
+            "Motivation 2.0 rests on two simple ideas: rewarding an activity gets you more of it and punishing an activity gets you less of it.",
+            "Pink calls baseline rewards the starting point for any discussion of motivation in the workplace.",
+            "Rewards below the fairness threshold cannot be substituted by perks or prizes of any kind.",
+            "The threshold logic mirrors Newton's first law: elegant and simple principles that fail at the subatomic scale of the third drive."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the baseline-rewards threshold: adequate and equitable pay removes financial anxiety so that deeper motivation can operate, while inadequate pay dominates all attention. Pink argues the threshold must be crossed before either extrinsic predictability or intrinsic motivation can surface at all.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "Nadia's chart lists items from the chapter's opening discussion of workplace motivation. Which single kind of reward do ALL of the following rows describe?",
+          "column_a_label": "Baseline rewards - adequate and equitable salary, contract payments, benefits, and perks",
+          "column_b_label": "Contingent 'if-then' rewards - bonuses promised in advance and tied to specific performance",
+          "column_c_label": "Punishments - fines and penalties imposed on unwanted behavior",
+          "rows": [
+            {
+              "label": "A salary that meets the simple fact of life that people have to earn a living",
+              "col": "a"
+            },
+            {
+              "label": "Contract payments and standard benefits such as health insurance",
+              "col": "a"
+            },
+            {
+              "label": "A modest perks package that keeps employees from obsessing over unfairness",
+              "col": "a"
+            },
+            {
+              "label": "The threshold below which an employee's focus shifts to the unfairness of her situation",
+              "col": "a"
+            },
+            {
+              "label": "The floor that must be crossed before either extrinsic or intrinsic motivation can flourish",
+              "col": "a"
+            },
+            {
+              "label": "The starting point of workplace motivation that Pink discusses before any carrot or stick",
+              "col": "a"
+            },
+            {
+              "label": "Money that, when missing, produces anxiety and very little motivation of any sort",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Bonus checks contingent on hitting quarterly targets",
+            "Fines charged for arriving late",
+            "Prize certificates promised for completing a task"
+          ],
+          "explanation": "Every row names a piece of baseline reward - salary, contract payments, benefits, and perks - or a property of the threshold itself. Baseline rewards are not contingent on performance and not punitive; they simply make compensation adequate and equitable so that the anxiety of unfairness does not crowd out all motivation, which is exactly why none of the rows describes an if-then bonus or a fine."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The Hidden Costs of Rewards (Preschool Drawing Study)",
+          "visual_frame_description": "Inside a sunlit preschool classroom, three teachers lay out paper and markers during free play while two researchers watch from behind a one-way mirror. In the corner, a child who once loved drawing now pushes a crayon away. Floating labels identify each experimental group, and the player must identify which group every observed behavior describes.",
+          "player_mission": "Match each two-week-later observation to its experimental group: expected-award, unexpected-award, or no-award children. Identify the single group that every row describes and defend the classification.",
+          "key_concepts": [
+            "Lepper, Greene, and Nisbett watched preschoolers during free play to identify children who chose to spend time drawing.",
+            "The 'expected-award' children were shown a 'Good Player' certificate and asked if they wanted to draw in order to receive it.",
+            "The 'unexpected-award' children were simply asked to draw and received a certificate only afterward.",
+            "The 'no-award' children drew without any promise or delivery of a certificate.",
+            "Two weeks later, the expected-award children showed much less interest and spent much less time drawing.",
+            "Unexpected-award and no-award children drew just as much, and with the same relish, as before the experiment.",
+            "Only contingent rewards - if you do this, then you'll get that - had the negative effect on intrinsic motivation.",
+            "If-then rewards require people to forfeit some of their autonomy, draining an activity of its enjoyment.",
+            "The classic 1978 volume on these findings was called 'The Hidden Costs of Rewards,' edited by Lepper and Greene.",
+            "The phenomenon was described earlier as the Sawyer Effect: rewards can transform an interesting task into a drudge."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the hidden costs of contingent rewards: expected, promised prizes turned drawing from play into work, while unexpected or absent rewards left intrinsic motivation intact. Deci's later analysis of 128 experiments confirmed that tangible rewards tend to have a substantially negative effect on intrinsic motivation.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "The classroom observations below were recorded two weeks after the experiment ended. Which group of children do ALL of these observations describe?",
+          "column_a_label": "Expected-award children - promised a 'Good Player' certificate for drawing",
+          "column_b_label": "Unexpected-award children - received a certificate only after choosing to draw",
+          "column_c_label": "No-award children - neither promised nor given any certificate",
+          "rows": [
+            {
+              "label": "Two weeks later showed much less interest in drawing",
+              "col": "a"
+            },
+            {
+              "label": "Spent much less time with the paper and markers set out during free play",
+              "col": "a"
+            },
+            {
+              "label": "Children who had clearly enjoyed drawing before the reward was introduced",
+              "col": "a"
+            },
+            {
+              "label": "The group in which the Sawyer Effect had taken hold",
+              "col": "a"
+            },
+            {
+              "label": "Those whose intrinsic motivation was dampened by an expected, promised prize",
+              "col": "a"
+            },
+            {
+              "label": "The children for whom those alluring prizes had turned play into work",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Children who drew as much and with as much relish as before the experiment",
+            "Children who never saw a certificate at any point",
+            "Children whose drawing time increased after receiving an award"
+          ],
+          "explanation": "All six rows describe the expected-award group: children promised a certificate in advance who, two weeks later, drew less. The unexpected-award and no-award groups maintained their prior interest, which is why those groups appear in the distractors rather than the rows - the distinguishing variable was not the reward itself but whether it was contingent and expected."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Heuristic Tasks and Reward-Narrowed Focus",
+          "visual_frame_description": "On a laboratory desk sit a candle, a box of tacks, and a book of matches beside a wooden wall. A clock ticks as two participants stare at the materials, one of them glancing nervously at a stopwatch that promises a $5 prize. The screen asks the player to sort seven task descriptions into the category they all share.",
+          "player_mission": "Determine which kind of task all seven rows describe: heuristic, algorithmic, or purely mechanical. Apply the candle-problem logic to lock in the classification.",
+          "key_concepts": [
+            "The candle problem, devised by psychologist Karl Duncker in the 1930s, asks people to attach a candle to a wall so wax doesn't drip on the table.",
+            "The solution requires overcoming 'functional fixedness' - seeing the tack box not as a container but as a platform for the candle.",
+            "Sam Glucksberg timed two groups solving the candle problem, offering $5 to the fastest quarter and $20 to the fastest solver.",
+            "The incentivized group took nearly three and a half minutes longer to find the solution.",
+            "Rewards narrow our focus; that is helpful when there is a clear path to a solution, but they blinkered the wide view that allows new uses for old objects.",
+            "Amabile has found that extrinsic rewards can be effective for algorithmic tasks but dangerous for right-brain undertakings.",
+            "Algorithmic tasks depend on following an existing formula to its logical conclusion.",
+            "Rewarded subjects often have a harder time seeing the periphery and crafting original solutions.",
+            "Intrinsic motivation - doing something because it is interesting, challenging, and absorbing - is essential for high levels of creativity."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the distinction between heuristic and algorithmic tasks: contingent rewards narrow focus, which helps on formula-driven tasks but cripples open-ended, inventive problem solving. Glucksberg's timed candle experiments showed the prize-seeking group solving the puzzle on average three and a half minutes slower than the reward-free group.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "All of the rows below are examples of the same kind of task - the kind where 'if-then' rewards narrow focus and hurt performance. Which kind is it?",
+          "column_a_label": "Heuristic, right-brain tasks - demand flexible problem-solving, inventiveness, and conceptual understanding",
+          "column_b_label": "Algorithmic tasks - following an existing formula to its logical conclusion",
+          "column_c_label": "Mechanical tasks - pure motor skill with no cognitive demand",
+          "rows": [
+            {
+              "label": "Solving Duncker's candle problem",
+              "col": "a"
+            },
+            {
+              "label": "Iterating a novel product design that has never been tried before",
+              "col": "a"
+            },
+            {
+              "label": "Discovering a nonobvious solution when there is no set path to follow",
+              "col": "a"
+            },
+            {
+              "label": "Producing an original artistic work from a blank canvas",
+              "col": "a"
+            },
+            {
+              "label": "Seeing the periphery of a problem and spotting new uses for old objects",
+              "col": "a"
+            },
+            {
+              "label": "Conceptual work that demands breaking from the path to find a novel strategy",
+              "col": "a"
+            },
+            {
+              "label": "The kind of undertaking where Amabile found contingent rewards can be dangerous",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Restocking shelves by following a printed store layout",
+            "Executing a standard audit checklist line by line",
+            "Filling a tube assembly in four prescribed steps"
+          ],
+          "explanation": "Each row describes a task solved by heuristics - breaking from a set path to discover a novel strategy, exactly the profile of the candle problem. The distractors are algorithmic or mechanical tasks, where a clear path exists and an incentive can safely accelerate progress, which is why they do not belong in this matrix."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Incentive Size and Performance (Ariely's Madurai Study)",
+          "visual_frame_description": "In a rented hall in Madurai, India, eighty-seven participants fling tennis balls at a target, unscramble anagrams, and repeat strings of digits. A clipboard lists the three prize tiers: 4 rupees, 40 rupees, and 400 rupees - nearly five months' pay. The player must sort the study's findings into the single pattern they all share.",
+          "player_mission": "Classify each finding from the Madurai experiment into the correct column, then identify the pattern that describes all of the results. Choose the column that matches the direction of the incentive-performance relationship.",
+          "key_concepts": [
+            "Dan Ariely and three other economists ran the study in Madurai, India, where living costs allowed large rewards without breaking the researchers' banks.",
+            "Eighty-seven participants played games requiring motor skills, creativity, or concentration: tossing tennis balls at a target, unscrambling anagrams, and recalling strings of digits.",
+            "Reward tiers were 4 rupees (about a day's pay), 40 rupees (about two weeks' pay), and 400 rupees (about five months' pay).",
+            "Participants offered the medium bonus performed no better than those offered the small one.",
+            "The 400-rupee super-incentivized group fared worst of all, lagging behind both other groups by nearly every measure.",
+            "The researchers wrote: 'In eight of the nine tasks we examined across the three experiments, higher incentives led to worse performance.'",
+            "The results were reported for the Federal Reserve Bank of Boston.",
+            "In 2009, scholars at the London School of Economics analyzed fifty-one studies of corporate pay-for-performance plans and found financial incentives can result in a negative impact on overall performance.",
+            "The authors warned that one cannot assume introducing or raising incentives always improves performance."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the incentive-size paradox: for tasks requiring even rudimentary cognitive skill, larger contingent rewards produced worse performance, with the highest-paid group performing worst in eight of nine tasks. The finding held in the LSE's 2009 review of fifty-one pay-for-performance studies, which likewise found incentives can dampen overall performance.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "The rows below are findings from Ariely and colleagues' Madurai experiments. Which single pattern do ALL of them describe?",
+          "column_a_label": "Higher incentives led to worse performance, with the biggest rewards backfiring",
+          "column_b_label": "Higher incentives steadily improved performance on every task",
+          "column_c_label": "Incentives affected only physical effort and never cognitive or creative tasks",
+          "rows": [
+            {
+              "label": "Participants offered 400 rupees lagged behind both smaller-reward groups by nearly every measure",
+              "col": "a"
+            },
+            {
+              "label": "The medium-bonus group performed about the same as the small-bonus group",
+              "col": "a"
+            },
+            {
+              "label": "In eight of the nine tasks across the three experiments, higher incentives led to worse performance",
+              "col": "a"
+            },
+            {
+              "label": "Larger rewards backfired on tasks requiring motor skills, creativity, or concentration",
+              "col": "a"
+            },
+            {
+              "label": "A result the researchers reported to the Federal Reserve Bank of Boston",
+              "col": "a"
+            },
+            {
+              "label": "A pattern echoed by the London School of Economics review of fifty-one pay-for-performance plans",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The largest reward group outscored all others on every task",
+            "The smallest reward group performed worst because the money was meaningless",
+            "Only the anagram task responded to incentive size while all others were unaffected"
+          ],
+          "explanation": "Every row states that bigger monetary incentives coincided with equal or worse performance - the core result of the Madurai study and of the LSE's fifty-one-study review. The distractors assume the Motivation 2.0 pattern of larger rewards producing better performance, which is precisely the assumption the data refuted."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Goal Setting Gone Wild",
+          "visual_frame_description": "Three news screens flicker behind a conference table: a Sears garage overcharging a customer, the Enron tower at dusk, and a Ford Pinto on a test track. A business school panel displays a warning label: 'Goals may cause systematic problems.' The player sorts each scandal into one shared category.",
+          "player_mission": "Sort each corporative scandal or misbehavior into its shared category among three columns. Identify the common mechanism that links Sears, Enron, Ford, and the rest.",
+          "key_concepts": [
+            "Goals can help us tune out distractions, try harder, work longer, and achieve more.",
+            "Business school scholars from Harvard, Kellogg, Eller, and Wharton argued goal setting should be prescribed selectively, presented with a warning label, and closely monitored.",
+            "Goals people set for themselves and devote to attaining mastery are usually healthy.",
+            "Goals imposed by others - sales targets, quarterly returns, standardized test scores - can have dangerous side effects.",
+            "Substantial evidence demonstrates that goal setting can induce unethical behavior.",
+            "Sears imposed a sales quota on its auto repair staff, and workers responded by overcharging customers and completing unnecessary repairs.",
+            "Enron set lofty revenue goals, and the race to meet them by any means catalyzed the company's collapse.",
+            "Ford was so intent on producing a certain car at a certain weight and price by a certain date that it omitted safety checks and unleashed the dangerous Ford Pinto.",
+            "Executives game quarterly earnings, counselors doctor transcripts, and athletes use steroids to trigger bonuses.",
+            "When the reward is the activity itself, there are no shortcuts; the only route to the destination is the high road."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests goal-induced unethical behavior: imposed, short-term, measurable goals narrow focus so sharply that people take the quickest route to the reward, including shortcuts. The scholars' warning label - goals may cause unethical behavior, increased risk taking, and decreased cooperation - is illustrated by Sears, Enron, and Ford.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "The rows below are examples cited in the chapter's discussion of goals. Which single outcome do ALL of them describe?",
+          "column_a_label": "Unethical behavior induced by imposed, extrinsically rewarded goals",
+          "column_b_label": "Healthy self-set mastery goals that deepen learning",
+          "column_c_label": "Goals that increase cooperation and reduce risk taking",
+          "rows": [
+            {
+              "label": "Sears' auto repair staff overcharging customers and completing unnecessary repairs to meet quotas",
+              "col": "a"
+            },
+            {
+              "label": "Enron's race to meet lofty revenue goals by any means possible",
+              "col": "a"
+            },
+            {
+              "label": "Ford omitting safety checks to produce its Pinto at the targeted weight, price, and date",
+              "col": "a"
+            },
+            {
+              "label": "Executives gaming quarterly earnings so they can snag a performance bonus",
+              "col": "a"
+            },
+            {
+              "label": "Secondary school counselors doctoring transcripts so seniors can get into college",
+              "col": "a"
+            },
+            {
+              "label": "Athletes injecting steroids to post better numbers and trigger lucrative bonuses",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Students choosing difficult problems to learn more in a subject they love",
+            "Teams sharing information voluntarily to improve a joint design",
+            "Workers doing the bare minimum to collect a paycheck"
+          ],
+          "explanation": "Every example is a documented case of people taking the low road to reach an imposed, extrinsically rewarded goal - overcharging, doctoring records, doping, or omitting safety checks. The distractors describe mastery-oriented self-chosen goals, where no shortcut exists because the person disadvantaged would be oneself."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The Sawyer Effect (Tom Sawyer's Fence)",
+          "visual_frame_description": "A sleepy Missouri fence line on a Saturday morning: Tom Sawyer drags a brush across the whitewash while Ben Rogers ambles by, apple in hand, laughing at Tom's 'sorry lot.' Tom suddenly straightens up and announces that painting a fence is a fantastic privilege - so captivating that he refuses to let Ben try, until Ben trades the apple for a few strokes.",
+          "player_mission": "Study the fence scene and identify the motivational principle Twain extracts from it. Then take over as a summer camp arts director who must decide whether to pay kids for painting a mural, choosing the option that preserves intrinsic motivation.",
+          "key_concepts": [
+            "Tom Sawyer was faced with whitewashing Aunt Polly's 810-square-foot fence and found the task a burden.",
+            "When Ben mocked him, Tom pretended the job was a fantastic privilege, and Ben traded his apple for the chance to paint.",
+            "Twain's principle: 'Work consists of whatever a body is OBLIGED to do, and that Play consists of whatever a body is not obliged to do.'",
+            "English gentlemen drove four-horse passenger coaches for the privilege of paying for it, but would resign if offered wages.",
+            "Rewards can perform behavioral alchemy: they can transform an interesting task into a drudge and turn play into work.",
+            "The Sawyer Effect can diminish performance, creativity, and even upstanding behavior.",
+            "Only contingent, expected 'if-then' rewards dampen intrinsic motivation.",
+            "Rewards narrow our focus; that is helpful on routine tasks but harmful on inventive ones."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests the Sawyer Effect: a contingent reward converts an intrinsically interesting activity into an obligation, draining it of enjoyment. Twain's carriage-driving gentlemen and the preschool drawing experiments both show that paying or rewarding people for what they already enjoy can make them enjoy it far less.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "The Sawyer Effect is the central concept: rewards can perform a weird sort of behavioral alchemy, transforming an interesting task into a drudge and turning play into work. Because Tom turned a chore into a privilege, other boys paid for the right to do it - the reverse of paying people to do what they already love.",
+          "stage_1_observation": "Watch the fence scene: first Tom is miserable at the thought of whitewashing, then, when Ben arrives, he acts as if painting is a privilege. Ben begs to try. Next to the scene, a footnote shows wealthy English gentlemen paying money to drive four-horse coaches - yet the story says they would resign if offered wages for the service.",
+          "stage_1_question": "Why would the gentlemen who pay to drive coaches resign if wages were offered, and why did Ben hand over his apple? Options: A) Money makes the activity feel valuable and worth having. B) Being paid converts a privilege into an obligation, draining the activity of its intrinsic enjoyment. C) People only enjoy activities that cost them something. D) The gentlemen feared the wages would attract competition.",
+          "stage_1_correct_answer": "B) Being paid converts a privilege into an obligation, draining the activity of its intrinsic enjoyment. Twain's principle is that work is what a body is obliged to do and play is what it is not obliged to do - offering wages turns play into work, and that is precisely the behavioral alchemy the Sawyer Effect describes.",
+          "stage_2_intervention": "You are the director of a summer arts camp. Nine-year-old campers love painting the mural wall, and the wall is half finished with two weeks left. A well-meaning counselor suggests offering each camper $5 for every quarter of the mural they complete to guarantee it gets done. You must decide how to structure the mural project.",
+          "stage_2_correct_answer": "Skip the per-section payment. Offering a contingent, expected 'if-then' prize would convert their play into work and drain the enjoyment from painting - exactly what happened to the preschoolers promised a 'Good Player' certificate. Keep the reward the activity itself, step back, and let the campers finish the wall as play.",
+          "stage_1_options": "A) Money makes the activity feel valuable and worth having. B) Being paid converts a privilege into an obligation, draining the activity of its intrinsic enjoyment. C) People only enjoy activities that cost them something. D) The gentlemen feared the wages would attract competition."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Blood Donation and Crowding Out Altruism",
+          "visual_frame_description": "At a regional blood center in Gothenburg, Sweden, a recruiter hands a clipboard to one of 153 women in a bright waiting room. Three sign-up tables are labeled: voluntary, 50 kronor payment, and 50 kronor payable to a children's cancer charity. Donation rates appear on a screen as the player weighs national blood policy.",
+          "player_mission": "Analyze the three donation conditions and predict their outcomes based on crowding-out. Then step into the health ministry and choose the payment policy that protects altruistic donation rather than suppressing it.",
+          "key_concepts": [
+            "In 1970, British sociologist Richard Titmuss speculated that paying for blood would actually reduce the blood supply.",
+            "Two Swedish economists tested Titmuss's hunch at a regional blood center in Gothenburg with 153 interested women.",
+            "The voluntary group, offered no payment, saw 52 percent of women donate blood.",
+            "The group offered 50 kronor (about $7) saw only 30 percent of women donate - nearly half as many.",
+            "The group offered 50 kronor with an immediate option to donate it to a children's cancer charity saw 53 percent donate.",
+            "Payment tainted an altruistic act and 'crowded out' the intrinsic desire to do something good.",
+            "The reward itself was not inherently destructive; the option to give it away negated the effect.",
+            "When the Italian government gave blood donors paid time off work, donations increased because the law removed an obstacle to altruism.",
+            "Mixing rewards with inherently noble tasks is dangerous, but some rewards are not inherently bad in all circumstances.",
+            "Voluntary blood donations invariably increase during natural disasters and other calamities."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests motivational crowding-out: offering cash for an altruistic act converts a moral act into a transaction, and donation rates collapsed from 52 percent to 30 percent. Titmuss's philosophical hunch was confirmed in Gothenburg, while the Italian paid-time-off example shows rewards that remove obstacles do not crowd out generosity.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "The central concept is crowding out: when a monetary incentive is attached to an intrinsically noble act, the payment taints the act and suppresses the intrinsic desire to do good. The Gothenburg experiment showed payment nearly halving donation rates, while an option to donate the fee to charity restored participation to voluntary levels.",
+          "stage_1_observation": "Observe the Gothenburg recruitment room: the recruiter explains each group's terms before anyone commits. The voluntary table fills steadily; the cash table's sign-ups stall. On screen, bars track the eventual donation rates: 52 percent voluntary, 30 percent paid, 53 percent charity-option, and a footnote shows donations from paid-time-off donors in Italy climbing.",
+          "stage_1_question": "What do the final donation rates reveal about adding a monetary incentive to an altruistic act? Options: A) Cash raised donation rates, confirming Motivation 2.0. B) Cash nearly halved donation rates, crowding out the intrinsic desire to do good. C) Cash had no effect whatsoever on any group. D) Cash only affected first-time donors, not regular ones.",
+          "stage_1_correct_answer": "B) Cash nearly halved donation rates, crowding out the intrinsic desire to do good. The 50-kronor payment dropped participation from 52 percent to 30 percent, while the charity-option group behaved like the voluntary group - evidence that the payment tainted the altruistic act and suppressed it, exactly as Titmuss predicted.",
+          "stage_2_intervention": "As director of the national health ministry, you must choose a policy for boosting the blood supply. The options: A) Pay every donor 50 kronor cash, escalating to 100 kronor if donations lag. B) Offer paid time off work for donation, as Italy did. C) Add a small cash bonus only during seasonal shortages. D) Require employers to hold 'donation day' events with door prizes for attendance.",
+          "stage_2_correct_answer": "B) Offer paid time off work for donation, as Italy did. This reward removes an obstacle to altruism without tainting the act itself, so donations increased rather than declining. Cash payment for giving blood would crowd out the intrinsic desire to do good, and escalating or door-prize schemes attach transactions to the act instead of removing barriers.",
+          "stage_1_options": "A) Cash raised donation rates, confirming Motivation 2.0. B) Cash nearly halved donation rates, crowding out the intrinsic desire to do good. C) Cash had no effect whatsoever on any group. D) Cash only affected first-time donors, not regular ones."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The Haifa Day-Care Fine",
+          "visual_frame_description": "At a sunny day care center in Haifa, Israel, parents rush through the lobby doors at 4:10 P.M. while a toddler waves from the window. A freshly posted sign announces a NS 10 fine for late pickup, approved by the Authority for Private Day-Care Centers in Israel. Below the sign, a chart climbs week by week.",
+          "player_mission": "Study the day-care experiment's design and predict what the fine did, then decide the manager's next move when the fine backfires. Choose the intervention that restores punctuality without converting a moral obligation into a transaction.",
+          "key_concepts": [
+            "Economists Uri Gneezy and Aldo Rustichini studied child care facilities in Haifa, Israel, for twenty weeks.",
+            "During the first four weeks, they recorded how many parents arrived late each week as a baseline.",
+            "Before the fifth week, a sign was posted imposing a NS 10 fine on parents who collected children after 16:10.",
+            "The theory was: 'When negative consequences are imposed on a behavior, they will produce a reduction of that particular response.'",
+            "After the fine, the economists observed a steady increase in the number of parents coming late.",
+            "The late rate finally settled at a level higher and almost twice as large as the initial one.",
+            "The 'possibility of an increase in the behavior being punished was not even considered' in the literature.",
+            "Parents were punctual partly from an intrinsic desire to treat the teachers fairly.",
+            "The fine shifted the parents' decision from a partly moral obligation to a pure transaction - there wasn't room for both.",
+            "The punishment didn't promote good behavior; it crowded it out."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests crowding out by punishment: the fine converted a moral obligation toward the teachers into a purchasable transaction, and lateness nearly doubled instead of falling. Gneezy and Rustichini showed the threat of a fine edged aside the third drive, exactly as the kronor payment did in the blood experiment.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "The central concept is that punishment, like reward, can crowd out intrinsic motivation: parents were punctual out of fairness toward the teachers, but the fine reframed lateness as a purchasable transaction. The result was a steady increase in lateness to nearly twice the baseline rate.",
+          "stage_1_observation": "Observe the four-week baseline: a modest number of parents arrive late each week, and teachers stay an extra few minutes without complaint. When the NS 10 fine sign goes up before week five, track the weekly chart. The line drifts upward for weeks instead of falling, and the economists' notes describe 'head scratching' at a result the literature never anticipated.",
+          "stage_1_question": "What happened to the number of late parents after the fine was introduced? Options: A) Lateness fell sharply and stayed low. B) Lateness was unchanged from the baseline. C) Lateness rose steadily, settling at a level almost twice the initial one. D) Lateness briefly fell, then returned exactly to baseline.",
+          "stage_1_correct_answer": "C) Lateness rose steadily, settling at a level almost twice the initial one. Instead of reducing the punished response, the fine increased it: the threat converted a moral obligation into a transaction, and the literature had not even considered the possibility that the punished behavior would increase.",
+          "stage_2_intervention": "Six weeks into the experiment, you are the day-care manager watching the board meet: one member wants to double the fine to NS 20; another wants to add a public wall listing the names of late parents; a third argues the fine should simply be withdrawn and the original announcement apologized for. You must choose the board's course.",
+          "stage_2_correct_answer": "Withdraw the fine and repair the moral relationship. Doubling the fine or publishing names deepens the transaction and adds humiliation; the experiment shows the fine itself crowded out parents' intrinsic desire to be scrupulous about punctuality with the teachers. Removing it restores the partly moral obligation that originally kept most parents on time.",
+          "stage_1_options": "A) Lateness fell sharply and stayed low. B) Lateness was unchanged from the baseline. C) Lateness rose steadily, settling at a level almost twice the initial one. D) Lateness briefly fell, then returned exactly to baseline."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Reward Anticipation and Addiction (Knutson's Scanner)",
+          "visual_frame_description": "Inside an fMRI lab, a volunteer lies in a giant scanner while a screen flashes win and loss conditions. A brain map lights up the nucleus accumbens in warm gold whenever a cash win is anticipated. Beside the scan, the economist Anton Suvorov's equations scroll, and a casino floor glitters in the background.",
+          "player_mission": "Interpret the brain-scan evidence about reward anticipation, then act as a sales director deciding whether to escalate your sales contest prizes. Choose the policy that avoids turning rewards into an addiction-like escalation.",
+          "key_concepts": [
+            "Brian Knutson used fMRI to watch volunteers' brains during a game involving the prospect of winning or losing money.",
+            "When participants knew they had a chance to win cash, a burst of the brain chemical dopamine surged to the nucleus accumbens.",
+            "The same basic physiological process that occurs in reward anticipation is what happens in addiction.",
+            "Most addictive drugs send a fusillade of dopamine to the nucleus accumbens; the feeling delights, then dissipates, then demands another dose.",
+            "Brain scans of people anticipating monetary rewards look disturbingly similar to scans of people given cocaine, nicotine, or amphetamines.",
+            "Knutson found that activation in the nucleus accumbens predicts both risky choices and risk-seeking mistakes.",
+            "Casinos surround guests with reward cues because anticipation of rewards may push people from risk-averse to risk-seeking behavior.",
+            "Anton Suvorov's principal-agent model shows a contingent reward signals the task is undesirable and forces the principal to keep offering rewards.",
+            "Once a reward is offered, 'the principal is doomed to give it again in the second' round, and larger payments are eventually required.",
+            "Paying people to stop smoking often works in the short run because it replaces one dangerous addiction with another more benign one."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the addictive character of contingent rewards: anticipated rewards trigger dopamine surges in the nucleus accumbens mirroring drug addiction, and Suvorov's model shows the giver becomes trapped in escalating payments. Reward anticipation also fuels risky, risk-seeking mistakes rather than wiser decisions.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "The central concept is reward addiction: contingent rewards trigger the same dopamine-to-nucleus-accumbens response as addictive drugs, and once offered they make the recipient expect them on every similar task, forcing givers to escalate. Anticipated rewards also predict risky, risk-seeking mistakes rather than better decisions.",
+          "stage_1_observation": "Watch the scanner screen: when the game signals a potential win, the nucleus accumbens lights up; when a potential loss is signaled, it stays dark. A graph overlays Knutson's finding that the same activation predicts risky choices and risk-seeking mistakes, and Suvorov's model shows a principal who pays once is 'doomed to give it again in the second.'",
+          "stage_1_question": "What does activation in the nucleus accumbens during reward anticipation predict? Options: A) Perfectly rational, risk-averse decision making. B) Both risky choices and risk-seeking mistakes. C) A temporary increase in cooperation with rivals. D) No observable change in any subsequent behavior.",
+          "stage_1_correct_answer": "B) Both risky choices and risk-seeking mistakes. Knutson found nucleus accumbens activation predicts risky choices and risk-seeking mistakes, which is why casinos surround guests with reward cues - anticipation of rewards can switch people from risk-averse to risk-seeking behavior.",
+          "stage_2_intervention": "You direct sales at a software company. Your quarterly contest prizes have already grown from $500 to $2,000 because reps shrug off the smaller amounts, and several reps now ask which prize bump they will get before agreeing to run new campaigns. The VP proposes a $10,000 mega-prize drawing at year-end to 'get everyone fired up.' Decide how to respond.",
+          "stage_2_correct_answer": "Reject the escalating mega-prize and unwind the contingent contest. The pattern described is textbook reward escalation: each prize becomes the status quo and demands a larger one, while the anticipation fuels risky, reward-chasing behavior rather than better performance. Keep baseline pay fair, give public noncontingent recognition, and stop dangling ever-larger carrots.",
+          "stage_1_options": "A) Perfectly rational, risk-averse decision making. B) Both risky choices and risk-seeking mistakes. C) A temporary increase in cooperation with rivals. D) No observable change in any subsequent behavior."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Quarterly Earnings and Short-Term Myopia",
+          "visual_frame_description": "In a glass-walled conference room, two stock charts hang side by side: one company guides analysts every quarter, the other rarely. A ticker scrolls earnings estimates while a researcher's note reads: 'The very presence of goals may lead employees to focus myopically on short-term gains.' In the corner, a 2008 housing-for-sale sign rots at an angle.",
+          "player_mission": "Evaluate the evidence linking quarterly guidance to long-term growth, then decide as CFO whether executive pay should ride on quarterly earnings. Choose the policy that lifts the company's sights toward the horizon.",
+          "key_concepts": [
+            "Extrinsic motivators can reduce the depth of thinking, focusing people on what is immediately before them rather than the distance.",
+            "Publicly held companies often aim single-mindedly at performance over the next three months, obsessing over quarterly earnings.",
+            "Researchers found that companies that spend the most time offering guidance on quarterly earnings deliver significantly lower long-term growth rates.",
+            "Earnings-obsessed companies typically invest less in research and development.",
+            "The scholars warned: 'The very presence of goals may lead employees to focus myopically on short-term gains.'",
+            "In the 2008-2009 economic calamity, each player focused on short-term reward and ignored long-term effects on themselves or others.",
+            "Economic bubbles are a bad case of extrinsically motivated myopia.",
+            "Mastery is inherently long-term because complete mastery is unattainable - even Roger Federer will never fully master tennis.",
+            "Schoolchildren paid to solve problems typically choose easier problems and therefore learn less.",
+            "Students who get a prize for reading three books often won't pick up a fourth.",
+            "Greatness and nearsightedness are incompatible; meaningful achievement depends on lifting one's sights toward the horizon."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the short-term myopia induced by tangible if-then motivators: a laser focus on quarterly earnings narrows the horizon, depresses R&D, and yields lower long-term growth. The 2008 crisis illustrated how everyone gaming the near-term reward nearly collapsed the entire system.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "The central concept is extrinsically motivated myopia: tangible if-then rewards focus attention on the immediate prize and crowd out the long view. Companies obsessed with quarterly guidance grow more slowly in the long run, a pattern the 2008 economic crisis made vivid.",
+          "stage_1_observation": "Observe the two companies: Meridian spends enormous resources guiding analysts each quarter and resists R&D proposals; Vista quietly builds a two-year product plan and rarely offers earnings guidance. A note on the researcher's desk links heavy guidance to lower long-term growth, and a chart shows quarterly beaters lagging over five years.",
+          "stage_1_question": "What do researchers find about companies that spend the most time offering guidance on quarterly earnings? Options: A) They deliver the highest long-term growth because transparency attracts investors. B) They deliver significantly lower long-term growth rates and typically invest less in R&D. C) They show identical growth to non-guiding companies once risk is adjusted. D) They outperform all competitors during recessions only.",
+          "stage_1_correct_answer": "B) They deliver significantly lower long-term growth rates and typically invest less in R&D. The earnings-obsessed companies successfully achieve their short-term goals while threatening the health of the company two or three years hence - exactly the myopia the goal-setting researchers warn about.",
+          "stage_2_intervention": "You are founding CFO of a new division and must design executive compensation: Option A) All bonuses tied to beating quarterly EPS estimates. B) Salaries at market baseline with 70 percent of incentive pay tied to three-year goals and customer outcomes. C) A quarterly EPS bonus plus R&D budget cuts to fund it. D) Payment in stock options that vest only if the stock hits an 18-month target.",
+          "stage_2_correct_answer": "B) Salaries at market baseline with 70 percent of incentive pay tied to three-year goals and customer outcomes. This keeps baseline rewards adequate while stretching the compensation horizon past the quarterly obsession that depressed growth, reduced R&D, and fed the myopic behavior behind the 2008 crisis. The other options all concentrate attention on near-term numbers.",
+          "stage_1_options": "A) They deliver the highest long-term growth because transparency attracts investors. B) They deliver significantly lower long-term growth rates and typically invest less in R&D. C) They show identical growth to non-guiding companies once risk is adjusted. D) They outperform all competitors during recessions only."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The Math Workbook Allowance (Suvorov's Addictive Rewards)",
+          "visual_frame_description": "In a warm kitchen on a Tuesday evening, nine-year-old Maya slumps over a math workbook while her father Marcus washes dishes and her mother Eva sips tea at the table. The workbook has a half-finished page; a stack of LEGO bricks sits untouched on the counter, and a piggy bank on the shelf catches the lamplight.",
+          "player_mission": "Listen to the family debate about paying Maya for workbook pages and choose what Marcus actually says to her. Select the response that protects Maya's intrinsic motivation and avoids locking the family into escalating payments.",
+          "key_concepts": [
+            "Rewarding an activity will get you more of it; punishing it will get you less - the two elegant ideas of Motivation 2.0.",
+            "Contingent 'if-then' rewards require people to forfeit some of their autonomy.",
+            "If-then rewards can spring a hole in the bottom of the motivational bucket, draining an activity of its enjoyment.",
+            "Suvorov's principal-agent model: by offering a reward, a principal signals to the agent that the task is undesirable.",
+            "Pay your son to take out the trash and you have pretty much guaranteed the kid will never do it again for free.",
+            "Once offered, a contingent reward makes an agent expect it whenever a similar task is faced, compelling the principal to use rewards over and over again.",
+            "The existing reward will quickly feel less like a bonus and more like the status quo, forcing larger rewards to achieve the same effect.",
+            "Anticipated rewards trigger dopamine to the nucleus accumbens, the same circuitry as addiction.",
+            "Schoolchildren paid to solve problems typically choose easier problems and therefore learn less.",
+            "Try to encourage a kid to learn math by paying her for each workbook page and she will become more diligent in the short term but lose interest in math in the long term."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This dialogue tests Suvorov's reward-addiction model and the Sawyer Effect: an if-then payment signals that math is undesirable, teaches Maya to expect payment, and drains the activity's intrinsic appeal. Pink warns that per-page payments produce short-term diligence but long-term loss of interest in math.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "scenario_setup": "Marcus is fed up with nightly battles over Maya's math workbook. He proposes paying Maya $2 per completed page, hoping short-term diligence will build a habit. Eva is uneasy - she remembers the family's reading program where the same trick produced three books and then nothing. Marcus has to decide what to say to Maya tonight, and the stakes are Maya's long-term attitude toward math and whether homework remains a nightly fight.",
+          "dialogue": [
+            "Eva: Marcus, don't. In the summer reading program we paid her per book, and she read exactly three - the minimum - and has barely touched a book since.",
+            "Marcus: But that's different, the pages are the problem. If I pay per page, she'll actually sit down and finish the workbook.",
+            "Maya: (looking up from her workbook) Are you going to give me money for doing pages?",
+            "Eva: The bigger issue is what the money says about the math. If we pay her, we're telling her math is a chore that nobody would do for free.",
+            "Marcus: But at least the pages would get done tonight.",
+            "Maya: I hate that the page has twenty questions. I only want to do the geometry ones.",
+            "Eva: Then let her choose the geometry ones. She's not going to enjoy it more because you're waving a dollar at her.",
+            "Marcus: (sighs) Alright, I need to actually decide what I'm going to say to her."
+          ],
+          "choices": [
+            "Maya, I'll give you two dollars for every workbook page you finish tonight. The more you do, the more you earn.",
+            "Let's leave the money out of it. Maya, which pages look most interesting to you? Show me the tricky ones and we'll crack them together.",
+            "If you don't finish three pages tonight, no LEGO for the rest of the week. Your call.",
+            "If you finish all five pages tonight, I'll double your allowance this month - the whole five dollars."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Suvorov's reward-addiction model and the Sawyer Effect: a contingent reward signals that the task is undesirable and forces the giver to keep paying, while an if-then payment drains intrinsic motivation, converting play into work and leaving little motivation once the prize disappears.",
+          "psychological_breakdown": "Choice 1 works because it keeps the reward the activity itself - Maya's curiosity about geometry - and treats the task as something jointly interesting, mirroring how intrinsic motivation survives only without contingent payments. Choice 0 creates the exact if-then trap: short-term diligence, a fading buzz, and a guarantee she will expect payment for every future page. Choice 2 substitutes a stick for a carrot, which crowds out the moral or intrinsic pull just as the day-care fine did, and Choice 3 merely converts the per-page bribe into an conditional allowance - still a contingent deal that signals math is undesirable work."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The Quarter-End Revenue Call",
+          "visual_frame_description": "In a corner office at Meridian Software on the last day of the quarter, regional sales director Tom leans over a spreadsheet glowing with a $400,000 revenue gap. Account executive Priya sits across from him, phone in hand, listening to a customer who has not yet signed. The clock on the wall reads 3:47 P.M.",
+          "player_mission": "Play Priya and decide how to answer Tom's pressure to book unearned revenue before midnight. Choose the response that refuses the shortcut and defends the high-road logic of intrinsic motivation.",
+          "key_concepts": [
+            "When an extrinsic goal is paramount - particularly a short-term, measurable one with a big payoff - it can restrict our view of the broader dimensions of our behavior.",
+            "Goal setting can induce unethical behavior: executives game quarterly earnings so they can snag a performance bonus.",
+            "The problem with making an extrinsic reward the only destination that matters is that some people will choose the quickest route there, even if it means taking the low road.",
+            "When the reward is the activity itself, there are no shortcuts; the only route to the destination is the high road.",
+            "It is almost impossible to act unethically when the person disadvantaged is not a competitor but yourself.",
+            "The very presence of goals may lead employees to focus myopically on short-term gains and lose sight of long-term effects.",
+            "Financial incentives can result in a negative impact on overall performance, per the LSE review of fifty-one pay-for-performance plans.",
+            "Rewards narrow our focus, which is helpful when there is a clear path but dangerous otherwise."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This dialogue tests the unethical-behavior flaw of if-then goals: the quarterly bonus narrows Tom's focus so far that he asks a rep to record revenue that is not earned. Pink notes that when the reward is the activity itself there are no shortcuts, because the person disadvantaged would be oneself.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "scenario_setup": "Priya is four days from closing a genuinely good deal with a hospital network, but the contract has not been signed. Tom's bonus - and Priya's - depends on hitting the quarter's number, and Tom suggests flagging the deal as revenue now and backdating paperwork after the signature. The conversation happens in front of finance's open-door policy, and the stakes are Priya's integrity, the company's books, and her relationship with the buyer.",
+          "dialogue": [
+            "Tom: We are $400,000 short with four hours of runway. Your hospital deal pushes us over the line - you just have to get it on the books today.",
+            "Priya: Tom, they haven't signed. Legal review runs through Monday.",
+            "Tom: We both know the deal is good. Flag it as closed tonight, backdate the paperwork when the signature lands. Nobody audits a single deal.",
+            "Priya: If I book revenue that isn't earned, finance will report a quarter that didn't actually happen.",
+            "Tom: That's their problem. My problem is a bonus cliff, and yours is too. Do you want to be a team player here or not?",
+            "Priya: I want to make the number honestly. If recording it now means pretending it happened, I don't think that's teamwork - I think that's what got companies like this one into the news.",
+            "Tom: (long pause) So what are you telling me?"
+          ],
+          "choices": [
+            "Fine - I'll flag it as closed tonight and we'll sort the paperwork after the signature. One deal won't change anything.",
+            "I won't book revenue that isn't earned, Tom. The customer signs Monday and we book it then - and I'll tell finance exactly what happened so we can explain it. My job is to sell well, not to make this quarter look better than it is.",
+            "Let me think about it for an hour. I'll get back to you before the close.",
+            "If I do this for you, I want a guarantee on my commission payout plus a written note that you authorized the timing."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "The unethical-behavior and short-term-myopia flaws of contingent goals: an imposed, short-term, measurable goal narrows focus and clears the way for shortcuts, whereas behavior driven by the activity itself - doing one's best, delighting the customer - leaves no low road because the disadvantaged party would be oneself.",
+          "psychological_breakdown": "Choice 1 refuses the shortcut and makes the customer and the truth the destination: the intrinsic route has no low road, and it protects both Priya and the company from the myopia that produced scandals like Enron. Choice 0 capitulates to the quickest route and would corrupt the books for a bonus cliff. Choice 3 is passive - the ambiguity leaves Tom free to book the revenue himself, and Choice 4 merely asks for better terms on the same unethical act, confirming that contingent rewards can convert people into willing participants in short-term gaming."
+        }
+      ]
+    },
+    {
+      "id": "ch07",
+      "title": "CHAPTER 2A - . . . and the Special Circumstances When They Do",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Routine Tasks: When 'If-Then' Rewards Work",
+          "visual_frame_description": "In a fluorescent-lit office, a worker rolls posters into mailing tubes, caps them, and applies labels in four mechanical steps, while a colleague stares at an empty design screen. Glucksberg's second candle problem is sketched on a whiteboard: tacks emptied from the box, the solution visible. The player sorts six workplace tasks into their shared category.",
+          "player_mission": "Determine which single category all six workplace examples share - the kind of task where 'if-then' rewards give a safe motivational boost. Classify each row accordingly and confirm the pattern.",
+          "key_concepts": [
+            "Glucksberg's second candle-problem version emptied the tacks onto the desk, revealing the empty box and the solution.",
+            "With the solution revealed, the participants vying for the reward solved the problem faster than their counterparts.",
+            "The first question to ask before using external motivators: is the task at hand routine?",
+            "A routine task requires following a prescribed set of rules to a specified end.",
+            "Deci, Ryan, and Koestner: 'Rewards do not undermine people's intrinsic motivation for dull tasks because there is little or no intrinsic motivation to be undermined.'",
+            "Ariely and his colleagues found that when the task involved only mechanical skill, bonuses worked as expected - the higher the pay, the better the performance.",
+            "When the task called for even rudimentary cognitive skill, a larger reward led to poorer performance.",
+            "For routine tasks, rewards can provide a small motivational booster shot without the harmful side effects.",
+            "Much daily work - TPS reports, boring email, drudge work - still is not all that interesting.",
+            "In these situations it is best to try to turn work into play by increasing variety, making it more game-like, or using it to master other skills."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This matrix tests the ruthe-trine task boundary: conditional rewards safely boost mechanical, rule-following tasks because there is little intrinsic motivation to undermine, as Glucksberg's revealed-solution version demonstrated. The caution is that even rudimentary cognitive skill reverses the effect, with larger rewards producing poorer performance.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "All of the rows below describe the same kind of work - the kind where 'if-then' rewards can safely boost performance. Which kind is it?",
+          "column_a_label": "Routine tasks - prescribed steps to a specified end, with little creative demand",
+          "column_b_label": "Heuristic, creative tasks - require invention, breakthrough thinking, and conceptual insight",
+          "column_c_label": "Tasks requiring even rudimentary cognitive skill, where larger rewards improve performance",
+          "rows": [
+            {
+              "label": "Rolling posters into mailing tubes, capping them, and applying labels and postage",
+              "col": "a"
+            },
+            {
+              "label": "Filling out standard TPS reports",
+              "col": "a"
+            },
+            {
+              "label": "Answering routine, boring email",
+              "col": "a"
+            },
+            {
+              "label": "A four-step assembly job where none of the steps is notably interesting",
+              "col": "a"
+            },
+            {
+              "label": "All manner of drudge work that doesn't necessarily fire the soul",
+              "col": "a"
+            },
+            {
+              "label": "Work where following the prescribed rules takes you to a specified end",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Conceiving an inspiring poster that captivates imaginations and draws a crowd",
+            "Designing an original marketing campaign from a blank page",
+            "Tasks where rewards undermined performance because the box hid the solution"
+          ],
+          "explanation": "Each row names a rule-following task with a clear path and little intrinsic appeal - the profile where contingent rewards act as a safe booster shot. The distractors are creative, heuristic undertakings, where the same rewards narrow focus and backfire, and one decoy misstates the cognitive-skill finding: even rudimentary cognitive skill made larger rewards harmful."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "'Now That' Rewards for Creative Work",
+          "visual_frame_description": "In the design studio of a small nonprofit, Renee and Sam stand beside a finished event poster while their manager Dani holds two cards: one reads 'If you top last year's attendance you'll get a ten-percent bonus,' the other reads 'Now that the poster turned out so well, lunch is on me.' The player must classify each reward description.",
+          "player_mission": "Sort the six reward descriptions into the correct column, identifying the single reward style all rows represent. Lock in the classification and explain why this style protects creativity.",
+          "key_concepts": [
+            "For creative, right-brain, heuristic tasks, offering an 'if-then' reward is a recipe for reduced performance.",
+            "The essential requirement: any extrinsic reward should be unexpected and offered only after the task is complete.",
+            "Where 'if-then' rewards are a mistake, shift to 'now that' rewards - 'Now that you've finished the poster and it turned out so well, I'd like to celebrate by taking you out to lunch.'",
+            "Deci and colleagues: tangible rewards given unexpectedly after a task are less likely to be experienced as the reason for doing the task, and less likely to be detrimental to intrinsic motivation.",
+            "Amabile found in some studies that the highest levels of creativity were produced by subjects who received a reward as a kind of a bonus.",
+            "A cash bonus handed to the design team after a great poster, with nothing promised beforehand, does not snuff their creativity.",
+            "Holding out a prize at the beginning of a project - offered as a contingency - focuses attention on obtaining the reward rather than attacking the problem.",
+            "Repeated 'now that' bonuses can quickly become expected 'if-then' entitlements, which can ultimately crater effective performance.",
+            "Baseline rewards - wages and benefits - must be adequate and fair before any of this works."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This matrix tests the 'now that' reward strategy for nonroutine work: rewards delivered unexpectedly after completion are not experienced as the reason for the task and so preserve intrinsic motivation and creativity. Amabile found the highest creativity among subjects who received such a bonus after the fact.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "All of the rows below are examples of the same style of reward - the one recommended for creative work. Which style is it?",
+          "column_a_label": "A 'now that' reward - unexpected, offered only after the task is complete",
+          "column_b_label": "An 'if-then' reward - promised in advance, contingent on performance",
+          "column_c_label": "Baseline compensation - regular wages and benefits",
+          "rows": [
+            {
+              "label": "'Now that you've finished the poster and it turned out so well, I'd like to celebrate by taking you out to lunch'",
+              "col": "a"
+            },
+            {
+              "label": "Buying the design team a case of beer after the poster is done, with nothing promised beforehand",
+              "col": "a"
+            },
+            {
+              "label": "A cash bonus handed over after the project, when no reward was ever announced",
+              "col": "a"
+            },
+            {
+              "label": "Rewards Amabile found produced the highest levels of creativity",
+              "col": "a"
+            },
+            {
+              "label": "Rewards Deci says are less likely to be experienced as the reason for doing the task",
+              "col": "a"
+            },
+            {
+              "label": "A gesture that simply offers appreciation for stellar work",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Announcing a ten-percent bonus if the poster 'rocks my world' before the team starts",
+            "Promising a reward if attendance tops last year's event",
+            "Crafting a poster because the assignment said exactly how to do it"
+          ],
+          "explanation": "Every row describes a reward that appears only after completion, with no prior promise - the defining feature of 'now that' rewards, which Deci shows are not experienced as the reason for doing the task. The distractors are contingent, announced-in-advance deals that focus attention on the prize and squash heuristic thinking."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The Weekend Poster Mailing (Routine Task Battle)",
+          "visual_frame_description": "At Community Arts Bridge, a small nonprofit, twenty thousand freshly printed posters sit in cardboard stacks while manager Dani stares at her calendar - the mailing must go out this weekend. Her ten staff members lounge by the coffee machine, none eager to spend Saturday rolling posters into tubes. Four recommendation cards lie on her desk.",
+          "player_mission": "Diagnose whether the mailing task is routine, then choose how to enlist the staff for the weekend blitz. Select the plan that combines safe contingent rewards with the three practices that make them work.",
+          "key_concepts": [
+            "The first question when contemplating external motivators: is the task at hand routine?",
+            "This mailing task is the very definition of routine: roll posters, insert into tubes, cap them, apply mailing label and postage - four steps, none notable interesting.",
+            "For routine tasks, rewards can provide a small motivational booster shot without the harmful side effects.",
+            "Coercing people into mind-numbing work may get compliance but damages morale and long-term commitment.",
+            "Tangible contingent rewards can undermine intrinsic motivation and creativity, but those drawbacks matter less when the assignment inspires no deep passion and requires no deep thinking.",
+            "Offer a rationale for why the task is necessary - a boring job becomes more meaningful when part of a larger purpose.",
+            "Acknowledge that the task is boring; the acknowledgment is an act of empathy.",
+            "Allow people to complete the task their own way - think autonomy, not control - stating the outcome you need without specifying each step.",
+            "Piecework payment for every poster inserted, enclosed, and sent is a legitimate option for boosting productivity.",
+            "A big office-wide party or gift certificates for participants are acceptable incentives for routine work."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle applies the routine-task rule: when an assignment is rule-following and uninspiring, contingent rewards are safe because little intrinsic motivation exists to undermine. The chapter's poster-mailing case shows the rewards work best when paired with a rationale, an honest acknowledgment of boredom, and autonomy over method.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "The central concept is the routine-task decision rule from Glucksberg's second candle problem: when the path is clear and the task is mechanical, an if-then reward acts as a booster rather than a poison. The chapter's own example is this weekend poster mailing with its four mechanical steps.",
+          "stage_1_observation": "Observe the mailing room: rolls of posters, tubes, caps, label rolls, and a postage scale laid out along a folding table. One staff member rolls a poster and slips it into a tube to demonstrate; the team watches without volunteering. On your desk, the chapter's question echoes: does this task require following a prescribed set of rules to a specified end?",
+          "stage_1_question": "Is the poster mailing a routine task, and what follows from that classification? Options: A) It is routine, so rewards can safely boost participation with few side effects. B) It is creative, so any reward will crush performance. C) It is routine, but all rewards remain dangerous regardless. D) It is neither routine nor creative, so motivation tools are irrelevant.",
+          "stage_1_correct_answer": "A) It is routine, so rewards can safely boost participation with few side effects. The task is four prescribed steps to a specified end - rolling, inserting, capping, and labeling - with almost no intrinsic motivation to undermine, so contingent rewards act as a booster shot without the harmful side effects seen in creative work.",
+          "stage_2_intervention": "You must decide how to enlist the ten staff members and a few volunteers for the weekend: Option A) Order everyone to come in, with disciplinary notes for refusals. B) Ask for volunteers and hope they materialize. C) Offer 'if-then' rewards - gift certificates or piecework pay per poster - plus a rationale tied to the mission, an honest acknowledgment that the task is boring, and freedom over how each person packs posters. D) Offer the same rewards but specify exactly how each poster must be rolled and each label affixed.",
+          "stage_2_correct_answer": "C) Offer 'if-then' rewards - gift certificates or piecework pay per poster - plus a rationale tied to the mission, an honest acknowledgment that the task is boring, and freedom over how each person packs posters. Coercion damages morale and long-term commitment, volunteers will not materialize, and rewards without the rationale-empathy-autonomy package forfeit the engagement gains - while micromanaging the process (option D) replaces autonomy with control.",
+          "stage_1_options": "A) It is routine, so rewards can safely boost participation with few side effects. B) It is creative, so any reward will crush performance. C) It is routine, but all rewards remain dangerous regardless. D) It is neither routine nor creative, so motivation tools are irrelevant."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The Inspiring Poster (Creative Task Battle)",
+          "visual_frame_description": "Nine months later at Community Arts Bridge, the mailing was flawless and the last event was a smash. Now Dani stands outside the design studio where Renee's team must create an inspiring poster for the next event. A speech bubble shows the tempting line: 'If you come up with a poster that rocks my world, you'll get a ten-percent bonus.'",
+          "player_mission": "Diagnose why an 'if-then' offer would wreck the poster project, then guide Dani through the aftermath when the team delivers a stunning design anyway. Choose the motivational response that preserves creativity going forward.",
+          "key_concepts": [
+            "Creating a poster is not routine; it requires conceptual, breakthrough, artistic thinking.",
+            "'If-then' rewards are an ideal way to squash conceptual, breakthrough, artistic thinking.",
+            "Do not announce: 'If you come up with a poster that rocks my world, then you'll get a ten-percent bonus.'",
+            "The best approach is to have already established a genuinely motivating environment: adequate baseline rewards, a congenial place to work, autonomy, mastery opportunity, and daily duties tied to a larger purpose.",
+            "With those elements in place, provide a sense of urgency and significance - and then get out of the talent's way.",
+            "Any extrinsic reward should be unexpected and offered only after the task is complete.",
+            "Amabile found the highest levels of creativity among subjects who received a reward as a kind of a bonus.",
+            "Nontangible rewards such as praise and positive feedback are much less corrosive than cash and trophies.",
+            "Deci found positive feedback can have an enhancing effect on intrinsic motivation.",
+            "Informational or enabling motivators can be conducive to creativity, while controlling motivators clobber it."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the creative-task rule: a contingent if-then reward on heuristic work narrows focus and squashes breakthrough thinking, so the manager must rely on baseline, autonomy, mastery, and purpose - then stay out of the way. When the work excels, unexpected 'now that' recognition with specific feedback preserves creativity.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "The central concept is that creative, right-brain work must be managed without contingent rewards: the conditions of genuine motivation - baseline fairness, autonomy, mastery, and purpose - do the motivating, and any reward after the fact should be unexpected. A ten-percent 'if-then' bonus on a poster is a proven recipe for reduced performance.",
+          "stage_1_observation": "Observe the design studio scene: Renee's team is energized, mood boards cover the wall, and attendance targets from last year circulate in an email. Dani holds her tongue over a draft email offering a ten-percent bonus if the poster 'rocks my world or boosts attendance over last year.' The screen reminds you that the baseline pay is fair, the office is congenial, and the team already has autonomy and a clear mission.",
+          "stage_1_question": "How should Dani motivate the design work for the new poster? Options: A) Offer a ten-percent bonus if attendance tops last year - incentives sharpen artistic focus. B) Rely on the already-established conditions - fair baseline, autonomy, mastery, and purpose - provide urgency and significance, then get out of the talent's way. C) Assign the team a strict brief and deadline with step-by-step approval gates. D) Delay announcing the bonus until two days before the deadline to 'keep them hungry.'",
+          "stage_1_correct_answer": "B) Rely on the already-established conditions - fair baseline, autonomy, mastery, and purpose - provide urgency and significance, then get out of the talent's way. A ten-percent if-then offer is an ideal way to squash conceptual, breakthrough thinking, while strict gates remove the autonomy that creative work requires; the chapter prescribes establishing the environment and then stepping back.",
+          "stage_2_intervention": "The team finishes an absolutely stunning poster - bold, original, and on time. Renee and Sam look exhausted but proud, and Dani's phone buzzes with three possible responses: A) Tell the team 'This poster was perfect. You did it exactly the way I asked.' B) Promise each of them a cash bonus before they start the save-the-date series, to keep the momentum going. C) Say nothing and walk away, because all rewards are dangerous. D) Offer an unexpected celebration - lunch or a cash bonus now that the work is done - and add specific, informational praise about the color and layout choices.",
+          "stage_2_correct_answer": "D) Offer an unexpected celebration - lunch or a cash bonus now that the work is done - and add specific, informational praise about the color and layout choices. An unexpected, post-hoc 'now that' reward is not experienced as the reason for working, and specific praise focused on effort and strategy enhances intrinsic motivation rather than manipulating it. Outcome-only controlling praise, promised future bonuses, and silence all forfeit the chance to reinforce genuine motivation.",
+          "stage_1_options": "A) Offer a ten-percent bonus if attendance tops last year - incentives sharpen artistic focus. B) Rely on the already-established conditions - fair baseline, autonomy, mastery, and purpose - provide urgency and significance, then get out of the talent's way. C) Assign the team a strict brief and deadline with step-by-step approval gates. D) Delay announcing the bonus until two days before the deadline to 'keep them hungry.'"
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The Praise Conversation (Specific Feedback)",
+          "visual_frame_description": "Late Friday afternoon in the Community Arts Bridge design studio, the finished poster glows on the wall-screen. Renee, the lead designer, slumps back in her chair while Sam, the junior designer, nervously adjusts the type size one last time. Dani stands in the doorway holding two coffee cups, deciding exactly what to say.",
+          "player_mission": "Play Dani and choose how to praise the design team after the spectacular poster. Select the response that delivers specific, informational feedback and a 'now that' celebration without contingencies, preserving the team's intrinsic motivation for the next project.",
+          "key_concepts": [
+            "Praise and positive feedback are much less corrosive than cash and trophies.",
+            "Deci found in his original experiments and subsequent analysis that positive feedback can have an enhancing effect on intrinsic motivation.",
+            "Amabile found that while controlling extrinsic motivators can clobber creativity, informational or enabling motivators can be conducive to it.",
+            "People are thirsting to learn how they are doing, but only if the information isn't a tacit effort to manipulate their behavior.",
+            "Do not tell the design team: 'That poster was perfect. You did it exactly the way I asked.'",
+            "Feedback that focuses on specifics - like 'great use of color' - is more effective than generic praise.",
+            "Praise is more effective when it is about effort and strategy rather than about achieving a particular outcome.",
+            "A 'now that' reward - unexpected and post-completion - is less risky than an 'if-then' promise.",
+            "Repeated 'now that' bonuses can quickly become expected 'if-then' entitlements.",
+            "For creative, right-brain, heuristic tasks, you are best off if your 'now that' rewards provide praise, feedback, and useful information."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This dialogue tests informational praise: specific feedback about effort and strategy - combined with an unexpected 'now that' celebration - enhances intrinsic motivation, while outcome-focused or manipulative praise reads as control. Amabile found informational motivators conducive to creativity; the wrong words convert it back into a transaction.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "scenario_setup": "The poster is a triumph, and Dani has exactly one conversation to set the tone for the save-the-date series. Renee cares most about the color direction she fought for; Sam is insecure about his header redesign. If Dani's praise is controlling or outcome-focused, the team will read it as manipulation; if it is specific and informational, it deepens engagement. The stakes include the quality of every future project the team produces.",
+          "dialogue": [
+            "Dani: Renee, Sam - that poster is spectacular. The board will have to build a bigger venue.",
+            "Renee: Thanks, Dani. Honestly, the palette direction almost killed us - we scrapped everything Thursday night.",
+            "Sam: I rebuilt the header layout five times. I still wonder whether the headline type needs to be bigger.",
+            "Dani: I want you to know how I'm going to talk about this project with the board.",
+            "Renee: (leaning forward) What will you tell them?",
+            "Sam: And... is the save-the-date series next? I have ideas about the type.",
+            "Dani: (looking at the poster, then at the two of them) Let me tell you what I actually think."
+          ],
+          "choices": [
+            "If you two crank out a series that lifts attendance twenty percent over last year, I'll add ten percent to your bonuses.",
+            "This poster was perfect - you did exactly what I asked, right down to the letter. That's exactly what I wanted.",
+            "That palette shift near the headline is what makes it sing - the risk you took Thursday was the right one. Sam, the header rework gives the whole piece its energy, and the type reads bold without shouting. Tell me what you'd each tackle differently on the save-the-dates. And lunch is on me tomorrow - no catch, just thanks.",
+            "You'll both get a bonus - just make sure the next series is even better so we don't have to defend it."
+          ],
+          "optimal_choice": 2,
+          "theoretical_principle": "Informational praise and the 'now that' reward: specific feedback about effort and strategy - not outcomes or compliance - is experienced as useful information rather than manipulation, enhancing intrinsic motivation, while unexpected post-completion recognition avoids the corrosive contingency of 'if-then' deals.",
+          "psychological_breakdown": "Choice 2 works because it names exactly what succeeded - the palette risk and the header rework - treats the praise as information about craft, invites the team's own thinking about next steps, and attaches a celebration only after the work, matching Amabile's finding that specific feedback and enabling motivators are conducive to creativity. Choice 0 imposes an if-then bonus that squashes the heuristic thinking needed for the series. Choice 1 is the controlling praise the chapter explicitly warns against - 'perfect, exactly as I asked' reduces the work to compliance. Choice 3 converts appreciation into an expectation of escalation, the first step toward 'now that' bonuses drifting into 'if-then' entitlements."
+        }
+      ]
+    }
+  ]
+}

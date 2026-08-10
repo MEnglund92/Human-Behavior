@@ -1,0 +1,592 @@
+{
+  "spec_file": "spec_drive_b08.json",
+  "chapters": [
+    {
+      "id": "ch19",
+      "title": "Drive: The Recap",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The Three Elements: Autonomy, Mastery, and Purpose",
+          "visual_frame_description": "A split-screen sorting board appears, with three labeled crates across the top: Autonomy, Mastery, and Purpose. Six statement cards drift in from the bottom, each carrying either a verbatim definition from the recap or a concrete everyday moment, such as a nurse volunteering for extra training. The player drags each card into the crate it belongs to while a progress bar tracks correct sorts.",
+          "player_mission": "Read each statement card and classify it as autonomy, mastery, or purpose exactly as the recap defines them. Sort every card correctly to complete the matrix and unlock the feedback panel.",
+          "key_concepts": [
+            "Drive's recap defines autonomy as the desire to direct our own lives.",
+            "Drive's recap defines mastery as the urge to get better and better at something that matters.",
+            "Drive's recap defines purpose as the yearning to do what we do in the service of something larger than ourselves.",
+            "The recap presents autonomy, mastery, and purpose as the three essential elements of the upgraded approach to motivation.",
+            "The recap argues there is a gap between what science knows about motivation and what business does.",
+            "The recap claims the current business operating system, built around external, carrot-and-stick motivators, doesn't work and often does harm.",
+            "Drive's one-line summary brands carrots and sticks as so last century for twenty-first-century work.",
+            "The book offers multiple summaries — a Twitter-length version and a cocktail-party version — as talking points for recall.",
+            "The three-element upgrade is offered as the replacement operating system for twenty-first-century work.",
+            "Choosing where to focus one's own effort is an everyday expression of the desire to direct one's own life."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This classification task tests the three named elements of intrinsic motivation from Drive's recap — autonomy, mastery, and purpose — each carrying distinct psychological content: self-direction, improving at something that matters, and serving something larger than oneself. The distinctions come from the book's popular-science synthesis of Deci and Ryan's self-determination research rather than from controlled experiments in this chapter.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "Read each statement from the recap or from everyday life and sort it into the element it best describes: autonomy, mastery, or purpose.",
+          "column_a_label": "Autonomy — the desire to direct our own lives",
+          "column_b_label": "Mastery — the urge to get better and better at something that matters",
+          "column_c_label": "Purpose — the yearning to serve something larger than ourselves",
+          "rows": [
+            {
+              "label": "The desire to direct our own lives",
+              "col": "a"
+            },
+            {
+              "label": "The urge to get better and better at something that matters",
+              "col": "b"
+            },
+            {
+              "label": "The yearning to do what we do in the service of something larger than ourselves",
+              "col": "c"
+            },
+            {
+              "label": "Priya chooses which open-source bug to fix tonight instead of taking a pre-assigned ticket",
+              "col": "a"
+            },
+            {
+              "label": "Marcus records his daily Spanish practice to watch himself improve at something that matters to him",
+              "col": "b"
+            },
+            {
+              "label": "The night-shift nurses volunteer for extra training because it helps their patients recover faster",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Mastery is the desire to direct our own lives, since self-direction is a skill you get better at.",
+            "Getting better at Spanish is an expression of purpose because improvement serves the larger goal of fluency.",
+            "Purpose is simply another word for job satisfaction and carries no motivational content of its own."
+          ],
+          "explanation": "Rows one to three are the recap's verbatim definitions, so each sorts to its own column. Rows four to six are behavioral translations: choosing your own work expresses the desire to direct your own life (autonomy), practicing to improve at something that matters expresses the urge to get better (mastery), and working to help patients recover expresses service to something larger than yourself (purpose). The correct answer for the lead row is 'a' because desiring to direct our own lives is the recap's exact definition of autonomy."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The Carrot-and-Stick Operating System vs. the Upgrade",
+          "visual_frame_description": "A warehouse floor at Meridian Logistics scrolls into view: digital bonus boards glow above the sorting lines, penalty notices flash on forklift screens, and workers move fast but robotic. A voice-over from the CEO, Dana Whitfield, walks the player through her metrics dashboard while damage reports pile up on the quality desk in the foreground.",
+          "player_mission": "Diagnose why the carrot-and-stick incentive system is damaging work quality, then choose the operating-system upgrade the recap actually recommends. Get both stages right to defeat the boss.",
+          "key_concepts": [
+            "The recap claims the current business operating system is built around external, carrot-and-stick motivators.",
+            "The recap argues that this operating system doesn't work and often does harm.",
+            "The recap says there is a gap between what science knows about motivation and what business does.",
+            "Autonomy is defined as the desire to direct our own lives.",
+            "Mastery is defined as the urge to get better and better at something that matters.",
+            "Purpose is defined as the yearning to do what we do in the service of something larger than ourselves.",
+            "The upgrade replaces external motivators with autonomy, mastery, and purpose.",
+            "Contingent incentives focus effort on measurable targets rather than on the judgment a task actually demands.",
+            "Fair baseline pay plus self-direction is the shape of the upgrade the recap describes."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the recap's central claim that an operating system built on external, carrot-and-stick motivators doesn't work and often does harm, and that the science-backed upgrade is autonomy, mastery, and purpose. The claim is a popular-science synthesis of self-determination research rather than a controlled experiment reported in this chapter.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "The battle tests the recap's central argument: the current business operating system is built around external, carrot-and-stick motivators, and by the science's account it doesn't work and often does harm — the upgrade being autonomy, mastery, and purpose.",
+          "stage_1_observation": "You are a work-design consultant called into Meridian Logistics, a mid-sized shipping firm in Columbus. CEO Dana Whitfield runs the floor on commission targets, a public bonus board, and penalty clauses for missed deliveries. Watch the warehouse for a week: workers hit the numbers, but fragile boxes arrive damaged, the easiest parcels are cherry-picked first, and two veteran employees quietly put out feelers to competitors.",
+          "stage_1_question": "Dana's metrics improved on paper, yet quality collapsed. Which diagnosis best matches the recap's argument about why the carrot-and-stick approach fails?",
+          "stage_1_correct_answer": "The bonuses and fines are exactly the external, carrot-and-stick motivators the recap describes; an operating system built on them doesn't work and often does harm — here it focused effort on gamed, measurable targets while eroding the judgment and care the work actually needs. The correct diagnosis is that the reward system itself, not the workers, is the malfunctioning component.",
+          "stage_2_intervention": "Dana demands an upgrade and is weighing three options: (A) double the bonus pool and add steeper fines to reset behavior; (B) keep pay at a fair baseline, then give teams freedom over what they work on, when, and how, while tying the work to a larger mission such as delivering time-critical medicine; (C) launch a mandatory engagement seminar with pay tied to attendance. Which intervention do you recommend?",
+          "stage_2_correct_answer": "Option B. The recap's upgrade is the three elements — autonomy (the desire to direct our own lives), mastery (the urge to get better at something that matters), and purpose (doing the work in service of something larger) — built on a fair baseline and self-direction. Option A just adds more of the carrot-and-stick dynamic that damaged quality, and option C attaches a contingent reward to attendance, which is another if-then-style control rather than an upgrade."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Explaining the Science-to-Business Gap at a Party",
+          "visual_frame_description": "A rooftop party in Austin at dusk: string lights, a skyline behind the railing, and your neighbor Raoul, an operations director in a rumpled blazer, gesturing with a glass of sangria while his wife Marta watches with amusement. He leans in, clearly wanting a straight answer he can use on Monday.",
+          "player_mission": "Explain Drive's upgrade to Raoul in terms he can bring to work: name what the science says, what the old operating system gets wrong, and what he should actually change Monday morning. Choose the reply that matches the recap's claims.",
+          "key_concepts": [
+            "There is a gap between what science knows about motivation and what business does.",
+            "Our current business operating system is built around external, carrot-and-stick motivators.",
+            "The recap claims the old operating system doesn't work and often does harm.",
+            "Autonomy is the desire to direct our own lives.",
+            "Mastery is the urge to get better and better at something that matters.",
+            "Purpose is the yearning to do what we do in the service of something larger than ourselves.",
+            "The upgrade replaces external motivators with autonomy, mastery, and purpose.",
+            "Carrots and sticks are described in the book's one-line summary as so last century for twenty-first-century work.",
+            "Contingent incentives on complex, judgment-driven work tend to shift effort onto gamed targets.",
+            "The recap is offered as talking points for exactly this kind of conversational summary."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the shift from Motivation 2.0's external carrot-and-stick operating system to the three-element intrinsic framework of autonomy, mastery, and purpose that the recap prescribes. The recap's claim that the old system doesn't work and often does harm rests on a popular-science synthesis of Deci and Ryan's self-determination research.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "scenario_setup": "At a rooftop party in Austin, your neighbor Raoul — an operations director at a consumer-goods company — has just heard a podcast claiming the science of motivation has left business behind. Intrigued but skeptical, he corners you with a glass of sangria and asks what a psychology book would tell his firm about why its bonus scheme keeps backfiring. The stakes: he is genuinely curious, but he will dismiss anything that does not sound implementable by Monday morning.",
+          "dialogue": [
+            "Raoul: HQ doubled the quarterly bonus after we missed target three months straight. Now my team games the pipeline instead of fixing it. Bigger carrot, same rot — that's the thing I can't explain.",
+            "Marta: Raoul, he's the one who reads the behavioral-science stuff. This is exactly the conversation you've been dodging.",
+            "Raoul: Fine. If the old carrot-and-stick operating system is broken, what does the upgrade actually look like?",
+            "Marta: Keep it short — he has a deadline in forty-eight hours.",
+            "Raoul: And don't hand me be nicer — I need mechanics.",
+            "Raoul: So: what do I change Monday morning, and why would the science say it works? Give me the real version, not the brochure."
+          ],
+          "choices": [
+            "The book's upgrade has three pieces: autonomy — let people direct their own work; mastery — give them real chances to get better at something that matters; and purpose — connect the work to something larger than the pipeline. Start by dropping the fine-grained controls and see what they do with the freedom.",
+            "Keep the bonus but add a second, bigger bonus at the end of the year — the modern version of the system is just more of it, layered.",
+            "There's nothing wrong with carrots and sticks. Your real problem is a lazy team — double down with daily audits and public rankings.",
+            "Buy everyone a copy of the book and make attendance at a weekly book club mandatory with a quiz; that's the upgrade the author recommends."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "The recap's three-element upgrade — autonomy, mastery, and purpose — replaces an external, carrot-and-stick operating system that doesn't work and often does harm.",
+          "psychological_breakdown": "Option 0 names all three elements the recap identifies — autonomy, mastery, and purpose — directly answering Raoul's question about mechanics while connecting it to the gap between what science knows and what business does. Option 1 stays inside the carrot-and-stick operating system, layering more contingent rewards of the same type the recap indicts. Option 2 blames the workers rather than the system, ignoring the recap's claim that the external system itself often does harm. Option 3 turns a learning resource into a mandatory, quiz-graded obligation, reintroducing the contingent control that the upgrade is designed to remove."
+        }
+      ]
+    },
+    {
+      "id": "ch20",
+      "title": "Drive: The Glossary",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Sorting the Glossary by Operating System",
+          "visual_frame_description": "A digital whiteboard shows three long shelves labeled Motivation 2.0, Motivation 3.0, and Compensation Baseline. Glossary definition cards float up one at a time — a FedEx Day, an if-then reward, a results-only work environment — and the player must shelve each under the category the book's operating-system vocabulary supports.",
+          "player_mission": "Read each glossary term and sort it into the category that best represents the motivational operating system it belongs to, or the compensation baseline where it sits. Classify all six terms to finish the matrix.",
+          "key_concepts": [
+            "Motivation 2.0 presumes that humans respond to rewards and punishments in their environment.",
+            "Motivation 3.0 presumes that humans also have a third drive — to learn, to create, and to better the world.",
+            "If-then rewards are rewards offered as contingencies: if you do this, then you'll get that.",
+            "If-then rewards can sometimes be effective for routine tasks.",
+            "For creative, conceptual tasks, if-then rewards invariably do more harm than good.",
+            "Now-that rewards are offered after a task is complete and are less perilous for nonroutine tasks, though still tricky.",
+            "Baseline rewards — salary, contract payments, benefits, and a few perks — represent the floor for compensation.",
+            "If baseline rewards are inadequate or inequitable, motivation of any sort becomes extremely difficult.",
+            "FedEx Days, created by Atlassian, are one-day bursts of autonomy in which employees show results within twenty-four hours.",
+            "A results-only work environment keeps no schedules; employees just have to get their work done.",
+            "20 percent time lets employees spend one day in five working on any project they choose."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This sorting task tests the glossary's operating-system vocabulary: Motivation 2.0 relies on contingent external rewards and punishments, while Motivation 3.0 presumes an intrinsic third drive to learn, create, and better the world — with baseline compensation as the floor that must be met before either operates. The scheme is a popular-science synthesis of Deci and Ryan's self-determination research.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "Each glossary term belongs to one of three categories: the Motivation 2.0 operating system, the Motivation 3.0 operating system, or the compensation baseline. Sort each term into its best-fitting category.",
+          "column_a_label": "Motivation 2.0 — the external rewards-and-punishments operating system",
+          "column_b_label": "Motivation 3.0 — the intrinsic third-drive operating system",
+          "column_c_label": "Compensation baseline — the floor for pay, benefits, and perks",
+          "rows": [
+            {
+              "label": "If you do this, then you'll get that — rewards offered as contingencies",
+              "col": "a"
+            },
+            {
+              "label": "Atlassian's FedEx Days, where employees tackle any problem they want and show results within twenty-four hours",
+              "col": "b"
+            },
+            {
+              "label": "Salary, contract payments, benefits, and a few perks that represent the floor for compensation",
+              "col": "c"
+            },
+            {
+              "label": "A results-only work environment in which employees have no schedules and just have to get their work done",
+              "col": "b"
+            },
+            {
+              "label": "20 percent time, in which employees can spend one day in five on any project they choose",
+              "col": "b"
+            },
+            {
+              "label": "Now that you've done such a great job, let's acknowledge the achievement — rewards offered after the fact",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "A FedEx Day belongs under Motivation 2.0 because its name demands overnight delivery, just like a deadline bonus.",
+            "Baseline rewards belong under Motivation 3.0 because the book says to pay people the Type I way.",
+            "20 percent time belongs in the compensation baseline because it is a form of paid work time."
+          ],
+          "explanation": "Motivation 2.0 presumes humans respond to rewards and punishments, so its currency is contingent rewards: if-then rewards, which work sometimes on routine tasks and harm creative work, and now-that rewards, which are less perilous for nonroutine tasks but remain external incentives. Motivation 3.0 presumes a third drive to learn, create, and better the world, which is what FedEx Days, 20 percent time, and a ROWE all serve by granting self-direction. Baseline rewards are neither operating system; they are the compensation floor that must be adequate and equitable before motivation of any sort becomes possible. The correct answer for the lead row is 'a' because an if-then contingency is the defining tool of the Motivation 2.0 operating system."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "If-Then Rewards on Creative Work: The Quota Trap",
+          "visual_frame_description": "A design studio at a software firm: whiteboards covered in feature sketches, a burndown chart on the wall, and VP Priya Raman staring at a dashboard that reads Sixteen Shipped Features This Quarter. A designer at her desk splits a feature card into slivers with a resigned shrug while the flagship rebuild sits untouched in the corner.",
+          "player_mission": "Diagnose why the quota bonus made the design team game the metric, then choose the fix the glossary supports. Defeat the boss by identifying the routine-versus-nonroutine distinction and applying it.",
+          "key_concepts": [
+            "Nonroutine work is creative, conceptual, right-brain work that can't be reduced to a set of rules.",
+            "Routine work can be reduced to a script, a spec sheet, a formula, or a set of instructions.",
+            "External rewards can be effective in motivating routine tasks.",
+            "For creative, conceptual tasks, if-then rewards invariably do more harm than good.",
+            "Now-that rewards are less perilous for nonroutine tasks than if-then rewards, though still tricky.",
+            "If baseline rewards are inadequate or inequitable, motivation of any sort becomes extremely difficult.",
+            "Routine, rule-based work has become easier to send offshore and to automate.",
+            "The Goldilocks task is the sweet spot where tasks are neither too easy nor too hard.",
+            "Goldilocks tasks are essential to reaching the state of flow and to achieving mastery.",
+            "If-then rewards require people to forfeit some of their autonomy."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the glossary's central contingency rule: if-then rewards can be effective for routine tasks but invariably do more harm than good for creative, conceptual tasks, while now-that rewards are less perilous — provided baseline rewards are adequate and equitable. The rule comes from the book's synthesis of research on how contingent rewards can undermine intrinsic motivation.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "The battle tests the glossary's key distinction: if-then rewards can sometimes work for routine tasks but invariably do more harm than good for creative, conceptual (nonroutine) work, with now-that rewards as the less perilous alternative once baseline pay is fair.",
+          "stage_1_observation": "Priya Raman, VP of product at a design-software firm, has tied the design team's bonus to a quota: ship sixteen features this quarter and get 10 percent of salary. Watch the studio: designers split features into the smallest shippable slivers to inflate their count, defer the ambitious rebuild they were once excited about, and the flagship project falls a month behind. Priya stares at the burndown chart, wondering why more money produced less of what she wanted.",
+          "stage_1_question": "Why did the quota bonus backfire with the design team, in the glossary's terms?",
+          "stage_1_correct_answer": "The designers do nonroutine work — creative, conceptual, right-brain work that cannot be reduced to a set of rules — and for such tasks the glossary says if-then rewards invariably do more harm than good; the quota pushed them to game the metric instead of pursuing ambitious work. The correct diagnosis names the routine-versus-nonroutine distinction rather than blaming the team's effort.",
+          "stage_2_intervention": "Priya weighs three options: (A) raise the bonus to 20 percent and keep the quota; (B) scrap the quota, keep salary at an adequate and equitable baseline, and give the team autonomy over which problems to tackle, with a now-that acknowledgment after the flagship ships; (C) convert the work into a documented step-by-step process so the quota system can apply cleanly. Which option does the glossary support, and why?",
+          "stage_2_correct_answer": "Option B. The glossary says baseline rewards must be adequate and equitable or motivation of any sort becomes extremely difficult, and now-that rewards — though tricky — are less perilous for nonroutine tasks than if-then rewards. Option C treats creative work as routine by squeezing it into a rule-based script, which misclassifies the work, and option A deepens the motivational damage of the contingent quota."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The Sawyer Effect in the Backyard",
+          "visual_frame_description": "A sunny Saturday in a Minneapolis suburb: a backyard strewn with branches, an eleven-year-old girl in a red cap, and two adults at a picnic table — Josh, holding a pair of twenty-dollar bills, and his friend Salma with a book-club copy of Drive. The kids' energy visibly drains as they start debating payments.",
+          "player_mission": "Help Josh understand what happened to his daughter's enthusiasm and choose the response that restores it. Apply the Sawyer Effect's two sides — rewards turning play into work, and mastery focus turning work into play.",
+          "key_concepts": [
+            "The Sawyer Effect has a negative aspect: rewards can turn play into work.",
+            "The Sawyer Effect has a positive aspect: focusing on mastery can turn work into play.",
+            "The effect draws its name from the scene in The Adventures of Tom Sawyer in which Tom and friends whitewash Aunt Polly's fence.",
+            "Baseline rewards represent the floor for compensation — salary, contract payments, benefits, and a few perks.",
+            "If baseline rewards are inadequate or inequitable, motivation of any sort becomes extremely difficult.",
+            "If-then rewards are rewards offered as contingencies: if you do this, then you'll get that.",
+            "If-then rewards require people to forfeit some of their autonomy.",
+            "Type I behavior is a way of thinking built around intrinsic rather than extrinsic motivators.",
+            "The mastery asymptote — the knowledge that full mastery can never be realized — is what makes its pursuit alluring and frustrating.",
+            "Goldilocks tasks, neither too easy nor too hard, are essential to reaching flow and achieving mastery."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the Sawyer Effect — the negative side, where a contingent reward converts an intrinsically enjoyed activity into paid labor, and the positive side, where framing an activity around mastery restores engagement. The glossary presents the effect as a weird behavioral alchemy, consistent with the broader claim that contingent rewards can turn play into work.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "scenario_setup": "On a Saturday morning in a Minneapolis suburb, Josh Okonkwo watches his eleven-year-old daughter Zadie and her friends happily begin clearing brush from the backyard — until he makes a well-meaning mistake. He offers twenty dollars to clear the lot by noon, and the fun evaporates. He wants to support her interest without smothering it, and his book-club friend Salma has just read the Drive glossary.",
+          "dialogue": [
+            "Salma: Josh, you've got exactly the setup the glossary talks about — they were already playing at the work.",
+            "Josh: Zadie and her friends were hauling branches like it was a game. Then I jumped in with clear the lot by noon and I'll pay you twenty dollars.",
+            "Salma: And what happened?",
+            "Josh: Twenty minutes later they were arguing about how many trips they'd made and whether the twenty covered extra branches. The fun evaporated.",
+            "Salma: That's the effect they named after Tom Sawyer's fence — the negative side. A reward just turned their play into work.",
+            "Josh: So how do I get it back without becoming a stingy dad?",
+            "Salma: Think about what the glossary says the positive side of the effect is — then tell Josh what you'd do."
+          ],
+          "choices": [
+            "The positive side of the Sawyer Effect is that focusing on mastery can turn work into play. Reframe the clearing as a chance to get better at something — treat it as craftsmanship, let the kids choose their own tools and order of attack, and acknowledge their effort afterward instead of dangling the money up front.",
+            "Raise the offer — twenty dollars was too cheap. Pay forty and the enthusiasm will come back, because kids respond to bigger carrots.",
+            "Forbid them from helping at all until they beg to do it again; scarcity will restore the novelty and their intrinsic interest.",
+            "Draw up a written contract listing penalties for stopping early; the glossary says clear contingencies make work more enjoyable."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "The Sawyer Effect in both directions: rewards can turn play into work, while focusing on mastery can turn work into play.",
+          "psychological_breakdown": "Option 0 applies the positive side of the Sawyer Effect — reframing the chore around mastery and self-direction, with acknowledgment (a now-that-style gesture) rather than an up-front if-then contingency, restoring the intrinsic frame the offer destroyed. Option 1 amplifies the same contingent reward that turned play into work, deepening the negative side of the effect. Option 2 uses external control to manufacture scarcity, which does not restore enjoyment and makes the activity a punishment. Option 3 inverts the glossary's lesson by adding contingencies and penalties to an intrinsically enjoyable task, guaranteeing the play becomes work."
+        }
+      ]
+    },
+    {
+      "id": "ch21",
+      "title": "The Drive Discussion Guide: Twenty Conversation Starters to Keep You Thinking ...",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Four Aspects of Autonomy: Task, Time, Technique, Team",
+          "visual_frame_description": "A conference-room table in a modern office, with four labeled trays — Task, Time, Technique, Team — set out like a buffet. Six short scenario cards describing real workdays slide in front of the player, each showing a person acting on one kind of freedom. The player must place each card on the tray it exercises.",
+          "player_mission": "Read each scenario and sort it into the aspect of autonomy it primarily exercises: task (what you do), technique (how you do it), time (when you do it), or team (with whom you do it). Correctly place all six cards.",
+          "key_concepts": [
+            "The discussion guide's eighth question names four aspects of autonomy: task, time, technique, and team.",
+            "Choosing what you work on is autonomy over task.",
+            "Choosing when you work is autonomy over time.",
+            "Choosing how you do the work is autonomy over technique.",
+            "Choosing who you work with is autonomy over team.",
+            "The guide asks which aspect of autonomy has been most important in the reader's own best work.",
+            "The guide asks how much autonomy the reader has at work right now and whether it is enough.",
+            "Question seven asks bosses to replace if-then rewards with a more autonomous environment and the occasional now-that reward.",
+            "The guide's sixth question asks how much of a reader's work is routine and how much is nonroutine.",
+            "Question nine asks whether FedEx Days, 20 percent time, and ROWE would work in the reader's organization."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This task tests the four-aspect model of autonomy from the discussion guide — task, time, technique, and team — by classifying everyday choices into the freedom each primarily exercises. The model reflects the book's claim, grounded in self-determination research, that humans have an innate need for self-direction.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "The guide's eighth question distinguishes four aspects of autonomy. Read each scenario and sort it into the aspect it primarily exercises: task, technique, or time.",
+          "column_a_label": "Autonomy over task — what you do",
+          "column_b_label": "Autonomy over technique — how you do it",
+          "column_c_label": "Autonomy over time — when you do it",
+          "rows": [
+            {
+              "label": "Dario, a customer-success manager, chooses the healthcare accounts he will lead this quarter instead of receiving an assigned roster",
+              "col": "a"
+            },
+            {
+              "label": "Nina, a data analyst, rewrites the firm's required dashboard template into a cleaner structure she finds easier to maintain",
+              "col": "b"
+            },
+            {
+              "label": "Marcus, an engineer, starts work at 7 a.m., takes a long midday break for his run, and logs off at 6 p.m., because his firm values only deadlines",
+              "col": "c"
+            },
+            {
+              "label": "Elena volunteers to own the new client-onboarding brief instead of waiting for her supervisor to delegate it",
+              "col": "a"
+            },
+            {
+              "label": "Hassan swaps the mandated morning stand-up for an asynchronous written update he produces whenever his focus is sharpest",
+              "col": "c"
+            },
+            {
+              "label": "Priya picks a cello teacher whose method matches how she learns best, ignoring the conservatory's recommended syllabus",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Choosing which accounts to lead is time autonomy, because it depends on scheduling your quarter.",
+            "Swapping the stand-up for an asynchronous update is task autonomy, because it changes what gets produced.",
+            "Rewriting the dashboard template is time autonomy, because the rewrite takes extra time to complete."
+          ],
+          "explanation": "The guide distinguishes four autonomous freedoms — what you do (task), when you do it (time), how you do it (technique), and with whom you do it (team). Rows one and four change the work itself, so they exercise task autonomy. Rows two and six alter the method of the work, so they exercise technique autonomy. Rows three and five alter the schedule of the work, so they exercise time autonomy. The correct answer for the lead row is 'a' because choosing which accounts to lead is a choice about what work gets done — the defining feature of task autonomy."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Piloting a FedEx Day Without Strangling It",
+          "visual_frame_description": "A Columbus insurance office on a Thursday: four teams huddle around whiteboards, one group building a working shelf-appraisal tool with real momentum. In a corner office, a manager taps a mandatory check-in timer on his phone while a ranked demo board with a perk-prize line hangs over the room.",
+          "player_mission": "Identify which detail is strangling the FedEx Day pilot, then choose how the CEO should run the initiative so it honors the autonomy it is meant to grant. Win the battle by keeping the burst of autonomy unscripted.",
+          "key_concepts": [
+            "A FedEx Day is a one-day burst of autonomy in which employees tackle any problem they want and show results by the end of twenty-four hours.",
+            "The guide asks whether initiatives like FedEx Days, 20 percent time, and ROWE would work in the reader's organization.",
+            "The guide also asks for ideas that would bring out more Type I behavior in the workplace.",
+            "20 percent time lets employees spend one day in five working on any project they choose.",
+            "A results-only work environment removes schedules; employees just have to get their work done.",
+            "Type I behavior is powered by the innate need to direct our own lives, to learn and create new things, and to do better.",
+            "The guide asks how well a job meets the need for baseline rewards — salary, benefits, and a few perks.",
+            "The guide asks readers to recall the seven deadly flaws of carrots and sticks in action.",
+            "The guide's introduction argues that ideas come to life when talked over in person — that the world changes conversation by conversation."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests whether a manager understands what makes an autonomy initiative a Motivation 3.0 practice: FedEx Days work by letting employees choose the problem and own the process, and control mechanisms stapled on top of the day defeat its purpose. The distinction between engagement and compliance runs through the book's treatment of autonomy as an innate psychological need.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "The battle tests the discussion guide's question of whether initiatives like FedEx Days, 20 percent time, and ROWE would work in an organization — specifically, whether the manager understands that a FedEx Day is a burst of autonomy and will strangle it with contingencies.",
+          "stage_1_observation": "At a Columbus insurance company, CEO Marta Villanueva launches her first FedEx Day after reading the discussion guide: four teams of twenty get a Thursday to tackle any problem they want, with demos due Friday afternoon. By lunch, three teams are building a shelf-appraisal tool with real promise; one manager, however, schedules mandatory check-ins every two hours, orders his team to work on his pet project, and announces the Friday demos will be ranked with the bottom team losing a monthly perk.",
+          "stage_1_question": "During the pilot, which detail most undermines the FedEx Day's motivational logic?",
+          "stage_1_correct_answer": "The manager's behavior: the two-hour check-ins, the assigned pet project, and the threatened loss of a perk convert the day of autonomous problem-choosing into precisely the controlled, contingent environment the initiative is meant to escape. A FedEx Day is a burst of autonomy — employees tackle any problem they want and show results within twenty-four hours — and that one team is not running the day at all.",
+          "stage_2_intervention": "Marta must decide how to proceed: (A) cancel the program because one day of self-chosen projects wastes productive time; (B) formalize it — require measurable output, tie the day to a bonus, and pre-approve every project; (C) keep the day unscripted, protect the teams from managerial oversight, let the Friday demos stand as the only yardstick, and ask whether ROWE or 20 percent time deserves a pilot next. Which step is most consistent with the guide's autonomy question?",
+          "stage_2_correct_answer": "Option C. The guide treats FedEx Days, 20 percent time, and ROWE as vehicles for autonomy — over task, time, technique, and team — so protecting self-direction and letting each team own its problem, pace, and method is the point. Option A overreacts to a single piloted day, and option B wraps a freedom-granting initiative in the contingencies it exists to remove."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Type I or Type X: Reading the People Around You",
+          "visual_frame_description": "A living-room scene from a book club evening: three profile cards lie on the coffee table, each showing a person from a reader's life — a drummer practicing after dinner, a colleague watching the sales board, a volunteer at a food bank. The player must judge each behavior's motivational fuel.",
+          "player_mission": "Read each behavior and sort it as Type I behavior, Type X behavior, or a neutral everyday preference outside the book's two types. Complete the matrix to finish the chapter's self-audit.",
+          "key_concepts": [
+            "Type I behavior is built around intrinsic rather than extrinsic motivators.",
+            "Type I behavior is powered by our innate need to direct our own lives, to learn and create new things, and to do better by ourselves and our world.",
+            "Type X behavior is fueled more by extrinsic desires than intrinsic ones.",
+            "Type X behavior concerns itself less with the inherent satisfaction of an activity and more with the external rewards to which that activity leads.",
+            "The guide asks readers to consider whether they are more Type I or Type X.",
+            "The guide asks readers to classify three people in their lives and to explain the reasoning behind the classification.",
+            "Question eighteen asks whether a parent's home environment promotes more Type I or Type X behavior in children.",
+            "Question seventeen asks whether education is too Type X and how to reconcile intrinsic motivation with accountability.",
+            "The guide's flow question asks where and when the reader last experienced flow and how to tweak a role to bring on more optimal experiences.",
+            "Hobbies pursued for their own sake are everyday expressions of intrinsic motivation."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This task tests the Type I/Type X distinction — intrinsic versus extrinsic motivational orientation — by classifying real-life behaviors into the two camps the discussion guide asks readers to examine in themselves and others. The distinction derives from self-determination theory research on the benefits of an autonomy orientation over a control orientation, as synthesized in the book.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "Read each behavior and sort it into Type I behavior, Type X behavior, or a neutral preference that the book's two-type distinction does not classify.",
+          "column_a_label": "Type I — built around intrinsic motivators",
+          "column_b_label": "Type X — fueled more by extrinsic desires and external rewards",
+          "column_c_label": "Neutral — an everyday preference with no clear motivational orientation",
+          "rows": [
+            {
+              "label": "Kofi practices drums nightly for the pure satisfaction of getting better, not for any trophy",
+              "col": "a"
+            },
+            {
+              "label": "Leah chose her job chiefly because of the bonus structure and the promotion ladder",
+              "col": "b"
+            },
+            {
+              "label": "Taking a lunch break because you enjoy the sandwich you packed",
+              "col": "c"
+            },
+            {
+              "label": "Simone volunteers at the food bank on Saturdays because she loves the work itself",
+              "col": "a"
+            },
+            {
+              "label": "Aidan checks his sales rankings hourly because the public board gratifies him",
+              "col": "b"
+            },
+            {
+              "label": "Choosing the window seat because you like the view",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Volunteering at a food bank is Type X because volunteers receive no payment, which proves the activity runs on reputation instead.",
+            "Practicing drums nightly for satisfaction is Type X because drumming builds a skill that could someday earn money.",
+            "A job chosen for its bonus structure is Type I because receiving a bonus is a form of recognition and recognition is intrinsic."
+          ],
+          "explanation": "Type I behavior is powered by intrinsic motivators — the inherent satisfaction of the activity itself, the pull to learn and create — which is what Kofi's drumming and Simone's volunteering show. Type X behavior is fueled more by extrinsic desires and oriented to the external rewards an activity leads to, which is what Leah's job choice and Aidan's ranking-checking show. The neutral column holds ordinary preferences — a packed sandwich, a window seat — that involve no intrinsic-versus-extrinsic tension and that the guide's two-type frame does not classify. The correct answer for the lead row is 'a' because Kofi's motivation is the inherent satisfaction of getting better, the signature of Type I behavior."
+        }
+      ]
+    },
+    {
+      "id": "ch22",
+      "title": "FIND OUT MORE—ABOUT YOURSELF AND THIS TOPIC",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Rolling Out the Type I/Type X Assessment",
+          "visual_frame_description": "An HR office at a 400-person retail analytics firm: a large screen shows a completion dashboard ranking departments by assessment click-through, with a catered-lunch prize banner on top. Head of people Ade Adeyemi watches employees clicking through the free Type I/Type X assessment in under thirty seconds while a few whisper about surveillance.",
+          "player_mission": "Diagnose why the mandatory, ranked rollout of a personal self-assessment hollowed it out, then choose the rollout that matches the chapter's invitation to find out more about yourself. Win the battle by respecting the assessment's voluntary, self-directed purpose.",
+          "key_concepts": [
+            "The final chapter asks readers a direct question: are you Type I or Type X?",
+            "The chapter directs readers to a free online assessment at www.danpink.com/drive.html.",
+            "The assessment is framed as a tool for self-discovery about one's own motivation.",
+            "Drive Times is a free quarterly e-mail newsletter on the science and practice of human motivation.",
+            "Type I behavior is built around intrinsic rather than extrinsic motivators.",
+            "Type X behavior is fueled more by extrinsic desires than intrinsic ones.",
+            "A mandatory, ranked rollout converts a self-directed resource into a contingent, externally monitored task.",
+            "The chapter's heading frames its content as being about yourself and this topic — personal reflection plus subject learning."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests whether a leader can create conditions for genuine self-discovery — the chapter's invitation to find out more about yourself and this topic — instead of extrinsic compliance. The assessment is a free, optional resource in the text, so coercive rollouts contradict its motivational spirit.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "The battle tests the final chapter's resources: a free online assessment for determining whether a reader is Type I or Type X, and the invitation to find out more about yourself and this topic — which requires voluntary, self-directed engagement rather than compliance-driven completion.",
+          "stage_1_observation": "Ade Adeyemi, head of people at a 400-person retail analytics firm, runs a Motivation Month: every employee must complete the free Type I/Type X assessment before Friday, and the HR dashboard ranks each department by completion percentage, with the winning department earning a catered lunch. By Thursday, completion sits at 96 percent, but a teammate tells Ade that people are clicking answers in thirty seconds to get it over with, and a few are muttering about surveillance.",
+          "stage_1_question": "The assessment is being completed, but the exercise is hollow. In this chapter's terms, why?",
+          "stage_1_correct_answer": "The mandatory, ranked, prize-linked rollout turned a free, self-paced assessment designed for personal insight into another contingent, externally monitored task — completion became an extrinsic chore, and the public ranking made it a competition for a prize rather than an occasion for reflection. The chapter frames the assessment as a resource for finding out more about yourself, which requires voluntary engagement.",
+          "stage_2_intervention": "Ade wants a do-over. Which plan best matches the chapter's framing? (A) Keep the completion quota but change the prize to a half-day off; (B) drop the quota and the ranking, host the assessment as a voluntary lunch-and-learn where people score themselves privately and share only if they choose, and link the free newsletter for anyone who wants to keep learning; (C) reprimand the employees who dismissed the assessment as surveillance and require written reflection essays from everyone else. Which option do you choose?",
+          "stage_2_correct_answer": "Option B. The chapter positions the assessment as a free resource the reader chooses to use, so a voluntary, private, self-directed format preserves its intrinsic purpose. Option A keeps an external contingency and just swaps the prize, and option C introduces punitive control that directly contradicts the chapter's invitation to find out more about yourself — the very opposite of what the resource is for."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "The Type I/Type X Self-Check",
+          "visual_frame_description": "A laptop screen fills the frame: the free online self-assessment from the book's final chapter, with a progress slider and a let's-find-out banner. Eight everyday behavior cards appear beside it, and the player must judge each one as Type I, Type X, or a compensation-baseline concern before the assessment reveals its verdict.",
+          "player_mission": "Read each behavior card and sort it into the category the glossary definitions support: Type I, Type X, or a baseline-compensation matter. Complete all six sorts to mirror what the free assessment invites readers to discover about themselves.",
+          "key_concepts": [
+            "The final chapter asks readers to determine whether they are more Type I or Type X via a free online assessment.",
+            "Type I behavior is powered by our innate need to direct our own lives, to learn and create new things, and to do better by ourselves and our world.",
+            "Type X behavior concerns itself less with the inherent satisfaction of an activity and more with the external rewards to which that activity leads.",
+            "Both Type I's and Type X's care about money.",
+            "An inadequate or inequitable baseline blocks motivation of any sort.",
+            "Activities pursued for their inherent satisfaction signal a Type I orientation.",
+            "Activities pursued mainly for external reward signal a Type X orientation.",
+            "Curiosity about one's own motivation is itself a self-directed, intrinsic impulse.",
+            "Drive Times, the book's newsletter, keeps readers current on the science and practice of motivation."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This task tests the Type I/Type X distinction that the chapter's assessment invites readers to apply to themselves, using the glossary definitions of intrinsic and extrinsic orientation. The classification rests on self-determination theory's contrast between autonomy orientation and control orientation as synthesized across the book.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "question": "The final chapter points you to a free online assessment that asks: are you Type I or Type X? Read each item and sort it into the category the glossary definitions support.",
+          "column_a_label": "Type I — built around intrinsic motivators",
+          "column_b_label": "Type X — oriented to external rewards",
+          "column_c_label": "Baseline concern — about the compensation floor, not orientation",
+          "rows": [
+            {
+              "label": "You keep improving your woodworking at night, purely for the pull of the craft itself",
+              "col": "a"
+            },
+            {
+              "label": "You chose your side job because it pays the best, even though you dread the work",
+              "col": "b"
+            },
+            {
+              "label": "You care deeply that your salary is adequate and equitable compared with peers",
+              "col": "c"
+            },
+            {
+              "label": "You taught yourself video editing last winter simply because you wanted to create something",
+              "col": "a"
+            },
+            {
+              "label": "You check your follower count hourly because the external recognition feels good",
+              "col": "b"
+            },
+            {
+              "label": "You take the free assessment because you are curious what it will reveal about your own motivation",
+              "col": "a"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Teaching yourself video editing is Type X because the product of editing is something other people consume.",
+            "Caring about adequate pay makes you Type X, since genuinely Type I people never think about money.",
+            "Curiosity about your own motivation is Type X because focusing on yourself is self-interested."
+          ],
+          "explanation": "Type I behavior is built around intrinsic motivators — the inherent satisfaction of the activity and the pull to learn, create, and improve — which is what the woodworking, video editing, and assessment-taking rows show. Type X behavior is fueled more by extrinsic desires and oriented to the external rewards the activity leads to, which is what the side-job and follower-count rows show. Caring that salary is adequate and equitable is a baseline concern rather than an orientation: the glossary says Type I's and Type X's both care about money, and an inadequate or inequitable baseline makes motivation of any sort extremely difficult. The correct answer for the lead row is 'a' because the craft itself pulls you — the defining feature of Type I behavior."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Intrinsic Motivation | Self-Determination Theory",
+          "topic": "Drive Times: Making Motivation Learning Voluntary",
+          "visual_frame_description": "A Portland nonprofit's staff office: a shared tracker on the wall titled Newsletter Takeaways, filled with tautological bullet points, while two program officers wordlessly forward the quarterly e-mail newsletter Drive Times to an archive folder. Executive director Lena Cho looks on, puzzled that required learning produced resentment.",
+          "player_mission": "Diagnose why the mandatory newsletter requirement killed curiosity, then choose the redesign that treats ongoing motivation learning as the voluntary, self-directed pursuit the chapter describes. Win the battle to bring Drive Times back to life.",
+          "key_concepts": [
+            "Drive Times is a free quarterly e-mail newsletter on the science and practice of human motivation.",
+            "The final chapter invites readers to find out more about themselves and the topic.",
+            "Continuous learning about motivation works best when it is voluntary and self-directed.",
+            "Requiring a subscription and mandated takeaways turns a learning resource into an extrinsic obligation.",
+            "Contingent requirements attached to learning tend to crowd out intrinsic curiosity.",
+            "The book offers a free online Type I/Type X assessment for personal use.",
+            "The book's overall stance is that there is a gap between what science knows and what organizations do.",
+            "Voluntary, social formats — like a coffee chat where people share what they found interesting — preserve autonomy.",
+            "External contingencies can convert an invitation to learn into a compliance artifact and feed resentment."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the chapter's invitation to keep learning about motivation science through free, self-directed resources — the assessment and Drive Times — and the damage done when a curiosity-offering is re-cast as a mandated, tracked obligation. The mechanism is the book's recurring claim that contingent controls can suppress the intrinsic interest they pretend to support.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Popular science synthesis (Deci & Ryan self-determination research)"
+          },
+          "boss_battle_explanation": "The battle tests the final chapter's ongoing-learning resources — the free quarterly newsletter Drive Times on the science and practice of human motivation — and whether a leader treats continuing motivation education as an intrinsic pursuit or re-frames it as a compliance program.",
+          "stage_1_observation": "At a Portland nonprofit, executive director Lena Cho wants her staff to stay current on motivation science, so she requires every program officer to subscribe to the quarterly newsletter Drive Times and to paste three takeaways into a shared tracker each quarter. The tracker fills with tautological bullet points, and two officers quietly admit they forward the newsletter unread — the ritual is feeding resentment, not curiosity.",
+          "stage_1_question": "Why is the subscription requirement producing the opposite of continuous learning?",
+          "stage_1_correct_answer": "Requiring the subscription and the mandated takeaways reconfigured an invitation to learn — the chapter's promise of regular, free updates on the science and practice of human motivation — into an extrinsic obligation with a compliance artifact, the tracker. Contingent requirements attached to learning tend to crowd out the intrinsic curiosity the newsletter is meant to serve, so the ritual produced compliance and resentment.",
+          "stage_2_intervention": "Lena's options: (A) keep the tracker but grade the takeaways; (B) unsubscribe everyone and buy each officer a conference pass with a mandatory session schedule; (C) make learning voluntary and social — put one copy of the newsletter in the break room, let anyone who finds something interesting raise it in the standing Friday coffee chat, post the free assessment link for personal use, and let word of mouth carry it. Which option fits the chapter's spirit best?",
+          "stage_2_correct_answer": "Option C. The chapter frames these resources as free, optional, self-directed aids — find out more about yourself and this topic — so voluntary, social formats preserve autonomy and intrinsic interest. Options A and B retain contingent requirements, a graded tracker and a mandated conference schedule, that reproduce the compliance dynamic the chapter's framing is built to avoid."
+        }
+      ]
+    }
+  ]
+}

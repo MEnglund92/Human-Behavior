@@ -8,3 +8,6 @@ AFTER all books are attempted.
 |-------|------|--------|---------------|--------------|----------------|
 | spec_lucifer_effect_b15 | lucifer_effect | 3 | 2026-08-10 | 2026-08-10, wave b15+waves | Agent session returned empty result; no file written (3 consecutive attempts). Chapter ch21 (CHAPTER FIFTEEN). Backfill needed. |
 | spec_emotional_intelligence_b06 | emotional_intelligence | 2 | 2026-08-10 | 2026-08-10, retry | Agent session returned empty result; no file written (2 attempts: initial + retry). Chapter ch12. Backfill needed. |
+| spec_drive_b01 | drive | 2 | 2026-08-10 | 2026-08-10, retry | Agent session returned empty result; no file written (2 attempts: initial + retry). Chapters ch04+ch05. Backfill needed. |
+| spec_drive_b06 | drive | 2 | 2026-08-10 | 2026-08-10, retry | Agent session returned empty result; no file written (2 attempts: initial + retry). Chapters ch11-ch14. Backfill needed. |
+| spec_drive_b07 | drive | 2 | 2026-08-10 | 2026-08-10, retry | Agent session returned empty result; no file written (2 attempts: initial + retry). Chapters ch15-ch18. Backfill needed. |

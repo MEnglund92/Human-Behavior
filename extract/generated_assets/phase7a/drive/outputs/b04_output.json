@@ -1,0 +1,603 @@
+{
+    "spec_file":  "spec_drive_b04.json",
+    "chapters":  [
+                     {
+                         "id":  "ch09",
+                         "title":  "CHAPTER 4 - Autonomy",
+                         "pages":  "",
+                         "assets":  [
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Intrinsic Motivation | Self-Determination Theory",
+                                            "topic":  "The Four T\u0027s: Autonomy over Task, Technique, and Team",
+                                            "visual_frame_description":  "A sorting dashboard shows three glowing columns labeled Task, Technique, and Team. Practice cards float down a conveyor belt, each stamped with a workplace scenario such as an Atlassian FedEx Day or a Zappos customer service call. A score meter at the top tracks how many cards the player has binned correctly.",
+                                            "player_mission":  "Sort each workplace practice card into the facet of autonomy it grants: task, technique, or team. Resolve the featured case first, Atlassian\u0027s FedEx Days, because landing it in the correct column unlocks the rest of the round.",
+                                            "key_concepts":  [
+                                                                 "Type I behavior emerges when people have autonomy over the four T\u0027s: their task, their time, their technique, and their team.",
+                                                                 "Atlassian\u0027s FedEx Days are twenty-four-hour bursts held once a quarter when engineers work on any software problem they want and deliver it overnight to the whole company.",
+                                                                 "At 3M, William McKnight\u0027s 15 percent time policy, known inside the company as the bootlegging policy, produced innovations including Art Fry\u0027s Post-it notes.",
+                                                                 "Zappos does not monitor customer service employees\u0027 call times and does not require them to use scripts; reps handle calls the way they want.",
+                                                                 "At Whole Foods, a department\u0027s employees vote on whether to hire a job candidate full-time after the candidate works a thirty-day trial period on the team.",
+                                                                 "At W. L. Gore and Associates, anybody who wants to rise in the ranks and lead a team must assemble people willing to work with her.",
+                                                                 "At Georgetown University Hospital in Washington, D.C., many nurses have the freedom to conduct their own research projects, which have changed hospital programs and policies.",
+                                                                 "JetBlue routes customer service calls to employees\u0027 homes, removing them from physical monitoring and giving them autonomy over how they do their jobs.",
+                                                                 "Mike Cannon-Brookes refused to track engineers\u0027 time during 20 percent time because tracking was too controlling; he wanted to back his engineers and take it on faith that they would do good things.",
+                                                                 "Autonomy over team is the least developed of the four T\u0027s, but open-source projects show how self-assembling teams can reach beyond a single organization."
+                                                             ],
+                                            "difficulty_level":  "Beginner",
+                                            "theory_summary":  "This matrix tests the four T\u0027s of autonomy, task, time, technique, and team, which Pink identifies as the essential facets of the Motivation 3.0 approach to work. The book grounds each facet in named cases, from Atlassian\u0027s FedEx Days and 3M\u0027s 15 percent time to Zappos\u0027s technique freedom and Whole Foods\u0027 team hiring votes.",
+                                            "credibility":  {
+                                                                "level":  "Medium",
+                                                                "consensus":  "Emerging",
+                                                                "basis":  "Popular science synthesis (Deci \u0026 Ryan self-determination research)"
+                                                            },
+                                            "question":  "Sort each practice card into the column for the kind of autonomy it grants. Featured case: Atlassian\u0027s FedEx Days, where engineers spend a fixed burst of time on any software problem they choose, even if it is not part of their regular job. Which column does this practice belong in?",
+                                            "column_a_label":  "Autonomy over task",
+                                            "column_b_label":  "Autonomy over technique",
+                                            "column_c_label":  "Autonomy over team",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "Atlassian engineers spend a quarterly twenty-four-hour FedEx Day on any software problem they want",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "At 3M, Art Fry used his 15 percent bootlegging time to invent Post-it notes",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Zappos customer service reps handle calls without scripts and without call-time monitoring",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Whole Foods department members vote on a job candidate after a thirty-day team trial",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Georgetown University Hospital nurses run their own research projects",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "W. L. Gore leaders must assemble people willing to work with them",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "JetBlue routes calls to service reps at home, free from physical monitoring",
+                                                             "col":  "b"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "a",
+                                            "distractors":  [
+                                                                "FedEx Days are a pay-for-performance plan where engineers earn bonuses for each delivered feature",
+                                                                "3M officially banned the bootlegging policy, and employees practiced it in secret",
+                                                                "Zappos requires reps to end every call by quoting a scripted sales line"
+                                                            ],
+                                            "explanation":  "FedEx Days and 3M\u0027s 15 percent time let people choose what they build, so they grant autonomy over task, column a. Zappos and JetBlue free how the work is performed, which is technique, column b. Whole Foods voting and W. L. Gore leader assembly give employees a say over who they work with, which is team, column c. Time, the fourth T, is served by results-only work environments rather than by these practices."
+                                        },
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Intrinsic Motivation | Self-Determination Theory",
+                                            "topic":  "Controlled vs Autonomous Motivation: The SDT Distinction",
+                                            "visual_frame_description":  "Two silhouettes face each other across a split screen: one glows warm and moves freely between choices, the other is gray and chained to a conveyor of demands. A third figure stands apart on a lonely hill with a cowboy hat, labeled Independence. Cards listing behaviors slide beneath each figure for the player to assign.",
+                                            "player_mission":  "Classify each behavior card as autonomous motivation, controlled motivation, or independence as Deci and Ryan define them. The featured card shows a law associate billing in six-minute increments; classify it first to unlock the remaining cards.",
+                                            "key_concepts":  [
+                                                                 "Deci and Ryan cite autonomy as one of three basic human needs and call it the most important, the sun around which self-determination theory\u0027s planets orbit.",
+                                                                 "Deci and Ryan moved from categorizing behavior as intrinsically or extrinsically motivated to categorizing it as controlled or autonomous.",
+                                                                 "Autonomous motivation involves behaving with a full sense of volition and choice.",
+                                                                 "Controlled motivation involves behaving with the experience of pressure and demand toward specific outcomes that comes from forces perceived to be external to the self.",
+                                                                 "Autonomy is different from independence: it is not the rugged go-it-alone individualism of the American cowboy.",
+                                                                 "A person can be both autonomous and happily interdependent with others.",
+                                                                 "Autonomy appears to be a human concept rather than a Western one, with benefits found in Russia, Turkey, South Korea, and high-poverty Bangladesh.",
+                                                                 "A 2004 study by Deci, Ryan, and Paul Baard of investment bank workers found greater job satisfaction among employees whose bosses offered autonomy support.",
+                                                                 "Autonomy support means bosses see issues from the employee\u0027s point of view, give meaningful feedback and information, provide ample choice over what to do and how to do it, and encourage new projects.",
+                                                                 "Researchers found that people oriented toward autonomy and intrinsic motivation have higher self-esteem and better interpersonal relationships than those who are extrinsically motivated."
+                                                             ],
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This matrix tests the distinction at the heart of self-determination theory: autonomous motivation, acting with full volition and choice, versus controlled motivation, acting under pressure toward externally perceived outcomes. Pink presents this shift in Deci and Ryan\u0027s taxonomy plus evidence that autonomy support raises job satisfaction and performance at an American investment bank.",
+                                            "credibility":  {
+                                                                "level":  "Medium",
+                                                                "consensus":  "Emerging",
+                                                                "basis":  "Popular science synthesis (Deci \u0026 Ryan self-determination research)"
+                                                            },
+                                            "question":  "Sort each behavior into its SDT category. Featured case: a new associate at a large law firm must bill more than two thousand hours a year, logged in six-minute increments, or her job is at risk. Which column does her behavior belong in?",
+                                            "column_a_label":  "Autonomous motivation (SDT)",
+                                            "column_b_label":  "Controlled motivation (SDT)",
+                                            "column_c_label":  "Independence (not autonomy)",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "A software developer spends 20 percent time on a project she chooses herself",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "A law associate logs every six-minute increment because her job depends on billable hours",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "A do-it-yourself homesteader who relies on no one and answers to nobody",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "An investment bank employee whose boss sees issues from her point of view and offers meaningful feedback",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Behaving with a full sense of volition and choice, in Deci and Ryan\u0027s definition",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "A call center rep reads a required script under a manager listening in to time each call",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Acting with choice while remaining happily interdependent with colleagues",
+                                                             "col":  "a"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "b",
+                                            "distractors":  [
+                                                                "Controlled motivation means behaving with a full sense of volition and choice",
+                                                                "Deci and Ryan rank independence as the most important of the three basic needs",
+                                                                "Autonomy support means telling employees exactly how to do their jobs"
+                                                            ],
+                                            "explanation":  "The billable-hour associate experiences pressure and demand toward outcomes imposed by forces external to herself, which is precisely Deci and Ryan\u0027s definition of controlled motivation. Choosing freely, receiving autonomy support, and staying interdependent while self-directed all land in the autonomous column, while go-it-alone self-reliance is independence, which SDT treats as distinct from autonomy."
+                                        },
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Intrinsic Motivation | Self-Determination Theory",
+                                            "topic":  "Time Autonomy: ROWE vs Cosmetic Flexibility vs the Billable Hour",
+                                            "visual_frame_description":  "A three-lane clock tower scene: lane one shows a calm office where people drift in at noon on a rainy Friday, lane two shows a gated pasture with a fence being widened, and lane three shows a stamp mill crunching numbers in six-minute blocks. The player drags evidence plaques across the lanes.",
+                                            "player_mission":  "Assign each evidence plaque to the time model it describes: the results-only work environment, cosmetic flexibility or empowerment, or the billable hour. Classify the featured Meddius case first, since it anchors the whole matrix.",
+                                            "key_concepts":  [
+                                                                 "A ROWE, or results-only work environment, was created by Cali Ressler and Jody Thompson, former Best Buy human resources executives.",
+                                                                 "In a ROWE, people do not have schedules; they show up when they want and must only get their work done.",
+                                                                 "Jeff Gunther turned his company Meddius into a ROWE for a ninety-day experiment, then made it permanent after productivity rose and stress declined.",
+                                                                 "Gunther calls money a threshold motivator: once a company meets the baseline, dollars and cents do not much affect performance and motivation.",
+                                                                 "Gunther refused to tie specific goals to compensation because that creates a culture that says it is all about the money and not enough about the work.",
+                                                                 "Ressler and Thompson call formal flex time programs a con game because flexibility simply widens the fences and occasionally opens the gates.",
+                                                                 "Empowerment is not autonomy; it presumes the organization holds the power and benevolently ladles some of it into the waiting bowls of grateful employees.",
+                                                                 "The billable hour forces lawyers to keep scrupulous track of time, often in six-minute increments, veering their focus from output to input.",
+                                                                 "Chief Justice William Rehnquist warned that if one is expected to bill more than two thousand hours per year, there are bound to be temptations to exaggerate the hours actually put in.",
+                                                                 "At Best Buy\u0027s corporate offices, salaried employees put in as much time as it takes, productivity rose 35 percent, and voluntary turnover fell 320 basis points versus non-ROWE teams."
+                                                             ],
+                                            "difficulty_level":  "Advanced",
+                                            "theory_summary":  "This matrix tests the difference between genuine time autonomy, cosmetic flexibility, and time-based control. Pink argues that a ROWE flips the model from input to output, while flex time and empowerment are control in sheep\u0027s clothing, and the billable hour is an autonomy-crushing relic of Motivation 2.0.",
+                                            "credibility":  {
+                                                                "level":  "Medium",
+                                                                "consensus":  "Emerging",
+                                                                "basis":  "Popular science synthesis (Deci \u0026 Ryan self-determination research)"
+                                                            },
+                                            "question":  "Sort each evidence plaque into the time model it matches. Featured case: at Meddius in Charlottesville, staff have no schedules, show up when they want, and are judged only on completing their work, with goals kept separate from pay. Which column does this practice belong in?",
+                                            "column_a_label":  "Results-only work environment (ROWE)",
+                                            "column_b_label":  "Flexibility and empowerment (cosmetic control)",
+                                            "column_c_label":  "Billable hour (Motivation 2.0 time tracking)",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "Best Buy corporate employees work as much time as the work takes; productivity rose 35 percent and voluntary turnover dropped 320 basis points",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "A company lets employees pick arrival windows but still polices lateness and counts hours",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "A lawyer must record time in six-minute increments or risk her job",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Meddius staff have no schedules; they show up when they want and must only complete the work",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Ressler and Thompson\u0027s verdict on formal flex time programs: a con game",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Chief Justice Rehnquist notes that expected billing of over two thousand hours a year creates temptations to exaggerate hours put in",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Jeff Gunther keeps specific goals at Meddius but refuses to tie them to compensation",
+                                                             "col":  "a"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "a",
+                                            "distractors":  [
+                                                                "In a ROWE, every employee must work from home",
+                                                                "The billable hour makes sense for nonroutine work such as law",
+                                                                "Empowerment grants genuine autonomy because the organization delegates real power"
+                                                            ],
+                                            "explanation":  "The Meddius practice matches Ressler and Thompson\u0027s ROWE design, in which people control when they work and are judged on results, not hours. Flex time that widens the fences but keeps surveillance is cosmetic control, and the billable hour is pure input-based tracking that shifts focus from solving problems to piling up hours. Only the ROWE flips the old model from putting in time to getting results."
+                                        },
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Intrinsic Motivation | Self-Determination Theory",
+                                            "topic":  "Player or Pawn: Invented Management vs the Human Default Setting",
+                                            "visual_frame_description":  "A split diorama shows a television and a bicycle floating beside a tree and a river, while below, a toddler crawls toward a toy while a gray-suited figure clips on a leash. The player sorts belief cards into three arches labeled Invention, Default Setting, and Motivation 2.0 Assumption.",
+                                            "player_mission":  "Assign each belief card to the correct arch: management as invented technology, the human default setting, or the Motivation 2.0 assumption about human nature. Classify the featured toddler scene first, as it establishes the chapter\u0027s core claim.",
+                                            "key_concepts":  [
+                                                                 "Management does not emanate from nature; as strategy guru Gary Hamel observes, management is a technology, like a television or a bicycle, something humans invented.",
+                                                                 "Like Motivation 2.0, management is a technology that has grown creaky, its central ethic remains control, and its chief tools remain extrinsic motivators.",
+                                                                 "The idea of management presumes that to take action or move forward we need a prod, and that absent a reward or punishment we would remain happily and inertly in place.",
+                                                                 "Management also presumes that once people get moving they need direction, because without a firm and reliable guide they would wander.",
+                                                                 "Pink argues our basic nature is to be curious and self-directed, citing the six-month-old or one-year-old who is curious and self-directed straight out of the box.",
+                                                                 "If a person is passive and inert at age fourteen or forty-three, that is not because it is their nature but because something flipped their default setting.",
+                                                                 "Management may be one of the forces switching the default setting, producing the very passivity it claims to manage.",
+                                                                 "Submerging part of our nature in the name of economic survival can be a sensible move, but today achievement swings on allowing it to surface.",
+                                                                 "Autonomy is the most important of Deci and Ryan\u0027s three basic needs, the sun around which self-determination theory\u0027s planets orbit.",
+                                                                 "Researchers have found a link between autonomy and well-being in North America, Western Europe, Russia, Turkey, South Korea, and high-poverty Bangladesh."
+                                                             ],
+                                            "difficulty_level":  "Beginner",
+                                            "theory_summary":  "This matrix tests Pink\u0027s players-versus-pawns claim: humans are wired to be active and engaged, not passive and inert, and management as currently constituted may be what flips the default setting toward passivity. The chapter grounds this in self-determination theory and in the observation that very young children are curious and self-directed out of the box.",
+                                            "credibility":  {
+                                                                "level":  "Medium",
+                                                                "consensus":  "Emerging",
+                                                                "basis":  "Popular science synthesis (Deci \u0026 Ryan self-determination research)"
+                                                            },
+                                            "question":  "Sort each belief card into its arch. Featured case: you watch a one-year-old spend an hour exploring a toy kitchen without any reward or instruction. Which column does this observation support?",
+                                            "column_a_label":  "Management as invented technology",
+                                            "column_b_label":  "Human default setting: curious and self-directed",
+                                            "column_c_label":  "Motivation 2.0 assumption: passive, needing prods",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "Management is like a television or a bicycle, not like a tree or a river",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "A six-month-old who is curious and self-directed straight out of the box",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Absent a reward or punishment, people would remain happily and inertly in place",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Management\u0027s central ethic remains control and its chief tools remain extrinsic motivators",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Autonomy is the sun around which self-determination theory\u0027s planets orbit",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Once people get moving, they need a firm and reliable guide or they would wander",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "In Russia, Turkey, South Korea, and high-poverty Bangladesh, researchers find autonomy sought and beneficial",
+                                                             "col":  "b"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "b",
+                                            "distractors":  [
+                                                                "Management is a natural phenomenon, like a river, present in every human society",
+                                                                "Deci and Ryan describe autonomy as the least important of the three basic needs",
+                                                                "Passive inertia at age fourteen is the natural human state out of the box"
+                                                            ],
+                                            "explanation":  "The exploring toddler supports the claim that humans are wired to be curious and self-directed, column b: that is how we are out of the box. Cards about management\u0027s invented, control-centered character belong in column a, and cards describing people as inert without prods or as wanderers without guides express the Motivation 2.0 assumption, column c. The toddler scene is evidence that passivity is a flipped setting, not the factory default."
+                                        },
+                                        {
+                                            "asset_type":  "DISCRIMINATION_MATRIX",
+                                            "domain":  "Intrinsic Motivation | Self-Determination Theory",
+                                            "topic":  "Where Autonomy\u0027s Payoffs Show Up: Workplace, School, and Across Cultures",
+                                            "visual_frame_description":  "A world map dashboard lights up in three zones: an office tower, a lecture hall, and a globe with pins in Russia, Turkey, South Korea, and Bangladesh. Evidence plaques from studies fly to their matching zone, and a confirmation chime sounds for each correct placement.",
+                                            "player_mission":  "Assign each research finding to the setting where it was observed: the workplace, education, or cross-cultural well-being research. Classify the featured law school study first, then place the remaining findings.",
+                                            "key_concepts":  [
+                                                                 "A cluster of recent behavioral science studies finds autonomous motivation promotes greater conceptual understanding, better grades, enhanced persistence, higher productivity, less burnout, and greater psychological well-being.",
+                                                                 "In 2004, Deci and Ryan, along with Paul Baard of Fordham University, studied workers at an American investment bank and found greater job satisfaction among employees whose bosses offered autonomy support.",
+                                                                 "In the investment bank study, enhanced job satisfaction led to higher performance on the job.",
+                                                                 "Cornell University researchers studied 320 small businesses, half granting workers autonomy, and found the autonomy-granting firms grew at four times the rate of control-oriented firms and had one-third the turnover.",
+                                                                 "A 2007 study of two American law schools found students\u0027 overall well-being plummeted over three years, in large part because their need for autonomy was thwarted.",
+                                                                 "In the law school study, students with greater autonomy over course selection, assignments, and relations with professors showed far less steep declines and posted better grades and bar exam scores.",
+                                                                 "Researchers have found a link between autonomy and overall well-being in North America and Western Europe, as well as in Russia, Turkey, and South Korea.",
+                                                                 "Even in high-poverty non-Western locales like Bangladesh, social scientists have found that autonomy is something people seek and that improves their lives.",
+                                                                 "A sense of autonomy has a powerful effect on individual performance and attitude, and those effects carry over to the workplace.",
+                                                                 "Francis Green, a British economist, blames the lack of individual discretion at work for declining productivity and job satisfaction in the UK."
+                                                             ],
+                                            "difficulty_level":  "Beginner",
+                                            "theory_summary":  "This matrix tests the evidential breadth of self-determination theory: the same autonomy-need claim is supported in workplace studies, educational studies, and cross-cultural well-being research. Pink marshals the 2004 investment bank study, the Cornell small-business study, a 2007 law school study, and evidence from Russia, Turkey, South Korea, and Bangladesh.",
+                                            "credibility":  {
+                                                                "level":  "Medium",
+                                                                "consensus":  "Emerging",
+                                                                "basis":  "Popular science synthesis (Deci \u0026 Ryan self-determination research)"
+                                                            },
+                                            "question":  "Sort each finding into the setting where it was observed. Featured case: a 2007 study of two American law schools tracked students for three years, finding well-being plummeted largely because the need for autonomy was thwarted, while students with more say over courses and assignments did better. Which column does this study belong in?",
+                                            "column_a_label":  "Workplace evidence",
+                                            "column_b_label":  "Educational evidence",
+                                            "column_c_label":  "Cross-cultural well-being evidence",
+                                            "rows":  [
+                                                         {
+                                                             "label":  "Deci, Ryan, and Paul Baard\u0027s 2004 study of an American investment bank found autonomy-supportive bosses raised job satisfaction and performance",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "Cornell researchers found autonomy-granting small businesses grew at four times the rate and had one-third the turnover",
+                                                             "col":  "a"
+                                                         },
+                                                         {
+                                                             "label":  "In a 2007 study of two American law schools, students with autonomy over courses and assignments posted better grades and bar exam scores",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Law students\u0027 well-being plummeted over three years as their need for autonomy was thwarted",
+                                                             "col":  "b"
+                                                         },
+                                                         {
+                                                             "label":  "Researchers link autonomy to well-being in North America, Western Europe, Russia, Turkey, and South Korea",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Even in high-poverty Bangladesh, people seek autonomy and it improves their lives",
+                                                             "col":  "c"
+                                                         },
+                                                         {
+                                                             "label":  "Autonomous motivation promotes greater conceptual understanding and enhanced persistence at school and in sport",
+                                                             "col":  "b"
+                                                         }
+                                                     ],
+                                            "correct_answer":  "b",
+                                            "distractors":  [
+                                                                "The Cornell study found control-oriented small businesses grew at four times the rate",
+                                                                "Autonomy research has only been replicated inside the United States",
+                                                                "The investment bank study found autonomy support reduced job satisfaction"
+                                                            ],
+                                            "explanation":  "The featured law school study tracks student well-being, grades, and bar exam scores, so it is educational evidence, column b. The investment bank study and the Cornell small-business study measure jobs, firms, and turnover, placing them in the workplace column. Findings from Russia, Turkey, South Korea, and Bangladesh show autonomy benefits travel across cultures and even into high-poverty settings."
+                                        },
+                                        {
+                                            "asset_type":  "BOSS_BATTLE",
+                                            "domain":  "Intrinsic Motivation | Self-Determination Theory",
+                                            "topic":  "Boss Battle: Ending the Billable Hour",
+                                            "visual_frame_description":  "The battle screen shows a midnight law firm corridor where associates in rolled sleeves log six-minute increments beneath a glowing billable-hours board. Dana\u0027s desk is piled with half-finished briefs while a partner frowns at a padded entry on her screen. The player analyzes the mechanism in stage one, then casts the deciding vote at the management committee table.",
+                                            "player_mission":  "Diagnose why high bonuses and long hours are destroying Dana\u0027s craft, engagement, and honesty. Then cast the deciding vote among the firm\u0027s reform options, choosing the intervention that restores decision latitude and intrinsic motivation.",
+                                            "key_concepts":  [
+                                                                 "Behavioral scientists use decision latitude to describe the choices, and perceived choices, a person has, and lawyers face intense demands with relatively little of it.",
+                                                                 "Social scientists offer three explanations for lawyers\u0027 misery: optimism harms them, law is often a zero-sum game, and they lack decision latitude.",
+                                                                 "A 2007 study of two American law schools found students\u0027 overall well-being plummeted over three years, in large part because their need for autonomy was thwarted.",
+                                                                 "Students with greater autonomy over course selection, assignments, and relations with professors showed far less steep declines and posted better grades and bar exam scores.",
+                                                                 "The billable hour forces most lawyers in large, prestigious firms to keep scrupulous track of their time, often in six-minute increments.",
+                                                                 "If the rewards come from time, then time is what firms will get, and lawyers\u0027 focus veers from output, solving a client\u0027s problem, to input, piling up hours.",
+                                                                 "High-stakes, measurable goals can drain intrinsic motivation, sap individual initiative, and even encourage unethical behavior.",
+                                                                 "Chief Justice William Rehnquist warned that if one is expected to bill more than two thousand hours per year, there are bound to be temptations to exaggerate the hours actually put in.",
+                                                                 "For nonroutine tasks such as law, the link between how much time somebody spends and what that somebody produces is irregular and unpredictable.",
+                                                                 "Some law firms now charge a flat rate rather than a time-based fee, with the presiding partner of one of New York\u0027s leading firms declaring this is the time to get rid of the billable hour."
+                                                             ],
+                                            "boss_battle_explanation":  "The billable hour is an autonomy-crushing relic of Motivation 2.0. Lawyers log time in six-minute increments, their focus veers from output, solving the client\u0027s problem, to input, piling up as many hours as possible, and high-stakes measurable time goals drain intrinsic motivation, sap initiative, and even encourage unethical behavior.",
+                                            "stage_1_observation":  "It is 2 A.M. in the marble corridors of a large New York law firm. Associate Dana has cleared her annual two-thousand-hour target by logging six-minute increments in near-total darkness, and her billable-hours dashboard shows green. Yet her briefs are getting sloppy, a partner caught a padded entry on Friday, and Dana, once the firm\u0027s most promising junior, now jokes that her work product is the spreadsheet itself.",
+                                            "stage_1_question":  "Dana\u0027s bonuses have never been higher, and her hours have never been longer. Which mechanism best explains why her engagement, craft, and honesty are all collapsing at once?",
+                                            "stage_1_correct_answer":  "The billable hour redirects Dana\u0027s focus from the output of her work, solving the client\u0027s problem, to its input, piling up hours, and when the rewards come from time, time is what firms get. Chief Justice Rehnquist warned that if one is expected to bill more than two thousand hours per year, there are bound to be temptations to exaggerate the hours actually put in, and such high-stakes measurable goals drain intrinsic motivation and sap individual initiative.",
+                                            "stage_2_intervention":  "The management committee convenes to decide the firm\u0027s fate. Associate after associate describes watching the clock instead of the case. One partner proposes auditing six-minute logs weekly, another wants to raise the per-hour bonus rate, and a third suggests switching the practice group to flat-rate fees and abandoning the hourly log altogether. You have the deciding vote. Which intervention do you back?",
+                                            "stage_2_correct_answer":  "Back the flat-rate switch and retire the hourly log, the direction already being taken by leading law firms, with the presiding partner of one of New York\u0027s leading firms declaring that this is the time to get rid of the billable hour. Flat fees restore decision latitude by loosening the link between time spent and reward, letting lawyers focus on solving the client\u0027s problem rather than piling up hours, which is the Type I, Motivation 3.0 path.",
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This battle tests the billable hour\u0027s assault on decision latitude, the choices and perceived choices a person has, and on intrinsic motivation. The book cites Chief Justice Rehnquist on the temptation to exaggerate hours and the rise of flat-rate billing at leading New York firms as the Motivation 3.0 correction.",
+                                            "credibility":  {
+                                                                "level":  "Medium",
+                                                                "consensus":  "Emerging",
+                                                                "basis":  "Popular science synthesis (Deci \u0026 Ryan self-determination research)"
+                                                            }
+                                        },
+                                        {
+                                            "asset_type":  "BOSS_BATTLE",
+                                            "domain":  "Intrinsic Motivation | Self-Determination Theory",
+                                            "topic":  "Boss Battle: Defending 20 Percent Time",
+                                            "visual_frame_description":  "The battle screen shows Atlassian\u0027s Sydney loft where engineers crash out code overnight while a wall projection ticks up a one-million-dollar cost figure beneath a green-eyeshade caricature. Project managers cluster in the foreground proposing quarterly time reports. The player first analyzes why Cannon-Brookes rejects tracking, then faces the finance guy\u0027s final challenge.",
+                                            "player_mission":  "Identify the reasoning behind Cannon-Brookes\u0027s refusal to track engineers\u0027 time during 20 percent time. Then decide how to justify the one-million-dollar yearlong trial to the CFO, choosing the evidence-based rebuttal that keeps the autonomy program alive.",
+                                            "key_concepts":  [
+                                                                 "FedEx Days at Atlassian are twenty-four-hour bursts of freedom and creativity, beginning at two P.M. on a Thursday and ending with a four P.M. Friday all-hands meeting.",
+                                                                 "In the spring of 2008, Atlassian announced that developers could spend 20 percent of their time working on any project they wanted, and in 2009 the practice became permanent.",
+                                                                 "Cannon-Brookes estimated that seventy engineers spending 20 percent of their time over a six-month period amounted to an investment of about one million dollars.",
+                                                                 "The company\u0027s chief financial officer was aghast at the price tag, and some project managers were unhappy because it meant ceding some of their control over employees.",
+                                                                 "When a few managers wanted to track employees\u0027 time to make sure they did not abuse the privilege, Cannon-Brookes said no.",
+                                                                 "Cannon-Brookes rejected time tracking because it was too controlling: he wanted to back his engineers and take it on faith that they would do good things.",
+                                                                 "According to Cannon-Brookes, people are way more efficient about 20 percent time than regular work time, skipping newsfeeds and Facebook.",
+                                                                 "In a yearlong trial, Atlassian developers launched forty-eight new projects under the 20 percent arrangement.",
+                                                                 "Cannon-Brookes\u0027s reply to the finance guy lists the things delivered, the zero turnover in engineering, and the highly motivated engineers always trying to perfect the product.",
+                                                                 "Most Atlassian employees came in substantially under the 20 percent figure because they did not want to let down their current teammates on ongoing projects."
+                                                             ],
+                                            "boss_battle_explanation":  "Task autonomy at scale: Atlassian\u0027s quarterly FedEx Days grew into 20 percent time, where engineers spend a fifth of their working time on projects of their own choosing. The finance case against it was steep, seventy engineers at 20 percent for six months cost about one million dollars, but Cannon-Brookes refused to track his engineers because that was too controlling, and he answered the price objection with delivered products, zero engineering turnover, and motivated engineers.",
+                                            "stage_1_observation":  "In Atlassian\u0027s sunny Sydney office, the chief financial officer stares at a spreadsheet: seventy engineers, 20 percent of their time, six months, a one-million-dollar price tag. A knot of project managers huddles outside, grumbling that they have ceded control over their people, and one proposes quarterly time reports so nobody can abuse the privilege. Cannon-Brookes, the cofounder, sits calm at the end of the table.",
+                                            "stage_1_question":  "The project managers propose tracking each engineer\u0027s 20 percent hours to make sure the privilege is not abused. Why does Cannon-Brookes reject the tracking proposal outright?",
+                                            "stage_1_correct_answer":  "He rejects it because tracking was too controlling: he wanted to back his engineers and take it on faith that they would do good things. Adding time surveillance would convert an autonomy-based program into a Motivation 2.0 control scheme, reintroducing exactly the input-based monitoring that the four T\u0027s of task and time autonomy are meant to dissolve.",
+                                            "stage_2_intervention":  "Days later, the finance guy in the green eyeshades comes calling for a decision on the yearlong 20 percent time trial. Your options are to kill the program to save the million dollars, to keep it but require monthly hour reports, to cap it at one FedEx Day per quarter, or to keep the program free of tracking and answer the price objection with evidence. Which decision do you make?",
+                                            "stage_2_correct_answer":  "Keep the program untracked and answer the finance guy with the same case Cannon-Brookes used: the long list of things delivered, zero turnover in engineering, and highly motivated engineers always trying to perfect and improve the product. The urge to measure can also be tempered by the finding that most Atlassian engineers came in substantially under the 20 percent figure because they did not want to let down their teammates on ongoing projects.",
+                                            "difficulty_level":  "Advanced",
+                                            "theory_summary":  "This battle tests task autonomy and the trust-based accountability of Motivation 3.0, in which people want to be accountable and control over task, time, technique, and team is the pathway to that accountability. The book documents Cannon-Brookes\u0027s refusal to track engineers, the one-million-dollar cost estimate, and the delivered-products, zero-turnover, motivated-engineers rebuttal to the price objection.",
+                                            "credibility":  {
+                                                                "level":  "Medium",
+                                                                "consensus":  "Emerging",
+                                                                "basis":  "Popular science synthesis (Deci \u0026 Ryan self-determination research)"
+                                                            }
+                                        },
+                                        {
+                                            "asset_type":  "BOSS_BATTLE",
+                                            "domain":  "Intrinsic Motivation | Self-Determination Theory",
+                                            "topic":  "Boss Battle: Rewiring the Call Center",
+                                            "visual_frame_description":  "The battle screen shows a beige Midwest call center warren: headsets strapped on, diet sodas at elbows, and managers with stopwatches while red call-duration warnings flash on a wall display. In the corner, Marisol\u0027s badge glows as she resolves a complaint her own way. The player studies the failure mechanism in stage one, then designs the center\u0027s overhaul in stage two.",
+                                            "player_mission":  "Explain why the script-and-monitor system produces deadening routine and crushing turnover. Then choose the redesign that restores autonomy over technique and self-selects the right workforce, using the Zappos playbook.",
+                                            "key_concepts":  [
+                                                                 "Call center reps have little decision latitude and their jobs are often the very definition of routine.",
+                                                                 "In most call centers, reps retrieve a script when a call comes in and follow it, sometimes word for word, hoping to get the caller off the line quickly.",
+                                                                 "Many call center managers listen in on reps\u0027 conversations and monitor how long each call lasts in an effort to boost productivity.",
+                                                                 "Call centers in the United States and the UK have annual turnover rates averaging about 35 percent, double the rate for other jobs.",
+                                                                 "In some call centers the annual turnover rate exceeds 100 percent, meaning none of the people working there today will be there a year from now.",
+                                                                 "Tony Hsieh\u0027s Zappos puts new hires through a week of training, then offers them two thousand dollars to leave if they feel the company is not for them.",
+                                                                 "Hsieh is hacking the Motivation 2.0 operating system, using an if-then reward not to motivate better performance but to weed out people unfit for a Motivation 3.0 workplace.",
+                                                                 "The people who remain at Zappos receive decent pay, and just as important, they have autonomy over technique: the company does not monitor call times or require scripts.",
+                                                                 "Zappos\u0027s turnover is minimal, and it consistently ranks as one of the best companies for customer service, ahead of Cadillac, BMW, and Apple and roughly equal to Jaguar and the Ritz-Carlton.",
+                                                                 "JetBlue relied on home-based telephone customer service employees from its 2000 launch and earned customer service rankings far ahead of its competitors."
+                                                             ],
+                                            "boss_battle_explanation":  "Autonomy over technique: scripts and call monitoring strip customer service reps of decision latitude and turn their work into deadening routine. US and UK call centers average about 35 percent annual turnover, double the rate for other jobs, while Zappos drops scripts and call-time monitoring entirely, pays decently, and uses a paid two-thousand-dollar exit offer after the training week to self-select people who fit a Motivation 3.0 workplace.",
+                                            "stage_1_observation":  "In a beige call center outside Chicago, dozens of reps sit in a warren of cramped cubicles, headsets strapped on, diet sodas at their elbows, reading scripts word for word off their monitors. A manager prowls with a stopwatch, and red call-duration warnings flash on the wall display. Rep Marisol, three weeks on the job, abandons the script to actually help an irate caller with a lost delivery and resolves the complaint in nine minutes, then gets written up for going off-script and blowing the three-minute target.",
+                                            "stage_1_question":  "Marisol just delivered the best customer outcome of the shift and was punished for it. Why does the script-and-monitor system keep failing this center and others like it?",
+                                            "stage_1_correct_answer":  "Because it strips reps of decision latitude, the choices and perceived choices a person has, and pushes their focus from the work itself to the measured time, so the job becomes pure routine and the workforce churns: call centers in the United States and the UK average about 35 percent annual turnover, double the rate for other jobs, and some centers exceed 100 percent annually.",
+                                            "stage_2_intervention":  "The operations VP gives you one quarter to fix the center, with full design freedom. Your options are to keep the scripts but add bonuses for short calls, to cut the script to ten lines and require its first and last sentences, to adopt the Zappos model of no scripts, no call-time monitoring, decent pay, and a paid two-thousand-dollar exit offer after the training week, or to make an example of Marisol. Which do you choose?",
+                                            "stage_2_correct_answer":  "Adopt the Zappos model: end scripts and call-time monitoring, pay decently, and at the end of the seven-day training week offer every new hire two thousand dollars to leave if they feel Zappos is not for them. Hsieh deliberately uses this if-then reward not to motivate performance but to weed out people who are not fit for a Motivation 3.0 workplace, and the payoff was minimal turnover and top customer service rankings ahead of Cadillac, BMW, and Apple and roughly equal to Jaguar and the Ritz-Carlton.",
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This battle tests autonomy over technique as the cure for routine, monitored work: reps who handle calls their own way show minimal turnover and elite customer service at Zappos. The book contrasts the 35 percent average annual call center churn in the US and UK with Zappos\u0027s results and explains the two-thousand-dollar exit offer as a clever hack of the Motivation 2.0 operating system.",
+                                            "credibility":  {
+                                                                "level":  "Medium",
+                                                                "consensus":  "Emerging",
+                                                                "basis":  "Popular science synthesis (Deci \u0026 Ryan self-determination research)"
+                                                            }
+                                        },
+                                        {
+                                            "asset_type":  "BOSS_BATTLE",
+                                            "domain":  "Intrinsic Motivation | Self-Determination Theory",
+                                            "topic":  "Boss Battle: Scaffolding the Leap to ROWE",
+                                            "visual_frame_description":  "The battle screen shows a billing group converted to a results-only environment: most desks are empty on a sunny Tuesday while productivity charts climb, and three staffers huddle around Elena with their old schedule books still open. The player diagnoses the strugglers\u0027 mechanism in stage one, then chooses the Friday decision at the CEO\u0027s desk.",
+                                            "player_mission":  "Diagnose why Elena, a veteran of rigid eight A.M. rule firms, is failing where her coworkers flourish. Then choose the intervention that keeps the ROWE\u0027s productivity and stress gains while scaffolding the strugglers into autonomy.",
+                                            "key_concepts":  [
+                                                                 "Transitioning to autonomy won\u0027t, and often can\u0027t, happen in one fell swoop.",
+                                                                 "If we pluck people out of controlling environments, when they have known nothing else, and plop them in a ROWE or an environment of undiluted autonomy, they will struggle.",
+                                                                 "Richard Ryan argues that organizations must provide scaffolding to help every employee find his footing in the transition.",
+                                                                 "At Meddius, two employees struggled with the freedom of the ROWE and left, while most others found their groove.",
+                                                                 "After a few weeks of the Meddius experiment, productivity rose, stress declined, and Gunther decided to go with ROWE permanently.",
+                                                                 "Some Meddius staff came from extremely controlling environments, including a company where late arrivals had to write an explanation for everyone else to read.",
+                                                                 "People in a ROWE still had specific goals they had to reach, such as completing a project by a certain time or ringing up a particular number of sales.",
+                                                                 "Gunther refused to tie goals to compensation because that creates a culture that says it is all about the money and not enough about the work.",
+                                                                 "Money is only a threshold motivator: once a company meets the baseline, dollars and cents do not much affect performance and motivation.",
+                                                                 "Different individuals prize different aspects of autonomy, and no one aspect is universally the most important."
+                                                             ],
+                                            "boss_battle_explanation":  "Transitioning to autonomy cannot, and often cannot, happen in one fell swoop. Richard Ryan argues organizations must provide scaffolding to help every employee find his footing, because people plucked from controlling environments and dropped into undiluted autonomy will struggle. At Meddius, two employees struggled with the freedom and left, even as the rest found their groove, raised productivity, and lowered stress.",
+                                            "stage_1_observation":  "You are the operations head converting a forty-person billing group to a results-only work environment. Three weeks in, overall productivity is up and stress scores are down, but three staffers, all refugees from a firm that demanded eight A.M. arrivals and public written explanations for any lateness, look lost in the empty schedule. Two of them have already missed deadlines, and one, Elena, has asked to talk about quitting.",
+                                            "stage_1_question":  "Elena thrived for a decade under rigid rules and is now failing in a workplace that grants total time freedom. Why is she struggling so badly, even though her coworkers are flourishing?",
+                                            "stage_1_correct_answer":  "Because years of external control flipped her default setting toward passivity and dependence: when people have known nothing but controlling environments and are plucked out and dropped into a ROWE or an environment of undiluted autonomy, they struggle, which is exactly why Richard Ryan argues organizations must provide scaffolding to help every employee find his footing. Gunther\u0027s Meddius experiment saw the same pattern, with two employees who struggled with the freedom and left.",
+                                            "stage_2_intervention":  "The CEO wants a decision by Friday. Your options are to abandon the ROWE and restore fixed schedules, to keep the ROWE but scaffold the strugglers with clear goals, help on demand, and weekly coaching meetings without resurrecting time surveillance, to let them sink or swim in undiluted autonomy, or to tie their specific goals to compensation so money sharpens their focus. Which do you choose?",
+                                            "stage_2_correct_answer":  "Keep the ROWE and scaffold: people still had specific goals they had to reach, help was available when needed, and Gunther refused to tie goals to compensation because that creates a culture that says it is all about the money and not enough about the work. Scaffolding honors his belief that money is only a threshold motivator once the baseline is met, and it lets each employee find her footing instead of jettisoning the productivity and stress gains of the results-only structure.",
+                                            "difficulty_level":  "Advanced",
+                                            "theory_summary":  "This battle tests Richard Ryan\u0027s scaffolding argument, that autonomy cannot be switched on overnight because people from controlling environments need help finding their footing. The book grounds it in the Meddius case, where two employees struggled with freedom and left while productivity rose and stress declined for the rest, and clarifies that goals and accountability stay, while compensation stays untied to goals.",
+                                            "credibility":  {
+                                                                "level":  "Medium",
+                                                                "consensus":  "Emerging",
+                                                                "basis":  "Popular science synthesis (Deci \u0026 Ryan self-determination research)"
+                                                            }
+                                        },
+                                        {
+                                            "asset_type":  "BOSS_BATTLE",
+                                            "domain":  "Intrinsic Motivation | Self-Determination Theory",
+                                            "topic":  "Boss Battle: Building a Grouplet",
+                                            "visual_frame_description":  "The battle screen shows a Redmond conference room where a vice president points at an org chart while your notebook displays Bharat Mediratta\u0027s grouplet profile, a small self-organized cluster of coders with an almost-no-budget banner overhead. The player studies the mechanism divide in stage one, then chooses how to spread the faster testing method.",
+                                            "player_mission":  "Explain why a top-down mandate fails where a budgetless grouplet succeeds. Then decide how to launch the faster testing method by choosing the self-organized path that the research supports.",
+                                            "key_concepts":  [
+                                                                 "Autonomy over team is a taller order than task, time, or technique, and it is one reason people are drawn to entrepreneurship.",
+                                                                 "Ample research has shown that people working in self-organized teams are more satisfied than those working in inherited teams.",
+                                                                 "Studies by Deci and others have shown that people high in intrinsic motivation are better coworkers.",
+                                                                 "Autonomy can be contagious: if you want to work with more Type I\u0027s, the best strategy is to become one yourself.",
+                                                                 "Bharat Mediratta\u0027s testing grouplet at Google slowly turned the organization on its axis.",
+                                                                 "A grouplet is a small, self-organized team that has almost no budget and even less authority, but that tries to change something within the company.",
+                                                                 "Mediratta says that if your 20 percent idea is a new product, it is usually pretty easy to find a few like-minded people and start coding away.",
+                                                                 "20 percent time initiatives usually slice across the organization chart, connecting people who share an interest rather than a department.",
+                                                                 "At Whole Foods, a department\u0027s employees do the hiring, voting on a candidate after a thirty-day trial period on the team.",
+                                                                 "At W. L. Gore and Associates, anybody who wants to rise in the ranks and lead a team must assemble people willing to work with her."
+                                                             ],
+                                            "boss_battle_explanation":  "Autonomy over team is the least developed of the four T\u0027s, but it has a proven tool: the grouplet, a small self-organized team with almost no budget and even less authority that tries to change something within the company. Google engineer Bharat Mediratta\u0027s testing grouplet slowly turned the organization on its axis, and research shows people working in self-organized teams are more satisfied than those in inherited teams, while autonomous people make better coworkers and autonomy is contagious.",
+                                            "stage_1_observation":  "At a sprawling software company in Redmond, you are an engineer on a stable but skeptical inherited team. Your group discovered a way to test code in a third of the time, but your teammates shrug it off, and the VP of engineering says all rollouts must follow the org chart. On your desk sits a profile of Bharat Mediratta, whose testing grouplet at Google needed almost no budget and even less authority, just an informal band of like-minded coders.",
+                                            "stage_1_question":  "A formal mandate from the VP has a better budget and a bigger banner, yet Mediratta\u0027s budgetless grouplet moved an entire company. Why do self-organized teams outperform top-down directives for this kind of change?",
+                                            "stage_1_correct_answer":  "Because ample research shows people working in self-organized teams are more satisfied than those working in inherited teams, and a grouplet built autonomously from shared interest generates commitment that orders from above cannot. Mediratta\u0027s testing grouplet, a team built autonomously without direction from the top, slowly turned the organization on its axis, and 20 percent time initiatives slice across the org chart to connect people who share an interest rather than a department.",
+                                            "stage_2_intervention":  "You have three choices for spreading the faster testing method: file a proposal up the chain and wait for approval, quietly recruit a few like-minded engineers from other departments into a self-organized grouplet and start implementing, get the VP to mandate the new method with quarterly compliance checks, or resign and freelance. Which do you choose?",
+                                            "stage_2_correct_answer":  "Recruit a few like-minded engineers across departments into a self-organized grouplet and start implementing. As Mediratta put it, if your 20 percent idea is a new product, it is usually pretty easy to find like-minded people and start coding away, and the science affirms that self-organized teams are more satisfied while intrinsically motivated people are better coworkers. If you want to work with more Type I\u0027s, the best strategy is to become one yourself, because autonomy is contagious.",
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This battle tests autonomy over team through the grouplet mechanism, a self-organized team with almost no budget or authority that makes systemic change from within. The book cites Bharat Mediratta\u0027s testing grouplet at Google, the finding that self-organized teams are more satisfied than inherited teams, and the claim that autonomy is contagious.",
+                                            "credibility":  {
+                                                                "level":  "Medium",
+                                                                "consensus":  "Emerging",
+                                                                "basis":  "Popular science synthesis (Deci \u0026 Ryan self-determination research)"
+                                                            }
+                                        },
+                                        {
+                                            "asset_type":  "DYNAMIC_DIALOGUE_SIM",
+                                            "domain":  "Intrinsic Motivation | Self-Determination Theory",
+                                            "topic":  "The ROWE Conversation: Earning Your Own Schedule",
+                                            "visual_frame_description":  "The dialogue screen shows Jeff\u0027s office on a rainy Friday in Charlottesville: a wall chart of project deadlines, wet umbrellas by the door, and Marcus in a hoodie fidgeting across the desk while Jeff leans back with the calm of a monk. Speech bubbles carrying the exchange appear between the two chairs. The player selects Marcus\u0027s side of the conversation.",
+                                            "player_mission":  "Play Marcus as he navigates his first results-only work environment with CEO Jeff. Choose responses that accept the autonomy contract, focus on outcomes and help on demand, and resist recreating surveillance or trading the freedom for money.",
+                                            "key_concepts":  [
+                                                                 "A ROWE, or results-only work environment, gives people no schedules; they show up when they want and just have to get their work done.",
+                                                                 "Jeff Gunther launched the ninety-day ROWE experiment at Meddius at the company\u0027s holiday dinner in December 2008.",
+                                                                 "In the beginning, people did not take to the ROWE: the office filled up around nine A.M. and emptied out in the early evening, just as before.",
+                                                                 "Some staffers had come out of extremely controlling environments, such as a company where late arrivals had to write an explanation for everyone else to read.",
+                                                                 "After a few weeks, most people found their groove: productivity rose and stress declined.",
+                                                                 "Two Meddius employees struggled with the freedom and left, but by the end of the test period Gunther decided to go with ROWE permanently.",
+                                                                 "People in a ROWE still had specific goals they had to reach, and Gunther was there to assist when they needed help.",
+                                                                 "Gunther believes that in a ROWE environment, employees are far less likely to jump to another job for a $10,000 or even $20,000 increase in salary.",
+                                                                 "Gunther says his staffers are not two-by-fours or human resources but partners, and partners need to direct their own lives.",
+                                                                 "For software developers, designers, and others doing high-level creative work, it is all about craftsmanship, and they need a lot of autonomy."
+                                                             ],
+                                            "difficulty_level":  "Beginner",
+                                            "theory_summary":  "This dialogue tests autonomy support as documented in the 2004 Deci, Ryan, and Baard investment bank study: bosses who see the employee\u0027s point of view, give meaningful feedback and information, and provide ample choice raise satisfaction and performance. It also rehearses Richard Ryan\u0027s scaffolding point, because Marcus is transitioning from a controlling environment into his first ROWE.",
+                                            "credibility":  {
+                                                                "level":  "Medium",
+                                                                "consensus":  "Emerging",
+                                                                "basis":  "Popular science synthesis (Deci \u0026 Ryan self-determination research)"
+                                                            },
+                                            "scenario_setup":  "You are Marcus, a newly hired developer at Meddius in Charlottesville, and this is week two of the company\u0027s ninety-day results-only work environment experiment. Your last employer required everyone to arrive by eight A.M., and latecomers had to write an explanation for the whole staff to read. With no schedule to obey, you feel adrift, fear you are slacking, and have been coming in at eight anyway, then staring at the clock. Jeff, the CEO and founder, calls you into his office on a rainy Friday afternoon.",
+                                            "dialogue":  [
+                                                             "Marcus: I have to be honest, Jeff. Without the eight o\u0027clock rule, I keep second-guessing myself. How do I even know I am working enough?",
+                                                             "Jeff: I expected that. When I announced this experiment at our holiday dinner, most people kept their old hours for the first few weeks. That is how a ROWE starts.",
+                                                             "Marcus: But if nobody watches the clock, what stops me from drifting?",
+                                                             "Jeff: The work stops you, or it does not, and then we talk about the work. People here still have specific goals, like shipping a project by a date. They just own how they get there.",
+                                                             "Marcus: And if I leave at three P.M. to watch my daughter\u0027s soccer game, that does not look like slacking?",
+                                                             "Jeff: It looks like a father who will come back sharper. My developers are craftspeople, and craftsmanship needs autonomy, not surveillance.",
+                                                             "Marcus: So you would rather I trust myself than report to you every morning?",
+                                                             "Jeff: I would rather you focus on the work itself, not on whether someone calls you a slacker. That is the whole point of results only.",
+                                                             "Marcus: What if I miss a deadline with nobody watching?",
+                                                             "Jeff: Then you and I sit down and figure out what help you need. My job is to create conditions for your best work, not to patrol your chair."
+                                                         ],
+                                            "choices":  [
+                                                            "Promise Jeff you will send him a daily log of hours worked so you both have proof you are pulling your weight",
+                                                            "Reach for the results-only deal: focus on completing your projects, ask Jeff for help when you hit a wall, and stop measuring yourself by seat time",
+                                                            "Ask Jeff for a personal compromise: keep the old eight A.M. rule just for you so you stop feeling guilty",
+                                                            "Ask Jeff for a raise as compensation for the anxiety this freedom is causing you"
+                                                        ],
+                                            "optimal_choice":  1,
+                                            "theoretical_principle":  "Autonomy support and scaffolding within self-determination theory: bosses who see issues from the employee\u0027s point of view, give meaningful feedback and information, and provide ample choice over what to do and how to do it raise satisfaction, performance, and well-being.",
+                                            "psychological_breakdown":  "Choice 1 works because it accepts the ROWE contract, judged on outcomes with goals and help on demand, while Jeff\u0027s responses embody autonomy support: seeing the employee\u0027s viewpoint, offering information and assistance, and never converting goals into compensation, since money is only a threshold motivator. Choice 0 fails because a daily hour log reimposes the input-based surveillance of Motivation 2.0, recreating the very monitoring that makes autonomy meaningless. Choice 2 fails because it surrenders the choice that defines autonomy, behaving with a full sense of volition and choice is the SDT definition of autonomous motivation, and it would leave Marcus dependent on the leash he just escaped. Choice 3 fails because once baseline pay is adequate, dollars and cents do not much affect motivation; the freedom to do great work is worth more than a pay raise and cannot be bought with one."
+                                        },
+                                        {
+                                            "asset_type":  "DYNAMIC_DIALOGUE_SIM",
+                                            "domain":  "Intrinsic Motivation | Self-Determination Theory",
+                                            "topic":  "The 20 Percent Time Pitch: Faith Over Tracking",
+                                            "visual_frame_description":  "The dialogue screen shows a glass-walled Austin conference room: Lena holds the CFO\u0027s time-tracking proposal in one hand while Priya\u0027s whiteboard sketch of the test-suite catcher glows on a monitor behind her. Side-by-side speech bubbles carry the exchange between the two women. The player pilots Priya\u0027s arguments through the negotiation.",
+                                            "player_mission":  "Play Priya as she negotiates the 20 percent time trial with her manager Lena, holding the line against minute-by-minute logging without sinking the whole initiative. Choose responses that defend results-based accountability and the trust-based case Cannon-Brookes used at Atlassian.",
+                                            "key_concepts":  [
+                                                                 "Atlassian\u0027s 20 percent time gave engineers dedicated stack time, of their own direction, for product innovation, features, plugins, fixes, or additions they thought most important.",
+                                                                 "Cannon-Brookes refused to track engineers\u0027 time during 20 percent time because that was too controlling; he wanted to back his engineers and take it on faith that they would do good things.",
+                                                                 "In a yearlong trial, Atlassian developers launched forty-eight new projects under 20 percent time, and the practice became permanent in 2009.",
+                                                                 "Most Atlassian employees came in substantially under the 20 percent figure because they did not want to let down their current teammates.",
+                                                                 "Cannon-Brookes answered Atlassian\u0027s finance guy with a long list of things delivered, zero turnover in engineering, and highly motivated engineers always trying to perfect the product.",
+                                                                 "At Google, in a typical year more than half of the company\u0027s new offerings are birthed during the 20 percent period of pure autonomy.",
+                                                                 "Google News, Gmail, Orkut, Google Talk, Google Sky, and Google Translate all began as 20 percent projects.",
+                                                                 "3M\u0027s 15 percent bootlegging time and Google\u0027s 20 percent time trace back to William McKnight\u0027s creed: hire good people, and leave them alone.",
+                                                                 "Motivation 3.0 presumes that people want to be accountable, and that control over their task, time, technique, and team is a pathway to that accountability.",
+                                                                 "Encouraging autonomy does not mean discouraging accountability; whatever operating system is in place, people must be accountable for their work."
+                                                             ],
+                                            "difficulty_level":  "Intermediate",
+                                            "theory_summary":  "This dialogue tests task autonomy and trust-based accountability, the presumption of Motivation 3.0 that people want to be accountable and that giving them control over task and time is the pathway there. The exchange mirrors Atlassian\u0027s real defense of 20 percent time, delivered products, zero engineering turnover, and engineers who perfect the product, against a finance guy\u0027s price objection.",
+                                            "credibility":  {
+                                                                "level":  "Medium",
+                                                                "consensus":  "Emerging",
+                                                                "basis":  "Popular science synthesis (Deci \u0026 Ryan self-determination research)"
+                                                            },
+                                            "scenario_setup":  "You are Priya, a senior developer at a mid-size software firm in Austin. The company is weighing a six-month 20 percent time trial modeled on Atlassian, and your manager Lena is genuinely interested, but the CFO is demanding quarterly hour reports on exactly what everyone does with the time, calling it guardrails. You want 20 percent time to build an automated tool that catches broken test suites before they reach production, the thing you currently fix by hand every Monday morning.",
+                                            "dialogue":  [
+                                                             "Lena: The CFO will approve the trial only if we track everyone\u0027s 20 percent hours. He calls it guardrails. What do you think?",
+                                                             "Priya: Atlassian\u0027s engineers got that exact request, and Cannon-Brookes said no. He told them that would be too controlling; he wanted to back his engineers and take it on faith that they would do good things.",
+                                                             "Lena: Faith is expensive. He estimated seventy engineers at 20 percent time for six months cost a million dollars.",
+                                                             "Priya: And they launched forty-eight new projects in a yearlong trial, with zero turnover in engineering. Our turnover last year cost more than their whole program.",
+                                                             "Lena: So what would you build with your 20 percent?",
+                                                             "Priya: A tool that finds broken test suites before they hit production. It is not in my job description, but it is the thing I already fix by hand every week.",
+                                                             "Lena: If I approve the trial, how do I answer the CFO\u0027s spreadsheet?",
+                                                             "Priya: The same way Atlassian answered its finance guy: show him the list of things we delivered, the retention numbers, and the engineers who keep perfecting the product.",
+                                                             "Lena: And if you blow through six months with nothing to show?",
+                                                             "Priya: Then we have learned something real about what motivates us. But I have been shipping fixes in my spare time for a year, and I am asking to do it openly."
+                                                         ],
+                                            "choices":  [
+                                                            "Offer to submit a weekly timesheet of your 20 percent hours so the CFO gets his guardrails and the trial proceeds",
+                                                            "Refuse the trial entirely unless the company promises never to track a single hour of anyone\u0027s time",
+                                                            "Agree to the trial with results-based reporting: what got delivered and how it helps the product, with no minute-by-minute logs",
+                                                            "Ask for a cash bonus tied to the tool\u0027s success before you write your first line of code"
+                                                        ],
+                                            "optimal_choice":  2,
+                                            "theoretical_principle":  "Task autonomy within the four T\u0027s and trust-based accountability, the assumption of Motivation 3.0 that people want to be accountable and that giving them control over task, time, technique, and team is the pathway to that accountability.",
+                                            "psychological_breakdown":  "Choice 2 works because it keeps autonomy over task and time intact by reporting outcomes, what was delivered and how it helps, rather than inputs, and that is precisely how Atlassian justified the million-dollar program: delivered products, zero engineering turnover, and highly motivated engineers. Choice 0 fails because minute-level reporting reintroduces the billable-hour dynamic, where rewards flow from time and focus shifts from the work to the log, draining intrinsic motivation. Choice 1 fails because all-or-nothing rigidity throws away a valuable trial and the dialogue with Lena, and it treats autonomy as isolation rather than as the partnership Cannon-Brookes built. Choice 3 fails because attaching a cash reward to the project converts it into an if-then deal, reasserting Motivation 2.0 in the one domain, self-directed task choice, where it does the most damage."
+                                        }
+                                    ]
+                     }
+                 ]
+}
