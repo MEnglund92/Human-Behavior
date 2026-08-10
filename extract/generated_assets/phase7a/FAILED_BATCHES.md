@@ -11,3 +11,5 @@ AFTER all books are attempted.
 | spec_drive_b01 | drive | 2 | 2026-08-10 | 2026-08-10, retry | Agent session returned empty result; no file written (2 attempts: initial + retry). Chapters ch04+ch05. Backfill needed. |
 | spec_drive_b06 | drive | 2 | 2026-08-10 | 2026-08-10, retry | Agent session returned empty result; no file written (2 attempts: initial + retry). Chapters ch11-ch14. Backfill needed. |
 | spec_drive_b07 | drive | 2 | 2026-08-10 | 2026-08-10, retry | Agent session returned empty result; no file written (2 attempts: initial + retry). Chapters ch15-ch18. Backfill needed. |
+| spec_gift_of_fear_b03 | gift_of_fear | 2 | 2026-08-10 | 2026-08-10, retry | Agent session returned empty result; no file written (2 attempts: initial + retry). Chapter ch03. Backfill needed. |
+| spec_gift_of_fear_b17 | gift_of_fear | 2 | 2026-08-10 | 2026-08-10, retry | Agent session returned empty result; no file written (2 attempts: initial + retry). Chapters ch21-ch24. Backfill needed. |

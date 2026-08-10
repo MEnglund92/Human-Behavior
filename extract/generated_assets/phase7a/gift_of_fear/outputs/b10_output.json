@@ -1,0 +1,435 @@
+{"spec_file": "spec_gift_of_fear_b10.json",
+  "chapters": [
+    {
+      "id": "ch10",
+      "title": "Chapter 9: Occupational Hazards (Violence in the workplace)",
+      "pages": "",
+      "assets": [
+{
+    "asset_type": "CUE_SCRUBBER_STATION",
+    "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+    "topic": "Revoked credentials: the David Burke badge",
+    "visual_frame_description": "A sterile airline terminal control room at dusk. You are an auditor scrolling through the personnel and security files of USAir employee David Burke on a glowing terminal, while reenactment clips play beside it: a fired man in a gray uniform jacket passing a metal detector, a supervisor's face in an office window, a 737 climbing into clouds. On the right rail, a live feed shows a woman at a checkpoint waving a badge holder around the detector with a smile.",
+    "player_mission": "Audit the record of David Burke's firing at USAir and isolate the single most consequential procedural failure that enabled the attack on Flight 1771. Scrub every channel of the incident, then select the one cue that made an armed fired employee indistinguishable from a legitimate passenger.",
+    "question": "USAir fired David Burke, yet he boarded a flight armed and killed his supervisor. Which single observable administrative cue shows the failure that made this possible?",
+    "target_channel": "Access credentials and security-screening behavior at termination",
+    "correct_cue": "USAir failed to take back Burke's airport ID badge when it fired him, and he wore it on his last day alive. Because of that badge, the woman operating the metal detector waved Burke around it and said, 'Have a nice day' — he replied, 'I'll have a very nice day' — which let an armed fired employee board the aircraft. De Becker names failing to take back access credentials after a difficult termination as a negligent step, and the badge normalized Burke's presence so completely that no checkpoint, boarding agent, or co-worker intervened.",
+    "distractors": [
+      "Burke bought his ticket in cash to avoid creating a paper trail that security could trace",
+      "The flight crew left the cockpit door unlocked, which is what allowed Burke to seize control of the aircraft",
+      "Burke disguised himself in a pilot's uniform borrowed from a co-worker he threatened"
+    ],
+    "underlying_psychology": "This tests pre-incident indicators encoded in procedures: an access credential is a signal of membership, and when it is not revoked it keeps the ex-employee inside the perimeter of trust, prompting other people — like the metal detector operator — to treat him as authorized. De Becker's point is that violence is a process with predictable steps, and the failure to revoke Burke's badge was a correctable step that directly enabled the tragedy.",
+    "key_concepts": [
+      "USAir fired David Burke for stealing sixty-nine dollars but did not retrieve his airport ID badge, and he wore it on his last day alive.",
+      "Because Burke still wore his old ID badge, the woman operating the metal detector waved him around it and wished him a nice day.",
+      "After a difficult termination, employers have a duty to take back access credentials, notify security personnel and receptionists, and warn people who might be targets.",
+      "Burke had a documented history including drug trafficking, shoplifting, auto theft, and violence toward his girlfriend, who had obtained a restraining order against him.",
+      "Burke left a death threat on the answering machine of his supervisor, Ray Thompson, whom he blamed for many of his problems.",
+      "Another USAir employee lent Burke a .44 magnum revolver that was never returned, and Burke used it to kill Ray Thompson aboard Flight 1771.",
+      "Burke shot Thompson at twenty-two thousand feet, and the plane's black box recorded further shots before the jet crashed, killing all forty-three people aboard.",
+      "Workplace violence is really every type of violence committed by every type of perpetrator, including revenge killing, domestic violence, date stalking, and rage killing.",
+      "People do not just 'snap'; there is a process as observable, and often as predictable, as water coming to a boil.",
+      "The badge episode shows that the cost of underestimating the power of a fired employee is far greater than the cost of respecting it."
+    ],
+    "difficulty_level": "Beginner",
+    "theory_summary": "This scenario tests pre-incident indicators as they appear in organizational procedures: the un-revoked badge was a detectable, correctable step that directly enabled the attack. De Becker's evidence-based claim is that failures such as leaving a fired employee's credentials active are negligence, and that violence is a predictable process rather than a sudden 'snap.'",
+    "credibility": {
+      "level": "Medium",
+      "consensus": "Emerging",
+      "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+    }
+  },
+  {
+    "asset_type": "CUE_SCRUBBER_STATION",
+    "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+    "topic": "The Scriptwriter's signature move in a performance review",
+    "visual_frame_description": "A windowless conference room at Meridian Logistics with fluorescent light and a whiteboard. Marcus, a ten-year warehouse supervisor, sits across the table from you with his arms crossed while a document you have not yet spoken about lies between you. The scene is captured from a camera angle that lets you watch his jaw tighten before your first sentence lands.",
+    "player_mission": "Scrub the conversational channel of a performance review with an employee you have supervised for two years. Recognize the signature behavior that identifies de Becker's Scriptwriter personality, and distinguish it from ordinary workplace frustration by picking the cue that reveals he is reacting to his own script rather than to you.",
+    "question": "Which behavior in this performance review is the signature of the Scriptwriter personality de Becker describes, rather than ordinary frustration or stress?",
+    "target_channel": "Conversational attribution: how the employee interprets questions, answers them, and assigns blame",
+    "correct_cue": "Marcus asks a question, answers it himself, and then walks away angry at what you said — before you have said anything. He is not reacting to your words but to what he expects you to say; he is reacting to his script, in which he is a reasonable worker constantly on guard against ambushes from co-workers and supervisors. De Becker illustrates this with the 'jack joke': the man works himself into a rage imagining that the farmer will refuse him help, then yells at the pleasant woman who opens the door with a smile and offers him the very jack he came to borrow.",
+    "distractors": [
+      "Marcus raises his voice when discussing his heavy workload for the quarter",
+      "Marcus avoids eye contact and speaks quietly, which shows he is intimidated by management",
+      "Marcus asks several clarifying questions about the new overtime policy before responding"
+    ],
+    "underlying_psychology": "This tests the self-defeating script: the Scriptwriter invests others with the worst possible motives and character, gives no credit when people are helpful, and his script begins to come true as people treat him as he expects. Because he answered his own question and left angry, the review never actually happened — his prediction of the encounter overrode the encounter itself.",
+    "key_concepts": [
+      "The Scriptwriter is inflexible and takes suggestions as affronts or criticisms of his way of doing things.",
+      "The Scriptwriter invests others with the worst possible motives and character, expecting people to slight him or harm him.",
+      "The Scriptwriter asks you a question, answers it himself, then walks away angry at what you said.",
+      "The Scriptwriter is not reacting to what you say but to what he expects you to say; he is reacting to his script.",
+      "The 'jack joke' shows the Scriptwriter working himself into a state of rage over imagined mistreatment before the encounter even begins.",
+      "The Scriptwriter gives no credit when people are helpful, and this causes alienation from co-workers.",
+      "His script begins to come true, and people treat him as he expects them to treat him.",
+      "By the time an employer encounters him, he has likely been through these problems at other jobs and in other relationships.",
+      "His personnel file is often full of documented performance and insubordination incidents, yet managers were afraid to fire him.",
+      "Because the dynamic feeds on itself and the longer he stays the more entitled he feels, the key is to get rid of a Scriptwriter early."
+    ],
+    "difficulty_level": "Intermediate",
+    "theory_summary": "This scenario tests de Becker's Scriptwriter concept, a self-defeating personality whose private script predicts hostile reactions and then manufactures them. The evidence from the text is the 'jack joke' demonstration: the rage is generated before any real interaction, and the script tends to come true through the alienation it produces.",
+    "credibility": {
+      "level": "Medium",
+      "consensus": "Emerging",
+      "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+    }
+  },
+  {
+    "asset_type": "CUE_SCRUBBER_STATION",
+    "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+    "topic": "Reading the Farley letter with the JACA elements",
+    "visual_frame_description": "A document scanner bay styled like a forensic evidence lab. The letter from 'Rick' to 'Laura' is projected wall-size, its typewriter script glowing, while four quadrant panels labeled Justification, Alternatives, Consequences, and Ability flicker around it like a targeting grid. A woman's photograph sits on the desk beside a key to a front door.",
+    "player_mission": "Apply the JACA elements to the warning letter Richard Farley wrote to Laura Black, exactly as de Becker demonstrates in the chapter. Identify which element of the letter is the strongest signal of his ability to deliver what he threatens, before the shooting at the Silicon Valley company ESL occurs.",
+    "question": "Which detail in Farley's letter to Laura Black is the strongest signal of the Ability element of JACA?",
+    "target_channel": "Written threat content: statements of justification, alternatives, consequences, and capability",
+    "correct_cue": "The letter's concrete inventory of preparations — 'I'm selling my houses, I have closed my retirement fund, sold my stock. I can go real quick' plus his possession of Laura's parents' address — signals high ability because it shows he has already dismantled his attachments to make himself mobile and has the means to find her if she runs. De Becker reads these lines as ability cues: the writer communicates that he is ready, funded, and able to follow, which is precisely what makes the threat credible at the level of prediction.",
+    "distractors": [
+      "The formal salutation 'Dear Laura' reveals that Farley still hopes to salvage a relationship, which reduces the threat",
+      "The phrase 'pretty soon I crack under the pressure' is an admission of weakness that proves he will not act",
+      "Writing the letter at all proves he wants her attention rather than her harm, so the violence will not happen"
+    ],
+    "underlying_psychology": "This tests JACA, de Becker's four-factor framework for prediction: Justification (losing his job and clearance), Alternatives (removing the kid gloves), Consequences (making Laura regret what she did), and Ability (having her parents' address, liquid assets, and freedom to go). The letter lets a reader see all four elements at once, which is why de Becker says the original readers could, with these tools, have seen what the letter itself predicted.",
+    "key_concepts": [
+      "JACA is the shorthand for the four factors de Becker uses to predict violence: Justification, Alternatives, Consequences, and Ability.",
+      "Farley's letter states his justification: he believed losing his job or clearance would give him the right to make Laura's life miserable.",
+      "The letter's 'take off the kid gloves' line communicates that his alternatives are shrinking.",
+      "Farley described favorable consequences to violence: 'you would not be able to regret what you did.'",
+      "The letter signals high ability through possession of Laura's parents' address and the sale of his houses, retirement fund, and stock to go quickly.",
+      "Farley pursued Laura Black at ESL, and when she declined, he refused to accept her rejections; each company intervention made his harassment escalate.",
+      "Farley sent Laura an enclosure that chillingly communicated her vulnerability: a key to the front door of her home.",
+      "When supervisors warned Farley he would be fired, his sinister reaction prompted the question 'Are you saying that if you are fired you will kill me?' and he answered, 'Not just you.'",
+      "Laura told the court, 'I am afraid of what this man might do to me if I file this action,' and she later called the restraining order the catalyst that pushed him over the edge.",
+      "On the day of the shooting, Farley blasted through the access doors with shotguns and shot eleven people, seven of whom died, and reporters called it a sudden 'snap' — which de Becker says never happens."
+    ],
+    "difficulty_level": "Intermediate",
+    "theory_summary": "This scenario tests the JACA prediction framework, which holds that violence becomes likely when the actor's justification is strong, alternatives have shrunk, consequences have shifted to look favorable, and ability is present or overestimated. The Farley letter is the book's demonstration case: all four elements were readable in writing long before the event, so the 'he just snapped' explanation is contradicted by the record.",
+    "credibility": {
+      "level": "Medium",
+      "consensus": "Emerging",
+      "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+    }
+  },
+  {
+    "asset_type": "CUE_SCRUBBER_STATION",
+    "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+    "topic": "Wayne Lo: context as the dominant predictor",
+    "visual_frame_description": "A college dormitory corridor rendered as a timeline scrubbing station. Floating evidence cards arrange themselves in sequence: a brown package from 'Classic Arms,' a receptionist's worried face, a resident director knocking on a door, a box opened in an empty room, a phone receiver, and a dean's closed office door. A red prediction-window bar fills slowly across the top of the screen.",
+    "player_mission": "Scrub the cumulative event context of the Wayne Lo case at the college that later employed the 'student in good standing' narrative. Piece together the sequence of cues and select the combination that made context alone the dominant element of prediction, then judge what the officials' responses reveal about denial.",
+    "question": "Which combination of cues made context alone the dominant element of prediction in the Wayne Lo case, according to the chapter?",
+    "target_channel": "Cumulative event context across a warning sequence reported by multiple witnesses",
+    "correct_cue": "The chain of events taken together: a package addressed to a student arrived from a return address reading 'Classic Arms'; the receptionist was suspicious, which the book identifies as a signal of intuition; Wayne refused to open the package or discuss it in front of the resident director; he opened it when he was alone and was found to have gun parts and an empty ammunition box; and within hours an anonymous caller warned that Wayne had a gun and planned to kill people. De Becker states that these things did not each happen independently — they all happened, people felt intuitively that there was hazard, and context alone was the dominant element of prediction.",
+    "distractors": [
+      "Dean Rodgers' refusal to let staff open the package was a sound privacy protection and had no bearing on the outcome",
+      "Wayne's calm, open demeanor with Floyd Robinson proved he was harmless, since a guilty student would have been defensive",
+      "The sweatshirt Wayne wore at his arraignment, reading 'SICK OF IT ALL,' demonstrated remorse for what had happened"
+    ],
+    "underlying_psychology": "This tests denial as the active enemy of prediction: the book argues the signs were all there but so was the denial, and officials later described the perpetrator as 'a student in good standing' to support the 'Who could have known?' narrative. Each isolated cue could be rationalized away, but the accumulated context — package from a gun maker, refusal to open it, opening it alone, anonymous warning — was a prediction the officials chose not to complete, and even the explicit warning call did not convince them to contact police.",
+    "key_concepts": [
+      "Wayne Lo received a package at college from a return address reading 'Classic Arms,' and the receptionist's suspicion was a signal of intuition.",
+      "Dean Rodgers said it would be improper for the college to interfere with the delivery of a student's mail, so the package was not opened by staff.",
+      "Wayne refused to open the package in front of resident director Trinka Robinson but opened it when he was alone, revealing gun parts and an empty ammunition box.",
+      "Floyd Robinson described Wayne as 'very open with me and not at all defensive,' a framing the book connects to the 'Who could have known?' denial narrative.",
+      "An anonymous caller told Trinka that Wayne had a gun and was going to kill her, her family, and others, and she took the threat seriously.",
+      "The officials were planning to search Wayne's room when they heard the first shots; six people were shot, and two of them were already dead.",
+      "It had been less than twelve hours since Wayne picked up the package, and everything except the obvious step — calling the police — had been tried.",
+      "Dean Rodgers' public explanation came ten days later and consisted of what he did not know: 'I don't know anything about weapons. I don't know anything about guns.'",
+      "De Becker concludes that the Lo case is a perfect example of context alone being the dominant element of prediction.",
+      "Denial allowed to turn into negligence is the pattern in which people in a position to know are the same ones later asking 'Who could have known?'"
+    ],
+    "difficulty_level": "Advanced",
+    "theory_summary": "This scenario tests context as a predictive resource and denial as the process that suppresses it: the book argues that events accumulating within a short window — a gun-maker's package, refusal to open it, opening it in private, an anonymous warning — constituted a prediction that officials failed to complete. The chapter's evidence is the explicit warning call that still did not trigger a police response, which de Becker presents as denial turning into negligence.",
+    "credibility": {
+      "level": "Medium",
+      "consensus": "Emerging",
+      "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+    }
+  }
+,{
+    "asset_type": "CUE_SCRUBBER_STATION",
+    "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+    "topic": "PIN triage: SAD and hopelessness in a long-tenured employee",
+    "visual_frame_description": "A break room at the Meridian Distribution center early in the morning. Dan, a fifteen-year forklift operator, sits alone with a cooling coffee cup, staring at a layoff notice pinned to the bulletin board. A digital mood-scrubbing overlay floats beside him, tracking phrases from a speaker log: 'What's the use?' 'Nothing ever changes anyway.' 'I've got no future.'",
+    "player_mission": "Triage the affect and speech channel of an employee facing a layoff, using the chapter's PIN list. Determine which combination of SAD and hopelessness cues constitutes a call for further scrutiny, and reject the rationalizations that would let the warning pass.",
+    "question": "Dan has been sullen for weeks, tells you 'What's the use? Nothing ever changes anyway,' and recently sold his boat and gave his dogs to his sister 'just in case.' Which reading of these cues matches the book?",
+    "target_channel": "Mood, affect, and helplessness speech patterns over time",
+    "correct_cue": "These are two PINs operating together: SAD (sullen, angry, depressed, with chronic anger) and Hopelessness, which includes statements like 'What's the use?' and 'Nothing ever changes anyway,' suicidal references, and plans consistent with committing suicide — getting his affairs in order and selling off possessions. De Becker states that chronic anger should never be ignored and that pessimism is an important predictor of problems just as optimism is an important predictor of success; several PINs in one person are a matter for further attention, not dismissal as a grumpy veteran.",
+    "distractors": [
+      "People who complain about everything are usually just venting, and venting actually reduces the risk of violence",
+      "Selling possessions and rehoming pets after a layoff notice shows healthy psychological progress toward a new start",
+      "Sullenness alone is normal behavior for long-tenured employees and carries no predictive weight"
+    ],
+    "underlying_psychology": "This tests the book's PIN framework: hopelessness statements and liquidation behaviors are recognizable correlates of suicidal planning, while chronic anger is claimed to supersede even smoking, high blood pressure, and high cholesterol as a heart-attack risk factor, making such people a risk to others and to themselves. The correct response treats the accumulation of multiple PINs as a request for scrutiny rather than a personality quirk.",
+    "key_concepts": [
+      "The PIN list includes Hopelessness: statements like 'What's the use?' 'Nothing ever changes anyway' and 'I've got no future.'",
+      "The Hopelessness PIN includes suicidal references or plans consistent with committing suicide, such as getting affairs in order and selling off possessions.",
+      "The PIN called SAD covers employees who are sullen, angry, or depressed, and the book says chronic anger is an important predictor of more than just violence.",
+      "De Becker states that anger supersedes even such risk factors as smoking, high blood pressure, and high cholesterol for risk of heart attack.",
+      "Chronic anger should never be ignored, because such people place others at risk and are at risk themselves.",
+      "Pessimism is an important predictor of problems, just as optimism is an important predictor of success.",
+      "De Becker says he generally avoids checklists because they mislead people into believing there are shortcuts for high-stakes predictions.",
+      "No single PIN can carry a prediction, and not all serious cases contain the entire list.",
+      "If you work with someone who has many PINs, that is a matter for further attention.",
+      "Organizations using the de Becker and Dietz training series reported that spotting these employees early was far easier than they expected, and the most common resolution was counseling, not firing."
+    ],
+    "difficulty_level": "Beginner",
+    "theory_summary": "This scenario tests the book's pre-incident-indicator (PIN) method in the workplace: hopelessness speech and liquidation behaviors combine with chronic anger to constitute several named warning signs that call for scrutiny. De Becker's claim is that pessimism and anger are measurable predictors, and that individuals accumulating many PINs create predictive opportunities that organizations routinely miss.",
+    "credibility": {
+      "level": "Medium",
+      "consensus": "Emerging",
+      "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+    }
+  },
+  {
+    "asset_type": "DECEPTION_AUDIT_FILE",
+    "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+    "topic": "Pre-employment screening: the Garmanian application",
+    "visual_frame_description": "A hiring desk at MacGuard Security with a two-page application form displayed under a magnifying lamp. Blank boxes dominate the form; the few filled lines read '3 months' under military service and 'fired' twice under reason for leaving. Two phone receivers lie beside the form, and beside them a rack of uniforms, keys, and a pair of handcuffs waits under a dim light.",
+    "player_mission": "Audit the hiring file of Rodney Garmanian and determine whether his own application contained detectable deception signals that a reference check would have caught. Diagnose the screening failure that put a uniform, a car, keys, handcuffs, a billy club, and a gun in the hands of a man who murdered an eighteen-year-old applicant for help.",
+    "question": "What did Rodney Garmanian's application itself reveal, and which procedure would have surfaced it before MacGuard issued him credentials?",
+    "subject_baseline": "Normal applicants complete the form in full, provide consistent work histories, and expect that durations of employment will be checked. Garmanian instead failed to fill out most of the form, listed his military term as three months, and wrote 'fired' as his reason for leaving two former jobs — anomalies that would invite routine follow-up questions and a call to a reference.",
+    "observed_nonverbal_log": "09:02 The application is submitted, more than half the fields blank. 09:05 A hiring clerk skims it and files it without questions; no background check is ordered. 09:20 A supervisor interviews Garmanian briefly and does not hold the application in hand or ask anything off it. 09:35 An investigator calls two former employers directly; the first recalls Garmanian once trying to have sex with a girl on the second floor of a closed building, and the second recalls the sexually solicitous drawings he put in the ladies' room.",
+    "interrogation_transcript": "Investigator: 'Why were you in the military for only three months, Mr. Garmanian? Most people are in the military longer.' Garmanian: no coherent answer recorded. Investigator, to first former employer: 'Do you remember Rodney Garmanian?' Former employer: 'Oh, yes, I remember Rodney Garmanian. He once tried to have sex with a girl on the second floor when the building was closed.' Investigator, to second former employer: 'Do you remember Rodney Garmanian?' Former employer: 'Oh, yes, I remember Rodney Garmanian. He drew sexually solicitous drawings and put them in the ladies' room.'",
+    "correct_diagnosis": "The application was itself a deception signal: incomplete disclosure, a truncated military term, and two firings are exactly the 'obvious area for inquiry' the book says employers must pursue. MacGuard never conducted a pre-employment background check, never reviewed the application, and never called references; the murder of Teak Dyer was committed in the ladies' room on the second floor of a closed building — the same setting described by both former employers, information that cost twenty-five cents to obtain.",
+    "diagnostic_breakdown": "Evidence: unfilled form fields and an implausible three-month military term point to concealment. Evidence: two separate former employers independently describe sexual misconduct in a closed second-floor building, matching the crime scene. Conclusion: a few minutes of review and two phone calls before hiring would have flagged the applicant; the catastrophic outcome was a screening failure, not an un-predictable event.",
+    "distractors": [
+      "The former employers were not the applicant's listed references, so their information was legally unusable and irrelevant",
+      "Even a perfect background check could not have predicted any of Garmanian's later behavior",
+      "The application was mostly blank because the form was intimidating, which is common and not suspicious"
+    ],
+    "key_concepts": [
+      "MacGuard failed to conduct any pre-employment background check and did not even review Garmanian's application.",
+      "Garmanian listed his military term as three months — an obvious area for inquiry that no one pursued.",
+      "He listed his reason for leaving two former jobs as 'fired,' and MacGuard never asked him anything about it.",
+      "Two calls to former employers revealed prior sexual misconduct; for twenty-five cents the information that could have saved Teak Dyer was available.",
+      "The murder occurred in the ladies' room on the second floor of a closed building, matching both former employers' recollections of his past behavior.",
+      "Checking references and checking with former employers is an absolutely critical duty of every employer.",
+      "Hiring is itself a prediction that the candidate will be well-adjusted, capable, and productive, and predictions are better with more information.",
+      "Violence is a process that evolves over time, not a condition, so background checks cannot be expected to screen out all later violence — but they give the employer important information the easy way.",
+      "The goal of screening should be to disqualify poor applicants rather than qualify good ones; those who are good will qualify themselves.",
+      "The failure to take the obvious step of calling references is, de Becker writes, an epidemic in America."
+    ],
+    "difficulty_level": "Beginner",
+    "theory_summary": "This scenario tests deception detection in pre-employment screening: an incomplete, internally inconsistent form is a detectable signal of concealment, and reference checks are the low-cost procedure that surfaces it. De Becker's evidence is the Garmanian case, where two twenty-five-cent phone calls produced information that matched the eventual crime scene exactly.",
+    "credibility": {
+      "level": "Medium",
+      "consensus": "Emerging",
+      "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+    }
+  },
+  {
+    "asset_type": "DECEPTION_AUDIT_FILE",
+    "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+    "topic": "The structured pre-employment interview: reading candidate attitudes",
+    "visual_frame_description": "A sunlit interview room at a beverage plant, two chairs facing each other across a small table. Priya, the candidate, sits forward with her hands clasped, while the interviewer holds a printed application and a question sheet. A side panel lists her spoken responses with timestamps in a running transcript.",
+    "player_mission": "Audit a candidate's interview for the attitude patterns de Becker documents in his suggested question set. Diagnose whether her response pattern signals management conflict and blame without responsibility, and decide whether she should advance or be disqualified.",
+    "question": "Which response pattern in this interview should flag the candidate for further scrutiny or disqualification, according to the chapter's suggested interview questions?",
+    "subject_baseline": "Priya answers factual questions about her skills promptly and courteously. She is punctual, well dressed, and gives crisp answers about her duties at her current production supervisor job.",
+    "observed_nonverbal_log": "00:04 Asked to describe the best boss she ever had, Priya speaks for twenty seconds. 00:12 Asked about the worst boss, she talks enthusiastically for four minutes, using the phrase 'personality conflict' twice. 00:20 Asked to tell about a failure and why it occurred, she says she cannot think of one. 00:25 Asked what her last employer could have done to be more successful, she produces a long list and adds, 'They never listened to anyone.' 00:30 Asked how she solves problems at work, she answers, 'I go right to the man in charge and lay it on the line.'",
+    "interrogation_transcript": "Interviewer: 'Describe the best boss you ever had.' Priya: 'He was fine. We got along.' Interviewer: 'Describe the worst boss you ever had.' Priya: 'Oh, I could go on about him. He was incompetent, he played favorites, he never once admitted he was wrong... we had a personality conflict, plain and simple.' Interviewer: 'Tell me about a failure in your life and why it occurred.' Priya: 'I can't think of one, really.' Interviewer: 'What could your last employer have done to be more successful?' Priya: 'They could have done a hundred things. But it didn't matter — they never listened to anyone.' Interviewer: 'Did you ever tell them your thoughts?' Priya: 'Yeah, but they just said 'Mind your own business.''",
+    "correct_diagnosis": "The pattern is the unfavorable interview profile: a brief best-boss answer but a long, enthusiastic worst-boss answer laced with 'personality conflict,' an inability to name any failure, a lengthy indictment of the previous employer with the 'never listened to anyone' theme, and a confrontation-style answer to the problem-solving question. The book treats these as signals of an attitude toward management — blame without responsibility — that indicates the candidate would not respond to supervision; the interview's purpose is to disqualify poor applicants rather than qualify good ones.",
+    "diagnostic_breakdown": "Evidence: disproportionate energy on the worst boss and repeated 'personality conflict' language indicate a history of failed authority relationships that the candidate casts as the other party's fault. Evidence: no recalled failure and 'lay it on the line' confrontation language indicate refusal to take responsibility and a preference for escalation over consultation. Conclusion: the candidate describes problems she has had with managements as the managements' fault, which is the profile the book warns predicts difficulty under supervision.",
+    "distractors": [
+      "Long, vivid answers about a bad boss show honesty and self-awareness, which are desirable qualities",
+      "Blaming teachers and bosses for past problems proves the candidate is assertive and will defend her interests",
+      "Using the phrase 'personality conflict' is a neutral and professional way to explain a past departure"
+    ],
+    "key_concepts": [
+      "De Becker suggests asking 'Describe the best boss you ever had' and 'Describe the worst boss you ever had' in pre-employment interviews.",
+      "If an applicant speaks only briefly about the best boss but enthusiastically about the worst, this is a telling attitude signal.",
+      "Applicants who say they cannot think of a single failure, or who blame others for failures, give unfavorable responses.",
+      "Asking what the last employer could have done more successfully reveals whether the applicant's comments are constructive or angry.",
+      "Most employers react well to suggestions offered in a constructive way, regardless of whether they follow them.",
+      "The answer 'What's the use of making suggestions? Nothing ever changes anyway' is an unfavorable response.",
+      "Unfavorable problem-solving answers contain a theme of confrontation, such as 'I go right to the man in charge and lay it on the line.'",
+      "Good answers to the problem-solving question involve consulting others and weighing all points of view.",
+      "Because people who lie on applications rarely recall exactly how they lied, the interviewer should hold the application in hand and ask questions right off it.",
+      "The most common lie about applications concerns the duration of previous jobs: eight months reported as a year, eighteen months as two years."
+    ],
+    "difficulty_level": "Intermediate",
+    "theory_summary": "This scenario tests structured-interview diagnostic reading: the balance of a candidate's best-boss versus worst-boss energy, the presence or absence of self-attributed failure, and the themes in problem-solving answers reveal attitudes toward authority. De Becker's claim is that responses like blaming others and confrontation-themed problem solving predict manager conflict, and that the interviewer's job is to disqualify poor applicants, because good ones qualify themselves.",
+    "credibility": {
+      "level": "Medium",
+      "consensus": "Emerging",
+      "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+    }
+  },
+  {
+    "asset_type": "DECEPTION_AUDIT_FILE",
+    "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+    "topic": "Reading the rehired murderer: organizational denial",
+    "visual_frame_description": "A dim forensic archive room with manila case files spread across a long table. At the center lies a personnel record with the word 'REHIRED' stamped in red, photographs of a sullen man in a factory cafeteria, and a memo about a female co-worker he stalked. A clippings board shows an official saying the man had been 'a student in good standing' and a headline asking 'Who could have known?'",
+    "player_mission": "Audit the case file of a man who killed a co-worker, served his prison time, and was rehired by the same company whose employee he murdered. Diagnose the pattern in which documented warnings were ignored, and name the mechanism that allowed the fatal second incident.",
+    "question": "In the case Park Dietz studied, a man who murdered a co-worker was released and rehired by the same company, then killed the woman he stalked after resigning. What is the correct forensic reading of this case?",
+    "subject_baseline": "For employees generally, one violent act against a co-worker would end the employment relationship. This man was instead welcomed back: while re-employed he was always sullen and angry, made threats that were known to supervisors, and stalked a female co-worker.",
+    "observed_nonverbal_log": "Day 1 of rehire: the man sits apart in the cafeteria, speaks to no one, and glares at a manager who greets him. Week 8: two co-workers describe feeling uncomfortable and violated in his presence, and these perceptions are committed to written notes that circulate to supervision. Month 6: his threats are documented in a supervisor's memo; the stalking of the female co-worker begins. Month 9: he resigns on the verge of being fired. Month 11: he continues to stalk her. Month 12: he kills her.",
+    "interrogation_transcript": "Official after the first incident: 'He served his time. He deserves a second chance; who could have known?' Supervisor's memo, month 6: 'Employee has made threatening statements. Staff report feeling intimidated around him. No action taken.' Dietz, summarizing the field: 'The case histories are littered with reports, letters, memoranda, and recollections that show people felt uncomfortable, threatened, intimidated, violated and unsafe because of the very person who later committed atrocious acts of violence.'",
+    "correct_diagnosis": "The verdict is denial: the organization's own records documented the intuition signals — written notes of discomfort, known threats, visible stalking — and officials chose not to see them, describing the perpetrator through the 'Who could have known?' narrative. De Becker presents this case as denial in its most undeniable form, and the Co-worker Fear PIN exists precisely to capture the recorded intuition of the people around him; the failure was not in predicting but in responding.",
+    "diagnostic_breakdown": "Evidence: documented reports of feeling uncomfortable, threatened, and unsafe about the same person who later committed violence. Evidence: threats known to supervisors and stalking of a female co-worker that preceded the murder. Evidence: officials describing violent perpetrators as 'students in good standing' and asking 'Who could have known?' Conclusion: the warning signs were present and were even written down; the organization's denial, not a lack of information, turned the prediction into a missed response.",
+    "distractors": [
+      "Once a person has served prison time, society regards the debt as paid and the likelihood of repeat violence is actually lower",
+      "Violent acts occur without warning, so no procedure could have prevented this second killing",
+      "Documented threats without a physical assault are protected speech and carry no predictive weight"
+    ],
+    "key_concepts": [
+      "Park Dietz, the nation's leading forensic psychiatrist and an expert on violence, notes that case histories are 'littered with reports, letters, memoranda, and recollections' of people feeling uncomfortable, threatened, intimidated, violated, and unsafe.",
+      "In the case Dietz studied, a man killed a co-worker, served his prison time, was released, and was rehired by the same company whose employee he had murdered.",
+      "While re-employed, the man alienated people because he was always sullen and angry, made threats known to supervisors, and stalked a female co-worker.",
+      "After resigning on the verge of being fired, he continued to stalk the woman and then killed her.",
+      "After terrible violence, officials often describe the perpetrator as having been 'a student in good standing,' a formula that means 'Who could have known?'",
+      "De Becker states that denial can be allowed to turn into negligence.",
+      "The Co-worker Fear PIN seeks to capture the intuition of co-workers who are afraid of or apprehensive about a person, whether or not they can articulate why.",
+      "Violence in the workplace offers many predictive opportunities, and there are almost always several people in a position to observe the warning signs.",
+      "Obvious warnings are frequently ignored, but the cases show that it does not have to be that way.",
+      "De Becker's observations are not about blame but about education: people who had the tools earlier could have made different choices."
+    ],
+    "difficulty_level": "Advanced",
+    "theory_summary": "This scenario tests denial as the mechanism that converts documented warning signs into negligence: the organization recorded discomfort, threats, and stalking, yet narrated the tragedy as unpredictable. De Becker's evidence is Dietz's finding that case histories are littered with written records of intuition that went unacted upon, making the 'Who could have known?' question answerable from the files themselves.",
+    "credibility": {
+      "level": "Medium",
+      "consensus": "Emerging",
+      "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+    }
+  }
+,{
+    "asset_type": "DECEPTION_AUDIT_FILE",
+    "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+    "topic": "The bullets on the desk: reading a credibility display after termination",
+    "visual_frame_description": "A municipal administrator's office at 4:55 on a Thursday. Across the polished desk, a heavyset man in a worn coat sets two .38 caliber bullets beside a voucher denial letter with exaggerated care, then sits back. His face is calm; the administrator's hand hovers near the intercom. A case-file panel shows his therapist's note and a single line in his own handwriting: 'Right is right, and right always wins.'",
+    "player_mission": "Audit the post-termination interaction between a mid-sized city and a former employee pushing a disputed $400 reimbursement. Read his credibility display correctly, weigh the organizational instinct to defend the rules, and determine the response that protects safety over principle.",
+    "question": "A former city employee denied a $400 reimbursement places two .38 caliber bullets on the administrator's desk and says, 'Let me see if I can put this another way.' What is the correct assessment of this act?",
+    "subject_baseline": "The ex-employee is a rigid man retiring on a mental disability who rejected an $11,000 city offer because it excluded a $400 reimbursement he felt entitled to. He had shown a handgun to his therapist and commented on the financial dispute, 'Right is right, and right always wins.' The point of the money had become a matter of pride and identity.",
+    "observed_nonverbal_log": "14:20 He arrives without an appointment and demands to see the administrator who made the decision. 14:25 The two argue; the administrator holds firm to the rule that expenditures need pre-approval. 14:30 His voice stays level as he stands and says, 'Let me see if I can put this another way.' 14:31 He places two .38 caliber bullets on the administrator's desk, then leaves without another word.",
+    "interrogation_transcript": "Ex-employee: 'Let me see if I can put this another way.' Administrator, later: 'We have rules, and if we buckle under to everybody who makes a demand, those rules will be meaningless.' Consultant: 'We aren't suggesting that you give four hundred dollars to everyone who asks for it, but rather that you give four hundred dollars just to the desperate, emotionally disturbed ex-employees who, after showing a gun to their therapists, plop bullets down on your desk to make a point.'",
+    "correct_diagnosis": "The bullets are an escalation with a demonstrated ability component: a nonverbal signal that the man has access to firearms and treats the dispute as settled on his terms. Because the $400 has become pride and identity rather than money, the value of the threat is set by the response, and the book's conclusion is that the city should pay — winning the point had become a matter of pride and identity to the former employee, and acceding was far cheaper than the alternatives. Refusing on principle puts both parties 'in the ring,' where neither can see past fists.",
+    "diagnostic_breakdown": "Evidence: the handgun shown to the therapist and the 'right always wins' framing establish that the man integrates weapons into his disputes and believes justice is on his side. Evidence: the deliberate placement of live bullets on the desk is a display of ability and commitment, not an offer to negotiate. Evidence: the amount at stake ($400) is trivial relative to the risk, and the man's emotional investment transforms the issue from money to identity. Conclusion: pay the $400, treat the display as a serious hazard cue, and break out of the ring rather than defending the rule.",
+    "distractors": [
+      "The bullets were empty and were meant as a dark joke, so the administrator's firm reply correctly ended the matter",
+      "Paying the $400 would reward extortion and immediately invite every ex-employee to try the same trick",
+      "Because he left without making a spoken threat, there is no signal to act on and the case should be closed"
+    ],
+    "key_concepts": [
+      "The ex-employee rejected an $11,000 settlement because it lacked a $400 reimbursement he felt entitled to, and the rules prohibited the unapproved expenditure.",
+      "He had shown a handgun to his therapist and said of the dispute, 'Right is right, and right always wins.'",
+      "He arrived without an appointment, argued with the administrator, then said 'Let me see if I can put this another way' and placed two .38 caliber bullets on the desk.",
+      "De Becker's office suggested the city pay the $400, since winning that point had become a matter of pride and identity to the former employee.",
+      "When both parties are 'in the ring,' they are willing to stay in the fight and cannot see past their fists.",
+      "The administrator invoked the sanctity of rules: 'We have rules, and if we buckle under to everybody who makes a demand, those rules will be meaningless.'",
+      "De Becker quotes Oliver Wendell Holmes: 'The young man knows the rules, but the old man knows the exceptions.'",
+      "Acceding to people's demands is not always possible or practical, but in this case the entire consequence was the $400.",
+      "The power of the employer shifts at the instant of firing: the leverage to fire has been spent, and the power moves to the employee.",
+      "Righteous indignation can be the engine for behaviors an employee might never have considered before."
+    ],
+    "difficulty_level": "Intermediate",
+    "theory_summary": "This scenario tests threat appraisal under commitment: the value of the bullets-on-the-desk signal is set by the reaction it provokes, and both parties' commitment to being right ('in the ring') blocks resolution. De Becker's claim, grounded in his consultation with the city, is that when a dispute has become pride and identity, the safe resolution is to yield on the trivial amount rather than defend the rule.",
+    "credibility": {
+      "level": "Medium",
+      "consensus": "Emerging",
+      "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+    }
+  },
+  {
+    "asset_type": "DECEPTION_AUDIT_FILE",
+    "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+    "topic": "Post-termination contact: reading the lawsuit threat and the Contact PIN",
+    "visual_frame_description": "A termination-meeting room with a video camera on a tripod and a red call button on the wall. Across the table, a man in a windbreaker leans back with his jaw tight, then smiles thinly and says his lawyer will be in touch. Beside the scene, a weekly log page tracks his calls to a former co-worker and a sighting of him standing across the street from the building.",
+    "player_mission": "Audit a fired employee's post-termination communications recorded in the meeting log and the weeks that follow. Classify the signals — the lawsuit threat, the retained contact, the building sightings — and decide what each means for risk, using the chapter's concepts about threats and the Contact PIN.",
+    "question": "A terminated employee states flatly, 'You'll be hearing from my attorney,' then, after his claim is rejected, begins calling a former co-worker daily and stands outside the building during shift change. How should these signals be read?",
+    "subject_baseline": "Employees who accept termination grieve and begin seeking new work; employers then hear nothing from them. This employee, instead, treated the termination as a fight to be won and framed every outcome as an injustice inflicted on him.",
+    "observed_nonverbal_log": "Week 1 (termination meeting): he speaks through a tight jaw, clutches the arms of the chair, but keeps his voice level; his stated plan is litigation. Week 3: his lawyer's claim is rejected. Week 4: he leaves two voicemails a day for a former co-worker asking to 'be put back in the loop.' Week 5: he is seen from the lobby camera standing across the street during shift change for three consecutive evenings. Week 6: he calls the new hire to describe how the company 'ruins people.'",
+    "interrogation_transcript": "Fired employee, in the meeting: 'You'll be hearing from my attorney about this. Every one of you.' Supervisor, afterward: 'Should we threaten him back? Tell him we'll get a restraining order the minute he shows his face?' Consultant: 'The worst possible reaction to a threat is a counter-threat. When threats work for the employee, it's because, having little to lose, he might actually do a reckless thing — and management knows that.'",
+    "correct_diagnosis": "The lawsuit threat is comparatively good news: while he is focused on litigation, he still sees alternatives to violence, so the threat of a lawsuit is a signal that he has not moved to violence. The danger appears when the legal avenue ends: the daily calls to a former co-worker, the shift-change sightings, and the contact with the new hire match the Contact PIN — instigating and maintaining contact with current employees, refusing to let go, and being more focused on the job he lost than on finding new employment. The correct response is never to counter-threat, to record everything from the meeting, to notify the people who might be targets, and to treat maintained contact as a call for scrutiny.",
+    "diagnostic_breakdown": "Evidence: the lawsuit framing shows he is pursuing alternatives to violence, which the book flags as encouraging rather than alarming. Evidence: after the claim's rejection, the alternatives vanish and he substitutes sustained contact with current employees, which is the named Contact PIN and the pattern that precedes pursuit or escalation. Evidence: the supervisor's suggested counter-threat would raise the ante and put management on the employee's field, engaging the threatener instead of disengaging. Conclusion: the risk cue is not the lawsuit but the contact that follows its failure, and the management stance must be calm, unafraid, and documented.",
+    "distractors": [
+      "The threat of a lawsuit is an escalation of the same seriousness as a threat of physical violence",
+      "Because he only makes phone calls and never appears inside the building, there is no reason to track or report his behavior",
+      "An employer should match his combative tone with a counter-threat to demonstrate that it cannot be intimidated"
+    ],
+    "key_concepts": [
+      "When a fired employee threatens a lawsuit, it is actually good news, because as long as he is focused on a lawsuit he sees alternatives to violence.",
+      "The problem with lawsuits comes not when they start but when they end.",
+      "The Contact PIN applies when a fired employee instigates and maintains contact with current employees and refuses to let go.",
+      "The Contact PIN describes a person more focused on the job he just lost than on finding other employment.",
+      "The worst possible reaction to a threat is a counter-threat, which engages the threatener and puts you on his playing field.",
+      "The value of threats is determined by our reaction.",
+      "The failure to warn people who might be the targets of violence can be negligent, as can the failure to monitor an angry employee's departure or to take back credentials.",
+      "Immediately after a termination meeting, the person who conducted the firing should make a report of the attitude, behavior, responses, and statements of the fired employee.",
+      "When clients fire difficult employees, de Becker guides them through precautions including video monitoring, security intervention teams at the ready, emergency call buttons, and improved access-control procedures.",
+      "When employers avoid provoking or engaging a fired employee, time itself will heal most wounds."
+    ],
+    "difficulty_level": "Advanced",
+    "theory_summary": "This scenario tests the appraisal of threats versus the appraisal of maintained contact: a lawsuit threat signals retained alternatives to violence, while post-litigation contact with current employees is the named Contact PIN and the actual hazard cue. De Becker's claim is that counter-threats escalate rather than deter, and that documented post-termination behavior, not courtroom language, is what informs security decisions.",
+    "credibility": {
+      "level": "Medium",
+      "consensus": "Emerging",
+      "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+    }
+  },
+  {
+    "asset_type": "BOSS_BATTLE",
+    "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+    "topic": "The difficult termination: dignity domino and termination protocol",
+    "visual_frame_description": "The empty cafeteria of a regional airline catering company after a late shift. Evan, a gate supervisor with a documented pattern of threats and bullying, waits in a back booth facing a neutral conference room where a quiet, higher-level manager sits with a single sheet of notes. Two armed security guards loom against the far wall, watching him; a co-worker hovers near the door. The scene freezes as the battle begins.",
+    "player_mission": "Run the termination of Evan, a volatile employee, through the book's protocol. Choose the setup and cast that protect the dignity domino and the safety of the moment, then manage the meeting itself: when he erupts with threats, select the response that disengages rather than escalates.",
+    "boss_battle_explanation": "The battle tests the book's termination doctrine: firing is not done from a position of power — the moment the employer fires, its leverage is spent and the power shifts to the employee, who has also lost status, income, security, purpose, identity, and a fight. The entire design of the meeting exists to protect the dignity domino, because when that falls, violence is most likely, and the value of any threat made in the meeting is determined by how it is received.",
+    "stage_1_observation": "You must fire Evan, a gate supervisor with documented bullying and a death threat left on another supervisor's answering machine. Around you are the options that determine the meeting's design: his summoning notice, your corner office with its city view, the neutral cafeteria booth, the presence of armed guards, the choice of who speaks, the end-of-day timing, and the unfinished separation package that would extend his employment by six weeks of 'phased transition.'",
+    "stage_1_question": "Which combination of decisions for the termination follows the book's protocol?",
+    "stage_1_correct_answer": "Summon him without notice and fire him at the end of the day and the end of the work week, in a neutral room out of view of other employees (never your own office, so you can stand and leave), with a calm higher-level manager distant from the day-to-day controversies as the presenter, plus a second participant Evan admires — and no armed guards or police, no equal co-workers or direct supervisors, and no gradual separation. The termination must be complete, the discussion kept future-based, and the tone matter-of-fact.",
+    "stage_2_intervention": "Midway through the meeting, Evan stands and hisses: 'You'll be sorry. I know where you live, and I'll burn this place down. Nobody fires me and walks away.' One of the security guards outside the door makes a move to enter. Your colleague whispers, 'Shouldn't we threaten him with the cops right now? Show him we mean it?'",
+    "stage_2_correct_answer": "Say, calmly, 'I understand you are upset, but the things you are talking about are not your style. I know you are far too reasonable and have too good a future to even consider such things,' then offer an off-ramp: 'We all say things when we react emotionally; I've done it myself. Let's just forget it.' Never show a high appraisal of his words, never show fear, and never counter-threat; keep the meeting brief and future-focused, and let the hidden precautions — video monitoring, ready security teams, and later revocation of his access credentials — do their work invisibly.",
+    "key_concepts": [
+      "Protect the dignity domino: prop it up with courtesy and understanding, and never embarrass an employee.",
+      "Keep secret from the terminated employee any concerns about serious harms he might commit; thinking the worst is compatible with treating him as if he were what you hope him to be.",
+      "Make the termination complete: a gradual separation extends the firing, the embarrassment, and the anxiety; it is analogous to life-support with no chance of survival.",
+      "Do not negotiate: once the decision is made, the meeting informs him of the decision, period; a 'boomerang line' can be repeated when he tries to derail the conversation.",
+      "Keep the discussion future-based, with resolvable practical questions such as what callers should be told about how to reach him.",
+      "Be direct: people benefit most from hearing bad news forthrightly, and delicacy makes the fired employee feel foolish on top of everything else.",
+      "Keep the element of surprise: many employees are summoned to their firing meeting with the words 'They're going to fire you.'",
+      "Time it right: fire at the end of the day and the end of the work week, when other employees are departing and the fired employee goes home at his usual time.",
+      "Choose the setting and cast: a neutral room out of view, a higher-level manager distant from the controversies, and no armed security guards, police, or co-workers, who set vulnerabilities on the table.",
+      "The best reaction to threats in a termination meeting conveys that you are not afraid, and lets the threatener know he has not embarked on a course from which he cannot retreat."
+    ],
+    "difficulty_level": "Intermediate",
+    "theory_summary": "This scenario tests the book's termination protocol as a safety intervention: the design of the firing — surprise, setting, cast, timing, complete and non-negotiated — exists to protect the dignity domino, whose fall makes violence most likely. De Becker's claim is that the value of a termination-meeting threat is set by the reaction, so the correct response shows calm confidence and never a counter-threat.",
+    "credibility": {
+      "level": "Medium",
+      "consensus": "Emerging",
+      "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+    }
+  },
+  {
+    "asset_type": "BOSS_BATTLE",
+    "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+    "topic": "The Scriptwriter and the TIME syndrome: terminating early and holding the line",
+    "visual_frame_description": "The floor of a metal fabrication plant at shift change. Grant, a twenty-year welder, stands at his station surrounded by a faint red halo of documented incidents: a crushed cabinet door, a memo about his 'one-man war' against the scheduling office, three supervisors who asked to be reassigned away from him. A timeline bar across the top shows his years at the plant stretching on, each quarter darker, as co-workers watch from behind a safety line.",
+    "player_mission": "Command the decision point with a Scriptwriter employee whose file documents threats, bullying, and co-worker fear. Decide when to act and how, then weather his escalation after termination without negotiating, retreating, or counter-threatening, while managing the TIME syndrome his firing may trigger.",
+    "boss_battle_explanation": "The battle tests the TIME syndrome and the early-termination doctrine: TIME is the introduction of Threats, Intimidations, Manipulations, and Escalations, and it is on the employee's side the longer the decision to fire is postponed. The Scriptwriter has been trained by experience that manipulations and intimidations work; when management finally stands its ground, he escalates, and the correct stance is to have fired him early and to hold the line without counter-threats.",
+    "stage_1_observation": "You are the plant manager reviewing Grant's file: threats documented, a cabinet door he pushed through, three departments that shifted him sideways 'to make him somebody else's problem,' co-workers who are afraid of him, and a supervisor who wrote, 'If we try to fire him, he'll react badly.' He has just filed another grievance claiming a one-man war against the scheduling office. The plant lawyer warns that terminating him now invites a lawsuit, and suggests one more 'performance improvement period.'",
+    "stage_1_question": "Given the Scriptwriter profile and the TIME doctrine, what is the correct decision now?",
+    "stage_1_correct_answer": "Terminate him now, with sufficient cause and an unshakable determination, because the key is to get rid of a Scriptwriter early: the longer he stays, the more entitled he feels, and TIMING favors him the longer the decision waits. If you try to fire him and fail, you set the stage for the TIME syndrome — threats, intimidations, manipulations, and escalation — so the first attempt must be the real one, executed with the full termination protocol.",
+    "stage_2_intervention": "After termination, Grant escalates: he shows up at the loading dock uninvited twice, sends alarming emails to the scheduling office, leaves a menacing voicemail for his replacement, and calls two former co-workers every day to recount his grievances. A supervisor urges: 'Let's threaten him back — show some spine. Or at least offer him six weeks of pay to make it go away.'",
+    "stage_2_correct_answer": "Hold the line: do not negotiate (the $0 counteroffer is not a lever but surrender), and absolutely do not counter-threat, because counter-threats engage the threatener and put management on his playing field, where it has far more to lose. Treat the escalations as information: document them, report the meeting outcomes to security, ensure access credentials were revoked and reception notified, warn the people who might be targets, and recognize that his manipulations stopped working and he has upped the ante — the situation now shows that he should have been fired long ago, not that the firing was wrong.",
+    "key_concepts": [
+      "TIME syndrome is the introduction of Threats, Intimidations, Manipulations, and Escalations after a failed or postponed firing.",
+      "Manipulations are statements intended to influence the outcome without resorting to threat; escalations are actions intended to cause fear, upset, or anxiety.",
+      "TIME is on the difficult employee's side unless the employer acts quickly: the sooner he is fired in the process, the easier it will be.",
+      "The Scriptwriter has often successfully used manipulations or intimidations in the past, so his employer has trained him that these strategies work.",
+      "When manipulations that worked before appear not to work now, the Scriptwriter escalates them.",
+      "Managers often shift the problem employee from department to department or put him on a late shift to make him somebody else's problem.",
+      "The key is to get rid of a Scriptwriter early: the longer he is there, the more he feels entitled to be there.",
+      "If you try to fire him and fail, you set the stage for the TIME syndrome.",
+      "The worst possible reaction to a threat is a counter-threat, which turns the situation into a contest of threats, escalations, and counter-threats that employers rarely win.",
+      "Employers who had the worst outcomes were slow to fire people they knew had to go; a problem employee is easier to terminate before he makes a substantial emotional investment in the job."
+    ],
+    "difficulty_level": "Advanced",
+    "theory_summary": "This scenario tests the TIME syndrome and early-termination doctrine: postponing the firing of a Scriptwriter strengthens his entitlement and trains him that tactics work, while a failed attempt triggers threats, intimidations, manipulations, and escalation. De Becker's claim is that time favors the difficult employee, so the termination must come early, be unshakable, and be followed by a calm, non-negotiating, non-counter-threatening line that treats escalations as information.",
+    "credibility": {
+      "level": "Medium",
+      "consensus": "Emerging",
+      "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+    }
+  }
+      ]
+    }
+  ]
+}

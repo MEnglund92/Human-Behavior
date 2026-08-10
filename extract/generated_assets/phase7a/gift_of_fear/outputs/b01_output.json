@@ -1,0 +1,116 @@
+{
+  "spec_file": "spec_gift_of_fear_b01.json",
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "Foreword to the Special Kindle Edition",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Fascination with violent media as a workplace warning sign",
+          "visual_frame_description": "A dim HR office at Meridian Logistics at 6:40 p.m. Priya Vasquez, the facility HR manager, works through flagged web-usage logs and badge-swipe records on her dual monitors. A freeze-frame inset shows Marcus Grange, a forty-three-year-old shipping clerk, hunched in the empty break room with his screen glowing. The on-screen console is labeled CUE SCRUBBER STATION and offers one behavioral channel to inspect: his online media habits over the past ninety days.",
+          "player_mission": "Inspect the channel presented, Marcus Grange's online media consumption, and decide which observed behavior is a genuine warning sign preceding workplace violence as described in the foreword. Select the single correct cue from the log data, then either flag the case for a threat assessment or clear it.",
+          "question": "Which observation from the log is the warning sign that, in de Becker's foreword, precedes mass shootings at businesses?",
+          "correct_cue": "Marcus's sustained fascination with violent media: repeated late-shift visits to websites that celebrate mass shootings, killers, and violent themes, growing in frequency over the past sixty days. The foreword explicitly names a perpetrator's fascination with violent media as one of the warning signs that precede those terrible incidents, and notes that technology has exponentially expanded the number and types of websites celebrating those themes.",
+          "distractors": [
+            "Marcus has stopped eating lunch in the break room and now eats alone at his desk with headphones on.",
+            "Marcus's social media profile consists mostly of vacation photos from a hunting trip to Montana last fall.",
+            "Marcus recently corrected a safety violation on the loading dock without being asked and has become friendlier with the night crew."
+          ],
+          "underlying_psychology": "Fascination with violent media works as a rehearsal and identification channel: the would-be perpetrator is drawn to content that celebrates the violence he is contemplating, and the media supply feeds the fantasy while also making him visible. De Becker presents this fascination as an observable, detectable factor that precedes the outcome rather than as a proven cause, and stresses that technology has multiplied the number and types of such websites.",
+          "key_concepts": [
+            "The foreword identifies a perpetrator's fascination with violent media as one of the warning signs that precede mass shootings at businesses.",
+            "Technology has exponentially expanded the number and types of websites celebrating violent themes such as mass shootings.",
+            "The foreword notes that technology has enhanced the realness and intensity of the violent video games from which a troubled student might draw inspiration.",
+            "The Internet offers greater anonymity to unwanted pursuers and less privacy to their targets.",
+            "Technology has expanded the ways in which violent people can track down those they intend to harm, and has at the same time made hiding more difficult.",
+            "de Becker states that the basic tenets of human behavior explored in the book remain unchanged no matter what the method of communication between predator and target.",
+            "The foreword notes that actual challenges to safety arise only in person, so the only thing that has really changed is the medium used for persuading someone to have an in-person meeting.",
+            "de Becker describes the first step toward being on the better side of a dangerous transaction as being the best informed participant.",
+            "With human beings, unlike animals, there is usually time, plenty of time, and plenty of warning in the form of warning signs.",
+            "Media changes, but human nature does not; violence and predation have been a part of human life for millions of years."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests pre-incident indicator recognition: the foreword names a perpetrator's fascination with violent media as a detectable warning sign that precedes workplace mass shootings. Because technology has exponentially expanded the supply of websites celebrating violent themes, that warning sign is easier than ever to observe in an employee's behavior.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "target_channel": "Behavioral channel: Which observation from the log is the warning sign that, in de Becker's foreword, precedes mass shootings at businesses"
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Online grooming and the persuade-to-meet script",
+          "visual_frame_description": "Lena Okonkwo's apartment at 11:15 p.m.; her phone shows a dating-app chat thread with a man who calls himself Evan Cole, a self-described pediatric nurse. A sidebar panel replays the message timestamps in sequence, while a second window shows the three profile photos Evan sent, each slightly different in poor lighting. The audit workspace is labeled DECEPTION AUDIT FILE 0412 with a verdict panel waiting to be filled.",
+          "player_mission": "Audit the chat log against Evan's stated baseline, weigh the timed message pattern and the quoted lines, and render a verdict on whether this interaction is a grooming script. Answer the assessment question, then file the correct diagnosis with its supporting evidence.",
+          "question": "Based on the foreword's account of how predators use new media, what is the most accurate diagnosis of this interaction?",
+          "subject_baseline": "Evan's profile claims he is a pediatric nurse at St. Anne's Medical Center, forty-one, divorced with two children, and 'serious about finding a real connection.' In the first exchanges his messages are warm, unhurried, and complimentary; he sends about one message per evening, always after 9 p.m., and signs off with the same polite closing phrase.",
+          "observed_nonverbal_log": "Day 1, 21:04 - first message, a compliment on Lena's profile photo. Day 4, 21:40 - asks where she works and how far she lives from downtown. Day 6, 22:12 - claims a 'family emergency' and goes silent for three days. Day 9, 08:03 - resumes with an apology, then sends four messages within ninety minutes. Day 10, 23:30 - proposes dinner at 'a quiet place I know, a little drive from town.' Day 11, 00:15 - after Lena suggests a busy downtown cafe, he changes the subject and twice asks whether she lives alone.",
+          "interrogation_transcript": "Evan: 'I'm a pediatric nurse at St. Anne's. The night shift is brutal.' Lena: 'Oh, so you are usually free in the evenings?' Evan: 'Kinda, yeah, it varies.' Lena: 'Would you do a video call before we meet? Just to say hi.' Evan: 'Ha, cameras are not really my thing. Let's just meet - I'm shy about first impressions.' Lena: 'Public place, then. The cafe on Mercer?' Evan: 'Sure, sure. Or my sister's neighborhood, it's quieter. What crossroads are you near anyway?'",
+          "correct_diagnosis": "This is a grooming and persuasion script conducted over a new medium. Evan steers away from verification (video call, busy public venue), accelerates contact when engaged (four messages in ninety minutes), and presses toward a private, low-visibility in-person meeting - exactly the goal de Becker describes: predators use the same persuasion strategies online as in person, and actual challenges to safety arise only in an in-person meeting.",
+          "diagnostic_breakdown": "1) The stated baseline of a stable night-shift nurse contradicts the daytime availability he displays, and his scheduling claim ('it varies') is vague at the exact moment verification is requested. 2) The flattery followed by a three-day disappearance and a burst of four apologetic messages matches the escalation pattern of grooming contact. 3) Deflection of the video-call request and preference for a private setting are attempts to control the meeting environment. 4) The foreword warns that through the Internet people become emotionally invested in relationships with very little confirmable knowledge about the other person, and that some have escalated all the way to murder of a competing suitor. The most dangerous element is the steady push toward an in-person meeting in a location of his choosing.",
+          "distractors": [
+            "Evan is an ordinary shy person who simply dislikes video calls and prefers quiet settings.",
+            "Evan's behavior reflects a harmless cultural difference in how he arranges dates.",
+            "Evan is telling the truth about his job but is genuinely disorganized about his work schedule."
+          ],
+          "key_concepts": [
+            "The foreword states that predators use the same strategies for grooming and persuading targets whether via internet, email, text-messaging, telephone, snail-mail, or in person.",
+            "According to the foreword, actual challenges to safety arise only in person, and only the medium used for persuading someone to have an in-person meeting has really changed.",
+            "Through the Internet, some people have become emotionally invested in relationships with very little confirmable knowledge about the other person.",
+            "The foreword reports that some people, feeling they know an online partner, have escalated in disturbing ways all the way to the murder of a competing suitor.",
+            "The Internet offers greater anonymity to unwanted pursuers and less privacy to their targets.",
+            "Social networking exposes one's image and information to a larger population than might be wise, though it offers some insulation at the start of relationships.",
+            "de Becker notes that the goal is to avoid being in the presence of someone who might do you harm.",
+            "The foreword notes that a stalking or harassment chapter ahead describes how the Internet gives perpetrators a wider menu of intrusive strategies.",
+            "The first step to being on the better side of a dangerous transaction is to be the best informed participant.",
+            "Media changes, but human nature does not; the strategies predators use to persuade targets are the same in every medium."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the grooming-and-persuasion principle: de Becker states that predators use the same strategies to groom and persuade targets online or in person, and that what has changed is only the medium used to persuade someone to have an in-person meeting. Because actual challenges to safety arise only in person, the escalation toward a private meeting is the risk signal even while the words remain pleasant.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The power motive and the window of warning",
+          "visual_frame_description": "A security operations room at Brenner & Hale, an accounting firm. A wall monitor replays an exit-interview camera feed: Ron Pell, fifty-two, a partner passed over for managing partner, stands at a conference table while two executives gesture for calm. A second screen replays Ron's words from the morning meeting, and a timeline ribbon shows his badge swipes growing more erratic throughout the day.",
+          "player_mission": "Work the two-stage battle. In stage one, observe Ron's statements and identify the motive de Becker assigns to most human predators. In stage two, decide how to respond when Ron's threat becomes concrete, choosing the intervention that honors the foreword's warning that with human beings there is usually time and plenty of warning.",
+          "boss_battle_explanation": "The central concept is de Becker's claim that most human predators seek power, not food, and that to destroy or damage something is to take its power. The battle also tests the companion claim that although predators catch prey off-guard, with people there is usually time, plenty of time, and plenty of warning - so the best informed participant can act before the attack rather than after it.",
+          "stage_1_observation": "You are the security coordinator at Brenner & Hale. The feed shows Ron Pell during his exit interview, still wearing his badge, his hands braced on the conference table. A wall monitor replays his words from that morning's meeting: 'If they humiliate my practice group, I will burn their precious revenue model to the ground.' A supervisor's note in the corner of the screen reads: 'Ron has been sending long emails to the whole floor listing every slight since 2019.' Study Ron's statements and decide what is driving him.",
+          "stage_1_question": "Which of Ron's statements best matches the motive de Becker assigns to most human predators?",
+          "stage_1_correct_answer": "His promise to burn the firm's revenue model to the ground: de Becker writes that most human predators seek power, not food, and that to destroy or damage something is to take its power - so destroying the revenue model is Ron's way of taking power from the people who humiliated him.",
+          "stage_2_intervention": "Ron breaks away from the exit interview, muttering loudly in the corridor, and badge records show he has cleared out his desk. A floor-wide email from him appears on the security console beginning: 'To the people who ruined me - '. You have a narrow window: dismiss the email as venting and let security walk the halls until he cools off, or treat the message as a warning sign and act immediately to keep people out of his path.",
+          "stage_2_correct_answer": "Treat the email as a genuine warning sign and act immediately to keep staff out of Ron's presence while security engages him at a distance. de Becker insists that with human beings there is usually time, plenty of time, and plenty of warning, and that the first step is to be the best informed participant - waiting to see what happens repeats the prey's excuse that there wasn't time to do anything.",
+          "key_concepts": [
+            "The foreword states that most human predators seek power, not food, and that to destroy or damage something is to take its power.",
+            "de Becker applies the power motive broadly: it applies to a political movement, a government, a campaign, a career, a marriage, a performance, a fortune, or a religion.",
+            "The foreword compares some human attacks to predation in nature: the surprise, the sudden movement, the burst of hostile energy, the jerky resistance, and the wish to escape.",
+            "de Becker observes that a captured prey animal would say 'It all happened so fast; there wasn't time to do anything,' but with human beings there is usually time, plenty of time, and plenty of warning.",
+            "The first step to being on the better side of a dangerous transaction is to be the best informed participant.",
+            "The foreword argues that human beings got the biggest brains, and that cleverness, dexterity, and creativity combine powerfully when you are at risk if you listen to your intuition.",
+            "In the foreword, the goal is stated bluntly: avoid being in the presence of someone who might do you harm.",
+            "Media changes, but human nature does not; violence and predation have been a part of human life for millions of years.",
+            "The foreword notes that a woman is killed by a spouse every two hours in America, evidence that repeated cases allow binding theories to develop.",
+            "The foreword promises that the chapters ahead describe exactly what the warning signs look like, to reconnect readers to the remarkable defenses that are part of their nature."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the power-motive claim: de Becker argues that most human predators seek power, not food, and that destroying or damaging something takes its power, which is why attacks target careers, marriages, and reputations as much as bodies. It also tests his companion claim that with human beings there is usually time and plenty of warning, so recognizing the warning signs early gives the informed participant the chance to act.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        }
+      ]
+    }
+  ]
+}

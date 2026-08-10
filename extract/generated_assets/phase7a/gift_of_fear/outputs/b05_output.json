@@ -1,0 +1,509 @@
+{
+  "spec_file": "spec_gift_of_fear_b05.json",
+  "chapters": [
+    {
+      "id": "ch05",
+      "title": "Chapter 4: Survival Signals",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Forced Teaming: The Fabricated We",
+          "visual_frame_description": "A dimly lit bus terminal at 11:40 pm. Maya, 29, sits alone on a bench with one small suitcase, and a man in a windbreaker settles onto the bench beside her. A transcript panel to the right of the screen highlights every pronoun the man uses in real time, while a scanning interface ticks through word patterns. The man leans in and says, \"Well, looks like neither of us is getting anywhere tonight.\"",
+          "player_mission": "Inspect the man's speech channel for the marker of forced teaming before the conversation progresses. Choose the pattern that flags the manipulation and then decide whether to engage.",
+          "target_channel": "Verbal framing and pronoun choice, specifically the projection of a shared purpose or experience where none exists",
+          "question": "Which verbal pattern in the man's conversation is the detectable signal of forced teaming?",
+          "correct_cue": "Forced teaming is the projection of a shared purpose or experience where none exists, usually marked by the use of \"we,\" \"both of us,\" or \"we're some team\" to claim a partnership the listener never agreed to. The book's examples are \"We've got a hungry cat up there,\" \"Both of us,\" \"how are we going to handle this?\" and \"now we've done it.\" It is intentional and directed, not coincidence, and it establishes premature trust because a we're-in-the-same-boat attitude is hard to rebuff without feeling rude.",
+          "distractors": [
+            "A stammer and averted eyes when answering direct questions",
+            "A compliment about the listener's appearance or clothing",
+            "A truthful, openly declared real coincidence, such as both arriving at a just-closed store"
+          ],
+          "underlying_psychology": "Forced teaming exploits the social discomfort of rejecting someone who claims to share your predicament; the listener suppresses the refusal to avoid appearing rude, which buys the manipulator premature trust. De Becker calls it one of the most sophisticated manipulations, and the defense is a clear refusal of the partnership concept: \"I did not ask for your help and I do not want it,\" accepting that safety justifies seeming rude.",
+          "key_concepts": [
+            "Forced teaming is the projection of a shared purpose or experience where none exists.",
+            "The detectable markers are phrases like \"Both of us,\" \"we're some team,\" \"how are we going to handle this?\" and \"now we've done it.\"",
+            "Genuinely sharing a predicament, such as a stalled elevator or a just-closed store, understandably moves people across social boundaries, but forced teaming is intentional and directed rather than coincidental.",
+            "Forced teaming is an effective way to establish premature trust because a we're-in-the-same-boat attitude is hard to rebuff without feeling rude.",
+            "The simple defense is a clear refusal of the concept of partnership: \"I did not ask for your help and I do not want it.\"",
+            "Safety is the preeminent concern of all creatures and justifies a seemingly abrupt and rejecting response from time to time.",
+            "Rudeness is relative: the appropriateness of a response is judged against the behavior that provoked it.",
+            "When applied by a stranger to a woman in a vulnerable situation, forced teaming is always inappropriate.",
+            "Rapport-building generally has a better reputation than it deserves and is almost always done for self-serving reasons.",
+            "The best cons make the victim want to participate, as shown in David Mamet's House of Games.",
+            "In the Western Union con in House of Games, the stranger was not expecting any money; the only money to arrive was the soldier's.",
+            "In an age of anonymous one-time encounters, trust formerly earned through actions is now purchased with sleight of hand and sleight of words."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests forced teaming, the manipulation that claims a fabricated shared predicament to buy premature trust. De Becker identifies the projection of a shared purpose or experience where none exists as its detectable signal and prescribes an explicit refusal of partnership even at the cost of appearing rude.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Too Many Details: The Liar's Overflow",
+          "visual_frame_description": "A quiet apartment-corridor at 10 pm. Priya holds a heavy delivery box while a stranger in a loose jacket stands in her doorway and talks quickly, volunteering an unfed cat in a friend's apartment, doors he always leaves open \"like ladies do in old movies,\" and a broken watch that makes him always late. A detail-counter on screen tallies each unsolicited explanation he adds, and the corridor itself begins to blur at the edges like a train window.",
+          "player_mission": "Scrub the conversation for the trademark of verbal deception: unsolicited, accumulating detail. Identify the pattern, then select the defense that keeps the interaction's context in conscious thought.",
+          "target_channel": "Speech content and detail density, specifically volunteered information that was never requested",
+          "question": "Which conversational pattern is the book's signal that someone may be deceiving you?",
+          "correct_cue": "Too many details: an overflow of volunteered, unsolicited explanations. Liars do not believe what they say sounds credible to themselves, so they keep talking, piling on details such as the cat left unfed in a friend's apartment, leaving the door open \"like ladies do in old movies,\" and being always late due to a broken watch. Truthful people do not feel doubted, so they feel no need for additional support in the form of details; each detail is a small tack thrown on the road, but together they can stop a truck.",
+          "distractors": [
+            "Brief, precise answers given with no extra color or explanation",
+            "Repeating the same key point once when challenged",
+            "Looking toward the exit while checking a phone"
+          ],
+          "underlying_psychology": "Deceivers over-justify because they cannot hear their own credibility, while the listener's attention is diverted from context by a flood of small irrelevancies. The defense is to bring the context into conscious thought, exactly as a woman can stay anchored by thinking \"I have asked him to leave twice\": the man is still an absolute stranger who approached you.",
+          "key_concepts": [
+            "People who want to deceive you will often use a simple technique with a simple name: too many details.",
+            "When people are telling the truth, they don't feel doubted, so they don't feel the need for additional support in the form of details.",
+            "When people lie, even if what they say sounds credible to you, it doesn't sound credible to them, so they keep talking.",
+            "Each detail may be only a small tack he throws on the road, but together they can stop a truck.",
+            "The defense is to remain consciously aware of the context in which details are offered.",
+            "Context is always apparent at the start of an interaction and usually apparent at the end of one.",
+            "As a train accelerates, individual details blur into a neighborhood; the same transition can occur as a conversation becomes a robbery.",
+            "A woman can keep focus during a lingering visit by thinking \"I have asked him to leave twice.\"",
+            "Kelly had so many details thrown at her that she lost sight of the simple context: the man was an absolute stranger.",
+            "Catchy details made the stranger come to be perceived as familiar, but Kelly knew him artificially: she knew the con, not the con man.",
+            "When approached by a stranger on a city street at night, you must never lose sight of the context: he is a stranger who approached you."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests verbal over-justification under deception: liars volunteer unasked details because their own statements do not sound credible to them. De Becker notes each detail is a small tack that together can stop a truck, and the defense is deliberately re-anchoring on context rather than following the details.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Typecasting: The Insult That Demands an Answer",
+          "visual_frame_description": "A crowded gym lobby on a Tuesday evening. Tessa, a regular member, pauses at the water fountain and a man she has never seen approaches, cups his hands, and says, \"You're probably too snobbish to talk to the likes of me.\" A label-scanner on screen highlights the evaluative words in his sentence, and in a memory strip below it, the phrase \"You don't look like someone who reads the newspaper\" appears.",
+          "player_mission": "Identify the strategy hiding inside the veiled insult and decide the response that denies the strategist his goal. Scan for the combination of mild criticism and easy refutability that defines typecasting.",
+          "target_channel": "Evaluative labeling, specifically a slight, easy-to-refute insult about the person's character",
+          "question": "What is the signal that this man is using the strategy of typecasting?",
+          "correct_cue": "Typecasting is a slightly critical label meant to provoke the target into proving the criticism wrong: \"You're probably too snobbish to talk to the likes of me,\" \"You don't look like someone who reads the newspaper,\" or, as Kelly's attacker said, \"There's such thing as being too proud, you know.\" It always involves a slight insult, usually one that is easy to refute, and because the typecaster seeks the response itself, the defense is silence, acting as if the words were never spoken.",
+          "distractors": [
+            "A genuine, courteous compliment that includes no evaluation of character",
+            "An open-ended question about the person's day or workout",
+            "An openly hostile insult delivered with clear anger and belief"
+          ],
+          "underlying_psychology": "People resist negative labels by trying to prove them false, so a mild insult converts a stranger's approach into a conversation the target initiates. The typecaster does not believe his own label; he believes it will work, and engaging wins the point while risking something greater, so the book's defense is to treat the words as if they were not spoken.",
+          "key_concepts": [
+            "Typecasting labels a woman in some slightly critical way so she feels compelled to prove the opinion is not accurate.",
+            "Classic examples are \"You're probably too snobbish to talk to the likes of me\" and \"You don't look like someone who reads the newspaper.\"",
+            "Kelly's attacker used typecasting when he said \"There's such thing as being too proud, you know.\"",
+            "Typecasting always involves a slight insult, and usually one that is easy to refute.",
+            "Since it is the response itself that the typecaster seeks, the defense is silence, acting as if the words weren't even spoken.",
+            "If you engage, you can win the point, but you might lose something greater.",
+            "The typecaster doesn't even believe what he says is true; he just believes that it will work.",
+            "It does not matter what some stranger thinks of you.",
+            "Women are expected to respond to every communication from a man, and warmth lengthens the encounter, raises his expectations, and increases his investment."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests typecasting, a manipulation that uses a mild, refutable insult to trigger the target's need to disprove the label. De Becker explains that the response itself is the goal, so the correct counter is silence rather than proof.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Charm and the Deceptive Smile",
+          "visual_frame_description": "An evening reception in a hotel ballroom. Renata stands by the hors d'oeuvres table when a well-dressed man approaches with a fixed, broad smile, hands her a glass she didn't ask for, and offers a flawless compliment about her work. The screen zooms on his face, and a facial-signal overlay labels the smile's timing, onset, and tension while the phrase \"niceness is a decision\" drifts across the bottom of the frame.",
+          "player_mission": "Read the disarming smile through the book's lens: distinguish the mask of charm from genuine warmth. Decide what the smile and the unsolicited niceness are actually doing in this interaction.",
+          "target_channel": "Facial expression, specifically the smile as a signal of intent and a typical disguise used to mask emotion",
+          "question": "How does the book instruct us to interpret a charming stranger's early, disarming smile?",
+          "correct_cue": "According to psychologist Paul Eckman, the smile is the most important signal of intent and also \"the typical disguise used to mask the emotions.\" Charm is an ability, not an inherent trait: it is a directed instrument with motive, and to charm is to compel or control by allure or attraction. The correct reading is to tell yourself \"This person is trying to charm me\" rather than \"This person is charming,\" remembering that niceness is a decision, a strategy of social interaction, not a character trait, and that people seeking to control others almost always present the image of a nice person in the beginning.",
+          "distractors": [
+            "A smile is always genuine whenever it reaches the eyes",
+            "A warm early smile is a credential of the speaker's good intent",
+            "Smiling people cannot simultaneously be planning to harm you"
+          ],
+          "underlying_psychology": "Charm operates as directed influence: the target's attention is captured by likeability while the charmer's motive stays hidden, in a kind of arms race the predator dresses as detente. Since victims routinely say \"He was so nice\" about the man who later attacked them, the book treats unsolicited niceness as a discoverable-motive signal rather than a virtue.",
+          "key_concepts": [
+            "Charm is an ability, not an inherent feature of one's personality, and it is almost always a directed instrument with motive.",
+            "To charm is to compel, to control by allure or attraction; think of charm as a verb, not a trait.",
+            "If you consciously tell yourself \"This person is trying to charm me,\" you will be able to see around it.",
+            "Paul Eckman says the face tells us subtleties in feelings that only a poet can put into words.",
+            "Eckman calls the smile the most important signal of intent, and the typical disguise used to mask the emotions.",
+            "\"He was so nice\" is a comment often heard from people describing the man who attacked them.",
+            "Niceness is a decision, a strategy of social interaction; it is not a character trait.",
+            "People seeking to control others almost always present the image of a nice person in the beginning.",
+            "Like rapport-building, charm and the deceptive smile, unsolicited niceness often has a discoverable motive.",
+            "In 1859, Samuel Smiles wrote that personality itself is \"plainly a vehicle for self-advancement.\"",
+            "Edward Gorey's rhyme about the proctor who buys a pupil ices shows that niceness is not a credential of good intent."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests charm as a directed instrument of control and the smile as, in Paul Eckman's terms, the most important signal of intent and the typical disguise used to mask emotion. De Becker's corrective is that niceness is a strategy, not a character trait, so the charmed observer should reframe \"this person is charming\" into \"this person is trying to charm me.\"",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Unsolicited Promise: A Mirror of Your Doubt",
+          "visual_frame_description": "An apartment doorway at night in a hallway lit by one bulb. A man has taken hold of the handle of a woman's shopping bags and says, \"I'll just put this stuff down and go. I promise.\" A mirror-like panel on screen reflects the sentence back and annotates it: the promise reveals the speaker's perception of the listener's doubt.",
+          "player_mission": "Evaluate the unsolicited promise as a data point about the speaker's intent. Determine what the promise actually reveals and select the correct inner response to it.",
+          "target_channel": "Speech acts of assurance, specifically the unsolicited promise offered without any compensation if it fails",
+          "question": "What does an unsolicited \"I promise\" tell you about the person who says it?",
+          "correct_cue": "The unsolicited promise is one of the most reliable signals because it is nearly always of questionable motive: promises are used to convince us of an intention but are not guarantees, and they offer no collateral if the speaker fails. The reason a person needs to convince you is that he can see you are not convinced, and your doubt is a messenger of intuition, likely because there is reason to doubt. So the promise holds up a mirror of your own doubt, giving you a second chance to see your intuitive signal.",
+          "distractors": [
+            "It confirms that the stated intention is safe and sincere",
+            "It is only spoken by people who genuinely mean what they say",
+            "It adds collateral protection, functioning like a guarantee with compensation"
+          ],
+          "underlying_psychology": "The unsolicited promise is driven by perceived nonbelief: the speaker reads the listener's doubt and tries to override it with the hollowest of assurances, which is why de Becker calls promises vehicles that tell you the speaker sees your skepticism. Because the listener supplied the doubt, the promise reflects it back, and the correct inner reply is \"You're right, I am hesitant about trusting you, and maybe with good reason.\"",
+          "key_concepts": [
+            "The unsolicited promise is one of the most reliable signals because it is nearly always of questionable motive.",
+            "Promises are used to convince us of an intention, but they are not guarantees.",
+            "A guarantee is a promise that offers some compensation if the speaker fails to deliver; a promise offers no such collateral.",
+            "Promises are the very hollowest instruments of speech, showing nothing more than the speaker's desire to convince you of something.",
+            "Aside from meeting all unsolicited promises with skepticism, ask yourself: why does this person need to convince me?",
+            "The answer is not about him, it is about you: he can see that you are not convinced.",
+            "Doubt is a messenger of intuition, likely because there is reason to doubt.",
+            "The promise holds up a mirror in which you get a second chance to see your own intuitive signal; the promise is the image and the reflection of your doubt.",
+            "Kelly's attacker said \"I'll just put this stuff down and go. I promise\" after detecting her reluctance.",
+            "The defense: when someone says \"I promise,\" answer in your head, \"You're right, I am hesitant about trusting you, and maybe with good reason. Thank you for pointing it out.\""
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the unsolicited promise as a signal detector: the speaker's need to convince reveals that he perceives the listener's doubt, and that doubt is a messenger of intuition. De Becker treats promises as the hollowest instruments of speech, to be met with skepticism and with the ruling question \"Why does this person need to convince me?\"",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Kelly's Encounter: Signals That Must Be Believed to Be Seen",
+          "visual_frame_description": "A case-file interface opens on the building-entry scene from Kelly's story: a mid-rise apartment, a stranger waiting out of sight near the entry hall, and a timeline of what Kelly heard and did not hear. Icons for the electric lock, the stairwell, and the fourth floor are linked to annotations as the player reads through the file.",
+          "player_mission": "Audit the interaction Kelly experienced and explain why her alarm was justified despite his normal-looking behavior. Reassemble the pre-incident indicators that her intuition had already registered.",
+          "question": "Was Kelly's wariness a baseless feeling, or was it a response to detectable signals in the situation?",
+          "subject_baseline": "Kelly is at home in her own apartment building, a familiar environment where she is normally at ease. The subject of the audit is an absolute stranger who appeared in the building's entry hall: his normal baseline in her mind is \"a neighbor or visitor,\" which is why his oddities did not register consciously.",
+          "observed_nonverbal_log": [
+            "00:00 - No doors open before the man appears; he must have been waiting out of sight near the entry hall.",
+            "00:05 - He announces he is going to the fourth floor but does not offer why; Kelly herself fills in the blanks, concluding he is visiting the Klines across the hall.",
+            "00:10 - Kelly realizes no electric-lock buzz sounded from the intercom, and no high-volume conversation from Mrs. Kline at the top of the stairs, so no guest could actually have been admitted.",
+            "00:30 - He offers a detailed story about a hungry cat he left in a friend's apartment and a remark about leaving the door open \"like ladies do in old movies.\"",
+            "02:00 - When Kelly refuses his help, he labels her: \"There's such thing as being too proud, you know.\"",
+            "02:30 - Seeing her hesitation, he adds \"I'll just put this stuff down and go. I promise.\""
+          ],
+          "interrogation_transcript": [
+            "Kelly: \"No, I don't want your help.\"",
+            "Stranger: \"There's such thing as being too proud, you know.\"",
+            "Stranger: \"We've got a hungry cat up there.\"",
+            "Stranger: \"I'll just put this stuff down and go. I promise.\"",
+            "Kelly, later: \"There wasn't anything I saw in the man's behavior to explain the alarm I felt.\""
+          ],
+          "correct_diagnosis": "Kelly's intuition sent her a legitimate wary signal assembled from concrete pre-incident indicators: a stranger waiting out of sight, an unexplained destination, a visiting story the household sounds contradicted, and escalating unsolicited detail. She ignored it only because his behavior did not match her image of a rapist's behavior.",
+          "diagnostic_breakdown": "1) The man was waiting out of sight near the entry hall with no doors opening, which means he positioned himself to appear suddenly. 2) He did not offer why he was going to the fourth floor, and Kelly supplied the explanation herself. 3) The absence of the intercom buzz and of Mrs. Kline's conversation shows no guest had been admitted, so his destination story was hollow. 4) The hungry-cat tale and door remarks are the too-many-details pattern, extra support no truthful person feels the need to add. 5) \"There's such thing as being too proud, you know\" is typecasting, an insult designed to provoke her into cooperating. 6) \"I promise\" is an unsolicited promise that mirrors his perception of her doubt. Conclusion: the alarm was in response to something real, consistent with the book's rule that intuition is always in response to something and always has the person's best interest at heart.",
+          "distractors": [
+            "The man was simply a helpful neighbor offering legitimate assistance",
+            "Kelly's alarm reflected an unreasonable fear of all men based on no information",
+            "The signals were too vague and subjective to count as any kind of evidence"
+          ],
+          "key_concepts": [
+            "Kelly's intuition sent her a signal to be wary because of concrete contextual facts: no doors opened before the man appeared, so he must have been waiting out of sight.",
+            "He said he was going to the fourth floor but did not offer why, and Kelly filled in the blanks herself.",
+            "If the Klines had admitted a guest over the intercom, Kelly would have heard the loud buzz of the electric lock, and Mrs. Kline would have been at the top of the stairs already in high-volume conversation.",
+            "\"Just as some things must be seen to be believed, some must be believed to be seen\": Kelly could not consciously recognize what she didn't recognize.",
+            "The stranger's behavior didn't match Kelly's image of a rapist's behavior, so she refused her own signal.",
+            "The capable face-to-face criminal is an expert at keeping his victim from seeing survival signals, but the very methods he uses to conceal them can reveal them.",
+            "The man's use of \"we\" in \"We've got a hungry cat up there\" is forced teaming.",
+            "His cat story and door references are the technique of too many details.",
+            "Also present were typecasting (\"too proud\") and the unsolicited promise (\"I promise\").",
+            "Dark humor is another common messenger of intuition, as when Bob Taylor joked \"I'm going back to my office before the bomb goes off\" just before the Unabomber's package killed his boss."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests intuition as rapid unconscious pattern recognition: Kelly's alarm was in response to real context, including a man waiting out of sight and a visiting story contradicted by what she could hear. De Becker states intuition is always right in two ways, always in response to something and always in the person's best interest, and that the remedy for unheeded signals is learning what risk looks like.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Flight Interview: Billy's Full Repertoire",
+          "visual_frame_description": "A case-file from de Becker's Chicago-to-Los Angeles flight: a seat map shows a man in his forties across the aisle from a teenage girl traveling alone, with a timestamped log of every remark and gesture. The file freezes on a slow smile and the line \"Your eyes are awesome\" before switching to the baggage-claim section, where the girl shakes her head as the man makes an angry gesture.",
+          "player_mission": "Audit the conversation between Billy and the teenage girl and classify every strategy he deployed. Produce the correct diagnosis of his intent and the stakes at issue.",
+          "question": "Was Billy simply a friendly, lonely traveler, or was he conducting an interview against the girl?",
+          "subject_baseline": "Billy is a man in his forties with a muscular build, an old tattoo showing on the top of his wrist, cheap jewelry, new cowboy boots, new denim pants, and a leather jacket; he is drinking alcohol on a morning flight and carries no bag. He has been watching a teenage girl traveling alone from across the aisle. Nothing in his profile is an accusation by itself, but each item is a data point about who he is and the plan he is running.",
+          "observed_nonverbal_log": [
+            "T+0:00 - Removes his headphones with party-like flair and declares \"These things just don't get loud enough for me!\" - an opener framed as a statement that is actually a question.",
+            "T+0:15 - Puts his hand out toward her, \"I'm Billy.\"; she gives her full name and puts out her hand, which he holds a little too long.",
+            "T+1:00 - \"I hate landing in a city and not knowing if anybody is meeting me\"; she volunteers that she doesn't know how she is getting from the airport to the house where she is staying.",
+            "T+2:00 - \"Friends can really let you down sometimes\"; she explains that the people she is staying with, thus not family, expect her on a later flight.",
+            "T+3:00 - \"I love the independence of arriving in a city when nobody knows I'm coming... But you're probably not that independent\"; she volunteers that she has been traveling on her own since she was thirteen.",
+            "T+4:00 - He hands her his Scotch; she declines at first, he persists (\"Come on, you can do whatever you want\"), and she takes a sip.",
+            "T+5:00 - Heading to the bathroom, he leans close, gives a slow smile, and says \"Your eyes are awesome.\"",
+            "T+10:00 - At baggage claim, the girl is shaking her head and saying no, and he is not accepting it; when she holds firm he walks off with an angry gesture, no longer the nice guy he had been."
+          ],
+          "interrogation_transcript": [
+            "Billy: \"These things just don't get loud enough for me!\"",
+            "Billy: \"I'm Billy.\"",
+            "Billy: \"I hate landing in a city and not knowing if anybody is meeting me.\"",
+            "Girl: \"The people I'm staying with are expecting me on a later flight.\"",
+            "Billy: \"But you're probably not that independent.\"",
+            "Billy: \"Come on, you can do whatever you want.\"",
+            "Billy: \"Your eyes are awesome.\""
+          ],
+          "correct_diagnosis": "Billy is a predatory interviewer working a classic repertoire: forced teaming, too many details, loan sharking, charm, typecasting, and discounting the girl's no. The context alone, a forty-year-old stranger and a teenage girl alone, made the encounter high stakes, and he moved from gathering information to testing her compliance with the drink before escalating his supposed offer of a ride from the airport.",
+          "diagnostic_breakdown": "1) Forced teaming: \"I hate landing in a city and not knowing if anybody is meeting me\" projected a shared predicament with the girl. 2) Indirect questions: each statement was designed to elicit personal information without directly asking. 3) Too many details: the headphones and \"a woman I know from Europe\" were stacked irrelevancies. 4) Loan sharking: the Scotch he pressed on her placed her in his debt. 5) Charm: the compliment about her eyes was bait, as was handing her his drink. 6) Typecasting: \"You're probably not that independent\" was the easy-to-refute label. 7) Discounting no: he persisted after the girl first declined the drink. The hostile gesture at baggage claim, and the fact that his prediction of a ride offer was accurate, confirmed the assessment; the nicest guy with no agenda would not have approached her at all.",
+          "distractors": [
+            "Billy was a friendly man made lonely by travel, and the girl was the one steering the conversation",
+            "The girl's disclosures were harmless because he never asked for anything directly",
+            "Since he made no physical move, no survival signal was actually present"
+          ],
+          "key_concepts": [
+            "The predatory criminal's victim selection, which de Becker calls the interview, is similar to a shark's circling potential prey.",
+            "Billy's openers were statements that were actually questions, and the girl responded with exactly the information he hoped for, including her full name.",
+            "He didn't directly ask for any information, but he certainly got lots of it.",
+            "Forced teaming on the flight: \"I hate landing in a city and not knowing if anybody is meeting me.\"",
+            "Too many details on the flight: the headphones and the \"woman I know from Europe.\"",
+            "Loan sharking on the flight: the offer of his Scotch, pressed on her after she declined.",
+            "Charm on the flight: \"Your eyes are awesome,\" delivered with a slow smile as a final piece of bait.",
+            "Typecasting on the flight: \"You're probably not that independent.\"",
+            "He also discounted the girl's no when she declined his drink.",
+            "At baggage claim she shook her head and said no, and he wouldn't accept it; when she held firm, he walked off with an angry gesture.",
+            "Remember: the nicest guy, the one with no self-serving agenda, the one who wants nothing from you, won't approach you at all."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the interview, the predatory victim-selection process in which the criminal gathers information and tests compliance while projecting friendliness. De Becker's flight account demonstrates that a single conversation can carry forced teaming, too many details, loan sharking, charm, typecasting, and discounting of no, and that holding firm on \"no\" ends the interview.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Parking Lot Offer: Loan Sharking at Work",
+          "visual_frame_description": "A case-file shows a dimly lit underground parking garage at night: a woman loads groceries into her trunk while a man approaches from the direction of the elevator and offers his help. A split-screen comparison track shows two other women responding to the same kind of approach, one with tensed shoulders and a shy refusal, the other turning with both hands raised to STOP.",
+          "player_mission": "Audit the offer of help and determine what is really being transacted. Then evaluate which response style marks a woman as a likely interview target and which does not.",
+          "question": "When a stranger's unsolicited offer of help is refused but he continues, what strategy is actually in play?",
+          "subject_baseline": "The subject is an unknown man in an underground parking garage at night. A woman loading groceries into her trunk is his target; other women nearby are loading their own cars. His baseline for the world is unknown, which is exactly why the book says motive, not manners, is the data that matters.",
+          "observed_nonverbal_log": [
+            "T+0:00 - The man approaches a woman who is alone rather than the women loading groceries near a friend.",
+            "T+0:10 - He volunteers assistance she never requested, moving toward the grocery bag without being invited.",
+            "T+0:20 - She refuses with \"No, thanks, I think I've got it\"; he does not stop.",
+            "T+0:30 - He frames the help as a favor she must accept, as if accepting creates an obligation he will collect later.",
+            "T+0:40 - Comparison subject A: shoulders tense slightly, looks intimidated, gives a shy \"No, thanks\" and continues hesitating.",
+            "T+0:45 - Comparison subject B: turns toward him, raises both hands to the STOP position, and says directly, \"I don't want your help.\""
+          ],
+          "interrogation_transcript": [
+            "Stranger: \"Let me get those bags for you.\"",
+            "Woman: \"No, thanks, I think I've got it.\"",
+            "Stranger: \"I insist. You shouldn't be doing this alone.\"",
+            "Woman: \"I don't want your help.\"",
+            "Observer's rule: \"He approached me, and I didn't ask for any help.\""
+          ],
+          "correct_diagnosis": "This is loan sharking: an unsolicited offer of assistance designed to place the woman in his debt, because owing a person something makes it hard to ask him to leave you alone. Because he continues after refusal, he is also conducting the interview, reading which woman will let him be in control; the woman who turns, raises her hands to STOP, and speaks directly is far less likely to be his victim.",
+          "diagnostic_breakdown": "1) The approach was unsolicited, and unsolicited offers in these settings are data about motive, not proof of kindness. 2) The traditional loan shark lends one amount and cruelly collects much more; likewise the predatory criminal generously offers assistance while calculating the debt. 3) The debt is real only if accepted, which is why the continuation after \"No, thanks\" matters: he needs the debt established. 4) In the interview, the woman who looks intimidated and shyly says no offers the man access and control; the woman who directly refuses with STOP hands signals she is not a vulnerable target. 5) The two facts to hold in mind are \"He approached me, and I didn't ask for any help\"; if he turns out to be a kindly stranger, watch for other signals before accepting.",
+          "distractors": [
+            "A man who offers help is entitled to offer it, and refusing would be rude",
+            "Her reluctance could anger him into danger, so politeness is the safer course",
+            "Because she does need the help, she is obligated to accept it once offered"
+          ],
+          "key_concepts": [
+            "Loan sharking: \"He wanted to be allowed to help you because that would place you in his debt, and the fact that you owe a person something makes it hard to ask him to leave you alone.\"",
+            "The more traditional loan shark gladly lends one amount but cruelly collects much more; likewise, the predatory criminal generously offers assistance but is always calculating the debt.",
+            "The defense is to bring two rarely remembered facts into consciousness: he approached me, and I didn't ask for any help.",
+            "If the person turns out to be just a kindly stranger, watch for other signals.",
+            "The stranger who offers to help a woman with her groceries is most often a fairly unsophisticated loan shark looking to pick someone up, and the debt can usually be paid with a little talk.",
+            "There is no spiritually minded movement dedicated to lightening the burden of American women by carrying their groceries; motive is what the predatory criminal's counterfeit charity has in common with his.",
+            "The criminal's process of victim selection, the interview, is similar to a shark's circling potential prey.",
+            "The woman whose shoulders tense slightly, who looks intimidated and shyly says \"No, thanks, I think I've got it,\" may be his victim.",
+            "The woman who turns toward him, raises her hands to the STOP position, and says directly \"I don't want your help\" is less likely to be his victim.",
+            "Any reaction, even anger, from a decent man who had no sinister intent is preferable to continued attention from a violent man who might use your concern about rudeness.",
+            "A woman who needs assistance is safer choosing someone and asking, because the person you choose is nowhere near as likely to bring you hazard as the person who chooses you."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests loan sharking, the transaction in which unsolicited assistance creates an obligation the target must later buy back with compliance. De Becker's evidence is the garage interview scenario, in which the response to the approach, tense and shy versus direct with STOP hands, predicts who becomes the victim.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Discounting No: The Control Signal",
+          "visual_frame_description": "A case-file opens on a parking-garage scene: a man has taken hold of the handle of a woman's grocery bag while she still holds it, and she has already said no twice. Tabs on the file show the sequence of refusals with their exact wording, the bag never changing hands, and a warning banner reading \"No is a complete sentence.\"",
+          "player_mission": "Audit the trajectory of refusals and classify the man's persistence. Choose the verdict and the response that the book prescribes when someone declines to hear no.",
+          "question": "When a person ignores or negotiates away the word \"no,\" what is the actual signal, and how should the target respond?",
+          "subject_baseline": "The subject is a man who approached a woman in an underground parking garage without invitation. In the broader context of the book, the same behavior is a significant survival signal whether it comes from a stranger, a suitor, a friend, a boyfriend, or a husband: his baseline is someone who wants control of the exchange and is not relinquishing it.",
+          "observed_nonverbal_log": [
+            "T+0:00 - He takes hold of the grocery bag handle while she still holds it, an action that overrides her word.",
+            "T+0:05 - She says \"No, thanks, I think I've got it,\" tentatively, without conviction.",
+            "T+0:10 - He keeps possession of the bag and keeps talking as if the refusal had not occurred.",
+            "T+0:15 - She says no again, but this time negotiates: \"I really appreciate your offer, but let me try to do it on my own first.\"",
+            "T+0:20 - He treats her negotiating as an opening and continues; she feels the weight of his persistence."
+          ],
+          "interrogation_transcript": [
+            "Woman: \"No, thanks, I think I've got it.\"",
+            "Man: \"I've got time. Let me help.\"",
+            "Woman: \"I really appreciate your offer, but let me try to do it on my own first.\"",
+            "Man: \"It's no trouble at all, really.\"",
+            "Woman, to herself: \"I said NO!\" (skipping several levels of politeness)"
+          ],
+          "correct_diagnosis": "Discounting the word \"no\": refusal to hear a clear no is a survival signal that the person is either seeking control or refusing to relinquish it. The worst responses are giving ever-weakening refusals and then giving in, or negotiating, which keeps access on the agenda; the prescribed response is to dramatically raise the level of insistence and end the interaction.",
+          "diagnostic_breakdown": "1) Actions are far more eloquent and credible than words, particularly a short and undervalued word like \"no,\" especially when offered tentatively. 2) Because she said no but then agreed, it was not really no anymore: \"no\" is a word that must never be negotiated, since the person who chooses not to hear it is trying to control you. 3) Negotiation is about possibilities, and providing access to someone who makes you apprehensive is not a possibility to keep on the agenda. 4) With a stranger, never relent on the issue of \"no,\" because relenting sets the stage for more efforts to control; relenting is like wearing a sign that reads \"You are in charge.\" 5) The safe response is to raise the insistence dramatically, skipping several levels of politeness, and to get away from the person altogether when possible.",
+          "distractors": [
+            "Persistence simply means he likes her, and assertiveness is a positive trait to accommodate",
+            "A compromise in which she politely negotiates the terms is the graceful way out",
+            "Once she has said no once, no further response from her matters"
+          ],
+          "key_concepts": [
+            "Discounting the word \"no\" may be the most universally significant signal in the book.",
+            "Kelly's rapist ignored no in various forms: first she said no to his help, then she showed him no by not letting go of the bag.",
+            "Actions are far more eloquent and credible than words, particularly a short and under-valued word like \"no,\" particularly when it's offered tentatively or without conviction.",
+            "When Kelly said no but then agreed, it wasn't really no anymore.",
+            "\"No\" is a word that must never be negotiated, because the person who chooses not to hear it is trying to control you.",
+            "With a stranger, refusal to hear no can be an important survival signal, as with a suitor, a friend, a boyfriend, even a husband.",
+            "If you let someone talk you out of the word \"no,\" you might as well wear a sign that reads \"You are in charge.\"",
+            "The worst response when someone fails to accept no is to give ever-weakening refusals and then give in; negotiating is another response that serves the criminal.",
+            "\"No\" is a complete sentence.",
+            "Ask yourself: why is this person seeking to control me, and what does he want? It is best to get away; if that is not practical, dramatically raise your insistence, skipping several levels of politeness: \"I said NO!\""
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the discounting of \"no\" as a control signal: a person who declines to hear the word is either seeking control or refusing to relinquish it. De Becker's prescription is that \"no\" must never be negotiated, ever-weakening refusals serve the manipulator, and the safe response is to skip levels of politeness and raise insistence dramatically.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Predictive Circle: Forecasting the Stalker",
+          "visual_frame_description": "A case-file displays a large statistical circle on screen: a ring labeled \"240 million Americans,\" with calls shrinking inward through eliminations labeled gender, age, and other disqualifiers, toward a small dark center holding the \"few thousand men who kill those they stalk.\" A second panel tracks a former boyfriend's behaviors as data points that move him toward or away from the center.",
+          "player_mission": "Apply the firm's comparison method to a high-stakes prediction about a former boyfriend who will not let go. Sort his behaviors, apply the eliminations, and determine where he sits relative to the center of the circle.",
+          "question": "How does the book's method determine whether a former boyfriend who refuses to let go might act out violently toward the woman he is stalking?",
+          "subject_baseline": "A woman has ended a relationship with her former boyfriend months ago. Early in the relationship his behavior was attentive but unremarkable; the question is whether his present behavior resembles that of the men at the center of the predictive circle rather than that of men in the population as a whole.",
+          "observed_nonverbal_log": [
+            "Month 1 - Calls at odd hours, several times a night, after she has asked him to stop.",
+            "Month 2 - Appears at her workplace uninvited and waits outside until she leaves.",
+            "Month 3 - Follows her car on three separate evenings; she spots the same vehicle in her mirror.",
+            "Month 4 - Leaves letters and gifts at her door, insisting the relationship is not over.",
+            "Month 4 - In an argument, he threatens her, at least once with a gun in his possession.",
+            "Month 5 - Each contact is framed as love and devotion, not as a threat."
+          ],
+          "interrogation_transcript": [
+            "He: \"You'll be sorry you did this. You'll see.\"",
+            "He: \"I can't live without you. You know we're meant to be together.\"",
+            "He: \"I've told you a hundred times — I would never hurt you. I promise.\"",
+            "Analyst's framing: \"We first seek to identify characteristics that separate him from the population as a whole.\""
+          ],
+          "correct_diagnosis": "The prediction method is comparison: imagine a circle containing 240 million Americans with the few thousand men who kill those they stalk at the center; eliminate those who are the wrong gender, too young, too old, or otherwise disqualified, then determine whether the former boyfriend's behavior is most similar to those at the center. His refusal to accept the end, stalking behaviors, threats, and the gun incident move him far closer to the center, so the prediction is one of heightened concern requiring preparation.",
+          "diagnostic_breakdown": "1) The circle: 240 million Americans, with the few thousand men who kill those they stalk at the center; we work inward by eliminating those who are the wrong gender, too young, too old, or otherwise disqualified. 2) The comparison question is whether his behavior is most similar to those at the center of the circle. 3) Following her car, appearing at her workplace, and refusing to accept the end of the relationship are behaviors that move a man toward the center, exactly as in the park example where approaches, special interest, following, and furtiveness move a man inward while bicycles, dogs, and sleeping men stay outward. 4) A threat and a gun the size of the one he displayed are strong pre-incident indicators that he can use violence. 5) A prediction about safety is not merely statistical: demographics gate the circle, but behavior and the context of behavior, read by the woman's intuition, place the man. The unsolicited \"I promise\" in his messages is itself a signal that he perceives her doubt and is trying to override it.",
+          "distractors": [
+            "Because most men do not kill, this former boyfriend can safely be assumed nonviolent",
+            "Since he never said the words \"I will kill you,\" there is no reason for concern",
+            "Demographic sorting alone, gender and age, completes the prediction without looking at behavior"
+          ],
+          "key_concepts": [
+            "In high-stakes predictions, the approach is comparison: we first seek to identify characteristics that separate a man from the population as a whole.",
+            "Imagine a circle containing 240 million Americans, with at the center the few thousand men who kill those they stalk.",
+            "Working from the outer ring, we eliminate all those who are the wrong gender, too young, too old, or otherwise disqualified, then seek to determine whether his behavior is most similar to those at the center.",
+            "A prediction about safety is not merely statistical or demographic: the woman's intuition will focus on the behavior of the few men who could matter and on the context of that behavior.",
+            "In the park example, of 200 people, concern attaches to about 15 men alone, and only those who do certain things move closer to the center.",
+            "Men who look at her, show special interest, follow her, appear furtive, or approach her sit far closer to the center than those who walk by without interest, play with a dog, ride a bicycle, or sleep on the grass.",
+            "Some aspects of victim selection, such as being the right appearance or type, are outside the victim's influence, but accessibility, setting, and circumstance are determinable and controllable.",
+            "You can control your response to the tests the interviewer applies, and most of all you can honor your intuition.",
+            "Violence, like any behavior, does not occur without pre-incident indicators, and an unsolicited \"I promise\" is itself a signal that the speaker perceives doubt and needs to convince."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the comparison method of high-stakes prediction: judge a man's behavior against the population, then against the few thousand men at the center of the circle who kill those they stalk. De Becker's model treats demographics as the outer gate and behavior in context as the deciding factor, with stalking, threats, and a gun moving the subject toward the center.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Interview in the Underground Lot: Choose the Safe Response",
+          "visual_frame_description": "A two-stage battle screen. Stage one shows a dim underground parking garage at 9:40 pm: Nora is alone loading groceries into her trunk, and a man is walking slowly from the elevator, watching her. He approaches without invitation and reaches for the bag in her hands before she has agreed to anything. Stage two splits the screen: Nora's face in close-up, her hands, the man's unrelenting smile.",
+          "player_mission": "Defeat the interview: recognize that an unsolicited approach is a test of your responses, then choose the intervention that makes you the least likely victim and denies the interviewer the information and access he is reading you for.",
+          "boss_battle_explanation": "The interview is the predatory criminal's victim-selection process, similar to a shark circling potential prey: your response to his approach tells him whether you will allow him to be in control. The battle is won by reading signals and responding like the woman who is not a candidate victim: direct, explicit, and unwilling to negotiate access.",
+          "stage_1_observation": "Nora, alone in an underground parking garage at night, is loading groceries into her trunk. A man she has never seen walks over from the elevator without being called, greets her warmly, and says he will help her with the bags, moving to take the bag from her hands while she still holds it. Not far away, another woman who noticed him has tensed her shoulders and dropped her eyes, hesitating over her own car door.",
+          "stage_1_question": "What is actually happening in this garage right now?",
+          "stage_1_correct_answer": "The man is conducting an interview: he approached unsolicited, and reaching for the bag while she still holds it is a test of whether her no will hold. His warm framing is the loan-sharking pattern, an offer of assistance that becomes a debt, and his persistence through her hesitation reads her vulnerability. The woman who tenses her shoulders and shyly says yes will be the target; the context, an unpopulated garage at night with a stranger, is precisely the vulnerable situation the book flags as always inappropriate for forced teaming.",
+          "stage_2_intervention": "The man has now asked twice and his hand is still on the bag; Nora can feel the weight of her own politeness. She must decide her response: whether to be warm and apologetic, to negotiate a compromise, or to end the exchange sharply. Her choice determines whether the interview continues.",
+          "stage_2_correct_answer": "Nora turns fully toward him, raises both hands to the STOP position, and says directly, \"I don't want your help,\" skipping several levels of politeness; if he continues, she repeats it louder: \"I said NO!\" She does not negotiate, because negotiations keep access on the agenda, and she does not relent, because relenting sets the stage for more control. She then moves toward another person and asks for help, choosing her own helper, since the person you choose is nowhere near as likely to bring you hazard as the person who chooses you.",
+          "key_concepts": [
+            "The interview is the criminal's victim selection, similar to a shark's circling potential prey; he reads the woman's response as she reads his signals.",
+            "The woman whose shoulders tense slightly, who looks intimidated and shyly says \"No, thanks, I think I've got it,\" may be his victim.",
+            "The woman who turns toward him, raises her hands to the STOP position, and says directly \"I don't want your help\" is less likely to be his victim.",
+            "An unsolicited offer of assistance is loan sharking when it is designed to place the target in debt, making it hard to ask him to leave her alone.",
+            "The two facts to hold in mind: he approached me, and I didn't ask for any help.",
+            "\"No\" is a complete sentence, and the safe response when it is not heard is to dramatically raise your insistence, skipping several levels of politeness.",
+            "Never, ever relent on the issue of \"no\" with strangers, because letting someone talk you out of it is like wearing a sign that reads \"You are in charge.\"",
+            "Any reaction, even anger, from a decent man with no sinister intent is preferable to continued attention from a violent man who uses your concern about rudeness.",
+            "A woman who needs assistance is better off choosing someone and asking, as the person you choose is nowhere near as likely to bring hazard as the person who chooses you.",
+            "It is impossible for a woman's refusal to transform an ordinary decent man into a rapist or killer; it is possible to transform yourself into a person who responds to the signals and is thus a less likely victim."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the interview, the predatory selection process in which the criminal's approach doubles as a probe of the target's readiness to yield control. De Becker's evidence is the garage scenario: the woman who responds with STOP hands and a direct \"I don't want your help\" moves out of the victim profile, while the woman who hesitates and apologizes stays in it.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Patch of Blue Denim: Acting on Fear",
+          "visual_frame_description": "A two-stage battle screen. Stage one freezes on the interior of a parked sports car seen from the passenger seat: a three-inch section of blue denim visible in the side-view mirror on the opposite side of the car, the engine running, a friend visible at an ATM across the lot. Stage two shows the car being driven away at night, with the passenger's whispered inner mantra \"calm, calm, calm\" pulsing at the edge of the frame.",
+          "player_mission": "Defeat the danger by honoring the highest-order messenger of intuition: feel the fear, refuse to explain it away, and act on it immediately. Then, inside the emergency, choose the survival strategy that got Nancy through five hours.",
+          "boss_battle_explanation": "The battle's central concept is the fear signal and the pre-incident indicator: a tiny detail, meaningful only in context, that intuition decodes before conscious logic can name it. Fear is the intuitive signal of the highest order and should always be listened to, because it is always in response to something and always has your best interest at heart.",
+          "stage_1_observation": "Nancy sits in the passenger seat of a parked sports car, engine running, while her friend is at an ATM withdrawing money. In the side-view mirror on the opposite side of the car she catches a tiny image: a three-inch section of denim. Suddenly, without knowing why, she feels great fear. The scene freezes on the mirror view and her racing question: danger, but where from?",
+          "stage_1_question": "What does the three-inch patch of blue denim mean, and what should Nancy do with the fear she cannot explain?",
+          "stage_1_correct_answer": "The patch of blue denim means a man in blue jeans is too close to the car and moving too fast, and that he may imminently get into the car with sinister intent. The feeling is fear, the highest-order intuitive messenger, and it must be listened to immediately: Nancy did not wait for an answer to where the danger was, because fear is far more persuasive than logic, and by the time she scrambled for the locks it was too late.",
+          "stage_2_intervention": "The man has opened the driver's door, shown the gun, and is driving the car away with Nancy inside, heading toward a remote warehouse miles from the city. Nancy must now choose how to survive the hours ahead: to freeze and hope, to plead, or to engage the dangerous stranger in constant conversation.",
+          "stage_2_correct_answer": "Nancy engages the dangerous stranger in constant conversation: inside her head she repeats \"calm, calm, calm,\" and outside she acts as if she were speaking with a close friend, because she feels he will not shoot a person he has come to know. She was right. The deeper rule is to listen to your own intuition rather than the TV news checklist, because when you are in the hazardous situation you will have all the information.",
+          "key_concepts": [
+            "Nancy's survival signal was a tiny image in the side-view mirror on the opposite side of the car: a glimpse of a three-inch section of denim.",
+            "That patch of blue was her accurately interpreted signal that a man in blue jeans was too close to the car and moving too fast, meaning he might imminently get in with sinister intent.",
+            "The signal was meaningful only in context, which she had no time to figure out but which her intuition had already figured out.",
+            "Fear is the intuitive signal of the highest order and should always be listened to.",
+            "If one had tried to convince Nancy to lock the car on the basis of just the fleeting blue image, she might have argued, but fear is far more persuasive than logic.",
+            "To her credit, Nancy didn't wait for an answer to the question of where the danger was; her breathing stopped and her arms started.",
+            "She survived her five-hour ordeal by following another intuition: she engaged the dangerous stranger in constant conversation.",
+            "Inside her head she heard the repeated word \"calm, calm, calm\"; outside, she acted as if she were speaking with a close friend.",
+            "Nancy felt her kidnapper wouldn't shoot a person he had come to know, and she was right.",
+            "The messengers of intuition, ranked by urgency, include fear, apprehension, suspicion, hesitation, doubt, gut feelings, hunches, and curiosity, plus nagging feelings, persistent thoughts, physical sensations, wonder, and anxiety.",
+            "Intuition is always right in two important ways: it is always in response to something, and it always has your best interest at heart.",
+            "Cookie-cutter responses are dangerous; listen to your intuition, because you will have all the information in the hazardous situation."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the fear signal as the highest-order messenger of intuition, triggered by a pre-incident indicator too small for conscious logic to name: a three-inch patch of denim in a mirror. De Becker's evidence is that fear, which is more persuasive than logic, drove Nancy to act instantly, and that once in danger, engaging a captor in humanized conversation was the intuition that served her best.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        }
+      ]
+    }
+  ]
+}

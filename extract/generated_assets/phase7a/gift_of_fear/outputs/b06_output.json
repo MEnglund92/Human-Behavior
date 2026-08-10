@@ -1,0 +1,333 @@
+{
+  "spec_file": "spec_gift_of_fear_b06.json",
+  "chapters": [
+    {
+      "id": "ch06",
+      "title": "Chapter 5: Imperfect Strangers",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Rule of Opposites: Reading a Home-Delivery Worker",
+          "visual_frame_description": "A split-screen inspection console shows a furniture delivery crew working in Lena's living room. The lead man, Kyle, carries a sofa inside while Lena watches from the hallway; a live feed scrolls beneath a checklist of the chapter's nine favorable/unfavorable behavior pairs. Small amber flags appear at tagged moments in the feed where Kyle pauses, speaks, or moves through the apartment. The player scrubs the timeline and inspects each flagged moment before locking in a verdict.",
+          "player_mission": "Scrub the delivery-visit feed and identify the single observation that, under the rule of opposites, is the unfavorable, danger-relevant cue. Compare it against three favorable signals and confirm your verdict before the delivery team drives off.",
+          "question": "Which single observation in the feed is the unfavorable cue per the rule of opposites?",
+          "correct_cue": "Kyle asks Lena, \"So, will anyone else be home later today?\" — deliberately fishing for information about whether others are expected at the house. The chapter's unfavorable column is \"Wants to know if others are expected,\" the direct opposite of the favorable worker who doesn't care if others are expected. Under the rule of opposites, this occupancy question advances a prediction of interest that goes beyond the delivery job, because a careful worker doing his job and no more has no need to know who will be home later.",
+          "distractors": [
+            "He keeps his comments to the job at hand and talks only about the furniture",
+            "He pauses at the front door and waits for Lena to show him where the boxes go",
+            "He works quickly, checks the time, and finishes well inside the delivery window"
+          ],
+          "underlying_psychology": "The rule of opposites converts our deep familiarity with favorable behavior into a prediction tool: list the behaviors you recognize as safe (does his job and no more, respectful of privacy, waits to be escorted, mindful of the time), then simply note their opposites, and you will be predicting dangerousness. Since all of Kyle's other observed behaviors fall in the favorable column, the single flipped channel — wanting to know if others are expected — is the cue that carries the predictive weight, and the chapter says all types of behavioral predictions can be improved by applying this rule.",
+          "key_concepts": [
+            "The rule of opposites: list the favorable behaviors you know and simply note their opposites, and you will be predicting dangerousness.",
+            "A favorable service worker does his job and no more; his unfavorable opposite offers to help on unrelated tasks.",
+            "A favorable worker is respectful of privacy; the unfavorable one is curious and asks many questions.",
+            "A favorable worker stands at an appropriate distance; the unfavorable one stands too close.",
+            "A favorable worker waits to be escorted; the unfavorable one walks around the house freely.",
+            "A favorable worker keeps his comments to the job at hand; the unfavorable one tries to get into discussions on other topics and makes personal comments.",
+            "A favorable worker is mindful of the time and works quickly; the unfavorable one shows no concern about time and is in no hurry to leave.",
+            "A favorable worker doesn't care if others are home or expected; the unfavorable one wants to know if others are home or expected.",
+            "A favorable worker doesn't pay undue attention to you; the unfavorable one stares at you.",
+            "All types of behavioral predictions, not just those about danger, can be improved by applying the rule of opposites."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This station tests the rule of opposites: because people are far more familiar with favorable behaviors, listing them and noting their opposites yields a prediction of dangerousness. De Becker presents the nine favorable/unfavorable pairs as a powerful predictive tool for in-home strangers and notes the rule improves all behavioral predictions, not just those about danger.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "target_channel": "Behavioral channel: Which single observation in the feed is the unfavorable cue per the rule of opposites"
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Asking the Direct Question at the Babysitter Interview",
+          "visual_frame_description": "A coffee shop on Main Street in early afternoon. Priya, a mother, sits across from applicant Elena with a childcare questionnaire between them. A conversation-analysis overlay tracks pause lengths, chosen words, and eye contact in real time, rendering Elena's replies as highlighted waveform bars. A small caption strip reads: \"The question: have you ever mistreated a child?\" The player watches the exchange twice, once unfiltered and once with a focus filter on answering behavior.",
+          "player_mission": "Decide whether the way Elena answers the direct abuse question is the cue that reveals her or the cue that conceals her. Review the answering pattern and select the single response style the chapter says should make you less comfortable with the applicant.",
+          "question": "Which answering pattern is the cue that the book says should make you less comfortable with the applicant?",
+          "correct_cue": "Elena replies, \"Define abuse,\" then follows with \"What have you heard?\" — a redefinition and a counter-question instead of a direct answer. The chapter states it is entirely fair and appropriate to ask someone to whom you will entrust your child to discuss the very issues you care about most, and that how the question is answered will make you more comfortable or less comfortable with that applicant; responses like \"Define abuse\" or \"What have you heard?\" are cited as the way bad applicants may reveal themselves.",
+          "distractors": [
+            "Elena answers \"No, never,\" immediately and matter-of-factly, without hedging",
+            "Elena strokes the family cat at her feet and talks warmly about her love of animals",
+            "Elena nods, smiles, and says \"Of course not\" while holding steady eye contact"
+          ],
+          "underlying_psychology": "People avoid asking the direct question because it feels rude or because they assume a guilty person would simply lie — but the book says to ask it anyway, because the manner of the answer is itself diagnostic. Applicants with nothing to conceal answer directly and matter-of-factly, which makes you more comfortable; evasion, redefinition of terms, and counter-questions let bad applicants reveal themselves, which is how a single direct question outperforms references and small talk.",
+          "key_concepts": [
+            "The question people really want answered by a prospective babysitter — have you ever mistreated a child — is almost never asked.",
+            "Asking such a direct question feels rude or ridiculous to many people, but it is fair and appropriate when you entrust someone with your child.",
+            "Ask the direct question anyway; how it is answered will make you more comfortable or less comfortable with the applicant.",
+            "Bad applicants may reveal themselves in their answer, for example with \"Define abuse\" or \"What have you heard?\"",
+            "Parents rarely bring even a tenth of the available resources to high-stakes predictions; most do not even call all of the applicant's references.",
+            "People spend more time qualifying a candidate than disqualifying a candidate.",
+            "In hiring someone to care for a child, it is better to look for the storm clouds than to look for the silver lining.",
+            "Seeing a candidate stroke the family cat and thinking \"she likes animals, that's a good sign\" is a silver-lining error.",
+            "Drug use can be tested with great reliability through drug screens, yet almost no parent requires one of a babysitter candidate.",
+            "We like to rely on predictions made by others, such as a friend's endorsement of a recommended babysitter."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This station tests the diagnostic power of direct questions: people avoid asking the question that matters most, yet the chapter insists the way it is answered makes you more comfortable or less comfortable with the applicant. De Becker claims bad applicants reveal themselves in evasive responses like \"Define abuse,\" turning a question most consider rude into a screening tool.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "target_channel": "Behavioral channel: Which answering pattern is the cue that the book says should make you less comfortable with the applicant"
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Seeing a Situation Your Way and His Way",
+          "visual_frame_description": "A decision lab at 6 p.m.: Marcus, an HR director, studies the personnel file of Victor, the employee he must terminate tomorrow. Two thought-bubbles float over Marcus's head — one labeled \"My view,\" one labeled \"His view\" — and fragments of Victor's history (a grievance letter, a disciplinary notice, a rumor of a pending lawsuit) drift between them. The player toggles each fragment into one bubble to build a working model of how Victor will see the firing.",
+          "player_mission": "Choose the evaluator stance that gives Marcus the strongest predictive leverage over Victor's post-firing behavior, and reject the stances the chapter identifies as classic prediction errors. Route each file fragment to the correct thought-bubble before locking the assessment.",
+          "question": "Which stance is the correct predictive cue in this termination?",
+          "correct_cue": "Marcus rehearses the firing from Victor's viewpoint, reciting how Victor will see it — as completely unfair, part of a vendetta, or motivated by discrimination or greed — just as Victor himself would narrate it. The chapter says that if you worked closely with a person, you could recite his perception of events much as he would, and that seeing a situation your way and his way is required for successful prediction, because many errors come from the belief that others perceive things as we do.",
+          "distractors": [
+            "Marcus judges Victor's trustworthiness by his firm handshake, pressed suit, and reassuring smile",
+            "Marcus recalls his own termination years ago and expects Victor to process the news identically",
+            "Marcus notices Victor's emotionally shallow manner and assumes the firing simply will not touch him"
+          ],
+          "underlying_psychology": "The default assumption that others perceive events as we do is the source of most prediction errors, and the psychopath — glib, deceitful, emotionally shallow — will not share the evaluator's frame. Perspective-taking, seeing a situation your way and his way, is an acquired skill the reader already possesses; it turns a firing into a play whose next act can be anticipated because behavior is consistent with each person's perception of the situation, and each step is preceded by the step before it.",
+          "key_concepts": [
+            "Many errors in predicting behavior come from the belief that others will perceive things as we do.",
+            "To successfully predict a person's behavior, you must see a situation your way and his way.",
+            "Seeing a situation from another person's perspective is an acquired skill, but you have already acquired it.",
+            "If you worked closely with a person being fired, you could recite his perception of events much as he would — fair, completely unfair, a vendetta, discrimination, or greed.",
+            "Some people operate without listening to their consciences; in the corporate boardroom we call this negligence, on the street we call it criminality.",
+            "The ability to act in spite of conscience or empathy is one characteristic associated with psychopaths.",
+            "Robert Hare's Without Conscience identifies psychopathy features: glib and superficial, egocentric and grandiose, lacking remorse or guilt, deceitful and manipulative, impulsive, in need of excitement, lacking responsibility, and emotionally shallow.",
+            "Predicting human behavior is like recognizing the play from just a few lines of dialogue: trust that a character's behavior will be consistent with his perception of the situation.",
+            "Human action cannot land before impulse, and impulse cannot land before that which triggers it; each step is preceded by the step before it.",
+            "The chapter envisions a future chemical test replacing predictions made by judging appearance, clothing, smile, or assurances."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This station tests perspective-taking as the engine of prediction: many errors come from the belief that others perceive things as we do, and the psychopath definitively will not. De Becker argues that rehearsing the other person's perception of a situation — his way and your way — is an acquired skill that turns behavior into a predictable play.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "target_channel": "Behavioral channel: Which stance is the correct predictive cue in this termination"
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Endorsed Sitter: When a Recommendation Overrides Uncertainty",
+          "visual_frame_description": "A digital audit folder opens over a café scene at 10 a.m.: Lena, a mother, interviews Claire, a 21-year-old applicant who was warmly recommended by mutual friend Kevin. Time-stamped chips of body language and answer patterns float beside the video, each tagged as observed or unflagged. The player reads the file like a case review and rules on where the deception actually lives: in Claire, or in the endorsement.",
+          "player_mission": "Audit the interviews and rule on whether Lena should let Kevin's endorsement of Claire override her own uncertainty. Review the baseline, the nonverbal log, and the transcript, then deliver a verdict with the evidence mapped to the chapter's claims.",
+          "question": "Should Lena trust Kevin's endorsement of Claire enough to override her own uncertainty during the interview?",
+          "subject_baseline": "Claire, 21, is described by mutual friend Kevin as bright and honorable. In ordinary conversation at the café she is relaxed, makes steady eye contact, and answers with detail — she recounts her last nannying job, the family's dog, and her current college schedule without hesitation. Kevin's own manner is confident, so Lena enters the meeting pre-disposed to see Claire through his eyes.",
+          "observed_nonverbal_log": [
+            "10:04 — Kevin introduces Claire and leaves; Claire smiles broadly, sits, and immediately compliments the café.",
+            "10:09 — Asked about childcare experience, Claire speaks at length about being \"great with kids\" but names no families, dates, or references.",
+            "10:14 — Asked the direct question about mistreatment of children, Claire's smile falters; she looks down at her coffee and shifts in her seat.",
+            "10:15 — Claire responds \"What have you heard?\" then laughs, drains her cup, and checks her phone twice in under a minute.",
+            "10:18 — Claire returns to Kevin: \"Kevin and I just clicked instantly. He's like an older brother.\""
+          ],
+          "interrogation_transcript": [
+            "Lena: \"Claire, have you ever abused a child in your care? I need to ask that directly.\"",
+            "Claire: [stirring her coffee] \"Define abuse. I mean... what have you heard?\"",
+            "Lena: \"I'm asking how you would answer.\"",
+            "Claire: \"I would never hurt a child. But honestly, everyone has different ideas about discipline, you know?\"",
+            "Lena: \"What happened at your last job, the one that ended after six weeks?\"",
+            "Claire: \"Oh, they were just overprotective parents. But Kevin knows me, right?\""
+          ],
+          "correct_diagnosis": "Claire is evading the direct question and recruiting Kevin's endorsement as cover: she deflects with \"Define abuse\" and \"What have you heard?\", volunteers no verifiable specifics, and leans on the friend's halo at the decisive moment. The prediction error the file exposes is Lena's own — the book warns we attach the endorser's attributes to the person he recommends and stop listening to our own uncertainty, the tug that says \"you never really know about people.\"",
+          "diagnostic_breakdown": "1) The chapter's central hiring lesson is to ask the direct question anyway, and the answer will make you more comfortable or less comfortable — Claire's redefinition and counter-question are the exact revealing patterns cited. 2) Claire's history is qualification without substance (\"great with kids\" with no families or dates), the silver-lining search the chapter warns against; Lena is qualifying her, not disqualifying her. 3) Her pivot to \"Kevin knows me\" reveals that the recommendation, not her record, is her reassurance — the attribute-transfer error in which we attach Kevin's brightness and honor to the person he recommended and don't listen to our own uncertainty. 4) Lena's intuition logged the faltering smile and phone-checking but was overruled by the halo; the chapter holds that intuition knows more about the situation than we are consciously aware of.",
+          "distractors": [
+            "Claire is genuinely trustworthy; Kevin's endorsement settles the question",
+            "Claire is simply nervous because she wants the job badly",
+            "The direct question was rude, and her discomfort was normal embarrassment"
+          ],
+          "key_concepts": [
+            "We like to rely on predictions made by others, such as a friend's recommendation of a babysitter.",
+            "We often attach the friend's attributes to the person he recommended and don't listen to our own uncertainty.",
+            "Parents drive away thinking \"you never really know about people\" after leaving a child with someone met just a half hour before.",
+            "Ask the direct question anyway; how it is answered will make you more comfortable or less comfortable with the applicant.",
+            "Bad applicants may reveal themselves in responses like \"Define abuse\" or \"What have you heard?\"",
+            "We rarely bring even a tenth of the available resources to high-stakes predictions.",
+            "When hiring a caregiver it is better to look for the storm clouds than to look for the silver lining.",
+            "Intuition knows more about the situation than we are consciously aware of.",
+            "A woman's comfort with a stranger communicates that she has already predicted he is not dangerous to her.",
+            "Prediction must be followed by preparation; prediction without preparation is just curiosity."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This file audits attribute transfer in high-stakes hiring: people attach a trusted friend's attributes to the person that friend recommends and silence their own uncertainty. De Becker points to the resulting \"tug\" as the signal parents ignore, and to the direct question as the tool that brings concealed information back into view.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Helpful Technician: An Unfavorable Pattern on Every Channel",
+          "visual_frame_description": "An audit folder opens over a time-stamped apartment feed: Jenna's modem installation with technician Dave, 14:00 to 14:20. A side panel holds the chapter's two-column table of favorable and unfavorable behaviors, with matching rows lighting up as the log advances. The player compares each observed moment to the table and rules on the overall pattern in Dave's conduct.",
+          "player_mission": "Audit technician Dave's conduct during the modem installation and rule on whether his behavior pattern is favorable or unfavorable per the rule of opposites. Map each logged observation to the chapter's table, then deliver the verdict.",
+          "question": "Is Dave's conduct during the modem installation a favorable or an unfavorable pattern per the rule of opposites?",
+          "subject_baseline": "Jenna's usual experience with service calls: technicians arrive with a work order, greet her at the door, complete the task within their quoted window, and leave without lingering. Dave arrives on time, pleasant and chatty, carrying his tool bag, and Jenna's first impression is ordinary professionalism.",
+          "observed_nonverbal_log": [
+            "14:02 — Dave enters and stands a half-meter inside the doorway, within arm's reach, while Jenna points toward the router.",
+            "14:05 — Instead of staying with the router, Dave walks the length of the hallway and peers into the kitchen and the back bedrooms; he compliments the house twice.",
+            "14:09 — Dave asks whether Jenna lives alone and whether her partner will be home later; he laughs when she mentions her sister visits on weekends.",
+            "14:12 — The job is complete, but Dave lingers by the kitchen island, asks what time Jenna finishes work, and offers to come back and check the wiring again, no charge.",
+            "14:15 — Dave stands too close while handing over the work order and holds eye contact long past a normal pause."
+          ],
+          "interrogation_transcript": [
+            "Jenna: \"Thanks, that's everything I need.\"",
+            "Dave: \"No rush. My next appointment got canceled, so I could hang around if you want me to look at the other outlets.\"",
+            "Jenna: \"That won't be necessary.\"",
+            "Dave: \"Sure thing. So, do you work from home most days, or...?\""
+          ],
+          "correct_diagnosis": "Dave's conduct is unfavorable on nearly every channel of the rule of opposites: he stands too close, walks around the house freely instead of waiting to be escorted, tries to move the discussion onto personal topics, shows no concern about time or leaving, wants to know if others are home, and pays undue attention to Jenna. Under the rule of opposites, the pattern predicts interest in Jenna and her household that goes beyond the repair job, and the chapter's method would flag the walk-through of the house alone as the decisive unfavorable cue.",
+          "diagnostic_breakdown": "1) \"Stands at an appropriate distance\" vs. \"stands too close\": Dave remains inside arm's reach. 2) \"Waits to be escorted\" vs. \"walks around the house freely\": Dave tours the hallway and bedrooms uninvited. 3) \"Keeps his comments to the job at hand\" vs. \"tries to get into discussions on other topics; makes personal comments\": Dave pivots to her schedule and family and invents a canceled appointment to extend the visit. 4) \"Doesn't care if others are home or expected\" vs. \"wants to know if others are home or expected\": Dave directly asks whether she lives alone. 5) \"Doesn't pay undue attention to you\" vs. \"stares at you\": Dave holds prolonged eye contact. The chapter says all types of behavioral predictions, not just those about danger, can be improved by applying the rule of opposites, and that a woman's comfort with a stranger in her home communicates an already-completed prediction by her intuition.",
+          "distractors": [
+            "Dave is a sociable extrovert whose helpfulness is harmless friendliness",
+            "Dave is hoping for a promotion and goes above and beyond for customers",
+            "Dave's questions are standard service-industry small talk",
+            "Dave is politely giving Jenna extra time because the company bills by the hour"
+          ],
+          "key_concepts": [
+            "The rule of opposites converts familiarity with favorable behavior into a prediction of dangerousness.",
+            "\"Stands at an appropriate distance\" is favorable; \"stands too close\" is its opposite.",
+            "\"Waits to be escorted\" is favorable; \"walks around the house freely\" is its opposite.",
+            "\"Keeps his comments to the job at hand\" is favorable; trying to get into discussions on other topics and making personal comments is its opposite.",
+            "\"Mindful of the time; works quickly\" is favorable; no concern about time and no hurry to leave is its opposite.",
+            "\"Doesn't care if others are home\" is favorable; \"wants to know if others are home\" is its opposite.",
+            "\"Doesn't pay undue attention to you\" is favorable; \"stares at you\" is its opposite.",
+            "All types of behavioral predictions, not just those about danger, can be improved by applying the rule of opposites.",
+            "A woman's comfort with a stranger in her home communicates that she has already predicted he is not dangerous to her; her intuition evaluated favorable and unfavorable aspects of his behavior.",
+            "People have more in common than in contrast, but some have vastly different standards of behavior and ways of perceiving the same events."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This file tests channel-by-channel application of the rule of opposites: each observed behavior is sorted into the favorable or unfavorable column until a coherent profile emerges. De Becker holds the table to be a powerful predictive tool precisely because we are more familiar with favorable behaviors, making the unfavorable column the informative one.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Fired Employee: Words That Forecast Acts",
+          "visual_frame_description": "An audit folder opens over a warehouse security reel: Derek, a supervisor's subordinate fired the day he returned from leave, refusing to vacate the building at 9 a.m. Later frames show a smashed windshield the next morning and a dead snake in a home mailbox two days after. The player reviews the transcript of the final conversation and rules on whether Derek's threat is a genuine forecast or a bluff.",
+          "player_mission": "Audit the fired-employee case and rule on whether Derek's threatening statements are a real forecast of escalation toward his supervisor. Review the baseline, the logged sequence, and the transcript, then deliver the verdict by framing the choice between contrasting options.",
+          "question": "Is the discharged employee's threatening statement a real forecast of violence toward his supervisor?",
+          "subject_baseline": "Ray, a warehouse supervisor for 11 years, describes his fired subordinate Derek as ordinarily grumbly but professional: Derek groused about management, nursed grievances for years, and once recounted with evident satisfaction a scheme to get even with a neighbor whose fence overhung his property. Ray had noted the story at the time as odd but had dismissed it.",
+          "observed_nonverbal_log": [
+            "09:00 — Derek returns from a leave of absence to find his termination papers; he refuses to vacate the building and blocks his office doorway.",
+            "09:12 — Told to leave, Derek's posture stiffens; he leans into the supervisor's face, arms crossed, and lowers his voice to a near-whisper.",
+            "09:14 — Derek recites the supervisor's home address from memory, slowly, watching for a reaction.",
+            "09:15 — He states he will visit with \"my buddies, Smith and Wesson\"; he smiles after the line.",
+            "09:18 — Security escorts him out; Derek does not resist but holds eye contact through the window until the van doors close.",
+            "06:30 NEXT DAY — The supervisor finds his car windshield smashed in the parking lot.",
+            "TWO DAYS LATER — A dead snake appears in the supervisor's home mailbox."
+          ],
+          "interrogation_transcript": [
+            "Supervisor: \"Derek, this has been decided. You need to leave the building now.\"",
+            "Derek: \"This isn't over. You haven't heard the last of me.\"",
+            "Supervisor: \"What's that supposed to mean?\"",
+            "Derek: \"I know where you live, Ray — 417 Maplewood. I'll be visiting you with my buddies, Smith and Wesson. Think about that.\"",
+            "Supervisor: [to security] \"Get him out of here.\""
+          ],
+          "correct_diagnosis": "Derek's behavior is consistent with his perception of the situation and with his stated intent: he refuses to vacate, recites the supervisor's home address from memory, and names his weapons before carrying out escalating acts of vandalism — a smashed windshield the next morning and a dead snake in the home mailbox days later. The prediction is not a gamble: frame the choice between contrasting options — a check for repair or medical school on one side, the fired man on the other — and you will rarely fail to place a person in the most likely category.",
+          "diagnostic_breakdown": "1) The book's own case file: a fired employee who says \"You haven't heard the last of me,\" recites the supervisor's home address, and promises a visit with \"my buddies, Smith and Wesson\" — followed by the smashed windshield and the dead snake, a sequence the text presents as an obvious, decodable forecast. 2) Predicting human behavior is recognizing the play from just a few lines of dialogue: Derek's lines forecast his acts. 3) The chain of events rule — human action cannot land before impulse, and impulse cannot land before that which triggers it — means the windshield and snake are links in a chain that began with the grievance, the leave, and the termination. 4) Framing the choice between contrasting options makes the category obvious: the absurd alternatives (a check for repair, enrollment in medical school, a neighborhood prankster, the Snake Protective League) clear the path to the correct answer. 5) Intuition remembered Derek's disconcerting story about getting even with a neighbor, a sinister statement the supervisor had once dismissed.",
+          "distractors": [
+            "Derek is venting; men who threaten rarely act on their words",
+            "The vandalism is likely the work of a neighborhood prankster",
+            "Derek's anger will fade once he finds a new job, ending the sequence",
+            "The threat names no concrete date, so it is probably an idle boast"
+          ],
+          "key_concepts": [
+            "You will rarely fail to place people in the most likely category when you frame the choice between contrasting options.",
+            "A fired employee who says \"You haven't heard the last of me\" and recites the supervisor's home address is forecasting escalation.",
+            "Reciting \"I'll be visiting you with my buddies, Smith and Wesson\" names the weapons as well as the target.",
+            "Human action cannot land before impulse, and impulse cannot land before that which triggers it; each step is preceded by the step before it.",
+            "Predicting human behavior is about trusting that a character's behavior will be consistent with his perception of the situation.",
+            "When assessing a fired employee, intuition remembers how long he held resentments in the past and the sinister statements he made.",
+            "Intuition recalls the fired man's disconcerting story about getting even with a neighbor.",
+            "The reason for creating three options is that it frees you from the need to be correct; freedom from judgment clears a path to intuition.",
+            "What you may think you are making up when you frame options, you are actually calling up — discovery, not design.",
+            "We recognize all things by the existence of their opposite, adding safety from hazard to Richard Saul Wurman's examples in Information Anxiety."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This file tests reading stated intent as a forecast: behavior is consistent with each person's perception of the situation, and each act is a link in a chain that begins long before the gun is touched. De Becker argues that framing the choice between contrasting options frees the evaluator from the need to be correct, which clears a path to intuition and to the correct category.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Lingering Repairman: The Rule of Opposites in Action",
+          "visual_frame_description": "Stage one shows Marta's apartment at 2:10 p.m., with washing machine technician Bo working near the laundry closet. A floating checklist displays the chapter's two-column favorable/unfavorable table beside a live feed of Bo's movements through the rooms. Stage two shifts to the front door after the job is done, with Bo standing in the threshold, asking about Saturdays, and a decision wheel turning under Marta's hand.",
+          "player_mission": "Defeat the boss by applying the rule of opposites: first read the pattern Bo's behavior forms across the favorable/unfavorable columns, then choose the intervention that turns an already-completed prediction into preparation.",
+          "boss_battle_explanation": "The rule of opposites: because we are more familiar with favorable behaviors, listing them and simply noting their opposites predicts dangerousness. The battle also tests the companion rule that prediction must be followed by preparation, because prediction without preparation is just curiosity.",
+          "stage_1_observation": "Marta, a paralegal, schedules a washing machine repair for the 2:00–5:00 window. Technician Bo arrives at 2:10 and starts work immediately, but within the first half hour Marta logs: he stepped into her bedroom doorway to check the fuse box, asked whether her husband works late, told her his next job was canceled, and twice steered the conversation to her weekend plans. The player studies the live feed against the favorable/unfavorable pairs.",
+          "stage_1_question": "What does the combined pattern of Bo's behavior predict, under the rule of opposites?",
+          "stage_1_correct_answer": "Bo's behaviors occupy the unfavorable column on several channels at once — walking around the house freely, wanting to know if others are home and expected, trying to get into discussions on other topics, making personal comments, showing no concern about time, and standing too close — so the pattern predicts interest in Marta and her household that goes beyond the repair job. The chapter's method is to list the favorable behaviors and simply note their opposites, and here nearly every pair points the same direction.",
+          "stage_2_intervention": "The machine is fixed. Bo wipes his hands, says \"no charge for the fuse check,\" and asks whether Marta is always home alone on Saturdays. Marta must now choose an action from the decision wheel: engage him in small talk, accept the offer and cancel the invoice gesture, or close out the interaction and prepare.",
+          "stage_2_correct_answer": "Marta closes out the interaction decisively: she thanks Bo at the door, declines the lingering conversation and the unpaid fuse check, watches him leave, locks the door, notes the service company's records, and texts a neighbor that she is home alone — treating her completed prediction as requiring preparation. Prediction without preparation is just curiosity; the point of prediction is to avoid or exploit an outcome while you still have time to prepare, and the chapter says the key is to complete the prediction far enough in advance to get some benefit.",
+          "key_concepts": [
+            "The rule of opposites: list favorable behaviors, note their opposites, and you will be predicting dangerousness.",
+            "A worker who wants to know if others are home or expected is the opposite of the favorable worker who doesn't care.",
+            "A worker with no concern about time, in no hurry to leave, is the opposite of the one mindful of time who works quickly.",
+            "Offering to help on unrelated tasks is the unfavorable opposite of doing his job and no more.",
+            "Staring at you is the unfavorable opposite of not paying undue attention.",
+            "Prediction without preparation is just curiosity.",
+            "The point of a prediction is to avoid an outcome or exploit one; either way, prediction must be followed by preparation.",
+            "By the eleventh hour most factors are apparent; completing the prediction early leaves time to prepare or influence the outcome.",
+            "A woman's intuition in her home has already evaluated the favorable and unfavorable aspects of a stranger's behavior.",
+            "All behavioral predictions, not just those about danger, can be improved by applying the rule of opposites."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the rule of opposites as a continuous reading tool: favorable behaviors are familiar, so the informative cues are their opposites, which together form a prediction. De Becker couples the prediction with preparation, warning that prediction without preparation is just curiosity and must be completed early enough to change the outcome.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The RICE Evaluation: Spending on Threat",
+          "visual_frame_description": "Stage one shows a boardroom at a retail chain where security director Anita presents two spending options on a large split screen: a panic-alarm system for the CFO's home at $18,000 versus expanded loss-prevention training for store staff at the same cost. A comparison panel recalls de Becker's paired cases: the $50,000 lightning guarantee versus the $50,000 heart transplant, and the mayor's protection versus the presidential candidate's. Stage two shows Anita's signature approving a budget line.",
+          "player_mission": "Defeat the boss by mastering the RICE evaluation: first explain why protective spending diverges so sharply between comparable threats, then commit the threat-response budget in a way that weighs reliability, importance, cost, and effectiveness without letting emotion dominate.",
+          "boss_battle_explanation": "The RICE evaluation — the reliability of the prediction, the importance of avoiding the outcome, and the cost and effectiveness of strategies — is how people and societies decide on precautions; when the evaluation is made irrationally, the chapter says, it is always because of emotion.",
+          "stage_1_observation": "Anita reviews two decision cases on screen: a street vendor-style offer promising guaranteed safety from lightning tomorrow for $50,000, versus a surgeon's finding that the same $50,000 will pay for immediate heart-transplant surgery; and the mayor, more likely to be killed in office, budgeted far less protection than the presidential candidate who is screened and guarded within an inch of his life. The board asks Anita why society spends so unequally on these threats.",
+          "stage_1_question": "Why is society willing to spend far more protecting the presidential candidate than the mayor, even though mayors have been shot more often and more lethally?",
+          "stage_1_correct_answer": "Because the RICE evaluation is tipped by emotion, not by prediction quality: the reliability of the prediction is not higher for the candidate — the book notes mayors have been shot more often and more lethally — so the spending gap comes from importance and worry. \"When the RICE evaluation is made irrationally, it is always because of emotion,\" and the same mechanism drives the billion-plus passenger screenings a year against a hijacking threat that produces only a few hundred weapons arrests.",
+          "stage_2_intervention": "Anita must commit the $18,000 threat-response budget. The handwritten letter naming the CFO is credible but the CFO's statistical likelihood of attack is low; the CFO demands round-the-clock armed guards, which would consume the entire budget. Anita must choose: fund the armed guards, fund documentation plus police notification, routine variation, and staff training, or spend nothing on the letter and redeploy the money elsewhere.",
+          "stage_2_correct_answer": "Anita calibrates the response: the importance of avoiding the outcome is very high, but the reliability of the prediction is low to moderate, so she funds the layered, documented response — notifying police, preserving the letter, varying the CFO's routine, and training staff — instead of the emotionally maximal armed-guard option, and she does not drop the matter entirely. The chapter's logic: the $50,000 lightning guarantee is rejected because reliability is low, while the same sum becomes reasonable for heart surgery because the medical prediction is perceived as much more reliable; importance justifies real cost, but the precaution chosen must match the reliability of the prediction, and the effectiveness of a strategy is part of the calculation.",
+          "key_concepts": [
+            "The RICE evaluation considers the reliability of the prediction, the importance of avoiding the outcome, and the cost and effectiveness of the strategies used.",
+            "A $50,000 guarantee of safety from lightning is unappealing because the reliability of the prediction is low.",
+            "The same $50,000 is suddenly reasonable for immediate heart-transplant surgery because the reliability of the medical prediction is perceived as much higher.",
+            "When the RICE evaluation is made irrationally, it is always because of emotion.",
+            "Society spends more in a week protecting a presidential candidate than in a year for most mayors, though mayors have been shot more often and more lethally than presidential candidates.",
+            "Airline passengers are screened for weapons more than one billion times each year; only a few hundred people are arrested on weapons charges, almost none of whom intended to hijack a plane.",
+            "The only deaths associated with airline hijacking in America have occurred since weapons screening was instituted.",
+            "Weapons screening is supported as much for its fear-reducing benefits and deterrence as for the actual detecting of weapons.",
+            "The likelihood of burglary may be remote, but the importance of avoiding it makes the cost of door locks seem reasonable.",
+            "The amount of preparation appropriate for an outcome is determined by the importance of avoiding or exploiting it and the cost and effectiveness of the strategies used.",
+            "At imminent risk, intuition forgets logical thought and just sends the fear signal."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the RICE evaluation — reliability, importance, cost, and effectiveness — the framework by which individuals and societies set precautionary spending, and the claim that when the evaluation goes irrational it is always emotion doing the steering. De Becker grounds the mechanism in the lightning-versus-transplant contrast, the mayor-versus-candidate protection gap, and the billion-a-year airline screening program.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        }
+      ]
+    }
+  ]
+}

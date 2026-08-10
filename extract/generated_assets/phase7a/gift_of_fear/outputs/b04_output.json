@@ -1,0 +1,345 @@
+{
+  "spec_file": "spec_gift_of_fear_b04.json",
+  "chapters": [
+    {
+      "id": "ch04",
+      "title": "Chapter 3: The Academy of Prediction",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The 'Quiet and Cordial Neighbor' Myth and the Normalcy Cliché",
+          "visual_frame_description": "A living-room television crackles with a local news report; on screen, a reporter stands outside a tidy suburban house interviewing a neighbor about a man arrested for a violent crime. The neighbor shrugs and repeats, 'He was a quiet, cordial man who kept to himself.' Beside the TV, a workstation labeled 'CUE SCRUBBER' displays the transcript and a scrub brush cursor hovering over the word 'normal.'",
+          "player_mission": "Audit the news interview and decide whether the neighbor's testimony contains any real predictive signal about violent criminality. Select the single correct cue about what the testimony does or does not tell you, then reject the plausible-sounding myths the broadcast implies.",
+          "key_concepts": [
+            "TV news routinely repeats the cliché that a killer was 'a shy man who kept to himself' and 'a quiet and cordial neighbor,' presenting non-information as if it were information.",
+            "A more honest reporting of those interviews would be, 'Neighbors didn't know anything relevant.'",
+            "By the frequency of the cliché, you could almost believe that apparent normalcy is a pre-incident indicator for aberrant crime - but it is not.",
+            "Neighbors usually have only one qualification for being in news reports: they are willing to speak to reporters.",
+            "The myth that violence comes out of nowhere is perpetuated precisely by these reports of normal families and quiet neighbors.",
+            "One thing that does predict violent criminality is violence in one's own childhood; Ressler's research found that 100 percent of serial killers he studied had been abused as children, with violence, neglect, or humiliation.",
+            "Pre-incident indicators are the detectable factors that occur before the outcome being predicted, and a neighbor's impression of normalcy is not among them.",
+            "When we accept that violence is committed by people who look and act like people, we silence the voice of denial that whispers, 'This guy doesn't look like a killer.'",
+            "Violence and homicide occur in all cultures, so no culture's 'normal-looking' citizens can be assumed exempt from the resource of violence.",
+            "The human predator does not wear a costume so different from ours that he can always be recognized by the naked eye."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the denial-driven normalcy cliché: people treat apparent normalcy as evidence of safety, so media repeating neighbor testimonials reinforces the myth that violence comes out of nowhere. De Becker's evidence is that normalcy is not a pre-incident indicator, while a violent childhood is - 100 percent of serial killers in Ressler's study had been abused as children.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "target_channel": "News-media neighbor testimonials about crime suspects",
+          "question": "A local news report describes a violent-crime suspect as 'a shy man who kept to himself... a quiet and cordial neighbor.' Run the cue scrubber: what does this testimony actually tell you about predicting violent crime?",
+          "correct_cue": "It tells you nothing relevant about prediction. The honest interpretation is that the neighbors didn't know anything relevant; the report is non-information presented as information, and apparent normalcy is not a pre-incident indicator for aberrant crime. The real predictors named in this chapter belong to the suspect's history - most strikingly, Ressler's research that 100 percent of serial killers he studied had been abused as children - not to the suspect's surface demeanor as witnessed by neighbors.",
+          "distractors": [
+            "Quietness and cordiality are reliable early warnings: someone this normal on the surface must be concealing a violent inner life.",
+            "A neighbor's willingness to speak to reporters implies the neighbor has relevant knowledge the police lack.",
+            "Matching testimonies from several neighbors prove the family was healthy, confirming that violence genuinely comes out of nowhere."
+          ],
+          "underlying_psychology": "Denial-based pattern-matching as a defense against shared humanness: the mind reaches for 'this guy doesn't look like a killer' to keep violent people in the safe category of US and THEM, and news media amplify the reflex by packaging neighbor talk as insight. The counter-mechanism is pre-incident-indicator reasoning, which looks for detectable factors that precede the outcome rather than outward normalcy."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Chronic Fixation of the Would-Be Assassin (Stacey J.)",
+          "visual_frame_description": "A darkened monitoring office on the tenth floor of a Los Angeles building; wall screens show dates stretching back fifteen years, each marking an intervention on one man: a stolen car, a missing person from a mental hospital, a family phone call, a flight booked to Los Angeles. A file photo shows Stacey J. as a ten-year-old watching a television broadcast of the Kennedy assassination; beside it, today's photo of the same man, older and heavier.",
+          "player_mission": "Study the fifteen-year observation log of Stacey J. and identify the single most reliable behavioral cue that predicts continued danger from his fixation. You must scrub past plausible-looking surface signals - his mellowing, his medication side effects - and find the pattern that keeps the protection team's attention justified.",
+          "key_concepts": [
+            "Stacey J., a would-be assassin, was monitored by de Becker's office for fifteen years with the help of his family and the Secret Service.",
+            "Stacey described the origin of his fixation simply: 'When John Kennedy was killed, that's when I knew; that's when it all started.'",
+            "Both Stacey and de Becker, at ten years old, sat in front of televisions at the exact same moment in time and were profoundly affected by the same event - one later stalked a public figure while the other protected one.",
+            "Over the years Stacey required interventions for stealing cars, going missing from mental hospitals, and traveling to Los Angeles to reach the client he was obsessed with.",
+            "Stacey has made threats to kill Ronald Reagan that drew the attention of the Secret Service.",
+            "De Becker once found Stacey slumped in a phone booth, clothes torn, bleeding from wounds on each leg, and completely crazy from a week off medication.",
+            "Single-mindedness is a characteristic common to many criminals; even things that would frighten most people did not distract de Becker as a boy accustomed to danger.",
+            "Violent people often live in the future, immunized against the pain of the present, which makes them reckless about their own safety.",
+            "Stacey has mellowed some over the years, but from time to time he still requires the attention of the protection office or the Secret Service.",
+            "Whether a person is labeled harmless or sinister, survival is better served by perception than by judgment."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests chronic fixation and single-mindedness as the operative signal in stalking and assassination cases: the obsessed person's focus is so intense that the present cannot distract him, so the pattern persists for decades. The evidence is the fifteen-year monitored history of Stacey J., whose intent announced itself in childhood ('When John Kennedy was killed, that's when I knew') and continuously re-expressed itself through car thefts, hospital escapes, and threats against Ronald Reagan.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "target_channel": "Long-term fixation behavior in would-be assassins (case: Stacey J.)",
+          "question": "After fifteen years of monitoring Stacey J., the protection team weighs scaling down its attention because he has 'mellowed some.' Which observed pattern is the reliable cue that the fixation and danger persist?",
+          "correct_cue": "The reliable cue is the enduring, decade-spanning pattern of single-minded fixation expressed in behavior: Stacey's announcement that the Kennedy assassination 'started it all' at age ten, the repeated threatening travel to Los Angeles, the stolen cars, the escapes from mental hospitals, being found off medication and 'completely crazy' in a phone booth, and the ongoing threats to kill Ronald Reagan that kept the Secret Service involved. Even his 'mellowing' came with the caveat that he still periodically requires attention - the cue is the constancy of the channel, not any single dramatic event, and it is the same single-mindedness the chapter names as a characteristic common to many criminals.",
+          "distractors": [
+            "A single dramatic threat made once is the strongest cue; a quiet fifteen-year history with occasional interventions means the fixation has truly ended.",
+            "Weight gain and the visible side effects of his medication are the most reliable indicators that the obsession has burned out.",
+            "His incapacity when off medication proves he is too unstable to ever act on the fixation, so monitoring can be scaled back safely."
+          ],
+          "underlying_psychology": "The single-mindedness and future-oriented living described in the chapter: people whose violent trajectories began in chaotic childhoods can hold an unwavering focus on a target because the present cannot distract them, so the stalker's behavior must be monitored continuously regardless of surface calm or lulls. The chapter offers this as one small piece of the human violence puzzle to more fully inform intuition."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Universal Violence and the Peaceful-Society Myth",
+          "visual_frame_description": "A cluttered research desk covered with anthropology books: 'Coming of Age in Samoa,' 'The Harmless People,' and 'Demonic Males' lie open beside field photographs of Fijian villagers and Kung hunter-gatherers. A cursor on the CUE SCRUBBER highlights the phrase 'Eden in the outback,' and a sticky note reads, 'Foiled by better data.'",
+          "player_mission": "Scrub an online article claiming that isolated cultures are entirely free of violence and that violence is a modern invention. Weigh the anthropological record described in the chapter and select the correct cue about the universality of human violence.",
+          "key_concepts": [
+            "Proving the opinions of Einstein and Freud is the fact that violence and homicide occur in all cultures.",
+            "In Demonic Males, Richard Wrangham and Dale Peterson call modern humans 'the dazed survivors of a continuous, 5-million year habit of lethal aggression.'",
+            "Scientific explorers who set out to find communities that would disprove man's universal violence all came home disappointed.",
+            "South Pacific islanders were romanticized as non-violent in Margaret Mead's Coming of Age in Samoa.",
+            "The Fijians, correctly perceived today as the friendliest people in the world, were not that long ago among humanity's most violent.",
+            "The Kung of the Kalahari were called 'the harmless people' in a book of the same title.",
+            "Melvin Konner concluded that 'again and again, ethnographers have discovered Eden in the outback, only to have the discovery foiled by better data.'",
+            "Though we live in space-age times, we still have stone-age minds: we are competitive and territorial and violent, just like our simian ancestors.",
+            "People who insist they could never kill anyone invariably add the caveat, 'Unless, of course, a person tried to harm someone I love.'",
+            "The resource of violence is in everyone; all that changes is our view of the justification."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the romanticization of human nature as a form of denial: observers want to believe in innocent societies, and only better data correct the image. The evidence is the repeated ethnographic failure to find a culture free of violence - Samoa, Fiji, and the Kung all disappointed their romanticizers, and Wrangham and Peterson describe humans as survivors of a 5-million-year habit of lethal aggression.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "target_channel": "Anthropological field reports on peaceful societies",
+          "question": "An article claims some remote cultures are entirely free of violence, proving that violence is a modern invention. Which observation from the chapter's record is the correct cue about the universality of violence?",
+          "correct_cue": "The correct cue is the record of failed searches: the explorers who set out to find communities that would disprove man's universal violence 'all came home disappointed.' The romanticized islanders of Mead's Samoa, the Fijians (today the friendliest people in the world but recently among humanity's most violent), and the Kung ('the harmless people') all failed the test, and Melvin Konner concluded that ethnographers keep discovering 'Eden in the outback, only to have the discovery foiled by better data.' The chapter holds that violence and homicide occur in all cultures and that the resource of violence is in everyone.",
+          "distractors": [
+            "One culture's absence of recorded homicide proves that human nature is peaceful at the core and that violence is a modern introduction.",
+            "Violence appears in all cultures only because colonial observers biased the data; the true record of pre-contact societies is uniformly peaceful.",
+            "Geography is the tell: isolated island cultures are always peaceful because physical separation breeds gentleness."
+          ],
+          "underlying_psychology": "Romanticization as motivated perception: the wish for an innocent human nature primes observers to see 'Eden in the outback,' and only better data correct the image. The chapter uses this to underpin its central premise that there is no mystery of human behavior that cannot be solved inside your head or your heart, and that the resource of violence is in everyone, with justification being the only variable."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Bardo Interview: Prison vs. Home Self-Report",
+          "visual_frame_description": "A visiting room in a California prison; Gavin de Becker sits across a metal table from Robert Bardo, convicted assassin of actress Rebecca Schaeffer. The file viewer beside the scene shows the transcript scrolling, with de Becker's earlier note that Bardo's 'relative normalcy' took him out of the safe realm of US and THEM.",
+          "player_mission": "Audit the interview in which Bardo compares his childhood with his current life in prison. Read his baseline, the timed observation log, and the quoted exchange, then issue the correct diagnosis: is his claim of sameness a distortion, or an accurate self-report?",
+          "key_concepts": [
+            "Bardo killed actress Rebecca Schaeffer; prosecutor Marcia Clark sent him to prison for life.",
+            "Bardo told de Becker he was treated at home like the family cat - fed and left in his room.",
+            "Bardo said of prison, 'It's the same in the sense that I'm always withdrawing within myself in my cell, just like back at home.'",
+            "Asked for differences between prison and childhood, Bardo answered, 'Well, I have to be more social here.'",
+            "Asked whether home required him to be social, Bardo replied, 'No, I learned that in prison.'",
+            "De Becker was struck by the similarity of some of his own early experiences to Bardo's childhood of abuse and neglect.",
+            "Ressler's research confirmed that 100 percent of serial killers he studied had been abused as children, with violence, neglect, or humiliation.",
+            "Difficult childhoods excuse nothing, but they explain many things, just as your childhood does.",
+            "As long as there are parents preparing children for little more than incarceration, we will have no trouble keeping our prisons full.",
+            "Accepting someone's humanness does not mean excusing his behavior."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests accurate self-report versus defensive distortion in a violent offender: the diagnostic payoff comes from comparing the report against the known baseline of isolation and against the chapter's evidence on abusive childhoods. Bardo's flat, spontaneously offered equivalence between home and cell is consistent with a man describing the ordinary texture of his life, and it corroborates the claim that a neglected childhood can structurally prepare a person for prison.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "question": "De Becker asks Robert Bardo to compare his childhood with his current life in prison. Is Bardo's claim that the two are 'the same' a distortion, or an accurate self-report?",
+          "subject_baseline": "Bardo's relative normalcy in the interview room took de Becker out of the safe realm of US and THEM; he speaks matter-of-factly, without grandiosity or defensive posturing. His childhood baseline, as he reports it, was being treated like the family cat - fed and left in his room - with no requirement to be social at home.",
+          "observed_nonverbal_log": [
+            "0:00-1:00: Bardo enters calmly and answers introductory questions directly, with no defensive posture and no rehearsed-sounding phrasing.",
+            "1:00-3:00: Asked about his childhood, Bardo describes being fed and left in his room in the same flat tone one would use for routine facts.",
+            "3:00-4:00: Asked whether prison differs from home, Bardo pauses a moment, then answers simply: 'Well, I have to be more social here.'",
+            "4:00-5:00: Asked whether home had required him to be social, he replies, 'No, I learned that in prison,' with delivery that matches the rest of the interview.",
+            "5:00-6:00: Bardo volunteers no embellishment about either setting, adding nothing that moralizes about his childhood or his sentence."
+          ],
+          "interrogation_transcript": [
+            "Bardo: It's the same in the sense that I'm always withdrawing within myself in my cell, just like back at home.",
+            "De Becker: Are there any differences between what you do here and what you did when you were a child?",
+            "Bardo: Well, I have to be more social here.",
+            "De Becker: Didn't you have any requirement at home to be social?",
+            "Bardo: No, I learned that in prison."
+          ],
+          "correct_diagnosis": "Accurate self-report, not evasion: Bardo's home life - fed and left in his room like the family cat - was structurally identical to cell life, and his flat, spontaneous account is consistent across every observation. His report that he learned social requirements only in prison corroborates the chapter's point that difficult childhoods explain many things, and that some parents prepare children for little more than incarceration.",
+          "diagnostic_breakdown": [
+            "Flat, undifferentiated affect across both topics (home and prison): Bardo describes the two settings with identical emotional tone, so there is no sign that either memory is being shaded toward a sympathetic story.",
+            "Spontaneous equivalence: Bardo volunteers the parallel - 'withdrawing within myself in my cell, just like back at home' - before he is prompted to compare, which is consistent with a lived pattern rather than a constructed answer.",
+            "Specific, testable inversion: he names just one difference - 'I have to be more social here' - which is specific enough to check against his baseline of being fed and left alone in his room.",
+            "Direct confirmation of the baseline: 'No, I learned that in prison' states plainly that home imposed no social requirements, matching the family-cat upbringing.",
+            "Consistency with known evidence: the chapter reports Ressler's finding that 100 percent of serial killers he studied had been abused as children, and Bardo's neglect-and-isolation childhood fits that profile, so the report aligns with rather than contradicts what is known about him."
+          ],
+          "distractors": [
+            "Bardo is minimizing: equating prison with home is a bid for sympathy that should be scored as deception.",
+            "Bardo is exaggerating his childhood misery to excuse his crime.",
+            "Bardo's flat affect is the classic sign of a practiced deceiver, and any violent offender's self-report should be treated as false until proven otherwise."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Auditing Neighbor Testimony in the Unabomber Case",
+          "visual_frame_description": "A broadcast-news editing suite displays raw interviews gathered outside the Kaczynski family home after Ted Kaczynski's arrest in the Unabomber case. A neighbor repeats that the family seemed perfectly normal and that Tuesday night was an ordinary evening. An annotation panel beside the footage reads, 'Neighbors didn't know anything relevant.'",
+          "player_mission": "Audit the body of neighbor testimony broadcast about the accused Unabomber's family and issue the correct diagnosis: is 'the family seemed normal to the neighbors' a valid diagnostic finding about Ted Kaczynski's history and violence?",
+          "key_concepts": [
+            "News reports on Ted Kaczynski, believed to be the Unabomber, told viewers his mother was 'a nice woman, well-liked by neighbors,' as if that had any bearing on anything.",
+            "Neighbors usually have only one qualification for being in news reports: they are willing to speak to reporters.",
+            "The honest reporting of banal neighbor interviews would be, 'Neighbors didn't know anything relevant.'",
+            "The Kaczynskis raised two boys, both of whom dropped out of society as adults and lived anti-social, isolated lives.",
+            "One brother, David - 'the sane one' - lived for a time in a ditch he dug in the ground and did not end up killing anybody.",
+            "If prosecutors are right, the 'crazy' one, Ted, grew up to become a brutal remote-control serial killer.",
+            "Reporter accounts of a normal family perpetuate the myth that violence comes out of nowhere.",
+            "Apparent normalcy is not a pre-incident indicator for aberrant crime.",
+            "Ressler's research found that 100 percent of serial killers he studied had been abused as children, either with violence, neglect, or humiliation.",
+            "Whatever cards are dealt to a family, parents have at a minimum what Daniel Goleman calls 'a window of opportunity,' and that window was slammed shut during the childhoods of most violent people."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the difference between data and narrative in threat assessment: neighbor testimony about normalcy is non-information presented as information, and the label 'normal family' is the output of judgment, not perception. The chapter's evidence is the Kaczynski case, where two sons both dropped out of society while reporters broadcast neighborly impressions of an ordinary household - impressions that conflict with observable facts and tell us nothing about what happened inside the home.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "question": "In the audit file, the 'subject' is the body of neighbor testimony broadcast about the Kaczynski family after Ted's arrest as the accused Unabomber. Is the emerging finding - 'the family seemed normal to the neighbors' - a valid diagnostic conclusion?",
+          "subject_baseline": "The baseline being audited is what neighbors can legitimately report: they are not trained observers of family life, they had no access inside the home, and their one qualification for being on the news is willingness to speak to reporters. Their interviews are what the chapter calls 'banal interviews' that news organizations repackage as insight.",
+          "observed_nonverbal_log": [
+            "Day 1, 6:00 PM: A neighbor tells a reporter the family 'seemed perfectly normal' and that Tuesday night was just an ordinary evening at home.",
+            "Day 1, 8:00 PM: Another neighbor describes the accused as 'a quiet, isolated man' - an observation that adds nothing about his history.",
+            "Day 2, 7:00 AM: A reporter repeats that the mother was 'a nice woman, well-liked by neighbors.'",
+            "Day 2, 9:00 AM: The audit flags that no witness had seen the brothers' adult lives: one of them lived for a time in a ditch he dug in the ground - 'and that was the sane one, David.'",
+            "Day 3, 10:00 AM: Commentary concludes 'the family was normal,' perpetuating the myth that violence comes out of nowhere."
+          ],
+          "interrogation_transcript": [
+            "Reporter: 'Was there anything unusual about the family?'",
+            "Neighbor: 'No, they seemed perfectly normal. Tuesday night was just an ordinary evening at home.'",
+            "Reporter: 'And Ted?'",
+            "Neighbor: 'A quiet boy who kept to himself. I'm shocked. He seemed so normal.'",
+            "Audit annotation (de Becker): 'Don't you think something more than the neighbors knew about might have gone on in that home when Ted and his brother, David, were children?'"
+          ],
+          "correct_diagnosis": "Invalid finding - non-information presented as information. Neighbors' impressions of normalcy are not evidence about the family's actual conditions, and the visible outcomes (both sons dropping out of society; David living in a dug ditch; Ted accused of the bombings) contradict the 'nothing unusual' narrative. The accurate statement would be: 'Neighbors didn't know anything relevant.'",
+          "diagnostic_breakdown": [
+            "Zero access to the home: every quoted witness observed only the outside of the family's life, so the testimony cannot support any conclusion about conditions inside it.",
+            "Conflict with observable outcomes: both sons abandoned society as adults - David dwelling in a dug ditch and Ted accused of serial bombings - which is inconsistent with a family about which 'nothing unusual' was true.",
+            "The reporting frame assumes abnormality would be visible from the street: the chapter rejects this, noting killers 'look and act like people' and that apparent normalcy is not a pre-incident indicator.",
+            "The narrative function is exposed: repeating 'the family was normal' perpetuates the myth that violence comes out of nowhere, which is exactly the myth this chapter sets out to dismantle.",
+            "The contrast datum is historical: Ressler's research found that 100 percent of serial killers he studied had been abused as children with violence, neglect, or humiliation, so the genuinely predictive signals lie in the childhood history no neighbor observed."
+          ],
+          "distractors": [
+            "The testimony is valid because several independent neighbors gave matching accounts of the family's normalcy.",
+            "The testimony is valid because Ted's quiet, isolated childhood behavior is itself a pre-incident indicator of violent criminality.",
+            "The testimony is invalid because Ted was later judged insane, which means no evidence about his family life is relevant to predicting his actions."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Intolerable Unpredictability: Control-Seeking at Work",
+          "visual_frame_description": "A bright open-plan office in a logistics company; Derek, a senior analyst in his forties, stands by a whiteboard re-prioritizing the entire team's week while colleagues exchange glances. The audit file on screen tracks one morning of his behavior: repeated re-reading of agendas, copied-on-every-email demands, and visible tension whenever a plan changes.",
+          "player_mission": "Audit Derek, a colleague whose micromanagement has intensified. Read his baseline, the timed log of a single morning, and his quoted replies, then issue the correct diagnosis about what his need to be in control indicates - and what it does not prove.",
+          "key_concepts": [
+            "A characteristic common to predatory criminals (and many other people as well) is their perceived need to be in control.",
+            "People whom you might call control freaks typically grew up in a chaotic, violent, or addictive home.",
+            "In such homes, love was uncertain or conditional and parents did not act consistently and reliably.",
+            "For the control-driven person, controlling others became the only certain way to predict their behavior.",
+            "An inability to predict behavior is absolutely intolerable for human beings and every other social animal.",
+            "The fact that most people act predictably is literally what holds human societies together.",
+            "Calm when others are alarmed - like a surgeon's lost aversion to gore - is a separate feature that can mark someone familiar with danger.",
+            "Recklessness and bravado are features of many violent people, but none of these features alone proves someone is violent.",
+            "De Becker shares these features as 'three small pieces of the human violence puzzle' to more fully inform your intuition.",
+            "Judgment results in a label; survival is better served by perception."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests the control-seeking trait as one piece of predictive information: an intense perceived need to be in control typically traces to a childhood in a chaotic, violent, or addictive home where control became the only certain way to predict others. The chapter is explicit that this is just one small piece of the human violence puzzle and that most people who share it are not violent.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "question": "Derek, a colleague, micromanages every task you touch and visibly tightens when plans change. What is the correct diagnosis of what his need to control indicates about his background and his risk, based on this chapter?",
+          "subject_baseline": "Derek is prompt, polite, and highly organized; colleagues describe him as a bit of a control freak who re-checks others' work, insists on being copied on every email, and restructures meetings to keep everyone on his agenda. He is never aggressive, but he becomes visibly restless when others are unpredictable.",
+          "observed_nonverbal_log": [
+            "9:00 AM: Team meeting. Derek restates the agenda twice, then watches each speaker, nodding only when talking points match his notes.",
+            "10:30 AM: When a teammate proposes a new approach, Derek's jaw tightens; he immediately lists reasons the plan would fail and reopens his notes.",
+            "11:15 AM: Derek re-prioritizes the rest of the week's tasks without asking the team.",
+            "1:00 PM: Asked about his childhood, Derek jokes that it was 'a circus' and changes the subject.",
+            "2:30 PM: When a client changes a deadline, Derek's tension subsides only after he has rewritten everyone's calendars."
+          ],
+          "interrogation_transcript": [
+            "Colleague: 'Why do you need to be copied on everything, Derek?'",
+            "Derek: 'Because if I don't see it, it doesn't happen. If I can't track it, I can't predict it.'",
+            "Colleague: 'You seem anxious when plans change.'",
+            "Derek: 'I just like to be in control. It's the only thing that ever made sense.'"
+          ],
+          "correct_diagnosis": "Consistent with the background profile the chapter describes for an intense need to be in control: Derek's behavior matches the pattern of controlling others as the only certain way to predict them, a strategy formed in chaotic homes where love was uncertain or conditional. The chapter's caveat applies: this is one small piece of the human violence puzzle and does not by itself mark Derek as violent; it is information that sharpens intuition, not a verdict.",
+          "diagnostic_breakdown": [
+            "Predicting-through-control: restating agendas, reopening notes, and rewriting calendars show Derek managing his anxiety by making others' behavior his own - the exact mechanism the chapter ties to chaotic upbringings.",
+            "Intolerance of unpredictability: the jaw tightening and immediate rebuttal at a new plan demonstrate that unpredictable change is genuinely distressing, consistent with the chapter's claim that an inability to predict behavior is absolutely intolerable for humans.",
+            "Consistent self-report: 'If I can't track it, I can't predict it' states the mechanism in his own words, and the joke about a 'circus' childhood is suggestive of the unstable home the chapter describes - though it is an invitation to curiosity, not proof.",
+            "No observed escalation or aggression: the log shows control behavior only, so the diagnosis must stay proportional and keep the chapter's explicit warning that not all people with these features are likely to be violent.",
+            "Probability anchor: the chapter notes most people act predictably and that predictability is what holds societies together, so a control-seeking colleague is far more likely to be ordinary than dangerous."
+          ],
+          "distractors": [
+            "Derek is a psychopath: his need to control everything is the single strongest predictor of future violence.",
+            "Derek is simply efficient, and the control pattern carries no information about his background or any risk.",
+            "Derek's outward calm under pressure proves he is entirely safe, since truly dangerous people can never stay calm."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Boss Battle: Shared Humanness vs. the 'Monster' Label",
+          "visual_frame_description": "Boss health bar: 'US and THEM' - the boss battle arena is a prison visiting room, then a briefing table where a protection team reviews case files. Photographs slide across the screen: Robert Bardo, the man who killed actress Rebecca Schaeffer, and the patient ward at Atascadero State Hospital where men convicted of brutal crimes mourn a dying guinea pig held by a patient named Oliver.",
+          "player_mission": "Defeat the monster label that defeats prediction. First, choose how to position your own mind when sitting across from a convicted assassin. Then, correct the stance of a team member who refuses to see a violent offender as human, because every prediction you make depends on that mental step.",
+          "key_concepts": [
+            "The epigraph of the chapter carries the lesson: 'I am capable of what every other human is capable of' (Maya Angelou).",
+            "Nicholas Humphrey of Cambridge University explains that evolution gave us introspection so we could 'model other human beings and therefore predict their behavior.'",
+            "De Becker's interviews with Robert Bardo showed Bardo's relative normalcy, removing the safe realm of US and THEM: 'you and I and Bardo have much more in common than we have in contrast.'",
+            "Karl Menninger said, 'I don't believe in such a thing as the criminal mind. Everyone's mind is criminal; we're all capable of criminal fantasies and thoughts.'",
+            "When accepting someone's humanness, that does not mean excusing his behavior.",
+            "To study violent people, de Becker must find in them some part of himself - 'there must be a place to hook the line before I drop down into the dark mine of some dark mind.'",
+            "The men at Atascadero State Hospital, many guilty of brutal crimes, wept as a dying guinea pig passed in Oliver's arms - a glimmer of compassion society believes these men lack.",
+            "Judgment results in a label, like calling Robert Bardo a monster and leaving it at that; such labels draw a bold line between that 'wacko' and us.",
+            "Perception carries you much further than judgment does, and recognizing the sameness is what allows us to most accurately predict violence.",
+            "We use the word inhuman to describe murderers, but they are not inhuman - they are precisely human."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests shared humanness as the prerequisite for prediction: labeling a violent person a monster (judgment) ends inquiry, while recognizing the sameness (perception) is what allows accurate prediction. The evidence is de Becker's method of finding some part of himself in each offender he assesses, the Atascadero patients' grief over a guinea pig, and the claim that 'they are not inhuman - they are precisely human.'",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "boss_battle_explanation": "Shared humanness as the foundation of prediction: to predict violent people you must accept that they look and act like people and that the resource of violence is in everyone. Labeling an offender a monster produces the comfortable illusion that everything is figured out, but prediction is only possible when perception replaces judgment.",
+          "stage_1_observation": "You are the protection consultant seated across from Robert Bardo in a prison visiting room. The man who killed Rebecca Schaeffer sits with ordinary posture, answers quietly, and his 'relative normalcy' unsettles you precisely because the news coverage called him a monster. Your briefing file quotes Karl Menninger, while a note in the margin reminds you what de Becker did first with every offender: find the familiar part of himself in them.",
+          "stage_1_question": "Before you can predict anything about Bardo, you must make a decision about your own mental framing. Which stance makes his behavior predictable?",
+          "stage_1_correct_answer": "Recognize the shared humanness: find some part of yourself in Bardo, because 'recognizing the sameness' is what allows the most accurate prediction, and you and he have much more in common than in contrast. Judgment's answer - 'monster' - is a label that ends inquiry; perception carries you further.",
+          "stage_2_intervention": "The next case file is the man who killed a cow with an ax, climbed inside the carcass, and later used the ax on his eight-year-old stepbrother. Your junior analyst recoils and blurts, 'That's inhuman. I can't regard him as one of us - he's a monster.' The team's next prediction must be made now.",
+          "stage_2_correct_answer": "Correct the stance: the acts are repugnant but the men are not inhuman - 'they are precisely human' - and accepting their humanness does not mean excusing their behavior. The Atascadero patients, men guilty of brutal crimes, mourned a guinea pig in Oliver's arms, showing even aberrant murderers contain something of you and me; keeping that recognition is what keeps the team's predictions accurate instead of comfortable."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Boss Battle: Silencing the Voice of Denial",
+          "visual_frame_description": "Boss health bar: 'The Voice of Denial' - the arena is a Sunday-evening living room with a news broadcast, then a school parking lot where parents gather after a scare about a teacher. The whisper 'This guy doesn't look like a killer' floats across the screen in question marks, and beneath it a counter tracks every judgment-label ('normal,' 'quiet,' 'nice') the player lets pass.",
+          "player_mission": "Defeat the voice of denial in two moves: first, correctly read what the famous 'quiet and cordial neighbor' testimony actually tells you about crime prediction; then, answer a parent's comforting dismissal without falling into the label trap that lets everyone feel it's all figured out.",
+          "key_concepts": [
+            "When we accept that violence is committed by people who look and act like people, we silence the voice of denial, the one that whispers, 'This guy doesn't look like a killer.'",
+            "The classic TV news line - 'a shy man who kept to himself, a quiet and cordial neighbor' - is non-information presented as information.",
+            "The honest report would be 'Neighbors didn't know anything relevant.'",
+            "Apparent normalcy is not a pre-incident indicator for aberrant crime.",
+            "The rapist might first be the charming stranger, and the assassin first the admiring fan - the human predator does not wear a costume recognizably different from ours.",
+            "Ressler's research found that 100 percent of serial killers he studied had been abused as children, with violence, neglect, or humiliation.",
+            "Judgment results in a label and lets people comfortably think it's all figured out; labels draw a bold line between that 'wacko' and us.",
+            "Perception carries you much further than judgment.",
+            "The myth that violence comes out of nowhere is perpetuated by reports of normal families and quiet neighbors.",
+            "The vast majority of violent people started as you did, felt what you felt, and wanted what you want; the difference is in the lessons they learned."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the denial voice that blocks perception: 'This guy doesn't look like a killer' is the whisper that lets people swap perception for comfortable judgment labels. The evidence is the chapter's repeated demonstration that killers look and act like people, that apparent normalcy is not a pre-incident indicator, and that prediction depends on replacing the label with perception.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "boss_battle_explanation": "The voice of denial is the enemy of prediction: it whispers 'this guy doesn't look like a killer' and converts perception into judgment labels that make everyone feel the matter is settled. The winning move is to accept that violence is committed by people who look and act like people, and to weigh real pre-incident indicators instead of surface normalcy.",
+          "stage_1_observation": "A Sunday news broadcast reports: 'Residents describe the killer as a shy man who kept to himself. They say he was a quiet and cordial neighbor.' The anchor asks how nobody could have seen it coming. Beside the broadcast, a fact bar shows Ressler's research finding that 100 percent of serial killers studied had been abused as children with violence, neglect, or humiliation.",
+          "stage_1_question": "You must decide what the broadcast's 'quiet and cordial neighbor' testimony actually tells you about predicting violent crime. What is the correct read?",
+          "stage_1_correct_answer": "It tells you nothing relevant: the testimony is non-information presented as information, the honest version is 'Neighbors didn't know anything relevant,' and apparent normalcy is not a pre-incident indicator. The real predictive signals lie in history (like childhood abuse), not in a neighbor's impression of a quiet demeanor.",
+          "stage_2_intervention": "A week later, at the school gate, a parent of your daughter's classmate says of a teacher under investigation: 'But he's so nice - he donated to the PTA and he coaches the kids. He doesn't look like a killer.' The group exhales and starts to laugh. You must make the decision the moment calls for.",
+          "stage_2_correct_answer": "Silence the denial voice instead of joining the label: killers look and act like people, and a friendly surface is exactly what a predator wears first - the rapist might first be the charming stranger, the assassin first the admiring fan. Route the group past 'he doesn't look the part' to the real pre-incident indicators - violent history, isolation, fixation, control needs - because judgment labels let everyone comfortably think it's all figured out, while perception carries you further."
+        }
+      ]
+    }
+  ]
+}

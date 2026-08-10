@@ -1,0 +1,436 @@
+{
+  "spec_file": "spec_gift_of_fear_b08.json",
+  "chapters": [
+    {
+      "id": "ch08",
+      "title": "Chapter 7: Promises to Kill (Understanding threats)",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Threat vs. Intimidation: Detecting Conditional Language",
+          "visual_frame_description": "Maya, an HR director at a regional hospital, sits at a threat-assessment workstation with a forwarded email on screen. The message from Paul, a recently terminated maintenance worker, reads: \"I will burn this building down if I don't get my job back.\" A scrolling feed of sample statements runs along the bottom of the screen, and Maya must tag each one as threat or intimidation before the next case opens.",
+          "player_mission": "Classify Paul's statement as either a threat or an intimidation by inspecting the conditional language. Identify the defining structural feature of the statement and select the correct assessment from the options.",
+          "key_concepts": [
+            "A threat is a statement of an intention to do some harm, period; it offers no conditions, no alternatives, and no ways out.",
+            "A threat does not contain the words if, or else, until, or unless; sentences that do contain those words are intimidations, not threats.",
+            "\"I will burn this building down if I don't get the promotion\" is an intimidation, not a threat, because a condition is offered to avert the harm.",
+            "With intimidations, the motive is always right in the statement and the outcome the speaker desires is clear.",
+            "\"Unless you apologize, I'll kill you\" is an intimidation because the speaker wants an apology, not the harm.",
+            "Intimidations are brought into play as high-stakes manipulations; the speaker wants his conditions met, he does not want to inflict the harm.",
+            "With threats, no conditions are offered, usually because the speaker sees few alternatives.",
+            "Because the threatener sees few alternatives, threats carry more likelihood of violence than intimidations.",
+            "Threats are rarely spoken from a position of power; whatever power they have is derived from the fear instilled in the victim.",
+            "Fear is the currency of the threatener, and he gains advantage through the victim's uncertainty."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This station tests the threat-versus-intimidation distinction: conditional statements containing if, or else, until, or unless are high-stakes manipulations whose satisfaction the speaker wants, while unconditional threats signal a speaker who sees few alternatives. De Becker's case-based practice treats the presence of a condition as a risk-reducer because the speaker still wants his conditions met rather than the harm inflicted.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "target_channel": "Verbal content channel: presence or absence of conditional language (if, or else, until, unless) in an apparently violent statement",
+          "question": "Paul's email says \"I will burn this building down if I don't get my job back.\" What is this statement, and what does its structure tell you about the likelihood of violence?",
+          "correct_cue": "This is an intimidation, not a threat. It contains the word \"if\" and offers a condition (reemployment) to avert the harm, so the speaker's desired outcome is stated right in the sentence and he wants his conditions met rather than the building harmed. Because the speaker still sees alternatives, intimidations carry less likelihood of violence than unconditional threats. The response to look for is the conditional clause and the overtly stated motive, which together lower the risk estimate.",
+          "distractors": [
+            "It is a genuine threat: the fire imagery names the harm itself, so the statement must be treated as maximum risk regardless of the condition clause.",
+            "It is a promise: the speaker is pledging to do something, and since people keep promises far more often than threats, the harm should be considered certain.",
+            "It is a value-reduction statement that proves the speaker is only venting, so the email can be dismissed without any assessment."
+          ],
+          "underlying_psychology": "Intimidations work as high-stakes manipulations: the speaker wants compliance with a stated condition and does not want the harm, because the harm serves no purpose for him. An unconditional threat, by contrast, appears when the speaker sees few alternatives or ways out, and that perceived dead-end is what raises the likelihood he will act; hence the same violent words carry different predictive weight depending on whether they contain an off-ramp."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Context Over Content: The Key-Word Fallacy",
+          "visual_frame_description": "In a cramped legal-aid intake office, Rafael, a housing attorney, opens a letter handed to his client Elena by a man she barely knows. The letter reads: \"Tidy up your affairs and buy some pretty flowers, because God has ordered me to take you to his beautiful place, where he is anxious to welcome you.\" A side panel displays a highlighted word cloud of the letter's vocabulary beside a separate harmless vacation story containing the words danger, kill, blood, and bomb.",
+          "player_mission": "Decide which feature of the communication deserves the most weight in the risk assessment. Choose the single factor that de Becker's method says predicts danger better than any alarming vocabulary in the text.",
+          "key_concepts": [
+            "Context is much more important to predictions than content, and this truth relates to safety in significant ways.",
+            "Key-word assumptions, that words are significant by their presence alone, are rarely enlightening.",
+            "As a person creates a communication, his selection of words is part of that creation, but they are instruments, not the final product.",
+            "A paragraph containing kill, blood, and bomb can be perfectly harmless: \"...trying to kill time listening to Uncle Harry's mutilated jokes bomb was just too much.\"",
+            "Words like tidy, pretty, flowers, beautiful, and welcome can be deeply alarming when context changes: \"God has ordered me to take you to his beautiful place, where he is anxious to welcome you.\"",
+            "A letter praising a girl's grace and beauty is only alarming because of context: it was written by a fifty-year-old man to the ten-year-old daughter of a neighbor.",
+            "The phone message \"Hi honey, it's me\" may by itself communicate a terrible threat when it is the voice of an ex-husband a woman fled by moving to another state and changing her name.",
+            "Context is the necessary link that gives meaning to everything we observe.",
+            "Whether words alarm us depends on who says them, to whom, and why, not on the words themselves.",
+            "Knowing just one thing about a person (for example, that he is a police detective rather than a postal worker) can change every other prediction about his behavior."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This station tests the context-over-content principle: word lists fail because words are instruments, not the final product, and the same vocabulary can be benign in one setting and lethal in another. De Becker's practice finds that the relationship, history, and purpose of a communication determine its meaning, so the presence of shocking words alone is nearly worthless as a pre-incident indicator.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "target_channel": "Context channel: the identity, relationship, history, and intent of the communicator as weighed against the literal vocabulary used",
+          "question": "Elena's letter contains only inviting words (tidy, pretty, flowers, beautiful, welcome) and no threatening language. What should Rafael weigh most heavily, and what does that reveal about the letter?",
+          "correct_cue": "Weigh the context above the content. The sender's identity, his relationship to Elena, and his purpose give the words their meaning: here, a man asserting a divine order to take a woman somewhere is the alarming element, just as a fifty-year-old man's praise letter to a ten-year-old neighbor's daughter was alarming despite its graceful prose. The absence of violent vocabulary is not reassuring, because context, not key words, predicts hazard. Rafael should assess who wrote it, to whom, and why, before deciding the words are benign.",
+          "distractors": [
+            "The letter is clearly safe because it contains none of the alarming key words such as kill, blood, or bomb.",
+            "The word 'anxious' signals a minor concern at most, since the letter otherwise reads like a friendly note from an admirer.",
+            "The letter should be classified by its sentence structure alone, because grammatical patterns are more reliable than either content or context."
+          ],
+          "underlying_psychology": "People gravitate to key-word scans because alarming vocabulary triggers fast, familiar threat cues, but meaning is assigned by the situation: who the communicator is, what he wants, and what his past conduct predicts. The same neural alarm that fires at 'bomb' stays silent at an invitation that, given the sender's identity and purpose, is actually the stronger danger signal."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Listener Sets the Price: Turning Gold to Tin",
+          "visual_frame_description": "In a conference room at a printing company, Omar, the founder, plays a voicemail from Marcus, a fired business partner: \"If you don't pay me ten thousand dollars, I'll tell your biggest client about the old accounting problem.\" Three reaction buttons light up on the screen as Omar decides how to answer the return call.",
+          "player_mission": "Select the response that de Becker recommends for an extortion-style intimidation, the one that converts the threat from gold to tin. Consider what the victim's reaction does to the value of the threatener's words.",
+          "key_concepts": [
+            "The proverbial extortion threat is actually an intimidation, because it contains the words if, or else, unless, or until.",
+            "It is the listener and not the speaker who decides how powerful a threat will be.",
+            "If the listener turns pale, starts shaking, and begs for forgiveness, he has turned the threat or intimidation into gold.",
+            "If the listener seems unaffected, the threat is tin.",
+            "Since victims of threats, and not threateners, decide how valuable a threat will be, the way you react will set the price tag.",
+            "\"Hold on a moment, let me get my wife on the line and you can tell her right now\" is the recommended reply that turns the threat from gold to tin.",
+            "If you can convince an extortionist that the harm he threatens does not worry you, you have at a minimum improved your negotiating position.",
+            "Convincing the extortionist you are unconcerned may actually neutralize the whole matter.",
+            "Reacting with pleading and compliance increases the extortionist's appraisal of his threat.",
+            "Victims who pay out of fear pave the way to hear that threat another day, for the person who successfully extorts money once may come back to the reluctant bank."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This station tests the listener-prices-the-threat principle: the victim's observable reaction sets the value of any intimidation, because the threatener's power is derived entirely from the fear instilled. De Becker's guidance is to appear unaffected and unconcerned so the instrument loses value, since pleading and compliance raise the extortionist's appraisal of his own threat.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "target_channel": "Response channel: the victim's own conduct during the confrontation, which determines whether the threat functions as a valuable instrument or as mere words",
+          "question": "Marcus threatens to expose a past accounting problem unless Omar pays him ten thousand dollars. Which response should Omar choose, and why does it work?",
+          "correct_cue": "Omar should answer with calm indifference that signals the threatened harm does not worry him, modeled on the recommended reply: \"Hold on a moment, let me get my wife on the line and you can tell her right now.\" Because the victim, not the threatener, sets the value of a threat, an unaffected reaction turns the threat from gold to tin, improves Omar's negotiating position, and in many cases neutralizes the matter entirely. The key cue is that his response demonstrates low appraisal and an absence of fear.",
+          "distractors": [
+            "Omar should immediately pay the ten thousand dollars quietly, because removing the exposure risk is cheaper than litigation and ends the problem permanently.",
+            "Omar should counter with his own threats of a lawsuit, since matching hostility convinces the extortionist that the stakes are higher than he realized.",
+            "Omar should beg Marcus to reconsider and offer a partial payment as a gesture of good will to keep the negotiation friendly."
+          ],
+          "underlying_psychology": "Extortion is a crime of opportunity whose value is co-created by the victim: fear is the threatener's currency, and each visible sign of anxiety raises the appraisal of his words. Demonstrating unconcern removes the payoff, because the threatener's leverage exists only in the victim's uncertainty, and a threat priced as worthless is typically abandoned."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Bomb Threat Call Triage: Anger or Explosive?",
+          "visual_frame_description": "Cassandra, a night-shift dispatch supervisor for a county courthouse, plays back a recorded bomb threat call: \"You'll all be blown up within the hour! You ought to be killed! Your day will come, I promise!\" A transcript panel streams the caller's amendments below the audio waveform, and Cassandra must score the caller's behavior against known patterns of genuine bombers.",
+          "player_mission": "Determine whether the caller's speech pattern matches a real bomber or a person discharging anger, and classify the call's significance. Identify which features of the transcript are diagnostic value-reduction statements.",
+          "key_concepts": [
+            "To believe a caller who says \"I've planted a bomb, and it's going off in three hours,\" you must believe he took extraordinary risks and then undid it all by making the warning call.",
+            "We give so much credence to the words \"I've planted a bomb\" that we rarely question equally unbelievable claims.",
+            "Nearly 100 percent of anonymous bomb threat calls are bogus.",
+            "If the bomb threatener is angry and hostile, the call is probably designed to do what most threats are designed to do: cause fear and anxiety.",
+            "A caller who wants to discharge anger over the telephone by using violent imagery, or who is agitated and aggressive, is not behaving like a real bomber.",
+            "Most real bombers are patient, I'll-get-you-in-time type people who can mortgage their emotions for another day.",
+            "Real bombers express anger by blowing things up, not by making hostile calls; ironically, bombers do not have explosive personalities.",
+            "Some threateners modify their initial threats or spit out several alarming concepts in a row: \"You'll all be blown up within the hour,\" then \"You ought to be killed,\" then \"Your day will come, I promise.\"",
+            "These amendments are called value-reduction statements, and callers who use them reveal themselves to be more interested in venting anger than warning of danger.",
+            "A real bomber who calls to claim credit would not self-sabotage by giving police time to find and defuse his device."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This station tests the distinction between anger discharge and genuine bombing intent: hostile, agitated callers who pile up amendments are venting, while real bombers are patient people who express anger through the act itself. De Becker's analysis holds that nearly all anonymous bomb calls are bogus and that a caller's value-reduction statements reveal the purpose of the call is to alarm, not to warn.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "target_channel": "Caller-speech channel: emotional tone, agitation level, and amendment patterns (value-reduction statements) during a bomb threat call",
+          "question": "The anonymous caller says \"You'll all be blown up within the hour,\" then adds \"You ought to be killed,\" then \"Your day will come, I promise.\" What does this pattern reveal about the caller?",
+          "correct_cue": "The pattern reveals anger discharge, not a planted device. Firing off several escalating violent concepts in a row are amendments called value-reduction statements, which show the caller is more interested in venting anger than in warning of danger. An agitated, hostile caller using violent imagery is not behaving like a real bomber: real bombers are patient, can mortgage their emotions for another day, and express anger by the act itself, not by hostile telephone calls. The call should be treated as fear-causing noise, not as credible evidence of an actual device.",
+          "distractors": [
+            "The quick succession of threats shows escalating seriousness, so the risk of an imminent detonation increases with each new statement.",
+            "A caller who is angry enough to threaten repeatedly is likely the same personality type that plants devices, so hostility should be treated as the strongest indicator of a real bomb.",
+            "The specificity of any bomb claim must be trusted because placing a device is such extraordinary behavior that only a genuine bomber would claim it."
+          ],
+          "underlying_psychology": "Threats are an instrument for causing uncertainty, and an angry caller's escalating amendments serve that purpose efficiently, discharging affect with no plan behind them. Genuine bombers, by contrast, defer their emotion strategically, and their willingness to call ahead is self-defeating because it hands authorities time to find and defuse the device, so the hostility of the call itself argues against a real bomber."
+        },
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Anonymous vs. Accredited Threats: Reading the Signature",
+          "visual_frame_description": "Nina, a security analyst for a cable-news network, reviews two letters sent to a national anchor. The first is typed, unsigned, and mailed with no return address; the second is handwritten, signed with a full name and address, and says \"I am going to kill you.\" Two evidence boards flank the monitor, one marked ANONYMOUS and one marked ACCREDITED, and Nina must decide which letter demands the higher risk rating.",
+          "player_mission": "Assign the higher threat rating to the correct letter by weighing how the sender handled identification. Choose the attribution pattern that de Becker's practice says portends greater danger.",
+          "key_concepts": [
+            "Anonymous death threats cause high concern, yet they actually portend less danger than accredited threats.",
+            "People who send threats anonymously are far less likely to pursue an encounter than those who sign their names.",
+            "The threatener who provides his true name is not trying to avoid attention, and is probably seeking it.",
+            "A self-identifying threatener is most similar to assassins, most of whom stand at the scene of their crimes and say \"I did this.\"",
+            "Police have historically been intrigued by anonymous death threats and apathetic about accredited ones.",
+            "The common police response to a signed threat is: \"This guy would never do anything - he signed his name right here.\"",
+            "That approach fails because actual public-figure attackers have rarely sought to avoid apprehension.",
+            "The police misunderstanding about anonymous threats stems from how different the assassin is from almost all other criminals.",
+            "Who else would actually design his offense to ensure that he gets caught? Who else would hope his act would be videotaped?",
+            "The modern media criminal, most notably the assassin, treats being caught on camera as the description of the perfect crime."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This station tests the attribution paradox: anonymity lowers risk while self-identification raises it, because the sender who signs his name is seeking attention rather than avoiding detection. De Becker's practice associates accredited threats with the assassin pattern, whose defining feature is a preference for being caught and credited, while anonymous senders are far less likely to pursue an encounter.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "target_channel": "Attribution channel: whether the sender self-identifies (name, address, recognizable handwriting) or conceals identity in a death threat",
+          "question": "Which letter should Nina rate as the higher risk, the anonymous death threat or the signed death threat, and why?",
+          "correct_cue": "Nina should rate the signed letter higher. Accredited threats portend more danger than anonymous ones because the person who provides his true name is not trying to avoid attention and is probably seeking it, making him most similar to assassins, most of whom stand at the scene of their crimes and say \"I did this.\" Anonymous senders are far less likely to pursue an encounter. The tell is the signature itself: self-identification in a death threat mirrors the modern media criminal's design of an offense that guarantees he gets caught and credited.",
+          "distractors": [
+            "The anonymous letter is the greater danger because concealing identity proves the sender has something to fear, meaning he is serious about acting.",
+            "Both letters are equivalent in risk because the content of the threat, not the sender's identification, determines the danger.",
+            "The signed letter is a lower risk because a sender who leaves his name knows apprehension will be easy, so he cannot intend real harm."
+          ],
+          "underlying_psychology": "Most criminals seek to avoid detection, which is why anonymity feels dangerous, but the assassin inverts that logic: his aim is guaranteed credit and attention, so he designs the act to ensure he is caught. An accredited threat replicates that signature desire for recognition, and it is that desire, not concealment, that predicts pursuit of the victim."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Classroom Death Threat: Context Dictates Outcome",
+          "visual_frame_description": "A university lecture hall at night fills the audit view: a student in the second row stands and delivers a matter-of-fact death threat to the professor, claims a loaded pistol in his briefcase, tilts the case so it clunks, and waits for the class to react. Timestamped observation notes and a running transcript line the left panel as the student speaks.",
+          "player_mission": "Audit the student's threat and render a verdict on its seriousness. Separate the alarming content from the controlling context that determines whether any of this will be acted upon.",
+          "key_concepts": [
+            "Most people have had little experience with death threats, and mistakenly believe the death threat is inherently different from all other threats.",
+            "In fact, the death threat is among the threats least likely to be carried out.",
+            "In de Becker's classroom exercise, five students were asked to create the most frightening, convincing death threats they could and deliver them to him.",
+            "Because the threats were invited as part of the exercise, context dictated the obvious: none of the threats would be acted upon.",
+            "It made no difference what the students said or how they said it; the professor could assess the seriousness of each one with perfect reliability.",
+            "The first student matter-of-factly described borrowing his brother's pistol and planning to shoot the professor as he walked to his car.",
+            "The student held up the briefcase and tilted it from side to side so the class could hear it contained something heavy.",
+            "He even invited fellow students to leave if they wanted to avoid seeing what would happen next.",
+            "When the professor called out \"Next threat,\" the student sat down, as scripted by the context.",
+            "Behavior that would otherwise cause alarm causes none when it is happening between actors performing an invited scene."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This file tests the context-determines-outcome principle applied to an elaborate staged death threat: the content and delivery were maximally alarming, yet because the threats were invited as a classroom exercise, context dictated that none would be acted upon. De Becker's demonstration concludes that the death threat is among the threats least likely to be carried out, regardless of how convincingly it is delivered.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "question": "Is the student's threat serious, and will any of it be carried out?",
+          "subject_baseline": "The subject is a student in a criminal-justice class at George Washington University who was explicitly invited, along with four classmates, to craft and deliver the most frightening, convincing death threats he could devise as a demonstration.",
+          "observed_nonverbal_log": "21:04 - Student rises from the second row and speaks matter-of-factly without raised voice; claims he has been planning to kill the professor. 21:05 - He lifts a briefcase and tilts it side to side so the class can hear a heavy object slide inside. 21:05 - He states he first planned to shoot the professor en route to his car but has decided to do it in the classroom, to intrigue people and bring himself attention. 21:06 - He scans the room, looks directly at several uneasy classmates, and invites anyone who wants to avoid the scene to leave now. 21:06 - He reaches slowly into the briefcase as the professor calls out \"Next threat,\" and the student immediately sits down.",
+          "interrogation_transcript": "STUDENT: \"It's ironic that you would have this exercise tonight, and I can't believe you chose me to go first, because I actually have been planning to kill you. When I saw on the schedule that you were teaching tonight, I borrowed, well, took my brother's pistol. I have it here in my briefcase.\" STUDENT: \"If anybody wants to avoid seeing this, you should leave right now.\" PROFESSOR: \"Next threat.\" STUDENT: [sits down without further comment]",
+          "correct_diagnosis": "Not serious. The threat will not be acted upon, and the correct prediction was made with perfect reliability because context, not content, dictated the outcome: the threats were invited as a class exercise, so none of them would be carried out.",
+          "diagnostic_breakdown": "The content is maximally alarming: a named weapon, a chosen location and method, body movement, and a chilling invitation to the audience. But every element loses predictive weight against the controlling fact that the threat was requested by the target as a demonstration. Since the professor had asked the students to threaten him, context dictated that none of the threats would be acted upon; nothing in the delivery changed that. The case demonstrates the general rule that a death threat is among the threats least likely to be carried out, and that the words create anxiety by design rather than by merit.",
+          "distractors": [
+            "Serious, with a high probability of action: the student named a specific weapon, produced an audible heavy object, and described his plan, which is the kind of detail only a real attacker provides.",
+            "Serious but unpredictable: the classroom audience and the presence of a visible weapon make the outcome genuinely uncertain, so the only safe verdict is to assume the worst.",
+            "Serious because of the student's emotional detachment: a matter-of-fact tone proves he has rehearsed the act, unlike the agitated amateurs who usually threaten."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Satellites: The Unneeded Detail That Names the Threatener",
+          "visual_frame_description": "A consultation room shows a woman in her fifties, Sally, retelling weeks of anonymous harassment while a counselor listens. Timestamped notes flag each detail she volunteers: a car staring at her front door, the porch lights flicked on and off, the caller telling her to move, and then, unprompted, the name of the man buying her house. The audit view highlights the moment her narration supplies a detail that is not needed by her story.",
+          "player_mission": "Audit the narration for the satellite, the unnecessary detail, and diagnose who is behind the anonymous campaign. Identify which piece of unneeded information reveals the threatener's identity and motive.",
+          "key_concepts": [
+            "People stop perceiving new information when they prematurely judge someone as guilty or not guilty.",
+            "Details not necessary to a story are details de Becker calls satellites, and they are often valuable information.",
+            "The woman who was certain her threats came from the man she had sued could not hear her own satellites because she had already settled on one suspect, shutting down perception.",
+            "In Sally's story the satellite is the name of the man she is selling her house to: Richard Barnes.",
+            "Sally insisted Richard Barnes had nothing to do with it: \"He's just the guy who is buying the house, and what a godsend he is.\"",
+            "Barnes knew details about her house, such as the bay windows, that a person could gain only by driving up the long driveway.",
+            "Barnes claimed to be jogging in Sally's neighborhood, yet he lived in a suburb more than an hour away.",
+            "Since the motive for nearly all anonymous threats is to influence conduct, ask who would be served if you took the actions the threats urge.",
+            "The anonymous caller urged Sally to move; her moving would serve someone who wanted to buy her house.",
+            "Sally had made a judgment that excluded Barnes as a suspect and accordingly left him out of her thinking."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This file tests the satellite concept: unneeded details in a narrative are often the most valuable information, but premature guilt or innocence judgments shut down the perception that would catch them. De Becker's method asks who would be served by the conduct the anonymous threats urge, which here points directly to the buyer of the house.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "question": "Who is terrorizing Sally, and which unneeded detail in her story gives the answer?",
+          "subject_baseline": "Sally is a woman living alone in a remote house she has listed for sale; she narrates her harassment willingly and fluently, convinced the caller is a stranger who wants her dead, and she has no suspicion of anyone she knows.",
+          "observed_nonverbal_log": "Week one - A car drives up the hill to her house; the driver stares at the front door until she flips the porch lights on and off, then leaves. It happens again the next day. Week two - Anonymous calls begin from a man's voice warning her to move and telling her a woman alone does not belong there. Day ten - Sally volunteers that she met Richard Barnes days after the calls began, that he is buying her house, that he was jogging by one day as she got her mail, and that he loved her bay windows; she calls him \"a godsend.\" Day ten - When the name is raised again, she adds quickly that Barnes lives in a suburb more than an hour away, a detail she does not attempt to reconcile with his jogging route.",
+          "interrogation_transcript": "SALLY: \"Someone is terrorizing me, and I've got to find out who it is... The calls started. A man's voice said, 'You should move; it's not safe there for a woman alone. You don't belong there.'\" SALLY: \"I'm so lucky I met Richard Barnes a few days later - he's the guy I'm selling the house to. And you know what? My house really is too remote for a woman alone.\" CONSULTANT: \"Tell me about Richard Barnes.\" SALLY: \"Oh, he's got nothing to do with this... One day as I was getting my mail, he was jogging by, and we started talking. He mentioned how much he loved the bay windows at my house... He made an offer the next afternoon.\" CONSULTANT: \"But the caller said you should move. Your moving wouldn't serve someone who intended to hurt you. Who would be served by your moving?\" SALLY: \"Nobody. [A pause.] Someone who wanted to buy my house?\"",
+          "correct_diagnosis": "The threatener is Richard Barnes, the man buying the house. The satellite is the name of the man she is selling to, an unnecessary detail she volunteered, and the clue chain is: the caller urged a move, only Barnes would be served by her moving, and he alone possessed house knowledge, such as the bay windows, that required driving up her long driveway.",
+          "diagnostic_breakdown": "Sally's premature judgment excluded Barnes from her thinking, so she narrated his name without hearing its meaning. The evidence: the anonymous caller demanded that she move, conduct that would serve no one who wanted to hurt her but would serve a buyer who wanted her property; Barnes, presented as a chance acquaintance jogging in her neighborhood, actually lived more than an hour away; and he knew details like the bay windows that could only be gained by driving up the long driveway. Each unnecessary detail Sally offered was a satellite carrying the identity of the threatener, but her settled verdict that the danger came from an anonymous stranger shut down the perception needed to connect them.",
+          "distractors": [
+            "The driver of the car who stared at the front door: he is the only physically present suspect, and the porch-light exchange proves a personal fixation on the house.",
+            "A random predator who read her address in public records: the caller's warnings about a woman alone duplicate exactly the kind of generic threat a stranger would use.",
+            "The consultant himself: his rapid focus on Richard Barnes suggests he is steering the investigation toward the person who would profit if her narration stopped."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Threatless Letter: When Absence of Threats Elevates Risk",
+          "visual_frame_description": "The security office of a public-figure protection firm: analyst Priya reviews a letter sent to a senator that contains no threats at all, only admiring, possessive language and a stated belief that the relationship between the writer and the senator is meant to be. A wall chart lists the themes of inappropriate communications, none of which reference violence, as Priya prepares her risk memo.",
+          "player_mission": "Audit the correspondence and render a verdict on its danger despite the total absence of threatening words. Determine how the presence or absence of direct threats functions as a predictor for public-figure cases.",
+          "key_concepts": [
+            "It is a tenacious myth that those who threaten public figures are the ones most likely to harm them.",
+            "Those who make direct threats to public figures are far less likely to harm them than those who communicate in other inappropriate ways.",
+            "The relevant warning themes are love-sickness, exaggerated adoration, themes of rejection, the belief that a relationship is 'meant to be,' and plans to travel or meet.",
+            "Not one successful public-figure attacker in the history of the media age directly threatened his victim first.",
+            "Direct threats are not a reliable pre-incident indicator for assassination in America.",
+            "The myth that harmers threaten first has led many to wrongly conclude that inappropriate communications that don't contain threats are not significant.",
+            "Public figures who ignore inappropriate letters simply because they don't contain threats will be missing the very communications most relevant to safety.",
+            "The idea that the presence of a threat lowers risk and the absence of a threat elevates risk is hard for people to grasp because it feels counter-intuitive, but it is true.",
+            "Threats spoken to uninvolved second parties are more serious than threats told directly to the famous victim.",
+            "While threats communicated directly to famous victims do not predict violence, inappropriate communications without threats are the ones that merit the highest concern."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This file tests the inverse-threat rule for public figures: the presence of a direct threat lowers predicted risk while its absence raises it, because no successful public-figure attacker in the media age threatened his victim first. De Becker's practice rates threatless but inappropriate communications, full of love-sickness, adoration, and claims of a destined relationship, as the communications most relevant to a public figure's safety.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "question": "Does this threatless letter to the senator represent a safety concern?",
+          "subject_baseline": "The sender is a writer who has sent the senator nine letters over six months, each without any threatening language; the letters contain growing intimacy, praise, references to perceived rejection by the senator's office, and the repeated claim that the two of them are meant to be together.",
+          "observed_nonverbal_log": "Month one - First letter: enthusiastic admiration of the senator's public speeches, no threats, signed with full name. Month three - Letters begin asserting that the senator privately recognizes the writer; enclose photographs of the senator's home taken from the street. Month four - A letter describes the writer's plans to travel to the senator's city and to arrange a meeting; refers to the senator's staff as obstacles. Month six - The latest letter writes that the senator owes it to the writer to respond, that rejection has been painful, and that fate has joined them; still contains no word of violence or harm.",
+          "interrogation_transcript": "ANALYST: \"This file contains no threat at all. Should I downgrade it?\" SUPERVISOR: \"Review the sequence: growing intimacy, claims of rejection, belief the relationship is meant to be, travel plans, the assertion that the senator owes him something. What predicted outcome are you actually rating?\" ANALYST: \"I was rating the words instead of the pattern. In the media age, the successful attackers never threatened first.\" SUPERVISOR: \"Then tell me which file in this stack keeps the senator alive.\"",
+          "correct_diagnosis": "Serious concern, and precisely because the letter contains no threat. Direct threats are not a reliable pre-incident indicator for public-figure attack, and not one successful attacker in the media age threatened his victim first; the danger signals are love-sickness, exaggerated adoration, themes of rejection, belief the relationship is meant to be, plans to travel or meet, and the belief that the figure owes the writer something, all present in this senders pattern.",
+          "diagnostic_breakdown": "A communications audit that scores the absence of threats as safety misreads the public-figure domain, where the relationship between threats and violence is inverted: the presence of a threat lowers risk and the absence of a threat elevates it. This sender displays every warning theme de Becker identifies: escalating intimacy, perceived rejection, the claim of a destined relationship, travel plans intended to force a meeting, and an entitlement belief that the senator owes a response. Because the sender never threatened, the file looked calm; because no successful attacker threatens first, this is exactly the file that must elevate security.",
+          "distractors": [
+            "No concern: the letter is complimentary and romantic, and a person who expresses love rather than hatred cannot be a danger to the senator.",
+            "Moderate concern only if a threat appears later: without a direct threat on record there is no basis to treat the writer as anything more than an enthusiastic supporter.",
+            "Concern only about the photographs: street-level surveillance is the single suspicious act, and once it stops the case can be closed."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Roundabout Extortionist: Greed, Malice, and the Reluctant Declaration",
+          "visual_frame_description": "A talent-agency office late at night: a young film star, Zoe, plays a voicemail from an ex-boyfriend she has not heard from in years. He begins with compliments about her Emmy appearance, the money she is making, his own rough year financially, and old photographs from Mexico, before slowly circling toward a demand. A consultant's notes panel tracks the caller's evasions and the star's week of sleeplessness.",
+          "player_mission": "Audit the extortion attempt and diagnose the caller's motive and likely behavior. Decide whether he is bluffing, whether he will carry out the threatened disclosure, and which response strategy removes the threat's value.",
+          "key_concepts": [
+            "Extortion is a crime of opportunity, usually committed by amateurs who tend to first try the most roundabout approach.",
+            "The neophyte extortionist wants his victim to jump in and make it easy by offering to pay for silence.",
+            "Victims often try to appease the extortionist, but these efforts just allow him to retain the undeserved mantle of a decent person.",
+            "De Becker suggests compelling the extortionist to commit to his sleaziness by making him state the threat explicitly, which puts him on the defensive.",
+            "Repeat \"I don't understand what you're getting at\" until the extortionist states it clearly; many cannot and either stumble around or abandon the idea.",
+            "Making the extortionist explicitly state his demand clarifies whether he is motivated by greed or malice, providing a road map to his desired outcome.",
+            "Extortionists motivated by malice are more likely to carry out the threatened act than those motivated just by greed.",
+            "Those who say the shabby words explicitly right from the start are more likely to carry out the threatened act than those who stumble around.",
+            "The only person in the world who can determine the value of a threat is the victim, and disclosing the harmful information oneself kills the threat.",
+            "In de Becker's film-star case, the client called her parents, told them the secret in her way, and the threat died; she paid nothing and the man never revealed the information anyway."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This file tests extortion diagnosis: the amateur's roundabout approach and refusal to state his demand plainly reveal a greed-motivated bluffer, whereas explicit, up-front statements of the harm signal a higher likelihood of carrying it out and possibly malice. De Becker's practice neutralizes the threat by having the victim self-disclose the secret, which removes the extortionist's leverage entirely.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "question": "Is Zoe's ex-boyfriend a genuine extortionist who will carry out his threat, and how should she respond?",
+          "subject_baseline": "The caller is an ex-boyfriend from years ago, a financial opportunist who previously kept damaging personal knowledge about Zoe; he has been out of contact and surfaces only as her career rises, opening the call indirectly rather than stating any demand.",
+          "observed_nonverbal_log": "Call minute one - He compliments her: \"You know, I saw you on the Emmy's the other night, and you're doing so well and everything, making so much money.\" Call minute two - He describes his own rough year financially before touching on pictures taken together in Mexico. Call minute three - He states that certain information about her past would upset her family and the public if it ever got out, but he stops short of naming a price. Call minute four - Asked directly what he wants, he says he hates to come across with his hand out and frames it as a favor among old friends. Week after - He never restates the demand explicitly when pressed, and after Zoe's parents are told the information, the contact stops permanently.",
+          "interrogation_transcript": "CALLER: \"You know, I saw you on the Emmy's the other night, and you're doing so well and everything, making so much money, and I've had such a rough year financially, and I was thinking about how beautiful you looked in those pictures we took that time in Mexico...\" CONSULTANT: \"I don't understand what you're getting at.\" CALLER: \"Well, I just mean, you know, some people might not understand about the past, and it would be terrible if it hurt your parents... I'm not trying to make trouble.\" CONSULTANT: \"What exactly are you threatening to do?\" CALLER: \"Threatening? Nobody said anything about a threat. I'm just an old friend looking out for you.\"",
+          "correct_diagnosis": "A greed-motivated amateur extortionist who will not carry out the disclosure. His roundabout approach, flattery, and refusal to state the demand explicitly signal a neophyte who cannot commit to his own sleaziness, and the correct strategy is to kill the threat's value by self-disclosing the information, so he is left with nothing to sell and no leverage to revisit.",
+          "diagnostic_breakdown": "The caller's behavior matches the amateur pattern: he opens with praise and his own hardship, waits for the victim to jump in and make it easy, and when pressed to state the demand explicitly, he stumbles and retreats into denial, which the book predicts of extortionists who are unlikely to carry out the act. His failure to say the shabby words directly, combined with the absence of malice in his presentation, marks him as greed-motivated rather than dangerous. The decisive intervention is to disclose the secret herself, since the victim is the only person who can determine the value of the threat; with the parents told in her way, the caller's information becomes worthless, he is never paid, and as in de Becker's comparable case, the information is never revealed.",
+          "distractors": [
+            "A dangerous, malice-driven extortionist: the length of time he waited before making the call and the personal nature of the secret prove he is invested in destroying her career.",
+            "A highly organized professional: his careful timing around her Emmy appearance shows he has planned the extortion months in advance and will escalate until he is paid.",
+            "An anonymous threatener at heart: his refusal to say what he wants makes him unpredictable, so the only safe response is to pay the fee and close the matter."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Interpersonal Context: When a Threat Raises the Odds of Violence",
+          "visual_frame_description": "A family-law mediation office is shown in audit view: Eric, an estranged husband in a custody dispute, has told his wife Dana during a hallway exchange, \"If you take the kids, you'll be sorry,\" and later, in the final week before the hearing, left the message \"You will not get away with this.\" The audit file contrasts the same words spoken to a public figure, which the profile marks as low risk, against this interpersonal setting.",
+          "player_mission": "Audit the interpersonal threat and render the correct risk verdict. Apply the context rule that same words carry opposite meanings in different relationship settings, and weigh the timing of the threat in the controversy.",
+          "key_concepts": [
+            "Assumptions that might be accurate in other situations are entirely inaccurate when evaluating threats to public figures.",
+            "In interpersonal situations (neighbor, friend, spouse), a threat tends to actually increase the likelihood of violence.",
+            "An interpersonal threat increases violence risk by eroding the quality of communication and increasing frustration.",
+            "The very same threat conveyed to a public figure does not portend violence at all.",
+            "Threats that are end-game moves, those introduced late in a controversy, are more serious than those used early.",
+            "Threats used early in a controversy likely represent an immediate emotional response as opposed to a decision to use violence.",
+            "A threat is most similar to a promise, though promises are kept far more often.",
+            "Threats betray the speaker by proving that he has failed to influence events in any other way; most often they represent desperation, not intention.",
+            "Because threats are often spoken from emotion, and emotions are ephemeral, threateners often lose their will over time.",
+            "Once the words are spoken, the threatener must retreat or advance, and like all people, he hopes to retain dignity through either course."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This file tests the context-dependence of threat meaning: in interpersonal relationships a threat increases the likelihood of violence by eroding communication and compounding frustration, while the identical words aimed at a public figure do not portend violence at all. De Becker adds that end-game threats, introduced late in a controversy, are more serious than those used early, because early threats represent emotional response rather than a decision to use violence.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "question": "Does Eric's threat to Dana portend violence, and does its timing change the assessment?",
+          "subject_baseline": "Eric is an estranged husband in a contested custody proceeding; he previously resolved conflicts through escalating arguments and has shown frustration at losing control of the negotiation; his threats began only after early attempts to influence the outcome through the mediation process failed.",
+          "observed_nonverbal_log": "Month one - Eric argues heatedly during the first mediation session but makes no threats, focusing on gaining leverage through the formal process. Month three - After the mediator's tentative recommendation favors Dana, Eric begins calling her with hostile, rambling complaints about the proceedings. Month five - Eric tells Dana in the courthouse hallway, \"If you take the kids, you'll be sorry,\" and is escorted back to the waiting room; he speaks quietly, without raised voice, and leaves when asked. Week before hearing - Eric leaves a voicemail: \"You will not get away with this. You'll see.\" He does not repeat the earlier custody condition, and the message contains no alternative or way out.",
+          "interrogation_transcript": "MEDIATOR: \"You understand you cannot direct threats at your wife, regardless of how the process goes.\" ERIC: \"I'm not threatening anybody. I'm just telling her what's coming if she keeps this up. A man's got a right to say his piece.\" DANA: \"He never said anything like this until the mediator's recommendation. The closer we get to the hearing, the meaner the messages get.\" ERIC: \"She took everything else from me. This is the only thing I have left.\"",
+          "correct_diagnosis": "The threat should be treated as a genuine escalation risk. In the interpersonal context of an estranged spouse, the threat itself increases the likelihood of violence by eroding communication and increasing frustration, and because it surfaced only late in the controversy, after other avenues failed, it is an end-game move rather than an early emotional outburst, marking it as more serious.",
+          "diagnostic_breakdown": "Context rules: the same words delivered to a public figure would not portend violence, but between spouses a threat actually increases the odds of violence, because it degrades the quality of communication and compounds frustration rather than releasing it. Timing corroborates the risk: Eric's threats appeared only at the end of the dispute, after mediation favored Dana, which fits the end-game pattern that predicts a decision to use violence, whereas an early threat would more likely be an immediate emotional response. The content of the final message, offering no condition, no alternative, and no way out, moves it beyond intimidation toward an unconditional threat, and his statement that this is the only thing he has left signals the desperation behind it. The correct response is to take the threat seriously, not to appease it.",
+          "distractors": [
+            "Low risk: people who threaten usually lose their will over time because threats are spoken from emotion, and emotions are ephemeral, so the dispute will burn itself out by the hearing.",
+            "Low risk: since Eric never stated a specific act of violence, his words are intimidations with the motive right in the statement, and Dana can satisfy the stated condition by conceding custody.",
+            "Low risk: because the same message to a celebrity would not predict violence, the absence of a public-figure outcome proves that threats do not reliably forecast harm in any setting."
+          ]
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Mall Bomb Threat: Response Policy Under Fire",
+          "visual_frame_description": "A regional shopping mall's security command center: Marcus, the general manager, huddles with the security chief over a recorded call in which an anonymous voice spits out \"You'll all be blown up within the hour,\" then \"You ought to be killed,\" then \"Your day will come, I promise.\" On the wall, the mall's pre-drafted bomb threat response policy hangs beside a map of the food court, and the screen shows a second call arriving that afternoon from the same caller.",
+          "player_mission": "Run the boss battle: first, read the caller's behavior and decide what the pattern reveals; then, when the situation escalates with a second call naming a location, choose the response that follows threat-assessment principles instead of panic or appeasement.",
+          "key_concepts": [
+            "Hostile, agitated callers who discharge anger over the telephone are not behaving like real bombers.",
+            "Real bombers are patient, I'll-get-you-in-time type people who can mortgage their emotions for another day.",
+            "Amendments like \"You'll all be blown up within the hour,\" \"You ought to be killed,\" and \"Your day will come, I promise\" are value-reduction statements that reveal venting anger, not warning of danger.",
+            "Nearly 100 percent of anonymous bomb threat calls are bogus.",
+            "A real bomber who calls for credit would self-sabotage by giving police time to find and defuse his device.",
+            "As with all threats, context is the key issue: a threat at an Olympic event will be assessed differently than the same words aimed at a shopping center.",
+            "Most of the big questions about bomb threats can be answered ahead of time so one isn't searching for a light-switch in the dark.",
+            "Without a planned approach, critical decisions are made in the stress of some highly charged moment.",
+            "We should stop treating anonymous threateners as if they were the most credible people we'd ever heard from.",
+            "Even when threats are serious, clients are advised never to show the threatener a high appraisal of his words, never to show fear."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This boss battle tests threat triage by context and caller speech: hostile callers who fire off escalating amendments produce value-reduction statements and are venting anger, while genuine bombers are patient people who mortgage their emotions, and nearly all anonymous bomb threat calls are bogus. De Becker's practice adds that organizations should settle their response questions before an incident, because critical decisions made in a highly charged moment are searching for a light-switch in the dark.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "boss_battle_explanation": "The central concept is threat triage by context and caller behavior: hostile, amendment-heavy calls are nearly always bogus anger discharge, and organizations should settle their response questions before an incident, while a calmer, more specific pattern would elevate the assessment. The battle tests reading the caller's speech pattern, then applying a pre-planned policy rather than improvising under stress.",
+          "stage_1_observation": "Marcus reviews the recorded threat: a single anonymous caller who speaks in a rushed, angry voice and fires off three escalating violent statements in a row, without settling on any one claim. The security chief notes the caller never mentions a specific location, never describes a device, and hangs up mid-sentence. The mall's pre-drafted policy card reminds the team to log the call, time-stamp the language, and score the caller's demeanor before deciding anything.",
+          "stage_1_question": "What does the caller's pattern of angry, escalating amendments reveal about the nature of this call?",
+          "stage_1_correct_answer": "The pattern reveals anger discharge, not a planted device: the rapid-fire modifications are value-reduction statements showing a caller more interested in venting than in warning. An agitated, hostile caller is not behaving like a real bomber, real bombers are patient people who mortgage their emotions for another day, and nearly 100 percent of anonymous bomb threat calls are bogus. The call should be logged and assessed through the pre-planned policy, not treated as credible evidence of a device.",
+          "stage_2_intervention": "That afternoon the same caller telephones again: \"The device is in the food court, next to the escalator. I'm giving you one hour.\" This time the voice is calmer, the location is specific, and the call arrives exactly as the mall enters its busiest shopping hour. The security chief looks to Marcus: evacuate the wing immediately and have security plead with the caller for more information over the public address system, ignore the second call as another likely hoax, or execute the pre-drafted policy, documenting the escalation, notifying the authorities, and refusing to show the caller any fear or high appraisal of his words.",
+          "stage_2_correct_answer": "Execute the pre-drafted policy: document the second call, notify law enforcement as the policy prescribes, and keep the response measured, never showing the caller a high appraisal of his words or any fear. The decision framework was built ahead of time specifically so critical choices are not made by searching for a light-switch in the dark, and context still rules: this shopping center context receives a different assessment than the same words at an Olympic event, but the new specific location and calmer tone are grounds to escalate within the plan, not to improvise, panic, or bargain with the caller."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The Alarm Response: When to Act, When to Keep Perceiving",
+          "visual_frame_description": "An accounting firm's open office at 9:47 a.m.: Priya, a senior analyst, holds an opened envelope containing a typed letter that reads \"I am going to kill you.\" Her heart pounds, her breathing turns short, and her vision narrows as she stares at the page; a status panel tracks her physiological state in real time, labeling the rising blood flow, cortisol release, and muscle tension. The letter arrived by mail and bears no postmark of urgency, but seconds later her desk phone rings.",
+          "player_mission": "Win the boss battle by managing two different demands: recognize why Priya's body is mobilizing and apply the correct evaluation method for a future hazard, then make the split-second decision when the hazard becomes present and immediate.",
+          "key_concepts": [
+            "Alarming words cause people to react by going into a defensive posture, psychologically speaking.",
+            "A death threat communicated in a letter cannot possibly pose any immediate hazard, yet the recipient may start physically getting ready for danger.",
+            "The alarm response includes increased blood flow to the arms and legs for fighting or running, and the release of cortisol, which helps blood coagulate more quickly in case of injury.",
+            "The response also includes lactic acid heating up in the muscles to prepare them for effort, focused vision, and increased breathing and heartbeat.",
+            "These responses are valuable when facing present danger, as when Kelly stood up and walked out of her apartment.",
+            "For evaluating future hazard, staying calm produces better results.",
+            "A way to stay calm is to consciously ask and answer the question \"Am I in immediate danger?\"",
+            "Your body wants you to get that question out of the way, and once you do, you'll be free to keep perceiving what's going on.",
+            "When we are stunned or distracted we raise the very drawbridge, perception, that we must cross in order to make successful predictions.",
+            "It is important to react calmly, because when in alarm we stop evaluating information mindfully and start doing it physically."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This boss battle tests the distinction between the body's alarm mobilization, which is indispensable for present danger, and the calm evaluation required to predict future hazard: consciously asking and answering \"Am I in immediate danger?\" frees perception for prediction. De Becker's practice holds that when in alarm we stop evaluating information mindfully and start doing it physically, so staying calm produces better results whenever the danger is not present.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "boss_battle_explanation": "The central concept is the distinction between the body's alarm mobilization, which is indispensable for present danger, and the calm evaluation required for future hazard: asking and answering \"Am I in immediate danger?\" frees perception for prediction. The battle tests recognizing the physiological response for what it is, then switching correctly to action when danger is truly present.",
+          "stage_1_observation": "Priya reads the mailed death threat twice. The security panel shows her pupils dilating, breath quickening, and a flush of blood flow to her arms and legs while the cortisol marker climbs; her hands are steady enough to set the letter down. Nothing in the room has changed, no one is nearby, the envelope was opened an hour after it was delivered, and the threat names no date, place, or method.",
+          "stage_1_question": "Why is Priya's body mobilizing for an emergency, and how should she evaluate the letter's threat given the nature of its delivery?",
+          "stage_1_correct_answer": "Her body is responding to the alarming words with the standard alarm mobilization: blood flow to the arms and legs for fighting or running, cortisol released to speed blood coagulation, lactic acid heating the muscles, focused vision, and faster breathing and heartbeat. Those responses are valuable for present danger, but a mailed letter cannot pose any immediate hazard, so for this future hazard the correct method is to ask and answer the question \"Am I in immediate danger?\" Getting that question out of the way frees her to keep perceiving calmly, because when in alarm we stop evaluating information mindfully and start doing it physically.",
+          "stage_2_intervention": "As Priya sets the letter down, her desk phone rings and a man's voice says, \"You read it. I'm in the parking garage now, watching the clock.\" Through the window behind her, a figure in the garage across the street steps between the parked cars and looks up toward her floor. The status panel now flashes PRESENT DANGER. Priya has three seconds to choose: stand calmly and call building security to discuss the situation with the caller, stay at her desk and keep evaluating the letter for clues, or act immediately on the present-danger signal and move away from the windows toward an exit.",
+          "stage_2_correct_answer": "Act immediately on the present-danger signal: move away from the windows and toward the building exit, exactly as the alarm mobilization is designed to support and as Kelly did when she stood up and walked out of her apartment. The same physiological response that degrades evaluation of a future hazard becomes the correct instrument when the danger is present, so the calming question has been answered \"yes\" and thinking time is over; the letter itself will keep for later calm appraisal, but staying put or negotiating now would sacrifice action to evaluation at the moment action is required."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "spec_file": "spec_gift_of_fear_b18.json",
+  "chapters": [
+    {
+      "id": "ch25",
+      "title": "Recommended Reading",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "CUE_SCRUBBER_STATION",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "Denial as selective non-attention at a curated safety-reading table",
+          "visual_frame_description": "A community-center reading room at noon. Nina, the workplace-safety coordinator at Midland Freight, has laid a long oak table with the recommended-reading list from the back of The Gift of Fear, each book propped upright with a typed card. Three coworkers browse the display while a corkboard behind them holds a copy of the reading list clipped next to an incident report about a fired employee who threatened the front-desk staff. The player watches the browsers from a doorway, a magnifier icon hovering over the table as the selection channel lights up.",
+          "player_mission": "Inspect the selection-and-avoidance channel and determine whose browsing pattern signals denial about a threat close to home. Pick the one browsing behavior that is the strongest cue that a coworker is refusing to connect the reading to his own workplace.",
+          "target_channel": "Selection-and-avoidance channel: which titles a person picks up, lingers over, copies, or deliberately turns face-down while browsing a curated safety-reading table.",
+          "question": "Dennis, an office manager at Midland Freight, browses the reading table an hour after a fired employee threatened the front-desk staff. Which browsing behavior is the strongest cue that Dennis is in denial about the risk within his own workplace?",
+          "correct_cue": "Dennis lingers over and takes notes from Ressler's Whoever Fights Monsters and Monahan's Predicting Violent Behavior, spending minutes on violence 'out there' committed by strangers and monsters, while deliberately turning Dutton and Golant's The Batterer and Gross's To Have or To Harm face-down at the edge of the table the moment he notices them. Denial operates by directing attention away from threat that is close, so the tell is the pairing: appetite for abstract, distant cases of violence combined with active physical avoidance of the two titles that would implicate an intimate or familiar source. The book's own reading list places these domestic-violence titles prominently because, as de Becker argues, recognizing warnings closest to home is where denial does its most dangerous work.",
+          "distractors": [
+            "Dennis picks up Fein and Schneider's The Rules, laughs, and tells a coworker that dating rules are common sense, then moves on without taking the book to a chair.",
+            "Dennis spends most of the hour straightening the display, stacking copies by publisher and aligning the card holders, after which he compliments Nina on the arrangement.",
+            "Dennis immediately copies Schaum and Parrish's Stalked! onto the department's shared drive so every coworker can read it, then leaves the room for a meeting."
+          ],
+          "underlying_psychology": "Denial is a defense that lowers anxiety by filtering out information that would force a person to acknowledge personal danger, and its detectable signature is selective non-attention: strong appetite for threat information that is distant or abstract paired with active avoidance of threat information that is close and personal. De Becker names denial the powerful and cunning enemy of successful predictions and closes the book with a reading list that includes Ernest Becker's The Denial of Death precisely to arm readers against this filtering.",
+          "key_concepts": [
+            "The Gift of Fear closes with a curated reading list that directs the reader to the science and testimony behind each of its warnings.",
+            "Ernest Becker's The Denial of Death anchors the book's insistence that denial is a powerful and cunning enemy of successful predictions.",
+            "Daniel Goleman's Emotional Intelligence is recommended on the grounds that emotional awareness is a learnable skill that can matter more than IQ.",
+            "Nathaniel Branden's Honoring the Self points to confidence and self-respect as foundations of a psychologically defended life.",
+            "Alice Miller's trilogy of childhood injury and the search for the true self links early wounding to later adult destructiveness.",
+            "John Monahan's Predicting Violent Behavior grounds the book's core claim that violence is predictable through careful assessment.",
+            "Robert Hare's Without Conscience explains psychopathy as action without conscience or empathy, the book's archetype of the imperfect stranger.",
+            "Dutton and Golant's The Batterer profiles the escalating controlling man, supporting the claim that spousal murders are among the most predictable killings.",
+            "Schaum and Parrish's Stalked! breaks the silence on stalking as the crime epidemic of the nineties, matching the book's chapter on persistence.",
+            "Richard Wurman's Information Anxiety cautions that information without application does not tell you what you need to know."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests denial as selective inattention, the mechanism by which a person consuming threat information filters out the portion that would force acknowledgment of personal danger. De Becker warns that denial is the 'powerful and cunning enemy of successful predictions,' and the bibliography he recommends, led by Ernest Becker's The Denial of Death, exists precisely to arm readers against it.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The certified reader: performance of learning versus applied belief",
+          "question": "Darlene claims she has completed all three assigned titles from the recommended list (Goleman's Emotional Intelligence, Schaum and Parrish's Stalked!, Dutton and Golant's The Batterer) and that she has 'taken them to heart.' Does her performance represent genuine learning, or is it a sleight of words?",
+          "subject_baseline": "Across the six-week safety-training cohort at the Hartwell counseling center, Darlene is punctual, volunteers to speak first, and deploys precise book jargon with publisher names and years. She asks no follow-up questions, never applies a lesson to a specific client case, and was once praised by a supervisor as 'the fastest reader on staff.'",
+          "observed_nonverbal_log": "0:00-0:14: Darlene opens the audit by reciting the three titles with publishers and publication years, hands steady, tone measured, eyes on the interviewer. 0:15-0:31: Asked what the books would change in her own conduct, her gaze drops to the table, one hand tugs at a sleeve, and her voice slows; she answers 'It's just reading.' 0:32-0:44: She pivots quickly to trivia, citing the page count of the Goleman paperback, and her smile returns as her posture lifts. 0:45-0:58: Asked to role-play a single takeaway with a mock client, she laughs, checks her phone under the table, and shelves the request.",
+          "interrogation_transcript": "INTERVIEWER: 'Did the reading change anything you will do tomorrow?' DARLENE: 'I mean, it's just reading. I did all of it.' INTERVIEWER: 'If a client tells you her boyfriend monitors her texts, what does The Batterer suggest you weigh?' DARLENE: 'Chapter four, I think. There's a checklist somewhere. I could look it up.' INTERVIEWER: 'Suppose he is outside her building right now.' DARLENE: 'She should wait and see if it's really him. I don't want to scare her.'",
+          "correct_diagnosis": "Performance of learning, not applied belief. Darlene has acquired vocabulary while her conduct shows the sleight of words the book warns about: she substitutes the reputation of having read for the substance of acting on what was read, preserving the self-report 'I did all of it' at the cost of the content.",
+          "diagnostic_breakdown": "(1) The baseline establishes her pattern: mastery of titles paired with zero application, meaning she already treats books as status objects rather than instruction. (2) The log shows fluency collapsing exactly at the two behavioral-transfer questions (It's just reading; I could look it up), which is the signature of text that was decoded but never represented against personal conduct. (3) The pivot to trivia and the under-table phone check are escape behaviors that preserve the fiction of expertise when application is demanded. (4) In the final threat scenario she defers the danger, advising the client to wait and see and reasoning 'I don't want to scare her,' which contradicts both The Batterer's escalation patterns and the book's warning that denial, not ignorance, is the true hazard. The verdict: she is not lying about having read the books; she is deceiving herself and the cohort about what the reading accomplished.",
+          "distractors": [
+            "Genuine mastery undermined by performance anxiety under direct observation, which the fluent trivia recall and immediate topic pivots rule out.",
+            "Deliberate deception to obtain a course certificate, which her volunteered enthusiasm and her failure to solicit any credential contradict.",
+            "Poor reading comprehension caused by a learning difficulty, which her fast, precise citation recall rules out; her failure is exclusively at the application stage."
+          ],
+          "key_concepts": [
+            "The recommended list includes Wurman's Information Anxiety: possessing information is not the same as knowing what to do with it.",
+            "The book argues that trust, formerly earned through actions, can now be purchased with 'sleight of hand, and sleight of words.'",
+            "The book distinguishes reading about violence from being prepared for it, since prediction without preparation is only curiosity.",
+            "Goleman's Emotional Intelligence is on the list because the book treats emotional skill as trainable rather than fixed at birth.",
+            "Dutton and Golant's The Batterer is recommended so readers can recognize the escalation patterns of the controlling partner.",
+            "Schaum and Parrish's Stalked! documents an epidemic of unwanted pursuit that the book says is vastly underreported.",
+            "Ernest Becker's The Denial of Death is recommended because denial lets people misplace unmistakable warnings.",
+            "Hare's Without Conscience describes people whose concern for another's welfare never switches on, the trait that makes them unpredictable to empathic readers.",
+            "The list pairs victim testimony, such as Gross's To Have or To Harm, with clinical analysis like Monahan's, because the book trusts both accounts.",
+            "De Becker warns that a person may claim to know the warning signs yet still perform exactly the behavior the signs predict: knowledge without belief."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the sleight of words: presenting the vocabulary of knowledge as its substance, a maneuver de Becker says has replaced trust earned through actions. Both Goleman's Emotional Intelligence and Wurman's Information Anxiety appear on his recommended list, each warning that information that is never applied does not produce competence.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "visual_frame_description": "A study desk with three finished books from the recommended reading list (Emotional Intelligence, The Gift of Fear, and a threat-assessment title) and a smiling reader, Darlene, who claims she has 'completed the program.' A status panel behind her contrasts her verbal claim of mastery against the actions logged since she finished the books; the player watches her answer a rapid-fire application interview.",
+          "player_mission": "Audit whether Darlene has truly converted the reading list into applied safety belief, or only performed the act of finishing the books. Compare her claimed completion against the behavior log — what she actually did differently after reading each title — and deliver a verdict of genuine application versus performance of learning."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+          "topic": "The boss test: converting the reading list into protective action",
+          "boss_battle_explanation": "The final chapter is the book's closing door: a curated reading list that consolidates the tools of every preceding chapter, from pre-incident indicators to listening to intuition. The battle tests the knowledge-to-action gap, de Becker's caution that prediction without preparation is only curiosity, by making the player watch readers who performed well on quizzes fail to apply the list in real time, and then requiring a correct intervention when the threat escalates.",
+          "stage_1_observation": "The Thursday book-group hour at the Hartwell Community Center. Four people who just finished the recommended list sit around a folding table: Tom, a union steward; Ruth, a receptionist at Midland Freight; Paula, Ruth's sister; and Ellis, the volunteer facilitator. On the corkboard the reading list is clipped beside a note found under Ruth's windshield wiper that morning, reading 'We were a team. We'll talk soon.' Tom is quoting Monahan's statistics on violence prediction at length. Ellis is already scheduling the next meeting. Paula strokes the note and says Ruth's ex writes 'nice notes' and 'just wants to talk things through.' The player watches from the doorway.",
+          "stage_1_question": "Which detail shows a reader failing to convert the finished list into applied belief?",
+          "stage_1_correct_answer": "Paula's reframing of her ex's escalating, contact-seeking note as a 'nice note' paired with her advice to 'talk things through.' She finished the list, with Stalked! and The Batterer stacked beside her elbow, yet she performs the exact denial the book diagnoses: she converts a boundary-testing approach into romance and proposes the negotiation the book warns against. Her sister's calm, however, means Ruth is at risk for the very reason de Becker cautions: the ones prepared to act are often talked out of it by the ones in denial.",
+          "stage_2_intervention": "Hours later Ruth calls the player. Her ex has just appeared in the center's parking lot, circling her car twice, and Paula has walked out to 'have a word with him so he stops worrying her.' Ruth asks what she should do right now. Choose the intervention that follows the rules the reading list was meant to teach.",
+          "stage_2_correct_answer": "Tell Ruth not to leave the building and not to answer anything he sends or says, make sure she is in a locked, staffed office with a second colleague on the line with 9-1-1, and stop Paula from approaching him. No one should go out to 'reason' with him: contact is fuel for the fire, the golden rule for people who refuse to let go is to not negotiate, and 'letting him down easy' is precisely the mistake the book's date-stalking chapter is named for. If any message must be delivered, it should come from police, never from Ruth or Paula.",
+          "key_concepts": [
+            "The final chapter is a reading list that consolidates the book's tools: prediction, pre-incident indicators, and listening to intuition.",
+            "The list includes Mones's When a Child Kills and Ressler's Whoever Fights Monsters, extending the lessons to violent children and serial offenders.",
+            "Wrangham and Peterson's Demonic Males ties human violence to primate origins, supporting the book's view that violence is natural and therefore predictable.",
+            "The book's golden rule for people who refuse to let go is do not negotiate: once a decision is made, further discussion feeds the pursuer.",
+            "Contact is fuel for the fire: every reply, even a hostile one, supplies a persistent suitor with new material to build on.",
+            "De Becker named a chapter after the phrase 'I was trying to let him down easy,' warning that softening a rejection prolongs pursuit.",
+            "In the workplace, the book says threats and grievances are usually preceded by observable warning signs that colleagues are positioned to see and report.",
+            "Schaum and Parrish's Stalked! is recommended to break the silence about stalking, a silence that protects the pursuer.",
+            "Dutton and Golant's The Batterer documents that intimate violence advances in a predictable sequence rather than at random.",
+            "Nathaniel Branden's Honoring the Self is recommended, affirming that confidence and self-respect underlie the willingness to act on one's own survival signals."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the knowledge-to-action gap: the book's insistence that prediction without preparation is only curiosity, and that reading about warning signs has value only when behavior changes. The pending list of Stalked!, The Batterer, and Mones must convert into executable rules such as 'do not negotiate' and 'contact is fuel to the fire' before the reader closes the final page.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Emerging",
+            "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+          },
+          "visual_frame_description": "A final gauntlet room: the player faces a 'boss' who has read every recommended title and can quote passages fluently, yet the incident log beside the conversation shows the same risky behaviors repeating unchanged. A verdict meter fills as the player tests whether knowledge has become belief, while the boss reaches for the next book instead of changing the plan.",
+          "player_mission": "Identify which detail proves the finished reading list has NOT been converted into protective action, then intervene to move the reader from performance of learning to applied belief. Diagnose the knowledge-to-action gap and choose the intervention that forces the behavior change the books recommend."
+        }
+      ]
+    }
+  ]
+}
