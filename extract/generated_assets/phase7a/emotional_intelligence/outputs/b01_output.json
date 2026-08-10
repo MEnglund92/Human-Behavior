@@ -1,0 +1,611 @@
+{
+  "spec_file": "spec_emotional_intelligence_b01.json",
+  "chapters": [
+    {
+      "id": "ch06",
+      "title": "Aristotle's Challenge",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Emotional Contagion on the Bus",
+          "visual_frame_description": "It is a steamy August afternoon in midtown Manhattan. The player sits in the driver's seat of a city bus crawling up Madison Avenue through gridlock; passengers board with slumped shoulders and morose faces, fans limp, nobody talking. On the far wall of the cab hangs a city transit schedule and a faded 'Have a nice day' sticker. Each time the door hisses open, another sullen commuter climbs in, and the player sees the mood of the whole cabin darken a notch.",
+          "player_mission": "You are the bus driver. Over the next few stops, choose how you greet and carry each passenger, then decide how to respond when nobody returns your greeting. Your goal is to see whether a single person's expressed delight can transmute a cabin full of sullen irritability before the passengers exit.",
+          "key_concepts": [
+            "Emotional intelligence includes self-control, zeal and persistence, and the ability to motivate oneself.",
+            "Goleman describes the Madison Avenue bus driver as an 'urban peacemaker of sorts, wizardlike in his power to transmute the sullen irritability that seethed in his passengers.'",
+            "Good feeling spreads like a virus: Goleman imagined 'the spreading virus of good feeling that must have rippled through the city, starting from passengers on his bus.'",
+            "Passengers who boarded locked into the morose mood of the day and returned the driver's greeting only reluctantly.",
+            "By the time passengers departed, each had 'shaken off the sullen shell they had entered with' and gave a smiling response to his farewell.",
+            "The decade's slogan of the hour shifted from the cheery 'Have a nice day' to the testiness of 'Make my day.'",
+            "Empathy, the ability to read emotions in others, is described in the chapter as the root of altruism.",
+            "The ability to rein in emotional impulse, read another's innermost feelings, and handle relationships smoothly is called the basic flair for living that is emotional intelligence.",
+            "The last decade produced an unprecedented burst of scientific studies of emotion, including new brain-imaging technologies.",
+            "A welter of self-help books rushed into the void left by psychology's neglect of emotion, advice based at best on clinical opinion without much scientific basis.",
+            "Goleman reports a steady drumroll of news portraying an uptick in emotional ineptitude, desperation, and recklessness in families and communities."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests emotional contagion, the spread of mood from one person to a whole group: a single cheerful, expressive person can lift the state of everyone around him. Goleman's twenty-year-old memory of the Madison Avenue bus driver is presented as evidence that a 'virus of good feeling' can ripple outward through a city, while sullenness is just as contagious in the other direction.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "It is an unbearably steamy August afternoon. Passengers are boarding your Madison Avenue bus in a collective bad mood: nobody greets anyone, nobody smiles. You remember that a driver Goleman rode with years ago simply started offering a friendly 'Hi! How you doing?' to every passenger, kept up a lively commentary on the passing scene, and watched the sullen shell fall away from everyone before their stop. Stakes: if you match the passengers' gloom, the whole ride stays dead; if you model delight, you may watch the mood transform stop by stop.",
+          "dialogue": [
+            "Doors hiss open; a passenger with a briefcase steps on, face drawn.",
+            "Passenger (Martin): 'This heat is murder. Just take me to 59th, driver, no funny stuff.'",
+            "You: 'Hi! How you doing? Rough day, huh — they say a thunderstorm's coming tonight, should break this humidity.'",
+            "Martin: 'Hmph. Don't see how that helps me get home.'",
+            "You (to the cabin): 'Hey, look at that — the museum's got the new exhibit up, I heard it's worth the wait in line.'",
+            "Martin (half-turning): '...The natural history one? My kid's been asking to go all summer.'",
+            "You: 'That's the one. Well, you got the evening ahead of you.'",
+            "Martin (voice loosening): 'Maybe I do at that. Thanks, driver.'",
+            "An elderly woman boards and catches the tail of the exchange; you greet her warmly and she smiles back before sitting down.",
+            "At 59th, Martin steps off, turns, and calls: 'So long, have a great day!'"
+          ],
+          "choices": [
+            "Greet every passenger warmly, offer short pleasant running commentary on the passing scene, and keep it up even when nobody responds at first.",
+            "Stay professional and silent; people on a bus want quiet, and a forced chatty driver is worse than a sullen one.",
+            "Make one cheerful greeting, and after two passengers ignore you, drop it and drive in silence for the rest of the route.",
+            "Match the passengers' mood and let them sit in it: commuters built the wall, they can tear it down."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Emotional contagion and the transmuting power of expressed delight",
+          "psychological_breakdown": "The optimal choice reproduces the bus driver's technique: sustained, expressive delight delivered to everyone regardless of initial response. Goleman watched passengers who boarded 'locked into the morose mood of the day' soften and exit smiling once the driver's infectious commentary had done its work, making him an urban peacemaker. Choice 2 fails because it assumes neutrality; in the chapter silence simply preserves the sullen equilibrium, and Goleman notes the culture had shifted from 'Have a nice day' to 'Make my day.' Choice 3 fails because contagion takes repetition and exposure — the driver's monologue built momentum across the whole route, not in one line. Choice 4 fails because it surrenders to the very mood the chapter treats as contagious and changeable: emotions flow from person to person, and a lone sour passenger can drag a group down just as one warm driver can lift it."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Aristotle's Calibration of Anger",
+          "visual_frame_description": "A glass-walled conference room on the 12th floor of a software firm in Austin; the skyline glows through the window behind a whiteboard covered in delivery dates. Nina, a project lead in a gray blazer, stands facing Marcus, a fellow lead, who just blamed her for a missed handoff in front of the VP. Marcus leans back in his chair, arms crossed, smirking; Nina's knuckles are white around a marker she no longer uses.",
+          "player_mission": "You are Nina. Marcus publicly blamed you for a slipped schedule, and you are genuinely angry. Choose when, where, at what degree, and in what way you express that anger. Your goal is to be angry with the right person, to the right degree, at the right time, for the right purpose, and in the right way.",
+          "key_concepts": [
+            "Aristotle's challenge: anyone can become angry, but to be angry with the right person, to the right degree, at the right time, for the right purpose, and in the right way is not easy.",
+            "As Aristotle saw, the problem is not with emotionality, but with the appropriateness of emotion and its expression.",
+            "Our passions, when well exercised, have wisdom; they guide our thinking, our values, and our survival.",
+            "Impulse is the medium of emotion; the seed of all impulse is a feeling bursting to express itself in action.",
+            "The ability to control impulse is described as the base of will and character.",
+            "Emotional intelligence is defined as abilities including self-control, zeal and persistence, and the ability to motivate oneself.",
+            "The flair for living called emotional intelligence includes being able to rein in emotional impulse, read another's innermost feelings, and handle relationships smoothly.",
+            "Goleman contrasts the high-IQ people who flounder with the modest-IQ people who do surprisingly well, arguing the difference often lies in emotional intelligence.",
+            "Emotional intelligence skills, Goleman argues, can be taught, giving children a better chance to use whatever intellectual potential the genetic lottery has given them."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests Aristotle's calibration of anger: the problem is not the emotion itself but the appropriateness of its target, degree, timing, purpose, and expression. Goleman frames the entire book around this rare skill, arguing that well-exercised passions have wisdom, while impulse unchecked by self-control corrodes both character and relationships.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "At the sprint review, VP Rao asked why the client handoff slipped. Marcus answered, 'Nina missed the integration date — she's been promising delivery since June.' That was false on its face: the delay came from Marcus's team's API. Nina is furious and feels the whole room watched her take the fall. Stakes: her reputation with Rao, her working relationship with Marcus, and her own sense of whether she can trust her anger or must muzzle it entirely.",
+          "dialogue": [
+            "Nina: 'We need to talk about what you said in the review, Marcus. The API was yours.'",
+            "Marcus: 'I told Rao the truth. The schedule shows integration was due in June. Not my job to do your arithmetic.'",
+            "Nina: 'You know the API landed two weeks late. You stood there and let everyone think I was the reason.'",
+            "Marcus: 'Look, if you can't manage a timeline, that's on you. I'm not going to carry you in front of Rao.'",
+            "Nina: 'So your answer is to keep repeating it until it sounds true?'",
+            "Marcus (standing, raising his voice): 'Careful, Nina. Rao trusts my numbers more than your feelings.'",
+            "Nina: 'This isn't about feelings. This is about what actually happened, and you know it.'",
+            "Marcus: 'Whatever. Put a ticket in if you want a paper trail. I've got real work.'"
+          ],
+          "choices": [
+            "Say nothing more now, but schedule a private meeting with Marcus tomorrow, open with the concrete facts, and state plainly what you need from him going forward.",
+            "Let him have it right here, in the hallway where the rest of the team can hear: 'You're a liar, Marcus, and Rao is going to find out what a backstabber you are.'",
+            "Walk away and quietly leave Marcus out of the loop on every future deliverable — a withheld detail here, a delayed notification there — so he learns what it costs to cross you.",
+            "Bring it up in the next sprint review, in front of Rao, and spend the whole meeting re-litigating June's timeline point by point."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Aristotle's requirement that anger be expressed at the right degree, time, purpose, and way",
+          "psychological_breakdown": "Choice 0 is the calibrated response: the right person (Marcus), the right degree (calm but firm), the right time (private, after the heat of the moment), the right purpose (repairing the working relationship and the record), and the right way (facts, not attacks). The chapter argues passions 'when well exercised have wisdom' and that the flaw is not emotionality but its expression. Choice 1 fails on every axis at once: wrong time, wrong degree, and wrong way, converting legitimate anger into public humiliation that damages Nina's standing more than Marcus's. Choice 2 is the chapter's moral deficiency in action: it makes impulse, not judgment, the master, since the seed of impulse is a feeling bursting to express itself in action, and those at the mercy of impulse lack the self-control that is the base of will and character. Choice 3 uses the wrong way and wrong purpose: covert revenge misdirects the anger and poisons the team, precisely the corroding of relationships the chapter warns EI deficiencies produce."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Shaping a Child's Emotional Habits",
+          "visual_frame_description": "A crowded supermarket aisle in a suburb of Cleveland on a Saturday morning. A three-year-old boy named Leo sits on the floor, crying and kicking, his arms wrapped around a box of cereal his mother just told him he could not have. A cart blocks the aisle; shoppers step around it, frowning. The mother, Jess, is red-faced and exhausted, holding a younger baby in a sling, and the scene has the feel of a fuse burning down.",
+          "player_mission": "You are Jess. Leo is wailing at full volume in the middle of the store, and every adult around you is watching. Choose how you respond in the next minute. Your goal is to stop the public meltdown without teaching Leo that explosions are the way to get what he wants.",
+          "key_concepts": [
+            "Goleman's news file reports that for murder victims under twelve, 57 percent of the murderers are their parents or stepparents.",
+            "In almost half of those fatal cases, the parents said they were 'merely trying to discipline the child.'",
+            "The fatal beatings were prompted by 'infractions' such as the child blocking the TV, crying, or soiling diapers.",
+            "Impulse is the medium of emotion; the seed of all impulse is a feeling bursting to express itself in action.",
+            "The ability to control impulse is the base of will and character, and lacking self-control constitutes a moral deficiency.",
+            "The neurological data suggest an opportunity for shaping our children's emotional habits.",
+            "Childhood and adolescence are critical for setting down the essential emotional habits that will govern our lives.",
+            "Goleman foresees education routinely inculcating competencies such as self-awareness, self-control, and empathy, and the arts of listening, resolving conflicts, and cooperation.",
+            "A massive survey of parents and teachers shows a worldwide trend for the present generation of children to be more troubled emotionally than the last: more lonely and depressed, more angry and unruly, more nervous and prone to worry, more impulsive and aggressive.",
+            "At present, Goleman argues, we leave the emotional education of our children to chance, with ever more disastrous results."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests impulse as the medium of emotion and the parent's role in shaping emotional habits: a feeling bursts to express itself in action unless self-control is built. Goleman's chilling news data — parents who said they were 'merely trying to discipline' children whose 'infractions' were crying or blocking the TV — frame the stakes of teaching impulse control instead of punishing it.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Leo's meltdown is over a sugary cereal he saw on the shelf. Jess has already said no twice. She is furious, embarrassed, and has been up since five with the baby. Stakes: how she handles this single minute teaches Leo either that his feelings can be named and managed or that the loudest outburst wins; and how she manages her own anger models self-control for him in real time.",
+          "dialogue": [
+            "Leo (screaming): 'I WANT THE CRUNCHY BERRIES! You never let me have ANYTHING!'",
+            "Jess: 'Leo, I said no. Stop it. People are looking at us.'",
+            "Leo (louder, kicking): 'NO! I want them NOW!'",
+            "Jess: 'That's it, we are LEAVING. I don't care if we have groceries or not.'",
+            "A bystander (muttering to her companion): 'Somebody ought to teach that kid manners.'",
+            "Leo (crying harder): 'You hate me! You're the worst mommy!'",
+            "Jess (feeling the heat rise in her own chest): '...Leo. Look at me. I am angry too right now. But I am not going to yell at you.'",
+            "Leo (hiccuping): '...You're still not letting me get the berries.'",
+            "Jess: 'No, I'm not. And you're allowed to be sad about that. You're not allowed to scream in the store. When you can calm down, we'll finish shopping.'",
+            "Leo (sniffling, rubbing his eyes): '...Can I push the cart?'"
+          ],
+          "choices": [
+            "Scoop Leo up and leave the store immediately, telling him he just lost his TV time tonight and is grounded from treats for the week.",
+            "Give in and buy the cereal so he will stop crying, then tell yourself you will hold the line next time.",
+            "Kneel down, name what he is feeling, hold the limit calmly, and let him ride out the sadness in the aisle before continuing shopping.",
+            "Turn to the muttering bystander and explain loudly that her children would never act this way because she never takes them anywhere."
+          ],
+          "optimal_choice": 2,
+          "theoretical_principle": "Impulse as the medium of emotion and the shaping of emotional habits through self-control and empathy",
+          "psychological_breakdown": "Choice 2 applies the chapter's core moves: the parent reads the child's emotion, names it, and models her own self-control while holding the limit — treating the moment as an opportunity to shape an emotional habit rather than to win a battle. The chapter stresses that impulse is a feeling bursting to express itself in action, and that the neurological data suggest real opportunity for shaping children's emotional habits. Choice 0 is the tragic pattern behind the chapter's news data: 'discipline' in response to crying has, in the worst cases, ended in fatal beatings, and harsh punishment teaches suppression, not self-control. Choice 1 confirms the child's explosive strategy works, training exactly the impulsive, aggressive behavior the survey found rising in the current generation. Choice 3 abandons the child's education entirely to take up a fight with a stranger — the parent's own impulse running amok, the same failure of self-control the chapter warns gets 'divorced from obvious reaction' in adults."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Impulse Running Amok in the Schoolyard",
+          "visual_frame_description": "A schoolyard at dismissal on a Thursday afternoon, seen through the chain-link fence. Nine-year-old Devon has just emptied a can of red paint over a row of desks a teacher set out for tomorrow's art project; paint drips off a computer monitor and a parked car in the lot. Three third-graders stand at the far end of the yard smirking, having called him a 'baby' minutes earlier. The principal is striding toward Devon, radio in hand, while Devon stands frozen, breathing hard, paint can still in his fist.",
+          "player_mission": "You are the school counselor arriving at the scene. First, diagnose what is driving the rampage; second, choose the intervention that does not repeat the failure pattern in the chapter's news file. Your goal is to stop the damage and start repairing the boy's impulse control rather than merely punishing it.",
+          "key_concepts": [
+            "Goleman's news file: a nine-year-old went on a rampage, pouring paint over school desks, computers, and printers, and vandalizing a car, because third-grade classmates called him a 'baby' and he wanted to impress them.",
+            "The seed of all impulse is a feeling bursting to express itself in action.",
+            "Those who are at the mercy of impulse — who lack self-control — suffer a moral deficiency.",
+            "The ability to control impulse is the base of will and character.",
+            "The root of altruism lies in empathy, the ability to read emotions in others; lacking a sense of another's need or despair, there is no caring.",
+            "The neurological data suggest an opportunity for shaping children's emotional habits.",
+            "Childhood and adolescence are critical for setting down the essential emotional habits that will govern our lives.",
+            "Goleman cites shootings over minor slights 'perceived as acts of disrespect' as an increasingly common pattern around the country.",
+            "The news reflects on a larger scale a creeping sense of emotions out of control in our own lives and in those of the people around us.",
+            "Goleman argues that if there is a remedy for the emotional malaise, it must lie in how we prepare our young for life."
+          ],
+          "difficulty_level": "Advanced",
+          "boss_battle_explanation": "The boss of this battle is a runaway impulse: a feeling — rage at being called a 'baby' — bursting to express itself in action because the child lacks the self-control that is the base of will and character. The chapter's news file documents this exact failure mode, from paint-splattered schoolrooms to shootings over perceived disrespect, and argues the only remedy is deliberate shaping of children's emotional habits.",
+          "stage_1_observation": "Devon is standing in the middle of the yard, paint can still in his fist, chest heaving. The three third-graders who called him a baby are watching from the fence. A teacher's aide says, 'He just snapped — nothing happened, one of them called him a name and he went for the paint.' A puddle of red has spread under the desks; Devon has not moved for almost a minute.",
+          "stage_1_question": "What is the mechanism driving Devon's rampage?",
+          "stage_1_correct_answer": "An impulse is in control: the taunt registered as disrespect, and the feeling to retaliate and impress the third-graders burst into action without the self-restraint that normally vets it. Devon's motive matches the chapter's news items, where a nine-year-old vandalized to impress classmates who called him a baby, and where shootings over minor slights perceived as disrespect became increasingly common.",
+          "stage_2_intervention": "The principal wants to suspend Devon on the spot and tells you, 'This boy needs consequences, not counseling.' Devon, now sitting on the curb, says quietly, 'They called me a baby. I wanted to show them.' You have a limited window to choose the intervention that repairs the habit, not just the damage.",
+          "stage_2_correct_answer": "Intervene by coupling consequences with emotional re-education: calmly confirm the limit (the damage is unacceptable and must be repaired), then help Devon name the feeling that seized him, read the other boys' provocation for what it was, and practice a self-control alternative for when rage surges. This directly implements the chapter's claim that the ability to control impulse is the base of will and character, that impulse unchecked leaves a moral deficiency, and that the neurological data offer a real opportunity for shaping children's emotional habits.",
+          "stage_2_alternative_outcome_note": "The losing move is to make the suspension the whole answer: punishment without teaching self-control leaves the boy still at the mercy of impulse, since the news file shows 'discipline' alone has failed catastrophically — in almost half of fatal child-beating cases parents said they were merely trying to discipline.",
+          "theory_summary": "The amygdala hijack explains how a child's rage at being called a baby bypasses the neocortex and erupts into violence before self-control can engage. Impulse control, the base of will and character, is what the developing prefrontal cortex is meant to supply but cannot when the emotional brain fires first.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Cheerful Facade",
+          "visual_frame_description": "A grainy office CCTV frame inside a meeting room at a regional insurance headquarters. Daniel, 41, sits across from his manager Priya, who has just told him the promotion went to a colleague nine years his junior. Daniel's face holds a broad, fixed smile; the air conditioning hums; Priya's hands are folded on the table. The frame is labeled 'File: Daniel R., performance review, June 14, 14:03–14:11.'",
+          "player_mission": "Review the file and decide what Daniel is actually feeling. He insists he is fine. Your job is to audit his baseline, his nonverbal log, and the interview transcript, then make a single correct diagnosis of the emotion behind the mask before recommending follow-up.",
+          "key_concepts": [
+            "The chapter describes a creeping sense of emotions out of control that reaches into all of our lives in one way or another.",
+            "The decade's slogan shifted from the cheery 'Have a nice day' to the testiness of 'Make my day.'",
+            "Goleman describes the news as 'an onslaught of mean-spirited impulse running amok' and a 'disintegration of civility and safety.'",
+            "Impulse is the medium of emotion; the seed of all impulse is a feeling bursting to express itself in action.",
+            "Those who are at the mercy of impulse — who lack self-control — suffer a moral deficiency, and the ability to control impulse is the base of will and character.",
+            "Emotional intelligence includes self-control, zeal and persistence, and the ability to motivate oneself.",
+            "Self-help advice based at best on clinical opinion has flooded the void left by psychology's neglect of emotion.",
+            "Goleman argues that the difference between floundering high-IQ people and surprisingly well-performing people of modest IQ often lies in emotional intelligence abilities that can be taught.",
+            "Part Three of the book argues that deficiencies in these abilities corrode our most prized relationships.",
+            "Emotional competencies include self-awareness, self-control, and empathy, and the arts of listening, resolving conflicts, and cooperation."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This file tests the gap between displayed and felt emotion: a cheery public face can mask seething frustration, the 'Have a nice day' front that the chapter says gave way to 'Make my day' testiness. Because impulse is a feeling bursting to express itself, the suppressed anger leaks through the body even while the words deny it.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "question": "Daniel has just been passed over for promotion he was promised by his manager Priya. He says he is genuinely fine with it. What is his actual emotional state?",
+          "subject_baseline": "Daniel R., 41, senior claims analyst, fifteen years with the firm. Baseline profile from HR and twelve months of observed behavior: perpetually upbeat, tells office jokes, brings donuts on Mondays, known for the 'sunny side up' pep talks he gives new hires, and volunteers cheerful small talk in every meeting. Colleagues describe him as 'the office's Have-a-nice-day guy.'",
+          "observed_nonverbal_log": [
+            "14:03:14 — Priya says 'the decision came down to fit with the team's future direction.' Daniel's smile widens; his jaw muscles bulge visibly at the back of his cheeks.",
+            "14:04:02 — Daniel: 'No hard feelings at all.' His head nods, but his chin is tucked and his eyes drop to his own hands instead of meeting Priya's gaze.",
+            "14:04:40 — Priya mentions the promoted colleague by name. Daniel's left hand grips the pen in his fist; the knuckles whiten for eleven seconds.",
+            "14:06:12 — Priya asks if he wants to discuss anything. Daniel laughs — a short, clipped staccato with no accompanying softening of the face — and says 'What's to discuss?'",
+            "14:07:30 — Daniel uncrosses his legs, shifts to the edge of his chair, and starts gathering papers before Priya has ended the meeting.",
+            "14:08:05 — During a lull, Daniel stares at the framed mission statement on the wall, tapping his index finger on the table at twice his normal resting tempo.",
+            "14:09:50 — When Priya says 'I hope this doesn't affect your commitment to the team,' Daniel's neck flushes red above his collar, and he swallows hard before answering 'Of course not.'"
+          ],
+          "interrogation_transcript": [
+            "Priya: 'Daniel, you've been here fifteen years. Level with me — how are you really taking this?'",
+            "Daniel: 'Priya, I've seen this movie before. It's a business call. I'm a grown man.'",
+            "Priya: 'You seem... brisk today. Normally you're cracking jokes by now.'",
+            "Daniel: 'I'm just tired. I was up late with the numbers on the Whitfield file. That's all.'",
+            "Priya: 'I could get you a mentor for the next cycle. Would that help?'",
+            "Daniel: 'Sure. Whatever helps the team. You know me — always sunny side up.'",
+            "Priya: '...Okay, Daniel. Take the rest of the afternoon if you want it.'",
+            "Daniel (standing quickly, forcing the smile back on): 'Thanks, Priya. Have a great day.'"
+          ],
+          "correct_diagnosis": "Daniel's upbeat front is a mask over fresh, hot anger and hurt at being passed over: the words deny any wound, but the clenched jaw, whitened knuckles, clipped laugh, neck flush, and forced smile all leak a seething frustration that matches the chapter's portrait of 'Have a nice day' cheer turning brittle in an era of 'Make my day' testiness.",
+          "diagnostic_breakdown": "The diagnosis rests on the mismatch between the verbal claim ('I'm a grown man,' 'always sunny side up') and the body's press report. Per the chapter, impulse is the medium of emotion: a feeling bursts to express itself in action, and when self-control suppresses it, the tension has to go somewhere — here it goes into the whitened knuckles at 14:04:40, the flush at 14:09:50, and the eleven-second pen grip that outlasts a casual annoyance. The baseline seals it: a man whose resting state is loose, joking, and expansive suddenly turns clipped, still, and guarded in the one meeting where he lost something real. The short staccato laugh at 14:06:12 is a tell the wordless smile cannot cover: genuine ease produces a whole-face response, while his mouth moved alone. A genuinely indifferent Daniel would drift toward his usual open posture; instead he froze, flushed, and fled the room.",
+          "distractors": [
+            "Daniel is genuinely content: he told the truth, and his cheerful baseline explains the smile.",
+            "Daniel is afraid of being fired and is performing loyalty to protect his job.",
+            "Daniel is embarrassed by his own underperformance and feels guilty, not angry, about the promotion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch07",
+      "title": "1. What Are Emotions For?",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Fear as an Impulse to Act",
+          "visual_frame_description": "A two-lane mountain highway climbs over a pass in Colorado on an early spring day; snow begins to swirl, then thickens into a blinding whiteness that swallows the car a few lengths ahead. Inside the car, the player grips the wheel at ten and two; the windshield fills with white. In the passenger seat, the player's friend Maya squints into the storm, one hand on the dash, urging them to keep moving.",
+          "player_mission": "You are driving over the pass when a snow flurry suddenly blots out everything ahead. Your heart is thumping and anxiety is flooding your body. Decide what to do with the car, your friend, and the road. Your goal is to read your fear correctly and act on it — or explain why you are acting on it.",
+          "key_concepts": [
+            "All emotions are, in essence, impulses to act — the instant plans for handling life that evolution has instilled in us.",
+            "The root of the word emotion is 'motere,' the Latin verb to move, plus the prefix 'e-' to connote 'move away,' implying a tendency to act in every emotion.",
+            "Fear sends blood to the large skeletal muscles, such as those in the legs, making it easier to flee, and makes the face blanch as blood is shunted away from it.",
+            "With fear the body freezes for a moment, perhaps allowing time to gauge whether hiding might be a better reaction.",
+            "Fear triggers a flood of hormones that puts the body on general alert, and attention fixates on the threat at hand.",
+            "In the chapter's anecdote, the author's fear on a Colorado mountain pass forced him to pull over; a few hundred yards further he found an ambulance crew helping passengers of a rear-end collision — 'if I had continued driving in the blinding snow, I probably would have hit them.'",
+            "The author compares his fear to 'a rabbit frozen in terror at the hint of a passing fox.'",
+            "Emotions guide us in facing predicaments and tasks too important to leave to intellect alone — danger, painful loss, persisting toward a goal despite frustrations, bonding with a mate, building a family.",
+            "The name Homo sapiens, the thinking species, is misleading; when it comes to shaping decisions and actions, feeling counts every bit as much — and often more — than thought.",
+            "Emotions were imprinted in our nerves as innate, automatic tendencies because their survival value was attested over evolutionary history."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests fear as an adaptive impulse to act: the emotion mobilizes the body for flight and fixates attention on the threat, forcing the driver to stop. Goleman's own pass-crossing anecdote is the evidence — the fear that made him pull over probably saved him from a rear-end collision his rational impatience was about to drive him into.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "The flurry hit without warning. The sign said the next town is 12 miles. Maya has a flight to catch in Denver and is telling you to push through: 'It's a spring squall, it'll blow past in ten minutes.' The thumping of your own heart says otherwise. Stakes: a wrong call means a collision on a blind white road; a right call means swallowing your friend's impatience.",
+          "dialogue": [
+            "Maya: 'Don't stop. These squalls blow over — we'll be through it in ten minutes.'",
+            "You: 'I can't see the car that was in front of me anymore. It's just... white.'",
+            "Maya: 'So drive slow. We have to make that flight, remember?'",
+            "You (heart hammering): 'It's not about the flight. My body is telling me to stop, and I'm listening to it.'",
+            "Maya: 'That's just nerves. You're not a deer, you don't have to freeze.'",
+            "You: 'A deer freezes because freezing has saved its life a thousand times. My hands are shaking and I can't see the road.'",
+            "Maya (sighing): 'Fine. Pull over if you have to. I'll book the later flight.'",
+            "You: 'Okay. We wait for the flurry to pass. That's the call.'"
+          ],
+          "choices": [
+            "Pull over to the side of the road and wait, despite Maya's objection, until visibility returns.",
+            "Keep driving at a slow crawl with your hazards on, reasoning that momentum is safer than being stranded.",
+            "Accelerate to get out from under the flurry quickly, since the storm is moving and the clear air is up ahead.",
+            "Turn around and head back down the pass to the last town, abandoning the trip entirely."
+          ],
+          "optimal_choice": 0,
+          "theoretical_principle": "Emotions as impulses to act; fear's freeze-and-attend response as an evolutionary survival tool",
+          "psychological_breakdown": "Choice 0 follows the emotion's design: fear routed blood to skeletal muscle, put the body on alert, and fixated attention on the threat, compelling the author of the chapter to stop, pay attention, and take heed — the same internal state that freezes a rabbit at the hint of a fox. The payoff is literal in the chapter: the author pulled over, and a few hundred yards further the road was blocked by a fresh rear-end collision he 'probably would have hit.' Choice 1 fails because it preserves momentum at the cost of visibility, defeating the very purpose of fear's alert: with attention fixated on an unseen threat, a slow crawl in whiteout is how the chapter's collision happened. Choice 2 inverts the signal: fear was telling the author the unknown ahead was dangerous, not that he should rush into it. Choice 3 overreacts and reads more into the situation than the emotion warranted; the fear said stop and wait, not abandon the goal, and the chapter's driver resumed safely after the flurry passed."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Anger's Biological Signature in Traffic",
+          "visual_frame_description": "A four-way intersection in Denver at rush hour, asphalt steaming after a rain shower. A silver minivan has just swerved across two lanes and cut off the player's sedan, forcing a hard brake; the van's bumper sticker reads 'My kid is an honor student.' The player is the driver; in the passenger seat, a coworker named Dana has gone quiet, gripping the door handle. The van's driver, a man in a golf shirt, is now stopped at the red light ahead, oblivious, one elbow out the window.",
+          "player_mission": "You have just been cut off, and you can feel the heat rising: your heart is pounding and your hands are tingling to grab the wheel harder. Choose how you respond to the minivan driver at the red light. Your goal is to recognize what your body is preparing you to do and decide whether that readiness fits the situation.",
+          "key_concepts": [
+            "With anger, blood flows to the hands, making it easier to grasp a weapon or strike at a foe.",
+            "With anger, heart rate increases and a rush of hormones such as adrenaline generates a pulse of energy strong enough for vigorous action.",
+            "All emotions are, in essence, impulses to act — the instant plans for handling life that evolution has instilled in us.",
+            "Emotions prepare the body for a very different kind of response, each with its own distinctive biological signature.",
+            "The survival value of the emotional repertoire was attested by its becoming imprinted in our nerves as innate, automatic tendencies.",
+            "In the ancient past a hair-trigger anger may have offered a crucial edge for survival, but the availability of automatic weaponry to thirteen-year-olds has made it too often a disastrous reaction.",
+            "We too often confront postmodern dilemmas with an emotional repertoire tailored to the urgencies of the Pleistocene.",
+            "The last 10,000 years of civilization have left little imprint on our biological templates for emotional life.",
+            "Civilization's first laws and proclamations of ethics — the Code of Hammurabi, the Ten Commandments, the Edicts of Emperor Ashoka — can be read as attempts to harness, subdue, and domesticate emotional life.",
+            "There is a steady gradient in the ratio of rational-to-emotional control: the more intense the feeling, the more dominant the emotional mind becomes."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests anger's biological signature — blood to the hands, surging adrenaline, energy for vigorous action — a readiness designed for a Pleistocene fight that modern traffic turns into a liability. Goleman notes the mismatch directly: a hair-trigger anger that once offered a survival edge is disastrous now that the weapons available to thirteen-year-olds are automatic.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "The cut-off nearly caused a fender bender, and Dana grabbed the handle. The light is red, the van is right there, and the man in the golf shirt is drumming on his steering wheel, oblivious. Stakes: what you do in the next thirty seconds decides whether this commute stays a story or becomes an incident — and whether you let a body prepared for combat make the decision for you.",
+          "dialogue": [
+            "You (gripping the wheel): 'Did you SEE that? He cut across two lanes!'",
+            "Dana: 'I saw it. Deep breath. It's over.'",
+            "You: 'He nearly put us in the median. I'm going to pull up next to him at the light.'",
+            "Dana: 'And do what, exactly? You're shaking.'",
+            "You: 'I'm going to tell him exactly what he did. Someone has to.'",
+            "Dana: 'Your hands are shaking because your body is loading you up for a fight. That's not a plan, that's adrenaline.'",
+            "You: '...You're right. My heart is pounding like I'm about to swing at him. Over a lane change.'",
+            "Dana: 'Look — the light's green. He's gone already. Let's let him be gone.'",
+            "You (unclenching your hands): 'Okay. He gets to be someone else's problem.'"
+          ],
+          "choices": [
+            "Pull up beside the van at the light, roll down the window, and loudly tell the driver what he did and what you think of him.",
+            "Stay in your lane, take three long breaths, and let the van drive on; vent to Dana and drop it.",
+            "Follow the van and flash your high beams until he pulls over so the two of you can discuss it face to face.",
+            "Lean on the horn and give the driver an extended gesture as you pass him, so he knows not to try that again."
+          ],
+          "optimal_choice": 1,
+          "theoretical_principle": "Anger's fight-readiness and the Pleistocene mismatch between emotional repertoire and modern life",
+          "psychological_breakdown": "Choice 1 is the correct read: the anger response — blood to the hands, rising heart rate, adrenaline surge — was built for grasping a weapon or striking a foe in ancestral conditions, and the chapter is explicit that a hair-trigger anger that once offered a survival edge is disastrous in a world of cars and automatic weapons. Letting the surge burn off without acting on it is using the neocortex to veto an input the emotional mind prepared for a fight that does not exist. Choices 0 and 3 convert a traffic annoyance into a face-to-face confrontation, exactly the escalation the chapter warns against: the response fits a Pleistocene threat, not a postmodern lane change, and both options hand the wheel to the adrenaline. Choice 2 is a smaller version of the same error — it expresses the anger without the confrontation, but it still lets the surging impulse run its course through the body in a way that can compound itself; the chapter's framing of the gradient of rational-to-emotional control argues for cooling the arousal itself rather than discharging it theatrically."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "Sadness and the Work of Mourning",
+          "visual_frame_description": "A corner table in a bright, loud cafe near a hospital campus at lunchtime. Elena, a 38-year-old nurse, sits across from the player, her sandwich untouched, her coffee going cold. She just told them her mother died three weeks ago and that she is 'back at work now, so she should be fine.' Around them the lunch rush chatters on; Elena looks at the table when she talks, and her voice is flat.",
+          "player_mission": "You are Elena's friend and colleague. She has told you she should be over it by now and wants to hear what you think. Choose how you respond to her grief. Your goal is to support the work that sadness does — not to rush it, override it, or mistake it for weakness.",
+          "key_concepts": [
+            "A main function of sadness is to help adjust to a significant loss, such as the death of someone close or a major disappointment.",
+            "Sadness brings a drop in energy and enthusiasm for life's activities, particularly diversions and pleasures.",
+            "As sadness deepens and approaches depression, it slows the body's metabolism.",
+            "The introspective withdrawal of sadness creates the opportunity to mourn a loss or frustrated hope, grasp its consequences for one's life, and, as energy returns, plan new beginnings.",
+            "This loss of energy may well have kept saddened — and vulnerable — early humans close to home, where they were safer.",
+            "Universally, the loss of a loved one elicits sadness and grief, but how we show our grieving is molded by culture, as are which people count as 'loved ones' to be mourned.",
+            "Emotions are in essence impulses to act, the instant plans for handling life that evolution has instilled in us.",
+            "Each emotion offers a distinctive readiness to act; each points us in a direction that has worked well to handle the recurring challenges of human life.",
+            "Feeling counts every bit as much — and often more — than thought in shaping our decisions and actions.",
+            "The name Homo sapiens, the thinking species, is misleading in light of the new appreciation of the place of emotions in our lives."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests sadness as an adaptive adjustment to loss: the drop in energy and introspective withdrawal exist so a person can mourn, grasp the consequences of the loss, and plan new beginnings. Goleman grounds this in the claim that such withdrawal was protective for vulnerable early humans, while noting that the display of grief is shaped by culture.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Elena returned to the ward two weeks after her mother's funeral because, she says, 'the unit is short-staffed and I can't think at home.' Her food sits untouched; she has answered three calls about her mother's estate in the last hour. Stakes: your response either gives her grief the space the chapter says it needs, or it teaches her to bury the mourning process under the lunchtime chit-chat of a culture that expects her to be fine.",
+          "dialogue": [
+            "Elena: 'Three weeks. I should be over it by now, right? Everyone at work keeps saying I'm so strong.'",
+            "You: 'Strong is not the same as done. What does it feel like when you're at home, alone?'",
+            "Elena: 'I sit on the couch and I can't start anything. I stare at the wall. It's like my battery is empty.'",
+            "You: 'That emptiness sounds like the sadness doing its job — pulling you out of the world for a while.'",
+            "Elena: 'A job? It feels like a malfunction.'",
+            "You: 'It's not a malfunction. Losing your mother is huge. Your body is telling you to slow down and stay close to home for now.'",
+            "Elena (eyes filling): 'I keep replaying her last week. Over and over.'",
+            "You: 'That replaying is you grasping what it means. Let it happen. You're not late for anything.'",
+            "Elena: '...No one else talks about it like this. Thank you.'"
+          ],
+          "choices": [
+            "Tell Elena she needs to get out more, crack jokes, and book her a double shift so she stops moping; distraction is the best medicine.",
+            "Tell her she is being strong and that her mother would want her to be happy, then change the subject to the new restaurant that opened downtown.",
+            "Acknowledge that she is still in the middle of her grief, invite her to talk about her mother, and remind her that sadness withdraws us so we can mourn and plan new beginnings at our own pace.",
+            "Agree that she should be over it by now and suggest she see a doctor for medication, since three weeks is clearly too long."
+          ],
+          "optimal_choice": 2,
+          "theoretical_principle": "Sadness as adaptation: withdrawal for mourning and replanning after significant loss",
+          "psychological_breakdown": "Choice 2 works with the emotion's function: the chapter describes sadness as a drop in energy and enthusiasm that creates the opportunity to mourn a loss, grasp its consequences, and plan new beginnings — Elena's replaying of her mother's last week is exactly that grasping, and the loss of energy is the mechanism that once kept saddened early humans close to home where they were safer. Choices 0 and 1 fight the process: they demand the diversion and cheer that sadness is designed to suspend, treating the withdrawal as a malfunction instead of mourning work, and the chapter notes the drop in enthusiasm for 'diversions and pleasures' is part of the mechanism, not a bug to be fixed by scheduling fun. Choice 3 misdiagnoses normal grief as a medical failure; three weeks after the death of a parent, a slowed metabolism and flat energy are the emotion's signature, not evidence of pathology, and the culture-molded pressure to 'be over it' is precisely what the chapter's account of grieving stands against."
+        },
+        {
+          "asset_type": "DYNAMIC_DIALOGUE_SIM",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Two Minds in a Relocation Fight",
+          "visual_frame_description": "A cramped living room in a two-bedroom apartment in Portland, boxes half-packed for a move. Ana, 34, stands by the window with her arms crossed; her husband Tom, 36, paces by the couch, voice rising. The player is Tom's older brother, here to help with the move, now standing in the doorway holding a roll of packing tape and watching a domestic argument escalate in real time.",
+          "player_mission": "You are Marcus, Tom's brother. Tom is furious about Ana's refusal to relocate for his new job and is now shouting past you, demanding that Ana 'just be logical about it.' Your goal is to see what is actually running this argument — and to intervene in a way that respects the emotional mind's grip on it.",
+          "key_concepts": [
+            "We have two minds, one that thinks and one that feels: the rational mind, prominent in awareness, thoughtful, able to ponder and reflect, and the emotional mind, impulsive and powerful, if sometimes illogical.",
+            "There is a steady gradient in the ratio of rational-to-emotional control over the mind; the more intense the feeling, the more dominant the emotional mind becomes — and the more ineffectual the rational.",
+            "When passions surge, the balance tips: the emotional mind captures the upper hand, swamping the rational mind.",
+            "Emotion feeds into and informs the operations of the rational mind, and the rational mind refines and sometimes vetoes the inputs of the emotions.",
+            "Erasmus of Rotterdam satirized the ratio of passion to reason as 24 to one, with anger and lust as two raging tyrants opposing Reason's solitary power.",
+            "In the folk distinction between 'heart' and 'head,' knowing something in your heart is a different order of conviction — a deeper kind of certainty.",
+            "The arrangement of emotional dominance stems from eons of evolutionary advantage to having emotions guide instantaneous response where pausing to think could cost our lives.",
+            "The two minds operate in tight harmony for the most part, intertwining their very different ways of knowing to guide us through the world.",
+            "The emotional and rational minds are semi-independent faculties reflecting distinct but interconnected circuitry in the brain.",
+            "Feeling counts every bit as much — and often more — than thought in shaping our decisions and actions."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the two-minds model and its gradient: as feelings intensify, the emotional mind becomes dominant and the rational mind ineffectual, so no amount of logic can land while the surge is running. Goleman illustrates the perennial tension with Erasmus's satire of passion overwhelming reason 24 to one.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "scenario_setup": "Tom accepted a transfer to Seattle without discussing it; Ana refused to leave her mother, her job, and the school their son is thriving in. Tom keeps escalating: 'It's simple math, Ana — the salary, the career track, the school ratings!' Ana's voice is cracking, and the packing boxes are starting to look like an accusation. Stakes: as the brother in the doorway, you have one chance to stop the spiral before Tom says something that cannot be unsaid.",
+          "dialogue": [
+            "Tom: 'It is simple math, Ana! I've done it for you a hundred times — the salary, the school ratings, the career track!'",
+            "Ana: 'The school ratings you keep quoting are for a city I never agreed to live in, Tom!'",
+            "Tom: 'See? No logic. She won't even engage with the numbers.'",
+            "You (Marcus): 'Tom. Pause. What is Ana actually saying right now?'",
+            "Tom: 'That she won't engage with the numbers! The facts! The- '",
+            "You: 'No. She said you made this decision alone. That's not a math problem, that's a wound. And you're trying to beat it with percentages.'",
+            "Tom (stopping, voice dropping): '...She's not coming with me.'",
+            "You: 'Right now, you don't know that. Right now, her heart is flooded and your facts can't reach it. Give it a night.'",
+            "Tom (sitting down heavily): 'A night. God. I made the call alone, didn't I.'"
+          ],
+          "choices": [
+            "Join Tom's argument as the rational referee: pull out the salary comparison and the school data and lay the numbers out for Ana side by side.",
+            "Tell Ana she is being unreasonable and that Tom's offer is objectively better for the family's future; someone has to be the adult in the room.",
+            "Step between them, slow the pace, and name what is happening: Tom's anger is flooding his rational mind, and Ana's distress is not a logic error — defer the decision until the surge passes.",
+            "Take Ana aside and advise her privately to concede the move now and negotiate the details later, because Tom will not bend once he has dug in."
+          ],
+          "optimal_choice": 2,
+          "theoretical_principle": "The rational-versus-emotional mind gradient: intense feeling swamps the rational mind, so lowering intensity precedes reasoning",
+          "psychological_breakdown": "Choice 2 is the only option that treats the gradient as the chapter describes it: with passion surging, the emotional mind captures the upper hand and the rational mind becomes ineffectual — Tom cannot hear percentages while his anger is flooding his circuitry, and Ana's refusal is not a reasoning failure. The chapter's own remedy is embedded in its architecture: the rational mind refines and 'sometimes vetoes the inputs of the emotions,' which requires lowering the intensity first. Choice 0 and 1 commit the Erasmus error — Reason shouting herself hoarse with formulas of virtue while the two raging tyrants only get louder; the chapter warns that the more intense the feeling, the more ineffectual the rational mind becomes. Choice 3 manipulates Ana rather than engaging the emotion, and it hands the outcome to the loudest surge — the very dynamic that makes passion swamp reason when it should be allowed to ebb before a decision is locked in."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Fear That Shoots First",
+          "visual_frame_description": "A suburban house on a quiet street at 1:00 a.m., kitchen light still on. The player stands in the darkened hallway of the Crabtree home. Bobby Crabtree, 47, is in his bedroom, and noises have just come from his teenage daughter's room — although he believes Matilda is staying at a friend's house tonight. The scene freezes at the moment his hand reaches for the .357 caliber pistol on the nightstand; the air is still, and the player can feel the split second before the decision.",
+          "player_mission": "You are about to relive the Crabtree case, the tragedy of errors that Goleman uses to open his argument that our emotional repertoire is tailored to the Pleistocene. First, diagnose the mechanism that drove Bobby Crabtree's fatal shot; second, choose the intervention that could have redirected it. Your goal is to understand how an automatic fear reaction fires before recognition, and what a life depends on in that second.",
+          "key_concepts": [
+            "Fourteen-year-old Matilda Crabtree jumped out of a closet and yelled 'Boo!' as a practical joke when her parents came home at one in the morning; her father, hearing noises and believing she was staying with friends, shot her in the neck, and she died twelve hours later.",
+            "Fear mobilizes us to protect our family from danger; that impulse impelled Bobby Crabtree to get his gun and search his house for the intruder he thought was prowling there.",
+            "Fear primed Crabtree to shoot before he could fully register what he was shooting at, even before he could recognize his daughter's voice.",
+            "Automatic reactions of this sort became etched in the nervous system because for a long and crucial period in human prehistory they made the difference between survival and death.",
+            "With fear, blood goes to the large skeletal muscles, the body freezes for a moment, hormones flood the body putting it on general alert, and attention fixates on the threat at hand.",
+            "We too often confront postmodern dilemmas with an emotional repertoire tailored to the urgencies of the Pleistocene.",
+            "The first laws and proclamations of ethics — the Code of Hammurabi, the Ten Commandments, the Edicts of Emperor Ashoka — can be read as attempts to harness, subdue, and domesticate emotional life.",
+            "The emotional and rational minds are semi-independent faculties, and the rational mind refines and sometimes vetoes the inputs of the emotions.",
+            "Our appraisal of every personal encounter is shaped not just by rational judgment or personal history, but also by our distant ancestral past.",
+            "In many or most moments the two minds are exquisitely coordinated; when passions surge, the emotional mind captures the upper hand, swamping the rational mind."
+          ],
+          "difficulty_level": "Advanced",
+          "boss_battle_explanation": "The boss of this battle is the automatic fear reaction: an ancestral template that says 'noise at night plus child absent equals intruder' and fires the body into threat response before the neocortex has finished recognizing what is in front of it. Goleman uses the Crabtree tragedy as the emblem of this failure — fear primed a father to shoot before he could register his daughter's voice — and the chapter's whole evolutionary account exists to explain why such a reaction exists at all.",
+          "stage_1_observation": "The house is dark except for the kitchen light. Bobby Crabtree and his wife returned at 1:00 a.m. from visiting friends, believing Matilda was staying overnight at a friend's house. As he enters, Crabtree hears noises from Matilda's bedroom. His hand is already reaching for the pistol; his breathing is fast, his pupils wide, his attention locked on the bedroom door. In the split second before the door opens, the scene holds: the player must say what is driving his hand before it moves.",
+          "stage_1_question": "What mechanism is pushing Bobby Crabtree's hand toward the gun?",
+          "stage_1_correct_answer": "An automatic fear reaction etched into the nervous system for survival: the noise reads as 'intruder threatening family,' and fear — blood to skeletal muscle, body on alert, attention fixated on the threat — primes him to shoot before the rational mind can fully register the sound of his daughter's voice. The chapter is explicit that 'fear primed Crabtree to shoot before he could fully register what he was shooting at,' the same species-old response that once separated survival from death in ancestral conditions.",
+          "stage_2_intervention": "The scene rewinds to one minute earlier. The player may insert a single intervention into the house. Choices on the table: call out 'Matilda?' before moving down the hall; grab the phone to call the friend's house to confirm where she is; switch on every light before investigating; or simply stand in the kitchen, hand hovering over the phone, waiting for the noises to repeat. Pick the intervention that uses the rational mind to veto the fear reaction before it can complete.",
+          "stage_2_correct_answer": "Call out before advancing: 'Matilda? Is that you?' — the verbal probe that lets the neocortex complete the identification the fear reaction skipped, and the smallest concrete act of the 'domestication' of emotion the chapter describes in the Code of Hammurabi, the Ten Commandments, and the Edicts of Ashoka: society and habit harness the surge before it fires. The chapter's account of the two minds — the rational mind refining and sometimes vetoing the inputs of the emotions — says the veto has to happen before the shot, and a half-second of speech buys the recognition that 'register what he was shooting at' never got in the original tragedy.",
+          "stage_2_alternative_outcome_note": "The losing moves let the fear reaction run on ancestral rails: switching on lights still ends with the door opening first; waiting for the noises to repeat leaves the intruder template fully armed; and calling the friend's house, while rational, takes longer than the trigger finger, which is exactly why the chapter's tragedy — shoot first, recognize later — is the emblem of a Pleistocene repertoire meeting postmodern life.",
+          "theory_summary": "Ancestral emotion templates wired in the limbic brain can fire a full threat response before the neocortex finishes recognizing the actual situation. The Crabtree case shows how the automatic fear reaction, tailored to the Pleistocene, misfires in modern settings with fatal consequences.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Triple Brain: Reptile, Limbic, Neocortex",
+          "visual_frame_description": "A towering cross-section of a human brain floats in a dark lab space like a holographic exhibit, three regions glowing in sequence: the brainstem at the base like a hissing reptile, a ring of limbic tissue draped over it, and the great convoluted bulb of the neocortex on top. The player stands on a control platform; three labeled consoles — 'Preprogrammed Regulators,' 'Ring of Emotions,' 'Seat of Thought' — light up one by one.",
+          "player_mission": "You are the guide in a neural journey. First, identify what each layer of the brain contributes and which one reigned in the Age of the Reptiles. Then, in stage two, explain why the newest layer does not rule the oldest emotions. Your goal is to map the brain's growth and its consequence: the emotional centers hold immense power over the centers for thought.",
+          "key_concepts": [
+            "The human brain grew from the bottom up over millions of years, with higher centers developing as elaborations of lower, more ancient parts; the growth of the human embryo roughly retraces this course.",
+            "The brainstem, the most primitive part of the brain, regulates basic life functions like breathing and the metabolism of the body's organs, and controls stereotyped reactions and movements.",
+            "The brainstem cannot be said to think or learn; it is a set of preprogrammed regulators that keep the body running and reacting in a way that ensures survival.",
+            "This primitive brain reigned supreme in the Age of the Reptiles: picture a snake hissing to signal the threat of an attack.",
+            "From the olfactory lobe, the ancient centers for emotion evolved and eventually encircled the top of the brainstem; the limbic system, from 'limbus,' the Latin word for ring, added emotions proper to the brain's repertoire.",
+            "There was an emotional brain long before there was a rational one: the thinking brain, or neocortex, grew from the emotional areas.",
+            "The neocortex is the seat of thought; it contains the centers that put together and comprehend what the senses perceive, and it allows the nuance of feelings about feelings.",
+            "The neocortex allowed the addition of nuance to emotional life, including the mother-child bond that is the basis of the family unit, which species without a neocortex, such as reptiles, lack entirely.",
+            "The emotional areas are intertwined via myriad connecting circuits to all parts of the neocortex, giving the emotional centers immense power to influence the functioning of the rest of the brain — including its centers for thought.",
+            "In crucial matters of the heart, and most especially in emotional emergencies, the higher centers can be said to defer to the limbic system."
+          ],
+          "difficulty_level": "Intermediate",
+          "boss_battle_explanation": "This battle tests the evolutionary architecture of emotion: a root brain of preprogrammed regulators, a limbic ring that added emotions proper, and a neocortex that grew out of the emotional brain and became the seat of thought. The battle's central claim, which the final round tests, is that because the emotional areas are intertwined with all parts of the neocortex, they hold immense power to influence — and in emergencies trump — the centers for thought.",
+          "stage_1_observation": "The hologram isolates the brainstem: a snake hisses in the corner of the display, then the limbic ring glows around it like a bagel with a bite taken out at the bottom where the brainstem nestles in, and finally the neocortex blooms on top. The consoles ask which layer does what. A voice-over offers three candidate job descriptions: 'keeps the body running and reacts stereotypically,' 'adds craving, fury, and love to the repertoire,' and 'strategizes, plans long-term, and comprehends the senses.'",
+          "stage_1_question": "Match the layers to their roles: which description belongs to the brainstem, and what does the chapter say it cannot do?",
+          "stage_1_correct_answer": "The brainstem is the set of preprogrammed regulators that keep the body running — breathing, metabolism, stereotyped reactions — and it 'cannot be said to think or learn.' It reigned supreme in the Age of the Reptiles, and the snake hissing in the display is its emblem. The limbic ring added emotions proper to the repertoire, and the neocortex brought strategizing, long-term planning, and comprehension of the senses.",
+          "stage_2_intervention": "The lab lights dim; the hologram tilts so the player sees the neocortex stacked on the limbic ring. The voice-over poses the day's puzzle: 'The neocortex is newer, larger, and smarter. It has all the circuits for vetoing emotion. So why, in emotional emergencies, do the old centers win?' The player must pick the architectural reason from the console before the simulation of an emergency plays out.",
+          "stage_2_correct_answer": "Because the emotional brain is the root from which the newer brain grew: the emotional areas are intertwined via myriad connecting circuits to all parts of the neocortex, giving the emotional centers immense power to influence the functioning of the rest of the brain, including its centers for thought — and in emotional emergencies the higher centers can be said to defer to the limbic system. The newer brain did not displace the older one; it grew out of it, so the old wiring is woven through everything the new wiring does.",
+          "stage_2_alternative_outcome_note": "The losing answers treat the brain as a management hierarchy — newest layer in charge — or as separate departments with clean boundaries. The chapter's whole point is connectivity and lineage: the neocortex grew from the emotional brain, and the myriad connecting circuits mean the emotional centers can sway, and in emergencies override, the very centers built to veto them.",
+          "theory_summary": "The triune brain model organizes emotion into three layers: a root brain of preprogrammed regulators, the limbic ring that added emotion proper, and the neocortex that grew out of the emotional brain as the seat of thought. Because the neocortex grew from the limbic brain, every thinking center is wired into the emotional centers, so feelings shape thought as much as thought shapes feelings.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          }
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Tears That Contradict the Words",
+          "visual_frame_description": "A dimly lit kitchen in a walk-up apartment on a Sunday afternoon, mugs of tea on the table between two friends. The subject, a woman in her late thirties, is mid-sentence, describing her new single life after a painful divorce; her face is composed, her voice even. A security-camera style inset freezes the moment her eyes well up with tears while her mouth keeps forming the words 'I really don't care.' The file timestamp reads 'Session 3, min 12:44.'",
+          "player_mission": "Audit the file of a woman telling a friend she is over her divorce. She says she never thinks about her ex-husband anymore and truly does not care. Decide whether the words or the eyes are telling the truth, and identify what mechanism is leaking through.",
+          "key_concepts": [
+            "In the chapter, a friend describes her divorce — months of bitter wrangling over house, money, and custody — and now says her independence is appealing: 'I just don't think about him anymore — I really don't care.'",
+            "As she said it, 'her eyes momentarily welled up with tears' — a moment that could easily pass unnoted.",
+            "The empathic understanding that someone's watering eyes means she is sad despite her words to the contrary is an act of comprehending just as surely as distilling meaning from words on a printed page.",
+            "One is an act of the emotional mind, the other of the rational mind; in a very real sense we have two minds, one that thinks and one that feels.",
+            "The emotional mind is impulsive and powerful, if sometimes illogical, and it operates alongside the rational mind, which is prominent in awareness, thoughtful, and able to ponder and reflect.",
+            "Knowing something 'in your heart' is a different order of conviction — a deeper kind of certainty — than thinking so with your rational mind.",
+            "There is a steady gradient in the ratio of rational-to-emotional control: the more intense the feeling, the more dominant the emotional mind becomes.",
+            "A main function of sadness is to help adjust to a significant loss, such as the death of someone close or a major disappointment.",
+            "The root of altruism lies in empathy, the ability to read emotions in others; lacking a sense of another's need or despair, there is no caring.",
+            "Sadness brings a drop in energy and enthusiasm, and its introspective withdrawal creates the opportunity to mourn a loss and plan new beginnings."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This file tests the leak of the emotional mind: the rational mind declares the divorce resolved while the eyes, governed by the emotional mind, well up with tears. Goleman uses this exact scene to argue that reading the watering eyes as sadness is an act of comprehension as legitimate as reading words, because we have two minds — one that thinks and one that feels.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "question": "The subject says she no longer thinks about her ex-husband and really does not care. At 12:44 her eyes well up with tears. What is actually true about her state?",
+          "subject_baseline": "The subject, a 39-year-old architect, has been separated for fourteen months. In session 1 she described months of bitter wrangling over the house, money, and custody of the children after her husband suddenly announced he was leaving for a younger woman at work. By session 3 she speaks fluently about her renovated apartment, her new independence, and a trip to Lisbon she is planning; her posture is open, her voice steady, and she has not mentioned her ex-husband's name for the first ten minutes of the session.",
+          "observed_nonverbal_log": [
+            "12:38:02 — Subject describes her new apartment; her hands gesture widely, palms up, shoulders relaxed.",
+            "12:40:15 — Friend asks, 'And him? How are you with him now?' Subject's hands come down to the table; she interlocks her fingers.",
+            "12:41:30 — Subject: 'Him. Right. He's a chapter I closed.' The pitch of her voice rises slightly at the final word.",
+            "12:42:48 — Subject says 'I just don't think about him anymore' and tilts her head down and to the side, eyes dropping from the friend's face to her own mug.",
+            "12:44:05 — Subject says 'I really don't care' — and her eyes momentarily well up with tears, glistening under the kitchen light, while her expression otherwise stays composed.",
+            "12:44:20 — She blinks twice, hard, and reaches for her mug; she takes a long drink and looks out the window.",
+            "12:46:00 — Asked if she wants to stop, she says, 'No, I'm fine, this is good for me,' and smiles with her mouth only, eyes still red-rimmed."
+          ],
+          "interrogation_transcript": [
+            "Friend: 'And him? How are you with him now?'",
+            "Subject: 'Him. Right. He's a chapter I closed. We signed everything in March.'",
+            "Friend: 'That's not quite what I asked. Do you still think about him?'",
+            "Subject: 'I just don't think about him anymore — I really don't care.'",
+            "Friend: '...Your eyes just welled up when you said that.'",
+            "Subject: 'Did they? That's the allergies. And honestly, tears at a certain age, you know?'",
+            "Friend: 'Allergies don't usually pick exactly the moment you mention him.'",
+            "Subject (quietly, after a pause): 'Maybe I'm not as done as the paperwork says.'"
+          ],
+          "correct_diagnosis": "The subject is still carrying the sadness of the loss: the tears are the emotional mind leaking the truth her rational mind has declared closed. The words say she does not care, but the eyes welling up exactly at the mention of her ex-husband are the same signal Goleman's friend gave — and the honest diagnosis is that the grief has not finished its work.",
+          "diagnostic_breakdown": "The audit rests on timing and channel: the tears arrived precisely at 12:44:05, on the phrase 'I really don't care,' and not at any point during the ten minutes of upbeat apartment talk — a leak keyed to the emotional topic, not to the room or the hour. The chapter's account of the two minds supplies the mechanism: the rational mind spoke the tidy narrative, while the emotional mind, impulsive and powerful, welled up in her eyes, and Goleman is explicit that such watering eyes mean sadness 'despite her words to the contrary.' The baseline seals it: open, gesturing posture while describing the new life, then hands interlocked, pitch rising, and gaze dropping at the moment the ex-husband enters the conversation — a pattern of closing down that tracks the topic, not a stable 'fine.' Her allergy excuse fails the channel test: the welling was momentary, precisely timed, and gone within seconds, and the chapter's framework treats this exact scene as a canonical example of reading the emotional mind through the body.",
+          "distractors": [
+            "The subject is telling the truth and the tears are an involuntary physical reflex unrelated to emotion, as she claims.",
+            "The subject is angry at her ex-husband, and the tears are a disguised expression of rage.",
+            "The subject is happy and the tears are tears of relief at finally being free of the marriage."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Affective Regulation | Amygdala Hijack & Empathy",
+          "topic": "The Curled Lip at the Tasting Table",
+          "visual_frame_description": "A boutique food-sampling studio in Portland, white counters and soft track lighting, three clients seated around a marble table with numbered tasting cups. The subject, a buyer for a national grocery chain, lifts a cup of artisanal kombucha to his lips. An inset freeze-frame catches the instant of tasting: the upper lip curls to the side as the nose wrinkles slightly — for just under a second — before the subject sets the cup down and says, smoothly, that the product 'has real promise.'",
+          "player_mission": "Audit this tasting session. The buyer's words are glowing, but his face flashed a brief, specific expression at the moment of the sip. Decide what that expression was, what it signals, and whether his praise can be trusted. Your goal is to read the face the way the chapter says expressions are read — as a universal message.",
+          "key_concepts": [
+            "Around the world an expression of disgust looks the same and sends the identical message: something is offensive in taste or smell, or metaphorically so.",
+            "The facial expression of disgust — the upper lip curled to the side as the nose wrinkles slightly — suggests a primordial attempt, as Darwin observed, to close the nostrils against a noxious odor or to spit out a poisonous food.",
+            "In its rudimentary stages, the olfactory brain sorted the world into edible or toxic, sexual partner or predator, enemy or meal.",
+            "Each emotion prepares the body for a very different kind of response, with distinctive biological signatures.",
+            "Emotions are in essence impulses to act, the instant plans for handling life that evolution has instilled in us.",
+            "The empathic understanding of another's feelings is an act of comprehending just as surely as distilling meaning from words.",
+            "We have two minds, one that thinks and one that feels; the emotional mind is impulsive and powerful, if sometimes illogical.",
+            "The rational mind refines and sometimes vetoes the inputs of the emotions, but the emotional centers hold immense power to influence the rest of the brain.",
+            "With new methods to peer into the body and brain, researchers are discovering more physiological details of how each emotion prepares the body for response.",
+            "The survival value of our emotional repertoire was attested to by its becoming imprinted in our nerves as innate, automatic tendencies."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This file tests the universality and automaticity of the disgust expression: the curled upper lip and wrinkled nose are the same worldwide and are, as Darwin observed, a primordial attempt to close the nostrils against something noxious. Goleman's chapter treats this expression as an innate, automatic tendency of the emotional repertoire, which makes it a reliable leak against a smooth verbal verdict.",
+          "credibility": {
+            "level": "Medium",
+            "consensus": "Contested",
+            "basis": "Popular synthesis of affective research; EI construct scope debated"
+          },
+          "question": "The buyer says the kombucha 'has real promise' and that his chain could take 20,000 cases. During the sip, his upper lip curled to the side and his nose wrinkled for under a second. What is the most reliable reading of his true reaction?",
+          "subject_baseline": "The subject, a 45-year-old category buyer, has been sampling products for twelve years and is known for diplomatic blandness: in seven prior filmed sessions he praises everything and buys nothing, always citing 'portfolio fit.' His habitual style is a mild, unchanging smile and a soft monotone. In the pre-session chat he told the vendor, 'I've learned that if you can't say something nice, say something neutral.'",
+          "observed_nonverbal_log": [
+            "11:02:14 — Buyer lifts cup 1, a berry kombucha, sniffs it, and sips. The upper lip curls to the side as the nose wrinkles slightly; the flash lasts under a second.",
+            "11:02:16 — He sets the cup down with two fingers, an arm's length away, and rotates it so the label faces away from him.",
+            "11:02:40 — Vendor asks, 'What do you think?' Buyer: 'Interesting. Real promise.' His mouth shapes the words with the mild habitual smile, but his brows stay level and his eyes do not change.",
+            "11:03:05 — He takes a sip of water and swishes it before answering the next question about ordering volume.",
+            "11:03:30 — Buyer: 'We could take 20,000 cases, if the numbers work.' He says this while glancing at his watch and leaning back in his chair.",
+            "11:04:12 — He declines the offered second sample: 'One's my limit on the early stuff. Got to keep the palate clean.'",
+            "11:05:00 — As the vendor leaves to fetch the pricing sheet, the buyer's face relaxes; his mouth compresses into a thin line and he exhales audibly through his nose."
+          ],
+          "interrogation_transcript": [
+            "Vendor: 'What did you think of the first one, the berry batch?'",
+            "Buyer: 'Interesting. Real promise. The carbonation is nice.'",
+            "Vendor: 'Would you take a case of it home?'",
+            "Buyer: 'I take samples home all the time. This one... we'll see. The numbers have to work.'",
+            "Vendor: 'Your face did something funny when you tasted it.'",
+            "Buyer: 'Did it? Probably the fizz. It's got a bite to it.'",
+            "Vendor: 'A good bite or a bad bite?'",
+            "Buyer (pause, then evenly): 'A promising one. Let's talk volume.'",
+            "Vendor: 'Because if it's not there for you, I'd rather know now than after 20,000 cases.'",
+            "Buyer (after a long pause, quietly): '...Send me the pricing sheet. I'll be honest about it at the desk.'"
+          ],
+          "correct_diagnosis": "The buyer found the kombucha genuinely offensive to his palate: the curled upper lip and wrinkled nose are the universal disgust expression, a primordial attempt to close the nostrils, and his words were polite cover. The product does not taste promising to him, and the glowing review is the rational mind performing diplomacy over a body that already passed its verdict.",
+          "diagnostic_breakdown": "The diagnosis rests on the specificity of the flash: the upper-lip curl and nose wrinkle are, per the chapter, the same expression worldwide, sending the identical message — something offensive in taste or smell — an automatic tendency Darwin read as a remnant of closing the nostrils against noxious odor. The supporting log is consistent with a person managing distaste: the cup set down at arm's length, the label rotated away, the water swish, the declined second sample, and the thin-lipped exhale once the vendor left. The baseline sharpens it: a buyer who praises everything and buys nothing leaves 'real promise' and '20,000 cases' as transaction talk, not a palate report. His own final line — 'I'll be honest about it at the desk' — concedes the verdict the face already rendered. The distractor readings fail because the expression was singular, brief, and tied to the moment of taste, not a sustained mood: the curled lip is disgust's signature, not anxiety's tightness, and the flat brows on the 'promising' line show no pleasure reaching the eyes.",
+          "distractors": [
+            "The buyer is genuinely impressed, and the curled lip was just the fizzy carbonation stinging his mouth.",
+            "The buyer is anxious about committing to a large order, and his face registered worry, not distaste.",
+            "The buyer is bored with the tasting process and the expression was simple fatigue from a long afternoon."
+          ]
+        }
+      ]
+    }
+  ]
+}

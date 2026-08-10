@@ -1,0 +1,49 @@
+{
+  "spec_file": "spec_gift_of_fear_b18.json",
+  "book_key": "gift_of_fear",
+  "book_title": "The Gift of Fear (Gavin de Becker)",
+  "topic": "reading-people",
+  "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+  "credibility_profile": {
+    "level": "Medium",
+    "consensus": "Emerging",
+    "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+  },
+  "modality_weights": {
+    "CUE_SCRUBBER_STATION": 40,
+    "DECEPTION_AUDIT_FILE": 40,
+    "BOSS_BATTLE": 20
+  },
+  "chapter_count": 1,
+  "chapters": [
+    {
+      "index": 25,
+      "title": "Recommended Reading",
+      "words": 548,
+      "asset_count": 3,
+      "text_path": "extract/generated_assets/phase7a/gift_of_fear/chapter_0025.txt",
+      "top_concepts": [
+        {
+          "term": "self",
+          "context": "ties and Sciences, 1995. Videocassette series. Branden, Nathaniel. Honoring the Self: The Psychology of Confidence and Respect. New York: Bantam, 1985. Bremer, Arthur. The Assassin’s Diary. New York: Harp"
+        },
+        {
+          "term": "denial",
+          "context": "e Beast: Letters from Prison. New York: Random House, 1991. Becker, Ernest. The Denial of Death. New York: Free Press, 1985. Berendzen, Richard and Laura Palmer. Come Here: A Man Copes with the Aftermath of"
+        },
+        {
+          "term": "emotional intelligence",
+          "context": "llen and Sherrie Schneider. The Rules. New York: Warner, 1995. Goleman, Daniel. Emotional Intelligence: Why It Can Matter More than IQ. New York: Bantam, 1995. Gorey, Edward. Amphigorey. New York: Putnam, 1980. Gross, Lind"
+        },
+        {
+          "term": "behavior",
+          "context": "d Destructiveness. New York: Doubleday, 1990. Monahan, John. Predicting Violent Behavior: An Assessment of Clinical Techniques. Beverly Hills, CA: Sage, 1981. Mones, Paul. When a Child Kills. New York: Pocket"
+        },
+        {
+          "term": "silence",
+          "context": "k: St. Martin's, 1993. Schaum, Melita and Karen Parrish. Stalked!: Breaking the Silence on the Crime Epidemic of the Nineties. New York: Pocket, 1995. Schickel, Richard. Intimate Strangers: The Culture of Ce"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "spec_file": "spec_lucifer_effect_b16.json",
+  "chapters": [
+    {
+      "id": "ch22",
+      "title": "CHAPTER FIFTEEN",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "Administrative Evil and the Ends-Justify-Means Ethic",
+          "visual_frame_description": "The player enters a windowless boardroom where a policy chain is laid out across a long conference table: a national-level directive recasting legal definitions, a theater commander's memo urging 'results at any rational cost,' and a floor supervisor's order drafted under resource pressure. Color-coded folders sit beside a glass wall that reveals a detention wing where guards work a busy night shift. A stern director representing the organization leans over the table, insisting that every step taken was legal and fully procedural.",
+          "player_mission": "Study the three documents arrayed on the boardroom table and decide which one best embodies 'administrative evil' as defined in the chapter. Then choose the action that most effectively breaks the organization's legal-but-harmful loop while holding its leaders accountable.",
+          "key_concepts": [
+            "Administrative evil is harm inflicted by organizations operating within a legal rather than an ethical framework, in pursuit of an ideology, a master plan, a cost-benefit equation, or a profit bottom line.",
+            "Under administrative evil, the organization's 'ends always justify efficient means,' letting suffering be inflicted without any single individual feeling personally guilty.",
+            "Administrative evil is systemic in that it exists beyond any one person once its policies are in place and its procedures take control.",
+            "Even so, Zimbardo argues that organizations must have leaders, and those leaders must be held accountable for creating or maintaining such evil.",
+            "Named examples of administrative evil in the chapter include the Nazis' Holocaust, NASA's role in the Challenger disaster, cigarette executives promoting addictive products, and Enron's deceptive practices.",
+            "Zimbardo characterizes the Bush administration's interrogation policies as a glaring exemplar of administrative evil that used formal, rational, efficient procedures to disguise the substance of what it did.",
+            "The August 1, 2002 Department of Justice memo defined torture so narrowly that procedural legalization could sanitize harsh techniques that caused severe pain.",
+            "Legal scholar Anthony Lewis said the torture memos read like the advice of a mob lawyer to a mafia don on how to skirt the law and stay out of prison.",
+            "Human Rights Watch argued that unless the policymakers who designed or authorized the illegal policies are held to account, all protestations of disgust at the Abu Ghraib photos will remain meaningless."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests administrative evil, the mechanism by which organizations hide harmful substance behind formal, rational, efficient procedures so that their ends justify any efficient means. Zimbardo shows that a chain of written policies and commands made legally framed harm possible while deflecting responsibility onto faceless institutional procedure.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "boss_battle_explanation": "This battle tests administrative evil: harm inflicted by organizations that operate within a legal framework rather than an ethical one, using cold rationality to pursue an ideology, a master plan, a cost-benefit equation, or a profit bottom line so that ends always justify efficient means. The chapter argues that administrative evil is systemic once policies and procedures are in place, yet leaders who create or maintain such systems remain accountable.",
+          "stage_1_observation": "The boardroom table shows three artifacts from a chain of command modeled on the Abu Ghraib record: (1) a legal memo redefining prohibited 'torture' in the narrowest possible terms; (2) a commander's memorandum approving sleep management, stress positions, yelling, and military working dogs with goals to 'create fear, disorient detainees and capture shock'; and (3) an official's public statement that 'we do not condone prisoner abuse.'",
+          "stage_1_question": "Which artifact best exemplifies 'administrative evil' as Zimbardo uses the term in this chapter?",
+          "stage_1_correct_answer": "The two written policy documents, and not simply the public denial, because administrative evil works through formal, rational, efficient procedures that disguise the substance of what the organization does: the memo redefines the legal meaning of harm while the commander's memorandum authorizes the fear-inducing techniques, with the hollow denial operating as cover.",
+          "stage_2_intervention": "The player must respond to the director's claim that the policy is blameless because it followed procedure and legal review. Choose the intervention most consistent with Zimbardo's thesis about systems, leaders, and accountability.",
+          "stage_2_correct_answer": "Demonstrate that procedural legality is not ethical legitimacy: point out that the harm is disguised inside formal rules, name and hold accountable the leaders who created or maintained the policy, and insist that the substance of the harm rather than its regulatory form be the standard of review."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "Command Responsibility and Chain-of-Command Liability",
+          "visual_frame_description": "The player sits in a jury-deliberation room where a stack of uncensored investigation excerpts is spread across the table. On the wall, a chain-of-command chart runs from a defense secretary down to a night-shift guard unit, with red circles marking each point where senior officers knew of abuse yet failed to act. A prosecutorial avatar representing Human Rights Watch argues that charging only the lowest soldiers lets the highest officials vanish into the gaps of the chart.",
+          "player_mission": "Test whether senior officials bear criminal liability: identify the three elements that establish command responsibility, then frame the case against a commander who knew of documented abuse and did nothing to prevent or punish it.",
+          "key_concepts": [
+            "Both U.S. and international law recognize 'command responsibility' or 'superior responsibility,' under which civilian or military superiors may be criminally liable for crimes committed by those under their command.",
+            "Command responsibility requires three elements: a clear superior-subordinate relationship, actual or constructive knowledge that a crime was committed or about to be committed, and failure to take necessary and reasonable measures to prevent it or punish the perpetrator.",
+            "Human Rights Watch argued that a prima facie case existed to open criminal investigations of Rumsfeld, Tenet, Sanchez, and Miller under this doctrine.",
+            "War crimes and torture are punishable under the War Crimes Act of 1996, the Anti-Torture Act of 1996, and the Uniform Code of Military Justice.",
+            "As of April 10, 2006, the military had not attempted to prosecute a single officer under the command-responsibility doctrine.",
+            "Only five officers had been criminally charged in the documented abuse cases, none under command responsibility, and the punishments handed to convicted officers were strikingly lenient.",
+            "Rumsfeld told the Senate Armed Services Committee: 'These events occurred on my watch. As Secretary of Defense, I am accountable for them. I take full responsibility.'",
+            "Sanchez acknowledged: 'As senior commander in Iraq, I accept responsibility for what happened at Abu Ghraib.'",
+            "General Paul Kern said of Sanchez that investigators did not find him 'culpable' but did find him 'responsible for what did or did not happen.'"
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the command-responsibility doctrine, under which superiors who know or should know of their subordinates' crimes and fail to prevent or punish them bear criminal liability. The chapter contends that dozens of officers, from brigade command up to Rumsfeld, Tenet, Sanchez, and Miller, were never charged despite behavior satisfying the doctrine's three elements.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "boss_battle_explanation": "This battle tests the doctrine of command responsibility (superior responsibility), which makes civilian or military superiors criminally liable for crimes committed by those under their command. The three required elements are a clear superior-subordinate relationship, the superior's actual or constructive knowledge of the crime, and the superior's failure to take necessary and reasonable measures to prevent the crime or punish the perpetrator.",
+          "stage_1_observation": "The room displays a documented commander's file: a May 12, 2003 incident at Camp Bucca where four soldiers from the 320th MP Battalion kicked and beat detainees after a transport from Talil Air Base; an Article-32 investigation in which Lieutenant Colonel Gentry recommended a general court-martial that Brigadier General Karpinski supported; and later findings that the commander never reminded soldiers of the Geneva Conventions' requirements or took steps to ensure the abuse was not repeated.",
+          "stage_1_question": "Which set of facts establishes command responsibility for the brigade commander in this file?",
+          "stage_1_correct_answer": "The file satisfies all three elements: the commander stood in a superior-subordinate relationship to the accused; the documented beating gave her reason to know crimes had occurred; and her failure after the fact to discipline, retrain, or correct the unit met the failure-to-act element, mirroring the chapter's 'knew or should have known' standard.",
+          "stage_2_intervention": "Opposing counsel argues that because the commander never touched a prisoner and the blame belongs to the 'unauthorized actions of a few individuals,' she is innocent. As prosecutor, choose the framing that best defeats this defense.",
+          "stage_2_correct_answer": "Argue from the chapter's and Human Rights Watch's position that knowledge combined with failure to act is itself liability: senior officials authorized or condoned the policies, knew or should have known of the abuses, and failed to stem them, while no officer was ever prosecuted under command responsibility even as dozens of soldiers were convicted."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "Social Proof and the Evil of Inaction on the Tier",
+          "visual_frame_description": "A wide night scene inside a detention block shows an MP guard dragging a reluctant prisoner forward while three other personnel, an intelligence analyst, a medic, and an interrogator, stand in a loose circle smiling and doing nothing. Their faces are lit by the flash of a camera and none of them challenges the guard. The player stands just behind that circle, the only person who has not yet decided whether to speak.",
+          "player_mission": "Recognize why the silent, smiling audience makes the abuse continue and spread, then break the loop: refuse to be a silent observer, interrupt the scene, and put a documented report into the chain of command.",
+          "key_concepts": [
+            "Those who knew of the abuses and did nothing to prevent, stop, or report them provided 'social proof' to the MPs that it was acceptable to continue doing whatever they wanted to do.",
+            "The smiling, silent faces of witnesses provided social support from the surrounding interrogation team, giving a thumb's up to abuses that should have drawn reprimands.",
+            "Failures of bystander intervention by the many observers of abuse on Tier 1A helped to perpetuate the abuse.",
+            "Sergeant Javal Davis explained his own silence by assuming that if people were acting outside the guidelines, someone in charge would have said something, an instance of the evil of inaction at work.",
+            "Medics and nurses often observed brutality, looked the other way, and signed off on false death certificates in violation of their Hippocratic oath.",
+            "Soldier 25, an interrogator, 'thought it was funny' when dog handlers scared detainees into running into their cells as dogs attacked.",
+            "Soldier 20, a medic, witnessed prisoner abuse and saw photos of the naked pyramid without reporting any of it.",
+            "Colonel Larry James's later reforms eliminated the confusion and the diffusion of responsibility by making every prisoner interview visible to at least two people and open to supervisory surveillance.",
+            "Zimbardo concludes that the evil of inaction repeatedly facilitated the evil of action throughout the chain of command."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests social proof: silent observers' smiling, inert faces rendered abuse normatively acceptable, providing the social support that thumbed up behavior which should have drawn reprimands. The chapter shows that bystander inaction, the evil of inaction, is a powerful facilitator that turns isolated bad acts into sanctioned routine.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "boss_battle_explanation": "This battle tests social proof and the evil of inaction that facilitates the evil of action. The chapter shows that the analysts, medics, and interrogators who witnessed or passively joined the abuses provided social proof to the MPs that the abuse was acceptable, with their smiling, silent faces lending social support that should have drawn reprimands.",
+          "stage_1_observation": "The player studies the circle of silent witnesses: an interrogator type who heard MPs call detainees 'practice dummies' by striking them unconscious, a medic who saw the naked-pyramid photos, and an analyst who would rather throw water on naked detainees than intervene. Around them the guards escalate while no one raises a hand, and another camera flash goes off.",
+          "stage_1_question": "Why does the silent, smiling audience make abuse more likely to continue and spread across the tier?",
+          "stage_1_correct_answer": "Their inaction provides social proof and social support that the behavior is acceptable and unpunished, emboldening the acting guards and recruiting new participants, so that the evil of inaction facilitates the evil of action.",
+          "stage_2_intervention": "The player must act where the fictionalized witnesses did not. Choose the response that best undercuts the social-proof loop according to the chapter's analysis.",
+          "stage_2_correct_answer": "The player loudly refuses to remain a silent observer, directly challenges the guards by name, and immediately files a written report through the documented chain of command, breaking the unanimous look of approval that supplied the abuse with its social proof."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "Dehumanizing Tactics and the Migration of Gitmo Methods",
+          "visual_frame_description": "A commander's briefing room in a desert base: an imported trainer from Guantánamo demonstrates how to 'Gitmo-ize' the local detention operation, telling the assembled officers to treat the prisoners like dogs and assuring them the dog tactics work 'with or without a muzzle.' A compact disc of detailed instructions sits on the table beside a stack of anesthesia-free waivers. Across the room, a younger officer is visibly troubled by what he is hearing.",
+          "player_mission": "Identify why importing the Guantánamo tactics, together with framing prisoners as dogs, compounds the danger of later abuse, then choose how to respond when ordered to implement the imported techniques.",
+          "key_concepts": [
+            "General Miller told Karpinski the detention operation at Abu Ghraib would be 'Gitmo-ized,' bringing Guantánamo practices into Iraq.",
+            "Miller told her, 'You have to treat the prisoners like dogs. If they believe that they're any different than dogs, you have effectively lost control of your interrogation from the very start.'",
+            "Colonel Pappas reported that Miller told him dog use at Gitmo had proven effective in priming prisoners and that using dogs 'with or without a muzzle' was okay.",
+            "Sanchez's September 14, 2003 memorandum approved 'Presence of Military Working Dog: Exploits Arab fear of dogs while maintaining security during interrogations.'",
+            "The practice of using nudity as a compliance incentive was imported from Afghanistan and Guantánamo and simply carried forward into the Iraqi theater, blurring lines of authority and proper legal opinion.",
+            "The Schlesinger Report held that because wearing clothes is an inherently social practice, stripping detainees had the unintended consequence of dehumanizing them in the eyes of those who interacted with them.",
+            "Dehumanization lowers the moral and cultural barriers that usually preclude the abusive treatment of others, according to the Schlesinger Report.",
+            "A tactic meant to make detainees feel vulnerable and compliant evolved into whole groups of detainees being kept naked for extended periods at Abu Ghraib.",
+            "Interrogator Anthony Lagouranis testified that in facilities with strong leadership that said abuse would not be tolerated, the abuse did not take hold."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the dehumanization pathway, in which a group is framed as subhuman and stripped of the social markers of humanity while imported techniques exploit specific fears. The chapter documents how the migration of Guantánamo methods 'Gitmo-ized' Abu Ghraib and how dehumanization lowered the moral and cultural barriers that ordinarily preclude abuse.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "boss_battle_explanation": "This battle tests the migration of dehumanizing techniques down a chain of command: Miller's team 'Gitmo-izing' the detention operation, instructing officers to treat prisoners like dogs, and exporting nudity, isolation, and dog intimidation to Iraq. According to the Schlesinger Report, stripping clothing dehumanized detainees in the eyes of guards, and dehumanization lowers the moral and cultural barriers that usually preclude abusive treatment.",
+          "stage_1_observation": "The briefing lays out the imported practices: sustained nakedness to make detainees vulnerable, extended isolation far beyond the 'segregation' Sanchez says he intended, dogs used to exploit fear, stress positions capped at one hour per use, and light-and-noise control. Beside each one sits the legal checkbox that the September 14, 2003 memorandum attached to it.",
+          "stage_1_question": "Why does combining the 'treat them like dogs' framing with the imported techniques make the later, photographed abuse far more likely?",
+          "stage_1_correct_answer": "The framing strips detainees of their perceived humanity while the imported tactics ratchet up humiliation and fear, and because dehumanization erodes the moral and cultural barriers that normally preclude abusive treatment, the combination authorizes cruelty psychologically before it is ever exercised physically.",
+          "stage_2_intervention": "Ordered to implement the imported tactics on your tier, the player must choose a response consistent with the chapter's evidence about what actually curbs abuse.",
+          "stage_2_correct_answer": "Refuse to implement the tactics that exceed legal boundaries, such as nakedness, unmuzzled dogs, and unsupervised isolation, demand a written, unambiguous no-go policy and two-person interview procedures, and rely on strong leadership, since the chapter's witnesses insist abuses do not take hold where leaders declare they will not be tolerated."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "Institutional Oversight and the Seven Layers of Reform",
+          "visual_frame_description": "A dim projection room shows two versions of the same detention wing on opposite walls. On the left is the original floor: private interrogation booths, no cameras, a night guard force moving out of sight. On the right is the redesigned floor, labeled with seven numbered safeguards: senior supervision, two-person interviews, a written no-go policy, mission-specific training, one-way mirrors and videotaping, roving MP checks, and pre-and-post medical and legal review. An Army psychologist walks the night floor holding a copy of the Stanford Prison Experiment DVD.",
+          "player_mission": "Decide which combination of reform elements most directly defeats the anonymity and diffusion of responsibility that enabled abuse, then defend the highest-value layer when the budget review proposes cuts.",
+          "key_concepts": [
+            "Colonel Larry James, a clinical psychologist, watched the Stanford Prison Experiment DVD Quiet Rage on the flight to Baghdad as many as twenty-four times, asking what Zimbardo had done wrong and what should have been done differently.",
+            "James's goal was to create procedures that would establish and maintain good order and discipline meeting the criteria of the American Correctional Association.",
+            "Reform required that 'interrogations' be replaced by detective-style 'interviews' with at least two people present so the interviewer and translator could check on each other.",
+            "A written 'no-go' policy made explicit what was prohibited and what was permitted, eliminating the ambiguity that had let anything be justified.",
+            "Interview booths were opened to one-way-mirror surveillance from hall corridors and every interview was videotaped for administrative review.",
+            "Military police roved the facility at random intervals, and two military psychologists served as 'roving ambassadors,' making guards and interviewers aware they were always under surveillance.",
+            "Each prisoner was medically inspected before and after every interview to detect changed medical status, and a military attorney reviewed all procedures.",
+            "Asked whether the practices made a difference, James answered: 'My dependent variable is there have been no abuses since these rules have been put in place,' as of November 2005.",
+            "Zimbardo concludes the procedures would have eliminated the confusion and the diffusion of responsibility, making it apparent that everyone's behavior was under surveillance.",
+            "The Schlesinger Report called the Stanford Prison Experiment 'a cautionary tale for all military detention operations,' and James used it as a training guide at Abu Ghraib."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the structural antidote to the Lucifer Effect: transparent, accountable oversight that dissolves anonymity and diffusion of responsibility inside a powerful setting. Zimbardo presents Colonel James's seven layers as evidence that abuse was not inevitable, since no abuses occurred after supervision, two-person interviews, videotaping, and medical review were enforced.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "boss_battle_explanation": "This battle tests how a bad barrel can be unmade by design: Colonel Larry James installed seven layers of oversight at Abu Ghraib, including supervision on every shift, detective-style interviews with two people present, a written no-go policy, mission-specific training, one-way mirrors and videotaping, random roving checks, and medical and legal review before and after each interview. Zimbardo argues these conditions eliminated confusion and diffusion of responsibility because everyone's behavior was visibly under surveillance.",
+          "stage_1_observation": "The player studies side-by-side floor maps: the original tier with an unsupervised night shift, private booths, and no recording equipment, versus the reformed tier where interview booths open onto corridor observation mirrors, interviews require two participants and are recorded, MPs rove at random intervals, and a medic examines each prisoner before and after every interview.",
+          "stage_1_question": "Which group of reform elements most directly targets the specific mechanisms that let ordinary guards abuse prisoners in the original tier?",
+          "stage_1_correct_answer": "The combination of two-person interviews, one-way mirrors with videotaping, and random roving accountability checks, because they dissolve the anonymity and diffusion of responsibility that shielded the abusive night shift, while pre-and-post medical review catches harm at the level of the individual prisoner.",
+          "stage_2_intervention": "A budget review proposes cutting the oversight package down to a single element. The player must argue which layer is indispensable to keep the transformation mechanism intact.",
+          "stage_2_correct_answer": "Defend the surveillance-and-accountability layer of two-person presence plus visible observation and recording, because Zimbardo's analysis concludes that eliminating confusion and diffusion of responsibility while making behavior visibly supervised is precisely what preempts abuse."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "Sanchez's Sworn Denial versus the September 14 Memo",
+          "visual_frame_description": "The player reviews a taped congressional hearing in a dim screening room. General Ricardo Sanchez, in dress uniform, sits at a witness table behind a bank of microphones while an examiner leans toward him holding a folder of interrogation documents. A split screen shows his September 14, 2003 memorandum with each approved technique highlighted, so the player watches the testimony and the written record side by side.",
+          "player_mission": "Audit the witness: compare the general's sworn answers against the contemporaneous memorandum and the timing of its public release. Decide whether the testimony is a genuine denial, a memory lapse, or deliberate deception.",
+          "key_concepts": [
+            "Sanchez formalized his interrogation rules in a September 14, 2003 memorandum approving techniques including military working dogs, sleep management, yelling, loud music and light control, and stress positions.",
+            "The memorandum stated its goals as to 'create fear, disorient detainees and capture shock.'",
+            "In May 2004 Sanchez testified under oath that he had never ordered or approved the use of intimidation by dogs, sleep deprivation, excessive noise, or inducing fear.",
+            "Sanchez's memorandum was released publicly in March 2005 in response to an FOIA lawsuit, roughly a year after his sworn testimony.",
+            "Sanchez acknowledged publicly that as senior commander in Iraq he accepted responsibility for what happened at Abu Ghraib.",
+            "The Schlesinger Report indicated that a dozen of Sanchez's techniques went beyond Army Field Manual 34-52 and were more extreme than those approved for Guantánamo.",
+            "Sanchez was forced to retire early in November 2006, citing his role in the Abu Ghraib scandal as the key reason.",
+            "Human Rights Watch listed Sanchez among the officials warranting criminal investigation for war crimes and torture either as a principal or under the doctrine of command responsibility."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests detection of deception under oath when a spoken denial contradicts a written authorization of the very same acts. The chapter contrasts Sanchez's blanket sworn denial with his signed memorandum approving the techniques and treats the contradiction, together with the delayed FOIA release, as evidence of deceptive testimony.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "question": "Did Lieutenant General Ricardo Sanchez give deceptive sworn testimony when he told Congress in May 2004 that he had never ordered or approved interrogation techniques such as dog intimidation, sleep deprivation, excessive noise, or inducing fear?",
+          "subject_baseline": "Sanchez was the senior U.S. commander in Iraq, known for soldierly, clipped testimony and for publicly accepting responsibility ('As senior commander in Iraq, I accept responsibility for what happened at Abu Ghraib'). His posture toward the press and committees was controlled and self-assured.",
+          "observed_nonverbal_log": "10:02: Asked directly about dogs and sleep deprivation, Sanchez's normally brisk cadence slows and he repeats the fixed phrase 'never ordered or approved' rather than answering in his own words. 10:03: his gaze drops to the table and his jaw tightens while a staff officer beside him begins shuffling documents noisily. 10:04: he gives the blanket denial without once offering a document, date, or officer who could corroborate it. 10:05: asked about his written directive, he repeats the denial and pivots to blame news accounts.",
+          "interrogation_transcript": "Examiner: 'General, did you authorize the use of military working dogs to intimidate detainees?' Sanchez: 'I have never ordered or approved the use of intimidation by dogs, sleep deprivation, excessive noise, or inducing fear.' Yet his September 14, 2003 memorandum went on to approve 'Presence of Military Working Dog: Exploits Arab fear of dogs while maintaining security during interrogations,' 'Sleep Management,' 'Yelling, Loud Music and Light Control,' and 'Stress Positions,' with the stated goal to 'create fear, disorient detainees and capture shock.'",
+          "correct_diagnosis": "Deceptive. Sanchez's blanket sworn denial directly contradicts his own September 14, 2003 authorization memorandum, which approved dog presence, sleep management, noise and light control, and stress positions; the memorandum surfaced publicly in March 2005 only after an FOIA lawsuit, roughly a year after the sworn testimony.",
+          "diagnostic_breakdown": "Evidence points to deception because the denial is overprecise and defensive, and a contemporaneous written directive contradicts it point for point, listing as approved techniques exactly the practices he swore he had never approved; the delay of public release until forced by an FOIA suit further indicates the denial was not an honest lapse of memory.",
+          "distractors": [
+            "Truthful: Sanchez delegated interrogation authority, so the memo represents approval by his staff rather than by him personally.",
+            "Truthful: the techniques were identical to those already in use at Guantánamo, so he regarded them as existing policy rather than his own order.",
+            "An honest memory lapse by a commander juggling too many concurrent duties."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "The al-Jamadi 'Ice Man' Staged Cover-up",
+          "visual_frame_description": "The player reviews a reconstructed timeline of the night of November 4-5, 2003 in a sparse record room: a block diagram of the shower room on Tier 1A, a log entry for screaming heard by guards, and photographs showing a bound, battered body packed in ice. The medic's name is missing from every roster and a local taxi receipt points to an unknown destination.",
+          "player_mission": "Audit the handling of the death: reconstruct what happened to al-Jamadi from capture to disposal and determine whether the physical staging, the false heart-attack story, and the missing registration constitute a deliberate concealment operation.",
+          "key_concepts": [
+            "Manadel al-Jamadi, suspected of supplying explosives to insurgents, was captured by Navy SEALs near 2 a.m. on November 4, 2003, and never formally registered at Abu Ghraib.",
+            "The CIA operative Mark Swanner, accompanied by a translator, stripped al-Jamadi naked and interrogated him about where the weapons were.",
+            "Two MPs were ordered to shackle the now-passive prisoner by his arms to a wall in a position known as 'Palestine Hanging,' earlier practiced as strappado.",
+            "Guard Walter Diaz said there was no need to hang the man since he was handcuffed and offered no resistance, and that blood gushed from his nose and mouth when the body was finally taken down.",
+            "Less than an hour after the screaming began, al-Jamadi was dead and his body was kept in the shower room overnight, packed in ice and bound with clear tape to retard decomposition.",
+            "A medic inserted an IV into the corpse and the body was carried out on a stretcher as if the man were alive but merely ill, while other detainees were told he had had a heart attack.",
+            "A local taxi driver carried the body away to an unknown destination, and all evidence was destroyed because al-Jamadi had never officially been registered.",
+            "CIA officers operating at Abu Ghraib used aliases and never revealed their true names, and Swanner later admitted he had obtained no useful information from the murdered ghost detainee.",
+            "Zimbardo argues that watching ghost detainees be brutalized, tortured, and even murdered taught the MPs that perpetrators could literally get away with murder."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests detection of a staged cover-up in which a corpse was physically disguised as a live patient and a false medical narrative was planted to conceal a torture homicide. Zimbardo uses the al-Jamadi case to show how ghost detainees beyond all registration allowed perpetrators to escape accountability and reset the normative bar on Tier 1A.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "question": "Was the handling of Manadel al-Jamadi's death at Abu Ghraib a deliberate deception operation designed to conceal a homicide?",
+          "subject_baseline": "Al-Jamadi, a suspect alleged to have supplied explosives to insurgents, was captured by Navy SEALs at his home outside Baghdad near 2 a.m. on November 4, 2003, turned over to CIA custody at Abu Ghraib for interrogation led by Mark Swanner, and never registered as a detainee under any memorandum of understanding.",
+          "observed_nonverbal_log": "00:15: Swanner and a translator strip the prisoner naked and yell at him to reveal where weapons were; he is sent to the shower room on Tier 1A. 00:20: an anonymous civilian directs two MPs to shackle the now-passive prisoner by his arms to the wall in a position known as 'Palestine Hanging,' previously called strappado. 00:30: the MPs hear a great deal of screaming. 01:05: al-Jamadi is dead. 09:00: the body is packed in ice and bound with clear tape overnight to retard decomposition. 14:00: a medic inserts an IV into the corpse and the body is carried past other detainees on a stretcher as if the man were alive but merely ill. 14:15: other detainees are told the man had a heart attack. 15:00: a local taxi driver carts the body away to an unknown destination.",
+          "interrogation_transcript": "Guard Walter Diaz recalled there was no need to hang the man up that way since he 'was handcuffed and offered no resistance,' and when told to take the dead man down, 'blood came gushing out of his nose and mouth, as if a faucet had been turned on.' The chapter records that CIA officers at Abu Ghraib 'used alias and never revealed their true names,' that the SEALs were exonerated, that the medic was never identified, and that all evidence was destroyed because al-Jamadi had never officially been registered.",
+          "correct_diagnosis": "This was a staged-concealment operation: the physical transformation of a corpse, packed in ice, bound, and fitted with an IV, together with the fabricated heart-attack story, was designed to make a torture homicide look like a routine medical case and to erase every trace of accountability for a man who officially did not exist.",
+          "diagnostic_breakdown": "Every observation in the log fits organized concealment rather than accident or negligence: the corpse was preserved and physically disguised as a live patient, witnesses were fed a false narrative, the body was spirited off-base by a civilian taxi driver, and the victim's never-registered status guaranteed no paper trail, exactly the pattern of an operation built to survive scrutiny.",
+          "distractors": [
+            "The broken ribs and black eye came from the capture struggle itself, and the death was a natural complication of his injuries.",
+            "The rough handling was mistaken medical management by exhausted medics who sincerely believed he could still be saved.",
+            "This is simply how unregistered ghost detainees were routinely moved to proper medical facilities."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "General Myers's 'Bad Apples' Deflection",
+          "visual_frame_description": "The player watches an archived press interview on a monitor in an institutional briefing room. General Richard Myers, in uniform, leans back in a chair with an open-hand gesture and a smile as he offers his 'little snapshot' of the Abu Ghraib investigations. Beside the monitor, a scrollable evidence panel lists the findings of the Taguba, Fay/Jones, and Schlesinger reports that he never mentions.",
+          "player_mission": "Audit the spokesman's claim: check his 'it was only the night shift' assertion against the reports he cites and decide whether he is faithfully summarizing the record or deflecting blame from the institution.",
+          "key_concepts": [
+            "General Myers, chairman of the Joint Chiefs of Staff, tried in April 2004 to delay CBS's broadcast of the abuse photographs.",
+            "In August 2005 Myers publicly claimed the abuses involved only a small section of the night shift at Abu Ghraib, a pretty good clue that it was not a more widespread problem.",
+            "The Fay/Jones Report identified twenty-seven 205th MI Brigade personnel who allegedly requested, encouraged, condoned, or solicited abuse of detainees.",
+            "The Schlesinger Report detailed fifty-five cases of detainee abuse throughout Iraq and twenty instances of detainee deaths still under slow investigation.",
+            "The Red Cross found that interrogators' methods 'appeared to be part of the standard operating procedures by military intelligence personnel to obtain confessions and extract information.'",
+            "At the time of the Schlesinger Report there were three hundred incidents of alleged detainee abuse across joint operation areas, with sixty-six established at Guantánamo and in Afghanistan and fifty-five in Iraq.",
+            "Myers insisted publicly that the events were not 'systematic' but were the criminal actions of a 'few bad apples.'",
+            "The investigations implicated military leadership, civilian interrogators, military intelligence, and the CIA in creating the conditions that spawned the abuses.",
+            "The Schlesinger Report never used the term 'torture' even while documenting coercion that the Red Cross called 'tantamount to torture.'"
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests institutional deflection, in which a spokesman's claim that abuse was a localized bad-apples problem contradicts the very reports he invokes. The chapter frames this as a dispositional attribution that protects the wider chain of command while the documentary record implicates dozens of personnel across many facilities.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "question": "Is General Richard Myers's public assurance on August 25, 2005, that the abuse was confined to a small section of the night shift at Abu Ghraib an honest summary of the official record?",
+          "subject_baseline": "Myers, chairman of the Joint Chiefs of Staff, had tried since April 2004 to delay CBS's broadcast of the abuse photos, publicly described the incidents as the acts of a 'few bad apples,' and repeatedly insisted that no systematic policy of abuse existed. His public interviews were typically confident and dismissive of press challenges.",
+          "observed_nonverbal_log": "09:15: asked whether the abuse was widespread, Myers leans back, adopts a folksy 'little snapshot' framing, and gestures with an open hand as if closing a file. 09:16: he repeats the phrase 'if it was only the night shift, which it was' twice, tightening a conditional into a statement of fact on each pass. 09:17: he cites 'at least fifteen investigations' but never mentions the Taguba, Fay/Jones, or Schlesinger findings. 09:18: when the interviewer names facilities in Afghanistan and at Guantánamo, Myers glances off-camera and pivots back to the snapshot again.",
+          "interrogation_transcript": "Myers: 'I think we've had at least fifteen investigations on Abu Ghraib, and we've dealt with that. I mean, just a little snapshot, if it was only the night shift at Abu Ghraib, which it was, it was only a small section of the guards that participated in this, it's a pretty good clue that it wasn't a more widespread problem.'",
+          "correct_diagnosis": "Deflection rather than honest summary. The record he himself invokes contradicts him: the Fay/Jones Report named twenty-seven military-intelligence personnel who requested, encouraged, condoned, or solicited abuse; the Schlesinger panel detailed fifty-five cases of detainee abuse in Iraq and twenty detainee deaths under investigation; and the Red Cross reported psychological and physical coercion 'tantamount to torture' across facilities.",
+          "diagnostic_breakdown": "The denial collapses against the very investigations he cites: he treats the night-shift photographs as the whole universe of abuse while the reports document practices across Iraq, Afghanistan, and Guantánamo, and his conversion of a conditional into a fact, together with the avoidance of the reports' own systemic findings, indicates a strategic narrative designed to protect the institution rather than a reading of the record.",
+          "distractors": [
+            "True, because only the nine soldiers of the guard units were ever brought to court-martial.",
+            "True, because at least fifteen independent military investigations cleared the chain of command of any systemic involvement.",
+            "An accurate summary of the official reports, which blamed a few soldiers for the entirety of the abuses."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "The Ryder Report: Failure or Cover-up?",
+          "visual_frame_description": "The player studies two overlapping reports in a quiet archive: Ryder's November 6, 2003 assessment, which concedes system-wide violations yet declares no crisis, and an annotated map showing the Tier 1A abuses that were occurring while the assessment teams were visiting. A journalist's clipping reading 'at best a failure and at worst a coverup' is pinned beside them.",
+          "player_mission": "Audit Ryder's assessment: establish the timeline of when the report was written against when the documented abuses occurred, and decide whether the 'no crisis' conclusion was a good-faith error, a flawed process, or a deliberate whitewash.",
+          "key_concepts": [
+            "The Ryder Report, prepared by Army Provost Marshal Major General Donald Ryder on November 6, 2003, reviewed the entire prison system in Iraq.",
+            "The report concluded there were serious human rights violations as well as training and manpower inadequacies that were 'system-wide.'",
+            "Ryder raised concerns about the fuzzy boundaries between MPs who were supposed only to guard prisoners and the military intelligence teams assigned to interrogate them.",
+            "The report was issued in the fall of 2003, at the height of the most flagrant abuses on Tier 1A, and before Specialist Joe Darby's exposé of January 13, 2004.",
+            "Ryder undercut his own warning by concluding that the situation had not yet reached a crisis point and finding 'no military police units purposely applying inappropriate confinement practices.'",
+            "Taguba later rebutted that many systemic problems surfacing during Ryder's assessment were the very same issues under investigation and that many abuses occurred during or near the time of that assessment.",
+            "Seymour Hersh concluded that Ryder's investigation was 'at best a failure and at worst a coverup.'",
+            "The MI-MP tension dated back to the Afghanistan War, during which MPs worked with MIs to 'set favorable conditions for subsequent interviews.'",
+            "Zimbardo packs the Milolashek Report together with the Ryder Report as a Tweedledee-Tweedledum boxed set of top-level whitewashes."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests a supervisory report that understates ongoing harm: Ryder found system-wide problems yet declared that no crisis point existed while severe abuse was occurring. Zimbardo presents the report as the first official whitewash, whose timing and internal contradiction handed the chain of command plausible deniability.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "question": "Was Major General Donald Ryder's November 6, 2003 assessment of the U.S. prison system in Iraq honest in concluding that the situation had not reached a crisis point and that no military police units were purposely applying inappropriate confinement practices?",
+          "subject_baseline": "Ryder, the Army's provost marshal general and chief law enforcement officer, was appointed by General Sanchez to lead an assessment of the entire prison system in Iraq. His normal professional output was a detailed, documented review, and this one did flag system-wide training and manpower inadequacies along with the blurred boundary between MP and MI functions.",
+          "observed_nonverbal_log": "October to November 2003: Ryder's team visits facilities across Iraq during the same months the most flagrant Tier 1A abuses are occurring, before Specialist Joe Darby's exposé of January 13, 2004. 06:00: the final report concedes serious human rights violations and training and manpower failures that were 'system-wide.' 06:30: it calls for rules 'clearly separating the actions of the guards from those of the military intelligence personnel.' 07:00: it nevertheless concludes the situation has 'not yet reached a crisis point' and reports finding 'no military police units purposely applying inappropriate confinement practices.'",
+          "interrogation_transcript": "Ryder's report recorded that the violations and deficiencies were 'system-wide,' yet decided 'some procedures were flawed' and found 'no military police units purposely applying inappropriate confinement practices.' Major General Taguba's later report directly rebutted: 'Unfortunately, many of the systemic problems that surfaced during [Ryder's] assessment are the very same issues that are the subject of this investigation. In fact, many of the abuses suffered by detainees occurred during, or near to, the time of that assessment.' Seymour Hersh concluded that 'His investigation was at best a failure and at worst a coverup.'",
+          "correct_diagnosis": "An understated whitewash. The report identified genuine system-wide problems but declared that there was no crisis and no purposeful improper practice at the very moment those practices were at their height on Tier 1A, handing the chain of command a clean bill of health; Taguba's investigation and Hersh's reporting both found that conclusion untenable.",
+          "diagnostic_breakdown": "The contradiction is temporal and logical: the report was written while documented abuses were still ongoing yet concluded that no unit was purposely misapplying confinement practices, and Taguba later confirmed the abuses occurred during or near the assessment period; the 'no crisis point' conclusion served to excuse inaction, which is why Hersh judged the effort 'at best a failure and at worst a coverup.'",
+          "distractors": [
+            "Reliable, because Ryder's team physically inspected the facilities and interviewed prison staff on site.",
+            "Reliable, because it recommended separating MP and MI functions, proving the abuses were taken seriously.",
+            "Inconclusive, because the report was classified and could not discuss whatever it actually found."
+          ]
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "Attribution Levels: Dispositional, Situational, and Systemic",
+          "visual_frame_description": "The player stands before a three-column evidence board in a forensics lab. Column headings label the levels of explanation: bad apples, bad barrel, and bad barrel makers. Seven index cards, each quoting a finding from the investigation record, wait on a tray to be sorted into the correct columns, while a verdict stamp reading 'unauthorized actions taken by a few individuals' sits at the center of the board.",
+          "player_mission": "Sort each recorded statement into the level of explanation it genuinely advances, then identify the category that the official 'few bad apples' conclusion belongs to when judging responsibility for the abuses.",
+          "key_concepts": [
+            "The Fay/Jones Report advanced the standard dispositional attribution of blaming the individual perpetrators, once again 'small groups of morally corrupt soldiers and civilians.'",
+            "Milolashek's report absolved the chain of command by attributing ninety-four cases of abuse to 'unauthorized actions taken by a few individuals.'",
+            "Of the seven contributing factors listed by the Fay/Jones Report, six were traceable to systemic and situational factors and only one to 'individual criminal propensities.'",
+            "The reports specify situational contributors such as overcrowding, night-shift strain, mortar attacks, and scarce resources on the hard site.",
+            "The reports specify systemic contributors such as leadership failures, confused command relationships, contractor integration failures, and ambiguous interrogation policy.",
+            "Taguba found 'clear friction and lack of effective communication' between the 205th MI Brigade and the 800th MP Brigade commanders, with coordination occurring at the lowest levels.",
+            "Because they were commissioned by military leaders, the reports stopped short of attributing blame to higher levels in the chain of command.",
+            "Zimbardo argues that this barrel of apples began rotting from the top down.",
+            "The dispositional view locates the source of evil in the inner qualities of individuals, while the situational and systemic views ask what the setting and the structure did to the people within them."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This scenario tests attribution levels: dispositional explanations blame the individuals' character, situational explanations blame the immediate setting, and systemic explanations blame the structure and policies. The chapter argues that official accounts repeatedly fell back on the dispositional 'bad apples' frame even though their own reports traced six of seven identified causes to systemic and situational factors.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "question": "Sort each statement from the Abu Ghraib investigation record into the level of explanation it advances: dispositional attribution that blames the individuals' character, situational explanation that blames the immediate setting, or systemic explanation that blames the institutional structure and policies.",
+          "column_a_label": "Dispositional — bad apples",
+          "column_b_label": "Situational — bad barrel",
+          "column_c_label": "Systemic — bad barrel makers",
+          "rows": [
+            {
+              "label": "The official defense that abuses were committed by 'small groups of morally corrupt soldiers and civilians'",
+              "col": "a"
+            },
+            {
+              "label": "Night-shift fatigue, frequent mortar and RPG attacks, overcrowding, and scarce resources on the hard site",
+              "col": "b"
+            },
+            {
+              "label": "The Department of Justice 'Torture Memo' narrowing the definition of torture and the Gonzales memo declaring Geneva's limits obsolete",
+              "col": "c"
+            },
+            {
+              "label": "Systemic pressure on untrained personnel to produce 'actionable intelligence' from low-quality detainee populations",
+              "col": "c"
+            },
+            {
+              "label": "Milolashek's conclusion that ninety-four cases of abuse stemmed from 'unauthorized actions taken by a few individuals'",
+              "col": "a"
+            },
+            {
+              "label": "Smiling, silent witnesses whose inaction provided social proof that abuse was acceptable",
+              "col": "b"
+            },
+            {
+              "label": "Failure to screen, certify, and integrate contract interrogators, analysts, and linguists into the mission",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Situational, because the abuses happened inside a working prison at night.",
+            "Systemic, because no single soldier ordered the photographs to be taken.",
+            "A balanced mix in which disposition and situation are equal, so the verdict cannot be determined."
+          ],
+          "explanation": "The claim that abuses were the 'unauthorized actions of a few individuals' is a pure dispositional attribution: it locates the cause in the character of a handful of soldiers and absolves the structure, the 'bad apples in an otherwise flawless barrel' framing the chapter attacks. By contrast, the barrel, meaning the situational stress of the tier, and the barrel makers, meaning the policies, memos, and command failures, are the levels the reports documented in detail yet declined to blame."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "Transformation Mechanisms: Deindividuation, Dehumanization, Moral Disengagement",
+          "visual_frame_description": "The player works at a forensic comparison table in a behavior-analysis lab. Three labeled trays hold the definitions of deindividuation, dehumanization, and moral disengagement, and seven evidence cards drawn from the interrogation record await sorting. A clipboard reproduces the Schlesinger Report's list of transformation mechanisms and highlights the specific practice of enforced nakedness.",
+          "player_mission": "Sort each recorded practice into the transformation mechanism it chiefly demonstrates, then identify which mechanism the Schlesinger Report singled out in its analysis of stripping detainees.",
+          "key_concepts": [
+            "The Schlesinger Report listed deindividuation, dehumanization, enemy image, groupthink, moral disengagement, and social facilitation as mechanisms explaining how ordinarily humane people become abusive.",
+            "Deindividuation involves the loss of personal identity and self-awareness that weakens inner restraints on behavior.",
+            "CIA officers operating at Abu Ghraib used aliases and never revealed their true names, which Zimbardo calls the operational use of anonymity as a protective shield.",
+            "Dehumanization denies the victim's humanity and lowers the moral and cultural barriers that usually preclude the abusive treatment of others.",
+            "The Fay/Jones Report noted an escalating 'de-humanization' of detainees as the use of nudity carried forward into the Iraqi theater.",
+            "Moral disengagement relabels or rationalizes harm, as when officials called civilians killed in raids 'collateral deaths.'",
+            "MI officers gave euphemistic instructions to break prisoners' wills, telling MPs to 'loosen this guy up for us' and 'make sure he gets the treatment.'",
+            "A twenty-one-year-old soldier described killing a civilian as 'like squashing an ant' and 'like nothing,' illustrating a widened moral boundary.",
+            "Interrogators worked where 'there's no camera and there's no one looking over your shoulder, so you can do anything you want,' a deindividuating anonymity."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This scenario tests the distinctions among deindividuation, dehumanization, and moral disengagement, the transformation mechanisms the Schlesinger Report invoked to explain detainee abuse. The chapter treats enforced nakedness as the canonical dehumanization case, since stripping away an inherently social practice made detainees lose human standing in the guards' eyes and lowered moral barriers to still worse abuse.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "question": "Sort each practice from the Abu Ghraib record into the transformation mechanism it chiefly demonstrates: deindividuation that erases the actor's identity and accountability, dehumanization that denies the victim's humanity, or moral disengagement that re-labels or rationalizes the harm.",
+          "column_a_label": "Deindividuation — self erased",
+          "column_b_label": "Dehumanization — humanity denied",
+          "column_c_label": "Moral disengagement — harm re-labeled",
+          "rows": [
+            {
+              "label": "CIA officers operating at Abu Ghraib 'used alias and never revealed their true names,' shielded by operational anonymity",
+              "col": "a"
+            },
+            {
+              "label": "Stripping detainees of clothing, a practice the Schlesinger Report said dehumanized them in the eyes of those who interacted with them",
+              "col": "b"
+            },
+            {
+              "label": "Officials calling civilians killed in raids 'collateral deaths'",
+              "col": "c"
+            },
+            {
+              "label": "MI officers telling MPs to 'loosen this guy up for us' and 'make sure he gets the treatment' as euphemistic instructions to break prisoners' will",
+              "col": "c"
+            },
+            {
+              "label": "Miller's instruction to 'treat the prisoners like dogs' so that control of the interrogation would not be lost",
+              "col": "b"
+            },
+            {
+              "label": "Interrogators operating where 'there's no camera and there's no one looking over your shoulder, so you can do anything you want'",
+              "col": "a"
+            },
+            {
+              "label": "A twenty-one-year-old soldier describing killing a civilian as 'like squashing an ant' and 'like nothing'",
+              "col": "b"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Deindividuation, because the naked detainees lost their identity-bearing clothing.",
+            "Social facilitation, because the crowd of guards watched while it happened.",
+            "Groupthink, because the commanders all agreed the practice was acceptable."
+          ],
+          "explanation": "Enforced nakedness is the chapter's canonical dehumanization example: stripped of clothing, an inherently social practice, detainees lost human standing in the guards' eyes, lowering the moral and cultural barriers to abuse. Deindividuation would instead erase the actor's own identity and accountability, while moral disengagement would re-label the harm in innocuous language."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "Forms of Evil: Action, Inaction, and Administrative",
+          "visual_frame_description": "The player reviews a case-triage wall in an accountability office where three columns list the forms of evil: action, inaction, and administrative. Seven incident cards drawn from the Abu Ghraib record and from the policy chain wait to be filed into the columns. A sticky note reproduces Zimbardo's line that the evil of inaction facilitates the evil of action.",
+          "player_mission": "Sort each incident into the form of evil it chiefly represents, then identify the category that a single silent bystander's failure to report abuse maps onto when classifying behavior.",
+          "key_concepts": [
+            "The evil of inaction is the failure to prevent, stop, or report the harm one knows about, and Zimbardo repeatedly shows it facilitating the evil of action.",
+            "Zimbardo concludes that those who knew of the abuses and did nothing to prevent, stop, or report them provided social proof that continuing was acceptable.",
+            "Administrative evil is systemic in that it exists beyond any one person once its policies are in place and its procedures take control.",
+            "Administrative evil occurs when organizations inflict suffering through formal, rational, and efficient means while their ends justify efficient means.",
+            "The August 1, 2002 Department of Justice memo narrowly defined torture, making harmful tactics lawful by pure procedure.",
+            "The Military Commissions Act of 2006 retroactively shielded officials involved in crimes against humanity by re-labeling the abuses as merely 'humiliating' treatment.",
+            "The CIA outsourced torture through renditions, sending suspects to third countries known to torture so that its own hands stayed clean.",
+            "Soldier 10 threw water on three naked detainees and Soldier 19 instructed MPs to abuse a hooded, whimpering detainee, direct acts of cruelty on the tier.",
+            "Commanders aware of the Camp Bucca beatings recommended courts-martial yet never followed through, strengthening the impression that there would be no payback for abusing prisoners."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This scenario tests the distinction among the evil of action, the evil of inaction, and administrative evil. Zimbardo shows that direct perpetration, passive enabling, and procedurally veiled institutional harm each converted ordinary people into agents of cruelty at Abu Ghraib and in the policy chain above it.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "question": "Sort each behavior from the record into the form of evil it chiefly represents: the evil of action that directly perpetrates harm, the evil of inaction that fails to prevent, stop, or report harm, or administrative evil in which institutions inflict harm through formal, rational procedures.",
+          "column_a_label": "Evil of action — doing harm",
+          "column_b_label": "Evil of inaction — enabling harm",
+          "column_c_label": "Administrative evil — procedural harm",
+          "rows": [
+            {
+              "label": "Soldier 10, an Army analyst, threw water on three naked detainees",
+              "col": "a"
+            },
+            {
+              "label": "Intelligence analysts observed the abuses and did nothing to prevent, stop, or report them, their smiling faces signaling approval",
+              "col": "b"
+            },
+            {
+              "label": "The August 1, 2002 Department of Justice memo redefined 'torture' so narrowly that harmful tactics became lawful by pure procedure",
+              "col": "c"
+            },
+            {
+              "label": "Commanders aware of the Camp Bucca beatings recommended courts-martial yet never followed through, strengthening the impression that there would be no payback for abusing prisoners",
+              "col": "b"
+            },
+            {
+              "label": "The Military Commissions Act of 2006 retroactively shielded officials involved in crimes against humanity by re-labeling the abuses as merely 'humiliating' treatment",
+              "col": "c"
+            },
+            {
+              "label": "MPs stacking naked detainees into the photographed human pyramid on Tier 1A",
+              "col": "a"
+            },
+            {
+              "label": "The CIA 'rendering' suspects to third countries known to torture so that the organization's own hands stayed clean",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "b",
+          "distractors": [
+            "Evil of action, because remaining silent is itself a form of behavior.",
+            "Administrative evil, because the reports were generated by administrative bodies.",
+            "Deindividuation, because the bystanders were gathered in a crowd."
+          ],
+          "explanation": "A bystander's failure to stop or report abuse is classified as evil of inaction: it inflicts no direct and immediate harm yet facilitates ongoing harm by signaling social approval and impunity, which is why Zimbardo writes that the evil of inaction facilitates the evil of action. Administrative evil differs in that the harm is produced by the formal procedures of an organization itself, as with the torture memos, the renditions program, and the Military Commissions Act."
+        }
+      ]
+    }
+  ]
+}

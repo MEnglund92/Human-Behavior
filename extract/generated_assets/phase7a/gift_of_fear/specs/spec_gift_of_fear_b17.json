@@ -1,0 +1,52 @@
+{
+  "spec_file": "spec_gift_of_fear_b17.json",
+  "book_key": "gift_of_fear",
+  "book_title": "The Gift of Fear (Gavin de Becker)",
+  "topic": "reading-people",
+  "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+  "credibility_profile": {
+    "level": "Medium",
+    "consensus": "Emerging",
+    "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+  },
+  "modality_weights": {
+    "CUE_SCRUBBER_STATION": 40,
+    "DECEPTION_AUDIT_FILE": 40,
+    "BOSS_BATTLE": 20
+  },
+  "chapter_count": 4,
+  "chapters": [
+    {
+      "index": 21,
+      "title": "Appendix Four: Preparing the Mind for Combat",
+      "words": 15,
+      "asset_count": 3,
+      "text_path": "extract/generated_assets/phase7a/gift_of_fear/chapter_0021.txt",
+      "top_concepts": []
+    },
+    {
+      "index": 22,
+      "title": "Appendix Five: Gavin de Becker & Associates",
+      "words": 15,
+      "asset_count": 3,
+      "text_path": "extract/generated_assets/phase7a/gift_of_fear/chapter_0022.txt",
+      "top_concepts": []
+    },
+    {
+      "index": 23,
+      "title": "Appendix Six: The Elements of Prediction",
+      "words": 14,
+      "asset_count": 3,
+      "text_path": "extract/generated_assets/phase7a/gift_of_fear/chapter_0023.txt",
+      "top_concepts": []
+    },
+    {
+      "index": 24,
+      "title": "Appendix Seven: Questions For Your Child’s School",
+      "words": 15,
+      "asset_count": 3,
+      "text_path": "extract/generated_assets/phase7a/gift_of_fear/chapter_0024.txt",
+      "top_concepts": []
+    }
+  ]
+}

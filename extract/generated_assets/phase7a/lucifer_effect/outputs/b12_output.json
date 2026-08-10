@@ -1,0 +1,601 @@
+{
+  "spec_file": "spec_lucifer_effect_b12.json",
+  "chapters": [
+    {
+      "id": "ch18",
+      "title": "CHAPTER ELEVEN",
+      "pages": "",
+      "assets": [
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "Absolute ethics verdict on the Stanford Prison Experiment",
+          "visual_frame_description": "A university institutional review board conference room in 1973. Dr. Marta Ellison, the board chair, sits at a long oak table across from a young researcher who is defending a prison simulation study. Binders labeled 'Participant Medical Releases' and 'Five Early Releases' are stacked beside her. Behind them, a wall monitor plays a muted clip of a hooded young man in a stockade. The researcher smiles confidently, while Ellison reads aloud from a typed testimonial describing a prisoner's anguished sobbing.",
+          "player_mission": "You are Dr. Ellison. Decide whether the study passes muster under absolute ethics, which holds that a higher-order moral principle is invariant across time, situations, and persons. Weigh the researcher's claims of scientific value against the documented suffering, then rule on whether the study should have been approved at all.",
+          "key_concepts": [
+            "Absolute ethics postulates a higher-order moral principle that is invariant with regard to the conditions of its applicability, across time, situations, persons, and expediency.",
+            "Under absolute ethics, because human life is sacred it must not in any way be demeaned, however unintentionally.",
+            "From an absolute position, no research should be conducted that violates the biological or psychological integrity of any human being regardless of the benefit that might accrue to society at large.",
+            "The SPE was judged unethical on an absolute basis because human beings suffered considerable anguish that escalated over time.",
+            "Five of the sample of initially healthy young prisoners had to be released early due to extreme stress and emotional turmoil.",
+            "People suffered much more than they could have reasonably anticipated when they volunteered for an academic study of prison life at a prestigious university.",
+            "Absolute ethical codes such as the Ten Commandments and the Bill of Rights allow no degree of freedom that might justify means to an end.",
+            "Even if actions that cause suffering are conducted in the name of science, for the sake of knowledge, or for national security, those who adopt the absolute position argue they remain unethical.",
+            "Zimbardo conceded that he feels responsible for creating an institution that gave permission for such abuses to occur within the context of the psychology of imprisonment.",
+            "The experiment succeeded all too well in creating some of what is worst in real prisons, but the findings came at the expense of human suffering."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This battle tests absolute ethics: a higher-order moral principle, invariant across situations and persons, that forbids demeaning human life however unintentionally. Zimbardo's own retrospective analysis concludes that on such a basis the Stanford Prison Experiment must be judged unethical because participants suffered considerable anguish, five being released early.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "boss_battle_explanation": "The central concept is that absolute ethics admits no extenuating circumstances: any experiment that induces human suffering is unethical regardless of scientific gain. The battle forces the player to apply an invariant moral principle rather than a cost-benefit calculation.",
+          "stage_1_observation": "You review the study record: healthy college volunteers assigned to prisoner roles, a basement jail, guards in anonymity-engendering sunglasses, and a log of escalating humiliation. A letter from one prisoner describes sobbing and a loss of control so complete he screamed louder than ever in his life. Five of the original prisoners had to be released early because of extreme stress reactions. The researcher points to the famous findings about situational power as justification.",
+          "stage_1_question": "Under absolute ethics, what verdict should you issue on the Stanford Prison Experiment?",
+          "stage_1_correct_answer": "The study was unethical because participants suffered considerable anguish, and under absolute ethics no research that demeans human life, however unintentionally, can be justified regardless of scientific benefit.",
+          "stage_2_intervention": "The researcher pushes back, arguing that the knowledge gained will inform prison reform and that the participants were debriefed and returned to a balanced emotional state. He proposes adding a longer debriefing session to make the study acceptable. You must rule on this revised proposal.",
+          "stage_2_correct_answer": "Reject the revision: under absolute ethics no amount of debriefing or anticipated social benefit can justify a procedure that caused real, escalating anguish to healthy participants; the correct action is to refuse approval of any study that induces such suffering."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "The dual-role conflict and failure to terminate the SPE",
+          "visual_frame_description": "A cramped basement corridor doubling as a prison yard. A young man in a stocking cap stands sobbing against a cell wall while guards look on. In the foreground a man in a dark jacket and sunglasses, clearly the superintendent, watches through a wire-mesh window. A small chalkboard shows 'Day 3' and a schedule of counts. The scene is lit by a single bare bulb, and a camera in the corner records everything.",
+          "player_mission": "You are the superintendent on Day 3, the same position Zimbardo held. Two prisoners have now suffered severe stress disorders, the first released after only thirty-six hours. Decide whether to terminate the study and identify the structural weakness that let it continue.",
+          "key_concepts": [
+            "Zimbardo believed the main reason he did not end the study sooner was the conflict created by his dual roles as principal investigator and prison superintendent.",
+            "As principal investigator he was the guardian of research ethics; as prison superintendent he was eager to maintain the integrity and stability of his prison at all costs.",
+            "Doug, Prisoner 8612, was the first prisoner to suffer an extreme emotional stress reaction and was released after only thirty-six hours.",
+            "Zimbardo believed he should have called it quits after the second prisoner suffered a severe stress disorder on Day 3.",
+            "The study continued past multiple early stress disorders, and would have ended on Sunday at the end of a full week had Christina Maslach's intervention not forced premature closure.",
+            "Zimbardo realized there should have been someone with authority above his, someone in charge of oversight of the experiment.",
+            "Neither the Human Subjects Research Committee nor Zimbardo imagined in advance that external authority was necessary in an experiment where students had freedom to stay or go.",
+            "The distress of the SPE guards came from their awareness that their shocks to the prisoners were all real, direct, and continual, unlike the staged shocks in Milgram's research.",
+            "In 1973 the American Psychological Association, at Zimbardo's own request, determined that the existing ethical guidelines had been followed.",
+            "Zimbardo apologized for contributing to the inhumanity that the psychology of imprisonment made possible."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests the ethical hazard of role conflict: an investigator who is also invested in maintaining his own institution is blind to the escalating harm inside it. Zimbardo attributes his failure to stop the study to his twin allegiances to science and to 'his prison,' and he concludes that an external authority above the superintendent should have existed to press the Exit button.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "boss_battle_explanation": "The central concept is that dual roles blind judgment: the person responsible for ethical oversight was also the person invested in keeping the simulation running, so escalating suffering was rationalized rather than stopped.",
+          "stage_1_observation": "It is Day 3. Doug-8612 has already been released after his extreme emotional reaction on Day 1. Now a second prisoner, having been subjected to a humiliating 'prisoner number' exercise, breaks down, sobbing and unable to stop. Your small staff is exhausted by around-the-clock logistics. The guards argue the prisoners are 'playing weak' and that the study is working.",
+          "stage_1_question": "What should have been done on Day 3, and why didn't Zimbardo do it?",
+          "stage_1_correct_answer": "The study should have been terminated after the second prisoner's severe stress disorder on Day 3; the failure to do so stemmed from Zimbardo's dual-role conflict as principal investigator and prison superintendent, which made him protect the prison's integrity at the cost of the participants' welfare.",
+          "stage_2_intervention": "After the study is finally stopped, you are asked to design the structural fix that would have prevented the six-day overrun. You must decide what safeguard to recommend for any future high-stress simulation.",
+          "stage_2_correct_answer": "Institute an independent oversight authority above the investigator-superintendent, someone with power to stop the study who has no stake in its continuation, so that no single person who profits from the prison's survival can be the sole gatekeeper on terminating it."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "The passive bystander problem inside the SPE",
+          "visual_frame_description": "A dim observation room with live video monitors showing a prisoner curled up on a concrete floor. A Catholic priest in clerical collar stands in the doorway frowning, then turns and walks away. A parent on a visiting night shakes hands stiffly with a son in a prison uniform. A graduate student in the corner watches the monitors while annotating a clipboard. No one touches the red 'EXIT' button mounted on the wall beside the door.",
+          "player_mission": "You are the graduate student watching the live feed. The prison chaplain, the parents, and the department staff have all looked, but none have acted. Identify why the bystanders remained passive, then choose the intervention that ends the paralysis.",
+          "key_concepts": [
+            "The onlookers in the SPE fell into playing a passive role and accepted Zimbardo's framing of the situation, which blinded them to the real picture.",
+            "Some bystanders intellectualized the situation because the simulation seemed real, because of the realism of the role-playing, or because they focused on the minutiae of the experimental design.",
+            "The bystanders did not see the more severe abuses as they were unfolding, and the participants were unwilling to disclose them fully to outsiders, even to close friends and families.",
+            "The prisoners were driven to conceal their suffering by embarrassment, pride, or a sense of manliness.",
+            "The Catholic priest/prison chaplain saw prisoners crying and did not intervene, and parents who noticed their sons' deteriorating conditions never pressed the Exit button.",
+            "Professional psychologists, graduate students, secretaries, and department staff who watched live-action videos, took part in Parole Board hearings, or spoke to participants all failed to intervene.",
+            "Virtue, as Dante showed in the Inferno, is not simply refraining from sin; it requires action.",
+            "Zimbardo noted that so many came and looked but did not see and just walked away.",
+            "Zimbardo's failure to blow the whistle sooner was partly because no one was assigned an oversight role above him.",
+            "The study was eventually terminated prematurely only because Christina Maslach, a new outsider to the situation, insisted that it stop."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests the paralysis of action among bystanders: onlookers accepted the authority figure's framing and intellectualized the simulation as 'real,' so no one pressed the Exit button for the prisoners. Zimbardo emphasizes that virtue requires action, and that even the chaplain, parents, and watching psychologists failed to intervene because they were captured by the situation's definition.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "boss_battle_explanation": "The central concept is that bystanders inside an institution accept the framing set by its authority, intellectualize the abuse as 'just the simulation,' and therefore remain passive even when they are directly observing harm.",
+          "stage_1_observation": "You watch a live video feed of a prisoner who has been crying for ten minutes after a punishment exercise. The department chaplain visits, sees the state of the prisoner, exchanges a few words, and leaves. A supervising researcher reminds everyone that 'the participants consented and can quit anytime.' Your fellow staff continue coding behavior into categories on a clipboard.",
+          "stage_1_question": "Which single factor best explains why the chaplain, the parents, and the department staff all failed to intervene?",
+          "stage_1_correct_answer": "They accepted Zimbardo's framing of the situation and intellectualized it as a realistic simulation whose purpose overrode their moral alarm, so they looked but did not see the abuse as real and walked away without acting.",
+          "stage_2_intervention": "You are now the graduate student at the monitor. A prisoner is being forced to perform a degrading exercise while the guards laugh, and the researcher in charge has just walked out of the room. Choose the action most consistent with the chapter's lesson about paralysis of action.",
+          "stage_2_correct_answer": "Intervene immediately and personally: stop the exercise, call the prisoner by his real name, and summon the oversight authority to terminate the harmful condition, because virtue requires action and waiting for someone else to press the Exit button is exactly the paralysis the chapter condemns."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "Boredom, stimulation, and the night shift guards' abuse",
+          "visual_frame_description": "A quiet prison corridor at 2 a.m. The lights are low and nothing is happening. Three guards in khaki uniforms and mirrored sunglasses sit on folding chairs, yawning. One of them picks up a nightstick and taps the bars of a cell where a prisoner sleeps. Another grins and pantomimes an exercise. A clipboard on the wall lists a rigid nightly schedule with long blank stretches marked 'nothing scheduled.'",
+          "player_mission": "You are the night-shift supervisor. The guards are restless in a static, monotonous setting, and you can see them beginning to treat the sleeping prisoners as toys. Diagnose the mechanism driving their behavior, then choose the intervention that derails it.",
+          "key_concepts": [
+            "Our need for stimulation triggers explorations and adventurous risk taking, but it can also make us vulnerable to boredom when we are placed in a static setting.",
+            "Boredom can become a powerful motivator of actions, as was seen with the SPE night-shift guards who had fun with their playthings.",
+            "The SPE guards invented creatively evil tasks and games for the prisoners, including degrading exercises and arbitrary rules.",
+            "The need for autonomy and control can be perverted into an excessive exercise of power to dominate others.",
+            "Every human capacity contains the possibility of its opposite negative, as in the dichotomies of love-hate, pride-arrogance, and self-esteem-self-loathing.",
+            "Situational and systemic forces operated in tandem to spoil the fruits of human nature in the SPE.",
+            "The participants were not the proverbial bad apples in an otherwise good barrel; the design ensured they were good apples corrupted by the bad barrel of the prison.",
+            "The guards' changes in thought, feeling, and behavior were consequences of known psychological processes that operate on all of us, albeit less intensely.",
+            "Guard Vandy acknowledged that his enjoyment in harassing and punishing prisoners was quite unnatural and grew from his total freedom to rule the prisoners.",
+            "Guard Hellmann admitted he fell so deeply into his role that he was blind to the suffering of others."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This battle tests how the need for stimulation, frustrated by a static environment, converts into boredom that becomes a powerful motivator of abuse. Zimbardo cites the SPE night-shift guards entertaining themselves with their 'playthings' as evidence that situational monotony, not sadistic personality, powered their escalating cruelty.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "boss_battle_explanation": "The central concept is that boredom, generated by an understimulating situation, becomes an active motive that pushes ordinary people to manufacture excitement, in this case by dominating and humiliating those in their power.",
+          "stage_1_observation": "It is the dead of night, and there is nothing scheduled for hours. Three guards have exhausted small talk and card games. One begins tapping his club rhythmically against cell bars, waking a prisoner. Another suggests a 'count drill' that will wake everyone, and the third proposes a humiliating exercise 'to keep them sharp.' No rule forbids it, and no supervisor is present.",
+          "stage_1_question": "What psychological mechanism best explains the guards' turn from boredom to abusive games with the prisoners?",
+          "stage_1_correct_answer": "The guards' need for stimulation made them vulnerable to boredom in the static setting, and boredom became a powerful motivator that led them to treat the prisoners as playthings to generate excitement and prove their dominance.",
+          "stage_2_intervention": "You now have the authority to restructure the night shift before the abuse escalates further. Choose the intervention that attacks the situational cause rather than blaming individual character.",
+          "stage_2_correct_answer": "Change the situation: assign structured, meaningful duties and rotate activities so the shift is no longer static and understimulating, and establish clear, supervised limits that forbid using prisoners for entertainment, removing the boredom-driven permission that motivated the games."
+        },
+        {
+          "asset_type": "BOSS_BATTLE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "Replication gauntlet: Australia, Elgin, and the BBC pseudoexperiment",
+          "visual_frame_description": "A research presentation theater with three screens. On the left, a graph from the University of New South Wales study showing hostile confrontive relations tracking the prison regime. In the center, black-and-white footage of Elgin State Hospital staff dressed as patients, one weeping in a corridor. On the right, a split screen from the BBC-TV show where guards look distressed and huddle together while prisoners laugh and coordinate. A presenter at a podium clicks between the three studies.",
+          "player_mission": "You are a replication analyst evaluating whether follow-up studies confirm or challenge the SPE's claim that the prison regime, not the personalities, produces hostile relations. Sort the evidence, then decide how a design flaw in the BBC pseudoexperiment undermines its challenge.",
+          "key_concepts": [
+            "A team at the University of New South Wales, Australia, extended the SPE with a Standard Custodial regime modeled on medium-security prisons that was closest to the SPE's procedure.",
+            "The Australian researchers concluded that hostile, confrontive relations in prisons result primarily from the nature of the prison regime, rather than from the personal characteristics of inmates and officers.",
+            "The Australian results help offset skepticism about simulation experiments by providing baselines to assess behavioral changes from structural characteristics of real-life prisons.",
+            "At Elgin State Hospital, twenty-nine staff members were confined for three days as mock patients, and in a short time they began acting in ways indistinguishable from real patients.",
+            "In the Elgin mock ward, six tried to escape, two withdrew into themselves, two wept uncontrollably, and one came close to a nervous breakdown.",
+            "The vast majority of Elgin staff-patients, more than 75 percent, reported feeling incarcerated, without identity, as if nobody were listening, not treated as a person, and as if they had forgotten it was an experiment.",
+            "A BBC-TV pseudoexperiment based on the SPE model produced the opposite outcome: the guards, not the prisoners, became increasingly paranoid, depressed, and stressed and complained of being bullied.",
+            "In the BBC show the prisoners worked as a team to undermine the guards, established the upper hand, and everyone eventually formed a peaceful commune with the help of a labor union organizer.",
+            "Several of the BBC guards quit while none of the prisoners did so, inverting the SPE pattern.",
+            "The positive outcome of the Elgin study was an organization of staff who worked with patients to raise consciousness about mistreatment."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This battle tests how replications and extensions adjudicate the SPE's core claim that regimes, not personalities, generate hostility. The Australian replication and the Elgin mock ward support Zimbardo's conclusion, while the BBC pseudoexperiment appears to challenge it, but its outcome is explained by situational differences and by the participants' awareness of public scrutiny rather than by a refutation of situational power.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "boss_battle_explanation": "The central concept is that the power of the situation is demonstrated when structurally similar regimes produce similar outcomes across cultures and settings, and that an apparent replication failure must be analyzed for situational differences rather than read as proof of personality determinism.",
+          "stage_1_observation": "You have three study summaries before you. The University of New South Wales study used a Standard Custodial regime modeled on medium-security Australian prisons and found hostility tracking the regime, not the inmates or officers. The Elgin State Hospital staff, playing patients for three days, rapidly behaved indistinguishably from real patients. The BBC-TV reality show produced the reverse pattern, with distressed guards and dominant prisoners.",
+          "stage_1_question": "Which conclusion correctly integrates the three replication outcomes?",
+          "stage_1_correct_answer": "The Australian and Elgin studies strongly support the SPE's conclusion that hostile, confrontive relations result primarily from the nature of the prison regime, while the BBC pseudoexperiment is an analytically unreliable challenge because its situational features and publicity-driven design differed, and its role-reversed outcome still demonstrates situational power rather than fixed personalities.",
+          "stage_2_intervention": "A journalist cites the BBC show as proof that Zimbardo's experiment was a fluke. You must respond using the chapter's own analysis. Choose the rebuttal that best reflects the book's reasoning.",
+          "stage_2_correct_answer": "Explain that the BBC pseudoexperiment is a reality-TV pseudoexperiment whose guards were bullied and distressed while prisoners dominated, and that the chapter treats it as a poor basis for comparison because outcomes depended on the specific situation created; the Australian and Elgin replications, which controlled structural conditions, are the valid tests, and they confirm that regimes shape behavior."
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "The Visiting-Night deception: auditing the red-carpet show",
+          "visual_frame_description": "A visiting room inside a mock prison basement. Parents sit across a table from their uniformed sons while a researcher in a suit beams, gestures to a neatly arranged menu board, and steers the conversation. A guard stands near the doorway polishing his club. On the wall behind the researcher, a small handwritten sign reads 'Visiting Night Schedule' next to a taped-over list of punishment rules. The parents look uncertain; the researcher's smile never wavers.",
+          "player_mission": "You are an ethics auditor investigating the Stanford Prison Experiment's Visiting Nights. Observe Dr. Raymond Steele's staging of the visits, read his account in the interrogation transcript, and render a verdict on whether the red-carpet show was a deception and what it accomplished.",
+          "key_concepts": [
+            "The researchers worried that parents would take their sons home if they fully realized the abusive nature of the mock prison.",
+            "To forestall such action, which would have ended the study, the researchers put on a show for the parents on Visiting Nights.",
+            "The researchers did this not only to keep the prison intact but because such deceptions are usual in many systems under investigation by oversight committees.",
+            "Putting out a good-looking red carpet is how system managers counter complaints and concerns about the negative aspects of their situation.",
+            "One feature that qualified the SPE as unethical was not disclosing in advance the nature of the arrests and formal booking to the students or their parents.",
+            "Parents were caught off guard by the unexpected Sunday intrusion of the police arrest into their lives.",
+            "The researchers were also guilty of manipulating parents into thinking the situation of their sons was not as bad as it was.",
+            "Relative ethics in research require weighing pain against gain, and external reviewers must serve as ombudspersons for relatively powerless participants.",
+            "Zimbardo acknowledged that the deceptive control procedures used on Visiting Nights were part of the prison simulation's basic ingredients.",
+            "The ethics of intervention holds that every act that changes the life of an individual or group raises ethical questions that often go unnoticed."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This audit tests the ethics of intervention and system-level deception: the researchers staged a reassuring red-carpet show on Visiting Nights to keep parents from realizing the prison's abusive reality and pulling their sons out. Zimbardo presents this impression management as a deliberate deception typical of systems under oversight, and as one of the reasons the SPE could be judged unethical.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "question": "Was the treatment of parents on Visiting Nights a deception, and what psychological purpose did it serve for the researchers running the SPE?",
+          "subject_baseline": "Dr. Raymond Steele is a meticulous university researcher who prides himself on transparent, rigorous experimental procedure. In grant reports and departmental meetings he describes the SPE as a clean simulation of prison life with informed consent and voluntary participation. His normal pattern is to emphasize the scientific value of the study and to minimize its stressful features when speaking to outsiders and sponsors.",
+          "observed_nonverbal_log": [
+            "17:00 - Visiting Night begins. Steele personally greets each parent at the entrance with a warm handshake and a rehearsed smile, steering them toward the tidy briefing room and away from the cells.",
+            "17:12 - A mother asks how her son is coping. Steele's smile remains fixed while his right hand smooths the lapel of his jacket and his eyes dart toward the doorway where a guard is visible.",
+            "17:20 - When a father mentions a rumor that prisoners were denied food, Steele laughs lightly, shakes his head slowly, and redirects: 'We have three square meals scheduled, sir. Would you like to see the menu board?'",
+            "17:31 - Steele introduces the supervised visiting area, where prisoners sit quietly under guard watch. He does not mention the earlier count drills, the humiliation exercises, or the prisoner who was released the day before.",
+            "17:40 - A mother notices her son flinch when a guard passes. Steele steps between them, volunteers that the guards 'are trained to be firm but professional,' and ushers the family toward the exit before she can ask more.",
+            "17:52 - As the last family leaves, Steele's shoulders drop, he exhales audibly, and he tells a staffer under his breath, 'That should hold them for another week.'"
+          ],
+          "interrogation_transcript": [
+            "Auditor: 'On Visiting Night, did you tell the parents everything about the conditions inside?'",
+            "Steele: 'We showed them a good side of the institution. That is standard practice.'",
+            "Auditor: 'Standard practice for whom?'",
+            "Steele: 'For any system under review. If families fully realized how rough the simulation had become, they would have taken their sons home, and the study would have collapsed.'",
+            "Auditor: 'So the parents were given an accurate picture?'",
+            "Steele: 'We gave them a show. A good-looking red carpet. It counters complaints and concerns about the negative aspects of the situation.'"
+          ],
+          "correct_diagnosis": "Deception by staged impression management: Steele deliberately staged a reassuring red-carpet show on Visiting Nights to keep parents from realizing how abusive the mock prison had become, so they would not take their sons home and end the study.",
+          "diagnostic_breakdown": "The chapter states directly that the researchers worried parents would take their sons home if they fully realized the abusive nature of the mock prison, and that to forestall such action, which would have ended the study, they put on a show for them. Steele's nonverbal behavior confirms the staging: rehearsed warmth, deflection of direct questions, physically steering parents away from the cells, and the relieved 'that should hold them for another week' at the end. His interrogation testimony openly admits the goal was to keep the simulation intact. This qualifies as deception and stands in tension with the relative-ethics claim that, apart from the police arrest, there was no deception of participants.",
+          "distractors": [
+            "No deception occurred because the parents saw a fully accurate representation of prison life and the researchers were transparent about every condition.",
+            "The parents were the real subjects of the experiment, and the visiting night was the independent variable being measured.",
+            "The deception was necessary to protect the parents from emotional distress and therefore did not count as manipulation of their judgment."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "Doug-8612's breakdown: performance or genuine anguish",
+          "visual_frame_description": "A staff observation room adjacent to a prison cell. Through a window, Doug, a young man in a prison uniform with a stocking cap, sobs and thrashes against the cell door, open palms pressed through the bars. Two researchers sit at a table reviewing his intake interview notes while a video camera records. A red notebook labeled 'Day 1 - 8612' lies open, and one researcher holds a release form marked 'EARLY RELEASE - 36 HOURS.'",
+          "player_mission": "You are the research psychologist deciding whether to release Doug, Prisoner 8612, after his extreme emotional stress reaction. Analyze his baseline behavior, the nonverbal log across the day, and his later testimony, then diagnose whether the breakdown was genuine or a performance to escape.",
+          "key_concepts": [
+            "Doug, Prisoner 8612, a ringleader of the prisoner rebellion, was the first prisoner to suffer an extreme emotional stress reaction.",
+            "His response forced the staff to release him after only thirty-six hours in the study.",
+            "Doug described the experience as being out of control, both of the situation and of his feelings, and as never having screamed so loud in his life.",
+            "In a follow-up evaluation five years later, Doug revealed that he started to simulate extreme distress in order to be released, first physical, then mental fatigue.",
+            "Doug explained that the energy it took to get into that state, and the mere fact that he could be so upset, upset him.",
+            "His girlfriend reported that he was so upset and nervous that he talked about the experiment constantly for two months afterward.",
+            "Doug went on to earn a Ph.D. in clinical psychology, completing his internship at San Quentin State Prison and working for more than twenty years as a forensic psychologist.",
+            "His testimony gave the study video its title, Quiet Rage, as he described the sadistic impulse that must be guarded against in situations of differential power.",
+            "The guards' own distress differed from Milgram participants' distress because their shocks to the prisoners were all real, direct, and continual.",
+            "Zimbardo treated the rapid transformation of healthy young men as evidence of situational power rather than preexisting pathology."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This audit tests the boundary between simulated and genuine distress under situational pressure: Doug began by performing illness to escape, but the role-playing overtook him and produced real, uncontrolled anguish. Zimbardo presents 8612's reaction as genuine evidence of how a potent situation can overwhelm even a deliberate actor's self-command.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "question": "When Doug, Prisoner 8612, suffered an extreme emotional stress reaction and was released after thirty-six hours, was his breakdown a genuine psychological response or a fabricated performance to escape the experiment?",
+          "subject_baseline": "Doug is a confident, articulate college student who entered the study as a ringleader of the prisoner rebellion. Under normal conditions he is composed and verbally quick, known among peers for his sharp wit and self-command. His baseline demeanor is assertive and in control, not given to displays of helplessness.",
+          "observed_nonverbal_log": [
+            "Day 1, 09:00 - Doug leads the rebellion, shouting through the bars and organizing his cellmates. Voice loud, gestures expansive, posture upright and combative.",
+            "Day 1, 15:00 - After guards confiscate beds, Doug's voice becomes strained and his breathing rapid. He repeatedly thrusts open palms through the bars in a pleading gesture, an uncharacteristic posture for him.",
+            "Day 1, 18:30 - During an interview, Doug alternates between coherent demands and disorganized, rambling speech. He tells staff his mind is 'going blank' and that he cannot control his own feelings.",
+            "Day 1, 21:00 - Doug is isolated. He rocks slightly, speaks in fragments about losing control of the situation and of his feelings, and describes never having screamed so loud in his life.",
+            "Day 1, 22:40 - Staff release Doug early, thirty-six hours into the study. He walks out slowly, head down, avoiding eye contact with the guards.",
+            "Five years later - In a follow-up evaluation, Doug reveals that he began by simulating extreme distress in order to be released, first physical, then mental fatigue, but that the role then 'got to him.' His girlfriend reported he was so upset he talked about the experiment constantly for two months afterward."
+          ],
+          "interrogation_transcript": [
+            "Auditor: 'You wanted out. You told staff you were playing sick.'",
+            "Doug: 'I figured the only way I could get out of the experiment was to play sick, first physical. Then when that did not work I played at mental fatigue.'",
+            "Auditor: 'So the breakdown was an act.'",
+            "Doug: 'However, the energy it took to get into that space, and the mere fact that I could be so upset, upset me. I was out of control, both of the situation and of my feelings.'",
+            "Auditor: 'And after you left?'",
+            "Doug: 'I have never been so upset in my life. I have never screamed so loud in my life.'"
+          ],
+          "correct_diagnosis": "Genuine emotional breakdown with a simulated entry point: Doug initially feigned distress as a strategy to be released, but the role-playing overtook him and produced real, uncontrolled anguish, which is why his reaction was genuine despite the deceptive beginning.",
+          "diagnostic_breakdown": "The evidence shows two layers. Doug admitted in his follow-up evaluation that he first simulated extreme distress, physical then mental, as a way to force his release, which explains the abrupt onset and his later confession. However, his nonverbal log shows the simulation cascaded into genuine loss of control: pleading palms, rambling speech, rocking, and his own testimony that the mere fact he could be so upset upset him. His girlfriend observed him discussing the experiment constantly for two months, and he describes screaming louder and being more upset than ever in his life. Zimbardo treats the response as real: Doug's extreme emotional stress reaction forced his release after thirty-six hours. The correct diagnosis is genuine breakdown produced by role absorption, not cold deception.",
+          "distractors": [
+            "The breakdown was a purely fabricated performance with no genuine distress, since Doug admitted he played sick to get out.",
+            "Doug's release was a mistake because his distress was caused entirely by preexisting psychological instability that the screening had missed.",
+            "Doug's reaction was a deliberate manipulation designed to sabotage the experiment and discredit the researchers."
+          ]
+        },
+        {
+          "asset_type": "DECEPTION_AUDIT_FILE",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "The informed-consent audit: did signed consent cover the suffering",
+          "visual_frame_description": "A signing room with a desk and a stack of printed forms titled 'Informed Consent.' A young woman in casual clothes reads one page, frowning at the phrase 'loss of some civil rights,' while a friendly research coordinator in a lab coat leans in with a reassuring smile. On the wall hangs a framed certificate of university approval. Behind them, through a frosted-glass door, a uniformed student sits with his head in his hands.",
+          "player_mission": "You are a research ethicist auditing whether the signed informed-consent form ethically justified the anguish the prisoners experienced. Read the consent provisions, Diane's behavior across the study, and her interview, then decide whether the document covered the actual suffering.",
+          "key_concepts": [
+            "The informed-consent statement signed by every participant specified invasion of privacy, a minimally adequate diet, loss of some civil rights, and harassment.",
+            "All participants were expected to complete their two-week contract to the best of their ability.",
+            "The Student Health Department was alerted and prior arrangements were made for any medical care subjects might need.",
+            "Approval was sought and received in writing from the Group Effectiveness Branch of the Office of Naval Research, the Stanford Psychology Department, and Stanford's Institutional Review Board.",
+            "People suffered much more than they could have reasonably anticipated when they volunteered for an academic study of prison life at a prestigious university.",
+            "The suffering escalated over time and resulted in such extreme stress that five of the initially healthy young prisoners had to be released early.",
+            "An additional feature that qualified the SPE as unethical was not disclosing in advance the nature of the arrests and formal booking to the students or their parents.",
+            "Relative ethics requires researchers to create a balance between socially useful research and the well-being and dignity of participants.",
+            "Because researchers' self-serving biases may push them toward the research goal, external reviewers must serve as ombudspersons for relatively powerless participants.",
+            "Adequate, detailed debriefing is essential to realizing the secondary objective of gains to research participants."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This audit tests relative ethics' cost-gain accounting: the consent form disclosed a list of stressors, yet participants suffered far beyond what they could reasonably anticipate. Zimbardo argues the signed form cannot ethically cover the escalating, identity-destroying anguish actually experienced, since consent was given to the abstract provisions, not to the real harm.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "question": "Did the signed informed-consent statement, which warned of privacy invasion, a minimally adequate diet, loss of some civil rights, and harassment, give the researchers ethical cover for the anguish the prisoners actually suffered?",
+          "subject_baseline": "Diane, a twenty-year-old student, is a conscientious and trusting participant who reads forms carefully before signing. Her normal behavior is cooperative and deferential to authority; she asks clarifying questions politely and assumes the university has vetted the study. She is optimistic that an academic experiment will be safe and that researchers act in her interest.",
+          "observed_nonverbal_log": [
+            "09:00 - In the signing room, Diane reads the informed-consent form, frowning at the phrase 'loss of some civil rights' and the word 'harassment,' then glances up at the friendly research coordinator and shrugs.",
+            "09:08 - Diane signs the form after the coordinator reassures her that the study is run by the university psychology department and monitored by its review board.",
+            "09:25 - Handed a uniform and a number, Diane's smile fades as her name is replaced by 'Participant 812' on all paperwork.",
+            "Day 2 - Diane's behavior shifts: she avoids eye contact with staff, answers in short phrases, and jumps at sudden noises. Her mood checklist shows rising anxiety.",
+            "Day 3 - After a punishment exercise, Diane cries openly in her cell, telling another participant she never imagined she could feel so degraded and that she feels she is no longer herself.",
+            "Day 4 - When a staffer offers to let her leave, Diane hesitates for ten seconds before saying 'May I?' in a small voice, as though permission were still needed."
+          ],
+          "interrogation_transcript": [
+            "Auditor: 'You signed the consent form. It listed harassment, loss of civil rights, and a minimally adequate diet.'",
+            "Diane: 'I read it. I thought it meant ordinary discomfort, like in a psychology class demonstration.'",
+            "Auditor: 'Did anyone tell you how intense the experience would become, or that it might escalate over days?'",
+            "Diane: 'No. It said two weeks, prison life, best of your ability. Nobody said I would be crying in a cell feeling like I was not a person anymore.'",
+            "Auditor: 'Did you feel you could quit at any time?'",
+            "Diane: 'They said I could, but by then I was not sure the answer was yes or no. I kept asking permission to do things.'"
+          ],
+          "correct_diagnosis": "The consent form did not provide ethical cover for the actual suffering: it disclosed a list of stressors but could not capture the escalating, identity-destroying anguish participants actually experienced, and the researchers failed to disclose the full nature of the police arrest and booking in advance.",
+          "diagnostic_breakdown": "The chapter lists the informed-consent provisions - invasion of privacy, minimally adequate diet, loss of some civil rights, and harassment - as part of the relative-ethics case, but it also documents that people suffered much more than they could have reasonably anticipated when they volunteered for an academic study of prison life. Diane's behavior confirms the gap between the abstract disclosure and the lived experience: she consented to 'ordinary discomfort' and instead faced degradation that eroded her sense of self and even her capacity to request release. The chapter additionally notes the study withheld in advance the nature of the arrests and formal police booking, and that parents were manipulated on visiting nights. Consent to a set of listed stressors is not equivalent to informed consent to the actual, unanticipated anguish, so the signed form does not settle the ethics of the study.",
+          "distractors": [
+            "The signed consent form was fully valid because participants agreed to the exact stressors they later experienced, including emotional breakdown and identity loss.",
+            "Consent forms are always sufficient ethical justification for any psychological study, regardless of what actually happens during it.",
+            "The study was ethical because participants were paid fifteen dollars a day and the financial compensation fully offset all distress."
+          ]
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "Sorting the perversion of human perfectibility",
+          "visual_frame_description": "A split-panel sorting board in a psychology classroom. On one side, glowing panels show human capacities: memory, language, creativity, belonging, autonomy, consistency, understanding, and stimulation. On the other side, dark panels list their degraded opposites: grudges, propaganda, torture chambers, conformity, domination, rationalization, self-isolation, and bored abuse. The player drags each darkened panel onto one of three labeled columns in the center.",
+          "player_mission": "You are a teaching assistant building a sorting exercise on Zimbardo's argument that the potential for perversion is inherent in the very processes that make human beings do wonderful things. Assign each perverted outcome to the human capacity whose degradation produced it.",
+          "key_concepts": [
+            "Memory enables us to profit from mistakes, but with memory come grudges, revenge, learned helplessness, and the rumination over trauma that feeds depression.",
+            "Language provides the foundation for history, planning, and social control, but with language come rumors, lies, propaganda, stereotypes, and coercive rules.",
+            "Creative genius leads to literature, science, and invention, yet it can be perverted into inventing torture chambers and paranoid ideologies.",
+            "The fundamental human need to belong can be perverted into excessive conformity, compliance, and in-group versus out-group hostility.",
+            "The need for autonomy and control can be perverted into an excessive exercise of power to dominate others or into learned helplessness.",
+            "Needs for consistency and rationality give meaningful direction, yet dissonant commitments force us to honor and rationalize wrong-headed decisions.",
+            "The need to understand our environment can be perverted by a capricious, arbitrary environment into frustration and self-isolation.",
+            "The need for stimulation triggers adventurous risk taking but makes us vulnerable to boredom in static settings.",
+            "Boredom can become a powerful motivator of actions, as with the SPE night-shift guards having fun with their playthings.",
+            "Any one of our special attributes contains the possibility of its opposite negative, as in love-hate, pride-arrogance, and self-esteem-self-loathing.",
+            "The SPE shows that the need to belong can also be perverted into excessive conformity, compliance, and in-group versus out-group hostility.",
+            "Zimbardo argues that each of us is born with a full range of capacities activated and developed depending on the social and cultural circumstances that govern our lives."
+          ],
+          "difficulty_level": "Beginner",
+          "theory_summary": "This matrix tests Zimbardo's argument that the potential for perversion is inherent in the very processes that make human beings do wonderful things: every capacity carries the possibility of its opposite negative. The SPE demonstrates how memory, language, belonging, autonomy, and stimulation each became degraded into dysfunctional outcomes within the prison's bad barrel.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "question": "Every human capacity carries the possibility of its opposite negative. Classify each perverted outcome by the human capacity that Zimbardo says becomes degraded.",
+          "column_a_label": "Memory, language, and creativity",
+          "column_b_label": "Affiliation and autonomy needs",
+          "column_c_label": "Consistency, understanding, and stimulation needs",
+          "rows": [
+            {
+              "label": "Grudges, revenge, learned helplessness, and rumination over trauma that feeds depression",
+              "col": "a"
+            },
+            {
+              "label": "Rumors, lies, propaganda, stereotypes, and coercive rules",
+              "col": "a"
+            },
+            {
+              "label": "Inventing torture chambers and paranoid ideologies instead of science and art",
+              "col": "a"
+            },
+            {
+              "label": "Excessive conformity, compliance, and in-group versus out-group hostility",
+              "col": "b"
+            },
+            {
+              "label": "Excessive exercise of power to dominate others or learned helplessness",
+              "col": "b"
+            },
+            {
+              "label": "Honoring and rationalizing wrong-headed decisions because of dissonant commitments",
+              "col": "c"
+            },
+            {
+              "label": "Boredom becoming a powerful motivator of abuse of playthings",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "All of the perverted outcomes are simply expressions of low self-esteem or individual pathology.",
+            "The perversions are random side effects of the experiment with no connection to normal human capacities.",
+            "Each perversion is caused exclusively by the dispositional traits of the participants who exhibited it."
+          ],
+          "explanation": "Zimbardo argues that the potential for perversion is inherent in the very processes that make human beings do wonderful things. Memory, language, and creativity, which give us better futures, communication, and art, can be perverted into grudges and revenge, rumors and propaganda, and torture chambers and paranoid ideologies, so rows one through three sort to column a. The need to belong and the need for autonomy, which drive cooperation and self-direction, can be perverted into excessive conformity, compliance, in-group hostility, and domination or learned helplessness, so rows four and five sort to column b. Finally, needs for consistency, understanding, and stimulation, which give direction and curiosity, can be perverted into rationalizing wrong decisions, frustration and self-isolation in capricious environments, and boredom-driven abuse, so rows six and seven sort to column c."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "Absolute versus relative ethics in the SPE",
+          "visual_frame_description": "A debate hall divided into two grand lecterns. On the left, a stern figure in judicial robes stands beneath a banner reading 'Absolute Ethics - Ten Commandments, Bill of Rights,' with a scale that cannot tilt. On the right, a researcher in a lab coat stands beneath a banner reading 'Relative Ethics - Cost-Benefit,' holding a balance weighing a bag labeled 'pain' against a bag labeled 'gain.' Below, a third panel scrolls through everyday interventions by parents, surgeons, and teachers labeled 'Ethics of Intervention.'",
+          "player_mission": "You are a law student analyzing the SPE ethics debate. Read each claim and place it under the correct ethical framework: absolute ethics, relative utilitarian ethics, or the ethics of intervention, exactly as Zimbardo defines them in the chapter.",
+          "key_concepts": [
+            "Absolute ethical standards postulate a higher-order moral principle that is invariant with regard to the conditions of its applicability, across time, situations, persons, and expediency.",
+            "Absolute ethical codes allow no degree of freedom that might justify means to an end or circumstances that qualify where the principle is suspended.",
+            "An absolute ethical standard postulates that because human life is sacred it must not in any way be demeaned, however unintentionally.",
+            "Those who adopt the absolute position argue that even actions that cause suffering in the name of science, knowledge, or national security are unethical.",
+            "On the basis of absolute ethics, the SPE must be judged unethical because human beings did suffer considerable anguish.",
+            "Most research follows a utilitarian ethics model, judged on pragmatic criteria weighted according to utilitarian principles.",
+            "Relative ethics weigh pain against gain in a cost-gain equation, asking whether the scientific ends justify the experimental means.",
+            "The ethics of intervention holds that every act of intervention in the life of an individual, a group, or an environment is a matter of ethics.",
+            "It is the agents' subjective values that determine the cost-benefit ratio and raise critical ethical questions about any intervention.",
+            "Research institutions, funding agencies, and governments establish strict guidelines for all medical and nonmedical human research.",
+            "Since researchers' self-serving biases may push them toward useful research, external reviewers must serve as ombudspersons for relatively powerless participants.",
+            "Zimbardo notes that a father's request to indoctrinate his sleeping son with patriotic pep talks raises the question of whether his goal or his means is ethically offensive."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This matrix tests Zimbardo's distinction between absolute ethics, an invariant higher-order moral principle that admits no extenuating circumstances, and relative utilitarian ethics, which judge research by weighing pain against gain. He adds the ethics of intervention, the claim that every act of changing a life or environment raises ethical questions determined by the agent's subjective values.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "question": "Zimbardo distinguishes absolute ethics from relative ethics and adds the ethics of intervention. Classify each claim by the ethical framework it expresses.",
+          "column_a_label": "Absolute ethics",
+          "column_b_label": "Relative (utilitarian) ethics",
+          "column_c_label": "Ethics of intervention",
+          "rows": [
+            {
+              "label": "A higher-order moral principle invariant across time, situations, persons, and expediency",
+              "col": "a"
+            },
+            {
+              "label": "Human life is sacred and must not in any way be demeaned, however unintentionally",
+              "col": "a"
+            },
+            {
+              "label": "Even if actions causing suffering are conducted in the name of science or national security, they are unethical",
+              "col": "a"
+            },
+            {
+              "label": "Judged on pragmatic criteria weighted according to utilitarian principles",
+              "col": "b"
+            },
+            {
+              "label": "Weighing pain against gain to decide whether the scientific ends justify the experimental means",
+              "col": "b"
+            },
+            {
+              "label": "Every act of intervention in the life of an individual, group, or environment is a matter of ethics",
+              "col": "c"
+            },
+            {
+              "label": "It is the agent's subjective values that determine the cost-benefit ratio of any intervention",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "Absolute ethics allow extenuating circumstances to justify a means to an end when the benefit to society is large.",
+            "Relative ethics forbid any research that induces suffering regardless of scientific benefit.",
+            "The ethics of intervention apply only to therapists and surgeons, never to parents, educators, or researchers."
+          ],
+          "explanation": "Absolute ethics postulate a higher-order moral principle invariant across conditions, treat human life as sacred and non-demeanable, and admit no extenuating circumstances, so rows one through three sort to column a. Relative ethics judge research on utilitarian, pragmatic cost-gain criteria such as weighing pain against gain, so rows four and five sort to column b. The ethics of intervention holds that every act that changes a life or environment is an ethical matter whose cost-benefit ratio is set by the agent's subjective values, which is exactly what rows six and seven capture, so they sort to column c."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "Replication report: supporting, challenging, or applying the SPE",
+          "visual_frame_description": "A research library reading room with three report folders spread across a table: 'UNSW Standard Custodial,' 'Elgin State Hospital Mock Ward,' and 'BBC-TV Pseudoexperiment.' A fourth pile holds news clippings about Das Experiment, the SERE program, and a women's shelter screening of Quiet Rage. A researcher annotates a wall chart dividing 'Supports,' 'Challenges,' and 'Application' into three columns.",
+          "player_mission": "You are a research analyst cataloguing how the SPE's findings were replicated, challenged, and applied. Sort each documented follow-up into the correct column: whether it supports the SPE's conclusion about regimes shaping behavior, complicates it, or applies its message to prevention and training.",
+          "key_concepts": [
+            "A team at the University of New South Wales, Australia, extended the SPE with a Standard Custodial regime modeled on medium-security prisons in Australia.",
+            "The Australian researchers concluded that hostile, confrontive relations in prisons result primarily from the nature of the prison regime, rather than the personal characteristics of inmates and officers.",
+            "The Australian results help offset skepticism about simulation experiments by providing baselines to assess behavioral changes from structural characteristics of real prisons.",
+            "At Elgin State Hospital, twenty-nine staff members were confined to a mental ward playing the role of patients for three days.",
+            "In the Elgin mock ward, mock patients soon acted indistinguishably from real patients: six tried to escape, two withdrew, two wept uncontrollably, and one nearly had a nervous breakdown.",
+            "The vast majority of Elgin staff-patients, more than 75 percent, reported feeling incarcerated, without identity, as if nobody were listening, and as if they had forgotten it was an experiment.",
+            "A BBC-TV pseudoexperiment based on the SPE model produced the opposite outcome: the guards became increasingly paranoid, depressed, and stressed and complained of being bullied.",
+            "In the BBC show, the prisoners worked as a team to undermine the guards, and everyone eventually formed a peaceful commune with the help of a labor union organizer.",
+            "Several of the BBC guards could not take it anymore and quit, while none of the prisoners did so.",
+            "The Navy's SERE program uses the SPE's message of the ease with which command power becomes excessive to warn trainer-captors against going over the top.",
+            "SERE tactics, including sexual humiliation, sleep deprivation, and sensory overload, were retrofit after September 11, 2001, into offensive interrogation techniques used at Guantanamo and Abu Ghraib.",
+            "Directors of shelters for abused women use the Quiet Rage video to help women not to blame themselves for their abuse and to understand the situational factors in it."
+          ],
+          "difficulty_level": "Intermediate",
+          "theory_summary": "This matrix tests how the SPE's central claim, that hostile relations result primarily from the nature of the regime rather than from personalities, was supported by the Australian and Elgin replications, complicated by the BBC pseudoexperiment and the sensationalized film Das Experiment, and applied in settings from the Navy's SERE program to women's shelters.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "question": "The SPE spawned replications and extensions with different outcomes and purposes. Classify each follow-up study by whether it supports the SPE's core conclusion, complicates it, or applies its findings to prevention and training.",
+          "column_a_label": "Supports the SPE conclusion",
+          "column_b_label": "Challenges or complicates it",
+          "column_c_label": "Application or extension of its findings",
+          "rows": [
+            {
+              "label": "University of New South Wales Standard Custodial regime: hostile relations come from the regime, not personalities",
+              "col": "a"
+            },
+            {
+              "label": "Elgin State Hospital mock ward: staff playing patients rapidly behaved indistinguishably from real patients",
+              "col": "a"
+            },
+            {
+              "label": "BBC-TV pseudoexperiment: guards were bullied, distressed, and quit while prisoners dominated",
+              "col": "b"
+            },
+            {
+              "label": "Das Experiment, a German film, sensationalized the SPE with sexism and gratuitous violence",
+              "col": "b"
+            },
+            {
+              "label": "The Navy SERE program uses Quiet Rage to warn trainer-captors against excessive command power",
+              "col": "c"
+            },
+            {
+              "label": "SERE interrogation tactics retrofit after 9/11 into the methods used at Guantanamo and Abu Ghraib",
+              "col": "c"
+            },
+            {
+              "label": "Women's shelters use Quiet Rage to help abused women stop blaming themselves for their abusers' transformation",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "c",
+          "distractors": [
+            "The BBC pseudoexperiment directly disproves the SPE and shows that personalities, not situations, determine guard and prisoner behavior.",
+            "The Elgin mock ward contradicted the SPE because its participants were hospital staff rather than students.",
+            "The SERE program had no relationship to the SPE because it was developed independently after the Korean War."
+          ],
+          "explanation": "The Australian Standard Custodial replication and the Elgin mock ward both confirmed that hostile, confrontive relations and patient-like behavior emerge from the regime and the situation rather than from personal characteristics, so rows one and two sort to column a. The BBC pseudoexperiment inverted the roles and the German film sensationalized the story, so both complicate or distort the clean replication picture and sort to column b. The remaining uses, warning SERE trainer-captors against abuse, the post-9/11 migration of SERE tactics into interrogation at Guantanamo and Abu Ghraib, and women's shelters using Quiet Rage for self-blame reduction, are applications of the SPE's situational-power message, so rows five through seven sort to column c."
+        },
+        {
+          "asset_type": "DISCRIMINATION_MATRIX",
+          "domain": "Situational Power | Deindividuation & Authority Compliance",
+          "topic": "The SPE aftermath: transformation, reflection, or advocacy",
+          "visual_frame_description": "A longitudinal follow-up board spanning three decades. Photos of former participants and staff are pinned across it: Doug in a courtroom robe, Craig Haney lecturing at UC Santa Cruz, Christina Maslach at a burnout-research symposium, Guard Hellmann at a business desk, Guard Vandy in conversation, and Zimbardo at a congressional hearing and at a prison-class-action trial. Under each photo, a caption lists the documented legacy of the SPE in their lives.",
+          "player_mission": "You are a documentary researcher charting the long-term legacy of the SPE. For each documented outcome, sort it into the correct category: suffering transformed into career insight, retrospective moral reflection and remorse, or social activism and institutional reform.",
+          "key_concepts": [
+            "Doug, Prisoner 8612, went on to get a Ph.D. in clinical psychology and has been a forensic psychologist in the San Francisco and California corrections systems for more than twenty years.",
+            "Doug's dissertation was on shame of the prisoner status and guilt of the guard status, and he completed his internship at San Quentin State Prison.",
+            "Craig Haney became a professor at the University of California, Santa Cruz, and one of the nation's leading consultants on prison conditions.",
+            "Christina Maslach's SPE experience led her to do pioneering research on burnout, the psychological hazards of human service work that lead caregivers to dehumanize the people they serve.",
+            "Christina Maslach also did pioneering research on individuation, the opposite of the deindividuation processes so potent in the SPE.",
+            "Guard Hellmann described the SPE as providing him with fifteen minutes of infamy, permanently, and later wrote that he now thinks carefully about how he treats people.",
+            "Guard Vandy acknowledged that his enjoyment in harassing and punishing prisoners grew from his total freedom to rule them and that he now tries to correct pushy or authoritarian behavior.",
+            "Zimbardo's appearance before a subcommittee of the U.S. House of Representatives transformed him from academic researcher to advocate for social change.",
+            "Zimbardo's second congressional testimony outlined nineteen recommendations for improved treatment of detained juveniles, and a new federal law was partly stimulated by it.",
+            "In Spain et al. v. Procunier, Zimbardo testified that the San Quentin Six's involuntary, prolonged solitary confinement under dehumanizing conditions constituted cruel and unusual punishment.",
+            "Zimbardo's advocacy included presenting the study to civic, judicial, military, law enforcement, and psychology groups and organizing conferences on military corrections.",
+            "Zimbardo married Christina Maslach the year after the study and used its images in slide shows, videos, and textbooks to spread the message of situational power."
+          ],
+          "difficulty_level": "Advanced",
+          "theory_summary": "This matrix tests the chapter's claim that the SPE produced unexpected personal gains alongside its costs: some participants transformed their suffering into professional insight, others engaged in retrospective moral reflection, and Zimbardo himself channeled the study into social activism. These documented legacies balance, to some extent, the obvious negatives of the prison experience.",
+          "credibility": {
+            "level": "High",
+            "consensus": "Broad",
+            "basis": "Classic experimental social psychology (Stanford Prison Experiment, Milgram)"
+          },
+          "question": "Many participants and staff reported lasting effects after the SPE. Classify each documented outcome by the kind of legacy it represents.",
+          "column_a_label": "Suffering transformed into career and insight",
+          "column_b_label": "Retrospective moral reflection and remorse",
+          "column_c_label": "Social activism and institutional reform",
+          "rows": [
+            {
+              "label": "Doug completed a Ph.D. in clinical psychology, wrote a dissertation on shame of prisoner status and guilt of guard status, and became a forensic psychologist in the corrections system",
+              "col": "a"
+            },
+            {
+              "label": "Craig Haney became a professor at UC Santa Cruz and one of the nation's leading consultants on prison conditions",
+              "col": "a"
+            },
+            {
+              "label": "Christina Maslach turned her experience of the study into pioneering research on burnout and the dehumanization of caregivers",
+              "col": "a"
+            },
+            {
+              "label": "Guard Hellmann described the SPE as fifteen minutes of infamy, permanently, and later wrote that he now thinks carefully about how he treats people",
+              "col": "b"
+            },
+            {
+              "label": "Guard Vandy acknowledged he began to abuse his authority and now tries to recognize and correct pushy or authoritarian behavior",
+              "col": "b"
+            },
+            {
+              "label": "Zimbardo testified before Congress on prison reform and on juvenile detention, contributing to a law separating juveniles from adults in pretrial detention",
+              "col": "c"
+            },
+            {
+              "label": "Zimbardo served as an expert witness in Spain et al. v. Procunier, testifying that the San Quentin Six's solitary confinement constituted cruel and unusual punishment",
+              "col": "c"
+            }
+          ],
+          "correct_answer": "a",
+          "distractors": [
+            "The SPE produced no lasting changes in its participants and staff beyond the six days of the experiment.",
+            "All of the positive outcomes were the result of the participants' preexisting personalities rather than the debriefing or reflection.",
+            "The participants were paid fifteen dollars a day and therefore experienced no genuine personal costs or gains from the study."
+          ],
+          "explanation": "Doug's shift from prisoner to clinical psychologist, Craig Haney's career as a prison-conditions consultant, and Christina Maslach's burnout research all converted the painful experience into durable professional insight and understanding of the situation, so rows one through three sort to column a. Hellmann's 'fifteen minutes of infamy' and his cautionary letter, and Vandy's acknowledgment of abusing his authority and his effort to correct it, are retrospective moral reflection rather than new careers, so rows four and five sort to column b. Zimbardo's congressional testimony on prison reform and juvenile detention and his expert testimony in the San Quentin Six case are social activism and institutional reform, so rows six and seven sort to column c."
+        }
+      ]
+    }
+  ]
+}

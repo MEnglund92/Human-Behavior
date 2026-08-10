@@ -1,0 +1,49 @@
+{
+  "spec_file": "spec_gift_of_fear_b01.json",
+  "book_key": "gift_of_fear",
+  "book_title": "The Gift of Fear (Gavin de Becker)",
+  "topic": "reading-people",
+  "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+  "credibility_profile": {
+    "level": "Medium",
+    "consensus": "Emerging",
+    "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+  },
+  "modality_weights": {
+    "CUE_SCRUBBER_STATION": 40,
+    "DECEPTION_AUDIT_FILE": 40,
+    "BOSS_BATTLE": 20
+  },
+  "chapter_count": 1,
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Foreword to the Special Kindle Edition",
+      "words": 1147,
+      "asset_count": 3,
+      "text_path": "extract/generated_assets/phase7a/gift_of_fear/chapter_0001.txt",
+      "top_concepts": [
+        {
+          "term": "gift of fear",
+          "context": "editions, including one with a slightly revised cover. Taken all together, The Gift of Fear has been published in twenty-five editions, including the first hardback, several paperback versions, two audio-books,"
+        },
+        {
+          "term": "warning signs",
+          "context": "re difficult. The chapter ahead about mass shootings at businesses includes the warning signs that precede those terrible incidents. One is the perpetrator’s fascination with violent media, and technology has expo"
+        },
+        {
+          "term": "stalking",
+          "context": "ple at greater risk than they were a decade ago. There are chapters ahead about stalking and harassment, and given the role of the Internet in our lives, perpetrators now have a wider menu of intrusive strate"
+        },
+        {
+          "term": "behavior",
+          "context": "ms of connectivity and depth of personal information, the basic tenets of human behavior explored in this book remain unchanged. No matter what the method of communication between predator and target, actual"
+        },
+        {
+          "term": "intuition",
+          "context": "vity—all of which powerfully combine when you are at risk—if you listen to your intuition. And yet, no matter how sophisticated or long-evolved a defense system might be, predators still catch prey off-guard s"
+        }
+      ]
+    }
+  ]
+}

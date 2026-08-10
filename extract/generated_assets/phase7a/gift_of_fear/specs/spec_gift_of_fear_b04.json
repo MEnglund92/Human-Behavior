@@ -1,0 +1,57 @@
+{
+  "spec_file": "spec_gift_of_fear_b04.json",
+  "book_key": "gift_of_fear",
+  "book_title": "The Gift of Fear (Gavin de Becker)",
+  "topic": "reading-people",
+  "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+  "credibility_profile": {
+    "level": "Medium",
+    "consensus": "Emerging",
+    "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+  },
+  "modality_weights": {
+    "CUE_SCRUBBER_STATION": 40,
+    "DECEPTION_AUDIT_FILE": 40,
+    "BOSS_BATTLE": 20
+  },
+  "chapter_count": 1,
+  "chapters": [
+    {
+      "index": 4,
+      "title": "Chapter 3: The Academy of Prediction",
+      "words": 4534,
+      "asset_count": 8,
+      "text_path": "extract/generated_assets/phase7a/gift_of_fear/chapter_0004.txt",
+      "top_concepts": [
+        {
+          "term": "behavior",
+          "context": "nce, there is just one truth you must accept: that there is no mystery of human behavior that cannot be solved inside your head or your heart. Nicholas Humphrey of Cambridge University explains that evolution"
+        },
+        {
+          "term": "silence",
+          "context": "we accept that violence is committed by people who look and act like people, we silence the voice of denial, the voice that whispers, “This guy doesn’t look like a killer.” Our judgment may classify a person"
+        },
+        {
+          "term": "denial",
+          "context": "ce is committed by people who look and act like people, we silence the voice of denial, the voice that whispers, “This guy doesn’t look like a killer.” Our judgment may classify a person as either harmless"
+        },
+        {
+          "term": "purpose",
+          "context": "ly conclude that if this bird did it, others might, and that there must be some purpose in nature, some cause, some predictability. ▪ ▪ ▪ People who commit terrible violences choose their acts from among man"
+        },
+        {
+          "term": "emotional intelligence",
+          "context": "are dealt to a family, parents have at a minimum what Daniel Goleman, author of Emotional Intelligence calls “a window of opportunity.” That window was slammed shut during the childhoods of most violent people. To understa"
+        },
+        {
+          "term": "stalking",
+          "context": "rt because of what we saw back then, we now found ourselves together, one of us stalking a public figure, the other protecting a public figure. In the fifteen years my office has monitored his behavior, Stace"
+        },
+        {
+          "term": "intuition",
+          "context": "imply three small pieces of the human violence puzzle to more fully inform your intuition. Another is that murderers are not as different from us as we’d like to think. I’ll protect the anonymity of the friend"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "spec_file": "spec_gift_of_fear_b06.json",
+  "book_key": "gift_of_fear",
+  "book_title": "The Gift of Fear (Gavin de Becker)",
+  "topic": "reading-people",
+  "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+  "credibility_profile": {
+    "level": "Medium",
+    "consensus": "Emerging",
+    "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+  },
+  "modality_weights": {
+    "CUE_SCRUBBER_STATION": 40,
+    "DECEPTION_AUDIT_FILE": 40,
+    "BOSS_BATTLE": 20
+  },
+  "chapter_count": 1,
+  "chapters": [
+    {
+      "index": 6,
+      "title": "Chapter 5: Imperfect Strangers",
+      "words": 4416,
+      "asset_count": 8,
+      "text_path": "extract/generated_assets/phase7a/gift_of_fear/chapter_0006.txt",
+      "top_concepts": [
+        {
+          "term": "behavior",
+          "context": "work and life a great deal. In his beautifully written book, Predicting Violent Behavior, he begins by asking the simplest question: In which direction would this book fall if you let it go? The reader could"
+        },
+        {
+          "term": "intuition",
+          "context": "ommunicates that she has already predicted that he is not dangerous to her. Her intuition asked and answered several questions in order to complete that prediction. It evaluated favorable and unfavorable aspec"
+        },
+        {
+          "term": "influence",
+          "context": "the human recipe, and how much of one ingredient or how little of another will influence the final result. With the man who goes on a shooting spree at work, it is not that he has some mysterious extra compon"
+        },
+        {
+          "term": "smile",
+          "context": "to make predictions about people not by judging their appearance or clothing or smile or assurances, but by applying a chemical test? I believe the answer is yes, though I won’t still be around to say I to"
+        },
+        {
+          "term": "purpose",
+          "context": "ld use psychiatric terms that would require a psychiatrist to interpret, but my purpose here is to simplify, to identify in your experience the factors that matter most. As I discussed earlier, no matter how"
+        },
+        {
+          "term": "listening",
+          "context": "nt ways of perceiving the same events. For example, some people operate without listening to their consciences; they do not care about the welfare of others, period. In the corporate boardroom we might call th"
+        },
+        {
+          "term": "empathy",
+          "context": "the street we call it criminality. The ability to act in spite of conscience or empathy is one characteristic associated with psychopaths. Robert Hare’s insightful book Without Conscience identifies several"
+        },
+        {
+          "term": "psychopath",
+          "context": "ng behavior come from the belief that others will perceive things as we do. The psychopath described above will not. To successfully predict his behavior, you must see a situation your way and his way. It will"
+        },
+        {
+          "term": "discrimination",
+          "context": "view the firing as fair, completely unfair, part of a vendetta, or motivated by discrimination or greed, etc. Particularly if you worked closely with this person, you could recite his perception of events much as h"
+        },
+        {
+          "term": "curiosity",
+          "context": "diction must be followed by preparation. Prediction without preparation is just curiosity. Predicting that Lucky Dancer will run fastest is only valuable when you have time to exploit the outcome by placing a"
+        },
+        {
+          "term": "self",
+          "context": "do, we enter into a conscious alliance with our intuition, an alliance with the self. Logic and judgment may sometimes be reluctant to follow that spear into the jungle, but the concepts in the next chapt"
+        }
+      ]
+    }
+  ]
+}

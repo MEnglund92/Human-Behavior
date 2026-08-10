@@ -1,0 +1,45 @@
+{
+  "spec_file": "spec_gift_of_fear_b15.json",
+  "book_key": "gift_of_fear",
+  "book_title": "The Gift of Fear (Gavin de Becker)",
+  "topic": "reading-people",
+  "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+  "credibility_profile": {
+    "level": "Medium",
+    "consensus": "Emerging",
+    "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+  },
+  "modality_weights": {
+    "CUE_SCRUBBER_STATION": 40,
+    "DECEPTION_AUDIT_FILE": 40,
+    "BOSS_BATTLE": 20
+  },
+  "chapter_count": 1,
+  "chapters": [
+    {
+      "index": 15,
+      "title": "Chapter 14: Extreme Hazards",
+      "words": 5784,
+      "asset_count": 12,
+      "text_path": "extract/generated_assets/phase7a/gift_of_fear/chapter_0015.txt",
+      "top_concepts": [
+        {
+          "term": "stalking",
+          "context": "afety hazards are manageable. This book has explored obsessions, death threats, stalking, mental illness, child abuse, multiple shootings, and children who kill their parents. Amazingly, there is one case tha"
+        },
+        {
+          "term": "hair",
+          "context": "e? Tell me about his shoes. What kind of clothes does he wear? Tell me what his hair is like. Soon after arriving in Los Angeles, Brown was high above the Malibu hills surrounding my client’s home, lookin"
+        },
+        {
+          "term": "intuition",
+          "context": "te marvel. He could tell you where a person had walked, slept, even paused. His intuition was informed by a subtle and sometimes odd series of signals: bent weeds, unsettled pebbles, shadows in the dust, and o"
+        },
+        {
+          "term": "silence",
+          "context": "at. And even, you know, even today, even today, even today… He drifted off into silence, and I waited quietly for him to speak again. Perry: On her special, on HBO, I saw her eyes change color. Her eyes chan"
+        }
+      ]
+    }
+  ]
+}

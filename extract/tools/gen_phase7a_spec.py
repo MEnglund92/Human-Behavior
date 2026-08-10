@@ -25,7 +25,8 @@ GLOBAL_SKIP = ("cover", "title page", "copyright", "dedication", "contents",
                "table of contents", "acknowledg", "notes", "index",
                "about the author", "newsletter", "bibliography", "references",
                "sources and notes", "a note on sources", "further reading",
-               "about this book", "about the author", "also by")
+               "about this book", "about the author", "also by",
+               "list of illustrations", "list of figures", "footnotes")
 
 # Per-book domain profile: title, topic binding, credibility profile,
 # modality weights (percent, must sum to 100), and the asset 'domain' string.
@@ -131,6 +132,7 @@ BOOK_PROFILES = {
             "BOSS_BATTLE": 30,
             "DYNAMIC_DIALOGUE_SIM": 20,
         },
+        "cap_assets": 190,
         "skip_prefixes": ["cover", "title page", "copyright", "contents",
                           "table of contents"],
     },
@@ -212,13 +214,19 @@ def main():
     batches = []
     cur = []
     cur_words = 0
+    cap = profile.get("cap_assets")
+    capped_total = 0
     for c in chapters:
+        asset_n = density_for(c["words"])
+        if cap is not None and capped_total + asset_n > cap:
+            break
         if cur and (len(cur) >= 4 or cur_words + c["words"] > 9000):
             batches.append(cur)
             cur = []
             cur_words = 0
         cur.append(c)
         cur_words += c["words"]
+        capped_total += asset_n
     if cur:
         batches.append(cur)
 

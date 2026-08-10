@@ -1,0 +1,81 @@
+{
+  "spec_file": "spec_gift_of_fear_b08.json",
+  "book_key": "gift_of_fear",
+  "book_title": "The Gift of Fear (Gavin de Becker)",
+  "topic": "reading-people",
+  "domain": "Threat Detection | Pre-Incident Indicators & Intuition",
+  "credibility_profile": {
+    "level": "Medium",
+    "consensus": "Emerging",
+    "basis": "Observational case-based expertise (de Becker's violence-prevention practice)"
+  },
+  "modality_weights": {
+    "CUE_SCRUBBER_STATION": 40,
+    "DECEPTION_AUDIT_FILE": 40,
+    "BOSS_BATTLE": 20
+  },
+  "chapter_count": 1,
+  "chapters": [
+    {
+      "index": 8,
+      "title": "Chapter 7: Promises to Kill (Understanding threats)",
+      "words": 5855,
+      "asset_count": 12,
+      "text_path": "extract/generated_assets/phase7a/gift_of_fear/chapter_0008.txt",
+      "top_concepts": [
+        {
+          "term": "influence",
+          "context": "here are many, but to detect them would involve evaluating all the factors that influence a coconut’s readiness to fall. I might have to climb the tree, test the stem strength, consider such things as the mois"
+        },
+        {
+          "term": "intimidation",
+          "context": "or example, “I will burn this building down if I don’t get the promotion” is an intimidation, not a threat, because a condition is offered to avert the harm. With intimidations, the motive is always right in the"
+        },
+        {
+          "term": "response",
+          "context": "early. That’s because those used early likely represent an immediate emotional response as opposed to a decision to use violence. As an instrument of communication, the threat is most similar to the promise"
+        },
+        {
+          "term": "behavior",
+          "context": "ses none if it is happening between actors on stage at the theater. Conversely, behavior that is not normally threatening, such as a man’s walking up some stairs, becomes alarming when it is an uninvited audi"
+        },
+        {
+          "term": "self",
+          "context": "he wants to ensure he gets the attention for his mayhem, is he really going to self-sabotage by giving police time to find and defuse his pride and joy? We give so much credence to the words “I’ve plante"
+        },
+        {
+          "term": "listening",
+          "context": "travel with relatives. Blood may be thicker than water, but trying to kill time listening to Uncle Harry’s mutilated jokes bomb was just too much. Conversely, look at this list of words and the context in whic"
+        },
+        {
+          "term": "sociopath",
+          "context": "a threat to be sure nobody was hurt. Wouldn’t this unlikely on-again-off-again sociopath give you highly specific information, such as exactly where it was planted? Another possible motive for a real bomber t"
+        },
+        {
+          "term": "posture",
+          "context": "ny more.” Still, alarming words cause people to react by going into a defensive posture, psychologically speaking. Though shocking or bizarre things don’t usually put us at any actual risk, uncertainty about"
+        },
+        {
+          "term": "flow",
+          "context": "ght nonetheless start getting physically ready for danger, with increased blood flow to the arms and legs (for fighting or running), release of the chemical cortisol (which helps blood coagulate more quic"
+        },
+        {
+          "term": "cortisol",
+          "context": "od flow to the arms and legs (for fighting or running), release of the chemical cortisol (which helps blood coagulate more quickly in case of injury), lactic acid heating up in the muscles (to prepare them fo"
+        },
+        {
+          "term": "compliance",
+          "context": "ay actually neutralize the whole matter. Conversely, reacting with pleading and compliance increases the extortionist’s appraisal of his threat. A threatened harm can be so intolerable to the victim that paying"
+        },
+        {
+          "term": "silence",
+          "context": "s threat. A threatened harm can be so intolerable to the victim that paying for silence seems worthwhile. Often this paves the way to hear that threat another day, for the person who successfully extorts mon"
+        },
+        {
+          "term": "interpersonal",
+          "context": "curate in other situations are entirely inaccurate in this one. For example, in interpersonal situations (neighbor, friend, spouse) a threat tends to actually increase the likelihood of violence by eroding the qua"
+        }
+      ]
+    }
+  ]
+}
