@@ -738,6 +738,39 @@ content.
 If a session was interrupted, read this section first; it encodes exactly where
 the M5 pass stopped. Updated after every book commit.
 
+- 2026-08-11: Phase 8 COMPLETE — professional simulation & calibration engine
+  (4 sub-phases, all deployed live; commits b628e93, ec05387, f93f5a3, 1f03058;
+  sw v31).
+  1) 8A (b628e93, sw v28): terminology re-skin — "Behavioral Simulation
+     Engine", "Scenario Lab", mode/UI labels renamed EN+SV across all call
+     sites, nav, dashboard, lab; 343 embedded mode-name replacements in
+     assetlibs.
+  2) 8B (ec05387, sw v29): evidence tiers — evidenceClass() (High+Broad ->
+     Empirical; High/Medium/Emerging -> Observational-Tactical; else
+     Contested/Low), credibility badges + tier suffix EN+SV, deep-dive section
+     evidence badges (181 evidence fields across 86 EN + 95 SV sections),
+     Voss never_split_difference profile added (34 profiles).
+  3) 8C (f93f5a3, sw v30): calibration engine — 240 assets backfilled across
+     8 books (bowden, kahneman, dark_psychology, lucifer_effect,
+     definitive_body_language, gift_of_fear, emotional_intelligence,
+     power_of_habit) with distractor_error_types, cue_cluster
+     (supporting_cues + baseline_check), evidence_class, key_sources;
+     assetlibs rebuilt; hasCueCluster + lab cluster badge (🕸️ Multi-cue
+     cluster (n)), single-cue FP warning "Diagnostic Failure
+     (Over-interpretation Error)", recordDiag/calcCI (CI = accuracy x
+     (1 - 1.5 x FP ratio), min 0), CI line in lab result, Dashboard
+     Calibration Index card; validate.py 8C rules (all hard errors);
+     window.__hb test hook.
+  4) 8D+8E (1f03058, sw v31): calibration diagnostics + lab data surfacing —
+     session FP counter, session history (last 12) recorded at lab result,
+     plain-language feedback ("Over-interpretation on N of M correct answers
+     — require ≥2 supporting cues" / "No over-interpretation errors — good
+     calibration."), Dashboard "Across N sessions"; lab insights now show
+     Supporting cues, Baseline check, Distractor traps, Sources (SV keys).
+  E2E: CDP probes local + live — cluster badges, FP warning, CI math
+  (1.00 x (1-1.5x1/8)=0.81; 1.00 x (1-1.5x5/8)=0.06), session tracking,
+  SV strings, 0 runtime exceptions; validate.py 4125 assets / 0 warnings.
+  Phase 8 user browser click-through pending (final acceptance).
 - 2026-08-10: Phase 7A COMPLETE — 8 new books authored, built, verified and
   deployed (sw v27, live at menglund92.github.io/Human-Behavior).
   1) ASSETS: 4,125 total Scenario Lab assets across 33 libraries (was 2,676 /
