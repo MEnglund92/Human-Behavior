@@ -420,9 +420,17 @@ body{font-family:var(--font-ui);background:var(--bg);color:var(--text);line-heig
 <div class="tab-panel" id="tab-map">
 <div class="module-card">
 <div class="module-title" id="mapTitle">🕸️ Concept Map</div>
+<div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:10px">
+<input id="mapSearch" type="text" placeholder="" style="flex:1;min-width:160px;background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:8px 12px;color:var(--text);font-size:0.82rem">
+<button class="btn btn-accent btn-sm" id="mapTourBtn">▶ Guided Tour</button>
+<button class="btn btn-sm" id="mapResetBtn">Reset view</button>
+</div>
+<div id="mapFilters" style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px"></div>
 <div class="map-legend" id="mapLegend"></div>
-<div id="mapEdgeLegend" style="min-height:24px"></div>
-<div id="mapWrap" style="position:relative"><svg id="mapSvg" viewBox="0 0 1000 720" style="width:100%;height:auto;background:var(--bg2);border:1px solid var(--border);border-radius:12px;cursor:grab"></svg><div id="mapDetail" style="display:none"></div></div>
+<div id="mapEdgeLegend" style="min-height:20px"></div>
+<div id="mapWrap" style="position:relative"><svg id="mapSvg" viewBox="0 0 1000 720" style="width:100%;height:auto;background:var(--bg2);border:1px solid var(--border);border-radius:12px;cursor:grab;display:block"><defs id="mapDefs"></defs><g id="mapWorld"></g></svg><div id="mapDetail" style="display:none"></div></div>
+<div id="mapTourBar" style="display:none;margin-top:10px;background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:12px 14px"></div>
+</div>
 </div>
 </div>
 
@@ -541,7 +549,7 @@ const svUI={
 "PDFs":"PDF-filer","Images":"Bilder","Audio":"Ljud","Websites":"Webbplatser","Journals":"Tidskrifter",
 "📂 Open":"📂 Öppna","Flashcards":"Flashkort","Match":"Matcha","Sequence":"Sekvens","Exam":"Tentamen","Deep Dive":"Djupdykning","Resources":"Resurser","Step ":"Steg ","Word ":"Ord ","Check":"Kontrollera"," sections read":" avsnitt lästa","m ago":"m sedan","h ago":"h sedan","In the study of \"":"I studien av \"","\",\" researchers observed that ____ is a key factor in understanding this phenomenon.":",\" observerade forskare att ____ är en nyckelfaktor för att förstå detta fenomen.",
 "Good morning":"God morgon","Good afternoon":"God eftermiddag","Good evening":"God kväll","just now":"just nu","Last studied: ":"Senast studerat: ","Due for Review":"Förfaller för repetition","cards need practice":"kort behöver övning","Consistency Record":"Konsistensrekord"," days":" dagar","Keep going!":"Fortsätt så!","Concepts":"Begrepp","Across ":"Över "," modules":" moduler","SRS Cards":"SRS-kort","% mastered":"% inlärt","📚 Review ":"📚 Repetera "," due cards":" förfallna kort","Module Progress":"Modulframsteg","Concepts Needing Review":"Begrepp som behöver repetition","Consistency":"Konsistens","Assessments":"Bedömningar","Due Reviews":"Förfallna repetitioner","Analytics":"Analys","Spaced Review":"Intervallrepetition","Retrieval Cards":"Hämtningskort","Diagnostic Quiz":"Diagnostisk frågesport","Concept Matching":"Begreppsparning","Case Reconstruction":"Fallrekonstruktion","Process Sequencing":"Processekvensering","Comprehensive Assessment":"Omfattande bedömning","Assessment Result":"Bedömningsresultat","🃏 Retrieval Cards":"🃏 Hämtningskort","🎯 Diagnostic Quiz":"🎯 Diagnostisk frågesport","🔗 Concept Matching":"🔗 Begreppsparning","✍️ Case Reconstruction":"✍️ Fallrekonstruktion","📋 Process Sequencing":"📋 Processekvensering","📝 Comprehensive Assessment":"📝 Omfattande bedömning","🧪 Behavioral Simulation Engine":"🧪 Beteendesimuleringsmotor","🔁 Spaced Review":"🔁 Intervallrepetition","▶ Run Simulation":"▶ Kör simulering",
-"Scenario Lab":"Scenarielabb","🔁 Review":"🔁 Repetera","Review":"Repetera","Review Session":"Repetitionspass","🔄 Review Again":"🔄 Repetera igen"," good":" rätt","Library:":"Bibliotek:","Chapter:":"Kapitel:","Mode:":"Läge:","Difficulty:":"Svårighet:","Session:":"Session:","All modes":"Alla lägen","All chapters":"Alla kapitel","Beginner":"Nybörjare","Intermediate":"Medel","Advanced":"Avancerad","Objective":"Mål","Show Analysis":"Visa analys","Insights":"Insikter","Key concepts":"Nyckelbegrepp","Confirmed":"Bekräftat","Revisit":"Återkom","Initial dialogue":"Inledande dialog","Matrix":"Matris","Case file":"Ärendefil","Subject":"Subjekt","Scenario complete!":"Scenario slutfört!","No scenarios match the selected filters.":"Inga scenarier matchar de valda filtren.","🔄 New Session":"🔄 Ny session","Correct!":"Rätt!","Not quite.":"Inte riktigt.","Baseline Calibration":"Baslinjekalibrering","Timed Micro-Expression Diagnostic":"Tidsatt mikroexpressionsdiagnostik","Choice Architecture Analysis":"Valarkitekturanalys","High-Stakes Stress Simulation":"Höginsats-stresssimulering","Nonverbal Baseline & Shift Audit":"Icke-verbal baslinje- och avvikelsegranskning","Influence & Manipulation Analysis":"Påverkan- och manipuleringsanalys","Situational Dialogue Analysis":"Situationsdialoganalys","Behavioral Classification Matrix":"Beteendeklassificeringsmatris","Subject baseline":"Subjektets baslinje","Speed run":"Hastighetsomgång","Empirical":"Empirisk","Observational–Tactical":"Observationsbaserad–taktisk","Contested/Low":"Omstridd/Låg","Evidence":"Evidens","Diagnostic Failure (Over-interpretation Error)":"Diagnostiskt misslyckande (övertolkningsfel)","Multi-cue cluster":"Multi-signal-kluster","No calibration data yet":"Inga kalibreringsdata än","Redesign the environment: choose the option that best moves the choice.":"Omforma miljön: välj det alternativ som bäst styr beslutet.","High":"Hög","Medium":"Medel","Low":"Låg","Broad":"Bred","Emerging":"Växande","Contested":"Omstridd","Credibility":"Trovärdighet","Cultural variations":"Kulturella variationer","Concept Map":"Konceptkarta","🕸️ Concept Map":"🕸️ Konceptkarta","concepts":"begrepp","links":"länkar","builds-on":"bygger på","contrasts-with":"står i kontrast till","applies-to":"tillämpas på","foundation":"grund för","Learning & Habits":"Inlärning & vanor","Cognition & Biases":"Kognition & bias","Emotion":"Känslor","Social Influence":"Social påverkan","Self & Personality":"Själv & personlighet","Relationships":"Relationer","Reading Others":"Läsa andra","Study this concept":"Studera detta begrepp","Supporting cues":"Stödjande signaler","Baseline check":"Baslinjekontroll","Distractor traps":"Distraherande fallor","Sources":"Källor","Over-interpretation on ":"Övertolkning på "," of ":" av "," correct answers — require ≥2 supporting cues before diagnosing.":" rätt svar — kräv ≥2 stödjande signaler innan diagnos.","No over-interpretation errors — good calibration.":"Inga övertolkningsfel — bra kalibrering."," sessions":" sessioner"}
+"Scenario Lab":"Scenarielabb","🔁 Review":"🔁 Repetera","Review":"Repetera","Review Session":"Repetitionspass","🔄 Review Again":"🔄 Repetera igen"," good":" rätt","Library:":"Bibliotek:","Chapter:":"Kapitel:","Mode:":"Läge:","Difficulty:":"Svårighet:","Session:":"Session:","All modes":"Alla lägen","All chapters":"Alla kapitel","Beginner":"Nybörjare","Intermediate":"Medel","Advanced":"Avancerad","Objective":"Mål","Show Analysis":"Visa analys","Insights":"Insikter","Key concepts":"Nyckelbegrepp","Confirmed":"Bekräftat","Revisit":"Återkom","Initial dialogue":"Inledande dialog","Matrix":"Matris","Case file":"Ärendefil","Subject":"Subjekt","Scenario complete!":"Scenario slutfört!","No scenarios match the selected filters.":"Inga scenarier matchar de valda filtren.","🔄 New Session":"🔄 Ny session","Correct!":"Rätt!","Not quite.":"Inte riktigt.","Baseline Calibration":"Baslinjekalibrering","Timed Micro-Expression Diagnostic":"Tidsatt mikroexpressionsdiagnostik","Choice Architecture Analysis":"Valarkitekturanalys","High-Stakes Stress Simulation":"Höginsats-stresssimulering","Nonverbal Baseline & Shift Audit":"Icke-verbal baslinje- och avvikelsegranskning","Influence & Manipulation Analysis":"Påverkan- och manipuleringsanalys","Situational Dialogue Analysis":"Situationsdialoganalys","Behavioral Classification Matrix":"Beteendeklassificeringsmatris","Subject baseline":"Subjektets baslinje","Speed run":"Hastighetsomgång","Empirical":"Empirisk","Observational–Tactical":"Observationsbaserad–taktisk","Contested/Low":"Omstridd/Låg","Evidence":"Evidens","Diagnostic Failure (Over-interpretation Error)":"Diagnostiskt misslyckande (övertolkningsfel)","Multi-cue cluster":"Multi-signal-kluster","No calibration data yet":"Inga kalibreringsdata än","Redesign the environment: choose the option that best moves the choice.":"Omforma miljön: välj det alternativ som bäst styr beslutet.","High":"Hög","Medium":"Medel","Low":"Låg","Broad":"Bred","Emerging":"Växande","Contested":"Omstridd","Credibility":"Trovärdighet","Cultural variations":"Kulturella variationer","Concept Map":"Konceptkarta","🕸️ Concept Map":"🕸️ Konceptkarta","concepts":"begrepp","links":"länkar","builds-on":"bygger på","contrasts-with":"står i kontrast till","applies-to":"tillämpas på","foundation":"grund för","Learning & Habits":"Inlärning & vanor","Cognition & Biases":"Kognition & bias","Emotion":"Känslor","Social Influence":"Social påverkan","Self & Personality":"Själv & personlighet","Relationships":"Relationer","Reading Others":"Läsa andra","Study this concept":"Studera detta begrepp","Supporting cues":"Stödjande signaler","Baseline check":"Baslinjekontroll","Distractor traps":"Distraherande fallor","Sources":"Källor","Over-interpretation on ":"Övertolkning på "," of ":" av "," correct answers — require ≥2 supporting cues before diagnosing.":" rätt svar — kräv ≥2 stödjande signaler innan diagnos.","No over-interpretation errors — good calibration.":"Inga övertolkningsfel — bra kalibrering."," sessions":" sessioner","Search concepts…":"Sök begrepp…","▶ Guided Tour":"▶ Guidad tur","Reset view":"Återställ vy","Study this concept":"Studera begreppet","Next →":"Nästa →","End tour":"Avsluta tur","Back":"Bakåt","Why it matters":"Varför det betyder något","Tour complete":"Turen klar","Test yourself":"Testa dig själv","Open Deep Dive":"Öppna djupdykning","Learning & Habits":"Inlärning & vanor","Cognition & Biases":"Kognition & biaser","Emotion":"Känslor","Social Influence":"Socialt inflytande","Self & Personality":"Jag & personlighet","Relationships":"Relationer","Reading Others":"Läsa av andra"}
 function t(s){return showSwedish?(svUI[s]||s):s}
 
 function getEntries(){let e=[];topics.forEach(t=>t.entries.forEach(entry=>{let cat=t.categories.find(c=>c.id===entry.category);e.push({...entry,courseId:t.id,courseName:t.name,catName:cat?cat.name:'',catColor:cat?cat.color:'#7dd3fc'})}));return e}
@@ -995,70 +1003,208 @@ addSpeakerListeners(div);el.appendChild(div)
 // Concept Map
 function renderConceptMap(){
 let titleEl=document.getElementById('mapTitle');if(titleEl)titleEl.textContent=t('🕸️ Concept Map')
+let searchEl=document.getElementById('mapSearch');if(searchEl)searchEl.placeholder=t('Search concepts…')
+let tourBtn=document.getElementById('mapTourBtn');if(tourBtn)tourBtn.textContent=t('▶ Guided Tour')
+let resetBtn=document.getElementById('mapResetBtn');if(resetBtn)resetBtn.textContent=t('Reset view')
 let legend=document.getElementById('mapLegend')
-legend.innerHTML='<div style="display:flex;gap:14px;flex-wrap:wrap;align-items:center;font-size:0.75rem;color:var(--text-secondary);margin-bottom:10px">'+Object.keys(CONCEPT_MAP.groups).map(g=>'<span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:50%;background:'+CONCEPT_MAP.groups[g].color+'"></span>'+t(CONCEPT_MAP.groups[g].label)+'</span>').join('')+'<span style="opacity:.6;margin-left:auto">'+CONCEPT_MAP.nodes.length+' '+t('concepts')+' · '+CONCEPT_MAP.edges.length+' '+t('links')+'</span></div>'
+legend.innerHTML='<div style="display:flex;gap:14px;flex-wrap:wrap;align-items:center;font-size:0.75rem;color:var(--text-secondary);margin-bottom:8px">'+Object.keys(CONCEPT_MAP.groups).map(g=>'<span style="display:inline-flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:50%;background:'+CONCEPT_MAP.groups[g].color+'"></span>'+t(CONCEPT_MAP.groups[g].label)+'</span>').join('')+'<span style="opacity:.6;margin-left:auto">'+CONCEPT_MAP.nodes.length+' '+t('concepts')+' · '+CONCEPT_MAP.edges.length+' '+t('links')+'</span></div>'
 let edgeColor={'builds-on':'#60a5fa','contrasts-with':'#f87171','applies-to':'#fbbf24','foundation':'#34d399'}
-let svg=document.getElementById('mapSvg')
-let W=1000,H=720,cx=W/2,cy=H/2
+document.getElementById('mapEdgeLegend').innerHTML='<div style="display:flex;gap:12px;flex-wrap:wrap;font-size:0.7rem;color:var(--text-tertiary);margin:6px 0;align-items:center"><span style="display:inline-flex;align-items:center;gap:5px"><span style="width:16px;height:2px;background:#60a5fa"></span>'+t('builds-on')+'</span><span style="display:inline-flex;align-items:center;gap:5px"><span style="width:16px;height:2px;background:#f87171"></span>'+t('contrasts-with')+'</span><span style="display:inline-flex;align-items:center;gap:5px"><span style="width:16px;height:2px;background:#fbbf24"></span>'+t('applies-to')+'</span><span style="display:inline-flex;align-items:center;gap:5px"><span style="width:16px;height:2px;background:#34d399"></span>'+t('foundation')+'</span><span style="opacity:.6;margin-left:auto" id="mapCountLine">'+CONCEPT_MAP.nodes.length+' '+t('concepts')+'</span></div>'
+let filters=document.getElementById('mapFilters')
+filters.innerHTML='<button class="filter-pill'+(mapState.filter===''?' active':'')+'" data-f="">'+t('All')+'</button>'+Object.keys(CONCEPT_MAP.groups).map(g=>'<button class="filter-pill'+(mapState.filter==='g:'+g?' active':'')+'" data-f="g:'+g+'">'+t(CONCEPT_MAP.groups[g].label)+'</button>').join('')+topics.map(tp=>'<button class="filter-pill'+(mapState.filter==='t:'+tp.id?' active':'')+'" data-f="t:'+tp.id+'">'+tp.name.replace(/^\d+\.\s*/,'')+'</button>').join('')
+filters.querySelectorAll('.filter-pill').forEach(btn=>btn.addEventListener('click',function(){mapState.filter=this.dataset.f;filters.querySelectorAll('.filter-pill').forEach(x=>x.classList.toggle('active',x===this));applyMapView()}))
 let nodes=CONCEPT_MAP.nodes
 let byId={};nodes.forEach(n=>byId[n.id]=n)
 let adj={};nodes.forEach(n=>adj[n.id]=new Set())
-CONCEPT_MAP.edges.forEach(e=>{adj[e.from].add(e.to);adj[e.to].add(e.from)})
+let edgeType={}
+CONCEPT_MAP.edges.forEach(e=>{adj[e.from].add(e.to);adj[e.to].add(e.from);edgeType[e.from+'>'+e.to]=e.type;edgeType[e.to+'>'+e.from]=e.type})
 let groups=CONCEPT_MAP.groups
 let gids=Object.keys(groups)
 let perGroup={};nodes.forEach(n=>{perGroup[n.group]=(perGroup[n.group]||0)+1})
-let radii={learning:150,cognition:210,emotion:190,social:240,individual:200,relationships:220,reading:240}
+let radii={learning:150,cognition:215,emotion:195,social:250,individual:205,relationships:225,reading:250}
+let W=1000,H=720,cx=W/2,cy=H/2
 let pos={}
-let startAngle={learning:0.9,cognition:2.2,emotion:0.2,social:3.5,individual:4.6,relationships:5.4,reading:1.6}
-nodes.forEach(n=>{
-let gi=gids.indexOf(n.group)
-let count=perGroup[n.group]||1
-let idx=pos[n.group]=pos[n.group]||0
-let base=startAngle[n.group]||(gi*2*Math.PI/gids.length)
-let spread=count>1?0.9:0
-let ang=base+(idx-(count-1)/2)*spread
-let rad=(radii[n.group]||190)+((gi%3)*18)
-pos[n.group]=idx+1
-let deg=ang*180/Math.PI
-let R=rad+60+20*Math.sin(gi*2.1)
-let x=cx+Math.cos(ang)*R*0.96+Math.cos(gi*7.7)*14
-let y=cy+Math.sin(ang)*R*0.72+Math.sin(gi*5.3)*12
-pos[n.id]=[x,y]
+gids.forEach((g,gi)=>{
+let count=perGroup[g]||1
+let centerAngle=(gi/gids.length)*2*Math.PI-Math.PI/2
+let arc=Math.min(1.15,0.35+count*0.11)
+let rad=(radii[g]||220)+(gi%3)*16
+let idx=0
+nodes.forEach(n=>{if(n.group!==g)return
+let tt=count>1?(idx/(count-1)-0.5)*2:0
+let ang=centerAngle+tt*arc
+pos[n.id]=[cx+Math.cos(ang)*rad,cy+Math.sin(ang)*rad*0.82];idx++
 })
-let ns=''
-CONCEPT_MAP.edges.forEach(e=>{
-let [x1,y1]=pos[e.from],[x2,y2]=pos[e.to]
+})
+let xs=nodes.map(n=>pos[n.id][0]),ys=nodes.map(n=>pos[n.id][1])
+let minx=Math.min.apply(null,xs),maxx=Math.max.apply(null,xs),miny=Math.min.apply(null,ys),maxy=Math.max.apply(null,ys)
+let sc=Math.min((W-90)/(maxx-minx||1),(H-90)/(maxy-miny||1),1.05)
+let offx=(W-(maxx+minx)*sc)/2,offy=(H-(maxy+miny)*sc)/2
+nodes.forEach(n=>{pos[n.id]=[(pos[n.id][0]*sc+offx).toFixed(1),(pos[n.id][1]*sc+offy).toFixed(1)]})
+let haloPos={}
+gids.forEach(g=>{let pts=nodes.filter(n=>n.group===g).map(n=>[+pos[n.id][0],+pos[n.id][1]]);if(!pts.length)return
+let ccx=pts.reduce((s,p)=>s+p[0],0)/pts.length,ccy=pts.reduce((s,p)=>s+p[1],0)/pts.length
+let mx=Math.max.apply(null,pts.map(p=>Math.hypot(p[0]-ccx,p[1]-ccy)))||60
+haloPos[g]={x:ccx,y:ccy,rx:mx+70,ry:mx*0.62+40}
+})
+let haloHTML=gids.map(g=>{if(!haloPos[g])return '';let h=haloPos[g];return '<ellipse class="map-halo" data-g="'+g+'" cx="'+h.x.toFixed(1)+'" cy="'+h.y.toFixed(1)+'" rx="'+h.rx.toFixed(1)+'" ry="'+h.ry.toFixed(1)+'" fill="'+groups[g].color+'" fill-opacity="0.10" stroke="'+groups[g].color+'" stroke-opacity="0.22" stroke-width="1.4" stroke-dasharray="6 5"></ellipse>'}).join('')
+document.getElementById('mapDefs').innerHTML=Object.keys(edgeColor).map(et=>'<marker id="m-'+et+'" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="'+edgeColor[et]+'"></path></marker>').join('')
+let es=CONCEPT_MAP.edges.map(e=>{
+let x1=pos[e.from][0],y1=pos[e.from][1],x2=pos[e.to][0],y2=pos[e.to][1]
 let c=edgeColor[e.type]||'#888'
-ns+='<line x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+y2+'" stroke="'+c+'" stroke-opacity="0.55" stroke-width="1.2"><title>'+esc(e.type.replace(/_/g,' '))+'</title></line>'
-})
-let edgeLegend='<div style="display:flex;gap:12px;flex-wrap:wrap;font-size:0.7rem;color:var(--text-tertiary);margin:8px 0"><span style="display:inline-flex;align-items:center;gap:5px"><span style="width:16px;height:2px;background:#60a5fa"></span>'+t('builds-on')+'</span><span style="display:inline-flex;align-items:center;gap:5px"><span style="width:16px;height:2px;background:#f87171"></span>'+t('contrasts-with')+'</span><span style="display:inline-flex;align-items:center;gap:5px"><span style="width:16px;height:2px;background:#fbbf24"></span>'+t('applies-to')+'</span><span style="display:inline-flex;align-items:center;gap:5px"><span style="width:16px;height:2px;background:#34d399"></span>'+t('foundation')+'</span></div>'
-document.getElementById('mapEdgeLegend').innerHTML=edgeLegend
-svg.setAttribute('viewBox','0 0 1000 720')
-let circles=nodes.map(n=>{
-let [x,y]=pos[n.id]
-let c=groups[n.group].color
-return '<g class="map-node" data-id="'+n.id+'" style="cursor:pointer"><circle cx="'+x+'" cy="'+y+'" r="11" fill="'+c+'" stroke="#fff" stroke-width="1.6" opacity="0.95"></circle><text x="'+x+'" y="'+(y+26)+'" text-anchor="middle" font-size="11" fill="var(--text)" style="user-select:none" pointer-events="none">'+esc(n.label.slice(0,26))+'</text></g>'
+let dx=+x2-+x1,dy=+y2-+y1,len=Math.hypot(dx,dy)||1
+let bend=Math.min(30,len*0.2)
+let mx=(+x1+ +x2)/2+(-dy/len)*bend,my=(+y1+ +y2)/2+(dx/len)*bend
+return '<path class="map-edge" data-from="'+e.from+'" data-to="'+e.to+'" d="M'+x1+' '+y1+' Q'+mx.toFixed(1)+' '+my.toFixed(1)+' '+x2+' '+y2+'" fill="none" stroke="'+c+'" stroke-opacity="0.5" stroke-width="1.3" marker-end="url(#m-'+e.type+')"><title>'+esc(t(e.type.replace(/_/g,' ')))+'</title></path>'
 }).join('')
-svg.innerHTML=ns+circles
-svg.querySelectorAll('.map-node').forEach(g=>g.addEventListener('click',function(e){
-let id=this.dataset.id,n=byId[id]
+let circles=nodes.map(n=>{
+let x=pos[n.id][0],y=pos[n.id][1]
+let c=groups[n.group].color
+let lw=Math.max(46,n.label.length*6.4+14)
+return '<g class="map-node" data-id="'+n.id+'" style="cursor:pointer"><circle class="mn-dot" cx="'+x+'" cy="'+y+'" r="13" fill="'+c+'" stroke="#fff" stroke-width="1.8" opacity="0.96"></circle><rect class="mn-chip" x="'+(+x-lw/2).toFixed(1)+'" y="'+(+y+16)+'" width="'+lw.toFixed(1)+'" height="18" rx="9" fill="var(--bg2)" stroke="'+c+'" stroke-opacity="0.5" stroke-width="1" opacity="0.92"></rect><text x="'+x+'" y="'+(+y+28.5)+'" text-anchor="middle" font-size="10.5" fill="var(--text)" style="user-select:none;pointer-events:none">'+esc(n.label.slice(0,30))+'</text></g>'
+}).join('')
+mapGraph.byId=byId;mapGraph.adj=adj;mapGraph.edgeType=edgeType;mapGraph.pos=pos;mapGraph.nodes=nodes;mapGraph.groups=groups;mapGraph.edgeColor=edgeColor
+let world=document.getElementById('mapWorld')
+world.innerHTML=haloHTML+es+circles
+applyPanZoom()
+applyMapView()
+if(mapState.tour)renderTourBar()
+let svg=document.getElementById('mapSvg')
+if(!mapBound){
+mapBound=true
+svg.addEventListener('mousedown',function(e){if(e.target.closest('.map-node')||e.target.closest('.map-edge'))return;mapDrag={x:e.clientX,y:e.clientY,px:mapState.px,py:mapState.py,moved:false}})
+window.addEventListener('mousemove',function(e){if(!mapDrag)return;let dx=e.clientX-mapDrag.x,dy=e.clientY-mapDrag.y;if(Math.abs(dx)+Math.abs(dy)>3)mapDrag.moved=true;if(mapDrag.moved){mapState.px=mapDrag.px+dx;mapState.py=mapDrag.py+dy;applyPanZoom();document.getElementById('mapSvg').style.cursor='grabbing'}})
+window.addEventListener('mouseup',function(){if(mapDrag&&mapDrag.moved)document.getElementById('mapSvg').style.cursor='grab';mapDrag=null})
+svg.addEventListener('wheel',function(e){e.preventDefault();let rect=svg.getBoundingClientRect();let mx=e.clientX-rect.left,my=e.clientY-rect.top;let k=e.deltaY<0?1.12:0.89;let nz=Math.max(0.4,Math.min(2.6,mapState.zoom*k));mapState.px=mx-(mx-mapState.px)*(nz/mapState.zoom);mapState.py=my-(my-mapState.py)*(nz/mapState.zoom);mapState.zoom=nz;applyPanZoom()},{passive:false})
+svg.addEventListener('dblclick',function(e){if(e.target.closest('.map-node'))return;mapState.zoom=1;mapState.px=0;mapState.py=0;applyPanZoom()})
+svg.addEventListener('click',function(e){if(mapDrag&&mapDrag.moved)return;if(e.target===svg){document.getElementById('mapDetail').style.display='none';clearMapFocus()}})
+}
+world.addEventListener('mouseover',function(e){let g=e.target.closest('.map-node');if(g){focusNode(g.dataset.id);return}let ed=e.target.closest('.map-edge');if(ed){let from=ed.dataset.from,to=ed.dataset.to;world.querySelectorAll('.map-edge').forEach(p=>{p.style.opacity=(p.dataset.from===from&&p.dataset.to===to)||(p.dataset.from===to&&p.dataset.to===from)?'0.9':''})}})
+world.addEventListener('mouseout',function(e){if(e.target.closest('.map-node')||e.target.closest('.map-edge')){clearMapFocus()}})
+world.addEventListener('click',function(e){let g=e.target.closest('.map-node');if(!g)return;if(mapDrag&&mapDrag.moved)return;let id=g.dataset.id;if(mapState.tour){mapState.tour=mapTourPath(id);mapState.tour.idx=0;renderTourBar();centerOn(id,1.25);applyTourHighlight()}
+showMapDetail(id)})
+searchEl.oninput=function(){let q=this.value.toLowerCase().trim();let had=mapState.search!=='';mapState.search=q;if(q&&!had){let f=mapMatchIds(q)[0];if(f)centerOn(f,1.4)}applyMapView()}
+searchEl.onkeydown=function(e){if(e.key==='Enter'){let q=this.value.toLowerCase().trim();let f=mapMatchIds(q)[0];if(f)centerOn(f,1.4)}}
+tourBtn.onclick=function(){if(mapState.tour){mapState.tour=null;document.getElementById('mapTourBar').style.display='none';clearMapFocus();return}startMapTour()}
+resetBtn.onclick=function(){mapState.zoom=1;mapState.px=0;mapState.py=0;applyPanZoom()}
+}
+let mapState={filter:'',search:'',zoom:1,px:0,py:0,tour:null}
+let mapGraph={byId:{},adj:{},edgeType:{},pos:{},nodes:[],groups:{},edgeColor:{}}
+let mapDrag=null
+let mapBound=false
+function applyPanZoom(){let world=document.getElementById('mapWorld');if(world)world.setAttribute('transform','translate('+mapState.px.toFixed(1)+','+mapState.py.toFixed(1)+') scale('+mapState.zoom+')')}
+function applyMapView(){
+let world=document.getElementById('mapWorld');if(!world)return
+let q=mapState.search,vis=mapState.filter
+let showNode=function(n){return vis===''||(vis.slice(0,2)==='g:'&&n.group===vis.slice(2))||(vis.slice(0,2)==='t:'&&n.topicId===vis.slice(2))}
+let showNodes=[]
+mapGraph.nodes.forEach(n=>{if(!showNode(n))return
+let hit=!q||n.label.toLowerCase().indexOf(q)>=0||n.entry.toLowerCase().indexOf(q)>=0||((topics.find(t=>t.id===n.topicId)||{}).name||'').toLowerCase().indexOf(q)>=0
+if(hit)showNodes.push(n.id)})
+world.querySelectorAll('.map-node').forEach(g=>{let on=showNodes.indexOf(g.dataset.id)>=0;g.style.opacity=on?'':'0.08';g.style.pointerEvents=on?'auto':'none'})
+world.querySelectorAll('.map-halo').forEach(h=>{let on=!vis||(vis.slice(0,2)==='g:'&&h.dataset.g===vis.slice(2));h.style.opacity=on?'':'0.18'})
+world.querySelectorAll('.map-edge').forEach(p=>{let on=showNodes.indexOf(p.dataset.from)>=0&&showNodes.indexOf(p.dataset.to)>=0;p.style.opacity=on?'':'0.05';p.style.pointerEvents=on?'auto':'none'})
+let cnt=document.getElementById('mapCountLine');if(cnt)cnt.textContent=showNodes.length+' / '+mapGraph.nodes.length+' '+t('concepts')
+if(mapState.tour)applyTourHighlight()
+}
+function mapMatchIds(q){let out=[];mapGraph.nodes.forEach(n=>{if(n.label.toLowerCase().indexOf(q)>=0||n.entry.toLowerCase().indexOf(q)>=0||((topics.find(t=>t.id===n.topicId)||{}).name||'').toLowerCase().indexOf(q)>=0)out.push(n.id)});return out}
+function focusNode(id){
+let world=document.getElementById('mapWorld')
+let nbs=new Set();(mapGraph.adj[id]||[]).forEach(x=>nbs.add(x))
+world.querySelectorAll('.map-node').forEach(g=>{let on=g.dataset.id===id||nbs.has(g.dataset.id);g.style.opacity=on?'':'0.12'})
+world.querySelectorAll('.map-edge').forEach(p=>{let on=p.dataset.from===id||p.dataset.to===id;if(on){p.style.opacity='0.9';p.style.strokeWidth='2.2'}else{p.style.opacity='0.05'}})
+let cur=world.querySelector('.map-node[data-id="'+id+'"]');if(cur){let dot=cur.querySelector('.mn-dot');dot.setAttribute('r','15');dot.setAttribute('stroke','var(--accent)')}
+}
+function clearMapFocus(){
+let world=document.getElementById('mapWorld');if(!world)return
+world.querySelectorAll('.map-node').forEach(g=>{g.style.opacity='';g.style.pointerEvents=''})
+world.querySelectorAll('.map-edge').forEach(p=>{p.style.opacity='';p.style.strokeWidth='';p.style.pointerEvents=''})
+world.querySelectorAll('.mn-dot').forEach(d=>{d.setAttribute('r','13');d.setAttribute('stroke','#fff')})
+applyMapView()
+}
+function centerOn(id,zoom){
+let p=mapGraph.pos[id];if(!p)return
+mapState.zoom=zoom||1.2
+mapState.px=500-(+p[0])*mapState.zoom
+mapState.py=360-(+p[1])*mapState.zoom
+applyPanZoom()
+}
+function showMapDetail(id){
+let n=mapGraph.byId[id]
 let detail=document.getElementById('mapDetail')
 let topic=topics.find(t=>t.id===n.topicId)
 let entry=(topic&&topic.entries?topic.entries.find(en=>en.concept===n.entry):null)
 let cn=entry&&showSwedish&&entry.sv?entry.sv.concept:entry?entry.concept:n.label
 let def=entry&&showSwedish&&entry.sv?entry.sv.definition:entry?entry.definition:''
 let nb=CONCEPT_MAP.edges.filter(en=>en.from===id||en.to===id)
-let rel=nb.map(en=>{let other=en.from===id?en.to:en.from;return {id:other,label:byId[other].label,type:en.type}})
+let rel=nb.map(en=>{let other=en.from===id?en.to:en.from;return {id:other,label:mapGraph.byId[other].label,type:en.type}})
+let hasDD=deepDives[n.topicId]&&deepDives[n.topicId].length
 detail.style.display='block'
-detail.innerHTML='<div class="map-detail-box" style="position:absolute;left:16px;top:16px;z-index:5;max-width:330px;background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:14px 16px;box-shadow:0 8px 30px rgba(0,0,0,.18)"><div style="display:flex;align-items:center;gap:8px"><span style="width:10px;height:10px;border-radius:50%;background:'+groups[n.group].color+'"></span><strong>'+esc(cn)+'</strong></div>'+(def?'<div style="margin-top:6px;font-size:0.82rem;color:var(--text-secondary)">'+esc(def)+'</div>':'')+'<div style="margin-top:8px;font-size:0.75rem;color:var(--text-tertiary)">'+esc(topic?topic.name:'')+'</div><div style="margin-top:8px;font-size:0.75rem">'+(rel.length?rel.slice(0,6).map(r=>'<div style="margin:2px 0"><span style="opacity:.7">'+t(r.type)+'</span> → <span style="color:var(--accent);cursor:pointer" data-jump="'+r.id+'">'+esc(r.label)+'</span></div>').join(''):'')+'</div><div style="margin-top:10px;display:flex;gap:8px"><button class="btn btn-sm btn-accent" id="mapStudy">'+t('Study this concept')+'</button><button class="btn btn-sm" id="mapClose">✕</button></div></div>'
-document.getElementById('mapClose').addEventListener('click',function(){detail.style.display='none'})
+detail.innerHTML='<div class="map-detail-box" style="position:absolute;left:16px;top:16px;z-index:5;max-width:330px;background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:14px 16px;box-shadow:0 8px 30px rgba(0,0,0,.18)"><div style="display:flex;align-items:center;gap:8px"><span style="width:10px;height:10px;border-radius:50%;background:'+mapGraph.groups[n.group].color+'"></span><strong>'+esc(cn)+'</strong></div>'+(def?'<div style="margin-top:6px;font-size:0.82rem;color:var(--text-secondary)">'+esc(def)+'</div>':'')+'<div style="margin-top:8px;font-size:0.75rem;color:var(--text-tertiary)">'+esc(topic?topic.name:'')+'</div>'+(rel.length?'<div style="margin-top:8px;font-size:0.75rem">'+rel.slice(0,6).map(r=>'<div style="margin:2px 0"><span style="opacity:.7">'+t(r.type)+'</span> → <span style="color:var(--accent);cursor:pointer" data-jump="'+r.id+'">'+esc(r.label)+'</span></div>').join('')+'</div>':'')+'<div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap"><button class="btn btn-sm btn-accent" id="mapStudy">'+t('Study this concept')+'</button>'+(hasDD?'<button class="btn btn-sm" id="mapDeep">'+t('Open Deep Dive')+'</button>':'')+'<button class="btn btn-sm" id="mapQuiz">'+t('Test yourself')+'</button><button class="btn btn-sm" id="mapClose">✕</button></div></div>'
+document.getElementById('mapClose').addEventListener('click',function(){detail.style.display='none';clearMapFocus()})
 document.getElementById('mapStudy').addEventListener('click',function(){switchTab('browse');renderBrowse(n.topicId)})
-detail.querySelectorAll('[data-jump]').forEach(j=>j.addEventListener('click',function(){let t=document.getElementById('mapSvg').querySelector('.map-node[data-id="'+this.dataset.jump+'"]');if(t)t.dispatchEvent(new MouseEvent('click',{bubbles:true}))}))
-e.stopPropagation()
-}))
-svg.addEventListener('click',function(e){if(e.target===svg){let detail=document.getElementById('mapDetail');detail.style.display='none'}})
+if(hasDD)document.getElementById('mapDeep').addEventListener('click',function(){switchTab('deep');renderDeepDives(n.topicId)})
+document.getElementById('mapQuiz').addEventListener('click',function(){save('topic_quiz',n.topicId);switchTab('quiz');initQuiz()})
+detail.querySelectorAll('[data-jump]').forEach(j=>j.addEventListener('click',function(){let tg=document.getElementById('mapWorld').querySelector('.map-node[data-id="'+this.dataset.jump+'"]');if(tg)tg.dispatchEvent(new MouseEvent('click',{bubbles:true}))}))
+focusNode(id)
 }
-
+function mapTourPath(startId){
+let order={'foundation':0,'builds-on':1,'applies-to':2,'contrasts-with':3}
+let start=mapGraph.byId[startId]?startId:'behavior'
+let visited=new Set([start]),stack=[start],path=[],parent={}
+while(stack.length&&path.length<7){
+let cur=stack.pop();path.push(cur)
+let nbs=[]
+mapGraph.adj[cur].forEach(x=>{if(!visited.has(x))nbs.push(x)})
+nbs.sort(function(a,b){let ea=order[mapGraph.edgeType[cur+'>'+a]],eb=order[mapGraph.edgeType[cur+'>'+b]];return (ea==null?9:ea)-(eb==null?9:eb)})
+for(let i=nbs.length-1;i>=0;i--){visited.add(nbs[i]);parent[nbs[i]]=cur;stack.push(nbs[i])}
+}
+return {path:path,parent:parent}
+}
+function startMapTour(fromId){
+let st=mapTourPath(fromId)
+if(st.path.length<2)return
+mapState.tour=st;mapState.tour.idx=0
+mapState.search='';let se=document.getElementById('mapSearch');if(se)se.value=''
+mapState.filter='';document.querySelectorAll('#mapFilters .filter-pill').forEach(x=>x.classList.toggle('active',x.dataset.f===''))
+applyMapView()
+renderTourBar()
+centerOn(st.path[0],1.25)
+applyTourHighlight()
+}
+function applyTourHighlight(){
+let world=document.getElementById('mapWorld');if(!world)return
+let st=mapState.tour;if(!st)return
+let cur=st.path[Math.min(st.idx,st.path.length-1)]
+let g=world.querySelector('.map-node[data-id="'+cur+'"]');if(g){let dot=g.querySelector('.mn-dot');dot.setAttribute('r','16');dot.setAttribute('stroke','var(--accent)')}
+let pairs={}
+for(let i=1;i<st.path.length;i++){let p=st.parent[st.path[i]];if(p)pairs[p+'>'+st.path[i]]=1}
+world.querySelectorAll('.map-edge').forEach(ed=>{if(pairs[ed.dataset.from+'>'+ed.dataset.to]||pairs[ed.dataset.to+'>'+ed.dataset.from]){ed.style.opacity='0.95';ed.style.strokeWidth='2.6'}})
+}
+function renderTourBar(){
+let bar=document.getElementById('mapTourBar')
+let st=mapState.tour
+if(!st){bar.style.display='none';return}
+bar.style.display='block'
+let done=st.idx>=st.path.length
+let cur=st.path[Math.min(st.idx,st.path.length-1)]
+let n=mapGraph.byId[cur]
+let parent=st.parent[cur],et=parent?mapGraph.edgeType[parent+'>'+cur]:null
+let topic=topics.find(t=>t.id===n.topicId)
+let entry=(topic&&topic.entries?topic.entries.find(en=>en.concept===n.entry):null)
+let def=entry&&showSwedish&&entry.sv?entry.sv.definition:entry?entry.definition:''
+let defS=def?def.slice(0,200)+(def.length>200?'…':''):''
+let cn=entry&&showSwedish&&entry.sv?entry.sv.concept:n.label
+let h='<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span class="cloze-badge" style="background:var(--accent-soft)">'+t('Step ')+(st.idx+1)+'/'+st.path.length+'</span><strong>'+esc(cn)+'</strong>'+(done?'':'<button class="btn btn-sm btn-accent" id="tourNext">'+t('Next →')+'</button>')+(st.idx>0&&!done?'<button class="btn btn-sm" id="tourBack">'+t('Back')+'</button>':'')+'<button class="btn btn-sm" id="tourEnd">✕ '+t('End tour')+'</button></div>'
+h+=(done?'<div style="margin-top:8px;font-size:0.82rem;color:var(--accent)">'+t('Tour complete')+': '+st.path.map(function(p){return mapGraph.byId[p].label}).join(' → ')+'</div>':(defS?'<div style="margin-top:8px;font-size:0.82rem;color:var(--text-secondary)">'+esc(defS)+'</div>':'')+(et&&parent?'<div style="margin-top:6px;font-size:0.8rem;color:var(--accent)">'+t('Why it matters')+': '+esc(mapGraph.byId[parent].label)+' '+esc(t(et))+' '+esc(n.label)+'</div>':''))
+bar.innerHTML=h
+let nxt=document.getElementById('tourNext')
+if(nxt)nxt.addEventListener('click',function(){st.idx++;renderTourBar();applyTourHighlight();let c=st.path[Math.min(st.idx,st.path.length-1)];centerOn(c,1.25)})
+let bck=document.getElementById('tourBack')
+if(bck)bck.addEventListener('click',function(){st.idx--;renderTourBar();applyTourHighlight();let c=st.path[Math.min(st.idx,st.path.length-1)];centerOn(c,1.25)})
+let end=document.getElementById('tourEnd')
+if(end)end.addEventListener('click',function(){mapState.tour=null;bar.style.display='none';clearMapFocus()})
+}
 // Resources
 function renderResources(){
 let el=document.getElementById('resourcesContent')
@@ -1314,7 +1460,7 @@ switchTab('browse')
 
 
 console.log('Behavioral Science Study App loaded')
-window.__hb={get labQ(){return labQ},get labIdx(){return labIdx},get labAnswered(){return labAnswered},get load(){return load},hasCueCluster:hasCueCluster,taggedSession:function(bookId,mode,n){let pool=labAllAssets().filter(function(a){return a.bookId===bookId&&(!mode||a.asset_type===mode)&&hasCueCluster(a)});labQ=shuffle(pool).slice(0,n);labIdx=0;labScore=0;labAnswered=false;labFP=0;document.getElementById('labConfig').style.display='none';document.getElementById('labProgress').style.display='block';renderLab()}}
+window.__hb={get labQ(){return labQ},get labIdx(){return labIdx},get labAnswered(){return labAnswered},get load(){return load},hasCueCluster:hasCueCluster,get mapState(){return mapState},get mapGraph(){return mapGraph},get deepDives(){return deepDives},topicName:function(id){let t=topics.find(function(x){return x.id===id});return t?t.name:''},taggedSession:function(bookId,mode,n){let pool=labAllAssets().filter(function(a){return a.bookId===bookId&&(!mode||a.asset_type===mode)&&hasCueCluster(a)});labQ=shuffle(pool).slice(0,n);labIdx=0;labScore=0;labAnswered=false;labFP=0;document.getElementById('labConfig').style.display='none';document.getElementById('labProgress').style.display='block';renderLab()}}
 })
 if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(e){console.warn('SW registration failed:',e);});});}
 </script>
