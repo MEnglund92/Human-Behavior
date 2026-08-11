@@ -109,7 +109,25 @@
       "level": "Medium",
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
-     }
+     },
+      "distractor_error_types": [
+       "dismissing an escalating threat message as mere venting",
+       "reading a partner's grievance history as irrelevant office politics",
+       "confusing the predator's goal of power with a need for resources"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "Ron's promise to burn the firm's revenue model to the ground",
+        "a floor-wide email listing every slight since 2019",
+        "badge swipes growing more erratic throughout the day"
+       ],
+       "baseline_check": "Ron's baseline was a stable, long-tenured partner whose badge swipes and meeting conduct were routine and predictable before he was passed over for managing partner."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear",
+       "MOSAIC threat assessment system (Gavin de Becker & Associates)"
+      ]
     }
    ]
   },
@@ -503,6 +521,24 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "obeying the attacker's stay-put instruction as if his words were contracts",
+       "treating the unsolicited promise that he would not hurt her as genuine reassurance",
+       "reading the staged hurry and watch-check as evidence of a real departure"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "the closed window while he was dressed and supposedly leaving",
+        "the watch glance and announced hurry with no actual packing",
+        "the unsolicited promise that he would not hurt her",
+        "drawers being opened in the kitchen during the claimed trip for a drink"
+       ],
+       "baseline_check": "Kelly had no known history with this stranger; his baseline during the encounter was a friendly, courteous helper whose stated plan was simply to leave, against which each incongruous action could be measured."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ],
      "boss_battle_explanation": "The battle tests the chapter's core claim that real fear is a reliable ally and that survival signals, actions contradicting a stated story, unlock escape. Kelly's escape worked because she read the attacker's staged-exit sequence, dressed, window closed, watch checked, promise offered, and then acted on the fear it generated, moving while he believed she was still immobilized by compliance.",
      "stage_1_observation": "You are Kelly, lying still on the bed in your apartment. The man who assaulted you is now dressed and on his feet. He closes the window, glances at his watch, and announces he is in a hurry, saying he has to be somewhere. He adds: don't look so scared, I promise I'm not going to hurt you. The scene freezes and you must identify what the sequence means.",
      "stage_1_question": "Given that he says he is leaving, what does the combination of his actions tell you about his actual plan?",
@@ -536,6 +572,25 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "fixating on gross scene details such as the overturned table and broken glass as the predictive cues",
+       "interpreting the backward step as de-escalation rather than gun-specific distance-seeking",
+       "discounting the thumb's micro-movement as too small to matter"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "the thumb traveling a quarter of an inch onto the pistol's hammer",
+        "the hammer being pulled back",
+        "her backward step while the gun stayed trained on him",
+        "the gun's purchase months earlier"
+       ],
+       "baseline_check": "The woman's baseline was a mother of two in an argumentative marriage who had threatened her husband before but had not previously introduced a weapon into the argument."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear",
+       "MOSAIC threat assessment system (Gavin de Becker & Associates)"
+      ],
      "boss_battle_explanation": "The battle tests pre-incident indicators, which the book calls the single most important tool of any prediction: detectable factors that occur before the outcome being predicted. The player must separate snapshot details from portrait details, use all the time available, and act when the final indicator appears, completing the prediction just behind the line between foresight and hindsight.",
      "stage_1_observation": "You are ten years old, standing off to the side in a doorway, watching your mother hold a small semi-automatic pistol on your stepfather, whose hands are stretched out stiffly in front of him. Two young children, including a toddler napping in a bedroom, are in the house. The floor holds an overturned table, a phone knocked off the hook, and a broken glass. Your mother is barefoot. The gun has eight bullets and is pointed steadily at him. She repeats quietly: now I'm going to kill you.",
      "stage_1_question": "One detail in this room matters more than all the others combined. Which one, and why?",
@@ -935,6 +990,24 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "trading away verified pre-incident indicators to avoid the embarrassment of being wrong in front of peers",
+       "treating an unarmed approach and pat-down as safe because the subjects had not visibly drawn a weapon",
+       "waiting for the moment of great danger instead of acting while the signal could still change the outcome"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "two men matching the armed-robbery briefing description",
+        "one man standing at a pay phone without speaking to anyone",
+        "the other repeatedly walking over and looking in the supermarket window",
+        "the men walking away when they noticed the patrol car"
+       ],
+       "baseline_check": "Patrick's baseline was a careful, trained officer who routinely called in observations and requested backup before contact; his departure from that routine came only when the fear of embarrassment threatened."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ],
      "boss_battle_explanation": "Denial is the boss of this level: a trained officer watches a textbook set of pre-incident indicators unfold and still ignores them, paying the full price. Survival signals are only useful at the moment they can still change the outcome — past that moment, recognition costs everything.",
      "stage_1_observation": "Patrick, riding alone, spots two men who match the armed-robbery description from the morning briefing. One stands at a pay phone but does not appear to be talking to anyone; the other repeatedly walks over and looks in the window of a supermarket. The men notice Patrick and walk off down the street.",
      "stage_1_question": "Which observed behavior is the strongest pre-incident indicator that these men are the wanted robbers, or otherwise pose danger?",
@@ -967,6 +1040,23 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "suppressing an unexplained fear signal as silliness",
+       "prioritizing the fear of insulting a stranger over the survival signal",
+       "searching for an innocent explanation instead of honoring the alarm"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "the man inside the elevator whose look and presence triggered an immediate chill",
+        "the feeling of fear arriving and persisting rather than fading",
+        "the empty lobby and the option of waiting for the next car"
+       ],
+       "baseline_check": "The woman was not usually afraid, so her baseline is a calm, unalarmed commuter for whom this elevator encounter is the exception that should be treated as information."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ],
      "boss_battle_explanation": "The boss is the voice of the innocuous explanation: 'he seems like such a nice man,' 'don't be silly,' 'I'm not going to live like that.' The woman in this battle defeated her own strongest survival signal with courtesy reasoning, proving that in danger the mind works against itself unless given permission to honor fear.",
      "stage_1_observation": "Late at night, a woman alone waits for an elevator. The doors open and she sees a man inside who causes her apprehension. She is not usually afraid, so the cause may be the late hour, his size, the way he looks at her, the rate of attacks in the neighborhood, or an article she read a year ago — the chapter states it does not matter why. The feeling of fear arrives and does not go away.",
      "stage_1_question": "How should the woman read the fear signal she cannot fully explain?",
@@ -1275,6 +1365,24 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "letting a judgment label such as 'monster' end inquiry",
+       "refusing to accept a violent offender's humanness because the acts are repugnant",
+       "confusing acceptance of humanness with excusing behavior"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "Bardo's ordinary posture and quiet answers in the prison visiting room",
+        "the Atascadero patients mourning the dying guinea pig held by Oliver",
+        "Menninger's reminder that everyone is capable of criminal fantasies"
+       ],
+       "baseline_check": "Bardo's baseline was relative normalcy, ordinary posture and quiet speech matching the behavior of most people, which is precisely why labeling him a monster would mask the predictability of his conduct."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear",
+       "Menninger, K. (1968). The Crime of Punishment. Viking Press"
+      ],
      "boss_battle_explanation": "Shared humanness as the foundation of prediction: to predict violent people you must accept that they look and act like people and that the resource of violence is in everyone. Labeling an offender a monster produces the comfortable illusion that everything is figured out, but prediction is only possible when perception replaces judgment.",
      "stage_1_observation": "You are the protection consultant seated across from Robert Bardo in a prison visiting room. The man who killed Rebecca Schaeffer sits with ordinary posture, answers quietly, and his 'relative normalcy' unsettles you precisely because the news coverage called him a monster. Your briefing file quotes Karl Menninger, while a note in the margin reminds you what de Becker did first with every offender: find the familiar part of himself in them.",
      "stage_1_question": "Before you can predict anything about Bardo, you must make a decision about your own mental framing. Which stance makes his behavior predictable?",
@@ -1307,6 +1415,24 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "treating 'quiet and cordial neighbor' testimony as predictive information",
+       "equating apparent normalcy with an absence of risk",
+       "accepting surface friendliness such as PTA donations and coaching as evidence against violence"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "the news report describing the killer as 'a shy man who kept to himself'",
+        "Ressler's finding that 100 percent of serial killers studied had been abused as children",
+        "the parent's claim that the teacher 'doesn't look like a killer'"
+       ],
+       "baseline_check": "The baseline to compare against is the killer's history of abuse, isolation, and fixation rather than a neighbor's impression of quiet demeanor, since apparent normalcy is not a pre-incident indicator."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear",
+       "Ressler, R. K., Burgess, A. W., & Douglas, J. E. (1988). Sexual Homicide: Patterns and Motives. Lexington Books"
+      ],
      "boss_battle_explanation": "The voice of denial is the enemy of prediction: it whispers 'this guy doesn't look like a killer' and converts perception into judgment labels that make everyone feel the matter is settled. The winning move is to accept that violence is committed by people who look and act like people, and to weigh real pre-incident indicators instead of surface normalcy.",
      "stage_1_observation": "A Sunday news broadcast reports: 'Residents describe the killer as a shy man who kept to himself. They say he was a quiet and cordial neighbor.' The anchor asks how nobody could have seen it coming. Beside the broadcast, a fact bar shows Ressler's research finding that 100 percent of serial killers studied had been abused as children with violence, neglect, or humiliation.",
      "stage_1_question": "You must decide what the broadcast's 'quiet and cordial neighbor' testimony actually tells you about predicting violent crime. What is the correct read?",
@@ -1782,7 +1908,25 @@
       "level": "Medium",
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
-     }
+     },
+      "distractor_error_types": [
+       "treating an unsolicited approach as ordinary helpfulness",
+       "answering the interviewer with warm, apologetic politeness that keeps access on the agenda",
+       "mistaking hesitation and dropped eyes for a safe, noncommittal response"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "the man walking over from the elevator without being called",
+        "reaching for the bag while Nora still held it",
+        "the other woman tensing her shoulders and dropping her eyes",
+        "the unpopulated garage at night"
+       ],
+       "baseline_check": "Nora's baseline is a woman who handles her own errands and expects no assistance; the man approached her without any invitation, so the comparison point is the rule that he approached her and she asked for no help."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -1816,7 +1960,24 @@
       "level": "Medium",
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
-     }
+     },
+      "distractor_error_types": [
+       "demanding a conscious explanation for a fear signal before acting",
+       "rationally weighing the tiny mirror image against the risk instead of honoring the fear",
+       "trusting a cookie-cutter response checklist over intuition"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "the three-inch section of blue denim in the side-view mirror",
+        "the engine running and the friend at the ATM",
+        "the sudden, unexplained great fear"
+       ],
+       "baseline_check": "Nancy's baseline was calm and unremarkable, a normal ride while a friend withdrew money, so the abrupt onset of fear in an ordinary context is the deviation her intuition had already decoded."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ]
     }
    ]
   },
@@ -2111,7 +2272,25 @@
       "level": "Medium",
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
-     }
+     },
+      "distractor_error_types": [
+       "treating each behavior in isolation instead of as a pattern across the favorable and unfavorable columns",
+       "writing off questions about her husband's schedule as harmless small talk",
+       "completing the prediction without following it with preparation"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "stepping into the bedroom doorway to check the fuse box",
+        "asking whether her husband works late",
+        "saying his next job was canceled",
+        "twice steering the conversation to her weekend plans"
+       ],
+       "baseline_check": "Bo's baseline is the favorable repairman column, arrives on time, works quickly, minds his own business; his bedroom doorway visit, scheduling questions, and lingering mark the opposites of that baseline."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -2144,7 +2323,24 @@
       "level": "Medium",
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
-     }
+     },
+      "distractor_error_types": [
+       "letting emotion such as the CFO's fear drive spending instead of the RICE evaluation",
+       "treating a credible-sounding threat as a high-reliability prediction",
+       "assuming importance alone justifies the most expensive precaution"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "the handwritten letter naming the CFO",
+        "the CFO's demand for round-the-clock armed guards",
+        "the comparison cases of the $50,000 lightning guarantee and the heart transplant"
+       ],
+       "baseline_check": "The CFO's baseline is a public but not targeted figure with a low statistical likelihood of attack; the letter is the deviation, and its credibility must be weighed against that baseline before spending."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ]
     }
    ]
   },
@@ -2457,6 +2653,25 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "pre-deciding that only one outcome is possible, that 'that kind of thing never happens here'",
+       "dismissing pre-incident indicators because the subject does not fit a workplace-violence profile",
+       "treating the prediction as closed before all eleven elements were weighed"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "Leo's angry exit and hallway remark that the campus 'will hear from me'",
+        "driving past the main gate at shift change",
+        "the coworker's report of 'something big coming'",
+        "the pawn-shop record of a hunting knife purchase"
+       ],
+       "baseline_check": "Leo's baseline was a decade of uneventful employment with no prior threats or volatile behavior, against which his post-termination anger, gate surveillance, and weapon purchase stand out as deviations."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear",
+       "MOSAIC threat assessment system (Gavin de Becker & Associates)"
+      ],
      "boss_battle_explanation": "Any prediction can itself be scored for likelihood of success by weighing eleven elements. The team that drops an element without noticing has already completed its prediction before the analysis is done, and no amount of later evidence can repair an abandoned element.",
      "stage_1_observation": "The briefing file on Leo Han, a technician fired two weeks ago, includes his angry exit, a hallway remark that the campus 'will hear from me,' and a report that he began driving past the main gate at shift change. The facilities manager dismisses the file: 'Guys like Leo don't do things like that. That kind of thing never happens here.' The team votes to close the case and reports confidence of a quiet outcome, even though no one has interviewed the coworkers who heard the remark and the security cameras covering the gate are temporarily routed to a different monitor.",
      "stage_1_question": "Which of the eleven elements has the team effectively abandoned, making their confident prediction unreliable?",
@@ -2489,6 +2704,25 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "explaining a possible outcome with a single cause such as 'he lost his job, so he snapped'",
+       "waiting for the start of the incident instead of reading the chain already in motion",
+       "ignoring pre-incident indicators as separate from the incident itself"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "stopping answering his phone after the dismissal notice",
+        "telling a coworker 'they'll regret this'",
+        "arriving an hour early to walk the loading dock alone",
+        "circling the block twice before parking at the employee entrance"
+       ],
+       "baseline_check": "Dale's baseline was a steady employee with ordinary routines, answering calls, driving in with the shift, acknowledging his team lead, against which his withdrawal and altered patterns mark a chain already underway."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear",
+       "Monahan, J. (1981). The Clinical Prediction of Violent Behavior. National Institute of Mental Health"
+      ],
      "boss_battle_explanation": "People explain violence with cause and effect ('he lost his job, so he snapped'), but prediction requires seeing the whole chain in which violent outcomes are only one link among many PINs. Because pre-incident indicators are part of the incident, the question is never whether the event has started, but how far along the chain it already is.",
      "stage_1_observation": "Dale, a shipping clerk at a regional garage door manufacturer, learns Friday that he will be dismissed Monday. Over the week he stops answering his phone, tells a coworker 'they'll regret this,' begins arriving an hour early to walk the loading dock alone, and twice fails to acknowledge the team lead who greets him. At the Friday meeting, Sanjay's manager explains it simply: 'He lost his job, and his wife left him last year, and the man finally broke. It's cause and effect.'",
      "stage_1_question": "Why is the manager's 'cause and effect' explanation of Dale's condition an unreliable basis for predicting what happens Monday?",
@@ -2888,6 +3122,24 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "treating hostile, amendment-heavy threats as credible bomb warnings",
+       "improvising the response in the stress of the moment instead of executing the pre-drafted policy",
+       "showing the caller fear or a high appraisal of his words"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "the caller firing off three escalating violent statements in one call",
+        "no specific location and no description of a device",
+        "hanging up mid-sentence",
+        "the calmer second call naming the food court next to the escalator"
+       ],
+       "baseline_check": "Nearly 100 percent of anonymous bomb threat calls are bogus, so the baseline assumption is anger discharge until a caller's pattern of calm, specific, patient speech elevates the assessment."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ],
      "boss_battle_explanation": "The central concept is threat triage by context and caller behavior: hostile, amendment-heavy calls are nearly always bogus anger discharge, and organizations should settle their response questions before an incident, while a calmer, more specific pattern would elevate the assessment. The battle tests reading the caller's speech pattern, then applying a pre-planned policy rather than improvising under stress.",
      "stage_1_observation": "Marcus reviews the recorded threat: a single anonymous caller who speaks in a rushed, angry voice and fires off three escalating violent statements in a row, without settling on any one claim. The security chief notes the caller never mentions a specific location, never describes a device, and hangs up mid-sentence. The mall's pre-drafted policy card reminds the team to log the call, time-stamp the language, and score the caller's demeanor before deciding anything.",
      "stage_1_question": "What does the caller's pattern of angry, escalating amendments reveal about the nature of this call?",
@@ -2920,6 +3172,23 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "letting the body's alarm response degrade evaluation of a future hazard",
+       "answering the calming question 'Am I in immediate danger?' with a panicked yes for a mailed letter",
+       "continuing to evaluate when the danger is present and action is required"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "the typed death-threat letter naming no date, place, or method",
+        "the physiological mobilization of dilated pupils, quickened breath, and climbing cortisol",
+        "the phone call from the garage and the figure between the parked cars"
+       ],
+       "baseline_check": "Priya's baseline is a calm analyst in a routine office day; the mailed letter is the first anomaly, and its delivery method, which poses no immediate hazard, must be weighed against the body's alarm before the phone call turns the danger present."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ],
      "boss_battle_explanation": "The central concept is the distinction between the body's alarm mobilization, which is indispensable for present danger, and the calm evaluation required for future hazard: asking and answering \"Am I in immediate danger?\" frees perception for prediction. The battle tests recognizing the physiological response for what it is, then switching correctly to action when danger is truly present.",
      "stage_1_observation": "Priya reads the mailed death threat twice. The security panel shows her pupils dilating, breath quickening, and a flush of blood flow to her arms and legs while the cortisol marker climbs; her hands are steady enough to set the letter down. Nothing in the room has changed, no one is nearby, the envelope was opened an hour after it was delivered, and the threat names no date, place, or method.",
      "stage_1_question": "Why is Priya's body mobilizing for an emergency, and how should she evaluate the letter's threat given the nature of its delivery?",
@@ -3377,6 +3646,24 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "believing a warning, a visit, or a counter-threat will change a pursuer's conduct",
+       "responding to escalating messages even once as a way to end it",
+       "confusing the impact a harasser has with the conduct, which the victim cannot control"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "five messages in one day after two weeks of silence",
+        "a 2 A.M. call",
+        "the threat to book twenty bogus trips a month",
+        "the pattern that every prior escalation followed a contact"
+       ],
+       "baseline_check": "Tommy's baseline is a pursuer who escalated after every prior contact and had no track record for logic, so the management baseline is plan two: no contact, insulation, and monitoring rather than any effort to change him."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ],
      "boss_battle_explanation": "Engage and enrage: every response the victim gives, whether favorable or unfavorable, feeds the pursuer's attachment and escalates the campaign, so the victim's lever of control is impact, not conduct. The book's evidence is the Fedder case: every escalation followed a contact, de Becker's estimate was six weeks of new pursuit per contact, and the campaign ended only once contact stopped entirely.",
      "stage_1_observation": "You are replaying the Fedder file at the moment de Becker offers the two management plans: plan one, change the pursuer through warnings, counter-threats, and police interventions, all of which had already failed in this case; plan two, change the way the pursuer's conduct affects you by insulating, evaluating violence likelihood, and monitoring communications. Mike favors 'sending some people over' to explain the facts of life to Tommy.",
      "stage_1_question": "Which management plan does the book endorse for Tommy, and which phrase from the case law of this chapter defeats Mike's counter-argument that Tommy 'has to' stop?",
@@ -3409,6 +3696,23 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "believing others will react as we would, the most dangerous myth of intervention",
+       "escalating from detective visit to district attorney to arrest to 'make him stop'",
+       "confusing a letter-writing campaign, however obsessive, with a physical encounter"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "Taylor's letters addressed 'Dear James' and signed 'Respectfully Yours, Ed Taylor'",
+        "the theme escalation after each intervention: offense, litigation, then threat-and-safety",
+        "the FAA complaints and the helicopter 'strafing mission' accusation"
+       ],
+       "baseline_check": "Taylor's baseline was a letter-writer whose messages, however frequent, were appropriate for the context and stayed within the mail; his conduct deviated only after each intervention, not before."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ],
      "boss_battle_explanation": "Watch and wait beats engage and enrage: the book's central caution of this chapter is that believing others will react as we would is the single most dangerous myth of intervention, and that engaging a pursuer converts a non-interpersonal situation into an interpersonal one and a war nobody needs. The contrast pair, Searing vs. Taylor, shows identical starting material, persistent fan mail, and opposite outcomes determined by intervention choice.",
      "stage_1_observation": "It is late August 1971. A stack of letters from Edward Taylor sits on Jim Hicklin's desk: 'Dear James,' signed 'Respectfully Yours, Ed Taylor,' a suggestion that he run for governor, and one reading 'You are a star.' Hicklin's advisors offer to 'take care of it,' and a pair of private detectives stands ready to make an unannounced visit that will order Taylor to stop writing.",
      "stage_1_question": "At this moment, before any confrontation, which action matches the book's teaching about the 'warning' the detectives intend to deliver?",
@@ -3813,7 +4117,24 @@
       "level": "Medium",
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
-     }
+     },
+      "distractor_error_types": [
+       "designing the termination to maximize power display, armed guards and corner office, instead of protecting the dignity domino",
+       "negotiating or offering a gradual phased separation that extends the firing",
+       "counter-threatening or showing a high appraisal of the fired employee's threats"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "Evan's documented bullying and the death threat left on another supervisor's answering machine",
+        "the proposed corner office and armed guards as the meeting design",
+        "the offer of a six-week phased transition"
+       ],
+       "baseline_check": "Evan's baseline is a volatile gate supervisor with a documented pattern of threats and bullying, so the termination design must anticipate his reaction while never showing fear or counter-threat."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -3845,7 +4166,25 @@
       "level": "Medium",
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
-     }
+     },
+      "distractor_error_types": [
+       "postponing the firing through performance improvement periods, giving TIME the advantage",
+       "counter-threatening after termination and turning the conflict into a contest",
+       "negotiating with someone trained by experience that manipulations and intimidations work"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "Grant's documented threats and the crushed cabinet door",
+        "three supervisors who asked to be reassigned away from him",
+        "the grievance claiming a one-man war against the scheduling office",
+        "post-termination escalation: uninvited visits, alarming emails, and a menacing voicemail"
+       ],
+       "baseline_check": "Grant's baseline was twenty years as a competent welder punctuated by documented threats, intimidation, and bullying, the Scriptwriter pattern in which manipulations had worked before, so escalation after termination was expected."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ]
     }
    ]
   },
@@ -4308,6 +4647,24 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "treating the victim's calm and plan to return as evidence the situation is not severe",
+       "satisfying the paperwork of an order application instead of producing safety",
+       "promising that a violent husband will be reformed by a police talk"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "the gun held to her head tonight",
+        "prior slaps and choking",
+        "the children witnessing the gun incident",
+        "her plan to return home on a promise"
+       ],
+       "baseline_check": "Lisa's baseline is a battered woman whose fear mechanism has been dulled by repeated violence, so her calm and her willingness to return on a promise are risk indicators, not reassurance."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ],
      "boss_battle_explanation": "The long, slow crime: spousal homicide is usually the end of a sustained, escalatory pattern, not an eruption. The battle tests assembling pre-incident indicators, understanding why the victim returns, and choosing the intervention that actually increases safety rather than the one that satisfies the system.",
      "stage_1_observation": "You are Sergeant Alvarez at the front desk of a night station. Lisa, 34, has climbed out a window and run through darkened streets to get here. She tells you her husband held a gun to her head tonight, that he has slapped her and choked her before, and that their children saw the gun incident. She is proud, upright, almost relieved: she plans to return home so long as he promises never to hit her again, and she expects the department to talk some sense into him. The intake sheet shows her children are seven and nine, and the address she gives is the house she fled.",
      "stage_1_question": "Which reading of Lisa's situation is most accurate?",
@@ -4340,6 +4697,24 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "prescribing a restraining order as a universal remedy without diagnosing the man it is used against",
+       "treating a court order as protection rather than as a possible provocation",
+       "confusing the availability of paperwork with the reduction of the victim's availability"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "Victor's gun threat and months of stalking",
+        "two violated prior orders and six active arrest warrants",
+        "his statement that the only way out is death",
+        "the shared family address"
+       ],
+       "baseline_check": "Victor's baseline is a rejecting husband with deep emotional investment and entitlement whose two prior orders did not restrain him; for such a man an order demands abandoning the central features of his life and can escalate the risk."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ],
      "boss_battle_explanation": "The restraining-order dilemma: a court order is a tool whose value depends entirely on the man it is used against, and in estranged-husband cases it can provoke the violence it is meant to prevent. The battle tests diagnosing the individual case before prescribing the standard remedy.",
      "stage_1_observation": "You are a domestic-violence advocate at the Los Angeles County Domestic Violence Council. Teresa, 39, estranged from her husband Victor for four months, sits opposite you. He has held a gun to her head once, stalked her for months, violated two prior orders, and told her, 'Marriage is for life and the only way out is death.' He has six active arrest warrants. Teresa has asked the court to issue a new protective order and wants your opinion on whether it will protect her. Her children are ten and twelve, and she still shares the family address with Victor, who refuses to find other housing.",
      "stage_1_question": "Which assessment of Teresa's case is most accurate?",
@@ -4836,6 +5211,25 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "confusing persistence with proof of love",
+       "delivering soft, kind, conditional refusals that are heard as hope",
+       "remaining silent and hoping the pursuer gets the hint without an explicit rejection"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "Sam waiting outside her office after work",
+        "texting through a mutual friend to check in",
+        "laughing off her existing evening plans",
+        "his line 'I know you're scared of commitment, but I'll wait as long as it takes'"
+       ],
+       "baseline_check": "Roxanne's baseline is an adult who dated Sam twice and communicated through hints and soft refusals that she was not interested; his pursuit continued anyway, so the comparison is the one-time unconditional rejection the book prescribes."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear",
+       "Meloy, J. R. (Ed.) (1998). The Psychology of Stalking: Clinical and Forensic Perspectives. Academic Press"
+      ],
      "boss_battle_explanation": "The battle tests the persistence myth: Hollywood's Boy Wants Girl formula, distilled as Boy Wants Girl, Girl Doesn't Want Boy, Boy Harasses Girl, Boy Gets Girl, teaches that persistence wins affection, while de Becker's counter-rule is that persistence only proves persistence. The player must detect the script at work in a real courtship and then refuse it, replacing letting him down easy with a single unconditional rejection and no further contact.",
      "stage_1_observation": "Roxanne is at a coffee shop with Sam, a man she dated twice. The scene replays like a film: Sam outside her office waiting after work, Sam texting through a mutual friend to check in, Sam laughing off her existing evening plans, and now the conversation turning serious: 'I know you're scared of commitment, but I'll wait as long as it takes.'",
      "stage_1_question": "Which pattern should Roxanne name first: (a) Sam's persistence is proof of genuine love and devotion, (b) Sam's persistence follows the cultural script that harassing persistence wins affection, and it proves nothing about love, or (c) Sam is simply enthusiastic and her discomfort is an overreaction?",
@@ -4870,6 +5264,24 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "responding once to finally give a clear answer, buying another six weeks of pursuit",
+       "believing a male voice on the answering machine deters the pursuer",
+       "changing the number in a way that lets the stalker know he has been outmaneuvered"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "eleven unread voicemails and thirty-plus texts after a six-week silence",
+        "the moving-away goodbye call and the 'last time he will ever call' message",
+        "two messages arriving through her sister's phone"
+       ],
+       "baseline_check": "Marcus's baseline is a pursuer who was explicitly rejected once and continued escalating, so each new message, even the goodbye call, is a manipulation to be documented and ignored, not answered."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear",
+       "Meloy, J. R. (Ed.) (1998). The Psychology of Stalking: Clinical and Forensic Perspectives. Academic Press"
+      ],
      "boss_battle_explanation": "The battle tests the addiction-management model of stalking: the pursuer is the addict and his object is the drug, and small doses do not wean him, they engage him, so the prescribed treatment is abstinence, cold turkey, with no contact from her, from her designates, or about her. The player must decide whether to feed or starve the pursuit and must build the practical no-response infrastructure the book recommends.",
      "stage_1_observation": "Priya's phone shows eleven unread voicemails and thirty-plus texts from Marcus, whom she explicitly rejected six weeks ago after one pattern-breaking date. One message is the moving-away-for-good goodbye call, another says this is the last time he will ever call, and two arrived through her sister's phone. Her finger hovers over the call-back button because she wants to answer once, just to stop it.",
      "stage_1_question": "What does the book say responding once, even to say no again, actually accomplishes: (a) it finally gives Marcus a clear answer he will respect, (b) it teaches him that the cost of reaching Priya is leaving thirty messages and buys another stretch of unwanted pursuit, or (c) it lowers the risk of violence by keeping communication open?",
@@ -5269,6 +5681,25 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "renaming every warning sign as typical teenage behavior",
+       "treating media content as the cause instead of the amount of consumption and the human interaction it replaces",
+       "confiscating the visible objects while leaving substance access and felt invisibility untouched"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "Mateo's excited reenactment of on-screen shootings",
+        "empty beer bottles within his reach",
+        "his stack of band magazines with violent album art",
+        "his remark that nobody at school even knows he exists"
+       ],
+       "baseline_check": "Mateo's baseline was an ordinary fifteen-year-old until this period; the deviation is the cluster of substance access, excitement about violence, and felt invisibility appearing together in one evening."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear",
+       "Goleman, D. (1995). Emotional Intelligence: Why It Can Matter More Than IQ. Bantam Books"
+      ],
      "stage_1_observation": "Watch the Ortega living room and catalogue the indicators visible in one evening: Mateo's excited reenactment of on-screen shootings, the empty beer bottles within his reach, his stack of violent album art, and his later remark to his uncle that nobody at school even knows he exists. Notice that Elena says nothing about the bottles and Rafael frames the reenactment as 'boys being boys.'",
      "stage_1_question": "Which combination of details is the strongest warning-sign cluster in this scene?",
      "stage_1_correct_answer": "The cluster of substance use (beer within reach), excited engagement with violence rather than ordinary viewing ('violence excited me' pattern), and the felt-invisibility statement are the documented PINs that matter; the album covers and video game are the camouflage that the Denial boss will point to as causes or as normal taste. De Becker's PIN list ranks alcohol and drugs near the top, a fascination with violence high, and chronic felt invisibility among the leading indicators for attention-getting acts, while Goleman's missing abilities and chronic anger mark the boy who needs help.",
@@ -5301,6 +5732,24 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "treating the presence of guards as proof that safety is being addressed",
+       "accepting the school's reassuring claim that the matter is handled without asking questions",
+       "fleeing or hiring a private guard instead of forcing the school's policy into the open"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "two guards with no written guidelines, post instructions, or training in sight",
+        "a student being escorted down the hall by another student",
+        "the district policy book that first mentions student danger near its end",
+        "the teacher's remark that Joey's file followed him from the other school"
+       ],
+       "baseline_check": "The school's baseline is a district that advertises 'Safety Comes First' but has no trained security plan, no published incident statistics, and a policy book that buries student safety until near its end."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ],
      "stage_1_observation": "Study the back-to-school-night scene: the two guards with no paperwork anywhere in sight, the principal's slideshow with no mention of background screening or incident statistics, the student-to-student escort in the hallway, and the district policy handbook resting on a table where a quick peek reveals the word 'students' first appears near the end of the book. Note also that Priya overhears a teacher say that Joey's file 'followed him' from the other school.",
      "stage_1_question": "Which detail is the most meaningful indicator that safety at this school is not actually being addressed?",
      "stage_1_correct_answer": "The guards' complete lack of training, written guidelines, post instructions, or briefing on student-safety topics, combined with the student escorting another student arrangement, is the meaningful indicator: it reproduces the Joey-case pattern where a trained human resource was never engaged, and an untrained presence 'can hurt more than help because everyone stops looking at safety and security.' The presence of guards alone is the comfort purchase de Becker diagnoses; the actual safety function requires supervision, information, and an intelligent plan, none of which is visible, while the policy book that buries student danger on page 91 confirms safety is not on the operational agenda.",
@@ -5701,7 +6150,24 @@
       "level": "Medium",
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
-     }
+     },
+      "distractor_error_types": [
+       "assuming a police caution or studio warning resolves the pursuit",
+       "treating detection without a coordinated action plan as sufficient",
+       "postponing precautions until the pursuer makes physical contact"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "the actress recognizing Janoff outside the theater",
+        "sightings of a man matching his description twice in one week",
+        "his history of pursuing a client of the office a year earlier"
+       ],
+       "baseline_check": "Janoff's baseline is a determined pursuer who ignored a police and studio warning and returned; the actress's baseline is an ordinary rehearsal routine of front entrance and no security, which the precautions were designed to change."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -5733,7 +6199,25 @@
       "level": "Medium",
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
-     }
+     },
+      "distractor_error_types": [
+       "presenting the capture as a victory over a powerful adversary and glamorizing the attacker",
+       "showing the arsenal and the touch-and-go struggle instead of the clothes hamper",
+       "using the attacker's full triple name and hero imagery that advertise the crime"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "Draft A's 'three .45-caliber handguns and more than two hundred rounds of ammunition'",
+        "Draft B's description of him hiding in the clothes hamper of a seedy hotel",
+        "the McVeigh motorcade staging and the Kaczynski 'genius' covers"
+       ],
+       "baseline_check": "The baseline for framing a capture is the pattern of past media coverage, McVeigh's helicopter armada and Kaczynski's 'genius' covers, against which the deflating presentation of a loser in the hamper must be compared."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear",
+       "MacDonald, A. (1911), criminologist; proposal to cease publishing criminals' names, cited in de Becker (1997)"
+      ]
     }
    ]
   },
@@ -6185,6 +6669,23 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "chasing the loudest leads and headlines instead of the evidence-backed prediction",
+       "abandoning parallel protection for other hypotheses once one prediction is committed",
+       "skipping routine procedure such as the warrant check in a boring circumstance"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "Risler's shrine-reading of the crib: a crucifix, three family photos face down, and a plaque of the Virgin Mary",
+        "Perry's death list with names in Texas, D.C., and Malibu",
+        "collect calls from the Malibu library and the hill shelter"
+       ],
+       "baseline_check": "Perry's baseline was a patient, accomplished survivalist who had visited Los Angeles several times; against that, the shrine at the murder scene and the paired Sodom-and-Gomorrah reading made a D.C. targeting prediction the strongest lead."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ],
      "boss_battle_explanation": "The central concept is prediction in manhunt management: a violent subject with known fixations can be located by reasoning about his targets and his patience, and a minority prediction defended by evidence can beat the loudest leads.",
      "stage_1_observation": "Eleven days into the hunt, evidence crowds the room: the death list with names in Texas, D.C., and Malibu; collect calls from the Malibu library; a hill shelter overlooking the client's route; and Risler's shrine-reading of the crib at the murder scene, where he concluded D.C. and Malibu were a 'Perry-esque Sodom and Gomorrah' and predicted the killer was traveling to kill Justice O'Connor. Meanwhile, USA TODAY headlines blare 'Mass Killer Still at Large' for someone else, and the client waits in a safe house.",
      "stage_1_question": "Where did the evidence point, and which prediction did the team commit to despite its distance from the most dramatic leads?",
@@ -6216,6 +6717,23 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "telling the client every case detail before she must act",
+       "relying on a static bodyguard presence against a documented, executed plan",
+       "entering the interview with a scripted agenda instead of listening through silences"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "the pad at the murder scene with the client's name left standing alone among the ten",
+        "Perry's documented survivalism, repeated visits, and missing rifle and handguns",
+        "his statement to a psychiatrist that the client was evil and should be killed"
+       ],
+       "baseline_check": "The client's baseline was a public figure living at her Malibu home under routine full-time protection; the deviation was Perry's narrowed, executed plan, which the team answered by changing her location, route, and information flow."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ],
      "boss_battle_explanation": "The central concept is protective calibration: matching the client's knowledge and movement to the assessed threat, escalating to evacuation only when the subject's plan and capability make fixed-site protection inadequate, and seizing the interview opportunity the instant it opens.",
      "stage_1_observation": "Two days into the case, the picture has sharpened: Perry is an accomplished survivalist who has visited Los Angeles several times; his parents were killed and a high-powered rifle and two handguns are missing; he told a psychiatrist the client was 'evil and should be killed'; and the pad found at the murder scene shows his list narrowed until the client's name alone remained among the ten. The client is at her Malibu home, ringed by a full PSD team, unaware of the case details — de Becker's policy is not to tell clients about a case unless there is something they must personally do.",
      "stage_1_question": "Why did de Becker — for the only time in his career — call the client to pack for a few days and personally drive her to a hotel, despite an existing team of full-time bodyguards?",
@@ -6744,6 +7262,24 @@
       "consensus": "Emerging",
       "basis": "Observational case-based expertise (de Becker violence-prevention practice); anecdotes rather than controlled studies."
      },
+      "distractor_error_types": [
+       "filing a stack of post-termination pre-incident indicators in the let-it-sit drawer",
+       "answering a closure-seeking letter as a kind gesture instead of contact-as-fuel",
+       "treating prediction as complete without preparation such as hardening, documentation, and a pre-planned police trigger"
+      ],
+      "cue_cluster": {
+       "supporting_cues": [
+        "twenty-three calls to his supervisor in six days",
+        "the voice message 'you'll regret this before the year is out'",
+        "the email calling the firing a vendetta",
+        "photographs of employees' cars taken from the parking lot"
+       ],
+       "baseline_check": "Raymond's baseline was a normal tenure with no threats or surveillance behavior before his termination; every indicator in the file is a post-termination deviation, which is what moves the case into the must-act drawer."
+      },
+      "evidence_class": "Observational–Tactical",
+      "key_sources": [
+       "de Becker (1997) The Gift of Fear"
+      ],
      "stage_1_observation": "A security consultant reviews the termination file of Raymond, 44, let go two weeks ago from a logistics firm. The record: twenty-three calls to his supervisor in six days; a voice message saying 'you'll regret this before the year is out'; an email calling the firing a vendetta; and a guard's report that Raymond visited the parking lot and photographed employees' cars. The file sits between the desk's two drawers - the must-do-something drawer and the let-it-sit drawer - while a calendar shows the company's open-door policy week begins Monday.",
      "stage_1_question": "Into which drawer does the Raymond file go, and why?",
      "stage_1_correct_answer": "The must-do-something drawer, without debate. The record is a textbook stack of pre-incident indicators - escalating contact after termination, a threat-tinged message, the vendetta belief, and surveillance of the premises - and prediction without preparation is just curiosity. The correct action is a prepared response: harden the venue, brief employees, preserve the messages and photographs, reassess before the open-door week, and pre-plan the escalation trigger that authorizes a police report. Anything else is denial wearing patience's clothes.",

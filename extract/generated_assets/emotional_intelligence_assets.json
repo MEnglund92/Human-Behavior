@@ -180,7 +180,25 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "treating the rampage as premeditated malice rather than an impulse burst",
+      "attributing the outburst to fixed bad character instead of the specific taunt",
+      "assuming punishment alone can supply the missing self-control"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Devon standing frozen with the paint can still in his fist",
+       "chest heaving long after the outburst",
+       "the three third-graders smirking at the fence who called him a 'baby'",
+       "a puddle of red spreading under the desks"
+      ],
+      "baseline_check": "Devon's baseline is a settled schoolyard dismissal; he stood frozen for almost a minute, breathing hard, so the paint can in his fist and the heaving chest mark a post-eruption impulse state rather than a continuing calculated attack."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Goleman (1995) Emotional Intelligence — the nine-year-old paint rampage news file"
+     ]
     },
     {
      "asset_type": "DECEPTION_AUDIT_FILE",
@@ -461,7 +479,25 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "treating the hand-on-the-gun moment as a rational choice rather than an automatic survival reflex",
+      "assuming more deliberation time alone would save the night without a concrete intervention",
+      "confusing the neural alarm with a decision reached after weighing evidence"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "noises from Matilda's bedroom at 1:00 a.m. despite the belief she is at a friend's house",
+       "Crabtree's hand already reaching for the pistol on the nightstand",
+       "fast breathing, wide pupils, and attention locked on the bedroom door"
+      ],
+      "baseline_check": "Crabtree returned home calm at 1:00 a.m. from visiting friends; the fast breathing, widened pupils, and fixation on the door are the deviation — the fear reaction is running before the rational mind has identified the sound."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Goleman (1995) Emotional Intelligence — the Crabtree case",
+      "LeDoux (1996) The Emotional Brain"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -494,7 +530,26 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "treating the brain as a management hierarchy with the newest layer in charge",
+      "assuming the three layers operate as separate departments with clean boundaries",
+      "confusing the limbic ring's emotional role with the neocortex's planning function"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "the brainstem console labeled 'Preprogrammed Regulators'",
+       "the limbic ring glowing around the brainstem like a bagel with a bite taken out",
+       "the neocortex blooming on top as the 'Seat of Thought'",
+       "the snake hissing in the corner of the display"
+      ],
+      "baseline_check": "The baseline is the chapter's evolutionary sequence — brainstem as preprogrammed regulator, limbic ring added next, neocortex last — and the correct mapping follows that lineage rather than crowning the newest layer as executive."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "MacLean (1990) The Triune Brain in Evolution",
+      "Goleman (1995) Emotional Intelligence"
+     ]
     },
     {
      "asset_type": "DECEPTION_AUDIT_FILE",
@@ -913,7 +968,26 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "attributing the violence to a premeditated plan rather than a panic-triggered hijack",
+      "treating the lethal outcome as proof of intent",
+      "confusing the amygdala's emergency alarm with a neocortical cost-benefit decision"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Robles's promise that this was his last burglary, for money for his girlfriend and daughter",
+       "his panic only when Wylie warned him she would remember his face",
+       "the freeze-frame of his expression changing — eyes widening, grip tightening",
+       "his later account: 'I just went bananas. My head just exploded.'"
+      ],
+      "baseline_check": "Robles entered intending theft with no plan for violence; the eyes-widening, grip-tightening freeze-frame and the 'went bananas' account are the deviation from that baseline — an amygdala panic swamping his rational brain."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Goleman (1995) Emotional Intelligence — the Robles reconstruction",
+      "LeDoux (1996) The Emotional Brain"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -945,7 +1019,26 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "assuming the leap out of bed required conscious recognition of the crash first",
+      "treating the fast and slow routes as equally weighted, simultaneous inputs",
+      "confusing the amygdala's response to raw fragments with a neocortical evaluation"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "the tall pile of boxes toppling with a crash in a dark 3 a.m. bedroom",
+       "the sleeper out of bed and out of the room in a second",
+       "the animated express bundle sprinting from the thalamus to the amygdala while the cortical route climbs slowly",
+       "peering back to find the ceiling intact and boxes on the floor"
+      ],
+      "baseline_check": "The baseline is a sleeping household at 3 a.m.; the leap from bed before the sound was even identified shows the amygdala acting on raw fragments while the neocortical route was still assembling the event."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "LeDoux (1996) The Emotional Brain",
+      "Goleman (1995) Emotional Intelligence"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -1412,7 +1505,26 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "treating Graham's detachment as professional neutrality rather than an emotional deficit",
+      "assuming high IQ guarantees workplace effectiveness",
+      "conflating being unexpressive with being composed"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Graham reading from the metrics sheet and never once looking up",
+       "cutting Priya off when she begins to explain the missed milestone caused by her mother's surgery",
+       "his expression not changing when her voice wavers",
+       "his only closing remark: 'The numbers will be better next quarter.'"
+      ],
+      "baseline_check": "Priya's baseline is a team lead reporting a quarter; Graham's expressionless, metric-only response to the human context is the deviation — the high-IQ pure profile, adept in the realm of mind but inept in the personal world."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Block (1995) ego-resilience comparison as reported in Goleman (1995) Emotional Intelligence",
+      "Gardner (1983) Frames of Mind"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -1444,7 +1556,25 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "overweighting IQ as the sole predictor of life success",
+      "assuming academic achievement translates into salary, productivity, and status",
+      "treating group averages as proof about any individual candidate"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "ninety-five Harvard men from the 1940s classes followed into middle age",
+       "450 Somerville boys, two thirds from welfare families, a third with IQs below 90, followed to age forty-seven",
+       "eighty-one Illinois valedictorians and salutatorians tracked for ten years"
+      ],
+      "baseline_check": "The baseline is the panel's assumption that the finest minds of their class should end up on top; the follow-ups' middling outcomes for the highest scorers are the deviation that defeats the single-score ranking."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Vaillant (1977) Adaptation to Life — Harvard men study",
+      "Snarey & Vaillant (1985) Somerville follow-up; Arnold (1995) valedictorian study"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -1824,6 +1954,23 @@
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
      },
+     "distractor_error_types": [
+      "interpreting Elliot's indecision as unmotivated or lazy",
+      "treating his flatness as emotional suppression or denial",
+      "confusing intact reasoning with intact decision-making capacity"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "three arguments for and three against each proposed appointment time",
+       "his face showing no sign of preference for either time",
+       "his flat voice recounting his own ruin — jobs lost, wife gone, savings squandered"
+      ],
+      "baseline_check": "Elliot's baseline is high intelligence with intact reasoning; the absence of any somatic signal — no preference, no emotional register even when narrating his losses — is the deviation that marks the severed emotion–reason link."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Damasio (1994) Descartes' Error"
+     ],
      "boss_battle_explanation": "The central concept is the somatic marker: a limbic-driven gut feeling that tags options as dangerous or promising, paring an endless array of choices down to a manageable decision matrix. Elliot lost access to these markers, and so lost the ability to assign value to any option — the book's demonstration that reason without feeling is blind.",
      "stage_1_observation": "Study the consultation. Damasio proposes 'Tuesday at 10 AM.' Elliot immediately produces three arguments for the time, then three against it, then asks for alternatives. Damasio proposes Wednesday at 3 PM; Elliot does the same. His face shows no sign of preference for either. Note also that when Elliot narrates his own ruin — the legal jobs lost, his wife leaving, his savings squandered — his voice is as flat as when he discussed the weather.",
      "stage_1_question": "What is the most accurate diagnosis of Elliot's inability to choose an appointment time?",
@@ -1857,6 +2004,25 @@
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
      },
+     "distractor_error_types": [
+      "interpreting Gary's blankness as withholding or defensiveness",
+      "treating the flat answers as a lack of love for Ellen",
+      "confusing his animation about the surgical technique with emotional engagement"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "his answer: 'I have no strong feelings, either positive or negative'",
+       "becoming animated only when discussing the new surgical technique",
+       "short, flat, factual answers to feeling questions",
+       "his reported palpitations, sweating, and 'butterflies in the stomach'"
+      ],
+      "baseline_check": "Gary's baseline is a composed, successful surgeon who answers factually; the absence of felt emotion where feeling is expected — including body signals he cannot name — marks alexithymia rather than a defense."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Sifneos (1973) 'The prevalence of alexithymic characteristics in psychosomatic patients'",
+      "Goleman (1995) Emotional Intelligence"
+     ],
      "boss_battle_explanation": "The central concept is alexithymia, the lack of words for feelings: such people are not without emotion so much as without access to it — they cannot describe, discriminate, or name what they feel, and their emotional distress shows up as vague physical symptoms. The battle's test is distinguishing this condition from deliberate coldness and from psychosomatic disease.",
      "stage_1_observation": "Observe the session. Ellen recounts telling Gary she loved him and receiving a polite, informative reply. When the therapist asks Gary how he felt during her declaration, he says he doesn't know what to talk about. He speaks at length about a new surgical technique, becoming animated for the first time, then falls silent again when asked about his wedding plans. His answers to feeling-questions are short, flat, and factual, with no anger, defensiveness, or visible discomfort.",
      "stage_1_question": "What is the best explanation for Gary's silence about his own feelings?",
@@ -2225,7 +2391,26 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "treating the backpack elbow as the sole cause rather than the last straw in a cascade",
+      "assuming arousal from earlier provocations dissipates instantly",
+      "confusing anger with a purely cognitive interpretation of the event"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "the spilled coffee as stress event one",
+       "the missed train as stress event two",
+       "the crowd shove as stress event three",
+       "shallow breathing and fingers curling around the railing before the backpack elbow"
+      ],
+      "baseline_check": "Marcus boarded the platform as an ordinary commuter; the three stacked provocations left his arousal elevated — shallow breathing, white-knuckle grip, muttering — so the elbow triggered an explosion far larger than the same bump would have caused at 7:00 a.m."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Zillmann (1983) excitation-transfer research on anger escalation",
+      "Goleman (1995) Emotional Intelligence"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -2257,7 +2442,26 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "believing that expressing anger releases pressure rather than fueling it",
+      "treating venting to a sympathetic listener as catharsis",
+      "confusing feeling better temporarily with reduced physiological arousal"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Dana re-enacting the customer's shouting and slapping her desk at the punchline",
+       "her voice jumping a full octave when the neighbor jokes 'He got you good'",
+       "her plan to 'call him right back and give him a piece of my mind'",
+       "her venting by minute nine louder than the customer's original tirade"
+      ],
+      "baseline_check": "Dana began as a frustrated adjuster after one shouting match; each retelling raised her arousal — flushed face, fast breathing, octave jump — so her 'relief' venting was pumping up the anger rather than draining it."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Tice & Baumeister (1993) 'Controlling anger: self-induced emotion change'",
+      "Goleman (1995) Emotional Intelligence"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -2716,6 +2920,24 @@
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
      },
+     "distractor_error_types": [
+      "assuming willpower alone, without strategy, predicts delay",
+      "treating the child who stares at the reward as equally likely to wait",
+      "confusing temporary resistance with the learned distraction repertoire"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "the girl covering her eyes with both hands and humming a tune, wiggling her feet",
+       "the boy staring fixedly at the marshmallow and popping it into his mouth within eight seconds",
+       "the third child turning her chair to the wall and counting aloud while tapping a rhythm"
+      ],
+      "baseline_check": "All three children began the same waiting condition after the experimenter left; the girl's and the counter's attention-redirection is the deviation from the stare-and-grab pattern that predicts the two-marshmallow reward."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Mischel, Shoda & Rodriguez (1989) 'Delay of gratification in children', Science",
+      "Goleman (1995) Emotional Intelligence"
+     ],
      "boss_battle_explanation": "The marshmallow test measures 'goal-directed self-imposed delay of gratification,' which Goleman calls the essence of emotional self-regulation. Performance on this one moment of impulse control at age four predicted adolescent social competence and a 210-point SAT advantage, with delay at four twice as powerful a predictor of SAT scores as IQ at four.",
      "stage_1_observation": "As the experimenter leaves on his 'errand,' watch the children: one girl immediately covers her eyes with both hands, then rests her head on her arms and begins humming a tune, wiggling her feet. A second boy stares fixedly at the single white marshmallow on the napkin, leans closer, and within eight seconds reaches out and pops it into his mouth. A third child turns her chair to face the wall and starts counting aloud to herself while tapping a rhythm with her fingertips.",
      "stage_1_question": "Which child's behavior signals the self-regulatory pattern that predicts the two-marshmallow reward and the later SAT and social-competence advantages?",
@@ -2750,6 +2972,25 @@
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
      },
+     "distractor_error_types": [
+      "assuming more motivation always improves performance",
+      "treating high anxiety as proof of diligence",
+      "confusing low anxiety with calm competence"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Daphne's untouched slides and shrug — 'the numbers sell themselves'",
+       "Calvin's six contradictory memorized versions of his opening line",
+       "Calvin sweating through his shirt and muttering 'they're going to tear me apart'",
+       "both equally skilled analysts with materially similar decks"
+      ],
+      "baseline_check": "Both presenters are equally strong analysts, so the baseline is symmetric; Daphne's apathy sits below the optimal arousal point and Calvin's runaway rehearsal above it — each a distinct failure mode on the inverted U."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Yerkes & Dodson (1908) 'The relation of strength of stimulus to rapidity of habit-formation'",
+      "Goleman (1995) Emotional Intelligence"
+     ],
      "boss_battle_explanation": "The upside-down U describes how anxiety relates to performance: at the peak, a modicum of anxiety propels outstanding achievement; on the low side, apathy starves motivation; on the high side, anxiety sabotages the attempt. The battle is won by reading which side a performer is on and recalibrating toward the peak.",
      "stage_1_observation": "Two hours before the quarterly investor presentation, observe both presenters. Daphne has prepared nothing since yesterday, joking that the numbers 'sell themselves'; she greets the boardroom with a shrug and does not open her notes. Calvin has rehearsed to the point of repetition sickness - his first slide is committed to memory in six contradictory versions, he cannot choose one, and he paces with a furrowed brow, muttering 'they're going to tear me apart.' Both are equally skilled analysts with materially similar decks from prior quarters.",
      "stage_1_question": "Where does each presenter sit on the inverted U, and what is the specific failure mode of each position?",
@@ -3236,7 +3477,25 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "reading the averted-then-locked gaze as shyness rather than suppressed fury",
+      "assuming a single muscle signal suffices without the full cluster",
+      "confusing the face-only channel reading with body or voice reading"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "her jaw tightening",
+       "her eyes narrowing to slits",
+       "her lips pressing into a thin line",
+       "her gaze cutting away sharply before snapping back forward"
+      ],
+      "baseline_check": "The scene is a face-only clip with the audio muffled and body hidden, so the baseline is a neutral face; the tight jaw, slit eyes, pressed lips, and averted-then-locked gaze are the channel-specific signatures of jealous rage."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Rosenthal, Hall, DiMatteo, Rogers & Archer (1979) Sensitivity to Nonverbal Communication: The PONS Test"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -3267,7 +3526,25 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "attributing Tanya's accuracy to logic or verbal cues alone",
+      "treating emotion reading as a purely cognitive skill",
+      "assuming reading accuracy requires shared content knowledge rather than bodily linkage"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Tanya's heart-rate and skin-conductance trace dipping and rising a fraction of a second after Ben's",
+       "Ben's heart rate dropping and palms sweating more heavily in the target section",
+       "Tanya watching the playback a second time trying to read Ben's feelings"
+      ],
+      "baseline_check": "Tanya's baseline is her own physiology during the playback; the near-perfect copying of Ben's trace — the dip and rise a beat later — is the deviation that marks the synchrony enabling her accurate read."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Levenson & Gottman (1983) 'Marital interaction: physiological linkage and affective exchange'",
+      "Goleman (1995) Emotional Intelligence"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -3744,6 +4021,25 @@
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
      },
+     "distractor_error_types": [
+      "confusing social adaptability with genuine empathy",
+      "treating mirroring as evidence of rapport",
+      "assuming versatility of persona implies stable self-knowledge"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Cora's eyes flicking to each person's face before she answers, as if waiting for a cue",
+       "the bright EBITDA babble with the finance director versus the quiet technical tone with the tech founder",
+       "the solicitous, parental warmth toward the nervous intern",
+       "no close relationship lasting longer than a year since college"
+      ],
+      "baseline_check": "Cora's baseline is a competent 40-year-old consultant; the persona changes keyed to each audience's expectations, alongside the absence of stable close relationships, mark the chameleon pattern rather than versatile networking."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Snyder (1987) Public Appearances, Private Realities",
+      "Goleman (1995) Emotional Intelligence"
+     ],
      "boss_battle_explanation": "This battle tests the social chameleon versus emotional integrity. Snyder's research describes people who win admiration by reshaping themselves to each audience, scanning for hints before responding and shifting personas like Zelig, while paying for it with hollow relationships. The mastery move is the opposite skill: acting in accord with one's deepest feelings, even when it provokes a confrontation the chameleon could never attempt.",
      "stage_1_observation": "From across the terrace, Marie watches Cora in three consecutive conversations. With the finance director she babbles about EBITDA in a bright voice and mirrors his hand gestures; with the tech founder she goes quiet, technical, and serious; with the nervous intern she becomes solicitous and parental. Before each answer, Marie notices, Cora's eyes flick to the other person's face, as if waiting for a cue. Later, Marie remembers that Cora is 40, brilliant at her job, and has not had a close relationship last longer than a year since college.",
      "stage_1_question": "Which single pattern marks Cora as a social chameleon rather than a merely versatile networker?",
@@ -3778,6 +4074,25 @@
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
      },
+     "distractor_error_types": [
+      "assuming mood only transfers through speech",
+      "treating the passive partner's calm face as immunity to contagion",
+      "confusing two minutes of silence with an absence of influence"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Nadia's relaxed, faintly amused face with her fingers tapping a gentle rhythm on her knee",
+       "Priya's motionless mask and folded hands",
+       "the two minutes of silence with neither speaking nor looking at the other",
+       "the second mood checklist filled out when the experimenter returns"
+      ],
+      "baseline_check": "Both volunteers began the silent period as neutral; the expressive partner's subtle motor signals are the baseline departure point, and the passive partner's second checklist picking up the transferred mood is the deviation."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Hatfield, Cacioppo & Rapson (1994) Emotional Contagion",
+      "Goleman (1995) Emotional Intelligence"
+     ],
      "boss_battle_explanation": "This battle tests emotional contagion and entrainment. The book's waiting-room experiment shows moods transfer from the more expressive partner to the passive one through unconscious motor mimicry, and Cacioppo's work shows that mood synchrony determines whether an interaction feels good or bad. The application is leadership: the person who most forcefully expresses a mood sets the tone for everyone else, like a zeitgeber entraining a rhythm.",
      "stage_1_observation": "Two minutes of silence passes. Nadia, the expressive volunteer, sits with a relaxed, faintly amused face, her fingers tapping a gentle rhythm on her knee. Priya, the deadpan volunteer, sits motionless, her face neutral, her hands folded. Neither speaks or looks at the other. When the experimenter returns, both fill out the mood checklist a second time.",
      "stage_1_question": "Whose mood will the second checklists show was transferred, and in which direction?",
@@ -4246,6 +4561,25 @@
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
      },
+     "distractor_error_types": [
+      "treating silence as agreement when the body is flooded",
+      "assuming a five-minute pause is long enough for physiological recovery",
+      "confusing the speaker's good intentions with the listener's capacity to hear"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Omar's heart-rate trace climbing from a calm 80 to 98 within nine seconds",
+       "his shoulders rising and his breathing turning shallow",
+       "his eyes fixing on the door with his face a mask of intent blankness",
+       "the 'FLOOD RISK: HIGH' readout on the wall display"
+      ],
+      "baseline_check": "Omar's baseline heart rate held near a calm 80; the eighteen-beat climb in seconds, the shallow breathing, and the door-fixed blankness are the deviation — adrenaline has flooded him before he has said a single word."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Gottman (1994) Why Marriages Succeed or Fail",
+      "Levenson & Gottman (1985) research on marital flooding"
+     ],
      "boss_battle_explanation": "Flooding is the state in which a spouse becomes so overwhelmed by the partner's negativity and their own reaction to it that they are swamped by out-of-control feelings, unable to hear without distortion or take the other's viewpoint. It is defined physiologically: heart rate climbs past ten beats above resting, adrenaline and stress hormones pump, and recovery is slow, making flooding a self-perpetuating hijack that feeds on hypervigilant misreadings of the partner's every move.",
      "stage_1_observation": "In the Gottman-style lab, Sandrine and Omar, married fourteen years, are discussing Omar's mother's upcoming visit. The wall display shows Omar's heartbeat holding near a calm 80. Sandrine leans forward and says, 'Honey, we've got to talk about the guest room.' Within nine seconds Omar's heart-rate trace climbs to 98, his shoulders rise, his breathing turns shallow, and his eyes fix on the door. On the couch he has already stopped hearing the words; his face is a mask of intent blankness.",
      "stage_1_question": "What does the physiological readout indicate about Omar at this moment, before he has said a single word?",
@@ -4278,6 +4612,25 @@
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
      },
+     "distractor_error_types": [
+      "treating the words rather than the microexpression as the key danger signal",
+      "confusing contempt with a legitimate specific complaint",
+      "assuming the target's heart-rate jump is coincidence"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Miriam's left mouth corner pulling sideways in the dimpler contraction",
+       "her eyes rolling upward for just over a second",
+       "Raj's heart rate jumping two beats and his jaw tightening",
+       "the sarcastic framing 'your brakes, your family, your way'"
+      ],
+      "baseline_check": "Raj's baseline is a calm explanation of the brake quote; Miriam's contempt microexpression and Raj's two-beat heart-rate jump are the deviation — the habitual contempt signature that predicts stonewalling and divorce."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Ekman & Friesen (1986) 'A new pan-cultural facial expression of emotion'",
+      "Gottman (1994) Why Marriages Succeed or Fail"
+     ],
      "boss_battle_explanation": "Contempt is anger's most destructive companion: it comes easily with anger and is expressed through mockery, insult, the sneer or curled lip of disgust, and the dimpler-contraction eye roll. It works as a hidden conversation — the receiver's heart jumps two or three beats per flash — and, when habitual, it is a risk factor for the marriage and even for the wife's health, mounting on the road to divorce alongside criticism, defensiveness, and stonewalling.",
      "stage_1_observation": "Miriam and Raj are discussing the repair estimate for their car. Raj calmly explains the brake quote. Miriam's face flashes: her left mouth corner pulls sideways and her eyes roll upward for just over a second, and she says, 'Oh, of course — your brakes, your family, your way. The quote is wrong, obviously.' On the sensor panel, Raj's heart rate jumps two beats and his jaw tightens. Miriam's mouth corner twitches again as she waits for his answer.",
      "stage_1_question": "Which element of this exchange is the most reliable danger signal?",
@@ -4733,6 +5086,24 @@
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
      },
+     "distractor_error_types": [
+      "assuming empathy and hard decisions are mutually exclusive",
+      "treating the doctrine's confidence as evidence it is effective",
+      "confusing the team's visible deflation with an acceptable cost of discipline"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Victor lecturing that 'I cannot afford empathy, and neither should you'",
+       "the team slumping in their chairs after the proposal was demolished",
+       "the rising star visibly rolling her eyes and disengaging",
+       "the exchanged glance of resignation between two employees"
+      ],
+      "baseline_check": "The team's baseline was a working team presenting a proposal; the deflation, the eye-roll, and the resignation glance after Victor's speech are the deviations that track the doctrine's real cost to the organization."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Goleman (1998) Working with Emotional Intelligence — study of executives on empathy and compassion at work"
+     ],
      "boss_battle_explanation": "The central concept is that emotional aloofness is an outmoded management doctrine: the 1970s study of 250 executives captured the widespread fear that empathy conflicts with organizational goals, but the chapter argues that this 'heads but not hearts' attitude is a luxury of a former day, and that the jungle-fighter boss is being replaced by the virtuoso in interpersonal skills.",
      "stage_1_observation": "Victor Hale has just demolished the junior manager's proposal in front of her team and is now lecturing: 'Business runs on hard numbers, not feelings. I cannot afford empathy, and neither should you.' Watch the room: the team is deflated, the rising star is already disengaging, and two employees exchange a glance that reads as resignation. Notice the emotional climate Victor's doctrine creates and what it predicts for the bottom line.",
      "stage_1_question": "According to the chapter, what does the study of 250 executives reveal about the cost of the 'heads but not hearts' attitude that Victor is preaching?",
@@ -4763,6 +5134,25 @@
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
      },
+     "distractor_error_types": [
+      "treating blunt, personalized criticism as honesty",
+      "confusing the critique's accuracy with its effect on the recipient",
+      "assuming a sarcastic attack contains a path to correction"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Diane slamming her palm and telling Carlos the specs 'have no chance of getting past my desk'",
+       "Carlos frozen and silent as the meeting breaks up in bitterness",
+       "Carlos's two dispirited weeks convinced he will never get another important assignment",
+       "the fact that the vice president actually thought the plan was promising"
+      ],
+      "baseline_check": "The room's baseline was a normal product review; Carlos's freeze, the hostile muttering, and the weeks of dispirited silence are the deviations — consequences of an attack that gave no chance to respond and no path forward."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Goleman (1998) Working with Emotional Intelligence — the artful critique model",
+      "Goleman (1995) Emotional Intelligence"
+     ],
      "boss_battle_explanation": "The central concept is the artful critique: criticism is one of the most important and most dreaded tasks a manager has, and how it is delivered determines whether employees gain hope and a plan or lose motivation and confidence. The sarcastic vice president's attack is the chapter's prime example of destructive criticism, and the chapter supplies the exact artful alternative.",
      "stage_1_observation": "Diane Whitmore has just told engineer Carlos that his specifications are ridiculous and have no chance of getting past her desk, then walked out, leaving the meeting to break up in bitterness. Watch what happens in the room and over the following weeks: Carlos sits glum and silent, his team makes hostile remarks, and Carlos will spend two weeks dispirited, convinced he will never get another important assignment - even though the vice president actually thought the plan was promising.",
      "stage_1_question": "Why is the vice president's criticism so damaging, according to the chapter's analysis?",
@@ -5250,7 +5640,26 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "dismissing correlational evidence as inherently meaningless",
+      "treating the doubled-disease-risk finding as a claim about individuals",
+      "confusing the meta-analysis with single anecdotal reports"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "the folded meta-analysis of 101 studies of several thousand men and women",
+       "the Cohen colds protocol in the evidence table",
+       "the McEwen review and the 1987 Science isolation report",
+       "Dr. Vance calling the field 'a pile of anecdotes'"
+      ],
+      "baseline_check": "Vance's baseline stance is dismissal of the field as anecdote; the rigor markers — controlled viral exposure, stress measured before illness, the landmark colds experiment — are the deviations that answer his 'correlational mush' challenge."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Friedman & Booth-Kewley (1987) 'The disease-prone personality'",
+      "Cohen, Tyrrell & Smith (1991) 'Psychological stress and susceptibility to the common cold', NEJM"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -5283,7 +5692,26 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "confusing occasional anger with chronic hostility",
+      "treating the patient's survival narrative as evidence the temper is adaptive",
+      "assuming validating the grievance is the treatment"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Vernon pressing the elevator button three times and waiting five minutes",
+       "his threat to 'tear the building manager a new one'",
+       "his claim that his temper 'kept my crew honest for thirty years'",
+       "his mentally composing a complaint letter about the elevator right now in the session"
+      ],
+      "baseline_check": "Vernon's baseline is a sixty-one-year-old foreman; reading a rainy-Tuesday elevator delay as a personal assault, and composing the complaint letter during the session, show the cynical appraisal habit the program targets."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Williams & Williams (1993) Anger Kills",
+      "Barefoot et al. (1983) 'Hostility, CHD incidence, and total mortality'"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -5658,7 +6086,26 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "treating the playful detour as failure rather than confident exploration",
+      "reading the dropped block as carelessness instead of a bid for attention",
+      "confusing a child's initial distraction with a hopeless outlook"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Mia mouthing the block and rubbing it in her hair before attempting the task",
+       "her watching her father to see whether he will retrieve the dropped block",
+       "her bright-eyed look of expectancy when he does",
+       "her completing the task once the block returns"
+      ],
+      "baseline_check": "Mia's baseline is an eight-month-old at a new task; her playful detour, her expectant look to her father, and her eventual completion mark a hopeful orientation — she expects to succeed and to be noticed."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Brazelton (1973) Infants and Mothers",
+      "Goleman (1995) Emotional Intelligence"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -5690,7 +6137,26 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "treating the punishment as a response to the child's act rather than the parent's mood",
+      "assuming harshness itself, not inconsistency, schools aggression",
+      "confusing the father's 'turned out fine' claim with evidence the pattern is harmless"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "the same mayhem — a knocked-over block tower — earning a shrug minutes earlier",
+       "Dario's jaw tightening after reading the text denying his overtime",
+       "Tomas dropping a spoon and looking up, already bracing, before the slap",
+       "Dario ignoring Tomas for the rest of the visit even as the boy rebuilds the tower and looks his way"
+      ],
+      "baseline_check": "Dario's baseline was permissive tolerance of mayhem all morning while in a good mood; the shift after the denied-overtime text — punishing the same class of behavior that was just ignored — is the capricious pattern that schools aggression."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Patterson (1982) Coercive Family Process",
+      "Goleman (1995) Emotional Intelligence"
+     ]
     },
     {
      "asset_type": "DECEPTION_AUDIT_FILE",
@@ -5878,6 +6344,25 @@
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
      },
+     "distractor_error_types": [
+      "treating the freeze as ordinary caution after a loud noise",
+      "assuming recovery should be immediate once the siren fades",
+      "confusing the reminder-triggered alarm with ongoing danger"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "the entire playground halting when the ambulance siren rises",
+       "one first grader remaining glued to the steps after the siren fades",
+       "two girls refusing to leave the doorway for the rest of recess",
+       "the teacher reporting this happens every time a siren passes since the shooting"
+      ],
+      "baseline_check": "The playground's baseline is ordinary recess play; the synchronized halt at a sound matching the shooting's sirens, and the children who stay frozen after it fades, are the deviations — the overaroused amygdala treating a reminder as an emergency."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Pynoos & Eth (1985) studies of children after the sniper attack",
+      "Goleman (1995) Emotional Intelligence"
+     ],
      "boss_battle_explanation": "The overaroused amygdala turns traumatic memories into mental hair triggers: reminders of the trauma are treated as emergencies, so the school freezes at every siren. The battle is won by recognizing the trigger mechanism and then pairing the trigger with calm instead of alarm.",
      "stage_1_observation": "The ambulance siren fades as it passes the rest home, and the children slowly relax - but one first grader remains glued to the steps, and two girls refuse to leave the doorway for the rest of recess. A teacher reports that this has happened every time a siren passes since the shooting.",
      "stage_1_question": "Why does a passing ambulance siren freeze the entire playground, and why do some children stay frozen long after the sound fades?",
@@ -6003,6 +6488,25 @@
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
      },
+     "distractor_error_types": [
+      "treating the re-enactment as macabre or pathological",
+      "assuming banning the game protects the children",
+      "confusing the girl at the edge's partial replay with being unaffected"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "the same scene replayed several times across the recess",
+       "children falling and some 'dying' before the invented ending",
+       "the triumphant 'killing' of Purdy in roughly every third round with cheering",
+       "the quiet girl replaying only the falling part at the edge, never joining the victory rounds"
+      ],
+      "baseline_check": "The children's baseline is ordinary playground play; the endless repetition of the trauma with an invented mastery ending is the deviation that shows the memory being reworked in a low-anxiety context."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Terr (1990) Too Scared to Cry",
+      "Goleman (1995) Emotional Intelligence"
+     ],
      "boss_battle_explanation": "Children reenact overwhelming trauma in play to desensitize the memory in a safe context and to rewrite its ending, restoring mastery. The battle is won by recognizing this mechanism and protecting the play rather than banning it.",
      "stage_1_observation": "Watching the full recess, you see the same scene replayed several times: children fall, some 'die,' and in roughly every third round the children triumphantly 'kill' Purdy, cheering. One quiet girl plays the whole recess at the edge, re-enacting the falling children without ever joining the victory rounds.",
      "stage_1_question": "Why do these children keep replaying the shooting scene, and why does the girl at the edge repeat only the falling part?",
@@ -6629,7 +7133,26 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "treating Milo's clinging as ordinary toddler shyness",
+      "assuming protective sheltering reduces fearfulness",
+      "confusing the heart-rate spike with a response to real danger"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Milo hanging back and clinging to his mother while Sasha plays with blocks beside a peer",
+       "his heart-rate trace jumping sharply when the stranger enters",
+       "his pupils dilating and pressing into his mother's legs",
+       "Sasha's trace barely moving as she looks up at the visitor"
+      ],
+      "baseline_check": "Milo's baseline in free play is watchful clinging; the sharp sympathetic jump to a merely novel person — racing heart and dilated pupils where Sasha shows none — marks the behaviorally inhibited temperamental circuit."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Kagan, Reznick & Snidman (1988) 'Biological bases of childhood shyness', Science",
+      "Kagan (1994) Galen's Prophecy"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -6661,7 +7184,26 @@
       "level": "Medium",
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
-     }
+     },
+     "distractor_error_types": [
+      "assuming both brain halves process all emotions equally",
+      "treating the film reactions as caused by the clips alone without the frontal profile",
+      "confusing dominance of frontal activity with the strength of the feeling"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Imani's right frontal areas lighting up bright red during the surgery clip",
+       "Rose's left frontal areas glowing while she watches calmly",
+       "Imani gripping the armrest and wincing while Rose watches calmly",
+       "Imani barely smiling at the puppy clip while Rose beams with delight"
+      ],
+      "baseline_check": "Both volunteers watched the same clips; the consistent split — right-frontal dominance tracking with the somber, fear-reactive register and left-frontal with the positive register — is the pattern Davidson's data established."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Davidson & Fox (1989) 'Frontal brain asymmetry predicts infants' response to maternal separation'",
+      "Davidson (1992) emotion and affective style research program"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -7132,6 +7674,25 @@
       "consensus": "Contested",
       "basis": "Popular synthesis of affective research; EI construct scope and measurement debated."
      },
+     "distractor_error_types": [
+      "treating the accusation as evidence of actual cheating",
+      "assuming the aggressive boy's perception matches the neutral facts",
+      "confusing the immediate body cues with the later decision to act"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Marcus knocking a checker out of turn while reaching for a snack",
+       "Andre's face hardening and the board knocked over",
+       "his accusation of cheating and insistence that 'He did it to mess with me'",
+       "the transcript refusing the teacher's innocent-mistake possibility"
+      ],
+      "baseline_check": "The neutral baseline is an out-of-turn checker move caused by reaching for a snack; Andre's leap to 'he did it to mess with me' — malevolence presumed without checking — is the knee-jerk hostility percept of aggressive boys."
+     },
+     "evidence_class": "Observational–Tactical",
+     "key_sources": [
+      "Dodge (1980) 'Social cognition and children's aggressive behavior'",
+      "Lochman & Dodge (1994) attribution retraining for aggressive boys"
+     ],
      "boss_battle_explanation": "The central concept is the hostile-attribution bias: aggressive children presume malevolence rather than innocence, misread neutral acts such as an out-of-turn move or an innocent bump as intentional threats, and react with automatic aggression, a perceptual flaw that anger-control training can retrain.",
      "stage_1_observation": "You replay the checkers scene: Marcus moves a checker out of turn while reaching for a snack, and Andre knocks the board over and accuses him of cheating. The teacher asks Andre whether Marcus might have made an innocent mistake, and Andre refuses the possibility, insisting Marcus did it to mess with him. You freeze the frame on Andre's face and the transcript of his accusation.",
      "stage_1_question": "According to the book's research on aggressive boys, what perception best explains Andre's reaction to the out-of-turn move?",

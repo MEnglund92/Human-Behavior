@@ -44,6 +44,7 @@ REQUIRED = [
 VALID_DIFFICULTY = {"Beginner", "Intermediate", "Advanced"}
 VALID_LEVEL = {"High", "Medium", "Low"}
 VALID_CONSENSUS = {"Broad", "Emerging", "Contested"}
+VALID_EVIDENCE = {"Empirical", "Observational–Tactical", "Contested/Low"}
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ASSETS_DIR = os.path.join(HERE, "..", "generated_assets")
@@ -107,6 +108,27 @@ def validate_file(path):
             kc = a.get("key_concepts")
             if isinstance(kc, list) and not (8 <= len(kc) <= 12):
                 warnings.append(f"{path}: chapter {cid} key_concepts has {len(kc)} items (want 8-12)")
+            cc = a.get("cue_cluster")
+            if cc is not None:
+                if not isinstance(cc, dict):
+                    errors.append(f"{path}: chapter {cid} cue_cluster must be an object")
+                else:
+                    sc = cc.get("supporting_cues")
+                    if not isinstance(sc, list) or len(sc) < 2:
+                        errors.append(f"{path}: chapter {cid} cue_cluster.supporting_cues must be a list of 2+ cues")
+                    bc = cc.get("baseline_check")
+                    if not isinstance(bc, str) or len(bc) < 10:
+                        errors.append(f"{path}: chapter {cid} cue_cluster.baseline_check must be a descriptive string")
+            det = a.get("distractor_error_types")
+            if det is not None:
+                if not isinstance(det, list) or not det or not all(isinstance(x, str) and len(x) > 3 for x in det):
+                    errors.append(f"{path}: chapter {cid} distractor_error_types must be a non-empty list of strings")
+            ec = a.get("evidence_class")
+            if ec is not None and ec not in VALID_EVIDENCE:
+                errors.append(f"{path}: chapter {cid} invalid evidence_class {ec!r}")
+            ks = a.get("key_sources")
+            if ks is not None and (not isinstance(ks, list) or not ks or not all(isinstance(x, str) for x in ks)):
+                errors.append(f"{path}: chapter {cid} key_sources must be a non-empty list of strings")
     return errors, n_assets, warnings
 
 

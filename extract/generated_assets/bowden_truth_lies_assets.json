@@ -1877,7 +1877,25 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "treating a single gesture as a fixed code with one universal meaning",
+      "confusing curated online poses with spontaneous live behavior",
+      "interpreting the other person's behavior as being about you (egocentric bias)"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "crossed arms in a cold room",
+       "nose touch during a stressful meeting",
+       "a filtered or posed selfie presented as candid"
+      ],
+      "baseline_check": "The subject's baseline is their typical posture and gesture habits in comfortable, low-stakes moments; the same gesture must be compared against the physical, digital, and social context, not against a fixed dictionary."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking",
+      "Vrij (2008) Detecting Lies and Deceit: The Psychology of Lying and the Implications for Professional Practice"
+     ]
     },
     {
      "asset_type": "DYNAMIC_DIALOGUE_SIM",
@@ -1969,7 +1987,25 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "publicly accusing someone of lying on the strength of a single gesture",
+      "treating a listicle rule as proof rather than a hypothesis to test",
+      "reaching a verdict without observing a cluster of cues against a baseline"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "the accused person's nose touch while telling their story",
+       "crossed arms and a backward lean at the party",
+       "the friend citing the listicle's single-rule verdict"
+      ],
+      "baseline_check": "The friend's baseline is their normal casual behavior at parties; a single nose touch must be compared with their typical mannerisms and the room's physical context before any verdict is offered."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking",
+      "Vrij (2008) Detecting Lies and Deceit: The Psychology of Lying and the Implications for Professional Practice"
+     ]
     }
    ]
   },
@@ -1999,7 +2035,24 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "labeling any expansion as dominance without identifying the power source being claimed",
+      "confusing a response to power (submission) with a power display",
+      "ignoring that the same gesture flips meaning depending on who holds the context's power"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "chest expansion and chin raised in a boardroom",
+       "head lowered with gaze down after being challenged",
+       "a head tilt exposing the neck during negotiation"
+      ],
+      "baseline_check": "The subject's baseline is their relaxed posture during routine conversation; power displays are read as deviations that expand or compress the body relative to that baseline."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     },
     {
      "asset_type": "DYNAMIC_DIALOGUE_SIM",
@@ -2091,7 +2144,24 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "responding to dominance with collapse, which invites more dominance",
+      "escalating the conflict by matching aggression with aggression",
+      "reading a single power move instead of the manager's overall campaign pattern"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "manager invading your desk space",
+       "manager standing while you sit",
+       "manager talking over you in conversation"
+      ],
+      "baseline_check": "Your baseline is your normal working posture and voice when unpressured; the manager's moves are measured against your own calm, spacious baseline to see how much status you silently give away."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     }
    ]
   },
@@ -2243,7 +2313,24 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "skipping the description step and jumping straight to a label",
+      "ignoring context types such as physical, psychological, digital, and social",
+      "forming a new judgment without designing a test for it"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "a knee-jerk label like 'he's defensive'",
+       "a gesture viewed without its physical or social setting",
+       "a conclusion reached with no 'what else?' alternatives generated"
+      ],
+      "baseline_check": "The subject's baseline is their typical behavior in ordinary situations, established before the moment in question, so any change can be compared against how they usually act."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     },
     {
      "asset_type": "DYNAMIC_DIALOGUE_SIM",
@@ -2335,7 +2422,24 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "labeling the behavior 'dawdling' instead of describing what is actually seen",
+      "punishing before asking what else could explain the behavior",
+      "missing the context clue that the behavior started suddenly after a specific day"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "repeated shoelace retying at the same corner",
+       "hypervigilant scanning on the walk to school",
+       "avoidance of a specific spot along the route"
+      ],
+      "baseline_check": "The girl's baseline is her normal, relaxed morning walk before the change began; the retying and vigilance are measured as a sudden deviation from that routine, not as defiance."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     }
    ]
   },
@@ -2365,7 +2469,25 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "treating a single cue such as one glance as proof of interest",
+      "ignoring the setting, so a gym habit or office habit reads as flirtation",
+      "confusing mirroring or grooming with a conscious invitation"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "eye targeting repeated across a room",
+       "hair display or grooming touches",
+       "exposed neck or wrists",
+       "pupil dilation during conversation"
+      ],
+      "baseline_check": "The subject's baseline is their normal gaze and grooming pattern with strangers and friends; attraction is read from clusters of cues that exceed their ordinary pattern."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     },
     {
      "asset_type": "DYNAMIC_DIALOGUE_SIM",
@@ -2457,7 +2579,25 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "concluding interest from a single glance rather than counting repetitions",
+      "ignoring the eight-repetition threshold for reliable targeting",
+      "treating party energy and alcohol effects as genuine signals"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "repeated targeted gaze at the maid of honor across the evening",
+       "preening right after she looks",
+       "mirroring her posture during conversation",
+       "approach-then-avoid moves"
+      ],
+      "baseline_check": "The best man's baseline is his general gaze and grooming pattern with the other guests; interest is judged by a repeated, targeted cluster that exceeds his baseline engagement with everyone else."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     }
    ]
   },
@@ -2731,7 +2871,25 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "interpreting a single slow reply as imminent ghosting",
+      "reading your own anxiety as evidence of the other person's intent",
+      "ignoring context such as genuine busy periods or life events"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "replies slowing from hours to days",
+       "messages shrinking from paragraphs to a few words",
+       "emojis disappearing from replies",
+       "future plans becoming vague 'maybes'"
+      ],
+      "baseline_check": "The baseline is the sender's established reply cadence, message length, and warmth during the relationship's healthy period; ghosting precursors are judged as a consistent downward shift from that pattern."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     },
     {
      "asset_type": "DYNAMIC_DIALOGUE_SIM",
@@ -2823,7 +2981,24 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "concluding the ghosting was about your worth rather than about their behavior",
+      "chasing for answers after the decline pattern had already played out",
+      "treating the missed signals as a personal failure instead of a lesson"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "post-date texting declining in frequency",
+       "vague 'maybe' plans replacing concrete ones",
+       "reply gaps widening into silence"
+      ],
+      "baseline_check": "The baseline is the eager, specific communication pattern across the three good dates; the ghosting is read as the steady decay of that pattern, not as a sudden verdict on you."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     }
    ]
   },
@@ -3097,7 +3272,25 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "treating confidence as competence",
+      "reading nervousness as dishonesty",
+      "interpreting friendliness or silence as consent or agreement"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "a confident posture mistaken for competence",
+       "nervous fidgeting labeled dishonest",
+       "polite friendliness read as romantic interest"
+      ],
+      "baseline_check": "The baseline is each person's ordinary manner when comfortable; costly misreadings happen when a momentary behavior is compared against a stereotype instead of that individual's own baseline."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking",
+      "Mehrabian (1971) Silent Messages"
+     ]
     },
     {
      "asset_type": "DYNAMIC_DIALOGUE_SIM",
@@ -3189,7 +3382,25 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "converting an interviewer's 'felt' impression into a fact",
+      "treating a look-away during recall as a deception cue",
+      "trusting a single behavioral tell over structured retesting"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "candidate looking away while recalling the employment gap",
+       "the interviewer's margin note 'LIED' written with no evidence",
+       "stress-induced nervousness misread as guilt"
+      ],
+      "baseline_check": "The candidate's baseline is their ordinary eye contact and recall style during the relaxed parts of the interview; the look-away must be compared with how they behave whenever they simply remember."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking",
+      "Vrij (2008) Detecting Lies and Deceit: The Psychology of Lying and the Implications for Professional Practice"
+     ]
     }
    ]
   },
@@ -3463,7 +3674,25 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "flagging friendly warmth as attraction",
+      "treating a single signal like one laugh or glance as proof",
+      "confusing noticing a pattern with making an accusation"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "pupil dilation during interaction",
+       "long mutual gazes between partner and friend",
+       "increased touch frequency",
+       "priority shifts toward the friend"
+      ],
+      "baseline_check": "The baseline is the partner's warm-but-neutral way of interacting with other friends; attraction is only indicated when cues toward one specific friend exceed that usual warmth."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     },
     {
      "asset_type": "DYNAMIC_DIALOGUE_SIM",
@@ -3555,7 +3784,25 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "jumping to accusations instead of naming the observable pattern",
+      "treating any work friendship as a threat by default",
+      "ignoring first-news and secrecy signals that separate intimacy from friendship"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "partner sharing secrets and moods with the work spouse first",
+       "partner's first news going to the work spouse before you",
+       "evenings reduced to small talk",
+       "defensiveness when the pattern is named"
+      ],
+      "baseline_check": "The baseline is the emotional sharing flow between you and your partner before the work-spouse pattern began; the imbalance is measured against how first-news and moods used to flow at home."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     }
    ]
   },
@@ -3829,7 +4076,26 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "treating pleasant chat as a costly trust signal",
+      "reading surface friendliness as deep bond",
+      "ignoring reciprocity and loyalty under pressure"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "a secret kept under pressure",
+       "honest criticism offered despite discomfort",
+       "mutual aid in a moment of real need",
+       "matching gestures and inside jokes"
+      ],
+      "baseline_check": "The baseline is ordinary friendly exchange; trust is judged by costly signals, acts that risk something for the friend, rather than by warmth alone."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking",
+      "Gambetta (1988) Trust: Making and Breaking Cooperative Relations"
+     ]
     },
     {
      "asset_type": "DYNAMIC_DIALOGUE_SIM",
@@ -3921,7 +4187,25 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "convicting on hearsay before gathering both versions of the story",
+      "treating a suspect's nervousness as proof of leaking",
+      "severing the friendship without testing the bond under pressure"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "the rumor's ripples traced back to one source",
+       "the acquaintance's over-detailed account",
+       "the close friend's defensive reaction when asked",
+       "differences between each suspect's retelling"
+      ],
+      "baseline_check": "The baseline is each suspect's normal storytelling style and body language; a leak verdict is based on comparing their accounts against the verifiable versions, not on how flustered they look."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     }
    ]
   },
@@ -4195,7 +4479,26 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "classifying caretaking as pure care without seeing the control underneath",
+      "reading one controlling behavior without identifying the fear beneath it",
+      "treating touch as control when it is genuine care, and vice versa"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "agenda-setting and seat assignment",
+       "schedule and choice control",
+       "criticism of your decisions",
+       "touch patterns that hover between comfort and control"
+      ],
+      "baseline_check": "The baseline is the person's behavior when things go according to their plan; control becomes visible in how they react when that plan is disrupted."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking",
+      "Hertenstein et al. (2006) Touch Communicates Distinct Emotions, Emotion"
+     ]
     },
     {
      "asset_type": "DYNAMIC_DIALOGUE_SIM",
@@ -4287,7 +4590,26 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "staying trapped in the rescue-gratitude-guilt loop",
+      "confusing rescuing with genuine helping",
+      "expecting the rescuer to change while you keep accepting the rescue"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "loans and fixes offered before being asked",
+       "crisis calls that always find you",
+       "loyalty and gratitude collected after each help",
+       "guilt applied when you decline"
+      ],
+      "baseline_check": "The baseline is how the friendship works when nothing is needed, equality and mutual exchange; the rescue pattern is visible in the one-way flow that replaces that baseline."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking",
+      "Karpman (1968) Fairy Tales and Script Drama Analysis, Transactional Analysis Bulletin"
+     ]
     }
    ]
   },
@@ -4561,7 +4883,25 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "calibrating response intensity to theatrics instead of the actual fire",
+      "treating urgency in the voice as proof of a real emergency",
+      "confusing helplessness in a story with genuine need"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "voice urgency paired with action orientation",
+       "problem-solving language versus helplessness",
+       "consistency of the story across retellings",
+       "whether the person is actually taking steps"
+      ],
+      "baseline_check": "The baseline is the person's ordinary way of handling problems; real emergencies shift them toward action while drama keeps the focus on attention and helplessness."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     },
     {
      "asset_type": "DYNAMIC_DIALOGUE_SIM",
@@ -4653,7 +4993,24 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "letting theatrical drama drain resources from the real deadline",
+      "responding to the drama-king with matching intensity",
+      "treating the performance as a real emergency that demands equal staffing"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "the real deadline burning while the colleague performs helplessness",
+       "the drama-king's collapse at the moment of peak pressure",
+       "team eyes drifting to the performance instead of the work"
+      ],
+      "baseline_check": "The team's baseline is how it allocates attention and effort during normal crunch times; the drama is identified by the gap between the colleague's theatrical helplessness and their usual problem-solving pattern."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     }
    ]
   },
@@ -4927,7 +5284,27 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "reading contempt and eye-rolls as harmless or neutral",
+      "missing covert aggression because it never becomes a direct attack",
+      "treating exclusion from one conversation as proof of a campaign"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "eye-rolling aimed at you",
+       "dagger stares across the lunchroom",
+       "contempt faces",
+       "laughter at your expense",
+       "exclusion from group conversation"
+      ],
+      "baseline_check": "The baseline is the group's ordinary interaction style with its members; covert aggression is visible as a targeted pattern against one person that exceeds normal group ribbing."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking",
+      "Gottman (1994) Why Marriages Succeed or Fail"
+     ]
     },
     {
      "asset_type": "DYNAMIC_DIALOGUE_SIM",
@@ -5019,7 +5396,24 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "fighting rumors with counter-rumors instead of verifiable facts",
+      "confronting the rival before the claims have been verified",
+      "assuming the project lead's repeated smear reflects your actual work"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "the rumor web traced back to one source",
+       "the rival's whispered narrative repeated by the project lead",
+       "your documented record versus the smear's claims"
+      ],
+      "baseline_check": "The baseline is your documented performance and the project lead's prior opinion of your work; the smear is measured as a deviation from that record, not as a verdict on it."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     }
    ]
   },
@@ -5293,7 +5687,25 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "reading emoji warmth as substantive feedback",
+      "scoring vague adjectives like 'good' or 'nice' as specific praise",
+      "ignoring follow-up behavior that would confirm the message"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "emoji count in a feedback email",
+       "vague adjectives with no examples",
+       "response speed to your follow-up",
+       "specificity of the examples given"
+      ],
+      "baseline_check": "The baseline is how this sender normally writes, their emoji and word habits, so a message is decoded against their own style rather than a universal emoji dictionary."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     },
     {
      "asset_type": "DYNAMIC_DIALOGUE_SIM",
@@ -5385,7 +5797,24 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "accepting 'keep going' and two smileys as adequate feedback",
+      "treating the flat review as a verdict on your entire career",
+      "extracting feedback so aggressively that the relationship burns"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "a three-line review with two smileys",
+       "'keep going' with no specifics",
+       "the manager's avoidance when asked for examples"
+      ],
+      "baseline_check": "The baseline is the manager's usual communication style and the documented work of the past year; the review's vagueness is compared against that record to get the specifics you are owed."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     }
    ]
   },
@@ -5659,7 +6088,26 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "assuming flat affect means dangerous or psychopathic",
+      "reading a still face without context or baseline",
+      "confusing a processing style such as autism or stoicism with suppressed emotion"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "a still face with minimal expression",
+       "short, task-focused responses",
+       "no mirroring or warm display",
+       "normal competence in actions"
+      ],
+      "baseline_check": "The baseline is the person's consistent low-expression pattern across settings and moods; a stable baseline points to processing or culture, while sudden changes are what deserve attention."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking",
+      "Ekman (2001) Telling Lies: Clues to Deceit in the Marketplace, Politics, and Marriage"
+     ]
     },
     {
      "asset_type": "DYNAMIC_DIALOGUE_SIM",
@@ -5751,7 +6199,24 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "labeling someone based on a single contagion miss",
+      "applying psychopathy research to someone without baseline evidence",
+      "letting discomfort with flat affect become a verdict"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "the colleague's yawn not triggering contagion",
+       "flat affect across many settings",
+       "the colleague's demonstrated empathy in action tests"
+      ],
+      "baseline_check": "The baseline is the colleague's consistent flat but functional behavior over time; the yawn test is one data point to weigh against their demonstrated empathy, not a verdict."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking"
+     ]
     }
    ]
   },
@@ -6025,7 +6490,26 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "treating proximity as proof of cohesion",
+      "reading a single high-five as a bonded team",
+      "confusing shared location with shared trust"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "celebratory touch after success",
+       "high-fives and shoulder pats between teammates",
+       "shared laughter",
+       "proximity during downtime"
+      ],
+      "baseline_check": "The baseline is how team members interact during routine work before successes; bonding is shown by tactile and celebratory contact that exceeds their ordinary transactional interaction."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking",
+      "Kraus, Huang & Keltner (2010) Tactile Communication, Cooperation, and Performance: An Ethological Study of the NBA, Emotion"
+     ]
     },
     {
      "asset_type": "DYNAMIC_DIALOGUE_SIM",
@@ -6117,7 +6601,26 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "assuming good deliverables mean a bonded team",
+      "imposing touch rituals on people who do not want them",
+      "treating churn as a recruiting problem instead of a bond problem"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "four soloists with no celebrations",
+       "no touch or warmth after wins",
+       "no public credit given",
+       "rising churn"
+      ],
+      "baseline_check": "The baseline is the team's current interaction pattern, minimal contact and separate orbits; the goal is measured as the change in celebration, credit, and welcome touch that builds on that baseline."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking",
+      "Kraus, Huang & Keltner (2010) Tactile Communication, Cooperation, and Performance: An Ethological Study of the NBA, Emotion"
+     ]
     }
    ]
   },
@@ -6269,7 +6772,26 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "treating shame displays as guilt or confession",
+      "reading stress signals such as nail-biting or self-soothing as deception",
+      "committing the Othello error, letting your belief in their guilt produce the confession"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "nail-biting or lip suppression",
+       "self-soothing gestures",
+       "avoidance of eye contact",
+       "verbal slips during questioning"
+      ],
+      "baseline_check": "The baseline is the person's ordinary stress behavior when discussing neutral topics; guilt verdicts are only justified by changes from that baseline plus corroborating evidence, never by discomfort alone."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking",
+      "Ekman (2001) Telling Lies: Clues to Deceit in the Marketplace, Politics, and Marriage"
+     ]
     },
     {
      "asset_type": "DYNAMIC_DIALOGUE_SIM",
@@ -6361,7 +6883,26 @@
       "level": "Low",
       "consensus": "Contested",
       "basis": "Trade advice claiming specific body-language tells reveal deception and inner states. Deception-detection and decoding claims of this kind are unsupported by meta-analytic evide..."
-     }
+     },
+     "distractor_error_types": [
+      "convicting on slumped posture and sweating",
+      "letting suspicion steer the interview before rapport and baseline are established",
+      "settling for vibes instead of detail-expansion evidence"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "the team lead slumped and avoiding eye contact",
+       "sweating under questioning",
+       "vague answers when details are probed",
+       "the leaked document's trail"
+      ],
+      "baseline_check": "The baseline is the team lead's normal posture, eye contact, and speech during routine meetings; interview findings must be compared against that baseline before any accusation."
+     },
+     "evidence_class": "Contested/Low",
+     "key_sources": [
+      "Bowden & Thomson (2024) Truth & Lies: What People Are Really Thinking",
+      "Hartley & Karinch (2007) How to Spot a Liar: Why People Don't Tell the Truth... and How You Can Catch Them"
+     ]
     }
    ]
   }

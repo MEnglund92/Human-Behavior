@@ -568,7 +568,25 @@
      "stage_1_question": "Which system of the mind produced Ravi's evasive driving maneuver, and why can he not recall deciding to make it?",
      "stage_1_correct_answer": "System 1 produced the maneuver: the text says we manage to avoid a threat on the road before we become consciously aware of it, and the mental work that produces impressions, intuitions, and many decisions goes on in silence in our mind.",
      "stage_2_intervention": "The battle escalates: in the passenger seat, Ravi's colleague asks, 'How did you do that so fast?' Ravi replies with a confident, elaborate account of how he weighed the options and decided to brake. Choose the best intervention: (a) praise his rapid decision-making as a conscious choice, (b) gently note that his account is likely a confident reconstruction of System 1's silent work and that confidence does not prove the account is accurate, or (c) insist his System 2 must have made the decision because he can describe it.",
-     "stage_2_correct_answer": "(b) - the book states we cannot trace how most impressions and reactions arose, that we are often confident even when we are wrong, and that System 1 is the secret author of many choices; Ravi's story is a post-hoc reconstruction by the conscious self."
+     "stage_2_correct_answer": "(b) - the book states we cannot trace how most impressions and reactions arose, that we are often confident even when we are wrong, and that System 1 is the secret author of many choices; Ravi's story is a post-hoc reconstruction by the conscious self.",
+     "distractor_error_types": [
+      "equating conscious narration with the actual decision process",
+      "believing that a describable decision must have been deliberate (System 2)",
+      "treating confidence in an account as evidence of its accuracy"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Ravi's hands corrected the wheel before conscious attention shifted",
+       "Ravi cannot recall deciding to brake",
+       "colleague asks 'How did you do that so fast?'"
+      ],
+      "baseline_check": "A routine driving baseline in which no evasive maneuver is needed and no confident post-hoc story is triggered."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Kahneman (2011) Thinking, Fast and Slow",
+      "Simons & Chabris (1999) Perception"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -600,7 +618,25 @@
      "stage_1_question": "What did David actually evaluate in place of the difficult target question of whether the route will be profitable?",
      "stage_1_correct_answer": "He substituted an easier question, 'do people like this destination?', for the target question 'will this route be profitable?', answering the related easy question without noticing the substitution, just as the executive answered 'do I like Ford cars?' instead of 'is Ford underpriced?'",
      "stage_2_intervention": "Linda, persuaded by the slide, is about to approve the launch. Choose the most effective move: (a) cheerfully second the motion so the meeting stays positive, (b) ask David to walk the team through the target analysis, forecast revenues, operating costs, load factors, and base demand, before any approval, explicitly naming the substitution that occurred, or (c) tell the team to trust their gut because they are experienced executives.",
-     "stage_2_correct_answer": "(b) - redirecting the room to the target question and naming the substitution forces System 2 deliberation on the hard analysis; the book's aim is exactly to enrich the vocabulary of judgment so that errors like substitution can be recognized and their damage limited."
+     "stage_2_correct_answer": "(b) - redirecting the room to the target question and naming the substitution forces System 2 deliberation on the hard analysis; the book's aim is exactly to enrich the vocabulary of judgment so that errors like substitution can be recognized and their damage limited.",
+     "distractor_error_types": [
+      "substituting a liking judgment for a profitability forecast",
+      "judging evidence by emotional appeal instead of target analysis",
+      "treating group enthusiasm as validation of the decision"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "slide shows sun-drenched destination photos and a 92% approval stat",
+       "the rest of the deck is empty",
+       "David points proudly at the slide"
+      ],
+      "baseline_check": "The standard route-feasibility baseline: forecast revenues, operating costs, load factors, and base demand before answering whether the route will be profitable."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Kahneman (2011) Thinking, Fast and Slow",
+      "Kahneman & Frederick (2002) in Heuristics and Biases"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -941,7 +977,25 @@
      "stage_1_question": "Roughly how many of the twelve officers report seeing the gorilla, and why?",
      "stage_1_correct_answer": "About half, about six, report nothing unusual, because the absorbing counting task and the instruction to ignore one team caused the blindness; seeing and orienting depend on the allocation of attention, and the observers were also blind to their own blindness.",
      "stage_2_intervention": "The same officers must now guard a busy plaza and are told to stay hyper-focused on the entrance. A decoy theft takes place at the opposite end of the plaza. The shift supervisor must decide how to deploy attention to avoid a repeat of the gorilla failure.",
-     "stage_2_correct_answer": "Do not rely on one officer's tunneled focus; the gorilla finding shows focused attention creates blindness, so the supervisor should assign a second observer or a rotation that periodically reallocates attention and scanning. Intense focusing makes people effectively blind to stimuli that normally attract attention, so a single hyper-focused watcher is exactly the failure mode the video demonstrates."
+     "stage_2_correct_answer": "Do not rely on one officer's tunneled focus; the gorilla finding shows focused attention creates blindness, so the supervisor should assign a second observer or a rotation that periodically reallocates attention and scanning. Intense focusing makes people effectively blind to stimuli that normally attract attention, so a single hyper-focused watcher is exactly the failure mode the video demonstrates.",
+     "distractor_error_types": [
+      "attributing the miss to low vigilance rather than to attention allocation",
+      "assuming automatic seeing is unaffected by task demands",
+      "concluding the missed stimulus never occurred because nobody reported it"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "officers instructed to count white-team passes and ignore the black team",
+       "a woman in a gorilla suit crosses the court and beats her chest",
+       "about half the officers report nothing unusual"
+      ],
+      "baseline_check": "A normal viewing condition with no counting task, in which the striking gorilla stimulus would be noticed by most observers."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Simons & Chabris (1999) Perception",
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -971,7 +1025,25 @@
      "stage_1_question": "What is happening, and what should Dr. Ngo's first move be?",
      "stage_1_correct_answer": "This is the cognitive-illusion pattern from Kahneman's clinical training: a patient with repeated failed treatments who insists 'you are different' is most likely a psychopath, and the therapist's strong attraction is the danger sign. Dr. Ngo should recognize the pattern and decline to take on the patient; the teacher's verdict was to throw him out of the office.",
      "stage_2_intervention": "Dr. Ngo hesitates and tells the supervisor, 'But my gut says I can really help him.' The supervisor must decide how to respond to keep the clinic safe while respecting Dr. Ngo's feelings.",
-     "stage_2_correct_answer": "The supervisor should confirm the feeling is real but insist it is an illusion that must not be acted on: the sympathy is an automatic System 1 response that cannot be switched off, but recognizing the pattern, like recognizing the Müller-Lyer fins, means not believing or acting on it. The advice from the authority on psychopathy confirms the warning was sound."
+     "stage_2_correct_answer": "The supervisor should confirm the feeling is real but insist it is an illusion that must not be acted on: the sympathy is an automatic System 1 response that cannot be switched off, but recognizing the pattern, like recognizing the Müller-Lyer fins, means not believing or acting on it. The advice from the authority on psychopathy confirms the warning was sound.",
+     "distractor_error_types": [
+      "mistaking a flattering impression for a valid clinical assessment",
+      "interpreting a string of failed treatments as evidence that this therapist is special",
+      "believing an automatic emotional pull must be acted on"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "client reports three prior therapists who all failed him",
+       "client says 'you are different'",
+       "Dr. Ngo feels a warm, flattering pull and begins planning long-term treatment"
+      ],
+      "baseline_check": "A standard intake baseline: no prior treatment failures, no flattery of the therapist, and treatment decisions based on assessment rather than charm."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Kahneman (2011) Thinking, Fast and Slow",
+      "Cleckley (1941) The Mask of Sanity"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -1314,7 +1386,25 @@
      "stage_1_question": "Why did the researchers already know she had quit, and why did the pupil suddenly contract?",
      "stage_1_correct_answer": "Because the pupil stays large as long as the person keeps working and contracts immediately when she finds a solution or gives up, so the sudden contraction was the visible signature of quitting. The participant, surprised, asked 'How did you know?' and the answer was: 'We have a window to your soul.'",
      "stage_2_intervention": "The same participant is next handed Add-3 with six digits, far beyond what anyone can hold. The researchers must decide whether to keep pushing her to try harder or read the pupil signal and stop.",
-     "stage_2_correct_answer": "Read the pupil and stop: when subjects were exposed to more digits than they could remember, their pupils stopped dilating or actually shrank; this is as hard as people can work, and they give up if more is asked of them. Pushing further has no value; the pupil shows the ceiling has been reached."
+     "stage_2_correct_answer": "Read the pupil and stop: when subjects were exposed to more digits than they could remember, their pupils stopped dilating or actually shrank; this is as hard as people can work, and they give up if more is asked of them. Pushing further has no value; the pupil shows the ceiling has been reached.",
+     "distractor_error_types": [
+      "interpreting pupil contraction as relaxation rather than the give-up signal",
+      "assuming effort can be pushed beyond the working-memory ceiling",
+      "reading arousal from an isolated pupil measurement without a resting reference"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "pupil stays large for several seconds then suddenly contracts",
+       "participant works a paced mental-multiplication task",
+       "researchers ask 'Why did you stop working just now?'"
+      ],
+      "baseline_check": "The resting pupil diameter before a trial begins, before any mental effort is demanded."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Kahneman & Beatty (1966) Science",
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -1344,7 +1434,24 @@
      "stage_1_question": "Which principle best explains Tasha's choice of the old template?",
      "stage_1_correct_answer": "The law of least effort: given several routes to the same goal, people gravitate to the least demanding course. Effort is a cost, and System 2 is inherently lazy, reluctant to invest more effort than strictly necessary, so the familiar, easy template wins.",
      "stage_2_intervention": "Ibrahim suggests they build the robust workbook together and split the effort. The team lead is skeptical and says the quick template has always been fine. The team must decide whether to invest the effort.",
-     "stage_2_correct_answer": "Invest the effort when the stakes justify it: the law of least effort explains the default pull toward the easy template, but it is exactly the lazy System 2 tendency that should be overcome when errors are costly. As you become skilled at a task its demand for energy diminishes, so the robust workbook gets easier with practice, and the compromise is to try harder when the stakes are high."
+     "stage_2_correct_answer": "Invest the effort when the stakes justify it: the law of least effort explains the default pull toward the easy template, but it is exactly the lazy System 2 tendency that should be overcome when errors are costly. As you become skilled at a task its demand for energy diminishes, so the robust workbook gets easier with practice, and the compromise is to try harder when the stakes are high.",
+     "distractor_error_types": [
+      "confusing the low-effort default with rational optimization",
+      "assuming the easy path is chosen because it is the better path",
+      "discounting the cost of errors when effort is deferred"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Tasha hesitates between the old template and a data-linked workbook",
+       "she opens the previous quarter's template",
+       "errors in the quarterly reconciliation are costly"
+      ],
+      "baseline_check": "The default low-effort path taken with no stakes, compared against the effortful robust approach that is warranted when errors are costly."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -1704,7 +1811,25 @@
      "stage_1_question": "Why did so many students answer 10 cents, and what did Amina do differently?",
      "stage_1_correct_answer": "The 10-cent answer is the intuitive, appealing, wrong answer that System 1 offers; more than 50% at top universities and over 80% at less selective ones fail to check it. Amina resisted the intuition with a few seconds of System 2 work and got the correct 5 cents.",
      "stage_2_intervention": "You are Amina's study partner preparing for an exam. She wants to know how to avoid being fooled by the next tempting wrong answer that appears in her head. Choose the intervention that best builds her defense against a lazy System 2.",
-     "stage_2_correct_answer": "Train her to treat every instant, plausible answer as a suspect: deliberately slow down, do the math or the logic, and ask what obvious cue would explain why this puzzle was included before she commits to an answer."
+     "stage_2_correct_answer": "Train her to treat every instant, plausible answer as a suspect: deliberately slow down, do the math or the logic, and ask what obvious cue would explain why this puzzle was included before she commits to an answer.",
+     "distractor_error_types": [
+      "accepting the first plausible answer without checking",
+      "treating a quick response as a correct response",
+      "confusing the intuitive appeal of an answer with its validity"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "over half the room shouts '10 cents' within four seconds",
+       "Amina hesitates and scribbles before answering",
+       "worksheet shows the two equations"
+      ],
+      "baseline_check": "The checked, deliberate computation baseline: solve the two equations and verify that ball plus bat equals $1.10 before committing to an answer."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Kahneman (2011) Thinking, Fast and Slow",
+      "Frederick (2005) Journal of Economic Perspectives"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -1734,7 +1859,25 @@
      "stage_1_question": "What is the most likely mechanism behind Judge Okafor's denial, given the case timing?",
      "stage_1_correct_answer": "Ego depletion and decision fatigue: the parole data show approval rates spiking after meals and sliding toward zero before the next break, because tired, hungry decision makers fall back on the easier default of denial.",
      "stage_2_intervention": "You run a call center that must make fair approval decisions on customer refunds all day, and your team's denial rate creeps up every afternoon. Choose the intervention that best counteracts the depletion-default pattern shown in the research.",
-     "stage_2_correct_answer": "Schedule high-stakes discretionary approvals right after breaks, add a real food break before the late-afternoon slump, and require reviewers to state a written reason before selecting the default denial option."
+     "stage_2_correct_answer": "Schedule high-stakes discretionary approvals right after breaks, add a real food break before the late-afternoon slump, and require reviewers to state a written reason before selecting the default denial option.",
+     "distractor_error_types": [
+      "attributing the denial to case merits rather than decision fatigue",
+      "ignoring time since the last meal as a decision-relevant variable",
+      "treating the easy default denial as a considered judgment"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "case 41 is identical to one granted at 1:05",
+       "judge signs the denial without reading page three",
+       "the last meal was three hours ago"
+      ],
+      "baseline_check": "A freshly rested decision maker shortly after a meal, when approval rates in the parole data are at their daily peak."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Danziger, Levav & Avnaim-Pesso (2011) PNAS",
+      "Baumeister, Bratslavsky, Muraven & Tice (1998) JPSP"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -2132,7 +2275,25 @@
      "stage_1_question": "Why do contributions jump so sharply in eye weeks despite nobody mentioning the posters?",
      "stage_1_correct_answer": "A purely symbolic reminder of being watched primes prosocial behavior without awareness: in the British kitchen study, contributions averaged almost three times more in eye weeks than in flower weeks, with no one noticing the change.",
      "stage_2_intervention": "You manage a shared snack pantry where losses run high, and you must choose a low-cost policy. Which approach best reflects what the priming evidence supports?",
-     "stage_2_correct_answer": "Add a discreet image of watching eyes above the price list rather than installing cameras, signs, or fines: the symbolic prime raises compliance without creating distrust or surveillance."
+     "stage_2_correct_answer": "Add a discreet image of watching eyes above the price list rather than installing cameras, signs, or fines: the symbolic prime raises compliance without creating distrust or surveillance.",
+     "distractor_error_types": [
+      "attributing the payment jump to explicit instruction or surveillance",
+      "assuming behavior change requires conscious noticing",
+      "mistaking a subtle ambient prime for coercion"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "poster of two wide-open eyes hangs above the price list",
+       "staff never comment on the poster",
+       "contributions average almost three times more in eye weeks"
+      ],
+      "baseline_check": "The flower-weeks average contribution, when no watching-eyes image is present and payments run at the normal low level."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Bateson, Nettle & Roberts (2006) Biology Letters",
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -2163,7 +2324,25 @@
      "stage_1_question": "What single theme explains the whole cluster of money-primed behaviors?",
      "stage_1_correct_answer": "Money primes individualism: a reluctance to depend on others, help others, or accept demands from others, shown in longer self-reliance, fewer pencils picked up, farther chair placement, and a preference for solitude.",
      "stage_2_intervention": "Your CEO wants next quarter to be the most collaborative quarter ever, but the lobby TV loops stock tickers and the breakroom shows cash-counting footage. Choose the move that best applies the research.",
-     "stage_2_correct_answer": "Remove the money reminders from shared spaces and replace them with neutral or warm imagery, because the research shows money cues shift behavior toward independence and selfishness even when people deny any effect."
+     "stage_2_correct_answer": "Remove the money reminders from shared spaces and replace them with neutral or warm imagery, because the research shows money cues shift behavior toward independence and selfishness even when people deny any effect.",
+     "distractor_error_types": [
+      "attributing the behavior cluster to personality rather than priming",
+      "denying an effect because it is not consciously noticed",
+      "treating one behavior such as chair distance in isolation from the cluster"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "breakroom computer runs a screen saver of dollar bills floating in water",
+       "money-primed team persists twice as long before asking for help",
+       "chairs set 118 centimeters apart for a chat"
+      ],
+      "baseline_check": "The neutral-condition team in the same collaboration drill with no money imagery on screens, showing normal helping and proximity."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Vohs, Mead & Goode (2006) Journal of Personality and Social Psychology",
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     }
    ]
   },
@@ -2498,7 +2677,25 @@
      "stage_1_question": "Which mechanism is primarily being exploited to make the audience accept this unverified claim?",
      "stage_1_correct_answer": "The illusion of truth through repetition and fluency: frequent, easy-to-process repetition creates a feeling of familiarity that System 2 misreads as evidence that the claim is true.",
      "stage_2_intervention": "You have 30 seconds before the ad runs again. Choose the intervention most likely to break the illusion for the audience.",
-     "stage_2_correct_answer": "Force the audience out of cognitive ease: present the claim in an unpolished, hard-to-read format, confront it with a known fact that contradicts it, and demand the source of the 99 percent figure, since the chapter shows cognitive strain mobilizes System 2 and that fluency tricks cannot rescue a claim that contradicts known facts."
+     "stage_2_correct_answer": "Force the audience out of cognitive ease: present the claim in an unpolished, hard-to-read format, confront it with a known fact that contradicts it, and demand the source of the 99 percent figure, since the chapter shows cognitive strain mobilizes System 2 and that fluency tricks cannot rescue a claim that contradicts known facts.",
+     "distractor_error_types": [
+      "confusing familiarity with validity",
+      "judging a claim by fluency of presentation rather than evidence",
+      "treating repetition as independent confirmation"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "claim repeated in a catchy rhyming jingle",
+       "bright red logo on white flashes with each repetition",
+       "audience trust meters rise as each repetition plays"
+      ],
+      "baseline_check": "The same claim presented once in plain, hard-to-process format, where cognitive ease is absent and the claim must be evaluated on its evidence."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Begg, Anas & Farinacci (1992) Journal of Experimental Psychology: General",
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -2529,7 +2726,25 @@
      "stage_1_question": "What is the most dangerous error Marcus is about to make as he feels ready to approve the investment?",
      "stage_1_correct_answer": "He is misattributing cognitive ease to the soundness of the business plan: the fluency of the presentation, through repetition, rhyme, bright contrast, and an easy name, inflates his judgment, and his lazy System 2 is adopting the ease signal without checking the underlying numbers.",
      "stage_2_intervention": "Marcus invites you to act as devil's advocate before he signs. Choose the intervention that most reliably tests the plan's real worth rather than its polish.",
-     "stage_2_correct_answer": "Deliberately introduce cognitive strain: print the deck in a hard-to-read font, make the founders answer detailed financial questions without their slides, and require a written source for every repeated claim, because the chapter shows cognitive strain mobilizes System 2, which is then more likely to reject the easy, intuitive verdict of System 1."
+     "stage_2_correct_answer": "Deliberately introduce cognitive strain: print the deck in a hard-to-read font, make the founders answer detailed financial questions without their slides, and require a written source for every repeated claim, because the chapter shows cognitive strain mobilizes System 2, which is then more likely to reject the easy, intuitive verdict of System 1.",
+     "distractor_error_types": [
+      "misattributing ease of processing to soundness of the plan",
+      "treating a polished pitch as due diligence",
+      "letting repetition substitute for evidence"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "'breakthrough' repeated four times in a rhyming tagline",
+       "financials never shown in raw form",
+       "Marcus leans back smiling as the audience relaxes"
+      ],
+      "baseline_check": "The same business plan presented under cognitive strain (hard-to-read font, detailed questioning), where judgments track the numbers rather than the polish."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Reber & Schwarz (1999) Consciousness and Cognition",
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     }
    ]
   },
@@ -2823,7 +3038,25 @@
      "stage_1_question": "Why is the team's leap from two wins to the strategy works so seductive despite being statistically weak?",
      "stage_1_correct_answer": "The recurrence normalizes the result and manufactures confidence, but two observations tell you almost nothing about the true rate; the chapter shows System 1 is comfortable with causal stories from tiny samples and is not built for statistical reasoning about ensembles.",
      "stage_2_intervention": "The team wants to scale the strategy nationally tomorrow. Choose the intervention that best counters the normalcy trap.",
-     "stage_2_correct_answer": "Force a shift to statistical reasoning: demand the base rate of similar campaigns, the size of the samples, and the full range of plausible outcomes before scaling, because System 2 can learn to think statistically even though few people are trained to do so, and the ease-driven conclusion that it works must be checked against the ensemble."
+     "stage_2_correct_answer": "Force a shift to statistical reasoning: demand the base rate of similar campaigns, the size of the samples, and the full range of plausible outcomes before scaling, because System 2 can learn to think statistically even though few people are trained to do so, and the ease-driven conclusion that it works must be checked against the ensemble.",
+     "distractor_error_types": [
+      "treating a couple of recurrences as a stable rate",
+      "substituting a causal story for statistical reasoning",
+      "ignoring that the sample was chosen for convenience"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "ad strategy won big in two consecutive test markets",
+       "the two markets were chosen for convenience",
+       "hundreds of markets remain untested"
+      ],
+      "baseline_check": "The base rate of similar campaigns across the full ensemble of markets, not the two convenient wins."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Tversky & Kahneman (1971) Psychological Bulletin",
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -2853,7 +3086,24 @@
      "stage_1_question": "What is the central flaw in the two headlines the editors are celebrating?",
      "stage_1_correct_answer": "A statement that can explain two contradictory outcomes explains nothing at all; the headlines only satisfy the need for coherence, since a large event is supposed to have consequences and consequences need causes, a search performed automatically by System 1.",
      "stage_2_intervention": "You have one minute to steer the next bulletin. Choose the move that best resists the causal-story machine.",
-     "stage_2_correct_answer": "Publish the price move without forcing a cause, label the explanation as speculation, and acknowledge that the day's fragments do not determine a single cause, because System 1 is adept at finding a coherent story but the honest report must refuse to manufacture one from insufficient information."
+     "stage_2_correct_answer": "Publish the price move without forcing a cause, label the explanation as speculation, and acknowledge that the day's fragments do not determine a single cause, because System 1 is adept at finding a coherent story but the honest report must refuse to manufacture one from insufficient information.",
+     "distractor_error_types": [
+      "accepting an explanation that fits contradictory outcomes",
+      "substituting coherence for evidence",
+      "treating narrative plausibility as causal proof"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "prices rise then fall after the same event",
+       "both headlines credit the capture for opposite moves",
+       "editors nod approvingly at each framing"
+      ],
+      "baseline_check": "The price move reported without a manufactured cause, acknowledging that the day’s fragments do not determine a single cause."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -3176,7 +3426,25 @@
      "stage_1_question": "Why is the panel's near-uniform glowing scorecard so seductive, and what psychological mechanism is driving it?",
      "stage_1_correct_answer": "The halo effect: the strong first impression led the panel to like everything about Tomas, including competencies they did not actually observe, so later information was mostly wasted and the scores became artificially homogeneous; the spurious consistency also produces cognitive ease, so a lazy System 2 accepts the final scorecard without noticing the missing evidence.",
      "stage_2_intervention": "You are the hiring lead and the panel is about to lock in final scores. Choose the intervention that most directly defeats the halo effect before the decision is made.",
-     "stage_2_correct_answer": "Decorrelation of errors: have each panelist score every candidate on a single competency before anyone moves to the next competency, with all scores written where they cannot contaminate later ratings and no discussion until every score is recorded, because Kahneman's grading change showed this procedure exposes real variability and removes first-impression contamination."
+     "stage_2_correct_answer": "Decorrelation of errors: have each panelist score every candidate on a single competency before anyone moves to the next competency, with all scores written where they cannot contaminate later ratings and no discussion until every score is recorded, because Kahneman's grading change showed this procedure exposes real variability and removes first-impression contamination.",
+     "distractor_error_types": [
+      "letting a first impression inflate all later ratings",
+      "treating spurious consistency as genuine evidence",
+      "rating unobserved competencies as if they were observed"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Tomas's opening portfolio answer is brilliant",
+       "all six competencies scored at the same near-perfect level",
+       "one panelist whispers that the candidate seems flawless"
+      ],
+      "baseline_check": "Independent scoring of each competency across candidates, where scores show real variability instead of uniform near-perfect marks."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Nisbett & Wilson (1977) Journal of Personality and Social Psychology",
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -3206,7 +3474,24 @@
      "stage_1_question": "What does the chapter say the board members failed to do before forming their opinion about Sofia's leadership?",
      "stage_1_correct_answer": "They never asked what they would need to know before forming an opinion: System 1 built the best possible story from the two adjectives and delivered it with cognitive ease, so the members jumped to a conclusion and retained a bias favoring that first impression, the pattern Kahneman describes with Mindik (WYSIATI).",
      "stage_2_intervention": "The vote is about to be finalized. Choose the intervention that best forces the board to overcome WYSIATI before deciding.",
-     "stage_2_correct_answer": "Stop the vote and require the board to list the information they would need about Sofia's integrity, track record, and management results, then gather that evidence from independent sources before any judgment, because System 1 is radically insensitive to missing information and only a deliberate, checklist-driven System 2 can ask what the story leaves out."
+     "stage_2_correct_answer": "Stop the vote and require the board to list the information they would need about Sofia's integrity, track record, and management results, then gather that evidence from independent sources before any judgment, because System 1 is radically insensitive to missing information and only a deliberate, checklist-driven System 2 can ask what the story leaves out.",
+     "distractor_error_types": [
+      "jumping to conclusions from scant data",
+      "treating the absence of evidence as evidence",
+      "confusing a coherent story with a complete one"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "one-line summary reads \"Sofia is intelligent and strong\"",
+       "nearly everyone raises a hand within seconds",
+       "the vote is underway before missing information is asked for"
+      ],
+      "baseline_check": "The decision-relevant information the committee would need (integrity, track record, management results), gathered from independent sources before any judgment."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -3468,7 +3753,25 @@
      "stage_1_question": "Why is the counselors' confident matching prediction statistically wrong even though it feels perfectly natural?",
      "stage_1_correct_answer": "The prediction was produced by translating across intensity scales, matching how remarkable the reading was to an equally remarkable GPA, but the chapter states that this mode of prediction by matching is statistically wrong: the translation ignores that the relationship between the two measures is imperfect, so an extreme value on one scale should not imply an equally extreme value on the other.",
      "stage_2_intervention": "The admissions director asks you to fix the prediction process before the decisions are sent. Choose the intervention that replaces matching with a sound statistical approach.",
-     "stage_2_correct_answer": "Use the actual historical relationship between early reading age and college GPA to produce the prediction, shrink extreme predictions toward the group average, and report a range rather than a single matched value, because the chapter shows matching is natural to System 1 but statistically wrong, and it is acceptable to System 2 only for people who are not trained to think statistically."
+     "stage_2_correct_answer": "Use the actual historical relationship between early reading age and college GPA to produce the prediction, shrink extreme predictions toward the group average, and report a range rather than a single matched value, because the chapter shows matching is natural to System 1 but statistically wrong, and it is acceptable to System 2 only for people who are not trained to think statistically.",
+     "distractor_error_types": [
+      "matching intensity across scales as if one implied the other",
+      "ignoring the imperfect relationship between predictor and outcome",
+      "anchoring an extreme prediction on a single remarkable datum"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "single fact in the file: Julie read fluently at age four",
+       "counselors quickly agree on a near-perfect GPA",
+       "note that last year’s early readers performed at or below average"
+      ],
+      "baseline_check": "The historical relationship between early reading age and college GPA, with predictions shrunken toward the group average."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Kahneman (2011) Thinking, Fast and Slow",
+      "Tversky & Kahneman (1974) Science"
+     ]
     }
    ]
   },
@@ -3711,7 +4014,25 @@
      "stage_1_question": "What is the flaw in this questionnaire order, and what outcome will it produce in the data?",
      "stage_1_correct_answer": "The order invites substitution: the dating item arouses an emotional reaction that is still active when the happiness question is asked, so respondents answer about their romantic life rather than their life as a whole. The result is a spurious positive correlation between dating frequency and reported happiness that would not appear if happiness were asked first.",
      "stage_2_intervention": "The client has already collected 2,000 responses using this ordering and insists the finding that \"romance drives happiness\" is real and should headline the report. You must decide what to do before the report ships.",
-     "stage_2_correct_answer": "Push back on the headline and demand a re-run: move the happiness item to the start of the survey, or separate the domain questions with neutral filler items, so the mood from the dating question does not color global happiness reports. Explain that the observed correlation is an artifact of question order, not evidence about happiness, citing the German student survey in which the same two items produced opposite results depending on order."
+     "stage_2_correct_answer": "Push back on the headline and demand a re-run: move the happiness item to the start of the survey, or separate the domain questions with neutral filler items, so the mood from the dating question does not color global happiness reports. Explain that the observed correlation is an artifact of question order, not evidence about happiness, citing the German student survey in which the same two items produced opposite results depending on order.",
+     "distractor_error_types": [
+      "substituting mood for a global assessment",
+      "confusing question order with genuine correlation",
+      "reading causality from a questionnaire artifact"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "happiness item printed directly below the dating item",
+       "respondents pause at the dating item then answer happiness in seconds",
+       "pilot respondents smile or frown before answering"
+      ],
+      "baseline_check": "The happiness item placed first or separated by neutral filler items, where the correlation between dating frequency and life satisfaction drops toward zero."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Strack, Martin & Schwarz (1988) European Journal of Social Psychology",
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     }
    ]
   },
@@ -4062,7 +4383,25 @@
      "stage_1_question": "Why do sparsely populated counties appear at both extremes of the cancer map, and what should Dr. Osei understand before he writes the release?",
      "stage_1_correct_answer": "Both extremes are sampling artifacts: small populations yield extreme outcomes more often, so the low rates are no more real a fact than the high rates, and the pattern would shift if the analysis were repeated next year. Dr. Osei should not attribute the low counties to clean living, because the same kind of county can produce the highest rates for no causal reason.",
      "stage_2_intervention": "A state senator has read Dr. Osei's draft and now proposes redirecting millions into rural wellness grants targeting the low-cancer counties, while the health director wants to investigate the high-cancer counties for industrial pollution. Both want your signature on their proposals by Friday.",
-     "stage_2_correct_answer": "Refuse to sign either causal proposal: the county differences do not count as facts but as artifacts of sample size, so targeting the low-rate counties would reinforce noise and the pollution investigation would chase a random outcome. Instead, recommend rate estimates adjusted for population size, aggregate small counties into larger regions for analysis, and repeat the analysis over multiple years before drawing any conclusion."
+     "stage_2_correct_answer": "Refuse to sign either causal proposal: the county differences do not count as facts but as artifacts of sample size, so targeting the low-rate counties would reinforce noise and the pollution investigation would chase a random outcome. Instead, recommend rate estimates adjusted for population size, aggregate small counties into larger regions for analysis, and repeat the analysis over multiple years before drawing any conclusion.",
+     "distractor_error_types": [
+      "attributing sampling noise to causal factors",
+      "treating extreme small-sample outcomes as real facts",
+      "drawing policy conclusions from a single year’s map"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "highest- and lowest-cancer counties are mostly rural and sparsely populated",
+       "3,141 counties mapped",
+       "draft press release credits rural clean living"
+      ],
+      "baseline_check": "County rates estimated with population-size adjustment, in which sparsely populated counties show no systematic deviation once sample size is accounted for."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Wainer (2007) American Scientist",
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -4094,7 +4433,25 @@
      "stage_1_question": "What risk does Maya's chosen sample size expose her to, and why does her reasoning fail?",
      "stage_1_correct_answer": "Her small sample leaves her at the mercy of sampling luck, exposing her to as much as a 50% risk of failing to confirm a true hypothesis, because extreme results are more common in small samples. Her reasoning fails because she is following tradition and intuition rather than computing the sample size that would reduce the risk of failure to an acceptable level.",
      "stage_2_intervention": "Maya runs the study with 30 children, the difference is in the predicted direction but not significant, and the department chair now wants to abandon the hypothesis as probably false. Maya asks you what to do next.",
-     "stage_2_correct_answer": "Stop treating the null result as evidence against the hypothesis: it is likely an artifact of an undersized sample. Compute the sample size required for an acceptable risk of failure, run a sufficiently large replication, and replace impression formation by computation, because the vocabulary hypothesis was true in the population and the small sample simply failed to detect it."
+     "stage_2_correct_answer": "Stop treating the null result as evidence against the hypothesis: it is likely an artifact of an undersized sample. Compute the sample size required for an acceptable risk of failure, run a sufficiently large replication, and replace impression formation by computation, because the vocabulary hypothesis was true in the population and the small sample simply failed to detect it.",
+     "distractor_error_types": [
+      "treating a null result from an undersized sample as evidence against the hypothesis",
+      "following tradition instead of computing the required sample size",
+      "confusing the law of small numbers with the law of large numbers"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "15 children per group, following what the lab has always done",
+       "no power calculation on the whiteboard",
+       "difference in the predicted direction but not significant"
+      ],
+      "baseline_check": "A sufficiently powered study in which the true vocabulary difference would be detected with an acceptable risk of failure."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Tversky & Kahneman (1971) Psychological Bulletin",
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     }
    ]
   },
@@ -4419,7 +4776,25 @@
      "stage_1_question": "The buyer's lowball is now the number on the table. What is the most effective first move, based on the chapter's negotiation evidence?",
      "stage_1_correct_answer": "Refuse to negotiate from that number: make it clear, to yourself and the other side, that negotiations cannot continue while $2.1 million is on the table, rather than countering with an equally extreme figure.",
      "stage_2_intervention": "The buyer withdraws the $2.1 million offer and returns the next day with $2.4 million, still below appraised value. Marta is tired and anxious to close, and she suggests you just meet in the middle at $2.8 million, which is close to her goal but still short. The buyer's negotiator, sensing weakness, begins talking about the warehouse needing a new roof to push the price down further. You have one move before the meeting escalates.",
-     "stage_2_correct_answer": "Keep Marta's System 2 engaged: explicitly search for arguments against the $2.4 million anchor, the cost to the buyer of failing to reach a deal, the buyer's own minimum acceptable price, and evidence contradicting the roof story, before naming any counterfigure, instead of anchoring on meeting in the middle."
+     "stage_2_correct_answer": "Keep Marta's System 2 engaged: explicitly search for arguments against the $2.4 million anchor, the cost to the buyer of failing to reach a deal, the buyer's own minimum acceptable price, and evidence contradicting the roof story, before naming any counterfigure, instead of anchoring on meeting in the middle.",
+     "distractor_error_types": [
+      "matching an extreme anchor with an equally extreme counteroffer",
+      "splitting the difference as if the midpoint were principled",
+      "negotiating from the number on the table instead of the independent appraisal"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "opening offer of $2.1 million against a $3.2 million appraised value",
+       "buyer slides a printed term sheet and leans back",
+       "Marta suggests meeting in the middle at $2.8 million"
+      ],
+      "baseline_check": "The independent appraised value of $3.2 million from two appraisers, the reference point that should anchor the negotiation instead of the lowball."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Tversky & Kahneman (1974) Science",
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -4450,7 +4825,24 @@
      "stage_1_question": "Based on the chapter's analysis of anchoring, what is the most accurate prediction for a $1 million cap on damages?",
      "stage_1_correct_answer": "The cap will eliminate awards above $1 million, but it will also serve as an anchor that pulls up many awards that would otherwise be much smaller, so the rule would likely benefit serious offenders and large firms more than small ones, and the net effect is not a straightforward win for defendants.",
      "stage_2_intervention": "After your brief, the board splits. The general counsel insists the cap is pure upside and wants to lobby for an even lower cap of $500,000. A junior analyst objects that a lower cap anchors claims even harder upward, while the plaintiff's group now offers to support a $2 million cap in exchange for procedural concessions. The board looks to you to choose the strategy with the least anchoring downside.",
-     "stage_2_correct_answer": "Reject the framing that lower caps are pure upside: recognize that any cap, $500,000 or $2 million, becomes an anchor pulling smaller awards up toward it, and press the board to weigh the anchoring effect, not just the ceiling, when choosing a figure, rather than assuming a lower cap always helps defendants."
+     "stage_2_correct_answer": "Reject the framing that lower caps are pure upside: recognize that any cap, $500,000 or $2 million, becomes an anchor pulling smaller awards up toward it, and press the board to weigh the anchoring effect, not just the ceiling, when choosing a figure, rather than assuming a lower cap always helps defendants.",
+     "distractor_error_types": [
+      "treating a cap as a pure ceiling with no anchoring side effect",
+      "assuming a lower cap is always better for defendants",
+      "ignoring how the cap figure itself will shape smaller awards"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "cap set at $1 million",
+       "recent awards of $3 to $9 million",
+       "general counsel wants to lobby for an even lower $500,000 cap"
+      ],
+      "baseline_check": "The award distribution with no cap, where modest awards stay modest and only the largest verdicts change."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -4749,7 +5141,25 @@
      "stage_1_question": "Carol says failure does not come easily to mind and feels the sixth deal is near-riskless. What is driving her optimism, and how should you interpret it?",
      "stage_1_correct_answer": "Her optimism is driven by an availability bias: a sequence of recent successes makes failure instances hard to retrieve, so she judges risk by ease of recall rather than by statistics, and she is especially prone because she is powerful and trusts her intuition, conditions that amplify reliance on ease of retrieval.",
      "stage_2_intervention": "Carol has signed off on the $90 million acquisition with no hedging and, when a director raises integration risk, replies that she does not spend a lot of time taking polls to tell her what is right, she just has to know how she feels. She asks the board to ratify the deal today. You hold the deciding vote. How do you respond?",
-     "stage_2_correct_answer": "Vote to force a debiasing review rather than ratify on intuition: require the team to deliberately generate failure scenarios and disconfirming evidence, ask whether the confidence is driven by a few recent wins, and compare the deal against base-rate statistics on similar acquisitions, mobilizing System 2 instead of deferring to Carol's fluent confidence."
+     "stage_2_correct_answer": "Vote to force a debiasing review rather than ratify on intuition: require the team to deliberately generate failure scenarios and disconfirming evidence, ask whether the confidence is driven by a few recent wins, and compare the deal against base-rate statistics on similar acquisitions, mobilizing System 2 instead of deferring to Carol's fluent confidence.",
+     "distractor_error_types": [
+      "judging risk by ease of recall instead of statistics",
+      "attributing fluent confidence to accurate foresight",
+      "letting a winning streak replace contingency analysis"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Carol has closed five acquisitions in a row",
+       "she says failure does not come easily to mind",
+       "pipeline dashboard shows zero contingency scenarios"
+      ],
+      "baseline_check": "Base-rate statistics on similar acquisitions plus a full set of failure scenarios, against which the fluency-driven estimate should be checked."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Tversky & Kahneman (1973) Cognitive Psychology",
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     }
    ]
   },
@@ -5125,7 +5535,25 @@
      "stage_1_question": "What should your opening recommendation be about how the agency should weight the public's fear?",
      "stage_1_correct_answer": "Acknowledge the fear as real and painful while insisting that resource allocation be guided by a broad comparison of risks, because policy must both protect the public from fear and avoid erratic priorities: the book's lesson is that fear, rational or not, is painful and must not be ignored, but availability cascades distort the allocation of public resources.",
      "stage_2_intervention": "The administrator asks you to draft the decision memo. Two factions press you: one quotes Sunstein and demands the decision be made by impartial experts insulated from public pressure; the other quotes Slovic and warns that expert-imposed priorities the public rejects are untenable in a democracy. A third group suggests quietly feeding the public reassuring statistics to calm the panic.",
-     "stage_2_correct_answer": "Draft a memo that combines the experts' broad risk assessment with explicit respect for the public's emotions and intuitions, and decline both pure insulation and fear-based capitulation, because the book concludes that psychology should inform risk policies that combine expert knowledge with public emotions, and that insulating experts entirely produces policies the public will reject."
+     "stage_2_correct_answer": "Draft a memo that combines the experts' broad risk assessment with explicit respect for the public's emotions and intuitions, and decline both pure insulation and fear-based capitulation, because the book concludes that psychology should inform risk policies that combine expert knowledge with public emotions, and that insulating experts entirely produces policies the public will reject.",
+     "distractor_error_types": [
+      "treating availability-driven panic as an objective risk ranking",
+      "insisting experts ignore the public’s real fears",
+      "reducing risk policy to a popularity contest"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "viral clips and a celebrity testifying before Congress",
+       "empty baby-size coffins at a hearing",
+       "scare over a widely used growth-regulating chemical"
+      ],
+      "baseline_check": "A broad comparison of risks across hazards, where the chemical’s true harm is ranked against other public risks rather than by media salience."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Slovic (1987) Science",
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -5155,7 +5583,25 @@
      "stage_1_question": "What is the defining feature of the situation you should first identify?",
      "stage_1_correct_answer": "It is an availability cascade: a minor event has been inflated by media competition and public arousal into a self-sustaining loop in which the intensity of sentiment, not the probability of harm, is driving decisions.",
      "stage_2_intervention": "The mayor asks for your recommendation. A reporter offers to run a 'balance' story claiming the danger is vastly overstated, but the FDA warns that public reassurance may backfire. Meanwhile, an 'availability entrepreneur' group is organizing a rally. What should you do?",
-     "stage_2_correct_answer": "Provide accurate, low-anxiety information that addresses the probability directly and refuses to sensationalize, while acknowledging the fear, because the book shows that scientists who try to dampen the fear attract little attention and are suspected of cover-ups, so reassurance must be persistent, honest, and grounded in the denominator rather than the vivid numerator."
+     "stage_2_correct_answer": "Provide accurate, low-anxiety information that addresses the probability directly and refuses to sensationalize, while acknowledging the fear, because the book shows that scientists who try to dampen the fear attract little attention and are suspected of cover-ups, so reassurance must be persistent, honest, and grounded in the denominator rather than the vivid numerator.",
+     "distractor_error_types": [
+      "equating the intensity of public sentiment with the probability of harm",
+      "responding to amplification with silence or with sensationalism",
+      "treating a single vivid incident as a stable risk signal"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "one dramatic food-safety incident dominates national coverage",
+       "angry callers flood the mayor’s office",
+       "officials are about to ban a harmless ingredient"
+      ],
+      "baseline_check": "The true probability of harm from the ingredient, which is far lower than the emotional intensity of the coverage would suggest."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Kahneman (2011) Thinking, Fast and Slow",
+      "Slovic (1987) Science"
+     ]
     }
    ]
   },
@@ -5525,7 +5971,25 @@
      "stage_1_question": "How should you set your initial probability estimates for the candidate's field?",
      "stage_1_correct_answer": "Anchor on the base rates, keeping the large fields most likely and the small specialties unlikely, because with no trustworthy information your estimate should stay close to prior enrollment proportions, slightly adjusting them for whatever modest evidence exists.",
      "stage_2_intervention": "A colleague insists the candidate is 'obviously' the rare specialty because the description matches the stereotype perfectly, and the dean wants a confident headline prediction. The description came from tests of uncertain validity and includes stereotype-planted hints. What do you do?",
-     "stage_2_correct_answer": "Resist prediction by representativeness: keep the posterior close to the base rates, explicitly downgrade the weight of the unreliable description, and present a hedged, base-rate-anchored estimate, since the book shows even statistically trained judges substitute similarity for probability and must exert deliberate self-monitoring to correct it."
+     "stage_2_correct_answer": "Resist prediction by representativeness: keep the posterior close to the base rates, explicitly downgrade the weight of the unreliable description, and present a hedged, base-rate-anchored estimate, since the book shows even statistically trained judges substitute similarity for probability and must exert deliberate self-monitoring to correct it.",
+     "distractor_error_types": [
+      "predicting by representativeness instead of base rates",
+      "overweighting a description from tests of uncertain validity",
+      "treating stereotype fit as diagnosticity"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "personality sketch written from tests of uncertain validity",
+       "enrollment in the specialty is tiny compared with humanities and education",
+       "colleague insists the match is obviously the rare specialty"
+      ],
+      "baseline_check": "The enrollment base-rate distribution across fields, the anchor the estimate should stay close to in the absence of trustworthy evidence."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Kahneman (2011) Thinking, Fast and Slow",
+      "Kahneman & Tversky (1973) Psychological Review"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -5555,7 +6019,25 @@
      "stage_1_question": "What should your first move as chair be?",
      "stage_1_correct_answer": "State the base rates explicitly and separate the reliability of each piece of evidence, because committee judgments by 'look' are representativeness, the verifiable delivery history has genuine diagnosticity, and the charismatic impression is weak evidence that should be heavily discounted.",
      "stage_2_intervention": "A senior engineer argues Priya's strong interview 'proves' she is the leader they need, and two members echo that a candidate who looks the part rarely fails. The deliverable-based assessment says Samuel outperforms on the exact skills the role requires, but the committee leans toward Priya. What do you do?",
-     "stage_2_correct_answer": "Override the representativeness-based intuition and choose on the base rate and the stronger evidence: anchor on the low experienced-developer base rate, weight the verifiable delivery history, and warn the committee that predicting a rare successful hire from a charismatic impression is the classic sin of predicting low-base-rate events from weak evidence."
+     "stage_2_correct_answer": "Override the representativeness-based intuition and choose on the base rate and the stronger evidence: anchor on the low experienced-developer base rate, weight the verifiable delivery history, and warn the committee that predicting a rare successful hire from a charismatic impression is the classic sin of predicting low-base-rate events from weak evidence.",
+     "distractor_error_types": [
+      "predicting a rare event from weak charismatic evidence",
+      "substituting 'looks like a lead' for diagnostic evidence",
+      "ignoring the low base rate of experienced developers"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "hiring pool is about 3% experienced developers",
+       "Priya has an average portfolio but a charismatic interview",
+       "Samuel has strong, verifiable delivery history"
+      ],
+      "baseline_check": "The 3% base rate of experienced developers in the pool, the anchor for the probability that the hire is experienced."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Kahneman (2011) Thinking, Fast and Slow",
+      "Kahneman & Tversky (1973) Psychological Review"
+     ]
     }
    ]
   },
@@ -5857,7 +6339,25 @@
      "stage_1_question": "Which response shows System 1 winning the conflict between representativeness and logic?",
      "stage_1_correct_answer": "Students rank 'Linda is a bank teller and is active in the feminist movement' as more probable than 'Linda is a bank teller,' even though both items appear on the same page. Kahneman found 89% of undergraduates violated the logic this way, a failure of System 2 despite a fair opportunity to detect the logical rule.",
      "stage_2_intervention": "The department now asks Yousef to brief a room full of statistically trained analysts, all of whom know the logic of Venn diagrams, so the error is harder to trigger. You must choose the move most likely to make them apply the inclusion rule rather than the intuitive story.",
-     "stage_2_correct_answer": "Present the stark two-item question ('Which alternative is more probable? Linda is a bank teller. Linda is a bank teller and is active in the feminist movement.') and, for stubborn cases, switch to the frequency frame 'How many of the 100 participants...?' The explicit comparison mobilizes System 2 (64% of Stanford and Berkeley social-science graduate students answered the short version correctly), and the 'how many' frequency representation reduced errors from 65% to 25% by making the inclusion relation spatial and obvious."
+     "stage_2_correct_answer": "Present the stark two-item question ('Which alternative is more probable? Linda is a bank teller. Linda is a bank teller and is active in the feminist movement.') and, for stubborn cases, switch to the frequency frame 'How many of the 100 participants...?' The explicit comparison mobilizes System 2 (64% of Stanford and Berkeley social-science graduate students answered the short version correctly), and the 'how many' frequency representation reduced errors from 65% to 25% by making the inclusion relation spatial and obvious.",
+     "distractor_error_types": [
+      "ranking representativeness over logical inclusion",
+      "failing to apply the conjunction rule despite seeing both items",
+      "confusing narrative plausibility with probability"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "Linda described as a 31-year-old philosophy major active in antinuclear demonstrations",
+       "'feminist bank teller' ranked above 'bank teller'",
+       "both items appear on the same page"
+      ],
+      "baseline_check": "The frequency frame ('How many of 100 participants...'), in which the inclusion relation becomes spatial and obvious and errors drop from 65% to 25%."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Tversky & Kahneman (1983) Psychological Review",
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -6224,7 +6724,25 @@
      "stage_1_question": "What error is the focus group committing, and what is the correct probability?",
      "stage_1_correct_answer": "The group is neglecting the statistical base rate and going with the witness, giving 80% when Bayes's rule yields about 41%. The 15% base rate of Blue cabs and the 80%-reliable witness must be combined; statistical base rates are underweighted or neglected whenever specific information about the case is available.",
      "stage_2_intervention": "The judge asks you to redesign the problem so the group's judgments improve. You may alter only the presentation of the base rate. Which presentation is most likely to move average judgments close to the Bayesian answer?",
-     "stage_2_correct_answer": "Present the causal version: 'The two companies operate the same number of cabs, but Green cabs are involved in 85% of accidents.' This turns the base rate into a causal story (reckless Green drivers) that combines with the witness's testimony, and people give considerable weight to it, with average judgments landing near the Bayesian solution. A mind hungry for causal stories finds nothing to chew on in the first version's inert population count."
+     "stage_2_correct_answer": "Present the causal version: 'The two companies operate the same number of cabs, but Green cabs are involved in 85% of accidents.' This turns the base rate into a causal story (reckless Green drivers) that combines with the witness's testimony, and people give considerable weight to it, with average judgments landing near the Bayesian solution. A mind hungry for causal stories finds nothing to chew on in the first version's inert population count.",
+     "distractor_error_types": [
+      "neglecting the statistical base rate when case evidence is available",
+      "equating witness reliability with posterior probability",
+      "ignoring Bayes’s rule in favor of the vivid testimony"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "85% of cabs are Green and 15% Blue",
+       "witness identifies the cab as Blue and is 80% reliable",
+       "group scribbles '80%' while one says 'The witness saw it'"
+      ],
+      "baseline_check": "The Bayesian posterior of about 41%, computed by combining the 15% base rate with the 80% reliable witness."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Tversky & Kahneman (1982) in Judgment Under Uncertainty",
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
@@ -6666,7 +7184,24 @@
      "stage_1_question": "How should you allocate the 10% growth across the four stores to make the forecast regressive?",
      "stage_1_correct_answer": "Add more than 10% to the weakest stores and less than 10% to the strongest, so the total rises by 10%: Store 1's $11M should jump well above 10%, Stores 2 and 3 around the average, and Store 4's $29M should rise by less than 10% (possibly even fall slightly). The extreme 2011 performances were partly luck, so the best store must be pulled back toward the mean while the worst store is pulled up.",
      "stage_2_intervention": "The finance director slams the table: 'This is nonsense. Every store is the same size and carries the same merchandise. If the chain grows 10%, every store grows 10%. You're inventing winners and losers.' Mira must respond to save the regressive forecast in front of the CEO.",
-     "stage_2_correct_answer": "Mira should hold firm and explain that 2011 sales differences are partly location, competition, and random factors, and that an extreme 2011 result was probably inflated or depressed by luck. Because that luck will not repeat, the best store is likely to underperform its 2011 share next year and the weakest to improve, so the regressive allocation is the unbiased prediction. She can concede the chain-wide 10% total but refuse to apply it uniformly, framing it as anticipating regression rather than inventing winners."
+     "stage_2_correct_answer": "Mira should hold firm and explain that 2011 sales differences are partly location, competition, and random factors, and that an extreme 2011 result was probably inflated or depressed by luck. Because that luck will not repeat, the best store is likely to underperform its 2011 share next year and the weakest to improve, so the regressive allocation is the unbiased prediction. She can concede the chain-wide 10% total but refuse to apply it uniformly, framing it as anticipating regression rather than inventing winners.",
+     "distractor_error_types": [
+      "applying a uniform percentage to extreme performers",
+      "ignoring regression to the mean in forecasting",
+      "treating a single year’s performance as fully stable"
+     ],
+     "cue_cluster": {
+      "supporting_cues": [
+       "2011 sales extremes of $11M and $29M",
+       "economists' forecast of 10% overall growth for the chain",
+       "finance director insists every store grows by 10%"
+      ],
+      "baseline_check": "The chain-wide 10% growth applied regressively: weakest stores above 10%, strongest below, preserving the $67.1M total."
+     },
+     "evidence_class": "Empirical",
+     "key_sources": [
+      "Kahneman (2011) Thinking, Fast and Slow"
+     ]
     },
     {
      "asset_type": "BOSS_BATTLE",
