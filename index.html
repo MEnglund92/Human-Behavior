@@ -255,20 +255,20 @@ body{font-family:var(--font-ui);background:var(--bg);color:var(--text);line-heig
 <nav class="left-nav">
 <div class="brand">Behavioral<br>Science</div>
 <div class="nav-items" id="navItems">
-<div class="nav-item active" data-tab="browse"><span class="nav-icon">📚</span><span class="nav-label">Browse</span></div>
-<div class="nav-item" data-tab="flash"><span class="nav-icon">🃏</span><span class="nav-label">Flashcards</span></div>
-<div class="nav-item" data-tab="quiz"><span class="nav-icon">🎯</span><span class="nav-label">Quiz</span></div>
-<div class="nav-item" data-tab="match"><span class="nav-icon">🔗</span><span class="nav-label">Match</span></div>
-<div class="nav-item" data-tab="cloze"><span class="nav-icon">✍️</span><span class="nav-label">Fill in blank</span></div>
-<div class="nav-item" data-tab="sequence"><span class="nav-icon">📋</span><span class="nav-label">Sequence</span></div>
-<div class="nav-item" data-tab="exam"><span class="nav-icon">📝</span><span class="nav-label">Exam</span></div>
-<div class="nav-item" data-tab="lab"><span class="nav-icon">🧪</span><span class="nav-label">Scenario Lab</span></div>
-<div class="nav-item" data-tab="review"><span class="nav-icon">🔁</span><span class="nav-label">Review</span></div>
+<div class="nav-item active" data-tab="browse"><span class="nav-icon">📚</span><span class="nav-label">Library</span></div>
+<div class="nav-item" data-tab="flash"><span class="nav-icon">🃏</span><span class="nav-label">Retrieval Cards</span></div>
+<div class="nav-item" data-tab="quiz"><span class="nav-icon">🎯</span><span class="nav-label">Diagnostic Quiz</span></div>
+<div class="nav-item" data-tab="match"><span class="nav-icon">🔗</span><span class="nav-label">Concept Matching</span></div>
+<div class="nav-item" data-tab="cloze"><span class="nav-icon">✍️</span><span class="nav-label">Case Reconstruction</span></div>
+<div class="nav-item" data-tab="sequence"><span class="nav-icon">📋</span><span class="nav-label">Process Sequencing</span></div>
+<div class="nav-item" data-tab="exam"><span class="nav-icon">📝</span><span class="nav-label">Comprehensive Assessment</span></div>
+<div class="nav-item" data-tab="lab"><span class="nav-icon">🧪</span><span class="nav-label">Behavioral Simulation Engine</span></div>
+<div class="nav-item" data-tab="review"><span class="nav-icon">🔁</span><span class="nav-label">Spaced Review</span></div>
 <div class="nav-item" data-tab="deep"><span class="nav-icon">🔬</span><span class="nav-label">Deep Dive</span></div>
 <div class="nav-item" data-tab="map"><span class="nav-icon">🕸️</span><span class="nav-label">Concept Map</span></div>
 <div class="nav-item" data-tab="resources"><span class="nav-icon">📖</span><span class="nav-label">Resources</span></div>
 
-<div class="nav-item" data-tab="dashboard"><span class="nav-icon">📊</span><span class="nav-label">Dashboard</span></div>
+<div class="nav-item" data-tab="dashboard"><span class="nav-icon">📊</span><span class="nav-label">Analytics</span></div>
 </div>
 <div class="nav-item lang-item" id="langToggle" style="margin-top:auto;cursor:pointer;border-top:1px solid var(--border);padding:10px 12px;display:flex;align-items:center;gap:8px;font-size:0.82rem;color:var(--text-secondary)"><span>🌐</span><span class="nav-label">🇸🇪 Svenska</span></div>
 </nav>
@@ -319,7 +319,7 @@ body{font-family:var(--font-ui);background:var(--bg);color:var(--text);line-heig
 <div class="quiz-grid" id="quizOptions"></div>
 <div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap">
 <button class="btn btn-accent" id="quizNext">Next →</button>
-<button class="btn" id="quizRestart">🔄 New Quiz</button>
+<button class="btn" id="quizRestart">🔄 New Assessment</button>
 </div>
 <div style="margin-top:8px;font-size:0.78rem;color:var(--text-tertiary)" id="quizCounter"></div>
 </div>
@@ -385,7 +385,7 @@ body{font-family:var(--font-ui);background:var(--bg);color:var(--text);line-heig
 
 <div class="tab-panel" id="tab-lab">
 <div class="module-card">
-<div class="module-title" id="labTitle">🧪 Scenario Lab</div>
+<div class="module-title" id="labTitle">🧪 Behavioral Simulation Engine</div>
 <div class="exam-config" id="labConfig" style="flex-wrap:wrap">
 <label style="font-size:0.78rem;color:var(--text-tertiary)" id="labBookLabel">Library:</label>
 <select id="labBook"></select>
@@ -397,7 +397,7 @@ body{font-family:var(--font-ui);background:var(--bg);color:var(--text);line-heig
 <select id="labDiff"></select>
 <label style="font-size:0.78rem;color:var(--text-tertiary)" id="labCountLabel">Session:</label>
 <select id="labCount"></select>
-<button class="btn btn-accent btn-sm" id="labStart">▶ Start Session</button>
+<button class="btn btn-accent btn-sm" id="labStart">▶ Run Simulation</button>
 </div>
 <div class="exam-progress" id="labProgress" style="display:none"><div style="display:flex;justify-content:space-between;font-size:0.78rem;color:var(--text-tertiary)"><span id="labProgressLabel">0 / 10</span><span id="labScoreLabel">0 correct</span></div><div class="bar-wrap"><div class="bar-fill" id="labBar" style="width:0%"></div></div></div>
 <div id="labContent"></div>
@@ -406,7 +406,7 @@ body{font-family:var(--font-ui);background:var(--bg);color:var(--text);line-heig
 
 <div class="tab-panel" id="tab-review">
 <div class="module-card" style="text-align:center">
-<div class="module-title" id="reviewTitle">🔁 Review</div>
+<div class="module-title" id="reviewTitle">🔁 Spaced Review</div>
 <div class="exam-progress" id="reviewProgress" style="display:none"><div style="display:flex;justify-content:space-between;font-size:0.78rem;color:var(--text-tertiary)"><span id="reviewCounter">0 / 0</span><span id="reviewScoreLabel">0 good</span></div><div class="bar-wrap"><div class="bar-fill" id="reviewBar" style="width:0%"></div></div></div>
 <div id="reviewContent"></div>
 </div>
@@ -443,20 +443,20 @@ body{font-family:var(--font-ui);background:var(--bg);color:var(--text);line-heig
 <div><div class="avatar-name" id="sbAvatarName">Behavioral Learner</div><div class="avatar-title" id="sbAvatarTitle">Psychology Student</div></div>
 </div>
 <div class="sidebar-stats">
-<div class="sidebar-stat"><div class="stat-value" id="sbStreak">0</div><div class="stat-label" id="sbLabelStreak">Streak</div></div>
-<div class="sidebar-stat"><div class="stat-value" id="sbQuizzes">0</div><div class="stat-label" id="sbLabelQuizzes">Quizzes</div></div>
-<div class="sidebar-stat"><div class="stat-value" id="sbDue">0</div><div class="stat-label" id="sbLabelDue">Due</div></div>
+<div class="sidebar-stat"><div class="stat-value" id="sbStreak">0</div><div class="stat-label" id="sbLabelStreak">Consistency</div></div>
+<div class="sidebar-stat"><div class="stat-value" id="sbQuizzes">0</div><div class="stat-label" id="sbLabelQuizzes">Assessments</div></div>
+<div class="sidebar-stat"><div class="stat-value" id="sbDue">0</div><div class="stat-label" id="sbLabelDue">Due Reviews</div></div>
 </div>
 <div class="sidebar-section-title" id="sbQuickTitle">Quick Actions</div>
 <div class="quick-actions">
-<div class="quick-action" data-tab="flash" id="qaFlash">🃏 Flashcards</div>
-<div class="quick-action" data-tab="quiz" id="qaQuiz">🎯 Quiz</div>
-<div class="quick-action" data-tab="match" id="qaMatch">🔗 Match</div>
-<div class="quick-action" data-tab="cloze" id="qaCloze">✍️ Fill in blank</div>
-<div class="quick-action" data-tab="sequence" id="qaSequence">📋 Sequence</div>
-<div class="quick-action" data-tab="exam" id="qaExam">📝 Exam</div>
-<div class="quick-action" data-tab="lab" id="qaLab">🧪 Scenario Lab</div>
-<div class="quick-action" data-tab="review" id="qaReview">🔁 Review</div>
+<div class="quick-action" data-tab="flash" id="qaFlash">🃏 Retrieval Cards</div>
+<div class="quick-action" data-tab="quiz" id="qaQuiz">🎯 Diagnostic Quiz</div>
+<div class="quick-action" data-tab="match" id="qaMatch">🔗 Concept Matching</div>
+<div class="quick-action" data-tab="cloze" id="qaCloze">✍️ Case Reconstruction</div>
+<div class="quick-action" data-tab="sequence" id="qaSequence">📋 Process Sequencing</div>
+<div class="quick-action" data-tab="exam" id="qaExam">📝 Comprehensive Assessment</div>
+<div class="quick-action" data-tab="lab" id="qaLab">🧪 Behavioral Simulation Engine</div>
+<div class="quick-action" data-tab="review" id="qaReview">🔁 Spaced Review</div>
 </div>
 <div class="sidebar-section-title" id="sbReviewTitle">Needs Review</div>
 <div id="sbReviewList"></div>
@@ -532,7 +532,7 @@ const svUI={
 "Study Human Behavior":"Studera mänskligt beteende","An interactive educational app for exploring the science of human behavior — from classical conditioning to cognitive biases. Browse concepts, test your knowledge, and track your progress.":"En interaktiv utbildningsapp för att utforska vetenskapen om mänskligt beteende — från klassisk betingning till kognitiva bias. Bläddra bland begrepp, testa dina kunskaper och följ dina framsteg.","Related concepts:":"Relaterade begrepp:",
 "Press **Space** to flip · **← →** arrows to navigate":"Tryck på **Space** för att vända · **← →** pilarna för att navigera","Concept":"Begrepp","Definition":"Definition","Scenario":"Scenario","Tap or press Space to reveal":"Tryck eller tryck på Space för att visa","← Previous":"← Föregående","Next →":"Nästa →",
 "🤔 Hard":"🤔 Svår","😊 Good":"😊 Bra","🌟 Easy":"🌟 Lätt","What concept does this describe?":"Vilket begrepp beskriver detta?",
-"Scenario Quiz —":"Scenariofrågesport —","🔄 New Quiz":"🔄 Ny frågesport","Question":"Fråga","of":"av","Score":"Poäng","Great work! Keep reviewing the concepts you missed.":"Bra jobbat! Fortsätt repetera begreppen du missade.","Keep practicing! Try again to improve your score.":"Fortsätt öva! Försök igen för att förbättra ditt resultat.",
+"Diagnostic Assessment —":"Diagnostisk bedömning —","🔄 New Assessment":"🔄 Ny bedömning","Question":"Fråga","of":"av","Precision":"Precision","Great work! Keep reviewing the concepts you missed.":"Bra jobbat! Fortsätt repetera begreppen du missade.","Keep practicing! Try again to improve your score.":"Fortsätt öva! Försök igen för att förbättra ditt resultat.",
 "Match Concepts":"Matcha begrepp","Click a concept, then click its matching scenario":"Klicka på ett begrepp, klicka sedan på dess matchande scenario","Matched:":"Matchade:","🔄 Generate New Match":"🔄 Skapa ny matchning",
 "Case Study (Fill in blank)":"Fallstudie (Fyll i luckan)","✅ Check":"✅ Kontrollera","👁️ Reveal":"👁️ Visa svar","Hint: ":"Ledtråd: ","Word bank: ":"Ordlista: ",
 "Framework Sequence":"Ramverkssekvens","Tap the steps in order from first to last":"Tryck på stegen i ordning från första till sista","✅ Check Order":"✅ Kontrollera ordning","🔄 New Sequence":"🔄 Ny sekvens",
@@ -540,8 +540,8 @@ const svUI={
 "Overview":"Översikt","Key Takeaways":"Huvudpunkter","Expand All":"Expandera alla","Collapse All":"Minimera alla",
 "PDFs":"PDF-filer","Images":"Bilder","Audio":"Ljud","Websites":"Webbplatser","Journals":"Tidskrifter",
 "📂 Open":"📂 Öppna","Flashcards":"Flashkort","Match":"Matcha","Sequence":"Sekvens","Exam":"Tentamen","Deep Dive":"Djupdykning","Resources":"Resurser","Step ":"Steg ","Word ":"Ord ","Check":"Kontrollera"," sections read":" avsnitt lästa","m ago":"m sedan","h ago":"h sedan","In the study of \"":"I studien av \"","\",\" researchers observed that ____ is a key factor in understanding this phenomenon.":",\" observerade forskare att ____ är en nyckelfaktor för att förstå detta fenomen.",
-"Good morning":"God morgon","Good afternoon":"God eftermiddag","Good evening":"God kväll","just now":"just nu","Last studied: ":"Senast studerat: ","Due for Review":"Förfaller för repetition","cards need practice":"kort behöver övning","Study Streak":"Studiedagsserie"," days":" dagar","Keep going!":"Fortsätt så!","Concepts":"Begrepp","Across ":"Över "," modules":" moduler","SRS Cards":"SRS-kort","% mastered":"% inlärt","📚 Review ":"📚 Repetera "," due cards":" förfallna kort","Module Progress":"Modulframsteg","Concepts Needing Review":"Begrepp som behöver repetition",
-"Scenario Lab":"Scenarielabb","🔁 Review":"🔁 Repetera","Review":"Repetera","Review Session":"Repetitionspass","🔄 Review Again":"🔄 Repetera igen"," good":" rätt","Library:":"Bibliotek:","Chapter:":"Kapitel:","Mode:":"Läge:","Difficulty:":"Svårighet:","Session:":"Session:","▶ Start Session":"▶ Starta session","All modes":"Alla lägen","All chapters":"Alla kapitel","Beginner":"Nybörjare","Intermediate":"Medel","Advanced":"Avancerad","Your mission":"Ditt uppdrag","Reveal insights":"Visa insikter","Insights":"Insikter","Key concepts":"Nyckelbegrepp","Got it":"Förstått","Missed it":"Missade det","Initial dialogue":"Inledande dialog","Matrix":"Matris","Case file":"Ärendefil","Subject":"Subjekt","Scenario complete!":"Scenario slutfört!","Session Score":"Sessionspoäng","No scenarios match the selected filters.":"Inga scenarier matchar de valda filtren.","🔄 New Session":"🔄 Ny session","Correct!":"Rätt!","Not quite.":"Inte riktigt.","Baseline Calibration":"Baslinjekalibrering","Micro-Expression Speed Run":"Mikroexpressioner – hastighetsövning","Nudge Simulator":"Knuffsimulator","Subject baseline":"Subjektets baslinje","Speed run":"Hastighetsomgång","Redesign the environment: choose the option that best moves the choice.":"Omforma miljön: välj det alternativ som bäst styr beslutet.","High":"Hög","Medium":"Medel","Low":"Låg","Broad":"Bred","Emerging":"Växande","Contested":"Omstridd","Credibility":"Trovärdighet","Cultural variations":"Kulturella variationer","Concept Map":"Konceptkarta","🕸️ Concept Map":"🕸️ Konceptkarta","concepts":"begrepp","links":"länkar","builds-on":"bygger på","contrasts-with":"står i kontrast till","applies-to":"tillämpas på","foundation":"grund för","Learning & Habits":"Inlärning & vanor","Cognition & Biases":"Kognition & bias","Emotion":"Känslor","Social Influence":"Social påverkan","Self & Personality":"Själv & personlighet","Relationships":"Relationer","Reading Others":"Läsa andra","Study this concept":"Studera detta begrepp"}
+"Good morning":"God morgon","Good afternoon":"God eftermiddag","Good evening":"God kväll","just now":"just nu","Last studied: ":"Senast studerat: ","Due for Review":"Förfaller för repetition","cards need practice":"kort behöver övning","Consistency Record":"Konsistensrekord"," days":" dagar","Keep going!":"Fortsätt så!","Concepts":"Begrepp","Across ":"Över "," modules":" moduler","SRS Cards":"SRS-kort","% mastered":"% inlärt","📚 Review ":"📚 Repetera "," due cards":" förfallna kort","Module Progress":"Modulframsteg","Concepts Needing Review":"Begrepp som behöver repetition","Consistency":"Konsistens","Assessments":"Bedömningar","Due Reviews":"Förfallna repetitioner","Analytics":"Analys","Spaced Review":"Intervallrepetition","Retrieval Cards":"Hämtningskort","Diagnostic Quiz":"Diagnostisk frågesport","Concept Matching":"Begreppsparning","Case Reconstruction":"Fallrekonstruktion","Process Sequencing":"Processekvensering","Comprehensive Assessment":"Omfattande bedömning","Assessment Result":"Bedömningsresultat","🃏 Retrieval Cards":"🃏 Hämtningskort","🎯 Diagnostic Quiz":"🎯 Diagnostisk frågesport","🔗 Concept Matching":"🔗 Begreppsparning","✍️ Case Reconstruction":"✍️ Fallrekonstruktion","📋 Process Sequencing":"📋 Processekvensering","📝 Comprehensive Assessment":"📝 Omfattande bedömning","🧪 Behavioral Simulation Engine":"🧪 Beteendesimuleringsmotor","🔁 Spaced Review":"🔁 Intervallrepetition","▶ Run Simulation":"▶ Kör simulering",
+"Scenario Lab":"Scenarielabb","🔁 Review":"🔁 Repetera","Review":"Repetera","Review Session":"Repetitionspass","🔄 Review Again":"🔄 Repetera igen"," good":" rätt","Library:":"Bibliotek:","Chapter:":"Kapitel:","Mode:":"Läge:","Difficulty:":"Svårighet:","Session:":"Session:","All modes":"Alla lägen","All chapters":"Alla kapitel","Beginner":"Nybörjare","Intermediate":"Medel","Advanced":"Avancerad","Objective":"Mål","Show Analysis":"Visa analys","Insights":"Insikter","Key concepts":"Nyckelbegrepp","Confirmed":"Bekräftat","Revisit":"Återkom","Initial dialogue":"Inledande dialog","Matrix":"Matris","Case file":"Ärendefil","Subject":"Subjekt","Scenario complete!":"Scenario slutfört!","No scenarios match the selected filters.":"Inga scenarier matchar de valda filtren.","🔄 New Session":"🔄 Ny session","Correct!":"Rätt!","Not quite.":"Inte riktigt.","Baseline Calibration":"Baslinjekalibrering","Timed Micro-Expression Diagnostic":"Tidsatt mikroexpressionsdiagnostik","Choice Architecture Analysis":"Valarkitekturanalys","High-Stakes Stress Simulation":"Höginsats-stresssimulering","Nonverbal Baseline & Shift Audit":"Icke-verbal baslinje- och avvikelsegranskning","Influence & Manipulation Analysis":"Påverkan- och manipuleringsanalys","Situational Dialogue Analysis":"Situationsdialoganalys","Behavioral Classification Matrix":"Beteendeklassificeringsmatris","Subject baseline":"Subjektets baslinje","Speed run":"Hastighetsomgång","Redesign the environment: choose the option that best moves the choice.":"Omforma miljön: välj det alternativ som bäst styr beslutet.","High":"Hög","Medium":"Medel","Low":"Låg","Broad":"Bred","Emerging":"Växande","Contested":"Omstridd","Credibility":"Trovärdighet","Cultural variations":"Kulturella variationer","Concept Map":"Konceptkarta","🕸️ Concept Map":"🕸️ Konceptkarta","concepts":"begrepp","links":"länkar","builds-on":"bygger på","contrasts-with":"står i kontrast till","applies-to":"tillämpas på","foundation":"grund för","Learning & Habits":"Inlärning & vanor","Cognition & Biases":"Kognition & bias","Emotion":"Känslor","Social Influence":"Social påverkan","Self & Personality":"Själv & personlighet","Relationships":"Relationer","Reading Others":"Läsa andra","Study this concept":"Studera detta begrepp"}
 function t(s){return showSwedish?(svUI[s]||s):s}
 
 function getEntries(){let e=[];topics.forEach(t=>t.entries.forEach(entry=>{let cat=t.categories.find(c=>c.id===entry.category);e.push({...entry,courseId:t.id,courseName:t.name,catName:cat?cat.name:'',catColor:cat?cat.color:'#7dd3fc'})}));return e}
@@ -553,8 +553,8 @@ let currentAudio=null,currentText=''
 function speakText(text,lang){if(!text)return;if(currentAudio){currentAudio.pause();currentAudio.currentTime=0;if(currentText===text){currentAudio=null;currentText='';return};currentAudio=null};let audio=new Audio('/tts?text='+encodeURIComponent(text)+'&lang='+encodeURIComponent(lang||'en-US'));audio.play().catch(function(){});currentAudio=audio;currentText=text}
 function addSpeakerListeners(container){container.querySelectorAll('.speaker-btn').forEach(function(btn){btn.addEventListener('click',function(e){e.stopPropagation();speakText(this.dataset.say,this.dataset.lang)})})}
 function updateNavLabels(){
-let sv={browse:'Bläddra',flash:'Flashkort',quiz:'Quiz',match:'Matcha',cloze:'Fyll i',sequence:'Sekvens',exam:'Tentamen',lab:'Scenarielabb',review:'Repetera',deep:'Djupdykning',map:'Konceptkarta',resources:'Resurser',dashboard:'Dashboard'}
-let en={browse:'Browse',flash:'Flashcards',quiz:'Quiz',match:'Match',cloze:'Fill in blank',sequence:'Sequence',exam:'Exam',lab:'Scenario Lab',review:'Review',deep:'Deep Dive',map:'Concept Map',resources:'Resources',dashboard:'Dashboard'}
+let sv={browse:'Bibliotek',flash:'Hämtningskort',quiz:'Diagnostisk frågesport',match:'Begreppsparning',cloze:'Fallrekonstruktion',sequence:'Processekvensering',exam:'Omfattande bedömning',lab:'Beteendesimuleringsmotor',review:'Intervallrepetition',deep:'Djupdykning',map:'Konceptkarta',resources:'Resurser',dashboard:'Analys'}
+let en={browse:'Library',flash:'Retrieval Cards',quiz:'Diagnostic Quiz',match:'Concept Matching',cloze:'Case Reconstruction',sequence:'Process Sequencing',exam:'Comprehensive Assessment',lab:'Behavioral Simulation Engine',review:'Spaced Review',deep:'Deep Dive',map:'Concept Map',resources:'Resources',dashboard:'Analytics'}
 let labels=showSwedish?sv:en
 document.querySelectorAll('.nav-item[data-tab]').forEach(el=>{
 let lbl=labels[el.dataset.tab]
@@ -595,19 +595,19 @@ function updateUI(){
 let isDark=document.body.classList.contains('light-mode')
 document.getElementById('sbAvatarName').textContent=t('Behavioral Learner')
 document.getElementById('sbAvatarTitle').textContent=t('Psychology Student')
-document.getElementById('sbLabelStreak').textContent=t('Streak')
-document.getElementById('sbLabelQuizzes').textContent=t('Quizzes')
-document.getElementById('sbLabelDue').textContent=t('Due')
+document.getElementById('sbLabelStreak').textContent=t('Consistency')
+document.getElementById('sbLabelQuizzes').textContent=t('Assessments')
+document.getElementById('sbLabelDue').textContent=t('Due Reviews')
 document.getElementById('sbQuickTitle').textContent=t('Quick Actions')
-document.getElementById('qaFlash').textContent=t('🃏 Flashcards')
-document.getElementById('qaQuiz').textContent=t('🎯 Quiz')
-document.getElementById('qaMatch').textContent=t('🔗 Match')
-document.getElementById('qaCloze').textContent=t('✍️ Fill in blank')
-document.getElementById('qaSequence').textContent=t('📋 Sequence')
-document.getElementById('qaExam').textContent=t('📝 Exam')
-document.getElementById('qaLab').textContent=t('🧪 Scenario Lab')
-document.getElementById('qaReview').textContent=t('🔁 Review')
-document.getElementById('reviewTitle').textContent=t('🔁 Review')
+document.getElementById('qaFlash').textContent=t('🃏 Retrieval Cards')
+document.getElementById('qaQuiz').textContent=t('🎯 Diagnostic Quiz')
+document.getElementById('qaMatch').textContent=t('🔗 Concept Matching')
+document.getElementById('qaCloze').textContent=t('✍️ Case Reconstruction')
+document.getElementById('qaSequence').textContent=t('📋 Process Sequencing')
+document.getElementById('qaExam').textContent=t('📝 Comprehensive Assessment')
+document.getElementById('qaLab').textContent=t('🧪 Behavioral Simulation Engine')
+document.getElementById('qaReview').textContent=t('🔁 Spaced Review')
+document.getElementById('reviewTitle').textContent=t('🔁 Spaced Review')
 document.getElementById('sbReviewTitle').textContent=t('Needs Review')
 document.getElementById('sbReset').textContent=t('🗑️ Reset All Progress')
 document.getElementById('sbTheme').textContent=isDark?t('☀️ Light'):t('🌙 Dark')
@@ -618,16 +618,16 @@ document.getElementById('matchInstr').textContent=t('Click a concept, then click
 document.getElementById('clozeTitle').textContent=t('Case Study (Fill in blank)')
 document.getElementById('seqTitle').textContent=t('Framework Sequence')
 document.getElementById('seqInstr').textContent=t('Tap the steps in order from first to last')
-document.getElementById('examTitle').textContent=t('📝 Exam Mode')
+document.getElementById('examTitle').textContent=t('📝 Comprehensive Assessment')
 document.getElementById('examQuestionsLabel').textContent=t('Questions:')
 document.getElementById('examStart').textContent=t('▶ Start Exam')
-document.getElementById('labTitle').textContent=t('🧪 Scenario Lab')
+document.getElementById('labTitle').textContent=t('🧪 Behavioral Simulation Engine')
 document.getElementById('labBookLabel').textContent=t('Library:')
 document.getElementById('labChapterLabel').textContent=t('Chapter:')
 document.getElementById('labModeLabel').textContent=t('Mode:')
 document.getElementById('labDiffLabel').textContent=t('Difficulty:')
 document.getElementById('labCountLabel').textContent=t('Session:')
-document.getElementById('labStart').textContent=t('▶ Start Session')
+document.getElementById('labStart').textContent=t('▶ Run Simulation')
 }
 function updateSidebar(){
 let stats=load('app_stats',{quizzes:0,streak:0,lastDate:''})
@@ -774,7 +774,7 @@ let count={easy:10,medium:15,hard:20}[diff]
 quizData=all.slice(0,Math.min(count,all.length));quizIdx=0;quizCorrect=0;showQuiz()}
 function showQuiz(){
 if(quizIdx>=quizData.length){showQuizResult();return}
-let e=quizData[quizIdx];document.getElementById('quizTitle').textContent=t('Scenario Quiz — ')+e.courseName+' · '+e.catName
+let e=quizData[quizIdx];document.getElementById('quizTitle').textContent=t('Diagnostic Assessment — ')+e.courseName+' · '+e.catName
 let sc=(showSwedish&&e.sv?e.sv.real_world_scenario:e.real_world_scenario)||(showSwedish&&e.sv?e.sv.definition:e.definition),lang=showSwedish?'sv-SE':'en-US'
 document.getElementById('quizScenario').innerHTML=sc+'<button class="speaker-btn" data-say="'+sc.replace(/"/g,'&quot;')+'" data-lang="'+lang+'">🔊</button>'
 addSpeakerListeners(document.getElementById('quizScenario'))
@@ -789,7 +789,7 @@ let grid=document.getElementById('quizOptions');grid.innerHTML=''
 opts.forEach(o=>{let b=document.createElement('button');b.className='quiz-opt';b.textContent=o;b.dataset.concept=o;b.addEventListener('click',function quizClick(){if(grid.querySelector('.correct'))return;let clicked=this;grid.querySelectorAll('.quiz-opt').forEach(bb=>bb.style.pointerEvents='none');if(clicked.dataset.concept===e.concept){clicked.classList.add('correct');quizCorrect++;burstConfetti()}else{clicked.classList.add('wrong');let correct=grid.querySelector('[data-concept="'+e.concept+'"]');if(correct)correct.classList.add('correct')}});grid.appendChild(b)})
 }
 function showQuizResult(){
-let el=document.getElementById('quizOptions');el.innerHTML='<div class="result-overlay"><div class="ro-box"><div class="ro-score">'+quizCorrect+'/'+quizData.length+'</div><div class="ro-label">'+t('Score')+'</div><div class="ro-detail">'+(quizCorrect/quizData.length>=0.7?t('Great work! Keep reviewing the concepts you missed.'):t('Keep practicing! Try again to improve your score.'))+'</div></div></div>'
+let el=document.getElementById('quizOptions');el.innerHTML='<div class="result-overlay"><div class="ro-box"><div class="ro-score">'+quizCorrect+'/'+quizData.length+'</div><div class="ro-label">'+t('Precision')+'</div><div class="ro-detail">'+(quizCorrect/quizData.length>=0.7?t('Great work! Keep reviewing the concepts you missed.'):t('Keep practicing! Try again to improve your score.'))+'</div></div></div>'
 let stats=load('app_stats',{quizzes:0,streak:0,lastDate:''})
 stats.quizzes=(stats.quizzes||0)+1;let today=new Date().toDateString()
 if(stats.lastDate!==today){stats.streak=(stats.streak||0)+1;stats.lastDate=today}
@@ -960,7 +960,7 @@ if(words.includes(el.dataset.item)&&!esPlaced.includes(el.dataset.item))el.class
 }
 }
 function showExamResult(){
-document.getElementById('examContent').innerHTML='<div class="result-overlay"><div class="ro-box"><div class="ro-score">'+examScore+'/'+examQ.length+'</div><div class="ro-label">'+t('Exam Score')+'</div><div class="ro-detail">'+(examScore/examQ.length>=0.7?t('Well done! Keep reviewing.'):t('Review the concepts and try again.'))+'</div><button class="btn btn-accent" onclick="document.getElementById(\'examConfig\').style.display=\'flex\';document.getElementById(\'examProgress\').style.display=\'none\';document.getElementById(\'examContent\').innerHTML=\'\'">'+t('Back to Config')+'</button></div></div>'
+document.getElementById('examContent').innerHTML='<div class="result-overlay"><div class="ro-box"><div class="ro-score">'+examScore+'/'+examQ.length+'</div><div class="ro-label">'+t('Assessment Result')+'</div><div class="ro-detail">'+(examScore/examQ.length>=0.7?t('Well done! Keep reviewing.'):t('Review the concepts and try again.'))+'</div><button class="btn btn-accent" onclick="document.getElementById(\'examConfig\').style.display=\'flex\';document.getElementById(\'examProgress\').style.display=\'none\';document.getElementById(\'examContent\').innerHTML=\'\'">'+t('Back to Config')+'</button></div></div>'
 let stats=load('app_stats',{quizzes:0});stats.quizzes=(stats.quizzes||0)+1;save('app_stats',stats);updateSidebar()
 }
 
@@ -1091,12 +1091,12 @@ let totalConcepts=entries.length
 let hrs=new Date().getHours()
 let greeting=hrs<12?t('Good morning'):hrs<17?t('Good afternoon'):t('Good evening')
 let lastStr=''
-if(stats.lastActivity){let mins=Math.round((Date.now()-stats.lastTime)/60000);let ago=mins<1?t('just now'):mins<60?mins+t('m ago'):Math.round(mins/60)+t('h ago');let labels={flash:t('Flashcards'),quiz:t('Quiz'),match:t('Match'),cloze:t('Fill in blank'),sequence:t('Sequence'),exam:t('Exam'),lab:t('Scenario Lab'),review:t('Review'),deep:t('Deep Dive'),resources:t('Resources')};lastStr='<div style="font-size:0.78rem;color:var(--text-tertiary);margin-bottom:10px">'+t('Last studied: ')+'<strong style="color:var(--text-secondary)">'+(labels[stats.lastActivity]||stats.lastActivity)+'</strong> · '+ago+'</div>'}
+if(stats.lastActivity){let mins=Math.round((Date.now()-stats.lastTime)/60000);let ago=mins<1?t('just now'):mins<60?mins+t('m ago'):Math.round(mins/60)+t('h ago');let labels={flash:t('Retrieval Cards'),quiz:t('Diagnostic Quiz'),match:t('Concept Matching'),cloze:t('Case Reconstruction'),sequence:t('Process Sequencing'),exam:t('Comprehensive Assessment'),lab:t('Behavioral Simulation Engine'),review:t('Spaced Review'),deep:t('Deep Dive'),resources:t('Resources')};lastStr='<div style="font-size:0.78rem;color:var(--text-tertiary);margin-bottom:10px">'+t('Last studied: ')+'<strong style="color:var(--text-secondary)">'+(labels[stats.lastActivity]||stats.lastActivity)+'</strong> · '+ago+'</div>'}
 let html='<div style="font-size:1.3rem;font-weight:700;color:var(--text);font-family:var(--font-serif);margin-bottom:4px">'+greeting+'</div>'
 html+=lastStr
 html+='<div class="dash-grid">'
 html+='<div class="dash-card" style="border-left:3px solid var(--accent)"><div class="dash-label">'+t('Due for Review')+'</div><div class="dash-value" style="color:var(--success)">'+dueCount+'</div><div class="dash-sub">'+t('cards need practice')+'</div></div>'
-html+='<div class="dash-card"><div class="dash-label">'+t('Study Streak')+'</div><div class="dash-value">'+(stats.streak||0)+t(' days')+'</div><div class="dash-sub">'+t('Keep going!')+'</div></div>'
+html+='<div class="dash-card"><div class="dash-label">'+t('Consistency Record')+'</div><div class="dash-value">'+(stats.streak||0)+t(' days')+'</div><div class="dash-sub">'+t('Keep going!')+'</div></div>'
 html+='<div class="dash-card"><div class="dash-label">'+t('Concepts')+'</div><div class="dash-value">'+totalConcepts+'</div><div class="dash-sub">'+t('Across ')+topics.length+t(' modules')+'</div></div>'
 html+='<div class="dash-card"><div class="dash-label">'+t('SRS Cards')+'</div><div class="dash-value">'+totalReviewed+'</div><div class="dash-sub">'+(totalConcepts>0?Math.round(totalReviewed/totalConcepts*100):0)+t('% mastered')+'</div></div>'
 html+='</div>'
@@ -1164,7 +1164,7 @@ let labQ=[],labIdx=0,labScore=0,labAnswered=false,speedTimer=null
 function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
 function labAllAssets(){let out=[];ASSET_LIBS.forEach(b=>b.chapters.forEach(c=>c.assets.forEach(a=>out.push({...a,bookId:b.id,bookTitle:b.title,chapterId:c.id,chapterTitle:c.title}))));return out}
 function labModes(){return ['CUE_SCRUBBER_STATION','DYNAMIC_DIALOGUE_SIM','DECEPTION_AUDIT_FILE','DISCRIMINATION_MATRIX','BOSS_BATTLE','BASELINE_CALIBRATION','MICRO_EXPRESSION_SPEEDRUN','NUDGE_SIMULATOR']}
-function labModeName(m){return {CUE_SCRUBBER_STATION:t('Cue Scrubber'),DYNAMIC_DIALOGUE_SIM:t('Dialogue Sim'),DECEPTION_AUDIT_FILE:t('Deception Audit'),DISCRIMINATION_MATRIX:t('Discrimination Matrix'),BOSS_BATTLE:t('Boss Battle'),BASELINE_CALIBRATION:t('Baseline Calibration'),MICRO_EXPRESSION_SPEEDRUN:t('Micro-Expression Speed Run'),NUDGE_SIMULATOR:t('Nudge Simulator')}[m]||m}
+function labModeName(m){return {CUE_SCRUBBER_STATION:t('Nonverbal Baseline & Shift Audit'),DYNAMIC_DIALOGUE_SIM:t('Situational Dialogue Analysis'),DECEPTION_AUDIT_FILE:t('Influence & Manipulation Analysis'),DISCRIMINATION_MATRIX:t('Behavioral Classification Matrix'),BOSS_BATTLE:t('High-Stakes Stress Simulation'),BASELINE_CALIBRATION:t('Baseline Calibration'),MICRO_EXPRESSION_SPEEDRUN:t('Timed Micro-Expression Diagnostic'),NUDGE_SIMULATOR:t('Choice Architecture Analysis')}[m]||m}
 function derivedLab(m){return ['BASELINE_CALIBRATION','MICRO_EXPRESSION_SPEEDRUN','NUDGE_SIMULATOR'].includes(m)}
 function labDeriveCard(a,m){
 let d={...a,asset_type:m}
@@ -1241,7 +1241,7 @@ let c=document.getElementById('labContent')
 let head='<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px"><span class="cloze-badge">'+esc(a.bookTitle)+'</span><span class="cloze-badge">'+esc(a.chapterTitle)+'</span><span class="cloze-badge" style="background:var(--accent-soft)">'+labModeName(a.asset_type)+'</span><span class="cloze-badge" style="opacity:.85">'+labDiffName(a.difficulty_level)+'</span>'+credBadge(a.credibility)+'</div>'
 let brief='<div class="lab-card"><div class="lab-card-title">'+esc(a.topic)+'</div>'
 if(a.visual_frame_description)brief+='<div class="lab-frame">'+esc(a.visual_frame_description)+'</div>'
-if(a.player_mission)brief+='<div class="lab-mission"><strong>'+t('Your mission')+':</strong> '+esc(a.player_mission)+'</div>'
+if(a.player_mission)brief+='<div class="lab-mission"><strong>'+t('Objective')+':</strong> '+esc(a.player_mission)+'</div>'
 if(a.asset_type==='DYNAMIC_DIALOGUE_SIM'&&a.initial_dialogue)brief+='<div class="lab-dossier"><strong>'+t('Initial dialogue')+':</strong><div class="lab-dialogue">'+esc(a.initial_dialogue)+'</div></div>'
 if(a.asset_type==='DECEPTION_AUDIT_FILE'&&a.observed_nonverbal_log)brief+='<div class="lab-dossier"><strong>'+t('Case file')+':</strong><ul style="margin:6px 0 0 18px;padding:0">'+a.observed_nonverbal_log.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div>'
 if(a.asset_type==='BOSS_BATTLE'&&a.subject_baseline)brief+='<div class="lab-dossier"><strong>'+t('Subject')+':</strong> '+esc(a.subject_baseline)+'</div>'
@@ -1260,10 +1260,10 @@ let grid=document.getElementById('labQuizGrid')
 opts.forEach(o=>{let b=document.createElement('button');b.className='quiz-opt';b.textContent=o;b.addEventListener('click',function(){if(labAnswered)return;grid.querySelectorAll('.quiz-opt').forEach(bb=>bb.style.pointerEvents='none');let ok=String(o)===String(correct);if(ok){this.classList.add('correct');burstConfetti()}else{this.classList.add('wrong')}labGrade(a,ok,labInsights(a))});grid.appendChild(b)})
 if(a.speed_secs){let left=a.speed_secs;speedTimer=setInterval(function(){let el=document.getElementById('labTimer');if(el)el.textContent=(left-1)+'s';if(--left<=0){if(speedTimer){clearInterval(speedTimer);speedTimer=null}if(!labAnswered){grid.querySelectorAll('.quiz-opt').forEach(bb=>bb.style.pointerEvents='none');labAnswered=true;labGrade(a,false,labInsights(a))}}},1000)}
 }else{
-v.innerHTML='<button class="btn btn-accent" id="labReveal">'+t('Reveal insights')+'</button>'
+v.innerHTML='<button class="btn btn-accent" id="labReveal">'+t('Show Analysis')+'</button>'
 document.getElementById('labReveal').addEventListener('click',function(){
 let insight=labInsights(a)
-this.outerHTML='<div style="margin-top:12px">'+insight+'<div style="display:flex;gap:8px;margin-top:12px"><button class="btn btn-sm btn-accent" id="labGot">✅ '+t('Got it')+'</button><button class="btn btn-sm" id="labMissed">'+t('Missed it')+'</button></div></div>'
+this.outerHTML='<div style="margin-top:12px">'+insight+'<div style="display:flex;gap:8px;margin-top:12px"><button class="btn btn-sm btn-accent" id="labGot">✅ '+t('Confirmed')+'</button><button class="btn btn-sm" id="labMissed">'+t('Revisit')+'</button></div></div>'
 document.getElementById('labGot').addEventListener('click',function(){labGrade(a,true,insight)})
 document.getElementById('labMissed').addEventListener('click',function(){labGrade(a,false,insight)})
 })
@@ -1271,7 +1271,7 @@ document.getElementById('labMissed').addEventListener('click',function(){labGrad
 }
 function showLabResult(){
 let pct=labQ.length?Math.round(labScore/labQ.length*100):0
-document.getElementById('labContent').innerHTML='<div class="result-overlay"><div class="ro-box"><div class="ro-score">'+labScore+'/'+labQ.length+'</div><div class="ro-label">'+t('Session Score')+'</div><div class="ro-detail">'+(pct>=70?t('Well done! Keep reviewing.'):t('Keep practicing! Try again to improve your score.'))+'</div><button class="btn btn-accent" id="labAgain">'+t('🔄 New Session')+'</button></div></div>'
+document.getElementById('labContent').innerHTML='<div class="result-overlay"><div class="ro-box"><div class="ro-score">'+pct+'%</div><div class="ro-label">'+t('Precision')+'</div><div class="ro-detail">'+labScore+'/'+labQ.length+' '+t(' correct')+' · '+(pct>=70?t('Well done! Keep reviewing.'):t('Keep practicing! Try again to improve your score.'))+'</div><button class="btn btn-accent" id="labAgain">'+t('🔄 New Session')+'</button></div></div>'
 if(pct>=70)burstConfetti()
 document.getElementById('labAgain').addEventListener('click',function(){document.getElementById('labConfig').style.display='flex';document.getElementById('labProgress').style.display='none';document.getElementById('labContent').innerHTML='';initLabConfig()})
 let stats=load('app_stats',{quizzes:0});stats.quizzes=(stats.quizzes||0)+1;stats.lab=(stats.lab||0)+1;save('app_stats',stats);updateSidebar()
