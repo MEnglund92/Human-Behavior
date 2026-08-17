@@ -43,7 +43,7 @@ class Handler(SimpleHTTPRequestHandler):
         sys.stderr.write("[%s] %s\n" % (self.log_date_time_string(), format % args))
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 8765))
+    port = int(os.environ.get('PORT', 8766))
     print('Loading TTS models...', end=' ', flush=True)
     preload_all()
     print('Ready')

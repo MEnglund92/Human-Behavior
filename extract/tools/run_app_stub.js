@@ -62,7 +62,7 @@ ctx.document = {
 };
 ctx.window = ctx; ctx.self = ctx; ctx.globalThis = ctx;
 ctx.getComputedStyle = () => ({ getPropertyValue: () => '' });
-ctx.location = { href: 'http://localhost:8765/', reload: () => {}, protocol: 'http:' };
+ctx.location = { href: 'http://localhost:8766/', reload: () => {}, protocol: 'http:' };
 ctx.Audio = function () {};
 ctx.speechSynthesis = { speak: () => {}, cancel: () => {}, getVoices: () => [] };
 ctx.SpeechSynthesisUtterance = function () {};
